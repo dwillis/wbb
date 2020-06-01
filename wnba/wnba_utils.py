@@ -1,4 +1,5 @@
 import csv
+import glob
 import json
 from datetime import datetime
 import requests
@@ -58,3 +59,21 @@ def load_following_json(account):
         new_row['join_date'] = datetime.strptime(new_row['join_date'], "%d %b %Y").strftime("%Y-%m-%d")
         following.append(new_row)
     following_table.upsert_all(following, pk=["id", "account_name"])
+
+def load_tweets():
+    tweets = []
+    db = open_db()
+    tweets_table = db['tweets']
+    accounts = glob.glob('*.json')
+    for account in accounts:
+        if account == 'teams.json':
+            continue
+        print(account)
+        lines = open(account).readlines()
+        if len(lines) == 0:
+            continue
+        for row in lines:
+            new_row = json.loads(row)
+            new_row['account_name'] = account.split('.json')[0]
+            tweets.append(new_row)
+    tweets_table.upsert_all(tweets, pk=['id'])
