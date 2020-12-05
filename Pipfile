@@ -10,7 +10,7 @@ twint = "*"
 csvs-to-sqlite = "*"
 sqlite-utils = "*"
 requests = "*"
-datasette = "*"
+datasette = ">=0.46"
 pdfreader = "*"
 bs4 = "*"
 
