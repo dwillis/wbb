@@ -38,6 +38,8 @@ def parse_roster(html):
         })
     return roster
 
+# Example usage: python rosters.py -season 2020-21 -url https://baylorbears.com/sports/womens-basketball/
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='NCAA team information')
     parser.add_argument('-season', action='store', dest='season', help='a string season such as "2020-21"')
