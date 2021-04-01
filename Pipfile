@@ -6,11 +6,13 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-twint = "*"
 csvs-to-sqlite = "*"
 sqlite-utils = "*"
 requests = "*"
 datasette = "*"
+pdfreader = "*"
+tweepy = "*"
+twint = "*"
 
 [requires]
-python_version = "3.7"
+python_version = "3.8"
