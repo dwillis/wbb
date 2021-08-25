@@ -117,6 +117,11 @@ def get_boxscore(game_url):
                 names[i] = "New Caledonia"
             elif names[i].startswith("Caledonia"):
                 names[i] = "New Caledonia"
+        if "Marshall" in game_url:
+            if names[i].startswith("Marshall"):
+                names[i] = "Marshall Islands"
+            elif names[i].startswith("Islands"):
+                names[i] = "Marshall Islands"
         if "Papua" in game_url:
             if names[i].startswith("Papua"):
                 names[i] = "Papua New Guinea"
