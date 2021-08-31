@@ -30,6 +30,8 @@ def get_players(link_ls):
 
 def get_boxscore(game_url):
     print(game_url)
+#    if game_url == 'https://www.fiba.basketballhttps://www.fiba.basketball/u16americas/women/2021/game/2908/Canada-USA':
+#        game_url = 'https://www.fiba.basketball/u16americas/women/2021/game/2908/Canada-USA'
     try:
         box_sc_p = requests.get(game_url).text
     except:
