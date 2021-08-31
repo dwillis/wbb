@@ -18,6 +18,8 @@ def get_players(link_ls):
     all_tables = []
 
     for a in link_ls:
+        if a == 'https://www.fiba.basketball/u16americas/women/2021/game/2908/Canada-USA':
+            a = '/u16americas/women/2021/game/2908/Canada-USA'
         try:
             all_tables.append(get_boxscore(BASE_URL + a))
         except (ValueError, TypeError, AttributeError):
@@ -147,8 +149,8 @@ def get_boxscore(game_url):
     return pd.DataFrame(all_players)
 
 if __name__ == "__main__":
-    event_slug = "/oceania/u17women/2019/games"
+    event_slug = "/en/u16americas/women/2021/games"
     link_ls = get_game_urls(event_slug)
     players = get_players(link_ls)
     df = pd.concat(players)
-    df.to_csv("u17oceania_2019_players_game_stats.csv", index = None)
+    df.to_csv("u16americas_2021_players_game_stats.csv", index = None)
