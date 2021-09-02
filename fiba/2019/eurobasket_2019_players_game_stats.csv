@@ -83,18 +83,18 @@ Great Britain,Latvia,74,60,2706,15,Temi Fagbenle,31:12,13,6/16,6/15,0/1,1/1,3,7,
 Great Britain,Latvia,74,60,2706,25,Cheridene Green,07:53,4,1/4,1/2,0/2,2/2,0,3,3,0,0,0,1,0,-3,5
 Great Britain,Latvia,74,60,2706,41,Eilidh Simpson,12:30,2,0/1,0/1,0/0,2/2,0,2,2,1,2,1,1,0,8,4
 Great Britain,Latvia,74,60,2706,44,Karlie Samuelson,31:13,15,5/12,3/7,2/5,3/4,1,3,4,3,1,1,0,0,3,13
-Great Britain,Great Britain,60,74,2706,4,Paula Strautmane,23:37,14,5/9,3/5,2/4,2/2,1,5,6,3,2,1,3,0,-5,21
-Great Britain,Great Britain,60,74,2706,6,Laura Ikstena,05:53,0,0/2,0/1,0/1,0/0,1,1,2,0,3,0,0,0,-1,0
-Great Britain,Great Britain,60,74,2706,7,Elina Dikaioulaku,34:11,17,7/20,6/14,1/6,2/5,0,11,11,7,1,4,1,0,-7,16
-Great Britain,Great Britain,60,74,2706,10,Karline Pilabere,22:19,8,4/6,4/5,0/1,0/0,1,3,4,0,0,2,1,0,-2,9
-Great Britain,Great Britain,60,74,2706,13,Aija Brumermane,17:31,3,1/4,1/4,0/0,1/2,1,2,3,2,3,3,2,1,-14,4
-Great Britain,Great Britain,60,74,2706,14,Luize Septe,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
-Great Britain,Great Britain,60,74,2706,15,Ieva Pulvere,30:03,2,1/5,1/2,0/3,0/0,0,4,4,5,3,4,0,0,-12,3
-Great Britain,Great Britain,60,74,2706,16,Ilze Jakobsone,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
-Great Britain,Great Britain,60,74,2706,22,Zenta Melnika,20:39,11,5/9,5/9,0/0,1/4,5,2,7,2,1,2,0,1,-10,12
-Great Britain,Great Britain,60,74,2706,28,Kristine Vitola,04:49,2,1/1,1/1,0/0,0/0,0,0,0,0,0,0,0,0,-4,2
-Great Britain,Great Britain,60,74,2706,35,Kate Kreslina,25:13,3,1/5,0/3,1/2,0/0,1,0,1,0,4,2,0,2,-7,0
-Great Britain,Great Britain,60,74,2706,45,Digna Strautmane,15:45,0,0/3,0/1,0/2,0/0,0,2,2,1,1,2,1,1,-8,0
+Montenegro,Great Britain,60,74,2706,4,Paula Strautmane,23:37,14,5/9,3/5,2/4,2/2,1,5,6,3,2,1,3,0,-5,21
+Montenegro,Great Britain,60,74,2706,6,Laura Ikstena,05:53,0,0/2,0/1,0/1,0/0,1,1,2,0,3,0,0,0,-1,0
+Montenegro,Great Britain,60,74,2706,7,Elina Dikaioulaku,34:11,17,7/20,6/14,1/6,2/5,0,11,11,7,1,4,1,0,-7,16
+Montenegro,Great Britain,60,74,2706,10,Karline Pilabere,22:19,8,4/6,4/5,0/1,0/0,1,3,4,0,0,2,1,0,-2,9
+Montenegro,Great Britain,60,74,2706,13,Aija Brumermane,17:31,3,1/4,1/4,0/0,1/2,1,2,3,2,3,3,2,1,-14,4
+Montenegro,Great Britain,60,74,2706,14,Luize Septe,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Montenegro,Great Britain,60,74,2706,15,Ieva Pulvere,30:03,2,1/5,1/2,0/3,0/0,0,4,4,5,3,4,0,0,-12,3
+Montenegro,Great Britain,60,74,2706,16,Ilze Jakobsone,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Montenegro,Great Britain,60,74,2706,22,Zenta Melnika,20:39,11,5/9,5/9,0/0,1/4,5,2,7,2,1,2,0,1,-10,12
+Montenegro,Great Britain,60,74,2706,28,Kristine Vitola,04:49,2,1/1,1/1,0/0,0/0,0,0,0,0,0,0,0,0,-4,2
+Montenegro,Great Britain,60,74,2706,35,Kate Kreslina,25:13,3,1/5,0/3,1/2,0/0,1,0,1,0,4,2,0,2,-7,0
+Montenegro,Great Britain,60,74,2706,45,Digna Strautmane,15:45,0,0/3,0/1,0/2,0/0,0,2,2,1,1,2,1,1,-8,0
 Russia,Belgium,54,67,2706,4,Raisa Musina,22:26,6,3/9,3/9,0/0,0/0,3,3,6,1,3,1,0,1,-16,7
 Russia,Belgium,54,67,2706,5,Evgeniia Beliakova,26:24,3,1/4,0/1,1/3,0/0,0,2,2,0,1,1,1,0,-6,2
 Russia,Belgium,54,67,2706,7,Maria Vadeeva,31:17,20,9/19,8/15,1/4,1/3,1,10,11,0,2,2,0,1,-14,18
@@ -191,30 +191,30 @@ Serbia,Belarus,55,53,2706,14,Dragana Stankovic,16:08,7,3/5,3/5,0/0,1/2,2,1,3,1,2
 Serbia,Belarus,55,53,2706,20,Aleksandra Stanacev,12:11,0,0/3,0/2,0/1,0/0,0,1,1,3,1,1,2,0,-3,2
 Serbia,Belarus,55,53,2706,23,Ana Dabovic,09:21,2,1/8,1/7,0/1,0/1,0,1,1,1,5,1,1,0,0,-4
 Serbia,Belarus,55,53,2706,24,Maja Skoric,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
-Czech,Sweden,71,64,2806,0,Renata Brezinova,30:01,23,8/13,4/6,4/7,3/4,0,4,4,2,2,3,3,1,12,24
-Czech,Sweden,71,64,2806,3,Kamila Stepanova,28:46,14,5/9,4/8,1/1,3/6,2,5,7,0,4,1,0,0,3,13
-Czech,Sweden,71,64,2806,5,Romana Hejdova,29:23,11,5/10,5/6,0/4,1/2,0,4,4,2,2,3,1,0,2,9
-Czech,Sweden,71,64,2806,6,Karolína Elhotova,14:15,0,0/1,0/0,0/1,0/0,1,2,3,2,1,1,1,0,5,4
-Czech,Sweden,71,64,2806,8,Veronika Vorackova,08:19,0,0/1,0/1,0/0,0/0,0,0,0,2,1,2,0,0,-6,-1
-Czech,Sweden,71,64,2806,9,Lenka Bartáková,25:25,4,2/6,2/3,0/3,0/0,0,3,3,5,2,2,3,0,-2,9
-Czech,Sweden,71,64,2806,10,Beáta Adamcová,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
-Czech,Sweden,71,64,2806,11,Katerina Elhotova,34:05,14,4/11,2/7,2/4,4/4,0,1,1,4,2,3,1,2,11,12
-Czech,Sweden,71,64,2806,12,Tereza Vyoralova,14:35,3,1/2,0/1,1/1,0/0,1,1,2,5,2,1,1,0,9,9
-Czech,Sweden,71,64,2806,14,Tereza Krakovicova,12:17,2,1/3,1/1,0/2,0/0,1,1,2,1,2,0,0,0,6,3
-Czech,Sweden,71,64,2806,15,Renata Pudláková,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
-Czech,Sweden,71,64,2806,18,Klára Vojtíková,02:54,0,0/1,0/1,0/0,0/0,0,0,0,0,0,0,0,0,-5,-1
-Dominican Republic,Czech,64,71,2806,1,Farhiya Abdi,08:44,0,0/2,0/1,0/1,0/0,0,0,0,0,0,1,2,0,-15,-1
-Dominican Republic,Czech,64,71,2806,5,Kalis Loyd,31:16,9,3/6,2/3,1/3,2/2,0,3,3,3,3,4,1,0,8,9
-Dominican Republic,Czech,64,71,2806,6,Frida Eldebrink,25:31,11,3/6,1/2,2/4,3/4,0,1,1,4,2,1,1,0,3,12
-Dominican Republic,Czech,64,71,2806,7,Klara Lundquist,08:40,0,0/2,0/2,0/0,0/0,0,1,1,0,2,2,0,0,-12,-3
-Dominican Republic,Czech,64,71,2806,8,Ellen Nystrom,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
-Dominican Republic,Czech,64,71,2806,9,Elin Eldebrink,28:43,6,3/8,3/7,0/1,0/0,0,3,3,2,2,3,3,0,1,6
-Dominican Republic,Czech,64,71,2806,10,Danielle Hamilton-Carter,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
-Dominican Republic,Czech,64,71,2806,11,Regan  Magarity,11:07,1,0/3,0/2,0/1,1/2,2,0,2,0,1,1,0,0,-18,-2
-Dominican Republic,Czech,64,71,2806,13,Binta Drammeh,17:06,6,2/5,1/3,1/2,1/2,0,2,2,0,2,1,0,0,-6,3
-Dominican Republic,Czech,64,71,2806,14,Louice  Halvarsson,31:07,12,5/8,3/5,2/3,0/0,1,2,3,2,2,3,0,0,6,11
-Dominican Republic,Czech,64,71,2806,15,Josefin Vesterberg,04:16,0,0/1,0/0,0/1,0/0,0,0,0,0,0,0,1,0,-7,0
-Dominican Republic,Czech,64,71,2806,17,Amanda Zahui,33:30,19,7/14,5/10,2/4,3/4,1,6,7,5,3,1,2,2,5,26
+Czech Republic,Sweden,71,64,2806,0,Renata Brezinova,30:01,23,8/13,4/6,4/7,3/4,0,4,4,2,2,3,3,1,12,24
+Czech Republic,Sweden,71,64,2806,3,Kamila Stepanova,28:46,14,5/9,4/8,1/1,3/6,2,5,7,0,4,1,0,0,3,13
+Czech Republic,Sweden,71,64,2806,5,Romana Hejdova,29:23,11,5/10,5/6,0/4,1/2,0,4,4,2,2,3,1,0,2,9
+Czech Republic,Sweden,71,64,2806,6,Karolína Elhotova,14:15,0,0/1,0/0,0/1,0/0,1,2,3,2,1,1,1,0,5,4
+Czech Republic,Sweden,71,64,2806,8,Veronika Vorackova,08:19,0,0/1,0/1,0/0,0/0,0,0,0,2,1,2,0,0,-6,-1
+Czech Republic,Sweden,71,64,2806,9,Lenka Bartáková,25:25,4,2/6,2/3,0/3,0/0,0,3,3,5,2,2,3,0,-2,9
+Czech Republic,Sweden,71,64,2806,10,Beáta Adamcová,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Czech Republic,Sweden,71,64,2806,11,Katerina Elhotova,34:05,14,4/11,2/7,2/4,4/4,0,1,1,4,2,3,1,2,11,12
+Czech Republic,Sweden,71,64,2806,12,Tereza Vyoralova,14:35,3,1/2,0/1,1/1,0/0,1,1,2,5,2,1,1,0,9,9
+Czech Republic,Sweden,71,64,2806,14,Tereza Krakovicova,12:17,2,1/3,1/1,0/2,0/0,1,1,2,1,2,0,0,0,6,3
+Czech Republic,Sweden,71,64,2806,15,Renata Pudláková,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Czech Republic,Sweden,71,64,2806,18,Klára Vojtíková,02:54,0,0/1,0/1,0/0,0/0,0,0,0,0,0,0,0,0,-5,-1
+Montenegro,Czech Republic,64,71,2806,1,Farhiya Abdi,08:44,0,0/2,0/1,0/1,0/0,0,0,0,0,0,1,2,0,-15,-1
+Montenegro,Czech Republic,64,71,2806,5,Kalis Loyd,31:16,9,3/6,2/3,1/3,2/2,0,3,3,3,3,4,1,0,8,9
+Montenegro,Czech Republic,64,71,2806,6,Frida Eldebrink,25:31,11,3/6,1/2,2/4,3/4,0,1,1,4,2,1,1,0,3,12
+Montenegro,Czech Republic,64,71,2806,7,Klara Lundquist,08:40,0,0/2,0/2,0/0,0/0,0,1,1,0,2,2,0,0,-12,-3
+Montenegro,Czech Republic,64,71,2806,8,Ellen Nystrom,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Montenegro,Czech Republic,64,71,2806,9,Elin Eldebrink,28:43,6,3/8,3/7,0/1,0/0,0,3,3,2,2,3,3,0,1,6
+Montenegro,Czech Republic,64,71,2806,10,Danielle Hamilton-Carter,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Montenegro,Czech Republic,64,71,2806,11,Regan  Magarity,11:07,1,0/3,0/2,0/1,1/2,2,0,2,0,1,1,0,0,-18,-2
+Montenegro,Czech Republic,64,71,2806,13,Binta Drammeh,17:06,6,2/5,1/3,1/2,1/2,0,2,2,0,2,1,0,0,-6,3
+Montenegro,Czech Republic,64,71,2806,14,Louice  Halvarsson,31:07,12,5/8,3/5,2/3,0/0,1,2,3,2,2,3,0,0,6,11
+Montenegro,Czech Republic,64,71,2806,15,Josefin Vesterberg,04:16,0,0/1,0/0,0/1,0/0,0,0,0,0,0,0,1,0,-7,0
+Montenegro,Czech Republic,64,71,2806,17,Amanda Zahui,33:30,19,7/14,5/10,2/4,3/4,1,6,7,5,3,1,2,2,5,26
 Montenegro,France,53,88,2806,5,Jovana Pasic,21:29,10,3/5,2/3,1/2,3/3,0,2,2,1,1,0,1,0,-23,12
 Montenegro,France,53,88,2806,6,Jelena Vucetic,17:38,4,2/6,2/3,0/3,0/0,0,2,2,0,2,4,0,0,-18,-2
 Montenegro,France,53,88,2806,7,Natasa Popovic,10:00,0,0/1,0/1,0/0,0/0,0,2,2,0,0,1,0,2,-6,2
@@ -407,30 +407,30 @@ Great Britain,Ukraine,68,54,3006,15,Temi Fagbenle,30:21,22,8/18,8/17,0/1,6/6,2,6
 Great Britain,Ukraine,68,54,3006,25,Cheridene Green,15:39,4,2/4,2/4,0/0,0/0,2,5,7,0,2,1,1,0,-5,9
 Great Britain,Ukraine,68,54,3006,41,Eilidh Simpson,19:06,6,2/3,0/0,2/3,0/0,0,0,0,0,2,0,1,0,0,6
 Great Britain,Ukraine,68,54,3006,44,Karlie Samuelson,30:14,10,4/9,2/4,2/5,0/0,2,4,6,4,2,1,0,0,21,14
-Czech,Montenegro,57,70,3006,0,Renata Brezinova,20:08,4,2/7,2/4,0/3,0/0,0,2,2,1,5,1,1,0,-10,2
-Czech,Montenegro,57,70,3006,3,Kamila Stepanova,28:30,4,2/7,2/7,0/0,0/0,1,5,6,4,5,0,2,1,-12,12
-Czech,Montenegro,57,70,3006,5,Romana Hejdova,33:47,16,6/10,2/6,4/4,0/0,0,9,9,0,0,2,0,1,-18,20
-Czech,Montenegro,57,70,3006,6,Karolína Elhotova,20:06,9,4/8,3/5,1/3,0/0,1,3,4,0,3,3,1,0,-1,7
-Czech,Montenegro,57,70,3006,8,Veronika Vorackova,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
-Czech,Montenegro,57,70,3006,9,Lenka Bartáková,21:22,3,0/3,0/3,0/0,3/4,0,1,1,2,1,4,2,1,-19,1
-Czech,Montenegro,57,70,3006,10,Beáta Adamcová,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
-Czech,Montenegro,57,70,3006,11,Katerina Elhotova,29:22,11,5/11,5/8,0/3,1/2,0,2,2,2,1,3,0,0,-9,5
-Czech,Montenegro,57,70,3006,12,Tereza Vyoralova,18:38,4,1/6,1/6,0/0,2/2,1,2,3,4,2,0,1,0,6,7
-Czech,Montenegro,57,70,3006,14,Tereza Krakovicova,28:07,6,3/10,3/9,0/1,0/0,0,1,1,1,2,0,0,2,-2,3
-Czech,Montenegro,57,70,3006,15,Renata Pudláková,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
-Czech,Montenegro,57,70,3006,18,Klára Vojtíková,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
-Dominican Republic,Czech,70,57,3006,5,Jovana Pasic,24:25,1,0/3,0/0,0/3,1/2,0,3,3,1,4,1,1,0,10,1
-Dominican Republic,Czech,70,57,3006,6,Jelena Vucetic,14:54,2,1/3,1/2,0/1,0/0,0,2,2,1,1,2,1,0,-5,2
-Dominican Republic,Czech,70,57,3006,7,Natasa Popovic,01:42,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-4,0
-Dominican Republic,Czech,70,57,3006,8,Dragana Zivkovic,02:30,0,0/1,0/0,0/1,0/0,0,0,0,0,0,0,0,0,0,-1
-Dominican Republic,Czech,70,57,3006,9,Snezana Aleksic,34:49,0,0/3,0/1,0/2,0/0,0,4,4,2,2,1,2,0,15,4
-Dominican Republic,Czech,70,57,3006,11,Bozica Mujovic,35:20,19,7/15,7/12,0/3,5/9,0,2,2,9,2,4,1,0,14,15
-Dominican Republic,Czech,70,57,3006,12,Milena Jaksic,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
-Dominican Republic,Czech,70,57,3006,13,Bojana Kovacevic,12:35,2,1/1,1/1,0/0,0/0,1,1,2,0,1,1,0,0,6,3
-Dominican Republic,Czech,70,57,3006,14,Milica Jovanovic,37:59,19,7/14,2/7,5/7,0/0,2,12,14,2,2,3,2,2,15,29
-Dominican Republic,Czech,70,57,3006,19,Violeta Lazarevic,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
-Dominican Republic,Czech,70,57,3006,23,Irena Matovic,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
-Dominican Republic,Czech,70,57,3006,25,Glory Johnson,35:46,27,9/18,6/14,3/4,6/7,5,9,14,0,4,4,4,1,14,32
+Czech Republic,Montenegro,57,70,3006,0,Renata Brezinova,20:08,4,2/7,2/4,0/3,0/0,0,2,2,1,5,1,1,0,-10,2
+Czech Republic,Montenegro,57,70,3006,3,Kamila Stepanova,28:30,4,2/7,2/7,0/0,0/0,1,5,6,4,5,0,2,1,-12,12
+Czech Republic,Montenegro,57,70,3006,5,Romana Hejdova,33:47,16,6/10,2/6,4/4,0/0,0,9,9,0,0,2,0,1,-18,20
+Czech Republic,Montenegro,57,70,3006,6,Karolína Elhotova,20:06,9,4/8,3/5,1/3,0/0,1,3,4,0,3,3,1,0,-1,7
+Czech Republic,Montenegro,57,70,3006,8,Veronika Vorackova,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Czech Republic,Montenegro,57,70,3006,9,Lenka Bartáková,21:22,3,0/3,0/3,0/0,3/4,0,1,1,2,1,4,2,1,-19,1
+Czech Republic,Montenegro,57,70,3006,10,Beáta Adamcová,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Czech Republic,Montenegro,57,70,3006,11,Katerina Elhotova,29:22,11,5/11,5/8,0/3,1/2,0,2,2,2,1,3,0,0,-9,5
+Czech Republic,Montenegro,57,70,3006,12,Tereza Vyoralova,18:38,4,1/6,1/6,0/0,2/2,1,2,3,4,2,0,1,0,6,7
+Czech Republic,Montenegro,57,70,3006,14,Tereza Krakovicova,28:07,6,3/10,3/9,0/1,0/0,0,1,1,1,2,0,0,2,-2,3
+Czech Republic,Montenegro,57,70,3006,15,Renata Pudláková,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Czech Republic,Montenegro,57,70,3006,18,Klára Vojtíková,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Montenegro,Czech Republic,70,57,3006,5,Jovana Pasic,24:25,1,0/3,0/0,0/3,1/2,0,3,3,1,4,1,1,0,10,1
+Montenegro,Czech Republic,70,57,3006,6,Jelena Vucetic,14:54,2,1/3,1/2,0/1,0/0,0,2,2,1,1,2,1,0,-5,2
+Montenegro,Czech Republic,70,57,3006,7,Natasa Popovic,01:42,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-4,0
+Montenegro,Czech Republic,70,57,3006,8,Dragana Zivkovic,02:30,0,0/1,0/0,0/1,0/0,0,0,0,0,0,0,0,0,0,-1
+Montenegro,Czech Republic,70,57,3006,9,Snezana Aleksic,34:49,0,0/3,0/1,0/2,0/0,0,4,4,2,2,1,2,0,15,4
+Montenegro,Czech Republic,70,57,3006,11,Bozica Mujovic,35:20,19,7/15,7/12,0/3,5/9,0,2,2,9,2,4,1,0,14,15
+Montenegro,Czech Republic,70,57,3006,12,Milena Jaksic,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Montenegro,Czech Republic,70,57,3006,13,Bojana Kovacevic,12:35,2,1/1,1/1,0/0,0/0,1,1,2,0,1,1,0,0,6,3
+Montenegro,Czech Republic,70,57,3006,14,Milica Jovanovic,37:59,19,7/14,2/7,5/7,0/0,2,12,14,2,2,3,2,2,15,29
+Montenegro,Czech Republic,70,57,3006,19,Violeta Lazarevic,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Montenegro,Czech Republic,70,57,3006,23,Irena Matovic,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Montenegro,Czech Republic,70,57,3006,25,Glory Johnson,35:46,27,9/18,6/14,3/4,6/7,5,9,14,0,4,4,4,1,14,32
 Hungary,Turkey,58,59,3006,1,Petra Panna Pusztai,21:08,0,0/4,0/3,0/1,0/0,3,1,4,3,0,1,1,0,-8,3
 Hungary,Turkey,58,59,3006,2,Virag Kiss,17:43,0,0/1,0/1,0/0,0/0,0,2,2,2,1,1,0,1,5,3
 Hungary,Turkey,58,59,3006,4,Debora Dubei,25:23,11,4/10,1/6,3/4,0/0,1,3,4,4,3,1,0,0,9,12
@@ -611,18 +611,18 @@ Great Britain,Montenegro,92,71,0107,15,Temi Fagbenle,32:25,29,13/17,13/16,0/1,3/
 Great Britain,Montenegro,92,71,0107,25,Cheridene Green,18:00,7,3/4,3/4,0/0,1/2,3,1,4,1,0,0,0,0,8,10
 Great Britain,Montenegro,92,71,0107,41,Eilidh Simpson,05:03,0,0/1,0/0,0/1,0/0,0,0,0,1,0,0,0,0,-3,0
 Great Britain,Montenegro,92,71,0107,44,Karlie Samuelson,36:46,28,8/11,4/6,4/5,8/8,0,4,4,2,2,0,1,0,26,32
-Great Britain,Great Britain,71,92,0107,5,Jovana Pasic,23:31,5,2/3,1/1,1/2,0/0,0,1,1,0,3,1,1,0,-10,5
-Great Britain,Great Britain,71,92,0107,6,Jelena Vucetic,19:11,8,3/5,2/3,1/2,1/2,0,1,1,1,3,4,0,0,-10,3
-Great Britain,Great Britain,71,92,0107,7,Natasa Popovic,03:56,0,0/2,0/2,0/0,0/0,2,0,2,1,1,0,0,0,1,1
-Great Britain,Great Britain,71,92,0107,8,Dragana Zivkovic,01:37,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
-Great Britain,Great Britain,71,92,0107,9,Snezana Aleksic,33:53,10,4/8,2/4,2/4,0/0,1,1,2,2,2,0,0,0,-24,10
-Great Britain,Great Britain,71,92,0107,11,Bozica Mujovic,29:33,16,6/13,4/8,2/5,2/2,1,1,2,3,5,2,4,0,-18,16
-Great Britain,Great Britain,71,92,0107,12,Milena Jaksic,01:37,2,1/2,1/2,0/0,0/0,1,0,1,0,0,0,0,0,0,2
-Great Britain,Great Britain,71,92,0107,13,Bojana Kovacevic,17:11,6,3/3,3/3,0/0,0/0,0,2,2,0,5,1,2,1,-9,10
-Great Britain,Great Britain,71,92,0107,14,Milica Jovanovic,37:32,12,5/14,4/8,1/6,1/2,4,2,6,5,3,2,0,1,-19,12
-Great Britain,Great Britain,71,92,0107,19,Violeta Lazarevic,01:37,0,0/1,0/1,0/0,0/0,0,1,1,0,0,0,0,0,0,0
-Great Britain,Great Britain,71,92,0107,23,Irena Matovic,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
-Great Britain,Great Britain,71,92,0107,25,Glory Johnson,30:22,12,4/11,3/7,1/4,3/4,2,4,6,2,0,3,1,1,-16,11
+Montenegro,Great Britain,71,92,0107,5,Jovana Pasic,23:31,5,2/3,1/1,1/2,0/0,0,1,1,0,3,1,1,0,-10,5
+Montenegro,Great Britain,71,92,0107,6,Jelena Vucetic,19:11,8,3/5,2/3,1/2,1/2,0,1,1,1,3,4,0,0,-10,3
+Montenegro,Great Britain,71,92,0107,7,Natasa Popovic,03:56,0,0/2,0/2,0/0,0/0,2,0,2,1,1,0,0,0,1,1
+Montenegro,Great Britain,71,92,0107,8,Dragana Zivkovic,01:37,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Montenegro,Great Britain,71,92,0107,9,Snezana Aleksic,33:53,10,4/8,2/4,2/4,0/0,1,1,2,2,2,0,0,0,-24,10
+Montenegro,Great Britain,71,92,0107,11,Bozica Mujovic,29:33,16,6/13,4/8,2/5,2/2,1,1,2,3,5,2,4,0,-18,16
+Montenegro,Great Britain,71,92,0107,12,Milena Jaksic,01:37,2,1/2,1/2,0/0,0/0,1,0,1,0,0,0,0,0,0,2
+Montenegro,Great Britain,71,92,0107,13,Bojana Kovacevic,17:11,6,3/3,3/3,0/0,0/0,0,2,2,0,5,1,2,1,-9,10
+Montenegro,Great Britain,71,92,0107,14,Milica Jovanovic,37:32,12,5/14,4/8,1/6,1/2,4,2,6,5,3,2,0,1,-19,12
+Montenegro,Great Britain,71,92,0107,19,Violeta Lazarevic,01:37,0,0/1,0/1,0/0,0/0,0,1,1,0,0,0,0,0,0,0
+Montenegro,Great Britain,71,92,0107,23,Irena Matovic,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Montenegro,Great Britain,71,92,0107,25,Glory Johnson,30:22,12,4/11,3/7,1/4,3/4,2,4,6,2,0,3,1,1,-16,11
 Belgium,Slovenia,72,67,0207,5,Kim Mestdagh,35:42,13,3/9,2/4,1/5,6/8,2,9,11,1,3,2,1,0,11,16
 Belgium,Slovenia,72,67,0207,6,Antonia Delaere,24:46,6,3/7,3/6,0/1,0/0,0,2,2,2,3,0,0,0,4,6
 Belgium,Slovenia,72,67,0207,9,Marjorie Carpreaux,02:46,0,0/1,0/1,0/0,0/0,0,2,2,0,0,1,0,0,-3,0

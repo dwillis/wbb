@@ -1,0 +1,79 @@
+---
+title: "fiba"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Loading libraries
+
+```{r}
+library(tidyverse)
+library(stringr)
+```
+
+## Load and clean data
+
+```{r}
+u16americas_2021_players_game_stats <- read_csv("u16americas_2021_players_game_stats.csv", col_types = cols(minutes = col_time(format = "%M:%S")), col_names = c('team1','team2','team1_score','team2_score','date','number','player','minutes','points','fg','fg2','fg3','ft','offensive_rebounds','defensive_rebounds','rebounds','assists','fouls','turnovers','steals','blocks','plus_minus','efficiency'), skip = 1)
+```
+
+## Add year and fix dates
+
+```{r}
+u16americas_2021_players_game_stats <- u16americas_2021_players_game_stats %>%
+  mutate(year=2021)
+```
+
+## Split FG
+
+```{r}
+u16americas_2021_players_game_stats <- u16americas_2021_players_game_stats %>%
+  mutate(tmp_chunks = stringr::str_split(fg,"/",n=2)) %>%
+  mutate(fgm=map_chr(tmp_chunks, 1), fga=map_chr(tmp_chunks, 2)) %>%
+  select(-tmp_chunks)
+```
+
+## Split fg2
+
+```{r}
+u16americas_2021_players_game_stats <- u16americas_2021_players_game_stats %>%
+  mutate(tmp_chunks = stringr::str_split(fg2,"/",n=2)) %>%
+  mutate(fg2m=map_chr(tmp_chunks, 1), fg2a=map_chr(tmp_chunks, 2)) %>%
+  select(-tmp_chunks)
+```
+
+## Split fg3
+
+```{r}
+u16americas_2021_players_game_stats <- u16americas_2021_players_game_stats %>%
+  mutate(tmp_chunks = stringr::str_split(fg3,"/",n=2)) %>%
+  mutate(fg3m=map_chr(tmp_chunks, 1), fg3a=map_chr(tmp_chunks, 2)) %>%
+  select(-tmp_chunks)
+```
+
+## Split ft
+
+```{r}
+u16americas_2021_players_game_stats <- u16americas_2021_players_game_stats %>%
+  mutate(tmp_chunks = stringr::str_split(ft,"/",n=2)) %>%
+  mutate(ftm=map_chr(tmp_chunks, 1), fta=map_chr(tmp_chunks, 2)) %>%
+  select(-tmp_chunks)
+```
+
+## Remove unneeded original cols
+
+```{r}
+u16americas_2021_players_game_stats <- u16americas_2021_players_game_stats %>% select(-fg,-fg2,-fg3,-ft)
+```
+
+## Fix incorrect team names
+
+For example, "Rica" should be "Costa Rica".
+
+
+## Fix dates
+
+Currently, dates are in the following format: 2308, a double, which is DDMM in date formatting.
