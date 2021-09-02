@@ -18,6 +18,8 @@ def get_players(link_ls):
     all_tables = []
 
     for a in link_ls:
+        if a == 'https://www.fiba.basketball/u16americas/women/2021/game/2908/Canada-USA':
+            a = '/u16americas/women/2021/game/2908/Canada-USA'
         try:
             all_tables.append(get_boxscore(BASE_URL + a))
         except (ValueError, TypeError, AttributeError):

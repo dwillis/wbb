@@ -6,6 +6,27 @@ import requests
 from bs4 import BeautifulSoup
 
 
+def fetch_rosters(id=None, seasons=None):
+    teams_json = json.loads(open('/Users/derekwillis/code/wbb/ncaa/teams.json').read())
+    if not seasons:
+        seasons = ['2020-21', '2019-20', '2018-19', '2017-18', '2016-17', '2015-16', '2014-15']
+    if id:
+        team = [t for t in teams_json if id == t['ncaa_id']][0]
+        slug = slugify(team)
+        for season in seasons:
+            try:
+                fetch_season(season, team['url'], slug)
+            except:
+                continue
+    else:
+        for team in teams_json:
+            slug = slugify(team)
+            for season in seasons:
+                try:
+                    fetch_season(season, team['url'], slug)
+                except:
+                    continue
+
 def fetch_game_stats(id=None, seasons=None):
     teams_json = json.loads(open('/Users/derekwillis/code/wbb/ncaa/teams.json').read())
     if not seasons:
@@ -49,8 +70,21 @@ def fetch_game_ids(season, stats_url):
     return game_ids
 
 def slugify(team):
-    slug = str(team['ncaa_id'])+'-'+team['team'].lower().replace(" ","-").replace('.','').replace(',','').replace("'","")
+    slug = str(team['ncaa_id'])+'-'+team['team'].lower().replace(" ","-").replace('.','').replace(',','').replace("'","").replace(')','').replace(')','')
     return slug
+
+def parse_roster(season, slug):
+    results = []
+    os.chdir("/Users/derekwillis/code/wbb-rosters")
+    if not os.path.exists(slug):
+        os.makedirs(slug)
+    os.chdir(slug)
+    if not os.path.exists(season):
+        os.makedirs(season)
+    os.chdir(season)
+    for game_id in game_ids:
+        game_json = fetch_game_json(domain, game_id)
+        write_json(game_id, game_json, season)
 
 def parse_games(season, domain, game_ids, slug):
     results = []
