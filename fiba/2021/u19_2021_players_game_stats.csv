@@ -95,30 +95,30 @@ Egypt,Australia,28,99,0708,35,Salma Bahgat,09:35,0,0/2,0/1,0/1,0/4,0,1,1,1,1,0,1
 Egypt,Australia,28,99,0708,44,Yara Hussein,31:56,10,4/15,4/15,0/0,2/4,9,4,13,0,2,0,0,2,-51,12
 Egypt,Australia,28,99,0708,48,Mennatullah Elgharini,10:47,6,3/4,3/4,0/0,0/0,1,1,2,0,5,2,0,0,-23,5
 Egypt,Australia,28,99,0708,77,Hager Yassine,16:15,0,0/2,0/0,0/2,0/0,0,0,0,0,3,1,1,0,-30,-2
-Chinese,Hungary,42,99,0708,0,Yu Chieh Chen,11:03,4,1/3,1/2,0/1,2/2,0,1,1,0,1,3,0,0,-28,0
-Chinese,Hungary,42,99,0708,1,Han Chun Chiang,01:16,0,0/0,0/0,0/0,0/0,0,0,0,0,0,1,0,0,-6,-1
-Chinese,Hungary,42,99,0708,2,Ze Sin Chiang,06:46,0,0/0,0/0,0/0,0/0,0,0,0,0,1,0,0,0,-10,0
-Chinese,Hungary,42,99,0708,3,Shu Chun Tang,24:21,6,2/10,0/2,2/8,0/0,0,0,0,0,2,1,1,0,-28,-2
-Chinese,Hungary,42,99,0708,4,Yi Hua Li,25:13,7,3/8,2/6,1/2,0/0,1,1,2,1,2,2,0,0,-43,3
-Chinese,Hungary,42,99,0708,6,Wen Ling Lien,09:32,0,0/4,0/0,0/4,0/0,1,0,1,0,1,0,0,0,-21,-3
-Chinese,Hungary,42,99,0708,7,Yun Feng Chao,01:39,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-2,0
-Chinese,Hungary,42,99,0708,9,Chih Ying Chen,34:15,10,3/10,3/8,0/2,4/6,2,4,6,0,3,4,5,0,-46,8
-Chinese,Hungary,42,99,0708,10,Hung Ting Kuo,32:16,13,4/10,4/9,0/1,5/5,1,4,5,0,3,4,2,1,-43,11
-Chinese,Hungary,42,99,0708,21,Jhih Tong Yeh,23:01,0,0/2,0/2,0/0,0/0,1,3,4,3,2,4,0,0,-25,1
-Chinese,Hungary,42,99,0708,72,Chen I Li,03:23,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-5,0
-Chinese,Hungary,42,99,0708,73,Yu Wen Wang,27:15,2,1/8,1/2,0/6,0/0,0,2,2,2,3,4,2,0,-28,-3
-Taipei,Chinese,99,42,0708,2,Zsuzsanna Sitku,18:55,13,4/6,4/6,0/0,5/5,3,5,8,3,1,3,1,1,24,21
-Taipei,Chinese,99,42,0708,5,Aya Kéita,14:51,6,3/5,3/5,0/0,0/0,1,2,3,2,3,2,2,1,9,10
-Taipei,Chinese,99,42,0708,6,Lilla Rozmán,12:47,2,1/3,1/1,0/2,0/0,0,0,0,5,2,3,1,0,24,3
-Taipei,Chinese,99,42,0708,10,Melinda Miklos,14:12,13,5/9,2/2,3/7,0/1,2,2,4,4,2,1,0,0,20,15
-Taipei,Chinese,99,42,0708,13,Reka Dombai,20:48,9,3/9,1/4,2/5,1/2,4,2,6,2,3,3,1,0,20,8
-Taipei,Chinese,99,42,0708,14,Lili Krasovec,13:11,6,3/4,3/4,0/0,0/0,5,3,8,0,0,0,3,0,26,16
-Taipei,Chinese,99,42,0708,15,Lili Rakita,16:23,5,1/4,0/3,1/1,2/2,2,4,6,1,1,2,1,0,26,8
-Taipei,Chinese,99,42,0708,22,Janka Gyongyosi,18:20,2,1/5,1/3,0/2,0/0,0,2,2,1,0,0,0,1,32,2
-Taipei,Chinese,99,42,0708,23,Zsofia  Telegdy,14:52,6,3/5,3/5,0/0,0/0,1,1,2,0,2,0,1,0,17,7
-Taipei,Chinese,99,42,0708,24,Julia Boros,21:35,11,5/12,4/7,1/5,0/0,0,2,2,3,1,0,4,0,25,13
-Taipei,Chinese,99,42,0708,30,Eszter Madar,18:26,17,8/12,8/12,0/0,1/3,5,2,7,1,1,0,2,1,30,22
-Taipei,Chinese,99,42,0708,66,Rebeka Holcz,15:40,9,3/7,2/5,1/2,2/2,2,2,4,2,2,0,1,0,32,12
+Chinese Taipei,Hungary,42,99,0708,0,Yu Chieh Chen,11:03,4,1/3,1/2,0/1,2/2,0,1,1,0,1,3,0,0,-28,0
+Chinese Taipei,Hungary,42,99,0708,1,Han Chun Chiang,01:16,0,0/0,0/0,0/0,0/0,0,0,0,0,0,1,0,0,-6,-1
+Chinese Taipei,Hungary,42,99,0708,2,Ze Sin Chiang,06:46,0,0/0,0/0,0/0,0/0,0,0,0,0,1,0,0,0,-10,0
+Chinese Taipei,Hungary,42,99,0708,3,Shu Chun Tang,24:21,6,2/10,0/2,2/8,0/0,0,0,0,0,2,1,1,0,-28,-2
+Chinese Taipei,Hungary,42,99,0708,4,Yi Hua Li,25:13,7,3/8,2/6,1/2,0/0,1,1,2,1,2,2,0,0,-43,3
+Chinese Taipei,Hungary,42,99,0708,6,Wen Ling Lien,09:32,0,0/4,0/0,0/4,0/0,1,0,1,0,1,0,0,0,-21,-3
+Chinese Taipei,Hungary,42,99,0708,7,Yun Feng Chao,01:39,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-2,0
+Chinese Taipei,Hungary,42,99,0708,9,Chih Ying Chen,34:15,10,3/10,3/8,0/2,4/6,2,4,6,0,3,4,5,0,-46,8
+Chinese Taipei,Hungary,42,99,0708,10,Hung Ting Kuo,32:16,13,4/10,4/9,0/1,5/5,1,4,5,0,3,4,2,1,-43,11
+Chinese Taipei,Hungary,42,99,0708,21,Jhih Tong Yeh,23:01,0,0/2,0/2,0/0,0/0,1,3,4,3,2,4,0,0,-25,1
+Chinese Taipei,Hungary,42,99,0708,72,Chen I Li,03:23,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-5,0
+Chinese Taipei,Hungary,42,99,0708,73,Yu Wen Wang,27:15,2,1/8,1/2,0/6,0/0,0,2,2,2,3,4,2,0,-28,-3
+Hungary,Chinese Taipei,99,42,0708,2,Zsuzsanna Sitku,18:55,13,4/6,4/6,0/0,5/5,3,5,8,3,1,3,1,1,24,21
+Hungary,Chinese Taipei,99,42,0708,5,Aya Kéita,14:51,6,3/5,3/5,0/0,0/0,1,2,3,2,3,2,2,1,9,10
+Hungary,Chinese Taipei,99,42,0708,6,Lilla Rozmán,12:47,2,1/3,1/1,0/2,0/0,0,0,0,5,2,3,1,0,24,3
+Hungary,Chinese Taipei,99,42,0708,10,Melinda Miklos,14:12,13,5/9,2/2,3/7,0/1,2,2,4,4,2,1,0,0,20,15
+Hungary,Chinese Taipei,99,42,0708,13,Reka Dombai,20:48,9,3/9,1/4,2/5,1/2,4,2,6,2,3,3,1,0,20,8
+Hungary,Chinese Taipei,99,42,0708,14,Lili Krasovec,13:11,6,3/4,3/4,0/0,0/0,5,3,8,0,0,0,3,0,26,16
+Hungary,Chinese Taipei,99,42,0708,15,Lili Rakita,16:23,5,1/4,0/3,1/1,2/2,2,4,6,1,1,2,1,0,26,8
+Hungary,Chinese Taipei,99,42,0708,22,Janka Gyongyosi,18:20,2,1/5,1/3,0/2,0/0,0,2,2,1,0,0,0,1,32,2
+Hungary,Chinese Taipei,99,42,0708,23,Zsofia  Telegdy,14:52,6,3/5,3/5,0/0,0/0,1,1,2,0,2,0,1,0,17,7
+Hungary,Chinese Taipei,99,42,0708,24,Julia Boros,21:35,11,5/12,4/7,1/5,0/0,0,2,2,3,1,0,4,0,25,13
+Hungary,Chinese Taipei,99,42,0708,30,Eszter Madar,18:26,17,8/12,8/12,0/0,1/3,5,2,7,1,1,0,2,1,30,22
+Hungary,Chinese Taipei,99,42,0708,66,Rebeka Holcz,15:40,9,3/7,2/5,1/2,2/2,2,2,4,2,2,0,1,0,32,12
 Russia,Argentina,73,42,0708,10,Iana Elberg,22:03,12,5/12,3/6,2/6,0/0,0,0,0,4,1,1,3,0,27,11
 Russia,Argentina,73,42,0708,12,Anastasiia Bocharova,11:38,8,3/5,1/2,2/3,0/0,1,4,5,0,2,3,0,0,3,8
 Russia,Argentina,73,42,0708,13,Valeriia Iakovleva,08:50,1,0/2,0/2,0/0,1/2,2,0,2,0,1,0,1,0,-4,1
@@ -251,18 +251,18 @@ Czech Republic,Canada,71,79,0808,14,Martina Pokorna,10:40,2,1/4,1/4,0/0,0/0,3,2,
 Czech Republic,Canada,71,79,0808,15,Julia Vydrova,20:24,4,2/5,2/5,0/0,0/0,0,2,2,2,3,2,3,0,5,6
 Czech Republic,Canada,71,79,0808,17,Eliska Brejchova,13:33,3,1/4,0/1,1/3,0/0,1,1,2,0,0,1,0,0,9,1
 Czech Republic,Canada,71,79,0808,24,Valentyna Kadlecova,17:59,15,4/9,4/6,0/3,7/7,0,4,4,2,4,0,4,0,-2,20
-Czech Republic,Czech Republic,79,71,0808,4,Shayeann Day Wilson,36:31,31,6/24,3/13,3/11,16/17,1,5,6,7,3,5,4,0,9,24
-Czech Republic,Czech Republic,79,71,0808,5,Deja Lee,05:07,0,0/3,0/3,0/0,0/0,1,1,2,0,1,1,1,0,4,-1
-Czech Republic,Czech Republic,79,71,0808,6,Rosalie Mercille,22:11,2,1/6,1/1,0/5,0/2,1,3,4,2,4,1,1,0,17,1
-Czech Republic,Czech Republic,79,71,0808,8,Rebecca Demeke,15:12,0,0/3,0/1,0/2,0/0,0,1,1,2,3,3,0,0,-10,-3
-Czech Republic,Czech Republic,79,71,0808,9,Tara Wallack,23:51,7,1/4,0/1,1/3,4/6,4,2,6,0,1,3,2,0,-3,7
-Czech Republic,Czech Republic,79,71,0808,10,Yvonne Ejim,27:31,20,8/12,8/12,0/0,4/4,3,7,10,0,5,3,2,1,12,26
-Czech Republic,Czech Republic,79,71,0808,11,Lemyah Hylton,10:54,0,0/4,0/3,0/1,0/2,1,0,1,0,1,3,0,0,-5,-8
-Czech Republic,Czech Republic,79,71,0808,12,Isaline Alexander,13:40,4,0/1,0/1,0/0,4/6,4,4,8,0,0,0,0,1,10,10
-Czech Republic,Czech Republic,79,71,0808,13,Izabella Zingaro,11:58,4,2/4,2/4,0/0,0/0,3,3,6,0,0,0,0,0,-4,8
-Czech Republic,Czech Republic,79,71,0808,15,Jessica Clarke,08:45,3,1/2,1/2,0/0,1/2,2,1,3,0,1,1,0,0,-1,3
-Czech Republic,Czech Republic,79,71,0808,21,Emma Koabel,07:06,0,0/4,0/2,0/2,0/0,1,3,4,1,2,0,0,0,-2,1
-Czech Republic,Czech Republic,79,71,0808,22,Aicha Dia,17:14,8,3/7,3/5,0/2,2/3,4,1,5,1,4,0,0,0,13,9
+Canada,Czech Republic,79,71,0808,4,Shayeann Day Wilson,36:31,31,6/24,3/13,3/11,16/17,1,5,6,7,3,5,4,0,9,24
+Canada,Czech Republic,79,71,0808,5,Deja Lee,05:07,0,0/3,0/3,0/0,0/0,1,1,2,0,1,1,1,0,4,-1
+Canada,Czech Republic,79,71,0808,6,Rosalie Mercille,22:11,2,1/6,1/1,0/5,0/2,1,3,4,2,4,1,1,0,17,1
+Canada,Czech Republic,79,71,0808,8,Rebecca Demeke,15:12,0,0/3,0/1,0/2,0/0,0,1,1,2,3,3,0,0,-10,-3
+Canada,Czech Republic,79,71,0808,9,Tara Wallack,23:51,7,1/4,0/1,1/3,4/6,4,2,6,0,1,3,2,0,-3,7
+Canada,Czech Republic,79,71,0808,10,Yvonne Ejim,27:31,20,8/12,8/12,0/0,4/4,3,7,10,0,5,3,2,1,12,26
+Canada,Czech Republic,79,71,0808,11,Lemyah Hylton,10:54,0,0/4,0/3,0/1,0/2,1,0,1,0,1,3,0,0,-5,-8
+Canada,Czech Republic,79,71,0808,12,Isaline Alexander,13:40,4,0/1,0/1,0/0,4/6,4,4,8,0,0,0,0,1,10,10
+Canada,Czech Republic,79,71,0808,13,Izabella Zingaro,11:58,4,2/4,2/4,0/0,0/0,3,3,6,0,0,0,0,0,-4,8
+Canada,Czech Republic,79,71,0808,15,Jessica Clarke,08:45,3,1/2,1/2,0/0,1/2,2,1,3,0,1,1,0,0,-1,3
+Canada,Czech Republic,79,71,0808,21,Emma Koabel,07:06,0,0/4,0/2,0/2,0/0,1,3,4,1,2,0,0,0,-2,1
+Canada,Czech Republic,79,71,0808,22,Aicha Dia,17:14,8,3/7,3/5,0/2,2/3,4,1,5,1,4,0,0,0,13,9
 Egypt,Italy,73,81,0808,1,Hala Yassine,31:48,8,3/8,3/8,0/0,2/6,0,5,5,3,4,2,3,0,-19,8
 Egypt,Italy,73,81,0808,4,Habiba Abdelhamid,12:58,2,0/2,0/2,0/0,2/2,1,1,2,4,0,3,1,0,2,4
 Egypt,Italy,73,81,0808,5,Salma Heshameldin Ismail Ismail,38:40,22,10/12,9/10,1/2,1/4,1,4,5,3,3,7,4,1,0,23
@@ -335,30 +335,30 @@ Australia,USA,59,99,0808,12,Chyra Evans,23:34,3,1/5,0/1,1/4,0/2,1,2,3,0,2,1,0,0,
 Australia,USA,59,99,0808,13,Nyadiew Puoch,16:45,5,2/7,1/5,1/2,0/0,0,3,3,3,3,2,1,0,-30,5
 Australia,USA,59,99,0808,14,Isobel  Borlase,20:11,4,2/6,2/6,0/0,0/0,0,2,2,1,0,1,0,0,-24,2
 Australia,USA,59,99,0808,15,Kelsey Rees,14:06,5,2/6,2/4,0/2,1/1,3,1,4,0,1,2,0,0,-3,3
-Argentina,Taipei,65,56,0808,6,Milagros Maza,26:11,4,2/13,2/9,0/4,0/0,1,2,3,1,1,4,0,1,-3,-6
-Argentina,Taipei,65,56,0808,7,Magali Vilches,25:50,6,2/7,2/6,0/1,2/2,0,8,8,3,4,2,1,0,11,11
-Argentina,Taipei,65,56,0808,8,Lucila Sampietro,05:44,4,2/2,2/2,0/0,0/0,1,0,1,0,0,0,0,0,1,5
-Argentina,Taipei,65,56,0808,9,Georgina Buzzetti,28:05,16,6/12,6/12,0/0,4/4,9,7,16,2,2,2,1,2,-1,29
-Argentina,Taipei,65,56,0808,10,Agustina  Bazán,25:55,9,4/6,4/4,0/2,1/2,0,5,5,1,1,1,1,0,2,12
-Argentina,Taipei,65,56,0808,11,Agustina Marin,22:16,13,5/8,4/7,1/1,2/3,1,4,5,5,0,2,4,0,17,21
-Argentina,Taipei,65,56,0808,13,Genesis Toledano Aset,12:29,7,2/4,2/4,0/0,3/3,0,2,2,1,1,0,0,1,10,9
-Argentina,Taipei,65,56,0808,14,Natalia Tondi,11:07,0,0/2,0/0,0/2,0/0,1,0,1,2,0,1,0,0,-4,0
-Argentina,Taipei,65,56,0808,15,Julia Fernandez,13:36,4,1/5,1/2,0/3,2/4,2,1,3,0,2,3,1,1,-2,0
-Argentina,Taipei,65,56,0808,19,Delfina Saravia,14:58,2,1/3,1/3,0/0,0/0,0,1,1,1,0,1,0,0,2,1
-Argentina,Taipei,65,56,0808,22,Giuliana Baccareli,13:49,0,0/2,0/1,0/1,0/2,0,4,4,0,1,2,1,0,12,-1
-Argentina,Taipei,65,56,0808,23,Victoria Michel,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
-Chinese,Argentina,56,65,0808,0,Yu Chieh Chen,13:53,11,4/10,2/4,2/6,1/1,0,2,2,0,4,3,0,0,0,4
-Chinese,Argentina,56,65,0808,1,Han Chun Chiang,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
-Chinese,Argentina,56,65,0808,2,Ze Sin Chiang,08:38,0,0/0,0/0,0/0,0/0,0,2,2,0,1,0,0,0,-9,2
-Chinese,Argentina,56,65,0808,3,Shu Chun Tang,26:13,10,3/5,0/0,3/5,1/3,0,2,2,1,0,3,1,0,0,7
-Chinese,Argentina,56,65,0808,4,Yi Hua Li,33:26,5,1/9,1/6,0/3,3/4,0,2,2,3,2,1,0,0,-15,0
-Chinese,Argentina,56,65,0808,6,Wen Ling Lien,24:00,6,2/10,0/0,2/10,0/0,0,3,3,1,0,2,2,0,-2,2
-Chinese,Argentina,56,65,0808,7,Yun Feng Chao,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
-Chinese,Argentina,56,65,0808,9,Chih Ying Chen,31:40,19,8/15,7/13,1/2,2/2,2,5,7,0,3,5,3,0,-15,17
-Chinese,Argentina,56,65,0808,10,Hung Ting Kuo,29:54,4,1/7,1/4,0/3,2/2,3,4,7,2,4,2,2,1,2,8
-Chinese,Argentina,56,65,0808,21,Jhih Tong Yeh,12:29,0,0/1,0/1,0/0,0/0,0,0,0,3,0,0,1,0,3,3
-Chinese,Argentina,56,65,0808,72,Chen I Li,01:16,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-4,0
-Chinese,Argentina,56,65,0808,73,Yu Wen Wang,18:31,1,0/4,0/1,0/3,1/2,0,5,5,0,1,1,1,0,-5,1
+Argentina,Chinese Taipei,65,56,0808,6,Milagros Maza,26:11,4,2/13,2/9,0/4,0/0,1,2,3,1,1,4,0,1,-3,-6
+Argentina,Chinese Taipei,65,56,0808,7,Magali Vilches,25:50,6,2/7,2/6,0/1,2/2,0,8,8,3,4,2,1,0,11,11
+Argentina,Chinese Taipei,65,56,0808,8,Lucila Sampietro,05:44,4,2/2,2/2,0/0,0/0,1,0,1,0,0,0,0,0,1,5
+Argentina,Chinese Taipei,65,56,0808,9,Georgina Buzzetti,28:05,16,6/12,6/12,0/0,4/4,9,7,16,2,2,2,1,2,-1,29
+Argentina,Chinese Taipei,65,56,0808,10,Agustina  Bazán,25:55,9,4/6,4/4,0/2,1/2,0,5,5,1,1,1,1,0,2,12
+Argentina,Chinese Taipei,65,56,0808,11,Agustina Marin,22:16,13,5/8,4/7,1/1,2/3,1,4,5,5,0,2,4,0,17,21
+Argentina,Chinese Taipei,65,56,0808,13,Genesis Toledano Aset,12:29,7,2/4,2/4,0/0,3/3,0,2,2,1,1,0,0,1,10,9
+Argentina,Chinese Taipei,65,56,0808,14,Natalia Tondi,11:07,0,0/2,0/0,0/2,0/0,1,0,1,2,0,1,0,0,-4,0
+Argentina,Chinese Taipei,65,56,0808,15,Julia Fernandez,13:36,4,1/5,1/2,0/3,2/4,2,1,3,0,2,3,1,1,-2,0
+Argentina,Chinese Taipei,65,56,0808,19,Delfina Saravia,14:58,2,1/3,1/3,0/0,0/0,0,1,1,1,0,1,0,0,2,1
+Argentina,Chinese Taipei,65,56,0808,22,Giuliana Baccareli,13:49,0,0/2,0/1,0/1,0/2,0,4,4,0,1,2,1,0,12,-1
+Argentina,Chinese Taipei,65,56,0808,23,Victoria Michel,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Chinese Taipei,Argentina,56,65,0808,0,Yu Chieh Chen,13:53,11,4/10,2/4,2/6,1/1,0,2,2,0,4,3,0,0,0,4
+Chinese Taipei,Argentina,56,65,0808,1,Han Chun Chiang,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Chinese Taipei,Argentina,56,65,0808,2,Ze Sin Chiang,08:38,0,0/0,0/0,0/0,0/0,0,2,2,0,1,0,0,0,-9,2
+Chinese Taipei,Argentina,56,65,0808,3,Shu Chun Tang,26:13,10,3/5,0/0,3/5,1/3,0,2,2,1,0,3,1,0,0,7
+Chinese Taipei,Argentina,56,65,0808,4,Yi Hua Li,33:26,5,1/9,1/6,0/3,3/4,0,2,2,3,2,1,0,0,-15,0
+Chinese Taipei,Argentina,56,65,0808,6,Wen Ling Lien,24:00,6,2/10,0/0,2/10,0/0,0,3,3,1,0,2,2,0,-2,2
+Chinese Taipei,Argentina,56,65,0808,7,Yun Feng Chao,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Chinese Taipei,Argentina,56,65,0808,9,Chih Ying Chen,31:40,19,8/15,7/13,1/2,2/2,2,5,7,0,3,5,3,0,-15,17
+Chinese Taipei,Argentina,56,65,0808,10,Hung Ting Kuo,29:54,4,1/7,1/4,0/3,2/2,3,4,7,2,4,2,2,1,2,8
+Chinese Taipei,Argentina,56,65,0808,21,Jhih Tong Yeh,12:29,0,0/1,0/1,0/0,0/0,0,0,0,3,0,0,1,0,3,3
+Chinese Taipei,Argentina,56,65,0808,72,Chen I Li,01:16,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-4,0
+Chinese Taipei,Argentina,56,65,0808,73,Yu Wen Wang,18:31,1,0/4,0/1,0/3,1/2,0,5,5,0,1,1,1,0,-5,1
 Spain,France,61,65,1008,4,Mama Dembele Traore,20:06,3,1/5,1/4,0/1,1/2,1,1,2,2,4,1,0,1,-3,2
 Spain,France,61,65,1008,5,Laia Lamana Llobera,22:40,4,2/8,2/6,0/2,0/0,1,1,2,4,2,2,2,0,-5,4
 Spain,France,61,65,1008,7,Claudia Contell,32:40,12,5/15,5/13,0/2,2/2,0,6,6,2,3,6,2,0,3,6
@@ -455,30 +455,30 @@ Czech Republic,Japan,63,58,1008,14,Martina Pokorna,21:16,2,1/3,1/2,0/1,0/0,3,5,8
 Czech Republic,Japan,63,58,1008,15,Julia Vydrova,02:49,0,0/1,0/1,0/0,0/0,0,1,1,0,1,1,0,0,-5,-1
 Czech Republic,Japan,63,58,1008,17,Eliska Brejchova,11:34,2,1/5,1/3,0/2,0/0,0,5,5,1,1,3,0,0,8,1
 Czech Republic,Japan,63,58,1008,24,Valentyna Kadlecova,27:25,11,4/10,1/4,3/6,0/0,3,1,4,1,1,2,1,0,-3,9
-Russia,Taipei,72,45,1008,10,Iana Elberg,15:19,7,2/5,1/2,1/3,2/2,1,3,4,1,1,2,0,0,7,7
-Russia,Taipei,72,45,1008,12,Anastasiia Bocharova,15:34,0,0/8,0/3,0/5,0/0,2,3,5,1,3,0,0,0,14,-2
-Russia,Taipei,72,45,1008,13,Valeriia Iakovleva,11:19,6,3/4,3/4,0/0,0/0,1,3,4,0,1,2,1,1,9,9
-Russia,Taipei,72,45,1008,14,Olairi Kosu,16:14,15,6/10,6/9,0/1,3/4,3,7,10,0,1,3,0,1,4,18
-Russia,Taipei,72,45,1008,16,Ekaterina Koshechkina,12:24,4,2/6,2/5,0/1,0/0,0,3,3,3,0,1,1,2,4,8
-Russia,Taipei,72,45,1008,23,Iana Pashkovskaia,16:47,6,2/3,0/0,2/3,0/0,0,1,1,1,1,1,1,0,7,7
-Russia,Taipei,72,45,1008,25,Maria Rodionova,21:28,4,2/6,2/3,0/3,0/0,2,5,7,4,1,2,0,0,26,9
-Russia,Taipei,72,45,1008,31,Veronika Loginova,15:50,3,1/1,0/0,1/1,0/0,0,1,1,4,0,4,0,0,3,4
-Russia,Taipei,72,45,1008,51,Anastasiia Odintcova,20:53,20,9/12,9/12,0/0,2/3,6,5,11,0,1,1,1,0,18,27
-Russia,Taipei,72,45,1008,77,Kristina Savkovich,13:51,0,0/1,0/1,0/0,0/0,0,2,2,3,0,2,0,0,3,2
-Russia,Taipei,72,45,1008,81,Elza Sirazutdinova,17:08,4,2/6,2/5,0/1,0/0,3,3,6,0,2,1,2,0,20,7
-Russia,Taipei,72,45,1008,99,Olesia  Tumanova,23:13,3,1/9,0/3,1/6,0/0,1,1,2,5,1,2,0,0,20,0
-Chinese,Russia,45,72,1008,0,Yu Chieh Chen,18:20,4,2/10,2/7,0/3,0/2,0,1,1,0,2,2,0,0,-17,-7
-Chinese,Russia,45,72,1008,1,Han Chun Chiang,01:49,0,0/1,0/1,0/0,0/0,0,0,0,0,0,0,0,0,4,-1
-Chinese,Russia,45,72,1008,2,Ze Sin Chiang,07:44,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,3,0,-7,3
-Chinese,Russia,45,72,1008,3,Shu Chun Tang,17:09,11,5/8,4/5,1/3,0/0,0,0,0,2,2,1,1,0,-13,10
-Chinese,Russia,45,72,1008,4,Yi Hua Li,34:39,9,3/8,0/3,3/5,0/0,2,2,4,2,0,1,3,1,-21,13
-Chinese,Russia,45,72,1008,6,Wen Ling Lien,19:17,0,0/5,0/0,0/5,0/0,0,0,0,0,0,0,0,0,-16,-5
-Chinese,Russia,45,72,1008,7,Yun Feng Chao,07:57,4,2/3,2/3,0/0,0/0,0,1,1,0,3,1,0,0,2,3
-Chinese,Russia,45,72,1008,9,Chih Ying Chen,22:47,4,1/8,1/7,0/1,2/3,0,2,2,2,1,1,3,1,-12,3
-Chinese,Russia,45,72,1008,10,Hung Ting Kuo,21:16,5,2/9,2/7,0/2,1/2,0,5,5,0,1,4,1,0,-15,-1
-Chinese,Russia,45,72,1008,21,Jhih Tong Yeh,09:31,0,0/1,0/1,0/0,0/0,0,0,0,2,1,0,0,0,-6,1
-Chinese,Russia,45,72,1008,72,Chen I Li,21:57,8,3/8,1/2,2/6,0/0,1,2,3,2,0,0,3,0,-12,11
-Chinese,Russia,45,72,1008,73,Yu Wen Wang,17:34,0,0/5,0/1,0/4,0/0,1,3,4,2,2,0,0,0,-22,1
+Russia,Chinese Taipei,72,45,1008,10,Iana Elberg,15:19,7,2/5,1/2,1/3,2/2,1,3,4,1,1,2,0,0,7,7
+Russia,Chinese Taipei,72,45,1008,12,Anastasiia Bocharova,15:34,0,0/8,0/3,0/5,0/0,2,3,5,1,3,0,0,0,14,-2
+Russia,Chinese Taipei,72,45,1008,13,Valeriia Iakovleva,11:19,6,3/4,3/4,0/0,0/0,1,3,4,0,1,2,1,1,9,9
+Russia,Chinese Taipei,72,45,1008,14,Olairi Kosu,16:14,15,6/10,6/9,0/1,3/4,3,7,10,0,1,3,0,1,4,18
+Russia,Chinese Taipei,72,45,1008,16,Ekaterina Koshechkina,12:24,4,2/6,2/5,0/1,0/0,0,3,3,3,0,1,1,2,4,8
+Russia,Chinese Taipei,72,45,1008,23,Iana Pashkovskaia,16:47,6,2/3,0/0,2/3,0/0,0,1,1,1,1,1,1,0,7,7
+Russia,Chinese Taipei,72,45,1008,25,Maria Rodionova,21:28,4,2/6,2/3,0/3,0/0,2,5,7,4,1,2,0,0,26,9
+Russia,Chinese Taipei,72,45,1008,31,Veronika Loginova,15:50,3,1/1,0/0,1/1,0/0,0,1,1,4,0,4,0,0,3,4
+Russia,Chinese Taipei,72,45,1008,51,Anastasiia Odintcova,20:53,20,9/12,9/12,0/0,2/3,6,5,11,0,1,1,1,0,18,27
+Russia,Chinese Taipei,72,45,1008,77,Kristina Savkovich,13:51,0,0/1,0/1,0/0,0/0,0,2,2,3,0,2,0,0,3,2
+Russia,Chinese Taipei,72,45,1008,81,Elza Sirazutdinova,17:08,4,2/6,2/5,0/1,0/0,3,3,6,0,2,1,2,0,20,7
+Russia,Chinese Taipei,72,45,1008,99,Olesia  Tumanova,23:13,3,1/9,0/3,1/6,0/0,1,1,2,5,1,2,0,0,20,0
+Chinese Taipei,Russia,45,72,1008,0,Yu Chieh Chen,18:20,4,2/10,2/7,0/3,0/2,0,1,1,0,2,2,0,0,-17,-7
+Chinese Taipei,Russia,45,72,1008,1,Han Chun Chiang,01:49,0,0/1,0/1,0/0,0/0,0,0,0,0,0,0,0,0,4,-1
+Chinese Taipei,Russia,45,72,1008,2,Ze Sin Chiang,07:44,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,3,0,-7,3
+Chinese Taipei,Russia,45,72,1008,3,Shu Chun Tang,17:09,11,5/8,4/5,1/3,0/0,0,0,0,2,2,1,1,0,-13,10
+Chinese Taipei,Russia,45,72,1008,4,Yi Hua Li,34:39,9,3/8,0/3,3/5,0/0,2,2,4,2,0,1,3,1,-21,13
+Chinese Taipei,Russia,45,72,1008,6,Wen Ling Lien,19:17,0,0/5,0/0,0/5,0/0,0,0,0,0,0,0,0,0,-16,-5
+Chinese Taipei,Russia,45,72,1008,7,Yun Feng Chao,07:57,4,2/3,2/3,0/0,0/0,0,1,1,0,3,1,0,0,2,3
+Chinese Taipei,Russia,45,72,1008,9,Chih Ying Chen,22:47,4,1/8,1/7,0/1,2/3,0,2,2,2,1,1,3,1,-12,3
+Chinese Taipei,Russia,45,72,1008,10,Hung Ting Kuo,21:16,5,2/9,2/7,0/2,1/2,0,5,5,0,1,4,1,0,-15,-1
+Chinese Taipei,Russia,45,72,1008,21,Jhih Tong Yeh,09:31,0,0/1,0/1,0/0,0/0,0,0,0,2,1,0,0,0,-6,1
+Chinese Taipei,Russia,45,72,1008,72,Chen I Li,21:57,8,3/8,1/2,2/6,0/0,1,2,3,2,0,0,3,0,-12,11
+Chinese Taipei,Russia,45,72,1008,73,Yu Wen Wang,17:34,0,0/5,0/1,0/4,0/0,1,3,4,2,2,0,0,0,-22,1
 Hungary,Argentina,80,29,1008,2,Zsuzsanna Sitku,20:20,8,4/9,4/9,0/0,0/0,2,4,6,1,1,4,1,2,9,9
 Hungary,Argentina,80,29,1008,5,Aya Kéita,18:52,6,3/7,3/6,0/1,0/0,0,2,2,0,0,2,0,0,17,2
 Hungary,Argentina,80,29,1008,6,Lilla Rozmán,18:29,3,1/1,0/0,1/1,0/0,0,1,1,3,2,3,0,1,24,5
@@ -647,30 +647,30 @@ Czech Republic,Brazil,74,64,1108,14,Martina Pokorna,24:55,12,4/9,3/8,1/1,3/6,4,1
 Czech Republic,Brazil,74,64,1108,15,Julia Vydrova,13:39,0,0/5,0/5,0/0,0/0,0,2,2,0,0,1,1,0,-6,-3
 Czech Republic,Brazil,74,64,1108,17,Eliska Brejchova,03:19,0,0/4,0/2,0/2,0/0,0,0,0,0,0,0,0,0,-5,-4
 Czech Republic,Brazil,74,64,1108,24,Valentyna Kadlecova,27:20,12,4/17,2/7,2/10,2/2,1,2,3,4,4,1,0,0,24,5
-USA,Taipei,129,45,1108,4,Diamond Johnson,25:36,14,6/11,4/5,2/6,0/0,1,1,2,7,0,2,1,0,46,17
-USA,Taipei,129,45,1108,5,Jewel Spear,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
-USA,Taipei,129,45,1108,6,Caitlin Clark,21:21,10,3/9,1/3,2/6,2/4,1,4,5,8,0,0,1,1,55,17
-USA,Taipei,129,45,1108,7,Jersey Wolfenbarger,18:44,5,2/5,2/4,0/1,1/2,4,5,9,2,2,1,0,1,22,12
-USA,Taipei,129,45,1108,8,Azzi Fudd,16:21,12,4/7,0/1,4/6,0/0,1,0,1,3,1,0,2,0,55,15
-USA,Taipei,129,45,1108,9,Amari DeBerry,12:07,2,1/3,1/3,0/0,0/2,2,7,9,0,0,1,0,1,22,7
-USA,Taipei,129,45,1108,10,Payton Verhulst,21:47,18,8/13,6/8,2/5,0/0,2,6,8,6,1,0,2,1,41,30
-USA,Taipei,129,45,1108,11,Sania Feagin,13:53,14,6/9,6/9,0/0,2/3,4,5,9,1,2,1,0,0,22,19
-USA,Taipei,129,45,1108,12,Te-Hina Paopao,24:51,16,6/12,3/7,3/5,1/2,3,5,8,4,0,0,1,0,43,22
-USA,Taipei,129,45,1108,13,Lauren  Ware,11:56,11,5/6,5/6,0/0,1/4,4,0,4,3,0,0,1,0,37,15
-USA,Taipei,129,45,1108,14,Sonia Citron,20:28,13,5/8,4/5,1/3,2/2,1,5,6,3,0,2,4,0,48,21
-USA,Taipei,129,45,1108,15,Lauren Betts,12:59,14,6/7,6/7,0/0,2/2,3,3,6,1,0,2,0,0,29,18
-Chinese,USA,45,129,1108,0,Yu Chieh Chen,20:33,8,3/7,1/2,2/5,0/0,0,0,0,0,2,2,1,0,-36,3
-Chinese,USA,45,129,1108,1,Han Chun Chiang,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
-Chinese,USA,45,129,1108,2,Ze Sin Chiang,03:43,0,0/1,0/0,0/1,0/0,0,0,0,0,1,0,0,0,-4,-1
-Chinese,USA,45,129,1108,3,Shu Chun Tang,24:09,12,3/11,0/0,3/11,3/6,0,0,0,3,3,4,0,0,-50,0
-Chinese,USA,45,129,1108,4,Yi Hua Li,32:21,5,2/7,1/3,1/4,0/0,0,1,1,3,2,1,2,0,-75,5
-Chinese,USA,45,129,1108,6,Wen Ling Lien,14:54,5,2/7,1/2,1/5,0/0,1,1,2,0,1,1,1,0,-20,2
-Chinese,USA,45,129,1108,7,Yun Feng Chao,20:23,3,1/4,1/4,0/0,1/2,2,0,2,0,2,1,0,1,-42,1
-Chinese,USA,45,129,1108,9,Chih Ying Chen,24:23,4,2/9,2/6,0/3,0/0,1,4,5,1,2,2,1,1,-60,3
-Chinese,USA,45,129,1108,10,Hung Ting Kuo,26:21,2,1/8,1/6,0/2,0/0,1,2,3,0,1,2,0,0,-72,-4
-Chinese,USA,45,129,1108,21,Jhih Tong Yeh,15:47,3,1/6,0/4,1/2,0/0,1,1,2,3,0,2,0,0,-29,1
-Chinese,USA,45,129,1108,72,Chen I Li,10:30,0,0/4,0/0,0/4,0/0,0,1,1,2,1,1,0,0,-19,-2
-Chinese,USA,45,129,1108,73,Yu Wen Wang,06:56,3,1/3,0/1,1/2,0/0,0,2,2,0,1,2,0,0,-13,1
+USA,Chinese Taipei,129,45,1108,4,Diamond Johnson,25:36,14,6/11,4/5,2/6,0/0,1,1,2,7,0,2,1,0,46,17
+USA,Chinese Taipei,129,45,1108,5,Jewel Spear,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+USA,Chinese Taipei,129,45,1108,6,Caitlin Clark,21:21,10,3/9,1/3,2/6,2/4,1,4,5,8,0,0,1,1,55,17
+USA,Chinese Taipei,129,45,1108,7,Jersey Wolfenbarger,18:44,5,2/5,2/4,0/1,1/2,4,5,9,2,2,1,0,1,22,12
+USA,Chinese Taipei,129,45,1108,8,Azzi Fudd,16:21,12,4/7,0/1,4/6,0/0,1,0,1,3,1,0,2,0,55,15
+USA,Chinese Taipei,129,45,1108,9,Amari DeBerry,12:07,2,1/3,1/3,0/0,0/2,2,7,9,0,0,1,0,1,22,7
+USA,Chinese Taipei,129,45,1108,10,Payton Verhulst,21:47,18,8/13,6/8,2/5,0/0,2,6,8,6,1,0,2,1,41,30
+USA,Chinese Taipei,129,45,1108,11,Sania Feagin,13:53,14,6/9,6/9,0/0,2/3,4,5,9,1,2,1,0,0,22,19
+USA,Chinese Taipei,129,45,1108,12,Te-Hina Paopao,24:51,16,6/12,3/7,3/5,1/2,3,5,8,4,0,0,1,0,43,22
+USA,Chinese Taipei,129,45,1108,13,Lauren  Ware,11:56,11,5/6,5/6,0/0,1/4,4,0,4,3,0,0,1,0,37,15
+USA,Chinese Taipei,129,45,1108,14,Sonia Citron,20:28,13,5/8,4/5,1/3,2/2,1,5,6,3,0,2,4,0,48,21
+USA,Chinese Taipei,129,45,1108,15,Lauren Betts,12:59,14,6/7,6/7,0/0,2/2,3,3,6,1,0,2,0,0,29,18
+Chinese Taipei,USA,45,129,1108,0,Yu Chieh Chen,20:33,8,3/7,1/2,2/5,0/0,0,0,0,0,2,2,1,0,-36,3
+Chinese Taipei,USA,45,129,1108,1,Han Chun Chiang,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Chinese Taipei,USA,45,129,1108,2,Ze Sin Chiang,03:43,0,0/1,0/0,0/1,0/0,0,0,0,0,1,0,0,0,-4,-1
+Chinese Taipei,USA,45,129,1108,3,Shu Chun Tang,24:09,12,3/11,0/0,3/11,3/6,0,0,0,3,3,4,0,0,-50,0
+Chinese Taipei,USA,45,129,1108,4,Yi Hua Li,32:21,5,2/7,1/3,1/4,0/0,0,1,1,3,2,1,2,0,-75,5
+Chinese Taipei,USA,45,129,1108,6,Wen Ling Lien,14:54,5,2/7,1/2,1/5,0/0,1,1,2,0,1,1,1,0,-20,2
+Chinese Taipei,USA,45,129,1108,7,Yun Feng Chao,20:23,3,1/4,1/4,0/0,1/2,2,0,2,0,2,1,0,1,-42,1
+Chinese Taipei,USA,45,129,1108,9,Chih Ying Chen,24:23,4,2/9,2/6,0/3,0/0,1,4,5,1,2,2,1,1,-60,3
+Chinese Taipei,USA,45,129,1108,10,Hung Ting Kuo,26:21,2,1/8,1/6,0/2,0/0,1,2,3,0,1,2,0,0,-72,-4
+Chinese Taipei,USA,45,129,1108,21,Jhih Tong Yeh,15:47,3,1/6,0/4,1/2,0/0,1,1,2,3,0,2,0,0,-29,1
+Chinese Taipei,USA,45,129,1108,72,Chen I Li,10:30,0,0/4,0/0,0/4,0/0,0,1,1,2,1,1,0,0,-19,-2
+Chinese Taipei,USA,45,129,1108,73,Yu Wen Wang,06:56,3,1/3,0/1,1/2,0/0,0,2,2,0,1,2,0,0,-13,1
 Italy,Hungary,48,54,1108,5,Giorgia Bovenzi,33:45,7,2/11,1/6,1/5,2/2,0,1,1,3,2,4,3,0,4,1
 Italy,Hungary,48,54,1108,7,Francesca Leonardi,12:02,2,1/3,1/2,0/1,0/0,1,2,3,0,0,0,0,0,-7,3
 Italy,Hungary,48,54,1108,8,Vittoria Allievi,07:45,0,0/1,0/1,0/0,0/0,0,0,0,1,2,1,3,0,0,2
@@ -743,30 +743,30 @@ Argentina,Australia,35,66,1108,15,Julia Fernandez,12:48,2,1/4,1/3,0/1,0/0,1,1,2,
 Argentina,Australia,35,66,1108,19,Delfina Saravia,12:00,0,0/3,0/3,0/0,0/0,0,1,1,0,5,1,0,0,-13,-3
 Argentina,Australia,35,66,1108,22,Giuliana Baccareli,17:06,0,0/3,0/2,0/1,0/0,0,2,2,3,4,3,1,0,-10,0
 Argentina,Australia,35,66,1108,23,Victoria Michel,13:59,2,1/2,1/2,0/0,0/0,0,3,3,0,3,2,1,0,-21,3
-Chinese,Japan,42,111,1308,0,Yu Chieh Chen,20:21,5,1/9,1/5,0/4,3/4,0,2,2,0,1,3,3,1,-37,-1
-Chinese,Japan,42,111,1308,1,Han Chun Chiang,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
-Chinese,Japan,42,111,1308,2,Ze Sin Chiang,05:27,0,0/0,0/0,0/0,0/0,0,1,1,0,0,1,0,0,-11,0
-Chinese,Japan,42,111,1308,3,Shu Chun Tang,21:16,6,2/8,0/1,2/7,0/0,0,1,1,2,1,3,0,0,-49,0
-Chinese,Japan,42,111,1308,4,Yi Hua Li,35:32,0,0/5,0/1,0/4,0/0,1,3,4,0,3,4,0,1,-62,-4
-Chinese,Japan,42,111,1308,6,Wen Ling Lien,11:09,0,0/3,0/1,0/2,0/0,0,0,0,0,0,1,0,0,-24,-4
-Chinese,Japan,42,111,1308,7,Yun Feng Chao,11:49,0,0/1,0/1,0/0,0/0,1,2,3,1,0,1,0,0,-18,2
-Chinese,Japan,42,111,1308,9,Chih Ying Chen,29:02,5,2/9,2/9,0/0,1/2,1,2,3,3,0,1,0,0,-44,2
-Chinese,Japan,42,111,1308,10,Hung Ting Kuo,30:21,17,7/21,6/18,1/3,2/2,4,2,6,0,1,1,1,1,-54,10
-Chinese,Japan,42,111,1308,21,Jhih Tong Yeh,21:53,9,3/9,2/8,1/1,2/2,3,0,3,1,0,0,1,0,-21,8
-Chinese,Japan,42,111,1308,72,Chen I Li,13:10,0,0/0,0/0,0/0,0/0,0,1,1,0,0,1,1,0,-25,1
-Chinese,Japan,42,111,1308,73,Yu Wen Wang,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
-Taipei,Chinese,111,42,1308,0,Aoi Yamada,27:39,12,5/12,3/6,2/6,0/0,1,7,8,14,1,1,0,0,47,26
-Taipei,Chinese,111,42,1308,1,Yua Emura,12:21,5,2/4,2/3,0/1,1/1,0,4,4,5,0,1,0,0,22,11
-Taipei,Chinese,111,42,1308,2,Maho Hayashi,11:50,12,4/5,0/0,4/5,0/0,0,3,3,1,0,1,0,0,20,14
-Taipei,Chinese,111,42,1308,5,Kokomi Shiotani,17:19,11,5/5,5/5,0/0,1/1,4,2,6,1,1,2,2,0,32,18
-Taipei,Chinese,111,42,1308,9,Miyu Ogita,27:39,21,7/17,0/2,7/15,0/0,0,6,6,3,0,0,3,0,47,23
-Taipei,Chinese,111,42,1308,10,Mona Tateyama,12:44,6,3/6,3/6,0/0,0/1,1,0,1,0,1,0,2,0,27,5
-Taipei,Chinese,111,42,1308,14,Aika Hirashita,12:21,12,5/8,3/4,2/4,0/0,0,2,2,4,0,1,2,0,22,16
-Taipei,Chinese,111,42,1308,17,Nana Santa,14:46,3,1/3,0/2,1/1,0/0,2,2,4,1,4,1,0,0,17,5
-Taipei,Chinese,111,42,1308,36,Maho Awatani,23:25,8,4/6,4/6,0/0,0/0,4,4,8,2,3,1,0,3,37,18
-Taipei,Chinese,111,42,1308,42,Ufuoma Tanaka,11:46,4,2/2,2/2,0/0,0/0,1,4,5,1,1,0,0,0,25,10
-Taipei,Chinese,111,42,1308,52,Niko Matsumoto,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
-Taipei,Chinese,111,42,1308,75,Takako Sato,28:10,17,7/11,4/5,3/6,0/0,2,3,5,2,1,1,1,0,49,20
+Chinese Taipei,Japan,42,111,1308,0,Yu Chieh Chen,20:21,5,1/9,1/5,0/4,3/4,0,2,2,0,1,3,3,1,-37,-1
+Chinese Taipei,Japan,42,111,1308,1,Han Chun Chiang,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Chinese Taipei,Japan,42,111,1308,2,Ze Sin Chiang,05:27,0,0/0,0/0,0/0,0/0,0,1,1,0,0,1,0,0,-11,0
+Chinese Taipei,Japan,42,111,1308,3,Shu Chun Tang,21:16,6,2/8,0/1,2/7,0/0,0,1,1,2,1,3,0,0,-49,0
+Chinese Taipei,Japan,42,111,1308,4,Yi Hua Li,35:32,0,0/5,0/1,0/4,0/0,1,3,4,0,3,4,0,1,-62,-4
+Chinese Taipei,Japan,42,111,1308,6,Wen Ling Lien,11:09,0,0/3,0/1,0/2,0/0,0,0,0,0,0,1,0,0,-24,-4
+Chinese Taipei,Japan,42,111,1308,7,Yun Feng Chao,11:49,0,0/1,0/1,0/0,0/0,1,2,3,1,0,1,0,0,-18,2
+Chinese Taipei,Japan,42,111,1308,9,Chih Ying Chen,29:02,5,2/9,2/9,0/0,1/2,1,2,3,3,0,1,0,0,-44,2
+Chinese Taipei,Japan,42,111,1308,10,Hung Ting Kuo,30:21,17,7/21,6/18,1/3,2/2,4,2,6,0,1,1,1,1,-54,10
+Chinese Taipei,Japan,42,111,1308,21,Jhih Tong Yeh,21:53,9,3/9,2/8,1/1,2/2,3,0,3,1,0,0,1,0,-21,8
+Chinese Taipei,Japan,42,111,1308,72,Chen I Li,13:10,0,0/0,0/0,0/0,0/0,0,1,1,0,0,1,1,0,-25,1
+Chinese Taipei,Japan,42,111,1308,73,Yu Wen Wang,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Japan,Chinese Taipei,111,42,1308,0,Aoi Yamada,27:39,12,5/12,3/6,2/6,0/0,1,7,8,14,1,1,0,0,47,26
+Japan,Chinese Taipei,111,42,1308,1,Yua Emura,12:21,5,2/4,2/3,0/1,1/1,0,4,4,5,0,1,0,0,22,11
+Japan,Chinese Taipei,111,42,1308,2,Maho Hayashi,11:50,12,4/5,0/0,4/5,0/0,0,3,3,1,0,1,0,0,20,14
+Japan,Chinese Taipei,111,42,1308,5,Kokomi Shiotani,17:19,11,5/5,5/5,0/0,1/1,4,2,6,1,1,2,2,0,32,18
+Japan,Chinese Taipei,111,42,1308,9,Miyu Ogita,27:39,21,7/17,0/2,7/15,0/0,0,6,6,3,0,0,3,0,47,23
+Japan,Chinese Taipei,111,42,1308,10,Mona Tateyama,12:44,6,3/6,3/6,0/0,0/1,1,0,1,0,1,0,2,0,27,5
+Japan,Chinese Taipei,111,42,1308,14,Aika Hirashita,12:21,12,5/8,3/4,2/4,0/0,0,2,2,4,0,1,2,0,22,16
+Japan,Chinese Taipei,111,42,1308,17,Nana Santa,14:46,3,1/3,0/2,1/1,0/0,2,2,4,1,4,1,0,0,17,5
+Japan,Chinese Taipei,111,42,1308,36,Maho Awatani,23:25,8,4/6,4/6,0/0,0/0,4,4,8,2,3,1,0,3,37,18
+Japan,Chinese Taipei,111,42,1308,42,Ufuoma Tanaka,11:46,4,2/2,2/2,0/0,0/0,1,4,5,1,1,0,0,0,25,10
+Japan,Chinese Taipei,111,42,1308,52,Niko Matsumoto,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Japan,Chinese Taipei,111,42,1308,75,Takako Sato,28:10,17,7/11,4/5,3/6,0/0,2,3,5,2,1,1,1,0,49,20
 Australia,Canada,72,61,1308,4,Kate Deeble,33:42,6,2/7,1/4,1/3,1/2,1,6,7,6,3,3,4,2,9,16
 Australia,Canada,72,61,1308,5,Isabelle Morgan,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
 Australia,Canada,72,61,1308,6,Jade Melbourne,37:33,20,7/14,5/8,2/6,4/4,2,7,9,4,1,3,2,0,10,25
@@ -935,30 +935,30 @@ Spain,USA,64,98,1308,14,Elba  Garfella,14:22,4,2/4,2/3,0/1,0/0,0,1,1,1,0,2,1,2,-
 Spain,USA,64,98,1308,15,Gedna Capel Cilla,15:22,2,1/5,1/5,0/0,0/2,0,2,2,2,3,1,0,0,-20,-1
 Spain,USA,64,98,1308,16,Marta Garcia Mateo,11:29,2,1/3,1/3,0/0,0/0,1,2,3,1,2,0,0,0,-16,4
 Spain,USA,64,98,1308,17,Marta Suarez Rodriguez,12:50,8,4/10,4/9,0/1,0/0,2,0,2,0,3,4,0,0,-15,0
-Chinese,Brazil,86,70,1408,0,Yu Chieh Chen,27:30,18,5/11,2/4,3/7,5/5,0,4,4,2,2,1,4,3,20,24
-Chinese,Brazil,86,70,1408,1,Han Chun Chiang,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
-Chinese,Brazil,86,70,1408,2,Ze Sin Chiang,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
-Chinese,Brazil,86,70,1408,3,Shu Chun Tang,24:48,9,3/7,2/2,1/5,2/3,0,3,3,1,3,2,0,0,16,6
-Chinese,Brazil,86,70,1408,4,Yi Hua Li,35:41,10,4/7,4/6,0/1,2/3,0,1,1,5,1,0,4,0,8,16
-Chinese,Brazil,86,70,1408,6,Wen Ling Lien,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
-Chinese,Brazil,86,70,1408,7,Yun Feng Chao,10:39,5,2/3,2/3,0/0,1/2,2,2,4,0,2,0,0,0,0,7
-Chinese,Brazil,86,70,1408,9,Chih Ying Chen,33:27,21,7/13,5/8,2/5,5/6,1,5,6,5,1,4,1,1,17,23
-Chinese,Brazil,86,70,1408,10,Hung Ting Kuo,35:06,16,7/17,7/15,0/2,2/5,4,6,10,3,1,3,4,1,19,18
-Chinese,Brazil,86,70,1408,21,Jhih Tong Yeh,19:31,4,2/5,2/3,0/2,0/0,2,3,5,4,0,2,0,0,8,8
-Chinese,Brazil,86,70,1408,72,Chen I Li,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
-Chinese,Brazil,86,70,1408,73,Yu Wen Wang,13:17,3,1/5,0/1,1/4,0/0,1,3,4,0,0,1,0,0,-8,2
-Taipei,Chinese,70,86,1408,2,Maria Eduarda Autran,05:01,0,0/1,0/0,0/1,0/0,0,0,0,2,0,0,0,0,-4,1
-Taipei,Chinese,70,86,1408,4,Raiane Dias do Santos,18:51,4,1/5,0/4,1/1,1/2,0,2,2,0,3,4,1,1,-20,-1
-Taipei,Chinese,70,86,1408,5,Beatriz Aneas,24:54,15,5/10,0/1,5/9,0/0,0,5,5,4,4,1,1,1,-1,20
-Taipei,Chinese,70,86,1408,6,Geovana Thaina Neves de Oliveira,13:25,3,1/6,0/3,1/3,0/0,1,2,3,1,2,3,0,0,-14,-1
-Taipei,Chinese,70,86,1408,7,Allanis Delboni da Silva,08:45,2,1/6,1/4,0/2,0/0,3,1,4,0,0,1,0,1,0,1
-Taipei,Chinese,70,86,1408,8,Ana Paula de Oliveira,11:39,6,2/6,0/0,2/6,0/0,1,0,1,1,0,0,2,0,6,6
-Taipei,Chinese,70,86,1408,9,Stephany Gonçalves,02:22,0,0/1,0/1,0/0,0/0,0,0,0,1,1,0,0,0,-1,0
-Taipei,Chinese,70,86,1408,11,Leticia Rechembak,15:27,2,0/2,0/0,0/2,2/2,0,2,2,1,2,2,1,0,10,2
-Taipei,Chinese,70,86,1408,12,Adrielly Francisco de Oliveira,19:27,14,6/15,6/14,0/1,2/3,4,3,7,0,1,4,1,0,-7,8
-Taipei,Chinese,70,86,1408,13,Maisa Pereira,20:58,13,5/7,5/7,0/0,3/4,4,1,5,3,4,0,0,0,-10,18
-Taipei,Chinese,70,86,1408,14,Bianca D'arrigo Soares,26:02,7,3/8,2/4,1/4,0/0,2,5,7,6,0,1,0,1,-18,15
-Taipei,Chinese,70,86,1408,21,Maiara Pereira,33:10,4,2/10,2/10,0/0,0/0,6,4,10,3,1,2,2,1,-21,10
+Chinese Taipei,Brazil,86,70,1408,0,Yu Chieh Chen,27:30,18,5/11,2/4,3/7,5/5,0,4,4,2,2,1,4,3,20,24
+Chinese Taipei,Brazil,86,70,1408,1,Han Chun Chiang,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Chinese Taipei,Brazil,86,70,1408,2,Ze Sin Chiang,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Chinese Taipei,Brazil,86,70,1408,3,Shu Chun Tang,24:48,9,3/7,2/2,1/5,2/3,0,3,3,1,3,2,0,0,16,6
+Chinese Taipei,Brazil,86,70,1408,4,Yi Hua Li,35:41,10,4/7,4/6,0/1,2/3,0,1,1,5,1,0,4,0,8,16
+Chinese Taipei,Brazil,86,70,1408,6,Wen Ling Lien,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Chinese Taipei,Brazil,86,70,1408,7,Yun Feng Chao,10:39,5,2/3,2/3,0/0,1/2,2,2,4,0,2,0,0,0,0,7
+Chinese Taipei,Brazil,86,70,1408,9,Chih Ying Chen,33:27,21,7/13,5/8,2/5,5/6,1,5,6,5,1,4,1,1,17,23
+Chinese Taipei,Brazil,86,70,1408,10,Hung Ting Kuo,35:06,16,7/17,7/15,0/2,2/5,4,6,10,3,1,3,4,1,19,18
+Chinese Taipei,Brazil,86,70,1408,21,Jhih Tong Yeh,19:31,4,2/5,2/3,0/2,0/0,2,3,5,4,0,2,0,0,8,8
+Chinese Taipei,Brazil,86,70,1408,72,Chen I Li,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Chinese Taipei,Brazil,86,70,1408,73,Yu Wen Wang,13:17,3,1/5,0/1,1/4,0/0,1,3,4,0,0,1,0,0,-8,2
+Brazil,Chinese Taipei,70,86,1408,2,Maria Eduarda Autran,05:01,0,0/1,0/0,0/1,0/0,0,0,0,2,0,0,0,0,-4,1
+Brazil,Chinese Taipei,70,86,1408,4,Raiane Dias do Santos,18:51,4,1/5,0/4,1/1,1/2,0,2,2,0,3,4,1,1,-20,-1
+Brazil,Chinese Taipei,70,86,1408,5,Beatriz Aneas,24:54,15,5/10,0/1,5/9,0/0,0,5,5,4,4,1,1,1,-1,20
+Brazil,Chinese Taipei,70,86,1408,6,Geovana Thaina Neves de Oliveira,13:25,3,1/6,0/3,1/3,0/0,1,2,3,1,2,3,0,0,-14,-1
+Brazil,Chinese Taipei,70,86,1408,7,Allanis Delboni da Silva,08:45,2,1/6,1/4,0/2,0/0,3,1,4,0,0,1,0,1,0,1
+Brazil,Chinese Taipei,70,86,1408,8,Ana Paula de Oliveira,11:39,6,2/6,0/0,2/6,0/0,1,0,1,1,0,0,2,0,6,6
+Brazil,Chinese Taipei,70,86,1408,9,Stephany Gonçalves,02:22,0,0/1,0/1,0/0,0/0,0,0,0,1,1,0,0,0,-1,0
+Brazil,Chinese Taipei,70,86,1408,11,Leticia Rechembak,15:27,2,0/2,0/0,0/2,2/2,0,2,2,1,2,2,1,0,10,2
+Brazil,Chinese Taipei,70,86,1408,12,Adrielly Francisco de Oliveira,19:27,14,6/15,6/14,0/1,2/3,4,3,7,0,1,4,1,0,-7,8
+Brazil,Chinese Taipei,70,86,1408,13,Maisa Pereira,20:58,13,5/7,5/7,0/0,3/4,4,1,5,3,4,0,0,0,-10,18
+Brazil,Chinese Taipei,70,86,1408,14,Bianca D'arrigo Soares,26:02,7,3/8,2/4,1/4,0/0,2,5,7,6,0,1,0,1,-18,15
+Brazil,Chinese Taipei,70,86,1408,21,Maiara Pereira,33:10,4,2/10,2/10,0/0,0/0,6,4,10,3,1,2,2,1,-21,10
 Canada,Russia,66,58,1408,4,Shayeann Day Wilson,35:20,22,8/18,7/13,1/5,5/7,1,10,11,2,2,6,1,0,-1,18
 Canada,Russia,66,58,1408,5,Deja Lee,15:22,2,1/2,1/2,0/0,0/2,5,5,10,2,1,2,1,0,8,10
 Canada,Russia,66,58,1408,6,Rosalie Mercille,18:50,3,1/3,0/1,1/2,0/0,0,1,1,1,2,2,2,0,-4,3
@@ -1147,29 +1147,29 @@ Argentina,Brazil,69,63,1508,15,Julia Fernandez,10:22,1,0/2,0/2,0/0,1/2,0,0,0,0,1
 Argentina,Brazil,69,63,1508,19,Delfina Saravia,24:18,2,0/2,0/2,0/0,2/4,0,4,4,1,2,2,2,0,4,3
 Argentina,Brazil,69,63,1508,22,Giuliana Baccareli,16:57,5,2/6,1/5,1/1,0/0,0,1,1,4,1,1,2,0,-2,7
 Argentina,Brazil,69,63,1508,23,Victoria Michel,13:33,2,1/7,1/6,0/1,0/0,1,1,2,0,2,1,0,0,3,-3
-Chinese,Korea,50,55,1508,0,Yu Chieh Chen,24:59,7,3/12,2/5,1/7,0/0,0,0,0,0,0,1,1,0,-7,-2
-Chinese,Korea,50,55,1508,1,Han Chun Chiang,04:55,2,1/1,1/1,0/0,0/0,0,0,0,0,0,0,1,0,0,3
-Chinese,Korea,50,55,1508,2,Ze Sin Chiang,02:56,0,0/0,0/0,0/0,0/0,1,0,1,0,0,0,1,0,-2,2
-Chinese,Korea,50,55,1508,3,Shu Chun Tang,21:44,4,2/8,2/5,0/3,0/0,0,3,3,1,1,1,1,0,-2,2
-Chinese,Korea,50,55,1508,4,Yi Hua Li,34:17,7,3/9,2/5,1/4,0/0,2,0,2,4,2,2,5,0,-12,10
-Chinese,Korea,50,55,1508,6,Wen Ling Lien,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
-Chinese,Korea,50,55,1508,7,Yun Feng Chao,13:52,0,0/2,0/2,0/0,0/0,2,3,5,2,2,1,0,0,10,4
-Chinese,Korea,50,55,1508,9,Chih Ying Chen,33:33,15,6/12,4/10,2/2,1/2,2,7,9,2,2,1,3,0,2,21
-Chinese,Korea,50,55,1508,10,Hung Ting Kuo,25:25,6,3/13,3/11,0/2,0/0,1,2,3,2,0,2,1,0,-20,0
-Chinese,Korea,50,55,1508,21,Jhih Tong Yeh,19:04,7,3/5,2/2,1/3,0/0,0,4,4,1,3,2,3,0,4,11
-Chinese,Korea,50,55,1508,72,Chen I Li,06:01,2,1/1,1/1,0/0,0/0,0,0,0,0,0,1,0,0,3,1
-Chinese,Korea,50,55,1508,73,Yu Wen Wang,13:14,0,0/2,0/0,0/2,0/0,1,2,3,0,0,1,0,0,-1,0
-Taipei,Chinese,55,50,1508,0,Minji JUNG,12:34,3,1/9,0/2,1/7,0/0,0,0,0,0,0,0,1,0,12,-4
-Taipei,Chinese,55,50,1508,2,Eunchae Ko,07:36,0,0/1,0/0,0/1,0/0,1,3,4,1,0,2,0,0,5,2
-Taipei,Chinese,55,50,1508,3,Sooah Cho,29:47,11,4/8,3/3,1/5,2/2,3,10,13,4,0,3,0,0,7,21
-Taipei,Chinese,55,50,1508,5,Jinyoung Park,11:49,1,0/7,0/3,0/4,1/3,0,2,2,0,0,1,0,0,-8,-7
-Taipei,Chinese,55,50,1508,7,Sohee Park,27:52,9,3/9,0/1,3/8,0/0,2,1,3,4,1,4,0,0,4,6
-Taipei,Chinese,55,50,1508,11,Jiyeong Moon,04:55,0,0/2,0/2,0/0,0/0,3,0,3,1,0,0,0,0,0,2
-Taipei,Chinese,55,50,1508,12,Yeyeong Shin,20:22,5,2/7,1/3,1/4,0/0,2,0,2,1,1,0,0,0,-9,3
-Taipei,Chinese,55,50,1508,13,Haeran Lee,36:18,14,7/8,7/7,0/1,0/0,4,14,18,2,1,5,4,0,7,32
-Taipei,Chinese,55,50,1508,15,Seongjin Park,10:48,4,2/2,2/2,0/0,0/0,0,1,1,0,0,0,0,0,-3,5
-Taipei,Chinese,55,50,1508,17,Yujin Lee,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
-Taipei,Chinese,55,50,1508,23,Sojung Byun,37:59,8,3/9,1/5,2/4,0/0,1,2,3,4,0,5,4,1,10,9
+Chinese Taipei,Korea,50,55,1508,0,Yu Chieh Chen,24:59,7,3/12,2/5,1/7,0/0,0,0,0,0,0,1,1,0,-7,-2
+Chinese Taipei,Korea,50,55,1508,1,Han Chun Chiang,04:55,2,1/1,1/1,0/0,0/0,0,0,0,0,0,0,1,0,0,3
+Chinese Taipei,Korea,50,55,1508,2,Ze Sin Chiang,02:56,0,0/0,0/0,0/0,0/0,1,0,1,0,0,0,1,0,-2,2
+Chinese Taipei,Korea,50,55,1508,3,Shu Chun Tang,21:44,4,2/8,2/5,0/3,0/0,0,3,3,1,1,1,1,0,-2,2
+Chinese Taipei,Korea,50,55,1508,4,Yi Hua Li,34:17,7,3/9,2/5,1/4,0/0,2,0,2,4,2,2,5,0,-12,10
+Chinese Taipei,Korea,50,55,1508,6,Wen Ling Lien,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Chinese Taipei,Korea,50,55,1508,7,Yun Feng Chao,13:52,0,0/2,0/2,0/0,0/0,2,3,5,2,2,1,0,0,10,4
+Chinese Taipei,Korea,50,55,1508,9,Chih Ying Chen,33:33,15,6/12,4/10,2/2,1/2,2,7,9,2,2,1,3,0,2,21
+Chinese Taipei,Korea,50,55,1508,10,Hung Ting Kuo,25:25,6,3/13,3/11,0/2,0/0,1,2,3,2,0,2,1,0,-20,0
+Chinese Taipei,Korea,50,55,1508,21,Jhih Tong Yeh,19:04,7,3/5,2/2,1/3,0/0,0,4,4,1,3,2,3,0,4,11
+Chinese Taipei,Korea,50,55,1508,72,Chen I Li,06:01,2,1/1,1/1,0/0,0/0,0,0,0,0,0,1,0,0,3,1
+Chinese Taipei,Korea,50,55,1508,73,Yu Wen Wang,13:14,0,0/2,0/0,0/2,0/0,1,2,3,0,0,1,0,0,-1,0
+Korea,Chinese Taipei,55,50,1508,0,Minji JUNG,12:34,3,1/9,0/2,1/7,0/0,0,0,0,0,0,0,1,0,12,-4
+Korea,Chinese Taipei,55,50,1508,2,Eunchae Ko,07:36,0,0/1,0/0,0/1,0/0,1,3,4,1,0,2,0,0,5,2
+Korea,Chinese Taipei,55,50,1508,3,Sooah Cho,29:47,11,4/8,3/3,1/5,2/2,3,10,13,4,0,3,0,0,7,21
+Korea,Chinese Taipei,55,50,1508,5,Jinyoung Park,11:49,1,0/7,0/3,0/4,1/3,0,2,2,0,0,1,0,0,-8,-7
+Korea,Chinese Taipei,55,50,1508,7,Sohee Park,27:52,9,3/9,0/1,3/8,0/0,2,1,3,4,1,4,0,0,4,6
+Korea,Chinese Taipei,55,50,1508,11,Jiyeong Moon,04:55,0,0/2,0/2,0/0,0/0,3,0,3,1,0,0,0,0,0,2
+Korea,Chinese Taipei,55,50,1508,12,Yeyeong Shin,20:22,5,2/7,1/3,1/4,0/0,2,0,2,1,1,0,0,0,-9,3
+Korea,Chinese Taipei,55,50,1508,13,Haeran Lee,36:18,14,7/8,7/7,0/1,0/0,4,14,18,2,1,5,4,0,7,32
+Korea,Chinese Taipei,55,50,1508,15,Seongjin Park,10:48,4,2/2,2/2,0/0,0/0,0,1,1,0,0,0,0,0,-3,5
+Korea,Chinese Taipei,55,50,1508,17,Yujin Lee,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Korea,Chinese Taipei,55,50,1508,23,Sojung Byun,37:59,8,3/9,1/5,2/4,0/0,1,2,3,4,0,5,4,1,10,9
 Spain,Russia,60,51,1508,4,Mama Dembele Traore,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
 Spain,Russia,60,51,1508,5,Laia Lamana Llobera,36:35,12,5/8,4/4,1/4,1/2,0,2,2,4,4,3,5,2,3,18
 Spain,Russia,60,51,1508,7,Claudia Contell,25:18,8,3/10,3/8,0/2,2/2,0,3,3,1,1,0,2,0,7,7
@@ -1228,17 +1228,17 @@ Czech Republic,Canada,61,72,1508,14,Martina Pokorna,16:49,3,1/4,1/3,0/1,1/2,1,2,
 Czech Republic,Canada,61,72,1508,15,Julia Vydrova,07:59,0,0/2,0/2,0/0,0/0,2,0,2,2,0,0,0,0,-4,2
 Czech Republic,Canada,61,72,1508,17,Eliska Brejchova,14:33,6,2/10,1/4,1/6,1/2,1,0,1,0,2,2,0,0,-11,-4
 Czech Republic,Canada,61,72,1508,24,Valentyna Kadlecova,20:10,4,1/8,1/5,0/3,2/2,0,3,3,3,5,1,1,0,2,3
-Czech Republic,Czech Republic,72,61,1508,4,Shayeann Day Wilson,36:32,7,3/13,2/7,1/6,0/0,1,4,5,7,3,8,0,0,8,1
-Czech Republic,Czech Republic,72,61,1508,5,Deja Lee,10:02,5,0/2,0/2,0/0,5/6,2,3,5,2,2,1,0,0,12,8
-Czech Republic,Czech Republic,72,61,1508,6,Rosalie Mercille,24:44,10,4/8,2/2,2/6,0/0,1,4,5,0,1,2,1,0,11,10
-Czech Republic,Czech Republic,72,61,1508,9,Tara Wallack,12:07,0,0/7,0/5,0/2,0/0,4,0,4,2,2,0,4,2,0,5
-Czech Republic,Czech Republic,72,61,1508,10,Yvonne Ejim,34:23,12,4/8,4/8,0/0,4/4,1,12,13,2,0,3,3,2,11,25
-Czech Republic,Czech Republic,72,61,1508,11,Lemyah Hylton,19:27,9,4/9,3/8,1/1,0/0,3,2,5,0,4,2,1,1,3,9
-Czech Republic,Czech Republic,72,61,1508,12,Isaline Alexander,16:17,8,3/4,3/4,0/0,2/3,2,2,4,0,1,0,1,0,4,11
-Czech Republic,Czech Republic,72,61,1508,13,Izabella Zingaro,10:20,5,1/1,1/1,0/0,3/4,1,1,2,0,0,1,0,0,5,5
-Czech Republic,Czech Republic,72,61,1508,15,Jessica Clarke,04:32,2,1/1,1/1,0/0,0/0,0,2,2,0,0,0,0,0,1,4
-Czech Republic,Czech Republic,72,61,1508,21,Emma Koabel,14:33,5,1/6,0/0,1/6,2/2,0,1,1,0,3,1,0,0,6,0
-Czech Republic,Czech Republic,72,61,1508,22,Aicha Dia,17:03,9,3/7,1/2,2/5,1/2,1,2,3,0,2,1,1,0,-6,7
+Canada,Czech Republic,72,61,1508,4,Shayeann Day Wilson,36:32,7,3/13,2/7,1/6,0/0,1,4,5,7,3,8,0,0,8,1
+Canada,Czech Republic,72,61,1508,5,Deja Lee,10:02,5,0/2,0/2,0/0,5/6,2,3,5,2,2,1,0,0,12,8
+Canada,Czech Republic,72,61,1508,6,Rosalie Mercille,24:44,10,4/8,2/2,2/6,0/0,1,4,5,0,1,2,1,0,11,10
+Canada,Czech Republic,72,61,1508,9,Tara Wallack,12:07,0,0/7,0/5,0/2,0/0,4,0,4,2,2,0,4,2,0,5
+Canada,Czech Republic,72,61,1508,10,Yvonne Ejim,34:23,12,4/8,4/8,0/0,4/4,1,12,13,2,0,3,3,2,11,25
+Canada,Czech Republic,72,61,1508,11,Lemyah Hylton,19:27,9,4/9,3/8,1/1,0/0,3,2,5,0,4,2,1,1,3,9
+Canada,Czech Republic,72,61,1508,12,Isaline Alexander,16:17,8,3/4,3/4,0/0,2/3,2,2,4,0,1,0,1,0,4,11
+Canada,Czech Republic,72,61,1508,13,Izabella Zingaro,10:20,5,1/1,1/1,0/0,3/4,1,1,2,0,0,1,0,0,5,5
+Canada,Czech Republic,72,61,1508,15,Jessica Clarke,04:32,2,1/1,1/1,0/0,0/0,0,2,2,0,0,0,0,0,1,4
+Canada,Czech Republic,72,61,1508,21,Emma Koabel,14:33,5,1/6,0/0,1/6,2/2,0,1,1,0,3,1,0,0,6,0
+Canada,Czech Republic,72,61,1508,22,Aicha Dia,17:03,9,3/7,1/2,2/5,1/2,1,2,3,0,2,1,1,0,-6,7
 Japan,France,68,62,1508,0,Aoi Yamada,10:02,3,1/3,0/2,1/1,0/0,0,2,2,2,0,1,0,0,-2,4
 Japan,France,68,62,1508,1,Yua Emura,29:58,13,6/12,5/6,1/6,0/0,0,1,1,2,1,2,0,0,8,8
 Japan,France,68,62,1508,2,Maho Hayashi,27:36,3,1/7,0/0,1/7,0/0,0,5,5,1,2,1,0,0,6,2

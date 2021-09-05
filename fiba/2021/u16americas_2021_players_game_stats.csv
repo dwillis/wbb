@@ -11,18 +11,18 @@ Puerto Rico,Costa Rica,60,45,2308,13,Mia  Canales,07:03,0,0/4,0/0,0/4,0/0,0,0,0,
 Puerto Rico,Costa Rica,60,45,2308,20,Sofia  Muñoz,22:13,9,4/9,3/5,1/4,0/0,2,4,6,1,0,3,0,0,22,8
 Puerto Rico,Costa Rica,60,45,2308,23,Arianis Rivera,21:20,3,1/8,1/7,0/1,1/1,3,5,8,0,3,3,0,0,7,1
 Puerto Rico,Costa Rica,60,45,2308,33,Sophia Martinez,08:54,0,0/3,0/2,0/1,0/2,0,5,5,0,2,3,1,0,-6,-2
-Puerto Rico,Puerto Rico,45,60,2308,4,Emily  Valencia,02:46,0,0/1,0/0,0/1,0/0,0,1,1,0,1,0,0,0,2,0
-Puerto Rico,Puerto Rico,45,60,2308,6,Valeria Perez,12:55,0,0/7,0/2,0/5,0/0,1,0,1,0,1,1,1,0,-6,-6
-Puerto Rico,Puerto Rico,45,60,2308,7,Genesis Villegas,06:38,0,0/3,0/0,0/3,0/0,0,2,2,0,0,3,0,0,-2,-4
-Puerto Rico,Puerto Rico,45,60,2308,9,Aaliyah Escoe,15:39,7,2/7,1/2,1/5,2/5,1,1,2,0,0,3,2,0,-3,0
-Puerto Rico,Puerto Rico,45,60,2308,10,Raquel Cordero,33:22,11,3/8,3/7,0/1,5/6,0,3,3,0,1,6,4,0,-13,6
-Puerto Rico,Puerto Rico,45,60,2308,11,Lucia Mc Guinness,31:38,7,3/10,3/10,0/0,1/2,2,4,6,0,3,2,2,0,-17,5
-Puerto Rico,Puerto Rico,45,60,2308,13,Montserrat Murillo,24:11,1,0/2,0/2,0/0,1/2,1,3,4,0,0,1,0,0,-13,1
-Puerto Rico,Puerto Rico,45,60,2308,17,Maria  Montero,30:12,8,3/4,3/4,0/0,2/4,2,5,7,0,1,1,1,2,-10,14
-Puerto Rico,Puerto Rico,45,60,2308,23,Amanda Desanti,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
-Puerto Rico,Puerto Rico,45,60,2308,26,Priscilla Arias,08:53,0,0/4,0/3,0/1,0/2,0,1,1,0,0,0,2,0,2,-3
-Puerto Rico,Puerto Rico,45,60,2308,28,Shaima  James,28:37,11,5/12,4/9,1/3,0/2,1,3,4,0,4,7,0,0,-12,-1
-Puerto Rico,Puerto Rico,45,60,2308,30,Keithel Rojas,05:09,0,0/1,0/1,0/0,0/0,0,1,1,0,0,0,0,0,-3,0
+Costa Rica,Puerto Rico,45,60,2308,4,Emily  Valencia,02:46,0,0/1,0/0,0/1,0/0,0,1,1,0,1,0,0,0,2,0
+Costa Rica,Puerto Rico,45,60,2308,6,Valeria Perez,12:55,0,0/7,0/2,0/5,0/0,1,0,1,0,1,1,1,0,-6,-6
+Costa Rica,Puerto Rico,45,60,2308,7,Genesis Villegas,06:38,0,0/3,0/0,0/3,0/0,0,2,2,0,0,3,0,0,-2,-4
+Costa Rica,Puerto Rico,45,60,2308,9,Aaliyah Escoe,15:39,7,2/7,1/2,1/5,2/5,1,1,2,0,0,3,2,0,-3,0
+Costa Rica,Puerto Rico,45,60,2308,10,Raquel Cordero,33:22,11,3/8,3/7,0/1,5/6,0,3,3,0,1,6,4,0,-13,6
+Costa Rica,Puerto Rico,45,60,2308,11,Lucia Mc Guinness,31:38,7,3/10,3/10,0/0,1/2,2,4,6,0,3,2,2,0,-17,5
+Costa Rica,Puerto Rico,45,60,2308,13,Montserrat Murillo,24:11,1,0/2,0/2,0/0,1/2,1,3,4,0,0,1,0,0,-13,1
+Costa Rica,Puerto Rico,45,60,2308,17,Maria  Montero,30:12,8,3/4,3/4,0/0,2/4,2,5,7,0,1,1,1,2,-10,14
+Costa Rica,Puerto Rico,45,60,2308,23,Amanda Desanti,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Costa Rica,Puerto Rico,45,60,2308,26,Priscilla Arias,08:53,0,0/4,0/3,0/1,0/2,0,1,1,0,0,0,2,0,2,-3
+Costa Rica,Puerto Rico,45,60,2308,28,Shaima  James,28:37,11,5/12,4/9,1/3,0/2,1,3,4,0,4,7,0,0,-12,-1
+Costa Rica,Puerto Rico,45,60,2308,30,Keithel Rojas,05:09,0,0/1,0/1,0/0,0/0,0,1,1,0,0,0,0,0,-3,0
 Canada,Brazil,82,56,2308,4,Taija Sta Maria,19:27,12,4/11,3/7,1/4,3/3,0,0,0,1,2,2,1,0,26,5
 Canada,Brazil,82,56,2308,5,Micaela Carter,17:04,0,0/5,0/3,0/2,0/2,1,0,1,0,1,3,1,0,-1,-8
 Canada,Brazil,82,56,2308,6,Delaney Gibb,22:20,14,5/8,4/5,1/3,3/5,2,5,7,0,2,1,3,1,27,19
@@ -107,18 +107,18 @@ Costa Rica,Canada,25,112,2408,23,Amanda Desanti,13:05,0,0/0,0/0,0/0,0/0,1,1,2,0,
 Costa Rica,Canada,25,112,2408,26,Priscilla Arias,18:00,4,2/7,2/7,0/0,0/0,0,0,0,0,0,2,0,0,-31,-3
 Costa Rica,Canada,25,112,2408,28,Shaima  James,20:42,4,2/12,2/7,0/5,0/4,0,1,1,2,2,5,0,0,-52,-12
 Costa Rica,Canada,25,112,2408,30,Keithel Rojas,14:30,0,0/2,0/2,0/0,0/2,0,1,1,0,1,2,0,0,-26,-5
-Costa Rica,Costa Rica,112,25,2408,4,Taija Sta Maria,16:01,10,4/9,3/4,1/5,1/2,1,3,4,3,0,0,3,0,37,14
-Costa Rica,Costa Rica,112,25,2408,5,Micaela Carter,19:43,6,2/8,2/6,0/2,2/2,2,1,3,3,0,0,2,0,41,8
-Costa Rica,Costa Rica,112,25,2408,6,Delaney Gibb,18:26,14,6/11,5/8,1/3,1/1,2,2,4,3,1,3,4,1,41,18
-Costa Rica,Costa Rica,112,25,2408,7,Kiera Pemberton,12:09,11,4/6,4/6,0/0,3/5,1,2,3,1,1,1,2,0,28,12
-Costa Rica,Costa Rica,112,25,2408,8,Tanah Becker,12:09,3,1/2,1/1,0/1,1/2,0,0,0,0,0,0,3,1,27,5
-Costa Rica,Costa Rica,112,25,2408,9,Bree Robinson,14:23,6,3/7,3/4,0/3,0/0,0,3,3,2,1,1,1,1,28,8
-Costa Rica,Costa Rica,112,25,2408,10,Sumer Lee,15:09,6,3/6,3/5,0/1,0/0,0,2,2,2,2,1,2,0,30,8
-Costa Rica,Costa Rica,112,25,2408,12,Raynne Malik,17:53,2,1/1,1/1,0/0,0/0,1,4,5,0,1,1,2,0,42,8
-Costa Rica,Costa Rica,112,25,2408,13,Summer Bostock,17:54,14,5/11,3/5,2/6,2/2,4,2,6,1,0,2,3,0,41,16
-Costa Rica,Costa Rica,112,25,2408,14,Cassandre Prosper,21:33,24,10/16,9/12,1/4,3/4,3,6,9,2,2,2,5,1,45,32
-Costa Rica,Costa Rica,112,25,2408,15,Marina Radocaj,18:28,8,4/6,4/5,0/1,0/0,4,0,4,1,0,1,1,0,39,11
-Costa Rica,Costa Rica,112,25,2408,22,Jada Bediako,16:12,8,4/8,4/8,0/0,0/0,2,4,6,0,1,0,0,0,36,10
+Canada,Costa Rica,112,25,2408,4,Taija Sta Maria,16:01,10,4/9,3/4,1/5,1/2,1,3,4,3,0,0,3,0,37,14
+Canada,Costa Rica,112,25,2408,5,Micaela Carter,19:43,6,2/8,2/6,0/2,2/2,2,1,3,3,0,0,2,0,41,8
+Canada,Costa Rica,112,25,2408,6,Delaney Gibb,18:26,14,6/11,5/8,1/3,1/1,2,2,4,3,1,3,4,1,41,18
+Canada,Costa Rica,112,25,2408,7,Kiera Pemberton,12:09,11,4/6,4/6,0/0,3/5,1,2,3,1,1,1,2,0,28,12
+Canada,Costa Rica,112,25,2408,8,Tanah Becker,12:09,3,1/2,1/1,0/1,1/2,0,0,0,0,0,0,3,1,27,5
+Canada,Costa Rica,112,25,2408,9,Bree Robinson,14:23,6,3/7,3/4,0/3,0/0,0,3,3,2,1,1,1,1,28,8
+Canada,Costa Rica,112,25,2408,10,Sumer Lee,15:09,6,3/6,3/5,0/1,0/0,0,2,2,2,2,1,2,0,30,8
+Canada,Costa Rica,112,25,2408,12,Raynne Malik,17:53,2,1/1,1/1,0/0,0/0,1,4,5,0,1,1,2,0,42,8
+Canada,Costa Rica,112,25,2408,13,Summer Bostock,17:54,14,5/11,3/5,2/6,2/2,4,2,6,1,0,2,3,0,41,16
+Canada,Costa Rica,112,25,2408,14,Cassandre Prosper,21:33,24,10/16,9/12,1/4,3/4,3,6,9,2,2,2,5,1,45,32
+Canada,Costa Rica,112,25,2408,15,Marina Radocaj,18:28,8,4/6,4/5,0/1,0/0,4,0,4,1,0,1,1,0,39,11
+Canada,Costa Rica,112,25,2408,22,Jada Bediako,16:12,8,4/8,4/8,0/0,0/0,2,4,6,0,1,0,0,0,36,10
 Brazil,Puerto Rico,67,74,2408,0,Ana Carolina Ferreira Lopes,07:50,0,0/2,0/0,0/2,0/0,0,2,2,1,0,1,0,0,-3,0
 Brazil,Puerto Rico,67,74,2408,4,Marcella Prande Freitas,33:14,5,2/9,1/5,1/4,0/0,0,3,3,4,2,4,0,1,-12,2
 Brazil,Puerto Rico,67,74,2408,6,Ana Beatriz Passos Alves Da Silva,35:10,23,8/17,8/17,0/0,7/12,13,9,22,4,1,6,1,0,7,30
@@ -203,18 +203,18 @@ Puerto Rico,Canada,50,102,2508,13,Mia  Canales,03:24,0,0/2,0/2,0/0,0/0,1,0,1,0,0
 Puerto Rico,Canada,50,102,2508,20,Sofia  Muñoz,25:28,11,3/11,2/9,1/2,4/5,4,4,8,0,1,3,2,0,-34,9
 Puerto Rico,Canada,50,102,2508,23,Arianis Rivera,16:38,3,1/5,0/4,1/1,0/2,1,1,2,0,2,1,0,0,-29,-2
 Puerto Rico,Canada,50,102,2508,33,Sophia Martinez,12:01,3,1/2,0/0,1/2,0/0,2,0,2,1,2,4,2,0,-20,3
-Puerto Rico,Puerto Rico,102,50,2508,4,Taija Sta Maria,20:13,2,0/4,0/1,0/3,2/2,4,3,7,6,0,1,2,0,26,12
-Puerto Rico,Puerto Rico,102,50,2508,5,Micaela Carter,12:38,3,1/5,0/2,1/3,0/0,1,2,3,0,0,2,0,0,13,0
-Puerto Rico,Puerto Rico,102,50,2508,6,Delaney Gibb,20:41,23,9/17,4/7,5/10,0/0,3,8,11,3,3,4,2,2,44,29
-Puerto Rico,Puerto Rico,102,50,2508,7,Kiera Pemberton,06:58,3,0/2,0/2,0/0,3/6,2,2,4,1,1,0,1,1,0,5
-Puerto Rico,Puerto Rico,102,50,2508,8,Tanah Becker,15:23,2,1/5,1/5,0/0,0/0,3,3,6,1,0,0,1,0,24,6
-Puerto Rico,Puerto Rico,102,50,2508,9,Bree Robinson,20:51,13,5/7,2/3,3/4,0/0,0,2,2,3,3,0,2,1,25,19
-Puerto Rico,Puerto Rico,102,50,2508,10,Sumer Lee,16:46,4,1/3,0/2,1/1,1/2,0,5,5,1,2,4,0,0,24,3
-Puerto Rico,Puerto Rico,102,50,2508,12,Raynne Malik,09:27,6,2/3,2/3,0/0,2/2,2,2,4,0,1,1,0,1,19,9
-Puerto Rico,Puerto Rico,102,50,2508,13,Summer Bostock,13:42,11,3/7,2/2,1/5,4/4,1,3,4,0,1,1,1,0,8,11
-Puerto Rico,Puerto Rico,102,50,2508,14,Cassandre Prosper,23:43,11,4/9,4/8,0/1,3/5,2,4,6,3,2,1,3,1,34,16
-Puerto Rico,Puerto Rico,102,50,2508,15,Marina Radocaj,19:13,11,4/9,4/9,0/0,3/5,5,3,8,1,1,2,0,2,24,13
-Puerto Rico,Puerto Rico,102,50,2508,22,Jada Bediako,20:25,13,5/8,5/8,0/0,3/7,5,2,7,0,4,1,0,2,19,14
+Canada,Puerto Rico,102,50,2508,4,Taija Sta Maria,20:13,2,0/4,0/1,0/3,2/2,4,3,7,6,0,1,2,0,26,12
+Canada,Puerto Rico,102,50,2508,5,Micaela Carter,12:38,3,1/5,0/2,1/3,0/0,1,2,3,0,0,2,0,0,13,0
+Canada,Puerto Rico,102,50,2508,6,Delaney Gibb,20:41,23,9/17,4/7,5/10,0/0,3,8,11,3,3,4,2,2,44,29
+Canada,Puerto Rico,102,50,2508,7,Kiera Pemberton,06:58,3,0/2,0/2,0/0,3/6,2,2,4,1,1,0,1,1,0,5
+Canada,Puerto Rico,102,50,2508,8,Tanah Becker,15:23,2,1/5,1/5,0/0,0/0,3,3,6,1,0,0,1,0,24,6
+Canada,Puerto Rico,102,50,2508,9,Bree Robinson,20:51,13,5/7,2/3,3/4,0/0,0,2,2,3,3,0,2,1,25,19
+Canada,Puerto Rico,102,50,2508,10,Sumer Lee,16:46,4,1/3,0/2,1/1,1/2,0,5,5,1,2,4,0,0,24,3
+Canada,Puerto Rico,102,50,2508,12,Raynne Malik,09:27,6,2/3,2/3,0/0,2/2,2,2,4,0,1,1,0,1,19,9
+Canada,Puerto Rico,102,50,2508,13,Summer Bostock,13:42,11,3/7,2/2,1/5,4/4,1,3,4,0,1,1,1,0,8,11
+Canada,Puerto Rico,102,50,2508,14,Cassandre Prosper,23:43,11,4/9,4/8,0/1,3/5,2,4,6,3,2,1,3,1,34,16
+Canada,Puerto Rico,102,50,2508,15,Marina Radocaj,19:13,11,4/9,4/9,0/0,3/5,5,3,8,1,1,2,0,2,24,13
+Canada,Puerto Rico,102,50,2508,22,Jada Bediako,20:25,13,5/8,5/8,0/0,3/7,5,2,7,0,4,1,0,2,19,14
 Brazil,Costa Rica,73,31,2508,0,Ana Carolina Ferreira Lopes,19:38,12,4/12,0/1,4/11,0/0,0,0,0,0,3,1,0,1,16,4
 Brazil,Costa Rica,73,31,2508,4,Marcella Prande Freitas,27:30,3,1/7,1/3,0/4,1/2,1,6,7,3,2,3,3,1,27,7
 Brazil,Costa Rica,73,31,2508,6,Ana Beatriz Passos Alves Da Silva,26:29,10,5/12,5/12,0/0,0/0,9,7,16,3,1,2,0,1,15,21
@@ -347,18 +347,18 @@ Puerto Rico,Mexico,66,67,2708,13,Mia  Canales,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,
 Puerto Rico,Mexico,66,67,2708,20,Sofia  Muñoz,34:06,5,1/7,1/6,0/1,3/6,3,2,5,2,2,1,0,0,-1,2
 Puerto Rico,Mexico,66,67,2708,23,Arianis Rivera,04:29,0,0/0,0/0,0/0,0/0,0,1,1,0,1,1,0,0,1,0
 Puerto Rico,Mexico,66,67,2708,33,Sophia Martinez,09:07,6,2/3,2/3,0/0,2/2,0,1,1,1,2,1,1,0,-3,7
-Puerto Rico,Puerto Rico,67,66,2708,1,Gizel Navarro,25:12,6,2/9,0/4,2/5,0/0,2,3,5,1,3,1,2,0,-1,6
-Puerto Rico,Puerto Rico,67,66,2708,3,Daniela Sauceda,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
-Puerto Rico,Puerto Rico,67,66,2708,4,Fatima Rubio,14:26,6,3/6,3/6,0/0,0/0,2,3,5,0,2,1,0,0,-3,7
-Puerto Rico,Puerto Rico,67,66,2708,6,Beatriz Zazueta,23:49,5,2/8,1/6,1/2,0/0,3,4,7,2,5,3,2,0,5,7
-Puerto Rico,Puerto Rico,67,66,2708,7,Daniela Mendoza,39:47,13,3/12,3/11,0/1,7/8,0,4,4,2,1,2,0,1,3,8
-Puerto Rico,Puerto Rico,67,66,2708,9,Loriette Maciel,31:10,9,3/12,3/10,0/2,3/7,1,6,7,5,3,7,6,2,3,9
-Puerto Rico,Puerto Rico,67,66,2708,10,Kitzia Cardona,06:51,0,0/1,0/1,0/0,0/0,1,0,1,1,1,0,0,0,-4,1
-Puerto Rico,Puerto Rico,67,66,2708,11,Ana Zesati,03:39,0,0/0,0/0,0/0,0/0,0,1,1,1,0,0,0,0,2,2
-Puerto Rico,Puerto Rico,67,66,2708,14,Valeria Flores,18:30,9,3/8,0/0,3/8,0/0,0,1,1,0,1,0,0,0,-3,5
-Puerto Rico,Puerto Rico,67,66,2708,21,Valeria Mora,18:01,13,5/9,5/9,0/0,3/4,5,5,10,1,5,2,0,4,5,21
-Puerto Rico,Puerto Rico,67,66,2708,28,Sara Guajardo,18:35,6,3/6,3/6,0/0,0/0,1,3,4,2,3,2,0,0,-2,7
-Puerto Rico,Puerto Rico,67,66,2708,30,Sofia Sevilla,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Mexico,Puerto Rico,67,66,2708,1,Gizel Navarro,25:12,6,2/9,0/4,2/5,0/0,2,3,5,1,3,1,2,0,-1,6
+Mexico,Puerto Rico,67,66,2708,3,Daniela Sauceda,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Mexico,Puerto Rico,67,66,2708,4,Fatima Rubio,14:26,6,3/6,3/6,0/0,0/0,2,3,5,0,2,1,0,0,-3,7
+Mexico,Puerto Rico,67,66,2708,6,Beatriz Zazueta,23:49,5,2/8,1/6,1/2,0/0,3,4,7,2,5,3,2,0,5,7
+Mexico,Puerto Rico,67,66,2708,7,Daniela Mendoza,39:47,13,3/12,3/11,0/1,7/8,0,4,4,2,1,2,0,1,3,8
+Mexico,Puerto Rico,67,66,2708,9,Loriette Maciel,31:10,9,3/12,3/10,0/2,3/7,1,6,7,5,3,7,6,2,3,9
+Mexico,Puerto Rico,67,66,2708,10,Kitzia Cardona,06:51,0,0/1,0/1,0/0,0/0,1,0,1,1,1,0,0,0,-4,1
+Mexico,Puerto Rico,67,66,2708,11,Ana Zesati,03:39,0,0/0,0/0,0/0,0/0,0,1,1,1,0,0,0,0,2,2
+Mexico,Puerto Rico,67,66,2708,14,Valeria Flores,18:30,9,3/8,0/0,3/8,0/0,0,1,1,0,1,0,0,0,-3,5
+Mexico,Puerto Rico,67,66,2708,21,Valeria Mora,18:01,13,5/9,5/9,0/0,3/4,5,5,10,1,5,2,0,4,5,21
+Mexico,Puerto Rico,67,66,2708,28,Sara Guajardo,18:35,6,3/6,3/6,0/0,0/0,1,3,4,2,3,2,0,0,-2,7
+Mexico,Puerto Rico,67,66,2708,30,Sofia Sevilla,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
 Argentina,Brazil,56,54,2708,6,Alma Bourgarel,28:27,14,6/14,5/12,1/2,1/4,1,3,4,1,3,3,2,2,4,9
 Argentina,Brazil,56,54,2708,7,Juana Barrionuevo,22:14,2,1/3,1/3,0/0,0/0,0,5,5,3,3,3,2,1,7,8
 Argentina,Brazil,56,54,2708,8,Juana Amaya,11:45,2,0/2,0/1,0/1,2/4,0,2,2,2,0,1,1,0,-2,2
@@ -419,18 +419,18 @@ Puerto Rico,Costa Rica,81,48,2808,13,Mia  Canales,10:38,5,2/5,1/2,1/3,0/0,1,0,1,
 Puerto Rico,Costa Rica,81,48,2808,20,Sofia  Muñoz,22:58,12,4/8,2/4,2/4,2/4,4,3,7,4,2,1,0,1,22,17
 Puerto Rico,Costa Rica,81,48,2808,23,Arianis Rivera,13:38,0,0/3,0/2,0/1,0/0,2,3,5,0,2,0,0,0,3,2
 Puerto Rico,Costa Rica,81,48,2808,33,Sophia Martinez,19:25,13,5/9,4/8,1/1,2/2,2,0,2,4,0,4,2,0,13,13
-Puerto Rico,Puerto Rico,48,81,2808,4,Emily  Valencia,07:06,1,0/0,0/0,0/0,1/3,0,1,1,1,0,2,0,1,-5,0
-Puerto Rico,Puerto Rico,48,81,2808,6,Valeria Perez,20:45,0,0/7,0/3,0/4,0/0,0,1,1,3,0,1,1,0,-15,-3
-Puerto Rico,Puerto Rico,48,81,2808,7,Genesis Villegas,12:47,3,1/4,0/1,1/3,0/0,1,3,4,0,2,2,1,0,-15,3
-Puerto Rico,Puerto Rico,48,81,2808,9,Aaliyah Escoe,09:42,6,2/6,1/2,1/4,1/2,0,1,1,0,3,1,0,0,-12,1
-Puerto Rico,Puerto Rico,48,81,2808,10,Raquel Cordero,27:24,4,1/4,1/2,0/2,2/2,1,2,3,2,2,3,1,0,-24,4
-Puerto Rico,Puerto Rico,48,81,2808,11,Lucia Mc Guinness,33:10,14,4/12,3/10,1/2,5/6,2,2,4,2,1,2,0,0,-28,9
-Puerto Rico,Puerto Rico,48,81,2808,13,Montserrat Murillo,20:11,2,1/3,1/3,0/0,0/0,0,3,3,0,2,2,0,0,-16,1
-Puerto Rico,Puerto Rico,48,81,2808,17,Maria  Montero,26:59,5,2/8,2/7,0/1,1/2,3,7,10,1,3,2,0,2,-24,9
-Puerto Rico,Puerto Rico,48,81,2808,23,Amanda Desanti,08:07,0,0/2,0/2,0/0,0/0,1,1,2,0,1,2,0,0,0,-2
-Puerto Rico,Puerto Rico,48,81,2808,26,Priscilla Arias,08:24,3,1/4,1/4,0/0,1/2,0,2,2,0,0,0,0,0,-8,1
-Puerto Rico,Puerto Rico,48,81,2808,28,Shaima  James,22:48,10,4/10,4/9,0/1,2/4,1,4,5,0,2,2,1,1,-13,7
-Puerto Rico,Puerto Rico,48,81,2808,30,Keithel Rojas,02:37,0,0/0,0/0,0/0,0/0,0,0,0,0,0,1,1,0,-5,0
+Costa Rica,Puerto Rico,48,81,2808,4,Emily  Valencia,07:06,1,0/0,0/0,0/0,1/3,0,1,1,1,0,2,0,1,-5,0
+Costa Rica,Puerto Rico,48,81,2808,6,Valeria Perez,20:45,0,0/7,0/3,0/4,0/0,0,1,1,3,0,1,1,0,-15,-3
+Costa Rica,Puerto Rico,48,81,2808,7,Genesis Villegas,12:47,3,1/4,0/1,1/3,0/0,1,3,4,0,2,2,1,0,-15,3
+Costa Rica,Puerto Rico,48,81,2808,9,Aaliyah Escoe,09:42,6,2/6,1/2,1/4,1/2,0,1,1,0,3,1,0,0,-12,1
+Costa Rica,Puerto Rico,48,81,2808,10,Raquel Cordero,27:24,4,1/4,1/2,0/2,2/2,1,2,3,2,2,3,1,0,-24,4
+Costa Rica,Puerto Rico,48,81,2808,11,Lucia Mc Guinness,33:10,14,4/12,3/10,1/2,5/6,2,2,4,2,1,2,0,0,-28,9
+Costa Rica,Puerto Rico,48,81,2808,13,Montserrat Murillo,20:11,2,1/3,1/3,0/0,0/0,0,3,3,0,2,2,0,0,-16,1
+Costa Rica,Puerto Rico,48,81,2808,17,Maria  Montero,26:59,5,2/8,2/7,0/1,1/2,3,7,10,1,3,2,0,2,-24,9
+Costa Rica,Puerto Rico,48,81,2808,23,Amanda Desanti,08:07,0,0/2,0/2,0/0,0/0,1,1,2,0,1,2,0,0,0,-2
+Costa Rica,Puerto Rico,48,81,2808,26,Priscilla Arias,08:24,3,1/4,1/4,0/0,1/2,0,2,2,0,0,0,0,0,-8,1
+Costa Rica,Puerto Rico,48,81,2808,28,Shaima  James,22:48,10,4/10,4/9,0/1,2/4,1,4,5,0,2,2,1,1,-13,7
+Costa Rica,Puerto Rico,48,81,2808,30,Keithel Rojas,02:37,0,0/0,0/0,0/0,0/0,0,0,0,0,0,1,1,0,-5,0
 Canada,Argentina,74,47,2808,4,Taija Sta Maria,20:54,3,1/7,1/4,0/3,1/2,0,5,5,3,0,0,1,0,17,5
 Canada,Argentina,74,47,2808,5,Micaela Carter,10:29,0,0/1,0/1,0/0,0/0,1,0,1,1,0,0,0,0,7,1
 Canada,Argentina,74,47,2808,6,Delaney Gibb,23:37,14,6/13,5/9,1/4,1/1,5,4,9,3,0,3,1,1,13,18

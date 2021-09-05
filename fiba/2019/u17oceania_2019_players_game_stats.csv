@@ -33,16 +33,16 @@ New Zealand,Samoa,93,35,1908,18,Jessica Jean Moors,17:27,2,1/6,1/4,0/2,0/2,1,0,1
 New Zealand,Samoa,93,35,1908,21,Olivia Williams,19:11,16,6/12,2/6,4/6,0/0,2,2,4,3,3,0,2,0,39,19
 New Zealand,Samoa,93,35,1908,27,Rochelle Fourie,13:19,6,3/4,3/4,0/0,0/0,0,2,2,0,4,1,0,0,11,6
 New Zealand,Samoa,93,35,1908,33,Hannah Louise Matehaere,07:02,4,2/3,2/3,0/0,0/0,1,1,2,0,0,0,0,0,11,5
-New Zealand,New Zealand,35,93,1908,6,Tasiaelasilelagi  Stowers,14:07,3,1/5,1/5,0/0,1/1,1,0,1,1,0,0,0,0,-22,1
-New Zealand,New Zealand,35,93,1908,9,J'adore  Limu Quarter,17:23,2,1/3,1/3,0/0,0/1,1,1,2,0,0,2,1,0,-15,0
-New Zealand,New Zealand,35,93,1908,10,Kalista Niu,29:11,2,1/16,1/14,0/2,0/2,2,5,7,2,1,5,0,0,-39,-11
-New Zealand,New Zealand,35,93,1908,11,Jana Taufua,25:20,6,2/7,1/5,1/2,1/2,0,2,2,2,1,3,3,1,-30,5
-New Zealand,New Zealand,35,93,1908,12,Shaylee Coulter-Faamafu,29:12,11,4/7,2/5,2/2,1/4,1,8,9,0,3,2,0,0,-46,12
-New Zealand,New Zealand,35,93,1908,13,Tyla  Fautua,11:54,0,0/2,0/2,0/0,0/0,1,2,3,0,0,2,0,0,-8,-1
-New Zealand,New Zealand,35,93,1908,14,Nive Lale,23:24,1,0/2,0/2,0/0,1/2,1,4,5,0,0,5,0,0,-43,-2
-New Zealand,New Zealand,35,93,1908,16,D'Zaiah  Siu,08:55,2,0/0,0/0,0/0,2/2,0,1,1,1,0,0,0,0,-19,4
-New Zealand,New Zealand,35,93,1908,22,Lailani Brown,12:03,0,0/2,0/2,0/0,0/0,0,2,2,0,0,2,0,0,-24,-2
-New Zealand,New Zealand,35,93,1908,33,Charlize Lealiiee,28:30,8,3/7,2/6,1/1,1/3,1,3,4,1,3,11,1,0,-44,-3
+Samoa,New Zealand,35,93,1908,6,Tasiaelasilelagi  Stowers,14:07,3,1/5,1/5,0/0,1/1,1,0,1,1,0,0,0,0,-22,1
+Samoa,New Zealand,35,93,1908,9,J'adore  Limu Quarter,17:23,2,1/3,1/3,0/0,0/1,1,1,2,0,0,2,1,0,-15,0
+Samoa,New Zealand,35,93,1908,10,Kalista Niu,29:11,2,1/16,1/14,0/2,0/2,2,5,7,2,1,5,0,0,-39,-11
+Samoa,New Zealand,35,93,1908,11,Jana Taufua,25:20,6,2/7,1/5,1/2,1/2,0,2,2,2,1,3,3,1,-30,5
+Samoa,New Zealand,35,93,1908,12,Shaylee Coulter-Faamafu,29:12,11,4/7,2/5,2/2,1/4,1,8,9,0,3,2,0,0,-46,12
+Samoa,New Zealand,35,93,1908,13,Tyla  Fautua,11:54,0,0/2,0/2,0/0,0/0,1,2,3,0,0,2,0,0,-8,-1
+Samoa,New Zealand,35,93,1908,14,Nive Lale,23:24,1,0/2,0/2,0/0,1/2,1,4,5,0,0,5,0,0,-43,-2
+Samoa,New Zealand,35,93,1908,16,D'Zaiah  Siu,08:55,2,0/0,0/0,0/0,2/2,0,1,1,1,0,0,0,0,-19,4
+Samoa,New Zealand,35,93,1908,22,Lailani Brown,12:03,0,0/2,0/2,0/0,0/0,0,2,2,0,0,2,0,0,-24,-2
+Samoa,New Zealand,35,93,1908,33,Charlize Lealiiee,28:30,8,3/7,2/6,1/1,1/3,1,3,4,1,3,11,1,0,-44,-3
 Tahiti,Papua New Guinea,78,29,1908,4,Hauhere   Ching-Bellais,16:41,7,3/6,2/3,1/3,0/5,0,0,0,1,3,3,2,0,22,-1
 Tahiti,Papua New Guinea,78,29,1908,5,Ranihei  Williams,18:50,4,2/8,2/7,0/1,0/0,3,1,4,1,2,6,2,0,15,-1
 Tahiti,Papua New Guinea,78,29,1908,7,Elodie  Oestreicher,16:40,2,1/11,1/9,0/2,0/2,4,0,4,1,1,4,1,0,20,-8
@@ -70,18 +70,18 @@ Cook Islands,New Caledonia,54,62,1908,32,Tikara  Jallow,39:15,12,3/15,3/12,0/3,6
 Cook Islands,New Caledonia,54,62,1908,33,Hoana-Rose Solomon,30:30,4,1/12,1/12,0/0,2/6,3,6,9,2,4,2,3,0,-8,1
 Cook Islands,New Caledonia,54,62,1908,34,Breana Schmid,41:54,11,5/14,5/12,0/2,1/6,1,1,2,2,3,10,4,0,-5,-5
 Cook Islands,New Caledonia,54,62,1908,35,Sienna Manea McKinley,32:55,2,1/2,1/2,0/0,0/2,3,13,16,1,4,10,1,0,-3,7
-Cook Islands,Cook Islands,62,54,1908,4,Mayliss Manua Tetuanui,14:36,0,0/1,0/0,0/1,0/0,1,1,2,1,1,1,1,0,-7,2
-Cook Islands,Cook Islands,62,54,1908,5,Noemie  Ounou,30:25,8,2/17,2/15,0/2,4/8,4,3,7,1,3,7,3,0,5,-7
-Cook Islands,Cook Islands,62,54,1908,6,Taina Linda Jacqueline Decaqueray,05:40,0,0/4,0/2,0/2,0/2,0,0,0,0,2,1,2,0,-5,-5
-Cook Islands,Cook Islands,62,54,1908,7,Paloma Fornes,09:06,0,0/0,0/0,0/0,0/0,0,1,1,0,0,1,0,0,2,0
-Cook Islands,Cook Islands,62,54,1908,8,Maimiti Odette Tetuanui,26:36,1,0/5,0/3,0/2,1/2,0,2,2,3,1,5,7,0,6,2
-Cook Islands,Cook Islands,62,54,1908,9,Leilani  Tartas,31:32,13,4/21,2/12,2/9,3/5,4,9,13,1,4,6,5,1,21,8
-Cook Islands,Cook Islands,62,54,1908,10,Laura Marcelle Lechartier,09:14,2,0/2,0/2,0/0,2/4,3,0,3,0,2,3,1,0,1,-1
-Cook Islands,Cook Islands,62,54,1908,11,Celia Puleoto,27:27,12,5/17,5/17,0/0,2/6,7,8,15,3,5,3,3,1,8,15
-Cook Islands,Cook Islands,62,54,1908,12,Velanya Safoka,19:26,8,2/6,1/5,1/1,3/5,3,2,5,0,2,0,1,0,8,8
-Cook Islands,Cook Islands,62,54,1908,13,Hortensia  Teugasiale,09:22,0,0/3,0/3,0/0,0/0,1,3,4,0,3,2,0,0,-5,-1
-Cook Islands,Cook Islands,62,54,1908,14,Loann  Fisiipeau,16:42,4,2/6,2/5,0/1,0/0,3,3,6,0,1,1,1,0,0,6
-Cook Islands,Cook Islands,62,54,1908,15,Enola Noemie Sangarne,24:55,14,7/17,7/14,0/3,0/1,1,5,6,1,5,2,0,0,6,8
+New Caledonia,Cook Islands,62,54,1908,4,Mayliss Manua Tetuanui,14:36,0,0/1,0/0,0/1,0/0,1,1,2,1,1,1,1,0,-7,2
+New Caledonia,Cook Islands,62,54,1908,5,Noemie  Ounou,30:25,8,2/17,2/15,0/2,4/8,4,3,7,1,3,7,3,0,5,-7
+New Caledonia,Cook Islands,62,54,1908,6,Taina Linda Jacqueline Decaqueray,05:40,0,0/4,0/2,0/2,0/2,0,0,0,0,2,1,2,0,-5,-5
+New Caledonia,Cook Islands,62,54,1908,7,Paloma Fornes,09:06,0,0/0,0/0,0/0,0/0,0,1,1,0,0,1,0,0,2,0
+New Caledonia,Cook Islands,62,54,1908,8,Maimiti Odette Tetuanui,26:36,1,0/5,0/3,0/2,1/2,0,2,2,3,1,5,7,0,6,2
+New Caledonia,Cook Islands,62,54,1908,9,Leilani  Tartas,31:32,13,4/21,2/12,2/9,3/5,4,9,13,1,4,6,5,1,21,8
+New Caledonia,Cook Islands,62,54,1908,10,Laura Marcelle Lechartier,09:14,2,0/2,0/2,0/0,2/4,3,0,3,0,2,3,1,0,1,-1
+New Caledonia,Cook Islands,62,54,1908,11,Celia Puleoto,27:27,12,5/17,5/17,0/0,2/6,7,8,15,3,5,3,3,1,8,15
+New Caledonia,Cook Islands,62,54,1908,12,Velanya Safoka,19:26,8,2/6,1/5,1/1,3/5,3,2,5,0,2,0,1,0,8,8
+New Caledonia,Cook Islands,62,54,1908,13,Hortensia  Teugasiale,09:22,0,0/3,0/3,0/0,0/0,1,3,4,0,3,2,0,0,-5,-1
+New Caledonia,Cook Islands,62,54,1908,14,Loann  Fisiipeau,16:42,4,2/6,2/5,0/1,0/0,3,3,6,0,1,1,1,0,0,6
+New Caledonia,Cook Islands,62,54,1908,15,Enola Noemie Sangarne,24:55,14,7/17,7/14,0/3,0/1,1,5,6,1,5,2,0,0,6,8
 Guam,New Zealand,24,140,2008,0,Cori-Nicole Paulino,19:47,2,1/3,1/2,0/1,0/0,0,0,0,0,3,8,0,0,-46,-8
 Guam,New Zealand,24,140,2008,1,Maria Taitano,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
 Guam,New Zealand,24,140,2008,2,Kirsten  Silva,20:26,1,0/3,0/1,0/2,1/2,0,0,0,0,0,4,0,0,-49,-7
@@ -135,14 +135,14 @@ Papua New Guinea,Cook Islands,52,48,2008,20,Philomena  Arek,12:35,2,1/13,1/8,0/5
 Papua New Guinea,Cook Islands,52,48,2008,21,Philomena  Isei,34:37,11,4/10,3/7,1/3,2/6,5,10,15,2,1,2,1,0,5,17
 Papua New Guinea,Cook Islands,52,48,2008,22,Princess Kaore,30:16,2,1/7,1/6,0/1,0/2,6,12,18,1,3,4,2,0,3,11
 Papua New Guinea,Cook Islands,52,48,2008,23,Sandy Bagelo,13:19,0,0/3,0/2,0/1,0/0,2,3,5,1,5,0,0,0,0,3
-Papua New Guinea,Papua New Guinea,48,52,2008,11,Lily  Teao,15:17,8,2/11,2/11,0/0,4/8,2,1,3,0,3,1,1,0,-7,-2
-Papua New Guinea,Papua New Guinea,48,52,2008,20,Jordan  Koteka,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
-Papua New Guinea,Papua New Guinea,48,52,2008,30,Penina- Hinatea Arnold,36:37,10,4/18,4/12,0/6,2/4,0,7,7,2,2,5,2,0,-8,0
-Papua New Guinea,Papua New Guinea,48,52,2008,31,Nicol  Tiaore,22:07,4,1/1,1/1,0/0,2/4,2,3,5,0,2,2,1,0,-10,6
-Papua New Guinea,Papua New Guinea,48,52,2008,32,Tikara  Jallow,36:15,6,2/17,2/16,0/1,2/5,6,10,16,2,0,4,2,4,0,8
-Papua New Guinea,Papua New Guinea,48,52,2008,33,Hoana-Rose Solomon,35:00,14,7/17,7/15,0/2,0/1,1,4,5,3,3,6,3,1,2,9
-Papua New Guinea,Papua New Guinea,48,52,2008,34,Breana Schmid,34:00,6,3/10,3/8,0/2,0/0,0,6,6,1,3,1,0,0,1,5
-Papua New Guinea,Papua New Guinea,48,52,2008,35,Sienna Manea McKinley,20:44,0,0/3,0/3,0/0,0/0,3,4,7,1,2,1,0,0,2,4
+Cook Islands,Papua New Guinea,48,52,2008,11,Lily  Teao,15:17,8,2/11,2/11,0/0,4/8,2,1,3,0,3,1,1,0,-7,-2
+Cook Islands,Papua New Guinea,48,52,2008,20,Jordan  Koteka,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Cook Islands,Papua New Guinea,48,52,2008,30,Penina- Hinatea Arnold,36:37,10,4/18,4/12,0/6,2/4,0,7,7,2,2,5,2,0,-8,0
+Cook Islands,Papua New Guinea,48,52,2008,31,Nicol  Tiaore,22:07,4,1/1,1/1,0/0,2/4,2,3,5,0,2,2,1,0,-10,6
+Cook Islands,Papua New Guinea,48,52,2008,32,Tikara  Jallow,36:15,6,2/17,2/16,0/1,2/5,6,10,16,2,0,4,2,4,0,8
+Cook Islands,Papua New Guinea,48,52,2008,33,Hoana-Rose Solomon,35:00,14,7/17,7/15,0/2,0/1,1,4,5,3,3,6,3,1,2,9
+Cook Islands,Papua New Guinea,48,52,2008,34,Breana Schmid,34:00,6,3/10,3/8,0/2,0/0,0,6,6,1,3,1,0,0,1,5
+Cook Islands,Papua New Guinea,48,52,2008,35,Sienna Manea McKinley,20:44,0,0/3,0/3,0/0,0/0,3,4,7,1,2,1,0,0,2,4
 New Caledonia,Tahiti,54,64,2008,4,Mayliss Manua Tetuanui,14:31,0,0/1,0/1,0/0,0/0,0,1,1,0,2,4,2,0,1,-2
 New Caledonia,Tahiti,54,64,2008,5,Noemie  Ounou,34:22,12,4/9,3/8,1/1,3/7,1,6,7,2,4,6,5,0,-1,11
 New Caledonia,Tahiti,54,64,2008,6,Taina Linda Jacqueline Decaqueray,01:53,0,0/0,0/0,0/0,0/0,0,0,0,0,0,1,0,0,-5,-1
@@ -155,16 +155,16 @@ New Caledonia,Tahiti,54,64,2008,12,Velanya Safoka,08:46,8,4/6,4/6,0/0,0/8,1,2,3,
 New Caledonia,Tahiti,54,64,2008,13,Hortensia  Teugasiale,11:47,2,1/6,1/6,0/0,0/0,1,1,2,0,3,1,0,0,-7,-2
 New Caledonia,Tahiti,54,64,2008,14,Loann  Fisiipeau,05:36,0,0/1,0/1,0/0,0/0,0,0,0,0,1,0,1,0,-7,0
 New Caledonia,Tahiti,54,64,2008,15,Enola Noemie Sangarne,30:32,4,1/14,1/11,0/3,2/4,2,5,7,1,2,6,1,1,-1,-7
-New Caledonia,New Caledonia,64,54,2008,4,Hauhere   Ching-Bellais,06:53,0,0/3,0/2,0/1,0/0,1,0,1,0,0,0,1,0,0,-1
-New Caledonia,New Caledonia,64,54,2008,5,Ranihei  Williams,19:48,3,1/4,1/4,0/0,1/2,3,1,4,0,2,3,1,0,10,1
-New Caledonia,New Caledonia,64,54,2008,7,Elodie  Oestreicher,08:29,2,1/7,1/7,0/0,0/0,1,0,1,1,0,1,0,0,3,-3
-New Caledonia,New Caledonia,64,54,2008,8,Aiata Tapi,17:33,3,1/4,1/2,0/2,1/2,2,1,3,0,4,4,0,0,1,-2
-New Caledonia,New Caledonia,64,54,2008,9,Orama  Laval,32:38,3,1/6,1/6,0/0,1/2,2,4,6,3,1,1,3,0,1,8
-New Caledonia,New Caledonia,64,54,2008,10,Hereiti Keany Viriamu,06:11,0,0/0,0/0,0/0,0/2,0,1,1,0,1,1,1,0,-1,-1
-New Caledonia,New Caledonia,64,54,2008,11,Mahinetea Tavanae,27:48,12,5/17,5/14,0/3,2/5,0,11,11,2,4,4,4,0,1,10
-New Caledonia,New Caledonia,64,54,2008,12,Kuranui  Doyen-Etaeta,14:19,3,1/3,1/3,0/0,1/2,0,5,5,0,5,5,3,0,14,3
-New Caledonia,New Caledonia,64,54,2008,13,Tearere  Richmond,35:05,25,9/19,8/17,1/2,6/8,8,12,20,1,4,2,1,2,12,35
-New Caledonia,New Caledonia,64,54,2008,14,Hereiti Salem,31:16,13,4/9,2/6,2/3,3/10,0,1,1,0,4,7,2,0,9,-3
+Tahiti,New Caledonia,64,54,2008,4,Hauhere   Ching-Bellais,06:53,0,0/3,0/2,0/1,0/0,1,0,1,0,0,0,1,0,0,-1
+Tahiti,New Caledonia,64,54,2008,5,Ranihei  Williams,19:48,3,1/4,1/4,0/0,1/2,3,1,4,0,2,3,1,0,10,1
+Tahiti,New Caledonia,64,54,2008,7,Elodie  Oestreicher,08:29,2,1/7,1/7,0/0,0/0,1,0,1,1,0,1,0,0,3,-3
+Tahiti,New Caledonia,64,54,2008,8,Aiata Tapi,17:33,3,1/4,1/2,0/2,1/2,2,1,3,0,4,4,0,0,1,-2
+Tahiti,New Caledonia,64,54,2008,9,Orama  Laval,32:38,3,1/6,1/6,0/0,1/2,2,4,6,3,1,1,3,0,1,8
+Tahiti,New Caledonia,64,54,2008,10,Hereiti Keany Viriamu,06:11,0,0/0,0/0,0/0,0/2,0,1,1,0,1,1,1,0,-1,-1
+Tahiti,New Caledonia,64,54,2008,11,Mahinetea Tavanae,27:48,12,5/17,5/14,0/3,2/5,0,11,11,2,4,4,4,0,1,10
+Tahiti,New Caledonia,64,54,2008,12,Kuranui  Doyen-Etaeta,14:19,3,1/3,1/3,0/0,1/2,0,5,5,0,5,5,3,0,14,3
+Tahiti,New Caledonia,64,54,2008,13,Tearere  Richmond,35:05,25,9/19,8/17,1/2,6/8,8,12,20,1,4,2,1,2,12,35
+Tahiti,New Caledonia,64,54,2008,14,Hereiti Salem,31:16,13,4/9,2/6,2/3,3/10,0,1,1,0,4,7,2,0,9,-3
 Tahiti,Cook Islands,79,33,2108,4,Hauhere   Ching-Bellais,23:08,15,5/11,3/6,2/5,3/3,1,5,6,2,2,4,2,0,35,15
 Tahiti,Cook Islands,79,33,2108,5,Ranihei  Williams,19:33,9,2/6,1/4,1/2,4/6,2,1,3,2,3,3,1,0,26,6
 Tahiti,Cook Islands,79,33,2108,7,Elodie  Oestreicher,22:48,12,6/11,6/9,0/2,0/0,2,3,5,5,3,3,4,0,22,18
@@ -195,16 +195,16 @@ New Zealand,Australia,53,79,2108,18,Jessica Jean Moors,17:50,0,0/0,0/0,0/0,0/0,0
 New Zealand,Australia,53,79,2108,21,Olivia Williams,18:31,5,2/8,1/6,1/2,0/0,1,3,4,0,1,3,1,0,-7,1
 New Zealand,Australia,53,79,2108,27,Rochelle Fourie,06:51,2,1/3,1/3,0/0,0/0,0,1,1,0,2,1,0,0,-5,0
 New Zealand,Australia,53,79,2108,33,Hannah Louise Matehaere,02:32,2,0/0,0/0,0/0,2/4,0,0,0,0,2,0,0,0,-4,0
-New Zealand,New Zealand,79,53,2108,4,Kate Deeble,21:08,11,4/7,2/3,2/4,1/2,1,0,1,2,1,1,1,1,23,11
-New Zealand,New Zealand,79,53,2108,6,Jade Melbourne,26:36,8,2/11,1/6,1/5,3/4,1,5,6,4,1,1,4,0,14,11
-New Zealand,New Zealand,79,53,2108,7,Charlise Dunn,10:38,4,1/5,1/4,0/1,2/2,4,1,5,0,0,1,0,0,6,4
-New Zealand,New Zealand,79,53,2108,8,Shaneice Swain,19:47,5,2/10,1/4,1/6,0/0,3,2,5,1,1,3,2,0,-6,2
-New Zealand,New Zealand,79,53,2108,9,Neferatali Notoa,07:42,0,0/1,0/0,0/1,0/0,0,0,0,1,1,1,0,0,6,-1
-New Zealand,New Zealand,79,53,2108,10,Gemma Potter,23:11,13,3/16,2/8,1/8,6/6,3,0,3,2,1,3,6,1,13,9
-New Zealand,New Zealand,79,53,2108,11,Olivia Pollerd,24:21,7,3/6,2/4,1/2,0/0,3,3,6,0,2,1,0,0,10,9
-New Zealand,New Zealand,79,53,2108,12,Paige Price,21:45,8,3/8,1/3,2/5,0/0,1,8,9,6,4,1,1,0,28,18
-New Zealand,New Zealand,79,53,2108,13,Millie Prior,21:03,13,6/9,6/9,0/0,1/4,6,5,11,0,3,2,0,1,30,17
-New Zealand,New Zealand,79,53,2108,15,Kelsey Rees,23:49,10,5/10,5/10,0/0,0/0,5,6,11,2,2,4,1,2,6,17
+Australia,New Zealand,79,53,2108,4,Kate Deeble,21:08,11,4/7,2/3,2/4,1/2,1,0,1,2,1,1,1,1,23,11
+Australia,New Zealand,79,53,2108,6,Jade Melbourne,26:36,8,2/11,1/6,1/5,3/4,1,5,6,4,1,1,4,0,14,11
+Australia,New Zealand,79,53,2108,7,Charlise Dunn,10:38,4,1/5,1/4,0/1,2/2,4,1,5,0,0,1,0,0,6,4
+Australia,New Zealand,79,53,2108,8,Shaneice Swain,19:47,5,2/10,1/4,1/6,0/0,3,2,5,1,1,3,2,0,-6,2
+Australia,New Zealand,79,53,2108,9,Neferatali Notoa,07:42,0,0/1,0/0,0/1,0/0,0,0,0,1,1,1,0,0,6,-1
+Australia,New Zealand,79,53,2108,10,Gemma Potter,23:11,13,3/16,2/8,1/8,6/6,3,0,3,2,1,3,6,1,13,9
+Australia,New Zealand,79,53,2108,11,Olivia Pollerd,24:21,7,3/6,2/4,1/2,0/0,3,3,6,0,2,1,0,0,10,9
+Australia,New Zealand,79,53,2108,12,Paige Price,21:45,8,3/8,1/3,2/5,0/0,1,8,9,6,4,1,1,0,28,18
+Australia,New Zealand,79,53,2108,13,Millie Prior,21:03,13,6/9,6/9,0/0,1/4,6,5,11,0,3,2,0,1,30,17
+Australia,New Zealand,79,53,2108,15,Kelsey Rees,23:49,10,5/10,5/10,0/0,0/0,5,6,11,2,2,4,1,2,6,17
 Guam,Samoa,51,81,2108,0,Cori-Nicole Paulino,24:23,12,4/10,2/5,2/5,2/4,3,2,5,0,4,1,4,0,-8,12
 Guam,Samoa,51,81,2108,1,Maria Taitano,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
 Guam,Samoa,51,81,2108,2,Kirsten  Silva,27:10,3,1/11,0/2,1/9,0/0,0,1,1,1,3,1,0,0,-22,-6
@@ -227,27 +227,27 @@ Samoa,Guam,81,51,2108,14,Nive Lale,26:59,12,4/8,3/7,1/1,3/5,3,1,4,1,3,2,1,0,21,1
 Samoa,Guam,81,51,2108,16,D'Zaiah  Siu,14:01,5,1/2,1/2,0/0,3/4,2,3,5,0,2,0,1,0,6,9
 Samoa,Guam,81,51,2108,22,Lailani Brown,14:09,1,0/3,0/3,0/0,1/2,3,2,5,1,0,3,0,0,0,0
 Samoa,Guam,81,51,2108,33,Charlize Lealiiee,22:32,7,3/4,3/4,0/0,1/2,1,2,3,4,3,5,4,0,19,11
-Papua New Guinea,Papua New Guinea,56,51,2108,4,Mayliss Manua Tetuanui,12:12,0,0/4,0/2,0/2,0/0,1,1,2,0,2,2,0,0,-6,-4
-Papua New Guinea,Papua New Guinea,56,51,2108,5,Noemie  Ounou,35:34,11,5/14,4/9,1/5,0/2,0,4,4,2,3,3,1,0,12,4
-Papua New Guinea,Papua New Guinea,56,51,2108,6,Taina Linda Jacqueline Decaqueray,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
-Papua New Guinea,Papua New Guinea,56,51,2108,7,Paloma Fornes,04:26,2,1/4,1/2,0/2,0/0,0,0,0,0,0,0,0,0,-7,-1
-Papua New Guinea,Papua New Guinea,56,51,2108,8,Maimiti Odette Tetuanui,33:57,3,1/13,0/4,1/9,0/0,1,5,6,1,3,1,4,0,12,1
-Papua New Guinea,Papua New Guinea,56,51,2108,9,Leilani  Tartas,33:51,14,5/19,5/15,0/4,4/8,11,7,18,3,2,2,1,0,4,16
-Papua New Guinea,Papua New Guinea,56,51,2108,10,Laura Marcelle Lechartier,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
-Papua New Guinea,Papua New Guinea,56,51,2108,11,Celia Puleoto,32:07,10,4/6,4/6,0/0,2/3,3,7,10,1,3,1,1,0,1,18
-Papua New Guinea,Papua New Guinea,56,51,2108,12,Velanya Safoka,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
-Papua New Guinea,Papua New Guinea,56,51,2108,13,Hortensia  Teugasiale,04:39,4,2/2,2/2,0/0,0/0,0,1,1,0,2,0,0,0,-2,5
-Papua New Guinea,Papua New Guinea,56,51,2108,14,Loann  Fisiipeau,17:59,2,1/4,1/4,0/0,0/0,0,3,3,0,2,2,0,0,14,0
-Papua New Guinea,Papua New Guinea,56,51,2108,15,Enola Noemie Sangarne,25:15,10,3/12,2/10,1/2,3/8,7,5,12,0,3,4,5,0,-3,9
-Papua New Guinea,Papua New Guinea,51,56,2108,3,Alice Kaiawa,32:49,15,7/20,6/14,1/6,0/2,2,4,6,0,4,4,4,0,-11,6
-Papua New Guinea,Papua New Guinea,51,56,2108,4,Bianca Tuckayo,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
-Papua New Guinea,Papua New Guinea,51,56,2108,11,Jeleena  Irofe,28:52,2,1/8,1/7,0/1,0/0,5,3,8,0,1,3,2,1,-4,3
-Papua New Guinea,Papua New Guinea,51,56,2108,14,Kalista  Kotoveke,14:49,3,1/3,1/1,0/2,1/2,1,2,3,2,2,1,0,0,-5,4
-Papua New Guinea,Papua New Guinea,51,56,2108,15,Magdalene  Javapro,37:56,16,7/11,7/11,0/0,2/7,3,3,6,0,3,6,1,0,0,8
-Papua New Guinea,Papua New Guinea,51,56,2108,20,Philomena  Arek,05:34,3,1/4,0/1,1/3,0/3,0,0,0,0,1,0,0,0,5,-3
-Papua New Guinea,Papua New Guinea,51,56,2108,21,Philomena  Isei,32:45,5,2/17,2/12,0/5,1/4,5,8,13,1,1,3,0,1,-2,-1
-Papua New Guinea,Papua New Guinea,51,56,2108,22,Princess Kaore,23:15,7,3/9,3/9,0/0,1/3,4,4,8,0,2,3,0,0,6,4
-Papua New Guinea,Papua New Guinea,51,56,2108,23,Sandy Bagelo,24:00,0,0/1,0/1,0/0,0/0,1,4,5,0,4,4,1,0,-14,1
+New Caledonia,Papua New Guinea,56,51,2108,4,Mayliss Manua Tetuanui,12:12,0,0/4,0/2,0/2,0/0,1,1,2,0,2,2,0,0,-6,-4
+New Caledonia,Papua New Guinea,56,51,2108,5,Noemie  Ounou,35:34,11,5/14,4/9,1/5,0/2,0,4,4,2,3,3,1,0,12,4
+New Caledonia,Papua New Guinea,56,51,2108,6,Taina Linda Jacqueline Decaqueray,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+New Caledonia,Papua New Guinea,56,51,2108,7,Paloma Fornes,04:26,2,1/4,1/2,0/2,0/0,0,0,0,0,0,0,0,0,-7,-1
+New Caledonia,Papua New Guinea,56,51,2108,8,Maimiti Odette Tetuanui,33:57,3,1/13,0/4,1/9,0/0,1,5,6,1,3,1,4,0,12,1
+New Caledonia,Papua New Guinea,56,51,2108,9,Leilani  Tartas,33:51,14,5/19,5/15,0/4,4/8,11,7,18,3,2,2,1,0,4,16
+New Caledonia,Papua New Guinea,56,51,2108,10,Laura Marcelle Lechartier,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+New Caledonia,Papua New Guinea,56,51,2108,11,Celia Puleoto,32:07,10,4/6,4/6,0/0,2/3,3,7,10,1,3,1,1,0,1,18
+New Caledonia,Papua New Guinea,56,51,2108,12,Velanya Safoka,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+New Caledonia,Papua New Guinea,56,51,2108,13,Hortensia  Teugasiale,04:39,4,2/2,2/2,0/0,0/0,0,1,1,0,2,0,0,0,-2,5
+New Caledonia,Papua New Guinea,56,51,2108,14,Loann  Fisiipeau,17:59,2,1/4,1/4,0/0,0/0,0,3,3,0,2,2,0,0,14,0
+New Caledonia,Papua New Guinea,56,51,2108,15,Enola Noemie Sangarne,25:15,10,3/12,2/10,1/2,3/8,7,5,12,0,3,4,5,0,-3,9
+Papua New Guinea,New Caledonia,51,56,2108,3,Alice Kaiawa,32:49,15,7/20,6/14,1/6,0/2,2,4,6,0,4,4,4,0,-11,6
+Papua New Guinea,New Caledonia,51,56,2108,4,Bianca Tuckayo,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Papua New Guinea,New Caledonia,51,56,2108,11,Jeleena  Irofe,28:52,2,1/8,1/7,0/1,0/0,5,3,8,0,1,3,2,1,-4,3
+Papua New Guinea,New Caledonia,51,56,2108,14,Kalista  Kotoveke,14:49,3,1/3,1/1,0/2,1/2,1,2,3,2,2,1,0,0,-5,4
+Papua New Guinea,New Caledonia,51,56,2108,15,Magdalene  Javapro,37:56,16,7/11,7/11,0/0,2/7,3,3,6,0,3,6,1,0,0,8
+Papua New Guinea,New Caledonia,51,56,2108,20,Philomena  Arek,05:34,3,1/4,0/1,1/3,0/3,0,0,0,0,1,0,0,0,5,-3
+Papua New Guinea,New Caledonia,51,56,2108,21,Philomena  Isei,32:45,5,2/17,2/12,0/5,1/4,5,8,13,1,1,3,0,1,-2,-1
+Papua New Guinea,New Caledonia,51,56,2108,22,Princess Kaore,23:15,7,3/9,3/9,0/0,1/3,4,4,8,0,2,3,0,0,6,4
+Papua New Guinea,New Caledonia,51,56,2108,23,Sandy Bagelo,24:00,0,0/1,0/1,0/0,0/0,1,4,5,0,4,4,1,0,-14,1
 Papua New Guinea,Cook Islands,59,58,2208,3,Alice Kaiawa,22:56,9,3/12,2/8,1/4,2/4,2,1,3,2,1,3,1,0,6,1
 Papua New Guinea,Cook Islands,59,58,2208,4,Bianca Tuckayo,14:34,0,0/1,0/1,0/0,0/0,0,2,2,0,3,0,0,0,-1,1
 Papua New Guinea,Cook Islands,59,58,2208,11,Jeleena  Irofe,25:26,1,0/8,0/7,0/1,1/6,5,5,10,0,0,3,7,2,2,4
@@ -257,14 +257,14 @@ Papua New Guinea,Cook Islands,59,58,2208,20,Philomena  Arek,08:49,0,0/5,0/3,0/2,
 Papua New Guinea,Cook Islands,59,58,2208,21,Philomena  Isei,34:05,4,2/12,2/11,0/1,0/4,4,5,9,0,3,1,1,1,-8,0
 Papua New Guinea,Cook Islands,59,58,2208,22,Princess Kaore,37:07,1,0/12,0/12,0/0,1/2,6,10,16,0,0,3,0,1,-2,2
 Papua New Guinea,Cook Islands,59,58,2208,23,Sandy Bagelo,08:48,2,1/1,1/1,0/0,0/0,1,0,1,1,2,1,0,0,12,3
-Papua New Guinea,Papua New Guinea,58,59,2208,11,Lily  Teao,25:26,7,2/7,2/7,0/0,3/3,0,1,1,0,2,3,1,0,-13,1
-Papua New Guinea,Papua New Guinea,58,59,2208,20,Jordan  Koteka,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
-Papua New Guinea,Papua New Guinea,58,59,2208,30,Penina- Hinatea Arnold,26:13,4,2/8,2/5,0/3,0/2,0,1,1,3,5,2,0,0,-1,-2
-Papua New Guinea,Papua New Guinea,58,59,2208,31,Nicol  Tiaore,24:36,5,2/5,2/5,0/0,1/3,8,3,11,0,1,1,4,0,-8,14
-Papua New Guinea,Papua New Guinea,58,59,2208,32,Tikara  Jallow,35:09,14,6/21,6/18,0/3,2/4,3,9,12,1,2,4,1,1,6,8
-Papua New Guinea,Papua New Guinea,58,59,2208,33,Hoana-Rose Solomon,32:42,14,7/22,7/22,0/0,0/0,7,10,17,0,3,2,2,1,10,17
-Papua New Guinea,Papua New Guinea,58,59,2208,34,Breana Schmid,31:53,12,6/20,6/17,0/3,0/0,1,2,3,1,5,6,2,1,-1,-1
-Papua New Guinea,Papua New Guinea,58,59,2208,35,Sienna Manea McKinley,24:01,2,1/1,1/1,0/0,0/0,2,3,5,1,2,3,0,1,2,6
+Cook Islands,Papua New Guinea,58,59,2208,11,Lily  Teao,25:26,7,2/7,2/7,0/0,3/3,0,1,1,0,2,3,1,0,-13,1
+Cook Islands,Papua New Guinea,58,59,2208,20,Jordan  Koteka,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Cook Islands,Papua New Guinea,58,59,2208,30,Penina- Hinatea Arnold,26:13,4,2/8,2/5,0/3,0/2,0,1,1,3,5,2,0,0,-1,-2
+Cook Islands,Papua New Guinea,58,59,2208,31,Nicol  Tiaore,24:36,5,2/5,2/5,0/0,1/3,8,3,11,0,1,1,4,0,-8,14
+Cook Islands,Papua New Guinea,58,59,2208,32,Tikara  Jallow,35:09,14,6/21,6/18,0/3,2/4,3,9,12,1,2,4,1,1,6,8
+Cook Islands,Papua New Guinea,58,59,2208,33,Hoana-Rose Solomon,32:42,14,7/22,7/22,0/0,0/0,7,10,17,0,3,2,2,1,10,17
+Cook Islands,Papua New Guinea,58,59,2208,34,Breana Schmid,31:53,12,6/20,6/17,0/3,0/0,1,2,3,1,5,6,2,1,-1,-1
+Cook Islands,Papua New Guinea,58,59,2208,35,Sienna Manea McKinley,24:01,2,1/1,1/1,0/0,0/0,2,3,5,1,2,3,0,1,2,6
 Samoa,New Caledonia,60,41,2208,6,Tasiaelasilelagi  Stowers,16:02,5,2/6,1/3,1/3,0/0,0,1,1,0,4,1,0,0,5,1
 Samoa,New Caledonia,60,41,2208,9,J'adore  Limu Quarter,16:26,4,2/6,2/5,0/1,0/0,4,3,7,0,3,2,0,0,9,5
 Samoa,New Caledonia,60,41,2208,10,Kalista Niu,21:15,12,5/14,3/11,2/3,0/0,3,3,6,4,5,2,3,0,8,14
@@ -321,18 +321,18 @@ New Caledonia,Guam,72,75,2308,12,Velanya Safoka,10:21,0,0/3,0/3,0/0,0/0,1,2,3,0,
 New Caledonia,Guam,72,75,2308,13,Hortensia  Teugasiale,02:56,0,0/0,0/0,0/0,0/0,0,1,1,0,1,1,0,0,-5,0
 New Caledonia,Guam,72,75,2308,14,Loann  Fisiipeau,13:01,3,1/4,1/4,0/0,1/2,4,4,8,0,1,5,1,0,6,3
 New Caledonia,Guam,72,75,2308,15,Enola Noemie Sangarne,30:03,22,9/22,8/19,1/3,3/4,6,1,7,2,0,5,2,0,-3,14
-New Caledonia,New Caledonia,75,72,2308,0,Cori-Nicole Paulino,29:35,16,7/16,7/15,0/1,2/2,0,3,3,4,3,4,7,0,7,17
-New Caledonia,New Caledonia,75,72,2308,1,Maria Taitano,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
-New Caledonia,New Caledonia,75,72,2308,2,Kirsten  Silva,25:01,8,3/13,2/9,1/4,1/2,0,1,1,0,3,1,2,0,-2,-1
-New Caledonia,New Caledonia,75,72,2308,10,ANIAH  CRUZ,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
-New Caledonia,New Caledonia,75,72,2308,12,HALEY BANEZ,03:34,1,0/4,0/4,0/0,1/2,3,0,3,0,0,0,0,0,0,-1
-New Caledonia,New Caledonia,75,72,2308,20,MYKA TERLAJE,31:55,4,1/6,1/6,0/0,2/2,0,2,2,3,2,4,6,0,4,6
-New Caledonia,New Caledonia,75,72,2308,22,Annika  Almario,04:24,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-6,0
-New Caledonia,New Caledonia,75,72,2308,23,Oriana Villasoto Sevilla,22:40,8,3/5,2/3,1/2,1/2,0,3,3,1,0,2,3,0,-5,10
-New Caledonia,New Caledonia,75,72,2308,24,Maria Duenas,04:21,0,0/1,0/0,0/1,0/0,0,0,0,0,0,0,1,0,5,0
-New Caledonia,New Caledonia,75,72,2308,29,Keiani Pangelinan,19:03,0,0/2,0/2,0/0,0/2,0,4,4,2,5,3,2,0,5,1
-New Caledonia,New Caledonia,75,72,2308,30,Madison Borja,22:37,1,0/3,0/3,0/0,1/2,4,3,7,0,2,3,1,0,-1,2
-New Caledonia,New Caledonia,75,72,2308,55,Alana  Salas,36:50,37,12/25,5/12,7/13,6/7,2,3,5,3,2,4,3,1,8,31
+Guam,New Caledonia,75,72,2308,0,Cori-Nicole Paulino,29:35,16,7/16,7/15,0/1,2/2,0,3,3,4,3,4,7,0,7,17
+Guam,New Caledonia,75,72,2308,1,Maria Taitano,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Guam,New Caledonia,75,72,2308,2,Kirsten  Silva,25:01,8,3/13,2/9,1/4,1/2,0,1,1,0,3,1,2,0,-2,-1
+Guam,New Caledonia,75,72,2308,10,ANIAH  CRUZ,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Guam,New Caledonia,75,72,2308,12,HALEY BANEZ,03:34,1,0/4,0/4,0/0,1/2,3,0,3,0,0,0,0,0,0,-1
+Guam,New Caledonia,75,72,2308,20,MYKA TERLAJE,31:55,4,1/6,1/6,0/0,2/2,0,2,2,3,2,4,6,0,4,6
+Guam,New Caledonia,75,72,2308,22,Annika  Almario,04:24,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-6,0
+Guam,New Caledonia,75,72,2308,23,Oriana Villasoto Sevilla,22:40,8,3/5,2/3,1/2,1/2,0,3,3,1,0,2,3,0,-5,10
+Guam,New Caledonia,75,72,2308,24,Maria Duenas,04:21,0,0/1,0/0,0/1,0/0,0,0,0,0,0,0,1,0,5,0
+Guam,New Caledonia,75,72,2308,29,Keiani Pangelinan,19:03,0,0/2,0/2,0/0,0/2,0,4,4,2,5,3,2,0,5,1
+Guam,New Caledonia,75,72,2308,30,Madison Borja,22:37,1,0/3,0/3,0/0,1/2,4,3,7,0,2,3,1,0,-1,2
+Guam,New Caledonia,75,72,2308,55,Alana  Salas,36:50,37,12/25,5/12,7/13,6/7,2,3,5,3,2,4,3,1,8,31
 Australia,Tahiti,139,16,2308,4,Kate Deeble,24:26,13,5/10,2/4,3/6,0/0,0,3,3,6,1,2,5,0,79,20
 Australia,Tahiti,139,16,2308,6,Jade Melbourne,20:15,11,3/4,0/1,3/3,2/2,0,8,8,6,0,1,1,0,62,24
 Australia,Tahiti,139,16,2308,7,Charlise Dunn,23:56,15,6/8,6/8,0/0,3/3,4,3,7,6,0,2,2,0,64,26
@@ -365,16 +365,16 @@ New Zealand,Samoa,84,26,2308,18,Jessica Jean Moors,16:05,11,5/9,5/8,0/1,1/3,1,1,
 New Zealand,Samoa,84,26,2308,21,Olivia Williams,11:36,7,3/6,3/4,0/2,1/2,1,2,3,0,0,0,4,1,29,11
 New Zealand,Samoa,84,26,2308,27,Rochelle Fourie,13:23,7,3/6,3/6,0/0,1/2,5,1,6,0,1,6,0,0,9,3
 New Zealand,Samoa,84,26,2308,33,Hannah Louise Matehaere,27:44,12,5/11,4/8,1/3,1/4,7,2,9,3,0,3,0,0,31,12
-New Zealand,New Zealand,26,84,2308,6,Tasiaelasilelagi  Stowers,16:13,0,0/4,0/3,0/1,0/0,0,0,0,1,0,0,0,0,-32,-3
-New Zealand,New Zealand,26,84,2308,9,J'adore  Limu Quarter,33:06,9,3/5,1/3,2/2,1/2,0,4,4,0,2,5,2,0,-37,7
-New Zealand,New Zealand,26,84,2308,10,Kalista Niu,30:13,8,3/12,2/7,1/5,1/2,4,1,5,0,3,5,1,1,-47,0
-New Zealand,New Zealand,26,84,2308,11,Jana Taufua,28:20,0,0/8,0/6,0/2,0/0,0,3,3,1,2,3,2,0,-44,-5
-New Zealand,New Zealand,26,84,2308,12,Shaylee Coulter-Faamafu,37:27,4,2/7,2/3,0/4,0/0,2,6,8,0,3,4,0,1,-50,4
-New Zealand,New Zealand,26,84,2308,13,Tyla  Fautua,08:45,0,0/0,0/0,0/0,0/0,0,1,1,0,2,0,1,0,-4,2
-New Zealand,New Zealand,26,84,2308,14,Nive Lale,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
-New Zealand,New Zealand,26,84,2308,16,D'Zaiah  Siu,10:47,0,0/0,0/0,0/0,0/0,2,0,2,0,1,1,0,0,-33,1
-New Zealand,New Zealand,26,84,2308,22,Lailani Brown,07:35,0,0/2,0/1,0/1,0/0,0,0,0,0,0,5,0,0,-12,-7
-New Zealand,New Zealand,26,84,2308,33,Charlize Lealiiee,27:34,5,1/9,0/4,1/5,2/4,0,4,4,1,4,9,0,0,-31,-9
+Samoa,New Zealand,26,84,2308,6,Tasiaelasilelagi  Stowers,16:13,0,0/4,0/3,0/1,0/0,0,0,0,1,0,0,0,0,-32,-3
+Samoa,New Zealand,26,84,2308,9,J'adore  Limu Quarter,33:06,9,3/5,1/3,2/2,1/2,0,4,4,0,2,5,2,0,-37,7
+Samoa,New Zealand,26,84,2308,10,Kalista Niu,30:13,8,3/12,2/7,1/5,1/2,4,1,5,0,3,5,1,1,-47,0
+Samoa,New Zealand,26,84,2308,11,Jana Taufua,28:20,0,0/8,0/6,0/2,0/0,0,3,3,1,2,3,2,0,-44,-5
+Samoa,New Zealand,26,84,2308,12,Shaylee Coulter-Faamafu,37:27,4,2/7,2/3,0/4,0/0,2,6,8,0,3,4,0,1,-50,4
+Samoa,New Zealand,26,84,2308,13,Tyla  Fautua,08:45,0,0/0,0/0,0/0,0/0,0,1,1,0,2,0,1,0,-4,2
+Samoa,New Zealand,26,84,2308,14,Nive Lale,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Samoa,New Zealand,26,84,2308,16,D'Zaiah  Siu,10:47,0,0/0,0/0,0/0,0/0,2,0,2,0,1,1,0,0,-33,1
+Samoa,New Zealand,26,84,2308,22,Lailani Brown,07:35,0,0/2,0/1,0/1,0/0,0,0,0,0,0,5,0,0,-12,-7
+Samoa,New Zealand,26,84,2308,33,Charlize Lealiiee,27:34,5,1/9,0/4,1/5,2/4,0,4,4,1,4,9,0,0,-31,-9
 Tahiti,Samoa,62,56,2408,4,Hauhere   Ching-Bellais,00:51,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-2,0
 Tahiti,Samoa,62,56,2408,5,Ranihei  Williams,07:14,0,0/1,0/1,0/0,0/0,0,3,3,0,0,1,1,0,1,2
 Tahiti,Samoa,62,56,2408,7,Elodie  Oestreicher,24:37,6,2/5,2/4,0/1,2/5,5,2,7,1,3,1,0,0,3,7

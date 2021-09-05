@@ -1,0 +1,305 @@
+country,vs,team_score,vs_score,date,#,Players,Min,Pts,FG,2Pts,3Pts,FT,OREB,DREB,REB,AST,PF,TO,STL,BLK,+/-,EFF
+Egypt,Mali,33,66,0508,1,Nour Sherif Ahmed Hussein Abouelkhair,19:00,0,0/1,0/0,0/1,0/0,0,3,3,1,1,1,1,0,0,3
+Egypt,Mali,33,66,0508,3,Salma Amr Fayez Ahmed Bahgat,09:00,0,0/0,0/0,0/0,0/0,0,0,0,0,0,2,0,0,0,-2
+Egypt,Mali,33,66,0508,4,Salma Heshameldin Ismail Moham Ismail,16:00,0,0/2,0/2,0/0,0/0,0,1,1,2,2,5,1,0,0,-3
+Egypt,Mali,33,66,0508,5,Reim Aly Mohamed Talaat Abdelalim,10:00,2,0/1,0/1,0/0,2/3,0,1,1,0,1,2,0,0,0,-1
+Egypt,Mali,33,66,0508,8,Fatma hany Abdalla Kabil,07:00,4,1/2,1/2,0/0,2/2,1,1,2,0,0,1,0,0,0,4
+Egypt,Mali,33,66,0508,9,Ingy Salaheldin Farag Aly Badawy,25:00,1,0/2,0/1,0/1,1/2,0,2,2,1,2,5,1,0,0,-3
+Egypt,Mali,33,66,0508,11,Habiba Hatem Ibrahim Mahmous Elgizawy,29:00,12,4/7,1/3,3/4,1/3,1,4,5,0,0,3,0,0,0,9
+Egypt,Mali,33,66,0508,14,Jana Haytham Mohamed Saad Abdullah,20:00,6,3/4,3/4,0/0,0/1,0,3,3,0,2,2,0,1,0,6
+Egypt,Mali,33,66,0508,15,Hana Nabil Mohamed Bekhit,17:00,3,1/2,0/1,1/1,0/0,1,1,2,0,3,1,0,0,0,3
+Egypt,Mali,33,66,0508,22,Nada Yasser Hussien Raafat Mohamed,24:00,3,1/4,1/3,0/1,1/1,0,2,2,3,1,6,0,0,0,-1
+Egypt,Mali,33,66,0508,26,Malak Khaled Ragheb Khaifa Elshishiny,21:00,2,0/1,0/1,0/0,2/4,0,1,1,0,1,1,0,0,0,-1
+Egypt,Mali,33,66,0508,44,Yara Osama Zarea Sayed Hussein,03:00,0,0/1,0/1,0/0,0/0,0,0,0,0,0,0,0,0,0,-1
+Mali,Egypt,66,33,0508,4,Fanta Kone,35:00,13,6/10,6/8,0/2,1/2,0,1,1,4,2,1,2,0,0,14
+Mali,Egypt,66,33,0508,5,Aissetou Coulibaly,35:00,17,6/19,4/5,2/14,3/5,1,4,5,2,0,1,3,0,0,11
+Mali,Egypt,66,33,0508,6,Diouma Berthe,06:00,2,1/2,1/2,0/0,0/0,0,0,0,0,0,0,0,0,0,1
+Mali,Egypt,66,33,0508,7,Kadidia Coulibaly,11:00,0,0/1,0/0,0/1,0/0,0,1,1,0,0,1,0,0,0,-1
+Mali,Egypt,66,33,0508,8,Saran Berthe,06:00,0,0/2,0/2,0/0,0/0,1,0,1,0,2,0,1,0,0,0
+Mali,Egypt,66,33,0508,9,Lalla Traore,03:00,0,0/0,0/0,0/0,0/0,0,0,0,0,2,0,0,0,0,0
+Mali,Egypt,66,33,0508,10,Diarrah Issa Sissoko,29:00,6,3/13,3/8,0/5,0/0,1,0,1,2,1,0,1,1,0,1
+Mali,Egypt,66,33,0508,11,Aminata Traore,01:00,0,0/0,0/0,0/0,0/0,0,1,1,0,0,0,1,0,0,2
+Mali,Egypt,66,33,0508,12,Sika Kone,33:00,23,10/11,10/11,0/0,3/3,7,4,11,0,4,4,1,0,0,30
+Mali,Egypt,66,33,0508,13,Aissetou Kone,06:00,0,0/0,0/0,0/0,0/0,0,0,0,1,1,0,1,0,0,2
+Mali,Egypt,66,33,0508,14,Mariama Issa Traore,08:00,0,0/0,0/0,0/0,0/0,1,0,1,0,0,1,0,0,0,0
+Mali,Egypt,66,33,0508,15,Aminata Brahima Sangare,27:00,5,2/7,2/7,0/0,1/2,4,4,8,1,4,4,4,0,0,8
+Zimbabwe,Mozambique,39,48,0508,4,Maria Mutengo,35:00,12,6/13,6/12,0/1,0/4,0,2,2,2,2,10,3,0,0,-2
+Zimbabwe,Mozambique,39,48,0508,5,Samantha Jemwa,18:00,7,3/7,2/5,1/2,0/0,1,2,3,0,2,7,0,0,0,-1
+Zimbabwe,Mozambique,39,48,0508,6,Joanne Tashinga Mutsahuni,28:00,0,0/0,0/0,0/0,0/0,0,7,7,1,3,6,1,0,0,3
+Zimbabwe,Mozambique,39,48,0508,7,Nicole Padzai Chaora,01:00,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Zimbabwe,Mozambique,39,48,0508,10,Vaida Anaishe Chivete,17:00,5,2/4,2/4,0/0,1/6,0,0,0,0,4,1,1,0,0,-2
+Zimbabwe,Mozambique,39,48,0508,11,Kudzwaishe Kagodora,31:00,0,0/1,0/1,0/0,0/2,1,4,5,0,2,4,2,0,0,0
+Zimbabwe,Mozambique,39,48,0508,12,Tanaka Phoebie Zwinake,30:00,9,2/11,1/8,1/3,4/9,0,1,1,0,2,13,0,0,0,-17
+Zimbabwe,Mozambique,39,48,0508,13,Charmine Garwe,19:00,4,2/4,2/4,0/0,0/2,0,2,2,0,2,2,1,0,0,1
+Zimbabwe,Mozambique,39,48,0508,14,Tadiwa Mabika,20:00,2,0/0,0/0,0/0,2/6,1,5,6,0,5,2,1,0,0,3
+Zimbabwe,Mozambique,39,48,0508,15,Shantel Tsitsi Magwagwa,01:00,0,0/1,0/1,0/0,0/0,0,1,1,0,0,2,0,0,0,-2
+Mozambique,Zimbabwe,48,39,0508,4,Cleide Machava,27:00,2,1/9,1/6,0/3,0/0,3,2,5,0,3,4,2,0,0,-3
+Mozambique,Zimbabwe,48,39,0508,6,Dorca Matsinhe,03:00,0,0/2,0/2,0/0,0/0,0,1,1,0,1,2,0,0,0,-3
+Mozambique,Zimbabwe,48,39,0508,7,Celia Sumbane,25:00,3,1/6,1/5,0/1,1/1,1,6,7,0,2,1,0,0,0,4
+Mozambique,Zimbabwe,48,39,0508,8,Sandra Magoliço,24:00,4,1/4,1/4,0/0,2/4,1,3,4,0,0,3,1,1,0,2
+Mozambique,Zimbabwe,48,39,0508,9,Noémia Alexandre Massingue,30:00,20,5/15,5/11,0/4,10/17,2,1,3,3,3,13,3,1,0,0
+Mozambique,Zimbabwe,48,39,0508,11,Karen da Rebeca Quicimusso,08:00,0,0/3,0/2,0/1,0/2,2,0,2,0,1,1,0,0,0,-4
+Mozambique,Zimbabwe,48,39,0508,12,Jennifer Sigauque,31:00,9,3/10,3/7,0/3,3/4,2,2,4,1,4,0,2,0,0,8
+Mozambique,Zimbabwe,48,39,0508,13,Chana Maria Paxixe,21:00,6,1/5,0/3,1/2,3/4,0,2,2,0,5,4,2,0,0,1
+Mozambique,Zimbabwe,48,39,0508,14,Suraya Rijal,31:00,4,2/6,2/5,0/1,0/2,1,6,7,0,4,1,1,1,0,6
+Egypt,Zimbabwe,55,46,0608,1,Nour Sherif Ahmed Hussein Abouelkhair,22:00,5,1/4,0/2,1/2,2/2,2,3,5,1,3,5,3,0,0,6
+Egypt,Zimbabwe,55,46,0608,3,Salma Amr Fayez Ahmed Bahgat,08:00,0,0/1,0/0,0/1,0/0,0,0,0,0,0,1,2,0,0,0
+Egypt,Zimbabwe,55,46,0608,4,Salma Heshameldin Ismail Moham Ismail,09:00,0,0/2,0/2,0/0,0/0,0,1,1,0,3,3,4,0,0,0
+Egypt,Zimbabwe,55,46,0608,5,Reim Aly Mohamed Talaat Abdelalim,24:00,5,2/9,2/8,0/1,1/4,3,2,5,0,1,6,1,0,0,-5
+Egypt,Zimbabwe,55,46,0608,8,Fatma hany Abdalla Kabil,23:00,11,4/10,3/7,1/3,2/8,0,1,1,1,4,7,6,0,0,0
+Egypt,Zimbabwe,55,46,0608,9,Ingy Salaheldin Farag Aly Badawy,31:00,6,2/5,2/4,0/1,2/6,0,1,1,4,2,3,3,0,0,4
+Egypt,Zimbabwe,55,46,0608,11,Habiba Hatem Ibrahim Mahmous Elgizawy,22:00,6,3/13,3/5,0/8,0/0,2,1,3,0,3,2,1,0,0,-2
+Egypt,Zimbabwe,55,46,0608,14,Jana Haytham Mohamed Saad Abdullah,12:00,10,4/7,4/7,0/0,2/6,4,1,5,1,4,1,1,0,0,9
+Egypt,Zimbabwe,55,46,0608,15,Hana Nabil Mohamed Bekhit,11:00,0,0/1,0/1,0/0,0/0,1,1,2,0,1,0,0,0,0,1
+Egypt,Zimbabwe,55,46,0608,22,Nada Yasser Hussien Raafat Mohamed,25:00,10,4/7,3/5,1/2,1/3,0,2,2,0,4,10,2,0,0,-1
+Egypt,Zimbabwe,55,46,0608,26,Malak Khaled Ragheb Khaifa Elshishiny,06:00,0,0/3,0/2,0/1,0/0,0,0,0,0,1,0,0,0,0,-3
+Egypt,Zimbabwe,55,46,0608,44,Yara Osama Zarea Sayed Hussein,07:00,2,1/5,1/5,0/0,0/2,3,0,3,0,2,3,0,0,0,-4
+Zimbabwe,Egypt,46,55,0608,4,Maria Mutengo,31:00,12,4/9,3/6,1/3,3/10,1,7,8,0,0,10,1,1,0,0
+Zimbabwe,Egypt,46,55,0608,5,Samantha Jemwa,33:00,11,3/5,3/5,0/0,5/10,0,4,4,1,3,13,5,0,0,1
+Zimbabwe,Egypt,46,55,0608,6,Joanne Tashinga Mutsahuni,06:00,0,0/0,0/0,0/0,0/0,1,1,2,1,3,2,1,0,0,2
+Zimbabwe,Egypt,46,55,0608,7,Nicole Padzai Chaora,14:00,0,0/1,0/1,0/0,0/0,2,1,3,0,5,2,1,0,0,1
+Zimbabwe,Egypt,46,55,0608,8,Thandeka Tatenda Sibanda,05:00,0,0/0,0/0,0/0,0/0,0,0,0,0,0,1,0,0,0,-1
+Zimbabwe,Egypt,46,55,0608,9,Tadiwanashe Bwerazuva,01:00,0,0/0,0/0,0/0,0/0,1,0,1,0,0,0,0,0,0,1
+Zimbabwe,Egypt,46,55,0608,10,Vaida Anaishe Chivete,13:00,2,1/2,1/1,0/1,0/0,0,1,1,0,2,5,1,0,0,-2
+Zimbabwe,Egypt,46,55,0608,11,Kudzwaishe Kagodora,20:00,0,0/1,0/1,0/0,0/0,2,1,3,0,3,4,0,0,0,-2
+Zimbabwe,Egypt,46,55,0608,12,Tanaka Phoebie Zwinake,23:00,2,0/4,0/3,0/1,2/6,0,3,3,2,4,12,3,0,0,-10
+Zimbabwe,Egypt,46,55,0608,13,Charmine Garwe,15:00,3,1/2,1/2,0/0,1/6,0,1,1,0,0,3,2,0,0,-3
+Zimbabwe,Egypt,46,55,0608,14,Tadiwa Mabika,39:00,16,7/14,7/14,0/0,2/11,8,11,19,0,2,10,7,0,0,16
+Angola,Mozambique,64,57,0608,5,Cristina João Lourenço,37:00,14,6/12,6/11,0/1,2/2,0,2,2,0,2,10,4,0,0,4
+Angola,Mozambique,64,57,0608,7,Helena Pululo,14:00,4,2/2,2/2,0/0,0/2,1,3,4,0,1,1,0,0,0,5
+Angola,Mozambique,64,57,0608,8,Nelma Cunha,15:00,5,1/2,1/1,0/1,3/6,2,0,2,0,5,5,4,0,0,2
+Angola,Mozambique,64,57,0608,9,Alexia Shanice dos Santos Dizeko,32:00,12,5/10,5/9,0/1,2/2,1,3,4,1,5,6,3,0,0,9
+Angola,Mozambique,64,57,0608,10,Cacia Antonio,38:00,7,2/7,2/4,0/3,3/4,0,3,3,0,2,3,0,0,0,1
+Angola,Mozambique,64,57,0608,11,Conceicao Francisco Caetano,24:00,14,5/12,5/8,0/4,4/6,0,2,2,0,5,2,0,0,0,5
+Angola,Mozambique,64,57,0608,12,Tcheuzia Gonçalves,01:00,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Angola,Mozambique,64,57,0608,13,Maria Quipaca,13:00,3,1/2,1/2,0/0,1/2,1,1,2,0,3,1,1,0,0,3
+Angola,Mozambique,64,57,0608,14,Nara Miguel André,20:00,2,1/3,1/3,0/0,0/2,1,3,4,0,3,2,0,0,0,0
+Angola,Mozambique,64,57,0608,15,Julia Francisco,06:00,3,1/2,1/2,0/0,1/1,2,0,2,0,5,0,0,0,0,4
+Mozambique,Angola,57,64,0608,4,Cleide Machava,16:00,0,0/1,0/1,0/0,0/2,1,1,2,0,1,4,2,0,0,-3
+Mozambique,Angola,57,64,0608,6,Dorca Matsinhe,01:00,0,0/0,0/0,0/0,0/0,0,0,0,0,0,1,0,0,0,-1
+Mozambique,Angola,57,64,0608,7,Celia Sumbane,27:00,1,0/1,0/1,0/0,1/2,2,2,4,0,1,3,0,0,0,0
+Mozambique,Angola,57,64,0608,8,Sandra Magoliço,25:00,11,5/6,5/6,0/0,1/2,1,1,2,1,0,4,0,0,0,8
+Mozambique,Angola,57,64,0608,9,Noémia Alexandre Massingue,31:00,18,5/11,5/8,0/3,8/13,0,6,6,0,4,5,2,0,0,10
+Mozambique,Angola,57,64,0608,11,Karen da Rebeca Quicimusso,02:00,0,0/1,0/1,0/0,0/2,1,0,1,0,1,3,1,0,0,-4
+Mozambique,Angola,57,64,0608,12,Jennifer Sigauque,36:00,9,2/8,2/5,0/3,5/9,0,3,3,1,4,4,1,0,0,0
+Mozambique,Angola,57,64,0608,13,Chana Maria Paxixe,34:00,8,3/7,3/5,0/2,2/2,4,2,6,1,3,10,2,0,0,3
+Mozambique,Angola,57,64,0608,14,Suraya Rijal,28:00,10,2/3,2/3,0/0,6/14,2,4,6,0,4,3,0,0,0,4
+Mali,Zimbabwe,112,22,0708,4,Fanta Kone,22:00,5,2/8,1/3,1/5,0/0,0,0,0,6,3,2,2,0,0,5
+Mali,Zimbabwe,112,22,0708,5,Aissetou Coulibaly,17:00,26,11/18,8/9,3/9,1/3,0,0,0,2,1,2,2,0,0,19
+Mali,Zimbabwe,112,22,0708,6,Diouma Berthe,09:00,19,8/10,5/5,3/5,0/0,0,0,0,0,0,2,0,0,0,15
+Mali,Zimbabwe,112,22,0708,7,Kadidia Coulibaly,18:00,12,4/5,3/4,1/1,3/4,2,1,3,0,1,1,2,0,0,14
+Mali,Zimbabwe,112,22,0708,8,Saran Berthe,19:00,7,3/6,2/4,1/2,0/0,1,0,1,3,5,0,3,0,0,11
+Mali,Zimbabwe,112,22,0708,9,Lalla Traore,11:00,2,1/3,1/3,0/0,0/0,0,3,3,2,2,1,0,0,0,4
+Mali,Zimbabwe,112,22,0708,10,Diarrah Issa Sissoko,18:00,20,9/16,7/10,2/6,0/0,2,0,2,2,3,3,3,0,0,17
+Mali,Zimbabwe,112,22,0708,11,Aminata Traore,15:00,0,0/2,0/2,0/0,0/0,1,1,2,1,3,2,1,0,0,0
+Mali,Zimbabwe,112,22,0708,12,Sika Kone,17:00,13,6/9,6/8,0/1,1/5,1,7,8,3,3,2,1,0,0,16
+Mali,Zimbabwe,112,22,0708,13,Aissetou Kone,13:00,0,0/5,0/4,0/1,0/2,2,1,3,1,3,0,1,0,0,-2
+Mali,Zimbabwe,112,22,0708,14,Mariama Issa Traore,21:00,2,1/2,1/2,0/0,0/0,1,4,5,1,4,1,2,0,0,8
+Mali,Zimbabwe,112,22,0708,15,Aminata Brahima Sangare,20:00,6,3/4,3/4,0/0,0/0,0,3,3,6,1,1,0,0,0,13
+Zimbabwe,Mali,22,112,0708,4,Maria Mutengo,26:00,3,0/2,0/1,0/1,3/6,0,5,5,1,2,8,1,0,0,-3
+Zimbabwe,Mali,22,112,0708,5,Samantha Jemwa,09:00,0,0/0,0/0,0/0,0/0,0,0,0,0,1,1,0,0,0,-1
+Zimbabwe,Mali,22,112,0708,6,Joanne Tashinga Mutsahuni,02:00,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Zimbabwe,Mali,22,112,0708,7,Nicole Padzai Chaora,23:00,0,0/2,0/0,0/2,0/2,0,1,1,0,1,3,1,0,0,-5
+Zimbabwe,Mali,22,112,0708,8,Thandeka Tatenda Sibanda,05:00,0,0/0,0/0,0/0,0/0,0,0,0,0,0,2,0,0,0,-2
+Zimbabwe,Mali,22,112,0708,9,Tadiwanashe Bwerazuva,07:00,0,0/0,0/0,0/0,0/0,0,1,1,0,0,1,0,0,0,0
+Zimbabwe,Mali,22,112,0708,10,Vaida Anaishe Chivete,13:00,0,0/3,0/3,0/0,0/0,0,0,0,0,2,5,0,0,0,-8
+Zimbabwe,Mali,22,112,0708,11,Kudzwaishe Kagodora,31:00,0,0/0,0/0,0/0,0/2,1,4,5,0,4,7,0,0,0,-4
+Zimbabwe,Mali,22,112,0708,12,Tanaka Phoebie Zwinake,32:00,9,2/6,1/5,1/1,4/5,2,5,7,0,3,3,2,0,0,10
+Zimbabwe,Mali,22,112,0708,13,Charmine Garwe,10:00,0,0/0,0/0,0/0,0/0,0,0,0,0,1,0,0,0,0,0
+Zimbabwe,Mali,22,112,0708,14,Tadiwa Mabika,36:00,10,1/2,1/2,0/0,8/21,0,4,4,0,4,4,2,0,0,-2
+Zimbabwe,Mali,22,112,0708,15,Shantel Tsitsi Magwagwa,06:00,0,0/0,0/0,0/0,0/0,0,0,0,0,0,1,0,0,0,-1
+Angola,Egypt,43,56,0708,4,Elizete Elias,01:00,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Angola,Egypt,43,56,0708,5,Cristina João Lourenço,25:00,9,4/9,3/6,1/3,0/4,1,1,2,0,5,9,4,1,0,-2
+Angola,Egypt,43,56,0708,7,Helena Pululo,27:00,4,1/2,1/2,0/0,2/4,0,2,2,0,3,3,0,1,0,1
+Angola,Egypt,43,56,0708,8,Nelma Cunha,09:00,0,0/0,0/0,0/0,0/0,1,1,2,0,0,2,0,0,0,0
+Angola,Egypt,43,56,0708,9,Alexia Shanice dos Santos Dizeko,36:00,6,3/7,3/5,0/2,0/2,2,3,5,1,3,6,2,0,0,2
+Angola,Egypt,43,56,0708,10,Cacia Antonio,38:00,8,3/8,1/4,2/4,0/2,2,3,5,2,2,4,7,0,0,11
+Angola,Egypt,43,56,0708,11,Conceicao Francisco Caetano,32:00,15,4/16,3/9,1/7,6/15,1,1,2,2,2,12,4,0,0,-10
+Angola,Egypt,43,56,0708,12,Tcheuzia Gonçalves,01:00,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,1,0,0,1
+Angola,Egypt,43,56,0708,13,Maria Quipaca,08:00,0,0/0,0/0,0/0,0/0,0,0,0,0,3,0,0,0,0,0
+Angola,Egypt,43,56,0708,14,Nara Miguel André,09:00,1,0/1,0/1,0/0,1/2,0,1,1,0,2,2,0,0,0,-2
+Angola,Egypt,43,56,0708,15,Julia Francisco,14:00,0,0/1,0/1,0/0,0/0,0,3,3,0,2,5,2,0,0,-1
+Egypt,Angola,56,43,0708,1,Nour Sherif Ahmed Hussein Abouelkhair,06:00,0,0/0,0/0,0/0,0/0,1,1,2,0,3,0,1,0,0,3
+Egypt,Angola,56,43,0708,4,Salma Heshameldin Ismail Moham Ismail,04:00,0,0/2,0/2,0/0,0/0,0,0,0,0,1,0,0,0,0,-2
+Egypt,Angola,56,43,0708,5,Reim Aly Mohamed Talaat Abdelalim,30:00,5,2/2,2/2,0/0,1/3,2,2,4,0,1,3,2,0,0,6
+Egypt,Angola,56,43,0708,8,Fatma hany Abdalla Kabil,28:00,6,1/9,1/7,0/2,4/6,2,5,7,1,3,6,3,0,0,1
+Egypt,Angola,56,43,0708,9,Ingy Salaheldin Farag Aly Badawy,20:00,0,0/0,0/0,0/0,0/0,0,3,3,0,2,4,3,0,0,2
+Egypt,Angola,56,43,0708,11,Habiba Hatem Ibrahim Mahmous Elgizawy,36:00,22,8/18,6/10,2/8,4/10,4,1,5,3,2,8,1,0,0,7
+Egypt,Angola,56,43,0708,14,Jana Haytham Mohamed Saad Abdullah,26:00,16,7/9,7/9,0/0,2/4,4,5,9,2,0,6,3,0,0,20
+Egypt,Angola,56,43,0708,15,Hana Nabil Mohamed Bekhit,14:00,3,1/2,1/1,0/1,1/2,0,2,2,0,1,1,1,0,0,3
+Egypt,Angola,56,43,0708,22,Nada Yasser Hussien Raafat Mohamed,20:00,2,1/2,1/2,0/0,0/4,0,3,3,1,3,3,2,0,0,0
+Egypt,Angola,56,43,0708,26,Malak Khaled Ragheb Khaifa Elshishiny,16:00,2,1/4,1/2,0/2,0/0,0,3,3,1,4,5,3,0,0,1
+Zimbabwe,Angola,29,52,0808,4,Maria Mutengo,30:00,8,3/11,3/6,0/5,2/2,2,2,4,2,4,10,6,0,0,2
+Zimbabwe,Angola,29,52,0808,5,Samantha Jemwa,16:00,1,0/2,0/1,0/1,1/2,0,3,3,0,5,8,1,0,0,-6
+Zimbabwe,Angola,29,52,0808,6,Joanne Tashinga Mutsahuni,05:00,2,1/2,1/2,0/0,0/2,2,0,2,0,2,0,0,0,0,1
+Zimbabwe,Angola,29,52,0808,7,Nicole Padzai Chaora,18:00,0,0/0,0/0,0/0,0/0,0,2,2,0,3,0,0,0,0,2
+Zimbabwe,Angola,29,52,0808,8,Thandeka Tatenda Sibanda,06:00,3,1/1,1/1,0/0,1/2,0,1,1,0,1,1,2,0,0,4
+Zimbabwe,Angola,29,52,0808,9,Tadiwanashe Bwerazuva,04:00,0,0/0,0/0,0/0,0/0,0,0,0,0,2,0,0,0,0,0
+Zimbabwe,Angola,29,52,0808,10,Vaida Anaishe Chivete,19:00,2,1/4,1/3,0/1,0/0,0,1,1,0,3,0,7,0,0,7
+Zimbabwe,Angola,29,52,0808,11,Kudzwaishe Kagodora,17:00,0,0/1,0/0,0/1,0/0,1,4,5,0,2,3,1,1,0,3
+Zimbabwe,Angola,29,52,0808,12,Tanaka Phoebie Zwinake,23:00,7,3/9,3/8,0/1,1/2,1,1,2,0,0,9,3,0,0,-4
+Zimbabwe,Angola,29,52,0808,13,Charmine Garwe,23:00,0,0/3,0/1,0/2,0/0,1,1,2,1,0,5,2,0,0,-3
+Zimbabwe,Angola,29,52,0808,14,Tadiwa Mabika,38:00,6,2/5,2/5,0/0,2/4,4,8,12,1,4,6,2,0,0,10
+Zimbabwe,Angola,29,52,0808,15,Shantel Tsitsi Magwagwa,01:00,0,0/0,0/0,0/0,0/0,1,0,1,0,0,0,0,0,0,1
+Angola,Zimbabwe,52,29,0808,4,Elizete Elias,05:00,0,0/0,0/0,0/0,0/2,0,0,0,0,1,1,2,0,0,-1
+Angola,Zimbabwe,52,29,0808,5,Cristina João Lourenço,15:00,8,4/6,4/4,0/2,0/6,0,0,0,3,2,4,5,0,0,4
+Angola,Zimbabwe,52,29,0808,6,Isidora Pedro Augusto,03:00,1,0/0,0/0,0/0,1/4,0,0,0,0,1,1,2,0,0,-1
+Angola,Zimbabwe,52,29,0808,7,Helena Pululo,30:00,3,1/4,1/3,0/1,1/4,1,3,4,1,0,3,1,0,0,0
+Angola,Zimbabwe,52,29,0808,8,Nelma Cunha,15:00,9,3/4,2/3,1/1,2/8,0,1,1,0,3,4,1,0,0,0
+Angola,Zimbabwe,52,29,0808,9,Alexia Shanice dos Santos Dizeko,30:00,5,2/11,2/6,0/5,1/2,0,3,3,2,0,4,3,0,0,-1
+Angola,Zimbabwe,52,29,0808,10,Cacia Antonio,30:00,14,5/13,3/6,2/7,2/2,3,2,5,1,0,5,5,0,0,12
+Angola,Zimbabwe,52,29,0808,11,Conceicao Francisco Caetano,21:00,4,2/7,2/4,0/3,0/0,2,0,2,0,3,5,1,1,0,-2
+Angola,Zimbabwe,52,29,0808,12,Tcheuzia Gonçalves,09:00,2,1/1,1/1,0/0,0/0,1,0,1,0,2,1,3,0,0,5
+Angola,Zimbabwe,52,29,0808,13,Maria Quipaca,21:00,2,1/4,1/3,0/1,0/0,6,2,8,0,3,5,2,0,0,4
+Angola,Zimbabwe,52,29,0808,14,Nara Miguel André,09:00,1,0/2,0/2,0/0,1/2,6,0,6,0,0,1,0,1,0,4
+Angola,Zimbabwe,52,29,0808,15,Julia Francisco,12:00,3,1/3,1/3,0/0,1/2,0,0,0,0,4,1,2,0,0,1
+Mozambique,Mali,33,76,0808,4,Cleide Machava,14:08,3,1/6,0/2,1/4,0/0,0,0,0,3,1,3,0,0,-15,-2
+Mozambique,Mali,33,76,0808,5,Angelica Jovo,05:48,2,1/3,1/3,0/0,0/0,1,2,3,0,1,2,0,0,-10,1
+Mozambique,Mali,33,76,0808,6,Dorca Matsinhe,06:25,0,0/2,0/1,0/1,0/0,0,0,0,0,0,0,0,0,-12,-2
+Mozambique,Mali,33,76,0808,7,Celia Sumbane,23:46,2,1/1,1/1,0/0,0/0,0,0,0,0,1,1,0,1,-42,2
+Mozambique,Mali,33,76,0808,8,Sandra Magoliço,19:57,3,1/5,1/4,0/1,1/2,3,2,5,0,5,4,0,0,-7,-1
+Mozambique,Mali,33,76,0808,9,Noémia Alexandre Massingue,22:11,4,1/7,0/1,1/6,1/2,1,3,4,4,0,6,2,0,-14,1
+Mozambique,Mali,33,76,0808,10,Michele Carmelia Langa,08:27,0,0/0,0/0,0/0,0/0,0,1,1,0,1,1,0,0,-8,0
+Mozambique,Mali,33,76,0808,11,Karen da Rebeca Quicimusso,23:28,4,0/3,0/2,0/1,4/6,1,3,4,0,2,8,1,0,-13,-4
+Mozambique,Mali,33,76,0808,12,Jennifer Sigauque,25:29,8,2/7,0/3,2/4,2/6,0,3,3,0,1,9,2,0,-24,-5
+Mozambique,Mali,33,76,0808,13,Chana Maria Paxixe,17:26,5,2/3,1/2,1/1,0/4,0,0,0,1,0,4,0,0,-17,-3
+Mozambique,Mali,33,76,0808,14,Suraya Rijal,23:39,2,1/2,1/2,0/0,0/0,3,9,12,1,2,5,1,0,-33,10
+Mozambique,Mali,33,76,0808,15,Nelly Rudolph Ambros McDonald,09:10,0,0/3,0/2,0/1,0/0,1,1,2,0,3,5,1,0,-20,-5
+Mali,Mozambique,76,33,0808,4,Fanta Kone,20:43,9,4/10,3/6,1/4,0/0,0,1,1,4,5,2,3,0,12,9
+Mali,Mozambique,76,33,0808,5,Aissetou Coulibaly,32:30,27,9/23,5/9,4/14,5/6,1,3,4,2,3,6,3,0,37,15
+Mali,Mozambique,76,33,0808,6,Diouma Berthe,14:32,2,1/2,1/2,0/0,0/0,0,2,2,1,2,4,0,1,15,1
+Mali,Mozambique,76,33,0808,7,Kadidia Coulibaly,18:23,5,1/3,1/3,0/0,3/4,1,0,1,2,0,1,4,0,16,8
+Mali,Mozambique,76,33,0808,8,Saran Berthe,06:56,0,0/0,0/0,0/0,0/0,0,1,1,0,0,0,0,0,10,1
+Mali,Mozambique,76,33,0808,9,Lalla Traore,01:05,0,0/2,0/2,0/0,0/0,0,0,0,1,0,0,0,0,0,-1
+Mali,Mozambique,76,33,0808,10,Diarrah Issa Sissoko,25:45,17,7/14,6/9,1/5,2/2,1,0,1,4,2,2,2,0,39,15
+Mali,Mozambique,76,33,0808,11,Aminata Traore,05:25,2,1/2,1/2,0/0,0/0,2,1,3,0,0,0,0,1,9,5
+Mali,Mozambique,76,33,0808,12,Sika Kone,29:43,12,6/10,6/10,0/0,0/0,5,3,8,2,2,7,11,1,35,23
+Mali,Mozambique,76,33,0808,13,Aissetou Kone,01:09,1,0/0,0/0,0/0,1/2,0,0,0,0,0,0,1,0,0,1
+Mali,Mozambique,76,33,0808,14,Mariama Issa Traore,27:13,0,0/1,0/1,0/0,0/2,3,4,7,0,1,4,3,1,37,4
+Mali,Mozambique,76,33,0808,15,Aminata Brahima Sangare,16:32,1,0/2,0/2,0/0,1/2,0,2,2,0,4,1,3,0,5,2
+Mali,Angola,60,43,0908,4,Fanta Kone,29:42,9,3/6,2/3,1/3,2/4,2,4,6,0,3,4,3,1,11,10
+Mali,Angola,60,43,0908,5,Aissetou Coulibaly,34:14,19,7/15,6/11,1/4,4/10,1,1,2,6,2,6,9,0,17,16
+Mali,Angola,60,43,0908,6,Diouma Berthe,21:58,9,2/4,0/2,2/2,3/4,0,0,0,4,0,1,1,0,18,10
+Mali,Angola,60,43,0908,7,Kadidia Coulibaly,05:55,2,1/1,1/1,0/0,0/0,0,0,0,0,0,1,0,0,2,1
+Mali,Angola,60,43,0908,8,Saran Berthe,11:32,0,0/3,0/2,0/1,0/0,1,1,2,0,0,0,0,0,10,-1
+Mali,Angola,60,43,0908,10,Diarrah Issa Sissoko,27:34,4,1/6,0/5,1/1,1/2,2,1,3,0,0,7,0,0,6,-6
+Mali,Angola,60,43,0908,11,Aminata Traore,02:07,0,0/0,0/0,0/0,0/0,0,2,2,0,0,0,0,0,1,2
+Mali,Angola,60,43,0908,12,Sika Kone,26:30,12,5/10,5/9,0/1,2/3,2,7,9,0,4,7,2,1,8,11
+Mali,Angola,60,43,0908,14,Mariama Issa Traore,11:16,0,0/0,0/0,0/0,0/0,3,2,5,1,5,3,1,0,-3,4
+Mali,Angola,60,43,0908,15,Aminata Brahima Sangare,29:09,5,2/7,2/7,0/0,1/2,4,4,8,2,4,3,3,0,17,9
+Angola,Mali,43,60,0908,5,Cristina João Lourenço,28:46,10,4/6,3/5,1/1,1/2,0,2,2,1,4,3,3,0,-8,10
+Angola,Mali,43,60,0908,6,Isidora Pedro Augusto,01:07,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-2,0
+Angola,Mali,43,60,0908,7,Helena Pululo,19:19,2,1/2,1/2,0/0,0/2,0,1,1,1,2,3,2,0,-4,0
+Angola,Mali,43,60,0908,8,Nelma Cunha,29:07,6,2/5,2/5,0/0,2/4,0,2,2,0,4,5,1,0,-5,-1
+Angola,Mali,43,60,0908,9,Alexia Shanice dos Santos Dizeko,20:15,4,1/5,1/3,0/2,2/2,0,2,2,2,1,5,1,0,-14,0
+Angola,Mali,43,60,0908,10,Cacia Antonio,35:57,6,2/10,1/6,1/4,1/2,1,4,5,3,1,0,2,0,-11,7
+Angola,Mali,43,60,0908,11,Conceicao Francisco Caetano,35:40,8,4/9,4/7,0/2,0/2,1,2,3,1,4,8,4,0,-20,1
+Angola,Mali,43,60,0908,12,Tcheuzia Gonçalves,00:09,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Angola,Mali,43,60,0908,13,Maria Quipaca,14:52,2,1/1,1/1,0/0,0/0,0,1,1,0,0,2,0,0,-12,1
+Angola,Mali,43,60,0908,15,Julia Francisco,14:42,5,0/1,0/1,0/0,5/6,0,0,0,0,2,3,2,0,-9,2
+Mozambique,Egypt,61,64,0908,4,Cleide Machava,01:55,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Mozambique,Egypt,61,64,0908,7,Celia Sumbane,11:19,3,1/1,0/0,1/1,0/0,1,1,2,0,2,1,0,0,6,4
+Mozambique,Egypt,61,64,0908,8,Sandra Magoliço,26:32,2,0/2,0/2,0/0,2/8,2,2,4,0,2,4,1,0,-6,-5
+Mozambique,Egypt,61,64,0908,9,Noémia Alexandre Massingue,32:36,13,5/14,2/8,3/6,0/0,0,3,3,4,4,6,2,0,-8,7
+Mozambique,Egypt,61,64,0908,11,Karen da Rebeca Quicimusso,07:29,3,1/2,0/0,1/2,0/0,0,0,0,0,0,2,1,0,-4,1
+Mozambique,Egypt,61,64,0908,12,Jennifer Sigauque,32:22,6,2/6,1/3,1/3,1/2,0,2,2,5,3,3,1,0,-6,6
+Mozambique,Egypt,61,64,0908,13,Chana Maria Paxixe,27:56,7,2/5,0/1,2/4,1/4,1,2,3,1,3,2,4,0,8,7
+Mozambique,Egypt,61,64,0908,14,Suraya Rijal,37:14,9,3/8,3/8,0/0,3/6,6,4,10,0,2,5,2,0,-1,8
+Mozambique,Egypt,61,64,0908,15,Nelly Rudolph Ambros McDonald,22:33,18,7/9,4/4,3/5,1/2,0,1,1,0,3,8,2,0,-4,10
+Egypt,Mozambique,64,61,0908,1,Nour Sherif Ahmed Hussein Abouelkhair,13:19,0,0/1,0/0,0/1,0/0,0,2,2,1,4,1,1,0,12,2
+Egypt,Mozambique,64,61,0908,4,Salma Heshameldin Ismail Moham Ismail,17:24,13,5/7,5/7,0/0,3/6,0,1,1,0,3,2,2,0,14,9
+Egypt,Mozambique,64,61,0908,5,Reim Aly Mohamed Talaat Abdelalim,21:33,4,2/2,2/2,0/0,0/0,0,5,5,0,1,4,1,0,-5,6
+Egypt,Mozambique,64,61,0908,8,Fatma hany Abdalla Kabil,10:38,0,0/2,0/1,0/1,0/2,2,1,3,0,0,4,1,0,-4,-4
+Egypt,Mozambique,64,61,0908,9,Ingy Salaheldin Farag Aly Badawy,22:36,2,0/0,0/0,0/0,2/2,0,0,0,1,1,0,1,0,-10,4
+Egypt,Mozambique,64,61,0908,11,Habiba Hatem Ibrahim Mahmous Elgizawy,28:54,12,5/11,4/4,1/7,1/2,0,2,2,0,2,7,1,0,-1,1
+Egypt,Mozambique,64,61,0908,14,Jana Haytham Mohamed Saad Abdullah,22:34,8,2/3,2/3,0/0,4/6,0,4,4,0,2,3,1,0,6,7
+Egypt,Mozambique,64,61,0908,15,Hana Nabil Mohamed Bekhit,10:31,0,0/2,0/1,0/1,0/0,1,1,2,0,3,0,0,0,-3,0
+Egypt,Mozambique,64,61,0908,22,Nada Yasser Hussien Raafat Mohamed,33:07,10,4/6,3/5,1/1,1/1,0,1,1,1,2,5,5,0,5,10
+Egypt,Mozambique,64,61,0908,26,Malak Khaled Ragheb Khaifa Elshishiny,19:20,15,6/6,3/3,3/3,0/1,0,2,2,0,0,3,2,0,1,15
+Egypt,Angola,42,59,1108,1,Nour Sherif Ahmed Hussein Abouelkhair,15:32,4,2/3,2/2,0/1,0/0,1,3,4,0,4,1,1,0,-8,7
+Egypt,Angola,42,59,1108,4,Salma Heshameldin Ismail Moham Ismail,10:15,10,3/4,3/4,0/0,4/6,0,0,0,0,1,3,3,0,-5,7
+Egypt,Angola,42,59,1108,5,Reim Aly Mohamed Talaat Abdelalim,31:30,6,3/7,3/7,0/0,0/2,1,1,2,3,2,6,0,0,-5,-1
+Egypt,Angola,42,59,1108,8,Fatma hany Abdalla Kabil,12:46,0,0/4,0/3,0/1,0/0,0,1,1,0,1,4,2,0,-5,-5
+Egypt,Angola,42,59,1108,9,Ingy Salaheldin Farag Aly Badawy,31:49,0,0/3,0/3,0/0,0/2,0,2,2,2,3,3,2,0,-11,-2
+Egypt,Angola,42,59,1108,11,Habiba Hatem Ibrahim Mahmous Elgizawy,34:43,15,6/14,5/10,1/4,2/6,1,2,3,1,3,9,5,0,-13,3
+Egypt,Angola,42,59,1108,14,Jana Haytham Mohamed Saad Abdullah,12:01,0,0/0,0/0,0/0,0/0,1,0,1,0,0,3,1,0,-12,-1
+Egypt,Angola,42,59,1108,15,Hana Nabil Mohamed Bekhit,14:13,1,0/0,0/0,0/0,1/2,0,0,0,0,3,1,0,0,-9,-1
+Egypt,Angola,42,59,1108,22,Nada Yasser Hussien Raafat Mohamed,23:39,3,1/3,1/2,0/1,1/2,0,1,1,0,3,8,2,0,-11,-5
+Egypt,Angola,42,59,1108,26,Malak Khaled Ragheb Khaifa Elshishiny,13:19,3,1/2,1/2,0/0,1/4,0,0,0,0,0,3,1,0,-6,-3
+Angola,Egypt,59,42,1108,4,Elizete Elias,00:55,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-3,0
+Angola,Egypt,59,42,1108,5,Cristina João Lourenço,36:11,16,7/10,7/9,0/1,2/6,1,1,2,1,4,9,3,0,18,6
+Angola,Egypt,59,42,1108,6,Isidora Pedro Augusto,00:55,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-3,0
+Angola,Egypt,59,42,1108,7,Helena Pululo,14:35,5,2/5,2/5,0/0,1/2,0,4,4,0,4,3,1,0,-5,3
+Angola,Egypt,59,42,1108,8,Nelma Cunha,13:35,2,1/3,1/3,0/0,0/0,0,0,0,0,1,4,0,0,11,-4
+Angola,Egypt,59,42,1108,9,Alexia Shanice dos Santos Dizeko,27:17,9,3/6,2/2,1/4,2/3,0,5,5,1,2,2,4,0,12,13
+Angola,Egypt,59,42,1108,10,Cacia Antonio,37:03,12,6/6,6/6,0/0,0/0,1,2,3,3,1,6,8,0,20,20
+Angola,Egypt,59,42,1108,11,Conceicao Francisco Caetano,33:49,8,3/3,3/3,0/0,2/4,1,4,5,1,3,9,4,0,9,7
+Angola,Egypt,59,42,1108,12,Tcheuzia Gonçalves,13:10,0,0/0,0/0,0/0,0/0,0,0,0,0,2,2,2,0,2,0
+Angola,Egypt,59,42,1108,13,Maria Quipaca,02:26,2,1/1,1/1,0/0,0/0,0,1,1,0,0,0,0,0,-3,3
+Angola,Egypt,59,42,1108,14,Nara Miguel André,06:23,0,0/0,0/0,0/0,0/0,0,0,0,1,1,0,1,0,5,2
+Angola,Egypt,59,42,1108,15,Julia Francisco,13:28,5,2/2,2/2,0/0,1/3,0,3,3,1,4,1,0,0,22,6
+Mali,Mozambique,63,39,1108,4,Fanta Kone,30:28,5,2/5,1/2,1/3,0/0,1,1,2,4,0,7,2,0,26,3
+Mali,Mozambique,63,39,1108,5,Aissetou Coulibaly,21:40,17,8/14,8/9,0/5,1/7,0,2,2,3,2,0,2,1,17,13
+Mali,Mozambique,63,39,1108,6,Diouma Berthe,21:49,6,2/10,0/3,2/7,0/0,0,1,1,1,0,2,4,0,5,2
+Mali,Mozambique,63,39,1108,7,Kadidia Coulibaly,22:01,9,4/5,4/5,0/0,1/2,0,1,1,2,2,2,3,0,16,11
+Mali,Mozambique,63,39,1108,8,Saran Berthe,07:28,2,0/2,0/1,0/1,2/2,0,0,0,1,1,1,1,0,-3,1
+Mali,Mozambique,63,39,1108,9,Lalla Traore,03:56,0,0/1,0/1,0/0,0/0,0,0,0,0,0,0,0,0,-3,-1
+Mali,Mozambique,63,39,1108,10,Diarrah Issa Sissoko,20:14,9,4/6,3/4,1/2,0/0,0,0,0,0,2,2,4,0,20,9
+Mali,Mozambique,63,39,1108,11,Aminata Traore,03:37,0,0/0,0/0,0/0,0/0,0,1,1,0,0,0,0,0,2,1
+Mali,Mozambique,63,39,1108,12,Sika Kone,21:30,7,2/4,2/4,0/0,3/6,3,4,7,0,1,9,4,0,3,4
+Mali,Mozambique,63,39,1108,14,Mariama Issa Traore,20:06,4,2/3,2/3,0/0,0/0,1,3,4,0,3,0,3,0,14,10
+Mali,Mozambique,63,39,1108,15,Aminata Brahima Sangare,27:06,4,2/6,2/6,0/0,0/0,5,1,6,0,4,2,1,0,23,5
+Mozambique,Mali,39,63,1108,4,Cleide Machava,19:12,0,0/5,0/1,0/4,0/0,1,2,3,2,1,5,1,0,-18,-4
+Mozambique,Mali,39,63,1108,6,Dorca Matsinhe,02:15,0,0/1,0/0,0/1,0/0,0,0,0,0,0,0,1,0,0,0
+Mozambique,Mali,39,63,1108,7,Celia Sumbane,20:00,2,1/2,1/2,0/0,0/0,1,3,4,0,3,2,2,0,-10,5
+Mozambique,Mali,39,63,1108,8,Sandra Magoliço,24:58,3,1/3,1/2,0/1,1/4,2,3,5,0,0,6,0,0,-20,-3
+Mozambique,Mali,39,63,1108,9,Noémia Alexandre Massingue,20:15,10,4/8,3/4,1/4,1/2,2,0,2,2,1,5,1,0,-12,5
+Mozambique,Mali,39,63,1108,11,Karen da Rebeca Quicimusso,05:10,4,2/2,2/2,0/0,0/2,0,0,0,0,0,1,0,0,-3,1
+Mozambique,Mali,39,63,1108,12,Jennifer Sigauque,26:12,11,4/10,1/3,3/7,0/2,1,1,2,1,2,7,2,0,-11,1
+Mozambique,Mali,39,63,1108,13,Chana Maria Paxixe,22:49,2,0/2,0/0,0/2,2/2,0,4,4,1,1,4,2,0,-9,3
+Mozambique,Mali,39,63,1108,14,Suraya Rijal,34:12,1,0/0,0/0,0/0,1/2,6,6,12,0,2,1,1,0,-20,12
+Mozambique,Mali,39,63,1108,15,Nelly Rudolph Ambros McDonald,24:51,6,2/9,0/1,2/8,0/0,0,0,0,2,4,8,1,0,-17,-6
+Mozambique,Egypt,38,56,1208,4,Cleide Machava,10:12,2,1/3,1/1,0/2,0/0,0,1,1,0,1,1,1,0,-5,1
+Mozambique,Egypt,38,56,1208,5,Angelica Jovo,03:56,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,1,0,2,1
+Mozambique,Egypt,38,56,1208,6,Dorca Matsinhe,13:15,1,0/2,0/2,0/0,1/3,1,1,2,0,1,3,1,0,-8,-3
+Mozambique,Egypt,38,56,1208,7,Celia Sumbane,20:30,3,1/6,1/6,0/0,1/4,5,1,6,0,1,0,2,0,-20,3
+Mozambique,Egypt,38,56,1208,8,Sandra Magoliço,30:49,9,4/4,4/4,0/0,1/1,1,2,3,1,2,6,2,0,-13,9
+Mozambique,Egypt,38,56,1208,9,Noémia Alexandre Massingue,01:58,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Mozambique,Egypt,38,56,1208,10,Michele Carmelia Langa,01:55,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-1,0
+Mozambique,Egypt,38,56,1208,11,Karen da Rebeca Quicimusso,09:17,0,0/2,0/2,0/0,0/0,0,0,0,0,1,3,0,0,-4,-5
+Mozambique,Egypt,38,56,1208,12,Jennifer Sigauque,31:58,6,2/12,1/6,1/6,1/9,0,3,3,1,4,5,6,0,-10,-7
+Mozambique,Egypt,38,56,1208,13,Chana Maria Paxixe,31:19,7,2/10,0/4,2/6,1/2,1,2,3,2,0,3,1,0,-18,1
+Mozambique,Egypt,38,56,1208,14,Suraya Rijal,24:42,6,3/6,3/6,0/0,0/0,4,3,7,0,4,5,1,0,-5,6
+Mozambique,Egypt,38,56,1208,15,Nelly Rudolph Ambros McDonald,20:03,4,2/10,2/7,0/3,0/0,2,1,3,3,2,11,0,0,-8,-9
+Egypt,Mozambique,56,38,1208,4,Salma Heshameldin Ismail Moham Ismail,09:32,5,2/2,2/2,0/0,1/2,0,0,0,1,1,2,1,0,2,4
+Egypt,Mozambique,56,38,1208,5,Reim Aly Mohamed Talaat Abdelalim,30:27,5,2/5,2/4,0/1,1/2,2,3,5,0,0,4,1,0,16,3
+Egypt,Mozambique,56,38,1208,8,Fatma hany Abdalla Kabil,30:34,7,2/8,0/3,2/5,1/4,0,5,5,0,3,3,6,0,15,6
+Egypt,Mozambique,56,38,1208,9,Ingy Salaheldin Farag Aly Badawy,27:36,0,0/2,0/1,0/1,0/0,0,2,2,2,3,7,1,0,10,-4
+Egypt,Mozambique,56,38,1208,11,Habiba Hatem Ibrahim Mahmous Elgizawy,35:18,15,7/11,6/9,1/2,0/2,1,4,5,2,2,9,7,0,17,14
+Egypt,Mozambique,56,38,1208,14,Jana Haytham Mohamed Saad Abdullah,34:52,16,6/7,6/7,0/0,4/5,0,6,6,0,2,4,0,0,21,16
+Egypt,Mozambique,56,38,1208,15,Hana Nabil Mohamed Bekhit,05:07,0,0/1,0/1,0/0,0/0,0,0,0,0,3,1,1,0,-3,-1
+Egypt,Mozambique,56,38,1208,22,Nada Yasser Hussien Raafat Mohamed,15:29,6,2/3,1/2,1/1,1/2,1,1,2,1,1,5,5,0,9,7
+Egypt,Mozambique,56,38,1208,26,Malak Khaled Ragheb Khaifa Elshishiny,11:01,2,1/3,1/1,0/2,0/0,1,3,4,0,2,0,1,0,3,5
+Mali,Angola,68,29,1208,4,Fanta Kone,30:16,5,1/6,1/4,0/2,3/4,2,3,5,6,1,1,3,0,36,12
+Mali,Angola,68,29,1208,5,Aissetou Coulibaly,28:52,25,8/17,6/12,2/5,7/10,2,1,3,1,2,4,6,2,31,21
+Mali,Angola,68,29,1208,6,Diouma Berthe,25:43,10,4/12,2/4,2/8,0/2,0,0,0,2,0,3,0,0,44,-1
+Mali,Angola,68,29,1208,7,Kadidia Coulibaly,07:59,2,1/2,1/1,0/1,0/0,0,0,0,0,2,1,1,0,2,1
+Mali,Angola,68,29,1208,8,Saran Berthe,02:40,0,0/1,0/1,0/0,0/0,0,0,0,0,2,0,0,0,-2,-1
+Mali,Angola,68,29,1208,9,Lalla Traore,04:38,0,0/1,0/1,0/0,0/0,0,1,1,0,1,0,0,0,-2,0
+Mali,Angola,68,29,1208,10,Diarrah Issa Sissoko,21:38,6,3/6,3/6,0/0,0/0,0,1,1,0,1,3,4,0,16,5
+Mali,Angola,68,29,1208,11,Aminata Traore,01:57,0,0/0,0/0,0/0,0/2,0,0,0,0,0,0,0,0,0,-2
+Mali,Angola,68,29,1208,12,Sika Kone,30:41,15,5/12,5/12,0/0,5/9,5,4,9,3,2,4,1,1,34,14
+Mali,Angola,68,29,1208,13,Aissetou Kone,04:38,0,0/1,0/1,0/0,0/0,0,0,0,0,0,1,0,0,-2,-2
+Mali,Angola,68,29,1208,14,Mariama Issa Traore,22:18,1,0/1,0/1,0/0,1/2,1,2,3,0,2,0,2,0,26,4
+Mali,Angola,68,29,1208,15,Aminata Brahima Sangare,18:35,4,2/2,2/2,0/0,0/4,4,1,5,0,1,1,3,1,12,8
+Angola,Mali,29,68,1208,4,Elizete Elias,03:17,0,0/1,0/1,0/0,0/0,0,0,0,0,0,1,0,0,0,-2
+Angola,Mali,29,68,1208,5,Cristina João Lourenço,32:07,6,2/5,2/2,0/3,2/4,0,4,4,3,2,8,1,0,-31,1
+Angola,Mali,29,68,1208,6,Isidora Pedro Augusto,05:12,0,0/2,0/2,0/0,0/0,1,0,1,0,1,2,0,0,-4,-3
+Angola,Mali,29,68,1208,7,Helena Pululo,19:47,0,0/2,0/2,0/0,0/0,0,2,2,0,3,3,0,0,-22,-3
+Angola,Mali,29,68,1208,8,Nelma Cunha,19:42,0,0/0,0/0,0/0,0/0,0,1,1,0,3,1,1,0,-22,1
+Angola,Mali,29,68,1208,9,Alexia Shanice dos Santos Dizeko,34:22,13,6/12,5/8,1/4,0/0,1,6,7,0,3,3,1,0,-27,12
+Angola,Mali,29,68,1208,11,Conceicao Francisco Caetano,31:31,2,0/7,0/3,0/4,2/2,1,5,6,1,4,12,1,0,-28,-9
+Angola,Mali,29,68,1208,12,Tcheuzia Gonçalves,13:16,0,0/3,0/2,0/1,0/0,0,2,2,0,2,1,1,0,-16,-1
+Angola,Mali,29,68,1208,13,Maria Quipaca,21:36,4,1/1,1/1,0/0,2/3,1,2,3,0,0,1,0,0,-15,5
+Angola,Mali,29,68,1208,14,Nara Miguel André,07:13,0,0/0,0/0,0/0,0/0,0,1,1,0,0,2,0,0,-9,-1
+Angola,Mali,29,68,1208,15,Julia Francisco,11:53,4,2/2,2/2,0/0,0/0,1,1,2,0,3,2,0,0,-21,4
