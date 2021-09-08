@@ -1,0 +1,1345 @@
+country,vs,team_score,vs_score,date,#,Players,Min,Pts,FG,2Pts,3Pts,FT,OREB,DREB,REB,AST,PF,TO,STL,BLK,+/-,EFF
+China,Mali,69,49,2107,4,Wenping Sui,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+China,Mali,69,49,2107,5,Jing Zhou,30:37,8,2/6,2/6,0/0,4/4,0,4,4,9,2,2,1,0,22,16
+China,Mali,69,49,2107,6,Xianglin Wu,12:55,2,1/7,1/7,0/0,0/0,0,1,1,0,0,2,2,0,3,-3
+China,Mali,69,49,2107,7,Luan Luan,07:01,2,1/2,1/2,0/0,0/0,0,1,1,2,1,1,1,0,2,4
+China,Mali,69,49,2107,8,Leyi Wang,04:55,2,1/1,1/1,0/0,0/0,0,0,0,1,1,0,0,0,-2,3
+China,Mali,69,49,2107,9,Ming Zheng,33:54,12,5/15,4/7,1/8,1/2,2,5,7,7,2,2,2,1,15,16
+China,Mali,69,49,2107,10,Kun Huang,10:18,0,0/2,0/1,0/1,0/0,1,1,2,0,4,0,0,0,7,0
+China,Mali,69,49,2107,11,Shuyu Yang,20:52,3,1/11,0/5,1/6,0/0,0,3,3,2,1,3,2,1,19,-2
+China,Mali,69,49,2107,12,Zhuo Ma,29:27,15,5/8,3/6,2/2,3/3,2,8,10,0,1,0,0,0,16,22
+China,Mali,69,49,2107,13,Jiyuan Wan,16:12,8,4/8,4/8,0/0,0/0,3,4,7,2,2,1,0,0,13,12
+China,Mali,69,49,2107,15,Yutong Liu,24:01,16,5/8,5/8,0/0,6/8,3,6,9,1,4,2,0,1,4,20
+China,Mali,69,49,2107,16,Shu Wang,09:41,1,0/0,0/0,0/0,1/2,0,1,1,0,3,1,0,0,1,0
+Mali,China,49,69,2107,4,Fanta Kone,34:43,5,2/9,2/7,0/2,1/1,1,4,5,5,2,3,1,0,-22,6
+Mali,China,49,69,2107,5,Fanta Daffe,02:27,0,0/0,0/0,0/0,0/0,0,0,0,0,1,0,0,0,-7,0
+Mali,China,49,69,2107,7,Kadidia Coulibaly,17:10,8,2/6,0/0,2/6,2/2,0,0,0,0,1,1,0,0,-5,3
+Mali,China,49,69,2107,8,Saran Berthe,07:16,3,1/2,0/0,1/2,0/0,0,3,3,0,1,1,0,0,-7,4
+Mali,China,49,69,2107,9,Diouma Berthe,20:58,0,0/6,0/0,0/6,0/0,0,0,0,0,1,0,1,0,-2,-5
+Mali,China,49,69,2107,10,Diarrah Issa Sissoko,27:26,5,2/11,2/6,0/5,1/4,0,3,3,1,1,2,2,0,-14,-3
+Mali,China,49,69,2107,12,Alima Kouyate,07:36,2,1/4,1/4,0/0,0/0,1,0,1,0,3,0,0,0,-1,0
+Mali,China,49,69,2107,14,Sika Kone,30:16,12,4/17,4/16,0/1,4/4,5,6,11,1,2,3,1,0,-6,9
+Mali,China,49,69,2107,15,Aminata Brahima Sangare,34:30,14,3/10,3/9,0/1,8/12,5,9,14,3,2,6,1,0,-22,15
+Mali,China,49,69,2107,16,Kady Togola,02:21,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,1,0,-7,1
+Mali,China,49,69,2107,17,Mariama Issa Traore,14:37,0,0/1,0/1,0/0,0/0,2,4,6,0,4,0,1,0,-7,6
+Mali,China,49,69,2107,20,Fatoumata Dembele,00:35,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+New Zealand,Spain,48,83,2107,2,Ella Jade Bradley,17:07,2,0/4,0/4,0/0,2/2,3,1,4,1,0,1,0,0,-18,2
+New Zealand,Spain,48,83,2107,5,Kyra Paniora,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+New Zealand,Spain,48,83,2107,6,Tara Manumaleuga,22:18,9,3/11,2/7,1/4,2/6,4,2,6,0,2,5,2,2,-11,2
+New Zealand,Spain,48,83,2107,8,Shauna Povey,12:25,0,0/1,0/0,0/1,0/0,0,0,0,0,0,2,0,0,-23,-3
+New Zealand,Spain,48,83,2107,9,Emilee Bree Tahata,11:31,0,0/3,0/1,0/2,0/0,0,1,1,0,0,2,0,0,-19,-4
+New Zealand,Spain,48,83,2107,15,Madison Ariana Hema,06:39,0,0/0,0/0,0/0,0/0,0,0,0,0,2,2,0,0,-20,-2
+New Zealand,Spain,48,83,2107,25,Jazzmyne Jade Kailahi-Fulu,29:07,11,4/8,4/8,0/0,3/3,6,6,12,1,3,5,2,0,-16,17
+New Zealand,Spain,48,83,2107,26,Tayla Dalton,27:23,11,4/6,3/4,1/2,2/2,5,4,9,1,0,4,1,0,-21,16
+New Zealand,Spain,48,83,2107,30,Isabelle Cook,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+New Zealand,Spain,48,83,2107,42,Helen Matthews,10:16,0,0/2,0/1,0/1,0/0,0,0,0,1,4,1,0,0,-8,-2
+New Zealand,Spain,48,83,2107,44,Charlisse Trinity Leger-Walker,36:04,10,4/12,4/7,0/5,2/6,1,3,4,2,3,9,2,1,-23,-2
+New Zealand,Spain,48,83,2107,88,Sharne Pupuke-Robati,27:07,5,1/10,1/8,0/2,3/4,0,2,2,2,1,1,2,0,-16,0
+Spain,New Zealand,83,48,2107,4,Violeta Verano Fores,06:17,0,0/3,0/1,0/2,0/0,1,0,1,2,0,0,1,0,5,1
+Spain,New Zealand,83,48,2107,5,Estel Puiggros Rovira,22:19,7,3/11,3/7,0/4,1/2,0,2,2,2,3,6,5,0,11,1
+Spain,New Zealand,83,48,2107,6,Celia Carbonell Muñoz,21:34,12,4/8,3/7,1/1,3/4,1,7,8,0,3,0,3,0,17,18
+Spain,New Zealand,83,48,2107,7,Laura Mendez Camps,21:31,2,1/9,1/5,0/4,0/0,0,1,1,3,1,1,3,1,19,1
+Spain,New Zealand,83,48,2107,8,Nora Galve Batet,22:21,4,1/4,1/3,0/1,2/2,1,1,2,3,1,1,2,0,22,7
+Spain,New Zealand,83,48,2107,9,Zoe Hernandez Ortiz,15:28,12,5/8,3/5,2/3,0/0,0,2,2,0,1,1,0,0,14,10
+Spain,New Zealand,83,48,2107,10,Helena Pueyo Melchor,18:11,15,6/11,5/7,1/4,2/3,0,2,2,2,0,1,5,0,19,17
+Spain,New Zealand,83,48,2107,11,Ana Caballero Sanchez,10:52,2,1/2,1/2,0/0,0/0,2,2,4,1,0,0,1,0,4,7
+Spain,New Zealand,83,48,2107,12,Nerea Hermosa Monreal,21:19,4,2/4,2/4,0/0,0/0,4,1,5,1,2,1,0,2,13,9
+Spain,New Zealand,83,48,2107,13,Laia  Moya Blanch,16:40,6,2/2,2/2,0/0,2/2,3,1,4,0,3,1,3,0,10,12
+Spain,New Zealand,83,48,2107,14,Raquel Carrera Quintana,18:46,17,6/8,6/8,0/0,5/7,3,1,4,2,3,2,4,1,27,22
+Spain,New Zealand,83,48,2107,15,Anna Gamarra Ramirez,04:35,2,1/2,1/2,0/0,0/0,0,1,1,1,1,0,1,0,14,4
+USA,Italy,86,48,2107,4,Zia Cooke,14:36,6,1/5,1/4,0/1,4/7,2,0,2,2,4,6,3,0,-8,0
+USA,Italy,86,48,2107,5,Paige Bueckers,22:34,12,6/9,6/9,0/0,0/0,0,3,3,5,2,3,1,0,31,15
+USA,Italy,86,48,2107,6,Azzi Fudd,22:01,9,3/7,2/6,1/1,2/2,1,2,3,1,3,0,1,0,16,10
+USA,Italy,86,48,2107,7,Celeste Taylor,18:40,9,4/7,4/6,0/1,1/2,2,0,2,3,1,2,2,0,9,10
+USA,Italy,86,48,2107,8,Jordan Horston,16:52,4,2/6,2/5,0/1,0/0,5,5,10,3,0,3,1,1,25,12
+USA,Italy,86,48,2107,9,Hailey Van Lith,14:05,12,5/8,3/6,2/2,0/2,1,1,2,2,0,0,0,0,25,11
+USA,Italy,86,48,2107,10,Haley Jones,21:28,13,6/9,5/8,1/1,0/0,0,2,2,2,1,3,2,0,35,13
+USA,Italy,86,48,2107,11,Charisma Osborne,17:49,5,2/6,1/1,1/5,0/1,0,2,2,1,0,1,0,1,22,3
+USA,Italy,86,48,2107,12,Samantha Brunelle,11:49,0,0/3,0/1,0/2,0/0,1,1,2,0,3,1,0,1,-3,-1
+USA,Italy,86,48,2107,13,Cameron Brink,09:24,3,1/4,1/4,0/0,1/2,3,3,6,0,1,0,1,0,14,6
+USA,Italy,86,48,2107,14,Aliyah Boston,15:01,7,2/3,2/3,0/0,3/4,5,4,9,1,1,2,1,0,26,14
+USA,Italy,86,48,2107,15,Fran Belibi,15:34,6,3/7,3/7,0/0,0/1,4,1,5,1,2,0,1,0,-2,8
+Italy,USA,48,86,2107,4,Lisa Gallitognotta,04:34,0,0/2,0/2,0/0,0/0,0,0,0,0,0,1,0,0,-9,-3
+Italy,USA,48,86,2107,5,Alessandra Orsili,17:06,7,3/4,3/3,0/1,1/2,0,1,1,0,1,4,3,0,-18,5
+Italy,USA,48,86,2107,6,Federica Mazza,06:17,0,0/1,0/1,0/0,0/0,0,1,1,0,3,2,0,0,-6,-2
+Italy,USA,48,86,2107,7,Sofia Frustaci,10:40,0,0/2,0/2,0/0,0/0,2,0,2,0,1,0,1,0,-14,1
+Italy,USA,48,86,2107,8,Marta Rossini,12:49,8,1/4,0/2,1/2,5/6,1,2,3,0,2,1,0,0,-10,6
+Italy,USA,48,86,2107,9,Giulia Natali,24:15,16,7/15,5/12,2/3,0/0,0,0,0,1,1,2,0,0,-16,7
+Italy,USA,48,86,2107,11,Silvia Pastrello,22:00,6,2/5,2/5,0/0,2/4,0,2,2,2,1,2,1,0,-19,4
+Italy,USA,48,86,2107,12,Martina Spinelli,27:20,4,2/9,2/6,0/3,0/0,2,3,5,2,4,1,1,0,-24,4
+Italy,USA,48,86,2107,14,Ilaria Panzera,25:58,2,1/3,1/3,0/0,0/2,0,4,4,4,1,5,2,0,-24,3
+Italy,USA,48,86,2107,15,Lucia Adele Savatteri,12:19,2,0/2,0/2,0/0,2/2,0,1,1,0,2,1,1,0,-11,1
+Italy,USA,48,86,2107,18,Caterina Gilli,20:04,3,1/5,1/5,0/0,1/1,0,0,0,2,2,4,0,1,-26,-2
+Italy,USA,48,86,2107,20,Caterina Mattera,16:31,0,0/0,0/0,0/0,0/0,1,2,3,0,3,3,0,0,-13,0
+Argentina,Hungary,61,85,2107,4,Victoria Abril Gauna,30:15,8,3/5,3/4,0/1,2/2,2,4,6,1,1,3,1,0,-21,11
+Argentina,Hungary,61,85,2107,5,Ariana Agustina Rugna Di Lorenzo,05:01,0,0/0,0/0,0/0,0/0,0,0,0,0,0,2,0,0,-4,-2
+Argentina,Hungary,61,85,2107,6,Rocio Belen Cejas,20:37,2,1/3,1/3,0/0,0/3,0,0,0,0,0,1,0,0,-12,-4
+Argentina,Hungary,61,85,2107,7,Luciana Andrea Riccotti,04:22,0,0/0,0/0,0/0,0/0,0,2,2,0,1,0,0,0,-4,2
+Argentina,Hungary,61,85,2107,8,Camila Ailen Lignac,09:50,1,0/0,0/0,0/0,1/2,0,2,2,1,3,2,0,0,-6,1
+Argentina,Hungary,61,85,2107,9,Sofia Acevedo,24:55,15,5/14,3/8,2/6,3/6,1,1,2,1,2,2,0,0,-22,4
+Argentina,Hungary,61,85,2107,10,Malvina Guadalupe D' Agostino,15:25,0,0/3,0/3,0/0,0/2,2,2,4,1,1,0,1,0,-1,1
+Argentina,Hungary,61,85,2107,11,Lucia Operto,11:15,4,2/3,2/3,0/0,0/0,1,3,4,1,2,2,0,0,-10,6
+Argentina,Hungary,61,85,2107,12,Martina Torres Passeggi,07:29,0,0/1,0/1,0/0,0/0,0,0,0,0,0,1,0,0,-2,-2
+Argentina,Hungary,61,85,2107,13,Candela Gentinetta,26:36,4,1/3,1/2,0/1,2/2,0,3,3,2,3,5,1,0,-17,3
+Argentina,Hungary,61,85,2107,14,Florencia Natalia Chagas,28:37,15,5/14,3/6,2/8,3/6,1,1,2,8,3,2,1,0,-13,12
+Argentina,Hungary,61,85,2107,15,Brenda Griselda Fontana,15:34,12,5/7,5/7,0/0,2/2,0,3,3,0,0,2,1,0,-8,12
+Hungary,Argentina,85,61,2107,6,Barbara Angyal,26:34,11,5/11,5/9,0/2,1/2,0,3,3,5,3,1,0,0,17,11
+Hungary,Argentina,85,61,2107,9,Fruzsina Reka Horvath,08:25,4,2/6,2/5,0/1,0/0,1,2,3,1,2,0,0,1,-4,5
+Hungary,Argentina,85,61,2107,10,Georgina Kovács,11:55,7,3/7,2/3,1/4,0/0,0,2,2,3,0,1,2,0,4,9
+Hungary,Argentina,85,61,2107,11,Berta Panna Boros,10:41,0,0/0,0/0,0/0,0/0,2,1,3,2,1,2,0,0,6,3
+Hungary,Argentina,85,61,2107,12,Zita Vari,17:31,12,4/6,4/6,0/0,4/5,0,1,1,4,3,0,1,0,20,15
+Hungary,Argentina,85,61,2107,14,Aliz Varga,22:13,17,7/12,7/11,0/1,3/4,2,3,5,2,3,1,2,0,26,19
+Hungary,Argentina,85,61,2107,15,Reka Dombai,16:04,18,8/12,6/9,2/3,0/0,1,2,3,1,1,1,2,1,18,20
+Hungary,Argentina,85,61,2107,19,Nora Judit Wentzel,22:40,2,1/6,1/5,0/1,0/0,2,2,4,2,2,1,2,0,10,4
+Hungary,Argentina,85,61,2107,22,Dorina Szirony,07:24,4,2/2,2/2,0/0,0/0,1,2,3,2,1,1,0,0,-1,8
+Hungary,Argentina,85,61,2107,23,Reka Manyoky,19:55,2,1/6,1/3,0/3,0/2,0,4,4,3,3,1,0,0,4,1
+Hungary,Argentina,85,61,2107,24,Franka Emilia Toth,17:00,2,1/2,1/2,0/0,0/0,1,4,5,0,2,3,2,1,13,6
+Hungary,Argentina,85,61,2107,30,Angelika Kiss,19:34,6,2/5,2/5,0/0,2/2,3,2,5,1,2,1,0,0,7,8
+Japan,France,53,60,2107,4,Yu Suzuki,18:37,2,0/4,0/2,0/2,2/2,1,3,4,0,0,0,2,0,-12,4
+Japan,France,53,60,2107,5,Maya Sophia McArthur,15:37,0,0/6,0/6,0/0,0/0,0,5,5,0,1,0,1,0,9,0
+Japan,France,53,60,2107,6,Sakura Noguchi,25:30,8,2/8,2/7,0/1,4/4,2,2,4,1,2,2,1,0,-2,6
+Japan,France,53,60,2107,7,Misa Hayashi,20:40,7,1/13,0/8,1/5,4/4,0,0,0,0,1,1,0,0,-4,-6
+Japan,France,53,60,2107,8,Miku Takahashi,23:21,8,3/9,3/9,0/0,2/2,1,5,6,4,1,2,0,0,-6,10
+Japan,France,53,60,2107,9,Nodoka Fujita,16:38,3,1/3,1/2,0/1,1/1,0,4,4,2,0,1,1,1,0,8
+Japan,France,53,60,2107,10,Rina Yamaguchi,09:41,6,3/6,3/5,0/1,0/0,0,2,2,0,0,1,0,0,1,4
+Japan,France,53,60,2107,11,Reika Nakamichi,11:49,4,2/3,2/3,0/0,0/0,1,2,3,0,2,0,1,0,5,7
+Japan,France,53,60,2107,12,Nanaka Yamaguchi,05:01,2,1/3,1/2,0/1,0/0,0,0,0,0,1,2,1,0,-1,-1
+Japan,France,53,60,2107,13,Nanami Morioka,06:17,2,1/2,1/2,0/0,0/0,0,0,0,0,1,0,0,0,-5,1
+Japan,France,53,60,2107,14,Maika Miura,26:00,8,4/8,4/6,0/2,0/1,5,1,6,2,2,1,1,0,1,11
+Japan,France,53,60,2107,15,Aika Hirashita,20:45,3,1/8,1/5,0/3,1/3,2,1,3,0,1,0,1,0,-21,-2
+France,Japan,60,53,2107,4,Marine Fauthoux,29:19,10,4/11,3/7,1/4,1/2,1,4,5,4,2,2,1,0,3,10
+France,Japan,60,53,2107,5,Marie Pardon,17:41,0,0/2,0/0,0/2,0/0,0,6,6,0,1,1,0,0,-4,3
+France,Japan,60,53,2107,7,Zoé Wadoux,27:29,11,4/11,1/2,3/9,0/0,0,2,2,0,2,1,1,0,7,6
+France,Japan,60,53,2107,8,Yohana Ewodo,18:35,2,1/3,1/2,0/1,0/0,6,1,7,1,4,3,1,0,2,6
+France,Japan,60,53,2107,9,Anaia Hoard,00:07,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+France,Japan,60,53,2107,10,Fayzat Djoumoi,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+France,Japan,60,53,2107,11,Kendra Chéry,33:08,14,5/18,5/16,0/2,4/6,3,4,7,5,1,3,3,6,6,17
+France,Japan,60,53,2107,12,Iliana Rupert,26:38,18,7/16,7/14,0/2,4/4,5,11,16,1,2,3,3,5,11,31
+France,Japan,60,53,2107,13,Janelle Salaun,13:11,0,0/2,0/1,0/1,0/0,0,5,5,0,0,1,1,1,1,4
+France,Japan,60,53,2107,26,Eve De Christophie Mahoutou,07:00,2,1/1,1/1,0/0,0/0,1,2,3,0,2,0,0,0,-4,5
+France,Japan,60,53,2107,29,Ewl Guennoc,12:00,3,1/3,0/1,1/2,0/0,0,0,0,2,1,0,0,0,6,3
+France,Japan,60,53,2107,30,Olivia Yale,14:45,0,0/1,0/1,0/0,0/0,0,0,0,0,3,0,0,0,7,-1
+Latvia,Canada,51,65,2107,4,Jete Katrina Nulle,18:13,0,0/5,0/1,0/4,0/0,0,3,3,3,3,3,0,0,-15,-2
+Latvia,Canada,51,65,2107,5,Ketija Vihmane,29:37,7,2/10,0/4,2/6,1/2,1,1,2,3,5,2,0,1,-10,2
+Latvia,Canada,51,65,2107,6,Flera Vinerte,25:10,4,1/3,1/2,0/1,2/4,0,5,5,1,2,1,0,1,-11,6
+Latvia,Canada,51,65,2107,7,Paula Klescova,27:30,6,3/6,3/5,0/1,0/0,2,2,4,2,2,3,1,0,-17,7
+Latvia,Canada,51,65,2107,8,Lina Loceniece,12:35,6,2/6,0/2,2/4,0/0,0,0,0,2,0,4,0,1,11,1
+Latvia,Canada,51,65,2107,9,Una Steinharde,05:32,2,0/1,0/0,0/1,2/2,0,1,1,0,0,1,1,0,5,2
+Latvia,Canada,51,65,2107,10,Laura Meldere,30:16,20,6/12,6/11,0/1,8/12,4,7,11,1,1,3,0,2,-4,21
+Latvia,Canada,51,65,2107,11,Eva Indrike,07:55,0,0/1,0/1,0/0,0/0,0,0,0,1,4,0,0,0,-4,0
+Latvia,Canada,51,65,2107,12,Evelina Silvija Fricsone,05:04,0,0/0,0/0,0/0,0/0,0,0,0,0,0,1,0,0,-1,-1
+Latvia,Canada,51,65,2107,13,Anita Megija Mikelsone,19:03,0,0/6,0/6,0/0,0/0,0,0,0,0,3,3,1,0,-5,-8
+Latvia,Canada,51,65,2107,14,Elvija Anna Veršele,09:37,4,2/3,2/3,0/0,0/0,0,0,0,0,1,0,0,0,-10,3
+Latvia,Canada,51,65,2107,15,Betija Rudzite,09:24,2,1/4,1/4,0/0,0/0,1,2,3,0,1,0,0,0,-9,2
+Canada,Latvia,65,51,2107,4,Sarah  Te- Biasu,20:49,9,3/11,2/7,1/4,2/4,1,0,1,4,2,3,5,0,4,6
+Canada,Latvia,65,51,2107,5,Rebecca Marzan Demeke,03:31,0,0/1,0/1,0/0,0/0,0,0,0,0,0,1,1,0,-1,-1
+Canada,Latvia,65,51,2107,6,Aerial Wilson,19:10,2,1/4,1/3,0/1,0/2,2,2,4,4,0,2,1,1,10,5
+Canada,Latvia,65,51,2107,7,Donna Ntambue,19:23,5,2/9,2/9,0/0,1/1,3,4,7,1,0,3,1,1,15,5
+Canada,Latvia,65,51,2107,8,Makayla Ennis,21:38,4,1/4,1/4,0/0,2/2,1,2,3,3,2,1,1,0,2,7
+Canada,Latvia,65,51,2107,9,Aaliyah Edwards,25:25,8,3/9,2/8,1/1,1/2,5,4,9,0,2,4,1,0,14,7
+Canada,Latvia,65,51,2107,10,Merissah Russell,12:56,11,3/10,3/8,0/2,5/5,4,1,5,1,4,2,1,0,7,9
+Canada,Latvia,65,51,2107,11,Yvonne Ejim,28:13,9,4/6,4/6,0/0,1/2,4,4,8,2,2,1,2,1,15,18
+Canada,Latvia,65,51,2107,12,Faith Dut,12:10,6,2/4,2/4,0/0,2/4,2,3,5,0,5,2,0,1,12,6
+Canada,Latvia,65,51,2107,13,Brynn Masikewich,19:31,2,1/7,1/7,0/0,0/0,1,4,5,0,2,0,2,1,-5,4
+Canada,Latvia,65,51,2107,14,Deanna Tuchscherer,12:40,7,2/4,1/3,1/1,2/2,0,1,1,0,1,1,0,0,-7,5
+Canada,Latvia,65,51,2107,15,Olivia Morgan-Cherchas,04:27,2,1/2,1/2,0/0,0/0,1,1,2,0,2,0,0,0,4,3
+Angola,Australia,43,81,2107,5,Paula Caîtão Andre,03:19,1,0/0,0/0,0/0,1/2,1,1,2,0,1,0,0,0,5,2
+Angola,Australia,43,81,2107,6,Cristina João Lourenço,00:55,0,0/1,0/1,0/0,0/0,0,1,1,0,0,1,1,0,-2,0
+Angola,Australia,43,81,2107,7,Helena Pululo,24:18,9,2/8,1/5,1/3,4/8,0,1,1,0,2,1,0,0,-32,-1
+Angola,Australia,43,81,2107,8,Nelma Cunha,05:04,2,1/1,1/1,0/0,0/0,0,0,0,1,3,0,0,0,-1,3
+Angola,Australia,43,81,2107,9,Alexia Shanice dos Santos Dizeko,35:25,7,2/9,2/8,0/1,3/6,4,9,13,4,2,2,2,2,-29,16
+Angola,Australia,43,81,2107,10,Cacia  Antonio,28:58,10,4/14,2/8,2/6,0/0,2,5,7,3,1,4,1,0,-26,7
+Angola,Australia,43,81,2107,11,Conceicao Francisco Caetano,22:19,8,2/12,1/10,1/2,3/4,0,2,2,0,1,2,1,0,-10,-2
+Angola,Australia,43,81,2107,13,Maria Quipaca,11:04,2,1/4,1/1,0/3,0/1,1,1,2,0,2,1,0,1,-15,0
+Angola,Australia,43,81,2107,14,Nara Miguel André,15:25,0,0/3,0/2,0/1,0/2,2,2,4,0,3,0,0,0,-26,-1
+Angola,Australia,43,81,2107,15,Julia  Francisco,23:16,3,1/4,1/4,0/0,1/3,1,2,3,0,5,1,0,0,-21,0
+Angola,Australia,43,81,2107,20,Rafaela  Henriques,11:34,1,0/3,0/1,0/2,1/2,0,1,1,0,2,1,1,2,-16,0
+Angola,Australia,43,81,2107,35,Tcheuzia  Gonçalves,18:16,0,0/4,0/3,0/1,0/0,1,1,2,0,2,3,0,0,-17,-5
+Australia,Angola,81,43,2107,4,Shyla Jade Heal,25:19,13,5/14,4/11,1/3,2/2,0,7,7,3,1,0,4,0,26,18
+Australia,Angola,81,43,2107,5,Georgia Amoore,29:31,16,5/10,4/7,1/3,5/8,2,4,6,4,4,1,1,0,38,18
+Australia,Angola,81,43,2107,6,Jade Melbourne,20:51,0,0/3,0/2,0/1,0/0,0,4,4,3,1,1,0,0,15,3
+Australia,Angola,81,43,2107,7,Isabel Leigh Palmer,13:03,5,2/6,1/5,1/1,0/0,0,0,0,1,3,0,0,0,22,2
+Australia,Angola,81,43,2107,8,Lily Scanlon,10:16,3,1/2,0/1,1/1,0/0,0,1,1,1,2,1,0,0,7,3
+Australia,Angola,81,43,2107,9,Nnenna Agnes  Emma-Nnopu,25:41,10,4/10,4/9,0/1,2/2,4,3,7,3,2,1,2,2,14,17
+Australia,Angola,81,43,2107,10,Gemma Potter,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Australia,Angola,81,43,2107,11,Ruby Porter,17:13,7,3/7,3/4,0/3,1/2,1,2,3,2,5,1,2,0,7,8
+Australia,Angola,81,43,2107,12,Eliza  Hollingsworth,13:31,9,2/3,2/3,0/0,5/7,2,4,6,0,2,0,1,0,21,13
+Australia,Angola,81,43,2107,13,Ashlee Hannan,13:31,12,5/12,5/12,0/0,2/3,5,4,9,0,1,1,1,0,17,13
+Australia,Angola,81,43,2107,14,Alexander  Fowler,16:22,2,1/2,1/2,0/0,0/2,0,5,5,0,0,2,1,1,8,4
+Australia,Angola,81,43,2107,15,Isobel Anne Anstey,14:35,4,1/4,1/4,0/0,2/4,3,3,6,0,0,3,0,1,15,3
+Colombia,Belarus,75,79,2107,4,Dayana Camila Fuentes Medina,15:37,5,2/5,1/2,1/3,0/0,0,0,0,2,3,1,3,0,8,6
+Colombia,Belarus,75,79,2107,5,Gabriela Chivata Triviño,18:51,3,1/4,0/3,1/1,0/0,0,1,1,4,3,1,0,0,-3,4
+Colombia,Belarus,75,79,2107,6,Maria Camila Diaz Rodriguez,06:46,1,0/2,0/0,0/2,1/2,0,0,0,2,1,0,2,0,-1,2
+Colombia,Belarus,75,79,2107,8,Laura Viviana Ayala Ayala,11:49,2,1/5,1/5,0/0,0/2,4,1,5,0,1,0,0,0,-5,1
+Colombia,Belarus,75,79,2107,9,Naylee Cortes Espitia,12:35,2,1/7,1/7,0/0,0/0,1,1,2,0,5,2,3,1,-5,0
+Colombia,Belarus,75,79,2107,10,Hamileth Lorena Ulloa Chacon,27:10,5,1/4,0/2,1/2,2/2,2,1,3,3,3,2,3,1,5,10
+Colombia,Belarus,75,79,2107,11,Maria Fernanda Escobar Andrade,09:30,2,1/2,1/2,0/0,0/0,1,2,3,0,0,0,0,0,-3,4
+Colombia,Belarus,75,79,2107,12,Stephanny Orozco Lopez,10:31,3,1/5,0/3,1/2,0/1,0,0,0,1,2,0,0,0,-9,-1
+Colombia,Belarus,75,79,2107,14,Luisa Ariamny Custodia Quesada Ortiz,05:28,1,0/2,0/2,0/0,1/2,0,0,0,0,3,0,0,0,-10,-2
+Colombia,Belarus,75,79,2107,17,Maria Camila Alvarez Montes,43:51,35,12/31,2/5,10/26,1/3,0,2,2,6,4,2,2,0,-1,22
+Colombia,Belarus,75,79,2107,18,Esperanza Belen Morales Lopez,35:40,10,4/9,4/9,0/0,2/3,4,9,13,0,5,7,5,0,2,15
+Colombia,Belarus,75,79,2107,19,Daniela Gonzalez Viveros,27:06,6,3/8,3/3,0/5,0/0,2,7,9,1,5,1,3,0,2,13
+Belarus,Colombia,79,75,2107,4,Iryna Durmanava,09:53,3,1/2,0/1,1/1,0/0,1,2,3,1,5,3,0,0,13,3
+Belarus,Colombia,79,75,2107,5,Yuliya Vasilevich,39:16,27,4/12,3/8,1/4,18/20,3,9,12,7,2,5,0,1,0,32
+Belarus,Colombia,79,75,2107,6,Iryna Venskaya,42:52,20,6/15,6/11,0/4,8/8,0,6,6,1,1,1,4,0,4,21
+Belarus,Colombia,79,75,2107,7,Anastasiya Babak,11:33,4,2/3,2/3,0/0,0/0,1,0,1,0,0,1,0,1,-4,4
+Belarus,Colombia,79,75,2107,9,Darya Siamiletnikava,13:02,0,0/2,0/2,0/0,0/0,1,5,6,1,1,4,0,2,-5,3
+Belarus,Colombia,79,75,2107,10,Aliaksandra Chyzheuskaya,02:53,2,1/1,1/1,0/0,0/0,0,0,0,0,0,1,0,0,-2,1
+Belarus,Colombia,79,75,2107,11,Yana Yakhnavets,05:13,0,0/2,0/0,0/2,0/0,1,0,1,0,0,0,0,0,0,-1
+Belarus,Colombia,79,75,2107,12,Anastasiya Fiaklistava,21:49,5,2/5,2/3,0/2,1/2,2,4,6,1,2,6,1,0,0,3
+Belarus,Colombia,79,75,2107,13,Yana Zubarenka,26:26,6,1/4,1/4,0/0,4/8,4,3,7,0,3,3,0,0,8,3
+Belarus,Colombia,79,75,2107,14,Veranika Samailiuk,33:03,7,2/7,1/6,1/1,2/2,2,5,7,3,4,2,2,3,-3,15
+Belarus,Colombia,79,75,2107,15,Anastasia Sinelshchykova,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Belarus,Colombia,79,75,2107,22,Aksana Isayenka,18:53,5,1/5,1/4,0/1,3/6,0,1,1,1,1,1,1,0,9,0
+Italy,China,72,57,2207,4,Lisa Gallitognotta,07:25,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,3,0
+Italy,China,72,57,2207,5,Alessandra Orsili,30:13,13,6/11,6/11,0/0,1/2,1,3,4,7,2,4,6,0,17,20
+Italy,China,72,57,2207,6,Federica Mazza,02:45,0,0/1,0/1,0/0,0/0,0,1,1,0,0,0,0,0,0,0
+Italy,China,72,57,2207,7,Sofia Frustaci,03:40,0,0/0,0/0,0/0,0/0,0,1,1,0,0,0,0,0,3,1
+Italy,China,72,57,2207,8,Marta Rossini,09:56,3,1/4,0/0,1/4,0/0,0,0,0,1,1,1,2,0,3,2
+Italy,China,72,57,2207,9,Giulia Natali,30:19,21,10/19,10/17,0/2,1/2,5,2,7,1,3,2,3,0,21,20
+Italy,China,72,57,2207,11,Silvia Pastrello,16:27,3,1/5,0/4,1/1,0/0,2,0,2,0,2,3,1,0,-12,-1
+Italy,China,72,57,2207,12,Martina Spinelli,23:06,8,4/8,4/7,0/1,0/2,0,2,2,1,3,1,1,1,23,6
+Italy,China,72,57,2207,14,Ilaria Panzera,30:41,4,1/8,1/6,0/2,2/4,0,5,5,3,0,1,2,1,14,5
+Italy,China,72,57,2207,15,Lucia Adele Savatteri,06:22,0,0/0,0/0,0/0,0/0,0,2,2,0,2,0,0,0,-3,2
+Italy,China,72,57,2207,18,Caterina Gilli,29:23,20,7/14,7/13,0/1,6/8,3,10,13,1,3,4,2,2,13,25
+Italy,China,72,57,2207,20,Caterina Mattera,09:37,0,0/1,0/1,0/0,0/0,0,1,1,1,2,1,0,0,-7,0
+China,Italy,57,72,2207,4,Wenping Sui,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+China,Italy,57,72,2207,5,Jing Zhou,36:04,5,0/3,0/3,0/0,5/8,2,3,5,0,3,4,0,0,-5,0
+China,Italy,57,72,2207,6,Xianglin Wu,21:04,4,1/6,1/6,0/0,2/3,2,5,7,0,1,3,0,0,-8,2
+China,Italy,57,72,2207,7,Luan Luan,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+China,Italy,57,72,2207,8,Leyi Wang,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+China,Italy,57,72,2207,9,Ming Zheng,28:07,16,6/18,4/10,2/8,2/4,1,3,4,1,0,5,2,0,-18,4
+China,Italy,57,72,2207,10,Kun Huang,10:26,4,1/1,1/1,0/0,2/2,0,0,0,0,0,2,0,0,3,2
+China,Italy,57,72,2207,11,Shuyu Yang,30:34,14,5/12,2/2,3/10,1/2,0,8,8,1,2,3,7,1,0,20
+China,Italy,57,72,2207,12,Zhuo Ma,29:33,2,1/4,1/2,0/2,0/0,0,3,3,3,2,5,0,0,-18,0
+China,Italy,57,72,2207,13,Jiyuan Wan,17:58,7,2/3,2/3,0/0,3/3,3,1,4,1,1,0,0,0,-6,11
+China,Italy,57,72,2207,15,Yutong Liu,22:01,5,2/8,2/8,0/0,1/4,2,4,6,0,3,3,0,2,-9,1
+China,Italy,57,72,2207,16,Shu Wang,04:07,0,0/1,0/1,0/0,0/0,0,0,0,0,0,0,0,0,-14,-1
+Hungary,New Zealand,68,60,2207,6,Barbara Angyal,27:45,9,4/8,3/4,1/4,0/0,0,2,2,3,3,5,1,0,17,6
+Hungary,New Zealand,68,60,2207,9,Fruzsina Reka Horvath,08:13,2,1/4,1/3,0/1,0/0,1,0,1,0,1,0,0,0,-9,0
+Hungary,New Zealand,68,60,2207,10,Georgina Kovács,16:32,3,1/4,0/0,1/4,0/0,0,2,2,2,1,2,0,0,-11,2
+Hungary,New Zealand,68,60,2207,11,Berta Panna Boros,05:19,0,0/0,0/0,0/0,0/0,0,0,0,0,2,0,0,0,-9,0
+Hungary,New Zealand,68,60,2207,12,Zita Vari,05:10,0,0/2,0/0,0/2,0/0,0,1,1,0,0,0,0,0,-5,-1
+Hungary,New Zealand,68,60,2207,14,Aliz Varga,28:56,16,7/16,7/16,0/0,2/3,8,5,13,2,3,1,0,0,17,20
+Hungary,New Zealand,68,60,2207,15,Reka Dombai,25:36,8,3/15,2/8,1/7,1/2,3,1,4,4,2,2,5,1,11,7
+Hungary,New Zealand,68,60,2207,19,Nora Judit Wentzel,14:23,6,2/6,0/2,2/4,0/0,0,0,0,2,3,2,0,1,-3,3
+Hungary,New Zealand,68,60,2207,22,Dorina Szirony,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Hungary,New Zealand,68,60,2207,23,Reka Manyoky,25:12,11,5/10,4/8,1/2,0/0,0,5,5,3,4,0,3,5,24,22
+Hungary,New Zealand,68,60,2207,24,Franka Emilia Toth,24:34,8,3/5,3/4,0/1,2/6,5,6,11,1,1,0,1,0,10,15
+Hungary,New Zealand,68,60,2207,30,Angelika Kiss,18:15,5,2/4,2/4,0/0,1/2,1,4,5,0,2,0,0,1,-2,8
+New Zealand,Hungary,60,68,2207,2,Ella Jade Bradley,06:32,0,0/0,0/0,0/0,0/0,0,1,1,0,0,0,0,0,-9,1
+New Zealand,Hungary,60,68,2207,5,Kyra Paniora,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+New Zealand,Hungary,60,68,2207,6,Tara Manumaleuga,34:25,23,7/22,3/9,4/13,5/7,1,1,2,1,2,2,1,0,-4,8
+New Zealand,Hungary,60,68,2207,8,Shauna Povey,11:10,6,2/3,0/0,2/3,0/0,0,0,0,0,0,1,0,1,-9,5
+New Zealand,Hungary,60,68,2207,9,Emilee Bree Tahata,03:55,0,0/1,0/1,0/0,0/0,0,1,1,0,0,1,0,0,-9,-1
+New Zealand,Hungary,60,68,2207,15,Madison Ariana Hema,06:25,2,0/1,0/0,0/1,2/2,0,1,1,1,2,0,0,0,-13,3
+New Zealand,Hungary,60,68,2207,25,Jazzmyne Jade Kailahi-Fulu,13:40,2,1/1,1/1,0/0,0/0,0,7,7,0,1,4,0,0,-3,5
+New Zealand,Hungary,60,68,2207,26,Tayla Dalton,37:22,4,2/9,2/6,0/3,0/0,3,1,4,2,3,3,2,0,-10,2
+New Zealand,Hungary,60,68,2207,30,Isabelle Cook,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+New Zealand,Hungary,60,68,2207,42,Helen Matthews,25:01,7,3/6,2/4,1/2,0/0,0,4,4,2,2,2,3,0,16,11
+New Zealand,Hungary,60,68,2207,44,Charlisse Trinity Leger-Walker,25:37,10,1/8,1/6,0/2,8/9,6,4,10,4,3,0,0,0,1,16
+New Zealand,Hungary,60,68,2207,88,Sharne Pupuke-Robati,35:46,6,1/12,1/12,0/0,4/6,3,10,13,5,5,5,2,1,0,9
+Mali,USA,39,92,2207,4,Fanta Kone,36:45,5,1/7,0/3,1/4,2/2,0,4,4,3,1,4,2,0,-48,4
+Mali,USA,39,92,2207,5,Fanta Daffe,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Mali,USA,39,92,2207,7,Kadidia Coulibaly,07:17,0,0/1,0/0,0/1,0/0,0,1,1,1,0,0,1,0,-12,2
+Mali,USA,39,92,2207,8,Saran Berthe,08:28,0,0/2,0/2,0/0,0/0,0,0,0,0,1,1,0,0,-15,-3
+Mali,USA,39,92,2207,9,Diouma Berthe,18:28,4,1/10,0/1,1/9,1/3,0,1,1,2,1,0,0,0,-28,-4
+Mali,USA,39,92,2207,10,Diarrah Issa Sissoko,34:22,11,3/14,3/7,0/7,5/7,0,4,4,2,2,3,1,0,-42,2
+Mali,USA,39,92,2207,12,Alima Kouyate,05:10,0,0/0,0/0,0/0,0/0,0,1,1,0,1,0,0,0,-12,1
+Mali,USA,39,92,2207,14,Sika Kone,31:34,9,4/10,3/9,1/1,0/0,2,1,3,0,2,8,1,0,-49,-1
+Mali,USA,39,92,2207,15,Aminata Brahima Sangare,32:27,6,2/9,1/6,1/3,1/2,2,9,11,3,0,0,0,0,-40,12
+Mali,USA,39,92,2207,16,Kady Togola,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Mali,USA,39,92,2207,17,Mariama Issa Traore,25:26,4,2/4,2/4,0/0,0/0,5,2,7,0,3,4,2,0,-19,7
+Mali,USA,39,92,2207,20,Fatoumata Dembele,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+USA,Mali,92,39,2207,4,Zia Cooke,14:39,0,0/4,0/2,0/2,0/0,0,1,1,3,0,2,0,0,11,-2
+USA,Mali,92,39,2207,5,Paige Bueckers,15:52,8,4/7,4/5,0/2,0/2,0,2,2,3,1,0,0,0,26,8
+USA,Mali,92,39,2207,6,Azzi Fudd,22:31,18,7/11,3/5,4/6,0/0,1,2,3,2,2,0,1,0,44,20
+USA,Mali,92,39,2207,7,Celeste Taylor,17:52,6,2/9,1/6,1/3,1/2,5,6,11,3,0,2,2,0,12,12
+USA,Mali,92,39,2207,8,Jordan Horston,19:58,2,1/5,1/4,0/1,0/2,0,3,3,5,0,1,2,1,33,6
+USA,Mali,92,39,2207,9,Hailey Van Lith,16:46,4,2/6,2/4,0/2,0/0,0,0,0,4,0,1,1,0,29,4
+USA,Mali,92,39,2207,10,Haley Jones,16:37,9,4/6,4/5,0/1,1/1,2,1,3,3,0,1,0,0,25,12
+USA,Mali,92,39,2207,11,Charisma Osborne,21:25,10,3/8,0/0,3/8,1/2,2,4,6,3,1,0,2,0,22,15
+USA,Mali,92,39,2207,12,Samantha Brunelle,14:16,7,3/6,2/3,1/3,0/0,2,2,4,3,1,1,1,0,10,11
+USA,Mali,92,39,2207,13,Cameron Brink,10:50,2,1/3,1/3,0/0,0/0,0,2,2,0,0,1,0,1,5,2
+USA,Mali,92,39,2207,14,Aliyah Boston,16:15,11,5/5,5/5,0/0,1/1,2,1,3,3,2,0,1,1,28,19
+USA,Mali,92,39,2207,15,Fran Belibi,12:54,15,7/7,7/7,0/0,1/2,3,3,6,0,0,2,3,2,20,23
+Spain,Argentina,67,76,2207,4,Violeta Verano Fores,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Spain,Argentina,67,76,2207,5,Estel Puiggros Rovira,16:42,0,0/5,0/3,0/2,0/0,0,0,0,4,1,0,4,0,-3,3
+Spain,Argentina,67,76,2207,6,Celia Carbonell Muñoz,35:16,2,1/6,1/5,0/1,0/0,0,2,2,2,1,4,2,0,-16,-1
+Spain,Argentina,67,76,2207,7,Laura Mendez Camps,33:32,5,2/8,2/6,0/2,1/2,1,1,2,3,3,2,4,0,-14,5
+Spain,Argentina,67,76,2207,8,Nora Galve Batet,23:04,4,1/9,1/7,0/2,2/2,4,3,7,2,3,1,4,0,2,8
+Spain,Argentina,67,76,2207,9,Zoe Hernandez Ortiz,15:41,10,3/7,1/2,2/5,2/3,1,0,1,1,5,3,0,0,-5,4
+Spain,Argentina,67,76,2207,10,Helena Pueyo Melchor,27:30,8,4/10,4/7,0/3,0/1,1,4,5,4,4,3,5,0,9,12
+Spain,Argentina,67,76,2207,11,Ana Caballero Sanchez,07:52,0,0/3,0/2,0/1,0/0,0,1,1,0,1,0,0,0,-5,-2
+Spain,Argentina,67,76,2207,12,Nerea Hermosa Monreal,25:24,13,4/8,4/8,0/0,5/7,8,4,12,1,4,5,3,2,-7,20
+Spain,Argentina,67,76,2207,13,Laia  Moya Blanch,08:21,4,2/4,2/4,0/0,0/1,1,0,1,0,3,1,0,1,2,2
+Spain,Argentina,67,76,2207,14,Raquel Carrera Quintana,31:31,21,8/16,8/16,0/0,5/8,3,4,7,1,3,2,4,1,-8,21
+Spain,Argentina,67,76,2207,15,Anna Gamarra Ramirez,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Argentina,Spain,76,67,2207,4,Victoria Abril Gauna,43:22,11,3/7,3/4,0/3,5/6,0,7,7,2,1,2,3,2,6,18
+Argentina,Spain,76,67,2207,5,Ariana Agustina Rugna Di Lorenzo,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Argentina,Spain,76,67,2207,6,Rocio Belen Cejas,31:54,0,0/4,0/4,0/0,0/0,0,2,2,1,2,2,0,0,14,-3
+Argentina,Spain,76,67,2207,7,Luciana Andrea Riccotti,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Argentina,Spain,76,67,2207,8,Camila Ailen Lignac,05:21,0,0/1,0/1,0/0,0/0,0,0,0,0,0,2,1,0,-6,-2
+Argentina,Spain,76,67,2207,9,Sofia Acevedo,34:21,23,6/12,4/8,2/4,9/14,1,1,2,2,2,4,0,0,13,12
+Argentina,Spain,76,67,2207,10,Malvina Guadalupe D' Agostino,24:16,12,4/5,4/5,0/0,4/4,3,4,7,2,4,1,2,0,7,21
+Argentina,Spain,76,67,2207,11,Lucia Operto,06:04,0,0/0,0/0,0/0,0/0,0,0,0,0,3,0,1,0,4,1
+Argentina,Spain,76,67,2207,12,Martina Torres Passeggi,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Argentina,Spain,76,67,2207,13,Candela Gentinetta,23:58,5,2/6,2/6,0/0,1/2,4,4,8,1,5,4,1,0,-4,6
+Argentina,Spain,76,67,2207,14,Florencia Natalia Chagas,41:01,17,6/12,5/9,1/3,4/8,1,11,12,12,3,16,2,0,13,17
+Argentina,Spain,76,67,2207,15,Brenda Griselda Fontana,14:39,8,2/4,2/4,0/0,4/5,3,2,5,0,3,0,1,0,-2,11
+Australia,Latvia,60,41,2207,4,Shyla Jade Heal,32:52,17,8/12,7/10,1/2,0/1,1,10,11,3,2,4,2,1,18,25
+Australia,Latvia,60,41,2207,5,Georgia Amoore,28:20,7,2/8,1/4,1/4,2/2,0,4,4,1,3,2,2,0,12,6
+Australia,Latvia,60,41,2207,6,Jade Melbourne,03:58,1,0/1,0/0,0/1,1/2,1,0,1,0,0,1,0,0,2,-1
+Australia,Latvia,60,41,2207,7,Isabel Leigh Palmer,18:36,2,1/8,1/7,0/1,0/0,1,2,3,2,0,2,0,0,25,-2
+Australia,Latvia,60,41,2207,8,Lily Scanlon,25:51,9,2/12,2/5,0/7,5/5,0,1,1,2,1,2,3,0,0,3
+Australia,Latvia,60,41,2207,9,Nnenna Agnes  Emma-Nnopu,16:28,2,1/4,1/2,0/2,0/0,2,7,9,0,4,1,0,1,11,8
+Australia,Latvia,60,41,2207,10,Gemma Potter,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Australia,Latvia,60,41,2207,11,Ruby Porter,10:21,2,1/4,1/2,0/2,0/0,1,0,1,1,1,0,1,0,0,2
+Australia,Latvia,60,41,2207,12,Eliza  Hollingsworth,20:18,1,0/3,0/2,0/1,1/2,2,5,7,2,1,1,1,0,3,6
+Australia,Latvia,60,41,2207,13,Ashlee Hannan,03:34,0,0/0,0/0,0/0,0/0,2,0,2,0,2,1,0,0,-5,1
+Australia,Latvia,60,41,2207,14,Alexander  Fowler,22:43,11,5/8,5/6,0/2,1/1,1,2,3,1,1,1,1,1,13,13
+Australia,Latvia,60,41,2207,15,Isobel Anne Anstey,16:55,8,4/9,4/9,0/0,0/2,2,6,8,0,4,1,0,1,16,9
+Latvia,Australia,41,60,2207,4,Jete Katrina Nulle,09:55,0,0/5,0/1,0/4,0/0,1,0,1,0,1,2,1,0,-7,-5
+Latvia,Australia,41,60,2207,5,Ketija Vihmane,24:34,6,2/11,1/4,1/7,1/2,1,1,2,1,2,1,0,1,8,-1
+Latvia,Australia,41,60,2207,6,Flera Vinerte,22:38,2,0/6,0/6,0/0,2/2,0,7,7,2,2,2,1,0,-13,4
+Latvia,Australia,41,60,2207,7,Paula Klescova,26:20,7,3/10,3/7,0/3,1/2,3,7,10,1,1,3,2,0,-29,9
+Latvia,Australia,41,60,2207,8,Lina Loceniece,11:51,0,0/6,0/3,0/3,0/0,0,0,0,0,1,1,0,0,-12,-7
+Latvia,Australia,41,60,2207,9,Una Steinharde,10:07,3,1/4,1/1,0/3,1/2,0,0,0,0,1,0,2,0,-1,1
+Latvia,Australia,41,60,2207,10,Laura Meldere,27:28,6,3/11,3/10,0/1,0/0,5,4,9,1,0,1,0,1,-12,8
+Latvia,Australia,41,60,2207,11,Eva Indrike,17:30,4,2/4,2/2,0/2,0/0,2,1,3,2,1,1,0,1,-16,7
+Latvia,Australia,41,60,2207,12,Evelina Silvija Fricsone,12:45,2,1/5,1/5,0/0,0/0,3,0,3,0,2,1,1,0,-10,1
+Latvia,Australia,41,60,2207,13,Anita Megija Mikelsone,20:04,8,3/6,1/1,2/5,0/1,0,3,3,0,2,2,1,0,-13,6
+Latvia,Australia,41,60,2207,14,Elvija Anna Veršele,12:22,2,0/0,0/0,0/0,2/2,0,1,1,0,3,0,0,0,3,3
+Latvia,Australia,41,60,2207,15,Betija Rudzite,04:20,1,0/1,0/1,0/0,1/2,1,2,3,1,0,3,0,0,7,0
+Canada,Angola,66,36,2207,4,Sarah  Te- Biasu,25:43,13,5/11,3/6,2/5,1/2,0,0,0,3,2,2,3,0,18,10
+Canada,Angola,66,36,2207,5,Rebecca Marzan Demeke,07:54,3,1/1,0/0,1/1,0/0,0,0,0,0,0,1,1,0,10,3
+Canada,Angola,66,36,2207,6,Aerial Wilson,16:03,3,1/2,0/0,1/2,0/0,0,1,1,2,1,3,0,1,16,3
+Canada,Angola,66,36,2207,7,Donna Ntambue,12:04,8,3/7,3/5,0/2,2/2,2,3,5,2,0,4,2,0,10,9
+Canada,Angola,66,36,2207,8,Makayla Ennis,20:55,6,2/8,2/7,0/1,2/4,2,2,4,2,1,3,1,1,12,3
+Canada,Angola,66,36,2207,9,Aaliyah Edwards,23:43,8,2/6,2/6,0/0,4/4,1,4,5,1,3,4,0,0,24,6
+Canada,Angola,66,36,2207,10,Merissah Russell,26:11,18,7/12,6/9,1/3,3/6,2,1,3,0,1,7,7,0,18,13
+Canada,Angola,66,36,2207,11,Yvonne Ejim,19:31,2,1/2,1/2,0/0,0/0,2,4,6,1,2,0,4,0,16,12
+Canada,Angola,66,36,2207,12,Faith Dut,12:18,0,0/3,0/3,0/0,0/0,3,4,7,0,1,1,0,3,1,6
+Canada,Angola,66,36,2207,13,Brynn Masikewich,14:48,4,1/6,1/4,0/2,2/2,4,5,9,0,4,2,1,0,18,7
+Canada,Angola,66,36,2207,14,Deanna Tuchscherer,12:43,1,0/3,0/2,0/1,1/2,2,3,5,0,2,1,0,0,2,1
+Canada,Angola,66,36,2207,15,Olivia Morgan-Cherchas,08:01,0,0/0,0/0,0/0,0/0,0,1,1,0,1,2,0,2,5,1
+Angola,Canada,36,66,2207,5,Paula Caîtão Andre,01:10,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-2,0
+Angola,Canada,36,66,2207,6,Cristina João Lourenço,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Angola,Canada,36,66,2207,7,Helena Pululo,22:38,4,1/10,1/8,0/2,2/4,1,1,2,0,2,3,2,1,-23,-5
+Angola,Canada,36,66,2207,8,Nelma Cunha,09:07,0,0/1,0/1,0/0,0/2,0,0,0,0,2,0,0,1,-11,-2
+Angola,Canada,36,66,2207,9,Alexia Shanice dos Santos Dizeko,34:49,8,2/12,2/12,0/0,4/6,1,2,3,3,3,5,7,0,-26,4
+Angola,Canada,36,66,2207,10,Cacia  Antonio,32:28,14,5/13,3/8,2/5,2/5,2,6,8,0,1,5,1,0,-22,7
+Angola,Canada,36,66,2207,11,Conceicao Francisco Caetano,25:19,5,1/10,1/8,0/2,3/4,3,2,5,2,2,6,5,0,-19,1
+Angola,Canada,36,66,2207,13,Maria Quipaca,21:53,2,1/5,1/4,0/1,0/0,4,2,6,0,2,2,0,1,-5,3
+Angola,Canada,36,66,2207,14,Nara Miguel André,18:18,2,1/4,1/3,0/1,0/0,0,0,0,0,2,3,1,0,-14,-3
+Angola,Canada,36,66,2207,15,Julia  Francisco,18:56,1,0/2,0/2,0/0,1/2,1,3,4,0,1,2,3,0,-15,3
+Angola,Canada,36,66,2207,20,Rafaela  Henriques,01:10,0,0/0,0/0,0/0,0/0,0,1,1,0,1,0,0,0,-2,1
+Angola,Canada,36,66,2207,35,Tcheuzia  Gonçalves,14:04,0,0/1,0/1,0/0,0/0,2,1,3,0,5,1,1,3,-11,5
+France,Colombia,78,35,2207,4,Marine Fauthoux,18:28,3,1/7,0/3,1/4,0/0,0,1,1,8,0,1,1,0,26,6
+France,Colombia,78,35,2207,5,Marie Pardon,21:31,2,1/6,1/2,0/4,0/0,0,1,1,4,0,2,0,1,17,1
+France,Colombia,78,35,2207,7,Zoé Wadoux,19:38,14,5/11,1/2,4/9,0/0,0,2,2,1,0,1,1,0,17,11
+France,Colombia,78,35,2207,8,Yohana Ewodo,10:33,0,0/3,0/2,0/1,0/0,1,1,2,1,3,0,1,0,11,1
+France,Colombia,78,35,2207,9,Anaia Hoard,14:51,7,3/6,3/6,0/0,1/2,2,2,4,2,2,3,1,0,14,7
+France,Colombia,78,35,2207,10,Fayzat Djoumoi,15:51,2,1/1,1/1,0/0,0/0,2,3,5,0,3,3,0,0,16,4
+France,Colombia,78,35,2207,11,Kendra Chéry,15:16,9,4/4,4/4,0/0,1/4,1,1,2,2,1,1,1,1,13,11
+France,Colombia,78,35,2207,12,Iliana Rupert,13:19,4,1/3,1/3,0/0,2/2,1,3,4,1,1,0,2,1,19,10
+France,Colombia,78,35,2207,13,Janelle Salaun,20:19,13,4/7,3/5,1/2,4/4,2,3,5,3,4,3,1,1,20,17
+France,Colombia,78,35,2207,26,Eve De Christophie Mahoutou,15:13,5,2/4,2/4,0/0,1/2,3,1,4,0,3,0,0,0,18,6
+France,Colombia,78,35,2207,29,Ewl Guennoc,23:37,11,3/10,0/5,3/5,2/2,1,9,10,4,1,3,1,1,22,17
+France,Colombia,78,35,2207,30,Olivia Yale,11:19,8,3/4,3/4,0/0,2/2,1,1,2,1,4,1,0,0,22,9
+Colombia,France,35,78,2207,4,Dayana Camila Fuentes Medina,04:25,0,0/2,0/0,0/2,0/0,0,0,0,1,1,1,0,0,-5,-2
+Colombia,France,35,78,2207,5,Gabriela Chivata Triviño,27:11,9,4/12,3/6,1/6,0/1,1,5,6,0,2,7,2,0,-22,1
+Colombia,France,35,78,2207,6,Maria Camila Diaz Rodriguez,12:51,4,2/4,2/2,0/2,0/0,0,2,2,0,0,3,3,0,-21,4
+Colombia,France,35,78,2207,8,Laura Viviana Ayala Ayala,08:56,0,0/0,0/0,0/0,0/2,0,0,0,0,1,3,1,0,-14,-4
+Colombia,France,35,78,2207,9,Naylee Cortes Espitia,10:09,6,2/4,2/4,0/0,2/4,0,1,1,0,3,0,0,0,5,3
+Colombia,France,35,78,2207,10,Hamileth Lorena Ulloa Chacon,19:54,0,0/5,0/2,0/3,0/0,1,1,2,1,2,0,0,0,-19,-2
+Colombia,France,35,78,2207,11,Maria Fernanda Escobar Andrade,16:34,2,1/3,1/3,0/0,0/0,1,3,4,0,0,1,0,0,-20,3
+Colombia,France,35,78,2207,12,Stephanny Orozco Lopez,14:23,0,0/4,0/0,0/4,0/0,0,0,0,0,0,0,0,0,-22,-4
+Colombia,France,35,78,2207,14,Luisa Ariamny Custodia Quesada Ortiz,09:01,0,0/2,0/0,0/2,0/0,0,1,1,1,1,1,0,0,-10,-1
+Colombia,France,35,78,2207,17,Maria Camila Alvarez Montes,23:57,1,0/7,0/3,0/4,1/4,0,2,2,4,0,1,0,0,-18,-4
+Colombia,France,35,78,2207,18,Esperanza Belen Morales Lopez,28:51,12,4/7,4/7,0/0,4/6,4,1,5,0,5,1,0,0,-36,11
+Colombia,France,35,78,2207,19,Daniela Gonzalez Viveros,23:43,1,0/5,0/4,0/1,1/2,2,4,6,1,5,2,0,0,-33,0
+Belarus,Japan,52,104,2207,4,Iryna Durmanava,09:55,0,0/1,0/1,0/0,0/0,0,0,0,1,2,2,1,0,-22,-1
+Belarus,Japan,52,104,2207,5,Yuliya Vasilevich,30:13,7,3/10,2/6,1/4,0/0,0,2,2,6,2,6,0,0,-41,2
+Belarus,Japan,52,104,2207,6,Iryna Venskaya,26:52,3,1/7,0/2,1/5,0/0,1,3,4,0,0,2,1,0,-28,0
+Belarus,Japan,52,104,2207,7,Anastasiya Babak,17:05,6,1/6,0/3,1/3,3/4,0,3,3,2,1,0,0,1,-15,6
+Belarus,Japan,52,104,2207,9,Darya Siamiletnikava,16:36,4,2/3,2/3,0/0,0/0,2,0,2,1,2,2,0,1,-22,5
+Belarus,Japan,52,104,2207,10,Aliaksandra Chyzheuskaya,10:18,0,0/1,0/1,0/0,0/0,0,1,1,2,1,2,0,0,-24,0
+Belarus,Japan,52,104,2207,11,Yana Yakhnavets,18:00,7,3/9,2/5,1/4,0/0,0,0,0,1,1,2,1,0,-19,1
+Belarus,Japan,52,104,2207,12,Anastasiya Fiaklistava,00:49,0,0/1,0/0,0/1,0/0,1,0,1,0,1,0,0,0,-4,0
+Belarus,Japan,52,104,2207,13,Yana Zubarenka,12:16,4,2/4,2/4,0/0,0/0,0,4,4,0,5,1,0,0,-12,5
+Belarus,Japan,52,104,2207,14,Veranika Samailiuk,27:35,12,3/9,3/8,0/1,6/6,1,4,5,0,1,2,0,1,-38,10
+Belarus,Japan,52,104,2207,15,Anastasia Sinelshchykova,18:25,9,4/4,4/4,0/0,1/1,2,5,7,1,1,3,1,1,-19,16
+Belarus,Japan,52,104,2207,22,Aksana Isayenka,11:52,0,0/4,0/4,0/0,0/0,0,0,0,0,1,0,1,0,-16,-3
+Japan,Belarus,104,52,2207,4,Yu Suzuki,20:31,2,1/4,1/3,0/1,0/0,1,2,3,9,1,0,1,0,26,12
+Japan,Belarus,104,52,2207,5,Maya Sophia McArthur,14:28,8,4/5,4/5,0/0,0/0,4,1,5,1,2,0,2,0,28,15
+Japan,Belarus,104,52,2207,6,Sakura Noguchi,13:03,15,4/7,3/4,1/3,6/6,0,4,4,1,2,0,1,0,28,18
+Japan,Belarus,104,52,2207,7,Misa Hayashi,18:28,16,5/16,2/8,3/8,3/5,3,3,6,0,0,2,0,0,22,7
+Japan,Belarus,104,52,2207,8,Miku Takahashi,14:11,2,1/1,1/1,0/0,0/0,1,1,2,3,2,0,2,0,22,9
+Japan,Belarus,104,52,2207,9,Nodoka Fujita,14:50,2,1/4,1/2,0/2,0/2,1,2,3,8,1,1,3,1,19,11
+Japan,Belarus,104,52,2207,10,Rina Yamaguchi,12:39,12,5/7,4/4,1/3,1/3,1,1,2,0,0,0,0,0,20,10
+Japan,Belarus,104,52,2207,11,Reika Nakamichi,16:16,4,2/3,2/3,0/0,0/0,1,0,1,1,0,0,0,1,5,6
+Japan,Belarus,104,52,2207,12,Nanaka Yamaguchi,16:31,3,0/6,0/5,0/1,3/4,2,1,3,0,5,2,0,0,17,-3
+Japan,Belarus,104,52,2207,13,Nanami Morioka,20:21,8,3/8,3/6,0/2,2/2,1,4,5,0,0,0,1,0,21,9
+Japan,Belarus,104,52,2207,14,Maika Miura,22:45,19,8/11,5/7,3/4,0/0,0,1,1,5,1,0,0,2,30,24
+Japan,Belarus,104,52,2207,15,Aika Hirashita,15:49,13,6/13,5/10,1/3,0/0,2,4,6,2,0,2,0,0,22,12
+Argentina,New Zealand,60,52,2407,4,Victoria Abril Gauna,28:52,7,2/8,1/4,1/4,2/2,1,5,6,1,4,1,2,1,4,10
+Argentina,New Zealand,60,52,2407,5,Ariana Agustina Rugna Di Lorenzo,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Argentina,New Zealand,60,52,2407,6,Rocio Belen Cejas,18:13,4,2/3,2/2,0/1,0/0,1,1,2,0,0,1,0,0,-13,4
+Argentina,New Zealand,60,52,2407,7,Luciana Andrea Riccotti,00:32,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-2,0
+Argentina,New Zealand,60,52,2407,8,Camila Ailen Lignac,07:57,1,0/3,0/2,0/1,1/2,1,0,1,0,2,0,1,0,2,-1
+Argentina,New Zealand,60,52,2407,9,Sofia Acevedo,30:21,21,6/15,4/8,2/7,7/8,0,4,4,3,0,1,0,0,14,17
+Argentina,New Zealand,60,52,2407,10,Malvina Guadalupe D' Agostino,18:50,2,1/3,1/3,0/0,0/0,2,4,6,1,1,1,0,0,5,6
+Argentina,New Zealand,60,52,2407,11,Lucia Operto,03:13,0,0/0,0/0,0/0,0/0,0,0,0,0,2,0,0,0,-5,0
+Argentina,New Zealand,60,52,2407,12,Martina Torres Passeggi,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Argentina,New Zealand,60,52,2407,13,Candela Gentinetta,30:06,7,3/8,2/6,1/2,0/0,1,3,4,1,2,3,1,0,16,5
+Argentina,New Zealand,60,52,2407,14,Florencia Natalia Chagas,33:21,8,3/15,2/11,1/4,1/2,1,5,6,6,3,3,7,1,5,12
+Argentina,New Zealand,60,52,2407,15,Brenda Griselda Fontana,28:31,10,3/10,3/9,0/1,4/5,2,1,3,1,2,1,2,2,14,9
+New Zealand,Argentina,52,60,2407,2,Ella Jade Bradley,08:25,2,1/3,1/2,0/1,0/0,3,0,3,0,0,1,0,0,-2,2
+New Zealand,Argentina,52,60,2407,5,Kyra Paniora,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+New Zealand,Argentina,52,60,2407,6,Tara Manumaleuga,20:21,1,0/7,0/2,0/5,1/2,0,0,0,1,2,3,1,1,-2,-7
+New Zealand,Argentina,52,60,2407,8,Shauna Povey,13:00,3,1/2,0/0,1/2,0/0,1,4,5,0,3,1,1,0,0,7
+New Zealand,Argentina,52,60,2407,9,Emilee Bree Tahata,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+New Zealand,Argentina,52,60,2407,15,Madison Ariana Hema,08:22,3,1/2,0/0,1/2,0/0,0,4,4,0,1,0,0,0,-4,6
+New Zealand,Argentina,52,60,2407,25,Jazzmyne Jade Kailahi-Fulu,26:20,8,3/4,3/4,0/0,2/2,1,5,6,1,3,3,0,1,-3,12
+New Zealand,Argentina,52,60,2407,26,Tayla Dalton,33:31,5,2/10,1/5,1/5,0/0,1,3,4,0,2,0,1,0,-9,2
+New Zealand,Argentina,52,60,2407,30,Isabelle Cook,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+New Zealand,Argentina,52,60,2407,42,Helen Matthews,17:25,0,0/1,0/1,0/0,0/0,1,1,2,1,1,0,2,0,-10,4
+New Zealand,Argentina,52,60,2407,44,Charlisse Trinity Leger-Walker,36:19,13,4/19,3/13,1/6,4/6,2,4,6,10,3,6,1,0,-3,7
+New Zealand,Argentina,52,60,2407,88,Sharne Pupuke-Robati,36:15,17,6/10,6/10,0/0,5/6,0,9,9,3,4,3,0,1,-7,22
+Spain,Hungary,56,57,2407,4,Violeta Verano Fores,05:22,0,0/0,0/0,0/0,0/0,0,0,0,0,2,0,0,0,2,0
+Spain,Hungary,56,57,2407,5,Estel Puiggros Rovira,14:07,2,1/5,1/2,0/3,0/0,0,3,3,0,0,0,1,0,4,2
+Spain,Hungary,56,57,2407,6,Celia Carbonell Muñoz,22:25,5,2/6,2/5,0/1,1/2,0,1,1,1,1,3,1,0,-10,0
+Spain,Hungary,56,57,2407,7,Laura Mendez Camps,24:56,2,1/5,1/5,0/0,0/2,0,1,1,4,2,1,3,0,-3,3
+Spain,Hungary,56,57,2407,8,Nora Galve Batet,20:39,6,3/3,3/3,0/0,0/1,0,0,0,3,1,2,0,0,11,6
+Spain,Hungary,56,57,2407,9,Zoe Hernandez Ortiz,12:10,2,1/4,1/1,0/3,0/2,0,1,1,3,0,1,1,0,3,1
+Spain,Hungary,56,57,2407,10,Helena Pueyo Melchor,26:10,12,5/8,4/6,1/2,1/2,2,6,8,2,1,1,3,1,-11,21
+Spain,Hungary,56,57,2407,11,Ana Caballero Sanchez,02:22,2,1/2,1/2,0/0,0/0,0,0,0,0,0,2,0,0,2,-1
+Spain,Hungary,56,57,2407,12,Nerea Hermosa Monreal,24:15,15,6/11,6/11,0/0,3/4,5,2,7,0,2,3,1,1,-1,15
+Spain,Hungary,56,57,2407,13,Laia  Moya Blanch,19:59,3,1/1,1/1,0/0,1/4,2,1,3,2,2,1,0,1,0,5
+Spain,Hungary,56,57,2407,14,Raquel Carrera Quintana,27:29,7,3/16,3/15,0/1,1/2,6,4,10,0,1,3,1,3,-2,4
+Spain,Hungary,56,57,2407,15,Anna Gamarra Ramirez,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Hungary,Spain,57,56,2407,6,Barbara Angyal,22:19,2,1/7,1/5,0/2,0/0,0,1,1,8,3,4,3,0,11,4
+Hungary,Spain,57,56,2407,9,Fruzsina Reka Horvath,11:43,7,2/4,2/4,0/0,3/4,3,1,4,1,2,1,0,0,0,8
+Hungary,Spain,57,56,2407,10,Georgina Kovács,17:40,3,1/6,0/2,1/4,0/0,1,2,3,1,1,1,0,0,-10,1
+Hungary,Spain,57,56,2407,11,Berta Panna Boros,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Hungary,Spain,57,56,2407,12,Zita Vari,08:15,0,0/4,0/3,0/1,0/0,0,1,1,0,0,1,1,0,1,-3
+Hungary,Spain,57,56,2407,14,Aliz Varga,28:10,14,7/16,7/14,0/2,0/1,4,6,10,2,2,2,0,0,3,14
+Hungary,Spain,57,56,2407,15,Reka Dombai,27:08,13,5/12,5/9,0/3,3/3,1,1,2,1,2,0,2,0,-3,11
+Hungary,Spain,57,56,2407,19,Nora Judit Wentzel,17:37,4,2/4,2/4,0/0,0/0,1,1,2,0,2,3,0,0,-2,1
+Hungary,Spain,57,56,2407,22,Dorina Szirony,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Hungary,Spain,57,56,2407,23,Reka Manyoky,26:58,9,4/6,3/4,1/2,0/0,2,2,4,4,2,4,3,2,6,16
+Hungary,Spain,57,56,2407,24,Franka Emilia Toth,21:23,3,1/2,1/2,0/0,1/2,3,1,4,1,0,1,0,0,-10,5
+Hungary,Spain,57,56,2407,30,Angelika Kiss,18:41,2,1/6,1/6,0/0,0/0,2,4,6,1,3,2,0,1,9,3
+Angola,Latvia,47,68,2407,5,Paula Caîtão Andre,01:58,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,1,0
+Angola,Latvia,47,68,2407,6,Cristina João Lourenço,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Angola,Latvia,47,68,2407,7,Helena Pululo,27:22,3,1/7,1/5,0/2,1/2,0,2,2,1,3,4,0,0,-27,-5
+Angola,Latvia,47,68,2407,8,Nelma Cunha,04:34,1,0/1,0/1,0/0,1/2,0,0,0,0,1,0,1,0,-3,0
+Angola,Latvia,47,68,2407,9,Alexia Shanice dos Santos Dizeko,35:04,12,4/9,3/8,1/1,3/6,4,6,10,3,0,2,3,0,-18,18
+Angola,Latvia,47,68,2407,10,Cacia  Antonio,33:34,8,2/11,2/8,0/3,4/6,0,7,7,0,0,3,2,0,-21,3
+Angola,Latvia,47,68,2407,11,Conceicao Francisco Caetano,35:48,13,5/14,3/10,2/4,1/2,1,5,6,2,1,2,3,0,-17,12
+Angola,Latvia,47,68,2407,13,Maria Quipaca,13:55,0,0/3,0/1,0/2,0/0,1,3,4,2,2,1,1,0,-5,3
+Angola,Latvia,47,68,2407,14,Nara Miguel André,05:39,2,1/1,1/1,0/0,0/0,0,0,0,0,0,1,0,0,-6,1
+Angola,Latvia,47,68,2407,15,Julia  Francisco,17:29,2,0/7,0/7,0/0,2/2,3,1,4,1,1,1,2,0,-11,1
+Angola,Latvia,47,68,2407,20,Rafaela  Henriques,10:36,4,1/2,1/2,0/0,2/2,0,1,1,2,1,3,2,0,0,5
+Angola,Latvia,47,68,2407,35,Tcheuzia  Gonçalves,13:55,2,1/2,1/1,0/1,0/0,0,0,0,1,4,0,0,0,2,2
+Latvia,Angola,68,47,2407,4,Jete Katrina Nulle,19:45,6,2/14,0/3,2/11,0/0,0,3,3,5,2,2,3,1,13,4
+Latvia,Angola,68,47,2407,5,Ketija Vihmane,23:06,17,6/12,1/3,5/9,0/0,1,0,1,3,3,1,1,1,12,16
+Latvia,Angola,68,47,2407,6,Flera Vinerte,10:05,0,0/0,0/0,0/0,0/0,0,1,1,0,0,1,0,0,-5,0
+Latvia,Angola,68,47,2407,7,Paula Klescova,26:01,10,4/8,2/2,2/6,0/0,1,5,6,7,1,3,2,0,18,18
+Latvia,Angola,68,47,2407,8,Lina Loceniece,11:05,3,1/7,0/1,1/6,0/0,0,0,0,1,0,0,0,0,6,-2
+Latvia,Angola,68,47,2407,9,Una Steinharde,10:04,3,1/4,0/1,1/3,0/0,0,1,1,0,0,2,0,0,11,-1
+Latvia,Angola,68,47,2407,10,Laura Meldere,22:41,5,1/7,1/6,0/1,3/6,2,10,12,1,0,0,1,2,23,12
+Latvia,Angola,68,47,2407,11,Eva Indrike,26:38,8,3/5,2/3,1/2,1/2,3,3,6,3,0,1,1,1,25,15
+Latvia,Angola,68,47,2407,12,Evelina Silvija Fricsone,09:43,0,0/1,0/0,0/1,0/0,1,2,3,3,3,4,0,0,0,1
+Latvia,Angola,68,47,2407,13,Anita Megija Mikelsone,16:40,12,5/9,4/8,1/1,1/2,5,4,9,2,4,1,0,0,8,17
+Latvia,Angola,68,47,2407,14,Elvija Anna Veršele,16:37,4,2/4,2/4,0/0,0/1,1,4,5,0,4,2,2,1,-5,7
+Latvia,Angola,68,47,2407,15,Betija Rudzite,07:27,0,0/0,0/0,0/0,0/0,2,0,2,0,1,1,0,0,-1,1
+Canada,Australia,48,64,2407,4,Sarah  Te- Biasu,27:58,9,3/12,2/6,1/6,2/2,0,2,2,3,1,1,2,0,-16,6
+Canada,Australia,48,64,2407,5,Rebecca Marzan Demeke,02:40,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-9,0
+Canada,Australia,48,64,2407,6,Aerial Wilson,18:03,0,0/3,0/0,0/3,0/0,1,2,3,1,1,2,1,1,-3,1
+Canada,Australia,48,64,2407,7,Donna Ntambue,21:16,0,0/6,0/5,0/1,0/0,2,1,3,4,1,2,0,0,2,-1
+Canada,Australia,48,64,2407,8,Makayla Ennis,11:07,4,1/3,1/2,0/1,2/2,0,3,3,1,1,0,0,0,-3,6
+Canada,Australia,48,64,2407,9,Aaliyah Edwards,32:28,10,5/11,5/11,0/0,0/2,4,2,6,0,2,3,1,0,-22,6
+Canada,Australia,48,64,2407,10,Merissah Russell,27:18,17,4/12,1/8,3/4,6/8,0,3,3,0,2,2,0,2,-11,10
+Canada,Australia,48,64,2407,11,Yvonne Ejim,15:16,6,2/3,2/3,0/0,2/2,4,3,7,0,3,1,0,1,2,12
+Canada,Australia,48,64,2407,12,Faith Dut,18:06,2,1/4,1/4,0/0,0/0,2,1,3,0,2,1,1,1,-7,3
+Canada,Australia,48,64,2407,13,Brynn Masikewich,19:08,0,0/4,0/3,0/1,0/2,2,3,5,2,2,4,0,0,-10,-3
+Canada,Australia,48,64,2407,14,Deanna Tuchscherer,06:36,0,0/3,0/2,0/1,0/0,2,1,3,0,0,1,0,0,-3,-1
+Canada,Australia,48,64,2407,15,Olivia Morgan-Cherchas,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Australia,Canada,64,48,2407,4,Shyla Jade Heal,35:51,16,7/15,7/13,0/2,2/3,1,3,4,3,2,1,1,0,17,14
+Australia,Canada,64,48,2407,5,Georgia Amoore,05:50,1,0/1,0/1,0/0,1/2,0,0,0,1,3,2,0,0,-3,-2
+Australia,Canada,64,48,2407,6,Jade Melbourne,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Australia,Canada,64,48,2407,7,Isabel Leigh Palmer,26:30,2,0/7,0/2,0/5,2/2,0,1,1,3,0,2,0,0,15,-3
+Australia,Canada,64,48,2407,8,Lily Scanlon,31:22,22,9/13,7/9,2/4,2/2,0,0,0,0,0,1,2,0,9,19
+Australia,Canada,64,48,2407,9,Nnenna Agnes  Emma-Nnopu,20:25,4,2/7,2/7,0/0,0/0,1,1,2,1,3,1,1,0,-4,2
+Australia,Canada,64,48,2407,10,Gemma Potter,07:52,4,2/3,2/2,0/1,0/0,0,1,1,2,1,0,1,0,5,7
+Australia,Canada,64,48,2407,11,Ruby Porter,08:03,2,1/1,1/1,0/0,0/0,0,0,0,1,0,1,0,0,3,2
+Australia,Canada,64,48,2407,12,Eliza  Hollingsworth,17:11,4,2/3,2/3,0/0,0/0,1,5,6,2,1,0,0,2,7,13
+Australia,Canada,64,48,2407,13,Ashlee Hannan,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Australia,Canada,64,48,2407,14,Alexander  Fowler,21:31,4,2/4,2/4,0/0,0/0,2,3,5,0,4,3,1,1,21,6
+Australia,Canada,64,48,2407,15,Isobel Anne Anstey,25:21,5,1/7,1/7,0/0,3/5,5,7,12,0,1,1,3,1,10,12
+China,USA,50,107,2407,4,Wenping Sui,05:19,0,0/1,0/0,0/1,0/0,0,0,0,0,5,1,0,0,-19,-2
+China,USA,50,107,2407,5,Jing Zhou,19:15,0,0/0,0/0,0/0,0/2,0,4,4,2,2,1,0,0,-27,3
+China,USA,50,107,2407,6,Xianglin Wu,17:53,8,4/9,4/8,0/1,0/0,0,0,0,1,0,3,2,0,-9,3
+China,USA,50,107,2407,7,Luan Luan,07:58,0,0/0,0/0,0/0,0/0,0,2,2,0,1,1,0,0,-6,1
+China,USA,50,107,2407,8,Leyi Wang,22:23,0,0/5,0/4,0/1,0/0,1,0,1,0,1,2,0,0,-36,-6
+China,USA,50,107,2407,9,Ming Zheng,19:43,6,2/10,1/5,1/5,1/2,0,2,2,2,0,3,1,0,-36,-1
+China,USA,50,107,2407,10,Kun Huang,24:53,10,4/10,2/4,2/6,0/0,0,1,1,2,4,1,1,0,-24,7
+China,USA,50,107,2407,11,Shuyu Yang,20:49,5,2/4,1/1,1/3,0/0,0,3,3,1,0,1,0,0,-24,6
+China,USA,50,107,2407,12,Zhuo Ma,20:01,10,3/10,0/3,3/7,1/2,0,0,0,0,3,0,0,0,-37,2
+China,USA,50,107,2407,13,Jiyuan Wan,18:44,4,2/8,2/8,0/0,0/0,4,2,6,2,0,2,1,0,-17,5
+China,USA,50,107,2407,15,Yutong Liu,16:20,7,1/5,1/5,0/0,5/6,2,2,4,0,1,5,0,0,-36,1
+China,USA,50,107,2407,16,Shu Wang,06:35,0,0/0,0/0,0/0,0/0,0,0,0,0,1,0,0,0,-14,0
+USA,China,107,50,2407,4,Zia Cooke,16:19,15,7/13,7/11,0/2,1/1,3,2,5,0,1,1,1,0,3,14
+USA,China,107,50,2407,5,Paige Bueckers,19:10,8,4/9,4/8,0/1,0/0,1,1,2,3,1,0,2,0,34,10
+USA,China,107,50,2407,6,Azzi Fudd,22:16,5,2/6,1/4,1/2,0/0,0,6,6,2,1,0,0,1,32,10
+USA,China,107,50,2407,7,Celeste Taylor,18:01,14,5/11,3/8,2/3,2/3,4,1,5,2,1,0,0,1,21,15
+USA,China,107,50,2407,8,Jordan Horston,18:26,18,7/8,5/6,2/2,2/3,2,4,6,8,0,2,5,1,46,34
+USA,China,107,50,2407,9,Hailey Van Lith,17:18,9,4/11,4/9,0/2,1/2,0,1,1,2,2,0,1,1,31,6
+USA,China,107,50,2407,10,Haley Jones,16:35,14,7/10,7/9,0/1,0/0,1,3,4,2,0,2,3,0,32,18
+USA,China,107,50,2407,11,Charisma Osborne,18:52,2,1/5,1/2,0/3,0/0,2,1,3,3,1,2,1,0,27,3
+USA,China,107,50,2407,12,Samantha Brunelle,13:46,2,1/5,1/4,0/1,0/0,0,5,5,0,0,1,0,0,2,2
+USA,China,107,50,2407,13,Cameron Brink,14:55,8,4/5,4/5,0/0,0/2,4,7,11,0,3,1,0,2,13,17
+USA,China,107,50,2407,14,Aliyah Boston,15:03,10,5/8,5/8,0/0,0/0,6,2,8,1,1,0,1,1,41,18
+USA,China,107,50,2407,15,Fran Belibi,09:13,2,1/2,1/2,0/0,0/0,1,2,3,3,2,1,0,0,3,6
+Italy,Mali,74,63,2407,4,Lisa Gallitognotta,09:45,4,1/2,1/1,0/1,2/2,0,0,0,0,0,0,2,0,7,5
+Italy,Mali,74,63,2407,5,Alessandra Orsili,20:46,2,1/7,1/5,0/2,0/0,1,5,6,5,2,2,1,0,-7,6
+Italy,Mali,74,63,2407,6,Federica Mazza,10:11,2,1/3,1/2,0/1,0/0,0,2,2,3,0,0,2,0,14,7
+Italy,Mali,74,63,2407,7,Sofia Frustaci,05:39,1,0/0,0/0,0/0,1/2,0,1,1,0,2,0,0,0,10,1
+Italy,Mali,74,63,2407,8,Marta Rossini,10:22,8,3/5,1/1,2/4,0/0,1,1,2,0,0,0,1,0,3,9
+Italy,Mali,74,63,2407,9,Giulia Natali,28:25,18,7/14,6/11,1/3,3/4,1,3,4,2,2,3,3,1,4,17
+Italy,Mali,74,63,2407,11,Silvia Pastrello,21:33,5,0/4,0/3,0/1,5/8,2,2,4,0,2,1,1,1,0,3
+Italy,Mali,74,63,2407,12,Martina Spinelli,22:28,5,1/3,1/3,0/0,3/3,2,3,5,1,5,3,0,1,9,7
+Italy,Mali,74,63,2407,14,Ilaria Panzera,28:03,12,4/13,2/6,2/7,2/4,0,5,5,4,3,2,2,0,4,10
+Italy,Mali,74,63,2407,15,Lucia Adele Savatteri,09:25,4,2/3,2/3,0/0,0/0,1,0,1,1,2,1,1,0,2,5
+Italy,Mali,74,63,2407,18,Caterina Gilli,23:23,9,2/7,2/7,0/0,5/7,0,4,4,2,1,2,0,0,9,6
+Italy,Mali,74,63,2407,20,Caterina Mattera,09:54,4,1/2,1/2,0/0,2/2,2,1,3,1,2,1,0,0,0,6
+Mali,Italy,63,74,2407,4,Fanta Kone,33:49,4,1/3,1/2,0/1,2/3,0,0,0,6,5,5,1,0,-5,3
+Mali,Italy,63,74,2407,5,Fanta Daffe,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Mali,Italy,63,74,2407,7,Kadidia Coulibaly,30:16,12,3/11,0/0,3/11,3/5,0,1,1,1,3,3,1,0,-13,2
+Mali,Italy,63,74,2407,8,Saran Berthe,03:37,0,0/0,0/0,0/0,0/0,0,0,0,1,1,0,0,0,0,1
+Mali,Italy,63,74,2407,9,Diouma Berthe,16:22,3,1/6,0/1,1/5,0/0,0,2,2,1,1,3,0,0,-17,-2
+Mali,Italy,63,74,2407,10,Diarrah Issa Sissoko,40:00,18,6/13,2/5,4/8,2/4,1,2,3,2,2,5,3,0,-11,12
+Mali,Italy,63,74,2407,12,Alima Kouyate,17:52,1,0/4,0/3,0/1,1/2,1,3,4,0,0,0,2,0,1,2
+Mali,Italy,63,74,2407,14,Sika Kone,14:15,5,1/3,1/3,0/0,3/6,1,4,5,1,5,2,1,0,6,5
+Mali,Italy,63,74,2407,15,Aminata Brahima Sangare,34:49,20,8/16,8/15,0/1,4/9,5,13,18,2,1,2,4,1,-9,30
+Mali,Italy,63,74,2407,16,Kady Togola,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Mali,Italy,63,74,2407,17,Mariama Issa Traore,08:58,0,0/0,0/0,0/0,0/0,0,3,3,0,5,1,0,0,-7,2
+Mali,Italy,63,74,2407,20,Fatoumata Dembele,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Japan,Colombia,72,52,2407,4,Yu Suzuki,17:18,5,2/5,1/3,1/2,0/1,1,3,4,2,2,0,0,0,6,7
+Japan,Colombia,72,52,2407,5,Maya Sophia McArthur,16:40,4,1/3,1/3,0/0,2/2,1,7,8,1,2,1,0,1,15,11
+Japan,Colombia,72,52,2407,6,Sakura Noguchi,17:46,17,6/8,5/7,1/1,4/5,1,3,4,1,2,3,3,0,15,19
+Japan,Colombia,72,52,2407,7,Misa Hayashi,18:45,14,6/11,5/7,1/4,1/1,2,2,4,1,0,0,0,0,22,14
+Japan,Colombia,72,52,2407,8,Miku Takahashi,22:01,2,0/1,0/1,0/0,2/2,0,3,3,4,2,2,1,0,11,7
+Japan,Colombia,72,52,2407,9,Nodoka Fujita,17:58,5,1/4,1/3,0/1,3/4,0,2,2,4,0,3,2,0,9,6
+Japan,Colombia,72,52,2407,10,Rina Yamaguchi,15:22,8,3/7,2/5,1/2,1/2,2,4,6,2,0,2,1,0,2,10
+Japan,Colombia,72,52,2407,11,Reika Nakamichi,12:22,2,1/4,1/4,0/0,0/0,1,2,3,0,2,0,1,1,7,4
+Japan,Colombia,72,52,2407,12,Nanaka Yamaguchi,06:37,2,1/3,1/3,0/0,0/0,0,0,0,0,1,0,0,0,-4,0
+Japan,Colombia,72,52,2407,13,Nanami Morioka,10:56,1,0/4,0/4,0/0,1/2,0,2,2,1,4,0,0,0,-2,-1
+Japan,Colombia,72,52,2407,14,Maika Miura,18:51,4,1/5,1/3,0/2,2/2,0,0,0,3,1,0,2,0,14,5
+Japan,Colombia,72,52,2407,15,Aika Hirashita,25:21,8,4/17,4/15,0/2,0/0,6,2,8,1,1,1,1,0,5,4
+Colombia,Japan,52,72,2407,4,Dayana Camila Fuentes Medina,13:58,3,1/6,0/3,1/3,0/0,0,2,2,2,1,1,1,0,-15,2
+Colombia,Japan,52,72,2407,5,Gabriela Chivata Triviño,23:11,4,1/5,1/5,0/0,2/2,1,3,4,2,4,4,0,1,-10,3
+Colombia,Japan,52,72,2407,6,Maria Camila Diaz Rodriguez,16:05,5,2/4,1/2,1/2,0/0,0,0,0,0,1,0,3,0,0,6
+Colombia,Japan,52,72,2407,8,Laura Viviana Ayala Ayala,15:11,1,0/5,0/5,0/0,1/2,1,1,2,1,2,0,0,0,-17,-2
+Colombia,Japan,52,72,2407,9,Naylee Cortes Espitia,15:28,2,1/6,1/6,0/0,0/0,1,4,5,1,1,4,0,0,-4,-1
+Colombia,Japan,52,72,2407,10,Hamileth Lorena Ulloa Chacon,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Colombia,Japan,52,72,2407,11,Maria Fernanda Escobar Andrade,16:34,11,5/7,5/7,0/0,1/2,3,5,8,0,3,1,1,0,-1,16
+Colombia,Japan,52,72,2407,12,Stephanny Orozco Lopez,08:24,2,0/3,0/1,0/2,2/2,0,0,0,0,0,0,0,0,6,-1
+Colombia,Japan,52,72,2407,14,Luisa Ariamny Custodia Quesada Ortiz,07:55,2,1/3,1/3,0/0,0/0,2,0,2,0,2,1,0,0,-4,1
+Colombia,Japan,52,72,2407,17,Maria Camila Alvarez Montes,35:13,12,4/14,1/7,3/7,1/3,1,8,9,4,1,5,0,0,-20,8
+Colombia,Japan,52,72,2407,18,Esperanza Belen Morales Lopez,23:25,8,2/7,2/7,0/0,4/8,4,3,7,1,3,1,0,0,-19,6
+Colombia,Japan,52,72,2407,19,Daniela Gonzalez Viveros,24:31,2,1/9,1/7,0/2,0/0,7,5,12,1,2,3,3,1,-16,8
+Belarus,France,34,64,2407,4,Iryna Durmanava,17:32,2,0/2,0/2,0/0,2/2,0,0,0,0,1,5,2,0,-15,-3
+Belarus,France,34,64,2407,5,Yuliya Vasilevich,22:24,7,2/12,1/6,1/6,2/4,0,6,6,2,1,5,1,1,-9,0
+Belarus,France,34,64,2407,6,Iryna Venskaya,21:46,3,1/9,0/5,1/4,0/0,1,3,4,2,1,2,2,1,-12,2
+Belarus,France,34,64,2407,7,Anastasiya Babak,14:04,4,2/3,2/2,0/1,0/0,1,3,4,1,1,2,0,0,-18,6
+Belarus,France,34,64,2407,9,Darya Siamiletnikava,20:34,0,0/0,0/0,0/0,0/0,2,5,7,1,0,3,0,0,-7,5
+Belarus,France,34,64,2407,10,Aliaksandra Chyzheuskaya,02:22,0,0/0,0/0,0/0,0/2,1,2,3,0,0,1,0,0,-5,0
+Belarus,France,34,64,2407,11,Yana Yakhnavets,17:28,9,3/9,2/6,1/3,2/2,0,1,1,0,0,0,1,0,-21,5
+Belarus,France,34,64,2407,12,Anastasiya Fiaklistava,06:43,0,0/3,0/2,0/1,0/0,0,0,0,0,3,2,1,1,-12,-3
+Belarus,France,34,64,2407,13,Yana Zubarenka,16:19,2,0/4,0/4,0/0,2/2,0,2,2,0,5,1,1,2,-7,2
+Belarus,France,34,64,2407,14,Veranika Samailiuk,20:55,4,2/5,2/5,0/0,0/0,0,0,0,0,0,2,0,1,-22,0
+Belarus,France,34,64,2407,15,Anastasia Sinelshchykova,22:10,2,1/9,1/9,0/0,0/0,3,2,5,0,2,0,0,0,-24,-1
+Belarus,France,34,64,2407,22,Aksana Isayenka,17:37,1,0/2,0/2,0/0,1/2,0,1,1,2,1,2,2,0,2,1
+France,Belarus,64,34,2407,4,Marine Fauthoux,20:41,9,4/10,4/8,0/2,1/2,0,2,2,2,0,0,2,0,20,8
+France,Belarus,64,34,2407,5,Marie Pardon,19:18,3,1/4,0/0,1/4,0/2,0,3,3,5,3,2,2,0,10,6
+France,Belarus,64,34,2407,7,Zoé Wadoux,19:07,4,2/8,2/3,0/5,0/0,0,5,5,4,1,2,3,0,23,8
+France,Belarus,64,34,2407,8,Yohana Ewodo,20:06,11,4/13,3/9,1/4,2/4,3,3,6,6,3,2,0,0,24,10
+France,Belarus,64,34,2407,9,Anaia Hoard,09:39,0,0/2,0/2,0/0,0/0,2,3,5,1,1,2,0,1,-5,3
+France,Belarus,64,34,2407,10,Fayzat Djoumoi,06:01,2,1/3,1/3,0/0,0/2,0,1,1,1,0,1,0,0,-8,-1
+France,Belarus,64,34,2407,11,Kendra Chéry,17:50,7,2/9,2/8,0/1,3/4,3,2,5,0,1,0,2,2,21,8
+France,Belarus,64,34,2407,12,Iliana Rupert,07:40,7,3/5,3/4,0/1,1/1,1,5,6,0,0,1,0,0,13,10
+France,Belarus,64,34,2407,13,Janelle Salaun,21:28,6,2/7,2/6,0/1,2/2,2,4,6,0,4,1,2,1,9,9
+France,Belarus,64,34,2407,26,Eve De Christophie Mahoutou,26:59,6,3/4,3/4,0/0,0/0,4,5,9,0,1,2,5,0,25,17
+France,Belarus,64,34,2407,29,Ewl Guennoc,20:52,0,0/4,0/1,0/3,0/0,1,3,4,1,0,2,2,0,7,1
+France,Belarus,64,34,2407,30,Olivia Yale,10:15,9,3/4,2/3,1/1,2/2,1,1,2,2,2,0,2,0,11,14
+Hungary,Angola,88,48,2507,6,Barbara Angyal,10:10,2,1/3,1/3,0/0,0/0,0,1,1,3,0,2,2,0,20,4
+Hungary,Angola,88,48,2507,9,Fruzsina Reka Horvath,26:07,6,2/7,2/7,0/0,2/2,4,2,6,3,4,3,0,1,24,8
+Hungary,Angola,88,48,2507,10,Georgina Kovács,19:55,6,2/4,0/1,2/3,0/0,0,1,1,1,0,2,1,0,7,5
+Hungary,Angola,88,48,2507,11,Berta Panna Boros,25:16,8,2/7,2/6,0/1,4/4,1,2,3,4,3,0,2,0,21,12
+Hungary,Angola,88,48,2507,12,Zita Vari,17:45,7,3/8,2/7,1/1,0/0,0,1,1,2,2,3,1,0,2,3
+Hungary,Angola,88,48,2507,14,Aliz Varga,07:47,4,2/3,2/3,0/0,0/0,2,1,3,0,0,0,0,0,14,6
+Hungary,Angola,88,48,2507,15,Reka Dombai,09:40,14,6/7,4/5,2/2,0/2,0,2,2,0,2,1,2,0,18,14
+Hungary,Angola,88,48,2507,19,Nora Judit Wentzel,16:56,10,4/7,2/5,2/2,0/0,0,4,4,3,2,0,0,0,26,14
+Hungary,Angola,88,48,2507,22,Dorina Szirony,16:22,5,2/3,1/1,1/2,0/0,1,2,3,1,2,1,0,1,0,8
+Hungary,Angola,88,48,2507,23,Reka Manyoky,15:58,5,2/4,1/3,1/1,0/0,0,2,2,4,2,3,1,1,22,8
+Hungary,Angola,88,48,2507,24,Franka Emilia Toth,17:51,10,5/6,5/6,0/0,0/0,0,6,6,1,2,3,0,0,18,13
+Hungary,Angola,88,48,2507,30,Angelika Kiss,16:06,11,5/8,5/8,0/0,1/1,1,5,6,3,0,0,2,1,28,20
+Angola,Hungary,48,88,2507,5,Paula Caîtão Andre,07:05,2,1/2,1/2,0/0,0/0,0,1,1,1,0,0,0,0,-2,3
+Angola,Hungary,48,88,2507,6,Cristina João Lourenço,21:32,6,2/16,2/15,0/1,2/2,1,0,1,1,1,1,2,0,-13,-5
+Angola,Hungary,48,88,2507,7,Helena Pululo,12:39,2,0/3,0/3,0/0,2/4,0,0,0,0,2,1,0,0,-20,-4
+Angola,Hungary,48,88,2507,8,Nelma Cunha,05:25,3,1/2,1/2,0/0,1/2,0,1,1,0,1,1,0,0,1,1
+Angola,Hungary,48,88,2507,9,Alexia Shanice dos Santos Dizeko,33:00,7,3/7,3/7,0/0,1/4,1,5,6,2,1,3,0,2,-42,7
+Angola,Hungary,48,88,2507,10,Cacia  Antonio,34:13,12,4/8,3/5,1/3,3/3,2,3,5,1,1,4,2,0,-25,12
+Angola,Hungary,48,88,2507,11,Conceicao Francisco Caetano,29:23,12,4/10,4/8,0/2,4/5,0,2,2,0,1,6,3,0,-36,4
+Angola,Hungary,48,88,2507,13,Maria Quipaca,13:08,2,1/1,1/1,0/0,0/0,1,3,4,0,0,4,0,0,-13,2
+Angola,Hungary,48,88,2507,14,Nara Miguel André,07:50,0,0/3,0/3,0/0,0/0,0,1,1,0,0,0,1,0,-8,-1
+Angola,Hungary,48,88,2507,15,Julia  Francisco,15:34,0,0/2,0/2,0/0,0/0,0,1,1,0,1,0,0,0,-22,-1
+Angola,Hungary,48,88,2507,20,Rafaela  Henriques,08:22,0,0/0,0/0,0/0,0/0,0,1,1,0,1,0,0,0,-7,1
+Angola,Hungary,48,88,2507,35,Tcheuzia  Gonçalves,11:43,2,1/1,1/1,0/0,0/0,0,2,2,0,0,0,0,0,-13,4
+Argentina,Latvia,58,72,2507,4,Victoria Abril Gauna,27:25,6,3/9,3/6,0/3,0/1,0,6,6,2,4,1,1,2,-7,9
+Argentina,Latvia,58,72,2507,5,Ariana Agustina Rugna Di Lorenzo,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Argentina,Latvia,58,72,2507,6,Rocio Belen Cejas,25:46,2,0/0,0/0,0/0,2/2,0,1,1,3,0,0,0,1,-9,7
+Argentina,Latvia,58,72,2507,7,Luciana Andrea Riccotti,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Argentina,Latvia,58,72,2507,8,Camila Ailen Lignac,02:30,0,0/0,0/0,0/0,0/2,0,0,0,0,0,0,1,0,1,-1
+Argentina,Latvia,58,72,2507,9,Sofia Acevedo,28:33,6,2/11,2/7,0/4,2/3,0,1,1,3,2,2,2,0,-8,0
+Argentina,Latvia,58,72,2507,10,Malvina Guadalupe D' Agostino,03:17,0,0/0,0/0,0/0,0/0,0,1,1,0,0,0,0,0,-6,1
+Argentina,Latvia,58,72,2507,11,Lucia Operto,05:05,2,1/2,1/2,0/0,0/0,0,0,0,0,0,0,0,0,-3,1
+Argentina,Latvia,58,72,2507,12,Martina Torres Passeggi,01:31,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Argentina,Latvia,58,72,2507,13,Candela Gentinetta,33:25,6,2/7,1/5,1/2,1/2,2,3,5,0,3,4,1,0,-12,2
+Argentina,Latvia,58,72,2507,14,Florencia Natalia Chagas,37:29,11,5/16,5/12,0/4,1/2,0,5,5,7,3,6,2,1,-15,8
+Argentina,Latvia,58,72,2507,15,Brenda Griselda Fontana,34:53,25,8/18,6/14,2/4,7/8,7,9,16,1,4,4,1,3,-11,31
+Latvia,Argentina,72,58,2507,4,Jete Katrina Nulle,23:31,6,3/8,3/6,0/2,0/0,0,3,3,3,4,5,1,0,8,3
+Latvia,Argentina,72,58,2507,5,Ketija Vihmane,32:04,9,4/12,3/8,1/4,0/1,0,1,1,3,4,2,0,0,16,2
+Latvia,Argentina,72,58,2507,6,Flera Vinerte,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Latvia,Argentina,72,58,2507,7,Paula Klescova,34:43,7,2/10,2/7,0/3,3/3,0,9,9,5,2,3,3,0,12,13
+Latvia,Argentina,72,58,2507,8,Lina Loceniece,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Latvia,Argentina,72,58,2507,9,Una Steinharde,21:10,6,2/7,0/2,2/5,0/0,0,0,0,4,1,0,1,0,-7,6
+Latvia,Argentina,72,58,2507,10,Laura Meldere,34:31,21,9/16,9/15,0/1,3/4,4,10,14,1,0,2,3,1,8,30
+Latvia,Argentina,72,58,2507,11,Eva Indrike,11:35,10,4/5,3/4,1/1,1/2,2,1,3,1,4,0,0,0,12,12
+Latvia,Argentina,72,58,2507,12,Evelina Silvija Fricsone,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Latvia,Argentina,72,58,2507,13,Anita Megija Mikelsone,33:34,8,2/5,2/4,0/1,4/4,0,5,5,1,1,2,2,0,13,11
+Latvia,Argentina,72,58,2507,14,Elvija Anna Veršele,05:28,4,1/1,1/1,0/0,2/2,0,1,1,0,1,1,0,0,6,4
+Latvia,Argentina,72,58,2507,15,Betija Rudzite,03:19,1,0/0,0/0,0/0,1/2,0,1,1,0,1,0,1,0,2,2
+Spain,Canada,72,50,2507,4,Violeta Verano Fores,03:50,0,0/2,0/1,0/1,0/0,0,1,1,0,0,0,0,0,-4,-1
+Spain,Canada,72,50,2507,5,Estel Puiggros Rovira,26:58,2,1/9,1/7,0/2,0/0,0,3,3,4,2,2,2,0,18,1
+Spain,Canada,72,50,2507,6,Celia Carbonell Muñoz,11:16,4,2/4,2/3,0/1,0/0,1,0,1,1,0,0,0,0,6,4
+Spain,Canada,72,50,2507,7,Laura Mendez Camps,27:42,7,3/5,3/5,0/0,1/1,1,1,2,4,0,3,1,0,14,9
+Spain,Canada,72,50,2507,8,Nora Galve Batet,22:52,5,2/6,2/6,0/0,1/1,1,1,2,1,1,1,2,0,7,5
+Spain,Canada,72,50,2507,9,Zoe Hernandez Ortiz,13:40,3,1/6,0/1,1/5,0/0,0,1,1,0,0,0,0,0,9,-1
+Spain,Canada,72,50,2507,10,Helena Pueyo Melchor,23:07,10,4/6,3/4,1/2,1/1,2,3,5,1,3,1,0,0,27,13
+Spain,Canada,72,50,2507,11,Ana Caballero Sanchez,01:30,2,0/0,0/0,0/0,2/2,0,0,0,0,1,1,0,0,-3,1
+Spain,Canada,72,50,2507,12,Nerea Hermosa Monreal,27:46,19,8/16,8/16,0/0,3/3,10,6,16,3,2,0,0,1,18,31
+Spain,Canada,72,50,2507,13,Laia  Moya Blanch,10:13,4,2/4,2/4,0/0,0/0,0,0,0,0,1,1,0,0,-3,1
+Spain,Canada,72,50,2507,14,Raquel Carrera Quintana,29:32,16,7/18,7/18,0/0,2/4,1,6,7,2,1,2,4,0,24,14
+Spain,Canada,72,50,2507,15,Anna Gamarra Ramirez,01:31,0,0/0,0/0,0/0,0/0,0,0,0,0,1,0,0,0,-3,0
+Canada,Spain,50,72,2507,4,Sarah  Te- Biasu,22:07,3,1/7,0/2,1/5,0/0,1,1,2,3,3,2,0,0,-26,0
+Canada,Spain,50,72,2507,5,Rebecca Marzan Demeke,03:37,0,0/1,0/0,0/1,0/0,0,0,0,0,1,1,0,0,-2,-2
+Canada,Spain,50,72,2507,6,Aerial Wilson,21:36,5,1/5,0/3,1/2,2/2,3,2,5,3,1,0,1,0,5,10
+Canada,Spain,50,72,2507,7,Donna Ntambue,13:37,3,1/4,1/3,0/1,1/2,1,0,1,1,0,1,2,0,-10,2
+Canada,Spain,50,72,2507,8,Makayla Ennis,17:08,0,0/1,0/1,0/0,0/0,0,3,3,1,0,3,1,1,-22,2
+Canada,Spain,50,72,2507,9,Aaliyah Edwards,23:01,8,4/9,4/9,0/0,0/2,1,3,4,0,1,2,1,1,-7,5
+Canada,Spain,50,72,2507,10,Merissah Russell,28:46,9,4/12,3/8,1/4,0/0,1,4,5,2,2,3,1,0,-7,6
+Canada,Spain,50,72,2507,11,Yvonne Ejim,18:10,5,2/5,2/5,0/0,1/2,2,4,6,1,4,3,1,0,-4,6
+Canada,Spain,50,72,2507,12,Faith Dut,18:51,6,3/3,3/3,0/0,0/0,2,2,4,1,4,2,0,1,-13,10
+Canada,Spain,50,72,2507,13,Brynn Masikewich,23:36,9,3/8,2/5,1/3,2/2,1,5,6,1,1,2,0,0,-14,9
+Canada,Spain,50,72,2507,14,Deanna Tuchscherer,07:16,2,1/2,1/2,0/0,0/0,0,1,1,1,0,3,1,0,-7,1
+Canada,Spain,50,72,2507,15,Olivia Morgan-Cherchas,02:10,0,0/1,0/1,0/0,0/0,0,2,2,0,1,1,0,0,-3,0
+New Zealand,Australia,37,77,2507,2,Ella Jade Bradley,09:13,2,1/3,1/2,0/1,0/0,0,1,1,1,2,0,1,0,-7,3
+New Zealand,Australia,37,77,2507,5,Kyra Paniora,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+New Zealand,Australia,37,77,2507,6,Tara Manumaleuga,19:31,0,0/10,0/3,0/7,0/0,1,2,3,2,0,5,1,1,-25,-8
+New Zealand,Australia,37,77,2507,8,Shauna Povey,18:01,2,0/2,0/0,0/2,2/2,0,1,1,1,0,0,0,0,-8,2
+New Zealand,Australia,37,77,2507,9,Emilee Bree Tahata,11:56,0,0/3,0/1,0/2,0/0,0,2,2,0,0,3,0,0,-20,-4
+New Zealand,Australia,37,77,2507,15,Madison Ariana Hema,13:31,0,0/1,0/0,0/1,0/0,0,3,3,0,2,0,0,0,-26,2
+New Zealand,Australia,37,77,2507,25,Jazzmyne Jade Kailahi-Fulu,25:52,6,2/6,2/6,0/0,2/2,3,4,7,1,0,1,3,2,-12,14
+New Zealand,Australia,37,77,2507,26,Tayla Dalton,25:34,0,0/6,0/1,0/5,0/0,0,0,0,1,1,0,1,0,-19,-4
+New Zealand,Australia,37,77,2507,30,Isabelle Cook,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+New Zealand,Australia,37,77,2507,42,Helen Matthews,17:37,4,1/2,1/1,0/1,2/2,2,1,3,1,1,2,0,0,-25,5
+New Zealand,Australia,37,77,2507,44,Charlisse Trinity Leger-Walker,27:16,15,5/11,2/3,3/8,2/2,1,6,7,1,3,5,0,1,-23,13
+New Zealand,Australia,37,77,2507,88,Sharne Pupuke-Robati,31:22,8,3/7,3/5,0/2,2/4,0,3,3,2,1,5,1,0,-35,3
+Australia,New Zealand,77,37,2507,4,Shyla Jade Heal,19:36,20,8/12,4/7,4/5,0/0,1,0,1,1,1,1,2,0,25,19
+Australia,New Zealand,77,37,2507,5,Georgia Amoore,17:47,5,2/6,1/4,1/2,0/0,0,0,0,1,4,0,0,0,8,2
+Australia,New Zealand,77,37,2507,6,Jade Melbourne,06:43,1,0/1,0/1,0/0,1/2,1,1,2,2,0,1,1,0,5,3
+Australia,New Zealand,77,37,2507,7,Isabel Leigh Palmer,18:40,10,3/7,2/4,1/3,3/3,0,2,2,7,2,0,0,0,30,15
+Australia,New Zealand,77,37,2507,8,Lily Scanlon,23:30,16,7/12,5/8,2/4,0/0,0,2,2,0,1,0,1,0,12,14
+Australia,New Zealand,77,37,2507,9,Nnenna Agnes  Emma-Nnopu,26:34,8,4/10,4/9,0/1,0/1,2,7,9,2,2,1,2,0,24,13
+Australia,New Zealand,77,37,2507,10,Gemma Potter,20:10,5,2/6,1/4,1/2,0/0,2,1,3,2,1,1,0,0,30,5
+Australia,New Zealand,77,37,2507,11,Ruby Porter,13:32,5,2/7,1/4,1/3,0/0,3,2,5,3,0,2,2,0,10,8
+Australia,New Zealand,77,37,2507,12,Eliza  Hollingsworth,08:28,2,0/2,0/1,0/1,2/2,0,1,1,0,3,0,0,0,5,1
+Australia,New Zealand,77,37,2507,13,Ashlee Hannan,11:13,3,1/3,1/2,0/1,1/2,0,3,3,1,1,1,1,2,16,6
+Australia,New Zealand,77,37,2507,14,Alexander  Fowler,20:16,2,1/2,1/2,0/0,0/0,2,1,3,2,1,1,2,2,14,9
+Australia,New Zealand,77,37,2507,15,Isobel Anne Anstey,13:28,0,0/0,0/0,0/0,0/0,0,3,3,1,2,1,1,1,21,5
+Japan,China,82,73,2507,4,Yu Suzuki,17:22,8,2/7,2/5,0/2,4/5,4,0,4,1,1,0,0,0,3,7
+Japan,China,82,73,2507,5,Maya Sophia McArthur,25:07,5,2/6,2/6,0/0,1/2,3,6,9,0,3,1,1,1,14,10
+Japan,China,82,73,2507,6,Sakura Noguchi,29:16,17,5/16,5/15,0/1,7/9,6,7,13,0,2,1,4,0,1,20
+Japan,China,82,73,2507,7,Misa Hayashi,22:49,11,3/10,1/6,2/4,3/4,3,2,5,3,2,0,1,0,8,12
+Japan,China,82,73,2507,8,Miku Takahashi,17:10,5,2/6,2/6,0/0,1/2,0,1,1,2,1,0,1,0,-18,4
+Japan,China,82,73,2507,9,Nodoka Fujita,24:33,9,3/6,3/6,0/0,3/3,2,4,6,3,0,1,2,0,23,16
+Japan,China,82,73,2507,10,Rina Yamaguchi,03:31,0,0/1,0/1,0/0,0/0,0,1,1,0,0,1,1,0,-2,0
+Japan,China,82,73,2507,11,Reika Nakamichi,05:22,0,0/2,0/2,0/0,0/0,1,1,2,0,3,0,0,0,-5,0
+Japan,China,82,73,2507,12,Nanaka Yamaguchi,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Japan,China,82,73,2507,13,Nanami Morioka,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Japan,China,82,73,2507,14,Maika Miura,31:20,15,5/14,4/9,1/5,4/4,2,2,4,1,0,5,1,0,5,7
+Japan,China,82,73,2507,15,Aika Hirashita,23:26,12,5/10,3/6,2/4,0/2,0,3,3,0,1,2,2,0,16,8
+China,Japan,73,82,2507,4,Wenping Sui,07:55,0,0/2,0/0,0/2,0/0,0,1,1,1,2,0,0,0,-8,0
+China,Japan,73,82,2507,5,Jing Zhou,27:46,4,1/6,1/4,0/2,2/2,1,1,2,3,5,3,0,0,-8,1
+China,Japan,73,82,2507,6,Xianglin Wu,23:15,8,4/9,4/8,0/1,0/0,4,4,8,1,0,2,0,0,0,10
+China,Japan,73,82,2507,7,Luan Luan,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+China,Japan,73,82,2507,8,Leyi Wang,08:43,2,1/1,1/1,0/0,0/0,0,0,0,1,0,1,0,0,1,2
+China,Japan,73,82,2507,9,Ming Zheng,25:55,28,11/18,8/12,3/6,3/3,2,3,5,1,4,6,2,0,8,23
+China,Japan,73,82,2507,10,Kun Huang,22:36,3,1/4,1/2,0/2,1/2,0,4,4,4,3,3,0,0,-12,4
+China,Japan,73,82,2507,11,Shuyu Yang,23:53,5,1/8,1/6,0/2,3/3,2,1,3,2,2,1,3,2,-19,7
+China,Japan,73,82,2507,12,Zhuo Ma,17:23,2,1/4,1/3,0/1,0/0,2,2,4,1,4,1,0,1,3,4
+China,Japan,73,82,2507,13,Jiyuan Wan,16:00,6,3/5,3/5,0/0,0/2,1,6,7,0,1,0,0,1,-5,10
+China,Japan,73,82,2507,15,Yutong Liu,24:00,15,6/11,6/11,0/0,3/5,4,6,10,0,3,3,1,2,-4,18
+China,Japan,73,82,2507,16,Shu Wang,02:28,0,0/1,0/1,0/0,0/0,0,1,1,0,1,0,0,0,-1,0
+France,Mali,78,57,2507,4,Marine Fauthoux,26:01,14,6/9,4/5,2/4,0/0,0,2,2,6,0,2,1,0,10,18
+France,Mali,78,57,2507,5,Marie Pardon,15:28,5,2/3,1/1,1/2,0/0,0,1,1,2,0,1,1,0,16,7
+France,Mali,78,57,2507,7,Zoé Wadoux,25:10,15,5/18,1/2,4/16,1/2,0,3,3,2,0,0,0,0,-5,6
+France,Mali,78,57,2507,8,Yohana Ewodo,18:03,5,2/10,1/6,1/4,0/0,2,1,3,1,2,1,0,0,10,0
+France,Mali,78,57,2507,9,Anaia Hoard,01:10,2,0/0,0/0,0/0,2/2,0,1,1,0,0,0,0,0,3,3
+France,Mali,78,57,2507,10,Fayzat Djoumoi,16:04,2,1/2,1/2,0/0,0/0,0,2,2,0,1,0,0,0,14,3
+France,Mali,78,57,2507,11,Kendra Chéry,30:11,9,4/11,4/10,0/1,1/2,2,8,10,2,3,0,2,3,14,18
+France,Mali,78,57,2507,12,Iliana Rupert,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+France,Mali,78,57,2507,13,Janelle Salaun,14:56,9,3/6,2/4,1/2,2/3,4,1,5,1,3,3,1,1,5,10
+France,Mali,78,57,2507,26,Eve De Christophie Mahoutou,18:46,3,1/3,1/3,0/0,1/1,3,3,6,1,3,3,2,0,9,7
+France,Mali,78,57,2507,29,Ewl Guennoc,21:25,10,4/8,2/4,2/4,0/0,2,3,5,3,0,1,2,0,16,15
+France,Mali,78,57,2507,30,Olivia Yale,12:40,4,2/6,2/5,0/1,0/0,1,3,4,2,0,1,1,0,13,6
+Mali,France,57,78,2507,4,Fanta Kone,34:58,3,1/5,1/3,0/2,1/2,1,1,2,5,3,4,2,0,-25,3
+Mali,France,57,78,2507,5,Fanta Daffe,04:50,0,0/0,0/0,0/0,0/0,1,1,2,0,0,0,0,0,4,2
+Mali,France,57,78,2507,7,Kadidia Coulibaly,27:52,6,1/11,0/3,1/8,3/4,0,4,4,0,2,0,0,0,-18,-1
+Mali,France,57,78,2507,8,Saran Berthe,05:35,1,0/1,0/1,0/0,1/2,0,0,0,0,0,0,0,0,-13,-1
+Mali,France,57,78,2507,9,Diouma Berthe,10:31,3,1/4,0/1,1/3,0/0,1,0,1,1,1,0,0,0,-1,2
+Mali,France,57,78,2507,10,Diarrah Issa Sissoko,28:13,8,3/9,1/3,2/6,0/0,0,2,2,6,5,4,1,0,-4,7
+Mali,France,57,78,2507,12,Alima Kouyate,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Mali,France,57,78,2507,14,Sika Kone,40:00,26,12/17,12/16,0/1,2/2,2,7,9,3,1,0,2,2,-21,37
+Mali,France,57,78,2507,15,Aminata Brahima Sangare,40:00,10,5/16,5/15,0/1,0/0,4,13,17,1,1,5,3,0,-21,15
+Mali,France,57,78,2507,16,Kady Togola,00:47,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-1,0
+Mali,France,57,78,2507,17,Mariama Issa Traore,05:58,0,0/2,0/1,0/1,0/0,0,1,1,0,1,2,0,0,-2,-3
+Mali,France,57,78,2507,20,Fatoumata Dembele,01:10,0,0/1,0/1,0/0,0/0,2,0,2,0,0,0,0,0,-3,1
+Colombia,USA,42,98,2507,4,Dayana Camila Fuentes Medina,06:34,2,1/2,1/2,0/0,0/0,1,0,1,1,0,1,0,0,-3,2
+Colombia,USA,42,98,2507,5,Gabriela Chivata Triviño,22:31,5,2/10,1/7,1/3,0/0,1,1,2,3,2,3,0,0,-34,-1
+Colombia,USA,42,98,2507,6,Maria Camila Diaz Rodriguez,24:36,4,1/6,0/2,1/4,1/2,2,2,4,1,1,0,0,0,-36,3
+Colombia,USA,42,98,2507,8,Laura Viviana Ayala Ayala,13:01,0,0/2,0/2,0/0,0/0,0,0,0,0,2,3,1,0,-13,-4
+Colombia,USA,42,98,2507,9,Naylee Cortes Espitia,17:36,5,2/7,1/4,1/3,0/0,0,1,1,1,3,6,0,0,-20,-4
+Colombia,USA,42,98,2507,10,Hamileth Lorena Ulloa Chacon,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Colombia,USA,42,98,2507,11,Maria Fernanda Escobar Andrade,15:31,2,1/4,1/3,0/1,0/0,2,2,4,1,2,2,0,0,-13,2
+Colombia,USA,42,98,2507,12,Stephanny Orozco Lopez,14:54,4,1/3,0/0,1/3,1/2,0,0,0,0,1,0,0,0,-19,1
+Colombia,USA,42,98,2507,14,Luisa Ariamny Custodia Quesada Ortiz,07:00,7,2/2,2/2,0/0,3/5,0,2,2,0,1,0,2,0,-5,9
+Colombia,USA,42,98,2507,17,Maria Camila Alvarez Montes,25:37,3,1/9,1/3,0/6,1/3,0,1,1,2,0,1,0,0,-44,-5
+Colombia,USA,42,98,2507,18,Esperanza Belen Morales Lopez,28:07,7,3/4,3/4,0/0,1/1,0,5,5,0,2,2,0,1,-50,10
+Colombia,USA,42,98,2507,19,Daniela Gonzalez Viveros,24:28,3,0/6,0/4,0/2,3/4,0,2,2,0,5,3,1,0,-43,-4
+USA,Colombia,98,42,2507,4,Zia Cooke,16:19,6,1/6,1/5,0/1,4/4,3,2,5,1,1,0,1,0,20,8
+USA,Colombia,98,42,2507,5,Paige Bueckers,24:07,10,3/7,1/2,2/5,2/3,0,3,3,8,2,3,3,1,44,17
+USA,Colombia,98,42,2507,6,Azzi Fudd,27:53,17,6/9,3/5,3/4,2/2,0,2,2,1,2,1,2,0,46,18
+USA,Colombia,98,42,2507,7,Celeste Taylor,12:56,5,2/5,1/3,1/2,0/0,0,0,0,0,3,2,1,0,7,1
+USA,Colombia,98,42,2507,8,Jordan Horston,24:45,9,4/8,3/4,1/4,0/0,3,4,7,5,1,3,2,0,33,16
+USA,Colombia,98,42,2507,9,Hailey Van Lith,11:56,0,0/5,0/4,0/1,0/0,1,1,2,2,0,2,1,0,10,-2
+USA,Colombia,98,42,2507,10,Haley Jones,24:49,14,5/11,5/9,0/2,4/8,4,5,9,5,0,1,0,2,45,19
+USA,Colombia,98,42,2507,11,Charisma Osborne,09:43,2,1/3,1/3,0/0,0/0,4,0,4,4,1,0,1,0,10,9
+USA,Colombia,98,42,2507,12,Samantha Brunelle,07:27,2,1/2,1/1,0/1,0/0,0,2,2,1,0,0,0,0,9,4
+USA,Colombia,98,42,2507,13,Cameron Brink,05:00,4,1/3,1/3,0/0,2/2,3,0,3,0,2,0,0,1,9,6
+USA,Colombia,98,42,2507,14,Aliyah Boston,21:01,21,8/12,8/12,0/0,5/6,3,6,9,3,1,0,1,2,43,31
+USA,Colombia,98,42,2507,15,Fran Belibi,13:58,8,3/5,3/5,0/0,2/2,3,4,7,0,1,0,3,0,4,16
+Belarus,Italy,50,65,2507,4,Iryna Durmanava,10:39,2,1/2,1/2,0/0,0/0,0,2,2,3,3,3,2,0,1,5
+Belarus,Italy,50,65,2507,5,Yuliya Vasilevich,26:28,13,3/12,3/7,0/5,7/8,0,2,2,2,0,6,3,0,-15,4
+Belarus,Italy,50,65,2507,6,Iryna Venskaya,29:09,8,3/12,3/8,0/4,2/2,0,2,2,0,2,3,5,0,-14,3
+Belarus,Italy,50,65,2507,7,Anastasiya Babak,22:03,2,1/3,1/1,0/2,0/0,1,7,8,0,1,3,1,0,3,6
+Belarus,Italy,50,65,2507,9,Darya Siamiletnikava,26:41,9,3/8,3/6,0/2,3/5,3,4,7,1,3,2,1,0,-14,9
+Belarus,Italy,50,65,2507,10,Aliaksandra Chyzheuskaya,00:57,0,0/0,0/0,0/0,0/0,0,0,0,0,1,0,0,0,0,0
+Belarus,Italy,50,65,2507,11,Yana Yakhnavets,11:24,3,1/4,0/0,1/4,0/0,0,0,0,0,2,3,0,0,2,-3
+Belarus,Italy,50,65,2507,12,Anastasiya Fiaklistava,11:35,2,1/2,1/1,0/1,0/0,0,3,3,2,1,0,1,0,-3,7
+Belarus,Italy,50,65,2507,13,Yana Zubarenka,10:01,2,1/3,1/3,0/0,0/0,0,1,1,0,2,3,0,0,-4,-2
+Belarus,Italy,50,65,2507,14,Veranika Samailiuk,16:20,4,2/5,2/5,0/0,0/0,1,0,1,0,2,0,0,0,-12,2
+Belarus,Italy,50,65,2507,15,Anastasia Sinelshchykova,15:43,0,0/4,0/3,0/1,0/0,0,2,2,1,3,0,0,0,-10,-1
+Belarus,Italy,50,65,2507,22,Aksana Isayenka,18:55,5,2/4,1/2,1/2,0/0,0,1,1,0,2,0,0,0,-9,4
+Italy,Belarus,65,50,2507,4,Lisa Gallitognotta,16:02,0,0/2,0/2,0/0,0/0,0,2,2,1,2,0,1,0,1,2
+Italy,Belarus,65,50,2507,5,Alessandra Orsili,25:58,10,3/7,3/7,0/0,4/6,3,1,4,6,3,5,5,0,17,14
+Italy,Belarus,65,50,2507,6,Federica Mazza,11:10,2,1/4,1/3,0/1,0/0,1,2,3,0,1,0,1,0,1,3
+Italy,Belarus,65,50,2507,7,Sofia Frustaci,07:15,2,0/2,0/2,0/0,2/2,0,2,2,0,3,0,0,0,12,2
+Italy,Belarus,65,50,2507,8,Marta Rossini,12:07,0,0/3,0/0,0/3,0/0,0,1,1,0,0,1,0,0,-5,-3
+Italy,Belarus,65,50,2507,9,Giulia Natali,22:15,11,4/9,3/7,1/2,2/5,2,4,6,2,3,1,2,1,-1,13
+Italy,Belarus,65,50,2507,11,Silvia Pastrello,21:07,11,4/13,3/10,1/3,2/2,5,3,8,6,2,6,4,0,12,14
+Italy,Belarus,65,50,2507,12,Martina Spinelli,23:13,15,6/9,6/9,0/0,3/6,4,5,9,1,1,2,1,0,14,18
+Italy,Belarus,65,50,2507,14,Ilaria Panzera,18:56,0,0/4,0/2,0/2,0/0,0,4,4,1,0,1,2,0,6,2
+Italy,Belarus,65,50,2507,15,Lucia Adele Savatteri,08:58,1,0/2,0/2,0/0,1/4,1,0,1,0,2,1,0,0,-8,-4
+Italy,Belarus,65,50,2507,18,Caterina Gilli,24:13,11,5/11,5/11,0/0,1/3,0,4,4,1,0,1,1,0,19,8
+Italy,Belarus,65,50,2507,20,Caterina Mattera,08:40,2,1/4,1/4,0/0,0/0,4,1,5,1,0,1,2,0,7,6
+China,Angola,97,41,2707,4,Wenping Sui,28:34,4,1/3,0/0,1/3,1/2,2,2,4,6,1,0,1,0,38,12
+China,Angola,97,41,2707,5,Jing Zhou,11:59,2,1/2,1/1,0/1,0/0,0,2,2,2,1,2,1,0,19,4
+China,Angola,97,41,2707,6,Xianglin Wu,06:50,2,1/4,1/4,0/0,0/0,0,2,2,0,0,0,0,0,3,1
+China,Angola,97,41,2707,7,Luan Luan,11:24,11,5/7,4/6,1/1,0/0,0,2,2,0,0,1,0,0,6,10
+China,Angola,97,41,2707,8,Leyi Wang,22:07,8,3/7,2/4,1/3,1/2,2,3,5,4,0,0,1,0,46,13
+China,Angola,97,41,2707,9,Ming Zheng,19:36,16,6/14,4/6,2/8,2/2,0,4,4,2,1,0,1,0,37,15
+China,Angola,97,41,2707,10,Kun Huang,14:42,7,2/5,1/1,1/4,2/2,1,0,1,0,4,1,1,0,14,5
+China,Angola,97,41,2707,11,Shuyu Yang,19:27,3,1/7,0/3,1/4,0/0,1,0,1,6,2,2,3,0,19,5
+China,Angola,97,41,2707,12,Zhuo Ma,25:17,8,4/12,4/10,0/2,0/0,3,8,11,4,0,1,1,0,42,15
+China,Angola,97,41,2707,13,Jiyuan Wan,20:06,15,6/7,6/7,0/0,3/3,3,5,8,3,0,0,1,0,22,26
+China,Angola,97,41,2707,15,Yutong Liu,19:53,21,8/12,8/12,0/0,5/7,1,5,6,0,1,1,1,1,34,22
+China,Angola,97,41,2707,16,Shu Wang,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Angola,China,41,97,2707,5,Paula Caîtão Andre,05:12,0,0/1,0/1,0/0,0/0,0,1,1,0,0,0,0,0,-12,0
+Angola,China,41,97,2707,6,Cristina João Lourenço,22:25,13,5/12,4/11,1/1,2/2,0,2,2,1,1,4,0,0,-37,5
+Angola,China,41,97,2707,7,Helena Pululo,19:52,5,1/7,1/7,0/0,3/4,2,3,5,1,1,1,2,3,-20,8
+Angola,China,41,97,2707,8,Nelma Cunha,07:34,2,0/0,0/0,0/0,2/2,0,1,1,0,3,0,0,0,-14,3
+Angola,China,41,97,2707,9,Alexia Shanice dos Santos Dizeko,32:49,12,5/14,3/12,2/2,0/0,4,3,7,3,3,4,1,0,-37,10
+Angola,China,41,97,2707,10,Cacia  Antonio,33:06,6,2/12,2/9,0/3,2/2,0,3,3,4,0,2,1,0,-47,2
+Angola,China,41,97,2707,11,Conceicao Francisco Caetano,29:39,2,1/12,1/6,0/6,0/0,2,4,6,0,2,5,1,0,-51,-7
+Angola,China,41,97,2707,13,Maria Quipaca,17:20,0,0/1,0/1,0/0,0/0,1,2,3,0,0,0,0,2,-7,4
+Angola,China,41,97,2707,14,Nara Miguel André,19:01,0,0/5,0/5,0/0,0/0,1,0,1,1,3,1,1,0,-40,-3
+Angola,China,41,97,2707,15,Julia  Francisco,03:49,0,0/0,0/0,0/0,0/0,0,1,1,0,0,0,0,0,-6,1
+Angola,China,41,97,2707,20,Rafaela  Henriques,02:07,0,0/1,0/0,0/1,0/0,0,0,0,0,1,0,0,0,-5,-1
+Angola,China,41,97,2707,35,Tcheuzia  Gonçalves,07:01,1,0/0,0/0,0/0,1/2,0,1,1,0,0,1,0,0,-4,0
+Mali,Argentina,63,48,2707,4,Fanta Kone,36:04,6,2/8,2/6,0/2,2/2,0,6,6,4,1,3,8,1,13,16
+Mali,Argentina,63,48,2707,5,Fanta Daffe,01:31,0,0/1,0/0,0/1,0/0,0,0,0,0,0,0,0,0,-4,-1
+Mali,Argentina,63,48,2707,7,Kadidia Coulibaly,11:25,0,0/2,0/0,0/2,0/0,0,0,0,0,1,0,0,0,1,-2
+Mali,Argentina,63,48,2707,8,Saran Berthe,02:38,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-6,0
+Mali,Argentina,63,48,2707,9,Diouma Berthe,34:36,5,2/11,1/1,1/10,0/0,0,5,5,3,2,1,2,0,19,5
+Mali,Argentina,63,48,2707,10,Diarrah Issa Sissoko,36:36,14,5/14,3/4,2/10,2/4,2,3,5,4,1,6,1,0,20,7
+Mali,Argentina,63,48,2707,12,Alima Kouyate,03:52,2,1/1,1/1,0/0,0/1,1,1,2,0,0,1,0,0,-2,2
+Mali,Argentina,63,48,2707,14,Sika Kone,35:46,23,10/14,10/14,0/0,3/3,8,9,17,4,4,4,2,3,19,41
+Mali,Argentina,63,48,2707,15,Aminata Brahima Sangare,31:00,13,6/14,6/14,0/0,1/2,3,5,8,4,3,4,4,1,22,17
+Mali,Argentina,63,48,2707,16,Kady Togola,00:22,0,0/1,0/0,0/1,0/0,0,0,0,0,0,0,0,0,-2,-1
+Mali,Argentina,63,48,2707,17,Mariama Issa Traore,05:43,0,0/0,0/0,0/0,0/0,0,0,0,0,1,0,0,0,-3,0
+Mali,Argentina,63,48,2707,20,Fatoumata Dembele,00:22,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-2,0
+Argentina,Mali,48,63,2707,4,Victoria Abril Gauna,10:52,2,1/4,1/4,0/0,0/0,0,2,2,1,2,1,0,0,-9,1
+Argentina,Mali,48,63,2707,5,Ariana Agustina Rugna Di Lorenzo,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Argentina,Mali,48,63,2707,6,Rocio Belen Cejas,14:22,3,1/4,0/2,1/2,0/0,0,0,0,0,0,2,0,0,-11,-2
+Argentina,Mali,48,63,2707,7,Luciana Andrea Riccotti,02:25,2,1/1,1/1,0/0,0/0,1,0,1,0,0,1,0,0,0,2
+Argentina,Mali,48,63,2707,8,Camila Ailen Lignac,08:11,0,0/1,0/1,0/0,0/0,0,1,1,1,1,1,0,0,-2,0
+Argentina,Mali,48,63,2707,9,Sofia Acevedo,25:15,5,1/6,0/3,1/3,2/3,0,0,0,3,2,4,1,0,-2,-1
+Argentina,Mali,48,63,2707,10,Malvina Guadalupe D' Agostino,19:49,6,3/3,3/3,0/0,0/0,0,6,6,0,3,0,0,0,-2,12
+Argentina,Mali,48,63,2707,11,Lucia Operto,14:37,2,1/2,1/2,0/0,0/0,0,1,1,0,3,3,1,0,-15,0
+Argentina,Mali,48,63,2707,12,Martina Torres Passeggi,02:49,2,1/1,1/1,0/0,0/0,0,0,0,0,0,0,0,0,-2,2
+Argentina,Mali,48,63,2707,13,Candela Gentinetta,35:04,5,2/7,1/5,1/2,0/0,2,3,5,1,3,4,1,1,-15,4
+Argentina,Mali,48,63,2707,14,Florencia Natalia Chagas,33:53,18,6/14,2/6,4/8,2/4,0,3,3,5,0,7,1,0,-15,10
+Argentina,Mali,48,63,2707,15,Brenda Griselda Fontana,32:37,3,1/6,1/5,0/1,1/4,0,3,3,5,3,3,2,0,-2,2
+Colombia,Canada,51,71,2707,4,Dayana Camila Fuentes Medina,10:25,0,0/3,0/2,0/1,0/0,0,0,0,1,1,1,1,0,-10,-2
+Colombia,Canada,51,71,2707,5,Gabriela Chivata Triviño,25:01,2,1/5,1/5,0/0,0/2,1,1,2,4,2,2,2,0,-9,2
+Colombia,Canada,51,71,2707,6,Maria Camila Diaz Rodriguez,18:33,6,2/4,0/1,2/3,0/0,0,2,2,1,1,2,1,0,-14,6
+Colombia,Canada,51,71,2707,8,Laura Viviana Ayala Ayala,14:19,6,3/6,3/5,0/1,0/2,1,1,2,0,3,0,0,0,-6,3
+Colombia,Canada,51,71,2707,9,Naylee Cortes Espitia,10:16,2,1/2,1/2,0/0,0/0,0,1,1,0,2,3,0,0,-13,-1
+Colombia,Canada,51,71,2707,10,Hamileth Lorena Ulloa Chacon,13:34,0,0/6,0/4,0/2,0/0,1,1,2,4,0,0,1,0,-2,1
+Colombia,Canada,51,71,2707,11,Maria Fernanda Escobar Andrade,14:19,4,1/3,1/3,0/0,2/2,2,1,3,0,1,0,0,2,-7,7
+Colombia,Canada,51,71,2707,12,Stephanny Orozco Lopez,04:34,0,0/1,0/0,0/1,0/0,0,0,0,0,0,0,0,0,-1,-1
+Colombia,Canada,51,71,2707,14,Luisa Ariamny Custodia Quesada Ortiz,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Colombia,Canada,51,71,2707,17,Maria Camila Alvarez Montes,33:33,20,7/14,1/2,6/12,0/0,1,1,2,1,3,4,1,1,-18,14
+Colombia,Canada,51,71,2707,18,Esperanza Belen Morales Lopez,24:53,4,2/7,2/7,0/0,0/4,3,0,3,0,1,3,4,0,-11,-1
+Colombia,Canada,51,71,2707,19,Daniela Gonzalez Viveros,30:30,7,3/6,2/3,1/3,0/2,2,3,5,1,2,2,3,2,-9,11
+Canada,Colombia,71,51,2707,4,Sarah  Te- Biasu,23:56,10,3/6,1/1,2/5,2/2,2,1,3,4,1,1,1,0,17,14
+Canada,Colombia,71,51,2707,5,Rebecca Marzan Demeke,17:21,5,2/7,1/3,1/4,0/0,0,1,1,3,1,1,1,0,8,4
+Canada,Colombia,71,51,2707,6,Aerial Wilson,25:59,12,4/7,2/3,2/4,2/3,3,2,5,2,0,1,3,0,10,17
+Canada,Colombia,71,51,2707,7,Donna Ntambue,20:18,8,4/11,4/11,0/0,0/0,3,6,9,3,1,6,0,1,17,8
+Canada,Colombia,71,51,2707,8,Makayla Ennis,24:00,2,1/7,1/5,0/2,0/0,2,1,3,3,1,3,1,0,8,0
+Canada,Colombia,71,51,2707,9,Aaliyah Edwards,24:43,11,5/12,5/11,0/1,1/2,4,6,10,1,2,5,1,0,16,10
+Canada,Colombia,71,51,2707,10,Merissah Russell,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Canada,Colombia,71,51,2707,11,Yvonne Ejim,22:04,6,2/5,2/5,0/0,2/4,5,6,11,3,1,3,1,0,5,13
+Canada,Colombia,71,51,2707,12,Faith Dut,15:05,4,1/2,1/2,0/0,2/3,0,1,1,2,2,1,0,1,3,5
+Canada,Colombia,71,51,2707,13,Brynn Masikewich,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Canada,Colombia,71,51,2707,14,Deanna Tuchscherer,18:35,9,3/7,2/5,1/2,2/2,4,0,4,1,2,4,0,0,16,6
+Canada,Colombia,71,51,2707,15,Olivia Morgan-Cherchas,07:52,4,2/3,2/3,0/0,0/0,2,0,2,0,2,0,0,0,0,5
+Belarus,New Zealand,59,73,2707,4,Iryna Durmanava,12:39,7,3/6,2/3,1/3,0/0,1,0,1,1,4,3,3,0,-6,6
+Belarus,New Zealand,59,73,2707,5,Yuliya Vasilevich,31:58,9,4/11,3/9,1/2,0/0,0,4,4,6,3,4,1,0,-10,9
+Belarus,New Zealand,59,73,2707,6,Iryna Venskaya,28:48,2,1/6,1/2,0/4,0/0,0,3,3,1,3,1,0,0,-12,0
+Belarus,New Zealand,59,73,2707,7,Anastasiya Babak,14:12,8,3/5,1/2,2/3,0/0,0,4,4,0,2,1,1,0,-2,10
+Belarus,New Zealand,59,73,2707,9,Darya Siamiletnikava,24:21,8,3/7,3/4,0/3,2/2,1,4,5,1,1,1,1,0,-21,10
+Belarus,New Zealand,59,73,2707,10,Aliaksandra Chyzheuskaya,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Belarus,New Zealand,59,73,2707,11,Yana Yakhnavets,16:28,10,4/12,2/6,2/6,0/0,1,2,3,2,1,1,1,0,-11,7
+Belarus,New Zealand,59,73,2707,12,Anastasiya Fiaklistava,06:20,3,0/5,0/3,0/2,3/4,0,0,0,0,0,0,1,0,5,-2
+Belarus,New Zealand,59,73,2707,13,Yana Zubarenka,11:16,6,2/4,2/4,0/0,2/2,2,0,2,0,4,3,0,0,3,3
+Belarus,New Zealand,59,73,2707,14,Veranika Samailiuk,16:58,0,0/2,0/2,0/0,0/0,1,2,3,0,0,0,1,1,-5,3
+Belarus,New Zealand,59,73,2707,15,Anastasia Sinelshchykova,15:28,3,1/2,1/2,0/0,1/2,0,4,4,1,1,1,0,1,0,6
+Belarus,New Zealand,59,73,2707,22,Aksana Isayenka,21:27,3,1/7,0/3,1/4,0/0,0,1,1,4,0,1,2,0,-11,3
+New Zealand,Belarus,73,59,2707,2,Ella Jade Bradley,04:28,0,0/0,0/0,0/0,0/0,1,0,1,0,0,1,0,0,-4,0
+New Zealand,Belarus,73,59,2707,5,Kyra Paniora,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+New Zealand,Belarus,73,59,2707,6,Tara Manumaleuga,21:45,19,6/20,3/8,3/12,4/4,0,3,3,0,0,3,0,1,-11,6
+New Zealand,Belarus,73,59,2707,8,Shauna Povey,22:38,10,3/9,1/5,2/4,2/4,1,1,2,2,2,1,1,1,26,7
+New Zealand,Belarus,73,59,2707,9,Emilee Bree Tahata,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+New Zealand,Belarus,73,59,2707,15,Madison Ariana Hema,09:13,0,0/2,0/2,0/0,0/0,0,0,0,0,3,0,0,0,-7,-2
+New Zealand,Belarus,73,59,2707,25,Jazzmyne Jade Kailahi-Fulu,31:18,8,3/7,3/7,0/0,2/3,5,10,15,4,2,4,5,1,23,24
+New Zealand,Belarus,73,59,2707,26,Tayla Dalton,31:39,14,6/10,5/6,1/4,1/1,1,0,1,1,0,2,1,0,18,11
+New Zealand,Belarus,73,59,2707,30,Isabelle Cook,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+New Zealand,Belarus,73,59,2707,42,Helen Matthews,08:29,0,0/3,0/1,0/2,0/0,0,2,2,1,0,1,0,0,-7,-1
+New Zealand,Belarus,73,59,2707,44,Charlisse Trinity Leger-Walker,35:27,10,3/8,3/5,0/3,4/6,3,4,7,5,2,1,1,1,16,16
+New Zealand,Belarus,73,59,2707,88,Sharne Pupuke-Robati,35:00,12,5/11,4/9,1/2,1/2,5,8,13,6,2,3,3,0,16,24
+Italy,Australia,46,64,2707,4,Lisa Gallitognotta,05:20,0,0/1,0/0,0/1,0/0,0,1,1,0,1,0,1,0,1,1
+Italy,Australia,46,64,2707,5,Alessandra Orsili,12:40,2,1/3,1/2,0/1,0/0,0,2,2,0,5,0,2,0,-2,4
+Italy,Australia,46,64,2707,6,Federica Mazza,03:19,0,0/1,0/0,0/1,0/0,0,0,0,0,2,0,0,0,-3,-1
+Italy,Australia,46,64,2707,7,Sofia Frustaci,03:38,2,1/1,1/1,0/0,0/0,1,0,1,0,0,0,1,1,5,5
+Italy,Australia,46,64,2707,8,Marta Rossini,15:43,6,2/6,1/2,1/4,1/2,1,0,1,0,1,1,4,0,1,5
+Italy,Australia,46,64,2707,9,Giulia Natali,23:33,5,1/10,1/8,0/2,3/4,0,1,1,1,0,2,3,0,-14,-2
+Italy,Australia,46,64,2707,11,Silvia Pastrello,26:56,2,1/7,1/7,0/0,0/1,2,1,3,0,3,1,1,1,-16,-1
+Italy,Australia,46,64,2707,12,Martina Spinelli,30:53,5,1/4,1/3,0/1,3/6,2,4,6,1,2,6,0,1,-14,1
+Italy,Australia,46,64,2707,14,Ilaria Panzera,35:59,14,5/14,2/9,3/5,1/2,1,5,6,7,3,7,1,1,-25,12
+Italy,Australia,46,64,2707,15,Lucia Adele Savatteri,05:22,0,0/0,0/0,0/0,0/0,0,1,1,0,2,1,0,0,-5,0
+Italy,Australia,46,64,2707,18,Caterina Gilli,32:02,10,3/7,3/6,0/1,4/6,1,5,6,2,2,3,0,0,-16,9
+Italy,Australia,46,64,2707,20,Caterina Mattera,04:28,0,0/0,0/0,0/0,0/0,0,0,0,0,0,1,0,0,-2,-1
+Australia,Italy,64,46,2707,4,Shyla Jade Heal,37:10,19,7/13,5/7,2/6,3/4,1,6,7,3,3,4,2,0,25,20
+Australia,Italy,64,46,2707,5,Georgia Amoore,04:01,0,0/1,0/1,0/0,0/0,0,0,0,0,1,0,1,0,2,0
+Australia,Italy,64,46,2707,6,Jade Melbourne,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Australia,Italy,64,46,2707,7,Isabel Leigh Palmer,23:23,6,2/7,2/4,0/3,2/2,0,3,3,3,2,2,0,0,6,5
+Australia,Italy,64,46,2707,8,Lily Scanlon,26:19,9,2/8,1/6,1/2,4/6,0,3,3,1,1,3,0,0,5,2
+Australia,Italy,64,46,2707,9,Nnenna Agnes  Emma-Nnopu,33:40,11,4/10,4/10,0/0,3/4,4,7,11,0,2,2,1,1,14,15
+Australia,Italy,64,46,2707,10,Gemma Potter,26:31,7,1/5,1/4,0/1,5/6,2,2,4,1,1,3,4,1,17,9
+Australia,Italy,64,46,2707,11,Ruby Porter,02:34,0,0/1,0/0,0/1,0/0,0,1,1,2,1,1,0,0,-1,1
+Australia,Italy,64,46,2707,12,Eliza  Hollingsworth,07:16,2,1/2,1/2,0/0,0/0,1,0,1,1,1,0,1,0,2,4
+Australia,Italy,64,46,2707,13,Ashlee Hannan,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Australia,Italy,64,46,2707,14,Alexander  Fowler,24:25,6,2/4,2/4,0/0,2/2,2,5,7,3,2,3,0,0,9,11
+Australia,Italy,64,46,2707,15,Isobel Anne Anstey,14:38,4,2/3,2/3,0/0,0/0,3,3,6,0,4,3,0,0,11,6
+France,Latvia,67,43,2707,4,Marine Fauthoux,24:40,10,3/14,3/11,0/3,4/4,2,1,3,5,0,1,2,0,21,8
+France,Latvia,67,43,2707,5,Marie Pardon,15:19,2,1/2,1/2,0/0,0/0,1,0,1,4,0,4,3,0,3,5
+France,Latvia,67,43,2707,7,Zoé Wadoux,19:46,3,1/4,0/1,1/3,0/0,0,4,4,1,2,1,1,0,5,5
+France,Latvia,67,43,2707,8,Yohana Ewodo,22:58,10,4/11,3/8,1/3,1/2,4,3,7,0,3,2,1,1,23,9
+France,Latvia,67,43,2707,9,Anaia Hoard,02:13,4,2/3,2/3,0/0,0/0,1,0,1,0,0,0,0,0,2,4
+France,Latvia,67,43,2707,10,Fayzat Djoumoi,04:07,1,0/0,0/0,0/0,1/4,0,2,2,0,0,0,0,0,-2,0
+France,Latvia,67,43,2707,11,Kendra Chéry,21:52,9,3/12,3/11,0/1,3/7,3,3,6,1,1,3,5,1,19,6
+France,Latvia,67,43,2707,12,Iliana Rupert,16:51,12,6/13,6/11,0/2,0/0,5,3,8,2,3,2,5,2,26,20
+France,Latvia,67,43,2707,13,Janelle Salaun,24:28,6,2/6,1/3,1/3,1/2,5,2,7,1,1,3,1,1,4,8
+France,Latvia,67,43,2707,26,Eve De Christophie Mahoutou,12:40,2,1/1,1/1,0/0,0/2,2,2,4,0,2,2,1,0,1,3
+France,Latvia,67,43,2707,29,Ewl Guennoc,21:15,6,1/4,0/3,1/1,3/3,2,1,3,3,1,0,0,0,19,9
+France,Latvia,67,43,2707,30,Olivia Yale,13:46,2,1/8,1/8,0/0,0/0,1,1,2,0,3,0,2,0,-1,-1
+Latvia,France,43,67,2707,4,Jete Katrina Nulle,18:06,3,1/5,0/1,1/4,0/0,0,0,0,3,1,6,1,0,1,-3
+Latvia,France,43,67,2707,5,Ketija Vihmane,30:38,9,3/11,0/2,3/9,0/0,0,2,2,1,4,5,0,0,-32,-1
+Latvia,France,43,67,2707,6,Flera Vinerte,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Latvia,France,43,67,2707,7,Paula Klescova,14:34,2,1/2,1/1,0/1,0/0,1,1,2,0,1,3,0,0,-8,0
+Latvia,France,43,67,2707,8,Lina Loceniece,16:13,12,5/7,3/4,2/3,0/1,2,0,2,0,0,4,2,0,-4,9
+Latvia,France,43,67,2707,9,Una Steinharde,16:19,4,1/7,1/3,0/4,2/2,0,1,1,2,0,3,0,0,-12,-2
+Latvia,France,43,67,2707,10,Laura Meldere,25:09,3,1/5,1/3,0/2,1/4,1,9,10,2,1,1,1,0,-14,8
+Latvia,France,43,67,2707,11,Eva Indrike,30:06,2,0/1,0/0,0/1,2/2,1,5,6,1,1,1,1,0,-5,8
+Latvia,France,43,67,2707,12,Evelina Silvija Fricsone,05:01,0,0/0,0/0,0/0,0/0,0,1,1,0,0,2,0,0,-10,-1
+Latvia,France,43,67,2707,13,Anita Megija Mikelsone,22:46,4,1/3,1/3,0/0,2/2,1,3,4,0,4,6,3,0,-24,3
+Latvia,France,43,67,2707,14,Elvija Anna Veršele,15:17,4,2/6,2/6,0/0,0/0,0,2,2,0,2,0,0,0,-10,2
+Latvia,France,43,67,2707,15,Betija Rudzite,05:45,0,0/0,0/0,0/0,0/0,0,0,0,0,2,2,0,1,-2,-1
+USA,Spain,66,31,2707,4,Zia Cooke,16:49,14,6/6,5/5,1/1,1/1,0,1,1,2,0,2,2,0,19,17
+USA,Spain,66,31,2707,5,Paige Bueckers,23:21,12,6/7,6/7,0/0,0/0,1,1,2,1,2,2,0,1,16,13
+USA,Spain,66,31,2707,6,Azzi Fudd,22:10,6,3/8,3/8,0/0,0/0,1,2,3,2,1,3,0,0,18,3
+USA,Spain,66,31,2707,7,Celeste Taylor,19:55,7,3/6,2/3,1/3,0/0,0,3,3,0,1,1,1,0,18,7
+USA,Spain,66,31,2707,8,Jordan Horston,23:51,8,4/13,4/11,0/2,0/0,5,3,8,4,2,1,4,0,31,14
+USA,Spain,66,31,2707,9,Hailey Van Lith,10:58,0,0/2,0/2,0/0,0/0,0,1,1,1,1,3,0,0,2,-3
+USA,Spain,66,31,2707,10,Haley Jones,17:08,3,1/3,1/3,0/0,1/2,0,4,4,1,2,1,1,1,17,6
+USA,Spain,66,31,2707,11,Charisma Osborne,18:37,4,1/4,1/2,0/2,2/2,1,4,5,3,2,2,4,0,17,11
+USA,Spain,66,31,2707,12,Samantha Brunelle,07:07,2,1/2,1/1,0/1,0/0,0,0,0,0,0,1,0,0,2,0
+USA,Spain,66,31,2707,13,Cameron Brink,05:52,0,0/0,0/0,0/0,0/0,0,2,2,0,1,1,0,1,-2,2
+USA,Spain,66,31,2707,14,Aliyah Boston,18:37,6,3/8,3/8,0/0,0/0,5,4,9,2,2,2,1,1,21,12
+USA,Spain,66,31,2707,15,Fran Belibi,15:30,4,2/5,2/5,0/0,0/0,2,5,7,3,0,0,3,0,16,14
+Spain,USA,31,66,2707,4,Violeta Verano Fores,10:52,2,1/4,1/3,0/1,0/0,0,0,0,1,0,0,1,0,-4,1
+Spain,USA,31,66,2707,5,Estel Puiggros Rovira,14:55,0,0/6,0/2,0/4,0/0,0,1,1,0,1,3,0,0,-18,-8
+Spain,USA,31,66,2707,6,Celia Carbonell Muñoz,26:08,6,2/4,2/3,0/1,2/2,0,1,1,1,0,1,3,0,-27,8
+Spain,USA,31,66,2707,7,Laura Mendez Camps,25:15,6,3/6,3/6,0/0,0/0,1,5,6,2,1,4,0,0,-22,7
+Spain,USA,31,66,2707,8,Nora Galve Batet,22:13,2,1/6,1/6,0/0,0/2,0,1,1,2,2,3,2,0,-16,-3
+Spain,USA,31,66,2707,9,Zoe Hernandez Ortiz,08:37,2,1/2,1/2,0/0,0/0,0,0,0,0,1,3,1,0,-9,-1
+Spain,USA,31,66,2707,10,Helena Pueyo Melchor,24:12,3,1/6,1/5,0/1,1/2,1,1,2,0,1,2,1,0,-20,-2
+Spain,USA,31,66,2707,11,Ana Caballero Sanchez,06:22,2,1/2,1/2,0/0,0/0,0,1,1,0,1,1,0,0,-4,1
+Spain,USA,31,66,2707,12,Nerea Hermosa Monreal,27:21,2,1/6,1/6,0/0,0/0,2,3,5,0,1,0,1,1,-26,4
+Spain,USA,31,66,2707,13,Laia  Moya Blanch,09:18,2,1/3,1/3,0/0,0/0,0,2,2,0,0,0,2,1,-8,5
+Spain,USA,31,66,2707,14,Raquel Carrera Quintana,24:43,4,1/8,1/7,0/1,2/4,1,3,4,0,2,2,3,1,-21,1
+Spain,USA,31,66,2707,15,Anna Gamarra Ramirez,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Japan,Hungary,62,74,2707,4,Yu Suzuki,15:09,1,0/2,0/2,0/0,1/2,0,2,2,1,0,2,3,0,-8,2
+Japan,Hungary,62,74,2707,5,Maya Sophia McArthur,26:19,8,4/7,4/7,0/0,0/0,4,5,9,0,3,1,0,5,-2,18
+Japan,Hungary,62,74,2707,6,Sakura Noguchi,16:37,5,2/6,2/3,0/3,1/2,0,2,2,2,3,0,2,1,-7,7
+Japan,Hungary,62,74,2707,7,Misa Hayashi,14:18,2,1/8,1/4,0/4,0/0,0,2,2,1,0,1,0,0,-6,-3
+Japan,Hungary,62,74,2707,8,Miku Takahashi,22:06,13,4/11,3/9,1/2,4/5,4,3,7,0,2,2,1,0,-14,11
+Japan,Hungary,62,74,2707,9,Nodoka Fujita,23:55,4,2/6,2/5,0/1,0/0,2,4,6,7,2,1,1,0,-2,13
+Japan,Hungary,62,74,2707,10,Rina Yamaguchi,10:52,2,1/1,1/1,0/0,0/2,0,2,2,0,0,1,0,1,3,2
+Japan,Hungary,62,74,2707,11,Reika Nakamichi,12:20,6,3/4,3/4,0/0,0/0,0,2,2,0,0,1,0,0,-7,6
+Japan,Hungary,62,74,2707,12,Nanaka Yamaguchi,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Japan,Hungary,62,74,2707,13,Nanami Morioka,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Japan,Hungary,62,74,2707,14,Maika Miura,28:51,10,3/10,1/4,2/6,2/2,0,2,2,2,1,1,1,0,-10,7
+Japan,Hungary,62,74,2707,15,Aika Hirashita,29:31,11,5/17,5/12,0/5,1/3,2,4,6,2,3,1,2,0,-7,6
+Hungary,Japan,74,62,2707,6,Barbara Angyal,25:55,18,6/14,3/9,3/5,3/4,1,2,3,3,1,2,1,0,13,14
+Hungary,Japan,74,62,2707,9,Fruzsina Reka Horvath,05:50,0,0/1,0/1,0/0,0/0,0,1,1,0,0,0,0,0,-1,0
+Hungary,Japan,74,62,2707,10,Georgina Kovács,21:16,10,4/8,2/6,2/2,0/0,0,5,5,2,0,4,1,0,6,10
+Hungary,Japan,74,62,2707,11,Berta Panna Boros,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Hungary,Japan,74,62,2707,12,Zita Vari,10:09,0,0/2,0/2,0/0,0/0,1,2,3,0,1,0,1,0,7,2
+Hungary,Japan,74,62,2707,14,Aliz Varga,19:23,10,4/9,4/9,0/0,2/2,2,2,4,1,4,1,0,1,1,10
+Hungary,Japan,74,62,2707,15,Reka Dombai,32:20,15,7/15,6/12,1/3,0/1,3,6,9,1,0,0,3,0,5,19
+Hungary,Japan,74,62,2707,19,Nora Judit Wentzel,20:39,6,3/10,3/8,0/2,0/0,3,0,3,2,1,0,1,1,10,6
+Hungary,Japan,74,62,2707,22,Dorina Szirony,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Hungary,Japan,74,62,2707,23,Reka Manyoky,27:23,8,4/9,4/7,0/2,0/0,0,7,7,2,4,0,0,3,12,15
+Hungary,Japan,74,62,2707,24,Franka Emilia Toth,17:25,3,1/5,1/5,0/0,1/2,2,8,10,1,2,1,1,0,2,9
+Hungary,Japan,74,62,2707,30,Angelika Kiss,19:33,4,2/5,2/5,0/0,0/1,2,2,4,3,2,3,1,0,5,5
+Angola,Colombia,44,49,2807,5,Paula Caîtão Andre,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Angola,Colombia,44,49,2807,6,Cristina João Lourenço,21:49,5,2/8,2/8,0/0,1/2,0,2,2,1,3,11,0,1,-7,-9
+Angola,Colombia,44,49,2807,7,Helena Pululo,16:33,2,0/3,0/3,0/0,2/2,0,1,1,0,2,0,1,0,2,1
+Angola,Colombia,44,49,2807,8,Nelma Cunha,07:43,0,0/2,0/2,0/0,0/0,0,2,2,0,1,1,1,0,7,0
+Angola,Colombia,44,49,2807,9,Alexia Shanice dos Santos Dizeko,39:00,16,5/12,5/10,0/2,6/7,2,10,12,4,1,3,1,1,-3,23
+Angola,Colombia,44,49,2807,10,Cacia  Antonio,35:34,8,2/8,0/6,2/2,2/2,0,9,9,3,1,7,1,0,-4,8
+Angola,Colombia,44,49,2807,11,Conceicao Francisco Caetano,36:10,7,2/12,1/7,1/5,2/2,1,4,5,0,1,3,3,0,-1,2
+Angola,Colombia,44,49,2807,13,Maria Quipaca,03:22,0,0/1,0/1,0/0,0/0,2,0,2,0,0,0,0,0,-4,1
+Angola,Colombia,44,49,2807,14,Nara Miguel André,06:17,0,0/1,0/1,0/0,0/0,2,0,2,0,1,0,0,0,-5,1
+Angola,Colombia,44,49,2807,15,Julia  Francisco,09:58,2,1/2,1/2,0/0,0/0,0,1,1,0,0,0,0,0,-1,2
+Angola,Colombia,44,49,2807,20,Rafaela  Henriques,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Angola,Colombia,44,49,2807,35,Tcheuzia  Gonçalves,23:28,4,1/4,1/2,0/2,2/2,1,3,4,0,4,1,2,1,-9,7
+Colombia,Angola,49,44,2807,4,Dayana Camila Fuentes Medina,05:09,2,1/1,1/1,0/0,0/0,0,0,0,0,1,2,0,0,-4,0
+Colombia,Angola,49,44,2807,5,Gabriela Chivata Triviño,23:46,14,5/9,4/8,1/1,3/3,3,3,6,0,3,1,3,0,9,18
+Colombia,Angola,49,44,2807,6,Maria Camila Diaz Rodriguez,11:19,2,1/4,1/2,0/2,0/0,1,2,3,0,0,3,1,0,-3,0
+Colombia,Angola,49,44,2807,8,Laura Viviana Ayala Ayala,03:31,0,0/1,0/0,0/1,0/0,0,2,2,0,0,0,1,0,-2,2
+Colombia,Angola,49,44,2807,9,Naylee Cortes Espitia,29:40,9,3/10,3/9,0/1,3/4,2,4,6,2,4,1,5,1,-7,14
+Colombia,Angola,49,44,2807,10,Hamileth Lorena Ulloa Chacon,36:28,7,3/12,3/10,0/2,1/5,1,1,2,4,0,4,6,0,7,2
+Colombia,Angola,49,44,2807,11,Maria Fernanda Escobar Andrade,02:22,0,0/0,0/0,0/0,0/0,0,0,0,0,1,1,0,0,3,-1
+Colombia,Angola,49,44,2807,12,Stephanny Orozco Lopez,08:48,0,0/1,0/0,0/1,0/0,0,0,0,0,0,0,0,0,0,-1
+Colombia,Angola,49,44,2807,14,Luisa Ariamny Custodia Quesada Ortiz,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Colombia,Angola,49,44,2807,17,Maria Camila Alvarez Montes,30:58,11,4/16,1/5,3/11,0/0,0,4,4,0,2,2,1,0,8,2
+Colombia,Angola,49,44,2807,18,Esperanza Belen Morales Lopez,28:30,4,0/5,0/5,0/0,4/4,3,4,7,0,1,2,1,1,10,6
+Colombia,Angola,49,44,2807,19,Daniela Gonzalez Viveros,19:26,0,0/4,0/3,0/1,0/0,0,4,4,1,4,5,2,1,4,-1
+Argentina,Belarus,61,58,2807,4,Victoria Abril Gauna,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Argentina,Belarus,61,58,2807,5,Ariana Agustina Rugna Di Lorenzo,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Argentina,Belarus,61,58,2807,6,Rocio Belen Cejas,24:43,2,1/1,1/1,0/0,0/1,0,1,1,2,3,1,0,1,3,4
+Argentina,Belarus,61,58,2807,7,Luciana Andrea Riccotti,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Argentina,Belarus,61,58,2807,8,Camila Ailen Lignac,10:07,2,1/1,1/1,0/0,0/0,0,1,1,0,2,3,1,0,-5,1
+Argentina,Belarus,61,58,2807,9,Sofia Acevedo,32:27,28,6/13,2/4,4/9,12/13,0,2,2,3,3,6,6,0,9,25
+Argentina,Belarus,61,58,2807,10,Malvina Guadalupe D' Agostino,11:54,0,0/0,0/0,0/0,0/0,2,3,5,0,3,1,2,0,-2,6
+Argentina,Belarus,61,58,2807,11,Lucia Operto,07:56,0,0/1,0/1,0/0,0/0,1,2,3,0,1,1,1,0,-2,2
+Argentina,Belarus,61,58,2807,12,Martina Torres Passeggi,08:01,4,1/2,1/2,0/0,2/2,0,0,0,0,0,1,0,0,-2,2
+Argentina,Belarus,61,58,2807,13,Candela Gentinetta,34:04,7,1/8,1/5,0/3,5/6,4,6,10,2,1,4,0,1,6,8
+Argentina,Belarus,61,58,2807,14,Florencia Natalia Chagas,36:00,13,3/12,0/3,3/9,4/6,0,7,7,4,2,10,2,2,6,7
+Argentina,Belarus,61,58,2807,15,Brenda Griselda Fontana,34:43,5,2/11,2/10,0/1,1/2,1,5,6,2,2,1,4,3,2,9
+Belarus,Argentina,58,61,2807,4,Iryna Durmanava,00:52,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Belarus,Argentina,58,61,2807,5,Yuliya Vasilevich,31:01,8,2/12,1/8,1/4,3/4,2,3,5,2,2,7,1,0,-11,-2
+Belarus,Argentina,58,61,2807,6,Iryna Venskaya,33:43,15,6/18,4/11,2/7,1/1,1,2,3,3,2,4,4,0,-1,9
+Belarus,Argentina,58,61,2807,7,Anastasiya Babak,22:39,10,3/9,1/5,2/4,2/6,4,2,6,1,3,1,3,0,0,9
+Belarus,Argentina,58,61,2807,9,Darya Siamiletnikava,29:43,5,2/5,2/5,0/0,1/2,1,6,7,1,5,5,1,0,-3,5
+Belarus,Argentina,58,61,2807,10,Aliaksandra Chyzheuskaya,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Belarus,Argentina,58,61,2807,11,Yana Yakhnavets,08:55,2,1/4,1/2,0/2,0/0,0,0,0,1,3,1,0,1,1,0
+Belarus,Argentina,58,61,2807,12,Anastasiya Fiaklistava,02:12,0,0/1,0/0,0/1,0/0,0,0,0,0,0,0,0,0,-3,-1
+Belarus,Argentina,58,61,2807,13,Yana Zubarenka,15:25,2,1/3,1/3,0/0,0/0,2,3,5,0,5,1,1,0,12,5
+Belarus,Argentina,58,61,2807,14,Veranika Samailiuk,25:36,11,4/8,3/7,1/1,2/2,0,3,3,3,3,1,1,1,-6,14
+Belarus,Argentina,58,61,2807,15,Anastasia Sinelshchykova,05:00,2,1/2,1/2,0/0,0/0,0,1,1,0,2,1,0,0,-2,1
+Belarus,Argentina,58,61,2807,22,Aksana Isayenka,24:49,3,1/6,0/1,1/5,0/0,0,1,1,2,1,0,2,0,-2,3
+Latvia,Italy,49,86,2807,4,Jete Katrina Nulle,18:49,3,1/6,0/3,1/3,0/0,0,1,1,0,5,3,2,0,-24,-2
+Latvia,Italy,49,86,2807,5,Ketija Vihmane,24:55,9,3/7,2/2,1/5,2/2,0,0,0,1,3,3,1,0,-16,4
+Latvia,Italy,49,86,2807,6,Flera Vinerte,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Latvia,Italy,49,86,2807,7,Paula Klescova,11:52,0,0/0,0/0,0/0,0/0,1,2,3,2,1,5,0,0,-14,0
+Latvia,Italy,49,86,2807,8,Lina Loceniece,17:00,5,2/8,1/4,1/4,0/0,0,1,1,1,0,2,1,0,-15,0
+Latvia,Italy,49,86,2807,9,Una Steinharde,20:03,7,2/5,1/2,1/3,2/2,2,0,2,1,1,1,1,0,-22,7
+Latvia,Italy,49,86,2807,10,Laura Meldere,02:10,0,0/0,0/0,0/0,0/0,0,0,0,0,0,1,0,0,-4,-1
+Latvia,Italy,49,86,2807,11,Eva Indrike,29:33,5,1/7,1/6,0/1,3/5,3,2,5,1,3,3,1,1,-20,2
+Latvia,Italy,49,86,2807,12,Evelina Silvija Fricsone,16:50,4,2/2,2/2,0/0,0/0,0,2,2,0,1,4,1,0,-6,3
+Latvia,Italy,49,86,2807,13,Anita Megija Mikelsone,26:31,6,1/7,1/6,0/1,4/6,1,7,8,1,3,1,0,0,-17,6
+Latvia,Italy,49,86,2807,14,Elvija Anna Veršele,23:03,3,1/5,1/4,0/1,1/2,2,2,4,1,3,1,0,0,-37,2
+Latvia,Italy,49,86,2807,15,Betija Rudzite,09:08,7,2/2,2/2,0/0,3/4,0,0,0,0,1,3,3,0,-10,6
+Italy,Latvia,86,49,2807,4,Lisa Gallitognotta,16:07,9,2/5,1/1,1/4,4/4,0,2,2,1,1,1,1,0,7,9
+Italy,Latvia,86,49,2807,5,Alessandra Orsili,20:47,9,4/7,4/7,0/0,1/2,3,1,4,5,1,2,2,0,30,14
+Italy,Latvia,86,49,2807,6,Federica Mazza,13:24,5,2/4,1/1,1/3,0/0,0,2,2,0,1,2,2,0,2,5
+Italy,Latvia,86,49,2807,7,Sofia Frustaci,16:26,2,0/5,0/3,0/2,2/4,2,3,5,0,1,1,2,0,8,1
+Italy,Latvia,86,49,2807,8,Marta Rossini,18:28,4,2/3,2/2,0/1,0/0,0,1,1,2,3,2,2,0,8,6
+Italy,Latvia,86,49,2807,9,Giulia Natali,17:00,7,2/3,1/2,1/1,2/2,0,2,2,1,0,1,3,0,33,11
+Italy,Latvia,86,49,2807,11,Silvia Pastrello,15:28,11,4/4,3/3,1/1,2/4,4,3,7,4,1,2,1,0,18,19
+Italy,Latvia,86,49,2807,12,Martina Spinelli,15:46,2,1/5,1/5,0/0,0/0,0,2,2,2,2,0,0,1,28,3
+Italy,Latvia,86,49,2807,14,Ilaria Panzera,19:28,13,5/9,2/3,3/6,0/2,1,0,1,3,3,3,6,0,17,14
+Italy,Latvia,86,49,2807,15,Lucia Adele Savatteri,12:13,2,0/3,0/3,0/0,2/2,2,3,5,0,3,5,2,0,-3,1
+Italy,Latvia,86,49,2807,18,Caterina Gilli,16:43,9,4/9,4/9,0/0,1/3,4,2,6,2,0,2,1,0,13,9
+Italy,Latvia,86,49,2807,20,Caterina Mattera,18:01,13,4/9,4/9,0/0,5/6,6,1,7,1,3,1,0,0,24,14
+Mali,New Zealand,66,64,2807,4,Fanta Kone,42:06,2,1/5,1/2,0/3,0/2,1,2,3,6,2,5,4,0,10,4
+Mali,New Zealand,66,64,2807,5,Fanta Daffe,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Mali,New Zealand,66,64,2807,7,Kadidia Coulibaly,29:05,12,3/7,0/0,3/7,3/4,0,0,0,2,3,2,1,1,14,9
+Mali,New Zealand,66,64,2807,8,Saran Berthe,04:34,0,0/1,0/1,0/0,0/0,0,1,1,0,1,0,0,0,-8,0
+Mali,New Zealand,66,64,2807,9,Diouma Berthe,05:35,0,0/2,0/0,0/2,0/0,0,0,0,0,1,0,0,0,-6,-2
+Mali,New Zealand,66,64,2807,10,Diarrah Issa Sissoko,45:00,11,4/16,1/5,3/11,0/0,0,3,3,6,0,4,1,0,2,5
+Mali,New Zealand,66,64,2807,12,Alima Kouyate,01:46,0,0/0,0/0,0/0,0/0,0,1,1,0,0,0,0,0,-5,1
+Mali,New Zealand,66,64,2807,14,Sika Kone,43:36,21,8/18,7/15,1/3,4/10,5,10,15,5,2,5,4,1,5,25
+Mali,New Zealand,66,64,2807,15,Aminata Brahima Sangare,42:37,20,9/18,8/12,1/6,1/2,6,7,13,3,3,2,4,0,7,28
+Mali,New Zealand,66,64,2807,16,Kady Togola,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Mali,New Zealand,66,64,2807,17,Mariama Issa Traore,10:38,0,0/0,0/0,0/0,0/0,1,2,3,0,2,0,1,0,-9,4
+Mali,New Zealand,66,64,2807,20,Fatoumata Dembele,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+New Zealand,Mali,64,66,2807,2,Ella Jade Bradley,08:05,2,1/3,1/2,0/1,0/0,0,1,1,0,0,1,0,0,0,0
+New Zealand,Mali,64,66,2807,5,Kyra Paniora,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+New Zealand,Mali,64,66,2807,6,Tara Manumaleuga,25:10,14,5/14,1/4,4/10,0/0,2,0,2,5,2,6,2,1,1,9
+New Zealand,Mali,64,66,2807,8,Shauna Povey,23:04,4,2/8,2/4,0/4,0/0,0,3,3,2,1,3,0,0,2,0
+New Zealand,Mali,64,66,2807,9,Emilee Bree Tahata,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+New Zealand,Mali,64,66,2807,15,Madison Ariana Hema,03:01,0,0/0,0/0,0/0,0/0,0,0,0,0,1,0,0,0,-2,0
+New Zealand,Mali,64,66,2807,25,Jazzmyne Jade Kailahi-Fulu,38:01,0,0/4,0/4,0/0,0/0,3,6,9,3,4,1,2,2,-1,11
+New Zealand,Mali,64,66,2807,26,Tayla Dalton,39:01,6,2/5,2/3,0/2,2/2,3,1,4,1,0,3,4,0,-7,9
+New Zealand,Mali,64,66,2807,30,Isabelle Cook,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+New Zealand,Mali,64,66,2807,42,Helen Matthews,06:49,0,0/1,0/1,0/0,0/2,1,2,3,0,0,0,0,0,-3,0
+New Zealand,Mali,64,66,2807,44,Charlisse Trinity Leger-Walker,40:55,25,8/21,4/12,4/9,5/6,1,10,11,7,1,5,1,0,1,25
+New Zealand,Mali,64,66,2807,88,Sharne Pupuke-Robati,40:51,13,5/11,4/9,1/2,2/2,3,4,7,2,3,3,2,0,-1,15
+Japan,Spain,68,69,2807,4,Yu Suzuki,14:00,2,0/4,0/3,0/1,2/6,2,2,4,3,1,1,0,0,7,0
+Japan,Spain,68,69,2807,5,Maya Sophia McArthur,23:02,7,2/6,2/6,0/0,3/3,1,4,5,0,4,1,1,0,-7,8
+Japan,Spain,68,69,2807,6,Sakura Noguchi,15:43,11,4/8,2/3,2/5,1/2,1,1,2,1,3,2,1,0,-1,8
+Japan,Spain,68,69,2807,7,Misa Hayashi,21:46,17,7/13,4/6,3/7,0/0,1,3,4,1,2,1,0,0,0,15
+Japan,Spain,68,69,2807,8,Miku Takahashi,16:20,0,0/5,0/5,0/0,0/0,0,2,2,2,2,2,1,0,1,-2
+Japan,Spain,68,69,2807,9,Nodoka Fujita,23:41,10,4/7,3/4,1/3,1/2,2,0,2,4,2,0,1,0,-2,13
+Japan,Spain,68,69,2807,10,Rina Yamaguchi,20:21,10,4/8,2/5,2/3,0/0,0,3,3,3,0,0,0,0,-1,12
+Japan,Spain,68,69,2807,11,Reika Nakamichi,06:40,0,0/1,0/1,0/0,0/0,1,0,1,0,0,0,1,0,-3,1
+Japan,Spain,68,69,2807,12,Nanaka Yamaguchi,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Japan,Spain,68,69,2807,13,Nanami Morioka,10:17,0,0/2,0/1,0/1,0/0,0,0,0,0,1,0,1,0,9,-1
+Japan,Spain,68,69,2807,14,Maika Miura,23:50,1,0/3,0/2,0/1,1/2,0,2,2,3,1,1,1,0,-8,2
+Japan,Spain,68,69,2807,15,Aika Hirashita,24:14,10,4/11,3/9,1/2,1/2,2,2,4,1,1,1,1,0,0,7
+Spain,Japan,69,68,2807,4,Violeta Verano Fores,11:31,0,0/0,0/0,0/0,0/0,0,1,1,2,0,2,1,0,-4,2
+Spain,Japan,69,68,2807,5,Estel Puiggros Rovira,31:30,14,6/12,4/7,2/5,0/0,0,4,4,4,3,2,2,0,1,16
+Spain,Japan,69,68,2807,6,Celia Carbonell Muñoz,27:04,8,3/7,1/5,2/2,0/0,0,6,6,1,1,3,0,1,6,9
+Spain,Japan,69,68,2807,7,Laura Mendez Camps,30:03,7,3/8,2/5,1/3,0/2,2,0,2,1,0,0,0,0,9,3
+Spain,Japan,69,68,2807,8,Nora Galve Batet,15:19,6,2/5,1/4,1/1,1/1,1,1,2,1,4,0,0,0,-6,6
+Spain,Japan,69,68,2807,9,Zoe Hernandez Ortiz,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Spain,Japan,69,68,2807,10,Helena Pueyo Melchor,18:16,3,1/5,0/2,1/3,0/0,1,1,2,3,2,1,1,0,-3,4
+Spain,Japan,69,68,2807,11,Ana Caballero Sanchez,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Spain,Japan,69,68,2807,12,Nerea Hermosa Monreal,23:04,14,6/14,6/14,0/0,2/4,3,8,11,3,4,1,1,0,8,18
+Spain,Japan,69,68,2807,13,Laia  Moya Blanch,08:40,2,1/5,1/5,0/0,0/0,3,0,3,0,1,0,0,2,-8,3
+Spain,Japan,69,68,2807,14,Raquel Carrera Quintana,34:30,15,6/12,6/12,0/0,3/4,5,8,13,3,3,2,1,0,2,23
+Spain,Japan,69,68,2807,15,Anna Gamarra Ramirez,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+China,Canada,59,74,2807,4,Wenping Sui,01:55,0,0/0,0/0,0/0,0/0,0,1,1,0,0,2,0,0,-3,-1
+China,Canada,59,74,2807,5,Jing Zhou,33:25,8,4/6,4/5,0/1,0/0,1,1,2,3,4,2,0,0,-16,9
+China,Canada,59,74,2807,6,Xianglin Wu,23:37,2,1/6,1/5,0/1,0/0,2,5,7,6,0,1,1,0,-2,10
+China,Canada,59,74,2807,7,Luan Luan,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+China,Canada,59,74,2807,8,Leyi Wang,31:10,6,2/6,1/3,1/3,1/2,2,1,3,6,0,1,1,0,-10,10
+China,Canada,59,74,2807,9,Ming Zheng,18:46,3,1/11,0/6,1/5,0/0,0,0,0,3,1,2,0,0,-3,-6
+China,Canada,59,74,2807,10,Kun Huang,19:19,2,1/4,1/1,0/3,0/0,0,3,3,2,1,1,0,0,-18,3
+China,Canada,59,74,2807,11,Shuyu Yang,11:20,0,0/5,0/1,0/4,0/0,1,1,2,3,0,3,1,0,-9,-2
+China,Canada,59,74,2807,12,Zhuo Ma,20:34,8,4/8,4/5,0/3,0/0,2,2,4,2,1,3,1,0,1,8
+China,Canada,59,74,2807,13,Jiyuan Wan,13:56,4,0/2,0/2,0/0,4/6,1,4,5,0,1,2,1,0,-3,4
+China,Canada,59,74,2807,15,Yutong Liu,25:52,26,12/16,12/16,0/0,2/5,1,1,2,0,2,3,1,3,-12,22
+China,Canada,59,74,2807,16,Shu Wang,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Canada,China,74,59,2807,4,Sarah  Te- Biasu,28:51,9,4/7,4/5,0/2,1/1,0,0,0,7,0,3,3,0,17,13
+Canada,China,74,59,2807,5,Rebecca Marzan Demeke,14:56,7,2/5,0/2,2/3,1/2,1,1,2,1,0,1,1,1,4,7
+Canada,China,74,59,2807,6,Aerial Wilson,15:01,2,1/2,1/1,0/1,0/0,0,0,0,3,2,1,0,0,1,3
+Canada,China,74,59,2807,7,Donna Ntambue,14:46,1,0/4,0/3,0/1,1/2,0,1,1,0,0,0,1,0,-5,-2
+Canada,China,74,59,2807,8,Makayla Ennis,20:40,9,4/8,3/6,1/2,0/0,0,7,7,1,2,2,1,1,8,13
+Canada,China,74,59,2807,9,Aaliyah Edwards,26:19,10,5/8,5/8,0/0,0/0,2,2,4,3,2,4,2,2,20,14
+Canada,China,74,59,2807,10,Merissah Russell,18:40,12,4/8,2/5,2/3,2/4,2,1,3,1,0,2,1,0,11,9
+Canada,China,74,59,2807,11,Yvonne Ejim,19:51,8,4/8,4/8,0/0,0/0,2,4,6,2,0,1,2,0,3,13
+Canada,China,74,59,2807,12,Faith Dut,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Canada,China,74,59,2807,13,Brynn Masikewich,23:28,12,5/10,3/7,2/3,0/1,3,5,8,2,1,1,3,1,26,19
+Canada,China,74,59,2807,14,Deanna Tuchscherer,07:40,4,2/3,2/3,0/0,0/0,0,0,0,0,4,0,0,0,-2,3
+Canada,China,74,59,2807,15,Olivia Morgan-Cherchas,09:43,0,0/1,0/1,0/0,0/0,0,3,3,0,1,1,0,0,-8,1
+France,Australia,68,58,2807,4,Marine Fauthoux,34:28,11,2/13,0/5,2/8,5/6,1,2,3,4,1,2,1,0,10,5
+France,Australia,68,58,2807,5,Marie Pardon,09:28,2,1/2,1/1,0/1,0/0,0,0,0,1,0,0,1,0,-4,3
+France,Australia,68,58,2807,7,Zoé Wadoux,33:13,16,5/14,1/3,4/11,2/2,0,2,2,3,2,0,5,0,20,17
+France,Australia,68,58,2807,8,Yohana Ewodo,28:50,8,3/7,3/6,0/1,2/2,7,1,8,6,4,3,0,0,14,15
+France,Australia,68,58,2807,9,Anaia Hoard,02:30,0,0/0,0/0,0/0,0/0,0,1,1,0,0,0,0,0,-1,1
+France,Australia,68,58,2807,10,Fayzat Djoumoi,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+France,Australia,68,58,2807,11,Kendra Chéry,31:21,11,4/8,3/6,1/2,2/3,1,5,6,3,3,1,3,2,8,19
+France,Australia,68,58,2807,12,Iliana Rupert,37:16,20,8/20,8/17,0/3,4/6,6,8,14,1,1,3,4,6,16,28
+France,Australia,68,58,2807,13,Janelle Salaun,06:25,0,0/3,0/1,0/2,0/0,1,0,1,0,3,1,0,0,-1,-3
+France,Australia,68,58,2807,26,Eve De Christophie Mahoutou,04:57,0,0/0,0/0,0/0,0/0,1,1,2,0,1,0,0,0,-3,2
+France,Australia,68,58,2807,29,Ewl Guennoc,05:28,0,0/1,0/0,0/1,0/0,0,0,0,0,0,0,1,0,-11,0
+France,Australia,68,58,2807,30,Olivia Yale,06:00,0,0/0,0/0,0/0,0/0,0,1,1,0,0,0,0,0,2,1
+Australia,France,58,68,2807,4,Shyla Jade Heal,38:40,11,4/11,3/6,1/5,2/2,3,5,8,5,1,6,1,0,-6,12
+Australia,France,58,68,2807,5,Georgia Amoore,12:30,5,2/5,1/2,1/3,0/0,0,0,0,2,4,0,0,0,-7,4
+Australia,France,58,68,2807,6,Jade Melbourne,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Australia,France,58,68,2807,7,Isabel Leigh Palmer,33:53,17,6/15,1/7,5/8,0/0,1,1,2,2,1,2,0,0,-10,10
+Australia,France,58,68,2807,8,Lily Scanlon,15:33,12,5/10,4/7,1/3,1/1,1,0,1,0,3,3,1,0,-7,6
+Australia,France,58,68,2807,9,Nnenna Agnes  Emma-Nnopu,26:12,7,3/5,3/5,0/0,1/3,1,7,8,1,3,3,1,1,-3,11
+Australia,France,58,68,2807,10,Gemma Potter,19:45,2,1/5,1/2,0/3,0/0,1,4,5,2,1,2,0,1,-3,4
+Australia,France,58,68,2807,11,Ruby Porter,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Australia,France,58,68,2807,12,Eliza  Hollingsworth,16:22,2,1/5,1/5,0/0,0/0,1,1,2,1,3,1,0,1,0,1
+Australia,France,58,68,2807,13,Ashlee Hannan,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Australia,France,58,68,2807,14,Alexander  Fowler,22:52,0,0/4,0/4,0/0,0/2,4,0,4,0,1,4,0,0,-10,-6
+Australia,France,58,68,2807,15,Isobel Anne Anstey,14:09,2,1/4,1/4,0/0,0/0,3,2,5,0,0,0,0,1,-4,5
+Hungary,USA,39,84,2807,6,Barbara Angyal,19:34,8,3/10,1/3,2/7,0/0,0,3,3,0,0,7,0,0,-21,-3
+Hungary,USA,39,84,2807,9,Fruzsina Reka Horvath,07:49,2,1/1,1/1,0/0,0/0,0,2,2,1,0,0,1,0,-4,6
+Hungary,USA,39,84,2807,10,Georgina Kovács,15:09,3,1/5,0/2,1/3,0/0,1,0,1,2,2,3,1,0,-26,0
+Hungary,USA,39,84,2807,11,Berta Panna Boros,20:13,0,0/0,0/0,0/0,0/0,1,1,2,0,1,1,1,0,-14,2
+Hungary,USA,39,84,2807,12,Zita Vari,15:31,5,2/7,2/6,0/1,1/1,1,5,6,2,4,0,0,0,-21,8
+Hungary,USA,39,84,2807,14,Aliz Varga,19:51,0,0/5,0/4,0/1,0/0,0,3,3,0,3,3,1,0,-31,-4
+Hungary,USA,39,84,2807,15,Reka Dombai,21:34,10,4/12,2/7,2/5,0/0,1,2,3,1,1,2,1,0,-20,5
+Hungary,USA,39,84,2807,19,Nora Judit Wentzel,13:40,3,0/3,0/2,0/1,3/3,0,0,0,1,1,4,0,0,-23,-3
+Hungary,USA,39,84,2807,22,Dorina Szirony,05:16,0,0/2,0/1,0/1,0/0,0,0,0,0,0,0,0,0,2,-2
+Hungary,USA,39,84,2807,23,Reka Manyoky,19:49,2,1/7,1/5,0/2,0/0,0,2,2,2,2,0,0,1,-19,1
+Hungary,USA,39,84,2807,24,Franka Emilia Toth,22:45,2,1/3,1/3,0/0,0/0,2,4,6,2,2,1,0,1,-33,8
+Hungary,USA,39,84,2807,30,Angelika Kiss,18:46,4,1/4,1/4,0/0,2/4,0,2,2,2,1,0,0,0,-15,3
+USA,Hungary,84,39,2807,4,Zia Cooke,16:04,6,2/4,2/3,0/1,2/2,1,2,3,3,0,2,1,0,18,9
+USA,Hungary,84,39,2807,5,Paige Bueckers,21:07,10,4/8,3/7,1/1,1/1,0,6,6,3,0,0,1,0,26,16
+USA,Hungary,84,39,2807,6,Azzi Fudd,21:04,2,1/4,1/2,0/2,0/0,2,3,5,3,0,2,1,0,29,6
+USA,Hungary,84,39,2807,7,Celeste Taylor,16:07,0,0/3,0/2,0/1,0/4,3,3,6,1,0,1,0,2,29,1
+USA,Hungary,84,39,2807,8,Jordan Horston,21:23,18,9/12,9/10,0/2,0/0,4,2,6,4,0,1,4,1,27,29
+USA,Hungary,84,39,2807,9,Hailey Van Lith,16:07,7,3/10,2/5,1/5,0/0,0,2,2,2,2,1,2,0,18,5
+USA,Hungary,84,39,2807,10,Haley Jones,19:46,9,4/8,4/6,0/2,1/1,0,4,4,6,1,1,0,1,21,15
+USA,Hungary,84,39,2807,11,Charisma Osborne,11:17,3,0/3,0/2,0/1,3/4,2,2,4,0,1,0,2,0,10,5
+USA,Hungary,84,39,2807,12,Samantha Brunelle,13:31,4,2/5,2/2,0/3,0/0,0,3,3,1,1,1,1,0,15,5
+USA,Hungary,84,39,2807,13,Cameron Brink,11:18,6,3/5,3/5,0/0,0/1,4,3,7,2,0,0,0,0,7,12
+USA,Hungary,84,39,2807,14,Aliyah Boston,18:33,8,4/7,4/7,0/0,0/1,0,4,4,0,0,0,0,2,16,10
+USA,Hungary,84,39,2807,15,Fran Belibi,13:37,11,4/7,4/7,0/0,3/4,3,2,5,1,2,2,2,0,9,13
+Argentina,Colombia,51,47,2907,4,Victoria Abril Gauna,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Argentina,Colombia,51,47,2907,5,Ariana Agustina Rugna Di Lorenzo,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Argentina,Colombia,51,47,2907,6,Rocio Belen Cejas,24:19,2,1/1,1/1,0/0,0/0,0,2,2,0,2,4,2,0,-5,2
+Argentina,Colombia,51,47,2907,7,Luciana Andrea Riccotti,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Argentina,Colombia,51,47,2907,8,Camila Ailen Lignac,09:40,1,0/1,0/1,0/0,1/2,0,4,4,1,1,1,1,0,3,4
+Argentina,Colombia,51,47,2907,9,Sofia Acevedo,28:29,12,5/13,3/6,2/7,0/0,1,1,2,3,2,3,0,0,-1,6
+Argentina,Colombia,51,47,2907,10,Malvina Guadalupe D' Agostino,20:01,4,2/4,2/4,0/0,0/1,0,2,2,1,1,0,1,0,10,5
+Argentina,Colombia,51,47,2907,11,Lucia Operto,06:47,2,1/1,1/1,0/0,0/0,1,0,1,0,1,1,0,0,0,2
+Argentina,Colombia,51,47,2907,12,Martina Torres Passeggi,06:51,0,0/2,0/1,0/1,0/0,0,0,0,1,1,1,0,0,2,-2
+Argentina,Colombia,51,47,2907,13,Candela Gentinetta,35:17,10,5/6,5/5,0/1,0/2,1,3,4,1,3,3,1,0,8,10
+Argentina,Colombia,51,47,2907,14,Florencia Natalia Chagas,34:17,13,4/13,0/6,4/7,1/2,0,13,13,4,2,7,3,1,1,17
+Argentina,Colombia,51,47,2907,15,Brenda Griselda Fontana,34:14,7,3/9,3/9,0/0,1/2,1,6,7,4,5,2,3,0,2,12
+Colombia,Argentina,47,51,2907,4,Dayana Camila Fuentes Medina,04:45,0,0/1,0/0,0/1,0/0,0,1,1,0,0,0,0,0,4,0
+Colombia,Argentina,47,51,2907,5,Gabriela Chivata Triviño,34:42,12,5/9,3/5,2/4,0/0,4,2,6,1,3,5,0,0,-8,10
+Colombia,Argentina,47,51,2907,6,Maria Camila Diaz Rodriguez,06:25,0,0/2,0/1,0/1,0/0,0,3,3,0,1,1,2,0,1,2
+Colombia,Argentina,47,51,2907,8,Laura Viviana Ayala Ayala,24:55,8,3/8,3/7,0/1,2/4,2,3,5,3,1,1,3,1,2,12
+Colombia,Argentina,47,51,2907,9,Naylee Cortes Espitia,18:28,7,1/9,1/6,0/3,5/6,0,2,2,0,3,3,1,1,0,-1
+Colombia,Argentina,47,51,2907,10,Hamileth Lorena Ulloa Chacon,19:40,0,0/2,0/1,0/1,0/0,0,2,2,1,2,2,2,0,-10,1
+Colombia,Argentina,47,51,2907,11,Maria Fernanda Escobar Andrade,12:48,4,2/4,2/4,0/0,0/0,2,2,4,1,0,0,0,1,-4,8
+Colombia,Argentina,47,51,2907,12,Stephanny Orozco Lopez,00:32,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Colombia,Argentina,47,51,2907,14,Luisa Ariamny Custodia Quesada Ortiz,03:21,0,0/1,0/1,0/0,0/0,0,0,0,0,0,0,1,0,-2,0
+Colombia,Argentina,47,51,2907,17,Maria Camila Alvarez Montes,25:38,6,1/8,0/4,1/4,3/4,0,2,2,2,1,1,2,0,1,3
+Colombia,Argentina,47,51,2907,18,Esperanza Belen Morales Lopez,23:46,4,2/3,2/3,0/0,0/0,1,4,5,2,1,2,1,0,-4,9
+Colombia,Argentina,47,51,2907,19,Daniela Gonzalez Viveros,24:56,6,1/7,0/5,1/2,3/6,1,3,4,0,3,4,2,1,0,0
+Belarus,Angola,70,58,2907,4,Iryna Durmanava,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Belarus,Angola,70,58,2907,5,Yuliya Vasilevich,33:38,18,3/13,1/9,2/4,10/14,1,3,4,8,3,3,1,1,7,15
+Belarus,Angola,70,58,2907,6,Iryna Venskaya,37:19,15,6/13,3/6,3/7,0/0,0,3,3,2,2,1,5,0,11,17
+Belarus,Angola,70,58,2907,7,Anastasiya Babak,24:34,11,4/6,3/5,1/1,2/2,2,3,5,2,3,1,2,0,13,17
+Belarus,Angola,70,58,2907,9,Darya Siamiletnikava,28:52,6,3/8,3/8,0/0,0/0,4,5,9,2,4,6,0,0,14,6
+Belarus,Angola,70,58,2907,10,Aliaksandra Chyzheuskaya,08:28,1,0/2,0/2,0/0,1/2,1,4,5,2,0,0,0,0,0,5
+Belarus,Angola,70,58,2907,11,Yana Yakhnavets,06:21,2,0/1,0/1,0/0,2/2,0,1,1,0,1,0,0,0,9,2
+Belarus,Angola,70,58,2907,12,Anastasiya Fiaklistava,02:04,0,0/1,0/0,0/1,0/0,0,0,0,0,0,0,0,0,-6,-1
+Belarus,Angola,70,58,2907,13,Yana Zubarenka,08:20,2,1/2,1/2,0/0,0/0,0,1,1,0,5,1,0,0,4,1
+Belarus,Angola,70,58,2907,14,Veranika Samailiuk,12:09,0,0/4,0/3,0/1,0/0,0,4,4,1,1,0,0,2,1,3
+Belarus,Angola,70,58,2907,15,Anastasia Sinelshchykova,20:20,6,3/9,3/9,0/0,0/0,2,4,6,0,3,2,1,1,7,6
+Belarus,Angola,70,58,2907,22,Aksana Isayenka,17:49,9,4/8,3/7,1/1,0/0,1,1,2,1,1,4,2,0,0,6
+Angola,Belarus,58,70,2907,5,Paula Caîtão Andre,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Angola,Belarus,58,70,2907,6,Cristina João Lourenço,24:28,10,4/14,4/13,0/1,2/6,1,2,3,2,2,2,2,0,5,1
+Angola,Belarus,58,70,2907,7,Helena Pululo,11:20,5,1/2,1/2,0/0,3/4,1,0,1,0,1,2,2,0,-1,4
+Angola,Belarus,58,70,2907,8,Nelma Cunha,02:07,0,0/0,0/0,0/0,0/0,0,1,1,0,2,1,0,0,-1,0
+Angola,Belarus,58,70,2907,9,Alexia Shanice dos Santos Dizeko,38:01,12,4/15,4/13,0/2,4/6,2,7,9,5,0,3,3,0,-10,13
+Angola,Belarus,58,70,2907,10,Cacia  Antonio,36:22,14,5/15,3/9,2/6,2/4,0,9,9,4,3,3,2,0,-15,14
+Angola,Belarus,58,70,2907,11,Conceicao Francisco Caetano,29:21,8,4/9,4/9,0/0,0/2,0,1,1,0,3,5,0,0,-19,-3
+Angola,Belarus,58,70,2907,13,Maria Quipaca,07:12,1,0/0,0/0,0/0,1/2,1,2,3,0,4,0,1,0,1,4
+Angola,Belarus,58,70,2907,14,Nara Miguel André,07:17,1,0/1,0/1,0/0,1/2,2,2,4,0,1,0,0,0,-13,3
+Angola,Belarus,58,70,2907,15,Julia  Francisco,22:33,5,2/7,2/7,0/0,1/1,2,6,8,0,1,1,0,0,4,7
+Angola,Belarus,58,70,2907,20,Rafaela  Henriques,00:25,0,0/0,0/0,0/0,0/0,0,0,0,0,0,1,0,0,-1,-1
+Angola,Belarus,58,70,2907,35,Tcheuzia  Gonçalves,20:48,2,1/5,1/4,0/1,0/0,2,2,4,1,1,1,1,0,-10,3
+Latvia,Japan,57,75,2907,4,Jete Katrina Nulle,29:06,11,4/10,1/5,3/5,0/0,2,3,5,4,4,4,2,0,-19,12
+Latvia,Japan,57,75,2907,5,Ketija Vihmane,30:13,4,1/6,1/2,0/4,2/2,0,3,3,2,2,2,0,0,-3,2
+Latvia,Japan,57,75,2907,6,Flera Vinerte,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Latvia,Japan,57,75,2907,7,Paula Klescova,19:55,0,0/5,0/3,0/2,0/0,0,4,4,3,0,0,1,0,-15,3
+Latvia,Japan,57,75,2907,8,Lina Loceniece,10:49,4,2/6,2/4,0/2,0/0,1,0,1,1,2,1,0,1,-6,2
+Latvia,Japan,57,75,2907,9,Una Steinharde,10:53,0,0/5,0/2,0/3,0/0,0,0,0,2,1,2,0,0,-6,-5
+Latvia,Japan,57,75,2907,10,Laura Meldere,27:02,15,6/13,6/11,0/2,3/6,4,14,18,3,1,0,0,0,-7,26
+Latvia,Japan,57,75,2907,11,Eva Indrike,22:05,8,4/6,4/5,0/1,0/0,1,6,7,1,1,2,0,0,-4,12
+Latvia,Japan,57,75,2907,12,Evelina Silvija Fricsone,08:21,3,1/1,0/0,1/1,0/0,0,2,2,1,0,1,0,0,-4,5
+Latvia,Japan,57,75,2907,13,Anita Megija Mikelsone,24:51,6,3/17,3/16,0/1,0/2,9,2,11,1,2,4,1,1,-15,0
+Latvia,Japan,57,75,2907,14,Elvija Anna Veršele,08:45,4,1/5,1/5,0/0,2/2,2,3,5,1,1,0,0,0,-5,6
+Latvia,Japan,57,75,2907,15,Betija Rudzite,07:55,2,1/1,1/1,0/0,0/0,0,1,1,0,0,2,0,0,-6,1
+Japan,Latvia,75,57,2907,4,Yu Suzuki,11:52,7,2/5,1/2,1/3,2/4,1,1,2,2,2,0,2,0,11,8
+Japan,Latvia,75,57,2907,5,Maya Sophia McArthur,06:52,0,0/0,0/0,0/0,0/2,2,2,4,1,2,1,0,0,0,2
+Japan,Latvia,75,57,2907,6,Sakura Noguchi,24:19,11,3/10,1/7,2/3,3/4,5,2,7,1,1,3,2,0,5,10
+Japan,Latvia,75,57,2907,7,Misa Hayashi,24:33,18,6/17,4/9,2/8,4/4,2,6,8,0,1,1,1,1,4,16
+Japan,Latvia,75,57,2907,8,Miku Takahashi,23:31,7,3/9,3/9,0/0,1/3,1,8,9,3,0,0,2,0,10,13
+Japan,Latvia,75,57,2907,9,Nodoka Fujita,16:28,4,2/4,2/3,0/1,0/0,1,1,2,5,0,1,0,0,8,8
+Japan,Latvia,75,57,2907,10,Rina Yamaguchi,19:24,6,3/9,3/6,0/3,0/0,0,4,4,2,2,0,0,1,20,7
+Japan,Latvia,75,57,2907,11,Reika Nakamichi,05:20,2,1/4,1/4,0/0,0/0,1,0,1,0,1,0,0,0,-1,0
+Japan,Latvia,75,57,2907,12,Nanaka Yamaguchi,01:58,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,2,0
+Japan,Latvia,75,57,2907,13,Nanami Morioka,20:55,5,2/9,1/5,1/4,0/0,3,2,5,1,2,0,0,0,12,4
+Japan,Latvia,75,57,2907,14,Maika Miura,22:11,9,3/5,2/2,1/3,2/2,0,1,1,2,0,0,0,0,-1,10
+Japan,Latvia,75,57,2907,15,Aika Hirashita,22:31,6,3/9,3/6,0/3,0/0,2,4,6,4,0,0,2,0,20,12
+New Zealand,China,66,88,2907,2,Ella Jade Bradley,05:16,0,0/2,0/2,0/0,0/0,1,1,2,2,0,0,0,0,3,2
+New Zealand,China,66,88,2907,5,Kyra Paniora,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+New Zealand,China,66,88,2907,6,Tara Manumaleuga,22:26,18,6/14,1/5,5/9,1/2,0,4,4,3,1,1,1,0,-12,16
+New Zealand,China,66,88,2907,8,Shauna Povey,13:22,3,1/6,0/0,1/6,0/0,0,2,2,0,1,1,0,0,-15,-1
+New Zealand,China,66,88,2907,9,Emilee Bree Tahata,10:01,0,0/0,0/0,0/0,0/0,0,0,0,0,1,0,0,1,-8,1
+New Zealand,China,66,88,2907,15,Madison Ariana Hema,16:13,3,1/4,0/2,1/2,0/0,1,2,3,1,4,2,0,3,1,5
+New Zealand,China,66,88,2907,25,Jazzmyne Jade Kailahi-Fulu,31:33,8,3/9,3/9,0/0,2/2,1,6,7,1,1,1,0,3,-23,12
+New Zealand,China,66,88,2907,26,Tayla Dalton,30:16,2,1/7,1/5,0/2,0/0,2,1,3,3,2,3,0,0,-14,-1
+New Zealand,China,66,88,2907,30,Isabelle Cook,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+New Zealand,China,66,88,2907,42,Helen Matthews,10:13,4,1/3,1/3,0/0,2/2,0,1,1,2,0,0,1,0,4,6
+New Zealand,China,66,88,2907,44,Charlisse Trinity Leger-Walker,33:39,23,9/12,8/11,1/1,4/7,5,6,11,3,1,2,4,1,-20,34
+New Zealand,China,66,88,2907,88,Sharne Pupuke-Robati,26:55,5,2/10,2/8,0/2,1/2,2,0,2,2,4,6,0,0,-26,-6
+China,New Zealand,88,66,2907,4,Wenping Sui,18:04,19,5/9,0/2,5/7,4/4,0,1,1,2,1,1,1,0,4,18
+China,New Zealand,88,66,2907,5,Jing Zhou,19:37,3,1/4,0/1,1/3,0/0,0,5,5,4,0,0,1,0,16,10
+China,New Zealand,88,66,2907,6,Xianglin Wu,16:16,4,2/5,2/5,0/0,0/2,4,3,7,3,0,1,0,0,1,8
+China,New Zealand,88,66,2907,7,Luan Luan,03:57,2,1/4,1/3,0/1,0/0,2,0,2,0,1,1,1,0,-4,1
+China,New Zealand,88,66,2907,8,Leyi Wang,21:31,3,1/5,0/2,1/3,0/0,0,1,1,3,2,1,2,0,26,4
+China,New Zealand,88,66,2907,9,Ming Zheng,26:01,18,7/12,3/4,4/8,0/0,0,2,2,6,2,1,1,0,23,21
+China,New Zealand,88,66,2907,10,Kun Huang,12:25,0,0/5,0/3,0/2,0/0,0,1,1,3,3,1,2,0,4,0
+China,New Zealand,88,66,2907,11,Shuyu Yang,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+China,New Zealand,88,66,2907,12,Zhuo Ma,26:03,12,5/14,5/11,0/3,2/2,2,4,6,2,4,0,2,0,21,13
+China,New Zealand,88,66,2907,13,Jiyuan Wan,16:07,9,3/4,3/4,0/0,3/3,4,4,8,1,0,1,1,0,21,17
+China,New Zealand,88,66,2907,15,Yutong Liu,23:00,11,4/9,4/9,0/0,3/7,4,3,7,1,2,0,0,1,3,11
+China,New Zealand,88,66,2907,16,Shu Wang,16:53,7,2/5,0/1,2/4,1/2,0,2,2,0,3,1,0,1,-5,5
+Italy,Spain,65,58,2907,4,Lisa Gallitognotta,04:34,0,0/0,0/0,0/0,0/0,0,0,0,0,1,0,0,0,1,0
+Italy,Spain,65,58,2907,5,Alessandra Orsili,26:01,5,1/4,1/3,0/1,3/4,2,1,3,7,4,3,1,0,-1,9
+Italy,Spain,65,58,2907,6,Federica Mazza,02:13,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-3,0
+Italy,Spain,65,58,2907,7,Sofia Frustaci,00:06,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Italy,Spain,65,58,2907,8,Marta Rossini,11:49,2,0/0,0/0,0/0,2/2,0,2,2,3,3,0,1,0,14,8
+Italy,Spain,65,58,2907,9,Giulia Natali,33:27,17,6/14,5/12,1/2,4/4,0,4,4,3,2,4,4,0,6,16
+Italy,Spain,65,58,2907,11,Silvia Pastrello,19:53,9,2/4,2/3,0/1,5/9,2,5,7,0,2,2,0,1,4,9
+Italy,Spain,65,58,2907,12,Martina Spinelli,26:58,11,4/5,4/5,0/0,3/8,4,3,7,0,5,4,0,0,5,8
+Italy,Spain,65,58,2907,14,Ilaria Panzera,36:31,10,4/10,3/4,1/6,1/1,2,5,7,4,1,2,2,0,9,15
+Italy,Spain,65,58,2907,15,Lucia Adele Savatteri,00:06,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Italy,Spain,65,58,2907,18,Caterina Gilli,31:21,11,5/18,5/16,0/2,1/4,4,10,14,3,2,3,1,1,0,11
+Italy,Spain,65,58,2907,20,Caterina Mattera,06:55,0,0/1,0/1,0/0,0/0,1,0,1,0,1,1,0,1,0,0
+Spain,Italy,58,65,2907,4,Violeta Verano Fores,04:28,0,0/2,0/2,0/0,0/0,0,0,0,1,0,1,1,0,5,-1
+Spain,Italy,58,65,2907,5,Estel Puiggros Rovira,15:03,5,1/5,0/1,1/4,2/2,0,1,1,1,2,1,0,0,-16,2
+Spain,Italy,58,65,2907,6,Celia Carbonell Muñoz,27:04,9,4/7,4/5,0/2,1/2,1,0,1,0,2,1,2,0,-7,7
+Spain,Italy,58,65,2907,7,Laura Mendez Camps,32:52,4,2/10,2/9,0/1,0/1,0,5,5,4,2,2,3,1,-12,6
+Spain,Italy,58,65,2907,8,Nora Galve Batet,22:15,3,1/3,1/2,0/1,1/2,1,0,1,2,3,0,3,0,3,6
+Spain,Italy,58,65,2907,9,Zoe Hernandez Ortiz,17:52,2,1/5,1/2,0/3,0/0,1,0,1,0,3,0,3,0,-1,2
+Spain,Italy,58,65,2907,10,Helena Pueyo Melchor,23:08,10,5/11,5/9,0/2,0/1,3,1,4,3,2,1,0,0,3,9
+Spain,Italy,58,65,2907,11,Ana Caballero Sanchez,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Spain,Italy,58,65,2907,12,Nerea Hermosa Monreal,17:25,4,2/6,2/6,0/0,0/1,0,5,5,1,5,1,0,0,-4,4
+Spain,Italy,58,65,2907,13,Laia  Moya Blanch,08:33,2,1/2,1/2,0/0,0/0,2,2,4,0,1,1,1,0,-3,5
+Spain,Italy,58,65,2907,14,Raquel Carrera Quintana,31:15,19,7/14,7/14,0/0,5/8,4,4,8,1,3,3,2,3,-3,20
+Spain,Italy,58,65,2907,15,Anna Gamarra Ramirez,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Mali,Canada,50,58,2907,4,Fanta Kone,37:38,7,3/8,2/6,1/2,0/0,1,1,2,5,0,3,1,0,-13,7
+Mali,Canada,50,58,2907,5,Fanta Daffe,05:13,0,0/1,0/0,0/1,0/0,0,0,0,1,0,0,0,0,0,0
+Mali,Canada,50,58,2907,7,Kadidia Coulibaly,28:13,0,0/8,0/0,0/8,0/0,0,2,2,0,1,0,0,0,-9,-6
+Mali,Canada,50,58,2907,8,Saran Berthe,04:17,0,0/1,0/1,0/0,0/2,0,0,0,0,0,0,1,0,1,-2
+Mali,Canada,50,58,2907,9,Diouma Berthe,13:07,3,1/3,0/0,1/3,0/0,0,0,0,0,4,0,2,0,4,3
+Mali,Canada,50,58,2907,10,Diarrah Issa Sissoko,34:46,10,3/13,0/3,3/10,1/2,3,2,5,4,3,4,0,0,-8,4
+Mali,Canada,50,58,2907,12,Alima Kouyate,04:17,1,0/3,0/3,0/0,1/2,0,0,0,0,0,0,1,0,1,-2
+Mali,Canada,50,58,2907,14,Sika Kone,34:46,22,10/21,10/21,0/0,2/4,7,9,16,1,3,3,2,0,-8,25
+Mali,Canada,50,58,2907,15,Aminata Brahima Sangare,25:19,5,2/12,2/11,0/1,1/4,4,7,11,3,5,4,3,0,-5,5
+Mali,Canada,50,58,2907,16,Kady Togola,00:55,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-1,0
+Mali,Canada,50,58,2907,17,Mariama Issa Traore,11:22,2,1/1,1/1,0/0,0/0,2,2,4,0,4,2,0,0,-2,4
+Mali,Canada,50,58,2907,20,Fatoumata Dembele,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Canada,Mali,58,50,2907,4,Sarah  Te- Biasu,26:30,6,2/6,1/1,1/5,1/2,1,1,2,4,2,2,0,0,9,5
+Canada,Mali,58,50,2907,5,Rebecca Marzan Demeke,16:31,5,2/4,1/1,1/3,0/0,0,3,3,2,0,0,1,0,-11,9
+Canada,Mali,58,50,2907,6,Aerial Wilson,33:07,11,4/7,2/4,2/3,1/2,0,4,4,6,1,4,1,0,12,14
+Canada,Mali,58,50,2907,7,Donna Ntambue,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Canada,Mali,58,50,2907,8,Makayla Ennis,20:04,3,1/6,1/5,0/1,1/2,0,3,3,2,1,1,1,0,3,2
+Canada,Mali,58,50,2907,9,Aaliyah Edwards,23:15,10,4/6,4/6,0/0,2/5,1,5,6,0,3,5,0,2,-8,8
+Canada,Mali,58,50,2907,10,Merissah Russell,21:13,4,1/9,1/7,0/2,2/4,2,2,4,3,1,1,0,0,8,0
+Canada,Mali,58,50,2907,11,Yvonne Ejim,23:37,12,5/6,5/6,0/0,2/2,1,3,4,3,3,2,3,1,17,20
+Canada,Mali,58,50,2907,12,Faith Dut,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Canada,Mali,58,50,2907,13,Brynn Masikewich,22:13,5,2/5,1/4,1/1,0/0,1,6,7,1,1,2,1,1,10,10
+Canada,Mali,58,50,2907,14,Deanna Tuchscherer,10:52,0,0/1,0/1,0/0,0/0,1,1,2,0,2,1,0,1,0,1
+Canada,Mali,58,50,2907,15,Olivia Morgan-Cherchas,02:34,2,1/2,1/2,0/0,0/0,0,0,0,0,0,0,0,0,0,1
+Australia,Hungary,57,51,2907,4,Shyla Jade Heal,28:07,16,7/15,6/12,1/3,1/1,0,2,2,1,4,3,2,0,15,10
+Australia,Hungary,57,51,2907,5,Georgia Amoore,14:34,2,1/3,1/3,0/0,0/0,0,1,1,3,1,1,2,1,1,6
+Australia,Hungary,57,51,2907,6,Jade Melbourne,13:52,4,1/1,1/1,0/0,2/2,0,4,4,1,2,1,0,0,12,8
+Australia,Hungary,57,51,2907,7,Isabel Leigh Palmer,19:52,4,2/7,2/5,0/2,0/0,0,2,2,2,1,2,0,0,-11,1
+Australia,Hungary,57,51,2907,8,Lily Scanlon,25:00,11,3/7,2/3,1/4,4/6,1,0,1,2,0,4,1,0,10,5
+Australia,Hungary,57,51,2907,9,Nnenna Agnes  Emma-Nnopu,31:46,4,1/6,1/6,0/0,2/2,3,6,9,5,3,1,1,0,8,13
+Australia,Hungary,57,51,2907,10,Gemma Potter,14:05,3,1/3,0/1,1/2,0/0,1,1,2,1,1,1,2,0,-7,5
+Australia,Hungary,57,51,2907,11,Ruby Porter,04:28,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-2,0
+Australia,Hungary,57,51,2907,12,Eliza  Hollingsworth,09:11,0,0/1,0/1,0/0,0/0,1,1,2,0,0,0,1,1,-10,3
+Australia,Hungary,57,51,2907,13,Ashlee Hannan,10:28,5,2/3,1/2,1/1,0/0,0,1,1,0,1,1,0,0,3,4
+Australia,Hungary,57,51,2907,14,Alexander  Fowler,13:50,4,1/3,1/2,0/1,2/4,3,2,5,0,0,2,1,0,0,4
+Australia,Hungary,57,51,2907,15,Isobel Anne Anstey,14:41,4,2/5,2/5,0/0,0/0,0,1,1,1,0,0,1,0,11,4
+Hungary,Australia,51,57,2907,6,Barbara Angyal,31:52,16,7/20,5/10,2/10,0/0,0,1,1,2,3,5,2,0,-3,3
+Hungary,Australia,51,57,2907,9,Fruzsina Reka Horvath,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Hungary,Australia,51,57,2907,10,Georgina Kovács,14:10,4,2/3,2/2,0/1,0/0,0,1,1,4,3,4,0,0,0,4
+Hungary,Australia,51,57,2907,11,Berta Panna Boros,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Hungary,Australia,51,57,2907,12,Zita Vari,15:43,3,1/3,1/3,0/0,1/2,3,0,3,1,1,1,0,0,-2,3
+Hungary,Australia,51,57,2907,14,Aliz Varga,25:01,6,3/7,3/7,0/0,0/0,4,5,9,2,5,2,0,0,-18,11
+Hungary,Australia,51,57,2907,15,Reka Dombai,27:36,6,3/12,3/8,0/4,0/2,2,5,7,2,2,3,2,0,-10,3
+Hungary,Australia,51,57,2907,19,Nora Judit Wentzel,26:40,10,3/7,3/5,0/2,4/5,0,0,0,2,1,2,2,0,1,7
+Hungary,Australia,51,57,2907,22,Dorina Szirony,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Hungary,Australia,51,57,2907,23,Reka Manyoky,18:54,2,1/4,1/3,0/1,0/0,0,3,3,0,2,1,0,2,8,3
+Hungary,Australia,51,57,2907,24,Franka Emilia Toth,17:52,2,0/2,0/2,0/0,2/2,3,2,5,2,3,2,3,2,9,10
+Hungary,Australia,51,57,2907,30,Angelika Kiss,22:07,2,1/3,1/3,0/0,0/0,1,5,6,0,2,3,1,2,-15,6
+France,USA,40,92,2907,4,Marine Fauthoux,29:26,14,5/16,2/9,3/7,1/4,0,5,5,2,2,4,2,0,-40,5
+France,USA,40,92,2907,5,Marie Pardon,20:33,0,0/2,0/1,0/1,0/0,0,0,0,2,1,2,0,0,-18,-2
+France,USA,40,92,2907,7,Zoé Wadoux,31:40,16,6/14,2/2,4/12,0/0,0,1,1,0,0,1,0,0,-47,8
+France,USA,40,92,2907,8,Yohana Ewodo,18:40,4,2/7,2/5,0/2,0/0,0,0,0,0,1,2,1,0,-29,-2
+France,USA,40,92,2907,9,Anaia Hoard,04:56,0,0/1,0/1,0/0,0/0,0,0,0,0,0,0,0,0,-9,-1
+France,USA,40,92,2907,10,Fayzat Djoumoi,05:15,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-7,0
+France,USA,40,92,2907,11,Kendra Chéry,23:34,4,2/9,2/8,0/1,0/0,1,4,5,1,4,2,1,2,-30,4
+France,USA,40,92,2907,12,Iliana Rupert,21:15,0,0/10,0/9,0/1,0/0,1,4,5,0,5,3,0,0,-29,-8
+France,USA,40,92,2907,13,Janelle Salaun,19:29,2,1/5,1/2,0/3,0/0,2,2,4,0,2,0,0,0,-31,2
+France,USA,40,92,2907,26,Eve De Christophie Mahoutou,10:25,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-7,0
+France,USA,40,92,2907,29,Ewl Guennoc,08:37,0,0/1,0/0,0/1,0/0,0,1,1,1,0,0,0,0,-10,1
+France,USA,40,92,2907,30,Olivia Yale,06:04,0,0/0,0/0,0/0,0/0,2,0,2,0,4,1,0,0,-3,1
+USA,France,92,40,2907,4,Zia Cooke,14:43,8,3/6,2/4,1/2,1/2,0,3,3,1,2,2,1,0,18,7
+USA,France,92,40,2907,5,Paige Bueckers,24:31,8,4/8,4/6,0/2,0/0,1,6,7,10,1,0,0,0,36,21
+USA,France,92,40,2907,6,Azzi Fudd,29:43,11,5/8,5/7,0/1,1/1,1,4,5,3,0,0,0,1,41,17
+USA,France,92,40,2907,7,Celeste Taylor,10:11,2,1/2,1/2,0/0,0/0,1,1,2,0,4,1,0,0,6,2
+USA,France,92,40,2907,8,Jordan Horston,25:49,12,4/10,3/7,1/3,3/3,3,6,9,7,0,2,6,3,40,29
+USA,France,92,40,2907,9,Hailey Van Lith,08:00,3,1/3,0/2,1/1,0/0,0,1,1,1,0,0,0,0,5,3
+USA,France,92,40,2907,10,Haley Jones,25:46,14,5/10,4/7,1/3,3/4,2,2,4,3,1,3,1,4,38,17
+USA,France,92,40,2907,11,Charisma Osborne,13:38,2,0/2,0/0,0/2,2/2,1,1,2,1,0,0,1,0,13,4
+USA,France,92,40,2907,12,Samantha Brunelle,07:37,4,2/4,2/2,0/2,0/0,1,2,3,1,0,0,0,0,11,6
+USA,France,92,40,2907,13,Cameron Brink,06:09,2,0/0,0/0,0/0,2/2,1,0,1,1,1,1,0,0,7,3
+USA,France,92,40,2907,14,Aliyah Boston,16:52,16,7/9,7/9,0/0,2/2,5,3,8,0,2,2,0,2,33,22
+USA,France,92,40,2907,15,Fran Belibi,16:58,10,3/6,3/6,0/0,4/7,2,5,7,1,1,1,3,0,12,14

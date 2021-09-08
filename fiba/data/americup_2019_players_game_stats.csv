@@ -1,0 +1,620 @@
+country,vs,team_score,vs_score,date,#,Players,Min,Pts,FG,2Pts,3Pts,FT,OREB,DREB,REB,AST,PF,TO,STL,BLK,+/-,EFF
+Mexico,Canada,53,109,2209,3,Daniela Soto,12:01,8,4/4,4/4,0/0,0/0,0,0,0,2,1,1,0,0,-13,9
+Mexico,Canada,53,109,2209,4,Daniela Pardo,17:38,1,0/4,0/1,0/3,1/2,0,2,2,3,1,3,0,0,-22,-2
+Mexico,Canada,53,109,2209,5,Jacqueline Luna-Castro,32:36,12,5/8,3/4,2/4,0/0,0,5,5,1,0,2,1,0,-48,14
+Mexico,Canada,53,109,2209,6,Gladys Avila,23:01,5,2/8,2/7,0/1,1/2,0,1,1,3,1,3,0,0,-45,-1
+Mexico,Canada,53,109,2209,8,Paola Beltran,24:36,2,1/6,1/6,0/0,0/0,1,1,2,3,2,4,1,0,-34,-1
+Mexico,Canada,53,109,2209,9,Jacqueline Ramirez,03:56,2,1/1,1/1,0/0,0/0,0,0,0,0,1,0,0,0,-7,2
+Mexico,Canada,53,109,2209,10,Irlanda Castaneda,04:35,0,0/2,0/2,0/0,0/0,1,0,1,1,0,0,0,0,-9,0
+Mexico,Canada,53,109,2209,11,Casandra Asencio,04:27,0,0/0,0/0,0/0,0/0,0,0,0,1,0,1,0,0,1,0
+Mexico,Canada,53,109,2209,12,Paola Estrada,23:27,10,4/7,2/5,2/2,0/0,0,1,1,1,1,2,0,0,-26,7
+Mexico,Canada,53,109,2209,13,Carolina Romo,18:54,4,1/4,0/2,1/2,1/2,0,1,1,0,2,3,0,0,-22,-2
+Mexico,Canada,53,109,2209,14,Jazmin Valenzuela,24:25,9,3/8,2/7,1/1,2/2,0,1,1,0,2,2,2,0,-37,5
+Mexico,Canada,53,109,2209,50,Kimberly Taylor,10:24,0,0/0,0/0,0/0,0/0,0,0,0,0,1,0,0,0,-18,0
+Canada,Mexico,109,53,2209,4,Sami Hill,26:40,8,2/9,0/1,2/8,2/2,1,3,4,9,0,1,3,0,40,16
+Canada,Mexico,109,53,2209,6,Bridget Carleton,27:17,15,6/12,3/6,3/6,0/0,2,2,4,8,0,1,5,0,46,25
+Canada,Mexico,109,53,2209,7,Nayo Raincock-Ekunwe,19:51,15,6/7,6/7,0/0,3/4,1,2,3,4,1,3,0,0,31,17
+Canada,Mexico,109,53,2209,8,Kim Gaucher,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Canada,Mexico,109,53,2209,9,Miranda Ayim,21:21,13,6/10,5/8,1/2,0/0,1,1,2,2,2,3,0,1,23,11
+Canada,Mexico,109,53,2209,10,Miah-Marie Langlois,16:15,3,1/2,0/0,1/2,0/0,0,2,2,2,1,0,2,0,22,8
+Canada,Mexico,109,53,2209,12,Jamie Scott,29:58,21,8/14,3/5,5/9,0/0,1,5,6,1,2,2,0,0,40,20
+Canada,Mexico,109,53,2209,13,Shay Colley,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Canada,Mexico,109,53,2209,14,Kayla Alexander,17:18,18,7/8,7/8,0/0,4/4,4,7,11,5,1,1,0,1,34,33
+Canada,Mexico,109,53,2209,15,Aaliyah Edwards,18:38,10,5/6,5/6,0/0,0/0,1,3,4,3,2,0,1,1,22,18
+Canada,Mexico,109,53,2209,22,Ruth Hamblin,14:50,6,2/4,2/4,0/0,2/3,1,3,4,1,2,1,1,2,21,10
+Canada,Mexico,109,53,2209,23,Quinn Dornstauder,07:52,0,0/0,0/0,0/0,0/2,1,2,3,0,1,1,1,0,1,1
+Paraguay,USA,31,110,2209,3,Marta Peralta,32:59,9,2/7,2/5,0/2,5/8,2,2,4,2,2,2,0,0,-63,5
+Paraguay,USA,31,110,2209,4,Ilda Peña,15:00,0,0/4,0/4,0/0,0/0,0,1,1,0,1,0,0,1,-36,-2
+Paraguay,USA,31,110,2209,5,Paola Ferrari,28:50,6,1/13,0/4,1/9,3/7,0,8,8,2,2,3,1,0,-58,-2
+Paraguay,USA,31,110,2209,7,Astrid Huttemann,20:26,3,0/4,0/2,0/2,3/4,0,1,1,0,1,2,0,0,-45,-3
+Paraguay,USA,31,110,2209,8,Natalia Quevedo,12:58,2,0/4,0/0,0/4,2/2,0,3,3,0,0,2,0,2,-20,1
+Paraguay,USA,31,110,2209,9,Patricia  Rojas,13:08,2,1/3,1/3,0/0,0/0,0,0,0,0,1,0,0,0,-31,0
+Paraguay,USA,31,110,2209,10,Johanna Ghiringhelli,15:11,0,0/1,0/1,0/0,0/0,1,0,1,1,2,1,0,0,-25,0
+Paraguay,USA,31,110,2209,11,María Caraves,31:36,5,2/10,1/6,1/4,0/0,2,2,4,1,2,1,1,0,-56,2
+Paraguay,USA,31,110,2209,12,Andrea Gomez,13:29,3,1/4,0/2,1/2,0/0,0,1,1,0,0,2,0,0,-20,-1
+Paraguay,USA,31,110,2209,13,Paloma Niz,05:39,1,0/2,0/2,0/0,1/2,0,1,1,0,0,0,0,0,-11,-1
+Paraguay,USA,31,110,2209,14,Ximena Ibarra,06:03,0,0/3,0/2,0/1,0/0,0,1,1,0,1,2,0,0,-15,-4
+Paraguay,USA,31,110,2209,20,Maria Perez,04:41,0,0/0,0/0,0/0,0/0,0,0,0,0,1,0,0,0,-15,0
+USA,Paraguay,110,31,2209,13,Sylvia Fowles,18:02,12,6/8,6/8,0/0,0/0,1,13,14,1,1,1,0,1,46,28
+USA,Paraguay,110,31,2209,14,Tina Charles,15:19,3,1/3,1/3,0/0,1/1,0,6,6,4,2,0,0,1,30,12
+USA,Paraguay,110,31,2209,20,Brittney Sykes,16:28,9,4/7,3/4,1/3,0/0,0,2,2,5,2,1,1,0,25,13
+USA,Paraguay,110,31,2209,21,Jordin Canada,23:32,9,3/8,3/6,0/2,3/3,1,1,2,5,1,0,3,0,54,14
+USA,Paraguay,110,31,2209,22,Diamond De Shields,20:45,25,10/12,5/5,5/7,0/0,0,3,3,8,2,1,2,0,47,28
+USA,Paraguay,110,31,2209,24,Napheesa  Collier,14:09,8,4/6,4/5,0/1,0/0,1,1,2,1,2,0,0,0,41,9
+USA,Paraguay,110,31,2209,30,Elizabeth Williams,20:03,3,1/8,1/7,0/1,1/2,4,8,12,2,2,0,0,2,28,17
+USA,Paraguay,110,31,2209,31,Stefanie Dolson,14:05,10,5/6,5/6,0/0,0/0,1,3,4,2,0,1,1,1,20,16
+USA,Paraguay,110,31,2209,33,Katie Lou Samuelson,17:21,3,1/8,0/2,1/6,0/0,0,2,2,2,0,0,1,0,23,1
+USA,Paraguay,110,31,2209,34,Arike Ogunbowale,20:10,19,7/13,4/5,3/8,2/2,2,0,2,1,1,1,3,0,30,15
+USA,Paraguay,110,31,2209,41,Khadijah Sessions,07:35,0,0/1,0/1,0/0,0/0,0,1,1,2,2,1,1,0,17,2
+USA,Paraguay,110,31,2209,42,Olivia Nelson-Ododa,12:31,9,4/5,4/5,0/0,1/3,4,5,9,3,2,0,0,0,34,18
+Brazil,Colombia,67,61,2209,3,Isabela Ramona,24:14,1,0/4,0/2,0/2,1/2,0,0,0,0,1,1,1,0,-2,-4
+Brazil,Colombia,67,61,2209,5,Rapha Monteiro,05:11,0,0/0,0/0,0/0,0/0,0,1,1,1,0,0,1,0,8,3
+Brazil,Colombia,67,61,2209,7,Patty Teixeira,26:48,12,4/11,1/6,3/5,1/2,0,0,0,2,2,4,2,0,9,4
+Brazil,Colombia,67,61,2209,8,Tainá Paixão,20:45,8,3/5,1/1,2/4,0/0,0,1,1,4,1,4,1,0,6,8
+Brazil,Colombia,67,61,2209,10,Tati Pacheco,09:48,3,1/4,0/1,1/3,0/0,0,0,0,0,1,0,0,0,-2,0
+Brazil,Colombia,67,61,2209,11,Clarissa  Dos Santos,21:53,14,3/5,3/5,0/0,8/8,3,3,6,1,4,4,1,0,2,16
+Brazil,Colombia,67,61,2209,12,Damiris Dantas,28:03,12,2/8,0/4,2/4,6/8,3,6,9,1,1,3,1,1,9,13
+Brazil,Colombia,67,61,2209,14,Erika De Souza,20:25,11,3/8,3/8,0/0,5/5,3,7,10,2,3,3,1,0,4,16
+Brazil,Colombia,67,61,2209,18,Débora Costa,29:20,2,1/3,1/1,0/2,0/0,0,1,1,5,2,1,1,1,3,7
+Brazil,Colombia,67,61,2209,23,Alana Gonçalo,03:54,0,0/2,0/1,0/1,0/0,0,0,0,0,3,1,1,0,-4,-2
+Brazil,Colombia,67,61,2209,31,Nadia Colhado,09:39,4,2/5,2/5,0/0,0/0,2,7,9,0,2,2,0,0,-3,8
+Brazil,Colombia,67,61,2209,97,Mariana Dias,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Colombia,Brazil,61,67,2209,4,Manuela Rios,20:13,9,3/8,2/5,1/3,2/2,0,1,1,6,1,7,3,0,-7,7
+Colombia,Brazil,61,67,2209,5,Wendy Coy,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Colombia,Brazil,61,67,2209,6,Yuliany Paz,17:15,2,1/5,1/5,0/0,0/2,2,2,4,2,5,1,2,0,5,3
+Colombia,Brazil,61,67,2209,7,Mayra Caicedo,12:20,1,0/0,0/0,0/0,1/3,0,1,1,2,1,1,1,0,7,2
+Colombia,Brazil,61,67,2209,8,Carolina Lopez,06:19,1,0/2,0/2,0/0,1/2,0,1,1,1,0,1,1,0,2,0
+Colombia,Brazil,61,67,2209,9,María Palacio,13:06,3,1/8,0/5,1/3,0/0,0,2,2,0,2,3,0,0,1,-5
+Colombia,Brazil,61,67,2209,10,Mabel Martínez,36:27,11,4/8,2/4,2/4,1/2,4,6,10,1,2,3,0,0,-8,14
+Colombia,Brazil,61,67,2209,11,Yaneth Arias,30:15,4,2/3,2/3,0/0,0/0,1,4,5,2,3,2,1,1,-10,10
+Colombia,Brazil,61,67,2209,12,Jenifer Muñoz,31:14,19,8/17,5/10,3/7,0/1,1,3,4,1,3,2,2,0,-11,14
+Colombia,Brazil,61,67,2209,14,Marlyn Vente,20:46,9,4/5,4/5,0/0,1/4,1,2,3,0,3,2,1,0,-8,7
+Colombia,Brazil,61,67,2209,19,Daniela Gonzalez,12:06,2,1/2,1/2,0/0,0/0,0,1,1,0,1,0,0,0,-1,2
+Cuba,Puerto Rico,55,80,2209,0,Anilegna Colas,11:48,3,1/1,0/0,1/1,0/0,0,2,2,1,0,1,1,0,5,6
+Cuba,Puerto Rico,55,80,2209,2,Lisdeyvi Martinez,22:19,0,0/4,0/3,0/1,0/0,0,2,2,0,1,1,2,1,-13,0
+Cuba,Puerto Rico,55,80,2209,3,Lisandra  Vargas,13:50,3,0/2,0/2,0/0,3/4,1,5,6,0,0,0,0,0,-8,6
+Cuba,Puerto Rico,55,80,2209,9,Yamara Amargo,37:41,20,9/21,8/16,1/5,1/2,1,1,2,4,1,1,2,0,-25,14
+Cuba,Puerto Rico,55,80,2209,10,Anay Garcia,03:20,0,0/1,0/1,0/0,0/0,0,0,0,0,2,0,0,0,-2,-1
+Cuba,Puerto Rico,55,80,2209,15,Suchitel Avila,27:03,13,4/11,2/5,2/6,3/3,0,1,1,2,1,1,0,0,-18,8
+Cuba,Puerto Rico,55,80,2209,17,Isabela  Jourdain,12:19,3,1/5,1/5,0/0,1/2,0,1,1,0,2,0,1,0,-9,0
+Cuba,Puerto Rico,55,80,2209,20,Leanyi Becquer,08:55,0,0/3,0/3,0/0,0/0,2,2,4,0,1,2,0,0,-3,-1
+Cuba,Puerto Rico,55,80,2209,21,Klavdia Calvo,16:07,6,3/9,3/8,0/1,0/0,1,0,1,0,2,1,1,0,-15,1
+Cuba,Puerto Rico,55,80,2209,55,Dairis Tornell,09:41,0,0/1,0/1,0/0,0/0,0,0,0,0,2,1,1,0,-16,-1
+Cuba,Puerto Rico,55,80,2209,56,Anisleidy Galindo,24:41,7,1/7,0/6,1/1,4/6,3,6,9,3,3,4,4,0,-18,11
+Cuba,Puerto Rico,55,80,2209,80,Enriqueta Neyra,12:16,0,0/4,0/4,0/0,0/0,1,1,2,0,0,0,1,1,-3,0
+Puerto Rico,Cuba,80,55,2209,0,Jennifer O'Neill,24:53,6,3/6,3/4,0/2,0/0,0,3,3,5,2,3,1,0,20,9
+Puerto Rico,Cuba,80,55,2209,2,Tayra Melendez,19:19,12,4/4,2/2,2/2,2/2,0,4,4,1,2,3,0,1,11,15
+Puerto Rico,Cuba,80,55,2209,3,Anushka Maldonado,17:45,0,0/2,0/1,0/1,0/0,0,4,4,1,4,2,0,0,10,1
+Puerto Rico,Cuba,80,55,2209,5,Pamela Rosado,20:22,11,4/10,1/4,3/6,0/0,1,2,3,5,1,0,1,0,8,14
+Puerto Rico,Cuba,80,55,2209,9,Ali Gibson,17:19,14,4/5,3/4,1/1,5/6,2,4,6,1,0,3,0,0,13,16
+Puerto Rico,Cuba,80,55,2209,11,Sofia Roma,09:43,0,0/1,0/1,0/0,0/0,0,2,2,1,0,0,0,0,6,2
+Puerto Rico,Cuba,80,55,2209,12,Dayshalee Salaman,21:57,5,2/8,1/5,1/3,0/0,0,7,7,8,1,0,1,0,14,15
+Puerto Rico,Cuba,80,55,2209,20,Deanna Kuzmanic,09:25,3,1/3,0/1,1/2,0/0,1,1,2,1,0,0,0,0,2,4
+Puerto Rico,Cuba,80,55,2209,22,Daneichka Canales,05:38,0,0/4,0/4,0/0,0/0,1,2,3,0,0,0,0,0,1,-1
+Puerto Rico,Cuba,80,55,2209,24,Jazmon Gwathmey,15:55,8,4/7,4/7,0/0,0/0,1,3,4,1,2,1,1,0,11,10
+Puerto Rico,Cuba,80,55,2209,25,Isalys Quiñones,18:00,11,4/9,2/7,2/2,1/2,4,5,9,1,2,4,1,0,14,12
+Puerto Rico,Cuba,80,55,2209,33,India Pagan,19:44,10,4/6,4/6,0/0,2/3,0,3,3,1,1,1,1,0,15,11
+Dominican Republic,Mexico,67,52,2309,1,Cheisy Hernandez,11:13,7,3/6,2/2,1/4,0/2,0,1,1,1,2,0,1,0,4,5
+Dominican Republic,Mexico,67,52,2309,2,Maria Marte,03:02,2,1/2,1/2,0/0,0/0,0,0,0,0,2,0,0,0,-1,1
+Dominican Republic,Mexico,67,52,2309,4,Julady Zapata,35:19,20,8/18,4/10,4/8,0/0,0,2,2,4,3,2,6,1,24,21
+Dominican Republic,Mexico,67,52,2309,5,Yohanna Morton,29:55,2,0/9,0/8,0/1,2/4,5,3,8,6,1,2,1,0,9,4
+Dominican Republic,Mexico,67,52,2309,6,Jennifer Estrella,08:49,0,0/4,0/1,0/3,0/0,0,1,1,1,0,1,2,1,-1,0
+Dominican Republic,Mexico,67,52,2309,7,Genesis Evangelista,23:12,14,5/8,4/5,1/3,3/3,0,4,4,4,3,3,0,0,6,16
+Dominican Republic,Mexico,67,52,2309,8,Charlenny Frias,08:30,9,3/3,1/1,2/2,1/3,0,0,0,0,0,1,0,0,4,6
+Dominican Republic,Mexico,67,52,2309,9,Marlem Caceres,08:18,0,0/0,0/0,0/0,0/0,0,1,1,0,2,2,0,0,10,-1
+Dominican Republic,Mexico,67,52,2309,10,Nicole Guerrero,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Dominican Republic,Mexico,67,52,2309,12,Flor  Jones,13:14,0,0/2,0/2,0/0,0/0,1,4,5,1,1,2,1,0,6,3
+Dominican Republic,Mexico,67,52,2309,13,Giocelis Reynoso,30:51,11,4/10,4/10,0/0,3/6,2,8,10,0,2,4,2,3,5,13
+Dominican Republic,Mexico,67,52,2309,15,Sugeiry Monsac,27:37,2,0/3,0/3,0/0,2/4,3,6,9,0,2,2,1,0,9,5
+Mexico,Dominican Republic,52,67,2309,3,Daniela Soto,15:37,2,1/6,1/5,0/1,0/0,0,3,3,1,3,3,1,0,-11,-1
+Mexico,Dominican Republic,52,67,2309,4,Daniela Pardo,21:19,9,4/10,3/8,1/2,0/0,1,1,2,1,2,2,0,0,-9,4
+Mexico,Dominican Republic,52,67,2309,5,Jacqueline Luna-Castro,38:15,16,3/11,1/8,2/3,8/9,1,9,10,1,2,4,0,1,-11,15
+Mexico,Dominican Republic,52,67,2309,6,Gladys Avila,30:42,9,3/6,3/5,0/1,3/6,1,0,1,5,0,3,2,0,-11,8
+Mexico,Dominican Republic,52,67,2309,8,Paola Beltran,13:10,1,0/0,0/0,0/0,1/2,1,1,2,1,2,2,2,0,1,3
+Mexico,Dominican Republic,52,67,2309,9,Jacqueline Ramirez,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Mexico,Dominican Republic,52,67,2309,10,Irlanda Castaneda,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Mexico,Dominican Republic,52,67,2309,11,Casandra Asencio,01:15,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-3,0
+Mexico,Dominican Republic,52,67,2309,12,Paola Estrada,16:57,1,0/2,0/2,0/0,1/2,3,2,5,1,1,3,1,0,-8,2
+Mexico,Dominican Republic,52,67,2309,13,Carolina Romo,24:12,2,1/4,1/4,0/0,0/0,1,3,4,0,4,4,0,0,-13,-1
+Mexico,Dominican Republic,52,67,2309,14,Jazmin Valenzuela,33:43,10,4/15,4/12,0/3,2/4,1,7,8,0,4,2,3,0,-5,6
+Mexico,Dominican Republic,52,67,2309,50,Kimberly Taylor,04:50,2,1/1,1/1,0/0,0/0,0,0,0,0,0,0,0,0,-5,2
+Colombia,Paraguay,74,51,2309,4,Manuela Rios,16:21,4,1/7,1/5,0/2,2/4,1,0,1,4,0,0,2,0,7,3
+Colombia,Paraguay,74,51,2309,5,Wendy Coy,05:01,0,0/2,0/1,0/1,0/0,0,0,0,0,1,1,0,0,-2,-3
+Colombia,Paraguay,74,51,2309,6,Yuliany Paz,26:51,5,0/3,0/3,0/0,5/10,4,11,15,1,3,1,1,2,17,15
+Colombia,Paraguay,74,51,2309,7,Mayra Caicedo,12:12,4,1/2,1/2,0/0,2/2,0,2,2,2,1,3,1,0,-4,5
+Colombia,Paraguay,74,51,2309,8,Carolina Lopez,02:22,0,0/1,0/1,0/0,0/0,0,0,0,0,2,1,0,0,-3,-2
+Colombia,Paraguay,74,51,2309,9,María Palacio,21:17,14,5/9,3/4,2/5,2/4,0,5,5,3,2,4,1,0,19,13
+Colombia,Paraguay,74,51,2309,10,Mabel Martínez,31:09,12,5/13,3/8,2/5,0/0,2,4,6,3,0,1,2,0,23,14
+Colombia,Paraguay,74,51,2309,11,Yaneth Arias,27:29,13,6/9,6/9,0/0,1/1,3,4,7,0,3,0,0,0,16,17
+Colombia,Paraguay,74,51,2309,12,Jenifer Muñoz,31:38,16,6/16,3/8,3/8,1/2,0,1,1,2,3,2,3,0,29,9
+Colombia,Paraguay,74,51,2309,14,Marlyn Vente,08:38,0,0/1,0/1,0/0,0/0,1,1,2,1,3,0,1,1,-4,4
+Colombia,Paraguay,74,51,2309,19,Daniela Gonzalez,17:02,6,2/3,2/2,0/1,2/2,0,1,1,0,5,1,0,1,17,6
+Paraguay,Colombia,51,74,2309,3,Marta Peralta,31:10,9,3/10,3/8,0/2,3/4,2,5,7,3,4,9,0,0,-21,2
+Paraguay,Colombia,51,74,2309,4,Ilda Peña,13:50,3,1/1,1/1,0/0,1/2,0,3,3,0,2,0,0,0,-11,5
+Paraguay,Colombia,51,74,2309,5,Paola Ferrari,40:00,20,4/22,2/13,2/9,10/11,1,6,7,3,2,5,4,0,-23,10
+Paraguay,Colombia,51,74,2309,7,Astrid Huttemann,16:03,0,0/4,0/3,0/1,0/0,2,2,4,1,1,0,1,1,-14,3
+Paraguay,Colombia,51,74,2309,8,Natalia Quevedo,02:15,1,0/0,0/0,0/0,1/2,0,0,0,0,1,1,0,0,-3,-1
+Paraguay,Colombia,51,74,2309,9,Patricia  Rojas,11:38,0,0/2,0/2,0/0,0/0,1,2,3,0,4,0,0,0,-7,1
+Paraguay,Colombia,51,74,2309,10,Johanna Ghiringhelli,25:58,4,2/5,2/5,0/0,0/0,0,4,4,2,4,1,1,0,-10,7
+Paraguay,Colombia,51,74,2309,11,María Caraves,40:00,14,5/11,5/9,0/2,4/8,3,6,9,1,3,1,2,0,-23,15
+Paraguay,Colombia,51,74,2309,12,Andrea Gomez,14:32,0,0/3,0/1,0/2,0/0,0,0,0,1,1,1,0,0,-5,-3
+Paraguay,Colombia,51,74,2309,13,Paloma Niz,03:33,0,0/1,0/1,0/0,0/0,0,0,0,0,0,0,0,0,2,-1
+Paraguay,Colombia,51,74,2309,14,Ximena Ibarra,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Paraguay,Colombia,51,74,2309,20,Maria Perez,01:01,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Canada,Cuba,87,51,2309,4,Sami Hill,25:10,12,3/4,2/3,1/1,5/5,0,3,3,3,1,0,0,0,34,17
+Canada,Cuba,87,51,2309,6,Bridget Carleton,24:15,10,3/8,1/4,2/4,2/5,1,3,4,3,3,2,4,0,19,11
+Canada,Cuba,87,51,2309,7,Nayo Raincock-Ekunwe,20:48,12,5/8,5/8,0/0,2/4,3,1,4,1,1,1,0,0,16,11
+Canada,Cuba,87,51,2309,8,Kim Gaucher,09:41,2,0/3,0/1,0/2,2/2,0,3,3,1,0,1,0,0,6,2
+Canada,Cuba,87,51,2309,9,Miranda Ayim,19:25,8,2/6,2/5,0/1,4/6,2,3,5,0,1,2,1,3,18,9
+Canada,Cuba,87,51,2309,10,Miah-Marie Langlois,19:15,6,2/5,2/3,0/2,2/2,0,1,1,3,1,3,1,0,8,5
+Canada,Cuba,87,51,2309,12,Jamie Scott,23:45,6,2/6,2/2,0/4,2/5,2,1,3,2,2,3,0,0,16,1
+Canada,Cuba,87,51,2309,13,Shay Colley,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Canada,Cuba,87,51,2309,14,Kayla Alexander,26:04,23,11/14,11/14,0/0,1/2,4,11,15,2,3,1,1,2,24,38
+Canada,Cuba,87,51,2309,15,Aaliyah Edwards,17:54,2,1/3,1/2,0/1,0/0,1,2,3,3,3,3,1,0,25,4
+Canada,Cuba,87,51,2309,22,Ruth Hamblin,09:54,5,2/5,2/5,0/0,1/1,0,2,2,0,0,0,0,0,5,4
+Canada,Cuba,87,51,2309,23,Quinn Dornstauder,03:50,1,0/0,0/0,0/0,1/2,0,3,3,1,0,0,0,0,9,4
+Cuba,Canada,51,87,2309,0,Anilegna Colas,13:41,5,1/3,0/2,1/1,2/2,0,1,1,3,0,3,0,0,-8,4
+Cuba,Canada,51,87,2309,2,Lisdeyvi Martinez,24:21,2,0/5,0/4,0/1,2/2,0,1,1,4,2,4,0,0,-27,-2
+Cuba,Canada,51,87,2309,3,Lisandra  Vargas,08:32,0,0/2,0/2,0/0,0/0,0,2,2,0,1,0,0,0,-9,0
+Cuba,Canada,51,87,2309,9,Yamara Amargo,30:20,12,5/12,3/6,2/6,0/0,1,1,2,1,0,1,1,1,-30,9
+Cuba,Canada,51,87,2309,10,Anay Garcia,08:33,0,0/1,0/1,0/0,0/0,0,1,1,0,3,3,0,0,-3,-3
+Cuba,Canada,51,87,2309,15,Suchitel Avila,16:10,3,1/5,0/2,1/3,0/0,0,1,1,2,4,0,0,0,-3,2
+Cuba,Canada,51,87,2309,17,Isabela  Jourdain,11:54,2,1/4,1/3,0/1,0/0,1,0,1,0,3,0,0,1,-19,1
+Cuba,Canada,51,87,2309,20,Leanyi Becquer,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Cuba,Canada,51,87,2309,21,Klavdia Calvo,23:50,3,1/4,1/3,0/1,1/3,1,4,5,0,5,3,6,1,-18,7
+Cuba,Canada,51,87,2309,55,Dairis Tornell,13:41,7,2/2,1/1,1/1,2/4,1,0,1,0,3,0,1,0,-9,7
+Cuba,Canada,51,87,2309,56,Anisleidy Galindo,29:25,15,6/19,5/17,1/2,2/2,0,2,2,0,2,2,0,0,-25,2
+Cuba,Canada,51,87,2309,80,Enriqueta Neyra,19:33,2,1/4,1/4,0/0,0/0,1,3,4,3,4,0,0,0,-29,6
+Argentina,Brazil,49,76,2309,1,Luciana De la Barba,18:59,9,2/8,1/7,1/1,4/6,2,4,6,3,3,4,0,0,-11,6
+Argentina,Brazil,49,76,2309,2,Agustina Garcia,05:13,0,0/2,0/2,0/0,0/0,0,0,0,0,0,0,0,0,-8,-2
+Argentina,Brazil,49,76,2309,5,Macarena Durso,16:27,1,0/3,0/2,0/1,1/2,0,0,0,4,3,3,1,0,-6,-1
+Argentina,Brazil,49,76,2309,6,Victoria Llorente,24:44,7,2/4,2/3,0/1,3/4,1,6,7,1,1,1,1,0,-18,12
+Argentina,Brazil,49,76,2309,7,Julieta Ale,10:28,7,2/4,1/2,1/2,2/6,2,1,3,0,2,3,0,0,-6,1
+Argentina,Brazil,49,76,2309,8,Andrea Boquete,28:41,10,4/10,2/6,2/4,0/0,1,1,2,2,0,1,0,0,-17,7
+Argentina,Brazil,49,76,2309,9,Celia Fiorotto,15:38,2,0/3,0/3,0/0,2/2,1,2,3,0,1,1,1,0,-16,2
+Argentina,Brazil,49,76,2309,10,Agostina Burani,25:18,7,2/6,1/2,1/4,2/3,1,3,4,1,2,1,1,0,-20,7
+Argentina,Brazil,49,76,2309,13,Debora Gonzalez,20:36,0,0/5,0/3,0/2,0/0,0,0,0,1,3,1,0,0,-20,-5
+Argentina,Brazil,49,76,2309,14,Sofia Aispurua,08:52,2,1/1,1/1,0/0,0/0,0,1,1,0,5,0,0,0,0,3
+Argentina,Brazil,49,76,2309,15,Mara Marchizotti,18:49,2,1/2,1/2,0/0,0/1,0,1,1,0,3,2,0,1,-10,0
+Argentina,Brazil,49,76,2309,22,Natacha Perez,06:15,2,1/3,1/2,0/1,0/0,0,1,1,0,1,0,0,0,-3,1
+Brazil,Argentina,76,49,2309,3,Isabela Ramona,20:50,2,0/5,0/3,0/2,2/2,0,2,2,1,1,0,0,1,22,1
+Brazil,Argentina,76,49,2309,5,Rapha Monteiro,17:20,4,2/4,2/3,0/1,0/0,1,3,4,1,5,0,0,0,15,7
+Brazil,Argentina,76,49,2309,7,Patty Teixeira,17:13,15,5/6,2/2,3/4,2/4,1,0,1,0,0,2,1,0,7,12
+Brazil,Argentina,76,49,2309,8,Tainá Paixão,24:06,6,2/8,0/3,2/5,0/0,0,1,1,2,1,1,0,1,10,3
+Brazil,Argentina,76,49,2309,10,Tati Pacheco,09:53,4,1/2,1/1,0/1,2/2,1,1,2,1,0,1,0,0,5,5
+Brazil,Argentina,76,49,2309,11,Clarissa  Dos Santos,32:41,13,6/14,6/14,0/0,1/2,7,9,16,2,3,1,3,1,20,25
+Brazil,Argentina,76,49,2309,12,Damiris Dantas,09:53,10,3/5,3/5,0/0,4/6,2,0,2,0,5,2,0,0,9,6
+Brazil,Argentina,76,49,2309,14,Erika De Souza,19:18,6,2/6,2/6,0/0,2/4,4,5,9,3,3,2,0,1,16,11
+Brazil,Argentina,76,49,2309,18,Débora Costa,22:10,6,1/3,1/2,0/1,4/5,0,2,2,4,4,2,0,0,11,7
+Brazil,Argentina,76,49,2309,23,Alana Gonçalo,18:21,6,1/5,1/4,0/1,4/4,0,2,2,0,2,1,0,0,16,3
+Brazil,Argentina,76,49,2309,31,Nadia Colhado,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Brazil,Argentina,76,49,2309,97,Mariana Dias,08:15,4,2/2,2/2,0/0,0/0,1,2,3,1,3,1,0,1,4,8
+USA,Colombia,88,46,2409,13,Sylvia Fowles,20:05,22,11/13,11/13,0/0,0/3,3,4,7,1,1,2,1,0,19,24
+USA,Colombia,88,46,2409,14,Tina Charles,17:09,6,2/3,2/3,0/0,2/2,0,3,3,7,1,2,1,0,18,14
+USA,Colombia,88,46,2409,20,Brittney Sykes,20:11,9,3/5,2/3,1/2,2/2,0,2,2,2,4,1,0,1,26,11
+USA,Colombia,88,46,2409,21,Jordin Canada,20:42,2,1/4,1/3,0/1,0/0,0,3,3,8,2,2,3,0,20,11
+USA,Colombia,88,46,2409,22,Diamond De Shields,16:01,0,0/3,0/2,0/1,0/0,0,1,1,1,0,1,1,0,8,-1
+USA,Colombia,88,46,2409,24,Napheesa  Collier,22:52,11,4/8,1/5,3/3,0/0,0,5,5,1,2,1,2,0,24,14
+USA,Colombia,88,46,2409,30,Elizabeth Williams,10:33,4,2/3,2/3,0/0,0/2,2,3,5,1,0,1,0,2,18,8
+USA,Colombia,88,46,2409,31,Stefanie Dolson,16:42,13,6/6,5/5,1/1,0/0,0,3,3,1,2,1,0,0,19,16
+USA,Colombia,88,46,2409,33,Katie Lou Samuelson,16:13,6,2/6,1/3,1/3,1/2,4,2,6,3,0,3,0,0,16,7
+USA,Colombia,88,46,2409,34,Arike Ogunbowale,22:16,5,2/9,2/6,0/3,1/2,1,5,6,5,3,1,1,0,21,8
+USA,Colombia,88,46,2409,41,Khadijah Sessions,03:05,0,0/1,0/1,0/0,0/0,0,0,0,0,0,0,0,0,6,-1
+USA,Colombia,88,46,2409,42,Olivia Nelson-Ododa,14:11,10,4/7,4/7,0/0,2/3,3,5,8,1,2,0,0,1,15,16
+Colombia,USA,46,88,2409,4,Manuela Rios,17:26,0,0/5,0/4,0/1,0/0,0,1,1,4,1,3,0,0,-21,-3
+Colombia,USA,46,88,2409,5,Wendy Coy,05:54,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-10,0
+Colombia,USA,46,88,2409,6,Yuliany Paz,27:48,0,0/1,0/1,0/0,0/0,1,4,5,0,4,2,1,2,-24,5
+Colombia,USA,46,88,2409,7,Mayra Caicedo,15:34,2,0/3,0/3,0/0,2/2,0,2,2,1,1,2,0,0,-23,0
+Colombia,USA,46,88,2409,8,Carolina Lopez,06:16,0,0/1,0/1,0/0,0/2,0,1,1,2,1,0,0,0,-8,0
+Colombia,USA,46,88,2409,9,María Palacio,16:18,5,2/4,1/3,1/1,0/0,0,0,0,1,2,3,0,0,-13,1
+Colombia,USA,46,88,2409,10,Mabel Martínez,28:33,10,4/14,3/9,1/5,1/1,1,5,6,0,0,2,0,0,-27,4
+Colombia,USA,46,88,2409,11,Yaneth Arias,21:43,9,4/7,3/6,1/1,0/0,0,0,0,1,2,1,1,0,-10,7
+Colombia,USA,46,88,2409,12,Jenifer Muñoz,29:59,20,8/17,6/11,2/6,2/2,0,2,2,2,3,1,4,0,-24,18
+Colombia,USA,46,88,2409,14,Marlyn Vente,12:12,0,0/2,0/2,0/0,0/0,0,1,1,0,1,0,0,0,-18,-1
+Colombia,USA,46,88,2409,19,Daniela Gonzalez,18:17,0,0/5,0/1,0/4,0/0,0,2,2,0,3,0,1,0,-32,-2
+Cuba,Dominican Republic,65,62,2409,0,Anilegna Colas,06:03,2,1/2,1/1,0/1,0/0,0,0,0,0,3,0,0,0,-3,1
+Cuba,Dominican Republic,65,62,2409,2,Lisdeyvi Martinez,20:45,5,2/3,1/2,1/1,0/0,1,1,2,1,2,1,0,0,1,6
+Cuba,Dominican Republic,65,62,2409,3,Lisandra  Vargas,10:31,0,0/1,0/0,0/1,0/0,0,0,0,0,0,0,1,0,1,0
+Cuba,Dominican Republic,65,62,2409,9,Yamara Amargo,40:00,30,10/21,4/14,6/7,4/5,2,6,8,2,0,4,3,1,3,28
+Cuba,Dominican Republic,65,62,2409,10,Anay Garcia,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Cuba,Dominican Republic,65,62,2409,15,Suchitel Avila,36:03,4,2/18,2/13,0/5,0/0,5,11,16,6,3,3,2,0,15,9
+Cuba,Dominican Republic,65,62,2409,17,Isabela  Jourdain,01:49,0,0/2,0/2,0/0,0/0,2,0,2,0,0,0,0,0,1,0
+Cuba,Dominican Republic,65,62,2409,20,Leanyi Becquer,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Cuba,Dominican Republic,65,62,2409,21,Klavdia Calvo,36:56,6,3/6,3/6,0/0,0/3,5,2,7,2,2,3,1,0,-1,7
+Cuba,Dominican Republic,65,62,2409,55,Dairis Tornell,04:10,0,0/0,0/0,0/0,0/0,0,0,0,0,1,1,1,0,-3,0
+Cuba,Dominican Republic,65,62,2409,56,Anisleidy Galindo,38:31,18,6/18,6/15,0/3,6/7,2,4,6,6,0,3,1,3,10,18
+Cuba,Dominican Republic,65,62,2409,80,Enriqueta Neyra,05:12,0,0/0,0/0,0/0,0/0,0,3,3,0,1,1,0,0,-9,2
+Dominican Republic,Cuba,62,65,2409,1,Cheisy Hernandez,11:37,3,1/3,0/0,1/3,0/0,0,0,0,0,1,2,0,1,-11,0
+Dominican Republic,Cuba,62,65,2409,2,Maria Marte,08:25,4,2/2,2/2,0/0,0/0,1,2,3,0,1,0,0,0,8,7
+Dominican Republic,Cuba,62,65,2409,4,Julady Zapata,34:07,11,4/8,1/5,3/3,0/0,1,4,5,4,2,3,3,0,0,16
+Dominican Republic,Cuba,62,65,2409,5,Yohanna Morton,31:44,17,5/14,3/11,2/3,5/6,1,3,4,6,2,1,0,0,7,16
+Dominican Republic,Cuba,62,65,2409,6,Jennifer Estrella,05:03,0,0/2,0/0,0/2,0/0,0,1,1,0,1,0,0,0,-5,-1
+Dominican Republic,Cuba,62,65,2409,7,Genesis Evangelista,18:16,11,4/10,3/9,1/1,2/6,0,3,3,3,1,7,1,0,2,1
+Dominican Republic,Cuba,62,65,2409,8,Charlenny Frias,09:22,0,0/2,0/0,0/2,0/0,0,1,1,0,2,1,0,0,-8,-2
+Dominican Republic,Cuba,62,65,2409,9,Marlem Caceres,04:18,0,0/0,0/0,0/0,0/0,0,0,0,0,1,0,0,0,0,0
+Dominican Republic,Cuba,62,65,2409,10,Nicole Guerrero,02:28,0,0/0,0/0,0/0,0/0,0,0,0,0,1,0,0,0,3,0
+Dominican Republic,Cuba,62,65,2409,12,Flor  Jones,10:44,2,1/3,1/3,0/0,0/0,0,1,1,0,1,0,1,1,-4,3
+Dominican Republic,Cuba,62,65,2409,13,Giocelis Reynoso,30:07,5,2/5,2/5,0/0,1/2,0,3,3,1,0,2,1,4,-6,8
+Dominican Republic,Cuba,62,65,2409,15,Sugeiry Monsac,33:49,9,4/8,3/5,1/3,0/0,1,9,10,2,3,4,3,0,-1,16
+Paraguay,Argentina,54,74,2409,3,Marta Peralta,38:42,9,1/7,1/6,0/1,7/12,1,3,4,6,4,3,2,0,-17,7
+Paraguay,Argentina,54,74,2409,4,Ilda Peña,10:51,0,0/2,0/2,0/0,0/0,0,1,1,0,4,0,0,0,4,-1
+Paraguay,Argentina,54,74,2409,5,Paola Ferrari,38:39,27,9/18,4/9,5/9,4/9,1,3,4,0,3,7,0,0,-18,10
+Paraguay,Argentina,54,74,2409,7,Astrid Huttemann,16:54,0,0/5,0/4,0/1,0/0,0,3,3,2,0,0,1,0,-16,1
+Paraguay,Argentina,54,74,2409,8,Natalia Quevedo,19:20,3,1/7,0/2,1/5,0/2,0,0,0,0,3,0,0,0,-8,-5
+Paraguay,Argentina,54,74,2409,9,Patricia  Rojas,20:07,3,1/1,1/1,0/0,1/2,1,4,5,0,3,1,0,0,-17,6
+Paraguay,Argentina,54,74,2409,10,Johanna Ghiringhelli,07:45,0,0/0,0/0,0/0,0/0,1,0,1,0,1,0,1,0,-7,2
+Paraguay,Argentina,54,74,2409,11,María Caraves,40:00,12,3/13,1/8,2/5,4/6,4,10,14,4,2,3,1,0,-20,16
+Paraguay,Argentina,54,74,2409,12,Andrea Gomez,06:24,0,0/1,0/0,0/1,0/0,0,0,0,0,1,1,0,0,1,-2
+Paraguay,Argentina,54,74,2409,13,Paloma Niz,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Paraguay,Argentina,54,74,2409,14,Ximena Ibarra,01:18,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-2,0
+Paraguay,Argentina,54,74,2409,20,Maria Perez,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Argentina,Paraguay,74,54,2409,1,Luciana De la Barba,20:09,9,3/4,2/2,1/2,2/2,0,1,1,1,2,1,1,2,5,12
+Argentina,Paraguay,74,54,2409,2,Agustina Garcia,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Argentina,Paraguay,74,54,2409,5,Macarena Durso,06:52,0,0/2,0/1,0/1,0/0,1,0,1,1,0,0,0,0,-2,0
+Argentina,Paraguay,74,54,2409,6,Victoria Llorente,27:34,6,3/8,3/6,0/2,0/0,4,6,10,3,2,1,0,0,17,13
+Argentina,Paraguay,74,54,2409,7,Julieta Ale,23:17,4,1/6,1/5,0/1,2/4,2,0,2,1,4,0,3,0,2,3
+Argentina,Paraguay,74,54,2409,8,Andrea Boquete,34:18,15,5/10,2/5,3/5,2/3,2,3,5,8,4,3,2,1,15,22
+Argentina,Paraguay,74,54,2409,9,Celia Fiorotto,03:47,6,2/2,2/2,0/0,2/2,0,1,1,0,0,1,0,0,-1,6
+Argentina,Paraguay,74,54,2409,10,Agostina Burani,30:54,22,4/10,4/8,0/2,14/16,0,11,11,2,4,0,0,1,25,28
+Argentina,Paraguay,74,54,2409,13,Debora Gonzalez,21:39,3,1/6,0/3,1/3,0/0,0,0,0,2,4,3,1,0,23,-2
+Argentina,Paraguay,74,54,2409,14,Sofia Aispurua,12:26,4,2/4,2/2,0/2,0/0,1,2,3,0,2,2,0,3,3,6
+Argentina,Paraguay,74,54,2409,15,Mara Marchizotti,05:19,0,0/1,0/1,0/0,0/0,0,1,1,0,1,1,0,0,-4,-1
+Argentina,Paraguay,74,54,2409,22,Natacha Perez,13:45,5,2/4,1/3,1/1,0/0,1,1,2,1,3,1,0,0,17,5
+Puerto Rico,Canada,50,78,2409,0,Jennifer O'Neill,23:38,6,2/13,2/10,0/3,2/3,0,2,2,3,2,1,2,0,-19,0
+Puerto Rico,Canada,50,78,2409,2,Tayra Melendez,17:39,0,0/1,0/0,0/1,0/0,1,1,2,0,2,1,1,0,-14,1
+Puerto Rico,Canada,50,78,2409,3,Anushka Maldonado,08:40,0,0/3,0/2,0/1,0/0,0,2,2,0,5,0,0,0,-2,-1
+Puerto Rico,Canada,50,78,2409,5,Pamela Rosado,26:15,11,4/11,1/5,3/6,0/0,0,3,3,3,1,2,0,0,-16,8
+Puerto Rico,Canada,50,78,2409,9,Ali Gibson,19:37,4,2/7,2/2,0/5,0/0,0,2,2,2,1,2,1,0,-10,2
+Puerto Rico,Canada,50,78,2409,11,Sofia Roma,10:40,0,0/1,0/1,0/0,0/2,2,1,3,0,1,1,0,0,-6,-1
+Puerto Rico,Canada,50,78,2409,12,Dayshalee Salaman,12:57,7,2/7,2/4,0/3,3/5,0,0,0,1,0,2,1,0,-10,0
+Puerto Rico,Canada,50,78,2409,20,Deanna Kuzmanic,06:39,3,1/2,0/0,1/2,0/0,0,0,0,0,0,0,0,0,-9,2
+Puerto Rico,Canada,50,78,2409,22,Daneichka Canales,10:57,5,2/5,1/2,1/3,0/0,0,0,0,1,2,0,0,0,-7,3
+Puerto Rico,Canada,50,78,2409,24,Jazmon Gwathmey,25:16,9,3/11,2/7,1/4,2/4,1,2,3,1,3,2,2,1,-21,4
+Puerto Rico,Canada,50,78,2409,25,Isalys Quiñones,21:27,2,1/6,1/2,0/4,0/0,1,2,3,0,4,1,1,0,-12,0
+Puerto Rico,Canada,50,78,2409,33,India Pagan,16:15,3,1/3,1/3,0/0,1/2,0,1,1,1,3,0,1,0,-14,3
+Canada,Puerto Rico,78,50,2409,4,Sami Hill,26:29,6,2/4,0/2,2/2,0/0,1,3,4,9,3,1,1,0,9,17
+Canada,Puerto Rico,78,50,2409,6,Bridget Carleton,32:14,4,1/4,1/1,0/3,2/2,1,3,4,3,1,3,2,1,11,8
+Canada,Puerto Rico,78,50,2409,7,Nayo Raincock-Ekunwe,20:30,9,2/4,2/4,0/0,5/6,1,3,4,2,3,4,0,0,13,8
+Canada,Puerto Rico,78,50,2409,8,Kim Gaucher,09:25,0,0/1,0/1,0/0,0/0,0,5,5,2,1,1,0,0,-2,5
+Canada,Puerto Rico,78,50,2409,9,Miranda Ayim,20:07,4,2/7,2/5,0/2,0/0,0,3,3,0,0,2,1,0,15,1
+Canada,Puerto Rico,78,50,2409,10,Miah-Marie Langlois,13:31,3,1/1,0/0,1/1,0/0,0,4,4,5,3,0,1,1,19,14
+Canada,Puerto Rico,78,50,2409,12,Jamie Scott,27:04,20,5/7,2/3,3/4,7/7,3,6,9,4,3,5,1,0,24,27
+Canada,Puerto Rico,78,50,2409,13,Shay Colley,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Canada,Puerto Rico,78,50,2409,14,Kayla Alexander,24:53,19,7/11,7/11,0/0,5/5,0,9,9,1,0,2,0,1,29,24
+Canada,Puerto Rico,78,50,2409,15,Aaliyah Edwards,15:43,7,2/5,1/4,1/1,2/2,0,1,1,1,5,2,1,1,18,6
+Canada,Puerto Rico,78,50,2409,22,Ruth Hamblin,07:48,6,1/3,1/3,0/0,4/8,1,4,5,0,2,3,0,0,7,2
+Canada,Puerto Rico,78,50,2409,23,Quinn Dornstauder,02:16,0,0/0,0/0,0/0,0/0,0,1,1,0,1,1,0,0,-3,0
+Mexico,Cuba,62,65,2509,3,Daniela Soto,20:36,4,2/8,2/2,0/6,0/0,0,1,1,2,2,1,0,0,12,0
+Mexico,Cuba,62,65,2509,4,Daniela Pardo,29:06,10,2/12,2/8,0/4,6/7,0,6,6,3,2,6,1,0,-9,3
+Mexico,Cuba,62,65,2509,5,Jacqueline Luna-Castro,40:00,13,5/11,2/6,3/5,0/0,2,12,14,1,1,3,1,1,-3,21
+Mexico,Cuba,62,65,2509,6,Gladys Avila,40:00,10,3/7,2/5,1/2,3/4,0,3,3,4,3,2,1,0,-3,11
+Mexico,Cuba,62,65,2509,8,Paola Beltran,16:49,12,6/9,6/8,0/1,0/1,1,1,2,2,1,2,0,0,0,10
+Mexico,Cuba,62,65,2509,9,Jacqueline Ramirez,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Mexico,Cuba,62,65,2509,10,Irlanda Castaneda,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Mexico,Cuba,62,65,2509,11,Casandra Asencio,01:27,0,0/1,0/0,0/1,0/0,0,0,0,0,1,0,0,0,1,-1
+Mexico,Cuba,62,65,2509,12,Paola Estrada,18:55,4,1/4,1/4,0/0,2/2,2,4,6,2,0,2,3,0,-8,10
+Mexico,Cuba,62,65,2509,13,Carolina Romo,30:33,9,3/6,1/3,2/3,1/2,3,6,9,1,3,3,1,2,-12,15
+Mexico,Cuba,62,65,2509,14,Jazmin Valenzuela,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Mexico,Cuba,62,65,2509,50,Kimberly Taylor,02:34,0,0/1,0/1,0/0,0/0,0,0,0,1,0,0,0,1,7,1
+Cuba,Mexico,65,62,2509,0,Anilegna Colas,05:14,0,0/1,0/0,0/1,0/0,0,0,0,1,0,1,1,0,0,0
+Cuba,Mexico,65,62,2509,2,Lisdeyvi Martinez,19:11,5,2/6,1/5,1/1,0/0,0,0,0,1,4,0,1,0,5,3
+Cuba,Mexico,65,62,2509,9,Yamara Amargo,40:00,22,9/18,7/14,2/4,2/3,2,2,4,2,1,2,2,1,3,19
+Cuba,Mexico,65,62,2509,10,Anay Garcia,04:21,2,1/1,1/1,0/0,0/0,0,0,0,0,3,0,0,0,4,2
+Cuba,Mexico,65,62,2509,15,Suchitel Avila,36:07,10,5/17,5/12,0/5,0/0,4,11,15,4,1,2,3,0,3,18
+Cuba,Mexico,65,62,2509,17,Isabela  Jourdain,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Cuba,Mexico,65,62,2509,20,Leanyi Becquer,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Cuba,Mexico,65,62,2509,21,Klavdia Calvo,31:25,6,3/11,3/10,0/1,0/2,6,5,11,1,3,4,1,0,1,5
+Cuba,Mexico,65,62,2509,55,Dairis Tornell,03:10,0,0/1,0/1,0/0,0/0,0,0,0,0,0,0,0,0,-3,-1
+Cuba,Mexico,65,62,2509,56,Anisleidy Galindo,36:09,15,5/16,5/12,0/4,5/8,6,5,11,3,3,0,3,0,5,18
+Cuba,Mexico,65,62,2509,80,Enriqueta Neyra,07:29,2,1/4,1/4,0/0,0/0,0,0,0,0,0,0,1,0,-2,0
+Cuba,Mexico,65,62,2509,83,Lisandra  Vargas,16:54,3,1/5,1/3,0/2,1/2,0,1,1,3,2,1,0,0,-1,1
+Brazil,Paraguay,101,59,2509,3,Isabela Ramona,20:55,14,4/11,0/4,4/7,2/2,3,2,5,2,3,0,2,1,28,17
+Brazil,Paraguay,101,59,2509,5,Rapha Monteiro,22:27,6,3/6,3/6,0/0,0/2,2,2,4,2,5,2,0,0,22,5
+Brazil,Paraguay,101,59,2509,7,Patty Teixeira,14:17,10,3/7,1/1,2/6,2/2,0,1,1,1,1,1,1,0,23,8
+Brazil,Paraguay,101,59,2509,8,Tainá Paixão,13:42,4,1/5,1/2,0/3,2/2,1,0,1,1,3,1,2,0,2,3
+Brazil,Paraguay,101,59,2509,10,Tati Pacheco,18:58,15,5/11,3/4,2/7,3/3,0,4,4,1,3,0,1,0,30,15
+Brazil,Paraguay,101,59,2509,11,Clarissa  Dos Santos,14:19,9,3/5,3/5,0/0,3/4,2,4,6,3,2,1,1,0,23,15
+Brazil,Paraguay,101,59,2509,12,Damiris Dantas,30:04,22,7/16,5/10,2/6,6/8,3,4,7,3,1,2,3,0,31,22
+Brazil,Paraguay,101,59,2509,14,Erika De Souza,17:00,5,2/3,2/3,0/0,1/2,0,5,5,3,3,2,1,2,13,12
+Brazil,Paraguay,101,59,2509,18,Débora Costa,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Brazil,Paraguay,101,59,2509,23,Alana Gonçalo,33:18,12,4/8,0/2,4/6,0/0,0,5,5,6,4,0,2,0,28,21
+Brazil,Paraguay,101,59,2509,31,Nadia Colhado,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Brazil,Paraguay,101,59,2509,97,Mariana Dias,15:00,4,2/4,2/4,0/0,0/0,1,3,4,2,5,0,0,0,10,8
+Paraguay,Brazil,59,101,2509,3,Marta Peralta,34:59,8,2/5,2/5,0/0,4/10,2,4,6,4,3,3,1,0,-27,7
+Paraguay,Brazil,59,101,2509,4,Ilda Peña,13:44,0,0/2,0/1,0/1,0/0,0,2,2,1,5,2,0,0,-19,-1
+Paraguay,Brazil,59,101,2509,5,Paola Ferrari,27:10,25,6/14,3/7,3/7,10/12,1,6,7,3,3,7,2,0,-22,20
+Paraguay,Brazil,59,101,2509,7,Astrid Huttemann,29:58,7,3/8,2/5,1/3,0/0,0,3,3,0,4,3,0,0,-20,2
+Paraguay,Brazil,59,101,2509,8,Natalia Quevedo,15:04,5,2/7,1/4,1/3,0/0,0,0,0,0,1,1,0,0,-30,-1
+Paraguay,Brazil,59,101,2509,9,Patricia  Rojas,16:38,4,2/2,2/2,0/0,0/2,0,1,1,0,2,1,1,0,-5,3
+Paraguay,Brazil,59,101,2509,10,Johanna Ghiringhelli,04:12,2,0/0,0/0,0/0,2/2,0,1,1,0,0,1,0,0,-11,2
+Paraguay,Brazil,59,101,2509,11,María Caraves,36:13,6,0/4,0/2,0/2,6/8,1,5,6,3,2,1,0,0,-33,8
+Paraguay,Brazil,59,101,2509,12,Andrea Gomez,09:38,0,0/3,0/0,0/3,0/0,0,1,1,0,2,2,0,0,-18,-4
+Paraguay,Brazil,59,101,2509,13,Paloma Niz,05:52,0,0/1,0/1,0/0,0/0,1,1,2,0,1,0,0,0,-12,1
+Paraguay,Brazil,59,101,2509,14,Ximena Ibarra,03:47,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-9,0
+Paraguay,Brazil,59,101,2509,20,Maria Perez,02:45,2,0/0,0/0,0/0,2/2,0,0,0,0,0,1,0,0,-4,1
+Argentina,USA,50,100,2509,1,Luciana De la Barba,14:37,0,0/4,0/3,0/1,0/0,0,2,2,1,2,6,0,0,-25,-7
+Argentina,USA,50,100,2509,2,Agustina Garcia,10:40,5,1/4,1/4,0/0,3/4,1,0,1,1,3,0,0,0,-13,3
+Argentina,USA,50,100,2509,5,Macarena Durso,22:37,12,4/10,1/6,3/4,1/2,2,6,8,3,4,3,1,0,-21,14
+Argentina,USA,50,100,2509,6,Victoria Llorente,16:09,6,3/7,3/6,0/1,0/0,1,3,4,0,0,0,0,0,-19,6
+Argentina,USA,50,100,2509,7,Julieta Ale,12:22,0,0/1,0/1,0/0,0/0,0,2,2,1,2,0,0,0,-19,2
+Argentina,USA,50,100,2509,8,Andrea Boquete,22:07,11,4/10,3/4,1/6,2/2,0,2,2,1,1,2,0,0,-27,6
+Argentina,USA,50,100,2509,9,Celia Fiorotto,25:35,6,2/5,2/5,0/0,2/2,1,4,5,1,3,2,0,0,-27,7
+Argentina,USA,50,100,2509,10,Agostina Burani,14:27,6,2/6,1/5,1/1,1/1,1,1,2,0,0,0,1,1,-22,6
+Argentina,USA,50,100,2509,13,Debora Gonzalez,18:34,2,1/6,1/3,0/3,0/0,0,1,1,0,1,4,0,0,-17,-6
+Argentina,USA,50,100,2509,14,Sofia Aispurua,20:21,0,0/6,0/2,0/4,0/0,0,1,1,0,3,0,1,0,-21,-4
+Argentina,USA,50,100,2509,15,Mara Marchizotti,12:15,0,0/2,0/2,0/0,0/0,1,0,1,0,4,2,0,0,-21,-3
+Argentina,USA,50,100,2509,22,Natacha Perez,10:16,2,1/3,1/3,0/0,0/0,0,0,0,1,1,0,0,0,-18,1
+USA,Argentina,100,50,2509,13,Sylvia Fowles,08:30,14,6/7,6/7,0/0,2/3,2,1,3,0,4,2,1,1,13,15
+USA,Argentina,100,50,2509,14,Tina Charles,15:58,4,2/5,2/5,0/0,0/0,0,4,4,3,2,2,0,0,24,6
+USA,Argentina,100,50,2509,20,Brittney Sykes,21:24,11,3/5,3/4,0/1,5/6,1,6,7,6,1,2,0,0,22,19
+USA,Argentina,100,50,2509,21,Jordin Canada,22:09,3,1/3,1/3,0/0,1/2,1,1,2,9,1,0,1,0,28,12
+USA,Argentina,100,50,2509,22,Diamond De Shields,16:08,10,3/5,3/5,0/0,4/4,0,2,2,5,1,0,2,0,24,17
+USA,Argentina,100,50,2509,24,Napheesa  Collier,18:14,4,2/8,2/6,0/2,0/0,1,5,6,0,0,0,0,0,25,4
+USA,Argentina,100,50,2509,30,Elizabeth Williams,19:45,8,4/5,4/5,0/0,0/0,1,4,5,0,2,2,0,1,15,11
+USA,Argentina,100,50,2509,31,Stefanie Dolson,18:48,8,4/4,4/4,0/0,0/0,2,4,6,0,3,3,2,1,26,14
+USA,Argentina,100,50,2509,33,Katie Lou Samuelson,21:46,16,6/10,3/5,3/5,1/1,2,5,7,1,2,0,1,1,25,22
+USA,Argentina,100,50,2509,34,Arike Ogunbowale,24:54,14,5/13,3/8,2/5,2/4,2,2,4,5,1,1,4,0,25,16
+USA,Argentina,100,50,2509,41,Khadijah Sessions,04:20,2,1/1,1/1,0/0,0/0,0,0,0,1,1,0,0,0,7,3
+USA,Argentina,100,50,2509,42,Olivia Nelson-Ododa,08:04,6,1/5,1/5,0/0,4/4,0,1,1,1,2,0,1,1,16,6
+Dominican Republic,Puerto Rico,56,81,2509,1,Cheisy Hernandez,09:13,0,0/0,0/0,0/0,0/0,0,0,0,1,1,2,0,0,-3,-1
+Dominican Republic,Puerto Rico,56,81,2509,2,Maria Marte,09:41,4,2/4,2/4,0/0,0/0,2,2,4,0,0,2,1,0,3,5
+Dominican Republic,Puerto Rico,56,81,2509,4,Julady Zapata,31:42,10,5/13,5/10,0/3,0/0,0,7,7,1,3,3,0,1,-25,8
+Dominican Republic,Puerto Rico,56,81,2509,5,Yohanna Morton,27:18,6,3/12,3/9,0/3,0/0,2,2,4,5,1,2,1,0,-13,5
+Dominican Republic,Puerto Rico,56,81,2509,6,Jennifer Estrella,04:18,2,1/1,1/1,0/0,0/0,0,1,1,0,2,2,0,0,-3,1
+Dominican Republic,Puerto Rico,56,81,2509,7,Genesis Evangelista,17:09,0,0/4,0/4,0/0,0/0,1,0,1,1,2,4,0,0,-17,-6
+Dominican Republic,Puerto Rico,56,81,2509,8,Charlenny Frias,16:57,3,1/3,0/0,1/3,0/0,0,2,2,1,0,0,0,0,-22,4
+Dominican Republic,Puerto Rico,56,81,2509,9,Marlem Caceres,11:39,6,2/7,2/7,0/0,2/4,5,0,5,0,3,2,1,0,-11,3
+Dominican Republic,Puerto Rico,56,81,2509,10,Nicole Guerrero,03:42,0,0/0,0/0,0/0,0/0,0,1,1,0,0,0,1,0,5,2
+Dominican Republic,Puerto Rico,56,81,2509,12,Flor  Jones,14:07,1,0/5,0/5,0/0,1/8,2,3,5,1,0,0,1,2,-18,-2
+Dominican Republic,Puerto Rico,56,81,2509,13,Giocelis Reynoso,22:43,4,1/6,1/6,0/0,2/4,3,3,6,0,4,1,0,1,-3,3
+Dominican Republic,Puerto Rico,56,81,2509,15,Sugeiry Monsac,31:30,20,8/17,7/15,1/2,3/4,4,9,13,1,2,2,1,0,-18,23
+Puerto Rico,Dominican Republic,81,56,2509,0,Jennifer O'Neill,33:19,15,6/14,5/11,1/3,2/2,0,5,5,1,1,2,3,0,17,14
+Puerto Rico,Dominican Republic,81,56,2509,2,Tayra Melendez,20:13,6,2/7,2/5,0/2,2/2,1,2,3,2,3,1,1,2,11,8
+Puerto Rico,Dominican Republic,81,56,2509,3,Anushka Maldonado,16:48,6,3/5,3/4,0/1,0/0,0,5,5,1,4,1,1,1,18,11
+Puerto Rico,Dominican Republic,81,56,2509,5,Pamela Rosado,25:49,11,4/11,3/5,1/6,2/4,0,3,3,7,2,2,2,0,19,12
+Puerto Rico,Dominican Republic,81,56,2509,9,Ali Gibson,17:59,7,2/9,1/3,1/6,2/2,5,2,7,1,1,1,0,0,8,7
+Puerto Rico,Dominican Republic,81,56,2509,11,Sofia Roma,03:50,0,0/0,0/0,0/0,0/0,1,1,2,0,1,3,1,0,3,0
+Puerto Rico,Dominican Republic,81,56,2509,12,Dayshalee Salaman,20:33,15,4/5,2/3,2/2,5/7,0,2,2,4,1,0,2,0,10,20
+Puerto Rico,Dominican Republic,81,56,2509,20,Deanna Kuzmanic,12:36,5,1/5,0/1,1/4,2/2,1,1,2,1,0,1,1,0,9,4
+Puerto Rico,Dominican Republic,81,56,2509,22,Daneichka Canales,10:51,9,3/5,2/4,1/1,2/2,0,2,2,1,0,0,1,0,12,11
+Puerto Rico,Dominican Republic,81,56,2509,24,Jazmon Gwathmey,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Puerto Rico,Dominican Republic,81,56,2509,25,Isalys Quiñones,20:41,5,2/5,1/2,1/3,0/1,3,2,5,1,2,0,0,1,13,8
+Puerto Rico,Dominican Republic,81,56,2509,33,India Pagan,17:21,2,1/7,1/7,0/0,0/0,1,3,4,0,2,0,0,0,5,0
+Colombia,Argentina,73,71,2609,4,Manuela Rios,31:44,17,5/14,5/12,0/2,7/8,0,3,3,7,4,6,2,0,9,13
+Colombia,Argentina,73,71,2609,5,Wendy Coy,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Colombia,Argentina,73,71,2609,6,Yuliany Paz,16:28,2,1/4,1/4,0/0,0/0,0,2,2,0,2,0,0,0,-4,1
+Colombia,Argentina,73,71,2609,7,Mayra Caicedo,09:51,0,0/0,0/0,0/0,0/0,0,0,0,0,3,0,0,0,3,0
+Colombia,Argentina,73,71,2609,8,Carolina Lopez,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Colombia,Argentina,73,71,2609,9,María Palacio,17:53,10,3/5,1/2,2/3,2/4,1,0,1,3,1,4,2,0,-7,8
+Colombia,Argentina,73,71,2609,10,Mabel Martínez,46:25,12,4/16,2/11,2/5,2/2,3,7,10,3,1,4,4,1,0,14
+Colombia,Argentina,73,71,2609,11,Yaneth Arias,43:49,14,7/11,7/11,0/0,0/0,2,7,9,1,3,4,1,0,-9,17
+Colombia,Argentina,73,71,2609,12,Jenifer Muñoz,44:04,13,5/12,4/9,1/3,2/3,0,5,5,3,4,1,3,0,1,15
+Colombia,Argentina,73,71,2609,14,Marlyn Vente,08:23,0,0/4,0/3,0/1,0/0,0,0,0,0,0,0,1,0,-3,-3
+Colombia,Argentina,73,71,2609,19,Daniela Gonzalez,31:23,5,2/4,2/4,0/0,1/2,1,1,2,1,1,0,1,0,20,6
+Argentina,Colombia,71,73,2609,1,Luciana De la Barba,22:01,12,4/9,4/7,0/2,4/4,1,1,2,2,3,3,2,1,-3,11
+Argentina,Colombia,71,73,2609,2,Agustina Garcia,02:50,1,0/1,0/1,0/0,1/2,0,0,0,0,1,1,0,0,4,-2
+Argentina,Colombia,71,73,2609,5,Macarena Durso,22:18,11,4/7,1/2,3/5,0/0,1,2,3,3,3,1,1,0,6,14
+Argentina,Colombia,71,73,2609,6,Victoria Llorente,48:38,5,2/8,1/4,1/4,0/0,3,15,18,2,2,4,2,2,2,19
+Argentina,Colombia,71,73,2609,7,Julieta Ale,07:18,0,0/3,0/3,0/0,0/0,0,0,0,0,1,1,0,0,-15,-4
+Argentina,Colombia,71,73,2609,8,Andrea Boquete,44:13,8,4/14,4/8,0/6,0/1,1,6,7,2,3,4,1,1,6,4
+Argentina,Colombia,71,73,2609,9,Celia Fiorotto,06:10,0,0/0,0/0,0/0,0/0,0,0,0,1,1,0,0,0,-7,1
+Argentina,Colombia,71,73,2609,10,Agostina Burani,41:05,15,5/13,3/10,2/3,3/4,8,3,11,5,4,4,3,1,10,22
+Argentina,Colombia,71,73,2609,13,Debora Gonzalez,45:14,16,6/20,4/10,2/10,2/3,1,3,4,3,2,1,2,0,1,9
+Argentina,Colombia,71,73,2609,14,Sofia Aispurua,03:19,3,1/1,0/0,1/1,0/0,0,0,0,0,0,1,0,0,-6,2
+Argentina,Colombia,71,73,2609,15,Mara Marchizotti,03:06,0,0/0,0/0,0/0,0/0,0,1,1,0,0,0,0,0,-3,1
+Argentina,Colombia,71,73,2609,22,Natacha Perez,03:47,0,0/1,0/1,0/0,0/0,0,0,0,0,1,0,0,0,-5,-1
+USA,Brazil,89,73,2609,13,Sylvia Fowles,20:42,2,1/2,1/2,0/0,0/0,0,4,4,2,5,1,0,0,12,6
+USA,Brazil,89,73,2609,14,Tina Charles,28:54,15,6/11,6/11,0/0,3/4,4,6,10,1,3,1,0,0,18,19
+USA,Brazil,89,73,2609,20,Brittney Sykes,12:27,7,3/8,2/5,1/3,0/1,0,2,2,0,0,2,0,0,4,1
+USA,Brazil,89,73,2609,21,Jordin Canada,24:23,12,5/9,4/6,1/3,1/2,0,2,2,6,0,5,0,0,14,10
+USA,Brazil,89,73,2609,22,Diamond De Shields,26:08,19,9/13,9/12,0/1,1/2,0,4,4,1,0,1,1,0,13,19
+USA,Brazil,89,73,2609,24,Napheesa  Collier,15:44,4,1/2,1/1,0/1,2/2,0,4,4,2,1,0,2,0,13,11
+USA,Brazil,89,73,2609,30,Elizabeth Williams,03:46,2,1/1,1/1,0/0,0/0,0,0,0,0,2,0,0,0,-1,2
+USA,Brazil,89,73,2609,31,Stefanie Dolson,18:39,8,4/5,4/4,0/1,0/1,1,3,4,2,4,2,0,0,6,10
+USA,Brazil,89,73,2609,33,Katie Lou Samuelson,20:07,11,3/7,0/0,3/7,2/2,1,3,4,1,0,0,0,0,-2,12
+USA,Brazil,89,73,2609,34,Arike Ogunbowale,22:28,9,4/9,4/8,0/1,1/2,0,2,2,2,1,1,0,0,5,6
+USA,Brazil,89,73,2609,41,Khadijah Sessions,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+USA,Brazil,89,73,2609,42,Olivia Nelson-Ododa,06:42,0,0/0,0/0,0/0,0/0,0,1,1,1,1,0,1,1,-2,4
+Brazil,USA,73,89,2609,3,Isabela Ramona,19:30,6,3/4,3/4,0/0,0/0,0,1,1,1,1,1,1,0,-6,7
+Brazil,USA,73,89,2609,5,Rapha Monteiro,11:18,2,1/2,1/1,0/1,0/0,1,1,2,1,0,2,1,0,-12,3
+Brazil,USA,73,89,2609,7,Patty Teixeira,18:05,7,3/8,2/7,1/1,0/0,0,0,0,1,1,0,0,0,-10,3
+Brazil,USA,73,89,2609,8,Tainá Paixão,16:06,3,1/4,1/3,0/1,1/2,0,1,1,2,3,2,0,0,-9,0
+Brazil,USA,73,89,2609,10,Tati Pacheco,15:01,7,2/2,1/1,1/1,2/3,0,1,1,3,1,0,0,0,5,10
+Brazil,USA,73,89,2609,11,Clarissa  Dos Santos,26:25,11,4/10,4/10,0/0,3/3,0,4,4,1,3,2,0,0,-11,8
+Brazil,USA,73,89,2609,12,Damiris Dantas,27:59,16,6/15,3/6,3/9,1/1,0,5,5,1,4,1,0,0,-12,12
+Brazil,USA,73,89,2609,14,Erika De Souza,22:50,13,6/8,6/8,0/0,1/2,0,5,5,2,2,2,2,0,-5,17
+Brazil,USA,73,89,2609,18,Débora Costa,25:07,3,1/2,0/0,1/2,0/0,1,0,1,3,3,1,0,0,-15,5
+Brazil,USA,73,89,2609,23,Alana Gonçalo,14:53,3,1/3,0/0,1/3,0/0,0,0,0,4,2,3,1,0,-1,3
+Brazil,USA,73,89,2609,31,Nadia Colhado,02:46,2,1/4,1/4,0/0,0/0,0,1,1,0,0,0,0,0,-4,0
+Brazil,USA,73,89,2609,97,Mariana Dias,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Canada,Dominican Republic,78,50,2609,4,Sami Hill,22:24,7,2/7,1/3,1/4,2/4,0,2,2,4,3,2,3,0,18,7
+Canada,Dominican Republic,78,50,2609,6,Bridget Carleton,27:02,15,6/8,4/4,2/4,1/2,2,3,5,1,0,0,1,0,26,19
+Canada,Dominican Republic,78,50,2609,7,Nayo Raincock-Ekunwe,22:12,3,0/5,0/4,0/1,3/4,1,3,4,4,1,3,0,1,20,3
+Canada,Dominican Republic,78,50,2609,8,Kim Gaucher,11:46,3,1/4,1/1,0/3,1/1,0,4,4,0,0,2,2,1,12,5
+Canada,Dominican Republic,78,50,2609,9,Miranda Ayim,20:21,11,5/8,4/7,1/1,0/0,2,3,5,0,2,0,2,1,8,16
+Canada,Dominican Republic,78,50,2609,10,Miah-Marie Langlois,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Canada,Dominican Republic,78,50,2609,12,Jamie Scott,27:27,14,4/6,0/0,4/6,2/2,2,4,6,3,1,2,0,0,14,19
+Canada,Dominican Republic,78,50,2609,13,Shay Colley,14:47,0,0/4,0/2,0/2,0/0,0,1,1,4,0,3,0,0,14,-2
+Canada,Dominican Republic,78,50,2609,14,Kayla Alexander,19:06,11,5/9,5/9,0/0,1/1,4,6,10,2,1,3,1,0,22,17
+Canada,Dominican Republic,78,50,2609,15,Aaliyah Edwards,15:23,8,2/2,2/2,0/0,4/6,0,2,2,1,3,1,1,1,3,10
+Canada,Dominican Republic,78,50,2609,22,Ruth Hamblin,15:40,4,2/4,2/4,0/0,0/0,0,1,1,0,1,1,0,1,2,3
+Canada,Dominican Republic,78,50,2609,23,Quinn Dornstauder,03:52,2,1/2,1/2,0/0,0/0,0,0,0,0,2,2,0,0,1,-1
+Dominican Republic,Canada,50,78,2609,1,Cheisy Hernandez,13:54,6,2/5,0/1,2/4,0/0,0,1,1,1,2,3,2,1,-2,5
+Dominican Republic,Canada,50,78,2609,2,Maria Marte,12:55,0,0/5,0/5,0/0,0/0,0,0,0,0,0,0,0,0,-15,-5
+Dominican Republic,Canada,50,78,2609,4,Julady Zapata,20:49,2,1/6,1/5,0/1,0/0,1,2,3,3,0,3,1,0,-11,1
+Dominican Republic,Canada,50,78,2609,5,Yohanna Morton,27:21,9,3/15,2/13,1/2,2/2,1,2,3,2,1,2,2,0,-19,2
+Dominican Republic,Canada,50,78,2609,6,Jennifer Estrella,09:05,3,1/3,0/0,1/3,0/0,0,0,0,1,3,2,0,0,-3,0
+Dominican Republic,Canada,50,78,2609,7,Genesis Evangelista,16:11,2,1/3,1/3,0/0,0/0,1,0,1,2,0,4,0,0,-17,-1
+Dominican Republic,Canada,50,78,2609,8,Charlenny Frias,15:05,0,0/5,0/3,0/2,0/0,0,3,3,1,3,4,0,0,-17,-5
+Dominican Republic,Canada,50,78,2609,9,Marlem Caceres,16:19,9,4/5,4/5,0/0,1/2,0,2,2,0,1,0,1,0,-5,10
+Dominican Republic,Canada,50,78,2609,10,Nicole Guerrero,04:40,0,0/0,0/0,0/0,0/0,0,1,1,2,0,0,0,0,0,3
+Dominican Republic,Canada,50,78,2609,12,Flor  Jones,18:39,4,2/2,2/2,0/0,0/1,0,5,5,0,3,1,1,0,-6,8
+Dominican Republic,Canada,50,78,2609,13,Giocelis Reynoso,25:30,6,2/7,2/7,0/0,2/3,2,0,2,0,2,0,3,1,-26,6
+Dominican Republic,Canada,50,78,2609,15,Sugeiry Monsac,19:32,9,4/9,3/6,1/3,0/0,4,0,4,3,3,1,1,0,-19,11
+Puerto Rico,Mexico,79,39,2609,0,Jennifer O'Neill,24:14,11,5/10,5/8,0/2,1/1,1,3,4,2,1,1,0,1,27,12
+Puerto Rico,Mexico,79,39,2609,2,Tayra Melendez,19:49,9,4/8,3/6,1/2,0/0,2,4,6,1,2,3,1,2,16,12
+Puerto Rico,Mexico,79,39,2609,3,Anushka Maldonado,15:21,7,2/8,0/2,2/6,1/2,2,1,3,1,1,0,1,2,16,7
+Puerto Rico,Mexico,79,39,2609,5,Pamela Rosado,24:28,5,2/8,1/3,1/5,0/0,2,7,9,8,1,0,2,0,26,18
+Puerto Rico,Mexico,79,39,2609,9,Ali Gibson,21:27,6,3/8,3/5,0/3,0/1,3,2,5,2,2,0,0,1,21,8
+Puerto Rico,Mexico,79,39,2609,11,Sofia Roma,13:20,0,0/4,0/4,0/0,0/0,2,2,4,1,2,1,0,0,5,0
+Puerto Rico,Mexico,79,39,2609,12,Dayshalee Salaman,05:22,2,1/2,1/1,0/1,0/1,0,2,2,1,1,0,0,0,11,3
+Puerto Rico,Mexico,79,39,2609,20,Deanna Kuzmanic,18:33,12,4/6,0/0,4/6,0/0,0,5,5,4,1,1,0,0,19,18
+Puerto Rico,Mexico,79,39,2609,22,Daneichka Canales,15:46,7,3/6,2/3,1/3,0/0,0,3,3,1,2,0,3,0,13,11
+Puerto Rico,Mexico,79,39,2609,24,Jazmon Gwathmey,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Puerto Rico,Mexico,79,39,2609,25,Isalys Quiñones,20:43,8,4/8,4/6,0/2,0/0,2,5,7,0,1,2,0,1,20,10
+Puerto Rico,Mexico,79,39,2609,33,India Pagan,20:57,12,5/7,5/7,0/0,2/2,2,4,6,2,2,2,1,0,26,17
+Mexico,Puerto Rico,39,79,2609,3,Daniela Soto,16:39,6,2/5,0/2,2/3,0/0,1,0,1,0,3,1,1,0,-15,4
+Mexico,Puerto Rico,39,79,2609,4,Daniela Pardo,19:49,4,2/4,2/2,0/2,0/0,0,3,3,1,0,3,2,0,-18,5
+Mexico,Puerto Rico,39,79,2609,5,Jacqueline Luna-Castro,37:49,3,1/9,1/6,0/3,1/2,4,5,9,0,3,3,0,2,-38,2
+Mexico,Puerto Rico,39,79,2609,6,Gladys Avila,37:21,10,2/15,2/12,0/3,6/7,0,1,1,3,1,1,2,0,-34,1
+Mexico,Puerto Rico,39,79,2609,8,Paola Beltran,07:26,1,0/2,0/1,0/1,1/2,0,1,1,0,0,3,1,0,-16,-3
+Mexico,Puerto Rico,39,79,2609,9,Jacqueline Ramirez,01:45,0,0/0,0/0,0/0,0/2,0,1,1,0,0,0,0,0,-5,-1
+Mexico,Puerto Rico,39,79,2609,10,Irlanda Castaneda,02:27,0,0/1,0/1,0/0,0/0,1,0,1,0,0,0,0,0,-5,0
+Mexico,Puerto Rico,39,79,2609,11,Casandra Asencio,07:45,0,0/1,0/1,0/0,0/0,0,0,0,0,0,0,1,0,-11,0
+Mexico,Puerto Rico,39,79,2609,12,Paola Estrada,24:12,5,2/11,1/7,1/4,0/0,4,3,7,0,2,0,1,0,-14,4
+Mexico,Puerto Rico,39,79,2609,13,Carolina Romo,27:48,8,3/9,3/7,0/2,2/2,2,6,8,0,1,0,0,0,-23,10
+Mexico,Puerto Rico,39,79,2609,14,Jazmin Valenzuela,02:14,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-7,0
+Mexico,Puerto Rico,39,79,2609,50,Kimberly Taylor,14:45,2,0/4,0/4,0/0,2/2,0,2,2,0,2,1,0,1,-14,0
+Dominican Republic,Argentina,67,65,2809,1,Cheisy Hernandez,11:52,3,1/3,0/1,1/2,0/0,1,1,2,1,2,1,1,0,-1,4
+Dominican Republic,Argentina,67,65,2809,2,Maria Marte,09:17,4,2/7,2/7,0/0,0/0,1,1,2,0,0,0,1,0,-7,2
+Dominican Republic,Argentina,67,65,2809,4,Julady Zapata,28:23,4,1/9,1/8,0/1,2/2,1,6,7,2,1,0,2,0,9,7
+Dominican Republic,Argentina,67,65,2809,5,Yohanna Morton,32:44,18,7/13,7/12,0/1,4/4,4,3,7,2,4,5,2,0,-1,18
+Dominican Republic,Argentina,67,65,2809,6,Jennifer Estrella,06:09,2,1/1,1/1,0/0,0/0,0,1,1,0,0,0,0,0,2,3
+Dominican Republic,Argentina,67,65,2809,7,Genesis Evangelista,20:05,9,2/5,2/4,0/1,5/7,0,1,1,4,2,4,1,0,9,6
+Dominican Republic,Argentina,67,65,2809,8,Charlenny Frias,07:02,2,0/1,0/1,0/0,2/2,0,0,0,1,0,1,1,0,-4,2
+Dominican Republic,Argentina,67,65,2809,9,Marlem Caceres,10:21,4,1/3,1/3,0/0,2/2,1,1,2,0,2,0,0,0,-1,4
+Dominican Republic,Argentina,67,65,2809,10,Nicole Guerrero,04:28,0,0/1,0/1,0/0,0/0,0,0,0,0,1,0,0,0,-1,-1
+Dominican Republic,Argentina,67,65,2809,12,Flor  Jones,19:25,6,3/8,3/8,0/0,0/0,5,2,7,0,2,2,1,2,2,9
+Dominican Republic,Argentina,67,65,2809,13,Giocelis Reynoso,23:56,2,1/8,1/8,0/0,0/0,4,8,12,1,1,3,1,0,1,6
+Dominican Republic,Argentina,67,65,2809,15,Sugeiry Monsac,26:18,13,5/13,5/12,0/1,3/3,3,5,8,2,1,2,0,0,2,13
+Argentina,Dominican Republic,65,67,2809,1,Luciana De la Barba,28:31,10,4/9,4/7,0/2,2/2,0,3,3,6,2,2,2,0,4,14
+Argentina,Dominican Republic,65,67,2809,2,Agustina Garcia,14:10,10,4/7,3/6,1/1,1/2,0,2,2,0,3,1,2,0,-1,9
+Argentina,Dominican Republic,65,67,2809,5,Macarena Durso,06:42,0,0/1,0/0,0/1,0/0,1,0,1,2,0,1,0,0,0,1
+Argentina,Dominican Republic,65,67,2809,6,Victoria Llorente,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Argentina,Dominican Republic,65,67,2809,7,Julieta Ale,06:47,2,1/1,1/1,0/0,0/0,0,1,1,1,1,0,0,0,0,4
+Argentina,Dominican Republic,65,67,2809,8,Andrea Boquete,36:13,14,6/14,4/11,2/3,0/0,1,4,5,4,2,3,0,1,3,13
+Argentina,Dominican Republic,65,67,2809,9,Celia Fiorotto,11:49,0,0/0,0/0,0/0,0/0,0,2,2,0,4,3,1,1,-12,1
+Argentina,Dominican Republic,65,67,2809,10,Agostina Burani,27:38,9,3/7,3/7,0/0,3/5,2,4,6,1,4,4,0,2,1,8
+Argentina,Dominican Republic,65,67,2809,13,Debora Gonzalez,32:27,11,2/11,1/5,1/6,6/8,0,5,5,3,1,4,0,0,-3,4
+Argentina,Dominican Republic,65,67,2809,14,Sofia Aispurua,25:03,6,2/5,0/2,2/3,0/0,2,2,4,3,4,3,2,1,0,10
+Argentina,Dominican Republic,65,67,2809,15,Mara Marchizotti,06:53,0,0/1,0/1,0/0,0/0,0,0,0,0,0,0,0,0,1,-1
+Argentina,Dominican Republic,65,67,2809,22,Natacha Perez,03:47,3,1/2,0/0,1/2,0/0,0,0,0,0,0,0,0,0,-3,2
+Cuba,Colombia,62,75,2809,0,Anilegna Colas,09:41,1,0/1,0/0,0/1,1/2,0,1,1,0,0,2,0,0,-16,-2
+Cuba,Colombia,62,75,2809,2,Lisdeyvi Martinez,20:28,3,1/5,0/3,1/2,0/0,0,0,0,1,1,2,0,0,0,-2
+Cuba,Colombia,62,75,2809,9,Yamara Amargo,40:00,11,3/16,2/11,1/5,4/4,2,3,5,1,1,1,0,0,-13,3
+Cuba,Colombia,62,75,2809,10,Anay Garcia,00:33,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Cuba,Colombia,62,75,2809,15,Suchitel Avila,22:25,8,3/11,1/4,2/7,0/0,0,8,8,5,4,0,1,0,-6,14
+Cuba,Colombia,62,75,2809,17,Isabela  Jourdain,07:29,0,0/1,0/1,0/0,0/0,1,2,3,1,0,0,1,0,-2,4
+Cuba,Colombia,62,75,2809,20,Leanyi Becquer,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Cuba,Colombia,62,75,2809,21,Klavdia Calvo,27:24,7,3/7,2/6,1/1,0/0,2,3,5,3,4,0,0,0,-12,11
+Cuba,Colombia,62,75,2809,55,Dairis Tornell,16:34,11,5/8,4/7,1/1,0/2,0,1,1,1,2,2,4,0,-4,10
+Cuba,Colombia,62,75,2809,56,Anisleidy Galindo,29:08,13,3/10,1/7,2/3,5/6,3,7,10,5,3,3,1,0,-5,18
+Cuba,Colombia,62,75,2809,80,Enriqueta Neyra,22:09,8,4/7,4/7,0/0,0/0,2,1,3,1,2,1,1,0,-6,9
+Cuba,Colombia,62,75,2809,83,Lisandra  Vargas,04:09,0,0/0,0/0,0/0,0/0,0,0,0,0,0,1,0,0,-1,-1
+Colombia,Cuba,75,62,2809,4,Manuela Rios,26:36,10,5/8,5/7,0/1,0/0,1,3,4,6,0,1,2,0,9,18
+Colombia,Cuba,75,62,2809,5,Wendy Coy,01:08,2,1/1,1/1,0/0,0/0,0,0,0,0,0,1,0,0,2,1
+Colombia,Cuba,75,62,2809,6,Yuliany Paz,23:20,6,3/8,3/8,0/0,0/0,2,8,10,0,4,2,0,3,0,12
+Colombia,Cuba,75,62,2809,7,Mayra Caicedo,11:40,3,1/2,0/1,1/1,0/0,0,1,1,2,1,2,2,0,6,5
+Colombia,Cuba,75,62,2809,8,Carolina Lopez,01:32,0,0/0,0/0,0/0,0/0,0,0,0,0,1,1,1,0,0,0
+Colombia,Cuba,75,62,2809,9,María Palacio,11:56,7,3/5,2/2,1/3,0/0,0,1,1,3,1,2,1,0,2,8
+Colombia,Cuba,75,62,2809,10,Mabel Martínez,35:10,13,4/11,3/7,1/4,4/6,1,7,8,5,2,0,0,0,16,17
+Colombia,Cuba,75,62,2809,11,Yaneth Arias,32:10,13,6/10,6/9,0/1,1/2,1,3,4,0,0,0,0,2,18,14
+Colombia,Cuba,75,62,2809,12,Jenifer Muñoz,32:14,14,5/13,3/9,2/4,2/4,0,2,2,4,1,1,2,0,4,11
+Colombia,Cuba,75,62,2809,14,Marlyn Vente,08:50,2,1/2,1/2,0/0,0/0,1,2,3,0,0,0,0,0,-6,4
+Colombia,Cuba,75,62,2809,19,Daniela Gonzalez,15:24,5,2/3,1/1,1/2,0/0,1,1,2,2,2,1,0,0,14,7
+Canada,Brazil,66,58,2809,4,Sami Hill,19:17,4,0/3,0/0,0/3,4/4,0,0,0,0,1,3,2,1,3,1
+Canada,Brazil,66,58,2809,6,Bridget Carleton,32:24,9,3/8,1/4,2/4,1/2,0,8,8,2,3,3,3,2,2,15
+Canada,Brazil,66,58,2809,7,Nayo Raincock-Ekunwe,28:37,9,3/8,3/7,0/1,3/8,4,6,10,2,2,4,1,0,4,8
+Canada,Brazil,66,58,2809,8,Kim Gaucher,07:04,2,1/1,1/1,0/0,0/0,0,3,3,1,0,0,0,0,2,6
+Canada,Brazil,66,58,2809,9,Miranda Ayim,15:18,6,3/8,3/7,0/1,0/0,0,1,1,0,4,0,1,0,8,3
+Canada,Brazil,66,58,2809,10,Miah-Marie Langlois,12:29,0,0/5,0/3,0/2,0/0,0,0,0,2,1,2,2,0,-1,-3
+Canada,Brazil,66,58,2809,12,Jamie Scott,23:19,4,1/2,1/1,0/1,2/2,1,2,3,1,1,0,0,0,4,7
+Canada,Brazil,66,58,2809,13,Shay Colley,24:55,23,5/12,4/9,1/3,12/15,0,4,4,2,2,3,1,1,12,18
+Canada,Brazil,66,58,2809,14,Kayla Alexander,26:49,7,3/8,3/8,0/0,1/1,2,4,6,0,3,2,1,1,-9,8
+Canada,Brazil,66,58,2809,15,Aaliyah Edwards,01:26,0,0/0,0/0,0/0,0/0,0,0,0,0,1,0,0,0,2,0
+Canada,Brazil,66,58,2809,22,Ruth Hamblin,08:22,2,1/2,1/2,0/0,0/0,0,3,3,0,1,0,0,0,13,4
+Canada,Brazil,66,58,2809,23,Quinn Dornstauder,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Brazil,Canada,58,66,2809,3,Isabela Ramona,10:37,2,1/4,1/3,0/1,0/0,0,1,1,1,1,3,0,0,-6,-2
+Brazil,Canada,58,66,2809,5,Rapha Monteiro,03:47,0,0/0,0/0,0/0,0/0,0,0,0,0,1,1,2,0,3,1
+Brazil,Canada,58,66,2809,7,Patty Teixeira,25:06,8,3/10,1/5,2/5,0/0,0,4,4,2,2,1,0,0,-4,6
+Brazil,Canada,58,66,2809,8,Tainá Paixão,27:23,2,1/12,1/7,0/5,0/2,0,0,0,5,4,1,2,0,-6,-5
+Brazil,Canada,58,66,2809,10,Tati Pacheco,07:32,0,0/2,0/1,0/1,0/0,0,1,1,1,1,1,0,0,-5,-1
+Brazil,Canada,58,66,2809,11,Clarissa  Dos Santos,25:32,14,6/11,6/11,0/0,2/3,3,4,7,1,3,2,2,1,-15,17
+Brazil,Canada,58,66,2809,12,Damiris Dantas,32:35,16,6/13,5/10,1/3,3/5,1,8,9,2,1,2,1,0,-3,17
+Brazil,Canada,58,66,2809,14,Erika De Souza,27:33,8,3/5,3/5,0/0,2/7,3,6,9,4,3,3,1,3,2,15
+Brazil,Canada,58,66,2809,18,Débora Costa,28:56,8,3/8,1/3,2/5,0/0,0,1,1,3,4,4,2,0,-2,5
+Brazil,Canada,58,66,2809,23,Alana Gonçalo,08:26,0,0/1,0/0,0/1,0/0,0,3,3,0,2,0,0,0,-3,2
+Brazil,Canada,58,66,2809,31,Nadia Colhado,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Brazil,Canada,58,66,2809,97,Mariana Dias,02:33,0,0/0,0/0,0/0,0/0,0,2,2,0,2,1,0,0,-1,1
+USA,Puerto Rico,78,54,2809,13,Sylvia Fowles,22:58,17,7/11,7/11,0/0,3/6,6,7,13,3,2,3,1,0,15,24
+USA,Puerto Rico,78,54,2809,14,Tina Charles,22:16,14,5/10,5/10,0/0,4/4,1,9,10,1,0,1,0,0,14,19
+USA,Puerto Rico,78,54,2809,20,Brittney Sykes,12:12,6,1/2,1/2,0/0,4/4,2,2,4,2,1,0,0,0,4,11
+USA,Puerto Rico,78,54,2809,21,Jordin Canada,21:00,6,3/6,3/6,0/0,0/0,0,3,3,2,3,2,0,0,9,6
+USA,Puerto Rico,78,54,2809,22,Diamond De Shields,22:32,4,1/3,1/2,0/1,2/2,0,0,0,2,0,3,0,1,21,2
+USA,Puerto Rico,78,54,2809,24,Napheesa  Collier,23:03,4,2/10,2/7,0/3,0/1,5,5,10,4,1,2,0,0,17,7
+USA,Puerto Rico,78,54,2809,30,Elizabeth Williams,10:12,2,1/2,1/2,0/0,0/2,1,3,4,0,0,0,0,1,2,4
+USA,Puerto Rico,78,54,2809,31,Stefanie Dolson,15:55,4,1/2,1/2,0/0,2/2,5,1,6,1,0,2,2,0,10,10
+USA,Puerto Rico,78,54,2809,33,Katie Lou Samuelson,18:26,10,4/8,2/3,2/5,0/0,0,5,5,1,4,1,0,0,13,11
+USA,Puerto Rico,78,54,2809,34,Arike Ogunbowale,23:38,7,1/7,1/3,0/4,5/6,0,6,6,1,2,2,0,0,17,5
+USA,Puerto Rico,78,54,2809,41,Khadijah Sessions,04:25,0,0/2,0/1,0/1,0/0,0,0,0,0,1,1,0,0,-2,-3
+USA,Puerto Rico,78,54,2809,42,Olivia Nelson-Ododa,03:23,4,2/2,2/2,0/0,0/0,0,0,0,1,1,0,0,0,0,5
+Puerto Rico,USA,54,78,2809,0,Jennifer O'Neill,20:24,2,1/16,1/13,0/3,0/0,2,2,4,1,0,0,0,0,-19,-8
+Puerto Rico,USA,54,78,2809,2,Tayra Melendez,13:59,2,1/4,1/3,0/1,0/0,1,0,1,1,1,0,0,1,-22,2
+Puerto Rico,USA,54,78,2809,3,Anushka Maldonado,15:56,2,1/3,1/1,0/2,0/0,0,3,3,0,5,0,0,0,0,3
+Puerto Rico,USA,54,78,2809,5,Pamela Rosado,24:17,12,5/11,3/9,2/2,0/0,1,3,4,2,2,1,0,0,-18,11
+Puerto Rico,USA,54,78,2809,9,Ali Gibson,14:14,2,1/6,1/4,0/2,0/2,1,1,2,0,2,0,0,0,-18,-3
+Puerto Rico,USA,54,78,2809,11,Sofia Roma,07:26,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-6,0
+Puerto Rico,USA,54,78,2809,12,Dayshalee Salaman,23:19,9,3/10,3/9,0/1,3/4,0,3,3,1,1,2,0,0,-8,3
+Puerto Rico,USA,54,78,2809,20,Deanna Kuzmanic,12:34,4,2/4,2/3,0/1,0/0,0,1,1,1,2,0,1,0,-5,5
+Puerto Rico,USA,54,78,2809,22,Daneichka Canales,08:43,4,2/2,2/2,0/0,0/0,1,1,2,1,0,0,1,0,2,8
+Puerto Rico,USA,54,78,2809,24,Jazmon Gwathmey,15:07,4,1/4,1/3,0/1,2/2,1,1,2,3,3,1,1,0,-4,6
+Puerto Rico,USA,54,78,2809,25,Isalys Quiñones,22:10,9,2/9,0/4,2/5,3/4,1,4,5,0,3,1,0,0,-11,5
+Puerto Rico,USA,54,78,2809,33,India Pagan,21:51,4,1/5,1/5,0/0,2/2,1,0,1,1,3,0,2,1,-11,5
+Brazil,Puerto Rico,95,66,2909,3,Isabela Ramona,24:07,5,2/3,1/1,1/2,0/0,0,0,0,3,2,2,0,0,13,5
+Brazil,Puerto Rico,95,66,2909,5,Rapha Monteiro,09:01,4,2/2,2/2,0/0,0/0,1,3,4,1,0,1,0,1,2,9
+Brazil,Puerto Rico,95,66,2909,7,Patty Teixeira,15:29,3,1/1,0/0,1/1,0/0,0,1,1,5,1,1,0,0,14,8
+Brazil,Puerto Rico,95,66,2909,8,Tainá Paixão,15:53,3,1/4,1/2,0/2,1/2,1,3,4,2,1,1,0,0,16,4
+Brazil,Puerto Rico,95,66,2909,10,Tati Pacheco,19:19,15,6/7,3/3,3/4,0/0,1,2,3,4,1,1,1,0,16,21
+Brazil,Puerto Rico,95,66,2909,11,Clarissa  Dos Santos,16:35,8,3/6,3/6,0/0,2/2,5,1,6,1,3,3,1,0,13,10
+Brazil,Puerto Rico,95,66,2909,12,Damiris Dantas,28:22,28,11/17,7/11,4/6,2/2,1,8,9,8,1,3,0,0,29,36
+Brazil,Puerto Rico,95,66,2909,14,Erika De Souza,21:21,16,6/12,6/12,0/0,4/4,3,7,10,3,3,1,0,1,19,23
+Brazil,Puerto Rico,95,66,2909,18,Débora Costa,20:12,2,1/4,1/2,0/2,0/1,0,1,1,3,4,3,3,0,11,2
+Brazil,Puerto Rico,95,66,2909,23,Alana Gonçalo,19:48,9,3/5,0/1,3/4,0/0,0,0,0,4,5,0,0,0,18,11
+Brazil,Puerto Rico,95,66,2909,31,Nadia Colhado,06:04,2,1/2,1/2,0/0,0/0,0,1,1,0,1,0,0,1,-1,3
+Brazil,Puerto Rico,95,66,2909,97,Mariana Dias,03:49,0,0/1,0/1,0/0,0/0,0,1,1,0,1,2,0,0,-5,-2
+Puerto Rico,Brazil,66,95,2909,0,Jennifer O'Neill,25:51,9,2/7,2/7,0/0,5/5,0,4,4,1,0,3,2,0,-24,8
+Puerto Rico,Brazil,66,95,2909,2,Tayra Melendez,20:29,4,1/3,1/2,0/1,2/2,1,0,1,1,2,1,0,0,-15,3
+Puerto Rico,Brazil,66,95,2909,3,Anushka Maldonado,07:59,5,2/4,1/2,1/2,0/0,0,1,1,1,5,1,0,0,-2,4
+Puerto Rico,Brazil,66,95,2909,5,Pamela Rosado,24:35,7,1/6,0/2,1/4,4/5,1,1,2,3,0,0,0,0,-18,6
+Puerto Rico,Brazil,66,95,2909,9,Ali Gibson,10:06,0,0/2,0/2,0/0,0/0,0,1,1,0,0,0,0,0,-15,-1
+Puerto Rico,Brazil,66,95,2909,11,Sofia Roma,03:25,2,1/1,1/1,0/0,0/0,0,0,0,0,0,0,0,0,-5,2
+Puerto Rico,Brazil,66,95,2909,12,Dayshalee Salaman,19:30,15,4/9,4/9,0/0,7/10,0,2,2,4,1,1,0,0,-15,12
+Puerto Rico,Brazil,66,95,2909,20,Deanna Kuzmanic,11:06,3,1/3,0/0,1/3,0/0,0,0,0,0,0,0,0,0,1,1
+Puerto Rico,Brazil,66,95,2909,22,Daneichka Canales,08:22,3,1/5,1/4,0/1,1/1,2,0,2,1,3,0,0,0,1,2
+Puerto Rico,Brazil,66,95,2909,24,Jazmon Gwathmey,24:23,8,3/8,3/7,0/1,2/4,2,4,6,0,3,1,1,0,-15,7
+Puerto Rico,Brazil,66,95,2909,25,Isalys Quiñones,27:11,8,3/9,1/5,2/4,0/0,1,1,2,3,2,0,1,0,-25,8
+Puerto Rico,Brazil,66,95,2909,33,India Pagan,17:03,2,1/4,1/4,0/0,0/0,0,1,1,0,2,2,1,0,-13,-1
+Canada,USA,46,67,2909,4,Sami Hill,21:27,4,1/8,1/6,0/2,2/2,0,1,1,2,1,1,1,0,-8,0
+Canada,USA,46,67,2909,6,Bridget Carleton,24:18,2,1/9,1/7,0/2,0/1,0,5,5,1,3,2,1,0,-9,-2
+Canada,USA,46,67,2909,7,Nayo Raincock-Ekunwe,26:57,4,2/6,2/6,0/0,0/2,3,2,5,0,2,5,0,0,-18,-2
+Canada,USA,46,67,2909,8,Kim Gaucher,06:16,0,0/0,0/0,0/0,0/0,0,1,1,0,3,1,0,0,-7,0
+Canada,USA,46,67,2909,9,Miranda Ayim,26:47,9,3/9,2/4,1/5,2/2,1,3,4,1,3,2,1,1,-8,8
+Canada,USA,46,67,2909,10,Miah-Marie Langlois,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Canada,USA,46,67,2909,12,Jamie Scott,24:56,12,5/15,4/9,1/6,1/1,3,4,7,1,2,3,1,0,-17,8
+Canada,USA,46,67,2909,13,Shay Colley,24:54,6,3/12,3/8,0/4,0/1,1,4,5,0,1,2,0,0,-11,-1
+Canada,USA,46,67,2909,14,Kayla Alexander,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Canada,USA,46,67,2909,15,Aaliyah Edwards,18:41,9,4/6,3/5,1/1,0/0,1,2,3,0,1,1,4,0,-11,13
+Canada,USA,46,67,2909,22,Ruth Hamblin,20:54,0,0/4,0/4,0/0,0/2,0,5,5,1,0,0,1,2,-9,3
+Canada,USA,46,67,2909,23,Quinn Dornstauder,04:49,0,0/0,0/0,0/0,0/0,0,0,0,0,1,1,0,0,-7,-1
+USA,Canada,67,46,2909,13,Sylvia Fowles,16:40,12,5/6,5/6,0/0,2/3,1,5,6,2,3,4,0,2,9,16
+USA,Canada,67,46,2909,14,Tina Charles,25:46,12,6/10,6/10,0/0,0/0,3,8,11,2,0,1,1,0,18,21
+USA,Canada,67,46,2909,20,Brittney Sykes,07:15,0,0/4,0/3,0/1,0/0,0,1,1,0,0,1,0,0,-2,-4
+USA,Canada,67,46,2909,21,Jordin Canada,30:34,11,3/11,3/11,0/0,5/6,4,2,6,2,1,1,1,0,26,10
+USA,Canada,67,46,2909,22,Diamond De Shields,14:40,6,2/7,1/5,1/2,1/1,0,1,1,3,0,2,0,0,15,3
+USA,Canada,67,46,2909,24,Napheesa  Collier,24:55,5,2/6,2/3,0/3,1/1,5,6,11,3,1,2,1,0,24,14
+USA,Canada,67,46,2909,30,Elizabeth Williams,09:46,0,0/1,0/1,0/0,0/0,0,1,1,2,2,1,0,0,-1,1
+USA,Canada,67,46,2909,31,Stefanie Dolson,16:09,10,4/6,3/5,1/1,1/2,1,3,4,0,3,0,0,2,6,13
+USA,Canada,67,46,2909,33,Katie Lou Samuelson,20:33,2,1/5,1/3,0/2,0/0,1,2,3,1,0,0,0,1,1,3
+USA,Canada,67,46,2909,34,Arike Ogunbowale,21:07,7,2/10,2/6,0/4,3/3,0,0,0,1,2,2,1,0,3,-1
+USA,Canada,67,46,2909,41,Khadijah Sessions,06:50,0,0/4,0/2,0/2,0/0,1,0,1,0,0,1,1,0,-3,-3
+USA,Canada,67,46,2909,42,Olivia Nelson-Ododa,05:45,2,1/2,1/2,0/0,0/0,1,3,4,0,0,1,0,0,9,4

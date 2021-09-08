@@ -1,0 +1,1345 @@
+country,vs,team_score,vs_score,date,#,Players,Min,Pts,FG,2Pts,3Pts,FT,OREB,DREB,REB,AST,PF,TO,STL,BLK,+/-,EFF
+Italy,Belgium,73,52,0607,4,Beatrice Stroscio,11:41,9,4/5,3/3,1/2,0/1,0,2,2,0,1,0,0,0,12,9
+Italy,Belgium,73,52,0607,5,Alessandra Orsili,20:38,8,3/7,2/4,1/3,1/2,1,2,3,2,3,1,2,0,16,9
+Italy,Belgium,73,52,0607,6,Silvia Nativi,11:47,0,0/2,0/0,0/2,0/0,0,4,4,0,0,0,0,0,6,2
+Italy,Belgium,73,52,0607,7,Caterina Gilli,22:16,9,3/7,2/6,1/1,2/4,2,6,8,3,3,2,4,1,9,17
+Italy,Belgium,73,52,0607,9,Giulia Natali,25:27,10,4/9,4/7,0/2,2/2,0,2,2,4,2,1,4,0,14,14
+Italy,Belgium,73,52,0607,10,Francesca Leonardi,13:17,3,1/3,1/1,0/2,1/2,1,1,2,0,2,0,0,0,1,2
+Italy,Belgium,73,52,0607,11,Silvia Pastrello,20:00,7,3/4,3/4,0/0,1/4,1,5,6,0,0,1,3,2,8,13
+Italy,Belgium,73,52,0607,12,Martina Spinelli,22:39,4,1/6,1/6,0/0,2/2,1,1,2,1,4,4,0,0,10,-2
+Italy,Belgium,73,52,0607,14,Ilaria Panzera,22:18,17,6/9,3/5,3/4,2/4,1,3,4,2,0,4,1,0,15,15
+Italy,Belgium,73,52,0607,15,Clara Rosini,04:30,0,0/1,0/1,0/0,0/0,1,0,1,2,0,0,0,0,7,2
+Italy,Belgium,73,52,0607,16,Lucia Adele Savatteri,09:45,0,0/1,0/1,0/0,0/0,2,2,4,0,0,1,0,0,6,2
+Italy,Belgium,73,52,0607,18,Meriem Nasraoui,15:42,6,3/6,3/6,0/0,0/0,0,1,1,0,1,1,1,0,1,4
+Belgium,Italy,52,73,0607,4,Kyra Billiaert,05:05,0,0/0,0/0,0/0,0/0,0,1,1,0,1,0,0,0,-1,1
+Belgium,Italy,52,73,0607,5,Merel Knaepen,11:44,3,1/3,1/2,0/1,1/1,2,1,3,2,2,1,1,0,-6,6
+Belgium,Italy,52,73,0607,6,Sam Van Buggenhout,29:29,11,3/12,2/4,1/8,4/4,1,2,3,3,2,2,1,0,-15,7
+Belgium,Italy,52,73,0607,7,Yante Aline Anna Strumane,10:04,2,1/2,1/1,0/1,0/0,1,0,1,0,1,0,0,0,-10,2
+Belgium,Italy,52,73,0607,8,Kadiatou Traore,18:29,0,0/4,0/4,0/0,0/0,0,5,5,1,3,2,0,0,-7,0
+Belgium,Italy,52,73,0607,9,Elena Vielfont,24:15,0,0/2,0/2,0/0,0/0,1,1,2,3,0,3,1,0,-13,1
+Belgium,Italy,52,73,0607,10,Frances Duhamel,04:00,0,0/1,0/1,0/0,0/0,0,0,0,0,1,0,0,0,-1,-1
+Belgium,Italy,52,73,0607,11,Tesse Marianne Kapenga,21:40,4,2/7,2/5,0/2,0/1,2,2,4,0,1,3,0,0,-12,-1
+Belgium,Italy,52,73,0607,12,Kristina Pauline G. Ekofo Yomane,22:07,10,5/8,5/8,0/0,0/1,2,4,6,2,2,1,3,0,-6,16
+Belgium,Italy,52,73,0607,13,Maxuella Lisowa Mbaka,26:04,14,5/9,5/7,0/2,4/8,3,5,8,1,3,6,1,0,-13,10
+Belgium,Italy,52,73,0607,15,Sarah Bell,17:24,3,1/7,0/1,1/6,0/0,0,4,4,0,1,1,0,0,-18,0
+Belgium,Italy,52,73,0607,16,Emma Bell,09:39,5,2/6,1/4,1/2,0/0,0,1,1,1,1,0,1,0,-3,4
+France,Israel,95,39,0607,0,Jade Hamaoui,21:52,6,3/7,3/5,0/2,0/0,3,3,6,3,1,2,1,0,23,10
+France,Israel,95,39,0607,6,Serena Kessler,21:59,13,5/10,2/4,3/6,0/0,2,4,6,2,0,0,0,1,40,17
+France,Israel,95,39,0607,7,Camille Hillotte,09:56,5,2/6,1/3,1/3,0/0,1,0,1,0,0,2,0,1,10,1
+France,Israel,95,39,0607,8,Yohana Isabelle Ewodo,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+France,Israel,95,39,0607,13,Janelle Illona Salaun,18:41,15,5/8,2/2,3/6,2/3,0,6,6,0,2,1,2,1,31,19
+France,Israel,95,39,0607,18,Emilie Raynaud,25:45,8,3/13,1/5,2/8,0/0,2,5,7,4,0,0,0,0,37,9
+France,Israel,95,39,0607,26,Eve Mahoutou,19:24,4,2/3,2/3,0/0,0/0,1,1,2,1,2,1,1,0,35,6
+France,Israel,95,39,0607,29,Ewl Guennoc,23:56,10,4/9,2/3,2/6,0/0,1,4,5,6,1,0,1,1,25,18
+France,Israel,95,39,0607,31,Aminata Gueye,13:17,8,3/3,3/3,0/0,2/2,4,4,8,3,2,2,1,0,19,18
+France,Israel,95,39,0607,34,Ténin Magassa,13:12,12,5/7,5/7,0/0,2/4,1,4,5,1,3,3,1,0,14,12
+France,Israel,95,39,0607,50,Marie Pardon,22:51,7,2/6,1/3,1/3,2/2,2,2,4,8,1,1,2,0,32,16
+France,Israel,95,39,0607,75,Vaciana Thérèse Dona Gomis,09:07,7,3/5,2/3,1/2,0/0,1,2,3,1,0,0,0,0,14,9
+Israel,France,39,95,0607,2,Shira Hagag,12:28,9,4/5,3/4,1/1,0/0,2,1,3,0,0,0,0,0,-18,11
+Israel,France,39,95,0607,3,Ebony Mary Simionovich,13:11,2,0/0,0/0,0/0,2/2,0,3,3,0,3,2,0,0,-9,3
+Israel,France,39,95,0607,7,Shahar Brener,06:31,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-10,0
+Israel,France,39,95,0607,8,Daniel Karsh,28:55,3,1/9,1/7,0/2,1/2,0,2,2,0,1,4,0,0,-47,-8
+Israel,France,39,95,0607,9,Noa Shimshi,12:48,3,1/3,0/0,1/3,0/0,0,2,2,0,1,0,0,0,-10,3
+Israel,France,39,95,0607,11,Adan Jaoussy,08:25,2,1/2,1/1,0/1,0/0,1,0,1,0,1,0,0,0,-6,2
+Israel,France,39,95,0607,12,Lior Garzon,22:36,5,1/10,0/3,1/7,2/4,0,3,3,1,1,3,0,0,-36,-5
+Israel,France,39,95,0607,13,Eden Zipel,25:21,6,3/14,3/9,0/5,0/0,3,3,6,0,1,1,3,0,-43,3
+Israel,France,39,95,0607,15,Gaya Sless,25:33,6,2/12,2/6,0/6,2/4,0,3,3,1,4,0,0,0,-34,-2
+Israel,France,39,95,0607,21,Gili Eisner,29:03,3,1/5,0/1,1/4,0/0,1,3,4,3,1,3,2,0,-50,5
+Israel,France,39,95,0607,27,Nitzan Amar,09:54,0,0/4,0/3,0/1,0/0,1,1,2,1,0,0,0,0,-16,-1
+Israel,France,39,95,0607,30,May Nesher,05:15,0,0/2,0/0,0/2,0/0,0,0,0,0,0,1,1,0,-1,-2
+Serbia,Russia,50,74,0607,1,Katarina Desic,12:06,1,0/5,0/2,0/3,1/2,2,1,3,3,1,1,0,0,-6,0
+Serbia,Russia,50,74,0607,2,Tamara Corto,18:23,8,3/7,3/5,0/2,2/4,1,0,1,0,2,4,0,0,0,-1
+Serbia,Russia,50,74,0607,4,Mona Zaric,14:50,0,0/4,0/3,0/1,0/0,1,0,1,1,2,2,0,1,-22,-3
+Serbia,Russia,50,74,0607,5,Sofija Radojcin,11:18,3,1/5,1/3,0/2,1/2,1,0,1,0,1,2,2,0,-13,-1
+Serbia,Russia,50,74,0607,6,Nadija Smailbegovic,11:14,0,0/2,0/1,0/1,0/0,0,0,0,0,3,1,2,0,-21,-1
+Serbia,Russia,50,74,0607,7,Visnja Stefanovic,25:21,4,2/2,2/2,0/0,0/0,3,6,9,1,4,5,0,0,-10,9
+Serbia,Russia,50,74,0607,10,Nikolina Deuric,28:54,5,2/6,2/6,0/0,1/2,1,4,5,3,1,3,4,2,-13,11
+Serbia,Russia,50,74,0607,12,Nikolija Jovanovic,11:43,0,0/5,0/4,0/1,0/0,0,1,1,0,0,0,1,0,-1,-3
+Serbia,Russia,50,74,0607,13,Nadezda Nedeljkov,14:47,6,0/5,0/2,0/3,6/8,4,1,5,1,1,3,1,0,-7,3
+Serbia,Russia,50,74,0607,14,Aleksandra Muzevic,23:34,19,5/7,2/3,3/4,6/7,0,5,5,0,0,2,1,0,-16,20
+Serbia,Russia,50,74,0607,15,Marija Ristic,18:49,2,1/10,1/10,0/0,0/0,5,3,8,0,1,2,1,0,-18,0
+Serbia,Russia,50,74,0607,16,Marta Mitrovic,09:01,2,1/3,1/3,0/0,0/0,0,2,2,0,5,0,0,0,7,2
+Russia,Serbia,74,50,0607,6,Aleksandra Siiamkina,18:10,0,0/3,0/2,0/1,0/0,0,2,2,0,4,1,1,0,10,-1
+Russia,Serbia,74,50,0607,8,Anastasiia Bobrik,23:43,19,7/9,6/7,1/2,4/4,2,3,5,0,2,3,2,2,7,23
+Russia,Serbia,74,50,0607,9,Aleksandra Kuzmitskaia,04:57,4,2/2,2/2,0/0,0/0,1,0,1,0,1,0,0,0,4,5
+Russia,Serbia,74,50,0607,13,Kristina Kord,04:29,0,0/1,0/0,0/1,0/0,0,0,0,0,2,2,1,0,-1,-2
+Russia,Serbia,74,50,0607,18,Elizaveta Andreeva,20:43,7,2/7,2/7,0/0,3/5,0,3,3,1,2,1,2,2,14,7
+Russia,Serbia,74,50,0607,20,Ksenia Filimonova,19:33,4,2/5,2/3,0/2,0/0,0,2,2,2,2,1,2,0,15,6
+Russia,Serbia,74,50,0607,22,Alexandra Strebkova,23:40,4,2/7,2/5,0/2,0/0,3,4,7,1,0,2,1,0,12,6
+Russia,Serbia,74,50,0607,23,Daria Goncharova,17:53,8,4/6,4/6,0/0,0/0,0,7,7,3,2,2,2,0,10,16
+Russia,Serbia,74,50,0607,27,Maria Rodionova,03:44,0,0/1,0/1,0/0,0/0,1,0,1,0,1,1,0,0,0,-1
+Russia,Serbia,74,50,0607,29,Mariia Krymova,24:34,12,3/7,2/5,1/2,5/8,0,1,1,0,3,1,2,0,25,7
+Russia,Serbia,74,50,0607,47,Anastasia Godunova,18:34,11,4/7,3/5,1/2,2/2,1,3,4,1,1,0,0,0,10,13
+Russia,Serbia,74,50,0607,86,Alexandra Andrushchenko,20:00,5,2/7,1/2,1/5,0/0,1,1,2,5,3,1,3,1,14,10
+Lithuania,Poland,69,54,0607,3,Aistė Švėgždaitė,14:05,0,0/2,0/2,0/0,0/0,0,1,1,0,5,1,0,0,4,-2
+Lithuania,Poland,69,54,0607,6,Dovilė Jankauskaitė,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Lithuania,Poland,69,54,0607,7,Kamilė Mickutė,07:34,3,1/1,0/0,1/1,0/0,0,2,2,1,1,0,1,0,1,7
+Lithuania,Poland,69,54,0607,9,Dominyka Paliulytė,07:59,3,0/0,0/0,0/0,3/4,0,1,1,2,1,3,0,2,0,4
+Lithuania,Poland,69,54,0607,10,Urtė Cižauskaitė,25:55,5,1/8,1/8,0/0,3/4,2,8,10,0,1,1,1,2,11,9
+Lithuania,Poland,69,54,0607,11,Brigita Sinickaitė,32:01,3,1/7,0/3,1/4,0/0,1,2,3,4,1,3,1,1,15,3
+Lithuania,Poland,69,54,0607,14,Justina Oficerovaitė,03:00,0,0/1,0/1,0/0,0/0,0,0,0,0,2,0,0,0,1,-1
+Lithuania,Poland,69,54,0607,15,Gedvilė Savostaitė,32:26,14,4/6,3/3,1/3,5/6,1,8,9,1,2,7,1,0,14,15
+Lithuania,Poland,69,54,0607,30,Audronė Zdanevičiūtė,07:05,1,0/0,0/0,0/0,1/2,0,1,1,0,0,2,0,0,-6,-1
+Lithuania,Poland,69,54,0607,31,Klaudija Janionytė,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Lithuania,Poland,69,54,0607,55,Simona Visockaitė,37:00,21,9/17,9/17,0/0,3/4,5,5,10,0,2,2,3,3,14,26
+Lithuania,Poland,69,54,0607,77,Justina Miknaitė,32:55,19,6/8,5/6,1/2,6/7,3,3,6,3,1,2,1,0,21,24
+Poland,Lithuania,54,69,0607,1,Alicja Katarzyna Rogozinska,20:47,2,1/5,1/5,0/0,0/2,0,0,0,3,1,1,2,0,-9,0
+Poland,Lithuania,54,69,0607,2,Julia  Bazan,24:18,5,2/10,1/9,1/1,0/0,2,2,4,3,2,0,1,0,-9,5
+Poland,Lithuania,54,69,0607,3,Aleksandra Katarzyna Ustowska,12:56,0,0/6,0/4,0/2,0/0,0,2,2,0,1,3,1,0,-6,-6
+Poland,Lithuania,54,69,0607,4,Emilia Eliza Kosla,18:22,9,4/8,4/7,0/1,1/1,1,0,1,2,4,3,2,0,1,7
+Poland,Lithuania,54,69,0607,5,Magdalena Zuzanna Szymkiewicz,16:24,4,1/7,1/3,0/4,2/2,1,2,3,0,2,1,2,0,-9,2
+Poland,Lithuania,54,69,0607,6,Zuzanna Weronika Kulinska,18:37,7,3/9,2/7,1/2,0/0,1,1,2,1,3,1,1,0,-13,4
+Poland,Lithuania,54,69,0607,7,Aleksandra Malgorzata Pszczolarska,20:21,4,2/9,2/8,0/1,0/0,3,3,6,0,2,2,1,1,-6,3
+Poland,Lithuania,54,69,0607,8,Weronika Dudek,04:08,2,0/0,0/0,0/0,2/2,1,0,1,0,0,0,0,0,-5,3
+Poland,Lithuania,54,69,0607,11,Weronika Piechowiak,23:20,7,2/6,1/4,1/2,2/4,0,5,5,0,2,1,1,0,-11,6
+Poland,Lithuania,54,69,0607,12,Kamila Borkowska,05:43,0,0/1,0/1,0/0,0/0,0,1,1,2,1,0,1,1,-2,4
+Poland,Lithuania,54,69,0607,13,Martyna Maria Kowalska,18:52,7,3/5,3/5,0/0,1/3,4,3,7,0,4,1,0,1,-5,10
+Poland,Lithuania,54,69,0607,14,Natalia Kurach,16:12,7,3/6,2/5,1/1,0/0,3,0,3,0,3,1,0,1,-1,7
+Czech Republic,Spain,48,80,0607,1,Adela Burtova,22:52,8,3/7,2/4,1/3,1/4,2,4,6,1,2,3,1,0,-27,6
+Czech Republic,Spain,48,80,0607,4,Katerina Zeithammerova,08:25,4,2/4,2/2,0/2,0/0,0,0,0,0,0,3,0,0,-2,-1
+Czech Republic,Spain,48,80,0607,6,Tereza Halatkova,23:03,7,3/8,3/3,0/5,1/2,0,4,4,2,3,7,0,0,-26,0
+Czech Republic,Spain,48,80,0607,7,Petra Malikova,18:59,3,1/3,1/2,0/1,1/2,0,2,2,2,0,6,3,1,-24,2
+Czech Republic,Spain,48,80,0607,8,Zuzana Sitancova,13:54,6,2/6,1/3,1/3,1/1,1,0,1,0,0,0,0,0,-6,3
+Czech Republic,Spain,48,80,0607,10,Eliska Hamzova,21:16,8,2/5,1/3,1/2,3/4,0,3,3,1,4,4,4,1,-8,9
+Czech Republic,Spain,48,80,0607,12,Monika Fucikova,22:11,1,0/4,0/4,0/0,1/2,1,2,3,2,1,5,1,0,-19,-3
+Czech Republic,Spain,48,80,0607,13,Andrea Ondrouskova,12:23,0,0/4,0/4,0/0,0/0,0,3,3,1,0,2,1,0,-10,-1
+Czech Republic,Spain,48,80,0607,14,Martina Pokorna,19:43,4,2/5,2/5,0/0,0/0,0,2,2,0,2,2,1,0,-9,2
+Czech Republic,Spain,48,80,0607,15,Julia Vydrova,04:35,2,1/1,1/1,0/0,0/0,0,0,0,0,0,1,1,0,-3,2
+Czech Republic,Spain,48,80,0607,17,Natalie Horsakova,15:42,0,0/4,0/4,0/0,0/0,0,3,3,1,2,3,0,0,-20,-3
+Czech Republic,Spain,48,80,0607,18,Anna Patorkova,16:57,5,2/6,2/4,0/2,1/2,2,2,4,0,1,3,1,0,-6,2
+Spain,Czech Republic,80,48,0607,4,Mama Dembele Traore,16:44,10,4/5,3/4,1/1,1/2,0,2,2,3,2,2,5,0,16,16
+Spain,Czech Republic,80,48,0607,5,Laia Lamana Llobera,15:16,0,0/4,0/3,0/1,0/0,1,3,4,6,2,3,1,0,12,4
+Spain,Czech Republic,80,48,0607,6,Cristina Mato de Prada,18:14,9,4/6,3/5,1/1,0/3,1,1,2,1,2,3,0,0,18,4
+Spain,Czech Republic,80,48,0607,7,Julia Soler,17:34,4,2/7,2/5,0/2,0/0,0,0,0,1,2,3,3,0,13,0
+Spain,Czech Republic,80,48,0607,8,Begona De Santiago Otero,13:45,7,2/5,1/4,1/1,2/2,0,2,2,1,3,3,3,0,8,7
+Spain,Czech Republic,80,48,0607,9,Laura Mendez Camps,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Spain,Czech Republic,80,48,0607,11,Estel Puiggros Rovira,15:55,5,2/6,1/4,1/2,0/0,0,0,0,4,3,1,0,0,13,4
+Spain,Czech Republic,80,48,0607,12,Nerea Hermosa Monreal,21:14,10,5/8,5/8,0/0,0/0,2,2,4,3,1,3,2,1,15,14
+Spain,Czech Republic,80,48,0607,13,Helena Pueyo Melchor,26:20,9,4/10,3/6,1/4,0/0,0,4,4,3,0,4,4,1,20,11
+Spain,Czech Republic,80,48,0607,14,Raquel Carrera Quintana,22:20,14,7/12,7/12,0/0,0/1,1,5,6,0,3,3,4,1,16,16
+Spain,Czech Republic,80,48,0607,15,Paula Fraile Ruiz,15:03,2,1/4,1/3,0/1,0/0,0,2,2,0,1,1,0,1,9,1
+Spain,Czech Republic,80,48,0607,16,Marta Garcia Mateo,17:35,10,5/8,5/8,0/0,0/0,2,5,7,2,1,1,3,1,20,19
+Latvia,Bosnia and Herzegovina,85,60,0607,4,Jete Katrina Nulle,21:21,9,2/5,0/0,2/5,3/4,0,5,5,7,5,2,3,0,21,18
+Latvia,Bosnia and Herzegovina,85,60,0607,5,Una Steinharde,10:20,2,0/5,0/2,0/3,2/2,0,2,2,1,3,0,0,0,-4,0
+Latvia,Bosnia and Herzegovina,85,60,0607,6,Ketija Vihmane,20:05,8,3/9,1/3,2/6,0/0,2,2,4,2,4,0,1,0,19,9
+Latvia,Bosnia and Herzegovina,85,60,0607,7,Paula Klescova,28:58,18,6/8,5/7,1/1,5/6,0,4,4,5,2,2,2,0,23,24
+Latvia,Bosnia and Herzegovina,85,60,0607,8,Juta Harčenko,20:08,16,7/9,7/8,0/1,2/4,1,2,3,0,2,0,0,0,29,15
+Latvia,Bosnia and Herzegovina,85,60,0607,10,Laura Meldere,23:00,8,3/16,3/14,0/2,2/4,8,5,13,4,3,2,0,1,8,9
+Latvia,Bosnia and Herzegovina,85,60,0607,11,Paula Maurina,10:06,2,1/5,1/5,0/0,0/0,3,0,3,1,0,3,0,0,-11,-1
+Latvia,Bosnia and Herzegovina,85,60,0607,12,Daniela Grigorjeva,08:49,2,1/3,1/3,0/0,0/0,0,2,2,0,2,0,1,0,12,3
+Latvia,Bosnia and Herzegovina,85,60,0607,13,Anita Megija Mikelsone,13:44,6,3/8,3/7,0/1,0/0,4,3,7,1,3,2,0,0,-1,7
+Latvia,Bosnia and Herzegovina,85,60,0607,14,Eva Indrike,14:55,4,2/7,2/4,0/3,0/2,1,1,2,0,5,1,1,0,9,-1
+Latvia,Bosnia and Herzegovina,85,60,0607,16,Nikola Priede,16:23,5,2/4,2/3,0/1,1/2,0,2,2,0,0,1,1,0,14,4
+Latvia,Bosnia and Herzegovina,85,60,0607,17,Madlena Irena Gerke,12:11,5,2/9,2/5,0/4,1/4,1,5,6,0,3,1,1,0,6,1
+Bosnia and Herzegovina,Latvia,60,85,0607,3,Jovana Kovacevic,03:52,3,1/1,1/1,0/0,1/2,1,0,1,0,1,1,0,0,-4,2
+Bosnia and Herzegovina,Latvia,60,85,0607,4,Vanja Božić,15:54,0,0/7,0/2,0/5,0/0,0,1,1,0,0,0,0,0,-1,-6
+Bosnia and Herzegovina,Latvia,60,85,0607,7,Sanja Radulovic,30:43,4,1/7,0/3,1/4,1/6,2,5,7,0,2,4,2,0,-14,-2
+Bosnia and Herzegovina,Latvia,60,85,0607,8,Ines Babic,21:15,5,2/6,1/3,1/3,0/0,0,4,4,1,1,2,1,0,2,5
+Bosnia and Herzegovina,Latvia,60,85,0607,9,Iman Peljto,00:54,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-3,0
+Bosnia and Herzegovina,Latvia,60,85,0607,10,Anđela Šipka,09:38,1,0/0,0/0,0/0,1/2,0,2,2,0,2,1,0,0,0,1
+Bosnia and Herzegovina,Latvia,60,85,0607,17,Ajla Selimović,22:05,4,1/6,1/6,0/0,2/2,4,4,8,0,3,3,0,0,-22,4
+Bosnia and Herzegovina,Latvia,60,85,0607,18,Darija Babić,11:47,5,0/2,0/2,0/0,5/6,1,3,4,1,2,0,0,1,-4,8
+Bosnia and Herzegovina,Latvia,60,85,0607,26,Marija Keseljevic,21:26,9,2/7,1/3,1/4,4/4,1,0,1,3,5,4,0,0,-22,4
+Bosnia and Herzegovina,Latvia,60,85,0607,27,Ksenija Mitric,28:29,16,4/14,3/7,1/7,7/8,1,2,3,2,3,3,4,0,-30,11
+Bosnia and Herzegovina,Latvia,60,85,0607,51,Azra Niksic,10:03,0,0/1,0/1,0/0,0/0,1,1,2,0,1,0,0,2,-5,3
+Bosnia and Herzegovina,Latvia,60,85,0607,69,Dragana Zubac,23:55,13,3/11,2/7,1/4,6/8,1,7,8,1,4,4,0,3,-22,11
+Croatia,Germany,48,75,0607,4,Mia Vuksic,23:29,2,1/8,1/3,0/5,0/0,2,2,4,0,1,3,1,1,-22,-2
+Croatia,Germany,48,75,0607,5,Edita Poljac,12:30,0,0/6,0/2,0/4,0/0,0,1,1,1,1,0,0,0,-1,-4
+Croatia,Germany,48,75,0607,7,Tonia Bilic,14:47,4,2/10,2/9,0/1,0/0,1,3,4,1,3,0,0,0,-15,1
+Croatia,Germany,48,75,0607,8,Ana Haklicka,08:47,2,1/3,1/2,0/1,0/0,1,0,1,0,2,2,1,0,-8,0
+Croatia,Germany,48,75,0607,9,Marta Savic,18:12,7,3/6,3/5,0/1,1/3,2,1,3,0,3,0,0,0,4,5
+Croatia,Germany,48,75,0607,10,Nika Muhl,28:35,12,5/18,5/16,0/2,2/4,2,4,6,5,2,3,5,1,-19,11
+Croatia,Germany,48,75,0607,11,Gabriela Grizelj,11:25,5,1/3,0/2,1/1,2/2,0,1,1,1,0,2,0,0,-8,3
+Croatia,Germany,48,75,0607,12,Ana Mandic,10:17,9,4/5,4/5,0/0,1/3,1,1,2,0,2,0,3,0,-4,11
+Croatia,Germany,48,75,0607,13,Iva Bosnjak,20:27,0,0/5,0/1,0/4,0/0,4,0,4,0,2,0,1,1,-8,1
+Croatia,Germany,48,75,0607,14,Petra Juric,20:10,2,1/5,1/5,0/0,0/0,1,2,3,0,0,3,0,2,-23,0
+Croatia,Germany,48,75,0607,15,Josipa Juric,21:48,3,1/5,1/5,0/0,1/2,4,3,7,0,5,2,1,6,-31,10
+Croatia,Germany,48,75,0607,24,Viktorija Curic,09:33,2,1/3,1/3,0/0,0/0,0,2,2,0,0,0,2,0,0,4
+Germany,Croatia,75,48,0607,5,Pauline Marie Mayer,13:37,0,0/4,0/2,0/2,0/0,1,2,3,3,1,1,0,0,1,1
+Germany,Croatia,75,48,0607,6,Nina Melissa Rosemeyer,14:28,5,1/3,0/2,1/1,2/2,0,1,1,0,0,6,1,0,8,-1
+Germany,Croatia,75,48,0607,9,Julia Margareta Förner,20:05,6,2/4,0/0,2/4,0/0,0,4,4,4,1,1,2,0,22,13
+Germany,Croatia,75,48,0607,10,Victoria Poros,05:30,0,0/2,0/0,0/2,0/0,0,1,1,0,1,3,0,0,2,-4
+Germany,Croatia,75,48,0607,11,Emily Bessoir,21:58,22,7/12,2/6,5/6,3/3,0,7,7,1,1,1,3,3,19,30
+Germany,Croatia,75,48,0607,12,Stella Marie Reichert,21:58,6,2/6,2/5,0/1,2/2,5,7,12,3,3,7,1,2,2,13
+Germany,Croatia,75,48,0607,14,Lotta Mia Stach,18:13,3,1/8,1/6,0/2,1/1,1,1,2,1,1,0,0,0,5,-1
+Germany,Croatia,75,48,0607,15,Praise Egharevba,15:09,8,3/6,3/6,0/0,2/3,4,1,5,0,3,0,1,0,0,10
+Germany,Croatia,75,48,0607,17,Elea Kristiana D. K. Gaba,18:56,1,0/2,0/2,0/0,1/2,2,0,2,2,3,2,0,0,20,0
+Germany,Croatia,75,48,0607,18,Meret Charlotte Kleine-Beek,19:00,3,1/7,1/4,0/3,1/2,1,2,3,1,1,3,1,0,24,-2
+Germany,Croatia,75,48,0607,21,Magdalena Landwehr,22:03,19,8/12,5/9,3/3,0/0,1,7,8,1,1,0,1,0,31,25
+Germany,Croatia,75,48,0607,24,Anabel Neuber Valdez,09:03,2,1/4,1/3,0/1,0/0,1,2,3,0,1,0,2,0,1,4
+Hungary,Belarus,97,61,0607,4,Dorottya Eszter Budacsik,20:57,10,5/6,5/6,0/0,0/0,3,7,10,1,3,4,2,0,23,18
+Hungary,Belarus,97,61,0607,5,Aya Kéita,10:33,2,1/5,1/4,0/1,0/0,1,0,1,1,1,0,0,0,15,0
+Hungary,Belarus,97,61,0607,6,Barbara Angyal,19:08,8,4/6,4/5,0/1,0/1,2,2,4,6,2,1,1,0,22,15
+Hungary,Belarus,97,61,0607,9,Fruzsina Reka Horvath,08:48,7,3/5,2/4,1/1,0/0,0,3,3,1,0,2,0,0,3,7
+Hungary,Belarus,97,61,0607,11,Berta Panna Boros,15:19,7,3/3,2/2,1/1,0/0,0,0,0,1,0,2,0,1,2,7
+Hungary,Belarus,97,61,0607,13,Reka Dombai,18:04,19,6/7,3/4,3/3,4/4,0,2,2,3,0,2,2,0,25,23
+Hungary,Belarus,97,61,0607,14,Aliz Varga,20:45,14,6/11,6/11,0/0,2/2,1,5,6,4,3,2,0,0,40,17
+Hungary,Belarus,97,61,0607,19,Nora Judit Wentzel,17:33,6,3/7,3/6,0/1,0/0,3,1,4,2,2,2,3,0,9,9
+Hungary,Belarus,97,61,0607,22,Dorina Szirony,15:23,2,1/6,1/5,0/1,0/2,1,1,2,0,2,2,3,0,-2,-2
+Hungary,Belarus,97,61,0607,23,Reka Manyoky,18:03,2,1/6,1/4,0/2,0/0,1,4,5,2,1,1,1,1,1,5
+Hungary,Belarus,97,61,0607,24,Julia Boros,21:02,11,5/7,4/4,1/3,0/0,1,3,4,5,1,0,1,1,36,20
+Hungary,Belarus,97,61,0607,30,Angelika Kiss,14:25,9,3/4,3/4,0/0,3/7,2,3,5,2,0,1,0,1,6,11
+Belarus,Hungary,61,97,0607,4,Anastasiya Halauchyner,11:45,2,0/3,0/3,0/0,2/2,1,0,1,1,2,2,1,0,-13,0
+Belarus,Hungary,61,97,0607,5,Yuliya Vasilevich,31:21,10,2/9,0/4,2/5,4/4,0,3,3,4,0,6,2,0,-29,6
+Belarus,Hungary,61,97,0607,6,Aliaksandra Chyzheuskaya,10:19,0,0/1,0/1,0/0,0/0,0,0,0,1,2,0,0,0,-6,0
+Belarus,Hungary,61,97,0607,7,Iryna Venskaya,21:17,7,3/10,2/7,1/3,0/0,0,0,0,3,4,2,1,0,-26,2
+Belarus,Hungary,61,97,0607,8,Yana Liabedzich,13:35,2,1/2,1/2,0/0,0/0,1,0,1,0,0,2,1,1,-23,2
+Belarus,Hungary,61,97,0607,9,Darya Siamiletnikava,12:45,6,1/6,1/6,0/0,4/6,3,0,3,0,0,1,0,0,-16,1
+Belarus,Hungary,61,97,0607,10,Iryna Krauchanka,18:56,3,0/4,0/4,0/0,3/4,0,3,3,1,2,0,0,0,-10,2
+Belarus,Hungary,61,97,0607,11,Aksana Isayenka,14:20,9,4/7,3/4,1/3,0/0,0,0,0,1,0,1,0,0,-11,6
+Belarus,Hungary,61,97,0607,13,Anastasiya Babak,26:08,13,6/14,5/11,1/3,0/0,1,3,4,1,0,2,1,0,-28,9
+Belarus,Hungary,61,97,0607,14,Veranika Samailiuk,13:31,5,2/6,1/3,1/3,0/0,2,6,8,1,3,2,0,2,-3,10
+Belarus,Hungary,61,97,0607,15,Maryia Trafimenkava,19:00,2,1/4,1/4,0/0,0/0,1,2,3,0,2,1,1,0,-9,2
+Belarus,Hungary,61,97,0607,18,Aliaksandra Shumeika,07:03,2,1/1,1/1,0/0,0/0,0,1,1,0,0,2,0,0,-6,1
+Belarus,Serbia,66,91,0707,4,Anastasiya Halauchyner,14:30,10,2/4,2/4,0/0,6/6,1,3,4,0,1,0,2,0,-6,14
+Belarus,Serbia,66,91,0707,5,Yuliya Vasilevich,22:37,9,3/9,1/5,2/4,1/1,1,1,2,3,2,4,2,0,-13,6
+Belarus,Serbia,66,91,0707,6,Aliaksandra Chyzheuskaya,11:23,7,3/4,3/4,0/0,1/1,0,0,0,0,2,0,0,0,-1,6
+Belarus,Serbia,66,91,0707,7,Iryna Venskaya,30:55,12,5/12,5/10,0/2,2/2,0,2,2,3,2,1,4,1,-16,14
+Belarus,Serbia,66,91,0707,8,Yana Liabedzich,21:15,4,1/8,1/6,0/2,2/4,1,1,2,0,1,1,1,0,-8,-3
+Belarus,Serbia,66,91,0707,9,Darya Siamiletnikava,05:28,0,0/3,0/3,0/0,0/0,0,1,1,0,1,1,0,0,-11,-3
+Belarus,Serbia,66,91,0707,10,Iryna Krauchanka,16:05,8,4/8,4/7,0/1,0/0,1,0,1,0,4,0,1,1,-2,7
+Belarus,Serbia,66,91,0707,11,Aksana Isayenka,21:08,5,2/10,1/9,1/1,0/0,0,3,3,2,1,1,0,1,-14,2
+Belarus,Serbia,66,91,0707,13,Anastasiya Babak,07:44,2,1/3,1/3,0/0,0/0,1,0,1,0,0,1,0,0,-13,0
+Belarus,Serbia,66,91,0707,14,Veranika Samailiuk,06:46,2,1/2,1/1,0/1,0/0,0,2,2,0,0,0,0,2,-7,5
+Belarus,Serbia,66,91,0707,15,Maryia Trafimenkava,24:03,7,3/7,3/7,0/0,1/2,1,2,3,1,4,4,4,0,-24,6
+Belarus,Serbia,66,91,0707,18,Aliaksandra Shumeika,18:06,0,0/5,0/5,0/0,0/0,1,0,1,2,0,1,1,0,-10,-2
+Serbia,Belarus,91,66,0707,1,Katarina Desic,08:56,1,0/1,0/0,0/1,1/2,0,0,0,1,0,2,0,0,1,-2
+Serbia,Belarus,91,66,0707,2,Tamara Corto,20:55,7,3/4,3/4,0/0,1/1,0,3,3,3,1,2,1,1,24,12
+Serbia,Belarus,91,66,0707,4,Mona Zaric,16:32,8,4/8,4/8,0/0,0/0,0,3,3,1,1,0,0,2,19,10
+Serbia,Belarus,91,66,0707,5,Sofija Radojcin,07:39,2,1/2,1/2,0/0,0/0,0,1,1,2,0,1,0,0,-8,3
+Serbia,Belarus,91,66,0707,6,Nadija Smailbegovic,20:53,14,6/6,4/4,2/2,0/0,1,0,1,6,2,2,0,0,34,19
+Serbia,Belarus,91,66,0707,7,Visnja Stefanovic,21:30,10,5/9,5/9,0/0,0/0,4,4,8,1,1,3,2,0,21,14
+Serbia,Belarus,91,66,0707,10,Nikolina Deuric,23:32,9,4/7,3/6,1/1,0/0,0,6,6,2,1,1,0,1,14,14
+Serbia,Belarus,91,66,0707,12,Nikolija Jovanovic,21:57,17,7/10,6/9,1/1,2/2,3,4,7,1,2,2,3,1,18,24
+Serbia,Belarus,91,66,0707,13,Nadezda Nedeljkov,16:28,12,3/7,1/4,2/3,4/4,0,2,2,4,1,3,1,0,-3,12
+Serbia,Belarus,91,66,0707,14,Aleksandra Muzevic,21:23,5,1/6,1/5,0/1,3/4,0,8,8,3,1,4,0,1,13,7
+Serbia,Belarus,91,66,0707,15,Marija Ristic,04:46,0,0/0,0/0,0/0,0/0,0,1,1,0,1,0,1,0,-11,2
+Serbia,Belarus,91,66,0707,16,Marta Mitrovic,15:19,6,3/3,3/3,0/0,0/2,0,3,3,0,5,6,2,0,3,3
+Spain,France,63,64,0707,4,Mama Dembele Traore,25:11,3,0/3,0/2,0/1,3/4,2,4,6,5,3,2,2,0,7,10
+Spain,France,63,64,0707,5,Laia Lamana Llobera,23:33,19,7/14,6/13,1/1,4/5,0,0,0,0,4,1,6,0,3,16
+Spain,France,63,64,0707,6,Cristina Mato de Prada,17:51,2,1/7,1/5,0/2,0/4,1,2,3,0,0,1,0,0,1,-6
+Spain,France,63,64,0707,7,Julia Soler,11:03,2,1/5,1/2,0/3,0/2,0,1,1,0,0,1,1,0,-7,-3
+Spain,France,63,64,0707,8,Begona De Santiago Otero,08:54,2,1/3,1/1,0/2,0/0,1,2,3,0,1,1,0,0,-2,2
+Spain,France,63,64,0707,9,Laura Mendez Camps,04:27,0,0/0,0/0,0/0,0/0,0,1,1,0,0,0,1,0,-7,2
+Spain,France,63,64,0707,11,Estel Puiggros Rovira,09:31,0,0/1,0/0,0/1,0/0,0,1,1,0,0,2,0,0,5,-2
+Spain,France,63,64,0707,12,Nerea Hermosa Monreal,16:58,6,3/5,3/5,0/0,0/2,2,3,5,0,4,1,0,0,1,6
+Spain,France,63,64,0707,13,Helena Pueyo Melchor,28:43,14,6/13,4/8,2/5,0/0,0,3,3,3,2,1,2,1,0,15
+Spain,France,63,64,0707,14,Raquel Carrera Quintana,36:55,13,3/13,3/13,0/0,7/12,4,2,6,1,2,1,3,0,-1,7
+Spain,France,63,64,0707,15,Paula Fraile Ruiz,03:05,0,0/0,0/0,0/0,0/0,0,1,1,0,0,0,0,0,0,1
+Spain,France,63,64,0707,16,Marta Garcia Mateo,13:49,2,1/4,1/4,0/0,0/0,2,0,2,0,2,0,0,0,-5,1
+France,Spain,64,63,0707,0,Jade Hamaoui,08:53,0,0/1,0/1,0/0,0/0,1,4,5,0,4,5,0,0,3,-1
+France,Spain,64,63,0707,6,Serena Kessler,25:52,11,4/11,3/7,1/4,2/4,2,3,5,1,2,2,2,1,10,9
+France,Spain,64,63,0707,7,Camille Hillotte,17:40,2,1/2,1/1,0/1,0/0,0,2,2,1,1,1,2,0,-6,5
+France,Spain,64,63,0707,8,Yohana Isabelle Ewodo,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+France,Spain,64,63,0707,13,Janelle Illona Salaun,25:13,12,3/7,1/3,2/4,4/5,2,6,8,2,3,7,0,0,-6,10
+France,Spain,64,63,0707,18,Emilie Raynaud,25:20,3,1/6,0/2,1/4,0/2,0,2,2,4,2,0,0,0,7,2
+France,Spain,64,63,0707,26,Eve Mahoutou,14:44,2,1/1,1/1,0/0,0/2,1,3,4,1,4,1,0,0,-4,4
+France,Spain,64,63,0707,29,Ewl Guennoc,16:01,4,2/4,2/4,0/0,0/0,0,1,1,5,3,0,0,0,-3,8
+France,Spain,64,63,0707,31,Aminata Gueye,20:35,12,5/6,5/6,0/0,2/4,2,7,9,1,3,4,3,0,-6,18
+France,Spain,64,63,0707,34,Ténin Magassa,18:26,11,5/6,5/6,0/0,1/6,2,6,8,1,2,2,0,2,12,14
+France,Spain,64,63,0707,50,Marie Pardon,27:16,7,3/9,3/8,0/1,1/4,4,3,7,1,3,6,2,0,-2,2
+France,Spain,64,63,0707,75,Vaciana Thérèse Dona Gomis,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Russia,Hungary,34,76,0707,6,Aleksandra Siiamkina,14:21,0,0/1,0/1,0/0,0/0,0,1,1,1,1,0,0,0,-15,1
+Russia,Hungary,34,76,0707,8,Anastasiia Bobrik,21:38,0,0/8,0/5,0/3,0/2,1,5,6,4,4,3,0,0,-23,-3
+Russia,Hungary,34,76,0707,9,Aleksandra Kuzmitskaia,06:48,2,1/2,1/2,0/0,0/2,0,2,2,0,0,0,0,0,-6,1
+Russia,Hungary,34,76,0707,13,Kristina Kord,13:14,3,1/4,1/3,0/1,1/2,0,3,3,0,1,3,0,0,-4,-1
+Russia,Hungary,34,76,0707,18,Elizaveta Andreeva,15:08,3,1/6,1/5,0/1,1/2,2,3,5,1,3,5,0,0,-16,-2
+Russia,Hungary,34,76,0707,20,Ksenia Filimonova,09:10,0,0/2,0/2,0/0,0/0,0,1,1,0,4,1,2,0,-14,0
+Russia,Hungary,34,76,0707,22,Alexandra Strebkova,26:36,5,2/7,1/6,1/1,0/0,0,8,8,0,3,2,1,0,-33,7
+Russia,Hungary,34,76,0707,23,Daria Goncharova,11:31,4,2/6,2/6,0/0,0/0,1,2,3,0,2,1,0,0,-10,2
+Russia,Hungary,34,76,0707,27,Maria Rodionova,10:45,0,0/1,0/1,0/0,0/0,0,1,1,1,1,4,1,0,-4,-2
+Russia,Hungary,34,76,0707,29,Mariia Krymova,18:55,3,1/2,1/1,0/1,1/2,0,1,1,1,3,3,0,0,-22,0
+Russia,Hungary,34,76,0707,47,Anastasia Godunova,28:13,2,1/6,1/5,0/1,0/0,1,4,5,0,0,3,3,0,-38,2
+Russia,Hungary,34,76,0707,86,Alexandra Andrushchenko,23:41,12,5/10,3/5,2/5,0/0,0,1,1,1,1,0,0,1,-25,10
+Hungary,Russia,76,34,0707,4,Dorottya Eszter Budacsik,18:32,8,3/4,3/4,0/0,2/6,1,4,5,1,2,0,2,0,36,11
+Hungary,Russia,76,34,0707,5,Aya Kéita,08:26,7,3/5,2/4,1/1,0/0,0,0,0,2,0,0,0,0,7,7
+Hungary,Russia,76,34,0707,6,Barbara Angyal,22:30,15,5/8,3/4,2/4,3/4,0,4,4,5,1,4,1,0,28,17
+Hungary,Russia,76,34,0707,9,Fruzsina Reka Horvath,12:11,5,2/5,1/2,1/3,0/0,0,2,2,1,2,1,2,0,13,6
+Hungary,Russia,76,34,0707,11,Berta Panna Boros,15:14,0,0/4,0/3,0/1,0/0,0,2,2,1,0,1,0,0,9,-2
+Hungary,Russia,76,34,0707,13,Reka Dombai,20:57,4,1/8,1/6,0/2,2/2,1,2,3,1,1,2,3,0,25,2
+Hungary,Russia,76,34,0707,14,Aliz Varga,26:28,10,3/8,1/5,2/3,2/3,3,9,12,2,0,2,0,0,28,16
+Hungary,Russia,76,34,0707,19,Nora Judit Wentzel,13:34,4,1/2,1/2,0/0,2/2,0,1,1,1,1,2,1,0,9,4
+Hungary,Russia,76,34,0707,22,Dorina Szirony,05:53,0,0/0,0/0,0/0,0/0,0,1,1,0,1,1,0,0,-1,0
+Hungary,Russia,76,34,0707,23,Reka Manyoky,21:19,9,3/6,1/2,2/4,1/1,0,8,8,3,3,2,0,0,30,15
+Hungary,Russia,76,34,0707,24,Julia Boros,19:21,7,3/9,2/6,1/3,0/0,1,2,3,2,1,0,1,0,19,7
+Hungary,Russia,76,34,0707,30,Angelika Kiss,15:35,7,2/6,2/6,0/0,3/4,2,1,3,0,1,0,1,1,7,7
+Poland,Latvia,84,89,0707,1,Alicja Katarzyna Rogozinska,31:01,13,6/12,5/8,1/4,0/1,1,8,9,7,2,2,2,0,3,22
+Poland,Latvia,84,89,0707,2,Julia  Bazan,12:12,0,0/3,0/3,0/0,0/0,0,0,0,0,1,0,0,0,-6,-3
+Poland,Latvia,84,89,0707,3,Aleksandra Katarzyna Ustowska,24:36,11,2/7,0/0,2/7,5/6,0,5,5,2,1,0,1,0,-1,13
+Poland,Latvia,84,89,0707,4,Emilia Eliza Kosla,08:37,1,0/2,0/2,0/0,1/2,1,0,1,0,1,1,0,0,-12,-2
+Poland,Latvia,84,89,0707,5,Magdalena Zuzanna Szymkiewicz,41:21,27,11/27,7/13,4/14,1/2,2,3,5,4,5,5,4,0,-2,18
+Poland,Latvia,84,89,0707,6,Zuzanna Weronika Kulinska,17:13,5,2/8,2/5,0/3,1/1,1,3,4,0,1,0,0,0,3,3
+Poland,Latvia,84,89,0707,7,Aleksandra Malgorzata Pszczolarska,03:59,3,1/3,0/1,1/2,0/0,1,0,1,0,0,0,0,0,-1,2
+Poland,Latvia,84,89,0707,8,Weronika Dudek,05:02,0,0/1,0/1,0/0,0/0,1,0,1,0,0,0,0,0,5,0
+Poland,Latvia,84,89,0707,11,Weronika Piechowiak,24:21,8,1/4,1/3,0/1,6/6,3,2,5,2,0,0,0,0,-4,12
+Poland,Latvia,84,89,0707,12,Kamila Borkowska,13:52,2,1/3,1/3,0/0,0/0,0,3,3,0,1,0,0,0,11,3
+Poland,Latvia,84,89,0707,13,Martyna Maria Kowalska,13:00,0,0/4,0/4,0/0,0/2,4,1,5,3,4,1,0,0,-9,1
+Poland,Latvia,84,89,0707,14,Natalia Kurach,29:46,14,5/12,4/10,1/2,3/6,3,3,6,0,4,1,2,1,-12,12
+Latvia,Poland,89,84,0707,4,Jete Katrina Nulle,32:59,15,5/9,0/0,5/9,0/0,0,4,4,4,5,4,1,0,1,16
+Latvia,Poland,89,84,0707,5,Una Steinharde,01:17,0,0/0,0/0,0/0,0/0,0,0,0,0,1,2,0,0,-2,-2
+Latvia,Poland,89,84,0707,6,Ketija Vihmane,26:35,11,4/7,1/1,3/6,0/0,0,1,1,2,5,1,0,0,18,10
+Latvia,Poland,89,84,0707,7,Paula Klescova,42:19,10,3/19,2/8,1/11,3/6,1,9,10,5,0,4,1,0,9,3
+Latvia,Poland,89,84,0707,8,Juta Harčenko,30:25,5,2/6,2/5,0/1,1/2,5,5,10,1,2,3,0,0,8,8
+Latvia,Poland,89,84,0707,10,Laura Meldere,40:55,28,9/21,7/19,2/2,8/11,8,12,20,5,2,2,1,3,16,40
+Latvia,Poland,89,84,0707,11,Paula Maurina,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Latvia,Poland,89,84,0707,12,Daniela Grigorjeva,02:31,0,0/0,0/0,0/0,0/0,0,0,0,0,2,0,0,0,-9,0
+Latvia,Poland,89,84,0707,13,Anita Megija Mikelsone,17:26,7,3/6,3/6,0/0,1/2,3,1,4,2,1,1,1,0,-3,9
+Latvia,Poland,89,84,0707,14,Eva Indrike,22:36,13,6/14,5/9,1/5,0/0,1,1,2,1,2,0,1,1,-3,10
+Latvia,Poland,89,84,0707,16,Nikola Priede,03:19,0,0/0,0/0,0/0,0/0,0,1,1,0,0,0,0,1,-3,2
+Latvia,Poland,89,84,0707,17,Madlena Irena Gerke,04:38,0,0/0,0/0,0/0,0/0,0,1,1,1,1,0,0,0,-7,2
+Israel,Czech Republic,57,70,0707,2,Shira Hagag,07:41,2,1/2,1/2,0/0,0/0,1,0,1,0,2,1,0,0,2,1
+Israel,Czech Republic,57,70,0707,3,Ebony Mary Simionovich,14:23,7,3/3,3/3,0/0,1/2,4,3,7,1,2,0,2,1,-4,17
+Israel,Czech Republic,57,70,0707,7,Shahar Brener,05:28,0,0/1,0/0,0/1,0/0,0,0,0,0,0,0,1,0,-5,0
+Israel,Czech Republic,57,70,0707,8,Daniel Karsh,34:01,14,6/17,5/10,1/7,1/3,0,2,2,2,3,4,1,0,-13,2
+Israel,Czech Republic,57,70,0707,9,Noa Shimshi,09:46,2,1/2,1/1,0/1,0/0,1,0,1,0,1,2,0,0,-9,0
+Israel,Czech Republic,57,70,0707,11,Adan Jaoussy,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Israel,Czech Republic,57,70,0707,12,Lior Garzon,26:44,8,3/9,2/4,1/5,1/2,0,5,5,0,2,2,2,0,-19,6
+Israel,Czech Republic,57,70,0707,13,Eden Zipel,25:17,6,2/9,2/6,0/3,2/3,0,4,4,4,4,5,0,2,-1,3
+Israel,Czech Republic,57,70,0707,15,Gaya Sless,35:59,18,6/14,0/3,6/11,0/0,0,7,7,2,2,1,1,0,-12,19
+Israel,Czech Republic,57,70,0707,21,Gili Eisner,32:07,0,0/9,0/2,0/7,0/0,2,4,6,5,2,1,3,1,-8,5
+Israel,Czech Republic,57,70,0707,27,Nitzan Amar,06:03,0,0/1,0/0,0/1,0/0,0,0,0,0,0,0,0,0,0,-1
+Israel,Czech Republic,57,70,0707,30,May Nesher,02:31,0,0/1,0/0,0/1,0/0,0,0,0,0,1,0,0,0,4,-1
+Czech Republic,Israel,70,57,0707,1,Adela Burtova,25:57,13,4/11,0/4,4/7,1/2,2,1,3,1,0,0,1,0,8,10
+Czech Republic,Israel,70,57,0707,4,Katerina Zeithammerova,29:02,14,5/9,3/3,2/6,2/4,0,2,2,4,1,2,1,0,10,13
+Czech Republic,Israel,70,57,0707,6,Tereza Halatkova,26:08,6,2/7,2/3,0/4,2/2,1,4,5,2,2,2,0,0,3,6
+Czech Republic,Israel,70,57,0707,7,Petra Malikova,17:08,12,4/8,2/4,2/4,2/2,1,2,3,1,0,1,1,0,1,12
+Czech Republic,Israel,70,57,0707,8,Zuzana Sitancova,10:29,4,1/4,0/1,1/3,1/2,0,0,0,0,1,0,0,0,1,0
+Czech Republic,Israel,70,57,0707,10,Eliska Hamzova,25:14,8,2/8,2/7,0/1,4/6,4,5,9,3,0,5,1,0,18,8
+Czech Republic,Israel,70,57,0707,12,Monika Fucikova,12:10,2,0/3,0/3,0/0,2/2,1,4,5,1,2,1,0,0,1,4
+Czech Republic,Israel,70,57,0707,13,Andrea Ondrouskova,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Czech Republic,Israel,70,57,0707,14,Martina Pokorna,20:27,2,1/6,1/6,0/0,0/0,0,2,2,0,1,0,1,0,-4,0
+Czech Republic,Israel,70,57,0707,15,Julia Vydrova,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Czech Republic,Israel,70,57,0707,17,Natalie Horsakova,12:00,1,0/3,0/3,0/0,1/2,1,3,4,0,2,1,0,0,13,0
+Czech Republic,Israel,70,57,0707,18,Anna Patorkova,21:25,8,3/5,1/2,2/3,0/2,1,11,12,2,3,3,1,0,14,16
+Bosnia and Herzegovina,Lithuania,69,67,0707,3,Jovana Kovacevic,17:09,8,3/6,3/6,0/0,2/4,0,4,4,0,3,0,0,0,3,7
+Bosnia and Herzegovina,Lithuania,69,67,0707,4,Vanja Božić,04:24,0,0/1,0/0,0/1,0/0,0,0,0,0,0,1,0,0,-5,-2
+Bosnia and Herzegovina,Lithuania,69,67,0707,7,Sanja Radulovic,28:53,0,0/4,0/1,0/3,0/0,1,2,3,1,1,2,1,0,0,-1
+Bosnia and Herzegovina,Lithuania,69,67,0707,8,Ines Babic,06:29,2,1/4,1/2,0/2,0/0,0,0,0,0,0,0,1,0,-5,0
+Bosnia and Herzegovina,Lithuania,69,67,0707,9,Iman Peljto,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Bosnia and Herzegovina,Lithuania,69,67,0707,10,Anđela Šipka,01:52,0,0/0,0/0,0/0,0/0,0,0,0,1,0,0,0,0,2,1
+Bosnia and Herzegovina,Lithuania,69,67,0707,17,Ajla Selimović,23:56,4,2/3,2/2,0/1,0/0,2,2,4,2,1,0,0,0,5,9
+Bosnia and Herzegovina,Lithuania,69,67,0707,18,Darija Babić,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Bosnia and Herzegovina,Lithuania,69,67,0707,26,Marija Keseljevic,33:00,14,4/8,2/4,2/4,4/6,1,5,6,7,4,3,4,0,1,22
+Bosnia and Herzegovina,Lithuania,69,67,0707,27,Ksenija Mitric,31:34,13,5/14,3/5,2/9,1/1,0,4,4,3,1,1,2,0,4,12
+Bosnia and Herzegovina,Lithuania,69,67,0707,51,Azra Niksic,18:52,6,2/3,2/3,0/0,2/3,1,4,5,0,3,0,0,0,1,9
+Bosnia and Herzegovina,Lithuania,69,67,0707,69,Dragana Zubac,33:51,22,6/13,6/11,0/2,10/15,1,5,6,0,4,3,2,0,4,15
+Lithuania,Bosnia and Herzegovina,67,69,0707,3,Aistė Švėgždaitė,16:30,1,0/2,0/1,0/1,1/4,3,3,6,2,2,1,0,0,-11,3
+Lithuania,Bosnia and Herzegovina,67,69,0707,6,Dovilė Jankauskaitė,05:03,3,1/3,0/2,1/1,0/0,2,0,2,1,2,3,0,0,0,1
+Lithuania,Bosnia and Herzegovina,67,69,0707,7,Kamilė Mickutė,01:15,0,0/0,0/0,0/0,0/0,0,0,0,0,2,0,0,0,-2,0
+Lithuania,Bosnia and Herzegovina,67,69,0707,9,Dominyka Paliulytė,09:49,7,2/6,1/4,1/2,2/3,1,1,2,2,3,1,1,0,8,6
+Lithuania,Bosnia and Herzegovina,67,69,0707,10,Urtė Cižauskaitė,31:02,8,3/11,3/8,0/3,2/2,4,5,9,0,2,2,0,1,9,8
+Lithuania,Bosnia and Herzegovina,67,69,0707,11,Brigita Sinickaitė,30:11,11,3/9,2/5,1/4,4/5,0,2,2,3,1,2,1,0,-10,8
+Lithuania,Bosnia and Herzegovina,67,69,0707,14,Justina Oficerovaitė,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Lithuania,Bosnia and Herzegovina,67,69,0707,15,Gedvilė Savostaitė,38:51,11,3/12,1/4,2/8,3/4,0,3,3,1,2,3,2,1,0,5
+Lithuania,Bosnia and Herzegovina,67,69,0707,30,Audronė Zdanevičiūtė,00:38,0,0/0,0/0,0/0,0/0,0,0,0,0,2,0,0,0,0,0
+Lithuania,Bosnia and Herzegovina,67,69,0707,31,Klaudija Janionytė,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Lithuania,Bosnia and Herzegovina,67,69,0707,55,Simona Visockaitė,32:28,12,6/12,6/12,0/0,0/0,3,6,9,0,3,1,0,2,-2,16
+Lithuania,Bosnia and Herzegovina,67,69,0707,77,Justina Miknaitė,34:13,14,6/11,5/8,1/3,1/1,1,8,9,2,4,3,0,0,-2,17
+Belgium,Croatia,55,75,0707,4,Kyra Billiaert,14:21,0,0/2,0/0,0/2,0/0,0,1,1,1,1,0,1,0,-12,1
+Belgium,Croatia,55,75,0707,5,Merel Knaepen,01:05,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,1,0
+Belgium,Croatia,55,75,0707,6,Sam Van Buggenhout,30:33,11,4/16,1/8,3/8,0/0,1,3,4,3,1,5,0,0,-16,1
+Belgium,Croatia,55,75,0707,7,Yante Aline Anna Strumane,05:26,0,0/0,0/0,0/0,0/0,0,1,1,0,1,0,0,0,1,1
+Belgium,Croatia,55,75,0707,8,Kadiatou Traore,09:17,0,0/0,0/0,0/0,0/0,0,0,0,0,3,2,0,0,-14,-2
+Belgium,Croatia,55,75,0707,9,Elena Vielfont,22:47,2,0/4,0/1,0/3,2/4,0,1,1,2,1,2,0,0,-3,-3
+Belgium,Croatia,55,75,0707,10,Frances Duhamel,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Belgium,Croatia,55,75,0707,11,Tesse Marianne Kapenga,24:23,7,2/8,1/4,1/4,2/6,1,1,2,2,2,2,1,0,-17,0
+Belgium,Croatia,55,75,0707,12,Kristina Pauline G. Ekofo Yomane,17:15,4,1/6,1/6,0/0,2/4,4,3,7,0,4,1,0,0,-16,3
+Belgium,Croatia,55,75,0707,13,Maxuella Lisowa Mbaka,31:05,17,6/18,6/15,0/3,5/7,4,8,12,1,2,2,1,0,-25,15
+Belgium,Croatia,55,75,0707,15,Sarah Bell,28:56,5,2/3,2/2,0/1,1/2,0,4,4,0,2,0,1,2,-11,10
+Belgium,Croatia,55,75,0707,16,Emma Bell,14:52,9,3/6,0/0,3/6,0/0,1,1,2,0,5,0,0,0,12,8
+Croatia,Belgium,75,55,0707,4,Mia Vuksic,36:07,6,2/12,0/2,2/10,0/0,0,1,1,4,2,0,1,0,24,2
+Croatia,Belgium,75,55,0707,5,Edita Poljac,10:54,0,0/4,0/2,0/2,0/0,0,1,1,1,2,1,1,0,3,-2
+Croatia,Belgium,75,55,0707,7,Tonia Bilic,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Croatia,Belgium,75,55,0707,8,Ana Haklicka,12:27,7,3/7,2/4,1/3,0/0,0,0,0,2,4,1,0,0,12,4
+Croatia,Belgium,75,55,0707,9,Marta Savic,20:13,11,3/7,3/6,0/1,5/5,2,3,5,0,3,1,1,1,16,13
+Croatia,Belgium,75,55,0707,10,Nika Muhl,38:58,12,4/11,3/9,1/2,3/5,0,6,6,8,1,3,3,0,22,17
+Croatia,Belgium,75,55,0707,11,Gabriela Grizelj,03:08,0,0/0,0/0,0/0,0/0,0,1,1,0,0,0,0,0,-6,1
+Croatia,Belgium,75,55,0707,12,Ana Mandic,24:02,14,4/8,4/8,0/0,6/8,6,4,10,3,4,1,0,0,22,20
+Croatia,Belgium,75,55,0707,13,Iva Bosnjak,18:27,13,3/9,0/1,3/8,4/5,1,4,5,0,0,1,0,0,5,10
+Croatia,Belgium,75,55,0707,14,Petra Juric,03:33,0,0/0,0/0,0/0,0/0,1,1,2,0,0,0,0,0,5,2
+Croatia,Belgium,75,55,0707,15,Josipa Juric,19:38,12,5/7,5/7,0/0,2/3,2,3,5,0,5,1,0,5,4,18
+Croatia,Belgium,75,55,0707,24,Viktorija Curic,12:34,0,0/3,0/3,0/0,0/0,4,2,6,1,0,0,2,0,-7,6
+Germany,Italy,36,58,0707,5,Pauline Marie Mayer,20:06,2,1/4,1/2,0/2,0/2,1,0,1,0,2,3,2,0,-19,-3
+Germany,Italy,36,58,0707,6,Nina Melissa Rosemeyer,22:31,0,0/7,0/5,0/2,0/0,1,3,4,2,2,3,1,0,-11,-3
+Germany,Italy,36,58,0707,9,Julia Margareta Förner,22:08,0,0/3,0/0,0/3,0/0,1,1,2,1,0,4,2,0,-6,-2
+Germany,Italy,36,58,0707,10,Victoria Poros,03:22,6,2/2,0/0,2/2,0/0,0,0,0,0,0,0,0,0,4,6
+Germany,Italy,36,58,0707,11,Emily Bessoir,17:43,0,0/4,0/0,0/4,0/0,0,5,5,0,3,1,1,0,-18,1
+Germany,Italy,36,58,0707,12,Stella Marie Reichert,16:23,4,0/6,0/5,0/1,4/6,1,4,5,0,2,2,1,0,-13,0
+Germany,Italy,36,58,0707,14,Lotta Mia Stach,09:59,0,0/4,0/1,0/3,0/0,1,0,1,0,1,1,0,0,-9,-4
+Germany,Italy,36,58,0707,15,Praise Egharevba,17:41,2,1/2,1/2,0/0,0/2,3,7,10,0,2,1,0,0,-6,8
+Germany,Italy,36,58,0707,17,Elea Kristiana D. K. Gaba,18:57,9,3/11,3/11,0/0,3/4,2,5,7,0,3,4,1,1,-13,5
+Germany,Italy,36,58,0707,18,Meret Charlotte Kleine-Beek,21:05,5,2/5,2/4,0/1,1/4,1,2,3,4,2,2,0,0,-10,4
+Germany,Italy,36,58,0707,21,Magdalena Landwehr,23:03,7,3/5,2/4,1/1,0/1,0,5,5,0,1,3,1,1,-13,8
+Germany,Italy,36,58,0707,24,Anabel Neuber Valdez,07:04,1,0/0,0/0,0/0,1/2,0,1,1,0,2,2,0,0,4,-1
+Italy,Germany,58,36,0707,4,Beatrice Stroscio,09:56,6,1/3,1/2,0/1,4/4,0,1,1,1,1,0,1,0,0,7
+Italy,Germany,58,36,0707,5,Alessandra Orsili,23:52,6,2/10,2/9,0/1,2/2,1,4,5,4,2,4,3,0,5,6
+Italy,Germany,58,36,0707,6,Silvia Nativi,07:20,2,1/2,1/2,0/0,0/0,0,2,2,3,0,1,1,0,4,6
+Italy,Germany,58,36,0707,7,Caterina Gilli,19:36,4,2/8,2/6,0/2,0/2,4,4,8,1,4,0,2,0,16,7
+Italy,Germany,58,36,0707,9,Giulia Natali,23:40,12,5/11,5/11,0/0,2/4,1,4,5,1,1,3,4,0,21,11
+Italy,Germany,58,36,0707,10,Francesca Leonardi,06:55,0,0/2,0/0,0/2,0/0,0,0,0,0,0,1,0,0,2,-3
+Italy,Germany,58,36,0707,11,Silvia Pastrello,22:09,4,2/5,2/3,0/2,0/2,1,3,4,1,1,0,0,1,14,5
+Italy,Germany,58,36,0707,12,Martina Spinelli,24:02,4,2/7,2/6,0/1,0/0,1,3,4,0,3,2,3,0,10,4
+Italy,Germany,58,36,0707,14,Ilaria Panzera,27:45,6,2/9,2/7,0/2,2/2,0,6,6,3,2,3,4,0,24,9
+Italy,Germany,58,36,0707,15,Clara Rosini,01:56,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,1,0
+Italy,Germany,58,36,0707,16,Lucia Adele Savatteri,09:27,2,1/1,1/1,0/0,0/2,1,1,2,0,1,0,0,1,0,3
+Italy,Germany,58,36,0707,18,Meriem Nasraoui,23:23,12,6/10,6/10,0/0,0/0,4,3,7,0,3,1,1,0,13,15
+Israel,Spain,58,77,0807,2,Shira Hagag,03:08,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-6,0
+Israel,Spain,58,77,0807,3,Ebony Mary Simionovich,21:09,8,4/6,4/6,0/0,0/0,1,3,4,2,0,2,2,1,-10,13
+Israel,Spain,58,77,0807,7,Shahar Brener,02:43,0,0/0,0/0,0/0,0/0,0,1,1,0,0,0,0,0,-2,1
+Israel,Spain,58,77,0807,8,Daniel Karsh,33:33,11,4/11,4/9,0/2,3/4,0,1,1,2,2,6,1,0,-15,1
+Israel,Spain,58,77,0807,9,Noa Shimshi,08:06,1,0/1,0/0,0/1,1/2,0,1,1,0,0,0,0,0,-7,0
+Israel,Spain,58,77,0807,11,Adan Jaoussy,06:57,2,1/2,1/1,0/1,0/0,0,1,1,0,1,0,0,0,-1,2
+Israel,Spain,58,77,0807,12,Lior Garzon,28:26,8,3/13,2/3,1/10,1/1,0,6,6,3,1,5,2,0,-18,4
+Israel,Spain,58,77,0807,13,Eden Zipel,36:19,26,10/18,7/11,3/7,3/4,3,3,6,0,1,7,2,2,-9,20
+Israel,Spain,58,77,0807,15,Gaya Sless,25:30,2,1/7,1/5,0/2,0/0,1,4,5,5,3,3,2,0,-14,5
+Israel,Spain,58,77,0807,21,Gili Eisner,33:10,0,0/4,0/2,0/2,0/0,0,9,9,5,4,4,1,0,-11,7
+Israel,Spain,58,77,0807,27,Nitzan Amar,00:59,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-2,0
+Israel,Spain,58,77,0807,30,May Nesher,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Spain,Israel,77,58,0807,4,Mama Dembele Traore,21:19,0,0/3,0/0,0/3,0/0,1,2,3,8,1,5,0,0,5,3
+Spain,Israel,77,58,0807,5,Laia Lamana Llobera,11:37,11,5/7,4/4,1/3,0/0,0,0,0,1,2,1,4,1,25,14
+Spain,Israel,77,58,0807,6,Cristina Mato de Prada,25:52,6,1/4,0/1,1/3,3/6,2,3,5,2,1,0,2,1,11,10
+Spain,Israel,77,58,0807,7,Julia Soler,26:30,13,4/14,1/6,3/8,2/2,1,3,4,1,0,4,3,0,15,7
+Spain,Israel,77,58,0807,8,Begona De Santiago Otero,12:48,0,0/5,0/3,0/2,0/0,2,2,4,1,1,1,5,0,13,4
+Spain,Israel,77,58,0807,9,Laura Mendez Camps,17:05,6,3/3,3/3,0/0,0/2,1,1,2,1,0,2,0,0,-7,5
+Spain,Israel,77,58,0807,11,Estel Puiggros Rovira,10:16,5,2/7,1/2,1/5,0/0,0,1,1,1,4,0,0,0,11,2
+Spain,Israel,77,58,0807,12,Nerea Hermosa Monreal,10:38,4,2/3,2/3,0/0,0/0,1,4,5,1,0,0,0,0,1,9
+Spain,Israel,77,58,0807,13,Helena Pueyo Melchor,26:57,9,4/12,3/6,1/6,0/0,1,2,3,4,0,2,5,1,6,12
+Spain,Israel,77,58,0807,14,Raquel Carrera Quintana,17:26,9,3/7,3/7,0/0,3/4,2,4,6,1,1,1,1,1,12,12
+Spain,Israel,77,58,0807,15,Paula Fraile Ruiz,03:58,2,0/0,0/0,0/0,2/2,2,0,2,0,0,1,0,0,4,3
+Spain,Israel,77,58,0807,16,Marta Garcia Mateo,15:34,12,6/8,6/8,0/0,0/0,1,3,4,0,2,2,0,1,-1,13
+Lithuania,Latvia,69,73,0807,3,Aistė Švėgždaitė,16:41,6,3/4,3/4,0/0,0/0,1,2,3,1,5,3,2,0,10,8
+Lithuania,Latvia,69,73,0807,6,Dovilė Jankauskaitė,10:44,4,1/1,1/1,0/0,2/2,0,4,4,0,0,0,0,0,1,8
+Lithuania,Latvia,69,73,0807,7,Kamilė Mickutė,14:45,3,1/2,0/1,1/1,0/0,0,2,2,1,2,1,0,0,15,4
+Lithuania,Latvia,69,73,0807,9,Dominyka Paliulytė,05:35,0,0/0,0/0,0/0,0/0,0,0,0,0,2,1,0,0,-3,-1
+Lithuania,Latvia,69,73,0807,10,Urtė Cižauskaitė,28:17,9,3/7,3/5,0/2,3/5,2,7,9,1,1,3,1,2,-17,13
+Lithuania,Latvia,69,73,0807,11,Brigita Sinickaitė,31:41,20,8/13,5/8,3/5,1/1,0,4,4,2,2,6,0,0,10,15
+Lithuania,Latvia,69,73,0807,14,Justina Oficerovaitė,00:03,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-3,0
+Lithuania,Latvia,69,73,0807,15,Gedvilė Savostaitė,17:06,2,0/1,0/0,0/1,2/4,0,2,2,2,4,3,0,0,-16,0
+Lithuania,Latvia,69,73,0807,30,Audronė Zdanevičiūtė,05:23,3,1/2,1/2,0/0,1/2,0,1,1,0,1,0,0,0,6,2
+Lithuania,Latvia,69,73,0807,31,Klaudija Janionytė,02:44,0,0/2,0/1,0/1,0/0,0,0,0,0,0,1,0,0,-11,-3
+Lithuania,Latvia,69,73,0807,55,Simona Visockaitė,34:35,18,8/14,8/14,0/0,2/2,1,5,6,0,5,1,0,2,2,19
+Lithuania,Latvia,69,73,0807,77,Justina Miknaitė,32:27,4,1/8,1/7,0/1,2/2,2,4,6,2,3,1,0,0,-14,4
+Latvia,Lithuania,73,69,0807,4,Jete Katrina Nulle,37:32,16,5/14,1/6,4/8,2/4,2,4,6,6,5,1,3,0,5,19
+Latvia,Lithuania,73,69,0807,5,Una Steinharde,05:15,0,0/2,0/1,0/1,0/0,0,0,0,0,0,0,0,0,-3,-2
+Latvia,Lithuania,73,69,0807,6,Ketija Vihmane,37:07,10,4/7,2/2,2/5,0/3,1,3,4,1,2,1,6,0,7,14
+Latvia,Lithuania,73,69,0807,7,Paula Klescova,31:49,4,2/7,2/5,0/2,0/0,1,4,5,4,4,1,0,0,0,7
+Latvia,Lithuania,73,69,0807,8,Juta Harčenko,06:13,1,0/1,0/1,0/0,1/2,0,0,0,2,0,2,1,0,-7,0
+Latvia,Lithuania,73,69,0807,10,Laura Meldere,34:45,30,8/23,8/20,0/3,14/17,7,6,13,3,2,0,1,2,10,31
+Latvia,Lithuania,73,69,0807,11,Paula Maurina,09:29,2,1/2,1/2,0/0,0/0,0,0,0,0,1,1,2,1,0,3
+Latvia,Lithuania,73,69,0807,12,Daniela Grigorjeva,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Latvia,Lithuania,73,69,0807,13,Anita Megija Mikelsone,15:59,0,0/5,0/5,0/0,0/0,1,2,3,1,1,2,1,0,3,-2
+Latvia,Lithuania,73,69,0807,14,Eva Indrike,18:57,10,4/6,2/4,2/2,0/0,1,1,2,2,2,1,0,0,9,11
+Latvia,Lithuania,73,69,0807,16,Nikola Priede,02:35,0,0/2,0/1,0/1,0/0,0,0,0,0,1,0,0,0,-3,-2
+Latvia,Lithuania,73,69,0807,17,Madlena Irena Gerke,00:19,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-1,0
+Croatia,Italy,60,80,0807,4,Mia Vuksic,18:14,15,4/9,0/1,4/8,3/3,0,1,1,1,1,3,2,0,-13,11
+Croatia,Italy,60,80,0807,5,Edita Poljac,15:26,1,0/0,0/0,0/0,1/2,1,1,2,1,0,3,1,0,-7,1
+Croatia,Italy,60,80,0807,7,Tonia Bilic,14:56,2,0/0,0/0,0/0,2/2,0,5,5,1,3,6,1,0,-11,3
+Croatia,Italy,60,80,0807,8,Ana Haklicka,11:56,0,0/0,0/0,0/0,0/0,1,0,1,1,4,3,0,0,-7,-1
+Croatia,Italy,60,80,0807,9,Marta Savic,22:44,7,2/11,2/11,0/0,3/5,2,5,7,1,4,2,2,0,-13,4
+Croatia,Italy,60,80,0807,10,Nika Muhl,17:47,2,0/2,0/1,0/1,2/4,1,3,4,5,2,5,1,0,-10,3
+Croatia,Italy,60,80,0807,11,Gabriela Grizelj,22:13,6,3/6,3/5,0/1,0/0,1,2,3,3,0,2,1,0,-10,8
+Croatia,Italy,60,80,0807,12,Ana Mandic,17:51,16,6/6,4/4,2/2,2/3,1,4,5,1,1,0,1,0,-5,22
+Croatia,Italy,60,80,0807,13,Iva Bosnjak,19:28,5,1/8,0/0,1/8,2/2,2,0,2,0,3,2,2,0,-2,0
+Croatia,Italy,60,80,0807,14,Petra Juric,12:18,0,0/3,0/3,0/0,0/0,1,3,4,0,0,0,2,0,-3,3
+Croatia,Italy,60,80,0807,15,Josipa Juric,16:15,4,2/3,2/3,0/0,0/0,1,2,3,0,5,4,0,5,-9,7
+Croatia,Italy,60,80,0807,24,Viktorija Curic,10:52,2,1/2,1/2,0/0,0/0,1,0,1,0,4,4,0,0,-10,-2
+Italy,Croatia,80,60,0807,4,Beatrice Stroscio,11:53,0,0/4,0/3,0/1,0/0,0,1,1,0,2,1,1,0,5,-3
+Italy,Croatia,80,60,0807,5,Alessandra Orsili,23:06,9,4/11,3/6,1/5,0/0,0,1,1,3,2,2,3,0,12,7
+Italy,Croatia,80,60,0807,6,Silvia Nativi,09:47,6,2/4,1/3,1/1,1/1,0,2,2,0,0,1,0,0,1,5
+Italy,Croatia,80,60,0807,7,Caterina Gilli,18:32,14,4/8,4/7,0/1,6/10,3,3,6,1,5,2,1,2,13,14
+Italy,Croatia,80,60,0807,9,Giulia Natali,26:12,15,5/7,5/7,0/0,5/5,0,1,1,3,1,3,8,0,17,22
+Italy,Croatia,80,60,0807,10,Francesca Leonardi,09:10,0,0/4,0/2,0/2,0/0,1,1,2,0,1,0,0,0,3,-2
+Italy,Croatia,80,60,0807,11,Silvia Pastrello,18:00,5,2/7,2/5,0/2,1/1,1,5,6,1,2,2,3,0,7,8
+Italy,Croatia,80,60,0807,12,Martina Spinelli,25:48,12,5/13,5/12,0/1,2/5,4,1,5,1,3,2,1,0,15,6
+Italy,Croatia,80,60,0807,14,Ilaria Panzera,24:15,13,6/8,5/6,1/2,0/4,1,2,3,2,2,2,4,0,10,14
+Italy,Croatia,80,60,0807,15,Clara Rosini,04:49,0,0/0,0/0,0/0,0/1,0,0,0,1,0,0,1,0,7,1
+Italy,Croatia,80,60,0807,16,Lucia Adele Savatteri,09:01,0,0/0,0/0,0/0,0/0,1,0,1,1,0,0,0,0,4,2
+Italy,Croatia,80,60,0807,18,Meriem Nasraoui,19:27,6,2/4,2/3,0/1,2/2,2,4,6,1,3,3,0,0,6,8
+Czech Republic,France,39,76,0807,1,Adela Burtova,23:04,3,1/8,0/3,1/5,0/0,0,1,1,1,2,2,4,0,-13,0
+Czech Republic,France,39,76,0807,4,Katerina Zeithammerova,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Czech Republic,France,39,76,0807,6,Tereza Halatkova,20:50,0,0/8,0/1,0/7,0/0,1,3,4,0,3,1,2,0,-21,-3
+Czech Republic,France,39,76,0807,7,Petra Malikova,25:28,11,5/9,4/6,1/3,0/2,2,4,6,1,1,3,1,0,-17,10
+Czech Republic,France,39,76,0807,8,Zuzana Sitancova,19:51,11,3/10,0/3,3/7,2/4,0,0,0,0,2,0,0,0,-25,2
+Czech Republic,France,39,76,0807,10,Eliska Hamzova,22:42,8,2/6,1/4,1/2,3/4,1,3,4,0,3,5,0,0,-14,2
+Czech Republic,France,39,76,0807,12,Monika Fucikova,17:18,2,1/7,1/5,0/2,0/0,3,2,5,2,1,3,2,0,-23,2
+Czech Republic,France,39,76,0807,13,Andrea Ondrouskova,11:37,0,0/3,0/2,0/1,0/0,1,1,2,0,0,1,0,0,-19,-2
+Czech Republic,France,39,76,0807,14,Martina Pokorna,06:34,2,1/2,1/2,0/0,0/0,0,0,0,0,4,1,0,0,-12,0
+Czech Republic,France,39,76,0807,15,Julia Vydrova,11:47,0,0/2,0/2,0/0,0/0,0,1,1,0,2,0,0,0,-19,-1
+Czech Republic,France,39,76,0807,17,Natalie Horsakova,21:39,0,0/0,0/0,0/0,0/0,1,3,4,0,4,1,0,0,-6,3
+Czech Republic,France,39,76,0807,18,Anna Patorkova,19:10,2,1/5,1/3,0/2,0/0,2,4,6,0,2,2,0,0,-16,2
+France,Czech Republic,76,39,0807,0,Jade Hamaoui,20:53,2,1/2,1/2,0/0,0/0,0,5,5,2,3,2,0,0,28,6
+France,Czech Republic,76,39,0807,6,Serena Kessler,23:28,7,3/9,2/6,1/3,0/0,1,4,5,3,1,0,3,0,9,12
+France,Czech Republic,76,39,0807,7,Camille Hillotte,23:40,12,4/9,2/5,2/4,2/2,0,4,4,2,1,1,2,0,25,14
+France,Czech Republic,76,39,0807,8,Yohana Isabelle Ewodo,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+France,Czech Republic,76,39,0807,13,Janelle Illona Salaun,21:36,10,3/7,1/3,2/4,2/3,2,4,6,2,0,2,0,2,12,13
+France,Czech Republic,76,39,0807,18,Emilie Raynaud,05:32,3,1/2,0/0,1/2,0/0,0,0,0,0,1,0,1,0,5,3
+France,Czech Republic,76,39,0807,26,Eve Mahoutou,22:12,4,2/3,2/3,0/0,0/2,0,4,4,0,1,1,1,0,18,5
+France,Czech Republic,76,39,0807,29,Ewl Guennoc,22:22,12,4/8,2/4,2/4,2/2,1,0,1,2,1,2,3,0,20,12
+France,Czech Republic,76,39,0807,31,Aminata Gueye,18:41,7,2/5,2/5,0/0,3/6,4,3,7,1,1,1,1,0,20,9
+France,Czech Republic,76,39,0807,34,Ténin Magassa,18:05,11,3/5,3/5,0/0,5/8,1,3,4,1,1,1,0,1,20,11
+France,Czech Republic,76,39,0807,50,Marie Pardon,23:31,8,4/10,4/8,0/2,0/0,0,3,3,5,0,2,1,1,28,10
+France,Czech Republic,76,39,0807,75,Vaciana Thérèse Dona Gomis,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Belgium,Germany,63,67,0807,4,Kyra Billiaert,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Belgium,Germany,63,67,0807,5,Merel Knaepen,05:30,4,2/4,2/3,0/1,0/1,0,2,2,1,1,0,0,0,1,4
+Belgium,Germany,63,67,0807,6,Sam Van Buggenhout,34:15,15,5/19,0/6,5/13,0/0,2,5,7,2,3,5,1,1,8,7
+Belgium,Germany,63,67,0807,7,Yante Aline Anna Strumane,04:41,3,1/1,1/1,0/0,1/2,1,1,2,0,1,0,0,0,-2,4
+Belgium,Germany,63,67,0807,8,Kadiatou Traore,15:16,0,0/1,0/1,0/0,0/0,0,1,1,0,2,1,0,0,-4,-1
+Belgium,Germany,63,67,0807,9,Elena Vielfont,25:05,6,3/5,3/4,0/1,0/0,0,2,2,3,1,3,0,0,1,6
+Belgium,Germany,63,67,0807,10,Frances Duhamel,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Belgium,Germany,63,67,0807,11,Tesse Marianne Kapenga,12:17,0,0/4,0/1,0/3,0/0,0,1,1,0,0,1,1,0,-12,-3
+Belgium,Germany,63,67,0807,12,Kristina Pauline G. Ekofo Yomane,28:44,6,2/7,2/6,0/1,2/2,2,6,8,0,4,0,0,1,-3,10
+Belgium,Germany,63,67,0807,13,Maxuella Lisowa Mbaka,34:27,21,9/11,8/10,1/1,2/3,3,6,9,2,4,1,3,0,-7,31
+Belgium,Germany,63,67,0807,15,Sarah Bell,31:51,5,1/9,0/3,1/6,2/2,1,2,3,3,3,2,2,1,0,4
+Belgium,Germany,63,67,0807,16,Emma Bell,07:56,3,1/3,0/1,1/2,0/0,0,1,1,0,4,0,0,0,-2,2
+Germany,Belgium,67,63,0807,5,Pauline Marie Mayer,12:42,0,0/1,0/0,0/1,0/0,0,1,1,2,1,1,0,0,3,1
+Germany,Belgium,67,63,0807,6,Nina Melissa Rosemeyer,13:55,4,1/3,1/3,0/0,2/3,0,0,0,1,1,0,0,0,1,2
+Germany,Belgium,67,63,0807,9,Julia Margareta Förner,27:18,3,1/6,1/3,0/3,1/4,2,5,7,4,1,5,1,0,1,2
+Germany,Belgium,67,63,0807,10,Victoria Poros,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Germany,Belgium,67,63,0807,11,Emily Bessoir,27:56,18,8/14,6/9,2/5,0/1,5,6,11,1,2,1,1,1,2,24
+Germany,Belgium,67,63,0807,12,Stella Marie Reichert,19:58,6,2/5,2/4,0/1,2/7,3,5,8,1,1,2,1,2,12,8
+Germany,Belgium,67,63,0807,14,Lotta Mia Stach,16:50,4,2/5,2/4,0/1,0/0,0,1,1,1,2,1,2,0,5,4
+Germany,Belgium,67,63,0807,15,Praise Egharevba,02:05,0,0/0,0/0,0/0,0/0,0,0,0,0,1,0,0,0,1,0
+Germany,Belgium,67,63,0807,17,Elea Kristiana D. K. Gaba,14:05,3,1/5,1/5,0/0,1/2,0,3,3,1,0,1,0,0,-7,1
+Germany,Belgium,67,63,0807,18,Meret Charlotte Kleine-Beek,30:06,14,3/6,1/2,2/4,6/9,0,4,4,3,2,1,1,0,0,15
+Germany,Belgium,67,63,0807,21,Magdalena Landwehr,26:49,13,4/11,2/8,2/3,3/3,1,3,4,3,0,2,1,1,-3,13
+Germany,Belgium,67,63,0807,24,Anabel Neuber Valdez,08:16,2,0/0,0/0,0/0,2/2,0,1,1,0,1,0,0,0,5,3
+Bosnia and Herzegovina,Poland,86,87,0807,3,Jovana Kovacevic,20:26,4,2/4,2/4,0/0,0/0,0,3,3,0,2,1,1,2,3,7
+Bosnia and Herzegovina,Poland,86,87,0807,4,Vanja Božić,03:40,0,0/2,0/0,0/2,0/0,0,0,0,0,0,0,0,0,-5,-2
+Bosnia and Herzegovina,Poland,86,87,0807,7,Sanja Radulovic,34:45,10,4/5,2/3,2/2,0/0,1,5,6,3,3,3,0,0,5,15
+Bosnia and Herzegovina,Poland,86,87,0807,8,Ines Babic,02:08,0,0/1,0/0,0/1,0/0,0,0,0,0,0,1,1,0,0,-1
+Bosnia and Herzegovina,Poland,86,87,0807,9,Iman Peljto,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Bosnia and Herzegovina,Poland,86,87,0807,10,Anđela Šipka,00:06,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Bosnia and Herzegovina,Poland,86,87,0807,17,Ajla Selimović,21:56,4,2/4,2/4,0/0,0/0,0,5,5,0,1,1,0,0,-8,6
+Bosnia and Herzegovina,Poland,86,87,0807,18,Darija Babić,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Bosnia and Herzegovina,Poland,86,87,0807,26,Marija Keseljevic,39:39,14,5/14,4/8,1/6,3/4,0,3,3,9,3,6,4,0,-1,14
+Bosnia and Herzegovina,Poland,86,87,0807,27,Ksenija Mitric,39:46,23,8/20,2/7,6/13,1/2,1,4,5,3,4,6,5,0,-7,17
+Bosnia and Herzegovina,Poland,86,87,0807,51,Azra Niksic,31:23,7,3/9,3/9,0/0,1/5,4,7,11,1,5,0,1,3,0,13
+Bosnia and Herzegovina,Poland,86,87,0807,69,Dragana Zubac,31:11,24,7/17,2/8,5/9,5/7,2,5,7,4,5,2,3,0,8,24
+Poland,Bosnia and Herzegovina,87,86,0807,1,Alicja Katarzyna Rogozinska,13:23,2,1/3,1/2,0/1,0/0,1,5,6,0,0,5,1,0,-6,2
+Poland,Bosnia and Herzegovina,87,86,0807,2,Julia  Bazan,36:20,20,6/10,4/7,2/3,6/9,1,5,6,3,3,5,1,0,8,18
+Poland,Bosnia and Herzegovina,87,86,0807,3,Aleksandra Katarzyna Ustowska,22:04,9,4/11,3/6,1/5,0/0,1,0,1,3,3,2,2,1,7,7
+Poland,Bosnia and Herzegovina,87,86,0807,4,Emilia Eliza Kosla,28:18,15,6/19,5/15,1/4,2/6,0,1,1,0,1,1,1,0,-7,-1
+Poland,Bosnia and Herzegovina,87,86,0807,5,Magdalena Zuzanna Szymkiewicz,19:01,3,1/7,1/3,0/4,1/3,0,1,1,3,2,2,0,0,-17,-3
+Poland,Bosnia and Herzegovina,87,86,0807,6,Zuzanna Weronika Kulinska,14:17,6,3/10,3/8,0/2,0/0,2,4,6,2,4,0,0,0,12,7
+Poland,Bosnia and Herzegovina,87,86,0807,7,Aleksandra Malgorzata Pszczolarska,26:20,15,5/13,5/11,0/2,5/9,9,7,16,1,2,0,2,0,8,22
+Poland,Bosnia and Herzegovina,87,86,0807,8,Weronika Dudek,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Poland,Bosnia and Herzegovina,87,86,0807,11,Weronika Piechowiak,22:29,7,3/4,2/3,1/1,0/0,1,3,4,2,1,2,3,0,-4,13
+Poland,Bosnia and Herzegovina,87,86,0807,12,Kamila Borkowska,27:37,8,3/6,3/6,0/0,2/4,6,8,14,1,3,1,1,4,19,22
+Poland,Bosnia and Herzegovina,87,86,0807,13,Martyna Maria Kowalska,03:34,2,1/1,1/1,0/0,0/0,1,0,1,0,1,1,0,0,-4,2
+Poland,Bosnia and Herzegovina,87,86,0807,14,Natalia Kurach,11:37,0,0/4,0/4,0/0,0/0,0,1,1,0,2,1,2,0,-11,-2
+Serbia,Hungary,54,71,0807,1,Katarina Desic,08:05,0,0/3,0/2,0/1,0/0,0,1,1,1,1,1,0,0,-3,-2
+Serbia,Hungary,54,71,0807,2,Tamara Corto,19:19,2,1/6,1/4,0/2,0/0,0,3,3,2,1,6,0,0,-9,-4
+Serbia,Hungary,54,71,0807,4,Mona Zaric,19:49,2,1/2,1/2,0/0,0/0,0,1,1,0,3,2,2,1,-4,3
+Serbia,Hungary,54,71,0807,5,Sofija Radojcin,05:23,0,0/2,0/2,0/0,0/0,0,1,1,0,0,1,0,0,-2,-2
+Serbia,Hungary,54,71,0807,6,Nadija Smailbegovic,25:08,0,0/2,0/1,0/1,0/0,1,1,2,0,2,4,0,0,-25,-4
+Serbia,Hungary,54,71,0807,7,Visnja Stefanovic,27:45,5,1/5,1/5,0/0,3/4,5,3,8,2,0,2,1,1,-17,10
+Serbia,Hungary,54,71,0807,10,Nikolina Deuric,24:11,9,2/5,2/5,0/0,5/6,0,5,5,3,3,4,1,0,1,10
+Serbia,Hungary,54,71,0807,12,Nikolija Jovanovic,14:43,4,1/3,1/2,0/1,2/2,1,1,2,2,0,0,1,0,-5,7
+Serbia,Hungary,54,71,0807,13,Nadezda Nedeljkov,15:27,10,3/9,3/7,0/2,4/4,1,3,4,1,1,2,2,0,-8,9
+Serbia,Hungary,54,71,0807,14,Aleksandra Muzevic,11:15,5,1/4,0/1,1/3,2/2,0,2,2,0,1,1,1,0,-5,4
+Serbia,Hungary,54,71,0807,15,Marija Ristic,02:15,0,0/4,0/4,0/0,0/0,1,0,1,0,0,0,0,0,-8,-3
+Serbia,Hungary,54,71,0807,16,Marta Mitrovic,26:40,17,7/12,7/11,0/1,3/6,0,4,4,1,5,2,2,0,0,14
+Hungary,Serbia,71,54,0807,4,Dorottya Eszter Budacsik,12:54,2,1/6,1/6,0/0,0/0,1,4,5,0,0,0,0,0,2,2
+Hungary,Serbia,71,54,0807,5,Aya Kéita,08:39,4,2/2,2/2,0/0,0/0,0,0,0,0,1,3,0,0,-1,1
+Hungary,Serbia,71,54,0807,6,Barbara Angyal,14:25,4,2/7,2/4,0/3,0/0,1,0,1,3,4,1,3,0,10,5
+Hungary,Serbia,71,54,0807,9,Fruzsina Reka Horvath,08:54,0,0/1,0/1,0/0,0/0,1,0,1,0,3,2,0,1,0,-1
+Hungary,Serbia,71,54,0807,11,Berta Panna Boros,15:43,2,0/5,0/4,0/1,2/2,1,3,4,3,2,1,1,0,8,4
+Hungary,Serbia,71,54,0807,13,Reka Dombai,29:11,21,7/16,6/13,1/3,6/7,1,4,5,3,2,2,3,1,17,21
+Hungary,Serbia,71,54,0807,14,Aliz Varga,26:56,6,3/8,3/8,0/0,0/0,5,6,11,1,1,3,1,0,18,11
+Hungary,Serbia,71,54,0807,19,Nora Judit Wentzel,23:25,10,5/11,5/10,0/1,0/0,3,5,8,2,3,4,1,0,13,11
+Hungary,Serbia,71,54,0807,22,Dorina Szirony,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Hungary,Serbia,71,54,0807,23,Reka Manyoky,13:49,4,1/3,1/2,0/1,2/2,0,3,3,2,4,1,3,0,1,9
+Hungary,Serbia,71,54,0807,24,Julia Boros,24:25,6,2/6,2/5,0/1,2/2,1,2,3,3,0,3,2,0,2,7
+Hungary,Serbia,71,54,0807,30,Angelika Kiss,21:39,12,4/5,4/5,0/0,4/4,1,2,3,0,4,1,1,1,15,15
+Belarus,Russia,65,78,0807,4,Anastasiya Halauchyner,18:02,3,1/5,1/3,0/2,1/2,1,3,4,0,3,0,1,0,1,3
+Belarus,Russia,65,78,0807,5,Yuliya Vasilevich,32:23,18,6/11,2/2,4/9,2/4,2,3,5,5,2,8,1,0,-9,14
+Belarus,Russia,65,78,0807,6,Aliaksandra Chyzheuskaya,15:48,0,0/2,0/2,0/0,0/2,1,3,4,0,2,0,0,0,-13,0
+Belarus,Russia,65,78,0807,7,Iryna Venskaya,37:07,10,4/12,2/8,2/4,0/2,0,3,3,3,4,1,5,0,-9,10
+Belarus,Russia,65,78,0807,8,Yana Liabedzich,06:16,0,0/2,0/1,0/1,0/0,0,0,0,0,1,1,0,0,-8,-3
+Belarus,Russia,65,78,0807,9,Darya Siamiletnikava,05:14,5,1/2,0/1,1/1,2/2,0,1,1,0,1,0,0,0,-5,5
+Belarus,Russia,65,78,0807,10,Iryna Krauchanka,19:17,5,2/6,2/4,0/2,1/2,1,1,2,1,4,2,0,0,9,1
+Belarus,Russia,65,78,0807,11,Aksana Isayenka,32:59,13,4/12,2/6,2/6,3/4,0,3,3,3,1,2,3,0,-15,11
+Belarus,Russia,65,78,0807,13,Anastasiya Babak,11:13,5,2/5,1/2,1/3,0/0,3,4,7,0,1,1,0,0,0,8
+Belarus,Russia,65,78,0807,14,Veranika Samailiuk,01:50,0,0/1,0/1,0/0,0/0,0,1,1,0,1,0,0,0,-5,0
+Belarus,Russia,65,78,0807,15,Maryia Trafimenkava,19:51,6,3/4,3/4,0/0,0/0,0,2,2,1,0,2,1,0,-11,7
+Belarus,Russia,65,78,0807,18,Aliaksandra Shumeika,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Russia,Belarus,78,65,0807,6,Aleksandra Siiamkina,23:42,5,2/5,1/1,1/4,0/0,1,2,3,2,3,0,4,0,7,11
+Russia,Belarus,78,65,0807,8,Anastasiia Bobrik,20:50,6,1/4,1/3,0/1,4/6,2,5,7,4,2,3,2,0,8,11
+Russia,Belarus,78,65,0807,9,Aleksandra Kuzmitskaia,00:51,0,0/0,0/0,0/0,0/0,0,1,1,0,0,0,0,0,0,1
+Russia,Belarus,78,65,0807,13,Kristina Kord,08:36,0,0/2,0/1,0/1,0/0,0,2,2,0,2,1,0,0,-4,-1
+Russia,Belarus,78,65,0807,18,Elizaveta Andreeva,17:09,9,4/8,4/8,0/0,1/2,2,5,7,0,1,0,1,1,7,13
+Russia,Belarus,78,65,0807,20,Ksenia Filimonova,17:24,5,2/10,2/10,0/0,1/2,0,3,3,2,5,0,2,0,11,3
+Russia,Belarus,78,65,0807,22,Alexandra Strebkova,23:14,19,8/9,8/8,0/1,3/7,3,1,4,3,1,1,0,1,4,21
+Russia,Belarus,78,65,0807,23,Daria Goncharova,15:17,6,3/5,3/4,0/1,0/0,3,4,7,3,1,1,0,0,6,13
+Russia,Belarus,78,65,0807,27,Maria Rodionova,09:53,0,0/1,0/1,0/0,0/0,1,0,1,4,1,2,1,0,8,3
+Russia,Belarus,78,65,0807,29,Mariia Krymova,18:12,0,0/4,0/3,0/1,0/0,2,1,3,4,1,4,3,0,-4,2
+Russia,Belarus,78,65,0807,47,Anastasia Godunova,14:34,8,3/8,3/6,0/2,2/4,0,1,1,0,2,1,0,0,8,1
+Russia,Belarus,78,65,0807,86,Alexandra Andrushchenko,30:18,20,7/14,1/3,6/11,0/0,3,3,6,1,1,2,0,1,14,19
+Russia,Croatia,83,81,1007,6,Aleksandra Siiamkina,26:19,11,4/8,1/1,3/7,0/0,1,2,3,1,3,1,2,0,-9,12
+Russia,Croatia,83,81,1007,8,Anastasiia Bobrik,28:36,23,7/14,2/5,5/9,4/4,2,7,9,2,4,2,1,0,7,26
+Russia,Croatia,83,81,1007,9,Aleksandra Kuzmitskaia,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Russia,Croatia,83,81,1007,13,Kristina Kord,12:07,3,1/2,0/0,1/2,0/0,0,3,3,1,0,0,0,0,1,6
+Russia,Croatia,83,81,1007,18,Elizaveta Andreeva,26:55,9,0/4,0/3,0/1,9/14,0,6,6,1,3,2,1,2,2,8
+Russia,Croatia,83,81,1007,20,Ksenia Filimonova,25:56,8,4/9,4/8,0/1,0/0,1,0,1,3,1,2,0,0,-5,5
+Russia,Croatia,83,81,1007,22,Alexandra Strebkova,34:28,10,4/7,4/6,0/1,2/4,0,4,4,5,3,0,2,0,-6,16
+Russia,Croatia,83,81,1007,23,Daria Goncharova,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Russia,Croatia,83,81,1007,27,Maria Rodionova,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Russia,Croatia,83,81,1007,29,Mariia Krymova,22:53,6,1/6,1/3,0/3,4/4,0,6,6,2,4,2,2,0,5,9
+Russia,Croatia,83,81,1007,47,Anastasia Godunova,18:11,8,2/5,0/2,2/3,2/3,1,1,2,0,0,2,3,0,8,7
+Russia,Croatia,83,81,1007,86,Alexandra Andrushchenko,29:35,5,2/11,1/6,1/5,0/0,0,0,0,0,3,0,0,0,7,-4
+Croatia,Russia,81,83,1007,4,Mia Vuksic,41:18,28,9/16,3/5,6/11,4/6,2,3,5,1,2,3,1,0,-2,23
+Croatia,Russia,81,83,1007,5,Edita Poljac,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Croatia,Russia,81,83,1007,7,Tonia Bilic,11:09,2,1/3,1/3,0/0,0/0,1,2,3,1,0,1,0,0,-6,3
+Croatia,Russia,81,83,1007,8,Ana Haklicka,10:12,2,1/2,1/1,0/1,0/0,0,0,0,0,2,1,0,0,-2,0
+Croatia,Russia,81,83,1007,9,Marta Savic,21:59,7,2/5,2/5,0/0,3/3,1,3,4,2,3,4,2,1,9,9
+Croatia,Russia,81,83,1007,10,Nika Muhl,43:20,19,7/17,7/15,0/2,5/11,0,9,9,11,2,8,0,0,3,15
+Croatia,Russia,81,83,1007,11,Gabriela Grizelj,01:40,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-5,0
+Croatia,Russia,81,83,1007,12,Ana Mandic,15:33,2,1/3,1/3,0/0,0/2,1,4,5,1,5,1,1,0,-1,4
+Croatia,Russia,81,83,1007,13,Iva Bosnjak,27:21,9,3/11,0/3,3/8,0/2,2,6,8,1,4,0,0,0,6,8
+Croatia,Russia,81,83,1007,14,Petra Juric,18:45,4,2/4,2/4,0/0,0/0,0,1,1,0,1,0,1,0,-5,4
+Croatia,Russia,81,83,1007,15,Josipa Juric,25:20,6,3/7,3/7,0/0,0/0,1,5,6,2,5,0,0,0,-5,10
+Croatia,Russia,81,83,1007,24,Viktorija Curic,08:23,2,1/2,1/2,0/0,0/0,0,0,0,0,0,0,0,1,-2,2
+France,Poland,75,54,1007,0,Jade Hamaoui,14:24,6,3/7,3/7,0/0,0/0,3,1,4,1,1,1,1,1,3,8
+France,Poland,75,54,1007,6,Serena Kessler,27:21,7,3/11,2/6,1/5,0/0,1,5,6,6,1,1,3,0,10,13
+France,Poland,75,54,1007,7,Camille Hillotte,08:23,5,2/4,1/1,1/3,0/0,1,1,2,0,1,2,0,0,1,3
+France,Poland,75,54,1007,8,Yohana Isabelle Ewodo,15:09,4,2/8,2/7,0/1,0/0,5,2,7,2,3,0,0,0,16,7
+France,Poland,75,54,1007,13,Janelle Illona Salaun,24:21,15,5/9,1/4,4/5,1/2,1,9,10,1,4,2,1,1,17,21
+France,Poland,75,54,1007,18,Emilie Raynaud,14:35,2,1/4,1/2,0/2,0/0,1,0,1,0,1,0,1,0,3,1
+France,Poland,75,54,1007,26,Eve Mahoutou,04:42,0,0/0,0/0,0/0,0/0,2,1,3,0,0,0,0,0,-3,3
+France,Poland,75,54,1007,29,Ewl Guennoc,24:42,8,2/14,0/4,2/10,2/2,3,3,6,0,2,3,3,0,13,2
+France,Poland,75,54,1007,31,Aminata Gueye,20:43,18,8/9,8/9,0/0,2/2,5,5,10,2,2,1,0,1,15,29
+France,Poland,75,54,1007,34,Ténin Magassa,15:51,6,3/6,3/6,0/0,0/0,1,2,3,1,2,2,0,3,10,8
+France,Poland,75,54,1007,50,Marie Pardon,29:50,4,2/6,2/4,0/2,0/0,1,4,5,12,2,5,1,0,20,13
+France,Poland,75,54,1007,75,Vaciana Thérèse Dona Gomis,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Poland,France,54,75,1007,1,Alicja Katarzyna Rogozinska,10:39,3,1/2,0/1,1/1,0/1,0,2,2,1,2,3,0,0,0,1
+Poland,France,54,75,1007,2,Julia  Bazan,24:12,2,1/4,1/4,0/0,0/0,0,2,2,1,1,0,0,0,-16,2
+Poland,France,54,75,1007,3,Aleksandra Katarzyna Ustowska,12:43,2,1/4,1/3,0/1,0/0,0,2,2,1,0,3,2,0,-1,1
+Poland,France,54,75,1007,4,Emilia Eliza Kosla,25:36,21,8/17,8/16,0/1,5/10,2,1,3,3,0,0,4,0,-2,17
+Poland,France,54,75,1007,5,Magdalena Zuzanna Szymkiewicz,20:18,9,3/8,1/2,2/6,1/2,0,2,2,0,1,3,1,0,-33,3
+Poland,France,54,75,1007,6,Zuzanna Weronika Kulinska,09:17,3,1/3,1/3,0/0,1/4,0,1,1,0,2,3,0,0,-13,-4
+Poland,France,54,75,1007,7,Aleksandra Malgorzata Pszczolarska,22:09,2,1/5,1/4,0/1,0/0,0,2,2,0,0,1,2,1,4,2
+Poland,France,54,75,1007,8,Weronika Dudek,04:26,0,0/1,0/1,0/0,0/0,0,1,1,1,0,0,0,0,-1,1
+Poland,France,54,75,1007,11,Weronika Piechowiak,26:56,4,2/5,2/4,0/1,0/0,2,1,3,0,1,1,0,0,-21,3
+Poland,France,54,75,1007,12,Kamila Borkowska,22:56,5,1/3,1/3,0/0,3/4,1,4,5,1,3,1,0,0,-4,7
+Poland,France,54,75,1007,13,Martyna Maria Kowalska,10:00,0,0/1,0/1,0/0,0/0,0,2,2,0,2,0,0,0,-17,1
+Poland,France,54,75,1007,14,Natalia Kurach,10:48,3,1/5,1/5,0/0,1/2,1,0,1,0,0,1,0,0,-1,-2
+Germany,Serbia,58,48,1007,5,Pauline Marie Mayer,13:36,0,0/6,0/1,0/5,0/0,0,0,0,3,4,1,0,0,0,-4
+Germany,Serbia,58,48,1007,6,Nina Melissa Rosemeyer,11:51,1,0/4,0/1,0/3,1/4,0,2,2,1,3,0,0,0,4,-3
+Germany,Serbia,58,48,1007,9,Julia Margareta Förner,26:24,3,1/6,0/1,1/5,0/0,2,2,4,4,4,4,2,0,10,4
+Germany,Serbia,58,48,1007,10,Victoria Poros,01:46,0,0/1,0/0,0/1,0/0,0,0,0,0,0,0,0,0,1,-1
+Germany,Serbia,58,48,1007,11,Emily Bessoir,29:15,4,1/11,0/6,1/5,1/4,5,16,21,6,1,3,1,2,9,18
+Germany,Serbia,58,48,1007,12,Stella Marie Reichert,18:47,9,4/7,4/7,0/0,1/2,3,4,7,0,1,4,2,2,7,12
+Germany,Serbia,58,48,1007,14,Lotta Mia Stach,07:34,0,0/1,0/1,0/0,0/0,0,1,1,0,3,1,0,0,-8,-1
+Germany,Serbia,58,48,1007,15,Praise Egharevba,01:08,0,0/0,0/0,0/0,0/0,0,0,0,0,1,1,0,0,-3,-1
+Germany,Serbia,58,48,1007,17,Elea Kristiana D. K. Gaba,25:31,16,6/12,6/12,0/0,4/6,3,4,7,1,1,3,0,0,4,13
+Germany,Serbia,58,48,1007,18,Meret Charlotte Kleine-Beek,27:22,14,5/11,1/3,4/8,0/0,2,3,5,0,4,3,0,1,20,11
+Germany,Serbia,58,48,1007,21,Magdalena Landwehr,29:46,11,4/10,4/6,0/4,3/4,4,5,9,4,1,0,1,0,10,18
+Germany,Serbia,58,48,1007,24,Anabel Neuber Valdez,07:00,0,0/1,0/1,0/0,0/0,0,1,1,1,0,1,0,0,-4,0
+Serbia,Germany,48,58,1007,1,Katarina Desic,11:41,2,1/5,1/2,0/3,0/0,1,1,2,1,0,2,0,0,-7,-1
+Serbia,Germany,48,58,1007,2,Tamara Corto,06:52,0,0/2,0/0,0/2,0/2,1,1,2,0,1,2,0,0,4,-4
+Serbia,Germany,48,58,1007,4,Mona Zaric,06:36,0,0/2,0/2,0/0,0/0,0,0,0,0,0,0,0,0,2,-2
+Serbia,Germany,48,58,1007,5,Sofija Radojcin,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Serbia,Germany,48,58,1007,6,Nadija Smailbegovic,23:57,2,1/10,1/8,0/2,0/0,0,1,1,0,3,1,1,0,0,-6
+Serbia,Germany,48,58,1007,7,Visnja Stefanovic,30:35,5,2/8,1/4,1/4,0/0,2,5,7,1,4,2,2,0,-13,7
+Serbia,Germany,48,58,1007,10,Nikolina Deuric,25:14,13,4/9,3/8,1/1,4/4,3,4,7,0,4,1,0,0,-18,14
+Serbia,Germany,48,58,1007,12,Nikolija Jovanovic,02:18,0,0/0,0/0,0/0,0/2,0,0,0,0,0,0,0,0,1,-2
+Serbia,Germany,48,58,1007,13,Nadezda Nedeljkov,25:34,6,1/10,1/7,0/3,4/7,1,5,6,2,3,1,2,0,6,3
+Serbia,Germany,48,58,1007,14,Aleksandra Muzevic,25:57,12,3/13,2/9,1/4,5/7,0,2,2,1,2,2,5,0,-15,6
+Serbia,Germany,48,58,1007,15,Marija Ristic,19:10,6,2/6,1/5,1/1,1/4,2,4,6,0,5,1,0,0,1,4
+Serbia,Germany,48,58,1007,16,Marta Mitrovic,22:05,2,1/7,1/5,0/2,0/1,1,2,3,1,2,1,0,1,-11,-1
+Latvia,Israel,74,58,1007,4,Jete Katrina Nulle,39:10,14,5/14,2/4,3/10,1/2,0,8,8,2,1,4,0,0,14,10
+Latvia,Israel,74,58,1007,5,Una Steinharde,08:26,2,1/6,1/2,0/4,0/0,0,0,0,0,0,0,0,0,-1,-3
+Latvia,Israel,74,58,1007,6,Ketija Vihmane,25:55,7,2/4,1/1,1/3,2/2,2,5,7,2,2,5,0,0,10,9
+Latvia,Israel,74,58,1007,7,Paula Klescova,36:32,12,3/10,1/5,2/5,4/4,0,2,2,4,1,4,0,0,23,7
+Latvia,Israel,74,58,1007,8,Juta Harčenko,05:44,0,0/0,0/0,0/0,0/0,0,2,2,1,0,1,0,0,4,2
+Latvia,Israel,74,58,1007,10,Laura Meldere,29:45,14,5/10,5/10,0/0,4/5,4,7,11,4,2,0,2,1,17,26
+Latvia,Israel,74,58,1007,11,Paula Maurina,01:50,0,0/0,0/0,0/0,0/0,0,1,1,0,1,1,0,0,1,0
+Latvia,Israel,74,58,1007,12,Daniela Grigorjeva,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Latvia,Israel,74,58,1007,13,Anita Megija Mikelsone,16:32,7,1/3,1/3,0/0,5/6,2,3,5,0,1,0,0,0,15,9
+Latvia,Israel,74,58,1007,14,Eva Indrike,20:16,14,6/10,4/5,2/5,0/0,1,2,3,2,5,2,1,0,7,14
+Latvia,Israel,74,58,1007,16,Nikola Priede,11:58,4,2/2,2/2,0/0,0/0,0,4,4,0,0,0,0,0,-2,8
+Latvia,Israel,74,58,1007,17,Madlena Irena Gerke,03:52,0,0/2,0/1,0/1,0/0,0,2,2,0,0,0,0,0,-8,0
+Israel,Latvia,58,74,1007,2,Shira Hagag,01:26,2,0/0,0/0,0/0,2/2,0,0,0,0,0,0,0,1,-2,3
+Israel,Latvia,58,74,1007,3,Ebony Mary Simionovich,14:21,0,0/2,0/1,0/1,0/0,1,3,4,0,2,0,0,2,-13,4
+Israel,Latvia,58,74,1007,7,Shahar Brener,01:26,0,0/0,0/0,0/0,0/0,0,1,1,0,0,0,0,0,-2,1
+Israel,Latvia,58,74,1007,8,Daniel Karsh,36:33,6,2/10,2/6,0/4,2/2,0,2,2,4,3,2,2,0,-12,4
+Israel,Latvia,58,74,1007,9,Noa Shimshi,08:03,0,0/1,0/0,0/1,0/0,0,0,0,0,0,0,0,0,-4,-1
+Israel,Latvia,58,74,1007,11,Adan Jaoussy,05:32,2,1/2,1/2,0/0,0/0,0,1,1,0,1,0,0,0,-4,2
+Israel,Latvia,58,74,1007,12,Lior Garzon,36:02,10,2/15,0/3,2/12,4/4,2,5,7,2,2,1,1,1,-15,7
+Israel,Latvia,58,74,1007,13,Eden Zipel,24:31,16,6/11,2/7,4/4,0/0,1,1,2,1,5,0,4,0,-3,18
+Israel,Latvia,58,74,1007,15,Gaya Sless,24:48,10,3/11,0/1,3/10,1/2,0,2,2,2,5,2,0,0,2,3
+Israel,Latvia,58,74,1007,21,Gili Eisner,38:20,9,4/13,3/5,1/8,0/0,0,6,6,4,3,4,4,1,-14,11
+Israel,Latvia,58,74,1007,27,Nitzan Amar,07:44,3,1/3,0/1,1/2,0/0,0,0,0,0,1,0,0,0,-13,1
+Israel,Latvia,58,74,1007,30,May Nesher,01:15,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Hungary,Belgium,83,73,1007,4,Dorottya Eszter Budacsik,09:44,1,0/0,0/0,0/0,1/2,1,1,2,1,0,2,0,0,-4,1
+Hungary,Belgium,83,73,1007,5,Aya Kéita,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Hungary,Belgium,83,73,1007,6,Barbara Angyal,37:05,14,4/13,2/9,2/4,4/6,2,3,5,6,2,7,5,0,18,12
+Hungary,Belgium,83,73,1007,9,Fruzsina Reka Horvath,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Hungary,Belgium,83,73,1007,11,Berta Panna Boros,07:31,2,0/1,0/1,0/0,2/2,0,2,2,1,0,2,0,0,-10,2
+Hungary,Belgium,83,73,1007,13,Reka Dombai,37:27,22,9/23,5/16,4/7,0/0,3,2,5,2,0,0,4,0,20,19
+Hungary,Belgium,83,73,1007,14,Aliz Varga,21:44,4,2/7,2/6,0/1,0/0,2,6,8,0,3,2,0,0,-3,5
+Hungary,Belgium,83,73,1007,19,Nora Judit Wentzel,20:17,6,1/3,1/3,0/0,4/4,1,1,2,1,3,0,0,0,-14,7
+Hungary,Belgium,83,73,1007,22,Dorina Szirony,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Hungary,Belgium,83,73,1007,23,Reka Manyoky,27:16,3,1/2,0/0,1/2,0/0,0,2,2,5,2,2,2,0,7,9
+Hungary,Belgium,83,73,1007,24,Julia Boros,30:34,11,5/12,5/10,0/2,1/2,1,4,5,5,3,1,0,0,25,12
+Hungary,Belgium,83,73,1007,30,Angelika Kiss,33:22,20,6/9,6/9,0/0,8/14,4,8,12,1,2,1,2,2,11,27
+Belgium,Hungary,73,83,1007,4,Kyra Billiaert,00:05,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Belgium,Hungary,73,83,1007,5,Merel Knaepen,19:56,9,4/5,3/4,1/1,0/0,2,4,6,2,1,4,0,0,3,12
+Belgium,Hungary,73,83,1007,6,Sam Van Buggenhout,37:19,17,5/11,1/4,4/7,3/4,1,4,5,1,3,2,1,0,-2,15
+Belgium,Hungary,73,83,1007,7,Yante Aline Anna Strumane,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Belgium,Hungary,73,83,1007,8,Kadiatou Traore,24:56,1,0/3,0/3,0/0,1/2,2,3,5,1,3,2,1,0,-10,2
+Belgium,Hungary,73,83,1007,9,Elena Vielfont,26:24,0,0/2,0/2,0/0,0/0,0,0,0,4,4,4,0,0,-15,-2
+Belgium,Hungary,73,83,1007,10,Frances Duhamel,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Belgium,Hungary,73,83,1007,11,Tesse Marianne Kapenga,27:26,4,2/13,2/9,0/4,0/0,0,5,5,0,3,2,0,0,-11,-4
+Belgium,Hungary,73,83,1007,12,Kristina Pauline G. Ekofo Yomane,14:27,6,3/6,3/6,0/0,0/0,2,4,6,0,5,1,0,1,4,9
+Belgium,Hungary,73,83,1007,13,Maxuella Lisowa Mbaka,42:41,30,12/22,11/19,1/3,5/8,3,6,9,4,3,5,3,2,-6,30
+Belgium,Hungary,73,83,1007,15,Sarah Bell,28:40,0,0/4,0/0,0/4,0/0,0,3,3,2,3,0,2,1,-10,4
+Belgium,Hungary,73,83,1007,16,Emma Bell,03:07,6,2/2,0/0,2/2,0/0,0,0,0,0,1,0,0,0,-3,6
+Spain,Bosnia and Herzegovina,109,36,1007,4,Mama Dembele Traore,10:06,2,1/1,1/1,0/0,0/2,0,1,1,4,2,0,3,0,21,8
+Spain,Bosnia and Herzegovina,109,36,1007,5,Laia Lamana Llobera,13:13,7,3/6,2/2,1/4,0/0,0,1,1,0,1,1,6,1,31,11
+Spain,Bosnia and Herzegovina,109,36,1007,6,Cristina Mato de Prada,18:44,9,3/4,1/2,2/2,1/2,1,3,4,4,1,0,1,0,36,16
+Spain,Bosnia and Herzegovina,109,36,1007,7,Julia Soler,20:32,7,2/9,2/5,0/4,3/4,0,1,1,4,2,1,2,1,31,6
+Spain,Bosnia and Herzegovina,109,36,1007,8,Begona De Santiago Otero,16:14,6,3/5,3/5,0/0,0/0,4,1,5,2,1,1,5,1,34,16
+Spain,Bosnia and Herzegovina,109,36,1007,9,Laura Mendez Camps,16:28,10,4/5,2/2,2/3,0/0,2,3,5,3,1,2,1,1,22,17
+Spain,Bosnia and Herzegovina,109,36,1007,11,Estel Puiggros Rovira,18:20,6,3/10,3/7,0/3,0/0,1,4,5,1,2,0,1,0,21,6
+Spain,Bosnia and Herzegovina,109,36,1007,12,Nerea Hermosa Monreal,20:46,10,5/12,5/12,0/0,0/2,5,3,8,1,0,6,3,0,43,7
+Spain,Bosnia and Herzegovina,109,36,1007,13,Helena Pueyo Melchor,17:47,18,7/11,3/5,4/6,0/0,1,0,1,1,1,2,3,0,37,17
+Spain,Bosnia and Herzegovina,109,36,1007,14,Raquel Carrera Quintana,15:31,14,7/11,7/11,0/0,0/0,3,4,7,1,1,1,3,1,32,21
+Spain,Bosnia and Herzegovina,109,36,1007,15,Paula Fraile Ruiz,17:08,9,4/6,3/4,1/2,0/0,3,6,9,0,2,0,2,1,30,19
+Spain,Bosnia and Herzegovina,109,36,1007,16,Marta Garcia Mateo,15:11,11,5/10,5/9,0/1,1/2,2,1,3,0,0,2,2,0,27,8
+Bosnia and Herzegovina,Spain,36,109,1007,3,Jovana Kovacevic,25:09,4,2/8,2/7,0/1,0/0,2,3,5,0,2,2,0,0,-51,1
+Bosnia and Herzegovina,Spain,36,109,1007,4,Vanja Božić,10:40,3,1/6,0/3,1/3,0/0,1,1,2,0,0,0,1,0,-21,1
+Bosnia and Herzegovina,Spain,36,109,1007,7,Sanja Radulovic,27:15,0,0/2,0/1,0/1,0/0,0,5,5,0,2,7,0,0,-40,-4
+Bosnia and Herzegovina,Spain,36,109,1007,8,Ines Babic,24:49,3,0/5,0/2,0/3,3/6,0,1,1,1,1,2,2,0,-39,-3
+Bosnia and Herzegovina,Spain,36,109,1007,9,Iman Peljto,09:16,0,0/2,0/2,0/0,0/0,4,0,4,0,0,1,0,0,-23,1
+Bosnia and Herzegovina,Spain,36,109,1007,10,Anđela Šipka,13:23,2,1/4,1/4,0/0,0/0,1,2,3,0,0,0,0,0,-13,2
+Bosnia and Herzegovina,Spain,36,109,1007,17,Ajla Selimović,14:53,0,0/3,0/3,0/0,0/0,1,2,3,0,2,0,0,0,-35,0
+Bosnia and Herzegovina,Spain,36,109,1007,18,Darija Babić,02:24,0,0/2,0/2,0/0,0/0,0,0,0,0,1,2,0,0,-5,-4
+Bosnia and Herzegovina,Spain,36,109,1007,26,Marija Keseljevic,22:54,8,3/5,2/4,1/1,1/2,0,1,1,2,1,9,3,1,-48,3
+Bosnia and Herzegovina,Spain,36,109,1007,27,Ksenija Mitric,21:50,9,3/9,2/6,1/3,2/2,1,0,1,2,3,7,2,0,-42,1
+Bosnia and Herzegovina,Spain,36,109,1007,51,Azra Niksic,14:55,1,0/1,0/1,0/0,1/2,0,1,1,0,1,2,0,0,-19,-2
+Bosnia and Herzegovina,Spain,36,109,1007,69,Dragana Zubac,12:32,6,2/7,2/5,0/2,2/2,1,2,3,0,1,5,1,0,-29,0
+Italy,Belarus,96,57,1007,4,Beatrice Stroscio,17:45,5,2/5,1/2,1/3,0/0,0,3,3,0,1,1,1,0,2,5
+Italy,Belarus,96,57,1007,5,Alessandra Orsili,18:08,12,5/6,3/4,2/2,0/0,1,1,2,2,2,1,1,0,36,15
+Italy,Belarus,96,57,1007,6,Silvia Nativi,17:37,4,1/3,1/2,0/1,2/2,2,2,4,2,2,1,0,0,6,7
+Italy,Belarus,96,57,1007,7,Caterina Gilli,18:03,14,4/12,4/10,0/2,6/8,7,1,8,3,0,2,1,0,32,14
+Italy,Belarus,96,57,1007,9,Giulia Natali,14:08,10,5/9,5/6,0/3,0/0,0,2,2,3,3,1,4,0,20,14
+Italy,Belarus,96,57,1007,10,Francesca Leonardi,12:30,15,6/11,3/6,3/5,0/0,1,3,4,2,1,2,1,0,18,15
+Italy,Belarus,96,57,1007,11,Silvia Pastrello,16:21,1,0/5,0/3,0/2,1/4,4,3,7,4,1,1,4,1,7,8
+Italy,Belarus,96,57,1007,12,Martina Spinelli,18:25,7,2/7,2/7,0/0,3/4,6,4,10,1,3,1,0,1,6,12
+Italy,Belarus,96,57,1007,14,Ilaria Panzera,20:39,7,3/6,3/3,0/3,1/1,0,4,4,3,1,2,2,1,30,12
+Italy,Belarus,96,57,1007,15,Clara Rosini,11:42,5,2/6,2/6,0/0,1/2,2,1,3,0,0,0,1,0,7,4
+Italy,Belarus,96,57,1007,16,Lucia Adele Savatteri,13:58,2,1/3,1/3,0/0,0/0,2,1,3,2,3,2,0,1,20,4
+Italy,Belarus,96,57,1007,18,Meriem Nasraoui,20:44,14,7/13,7/13,0/0,0/0,3,2,5,1,2,2,1,1,11,14
+Belarus,Italy,57,96,1007,4,Anastasiya Halauchyner,22:10,12,4/9,4/8,0/1,4/5,1,2,3,1,4,4,0,0,-17,6
+Belarus,Italy,57,96,1007,5,Yuliya Vasilevich,20:26,7,1/6,1/4,0/2,5/5,1,2,3,2,0,3,2,0,-24,6
+Belarus,Italy,57,96,1007,6,Aliaksandra Chyzheuskaya,23:17,8,2/6,2/6,0/0,4/6,3,2,5,1,3,3,1,1,-21,7
+Belarus,Italy,57,96,1007,7,Iryna Venskaya,23:30,0,0/6,0/2,0/4,0/0,1,2,3,2,0,3,2,0,-25,-2
+Belarus,Italy,57,96,1007,8,Yana Liabedzich,08:00,0,0/2,0/1,0/1,0/0,1,1,2,0,0,0,0,0,-13,0
+Belarus,Italy,57,96,1007,9,Darya Siamiletnikava,14:09,8,2/4,1/3,1/1,3/4,0,0,0,0,2,2,0,0,-10,3
+Belarus,Italy,57,96,1007,10,Iryna Krauchanka,09:23,2,0/1,0/1,0/0,2/2,0,0,0,0,1,1,1,0,-25,1
+Belarus,Italy,57,96,1007,11,Aksana Isayenka,28:56,6,2/9,2/6,0/3,2/2,0,3,3,1,3,2,1,0,-31,2
+Belarus,Italy,57,96,1007,13,Anastasiya Babak,21:05,8,3/10,1/5,2/5,0/2,2,3,5,3,0,0,1,0,-2,8
+Belarus,Italy,57,96,1007,14,Veranika Samailiuk,05:46,0,0/0,0/0,0/0,0/0,1,1,2,0,3,3,0,1,-9,0
+Belarus,Italy,57,96,1007,15,Maryia Trafimenkava,08:58,2,1/1,1/1,0/0,0/0,0,0,0,0,2,1,0,0,-5,1
+Belarus,Italy,57,96,1007,18,Aliaksandra Shumeika,14:20,4,2/7,2/4,0/3,0/0,0,2,2,1,2,0,2,0,-13,4
+Lithuania,Czech Republic,59,64,1007,3,Aistė Švėgždaitė,32:25,8,3/6,3/5,0/1,2/2,1,1,2,0,2,1,0,0,-4,6
+Lithuania,Czech Republic,59,64,1007,6,Dovilė Jankauskaitė,06:43,2,1/3,1/3,0/0,0/0,0,1,1,1,0,0,2,1,1,5
+Lithuania,Czech Republic,59,64,1007,7,Kamilė Mickutė,05:24,0,0/2,0/0,0/2,0/0,0,0,0,0,1,0,0,0,2,-2
+Lithuania,Czech Republic,59,64,1007,9,Dominyka Paliulytė,07:24,1,0/2,0/2,0/0,1/2,0,1,1,1,1,0,0,0,1,0
+Lithuania,Czech Republic,59,64,1007,10,Urtė Cižauskaitė,18:13,2,1/6,1/5,0/1,0/0,3,4,7,1,0,1,1,1,-3,6
+Lithuania,Czech Republic,59,64,1007,11,Brigita Sinickaitė,39:16,12,4/15,1/8,3/7,1/2,3,1,4,3,2,4,1,0,-4,4
+Lithuania,Czech Republic,59,64,1007,14,Justina Oficerovaitė,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Lithuania,Czech Republic,59,64,1007,15,Gedvilė Savostaitė,39:45,7,2/11,2/9,0/2,3/4,3,8,11,1,1,5,2,0,-7,6
+Lithuania,Czech Republic,59,64,1007,30,Audronė Zdanevičiūtė,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Lithuania,Czech Republic,59,64,1007,31,Klaudija Janionytė,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Lithuania,Czech Republic,59,64,1007,55,Simona Visockaitė,39:04,18,6/12,6/12,0/0,6/6,4,9,13,0,2,4,1,7,-3,29
+Lithuania,Czech Republic,59,64,1007,77,Justina Miknaitė,36:46,9,4/10,3/8,1/2,0/1,1,5,6,3,3,7,0,1,-8,5
+Czech Republic,Lithuania,64,59,1007,1,Adela Burtova,29:31,13,6/13,5/11,1/2,0/0,5,1,6,1,1,1,0,0,7,12
+Czech Republic,Lithuania,64,59,1007,4,Katerina Zeithammerova,32:07,2,1/10,1/7,0/3,0/2,0,1,1,7,2,3,2,0,5,-2
+Czech Republic,Lithuania,64,59,1007,6,Tereza Halatkova,42:28,12,4/18,1/9,3/9,1/2,3,8,11,2,2,3,2,0,5,9
+Czech Republic,Lithuania,64,59,1007,7,Petra Malikova,30:08,13,5/13,4/10,1/3,2/2,2,1,3,1,2,3,2,0,3,8
+Czech Republic,Lithuania,64,59,1007,8,Zuzana Sitancova,12:19,5,2/4,1/1,1/3,0/0,0,0,0,0,1,1,0,0,-2,2
+Czech Republic,Lithuania,64,59,1007,10,Eliska Hamzova,26:28,7,3/9,2/7,1/2,0/0,0,4,4,3,5,1,4,3,2,14
+Czech Republic,Lithuania,64,59,1007,12,Monika Fucikova,04:28,0,0/4,0/2,0/2,0/0,0,1,1,0,0,1,0,0,0,-4
+Czech Republic,Lithuania,64,59,1007,13,Andrea Ondrouskova,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Czech Republic,Lithuania,64,59,1007,14,Martina Pokorna,20:33,10,4/8,4/8,0/0,2/4,3,4,7,2,3,2,2,2,2,15
+Czech Republic,Lithuania,64,59,1007,15,Julia Vydrova,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Czech Republic,Lithuania,64,59,1007,17,Natalie Horsakova,05:01,0,0/0,0/0,0/0,0/0,0,2,2,0,2,1,0,0,-3,1
+Czech Republic,Lithuania,64,59,1007,18,Anna Patorkova,21:58,2,1/4,1/3,0/1,0/0,1,3,4,2,1,0,0,0,6,5
+Germany,France,49,72,1107,5,Pauline Marie Mayer,19:56,0,0/5,0/0,0/5,0/0,0,1,1,4,1,4,2,1,-4,-1
+Germany,France,49,72,1107,6,Nina Melissa Rosemeyer,20:06,4,2/3,2/3,0/0,0/0,0,3,3,1,0,2,0,1,-4,6
+Germany,France,49,72,1107,9,Julia Margareta Förner,23:00,0,0/6,0/1,0/5,0/0,1,1,2,3,2,1,0,0,-37,-2
+Germany,France,49,72,1107,10,Victoria Poros,06:06,5,2/3,1/1,1/2,0/0,0,0,0,1,1,2,1,0,3,4
+Germany,France,49,72,1107,11,Emily Bessoir,24:04,9,4/10,3/6,1/4,0/0,1,3,4,0,2,0,0,0,-14,7
+Germany,France,49,72,1107,12,Stella Marie Reichert,19:39,7,2/4,1/2,1/2,2/2,1,5,6,1,0,1,0,0,-7,11
+Germany,France,49,72,1107,14,Lotta Mia Stach,06:17,0,0/2,0/2,0/0,0/0,0,3,3,0,1,0,0,0,3,1
+Germany,France,49,72,1107,15,Praise Egharevba,07:59,3,1/1,1/1,0/0,1/2,0,1,1,0,3,0,0,0,2,3
+Germany,France,49,72,1107,17,Elea Kristiana D. K. Gaba,22:28,6,3/8,3/8,0/0,0/0,3,5,8,0,0,1,0,0,-19,8
+Germany,France,49,72,1107,18,Meret Charlotte Kleine-Beek,24:29,6,2/8,0/2,2/6,0/0,0,2,2,1,2,5,0,1,-11,-1
+Germany,France,49,72,1107,21,Magdalena Landwehr,19:12,5,1/4,1/2,0/2,3/4,1,2,3,2,1,1,0,0,-30,5
+Germany,France,49,72,1107,24,Anabel Neuber Valdez,06:44,4,2/3,2/2,0/1,0/0,0,0,0,1,0,2,1,0,3,3
+France,Germany,72,49,1107,0,Jade Hamaoui,19:23,9,4/6,4/6,0/0,1/1,3,2,5,0,0,2,0,0,9,10
+France,Germany,72,49,1107,6,Serena Kessler,22:49,8,3/7,3/6,0/1,2/2,2,2,4,1,1,2,1,0,33,8
+France,Germany,72,49,1107,7,Camille Hillotte,06:06,3,1/3,0/0,1/3,0/0,0,0,0,1,1,1,1,0,-3,2
+France,Germany,72,49,1107,8,Yohana Isabelle Ewodo,21:14,11,4/9,4/6,0/3,3/4,0,3,3,2,3,4,1,1,5,8
+France,Germany,72,49,1107,13,Janelle Illona Salaun,26:09,4,1/7,0/4,1/3,1/2,0,7,7,4,2,1,1,1,20,9
+France,Germany,72,49,1107,18,Emilie Raynaud,20:34,11,4/12,1/3,3/9,0/0,0,0,0,0,0,1,1,0,-9,3
+France,Germany,72,49,1107,26,Eve Mahoutou,17:34,2,1/3,1/3,0/0,0/0,1,1,2,0,1,1,2,1,10,4
+France,Germany,72,49,1107,29,Ewl Guennoc,21:50,9,4/9,4/6,0/3,1/1,1,1,2,6,1,1,0,0,23,11
+France,Germany,72,49,1107,31,Aminata Gueye,14:14,2,1/2,1/2,0/0,0/0,1,4,5,0,0,0,0,1,-1,7
+France,Germany,72,49,1107,34,Ténin Magassa,09:57,3,1/1,1/1,0/0,1/1,0,3,3,0,3,1,0,1,9,6
+France,Germany,72,49,1107,50,Marie Pardon,20:10,10,3/5,1/2,2/3,2/2,0,2,2,3,0,0,1,0,19,14
+France,Germany,72,49,1107,75,Vaciana Thérèse Dona Gomis,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Serbia,Poland,67,71,1107,1,Katarina Desic,05:38,0,0/2,0/2,0/0,0/0,0,0,0,0,1,1,0,0,5,-3
+Serbia,Poland,67,71,1107,2,Tamara Corto,12:17,4,2/3,2/3,0/0,0/0,0,2,2,1,0,3,0,0,2,3
+Serbia,Poland,67,71,1107,4,Mona Zaric,06:25,4,2/3,2/3,0/0,0/0,0,0,0,2,2,2,0,0,4,3
+Serbia,Poland,67,71,1107,5,Sofija Radojcin,00:49,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Serbia,Poland,67,71,1107,6,Nadija Smailbegovic,24:41,6,2/7,0/3,2/4,0/2,0,3,3,0,2,3,1,0,-6,0
+Serbia,Poland,67,71,1107,7,Visnja Stefanovic,23:24,5,2/4,1/2,1/2,0/0,1,5,6,2,5,1,1,1,0,12
+Serbia,Poland,67,71,1107,10,Nikolina Deuric,28:05,16,6/10,6/8,0/2,4/5,3,7,10,2,1,3,4,3,-9,27
+Serbia,Poland,67,71,1107,12,Nikolija Jovanovic,17:01,2,1/3,1/2,0/1,0/0,1,2,3,4,1,1,0,0,3,6
+Serbia,Poland,67,71,1107,13,Nadezda Nedeljkov,22:47,5,1/2,0/1,1/1,2/2,0,2,2,7,0,1,0,0,-9,12
+Serbia,Poland,67,71,1107,14,Aleksandra Muzevic,28:32,17,6/16,2/6,4/10,1/1,0,5,5,2,3,3,3,0,3,14
+Serbia,Poland,67,71,1107,15,Marija Ristic,07:41,4,2/4,2/4,0/0,0/0,0,1,1,0,3,1,0,2,-5,4
+Serbia,Poland,67,71,1107,16,Marta Mitrovic,22:40,4,1/7,1/6,0/1,2/2,2,2,4,1,0,3,1,0,-8,1
+Poland,Serbia,71,67,1107,1,Alicja Katarzyna Rogozinska,17:07,7,3/6,2/4,1/2,0/0,1,0,1,1,3,3,0,0,-2,3
+Poland,Serbia,71,67,1107,2,Julia  Bazan,22:03,14,5/9,5/7,0/2,4/6,1,1,2,2,1,2,2,0,6,12
+Poland,Serbia,71,67,1107,3,Aleksandra Katarzyna Ustowska,06:36,1,0/0,0/0,0/0,1/2,0,2,2,0,0,1,0,0,-1,1
+Poland,Serbia,71,67,1107,4,Emilia Eliza Kosla,30:05,17,8/15,8/14,0/1,1/2,0,4,4,2,2,3,1,0,6,13
+Poland,Serbia,71,67,1107,5,Magdalena Zuzanna Szymkiewicz,27:37,15,5/12,2/6,3/6,2/3,0,1,1,0,2,1,2,0,5,9
+Poland,Serbia,71,67,1107,6,Zuzanna Weronika Kulinska,03:19,2,1/1,1/1,0/0,0/0,0,0,0,0,0,2,1,0,-1,1
+Poland,Serbia,71,67,1107,7,Aleksandra Malgorzata Pszczolarska,21:06,6,3/11,3/11,0/0,0/0,3,2,5,1,5,0,5,0,8,9
+Poland,Serbia,71,67,1107,8,Weronika Dudek,03:11,0,0/0,0/0,0/0,0/0,0,1,1,0,0,0,0,0,-1,1
+Poland,Serbia,71,67,1107,11,Weronika Piechowiak,32:34,5,2/4,2/3,0/1,1/2,0,6,6,0,1,2,1,0,-1,7
+Poland,Serbia,71,67,1107,12,Kamila Borkowska,12:44,0,0/4,0/4,0/0,0/0,4,4,8,0,1,0,0,0,-4,4
+Poland,Serbia,71,67,1107,13,Martyna Maria Kowalska,03:34,0,0/1,0/1,0/0,0/0,0,0,0,0,0,0,0,0,-4,-1
+Poland,Serbia,71,67,1107,14,Natalia Kurach,20:04,4,1/6,1/3,0/3,2/2,2,2,4,0,2,0,3,0,9,6
+Russia,Latvia,79,52,1107,6,Aleksandra Siiamkina,10:58,2,0/1,0/0,0/1,2/2,2,0,2,0,0,1,0,0,8,2
+Russia,Latvia,79,52,1107,8,Anastasiia Bobrik,24:29,14,6/9,5/7,1/2,1/2,2,7,9,3,2,2,0,0,18,20
+Russia,Latvia,79,52,1107,9,Aleksandra Kuzmitskaia,08:18,0,0/2,0/2,0/0,0/0,1,1,2,1,0,1,0,0,5,0
+Russia,Latvia,79,52,1107,13,Kristina Kord,10:40,2,1/1,1/1,0/0,0/0,0,3,3,0,2,2,0,0,-1,3
+Russia,Latvia,79,52,1107,18,Elizaveta Andreeva,26:38,9,3/11,2/9,1/2,2/3,2,7,9,1,1,0,1,3,13,14
+Russia,Latvia,79,52,1107,20,Ksenia Filimonova,26:23,12,5/9,3/7,2/2,0/0,1,0,1,4,3,0,2,0,23,15
+Russia,Latvia,79,52,1107,22,Alexandra Strebkova,07:13,2,0/2,0/2,0/0,2/2,2,1,3,0,4,1,0,0,5,2
+Russia,Latvia,79,52,1107,23,Daria Goncharova,11:52,11,4/7,4/7,0/0,3/4,3,2,5,0,1,0,1,1,12,14
+Russia,Latvia,79,52,1107,27,Maria Rodionova,07:22,0,0/3,0/2,0/1,0/0,2,1,3,2,3,0,3,0,4,5
+Russia,Latvia,79,52,1107,29,Mariia Krymova,24:01,7,3/10,2/4,1/6,0/0,5,2,7,4,3,1,2,0,10,12
+Russia,Latvia,79,52,1107,47,Anastasia Godunova,16:23,5,2/9,1/5,1/4,0/0,0,0,0,0,1,1,0,0,11,-3
+Russia,Latvia,79,52,1107,86,Alexandra Andrushchenko,25:43,15,6/14,3/5,3/9,0/0,0,6,6,2,2,0,0,0,27,15
+Latvia,Russia,52,79,1107,4,Jete Katrina Nulle,27:19,5,1/11,0/2,1/9,2/2,0,4,4,1,3,4,1,0,-17,-3
+Latvia,Russia,52,79,1107,5,Una Steinharde,08:20,2,1/3,1/1,0/2,0/0,0,1,1,1,2,0,1,0,-3,3
+Latvia,Russia,52,79,1107,6,Ketija Vihmane,26:14,5,2/7,1/2,1/5,0/0,0,0,0,1,1,0,1,0,-24,2
+Latvia,Russia,52,79,1107,7,Paula Klescova,26:59,4,2/10,2/9,0/1,0/0,0,4,4,1,1,1,0,0,-20,0
+Latvia,Russia,52,79,1107,8,Juta Harčenko,11:45,0,0/0,0/0,0/0,0/0,1,1,2,1,1,1,0,0,-16,2
+Latvia,Russia,52,79,1107,10,Laura Meldere,26:22,17,3/12,2/9,1/3,10/12,3,7,10,2,2,1,0,1,-15,18
+Latvia,Russia,52,79,1107,11,Paula Maurina,22:30,6,3/6,3/6,0/0,0/0,3,1,4,1,2,2,0,0,-7,6
+Latvia,Russia,52,79,1107,12,Daniela Grigorjeva,08:50,2,1/1,1/1,0/0,0/0,1,0,1,1,0,1,0,0,-4,3
+Latvia,Russia,52,79,1107,13,Anita Megija Mikelsone,11:32,4,1/2,1/2,0/0,2/2,0,1,1,3,1,1,1,0,0,7
+Latvia,Russia,52,79,1107,14,Eva Indrike,09:17,1,0/1,0/1,0/0,1/2,0,0,0,0,1,0,1,0,-6,0
+Latvia,Russia,52,79,1107,16,Nikola Priede,08:42,2,1/1,1/1,0/0,0/0,1,1,2,0,0,0,0,1,-12,5
+Latvia,Russia,52,79,1107,17,Madlena Irena Gerke,12:11,4,2/6,2/4,0/2,0/4,0,2,2,0,3,1,1,1,-11,-1
+Croatia,Israel,56,58,1107,4,Mia Vuksic,32:50,5,2/15,1/2,1/13,0/0,0,2,2,1,4,0,0,1,-5,-4
+Croatia,Israel,56,58,1107,5,Edita Poljac,04:39,0,0/1,0/1,0/0,0/0,0,0,0,0,0,0,0,0,-1,-1
+Croatia,Israel,56,58,1107,7,Tonia Bilic,06:25,0,0/3,0/2,0/1,0/0,3,0,3,0,0,0,0,0,-8,0
+Croatia,Israel,56,58,1107,8,Ana Haklicka,14:17,0,0/2,0/2,0/0,0/0,4,1,5,0,2,2,2,0,-2,3
+Croatia,Israel,56,58,1107,9,Marta Savic,18:35,11,4/12,4/12,0/0,3/4,4,4,8,0,3,0,1,0,1,11
+Croatia,Israel,56,58,1107,10,Nika Muhl,35:23,20,6/14,2/6,4/8,4/4,1,7,8,6,0,6,5,1,2,26
+Croatia,Israel,56,58,1107,11,Gabriela Grizelj,04:37,0,0/1,0/1,0/0,0/0,1,1,2,0,1,1,0,0,-4,0
+Croatia,Israel,56,58,1107,12,Ana Mandic,33:35,7,2/6,2/6,0/0,3/4,7,6,13,2,4,4,2,0,6,15
+Croatia,Israel,56,58,1107,13,Iva Bosnjak,29:03,10,3/15,1/4,2/11,2/2,1,3,4,0,2,1,2,1,3,4
+Croatia,Israel,56,58,1107,14,Petra Juric,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Croatia,Israel,56,58,1107,15,Josipa Juric,20:36,3,1/6,1/6,0/0,1/4,2,4,6,0,4,4,0,5,-2,2
+Croatia,Israel,56,58,1107,24,Viktorija Curic,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Israel,Croatia,58,56,1107,2,Shira Hagag,19:21,4,2/6,2/6,0/0,0/0,3,5,8,1,4,2,0,0,-2,7
+Israel,Croatia,58,56,1107,3,Ebony Mary Simionovich,06:06,3,1/2,1/2,0/0,1/2,0,1,1,0,1,1,0,0,-3,1
+Israel,Croatia,58,56,1107,7,Shahar Brener,01:21,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Israel,Croatia,58,56,1107,8,Daniel Karsh,37:15,6,1/8,1/7,0/1,4/6,0,1,1,4,2,3,2,0,2,1
+Israel,Croatia,58,56,1107,9,Noa Shimshi,08:59,3,1/1,0/0,1/1,0/0,0,1,1,0,2,0,0,0,-2,4
+Israel,Croatia,58,56,1107,11,Adan Jaoussy,01:43,0,0/0,0/0,0/0,0/0,1,0,1,0,0,1,1,0,-2,1
+Israel,Croatia,58,56,1107,12,Lior Garzon,29:37,7,3/15,3/6,0/9,1/2,0,6,6,0,3,0,1,0,8,1
+Israel,Croatia,58,56,1107,13,Eden Zipel,27:06,14,4/13,3/7,1/6,5/8,6,2,8,2,2,1,2,1,-1,14
+Israel,Croatia,58,56,1107,15,Gaya Sless,34:06,10,4/11,4/7,0/4,2/2,4,2,6,4,1,6,2,0,9,9
+Israel,Croatia,58,56,1107,21,Gili Eisner,31:03,11,4/15,2/7,2/8,1/2,2,12,14,2,3,3,0,0,3,12
+Israel,Croatia,58,56,1107,27,Nitzan Amar,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Israel,Croatia,58,56,1107,30,May Nesher,03:23,0,0/0,0/0,0/0,0/0,0,0,0,0,0,1,0,0,-2,-1
+Italy,Spain,76,63,1107,4,Beatrice Stroscio,03:23,0,0/0,0/0,0/0,0/0,1,1,2,0,1,0,0,0,-4,2
+Italy,Spain,76,63,1107,5,Alessandra Orsili,28:17,8,3/12,2/7,1/5,1/2,0,1,1,2,4,4,2,1,-1,0
+Italy,Spain,76,63,1107,6,Silvia Nativi,00:56,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Italy,Spain,76,63,1107,7,Caterina Gilli,28:38,7,3/8,2/6,1/2,0/2,2,3,5,1,3,0,3,2,15,11
+Italy,Spain,76,63,1107,9,Giulia Natali,35:10,8,3/12,3/10,0/2,2/2,0,2,2,0,1,2,4,0,4,3
+Italy,Spain,76,63,1107,10,Francesca Leonardi,05:08,0,0/1,0/0,0/1,0/0,1,0,1,1,1,0,0,0,-3,1
+Italy,Spain,76,63,1107,11,Silvia Pastrello,20:36,10,3/5,3/3,0/2,4/4,0,5,5,2,1,0,2,0,26,17
+Italy,Spain,76,63,1107,12,Martina Spinelli,22:46,6,3/6,3/6,0/0,0/0,3,4,7,0,4,5,3,0,-2,8
+Italy,Spain,76,63,1107,14,Ilaria Panzera,30:31,20,6/14,4/10,2/4,6/9,2,7,9,9,5,1,1,0,16,27
+Italy,Spain,76,63,1107,15,Clara Rosini,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Italy,Spain,76,63,1107,16,Lucia Adele Savatteri,00:12,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Italy,Spain,76,63,1107,18,Meriem Nasraoui,24:22,17,8/13,8/13,0/0,1/1,1,6,7,0,3,0,0,0,14,19
+Spain,Italy,63,76,1107,4,Mama Dembele Traore,26:09,5,1/3,0/1,1/2,2/4,0,1,1,1,2,5,0,0,-16,-2
+Spain,Italy,63,76,1107,5,Laia Lamana Llobera,30:38,15,5/14,3/9,2/5,3/4,3,3,6,1,5,3,2,1,-12,12
+Spain,Italy,63,76,1107,6,Cristina Mato de Prada,28:06,0,0/4,0/3,0/1,0/0,0,2,2,3,3,1,1,0,-5,1
+Spain,Italy,63,76,1107,7,Julia Soler,01:14,0,0/1,0/0,0/1,0/0,0,1,1,0,0,0,0,0,-4,0
+Spain,Italy,63,76,1107,8,Begona De Santiago Otero,02:50,0,0/1,0/0,0/1,0/0,0,0,0,0,0,0,0,0,0,-1
+Spain,Italy,63,76,1107,9,Laura Mendez Camps,04:28,2,1/2,1/2,0/0,0/0,0,0,0,0,0,0,0,0,-2,1
+Spain,Italy,63,76,1107,11,Estel Puiggros Rovira,09:11,5,1/6,0/2,1/4,2/4,1,1,2,1,0,0,1,0,4,2
+Spain,Italy,63,76,1107,12,Nerea Hermosa Monreal,18:25,6,2/6,2/6,0/0,2/2,4,6,10,0,1,1,0,0,1,11
+Spain,Italy,63,76,1107,13,Helena Pueyo Melchor,31:06,8,2/11,0/5,2/6,2/2,0,10,10,3,4,4,3,0,-11,11
+Spain,Italy,63,76,1107,14,Raquel Carrera Quintana,36:08,20,5/14,5/12,0/2,10/11,5,7,12,3,2,6,1,2,-5,22
+Spain,Italy,63,76,1107,15,Paula Fraile Ruiz,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Spain,Italy,63,76,1107,16,Marta Garcia Mateo,11:45,2,1/3,1/3,0/0,0/0,2,0,2,0,2,2,0,0,-15,0
+Belarus,Bosnia and Herzegovina,63,61,1107,4,Anastasiya Halauchyner,28:19,14,5/9,4/7,1/2,3/4,2,5,7,1,4,5,0,0,-1,12
+Belarus,Bosnia and Herzegovina,63,61,1107,5,Yuliya Vasilevich,31:24,16,5/15,4/7,1/8,5/6,4,4,8,6,3,4,4,0,-1,19
+Belarus,Bosnia and Herzegovina,63,61,1107,6,Aliaksandra Chyzheuskaya,29:48,8,4/8,4/7,0/1,0/0,3,5,8,1,5,4,2,1,1,12
+Belarus,Bosnia and Herzegovina,63,61,1107,7,Iryna Venskaya,36:45,5,2/10,2/5,0/5,1/2,0,2,2,5,2,0,1,0,2,4
+Belarus,Bosnia and Herzegovina,63,61,1107,8,Yana Liabedzich,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Belarus,Bosnia and Herzegovina,63,61,1107,9,Darya Siamiletnikava,11:41,6,2/8,2/5,0/3,2/2,0,1,1,0,4,2,0,1,3,0
+Belarus,Bosnia and Herzegovina,63,61,1107,10,Iryna Krauchanka,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Belarus,Bosnia and Herzegovina,63,61,1107,11,Aksana Isayenka,22:51,5,2/7,1/4,1/3,0/0,2,2,4,1,3,3,0,0,-2,2
+Belarus,Bosnia and Herzegovina,63,61,1107,13,Anastasiya Babak,18:48,7,3/6,2/2,1/4,0/0,3,5,8,1,0,3,0,0,4,10
+Belarus,Bosnia and Herzegovina,63,61,1107,14,Veranika Samailiuk,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Belarus,Bosnia and Herzegovina,63,61,1107,15,Maryia Trafimenkava,09:20,0,0/4,0/3,0/1,0/0,0,4,4,2,2,0,0,0,3,2
+Belarus,Bosnia and Herzegovina,63,61,1107,18,Aliaksandra Shumeika,11:04,2,1/4,1/2,0/2,0/0,0,2,2,1,2,0,1,0,1,3
+Bosnia and Herzegovina,Belarus,61,63,1107,3,Jovana Kovacevic,16:52,4,1/4,1/4,0/0,2/2,2,2,4,0,2,0,0,0,-4,5
+Bosnia and Herzegovina,Belarus,61,63,1107,4,Vanja Božić,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Bosnia and Herzegovina,Belarus,61,63,1107,7,Sanja Radulovic,28:22,3,1/4,0/2,1/2,0/0,1,2,3,0,2,1,2,0,-4,4
+Bosnia and Herzegovina,Belarus,61,63,1107,8,Ines Babic,00:04,0,0/0,0/0,0/0,0/0,0,0,0,0,0,1,0,0,-2,-1
+Bosnia and Herzegovina,Belarus,61,63,1107,9,Iman Peljto,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Bosnia and Herzegovina,Belarus,61,63,1107,10,Anđela Šipka,12:04,4,1/3,1/3,0/0,2/2,2,0,2,0,2,2,1,0,-1,3
+Bosnia and Herzegovina,Belarus,61,63,1107,17,Ajla Selimović,16:59,7,3/6,3/6,0/0,1/2,2,5,7,0,4,0,0,0,-4,10
+Bosnia and Herzegovina,Belarus,61,63,1107,18,Darija Babić,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Bosnia and Herzegovina,Belarus,61,63,1107,26,Marija Keseljevic,35:47,7,2/9,2/7,0/2,3/4,0,2,2,6,3,3,1,0,5,5
+Bosnia and Herzegovina,Belarus,61,63,1107,27,Ksenija Mitric,32:43,2,1/15,1/8,0/7,0/0,0,1,1,3,2,2,1,0,-8,-9
+Bosnia and Herzegovina,Belarus,61,63,1107,51,Azra Niksic,23:06,10,3/10,3/10,0/0,4/6,8,5,13,2,2,3,0,1,1,14
+Bosnia and Herzegovina,Belarus,61,63,1107,69,Dragana Zubac,34:03,24,8/17,7/11,1/6,7/14,3,9,12,2,4,3,9,0,7,28
+Hungary,Czech Republic,90,61,1107,4,Dorottya Eszter Budacsik,22:14,0,0/5,0/4,0/1,0/0,1,3,4,2,3,3,1,0,9,-1
+Hungary,Czech Republic,90,61,1107,5,Aya Kéita,18:31,4,1/4,0/1,1/3,1/2,1,3,4,1,2,1,0,0,1,4
+Hungary,Czech Republic,90,61,1107,6,Barbara Angyal,16:52,7,2/6,1/4,1/2,2/2,1,2,3,5,3,1,3,0,25,13
+Hungary,Czech Republic,90,61,1107,9,Fruzsina Reka Horvath,09:23,1,0/0,0/0,0/0,1/2,2,3,5,0,0,0,0,0,-6,5
+Hungary,Czech Republic,90,61,1107,11,Berta Panna Boros,08:30,0,0/2,0/2,0/0,0/0,0,1,1,1,1,0,1,0,-1,1
+Hungary,Czech Republic,90,61,1107,13,Reka Dombai,23:45,26,10/13,6/6,4/7,2/2,1,3,4,4,1,1,2,0,34,32
+Hungary,Czech Republic,90,61,1107,14,Aliz Varga,16:04,12,6/11,6/10,0/1,0/0,5,3,8,2,4,2,0,0,21,15
+Hungary,Czech Republic,90,61,1107,19,Nora Judit Wentzel,21:10,10,3/8,1/6,2/2,2/2,0,1,1,2,0,2,0,0,8,6
+Hungary,Czech Republic,90,61,1107,22,Dorina Szirony,12:48,3,1/2,0/0,1/2,0/0,0,0,0,0,3,2,0,0,-4,0
+Hungary,Czech Republic,90,61,1107,23,Reka Manyoky,19:51,9,4/7,3/5,1/2,0/0,1,2,3,2,1,1,4,1,15,15
+Hungary,Czech Republic,90,61,1107,24,Julia Boros,17:43,8,3/3,1/1,2/2,0/0,1,2,3,3,1,2,2,0,26,14
+Hungary,Czech Republic,90,61,1107,30,Angelika Kiss,13:09,10,3/5,3/5,0/0,4/5,0,3,3,0,2,1,0,0,17,9
+Czech Republic,Hungary,61,90,1107,1,Adela Burtova,21:25,5,2/6,2/5,0/1,1/2,2,2,4,2,1,1,1,0,-18,6
+Czech Republic,Hungary,61,90,1107,4,Katerina Zeithammerova,22:57,8,2/10,1/6,1/4,3/4,0,0,0,1,2,4,0,1,-13,-3
+Czech Republic,Hungary,61,90,1107,6,Tereza Halatkova,19:52,1,0/5,0/2,0/3,1/2,2,4,6,0,1,2,0,1,-12,0
+Czech Republic,Hungary,61,90,1107,7,Petra Malikova,18:17,8,4/7,4/6,0/1,0/0,0,1,1,3,2,0,1,0,-10,10
+Czech Republic,Hungary,61,90,1107,8,Zuzana Sitancova,17:02,13,4/7,0/1,4/6,1/2,1,2,3,0,1,1,2,0,-11,13
+Czech Republic,Hungary,61,90,1107,10,Eliska Hamzova,16:09,6,3/4,3/3,0/1,0/0,0,2,2,0,3,5,0,0,-16,2
+Czech Republic,Hungary,61,90,1107,12,Monika Fucikova,14:53,9,2/3,1/2,1/1,4/6,0,1,1,2,2,0,1,0,-19,10
+Czech Republic,Hungary,61,90,1107,13,Andrea Ondrouskova,09:17,4,2/5,2/5,0/0,0/0,0,0,0,1,0,1,2,0,0,3
+Czech Republic,Hungary,61,90,1107,14,Martina Pokorna,14:35,2,1/2,1/2,0/0,0/2,1,0,1,0,4,1,0,0,-9,-1
+Czech Republic,Hungary,61,90,1107,15,Julia Vydrova,09:39,0,0/1,0/1,0/0,0/0,1,0,1,0,0,0,0,0,-4,0
+Czech Republic,Hungary,61,90,1107,17,Natalie Horsakova,15:46,5,2/5,2/5,0/0,1/2,0,4,4,0,3,0,0,0,-16,5
+Czech Republic,Hungary,61,90,1107,18,Anna Patorkova,20:08,0,0/3,0/2,0/1,0/0,2,4,6,0,1,1,0,0,-17,2
+Belgium,Lithuania,59,48,1107,4,Kyra Billiaert,01:34,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,4,0
+Belgium,Lithuania,59,48,1107,5,Merel Knaepen,22:55,7,3/8,3/8,0/0,1/2,3,6,9,6,1,1,0,0,11,15
+Belgium,Lithuania,59,48,1107,6,Sam Van Buggenhout,34:05,16,7/16,7/13,0/3,2/3,3,1,4,4,3,3,4,0,5,15
+Belgium,Lithuania,59,48,1107,7,Yante Aline Anna Strumane,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Belgium,Lithuania,59,48,1107,8,Kadiatou Traore,05:53,0,0/1,0/0,0/1,0/0,0,0,0,0,1,0,1,0,-2,0
+Belgium,Lithuania,59,48,1107,9,Elena Vielfont,17:09,0,0/3,0/3,0/0,0/0,0,1,1,1,2,1,0,1,3,-1
+Belgium,Lithuania,59,48,1107,10,Frances Duhamel,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Belgium,Lithuania,59,48,1107,11,Tesse Marianne Kapenga,17:30,4,2/6,2/6,0/0,0/0,4,3,7,1,0,1,0,0,-1,7
+Belgium,Lithuania,59,48,1107,12,Kristina Pauline G. Ekofo Yomane,26:13,8,4/10,4/10,0/0,0/0,1,6,7,0,2,3,1,1,11,8
+Belgium,Lithuania,59,48,1107,13,Maxuella Lisowa Mbaka,35:21,6,1/9,1/8,0/1,4/4,4,8,12,4,2,1,2,1,12,16
+Belgium,Lithuania,59,48,1107,15,Sarah Bell,18:25,6,2/9,0/1,2/8,0/0,0,1,1,2,2,0,0,0,-2,2
+Belgium,Lithuania,59,48,1107,16,Emma Bell,20:56,12,4/10,0/1,4/9,0/0,0,0,0,1,4,0,1,0,14,8
+Lithuania,Belgium,48,59,1107,3,Aistė Švėgždaitė,26:26,4,1/5,1/3,0/2,2/4,1,0,1,0,1,2,0,1,-9,-2
+Lithuania,Belgium,48,59,1107,6,Dovilė Jankauskaitė,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Lithuania,Belgium,48,59,1107,7,Kamilė Mickutė,10:13,0,0/2,0/0,0/2,0/0,0,1,1,0,4,0,1,0,1,0
+Lithuania,Belgium,48,59,1107,9,Dominyka Paliulytė,06:44,0,0/2,0/2,0/0,0/0,1,0,1,0,1,1,0,0,-4,-2
+Lithuania,Belgium,48,59,1107,10,Urtė Cižauskaitė,10:38,7,3/5,3/4,0/1,1/2,1,2,3,1,0,1,1,1,1,9
+Lithuania,Belgium,48,59,1107,11,Brigita Sinickaitė,33:16,6,1/9,1/5,0/4,4/4,0,3,3,6,2,2,1,1,-7,7
+Lithuania,Belgium,48,59,1107,14,Justina Oficerovaitė,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Lithuania,Belgium,48,59,1107,15,Gedvilė Savostaitė,29:15,8,2/16,0/6,2/10,2/2,1,6,7,0,0,3,0,0,-9,-2
+Lithuania,Belgium,48,59,1107,30,Audronė Zdanevičiūtė,14:48,2,1/1,1/1,0/0,0/0,2,0,2,1,3,2,0,0,-5,3
+Lithuania,Belgium,48,59,1107,31,Klaudija Janionytė,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Lithuania,Belgium,48,59,1107,55,Simona Visockaitė,35:59,10,3/7,3/7,0/0,4/6,7,12,19,0,1,3,2,0,-7,22
+Lithuania,Belgium,48,59,1107,77,Justina Miknaitė,32:41,11,5/12,4/8,1/4,0/0,2,4,6,1,1,1,0,0,-16,10
+Belarus,Israel,72,62,1307,4,Anastasiya Halauchyner,05:04,0,0/1,0/1,0/0,0/0,0,0,0,0,0,0,1,0,-4,0
+Belarus,Israel,72,62,1307,5,Yuliya Vasilevich,40:00,19,6/15,3/8,3/7,4/5,3,6,9,9,0,2,2,0,10,27
+Belarus,Israel,72,62,1307,6,Aliaksandra Chyzheuskaya,24:03,12,5/9,5/9,0/0,2/2,2,7,9,1,2,0,2,0,18,20
+Belarus,Israel,72,62,1307,7,Iryna Venskaya,36:13,13,5/10,3/5,2/5,1/2,0,1,1,1,2,0,4,0,8,13
+Belarus,Israel,72,62,1307,8,Yana Liabedzich,27:03,14,4/10,3/4,1/6,5/6,1,3,4,1,1,1,1,0,13,12
+Belarus,Israel,72,62,1307,9,Darya Siamiletnikava,02:26,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-7,0
+Belarus,Israel,72,62,1307,10,Iryna Krauchanka,13:31,5,1/7,1/6,0/1,3/4,2,0,2,3,1,0,0,0,-1,3
+Belarus,Israel,72,62,1307,11,Aksana Isayenka,11:40,0,0/2,0/1,0/1,0/0,0,0,0,3,0,0,0,0,8,1
+Belarus,Israel,72,62,1307,13,Anastasiya Babak,02:51,2,1/1,1/1,0/0,0/0,1,1,2,0,0,0,1,0,6,5
+Belarus,Israel,72,62,1307,14,Veranika Samailiuk,05:02,2,1/5,1/5,0/0,0/0,1,0,1,1,0,0,0,1,-5,1
+Belarus,Israel,72,62,1307,15,Maryia Trafimenkava,23:49,4,2/9,2/8,0/1,0/0,3,4,7,0,2,0,1,1,14,6
+Belarus,Israel,72,62,1307,18,Aliaksandra Shumeika,08:18,1,0/2,0/2,0/0,1/2,0,1,1,0,0,0,1,0,-10,0
+Israel,Belarus,62,72,1307,2,Shira Hagag,02:35,0,0/2,0/2,0/0,0/0,0,0,0,0,0,0,0,0,-8,-2
+Israel,Belarus,62,72,1307,3,Ebony Mary Simionovich,19:03,8,4/7,4/6,0/1,0/0,5,5,10,1,3,1,0,2,5,17
+Israel,Belarus,62,72,1307,7,Shahar Brener,03:38,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-10,0
+Israel,Belarus,62,72,1307,8,Daniel Karsh,34:49,4,2/8,2/8,0/0,0/2,1,4,5,6,2,4,0,0,-15,3
+Israel,Belarus,62,72,1307,9,Noa Shimshi,28:52,8,3/3,1/1,2/2,0/0,0,1,1,1,4,0,0,0,3,10
+Israel,Belarus,62,72,1307,11,Adan Jaoussy,01:22,0,0/0,0/0,0/0,0/0,0,0,0,0,1,1,0,0,-2,-1
+Israel,Belarus,62,72,1307,12,Lior Garzon,19:54,9,4/11,3/6,1/5,0/0,2,1,3,2,3,2,0,0,-2,5
+Israel,Belarus,62,72,1307,13,Eden Zipel,31:48,15,6/15,4/11,2/4,1/2,1,5,6,3,1,3,0,1,-11,12
+Israel,Belarus,62,72,1307,15,Gaya Sless,13:16,0,0/2,0/1,0/1,0/0,0,1,1,1,0,2,0,0,-6,-2
+Israel,Belarus,62,72,1307,21,Gili Eisner,34:43,14,5/12,1/2,4/10,0/0,1,10,11,4,1,5,1,2,3,20
+Israel,Belarus,62,72,1307,27,Nitzan Amar,10:01,4,2/2,2/2,0/0,0/0,0,1,1,0,0,0,0,0,-7,5
+Israel,Belarus,62,72,1307,30,May Nesher,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Bosnia and Herzegovina,Croatia,73,70,1307,3,Jovana Kovacevic,24:02,6,3/9,3/9,0/0,0/0,0,3,3,1,3,1,1,1,-6,5
+Bosnia and Herzegovina,Croatia,73,70,1307,4,Vanja Božić,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Bosnia and Herzegovina,Croatia,73,70,1307,7,Sanja Radulovic,34:30,4,2/6,2/4,0/2,0/2,0,3,3,3,3,1,1,0,5,4
+Bosnia and Herzegovina,Croatia,73,70,1307,8,Ines Babic,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Bosnia and Herzegovina,Croatia,73,70,1307,9,Iman Peljto,02:14,0,0/0,0/0,0/0,0/0,0,1,1,0,1,1,0,0,2,0
+Bosnia and Herzegovina,Croatia,73,70,1307,10,Anđela Šipka,11:38,2,0/1,0/1,0/0,2/2,1,3,4,0,0,0,0,0,-11,5
+Bosnia and Herzegovina,Croatia,73,70,1307,17,Ajla Selimović,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Bosnia and Herzegovina,Croatia,73,70,1307,18,Darija Babić,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Bosnia and Herzegovina,Croatia,73,70,1307,26,Marija Keseljevic,35:10,19,6/10,5/8,1/2,6/6,0,2,2,3,1,5,2,0,12,17
+Bosnia and Herzegovina,Croatia,73,70,1307,27,Ksenija Mitric,35:56,15,5/15,2/6,3/9,2/3,1,2,3,0,2,6,0,0,9,1
+Bosnia and Herzegovina,Croatia,73,70,1307,51,Azra Niksic,19:15,7,1/3,1/3,0/0,5/6,1,4,5,0,0,1,0,3,1,11
+Bosnia and Herzegovina,Croatia,73,70,1307,69,Dragana Zubac,37:15,20,7/17,5/11,2/6,4/8,0,4,4,4,2,2,5,1,3,18
+Croatia,Bosnia and Herzegovina,70,73,1307,4,Mia Vuksic,32:35,12,4/15,0/4,4/11,0/0,0,3,3,2,4,2,0,0,-5,4
+Croatia,Bosnia and Herzegovina,70,73,1307,5,Edita Poljac,24:41,10,3/5,0/2,3/3,1/2,2,2,4,2,2,4,2,0,9,11
+Croatia,Bosnia and Herzegovina,70,73,1307,7,Tonia Bilic,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Croatia,Bosnia and Herzegovina,70,73,1307,8,Ana Haklicka,05:34,0,0/0,0/0,0/0,0/0,0,0,0,1,2,1,0,0,-13,0
+Croatia,Bosnia and Herzegovina,70,73,1307,9,Marta Savic,22:15,6,2/7,2/7,0/0,2/3,2,3,5,3,4,1,0,1,4,8
+Croatia,Bosnia and Herzegovina,70,73,1307,10,Nika Muhl,24:25,12,4/10,2/6,2/4,2/3,1,3,4,4,5,6,2,0,-7,9
+Croatia,Bosnia and Herzegovina,70,73,1307,11,Gabriela Grizelj,09:08,3,1/5,0/4,1/1,0/0,0,3,3,3,0,2,0,0,5,3
+Croatia,Bosnia and Herzegovina,70,73,1307,12,Ana Mandic,27:59,18,9/16,9/14,0/2,0/0,8,7,15,1,4,3,2,0,2,26
+Croatia,Bosnia and Herzegovina,70,73,1307,13,Iva Bosnjak,22:33,3,1/7,0/1,1/6,0/0,2,4,6,2,3,2,1,0,0,4
+Croatia,Bosnia and Herzegovina,70,73,1307,14,Petra Juric,11:11,2,1/3,1/3,0/0,0/0,2,1,3,0,0,1,0,0,1,2
+Croatia,Bosnia and Herzegovina,70,73,1307,15,Josipa Juric,16:28,4,2/8,2/8,0/0,0/0,1,2,3,2,5,2,0,2,-5,3
+Croatia,Bosnia and Herzegovina,70,73,1307,24,Viktorija Curic,03:12,0,0/3,0/3,0/0,0/0,2,1,3,0,0,0,0,0,-6,0
+Poland,Belgium,82,73,1307,1,Alicja Katarzyna Rogozinska,25:06,8,3/7,2/6,1/1,1/2,0,0,0,3,0,4,3,0,8,5
+Poland,Belgium,82,73,1307,2,Julia  Bazan,14:54,4,1/6,1/5,0/1,2/4,0,1,1,3,0,1,1,0,1,1
+Poland,Belgium,82,73,1307,3,Aleksandra Katarzyna Ustowska,03:38,0,0/1,0/1,0/0,0/0,1,0,1,0,0,0,1,0,4,1
+Poland,Belgium,82,73,1307,4,Emilia Eliza Kosla,23:12,17,6/10,3/4,3/6,2/2,0,0,0,2,1,6,1,0,-5,10
+Poland,Belgium,82,73,1307,5,Magdalena Zuzanna Szymkiewicz,30:32,29,9/16,3/7,6/9,5/6,4,0,4,3,2,4,2,0,15,26
+Poland,Belgium,82,73,1307,6,Zuzanna Weronika Kulinska,16:48,9,4/7,3/4,1/3,0/3,0,1,1,1,2,0,0,0,6,5
+Poland,Belgium,82,73,1307,7,Aleksandra Malgorzata Pszczolarska,36:18,9,3/11,2/8,1/3,2/4,7,10,17,0,2,3,3,0,16,16
+Poland,Belgium,82,73,1307,8,Weronika Dudek,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Poland,Belgium,82,73,1307,11,Weronika Piechowiak,07:56,0,0/1,0/1,0/0,0/0,0,0,0,0,0,0,0,0,-1,-1
+Poland,Belgium,82,73,1307,12,Kamila Borkowska,28:12,6,2/8,2/8,0/0,2/4,7,10,17,1,3,1,2,2,4,19
+Poland,Belgium,82,73,1307,13,Martyna Maria Kowalska,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Poland,Belgium,82,73,1307,14,Natalia Kurach,13:24,0,0/1,0/1,0/0,0/0,0,1,1,1,3,0,0,1,-3,2
+Belgium,Poland,73,82,1307,4,Kyra Billiaert,13:09,3,1/3,0/1,1/2,0/0,0,1,1,0,3,1,0,0,3,1
+Belgium,Poland,73,82,1307,5,Merel Knaepen,19:25,2,1/5,1/5,0/0,0/0,0,2,2,3,3,0,1,1,-6,5
+Belgium,Poland,73,82,1307,6,Sam Van Buggenhout,28:23,20,7/12,1/2,6/10,0/0,0,1,1,0,3,1,2,0,-13,17
+Belgium,Poland,73,82,1307,7,Yante Aline Anna Strumane,06:46,2,1/1,1/1,0/0,0/0,0,0,0,0,0,1,2,0,-5,3
+Belgium,Poland,73,82,1307,8,Kadiatou Traore,08:59,0,0/2,0/2,0/0,0/0,1,2,3,3,3,2,0,0,2,2
+Belgium,Poland,73,82,1307,9,Elena Vielfont,18:26,2,1/2,1/2,0/0,0/0,0,4,4,5,1,5,1,0,-5,6
+Belgium,Poland,73,82,1307,10,Frances Duhamel,02:14,0,0/0,0/0,0/0,0/0,0,0,0,0,0,1,0,0,-6,-1
+Belgium,Poland,73,82,1307,11,Tesse Marianne Kapenga,20:49,9,4/9,4/8,0/1,1/2,2,7,9,1,0,2,1,0,6,12
+Belgium,Poland,73,82,1307,12,Kristina Pauline G. Ekofo Yomane,21:23,8,4/8,4/8,0/0,0/0,1,3,4,3,2,1,1,0,-8,11
+Belgium,Poland,73,82,1307,13,Maxuella Lisowa Mbaka,30:46,14,5/9,5/8,0/1,4/7,2,2,4,7,4,1,3,1,1,21
+Belgium,Poland,73,82,1307,15,Sarah Bell,12:37,3,1/5,0/1,1/4,0/0,0,2,2,2,1,1,0,0,-17,2
+Belgium,Poland,73,82,1307,16,Emma Bell,17:03,10,4/12,2/2,2/10,0/0,1,1,2,0,2,1,0,0,3,3
+Serbia,Lithuania,65,66,1307,1,Katarina Desic,02:45,0,0/0,0/0,0/0,0/0,0,0,0,0,0,2,0,0,-4,-2
+Serbia,Lithuania,65,66,1307,2,Tamara Corto,16:07,2,0/5,0/3,0/2,2/2,0,2,2,5,0,0,1,0,-6,5
+Serbia,Lithuania,65,66,1307,4,Mona Zaric,25:40,4,2/5,2/4,0/1,0/0,0,2,2,2,1,1,1,1,6,6
+Serbia,Lithuania,65,66,1307,5,Sofija Radojcin,10:03,2,1/5,1/5,0/0,0/0,0,0,0,2,1,0,0,0,3,0
+Serbia,Lithuania,65,66,1307,6,Nadija Smailbegovic,16:42,8,4/5,4/5,0/0,0/0,0,1,1,2,5,2,1,0,17,9
+Serbia,Lithuania,65,66,1307,7,Visnja Stefanovic,35:39,16,6/10,3/5,3/5,1/2,6,7,13,3,3,2,2,2,-1,29
+Serbia,Lithuania,65,66,1307,10,Nikolina Deuric,28:08,2,1/6,1/6,0/0,0/0,1,2,3,1,3,2,2,0,-6,1
+Serbia,Lithuania,65,66,1307,12,Nikolija Jovanovic,06:49,3,1/2,0/0,1/2,0/0,0,1,1,0,1,0,1,0,-9,4
+Serbia,Lithuania,65,66,1307,13,Nadezda Nedeljkov,12:50,10,4/7,2/3,2/4,0/0,2,2,4,1,2,3,0,0,-3,9
+Serbia,Lithuania,65,66,1307,14,Aleksandra Muzevic,30:18,14,4/15,1/6,3/9,3/4,0,5,5,1,2,4,1,1,2,6
+Serbia,Lithuania,65,66,1307,15,Marija Ristic,04:39,2,1/6,1/6,0/0,0/0,2,0,2,0,2,1,1,0,4,-1
+Serbia,Lithuania,65,66,1307,16,Marta Mitrovic,10:20,2,1/2,1/1,0/1,0/0,1,1,2,0,1,1,0,0,-8,2
+Lithuania,Serbia,66,65,1307,3,Aistė Švėgždaitė,25:15,3,1/7,1/6,0/1,1/2,1,1,2,1,2,2,1,1,11,-1
+Lithuania,Serbia,66,65,1307,6,Dovilė Jankauskaitė,03:57,2,1/2,1/2,0/0,0/0,0,0,0,0,2,0,0,0,-4,1
+Lithuania,Serbia,66,65,1307,7,Kamilė Mickutė,06:21,0,0/2,0/2,0/0,0/0,0,0,0,0,0,1,0,0,-8,-3
+Lithuania,Serbia,66,65,1307,9,Dominyka Paliulytė,06:18,0,0/0,0/0,0/0,0/0,0,0,0,1,2,1,1,0,-4,1
+Lithuania,Serbia,66,65,1307,10,Urtė Cižauskaitė,16:30,3,1/3,1/3,0/0,1/2,2,0,2,1,0,1,0,0,-5,2
+Lithuania,Serbia,66,65,1307,11,Brigita Sinickaitė,32:37,14,5/16,5/12,0/4,4/5,0,5,5,5,0,3,0,0,9,9
+Lithuania,Serbia,66,65,1307,14,Justina Oficerovaitė,03:39,0,0/1,0/1,0/0,0/0,1,0,1,0,0,1,1,0,-8,0
+Lithuania,Serbia,66,65,1307,15,Gedvilė Savostaitė,33:39,4,1/5,1/4,0/1,2/2,1,2,3,0,2,1,0,1,9,3
+Lithuania,Serbia,66,65,1307,30,Audronė Zdanevičiūtė,05:17,2,1/1,1/1,0/0,0/0,0,0,0,0,2,0,0,0,-11,2
+Lithuania,Serbia,66,65,1307,31,Klaudija Janionytė,01:05,0,0/0,0/0,0/0,0/0,0,0,0,0,0,1,0,0,-4,-1
+Lithuania,Serbia,66,65,1307,55,Simona Visockaitė,34:36,16,7/15,7/15,0/0,2/2,6,9,15,0,2,3,1,1,4,22
+Lithuania,Serbia,66,65,1307,77,Justina Miknaitė,30:46,22,8/14,4/7,4/7,2/2,0,5,5,4,4,2,4,0,16,27
+Italy,Russia,75,49,1307,4,Beatrice Stroscio,13:31,3,1/3,1/2,0/1,1/3,0,1,1,0,2,2,0,1,-14,-1
+Italy,Russia,75,49,1307,5,Alessandra Orsili,23:50,8,4/12,4/8,0/4,0/0,0,1,1,1,2,1,2,0,24,3
+Italy,Russia,75,49,1307,6,Silvia Nativi,08:51,2,1/4,1/2,0/2,0/0,0,1,1,0,0,2,0,0,-14,-2
+Italy,Russia,75,49,1307,7,Caterina Gilli,21:45,11,4/7,3/4,1/3,2/2,6,3,9,7,2,1,4,0,40,27
+Italy,Russia,75,49,1307,9,Giulia Natali,15:40,10,4/8,3/4,1/4,1/1,0,0,0,0,2,1,1,0,15,6
+Italy,Russia,75,49,1307,10,Francesca Leonardi,16:18,3,0/4,0/1,0/3,3/4,1,4,5,0,1,2,0,0,10,1
+Italy,Russia,75,49,1307,11,Silvia Pastrello,18:05,7,3/7,3/7,0/0,1/1,3,1,4,2,3,1,1,0,16,9
+Italy,Russia,75,49,1307,12,Martina Spinelli,22:07,7,2/8,2/7,0/1,3/5,2,3,5,2,1,1,3,0,42,8
+Italy,Russia,75,49,1307,14,Ilaria Panzera,21:16,12,4/6,2/3,2/3,2/3,0,7,7,5,1,4,4,1,48,22
+Italy,Russia,75,49,1307,15,Clara Rosini,09:30,2,0/1,0/1,0/0,2/4,1,1,2,0,1,1,0,0,-14,0
+Italy,Russia,75,49,1307,16,Lucia Adele Savatteri,15:55,6,3/3,3/3,0/0,0/0,2,2,4,0,1,1,0,1,-16,10
+Italy,Russia,75,49,1307,18,Meriem Nasraoui,13:12,4,2/6,2/6,0/0,0/0,0,2,2,2,3,1,1,0,-7,4
+Russia,Italy,49,75,1307,6,Aleksandra Siiamkina,11:43,2,1/2,1/2,0/0,0/0,0,1,1,1,1,2,1,0,-9,2
+Russia,Italy,49,75,1307,8,Anastasiia Bobrik,08:59,2,0/2,0/1,0/1,2/2,0,1,1,1,5,5,0,0,-10,-3
+Russia,Italy,49,75,1307,9,Aleksandra Kuzmitskaia,01:27,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-4,0
+Russia,Italy,49,75,1307,13,Kristina Kord,13:05,2,1/4,1/4,0/0,0/2,2,2,4,0,1,0,0,0,-1,1
+Russia,Italy,49,75,1307,18,Elizaveta Andreeva,14:56,8,1/6,1/5,0/1,6/6,4,0,4,0,2,2,0,1,-33,6
+Russia,Italy,49,75,1307,20,Ksenia Filimonova,20:13,2,1/3,1/2,0/1,0/0,0,1,1,0,2,3,2,0,-21,0
+Russia,Italy,49,75,1307,22,Alexandra Strebkova,29:06,9,4/7,4/7,0/0,1/2,1,5,6,0,1,4,0,1,-9,8
+Russia,Italy,49,75,1307,23,Daria Goncharova,22:52,5,1/5,1/5,0/0,3/4,3,10,13,1,4,3,2,2,11,15
+Russia,Italy,49,75,1307,27,Maria Rodionova,12:06,0,0/4,0/3,0/1,0/0,0,0,0,0,1,1,2,0,-6,-3
+Russia,Italy,49,75,1307,29,Mariia Krymova,21:22,14,5/10,3/7,2/3,2/2,2,1,3,1,2,4,3,0,2,12
+Russia,Italy,49,75,1307,47,Anastasia Godunova,19:32,0,0/9,0/8,0/1,0/0,0,1,1,1,0,1,0,0,-28,-8
+Russia,Italy,49,75,1307,86,Alexandra Andrushchenko,24:39,5,2/7,1/4,1/3,0/0,1,1,2,1,4,0,1,0,-22,4
+Spain,Latvia,75,46,1307,4,Mama Dembele Traore,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Spain,Latvia,75,46,1307,5,Laia Lamana Llobera,06:24,6,2/2,2/2,0/0,2/2,0,0,0,3,2,1,1,0,11,9
+Spain,Latvia,75,46,1307,6,Cristina Mato de Prada,24:16,10,4/7,4/5,0/2,2/2,1,1,2,2,0,3,3,0,33,11
+Spain,Latvia,75,46,1307,7,Julia Soler,19:44,9,4/9,3/7,1/2,0/0,2,1,3,3,4,0,2,0,9,12
+Spain,Latvia,75,46,1307,8,Begona De Santiago Otero,15:29,6,3/4,3/3,0/1,0/2,0,3,3,1,0,0,1,0,15,8
+Spain,Latvia,75,46,1307,9,Laura Mendez Camps,21:10,2,0/2,0/1,0/1,2/4,1,3,4,2,2,4,0,0,6,0
+Spain,Latvia,75,46,1307,11,Estel Puiggros Rovira,15:50,6,2/6,0/1,2/5,0/0,0,1,1,3,1,3,4,0,-8,7
+Spain,Latvia,75,46,1307,12,Nerea Hermosa Monreal,16:45,6,2/4,2/4,0/0,2/2,1,3,4,1,1,1,2,2,21,12
+Spain,Latvia,75,46,1307,13,Helena Pueyo Melchor,22:53,9,4/11,3/6,1/5,0/0,0,6,6,0,1,1,1,2,27,10
+Spain,Latvia,75,46,1307,14,Raquel Carrera Quintana,22:40,7,2/6,2/6,0/0,3/6,2,9,11,4,1,0,0,3,24,18
+Spain,Latvia,75,46,1307,15,Paula Fraile Ruiz,14:53,10,4/8,4/6,0/2,2/4,3,2,5,0,3,2,0,1,2,8
+Spain,Latvia,75,46,1307,16,Marta Garcia Mateo,19:56,4,1/9,1/9,0/0,2/4,1,2,3,2,2,0,0,1,5,0
+Latvia,Spain,46,75,1307,4,Jete Katrina Nulle,21:53,0,0/6,0/3,0/3,0/0,0,3,3,1,5,5,1,0,-23,-6
+Latvia,Spain,46,75,1307,5,Una Steinharde,11:47,3,1/3,0/2,1/1,0/0,0,0,0,1,0,2,0,0,-6,0
+Latvia,Spain,46,75,1307,6,Ketija Vihmane,14:14,6,2/3,0/0,2/3,0/0,1,1,2,2,2,2,0,0,-5,7
+Latvia,Spain,46,75,1307,7,Paula Klescova,17:37,0,0/5,0/3,0/2,0/0,0,4,4,2,3,3,2,0,-20,0
+Latvia,Spain,46,75,1307,8,Juta Harčenko,16:38,5,2/5,2/4,0/1,1/2,2,4,6,0,3,0,2,0,-12,9
+Latvia,Spain,46,75,1307,10,Laura Meldere,25:51,13,5/12,4/9,1/3,2/2,0,6,6,2,1,2,1,0,-16,13
+Latvia,Spain,46,75,1307,11,Paula Maurina,25:52,4,2/10,2/10,0/0,0/2,1,3,4,0,3,0,0,0,-22,-2
+Latvia,Spain,46,75,1307,12,Daniela Grigorjeva,02:34,0,0/1,0/1,0/0,0/0,0,0,0,0,0,0,0,0,-1,-1
+Latvia,Spain,46,75,1307,13,Anita Megija Mikelsone,18:16,8,1/4,1/4,0/0,6/8,2,3,5,0,2,2,1,0,-5,7
+Latvia,Spain,46,75,1307,14,Eva Indrike,13:09,2,1/5,1/2,0/3,0/0,0,1,1,1,3,2,0,0,-13,-2
+Latvia,Spain,46,75,1307,16,Nikola Priede,15:41,4,2/4,2/3,0/1,0/0,0,1,1,1,0,1,1,0,-11,4
+Latvia,Spain,46,75,1307,17,Madlena Irena Gerke,16:28,1,0/6,0/5,0/1,1/2,2,3,5,4,2,3,0,0,-11,0
+France,Hungary,56,67,1307,0,Jade Hamaoui,08:51,2,1/3,1/3,0/0,0/0,0,2,2,1,1,0,2,0,-7,5
+France,Hungary,56,67,1307,6,Serena Kessler,31:54,7,2/4,2/4,0/0,3/3,0,8,8,2,0,3,1,0,-10,13
+France,Hungary,56,67,1307,7,Camille Hillotte,09:45,2,1/4,1/1,0/3,0/0,0,1,1,0,0,1,0,0,1,-1
+France,Hungary,56,67,1307,8,Yohana Isabelle Ewodo,13:43,2,1/3,1/2,0/1,0/0,2,4,6,1,3,5,1,0,-5,3
+France,Hungary,56,67,1307,13,Janelle Illona Salaun,19:59,1,0/8,0/3,0/5,1/2,0,5,5,1,3,0,1,0,-1,-1
+France,Hungary,56,67,1307,18,Emilie Raynaud,18:59,6,1/4,0/0,1/4,3/3,0,0,0,0,1,1,0,0,-16,2
+France,Hungary,56,67,1307,26,Eve Mahoutou,25:19,9,4/6,4/6,0/0,1/2,5,1,6,0,1,0,0,0,-6,12
+France,Hungary,56,67,1307,29,Ewl Guennoc,24:05,5,2/10,1/5,1/5,0/0,1,0,1,2,3,1,1,0,-9,0
+France,Hungary,56,67,1307,31,Aminata Gueye,12:56,6,2/4,2/4,0/0,2/2,4,2,6,0,1,3,0,0,-3,7
+France,Hungary,56,67,1307,34,Ténin Magassa,09:29,8,3/6,3/6,0/0,2/3,4,1,5,0,1,0,0,0,-2,9
+France,Hungary,56,67,1307,50,Marie Pardon,25:00,8,4/14,4/10,0/4,0/0,0,2,2,6,1,4,0,0,3,2
+France,Hungary,56,67,1307,75,Vaciana Thérèse Dona Gomis,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Hungary,France,67,56,1307,4,Dorottya Eszter Budacsik,05:23,0,0/2,0/2,0/0,0/0,1,2,3,0,0,0,0,0,4,1
+Hungary,France,67,56,1307,5,Aya Kéita,09:48,4,2/4,2/3,0/1,0/0,0,1,1,2,1,3,0,0,5,2
+Hungary,France,67,56,1307,6,Barbara Angyal,30:12,10,3/12,1/4,2/8,2/2,0,2,2,3,3,4,1,0,6,3
+Hungary,France,67,56,1307,9,Fruzsina Reka Horvath,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Hungary,France,67,56,1307,11,Berta Panna Boros,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Hungary,France,67,56,1307,13,Reka Dombai,36:37,16,7/14,5/10,2/4,0/0,2,5,7,7,1,1,6,0,6,28
+Hungary,France,67,56,1307,14,Aliz Varga,31:01,10,4/8,4/7,0/1,2/2,3,7,10,3,3,2,0,0,5,17
+Hungary,France,67,56,1307,19,Nora Judit Wentzel,19:54,10,5/7,5/7,0/0,0/0,0,1,1,0,3,1,1,0,11,9
+Hungary,France,67,56,1307,22,Dorina Szirony,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Hungary,France,67,56,1307,23,Reka Manyoky,18:05,0,0/1,0/1,0/0,0/0,1,2,3,3,1,1,0,1,10,5
+Hungary,France,67,56,1307,24,Julia Boros,23:29,6,2/6,0/2,2/4,0/0,0,2,2,2,2,1,1,0,5,6
+Hungary,France,67,56,1307,30,Angelika Kiss,25:31,11,4/6,4/6,0/0,3/5,1,1,2,0,2,2,2,0,3,9
+Germany,Czech Republic,65,61,1307,5,Pauline Marie Mayer,11:41,2,1/1,1/1,0/0,0/0,0,1,1,0,4,1,1,0,5,3
+Germany,Czech Republic,65,61,1307,6,Nina Melissa Rosemeyer,14:55,1,0/7,0/6,0/1,1/2,0,3,3,1,1,4,0,2,-17,-5
+Germany,Czech Republic,65,61,1307,9,Julia Margareta Förner,25:56,7,2/7,1/4,1/3,2/2,0,3,3,3,2,4,1,0,-2,5
+Germany,Czech Republic,65,61,1307,10,Victoria Poros,07:28,3,1/4,0/1,1/3,0/0,0,1,1,2,0,2,0,0,-4,1
+Germany,Czech Republic,65,61,1307,11,Emily Bessoir,24:34,18,8/14,7/11,1/3,1/4,1,16,17,5,0,3,4,2,18,34
+Germany,Czech Republic,65,61,1307,12,Stella Marie Reichert,08:07,3,1/1,1/1,0/0,1/4,1,0,1,0,1,3,0,0,-1,-2
+Germany,Czech Republic,65,61,1307,14,Lotta Mia Stach,20:00,3,1/4,1/4,0/0,1/2,0,2,2,0,1,0,0,0,-16,1
+Germany,Czech Republic,65,61,1307,15,Praise Egharevba,17:27,6,3/8,3/8,0/0,0/5,4,4,8,0,5,7,2,2,2,1
+Germany,Czech Republic,65,61,1307,17,Elea Kristiana D. K. Gaba,21:17,9,4/5,4/5,0/0,1/2,1,3,4,1,3,3,0,2,4,11
+Germany,Czech Republic,65,61,1307,18,Meret Charlotte Kleine-Beek,20:08,0,0/1,0/0,0/1,0/0,0,2,2,5,3,1,0,0,24,5
+Germany,Czech Republic,65,61,1307,21,Magdalena Landwehr,16:54,12,5/8,5/8,0/0,2/2,2,2,4,0,4,1,2,0,11,14
+Germany,Czech Republic,65,61,1307,24,Anabel Neuber Valdez,11:35,1,0/1,0/0,0/1,1/2,1,1,2,0,2,1,1,0,-4,1
+Czech Republic,Germany,61,65,1307,1,Adela Burtova,17:42,5,2/4,2/4,0/0,1/2,1,1,2,1,2,0,1,0,-4,6
+Czech Republic,Germany,61,65,1307,4,Katerina Zeithammerova,27:20,4,1/13,1/5,0/8,2/3,0,4,4,7,0,3,3,0,-4,2
+Czech Republic,Germany,61,65,1307,6,Tereza Halatkova,23:10,2,1/8,1/2,0/6,0/0,0,2,2,1,1,1,2,1,-18,0
+Czech Republic,Germany,61,65,1307,7,Petra Malikova,25:12,17,6/11,3/7,3/4,2/4,0,4,4,0,2,0,2,0,1,16
+Czech Republic,Germany,61,65,1307,8,Zuzana Sitancova,11:35,6,1/4,0/2,1/2,3/4,0,0,0,0,3,1,0,0,-4,1
+Czech Republic,Germany,61,65,1307,10,Eliska Hamzova,17:36,8,1/5,1/5,0/0,6/6,1,5,6,1,0,3,1,2,-3,11
+Czech Republic,Germany,61,65,1307,12,Monika Fucikova,13:48,3,1/5,0/3,1/2,0/0,0,1,1,1,2,2,3,0,2,2
+Czech Republic,Germany,61,65,1307,13,Andrea Ondrouskova,06:47,2,1/5,1/3,0/2,0/0,0,1,1,0,1,1,0,0,0,-2
+Czech Republic,Germany,61,65,1307,14,Martina Pokorna,16:26,5,2/3,2/3,0/0,1/4,1,0,1,0,2,0,0,0,5,2
+Czech Republic,Germany,61,65,1307,15,Julia Vydrova,05:44,0,0/0,0/0,0/0,0/0,0,0,0,0,2,0,0,0,12,0
+Czech Republic,Germany,61,65,1307,17,Natalie Horsakova,14:24,2,1/5,1/5,0/0,0/0,0,2,2,0,3,1,0,0,-14,-1
+Czech Republic,Germany,61,65,1307,18,Anna Patorkova,20:16,7,2/7,2/6,0/1,3/6,5,3,8,0,2,2,4,0,7,9
+Israel,Belgium,64,47,1407,2,Shira Hagag,15:19,4,0/1,0/1,0/0,4/6,2,4,6,0,2,1,1,0,0,7
+Israel,Belgium,64,47,1407,3,Ebony Mary Simionovich,23:43,17,7/11,7/11,0/0,3/6,3,4,7,0,2,0,2,1,14,20
+Israel,Belgium,64,47,1407,7,Shahar Brener,01:27,0,0/0,0/0,0/0,0/0,0,0,0,0,0,1,1,0,3,0
+Israel,Belgium,64,47,1407,8,Daniel Karsh,35:23,7,3/12,2/7,1/5,0/0,0,4,4,2,2,1,2,0,13,5
+Israel,Belgium,64,47,1407,9,Noa Shimshi,14:16,0,0/1,0/0,0/1,0/2,0,0,0,0,2,1,1,1,4,-2
+Israel,Belgium,64,47,1407,11,Adan Jaoussy,01:27,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,3,0
+Israel,Belgium,64,47,1407,12,Lior Garzon,07:50,2,1/3,1/1,0/2,0/0,0,2,2,1,0,1,2,0,8,4
+Israel,Belgium,64,47,1407,13,Eden Zipel,37:40,18,5/14,3/7,2/7,6/6,1,1,2,5,0,5,3,0,18,14
+Israel,Belgium,64,47,1407,15,Gaya Sless,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Israel,Belgium,64,47,1407,21,Gili Eisner,37:03,12,5/15,3/8,2/7,0/2,5,8,13,5,1,3,0,0,16,15
+Israel,Belgium,64,47,1407,27,Nitzan Amar,24:31,4,2/3,2/3,0/0,0/1,0,0,0,4,2,1,1,0,6,6
+Israel,Belgium,64,47,1407,30,May Nesher,01:21,0,0/2,0/0,0/2,0/0,0,0,0,0,0,0,0,0,0,-2
+Belgium,Israel,47,64,1407,4,Kyra Billiaert,19:35,3,1/3,0/0,1/3,0/0,1,3,4,1,2,2,1,0,-9,5
+Belgium,Israel,47,64,1407,5,Merel Knaepen,14:45,2,1/3,1/3,0/0,0/0,0,2,2,3,0,2,1,0,-6,4
+Belgium,Israel,47,64,1407,6,Sam Van Buggenhout,20:29,5,2/11,2/7,0/4,1/1,0,1,1,1,3,1,1,0,-16,-2
+Belgium,Israel,47,64,1407,7,Yante Aline Anna Strumane,20:09,10,4/11,2/8,2/3,0/0,2,0,2,3,0,1,0,0,-8,7
+Belgium,Israel,47,64,1407,8,Kadiatou Traore,18:17,2,1/4,1/3,0/1,0/0,1,2,3,0,0,2,0,0,-6,0
+Belgium,Israel,47,64,1407,9,Elena Vielfont,19:18,3,1/2,0/1,1/1,0/1,0,3,3,5,2,2,0,0,-4,7
+Belgium,Israel,47,64,1407,10,Frances Duhamel,12:42,0,0/1,0/1,0/0,0/0,0,3,3,0,0,1,0,0,-7,1
+Belgium,Israel,47,64,1407,11,Tesse Marianne Kapenga,22:45,11,4/7,3/5,1/2,2/4,0,5,5,0,2,2,0,2,-5,11
+Belgium,Israel,47,64,1407,12,Kristina Pauline G. Ekofo Yomane,15:48,4,2/6,2/6,0/0,0/0,2,5,7,1,3,0,1,0,-8,9
+Belgium,Israel,47,64,1407,13,Maxuella Lisowa Mbaka,17:37,2,1/5,1/5,0/0,0/2,2,3,5,0,2,1,1,0,-5,1
+Belgium,Israel,47,64,1407,15,Sarah Bell,18:35,5,2/11,1/6,1/5,0/0,0,2,2,0,1,3,0,0,-11,-5
+Belgium,Israel,47,64,1407,16,Emma Bell,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Croatia,Serbia,70,48,1407,4,Mia Vuksic,21:52,14,5/13,1/3,4/10,0/0,1,2,3,3,0,0,2,0,27,14
+Croatia,Serbia,70,48,1407,5,Edita Poljac,22:50,2,1/4,1/1,0/3,0/0,0,3,3,4,0,3,2,0,16,5
+Croatia,Serbia,70,48,1407,7,Tonia Bilic,13:45,4,0/3,0/2,0/1,4/6,1,2,3,2,1,3,0,0,0,1
+Croatia,Serbia,70,48,1407,8,Ana Haklicka,08:05,0,0/2,0/0,0/2,0/0,0,2,2,1,4,1,1,0,-6,1
+Croatia,Serbia,70,48,1407,9,Marta Savic,24:17,11,5/10,5/10,0/0,1/5,1,5,6,1,1,0,4,1,11,14
+Croatia,Serbia,70,48,1407,10,Nika Muhl,27:37,9,3/5,2/3,1/2,2/2,1,2,3,7,2,1,2,0,21,18
+Croatia,Serbia,70,48,1407,11,Gabriela Grizelj,06:19,0,0/2,0/2,0/0,0/0,0,0,0,1,1,0,1,0,-3,0
+Croatia,Serbia,70,48,1407,12,Ana Mandic,12:35,7,3/5,3/5,0/0,1/2,1,1,2,0,2,2,0,0,9,4
+Croatia,Serbia,70,48,1407,13,Iva Bosnjak,19:32,5,1/6,0/2,1/4,2/2,0,2,2,1,3,1,1,0,11,3
+Croatia,Serbia,70,48,1407,14,Petra Juric,20:11,14,7/10,7/10,0/0,0/0,3,1,4,1,2,1,1,0,16,16
+Croatia,Serbia,70,48,1407,15,Josipa Juric,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Croatia,Serbia,70,48,1407,24,Viktorija Curic,22:57,4,2/5,2/4,0/1,0/0,2,3,5,2,1,0,0,3,8,11
+Serbia,Croatia,48,70,1407,1,Katarina Desic,17:29,7,1/4,0/1,1/3,4/4,2,2,4,2,1,2,0,0,-7,8
+Serbia,Croatia,48,70,1407,2,Tamara Corto,16:11,6,3/6,3/6,0/0,0/0,2,0,2,1,3,3,0,1,4,4
+Serbia,Croatia,48,70,1407,4,Mona Zaric,24:56,2,1/7,1/6,0/1,0/0,3,4,7,2,0,1,1,1,-18,6
+Serbia,Croatia,48,70,1407,5,Sofija Radojcin,04:17,0,0/1,0/1,0/0,0/0,0,0,0,0,0,1,1,0,-9,-1
+Serbia,Croatia,48,70,1407,6,Nadija Smailbegovic,14:02,4,1/3,1/2,0/1,2/2,1,0,1,0,5,2,0,0,-13,1
+Serbia,Croatia,48,70,1407,7,Visnja Stefanovic,29:16,10,2/5,1/1,1/4,5/8,5,5,10,2,2,2,2,0,-12,16
+Serbia,Croatia,48,70,1407,10,Nikolina Deuric,25:27,4,2/11,2/9,0/2,0/0,0,11,11,4,3,2,2,0,-5,10
+Serbia,Croatia,48,70,1407,12,Nikolija Jovanovic,02:40,0,0/3,0/1,0/2,0/0,0,0,0,0,0,0,0,0,-9,-3
+Serbia,Croatia,48,70,1407,13,Nadezda Nedeljkov,21:51,7,3/12,2/4,1/8,0/0,0,0,0,2,1,4,0,0,-18,-4
+Serbia,Croatia,48,70,1407,14,Aleksandra Muzevic,19:00,4,2/4,2/3,0/1,0/0,0,1,1,1,0,3,0,0,-9,1
+Serbia,Croatia,48,70,1407,15,Marija Ristic,09:53,2,1/5,1/5,0/0,0/0,2,2,4,0,0,0,1,1,-2,4
+Serbia,Croatia,48,70,1407,16,Marta Mitrovic,14:58,2,1/3,1/3,0/0,0/0,0,2,2,0,1,2,3,0,-12,3
+Belarus,Poland,67,65,1407,4,Anastasiya Halauchyner,09:41,2,1/5,1/5,0/0,0/0,1,1,2,2,1,1,2,0,-1,3
+Belarus,Poland,67,65,1407,5,Yuliya Vasilevich,33:24,16,7/17,6/11,1/6,1/2,1,7,8,6,3,2,2,0,4,19
+Belarus,Poland,67,65,1407,6,Aliaksandra Chyzheuskaya,33:29,12,6/9,6/9,0/0,0/0,3,3,6,5,2,0,3,0,-2,23
+Belarus,Poland,67,65,1407,7,Iryna Venskaya,37:33,12,5/13,3/6,2/7,0/0,1,2,3,4,3,3,4,0,1,12
+Belarus,Poland,67,65,1407,8,Yana Liabedzich,16:21,0,0/2,0/1,0/1,0/0,0,1,1,3,1,1,0,1,7,2
+Belarus,Poland,67,65,1407,9,Darya Siamiletnikava,01:02,0,0/0,0/0,0/0,0/0,0,0,0,0,0,1,0,0,-3,-1
+Belarus,Poland,67,65,1407,10,Iryna Krauchanka,04:04,2,1/2,1/2,0/0,0/0,0,0,0,0,1,0,1,0,-6,2
+Belarus,Poland,67,65,1407,11,Aksana Isayenka,24:08,9,4/12,3/8,1/4,0/0,0,1,1,2,3,2,0,0,-4,2
+Belarus,Poland,67,65,1407,13,Anastasiya Babak,15:23,11,5/9,4/6,1/3,0/0,0,3,3,1,1,1,1,0,9,11
+Belarus,Poland,67,65,1407,14,Veranika Samailiuk,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Belarus,Poland,67,65,1407,15,Maryia Trafimenkava,22:32,3,1/2,1/1,0/1,1/2,4,4,8,0,3,0,3,0,3,12
+Belarus,Poland,67,65,1407,18,Aliaksandra Shumeika,02:23,0,0/1,0/1,0/0,0/0,1,0,1,0,1,1,0,0,2,-1
+Poland,Belarus,65,67,1407,1,Alicja Katarzyna Rogozinska,18:43,3,1/3,0/2,1/1,0/0,0,1,1,1,2,3,2,0,2,2
+Poland,Belarus,65,67,1407,2,Julia  Bazan,21:30,1,0/3,0/0,0/3,1/2,0,2,2,1,3,2,0,0,-4,-2
+Poland,Belarus,65,67,1407,3,Aleksandra Katarzyna Ustowska,14:42,0,0/7,0/3,0/4,0/0,1,1,2,1,2,2,2,0,2,-4
+Poland,Belarus,65,67,1407,4,Emilia Eliza Kosla,24:56,11,5/9,4/7,1/2,0/0,0,3,3,0,1,1,0,0,-9,9
+Poland,Belarus,65,67,1407,5,Magdalena Zuzanna Szymkiewicz,23:22,14,3/7,2/3,1/4,7/8,0,0,0,3,1,2,0,0,1,10
+Poland,Belarus,65,67,1407,6,Zuzanna Weronika Kulinska,14:02,7,2/5,1/1,1/4,2/4,0,0,0,0,0,1,0,0,4,1
+Poland,Belarus,65,67,1407,7,Aleksandra Malgorzata Pszczolarska,27:57,11,5/9,4/7,1/2,0/0,3,7,10,2,3,4,1,0,4,16
+Poland,Belarus,65,67,1407,8,Weronika Dudek,03:37,0,0/1,0/1,0/0,0/0,0,2,2,0,0,1,0,0,0,0
+Poland,Belarus,65,67,1407,11,Weronika Piechowiak,15:20,4,2/2,2/2,0/0,0/0,1,4,5,1,0,0,0,0,-5,10
+Poland,Belarus,65,67,1407,12,Kamila Borkowska,16:40,9,4/10,4/10,0/0,1/1,8,2,10,0,0,0,0,0,1,13
+Poland,Belarus,65,67,1407,13,Martyna Maria Kowalska,10:49,3,1/3,1/3,0/0,1/4,1,2,3,0,1,1,0,1,-8,1
+Poland,Belarus,65,67,1407,14,Natalia Kurach,08:22,2,1/1,1/1,0/0,0/2,0,1,1,1,0,2,2,0,2,2
+Bosnia and Herzegovina,Lithuania,63,69,1407,3,Jovana Kovacevic,13:57,7,1/4,1/4,0/0,5/6,2,3,5,0,0,0,1,2,5,11
+Bosnia and Herzegovina,Lithuania,63,69,1407,4,Vanja Božić,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Bosnia and Herzegovina,Lithuania,63,69,1407,7,Sanja Radulovic,19:28,0,0/2,0/0,0/2,0/0,0,0,0,0,4,1,0,0,3,-3
+Bosnia and Herzegovina,Lithuania,63,69,1407,8,Ines Babic,21:46,7,3/6,2/4,1/2,0/0,1,2,3,0,1,1,0,0,-3,6
+Bosnia and Herzegovina,Lithuania,63,69,1407,9,Iman Peljto,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Bosnia and Herzegovina,Lithuania,63,69,1407,10,Anđela Šipka,17:18,0,0/0,0/0,0/0,0/2,2,1,3,0,2,1,1,2,-15,3
+Bosnia and Herzegovina,Lithuania,63,69,1407,17,Ajla Selimović,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Bosnia and Herzegovina,Lithuania,63,69,1407,18,Darija Babić,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Bosnia and Herzegovina,Lithuania,63,69,1407,26,Marija Keseljevic,33:15,15,5/12,3/7,2/5,3/3,0,1,1,2,2,4,1,0,-9,8
+Bosnia and Herzegovina,Lithuania,63,69,1407,27,Ksenija Mitric,39:05,11,3/15,2/10,1/5,4/4,1,5,6,3,4,3,2,0,-4,7
+Bosnia and Herzegovina,Lithuania,63,69,1407,51,Azra Niksic,22:27,4,2/6,2/6,0/0,0/0,0,3,3,0,3,0,0,0,-14,3
+Bosnia and Herzegovina,Lithuania,63,69,1407,69,Dragana Zubac,32:44,19,5/16,4/9,1/7,8/13,1,7,8,4,5,2,3,0,7,16
+Lithuania,Bosnia and Herzegovina,69,63,1407,3,Aistė Švėgždaitė,28:29,1,0/4,0/3,0/1,1/2,2,1,3,0,3,2,1,0,-2,-2
+Lithuania,Bosnia and Herzegovina,69,63,1407,6,Dovilė Jankauskaitė,07:20,0,0/2,0/0,0/2,0/0,0,2,2,1,1,1,0,0,-1,0
+Lithuania,Bosnia and Herzegovina,69,63,1407,7,Kamilė Mickutė,08:01,0,0/2,0/0,0/2,0/0,2,0,2,0,4,0,0,0,-3,0
+Lithuania,Bosnia and Herzegovina,69,63,1407,9,Dominyka Paliulytė,07:03,2,1/3,1/2,0/1,0/0,0,1,1,0,1,1,0,0,2,0
+Lithuania,Bosnia and Herzegovina,69,63,1407,10,Urtė Cižauskaitė,27:15,10,4/11,4/10,0/1,2/2,4,7,11,0,3,0,2,0,8,16
+Lithuania,Bosnia and Herzegovina,69,63,1407,11,Brigita Sinickaitė,32:57,8,2/13,1/6,1/7,3/4,1,6,7,3,0,0,0,4,4,10
+Lithuania,Bosnia and Herzegovina,69,63,1407,14,Justina Oficerovaitė,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Lithuania,Bosnia and Herzegovina,69,63,1407,15,Gedvilė Savostaitė,17:13,7,2/3,1/2,1/1,2/2,2,1,3,0,4,1,1,0,10,9
+Lithuania,Bosnia and Herzegovina,69,63,1407,30,Audronė Zdanevičiūtė,16:10,9,3/4,3/3,0/1,3/4,1,0,1,2,0,0,0,0,-1,10
+Lithuania,Bosnia and Herzegovina,69,63,1407,31,Klaudija Janionytė,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Lithuania,Bosnia and Herzegovina,69,63,1407,55,Simona Visockaitė,25:06,14,5/9,5/9,0/0,4/4,3,7,10,0,5,4,1,2,8,19
+Lithuania,Bosnia and Herzegovina,69,63,1407,77,Justina Miknaitė,30:26,18,6/17,5/13,1/4,5/7,2,3,5,1,1,5,0,0,5,6
+Latvia,Czech Republic,59,52,1407,4,Jete Katrina Nulle,31:43,12,4/15,1/4,3/11,1/2,0,2,2,2,3,1,4,1,3,8
+Latvia,Czech Republic,59,52,1407,5,Una Steinharde,03:26,0,0/1,0/1,0/0,0/1,0,0,0,0,0,0,2,0,-5,0
+Latvia,Czech Republic,59,52,1407,6,Ketija Vihmane,29:58,6,2/8,0/1,2/7,0/2,0,1,1,3,2,4,3,1,10,2
+Latvia,Czech Republic,59,52,1407,7,Paula Klescova,18:05,2,1/4,1/3,0/1,0/0,1,4,5,0,1,1,1,0,4,4
+Latvia,Czech Republic,59,52,1407,8,Juta Harčenko,13:06,8,3/4,3/4,0/0,2/2,1,2,3,0,3,0,0,0,6,10
+Latvia,Czech Republic,59,52,1407,10,Laura Meldere,25:39,11,4/10,4/9,0/1,3/3,2,6,8,3,3,4,1,0,6,13
+Latvia,Czech Republic,59,52,1407,11,Paula Maurina,18:06,6,2/6,2/6,0/0,2/2,1,4,5,0,3,0,1,1,-1,9
+Latvia,Czech Republic,59,52,1407,12,Daniela Grigorjeva,04:12,0,0/1,0/1,0/0,0/0,1,0,1,0,0,0,0,0,-8,0
+Latvia,Czech Republic,59,52,1407,13,Anita Megija Mikelsone,19:02,4,2/6,2/6,0/0,0/0,2,3,5,0,1,3,0,0,6,2
+Latvia,Czech Republic,59,52,1407,14,Eva Indrike,15:42,8,3/9,3/7,0/2,2/2,0,3,3,1,1,1,1,1,4,7
+Latvia,Czech Republic,59,52,1407,16,Nikola Priede,13:36,0,0/7,0/7,0/0,0/0,1,6,7,1,0,0,0,0,6,1
+Latvia,Czech Republic,59,52,1407,17,Madlena Irena Gerke,07:25,2,1/1,1/1,0/0,0/0,0,2,2,0,0,0,0,0,4,4
+Czech Republic,Latvia,52,59,1407,1,Adela Burtova,12:25,0,0/5,0/4,0/1,0/0,1,1,2,1,1,1,2,0,-7,-1
+Czech Republic,Latvia,52,59,1407,4,Katerina Zeithammerova,17:13,2,1/4,1/2,0/2,0/2,0,1,1,3,2,3,1,0,-1,-1
+Czech Republic,Latvia,52,59,1407,6,Tereza Halatkova,29:42,3,1/7,0/3,1/4,0/0,1,7,8,4,1,4,2,2,-3,9
+Czech Republic,Latvia,52,59,1407,7,Petra Malikova,26:52,15,6/15,3/7,3/8,0/0,1,8,9,0,0,1,0,1,0,15
+Czech Republic,Latvia,52,59,1407,8,Zuzana Sitancova,19:58,8,3/14,1/6,2/8,0/0,2,1,3,0,1,2,0,1,-9,-1
+Czech Republic,Latvia,52,59,1407,10,Eliska Hamzova,24:51,11,4/8,4/7,0/1,3/4,1,8,9,3,3,1,2,0,-3,19
+Czech Republic,Latvia,52,59,1407,12,Monika Fucikova,14:24,7,2/7,1/3,1/4,2/2,1,1,2,0,1,3,0,0,-3,1
+Czech Republic,Latvia,52,59,1407,13,Andrea Ondrouskova,04:17,0,0/2,0/1,0/1,0/0,0,0,0,0,0,2,2,0,2,-2
+Czech Republic,Latvia,52,59,1407,14,Martina Pokorna,08:32,0,0/1,0/1,0/0,0/0,1,1,2,0,5,2,0,0,0,-1
+Czech Republic,Latvia,52,59,1407,15,Julia Vydrova,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Czech Republic,Latvia,52,59,1407,17,Natalie Horsakova,15:49,3,1/3,1/3,0/0,1/1,1,2,3,0,1,2,0,0,-8,2
+Czech Republic,Latvia,52,59,1407,18,Anna Patorkova,25:57,3,1/5,1/4,0/1,1/2,2,3,5,0,3,2,1,0,-3,2
+Russia,France,45,77,1407,6,Aleksandra Siiamkina,17:45,5,1/2,1/2,0/0,3/4,1,1,2,0,1,2,1,0,-7,4
+Russia,France,45,77,1407,8,Anastasiia Bobrik,16:45,11,2/4,2/3,0/1,7/8,1,1,2,1,5,1,0,0,-7,10
+Russia,France,45,77,1407,9,Aleksandra Kuzmitskaia,03:17,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,1,0
+Russia,France,45,77,1407,13,Kristina Kord,03:54,2,1/1,1/1,0/0,0/0,0,0,0,0,1,1,0,0,-4,1
+Russia,France,45,77,1407,18,Elizaveta Andreeva,22:54,3,1/11,1/9,0/2,1/2,1,1,2,0,3,2,2,0,-19,-6
+Russia,France,45,77,1407,20,Ksenia Filimonova,17:02,6,3/8,3/6,0/2,0/0,3,3,6,1,4,2,1,0,-15,7
+Russia,France,45,77,1407,22,Alexandra Strebkova,30:17,6,3/11,3/9,0/2,0/0,2,4,6,0,1,0,2,0,-27,6
+Russia,France,45,77,1407,23,Daria Goncharova,12:14,2,1/4,1/4,0/0,0/0,0,4,4,0,1,0,1,0,-15,4
+Russia,France,45,77,1407,27,Maria Rodionova,00:50,0,0/1,0/1,0/0,0/0,0,1,1,0,0,0,0,0,-2,0
+Russia,France,45,77,1407,29,Mariia Krymova,17:29,0,0/7,0/5,0/2,0/0,0,2,2,2,5,1,0,0,-12,-4
+Russia,France,45,77,1407,47,Anastasia Godunova,28:35,2,1/5,1/4,0/1,0/0,0,2,2,1,0,1,0,0,-23,0
+Russia,France,45,77,1407,86,Alexandra Andrushchenko,28:58,8,3/10,3/7,0/3,2/2,0,1,1,0,3,2,0,0,-30,0
+France,Russia,77,45,1407,0,Jade Hamaoui,09:25,2,0/3,0/1,0/2,2/2,0,1,1,1,2,1,0,0,5,0
+France,Russia,77,45,1407,6,Serena Kessler,27:50,11,3/10,1/6,2/4,3/5,2,8,10,6,1,4,1,1,33,16
+France,Russia,77,45,1407,7,Camille Hillotte,06:45,0,0/2,0/1,0/1,0/0,0,1,1,0,0,1,0,0,1,-2
+France,Russia,77,45,1407,8,Yohana Isabelle Ewodo,23:12,6,3/7,3/7,0/0,0/0,2,6,8,1,3,1,0,1,20,11
+France,Russia,77,45,1407,13,Janelle Illona Salaun,22:09,11,4/11,2/4,2/7,1/1,1,4,5,3,3,0,0,0,21,12
+France,Russia,77,45,1407,18,Emilie Raynaud,18:15,9,3/6,1/2,2/4,1/1,0,1,1,1,1,0,0,0,7,8
+France,Russia,77,45,1407,26,Eve Mahoutou,11:18,0,0/1,0/1,0/0,0/0,1,2,3,1,2,0,0,0,7,3
+France,Russia,77,45,1407,29,Ewl Guennoc,19:18,10,4/6,2/4,2/2,0/0,0,2,2,2,2,1,1,0,11,12
+France,Russia,77,45,1407,31,Aminata Gueye,12:55,4,0/1,0/1,0/0,4/6,2,1,3,2,0,2,1,1,4,6
+France,Russia,77,45,1407,34,Ténin Magassa,24:13,11,4/8,4/8,0/0,3/6,6,4,10,0,2,0,1,2,27,17
+France,Russia,77,45,1407,50,Marie Pardon,24:40,13,4/7,3/5,1/2,4/4,1,4,5,4,0,4,1,0,24,16
+France,Russia,77,45,1407,75,Vaciana Thérèse Dona Gomis,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Spain,Germany,86,61,1407,4,Mama Dembele Traore,05:08,0,0/1,0/0,0/1,0/0,0,0,0,1,0,1,0,0,0,-1
+Spain,Germany,86,61,1407,5,Laia Lamana Llobera,23:42,11,5/10,5/7,0/3,1/2,0,5,5,9,0,3,5,0,26,21
+Spain,Germany,86,61,1407,6,Cristina Mato de Prada,24:17,11,5/8,4/5,1/3,0/0,2,4,6,1,0,3,2,0,17,14
+Spain,Germany,86,61,1407,7,Julia Soler,23:02,24,8/11,2/2,6/9,2/2,0,4,4,4,3,3,2,0,21,28
+Spain,Germany,86,61,1407,8,Begona De Santiago Otero,11:02,3,1/5,1/3,0/2,1/1,1,2,3,0,0,0,3,0,6,5
+Spain,Germany,86,61,1407,9,Laura Mendez Camps,17:06,4,2/6,2/2,0/4,0/0,0,4,4,1,0,2,0,0,-1,3
+Spain,Germany,86,61,1407,11,Estel Puiggros Rovira,10:12,0,0/5,0/0,0/5,0/0,0,0,0,0,1,1,0,0,-4,-6
+Spain,Germany,86,61,1407,12,Nerea Hermosa Monreal,12:01,9,3/7,3/7,0/0,3/3,4,3,7,1,3,1,0,0,9,12
+Spain,Germany,86,61,1407,13,Helena Pueyo Melchor,24:29,0,0/7,0/5,0/2,0/0,1,4,5,3,2,0,4,0,19,5
+Spain,Germany,86,61,1407,14,Raquel Carrera Quintana,20:47,11,5/9,5/8,0/1,1/1,1,3,4,2,0,0,0,4,29,17
+Spain,Germany,86,61,1407,15,Paula Fraile Ruiz,12:43,7,3/5,3/4,0/1,1/1,2,2,4,0,1,2,0,2,-2,9
+Spain,Germany,86,61,1407,16,Marta Garcia Mateo,15:31,6,3/6,3/5,0/1,0/0,2,0,2,0,4,2,0,0,5,3
+Germany,Spain,61,86,1407,5,Pauline Marie Mayer,13:42,3,1/2,1/2,0/0,1/1,0,0,0,0,0,1,0,0,-20,1
+Germany,Spain,61,86,1407,6,Nina Melissa Rosemeyer,21:23,3,1/5,1/5,0/0,1/4,0,4,4,2,1,7,0,0,-10,-5
+Germany,Spain,61,86,1407,9,Julia Margareta Förner,22:51,2,0/6,0/3,0/3,2/2,3,1,4,2,1,2,5,0,-13,5
+Germany,Spain,61,86,1407,10,Victoria Poros,25:01,12,4/9,0/2,4/7,0/0,0,2,2,0,0,3,0,0,-16,6
+Germany,Spain,61,86,1407,11,Emily Bessoir,22:04,9,3/9,2/5,1/4,2/6,2,7,9,1,0,3,4,0,-14,10
+Germany,Spain,61,86,1407,12,Stella Marie Reichert,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Germany,Spain,61,86,1407,14,Lotta Mia Stach,26:08,2,1/7,1/5,0/2,0/0,1,6,7,1,2,2,1,0,-15,3
+Germany,Spain,61,86,1407,15,Praise Egharevba,20:55,2,1/5,1/5,0/0,0/0,4,6,10,0,4,1,0,0,-23,7
+Germany,Spain,61,86,1407,17,Elea Kristiana D. K. Gaba,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Germany,Spain,61,86,1407,18,Meret Charlotte Kleine-Beek,21:30,17,6/15,5/11,1/4,4/5,1,1,2,1,2,2,3,0,-8,11
+Germany,Spain,61,86,1407,21,Magdalena Landwehr,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Germany,Spain,61,86,1407,24,Anabel Neuber Valdez,26:26,11,4/9,3/7,1/2,2/2,1,1,2,2,2,1,1,0,-6,10
+Italy,Hungary,70,62,1407,4,Beatrice Stroscio,06:15,3,1/1,0/0,1/1,0/0,1,0,1,0,1,1,0,0,-5,3
+Italy,Hungary,70,62,1407,5,Alessandra Orsili,35:08,19,8/16,6/12,2/4,1/2,0,2,2,3,3,3,7,1,16,20
+Italy,Hungary,70,62,1407,6,Silvia Nativi,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Italy,Hungary,70,62,1407,7,Caterina Gilli,29:21,7,3/8,3/7,0/1,1/2,0,6,6,2,2,4,0,1,-1,6
+Italy,Hungary,70,62,1407,9,Giulia Natali,29:44,19,8/19,5/12,3/7,0/0,1,2,3,4,2,0,5,0,10,20
+Italy,Hungary,70,62,1407,10,Francesca Leonardi,01:21,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-5,0
+Italy,Hungary,70,62,1407,11,Silvia Pastrello,25:47,8,3/10,3/8,0/2,2/5,0,6,6,2,3,0,0,0,17,6
+Italy,Hungary,70,62,1407,12,Martina Spinelli,18:16,2,1/5,1/5,0/0,0/0,5,1,6,0,4,1,1,1,-2,5
+Italy,Hungary,70,62,1407,14,Ilaria Panzera,37:33,6,3/12,3/11,0/1,0/0,1,10,11,7,2,3,1,0,10,13
+Italy,Hungary,70,62,1407,15,Clara Rosini,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Italy,Hungary,70,62,1407,16,Lucia Adele Savatteri,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Italy,Hungary,70,62,1407,18,Meriem Nasraoui,16:35,6,3/8,3/8,0/0,0/0,5,0,5,0,2,0,2,0,0,8
+Hungary,Italy,62,70,1407,4,Dorottya Eszter Budacsik,11:37,5,2/2,2/2,0/0,1/1,1,2,3,0,1,0,1,1,2,10
+Hungary,Italy,62,70,1407,5,Aya Kéita,04:34,0,0/1,0/1,0/0,0/0,0,0,0,0,0,1,0,0,-7,-2
+Hungary,Italy,62,70,1407,6,Barbara Angyal,22:30,7,3/8,3/5,0/3,1/1,0,0,0,5,5,7,1,0,-5,1
+Hungary,Italy,62,70,1407,9,Fruzsina Reka Horvath,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Hungary,Italy,62,70,1407,11,Berta Panna Boros,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Hungary,Italy,62,70,1407,13,Reka Dombai,37:18,16,5/12,3/8,2/4,4/4,0,6,6,1,4,5,2,0,-10,13
+Hungary,Italy,62,70,1407,14,Aliz Varga,34:47,11,4/9,4/8,0/1,3/4,3,8,11,5,1,3,0,1,-3,19
+Hungary,Italy,62,70,1407,19,Nora Judit Wentzel,20:21,5,2/6,1/3,1/3,0/0,0,1,1,0,1,3,2,0,-2,1
+Hungary,Italy,62,70,1407,22,Dorina Szirony,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Hungary,Italy,62,70,1407,23,Reka Manyoky,25:31,0,0/5,0/3,0/2,0/0,0,3,3,1,1,1,3,3,-8,4
+Hungary,Italy,62,70,1407,24,Julia Boros,29:11,14,5/11,4/8,1/3,3/3,0,8,8,2,0,1,0,0,0,17
+Hungary,Italy,62,70,1407,30,Angelika Kiss,14:12,4,1/3,1/3,0/0,2/4,1,2,3,0,3,0,0,1,-7,4

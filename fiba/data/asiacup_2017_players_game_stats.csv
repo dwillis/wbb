@@ -1,0 +1,501 @@
+country,vs,team_score,vs_score,date,#,Players,Min,Pts,FG,2Pts,3Pts,FT,OREB,DREB,REB,AST,PF,TO,STL,BLK,+/-,EFF
+Korea,Australia,54,78,2307,1,Hana Park,28:00,7,3/8,3/7,0/1,1/1,0,1,1,0,4,1,1,0,-13,3
+Korea,Australia,54,78,2307,3,Leeseul Kang,12:00,3,1/2,0/1,1/1,0/0,0,0,0,0,1,1,0,0,-8,3
+Korea,Australia,54,78,2307,4,Sungyoung Sim,22:00,11,2/6,1/2,1/4,6/8,1,1,2,0,5,1,0,0,-8,6
+Korea,Australia,54,78,2307,6,Sodam Kim,04:00,0,0/0,0/0,0/0,0/0,0,0,0,0,1,0,0,0,2,0
+Korea,Australia,54,78,2307,7,Ajeong Kang,01:00,2,1/1,1/1,0/0,0/0,0,0,0,0,0,0,0,0,0,2
+Korea,Australia,54,78,2307,8,Han Byul Kim,13:00,3,1/3,0/2,1/1,0/0,0,1,1,1,5,2,1,0,-3,2
+Korea,Australia,54,78,2307,9,Joo Yeong Kwak,13:00,0,0/3,0/3,0/0,0/0,0,5,5,1,2,1,0,0,-10,2
+Korea,Australia,54,78,2307,10,Hyeyoon Bae,29:00,8,3/7,3/7,0/0,2/4,0,3,3,0,5,5,1,0,-16,1
+Korea,Australia,54,78,2307,11,Yung Hui Lim,23:00,5,2/7,1/5,1/2,0/0,0,0,0,1,2,3,1,0,-20,-1
+Korea,Australia,54,78,2307,13,Danbi Kim,29:00,7,2/8,1/5,1/3,2/4,1,4,5,1,2,0,3,0,-22,6
+Korea,Australia,54,78,2307,19,Jisu Park,26:00,8,3/11,3/11,0/0,2/3,2,6,8,1,0,3,0,1,-22,8
+Australia,Korea,78,54,2307,4,Tessa Lavey,17:00,2,0/2,0/2,0/0,2/2,0,2,2,2,3,4,0,0,-1,0
+Australia,Korea,78,54,2307,5,Alanna Smith,21:00,15,4/6,3/5,1/1,6/8,1,6,7,1,2,1,0,0,18,16
+Australia,Korea,78,54,2307,6,Lauren Mansfield,20:00,6,3/8,3/6,0/2,0/0,0,1,1,5,1,2,2,0,16,7
+Australia,Korea,78,54,2307,7,Madeleine Garrick,14:00,10,4/5,3/4,1/1,1/1,0,1,1,0,0,1,0,0,7,9
+Australia,Korea,78,54,2307,8,Stephanie Cumming,13:00,5,2/5,1/2,1/3,0/0,0,1,1,2,3,1,1,1,9,6
+Australia,Korea,78,54,2307,9,Kelsey Griffin,18:00,15,5/10,4/8,1/2,4/5,1,4,5,0,2,2,0,0,11,12
+Australia,Korea,78,54,2307,10,Katie-Rae Ebzery,15:00,3,0/1,0/1,0/0,3/4,0,2,2,4,5,1,1,0,15,7
+Australia,Korea,78,54,2307,11,Laura Hodges,18:00,0,0/3,0/3,0/0,0/0,1,2,3,0,1,0,0,0,17,0
+Australia,Korea,78,54,2307,12,Belinda Snell,23:00,11,4/9,1/2,3/7,0/0,1,6,7,1,3,0,1,0,18,15
+Australia,Korea,78,54,2307,13,Alice Kunek,09:00,2,1/3,1/1,0/2,0/0,1,1,2,1,0,0,1,0,-8,4
+Australia,Korea,78,54,2307,14,Marianna Tolo,10:00,5,2/5,2/5,0/0,1/2,2,1,3,1,0,0,1,0,5,6
+Australia,Korea,78,54,2307,15,Sara Blicavs,22:00,4,2/7,2/5,0/2,0/1,2,3,5,0,2,1,0,0,13,4
+Philippines,Japan,55,106,2307,3,Afril Bernardino,17:43,7,3/7,3/5,0/2,1/2,1,3,4,0,4,0,1,1,-12,8
+Philippines,Japan,55,106,2307,6,France Mae Cabinbin,16:19,0,0/4,0/2,0/2,0/0,1,4,5,3,1,2,1,0,-23,3
+Philippines,Japan,55,106,2307,8,Camille Sambile,06:24,3,1/2,0/1,1/1,0/0,0,0,0,0,4,0,0,0,-4,2
+Philippines,Japan,55,106,2307,9,Allana May Lim,26:09,9,4/8,3/7,1/1,0/2,1,4,5,2,2,2,0,0,-29,8
+Philippines,Japan,55,106,2307,10,Jack Danielle Animam,24:13,6,3/5,3/5,0/0,0/0,2,7,9,1,3,1,0,2,-27,15
+Philippines,Japan,55,106,2307,12,Cindy Resultay,18:01,2,1/8,1/3,0/5,0/0,1,4,5,0,0,2,0,0,-20,-2
+Philippines,Japan,55,106,2307,14,Analyn Almazan,16:41,0,0/6,0/4,0/2,0/0,0,1,1,2,2,3,0,0,-29,-6
+Philippines,Japan,55,106,2307,15,Raiza Rose Dy,16:33,0,0/4,0/3,0/1,0/0,0,0,0,0,0,1,1,0,-34,-4
+Philippines,Japan,55,106,2307,17,Clare Castro,06:01,0,0/1,0/1,0/0,0/0,0,0,0,0,2,2,0,0,-11,-3
+Philippines,Japan,55,106,2307,18,Marizze Andrea Tongco,18:12,3,1/7,1/4,0/3,1/2,0,1,1,1,1,2,0,0,-15,-4
+Philippines,Japan,55,106,2307,22,Janine Pontejos,14:50,8,2/7,0/2,2/5,2/3,0,0,0,0,2,1,0,0,-25,1
+Philippines,Japan,55,106,2307,28,Gemma Miranda,18:48,17,5/9,3/4,2/5,5/6,0,1,1,0,2,2,0,0,-26,11
+Japan,Philippines,106,55,2307,0,Moeko Nagaoka,12:36,11,4/7,3/3,1/4,2/2,0,2,2,2,1,2,0,1,23,11
+Japan,Philippines,106,55,2307,1,Manami Fujioka,23:39,6,3/5,3/4,0/1,0/0,0,10,10,10,1,1,3,0,31,26
+Japan,Philippines,106,55,2307,6,Yuka Osaki,10:32,11,5/7,5/7,0/0,1/1,0,1,1,2,0,0,0,1,21,13
+Japan,Philippines,106,55,2307,7,Saki Mizushima,19:48,7,2/6,1/3,1/3,2/2,0,3,3,4,4,1,0,0,14,9
+Japan,Philippines,106,55,2307,12,Asami Yoshida,05:33,0,0/0,0/0,0/0,0/0,0,1,1,5,1,1,0,0,12,5
+Japan,Philippines,106,55,2307,13,Rui Machida,18:16,10,4/10,3/5,1/5,1/2,0,3,3,7,1,2,1,0,26,12
+Japan,Philippines,106,55,2307,20,Kaede Kondo,13:17,6,2/5,0/0,2/5,0/0,0,2,2,2,0,0,0,0,19,7
+Japan,Philippines,106,55,2307,22,Miyuki Kawamura,27:31,14,6/11,6/10,0/1,2/2,3,2,5,1,2,2,1,0,28,14
+Japan,Philippines,106,55,2307,30,Evelyn Mawuli,26:48,21,7/13,4/7,3/6,4/5,1,1,2,2,1,1,0,0,28,17
+Japan,Philippines,106,55,2307,39,Sakura Akaho,24:59,12,5/13,5/13,0/0,2/2,2,8,10,1,2,0,0,0,26,15
+Japan,Philippines,106,55,2307,52,Yuki Miyazawa,16:56,8,2/5,0/2,2/3,2/2,0,3,3,3,0,1,0,2,27,12
+Chinese Taipei,Korea,77,76,2307,2,Hsiang-Ting Huang,04:53,0,0/1,0/1,0/0,0/0,0,0,0,0,1,0,1,0,10,0
+Chinese Taipei,Korea,77,76,2307,3,Pin Lo,14:50,2,1/4,1/2,0/2,0/0,1,0,1,2,0,1,1,0,-10,2
+Chinese Taipei,Korea,77,76,2307,4,Yen-Yu Chen,01:21,0,0/2,0/2,0/0,0/0,0,0,0,0,0,1,0,0,-9,-3
+Chinese Taipei,Korea,77,76,2307,5,Fan-Shan Huang,32:44,8,4/8,4/8,0/0,0/0,2,2,4,1,3,1,2,0,11,10
+Chinese Taipei,Korea,77,76,2307,7,Hao-Yu Lan,25:09,14,5/10,5/7,0/3,4/4,0,4,4,3,3,1,0,0,11,15
+Chinese Taipei,Korea,77,76,2307,9,Ping-Jen Huang,33:07,11,4/7,4/7,0/0,3/4,2,3,5,4,2,2,6,0,17,20
+Chinese Taipei,Korea,77,76,2307,11,Wei-Lin Wang,18:30,8,4/7,4/7,0/0,0/0,1,3,4,0,2,1,1,1,1,10
+Chinese Taipei,Korea,77,76,2307,12,Ying-Chieh Wu,10:08,4,2/8,2/7,0/1,0/2,2,2,4,2,4,1,0,0,0,1
+Chinese Taipei,Korea,77,76,2307,13,I-Hsiu Cheng,20:00,11,5/8,5/8,0/0,1/3,2,1,3,3,2,3,0,0,-13,9
+Chinese Taipei,Korea,77,76,2307,17,Hsi-Le Bao,27:01,17,8/14,8/14,0/0,1/2,5,5,10,1,2,4,2,1,2,20
+Chinese Taipei,Korea,77,76,2307,27,Yu-Ting Lin,12:11,2,1/3,1/2,0/1,0/0,0,0,0,2,1,1,0,0,-15,1
+Korea,Chinese Taipei,76,77,2307,3,Mi Gyong Jang,10:05,3,1/1,0/0,1/1,0/0,0,1,1,5,5,1,2,0,11,10
+Korea,Chinese Taipei,76,77,2307,6,Un Jong Kim,16:06,0,0/5,0/2,0/3,0/0,1,0,1,3,2,2,1,0,-4,-2
+Korea,Chinese Taipei,76,77,2307,8,Hyang Ok Kim,40:00,23,7/13,0/4,7/9,2/2,0,3,3,4,2,1,3,0,-1,26
+Korea,Chinese Taipei,76,77,2307,9,Mi Hyang Kim,30:03,6,2/8,0/0,2/8,0/0,0,1,1,2,0,2,1,0,-7,2
+Korea,Chinese Taipei,76,77,2307,10,Jong Ok Ri,04:32,0,0/0,0/0,0/0,0/0,0,0,0,0,0,1,0,0,-5,-1
+Korea,Chinese Taipei,76,77,2307,11,Hyang Jong Pak,38:45,6,2/10,2/5,0/5,2/3,3,1,4,2,4,4,0,0,3,-1
+Korea,Chinese Taipei,76,77,2307,12,Suk Yong Ro,37:30,36,14/17,14/17,0/0,8/10,1,3,4,3,4,6,3,3,1,38
+Korea,Chinese Taipei,76,77,2307,16,Ryu Jong Kim,22:55,2,1/5,1/2,0/3,0/0,1,5,6,2,3,3,1,0,-3,4
+New Zealand,China,48,77,2307,2,Micaela Cocks,32:04,9,3/10,2/6,1/4,2/2,0,0,0,2,1,3,4,0,-23,5
+New Zealand,China,48,77,2307,4,Kalani Purcell,22:52,4,2/5,2/5,0/0,0/1,0,6,6,0,4,2,0,0,-24,4
+New Zealand,China,48,77,2307,5,Georgia Agnew,07:55,2,1/2,1/2,0/0,0/0,0,2,2,2,0,2,0,0,-6,3
+New Zealand,China,48,77,2307,6,Zara Jillings,02:57,0,0/1,0/1,0/0,0/0,0,0,0,0,1,0,0,0,-2,-1
+New Zealand,China,48,77,2307,7,Antonia Edmondson,22:00,8,3/6,3/5,0/1,2/3,1,2,3,1,1,3,3,0,-13,8
+New Zealand,China,48,77,2307,8,Natalie Taylor,23:16,2,1/6,1/3,0/3,0/0,1,1,2,1,2,2,1,0,-10,-1
+New Zealand,China,48,77,2307,9,Rebecca Ott,07:35,2,1/2,1/2,0/0,0/0,0,0,0,1,0,0,0,0,-6,2
+New Zealand,China,48,77,2307,10,Chevannah Paalvast,23:28,5,2/3,2/3,0/0,1/1,0,2,2,3,1,2,1,1,-25,9
+New Zealand,China,48,77,2307,11,Jessica Bygate,12:18,0,0/2,0/2,0/0,0/0,0,1,1,0,1,0,0,0,-6,-1
+New Zealand,China,48,77,2307,12,Jillian Harmon,27:13,14,7/15,7/14,0/1,0/0,0,3,3,1,2,2,2,0,-24,10
+New Zealand,China,48,77,2307,13,Josephine Stockill,14:38,2,1/4,1/4,0/0,0/0,0,0,0,0,4,2,2,0,-2,-1
+New Zealand,China,48,77,2307,15,Deena Franklin,03:39,0,0/0,0/0,0/0,0/0,0,0,0,0,1,0,0,0,-4,0
+China,New Zealand,77,48,2307,2,Yi Shen,22:58,14,5/7,2/3,3/4,1/2,1,1,2,3,1,2,0,0,23,14
+China,New Zealand,77,48,2307,4,Xiufeng Shi,21:45,3,1/4,0/1,1/3,0/0,0,1,1,1,1,1,0,0,15,1
+China,New Zealand,77,48,2307,6,Meng Li,17:01,15,4/7,2/4,2/3,5/6,0,1,1,0,1,1,1,0,6,12
+China,New Zealand,77,48,2307,7,Ting Shao,17:57,4,2/7,2/5,0/2,0/0,0,2,2,3,2,4,5,0,17,5
+China,New Zealand,77,48,2307,9,Shuang Zhao,17:42,14,5/7,4/5,1/2,3/4,1,1,2,0,3,0,2,0,16,15
+China,New Zealand,77,48,2307,10,Wen Lu,22:44,6,2/5,1/2,1/3,1/2,0,3,3,3,1,3,1,0,11,6
+China,New Zealand,77,48,2307,11,Sijing Huang,15:02,5,2/5,2/4,0/1,1/1,1,1,2,1,3,1,2,0,0,6
+China,New Zealand,77,48,2307,12,Song Gao,24:57,6,3/5,3/5,0/0,0/0,1,7,8,3,1,3,0,0,29,12
+China,New Zealand,77,48,2307,14,Hongpin Huang,19:33,5,2/3,2/3,0/0,1/2,1,4,5,2,0,1,0,1,15,10
+China,New Zealand,77,48,2307,16,Yueru Li,20:16,5,2/3,2/3,0/0,1/3,3,8,11,1,2,4,2,0,13,12
+Australia,Philippines,107,65,2407,4,Tessa Lavey,19:41,3,1/2,0/0,1/2,0/0,0,3,3,3,0,0,1,0,28,9
+Australia,Philippines,107,65,2407,5,Alanna Smith,20:44,12,4/6,4/6,0/0,4/6,3,4,7,4,1,2,0,1,24,18
+Australia,Philippines,107,65,2407,6,Lauren Mansfield,21:28,12,5/6,3/4,2/2,0/0,0,2,2,4,1,3,0,0,23,14
+Australia,Philippines,107,65,2407,7,Madeleine Garrick,16:43,6,2/7,2/2,0/5,2/2,1,2,3,0,1,2,1,0,-2,3
+Australia,Philippines,107,65,2407,8,Stephanie Cumming,23:45,18,4/8,2/3,2/5,8/8,2,0,2,3,3,1,1,0,17,19
+Australia,Philippines,107,65,2407,9,Kelsey Griffin,10:39,9,4/5,3/4,1/1,0/0,2,3,5,1,0,1,0,0,22,13
+Australia,Philippines,107,65,2407,10,Katie-Rae Ebzery,18:53,12,4/4,2/2,2/2,2/2,0,2,2,1,0,2,0,0,22,13
+Australia,Philippines,107,65,2407,11,Laura Hodges,18:58,10,3/4,3/4,0/0,4/5,2,4,6,1,0,0,0,1,36,16
+Australia,Philippines,107,65,2407,12,Belinda Snell,05:10,2,1/2,1/1,0/1,0/0,0,0,0,2,0,0,0,1,14,4
+Australia,Philippines,107,65,2407,13,Alice Kunek,19:42,6,3/9,3/8,0/1,0/0,3,3,6,1,1,2,0,0,3,5
+Australia,Philippines,107,65,2407,15,Sara Blicavs,24:10,17,7/13,6/11,1/2,2/3,2,6,8,6,2,3,4,0,18,25
+Philippines,Australia,65,107,2407,3,Afril Bernardino,20:09,8,3/9,3/9,0/0,2/3,0,0,0,2,3,1,2,0,-18,4
+Philippines,Australia,65,107,2407,6,France Mae Cabinbin,25:32,7,3/12,2/7,1/5,0/0,0,4,4,5,1,0,1,0,-28,8
+Philippines,Australia,65,107,2407,8,Camille Sambile,10:46,4,2/5,2/5,0/0,0/0,0,0,0,1,2,0,0,0,-17,2
+Philippines,Australia,65,107,2407,9,Allana May Lim,25:09,11,5/12,5/12,0/0,1/2,1,2,3,0,2,1,1,0,-28,6
+Philippines,Australia,65,107,2407,10,Jack Danielle Animam,16:27,0,0/2,0/2,0/0,0/0,0,2,2,0,3,1,0,0,-14,-1
+Philippines,Australia,65,107,2407,12,Cindy Resultay,19:32,6,2/3,0/1,2/2,0/0,0,2,2,1,4,3,2,0,-26,7
+Philippines,Australia,65,107,2407,14,Analyn Almazan,12:50,4,2/4,2/3,0/1,0/0,0,2,2,0,4,0,1,1,-18,6
+Philippines,Australia,65,107,2407,15,Raiza Rose Dy,07:01,2,1/1,1/1,0/0,0/0,0,0,0,1,0,1,0,0,-16,2
+Philippines,Australia,65,107,2407,17,Clare Castro,07:26,0,0/0,0/0,0/0,0/0,0,1,1,0,0,1,0,0,-8,0
+Philippines,Australia,65,107,2407,18,Marizze Andrea Tongco,17:01,3,1/1,1/1,0/0,1/2,0,1,1,0,3,1,2,0,-15,4
+Philippines,Australia,65,107,2407,22,Janine Pontejos,25:42,18,6/10,2/4,4/6,2/2,1,1,2,3,4,2,1,0,-12,18
+Philippines,Australia,65,107,2407,28,Gemma Miranda,12:18,2,0/3,0/2,0/1,2/2,1,0,1,2,0,1,0,0,-6,1
+Korea,New Zealand,50,71,2407,3,Mi Gyong Jang,28:46,5,2/8,1/5,1/3,0/0,0,7,7,4,0,6,0,0,-8,4
+Korea,New Zealand,50,71,2407,6,Un Jong Kim,13:55,3,1/3,0/1,1/2,0/0,0,0,0,2,1,0,0,0,-10,3
+Korea,New Zealand,50,71,2407,8,Hyang Ok Kim,37:18,2,1/6,1/2,0/4,0/2,1,4,5,1,3,1,0,0,-24,0
+Korea,New Zealand,50,71,2407,9,Mi Hyang Kim,14:51,0,0/5,0/2,0/3,0/0,0,1,1,0,0,0,2,0,-10,-2
+Korea,New Zealand,50,71,2407,10,Jong Ok Ri,20:03,8,3/9,1/2,2/7,0/0,0,3,3,1,1,1,0,0,-4,5
+Korea,New Zealand,50,71,2407,11,Hyang Jong Pak,38:36,17,5/10,3/5,2/5,5/6,0,5,5,3,1,0,0,0,-18,19
+Korea,New Zealand,50,71,2407,12,Suk Yong Ro,32:50,15,7/12,7/10,0/2,1/1,2,5,7,1,4,5,1,0,-15,14
+Korea,New Zealand,50,71,2407,16,Ryu Jong Kim,13:37,0,0/1,0/0,0/1,0/0,0,2,2,0,3,1,0,0,-16,0
+New Zealand,Korea,71,50,2407,2,Micaela Cocks,35:26,16,6/15,2/5,4/10,0/0,2,1,3,4,2,1,0,0,21,13
+New Zealand,Korea,71,50,2407,4,Kalani Purcell,24:57,11,5/12,5/12,0/0,1/2,1,7,8,4,4,2,0,0,27,13
+New Zealand,Korea,71,50,2407,5,Georgia Agnew,12:03,1,0/2,0/2,0/0,1/2,0,1,1,3,0,0,1,0,3,3
+New Zealand,Korea,71,50,2407,7,Antonia Edmondson,28:56,10,4/12,3/8,1/4,1/2,5,4,9,2,2,1,3,0,16,14
+New Zealand,Korea,71,50,2407,8,Natalie Taylor,15:07,0,0/4,0/3,0/1,0/0,1,2,3,2,0,0,1,0,-1,2
+New Zealand,Korea,71,50,2407,9,Rebecca Ott,05:45,3,1/1,0/0,1/1,0/0,0,0,0,0,2,1,0,0,4,2
+New Zealand,Korea,71,50,2407,10,Chevannah Paalvast,28:12,7,3/6,2/2,1/4,0/0,3,1,4,5,0,2,0,0,12,11
+New Zealand,Korea,71,50,2407,11,Jessica Bygate,07:09,0,0/5,0/5,0/0,0/0,2,0,2,0,1,0,0,0,-4,-3
+New Zealand,Korea,71,50,2407,12,Jillian Harmon,34:52,23,10/20,10/20,0/0,3/4,5,8,13,4,3,3,3,1,25,30
+New Zealand,Korea,71,50,2407,13,Josephine Stockill,07:29,0,0/2,0/2,0/0,0/2,2,2,4,0,0,0,0,0,2,0
+Japan,Korea,70,56,2407,0,Moeko Nagaoka,23:34,13,5/10,4/6,1/4,2/2,0,2,2,0,3,0,1,0,8,11
+Japan,Korea,70,56,2407,1,Manami Fujioka,21:47,14,7/8,7/8,0/0,0/0,2,2,4,4,0,2,2,0,8,21
+Japan,Korea,70,56,2407,6,Yuka Osaki,20:37,6,2/10,2/9,0/1,2/4,1,4,5,1,3,1,1,0,22,2
+Japan,Korea,70,56,2407,7,Saki Mizushima,05:24,0,0/3,0/2,0/1,0/0,1,0,1,0,0,1,1,0,-2,-2
+Japan,Korea,70,56,2407,8,Maki Takada,23:39,10,4/7,4/7,0/0,2/4,0,3,3,1,0,2,0,0,6,7
+Japan,Korea,70,56,2407,12,Asami Yoshida,24:49,4,2/3,2/3,0/0,0/2,0,4,4,8,1,2,6,0,17,17
+Japan,Korea,70,56,2407,13,Rui Machida,13:09,2,1/2,1/1,0/1,0/0,0,0,0,5,2,1,1,0,6,6
+Japan,Korea,70,56,2407,20,Kaede Kondo,15:04,5,2/4,1/1,1/3,0/0,0,1,1,0,3,2,0,0,-1,2
+Japan,Korea,70,56,2407,22,Miyuki Kawamura,20:45,6,2/7,2/6,0/1,2/2,0,2,2,0,0,0,0,0,11,3
+Japan,Korea,70,56,2407,30,Evelyn Mawuli,06:18,3,1/4,1/2,0/2,1/2,0,1,1,0,0,1,1,0,0,0
+Japan,Korea,70,56,2407,39,Sakura Akaho,03:16,2,0/1,0/1,0/0,2/2,0,0,0,0,1,1,0,0,-3,0
+Japan,Korea,70,56,2407,52,Yuki Miyazawa,21:33,5,2/4,1/1,1/3,0/0,0,5,5,1,2,0,1,0,-2,10
+Korea,Japan,56,70,2407,1,Hana Park,23:19,10,3/6,2/4,1/2,3/4,1,2,3,1,1,3,1,1,-3,9
+Korea,Japan,56,70,2407,3,Leeseul Kang,09:57,5,2/4,1/2,1/2,0/0,0,0,0,0,0,0,0,0,7,3
+Korea,Japan,56,70,2407,4,Sungyoung Sim,25:44,4,2/7,2/6,0/1,0/0,1,4,5,1,4,2,1,0,-18,4
+Korea,Japan,56,70,2407,8,Han Byul Kim,08:17,0,0/1,0/1,0/0,0/0,1,0,1,1,3,0,0,0,0,1
+Korea,Japan,56,70,2407,9,Joo Yeong Kwak,28:59,12,6/9,6/9,0/0,0/0,1,2,3,4,0,4,0,2,-11,14
+Korea,Japan,56,70,2407,10,Hyeyoon Bae,30:00,2,0/4,0/4,0/0,2/4,2,4,6,3,4,6,1,1,1,1
+Korea,Japan,56,70,2407,11,Yung Hui Lim,29:26,12,5/12,5/10,0/2,2/2,1,4,5,1,1,3,2,0,-23,10
+Korea,Japan,56,70,2407,13,Danbi Kim,31:41,9,3/11,0/5,3/6,0/2,1,6,7,5,3,4,1,0,-7,8
+Korea,Japan,56,70,2407,19,Jisu Park,12:32,2,1/1,1/1,0/0,0/2,1,4,5,0,5,1,0,2,-16,6
+China,Chinese Taipei,102,63,2407,2,Yi Shen,19:31,10,4/4,2/2,2/2,0/0,0,3,3,5,1,3,0,0,13,15
+China,Chinese Taipei,102,63,2407,4,Xiufeng Shi,21:10,2,0/1,0/0,0/1,2/2,0,5,5,2,2,3,0,1,25,6
+China,Chinese Taipei,102,63,2407,6,Meng Li,20:28,5,2/4,1/2,1/2,0/0,1,5,6,7,2,1,0,0,26,15
+China,Chinese Taipei,102,63,2407,7,Ting Shao,20:20,11,5/6,4/5,1/1,0/0,0,1,1,4,1,2,0,0,15,13
+China,Chinese Taipei,102,63,2407,9,Shuang Zhao,18:49,2,1/4,1/3,0/1,0/0,1,6,7,3,2,2,1,2,14,10
+China,Chinese Taipei,102,63,2407,10,Wen Lu,19:39,3,0/4,0/1,0/3,3/4,0,7,7,5,1,1,3,1,24,13
+China,Chinese Taipei,102,63,2407,11,Sijing Huang,21:12,25,9/12,8/11,1/1,6/6,3,2,5,0,0,1,0,0,23,26
+China,Chinese Taipei,102,63,2407,12,Song Gao,18:47,10,5/10,5/10,0/0,0/0,0,0,0,2,2,3,1,0,16,5
+China,Chinese Taipei,102,63,2407,14,Hongpin Huang,19:13,15,7/13,7/13,0/0,1/2,4,3,7,5,0,1,1,2,25,22
+China,Chinese Taipei,102,63,2407,16,Yueru Li,20:46,19,7/13,7/13,0/0,5/8,3,4,7,3,4,2,2,1,14,21
+Chinese Taipei,China,63,102,2407,2,Hsiang-Ting Huang,05:05,6,2/2,2/2,0/0,2/2,0,0,0,0,2,0,0,0,-8,6
+Chinese Taipei,China,63,102,2407,3,Pin Lo,19:47,0,0/4,0/2,0/2,0/0,1,0,1,1,0,1,1,0,-23,-2
+Chinese Taipei,China,63,102,2407,4,Yen-Yu Chen,16:41,7,2/5,1/4,1/1,2/3,0,2,2,0,1,1,2,0,-18,6
+Chinese Taipei,China,63,102,2407,5,Fan-Shan Huang,24:09,2,1/4,1/3,0/1,0/0,0,3,3,1,3,4,0,0,-25,-1
+Chinese Taipei,China,63,102,2407,7,Hao-Yu Lan,18:38,3,1/7,0/2,1/5,0/0,0,0,0,0,2,2,0,0,-18,-5
+Chinese Taipei,China,63,102,2407,9,Ping-Jen Huang,23:20,13,5/8,4/6,1/2,2/2,0,2,2,1,1,1,5,0,-27,17
+Chinese Taipei,China,63,102,2407,11,Wei-Lin Wang,08:20,0,0/4,0/3,0/1,0/0,0,0,0,1,2,1,0,0,-16,-4
+Chinese Taipei,China,63,102,2407,12,Ying-Chieh Wu,13:05,7,3/7,2/5,1/2,0/0,0,1,1,0,2,1,2,0,-3,5
+Chinese Taipei,China,63,102,2407,13,I-Hsiu Cheng,19:41,7,3/7,3/7,0/0,1/1,2,1,3,2,3,0,1,0,-17,9
+Chinese Taipei,China,63,102,2407,17,Hsi-Le Bao,17:52,6,2/6,1/5,1/1,1/2,2,2,4,2,5,1,1,0,-14,7
+Chinese Taipei,China,63,102,2407,27,Yu-Ting Lin,33:15,12,4/13,1/9,3/4,1/4,0,4,4,2,3,4,0,1,-26,3
+New Zealand,Chinese Taipei,59,53,2507,2,Micaela Cocks,37:36,12,4/11,3/7,1/4,3/4,3,2,5,2,1,5,1,0,0,7
+New Zealand,Chinese Taipei,59,53,2507,4,Kalani Purcell,35:33,22,9/20,9/20,0/0,4/6,4,9,13,4,3,4,0,1,16,23
+New Zealand,Chinese Taipei,59,53,2507,5,Georgia Agnew,02:17,0,0/2,0/2,0/0,0/0,0,1,1,1,0,0,0,0,6,0
+New Zealand,Chinese Taipei,59,53,2507,7,Antonia Edmondson,29:19,2,1/7,1/4,0/3,0/0,3,5,8,3,1,2,0,2,9,7
+New Zealand,Chinese Taipei,59,53,2507,8,Natalie Taylor,19:02,4,0/5,0/1,0/4,4/4,1,1,2,4,1,1,0,0,-4,4
+New Zealand,Chinese Taipei,59,53,2507,9,Rebecca Ott,03:17,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-1,0
+New Zealand,Chinese Taipei,59,53,2507,10,Chevannah Paalvast,28:08,2,0/2,0/1,0/1,2/2,0,3,3,2,0,3,0,0,8,2
+New Zealand,Chinese Taipei,59,53,2507,12,Jillian Harmon,38:46,15,7/19,7/19,0/0,1/1,5,10,15,3,1,1,1,1,5,22
+New Zealand,Chinese Taipei,59,53,2507,13,Josephine Stockill,05:28,2,1/1,1/1,0/0,0/0,0,0,0,1,2,0,0,1,-9,4
+Chinese Taipei,New Zealand,53,59,2507,3,Pin Lo,18:37,3,1/4,0/2,1/2,0/0,0,2,2,2,2,0,0,0,11,4
+Chinese Taipei,New Zealand,53,59,2507,4,Yen-Yu Chen,03:35,4,2/2,2/2,0/0,0/0,0,1,1,0,0,0,0,0,1,5
+Chinese Taipei,New Zealand,53,59,2507,5,Fan-Shan Huang,39:53,7,3/8,2/7,1/1,0/0,0,5,5,6,2,2,1,1,-6,13
+Chinese Taipei,New Zealand,53,59,2507,7,Hao-Yu Lan,36:18,5,2/9,1/2,1/7,0/0,0,1,1,0,0,1,2,0,-7,0
+Chinese Taipei,New Zealand,53,59,2507,9,Ping-Jen Huang,14:56,4,2/7,2/6,0/1,0/0,1,2,3,3,3,0,2,0,-6,7
+Chinese Taipei,New Zealand,53,59,2507,11,Wei-Lin Wang,14:04,6,2/6,0/4,2/2,0/0,0,3,3,1,2,1,0,1,0,6
+Chinese Taipei,New Zealand,53,59,2507,12,Ying-Chieh Wu,11:45,7,3/7,2/4,1/3,0/0,0,2,2,2,1,2,0,0,0,5
+Chinese Taipei,New Zealand,53,59,2507,13,I-Hsiu Cheng,24:23,2,0/3,0/3,0/0,2/2,1,2,3,1,5,1,3,0,0,5
+Chinese Taipei,New Zealand,53,59,2507,17,Hsi-Le Bao,17:30,12,5/11,4/10,1/1,1/4,4,2,6,0,2,1,1,2,-10,11
+Chinese Taipei,New Zealand,53,59,2507,27,Yu-Ting Lin,18:23,3,1/6,1/6,0/0,1/2,0,4,4,1,0,1,2,0,-13,3
+Japan,Australia,74,83,2507,0,Moeko Nagaoka,24:47,6,3/8,3/6,0/2,0/0,0,0,0,0,2,1,1,1,-8,2
+Japan,Australia,74,83,2507,1,Manami Fujioka,29:56,18,9/16,9/14,0/2,0/1,0,3,3,10,3,2,2,0,8,23
+Japan,Australia,74,83,2507,6,Yuka Osaki,19:40,10,4/12,4/11,0/1,2/3,2,2,4,0,2,3,0,0,-12,2
+Japan,Australia,74,83,2507,8,Maki Takada,31:55,10,4/8,4/7,0/1,2/3,2,4,6,1,2,0,1,1,-8,14
+Japan,Australia,74,83,2507,12,Asami Yoshida,14:32,0,0/2,0/1,0/1,0/0,0,2,2,3,0,0,0,0,-14,3
+Japan,Australia,74,83,2507,13,Rui Machida,18:11,5,2/6,1/3,1/3,0/0,1,3,4,4,0,0,0,1,5,10
+Japan,Australia,74,83,2507,20,Kaede Kondo,17:19,3,1/3,0/0,1/3,0/0,0,1,1,2,2,0,0,0,-17,4
+Japan,Australia,74,83,2507,22,Miyuki Kawamura,07:17,0,0/0,0/0,0/0,0/0,0,0,0,0,2,0,0,0,-1,0
+Japan,Australia,74,83,2507,30,Evelyn Mawuli,08:59,3,1/3,0/1,1/2,0/0,0,0,0,0,1,0,0,0,-1,1
+Japan,Australia,74,83,2507,52,Yuki Miyazawa,27:18,19,7/12,4/5,3/7,2/2,2,4,6,0,1,0,0,2,3,22
+Australia,Japan,83,74,2507,4,Tessa Lavey,11:56,3,1/2,0/1,1/1,0/0,0,2,2,1,0,1,1,0,-4,5
+Australia,Japan,83,74,2507,5,Alanna Smith,03:28,0,0/2,0/1,0/1,0/0,0,0,0,0,0,0,0,0,0,-2
+Australia,Japan,83,74,2507,6,Lauren Mansfield,27:06,5,2/5,1/3,1/2,0/0,2,2,4,7,1,2,1,0,14,12
+Australia,Japan,83,74,2507,8,Stephanie Cumming,08:28,9,3/4,0/1,3/3,0/0,0,1,1,0,1,0,0,0,5,9
+Australia,Japan,83,74,2507,9,Kelsey Griffin,29:12,16,7/11,6/9,1/2,1/1,2,7,9,4,2,0,0,1,13,26
+Australia,Japan,83,74,2507,10,Katie-Rae Ebzery,30:04,11,4/7,1/4,3/3,0/0,0,2,2,3,4,3,0,0,2,10
+Australia,Japan,83,74,2507,11,Laura Hodges,09:55,2,1/3,1/3,0/0,0/0,2,2,4,0,1,0,0,0,-4,4
+Australia,Japan,83,74,2507,12,Belinda Snell,27:06,8,3/8,1/3,2/5,0/0,0,4,4,5,1,1,0,2,9,13
+Australia,Japan,83,74,2507,14,Marianna Tolo,27:06,17,8/12,8/12,0/0,1/2,5,3,8,3,1,1,0,2,10,24
+Australia,Japan,83,74,2507,15,Sara Blicavs,25:34,12,4/14,3/11,1/3,3/4,1,4,5,0,1,2,1,0,0,5
+Korea,Philippines,91,63,2507,1,Hana Park,21:31,7,2/10,1/5,1/5,2/2,1,0,1,7,3,1,1,0,26,7
+Korea,Philippines,91,63,2507,3,Leeseul Kang,15:34,5,2/9,1/2,1/7,0/0,1,5,6,0,0,0,0,0,16,4
+Korea,Philippines,91,63,2507,4,Sungyoung Sim,21:41,10,4/9,3/4,1/5,1/1,2,5,7,1,1,1,2,0,9,14
+Korea,Philippines,91,63,2507,6,Sodam Kim,10:00,0,0/4,0/4,0/0,0/0,1,3,4,0,2,2,0,0,5,-2
+Korea,Philippines,91,63,2507,8,Han Byul Kim,18:18,11,4/4,3/3,1/1,2/2,6,3,9,5,2,3,1,0,16,23
+Korea,Philippines,91,63,2507,9,Joo Yeong Kwak,18:31,7,2/7,2/7,0/0,3/4,2,3,5,1,3,2,2,1,18,8
+Korea,Philippines,91,63,2507,10,Hyeyoon Bae,25:34,4,1/3,1/3,0/0,2/2,2,1,3,5,4,4,1,1,10,8
+Korea,Philippines,91,63,2507,11,Yung Hui Lim,25:34,13,5/11,2/7,3/4,0/0,1,9,10,2,1,5,1,0,10,15
+Korea,Philippines,91,63,2507,13,Danbi Kim,23:22,19,6/17,5/11,1/6,6/7,2,8,10,1,1,1,3,0,17,20
+Korea,Philippines,91,63,2507,19,Jisu Park,19:50,15,5/8,5/8,0/0,5/5,4,5,9,2,3,4,0,2,13,21
+Philippines,Korea,63,91,2507,3,Afril Bernardino,21:35,8,3/8,3/8,0/0,2/4,3,2,5,2,4,0,4,1,1,13
+Philippines,Korea,63,91,2507,6,France Mae Cabinbin,25:16,4,2/9,2/6,0/3,0/0,0,4,4,3,1,3,1,0,-26,2
+Philippines,Korea,63,91,2507,8,Camille Sambile,16:35,7,2/6,2/6,0/0,3/4,0,0,0,4,3,2,0,1,-19,5
+Philippines,Korea,63,91,2507,9,Allana May Lim,24:23,14,5/15,5/15,0/0,4/4,3,3,6,0,1,2,1,0,-6,9
+Philippines,Korea,63,91,2507,10,Jack Danielle Animam,08:43,0,0/1,0/1,0/0,0/0,2,1,3,0,3,2,0,0,-7,0
+Philippines,Korea,63,91,2507,12,Cindy Resultay,19:12,4,1/3,1/2,0/1,2/2,0,1,1,1,1,1,1,0,-28,4
+Philippines,Korea,63,91,2507,14,Analyn Almazan,26:54,12,5/14,4/9,1/5,1/2,1,3,4,1,0,3,0,0,-21,4
+Philippines,Korea,63,91,2507,15,Raiza Rose Dy,13:00,1,0/5,0/5,0/0,1/2,1,1,2,3,2,0,1,0,-3,1
+Philippines,Korea,63,91,2507,17,Clare Castro,04:22,0,0/0,0/0,0/0,0/0,0,0,0,0,2,1,0,0,-2,-1
+Philippines,Korea,63,91,2507,18,Marizze Andrea Tongco,08:42,1,0/1,0/0,0/1,1/2,0,3,3,0,2,0,0,0,-1,2
+Philippines,Korea,63,91,2507,22,Janine Pontejos,20:13,10,4/11,2/5,2/6,0/0,1,3,4,0,5,4,0,0,-20,3
+Philippines,Korea,63,91,2507,28,Gemma Miranda,10:59,2,1/3,1/2,0/1,0/0,0,2,2,1,3,1,2,0,-8,4
+Korea,China,53,110,2507,3,Mi Gyong Jang,35:48,5,2/5,2/4,0/1,1/2,0,4,4,2,4,5,2,0,-48,4
+Korea,China,53,110,2507,5,Hye Yon Kim,06:24,2,1/2,1/1,0/1,0/0,0,0,0,0,0,1,0,0,-10,0
+Korea,China,53,110,2507,6,Un Jong Kim,15:40,3,1/2,0/0,1/2,0/0,0,1,1,0,1,3,1,0,-24,1
+Korea,China,53,110,2507,8,Hyang Ok Kim,07:33,0,0/0,0/0,0/0,0/0,0,0,0,0,1,1,0,0,-14,-1
+Korea,China,53,110,2507,9,Mi Hyang Kim,06:19,3,1/1,0/0,1/1,0/0,0,0,0,0,1,1,0,0,-14,2
+Korea,China,53,110,2507,10,Jong Ok Ri,33:29,11,2/7,1/2,1/5,6/8,1,0,1,2,1,1,1,0,-50,7
+Korea,China,53,110,2507,11,Hyang Jong Pak,29:03,7,2/8,1/4,1/4,2/2,0,1,1,2,3,0,0,0,-32,4
+Korea,China,53,110,2507,12,Suk Yong Ro,38:42,20,9/21,8/19,1/2,1/2,1,4,5,4,3,8,2,1,-52,11
+Korea,China,53,110,2507,16,Ryu Jong Kim,26:56,2,1/5,1/3,0/2,0/0,0,1,1,0,5,2,1,0,-41,-2
+China,Korea,110,53,2507,2,Yi Shen,24:12,3,1/5,0/1,1/4,0/0,1,1,2,4,3,1,3,0,25,7
+China,Korea,110,53,2507,4,Xiufeng Shi,18:43,12,5/6,3/3,2/3,0/0,0,1,1,2,1,0,1,0,23,15
+China,Korea,110,53,2507,6,Meng Li,15:47,5,2/4,1/2,1/2,0/0,0,2,2,8,3,0,4,0,32,17
+China,Korea,110,53,2507,7,Ting Shao,19:04,8,3/5,3/5,0/0,2/3,1,2,3,6,1,0,2,0,26,16
+China,Korea,110,53,2507,9,Shuang Zhao,21:16,8,3/5,2/2,1/3,1/2,0,4,4,6,3,0,3,0,34,18
+China,Korea,110,53,2507,10,Wen Lu,20:55,5,1/3,0/2,1/1,2/2,1,2,3,3,0,3,3,0,31,9
+China,Korea,110,53,2507,11,Sijing Huang,15:25,12,4/6,4/6,0/0,4/5,2,8,10,1,0,3,0,0,32,17
+China,Korea,110,53,2507,12,Song Gao,18:47,14,6/9,6/9,0/0,2/2,2,4,6,3,1,4,0,0,22,16
+China,Korea,110,53,2507,13,Mengran Sun,08:42,6,3/5,3/5,0/0,0/0,0,0,0,2,1,0,0,0,12,6
+China,Korea,110,53,2507,14,Hongpin Huang,14:58,4,2/4,2/4,0/0,0/0,1,1,2,2,1,2,1,4,15,9
+China,Korea,110,53,2507,16,Yueru Li,22:06,33,14/26,14/26,0/0,5/8,10,1,11,1,3,1,0,1,33,30
+New Zealand,Korea,49,64,2707,2,Micaela Cocks,39:02,11,4/15,1/6,3/9,0/0,2,4,6,1,1,1,0,0,-15,6
+New Zealand,Korea,49,64,2707,4,Kalani Purcell,33:22,4,2/10,2/9,0/1,0/0,3,6,9,2,3,2,3,0,-15,8
+New Zealand,Korea,49,64,2707,5,Georgia Agnew,00:53,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+New Zealand,Korea,49,64,2707,7,Antonia Edmondson,30:07,11,4/13,3/7,1/6,2/2,3,6,9,1,5,1,0,0,-2,11
+New Zealand,Korea,49,64,2707,8,Natalie Taylor,19:55,2,1/4,1/1,0/3,0/0,0,0,0,2,2,2,1,0,-8,0
+New Zealand,Korea,49,64,2707,10,Chevannah Paalvast,29:49,6,3/6,3/5,0/1,0/1,2,2,4,2,2,3,0,0,-20,5
+New Zealand,Korea,49,64,2707,12,Jillian Harmon,38:55,13,5/17,5/16,0/1,3/4,3,7,10,2,3,1,0,0,-15,11
+New Zealand,Korea,49,64,2707,13,Josephine Stockill,07:34,2,0/1,0/1,0/0,2/2,1,0,1,0,0,0,0,0,0,2
+Korea,New Zealand,64,49,2707,1,Hana Park,09:16,2,1/2,1/2,0/0,0/0,0,0,0,1,0,1,1,0,-1,2
+Korea,New Zealand,64,49,2707,3,Leeseul Kang,19:33,7,2/5,1/2,1/3,2/2,0,1,1,1,0,1,1,0,23,6
+Korea,New Zealand,64,49,2707,4,Sungyoung Sim,04:13,0,0/1,0/1,0/0,0/0,0,0,0,1,0,0,0,0,-4,0
+Korea,New Zealand,64,49,2707,8,Han Byul Kim,16:56,7,3/8,2/6,1/2,0/0,0,3,3,0,1,2,0,0,-4,3
+Korea,New Zealand,64,49,2707,9,Joo Yeong Kwak,38:52,11,5/9,5/9,0/0,1/1,5,4,9,0,2,2,1,0,17,15
+Korea,New Zealand,64,49,2707,10,Hyeyoon Bae,10:39,0,0/3,0/3,0/0,0/0,2,2,4,1,2,1,0,0,-10,1
+Korea,New Zealand,64,49,2707,11,Yung Hui Lim,39:55,14,6/16,5/10,1/6,1/3,3,5,8,3,4,1,1,0,15,13
+Korea,New Zealand,64,49,2707,13,Danbi Kim,31:29,4,1/10,1/6,0/4,2/2,0,6,6,5,2,0,0,1,17,7
+Korea,New Zealand,64,49,2707,19,Jisu Park,28:44,19,9/12,9/12,0/0,1/2,3,8,11,2,3,0,0,2,22,30
+Australia,Korea,81,48,2707,4,Tessa Lavey,19:43,4,2/4,2/3,0/1,0/0,2,4,6,4,0,1,1,0,15,12
+Australia,Korea,81,48,2707,5,Alanna Smith,14:31,20,7/10,7/10,0/0,6/6,5,4,9,1,4,1,0,0,10,26
+Australia,Korea,81,48,2707,6,Lauren Mansfield,23:52,5,2/7,1/3,1/4,0/0,2,3,5,1,1,0,1,0,23,7
+Australia,Korea,81,48,2707,7,Madeleine Garrick,13:04,5,1/3,0/0,1/3,2/4,0,0,0,0,1,1,0,0,11,0
+Australia,Korea,81,48,2707,8,Stephanie Cumming,19:03,11,4/9,1/3,3/6,0/0,0,0,0,2,0,0,0,0,17,8
+Australia,Korea,81,48,2707,9,Kelsey Griffin,13:36,9,3/4,3/4,0/0,3/4,4,2,6,1,0,1,2,0,16,15
+Australia,Korea,81,48,2707,10,Katie-Rae Ebzery,24:04,7,2/8,1/4,1/4,2/2,2,1,3,4,0,2,1,1,22,8
+Australia,Korea,81,48,2707,11,Laura Hodges,15:08,0,0/4,0/4,0/0,0/0,0,0,0,0,0,1,0,0,14,-5
+Australia,Korea,81,48,2707,12,Belinda Snell,15:21,0,0/3,0/0,0/3,0/0,1,1,2,4,1,1,3,1,8,6
+Australia,Korea,81,48,2707,13,Alice Kunek,09:34,3,1/2,0/1,1/1,0/0,0,0,0,0,3,2,0,0,2,0
+Australia,Korea,81,48,2707,14,Marianna Tolo,15:25,4,2/7,2/6,0/1,0/0,2,4,6,2,1,1,1,0,19,7
+Australia,Korea,81,48,2707,15,Sara Blicavs,16:03,13,5/8,3/6,2/2,1/2,2,3,5,2,4,1,3,0,8,18
+Korea,Australia,48,81,2707,3,Mi Gyong Jang,21:20,5,1/5,0/3,1/2,2/2,1,2,3,1,2,4,1,0,-18,2
+Korea,Australia,48,81,2707,5,Hye Yon Kim,28:07,0,0/7,0/1,0/6,0/0,1,1,2,1,0,2,0,0,-19,-6
+Korea,Australia,48,81,2707,6,Un Jong Kim,08:30,0,0/1,0/1,0/0,0/0,0,0,0,0,1,1,0,0,-15,-2
+Korea,Australia,48,81,2707,8,Hyang Ok Kim,28:56,5,2/8,1/2,1/6,0/0,1,1,2,0,3,1,0,0,-19,0
+Korea,Australia,48,81,2707,9,Mi Hyang Kim,01:48,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-8,0
+Korea,Australia,48,81,2707,10,Jong Ok Ri,20:52,2,1/5,1/2,0/3,0/0,0,0,0,1,5,0,2,0,-6,1
+Korea,Australia,48,81,2707,11,Hyang Jong Pak,13:47,7,2/4,1/2,1/2,2/2,0,2,2,1,1,0,0,0,-19,8
+Korea,Australia,48,81,2707,12,Suk Yong Ro,34:31,22,7/14,5/11,2/3,6/6,1,4,5,2,2,5,1,0,-27,18
+Korea,Australia,48,81,2707,15,Su Yon Kong,05:13,0,0/1,0/0,0/1,0/0,0,1,1,1,2,0,0,0,-8,1
+Korea,Australia,48,81,2707,16,Ryu Jong Kim,36:21,7,3/5,2/3,1/2,0/0,0,5,5,4,2,3,1,0,-26,12
+China,Philippines,117,43,2707,2,Yi Shen,22:31,5,2/4,1/2,1/2,0/0,1,4,5,5,1,0,1,1,38,15
+China,Philippines,117,43,2707,4,Xiufeng Shi,18:17,8,3/5,1/2,2/3,0/0,0,2,2,0,0,0,4,0,37,12
+China,Philippines,117,43,2707,6,Meng Li,17:28,12,4/9,2/4,2/5,2/3,2,3,5,5,2,1,0,0,36,15
+China,Philippines,117,43,2707,7,Ting Shao,21:42,12,5/6,3/3,2/3,0/0,1,2,3,7,0,1,2,1,37,23
+China,Philippines,117,43,2707,9,Shuang Zhao,21:42,9,4/7,3/4,1/3,0/0,2,5,7,7,1,2,1,2,37,21
+China,Philippines,117,43,2707,10,Wen Lu,18:17,9,4/9,4/6,0/3,1/1,1,2,3,2,2,0,2,0,37,11
+China,Philippines,117,43,2707,11,Sijing Huang,13:46,15,5/5,5/5,0/0,5/6,2,6,8,5,1,1,0,1,34,27
+China,Philippines,117,43,2707,12,Song Gao,16:51,12,6/9,6/9,0/0,0/0,1,3,4,3,1,1,0,0,28,15
+China,Philippines,117,43,2707,13,Mengran Sun,10:06,12,6/10,6/9,0/1,0/0,3,1,4,3,0,0,1,0,14,16
+China,Philippines,117,43,2707,14,Hongpin Huang,16:54,6,2/5,2/5,0/0,2/2,3,2,5,5,1,1,1,0,33,13
+China,Philippines,117,43,2707,16,Yueru Li,22:20,17,6/13,6/13,0/0,5/8,3,9,12,0,4,7,0,0,39,12
+Philippines,China,43,117,2707,3,Afril Bernardino,21:05,11,3/9,3/9,0/0,5/6,0,1,1,1,2,2,1,0,-25,5
+Philippines,China,43,117,2707,6,France Mae Cabinbin,24:08,2,1/5,1/2,0/3,0/0,1,2,3,1,1,4,1,0,-38,-1
+Philippines,China,43,117,2707,8,Camille Sambile,19:02,10,5/11,5/11,0/0,0/0,2,1,3,0,2,0,0,0,-37,7
+Philippines,China,43,117,2707,9,Allana May Lim,19:35,2,1/5,1/5,0/0,0/0,0,1,1,0,1,1,0,0,-48,-2
+Philippines,China,43,117,2707,10,Jack Danielle Animam,17:39,0,0/5,0/5,0/0,0/0,3,3,6,1,2,1,0,0,-23,1
+Philippines,China,43,117,2707,12,Cindy Resultay,17:47,4,1/5,0/3,1/2,1/2,0,1,1,1,2,1,0,0,-47,0
+Philippines,China,43,117,2707,14,Analyn Almazan,14:40,0,0/2,0/2,0/0,0/0,0,0,0,0,4,1,0,0,-32,-3
+Philippines,China,43,117,2707,15,Raiza Rose Dy,11:12,0,0/3,0/1,0/2,0/0,0,0,0,0,1,1,0,0,-17,-4
+Philippines,China,43,117,2707,17,Clare Castro,12:44,3,1/5,1/5,0/0,1/2,3,0,3,0,2,0,0,0,-29,1
+Philippines,China,43,117,2707,18,Marizze Andrea Tongco,13:21,5,2/7,1/4,1/3,0/0,0,1,1,0,0,3,0,0,-33,-2
+Philippines,China,43,117,2707,22,Janine Pontejos,17:07,2,1/9,1/7,0/2,0/0,1,1,2,1,3,1,2,0,-18,-2
+Philippines,China,43,117,2707,28,Gemma Miranda,11:35,4,1/2,1/1,0/1,2/2,0,2,2,0,1,3,1,0,-23,3
+Japan,Chinese Taipei,73,57,2707,0,Moeko Nagaoka,33:15,28,12/17,9/11,3/6,1/3,0,2,2,0,3,2,0,1,17,22
+Japan,Chinese Taipei,73,57,2707,1,Manami Fujioka,23:26,7,3/8,3/8,0/0,1/4,0,3,3,5,2,0,2,0,6,9
+Japan,Chinese Taipei,73,57,2707,6,Yuka Osaki,23:23,8,4/10,4/10,0/0,0/0,0,2,2,1,3,1,0,1,9,5
+Japan,Chinese Taipei,73,57,2707,7,Saki Mizushima,23:22,11,5/8,4/5,1/3,0/0,0,2,2,2,2,1,1,0,23,12
+Japan,Chinese Taipei,73,57,2707,8,Maki Takada,33:50,10,3/8,3/7,0/1,4/4,1,8,9,2,1,1,2,1,23,18
+Japan,Chinese Taipei,73,57,2707,12,Asami Yoshida,18:20,2,1/1,1/1,0/0,0/0,1,3,4,8,2,2,3,1,16,16
+Japan,Chinese Taipei,73,57,2707,13,Rui Machida,10:46,4,2/6,2/6,0/0,0/0,1,1,2,3,0,0,0,0,-7,5
+Japan,Chinese Taipei,73,57,2707,20,Kaede Kondo,04:04,0,0/1,0/1,0/0,0/0,0,0,0,0,1,0,0,0,-6,-1
+Japan,Chinese Taipei,73,57,2707,22,Miyuki Kawamura,03:46,0,0/1,0/1,0/0,0/0,0,1,1,0,0,0,0,1,-6,1
+Japan,Chinese Taipei,73,57,2707,30,Evelyn Mawuli,02:00,0,0/0,0/0,0/0,0/0,0,0,0,0,1,1,0,0,-4,-1
+Japan,Chinese Taipei,73,57,2707,39,Sakura Akaho,01:46,0,0/0,0/0,0/0,0/0,0,0,0,0,1,0,0,0,-4,0
+Japan,Chinese Taipei,73,57,2707,52,Yuki Miyazawa,21:56,3,1/3,1/1,0/2,1/1,0,3,3,1,1,2,1,1,13,5
+Chinese Taipei,Japan,57,73,2707,2,Hsiang-Ting Huang,08:51,4,2/3,2/3,0/0,0/0,0,0,0,0,2,0,0,0,-12,3
+Chinese Taipei,Japan,57,73,2707,3,Pin Lo,27:24,4,1/5,0/4,1/1,1/2,0,2,2,2,3,2,0,0,0,1
+Chinese Taipei,Japan,57,73,2707,4,Yen-Yu Chen,12:35,5,2/5,1/3,1/2,0/0,0,0,0,0,0,1,0,0,-16,1
+Chinese Taipei,Japan,57,73,2707,5,Fan-Shan Huang,26:12,8,4/8,4/8,0/0,0/0,1,3,4,5,1,3,0,1,0,11
+Chinese Taipei,Japan,57,73,2707,7,Hao-Yu Lan,13:47,0,0/1,0/0,0/1,0/0,0,1,1,2,1,1,1,0,-16,2
+Chinese Taipei,Japan,57,73,2707,9,Ping-Jen Huang,27:24,17,6/10,4/8,2/2,3/4,0,2,2,0,0,4,1,0,0,11
+Chinese Taipei,Japan,57,73,2707,11,Wei-Lin Wang,07:56,0,0/2,0/2,0/0,0/0,0,1,1,0,1,0,0,0,-11,-1
+Chinese Taipei,Japan,57,73,2707,12,Ying-Chieh Wu,22:06,6,3/12,3/10,0/2,0/0,1,0,1,1,2,0,1,0,-6,0
+Chinese Taipei,Japan,57,73,2707,13,I-Hsiu Cheng,13:40,4,2/5,2/5,0/0,0/0,0,4,4,0,0,0,1,0,-3,6
+Chinese Taipei,Japan,57,73,2707,17,Hsi-Le Bao,27:24,7,1/2,0/1,1/1,4/6,3,13,16,1,1,2,1,2,0,22
+Chinese Taipei,Japan,57,73,2707,27,Yu-Ting Lin,12:35,2,1/3,1/3,0/0,0/0,0,3,3,3,1,2,0,0,-16,4
+New Zealand,Korea,82,61,2807,2,Micaela Cocks,25:45,10,2/5,0/1,2/4,4/4,0,1,1,5,4,1,0,0,21,12
+New Zealand,Korea,82,61,2807,4,Kalani Purcell,31:56,13,5/13,5/13,0/0,3/5,1,13,14,3,2,3,1,1,21,19
+New Zealand,Korea,82,61,2807,5,Georgia Agnew,22:20,10,3/8,2/4,1/4,3/4,0,8,8,2,0,0,0,0,2,14
+New Zealand,Korea,82,61,2807,6,Zara Jillings,03:18,0,0/1,0/0,0/1,0/0,0,0,0,0,0,0,0,0,-5,-1
+New Zealand,Korea,82,61,2807,7,Antonia Edmondson,25:14,7,3/8,3/7,0/1,1/1,4,0,4,5,3,0,1,0,28,12
+New Zealand,Korea,82,61,2807,8,Natalie Taylor,19:24,8,3/8,1/2,2/6,0/0,2,4,6,1,1,2,1,0,7,9
+New Zealand,Korea,82,61,2807,9,Rebecca Ott,05:52,3,1/2,0/1,1/1,0/0,0,0,0,2,0,0,0,0,-4,4
+New Zealand,Korea,82,61,2807,10,Chevannah Paalvast,18:04,7,3/3,3/3,0/0,1/1,1,0,1,3,1,1,0,0,14,10
+New Zealand,Korea,82,61,2807,11,Jessica Bygate,11:44,7,3/3,3/3,0/0,1/1,0,4,4,0,4,2,0,0,2,9
+New Zealand,Korea,82,61,2807,12,Jillian Harmon,22:06,15,7/12,7/12,0/0,1/1,4,5,9,3,1,1,0,0,21,21
+New Zealand,Korea,82,61,2807,13,Josephine Stockill,10:55,2,1/3,1/3,0/0,0/0,1,1,2,0,4,0,0,0,3,2
+New Zealand,Korea,82,61,2807,15,Deena Franklin,03:18,0,0/2,0/2,0/0,0/0,1,0,1,0,2,1,0,0,-5,-2
+Korea,New Zealand,61,82,2807,3,Mi Gyong Jang,14:24,3,0/1,0/1,0/0,3/6,0,1,1,2,5,0,0,0,-10,2
+Korea,New Zealand,61,82,2807,5,Hye Yon Kim,02:03,0,0/3,0/0,0/3,0/0,0,0,0,0,0,0,0,0,-5,-3
+Korea,New Zealand,61,82,2807,6,Un Jong Kim,23:31,7,2/6,0/0,2/6,1/2,1,2,3,4,1,1,0,0,-6,8
+Korea,New Zealand,61,82,2807,8,Hyang Ok Kim,33:36,17,7/10,4/5,3/5,0/0,0,3,3,4,4,1,1,0,-13,21
+Korea,New Zealand,61,82,2807,9,Mi Hyang Kim,10:44,0,0/4,0/2,0/2,0/0,0,0,0,0,1,0,0,0,-11,-4
+Korea,New Zealand,61,82,2807,10,Jong Ok Ri,40:00,19,6/17,0/3,6/14,1/2,1,4,5,1,3,1,0,0,-21,12
+Korea,New Zealand,61,82,2807,12,Suk Yong Ro,40:00,11,4/11,3/7,1/4,2/4,3,4,7,5,4,5,1,2,-21,12
+Korea,New Zealand,61,82,2807,16,Ryu Jong Kim,35:39,4,1/9,0/4,1/5,1/2,1,5,6,3,1,2,1,0,-18,3
+Philippines,Chinese Taipei,53,87,2807,3,Afril Bernardino,17:02,6,2/5,2/5,0/0,2/6,2,3,5,0,2,3,1,0,-11,2
+Philippines,Chinese Taipei,53,87,2807,6,France Mae Cabinbin,22:56,14,5/11,4/8,1/3,3/5,0,3,3,7,1,4,0,0,-26,12
+Philippines,Chinese Taipei,53,87,2807,8,Camille Sambile,19:32,6,2/5,1/4,1/1,1/3,1,2,3,0,0,2,1,0,-15,3
+Philippines,Chinese Taipei,53,87,2807,9,Allana May Lim,23:30,7,3/8,3/8,0/0,1/4,1,2,3,0,0,2,0,0,-19,0
+Philippines,Chinese Taipei,53,87,2807,10,Jack Danielle Animam,13:53,2,0/2,0/2,0/0,2/2,0,3,3,0,1,0,0,1,-14,4
+Philippines,Chinese Taipei,53,87,2807,12,Cindy Resultay,21:27,5,2/5,2/5,0/0,1/2,0,1,1,0,0,0,0,0,-21,2
+Philippines,Chinese Taipei,53,87,2807,14,Analyn Almazan,21:05,3,1/6,1/5,0/1,1/2,3,3,6,0,2,2,0,0,-20,1
+Philippines,Chinese Taipei,53,87,2807,15,Raiza Rose Dy,19:12,0,0/5,0/3,0/2,0/0,0,4,4,0,1,0,1,0,-20,0
+Philippines,Chinese Taipei,53,87,2807,17,Clare Castro,04:51,0,0/2,0/2,0/0,0/0,0,0,0,0,2,1,0,0,1,-3
+Philippines,Chinese Taipei,53,87,2807,18,Marizze Andrea Tongco,08:49,2,1/2,1/1,0/1,0/0,0,1,1,2,2,2,0,0,-4,2
+Philippines,Chinese Taipei,53,87,2807,22,Janine Pontejos,17:10,6,2/8,0/2,2/6,0/0,0,2,2,1,3,0,1,0,-7,4
+Philippines,Chinese Taipei,53,87,2807,28,Gemma Miranda,10:28,2,1/7,1/5,0/2,0/0,1,1,2,0,2,1,0,0,-14,-3
+Chinese Taipei,Philippines,87,53,2807,2,Hsiang-Ting Huang,15:06,4,1/4,1/3,0/1,2/2,5,5,10,2,4,3,0,0,10,10
+Chinese Taipei,Philippines,87,53,2807,3,Pin Lo,13:54,3,1/5,0/0,1/5,0/0,0,0,0,1,4,1,0,0,9,-1
+Chinese Taipei,Philippines,87,53,2807,4,Yen-Yu Chen,19:10,6,2/8,2/5,0/3,2/2,0,3,3,2,1,3,0,0,21,2
+Chinese Taipei,Philippines,87,53,2807,5,Fan-Shan Huang,12:58,4,2/2,2/2,0/0,0/0,0,2,2,4,0,1,0,0,6,9
+Chinese Taipei,Philippines,87,53,2807,7,Hao-Yu Lan,17:39,6,2/7,0/0,2/7,0/0,0,0,0,3,1,0,1,0,18,5
+Chinese Taipei,Philippines,87,53,2807,9,Ping-Jen Huang,22:34,5,2/5,1/2,1/3,0/0,3,2,5,5,1,2,1,1,18,12
+Chinese Taipei,Philippines,87,53,2807,11,Wei-Lin Wang,10:07,2,1/2,1/2,0/0,0/0,1,2,3,0,3,0,0,0,6,4
+Chinese Taipei,Philippines,87,53,2807,12,Ying-Chieh Wu,16:57,14,5/10,1/2,4/8,0/0,0,0,0,1,1,1,0,0,16,9
+Chinese Taipei,Philippines,87,53,2807,13,I-Hsiu Cheng,19:35,13,6/8,5/7,1/1,0/0,3,3,6,5,5,1,2,0,16,23
+Chinese Taipei,Philippines,87,53,2807,17,Hsi-Le Bao,20:04,16,8/17,8/15,0/2,0/0,1,10,11,0,1,1,1,1,12,19
+Chinese Taipei,Philippines,87,53,2807,27,Yu-Ting Lin,31:50,14,5/11,1/2,4/9,0/0,1,6,7,6,3,0,2,0,38,23
+Korea,Australia,64,81,2807,1,Hana Park,21:52,6,3/6,3/5,0/1,0/0,1,1,2,1,5,1,0,0,-12,5
+Korea,Australia,64,81,2807,3,Leeseul Kang,37:26,14,5/14,1/3,4/11,0/0,0,2,2,1,2,1,0,0,-15,7
+Korea,Australia,64,81,2807,4,Sungyoung Sim,34:21,14,5/8,2/3,3/5,1/1,1,4,5,5,4,4,0,0,-16,17
+Korea,Australia,64,81,2807,6,Sodam Kim,25:07,6,3/3,3/3,0/0,0/0,3,2,5,3,2,0,0,0,2,14
+Korea,Australia,64,81,2807,9,Joo Yeong Kwak,19:59,8,4/9,4/8,0/1,0/0,0,3,3,2,1,1,0,0,-16,7
+Korea,Australia,64,81,2807,10,Hyeyoon Bae,10:00,0,0/0,0/0,0/0,0/0,0,1,1,0,0,1,0,0,-5,0
+Korea,Australia,64,81,2807,11,Yung Hui Lim,23:40,12,5/12,4/8,1/4,1/1,2,1,3,2,2,1,0,0,-6,9
+Korea,Australia,64,81,2807,13,Danbi Kim,02:32,0,0/1,0/1,0/0,0/0,0,0,0,0,0,0,0,0,-2,-1
+Korea,Australia,64,81,2807,19,Jisu Park,24:53,4,1/8,1/8,0/0,2/2,0,5,5,3,1,4,1,3,-15,5
+Australia,Korea,81,64,2807,4,Tessa Lavey,17:53,2,1/4,1/3,0/1,0/0,0,1,1,2,0,1,1,0,-4,2
+Australia,Korea,81,64,2807,5,Alanna Smith,17:19,12,4/7,4/6,0/1,4/4,3,3,6,0,4,0,0,0,2,15
+Australia,Korea,81,64,2807,6,Lauren Mansfield,19:57,10,4/7,2/4,2/3,0/0,0,2,2,4,0,1,1,0,21,13
+Australia,Korea,81,64,2807,7,Madeleine Garrick,12:43,4,2/2,2/2,0/0,0/0,0,1,1,0,1,0,0,0,3,5
+Australia,Korea,81,64,2807,8,Stephanie Cumming,19:12,6,1/3,1/3,0/0,4/4,0,1,1,0,1,0,0,0,0,5
+Australia,Korea,81,64,2807,9,Kelsey Griffin,15:43,16,7/11,6/9,1/2,1/3,3,6,9,0,0,0,2,0,11,21
+Australia,Korea,81,64,2807,10,Katie-Rae Ebzery,20:18,6,3/4,3/4,0/0,0/0,0,0,0,5,0,1,0,0,12,9
+Australia,Korea,81,64,2807,11,Laura Hodges,05:42,2,0/0,0/0,0/0,2/2,0,0,0,0,1,2,0,0,-10,0
+Australia,Korea,81,64,2807,12,Belinda Snell,16:24,7,1/6,1/2,0/4,5/5,2,1,3,3,2,1,1,1,22,9
+Australia,Korea,81,64,2807,13,Alice Kunek,04:21,0,0/1,0/1,0/0,0/0,0,0,0,0,0,0,0,0,-5,-1
+Australia,Korea,81,64,2807,14,Marianna Tolo,25:57,6,3/9,3/9,0/0,0/0,3,5,8,3,1,1,2,3,29,15
+Australia,Korea,81,64,2807,15,Sara Blicavs,24:19,10,4/13,4/13,0/0,2/3,4,4,8,1,1,0,1,0,4,10
+China,Japan,71,74,2807,2,Yi Shen,26:59,6,2/8,0/3,2/5,0/0,1,3,4,6,1,2,1,0,8,9
+China,Japan,71,74,2807,4,Xiufeng Shi,20:27,9,3/7,2/4,1/3,2/2,0,3,3,0,1,1,0,0,-16,7
+China,Japan,71,74,2807,6,Meng Li,12:42,3,1/6,1/4,0/2,1/2,1,2,3,3,1,3,0,0,-12,0
+China,Japan,71,74,2807,7,Ting Shao,28:40,16,7/12,7/9,0/3,2/2,0,2,2,5,4,1,2,1,9,20
+China,Japan,71,74,2807,9,Shuang Zhao,21:33,6,2/3,1/2,1/1,1/1,1,1,2,2,1,1,2,0,17,10
+China,Japan,71,74,2807,10,Wen Lu,09:08,0,0/3,0/2,0/1,0/0,0,1,1,0,1,1,0,0,-10,-3
+China,Japan,71,74,2807,11,Sijing Huang,08:52,0,0/4,0/0,0/4,0/0,2,1,3,1,2,4,0,0,-9,-4
+China,Japan,71,74,2807,12,Song Gao,24:43,13,6/10,5/6,1/4,0/0,1,5,6,1,3,1,0,1,6,16
+China,Japan,71,74,2807,13,Mengran Sun,15:31,3,1/4,0/1,1/3,0/0,1,0,1,3,0,0,0,0,-19,4
+China,Japan,71,74,2807,14,Hongpin Huang,14:06,2,1/6,1/6,0/0,0/0,3,4,7,1,0,0,1,0,11,6
+China,Japan,71,74,2807,16,Yueru Li,17:13,13,6/6,6/6,0/0,1/1,0,4,4,0,2,2,0,1,0,16
+Japan,China,74,71,2807,0,Moeko Nagaoka,31:34,14,5/13,4/7,1/6,3/3,1,1,2,1,3,1,1,0,5,9
+Japan,China,74,71,2807,1,Manami Fujioka,35:59,19,9/19,8/18,1/1,0/2,1,7,8,14,1,4,1,0,2,26
+Japan,China,74,71,2807,6,Yuka Osaki,25:19,6,3/11,3/10,0/1,0/0,3,5,8,2,3,3,1,1,-6,7
+Japan,China,74,71,2807,7,Saki Mizushima,12:11,0,0/1,0/0,0/1,0/0,0,1,1,0,0,2,0,0,-6,-2
+Japan,China,74,71,2807,8,Maki Takada,35:00,13,4/10,4/10,0/0,5/5,4,3,7,0,4,1,1,0,-2,14
+Japan,China,74,71,2807,13,Rui Machida,17:20,2,1/3,1/3,0/0,0/0,1,3,4,3,1,0,0,1,16,8
+Japan,China,74,71,2807,22,Miyuki Kawamura,10:58,2,1/3,1/3,0/0,0/0,0,1,1,0,0,0,0,0,0,1
+Japan,China,74,71,2807,30,Evelyn Mawuli,04:27,2,0/0,0/0,0/0,2/2,0,1,1,0,2,0,0,0,0,3
+Japan,China,74,71,2807,52,Yuki Miyazawa,27:07,16,5/9,3/5,2/4,4/4,3,1,4,1,1,0,1,0,6,18
+Korea,Philippines,63,78,2907,3,Mi Gyong Jang,32:12,2,1/5,1/3,0/2,0/0,4,1,5,3,1,3,0,0,-13,3
+Korea,Philippines,63,78,2907,5,Hye Yon Kim,05:34,0,0/1,0/0,0/1,0/0,0,0,0,0,0,0,0,0,-14,-1
+Korea,Philippines,63,78,2907,6,Un Jong Kim,17:31,2,1/3,1/1,0/2,0/0,1,1,2,3,3,3,0,1,-1,3
+Korea,Philippines,63,78,2907,8,Hyang Ok Kim,37:00,13,4/14,1/4,3/10,2/2,2,2,4,4,2,2,0,0,-11,9
+Korea,Philippines,63,78,2907,9,Mi Hyang Kim,30:18,20,7/14,1/3,6/11,0/0,3,0,3,2,1,1,1,0,-3,18
+Korea,Philippines,63,78,2907,10,Jong Ok Ri,12:08,2,0/6,0/1,0/5,2/4,0,1,1,1,2,1,1,0,-16,-4
+Korea,Philippines,63,78,2907,12,Suk Yong Ro,40:00,17,7/16,7/15,0/1,3/6,1,8,9,5,4,4,3,3,-15,21
+Korea,Philippines,63,78,2907,16,Ryu Jong Kim,25:14,7,3/8,2/5,1/3,0/0,1,5,6,2,1,1,0,0,-2,9
+Philippines,Korea,78,63,2907,3,Afril Bernardino,19:27,8,4/10,4/10,0/0,0/0,2,2,4,2,0,0,2,1,3,11
+Philippines,Korea,78,63,2907,6,France Mae Cabinbin,29:58,6,2/7,1/3,1/4,1/1,0,2,2,8,1,5,2,0,16,8
+Philippines,Korea,78,63,2907,8,Camille Sambile,10:04,2,1/4,1/4,0/0,0/0,0,0,0,0,1,1,0,0,-3,-2
+Philippines,Korea,78,63,2907,9,Allana May Lim,25:47,16,8/10,8/10,0/0,0/0,2,2,4,1,3,2,1,0,13,18
+Philippines,Korea,78,63,2907,10,Jack Danielle Animam,18:13,10,4/6,4/6,0/0,2/2,3,3,6,0,1,2,0,2,-2,14
+Philippines,Korea,78,63,2907,12,Cindy Resultay,26:50,10,4/7,3/5,1/2,1/1,2,8,10,0,2,2,0,0,3,15
+Philippines,Korea,78,63,2907,14,Analyn Almazan,25:53,13,6/11,6/10,0/1,1/1,1,4,5,3,2,1,0,0,22,15
+Philippines,Korea,78,63,2907,15,Raiza Rose Dy,09:53,0,0/2,0/2,0/0,0/0,0,2,2,0,0,0,1,0,1,1
+Philippines,Korea,78,63,2907,18,Marizze Andrea Tongco,10:01,0,0/0,0/0,0/0,0/0,0,0,0,0,2,1,0,0,-1,-1
+Philippines,Korea,78,63,2907,22,Janine Pontejos,13:52,6,2/6,1/3,1/3,1/2,0,1,1,0,2,0,1,0,14,3
+Philippines,Korea,78,63,2907,28,Gemma Miranda,09:55,7,2/3,2/3,0/0,3/4,0,2,2,3,1,1,1,0,9,10
+New Zealand,Chinese Taipei,45,65,2907,2,Micaela Cocks,31:35,10,4/14,2/4,2/10,0/0,3,5,8,3,2,3,0,0,-15,8
+New Zealand,Chinese Taipei,45,65,2907,4,Kalani Purcell,25:19,8,1/9,1/8,0/1,6/6,3,7,10,1,2,3,0,0,-17,8
+New Zealand,Chinese Taipei,45,65,2907,5,Georgia Agnew,19:22,0,0/5,0/4,0/1,0/0,1,3,4,0,0,1,0,0,-19,-2
+New Zealand,Chinese Taipei,45,65,2907,6,Zara Jillings,04:02,2,1/2,1/1,0/1,0/2,0,0,0,1,2,2,0,0,2,-2
+New Zealand,Chinese Taipei,45,65,2907,7,Antonia Edmondson,21:35,8,4/11,4/9,0/2,0/0,1,3,4,0,3,1,0,0,-2,4
+New Zealand,Chinese Taipei,45,65,2907,8,Natalie Taylor,21:05,0,0/6,0/1,0/5,0/0,0,1,1,0,1,1,0,0,-21,-6
+New Zealand,Chinese Taipei,45,65,2907,9,Rebecca Ott,08:57,0,0/1,0/1,0/0,0/0,0,0,0,1,1,0,0,0,1,0
+New Zealand,Chinese Taipei,45,65,2907,10,Chevannah Paalvast,13:21,4,1/2,1/1,0/1,2/2,0,2,2,0,0,2,0,1,-6,4
+New Zealand,Chinese Taipei,45,65,2907,11,Jessica Bygate,07:49,3,1/1,1/1,0/0,1/2,1,2,3,1,0,1,0,0,12,5
+New Zealand,Chinese Taipei,45,65,2907,12,Jillian Harmon,29:49,4,1/9,1/9,0/0,2/2,2,4,6,4,2,2,1,0,-21,5
+New Zealand,Chinese Taipei,45,65,2907,13,Josephine Stockill,12:59,4,2/3,2/3,0/0,0/0,3,0,3,1,3,2,0,0,-16,5
+New Zealand,Chinese Taipei,45,65,2907,15,Deena Franklin,04:02,2,0/1,0/1,0/0,2/2,1,2,3,0,0,0,0,0,2,4
+Chinese Taipei,New Zealand,65,45,2907,2,Hsiang-Ting Huang,10:51,4,2/5,2/5,0/0,0/0,1,1,2,0,2,0,0,0,-9,3
+Chinese Taipei,New Zealand,65,45,2907,3,Pin Lo,23:50,4,0/2,0/1,0/1,4/4,0,2,2,1,0,2,2,0,2,5
+Chinese Taipei,New Zealand,65,45,2907,4,Yen-Yu Chen,17:42,2,1/7,1/5,0/2,0/0,1,3,4,4,1,0,2,0,4,6
+Chinese Taipei,New Zealand,65,45,2907,5,Fan-Shan Huang,18:00,6,2/3,1/2,1/1,1/2,0,1,1,0,0,0,2,0,3,7
+Chinese Taipei,New Zealand,65,45,2907,7,Hao-Yu Lan,17:11,3,1/6,0/1,1/5,0/0,0,1,1,3,1,0,0,0,16,2
+Chinese Taipei,New Zealand,65,45,2907,9,Ping-Jen Huang,22:55,10,4/10,4/8,0/2,2/2,0,5,5,3,4,0,2,0,15,14
+Chinese Taipei,New Zealand,65,45,2907,11,Wei-Lin Wang,12:27,3,1/3,1/3,0/0,1/2,1,0,1,0,2,2,1,1,-2,1
+Chinese Taipei,New Zealand,65,45,2907,12,Ying-Chieh Wu,21:14,6,3/9,3/4,0/5,0/0,0,4,4,4,3,2,1,0,18,7
+Chinese Taipei,New Zealand,65,45,2907,13,I-Hsiu Cheng,18:47,8,4/8,4/8,0/0,0/0,2,7,9,0,1,0,1,0,25,14
+Chinese Taipei,New Zealand,65,45,2907,17,Hsi-Le Bao,14:57,10,4/5,4/5,0/0,2/3,1,4,5,0,2,2,0,1,11,12
+Chinese Taipei,New Zealand,65,45,2907,27,Yu-Ting Lin,21:59,9,4/9,3/5,1/4,0/0,0,4,4,6,0,5,1,0,17,10
+Korea,China,51,75,2907,1,Hana Park,17:13,2,1/1,1/1,0/0,0/0,0,1,1,2,0,0,1,0,-15,6
+Korea,China,51,75,2907,3,Leeseul Kang,36:02,13,5/10,2/4,3/6,0/0,1,5,6,1,2,2,0,0,-22,13
+Korea,China,51,75,2907,4,Sungyoung Sim,31:12,0,0/8,0/6,0/2,0/0,1,1,2,6,3,3,0,0,-13,-3
+Korea,China,51,75,2907,6,Sodam Kim,20:32,6,3/5,3/5,0/0,0/0,0,2,2,1,3,1,0,1,-17,7
+Korea,China,51,75,2907,9,Joo Yeong Kwak,26:17,4,2/8,2/7,0/1,0/1,1,2,3,5,2,2,0,1,-19,4
+Korea,China,51,75,2907,11,Yung Hui Lim,35:31,12,5/12,3/8,2/4,0/0,0,3,3,0,1,3,3,0,-22,8
+Korea,China,51,75,2907,19,Jisu Park,33:10,14,6/13,6/13,0/0,2/2,4,7,11,1,3,4,1,3,-12,19
+China,Korea,75,51,2907,2,Yi Shen,14:26,5,2/3,1/2,1/1,0/0,0,0,0,1,0,0,0,0,1,5
+China,Korea,75,51,2907,4,Xiufeng Shi,13:08,3,1/2,0/1,1/1,0/0,0,1,1,0,0,1,0,0,5,2
+China,Korea,75,51,2907,6,Meng Li,25:33,9,3/7,1/3,2/4,1/1,1,4,5,7,2,0,1,0,23,18
+China,Korea,75,51,2907,7,Ting Shao,19:04,2,1/8,1/7,0/1,0/0,3,1,4,1,1,2,0,0,6,-2
+China,Korea,75,51,2907,9,Shuang Zhao,22:23,5,2/4,1/1,1/3,0/0,0,1,1,3,2,1,0,0,11,6
+China,Korea,75,51,2907,10,Wen Lu,20:26,8,4/5,4/5,0/0,0/0,2,1,3,1,2,2,2,1,18,12
+China,Korea,75,51,2907,11,Sijing Huang,19:28,16,8/12,8/11,0/1,0/1,2,4,6,5,3,1,4,0,19,25
+China,Korea,75,51,2907,12,Song Gao,25:43,8,4/10,4/10,0/0,0/1,0,1,1,2,2,1,0,0,13,3
+China,Korea,75,51,2907,13,Mengran Sun,12:18,3,1/3,1/3,0/0,1/2,1,2,3,3,0,0,0,0,14,6
+China,Korea,75,51,2907,14,Hongpin Huang,03:57,0,0/1,0/1,0/0,0/0,0,2,2,0,0,1,0,0,-2,0
+China,Korea,75,51,2907,16,Yueru Li,23:28,16,7/15,7/15,0/0,2/2,2,9,11,1,1,3,1,0,12,18
+Australia,Japan,73,74,2907,4,Tessa Lavey,08:08,2,1/2,1/2,0/0,0/0,0,0,0,1,1,0,1,0,-8,3
+Australia,Japan,73,74,2907,5,Alanna Smith,10:14,6,2/5,2/3,0/2,2/3,2,1,3,1,1,0,1,1,-5,8
+Australia,Japan,73,74,2907,6,Lauren Mansfield,27:33,0,0/3,0/3,0/0,0/0,1,2,3,2,4,1,1,0,7,2
+Australia,Japan,73,74,2907,7,Madeleine Garrick,02:23,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,1,0
+Australia,Japan,73,74,2907,8,Stephanie Cumming,14:43,3,1/2,1/1,0/1,1/2,0,1,1,0,2,3,1,0,-9,0
+Australia,Japan,73,74,2907,9,Kelsey Griffin,32:18,30,11/19,9/16,2/3,6/8,7,8,15,1,2,2,2,3,3,39
+Australia,Japan,73,74,2907,10,Katie-Rae Ebzery,32:30,8,3/8,2/5,1/3,1/1,2,2,4,6,0,1,0,0,-3,12
+Australia,Japan,73,74,2907,12,Belinda Snell,30:49,9,4/18,3/9,1/9,0/0,2,5,7,4,2,3,1,0,12,4
+Australia,Japan,73,74,2907,14,Marianna Tolo,33:15,13,6/9,6/9,0/0,1/1,2,6,8,4,3,1,2,2,8,25
+Australia,Japan,73,74,2907,15,Sara Blicavs,08:01,2,1/4,1/3,0/1,0/0,0,0,0,0,1,0,0,0,-11,-1
+Japan,Australia,74,73,2907,0,Moeko Nagaoka,36:40,10,4/13,3/8,1/5,1/2,2,3,5,2,4,1,0,0,3,6
+Japan,Australia,74,73,2907,1,Manami Fujioka,24:28,4,2/7,2/7,0/0,0/0,0,3,3,6,1,3,0,0,-10,5
+Japan,Australia,74,73,2907,6,Yuka Osaki,17:43,4,1/5,1/4,0/1,2/2,0,2,2,0,2,2,1,0,-6,1
+Japan,Australia,74,73,2907,7,Saki Mizushima,23:54,26,8/13,1/4,7/9,3/3,0,0,0,0,3,3,0,1,-1,19
+Japan,Australia,74,73,2907,8,Maki Takada,31:02,9,3/6,3/6,0/0,3/3,4,4,8,2,4,0,0,0,7,16
+Japan,Australia,74,73,2907,13,Rui Machida,31:37,7,3/11,2/7,1/4,0/0,0,4,4,9,0,4,2,0,13,10
+Japan,Australia,74,73,2907,22,Miyuki Kawamura,02:46,0,0/0,0/0,0/0,0/0,0,0,0,0,2,0,0,0,-4,0
+Japan,Australia,74,73,2907,30,Evelyn Mawuli,04:27,3,0/0,0/0,0/0,3/3,0,0,0,0,1,0,0,0,4,3
+Japan,Australia,74,73,2907,39,Sakura Akaho,02:28,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-4,0
+Japan,Australia,74,73,2907,52,Yuki Miyazawa,24:51,11,4/11,2/5,2/6,1/1,4,3,7,3,1,0,0,1,3,15
