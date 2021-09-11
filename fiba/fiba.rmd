@@ -27,18 +27,18 @@ replace_str <- str_c("_players_game_stats.csv")
 
 ```{r}
 results <- csv_files %>%
-    map_df(~read_csv(.x, col_types=cols(minutes = col_time(format = "%M:%S"), number=col_character(), date=col_character()), col_names = c('team1','team2','team1_score','team2_score','date','number','player','minutes','points','fg','fg2','fg3','ft','offensive_rebounds','defensive_rebounds','rebounds','assists','fouls','turnovers','steals','blocks','plus_minus','efficiency'), skip = 1), .id = "source")
+    map_df(~read_csv(.x, col_types=cols(minutes = col_time(format = "%M:%S"), number=col_character(), date=col_character()), col_names = c('team1','team2','team1_score','team2_score','date','number','player','minutes','points','fg','fg2','fg3','ft','offensive_rebounds','defensive_rebounds','rebounds','assists','fouls','turnovers','steals','blocks','plus_minus','efficiency'), skip = 1), .id = "event")
 ```
 
-## Fix source column and add year based on source
+## Fix source column and add year based on event
 
 ```{r}
 results <- results %>% 
-    mutate(source = str_replace(source, data_dir, "")) %>%
-    mutate(source = str_replace(source, replace_str, "")) %>%
-    mutate(source = str_replace(source, "/", "")) %>%
-    mutate(year = str_sub(source,start=-4L, end=-1L)) %>%
-    separate(source,into=c("source","year"),sep="_")
+    mutate(event = str_replace(event, data_dir, "")) %>%
+    mutate(event = str_replace(event, replace_str, "")) %>%
+    mutate(event = str_replace(event, "/", "")) %>%
+    mutate(year = str_sub(event,start=-4L, end=-1L)) %>%
+    separate(event,into=c("event","year"),sep="_")
 ```
 
 ## Split columns with / into separate columns and remove originals
@@ -69,7 +69,7 @@ results <- results %>%
     mutate(year = if_else(game_date > '2021-08-30', 2020, as.double(year))) %>%
     mutate(char_date=if_else(game_date > '2021-08-30', paste(str_squish(date), str_squish(as.character(year))), char_date)) %>%
     mutate(game_date=parse_date(char_date, format="%d%m %Y")) %>%
-    select(-char_date, -date) %>%
+    select(-char_date, -date)
 ```
 
 ## Fix team names
@@ -95,7 +95,7 @@ master_teams <- full_join(teams1, teams2) %>% arrange(team)
 ## Generate distinct games
 
 ```{r}
-fiba_games <- results %>% distinct(source, year, game_date, team1, team1_score, team2, team2_score, winner)
+fiba_games <- results %>% distinct(event, year, game_date, team1, team1_score, team2, team2_score, winner)
 fiba_games <- fiba_games %>% filter(team1 == winner) %>%
   mutate(margin = team1_score-team2_score)
 ```
