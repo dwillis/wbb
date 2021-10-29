@@ -14,6 +14,28 @@ def fetch_roster(base_url, season):
     r = fetch_url(url)
     return BeautifulSoup(r.text, features="html.parser")
 
+def fetch_roster_datatables(url, season):
+    r = fetch_url(url)
+    return BeautifulSoup(r.text, features="html.parser")
+
+def parse_roster_datatables(html):
+    roster = []
+    players = html.find('table').find_all('tr')[1:]
+    for player in players:
+        jersey, first, last, height, position, year, hometown, high_school, season = [x.text.strip() for x in player.find_all('td')]
+        name = first + ' ' + last
+        roster.append({
+            'name': name,
+            'year': year,
+            'hometown': hometown,
+            'high_school': high_school,
+            'previous_school': None,
+            'height': height,
+            'position': position,
+            'jersey': jersey
+        })
+    return roster
+
 def parse_roster(html):
     roster = []
     players = html.find_all('li', {'class': 'sidearm-roster-player'})
