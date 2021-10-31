@@ -20,42 +20,29 @@ def fetch_roster(base_url, season):
         return None
     return BeautifulSoup(r.text, features="html.parser")
 
-def parse_script(soup):
-    scripts = soup.find_all('script')
-    script = [s for s in scripts if "roster:" in s.get_text()][0]
+def fetch_roster_datatables(url, season):
+    r = fetch_url(url)
+    return BeautifulSoup(r.text, features="html.parser")
+
+def parse_roster_datatables(html):
     roster = []
-    match = re.search('roster: (.*),\r\n', script.get_text())
-    roster_json = json.loads(match.group(1))
-    for player in roster_json['players']:
-        roster.append(player)
+    players = html.find('table').find_all('tr')[1:]
+    for player in players:
+        jersey, first, last, height, position, year, hometown, high_school, season = [x.text.strip() for x in player.find_all('td')]
+        name = first + ' ' + last
+        roster.append({
+            'name': name,
+            'year': year,
+            'hometown': hometown,
+            'high_school': high_school,
+            'previous_school': None,
+            'height': height,
+            'position': position,
+            'jersey': jersey
+        })
     return roster
 
-def get_teams():
-    results = []
-    teams = json.loads(open('teams.json').read())
-    teams_with_url = [t for t in teams if 'url' in t]
-    for team in teams_with_url:
-        print(team['ncaa_id'])
-        for season in SEASONS:
-            html = fetch_roster(team['url'], season)
-            if html:
-                filename = None
-                roster = parse_roster(html, season, filename, team)
-                if len(roster) > 0:
-                    print(f"adding {season}")
-                    results.append(roster)
-    with open("rosters.json", "w") as f:
-        json.dump(results, f)
-
-def get_team(team):
-    for season in SEASONS:
-        html = fetch_roster(team['url'], season)
-        filename = None
-#            filename = f"rosters/{team_id}_{season.replace('-','_')}.json"
-        roster = parse_roster(html, season, filename, team)
-    return roster
-
-def parse_roster(html, season, filename, team):
+def parse_roster(html):
     roster = []
     players = html.find_all('li', {'class': 'sidearm-roster-player'})
     for player in players:
