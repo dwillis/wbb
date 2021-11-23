@@ -30,7 +30,7 @@ def fetch_rosters(id=None, seasons=None):
 def fetch_game_stats(id=None, seasons=None):
     teams_json = json.loads(open('/Users/derekwillis/code/wbb/ncaa/teams.json').read())
     if not seasons:
-        seasons = ['2020-21', '2019-20', '2018-19', '2017-18', '2016-17', '2015-16', '2014-15']
+        seasons = ['2021-22', '2020-21', '2019-20', '2018-19', '2017-18', '2016-17', '2015-16', '2014-15']
     if id:
         team = [t for t in teams_json if id == t['ncaa_id']][0]
         slug = slugify(team)
@@ -117,6 +117,7 @@ def fetch_game_json(domain, game_id):
     return pbp
 
 def write_json(game_id, game_json, season):
+    game_id = str(game_id).split('&')[0]
     filename = str(game_id) + '.json'
     with open(filename, 'w', encoding='utf-8') as f:
         json.dump(game_json, f, ensure_ascii=False, indent=4)
