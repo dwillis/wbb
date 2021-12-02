@@ -150,24 +150,21 @@ def parse_turnovers(team, slug, season, game_id):
 
 def get_all_turnovers(season):
     turnovers = []
-    missing = []
     teams_json = json.loads(open('/Users/dwillis/code/wbb/ncaa/teams.json').read())
-    for team in teams_json:
-        slug = slugify(team)
-        try:
-            os.chdir(f"/Users/dwillis/code/wbb-game-data/{slug}/{season}")
-        except:
-            missing.append(team['ncaa_id'])
-            continue
-        print(team['ncaa_id'])
-        for root, dirs, files in os.walk(".", topdown=False):
-            for file in files:
-                if file == '.DS_Store':
-                    continue
-                game_id = file.split('.')[0]
-                print(game_id)
-                turnovers.append(parse_turnovers(team, slug, season, game_id))
     with open(f"turnovers_{season}.csv", 'w') as output_file:
         csv_file = csv.writer(output_file)
         csv_file.writerow(['id', 'game_id', 'date', 'team', 'opponent', 'period', 'seconds', 'player'])
-        csv_file.writerows(turnovers)
+        for team in teams_json:
+            print(team['ncaa_id'])
+            slug = slugify(team)
+            try:
+                os.chdir(f"/Users/dwillis/code/wbb-game-data/{slug}/{season}")
+            except:
+                continue
+            for root, dirs, files in os.walk(".", topdown=False):
+                for file in files:
+                    if file == '.DS_Store':
+                        continue
+                    game_id = file.split('.')[0]
+                    print(game_id)
+                    csv_file.writerows(parse_turnovers(team, slug, season, game_id))
