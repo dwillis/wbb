@@ -30,7 +30,7 @@ def fetch_rosters(id=None, seasons=None):
 def fetch_game_stats(id=None, seasons=None):
     teams_json = json.loads(open('/Users/dwillis/code/wbb/ncaa/teams.json').read())
     if not seasons:
-        seasons = ['2021-22', '2020-21', '2019-20', '2018-19', '2017-18', '2016-17', '2015-16', '2014-15']
+        seasons = ['2021-22', '2020-21', '2019-20', '2018-19', '2017-18', '2016-17', '2015-16', '2014-15', '2013-14', '2012-13', '2011-12', '2010-11', '2009-10', '2008-09', '2007-08', '2006-07', '2005-06', '2004-05', '2003-04', '2002-03', '2001-02']
     if id:
         team = [t for t in teams_json if id == t['ncaa_id']][0]
         slug = slugify(team)
@@ -129,31 +129,35 @@ def parse_game_json(slug, season, game_id):
     return json.loads(open(game_id+'.json').read())
 
 def parse_turnovers(team, slug, season, game_id):
-    game_json = parse_game_json(slug, season, game_id)
-    if game_json['Plays']:
+    turnovers = []
+    try:
+        game_json = parse_game_json(slug, season, game_id)
+    except:
+        raise
+    if game_json and game_json['Plays'] != '':
         for play in game_json['Plays']:
             if play['Type'] == 'TURNOVER':
                 if play['Player'] == None:
                     t = play['Team']
-                    team = game_json['Game'][t]['Name']
+                    team_name = game_json['Game'][t]['Name']
                     uniform = None
                 else:
                     t = play['Player']['Team']
-                    team = game_json['Game'][t]['Name']
+                    team_name = game_json['Game'][t]['Name']
                     uniform = play['Player']['UniformNumber']
                 if t == 'VistingTeam':
                     opp = 'HomeTeam'
                 else:
                     opp = 'VisitingTeam'
                 opponent = game_json['Game'][opp]['Name']
-    return [id, game_id, game_json['Game']['Date'], team, opponent, play['Period'], play['ClockSeconds'], uniform]
+                turnovers.append([team['ncaa_id'], game_id, game_json['Game']['Date'], team_name, opponent, play['Period'], play['ClockSeconds'], uniform, play['Id']])
+    return turnovers
 
 def get_all_turnovers(season):
-    turnovers = []
     teams_json = json.loads(open('/Users/dwillis/code/wbb/ncaa/teams.json').read())
     with open(f"turnovers_{season}.csv", 'w') as output_file:
         csv_file = csv.writer(output_file)
-        csv_file.writerow(['id', 'game_id', 'date', 'team', 'opponent', 'period', 'seconds', 'player'])
+        csv_file.writerow(['ncaa_id', 'game_id', 'date', 'team', 'opponent', 'period', 'seconds', 'player', 'play_id'])
         for team in teams_json:
             print(team['ncaa_id'])
             slug = slugify(team)
@@ -167,4 +171,6 @@ def get_all_turnovers(season):
                         continue
                     game_id = file.split('.')[0]
                     print(game_id)
-                    csv_file.writerows(parse_turnovers(team, slug, season, game_id))
+                    turnovers = parse_turnovers(team, slug, season, game_id)
+                    for turnover in turnovers:
+                        csv_file.writerow(turnover)
