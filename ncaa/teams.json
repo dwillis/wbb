@@ -5109,6 +5109,7 @@
   {
     "team": "Texas Southern",
     "twitter": "TSUWomensHoops",
+    "url": "https://tsusports.com/sports/womens-basketball",
     "ncaa_id": 699,
     "stats_name": "Texas Southern"
   },
@@ -5181,7 +5182,9 @@
   {
     "team": "Brandeis",
     "twitter": "BrandeisWBB",
-    "ncaa_id": 73
+    "url": "https://www.brandeisjudges.com/sports/wbkb/index",
+    "ncaa_id": 73,
+    "stats_name": "Brandeis"
   },
   {
     "team": "Ursinus",
@@ -5388,7 +5391,9 @@
   {
     "team": "Brown",
     "twitter": "BrownHoops",
-    "ncaa_id": 80
+    "url": "https://brownbears.com/sports/womens-basketball",
+    "ncaa_id": 80,
+    "stats_name": "Brown"
   },
   {
     "team": "Wis.-Platteville",
@@ -5443,12 +5448,14 @@
   {
     "team": "Wright St.",
     "twitter": "WSUWBasketball",
+    "url": "https://wsuraiders.com/sports/womens-basketball",
     "ncaa_id": 810,
     "stats_name": "Wright St."
   },
   {
     "team": "Yale",
     "twitter": "YaleWBasketball",
+    "url": "https://yalebulldogs.com/sports/womens-basketball",
     "ncaa_id": 813,
     "stats_name": "Yale"
   },
@@ -5501,6 +5508,7 @@
   {
     "team": "Buffalo",
     "twitter": "UBwomenshoops",
+    "url": "https://ubbulls.com/sports/womens-basketball",
     "ncaa_id": 86,
     "stats_name": "Buffalo"
   },
@@ -5563,12 +5571,16 @@
   {
     "team": "Georgian Court",
     "twitter": "GCULionswbb",
-    "ncaa_id": 9004
+    "url": "https://gculions.com/sports/womens-basketball",
+    "ncaa_id": 9004,
+    "stats_name": "Georgian Court"
   },
   {
     "team": "Fort Hays St.",
     "twitter": "FHSUWBB",
-    "ncaa_id": 9011
+    "url": "https://fhsuathletics.com/sports/womens-basketball",
+    "ncaa_id": 9011,
+    "stats_name": "Fort Hays St."
   },
   {
     "team": "Mo. Southern St.",
@@ -5588,7 +5600,9 @@
   {
     "team": "Cal Poly Pomona",
     "twitter": "cppwbb",
-    "ncaa_id": 91
+    "url": "https://broncoathletics.com/sports/womens-basketball",
+    "ncaa_id": 91,
+    "stats_name": "Cal Poly Pomona"
   },
   {
     "team": "Cal St. Dom. Hills",
@@ -5613,7 +5627,9 @@
   {
     "team": "Alvernia",
     "twitter": "AlverniaWbb",
-    "ncaa_id": 938
+    "url": "https://auwolves.com/sports/womens-basketball",
+    "ncaa_id": 938,
+    "stats_name": "Alvernia"
   },
   {
     "team": "Anderson (IN)",
@@ -5630,7 +5646,9 @@
   {
     "team": "Chico St.",
     "twitter": "ChicoWbb",
-    "ncaa_id": 95
+    "url": "https://chicowildcats.com/sports/womens-basketball",
+    "ncaa_id": 95,
+    "stats_name": "Chico St."
   },
   {
     "team": "Austin",
