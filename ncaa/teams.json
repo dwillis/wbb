@@ -4847,22 +4847,30 @@
   {
     "team": "Bethel (MN)",
     "twitter": "Bethel_WBB",
-    "ncaa_id": 60
+    "url": "https://athletics.bethel.edu/sports/womens-basketball",
+    "ncaa_id": 60,
+    "stats_name": "Bethel University"
   },
   {
     "team": "St. John Fisher",
     "twitter": "SJFCWBB",
-    "ncaa_id": 601
+    "url": "https://athletics.sjfc.edu/sports/womens-basketball",
+    "ncaa_id": 601,
+    "stats_name": "St. John Fisher"
   },
   {
     "team": "St. Lawrence",
     "twitter": "SLUWBBall",
-    "ncaa_id": 607
+    "url": "https://saintsathletics.com/sports/womens-basketball",
+    "ncaa_id": 607,
+    "stats_name": "St. Lawrence"
   },
   {
     "team": "Saint Leo",
     "twitter": "SaintLeoWBB",
-    "ncaa_id": 608
+    "url": "https://saintleolions.com/sports/womens-basketball",
+    "ncaa_id": 608,
+    "stats_name": "Saint Leo"
   },
   {
     "team": "St. Mary\\s (MD)",
@@ -4882,41 +4890,53 @@
   {
     "team": "St. Norbert",
     "twitter": "SNCWBB",
-    "ncaa_id": 614
+    "url": "https://athletics.snc.edu/sports/womens-basketball",
+    "ncaa_id": 614,
+    "stats_name": "St. Norbert College"
   },
   {
     "team": "Stevens",
     "twitter": "StevensWBBALL",
-    "ncaa_id": 679
+    "url":  "https://stevensducks.com/sports/womens-basketball",
+    "ncaa_id": 679,
+    "stats_name": "Stevens"
   },
   {
     "team": "St. Scholastica",
     "twitter": "CSSWBBall",
+    "url": "https://csssaints.com/sports/womens-basketball",
     "ncaa_id": 618
   },
   {
     "team": "St. Olaf",
     "twitter": "StOlafWBB",
-    "ncaa_id": 615
+    "url": "https://athletics.stolaf.edu/sports/womens-basketball",
+    "ncaa_id": 615,
+    "stats_name": "St. Olaf College"
   },
   {
     "team": "Salisbury",
     "twitter": "SalisburyWBB",
+    "url": "https://www.suseagulls.com/sports/wbkb/index",
     "ncaa_id": 622
   },
   {
     "team": "Salve Regina",
     "twitter": "salvewbb",
+    "url": "https://www.salveathletics.com/sports/wbkb/index",
     "ncaa_id": 623
   },
   {
     "team": "San Fran. St.",
     "twitter": "SFState_WBB",
-    "ncaa_id": 628
+    "url": "https://sfstategators.com/sports/womens-basketball",
+    "ncaa_id": 628,
+    "stats_name": "San Fran. St."
   },
   {
     "team": "Scranton",
     "twitter": "ScrantonWBB",
+    "url": "https://athletics.scranton.edu/sports/wbkb/index",
     "ncaa_id": 633
   },
   {
@@ -4929,7 +4949,9 @@
   {
     "team": "Shenandoah",
     "twitter": "SUHornetsWBB",
-    "ncaa_id": 637
+    "url": "https://suhornets.com/sports/womens-basketball",
+    "ncaa_id": 637,
+    "stats_name": "Shenandoah"
   },
   {
     "team": "Shippensburg",
@@ -4948,32 +4970,41 @@
   {
     "team": "TCNJ",
     "twitter": "tcnjwb",
+    "url": "https://tcnjathletics.com/sports/womens-basketball/roster",
     "ncaa_id": 712
   },
   {
     "team": "Simpson",
     "twitter": "SCStorm_WBB",
+    "url": "https://www.simpsonathletics.com/sports/wbkb/index",
     "ncaa_id": 641
   },
   {
     "team": "Skidmore",
     "twitter": "SkidmoreWBB",
-    "ncaa_id": 642
+    "url": "https://skidmoreathletics.com/sports/womens-basketball",
+    "ncaa_id": 642,
+    "stats_name": "Skidmore College"
   },
   {
     "team": "Smith",
     "twitter": "SC_BBall",
+    "url": "https://smithpioneers.com/sports/womens-basketball",
     "ncaa_id": 644
   },
   {
     "team": "Sonoma St.",
     "twitter": "SonomaStWBBall",
-    "ncaa_id": 645
+    "url": "https://sonomaseawolves.com/sports/womens-basketball",
+    "ncaa_id": 645,
+    "stats_name": "Sonoma St."
   },
   {
     "team": "South Alabama",
     "twitter": "WeAreSouth_WBB",
-    "ncaa_id": 646
+    "url": "https://usajaguars.com/sports/womens-basketball",
+    "ncaa_id": 646,
+    "stats_name": "South Alabama"
   },
   {
     "team": "South Carolina St.",
@@ -4992,17 +5023,22 @@
   {
     "team": "Sewanee",
     "twitter": "SewaneeWBB",
-    "ncaa_id": 652
+    "url": "https://sewaneetigers.com/sports/womens-basketball",
+    "ncaa_id": 652,
+    "stats_name": "Sewanee"
   },
   {
     "team": "UMass Dartmouth",
     "twitter": "UMassDwbkb",
+    "url": "https://corsairathletics.com/sports/womens-basketball",
     "ncaa_id": 656
   },
   {
     "team": "Southern Conn. St.",
     "twitter": "SCSU_WBB",
-    "ncaa_id": 658
+    "url": "https://scsuowls.com/sports/womens-basketball",
+    "ncaa_id": 658,
+    "stats_name": "Southern Conn. St."
   },
   {
     "team": "Southern Ill.",
@@ -5014,23 +5050,29 @@
   {
     "team": "SIUE",
     "twitter": "SIUEWBB",
+    "url": "https://siuecougars.com/sports/womens-basketball",
     "ncaa_id": 660,
     "stats_name": "Siue"
   },
   {
     "team": "Southern Ind.",
     "twitter": "usiwbb",
-    "ncaa_id": 661
+    "url": "https://gousieagles.com/sports/womens-basketball",
+    "ncaa_id": 661,
+    "stats_name": "Southern Ind."
   },
   {
     "team": "Southern Me.",
     "twitter": "USMwbb",
+    "url": "https://southernmainehuskies.com/sports/womens-basketball",
     "ncaa_id": 662
   },
   {
     "team": "Southern Utah",
     "twitter": "SUUWBasketball",
-    "ncaa_id": 667
+    "url": "https://suutbirds.com/sports/womens-basketball",
+    "ncaa_id": 667,
+    "stats_name": "Southern Utah"
   },
   {
     "team": "Missouri St.",
@@ -5059,21 +5101,25 @@
   {
     "team": "Stonehill",
     "twitter": "StonehillWBB",
+    "url": "https://www.stonehillskyhawks.com/sports/wbkb/index",
     "ncaa_id": 682
   },
   {
     "team": "Suffolk",
     "twitter": "SuffolkWbb",
+    "url": "https://www.gosuffolkrams.com/sports/wbkb/index",
     "ncaa_id": 684
   },
   {
     "team": "Susquehanna",
     "twitter": "SusquehannaWBB",
+    "url": "https://suriverhawks.com/sports/womens-basketball",
     "ncaa_id": 685
   },
   {
     "team": "Swarthmore",
     "twitter": "SwatWBasketball",
+    "url": "https://swarthmoreathletics.com/sports/womens-basketball",
     "ncaa_id": 686
   },
   {
@@ -5086,7 +5132,9 @@
   {
     "team": "Bowdoin",
     "twitter": "BowdoinWBB",
-    "ncaa_id": 69
+    "url": "https://athletics.bowdoin.edu/sports/womens-basketball",
+    "ncaa_id": 69,
+    "stats_name": "Bowdoin"
   },
   {
     "team": "Tennessee St.",
@@ -5097,6 +5145,7 @@
   {
     "team": "Chattanooga",
     "twitter": "GoMocsWBK",
+    "url": "https://gomocs.com/sports/womens-basketball",
     "ncaa_id": 693
   },
   {
