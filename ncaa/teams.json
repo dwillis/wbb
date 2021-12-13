@@ -3973,42 +3973,58 @@
   {
     "team": "Academy of Art",
     "twitter": "ARTUWBB",
-    "ncaa_id": 30123
+    "url": "https://artuathletics.com/sports/womens-basketball",
+    "ncaa_id": 30123,
+    "stats_name": "Academy of Art"
   },
   {
     "team": "Cedarville",
     "twitter": "CedarvilleWBB",
-    "ncaa_id": 30124
+    "url": "https://yellowjackets.cedarville.edu/sports/womens-basketball",
+    "ncaa_id": 30124,
+    "stats_name": "Cedarville"
   },
   {
     "team": "Minot St.",
     "twitter": "MSUBeaversWBB",
-    "ncaa_id": 30125
+    "url": "https://msubeavers.com/sports/womens-basketball",
+    "ncaa_id": 30125,
+    "stats_name": "Minot St."
   },
   {
     "team": "Notre Dame (OH)",
     "twitter": "NDCWBB",
-    "ncaa_id": 30126
+    "url": "https://notredamefalcons.com/sports/womens-basketball",
+    "ncaa_id": 30126,
+    "stats_name": "Notre Dame (OH)"
   },
   {
     "team": "Simon Fraser",
     "twitter": "SFU_WBB",
-    "ncaa_id": 30127
+    "url": "https://athletics.sfu.ca/sports/womens-basketball",
+    "ncaa_id": 30127,
+    "stats_name": "Simon Fraser"
   },
   {
     "team": "Sioux Falls",
     "twitter": "USFcougars_wbb",
-    "ncaa_id": 30128
+    "url": "https://usfcougars.com/sports/womens-basketball",
+    "ncaa_id": 30128,
+    "stats_name": "Sioux Falls"
   },
   {
     "team": "Black Hills St.",
     "twitter": "BHSUWBB",
-    "ncaa_id": 30134
+    "url": "https://bhsuathletics.com/sports/womens-basketball",
+    "ncaa_id": 30134,
+    "stats_name": "Black Hills St."
   },
   {
     "team": "Lindenwood (MO)",
     "twitter": "LindenwoodWBB",
-    "ncaa_id": 30136
+    "url": "https://lindenwoodlions.com/sports/womens-basketball",
+    "ncaa_id": 30136,
+    "stats_name": "Lindenwood (MO)"
   },
   {
     "team": "McKendree",
