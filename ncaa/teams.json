@@ -3065,38 +3065,48 @@
   {
     "team": "Dickinson",
     "twitter": "DickinsonWBB",
+    "url": "https://www.dickinsonathletics.com/sports/wbkb/index",
     "ncaa_id": 185
   },
   {
     "team": "Dist. Columbia",
     "twitter": "UDC_WBB",
+    "url": "https://www.udcfirebirds.com/sports/wbkb/index",
     "ncaa_id": 186
   },
   {
     "team": "Denison",
     "twitter": "DUWBB",
-    "ncaa_id": 182
+    "url": "https://denisonbigred.com/sports/womens-basketball",
+    "ncaa_id": 182,
+    "stats_name": "Denison"
   },
   {
     "team": "Drew",
     "twitter": "Rangers_WBB",
-    "ncaa_id": 190
+    "url": "https://drewrangers.com/sports/womens-basketball",
+    "ncaa_id": 190,
+    "stats_name": "Drew"
   },
   {
     "team": "Salem (WV)",
     "twitter": "SU_WBBHoops",
+    "url": "https://salemtigers.com/sports/womens-basketball",
     "ncaa_id": 19117,
     "stats_name": "Salem (WV)"
   },
   {
     "team": "Dubuque",
     "twitter": "UD_WBB",
+    "url": "https://udspartans.com/sports/womens-basketball",
     "ncaa_id": 192
   },
   {
     "team": "Earlham",
     "twitter": "EarlhamWBB",
-    "ncaa_id": 195
+    "url": "https://goearlham.com/sports/womens-basketball",
+    "ncaa_id": 195,
+    "stats_name": "Earlham"
   },
   {
     "team": "East Carolina",
@@ -3115,67 +3125,86 @@
   {
     "team": "Tex. A&M-Commerce",
     "twitter": "Lion_WBB",
+    "url": "https://lionathletics.com/sports/womens-basketball",
     "ncaa_id": 199
   },
   {
     "team": "DeSales",
     "twitter": "desales_wbb",
-    "ncaa_id": 20
+    "url": "https://athletics.desales.edu/sports/womens-basketball",
+    "ncaa_id": 20,
+    "stats_name": "DeSales"
   },
   {
     "team": "Eastern Conn. St.",
     "twitter": "EasternWBB",
+    "url": "https://gowarriorathletics.com/sports/womens-basketball",
     "ncaa_id": 200
   },
   {
     "team": "MSOE",
     "twitter": "MSOEwbb",
+    "url": "https://www.go-raiders.com/sports/wbkb/index",
     "ncaa_id": 20220
   },
   {
     "team": "East. Mennonite",
     "twitter": "emu_wbb",
+    "url": "https://www.emuroyals.com/sports/wbkb/index",
     "ncaa_id": 203
   },
   {
     "team": "Mont. St. Billings",
     "twitter": "MSUBWBB",
-    "ncaa_id": 205
+    "url": "https://msubsports.com/sports/womens-basketball",
+    "ncaa_id": 205,
+    "stats_name": "Montana St. Billings"
   },
   {
     "team": "Eastern N.M.",
     "twitter": "ENMUWBB",
-    "ncaa_id": 206
+    "url": "https://goeasternathletics.com/sports/womens-basketball",
+    "ncaa_id": 206,
+    "stats_name": "Eastern N.M."
   },
   {
     "team": "Eckerd",
     "twitter": "EC_WBB",
-    "ncaa_id": 208
+    "url": "https://eckerdtritons.com/sports/womens-basketball",
+    "ncaa_id": 208,
+    "stats_name": "Eckerd"
   },
   {
     "team": "Edinboro",
     "twitter": "BoroWBB",
     "url": "https://gofightingscots.com/sports/womens-basketball",
-    "ncaa_id": 209
+    "ncaa_id": 209,
+    "stats_name": "Edinboro"
   },
   {
     "team": "Alma",
     "twitter": "AlmaScotsWBB",
+    "url": "https://almascots.com/sports/wbkb/index",
     "ncaa_id": 21
   },
   {
     "team": "Elizabethtown",
     "twitter": "BlueJaysWBB",
-    "ncaa_id": 211
+    "url": "https://etownbluejays.com/sports/womens-basketball",
+    "ncaa_id": 211,
+    "stats_name": "Elizabethtown"
   },
   {
     "team": "Elmhurst",
     "twitter": "ElmhurstU_WBB",
-    "ncaa_id": 212
+    "url": "https://elmhurstbluejays.com/sports/womens-basketball",
+    "ncaa_id": 212,
+    "stats_name": "Elmhurst"
   },
   {
     "team": "Elmira",
     "twitter": "ElmiraWBB",
+    "url": "https://athletics.elmira.edu/sports/womens-basketball",
     "ncaa_id": 213
   },
   {
@@ -3188,11 +3217,13 @@
   {
     "team": "Emerson",
     "twitter": "EmersonWBBall",
+    "url": "https://www.emersonlions.com/sports/wbkb/index",
     "ncaa_id": 214
   },
   {
     "team": "Emmanuel (MA)",
     "twitter": "EmmanuelHoops",
+    "url": "https://www.goecsaints.com/sports/w-baskbl/index",
     "ncaa_id": 215
   },
   {
@@ -3211,48 +3242,58 @@
   {
     "team": "Eureka",
     "twitter": "wildcatwmnhoops",
+    "url": "http://www.eurekareddevils.com/sports/wbkb/index",
     "ncaa_id": 218
   },
   {
     "team": "Piedmont",
     "twitter": "Piedmont_WBB",
+    "url": "https://piedmontlions.com/sports/womens-basketball",
     "ncaa_id": 21830,
     "private": false
   },
   {
     "team": "Stevenson",
     "twitter": "StevensonWBball",
+    "url": "https://www.gomustangsports.com/sports/wbkb/index",
     "ncaa_id": 21852,
     "private": false
   },
   {
-    "team": "American Int\\l",
+    "team": "American International",
     "twitter": "AICWBB",
+    "url": "https://aicyellowjackets.com/sports/womens-basketball",
     "ncaa_id": 22
   },
   {
     "team": "FDU-Florham",
     "twitter": "DevilsWBB",
-    "ncaa_id": 221
+    "url": "https://fdudevils.com/sports/womens-basketball",
+    "ncaa_id": 221,
+    "stats_name": "FDU-Florham"
   },
   {
     "team": "Ferris St.",
     "twitter": "FerrisWBBall",
+    "url": "https://www.ferrisstatebulldogs.com/sports/wbkb/index",
     "ncaa_id": 224
   },
   {
     "team": "Ferrum",
     "twitter": "FerrumWBB",
+    "url": "https://www.ferrumpanthers.com/sports/wbkb/index",
     "ncaa_id": 225
   },
   {
     "team": "JWU (Providence)",
     "twitter": "JWUWBasketball",
+    "url": "https://providence.jwuathletics.com/sports/wbkb/index",
     "ncaa_id": 22626
   },
   {
     "team": "Fitchburg St.",
     "twitter": "FSU_FalconsWBB",
+    "url": "https://www.fitchburgfalcons.com/sports/wbkb/index",
     "ncaa_id": 227
   },
   {
@@ -3272,7 +3313,9 @@
   {
     "team": "Florida Tech",
     "twitter": "FloridaTechWBB",
-    "ncaa_id": 230
+    "url": "https://floridatechsports.com/sports/womens-basketball",
+    "ncaa_id": 230,
+    "stats_name": "Florida Tech"
   },
   {
     "team": "FIU",
@@ -3291,12 +3334,15 @@
   {
     "team": "Felician",
     "twitter": "FelicianU_WBB",
+    "url": "https://www.felicianathletics.com/sports/wbkb/index",
     "ncaa_id": 23157
   },
   {
     "team": "Fla. Southern",
     "twitter": "FSC_WBB",
-    "ncaa_id": 233
+    "url": "https://fscmocs.com/sports/womens-basketball",
+    "ncaa_id": 233,
+    "stats_name": "Fla. Southern"
   },
   {
     "team": "Florida",
@@ -3308,16 +3354,20 @@
   {
     "team": "Medaille",
     "twitter": "MedailleWBB",
-    "ncaa_id": 23725
+    "url": "https://medaillesports.com/sports/womens-basketball",
+    "ncaa_id": 23725,
+    "stats_name": "Medaille"
   },
   {
     "team": "Franklin & Marshall",
     "twitter": "FandMWBB",
+    "url": "https://www.godiplomats.com/sports/w-baskbl/index",
     "ncaa_id": 239
   },
   {
     "team": "Franklin Pierce",
     "twitter": "FPURavensWBB",
+    "url": "https://www.fpuravens.com/sports/wbkb/index",
     "ncaa_id": 241
   },
   {
@@ -3336,17 +3386,22 @@
   {
     "team": "Lesley",
     "twitter": "Lesley_WBB",
+    "url": "https://lesleyathletics.com/sports/wbkb/index",
     "ncaa_id": 24317
   },
   {
     "team": "Concordia (TX)",
     "twitter": "ctxwomensbball",
-    "ncaa_id": 24400
+    "url": "https://athletics.concordia.edu/sports/womens-basketball",
+    "ncaa_id": 24400,
+    "stats_name": "Concordia (TX)"
   },
   {
     "team": "Gannon",
     "twitter": "GannonWBB",
-    "ncaa_id": 246
+    "url": "https://gannonsports.com/sports/womens-basketball",
+    "ncaa_id": 246,
+    "stats_name": "Gannon"
   },
   {
     "team": "Nova Southeastern",
@@ -3358,6 +3413,7 @@
   {
     "team": "SUNY Geneseo",
     "twitter": "GeneseoWBB",
+    "url": "https://www.geneseoknights.com/sports/wbkb/index",
     "ncaa_id": 247
   },
   {
@@ -3382,7 +3438,9 @@
   {
     "team": "Rowan",
     "twitter": "RowanWBB",
-    "ncaa_id": 259
+    "url": "https://www.rowanathletics.com/sports/womens-basketball",
+    "ncaa_id": 259,
+    "stats_name": "Rowan"
   },
   {
     "team": "Grambling",
@@ -3393,7 +3451,8 @@
   },
   {
     "team": "Becker",
-    "twitter": "LadyBulldogsGBB",
+    "twitter": "BCLadyhoopHawks",
+    "url": "https://beckerhawks.com/sports/wbkb/index",
     "ncaa_id": 26107
   },
   {
@@ -3406,32 +3465,41 @@
   {
     "team": "Grand Valley St.",
     "twitter": "gvsuwbb",
+    "url": "https://gvsulakers.com/sports/womens-basketball",
     "ncaa_id": 262
   },
   {
     "team": "Grinnell",
     "twitter": "GrinnellWBB",
+    "url": "https://pioneers.grinnell.edu/sports/womens-basketball",
     "ncaa_id": 264
   },
   {
     "team": "Grove City",
     "twitter": "GCC_WBB",
-    "ncaa_id": 265
+    "url": "https://athletics.gcc.edu/sports/womens-basketball",
+    "ncaa_id": 265,
+    "stats_name": "Grove City"
   },
   {
     "team": "Gust. Adolphus",
     "twitter": "GustavusWBB",
+    "url": "https://gustavus.edu/athletics/wbb/",
     "ncaa_id": 266
   },
   {
     "team": "Geneva",
     "twitter": "genevawbb",
-    "ncaa_id": 30084
+    "url": "https://athletics.geneva.edu/sports/womens-basketball",
+    "ncaa_id": 30084,
+    "stats_name": "Geneva"
   },
   {
     "team": "Hamline",
     "twitter": "HamlineWBB",
-    "ncaa_id": 268
+    "url": "https://hamlineathletics.com/sports/womens-basketball",
+    "ncaa_id": 268,
+    "stats_name": "Hamline University"
   },
   {
     "team": "Belmont Abbey",
@@ -3443,6 +3511,7 @@
   {
     "team": "Franklin",
     "twitter": "FCGrizWBall",
+    "url": "https://franklingrizzlies.com/sports/wbkb/index",
     "ncaa_id": 2694
   },
   {
@@ -3456,17 +3525,20 @@
   {
     "team": "Kansas City",
     "twitter": "KCRoos_WBB",
+    "url": "https://kcroos.com/sports/womens-basketball",
     "ncaa_id": 2707,
     "stats_name": "Kansas City"
   },
   {
     "team": "Hardin-Simmons",
     "twitter": "cowgirl_bball",
+    "url": "https://www.hsuathletics.com/sports/w-baskbl/index",
     "ncaa_id": 271
   },
   {
     "team": "Oglethorpe",
     "twitter": "OUWBBall",
+    "url": "https://www.gopetrels.com/sports/wbkb/index",
     "ncaa_id": 2713
   },
   {
@@ -3479,33 +3551,41 @@
   {
     "team": "Hartwick",
     "twitter": "hartwickwbb",
+    "url": "https://www.hartwickhawks.com/sports/womens-basketball",
     "ncaa_id": 273
   },
   {
     "team": "Howard Payne",
     "twitter": "HPUWBasketball",
-    "ncaa_id": 2741
+    "url": "https://hpusports.com/sports/womens-basketball",
+    "ncaa_id": 2741,
+    "stats_name": "Howard Payne"
   },
   {
     "team": "Lake Erie",
     "twitter": "lakeeriewbb",
+    "url": "https://www.lakeeriestorm.com/sports/wbkb/index",
     "ncaa_id": 2746
   },
   {
     "team": "Pacific (OR)",
     "twitter": "PACUWBB",
-    "ncaa_id": 2751,
-    "stats_name": "Pacific"
+    "url": "https://goboxers.com/sports/womens-basketball",
+    "ncaa_id": 2751
   },
   {
     "team": "Southwest Baptist",
     "twitter": "SBUbearcatsWBB",
-    "ncaa_id": 2755
+    "url": "https://www.sbubearcats.com/sports/womens-basketball",
+    "ncaa_id": 2755,
+    "stats_name": "Southwest Baptist"
   },
   {
     "team": "Western Colo.",
     "twitter": "westerncowbb",
-    "ncaa_id": 2759
+    "url": "https://gomountaineers.com/sports/womens-basketball",
+    "ncaa_id": 2759,
+    "stats_name": "Western Colo."
   },
   {
     "team": "Heidelberg",
@@ -3523,11 +3603,13 @@
   {
     "team": "Farmingdale St.",
     "twitter": "fscwbb_",
+    "url": "https://www.farmingdalesports.com/sports/wbkb/index",
     "ncaa_id": 27892
   },
   {
     "team": "Albertus Magnus",
     "twitter": "AlbertusWBB",
+    "url": "https://www.albertusfalcons.com/sports/wbkb/index",
     "ncaa_id": 2798
   },
   {
@@ -3540,42 +3622,55 @@
   {
     "team": "Hamilton",
     "twitter": "HamCollWBBall",
-    "ncaa_id": 267
+    "url": "https://athletics.hamilton.edu/sports/womens-basketball",
+    "ncaa_id": 267,
+    "stats_name": "Hamilton College"
   },
   {
     "team": "St. Thomas (TX)",
     "twitter": "USTWBB",
+    "url": "https://ustcelts.com/sports/wbkb/index",
     "ncaa_id": 2810
   },
   {
     "team": "Washburn",
     "twitter": "IchabodWBB",
-    "ncaa_id": 2814
+    "url": "https://wusports.com/sports/womens-basketball",
+    "ncaa_id": 2814,
+    "stats_name": "Washburn"
   },
   {
     "team": "Hollins",
     "twitter": "HollinsHoops",
+    "url": "https://hollinssports.com/sports/womens-basketball",
     "ncaa_id": 284
   },
   {
-    "team": "Birmingham-So.",
+    "team": "Birmingham-Southern",
     "twitter": "SOUTHERNWBB",
-    "ncaa_id": 28593
+    "url": "https://bscsports.net/sports/womens-basketball",
+    "ncaa_id": 28593,
+    "stats_name": "Birmingham-Southern"
   },
   {
     "team": "USciences",
     "twitter": "USciencesWBB",
+    "url": "https://www.devilsathletics.com/sports/wbkb/index",
     "ncaa_id": 28594
   },
   {
     "team": "Hiram",
     "twitter": "HiramCollegeWBB",
-    "ncaa_id": 281
+    "url": "https://hiramterriers.com/sports/womens-basketball",
+    "ncaa_id": 281,
+    "stats_name": "Hiram"
   },
   {
     "team": "Transylvania",
     "twitter": "TUWBX",
-    "ncaa_id": 28749
+    "url": "http://www.transysports.com/sports/womens-basketball",
+    "ncaa_id": 28749,
+    "stats_name": "Transylvania"
   },
   {
     "team": "Humboldt St.",
@@ -3587,7 +3682,9 @@
   {
     "team": "Hunter",
     "twitter": "HunterCollegeW1",
-    "ncaa_id": 292
+    "url": "https://www.huntercollegeathletics.com/sports/womens-basketball",
+    "ncaa_id": 292,
+    "stats_name": "Hunter College"
   },
   {
     "team": "Idaho St.",
@@ -3599,16 +3696,20 @@
   {
     "team": "Hope",
     "twitter": "HopeCollegeWBB",
+    "url": "https://athletics.hope.edu/sports/wbkb/index",
     "ncaa_id": 286
   },
   {
     "team": "Illinois Col.",
     "twitter": "ICWBB",
-    "ncaa_id": 297
+    "url": "https://illinoiscollegeathletics.com/sports/womens-basketball",
+    "ncaa_id": 297,
+    "stats_name": "Illinois College"
   },
   {
     "team": "Adelphi",
     "twitter": "AdelphiWBB",
+    "url": "https://aupanthers.com/sports/womens-basketball",
     "ncaa_id": 3
   },
   {
@@ -3621,17 +3722,22 @@
   {
     "team": "Ill. Wesleyan",
     "twitter": "IWUWomensBball",
-    "ncaa_id": 300
+    "url": "https://www.iwusports.com/sports/womens-basketball",
+    "ncaa_id": 300,
+    "stats_name": "Ill. Wesleyan"
   },
   {
     "team": "Trevecca Nazarene",
     "twitter": "TNUwBasketball",
+    "url": "https://www.tnutrojans.com/sports/wbkb/index",
     "ncaa_id": 30002
   },
   {
     "team": "Lee",
     "twitter": "LeeUWBball",
-    "ncaa_id": 30013
+    "url": "https://leeuflames.com/sports/womens-basketball",
+    "ncaa_id": 30013,
+    "stats_name": "Lee"
   },
   {
     "team": "Texas-Tyler",
@@ -3643,17 +3749,21 @@
   {
     "team": "Northwestern-St. Paul",
     "twitter": "unwwbb",
+    "url": "https://unweagles.com/sports/womens-basketball",
     "ncaa_id": 30031
   },
   {
     "team": "Finlandia",
     "twitter": "FinnUwbb",
+    "url": "https://fulions.com/sports/womens-basketball",
     "ncaa_id": 30032
   },
   {
     "team": "Crown (MN)",
     "twitter": "BasketballCrown",
-    "ncaa_id": 30035
+    "url": "https://athletics.crown.edu/sports/womens-basketball",
+    "ncaa_id": 30035,
+    "stats_name": "Crown (MN)"
   },
   {
     "team": "Mount Aloysius",
@@ -3665,29 +3775,36 @@
   {
     "team": "Trine",
     "twitter": "TrineWBB",
+    "url": "https://www.trinethunder.com/sports/wbkb/index",
     "ncaa_id": 30037
   },
   {
     "team": "Bethany Lutheran",
     "twitter": "BethanyWbb",
-    "ncaa_id": 30038
+    "url": "https://blcvikings.com/sports/womens-basketball",
+    "ncaa_id": 30038,
+    "stats_name": "Bethany Lutheran"
   },
   {
     "team": "North Central (MN)",
     "twitter": "NCU_WBKB",
+    "url": "https://ncurams.com/sports/womens-basketball",
     "ncaa_id": 30039,
+    "stats_name": "North Central (MN)",
     "private": false
   },
   {
     "team": "Mitchell",
     "twitter": "mitchellcollwbb",
+    "url": "https://www.mitchellathletics.com/sports/wbkb/index",
     "ncaa_id": 30042
   },
   {
     "team": "Palm Beach Atl.",
     "twitter": "SailfishWBB",
     "url": "https://pbasailfish.com/sports/womens-basketball",
-    "ncaa_id": 30045
+    "ncaa_id": 30045,
+    "stats_name": "Palm Beach Atl."
   },
   {
     "team": "JWU (Denver)",
@@ -3697,124 +3814,161 @@
   {
     "team": "Keystone",
     "twitter": "KeystoneWBB",
+    "url": "https://www.gokcgiants.com/sports/womens-basketball",
     "ncaa_id": 30047
   },
   {
     "team": "Ill. Springfield",
     "twitter": "UISWBB",
-    "ncaa_id": 30050
+    "url": "https://uisprairiestars.com/sports/womens-basketball",
+    "ncaa_id": 30050,
+    "stats_name": "Ill. Springfield"
   },
   {
     "team": "North Georgia",
     "twitter": "UNGWBB",
-    "ncaa_id": 30052
+    "url": "https://ungathletics.com/sports/womens-basketball",
+    "ncaa_id": 30052,
+    "stats_name": "University of North GeorgiaW"
   },
   {
     "team": "Newman",
     "twitter": "NewmanJetsWBB",
-    "ncaa_id": 30054
+    "url": "https://newmanjets.com/sports/womens-basketball",
+    "ncaa_id": 30054,
+    "stats_name": "Newman"
   },
   {
     "team": "Cal St. Monterey Bay",
     "twitter": "CSUMBwbb",
-    "ncaa_id": 30055
+    "url": "https://otterathletics.com/sports/womens-basketball",
+    "ncaa_id": 30055,
+    "stats_name": "Cal St. Monterey Bay"
   },
   {
     "team": "Notre Dame de Namur",
     "twitter": "NDNUbasketball",
+    "url": "https://ndnuargos.com/sports/womens-basketball",
     "ncaa_id": 30056
   },
   {
     "team": "Seton Hill",
     "twitter": "SetonHillWBB",
-    "ncaa_id": 30063
+    "url": "https://athletics.setonhill.edu/sports/womens-basketball",
+    "ncaa_id": 30063,
+    "stats_name": "Seton Hill"
   },
   {
     "team": "Saint Vincent",
     "twitter": "SVC_WomensBball",
-    "ncaa_id": 30064
+    "url": "https://athletics.stvincent.edu/sports/womens-basketball",
+    "ncaa_id": 30064,
+    "stats_name": "Saint Vincent"
   },
   {
     "team": "NVU-Lyndon",
     "twitter": "LyndonWBB",
+    "url": "https://www.lyndonhornets.com/sports/wbkb/index",
     "ncaa_id": 30065
   },
   {
-    "team": "Morrisville St.",
+    "team": "SUNY Morrisville",
     "twitter": "MorrisvilleWBB",
+    "url": "https://morrisvillemustangs.com/sports/womens-basketball",
     "ncaa_id": 30067
   },
   {
     "team": "Franciscan",
     "twitter": "FranciscanWBB",
-    "ncaa_id": 30069
+    "url": "https://franciscanathletics.com/sports/womens-basketball",
+    "ncaa_id": 30069,
+    "stats_name": "Franciscan"
   },
   {
     "team": "William Smith",
     "twitter": "HeronHoops",
-    "ncaa_id": 30073
+    "url": "https://hwsathletics.com/sports/womens-basketball",
+    "ncaa_id": 30073,
+    "stats_name": "William Smith"
   },
   {
     "team": "Penn St. Harrisburg",
     "twitter": "PSHbgWBBall",
+    "url": "https://athletics.hbg.psu.edu/sports/wbkb/index",
     "ncaa_id": 30081
   },
   {
     "team": "Montclair St.",
     "twitter": "montclairstwbb",
+    "url": "https://montclairathletics.com/sports/womens-basketball",
     "ncaa_id": 442
   },
   {
     "team": "Lancaster Bible",
     "twitter": "WBBLBC",
+    "url": "https://lbcchargers.com/sports/womens-basketball",
     "ncaa_id": 30085
   },
   {
     "team": "Tex. Permian Basin",
     "twitter": "UTPB_WBB",
-    "ncaa_id": 30088
+    "url": "https://utpbfalcons.com/sports/womens-basketball",
+    "ncaa_id": 30088,
+    "stats_name": "Tex. Permian Basin"
   },
   {
     "team": "Flagler",
     "twitter": "FlaglerWBB",
-    "ncaa_id": 30092
+    "url": "https://flaglerathletics.com/sports/womens-basketball",
+    "ncaa_id": 30092,
+    "stats_name": "Flagler"
   },
   {
     "team": "AUM",
     "twitter": "AUMWarhawksWBB",
-    "ncaa_id": 30093
+    "url": "https://aumathletics.com/sports/womens-basketball",
+    "ncaa_id": 30093,
+    "stats_name": "Aum"
   },
   {
     "team": "Dixie St.",
     "twitter": "dixie_wbb",
+    "url": "https://dixiestateathletics.com/sports/womens-basketball",
     "ncaa_id": 30095,
     "stats_name": "Dixie St."
   },
   {
     "team": "Ark.-Fort Smith",
     "twitter": "UAFSWBB",
-    "ncaa_id": 30105
+    "url": "https://uafortsmithlions.com/sports/womens-basketball",
+    "ncaa_id": 30105,
+    "stats_name": "Ark.-Fort Smith"
   },
   {
     "team": "Covenant",
     "twitter": "CovenantWBB",
+    "url": "https://athletics.covenant.edu/sports/womens-basketball",
     "ncaa_id": 30111
   },
   {
     "team": "Moravian",
     "twitter": "MoravianWBB",
+    "url": "https://www.moraviansports.com/sports/wbkb/index",
     "ncaa_id": 443
   },
   {
     "team": "Ohio Dominican",
     "twitter": "ODUPANTHERS_WBB",
+    "url": "https://www.ohiodominicanpanthers.com/sports/wbkb/index",
     "ncaa_id": 30119
   },
   {
     "team": "William Jewell",
     "twitter": "Jewell_WBB",
+    "url": "https://jewellcardinals.com/sports/womens-basketball",
     "ncaa_id": 30120,
-    "private": false
+    "private": false,
+    "stats_name": "William Jewell"
   },
   {
     "team": "Academy of Art",
