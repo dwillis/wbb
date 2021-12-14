@@ -146,13 +146,37 @@ def parse_turnovers(team, slug, season, game_id):
                     t = play['Player']['Team']
                     team_name = game_json['Game'][t]['Name']
                     uniform = play['Player']['UniformNumber']
-                if t == 'VistingTeam':
+                if t == 'VisitingTeam':
                     opp = 'HomeTeam'
                 else:
                     opp = 'VisitingTeam'
                 opponent = game_json['Game'][opp]['Name']
                 turnovers.append([team['ncaa_id'], game_id, game_json['Game']['Date'], team_name, opponent, play['Period'], play['ClockSeconds'], uniform, play['Id']])
     return turnovers
+
+def parse_plays(team, slug, season, game_id):
+    plays = []
+    try:
+        game_json = parse_game_json(slug, season, game_id)
+    except:
+        raise
+    if game_json and game_json['Plays'] != '':
+        for play in game_json['Plays']:
+            if play['Player'] == None:
+                t = play['Team']
+                team_name = game_json['Game'][t]['Name']
+                uniform = None
+            else:
+                t = play['Player']['Team']
+                team_name = game_json['Game'][t]['Name']
+                uniform = play['Player']['UniformNumber']
+            if t == 'VisitingTeam':
+                opp = 'HomeTeam'
+            else:
+                opp = 'VisitingTeam'
+            opponent = game_json['Game'][opp]['Name']
+            plays.append([team['ncaa_id'], game_id, game_json['Game']['Date'], team_name, opponent, play['Type'], play['Action'], play['Period'], play['ClockSeconds'], uniform, play['Id']])
+    return plays
 
 def parse_layups(team, slug, season, game_id):
     layups = []
@@ -171,12 +195,13 @@ def parse_layups(team, slug, season, game_id):
                     t = play['Player']['Team']
                     team_name = game_json['Game'][t]['Name']
                     uniform = play['Player']['UniformNumber']
-                if t == 'VistingTeam':
+                if t == 'VisitingTeam':
                     opp = 'HomeTeam'
                 else:
                     opp = 'VisitingTeam'
                 opponent = game_json['Game'][opp]['Name']
-                layups.append([team['ncaa_id'], game_id, game_json['Game']['Date'], team_name, opponent, play['Action'], play['Period'], play['ClockSeconds'], uniform, play['Id']])
+                if 'stats_name' in team and team_name == team['stats_name']:
+                    layups.append([team['ncaa_id'], game_id, game_json['Game']['Date'], team_name, opponent, play['Action'], play['Period'], play['ClockSeconds'], uniform, play['Id']])
     return layups
 
 def get_all_turnovers(season):
@@ -222,3 +247,25 @@ def get_all_layups(season):
                     layups = parse_layups(team, slug, season, game_id)
                     for layup in layups:
                         csv_file.writerow(layup)
+
+def get_all_plays(season):
+    teams_json = json.loads(open('/Users/derekwillis/code/wbb/ncaa/teams.json').read())
+    with open(f"/Users/derekwillis/code/wbb/ncaa/plays_{season}.csv", 'w') as output_file:
+        csv_file = csv.writer(output_file)
+        csv_file.writerow(['ncaa_id', 'game_id', 'date', 'team', 'opponent', 'type', 'action', 'period', 'seconds', 'player', 'play_id'])
+        for team in teams_json:
+            print(team['ncaa_id'])
+            slug = slugify(team)
+            try:
+                os.chdir(f"/Users/derekwillis/code/wbb-game-data/{slug}/{season}")
+            except:
+                continue
+            for root, dirs, files in os.walk(".", topdown=False):
+                for file in files:
+                    if file == '.DS_Store':
+                        continue
+                    game_id = file.split('.')[0]
+                    print(game_id)
+                    plays = parse_plays(team, slug, season, game_id)
+                    for play in plays:
+                        csv_file.writerow(play)
