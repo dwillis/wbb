@@ -4132,53 +4132,69 @@
   {
     "team": "Iowa Wesleyan",
     "twitter": "IWBBALL",
+    "url": "https://www.iwtigers.com/sport/0/2",
     "ncaa_id": 30173,
     "private": false
   },
   {
     "team": "Daemen",
     "twitter": "DaemenWBB",
+    "url": "https://daemenwildcats.com/sports/womens-basketball",
     "ncaa_id": 30174
   },
   {
     "team": "Holy Names",
     "twitter": "HNUWBB",
-    "ncaa_id": 30175
+    "url": "https://hnuhawks.com/sports/womens-basketball",
+    "ncaa_id": 30175,
+    "stats_name": "Holy Names"
   },
   {
     "team": "Lubbock Christian",
     "twitter": "LCUWomensBball",
-    "ncaa_id": 30177
+    "url": "https://lcuchaps.com/sports/womens-basketball",
+    "ncaa_id": 30177,
+    "stats_name": "Lubbock Christian"
   },
   {
     "team": "Northwestern Okla.",
     "twitter": "NWOSUWBB",
-    "ncaa_id": 30178
+    "url": "https://riderangersride.com/sports/womens-basketball",
+    "ncaa_id": 30178,
+    "stats_name": "Northwestern Okla."
   },
   {
     "team": "Rogers St.",
     "twitter": "rsuwbb",
-    "ncaa_id": 30180
+    "url": "https://rsuhillcats.com/sports/womens-basketball",
+    "ncaa_id": 30180,
+    "stats_name": "Rogers St."
   },
   {
     "team": "UVa-Wise",
     "twitter": "UVAWISEWBB",
-    "ncaa_id": 30181
+    "url": "https://uvawisecavs.com/sports/womens-basketball",
+    "ncaa_id": 30181,
+    "stats_name": "UVA Wise"
   },
   {
     "team": "Bryn Athyn",
     "twitter": "BrynAthynWBB",
+    "url": "https://brynathynathletics.com/sports/womens-basketball",
     "ncaa_id": 30188
   },
   {
     "team": "Penn College",
     "twitter": "PCTWBasketball",
+    "url": "https://pctwildcats.com/sports/womens-basketball",
     "ncaa_id": 30190
   },
   {
     "team": "Southern Wesleyan",
     "twitter": "SWUWomensBB",
-    "ncaa_id": 30192
+    "url": "https://swuathletics.com/sports/womens-basketball",
+    "ncaa_id": 30192,
+    "stats_name": "Southern Wesleyan"
   },
   {
     "team": "Belhaven",
