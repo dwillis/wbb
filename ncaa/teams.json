@@ -449,7 +449,7 @@
   {
     "team": "Arkansas",
     "twitter": "razorbackwbb",
-    "url": "https://arkansasrazorbacks.com/sport/w-baskbl",
+    "url": "https://arkansasrazorbacks.com/sport/w-baskbl/",
     "ncaa_id": 31
   },
   {
@@ -1607,7 +1607,7 @@
   {
     "team": "Sacred Heart",
     "twitter": "sacredheartwbb",
-    "url": "https://www.shubigred.com/sports/w-baskbl/index",
+    "url": "https://sacredheartpioneers.com/sports/womens-basketball",
     "ncaa_id": 590,
     "stats_name": "Sacred Heart"
   },
@@ -1876,7 +1876,7 @@
   {
     "team": "UMBC",
     "twitter": "umbcwbb",
-    "url": "https://umbcretrievers.com/sports/wbkb/index",
+    "url": "https://umbcretrievers.com/sports/womens-basketball",
     "ncaa_id": 391,
     "stats_name": "Umbc"
   },
@@ -2259,7 +2259,7 @@
   {
     "team": "Francis Marion",
     "twitter": "FM_WBB",
-    "url": "https://fmupatriots.com/sports/wbkb/index",
+    "url": "https://fmupatriots.com/sports/womens-basketball/",
     "ncaa_id": 1085
   },
   {
@@ -2279,7 +2279,7 @@
   {
     "team": "George Fox",
     "twitter": "GeorgeFoxWBB",
-    "url": "https://athletics.georgefox.edu/sports/wbkb/index",
+    "url": "https://athletics.georgefox.edu/sports/womens-basketball",
     "ncaa_id": 1094
   },
   {
@@ -2379,7 +2379,7 @@
   {
     "team": "UC Santa Cruz",
     "twitter": "ucscwbb",
-    "url": "https://www.goslugs.com/sports/wbkb/index",
+    "url": "https://goslugs.com/sports/womens-basketball",
     "ncaa_id": 113
   },
   {
