@@ -120,7 +120,7 @@
   {
     "team": "Clemson",
     "twitter": "clemsonwbb",
-    "url": "https://clemsontigers.com/sports/w-basketball",
+    "url": "https://clemsontigers.com/sports/w-basketball/",
     "ncaa_id": 147,
     "stats_name": "Clemson"
   },
@@ -176,7 +176,7 @@
   {
     "team": "Drake",
     "twitter": "drakewbb",
-    "url": "https://godrakebulldogs.com/index.aspx?path=wbball",
+    "url": "https://godrakebulldogs.com/sports/womens-basketball/",
     "ncaa_id": 189,
     "stats_name": "Drake"
   },
@@ -2452,7 +2452,7 @@
   {
     "team": "Lander",
     "twitter": "LanderWBB",
-    "url": "https://landerbearcats.com/sports/wbkb/index",
+    "url": "https://landerbearcats.com/sports/wbball",
     "ncaa_id": 1167
   },
   {
@@ -3072,7 +3072,8 @@
     "team": "Dist. Columbia",
     "twitter": "UDC_WBB",
     "url": "https://www.udcfirebirds.com/sports/wbkb/index",
-    "ncaa_id": 186
+    "ncaa_id": 186,
+    "roster": "skip"
   },
   {
     "team": "Denison",
@@ -4579,8 +4580,7 @@
     "twitter": "AUG_WBB",
     "url": "https://augustajags.com/sports/womens-basketball",
     "ncaa_id": 39,
-    "stats_name": "Augusta",
-    "roster": "skip"
+    "stats_name": "Augusta"
   },
   {
     "team": "Mary Washington",
@@ -4779,7 +4779,8 @@
     "twitter": "mhc_basketball",
     "url": "https://athletics.mtholyoke.edu/sports/wbkb/index",
     "ncaa_id": 449,
-    "private": false
+    "private": false,
+    "roster": "skip"
   },
   {
     "team": "Babson",
@@ -5015,7 +5016,7 @@
   {
     "team": "Ohio",
     "twitter": "OhioWBasketball",
-    "url": "https://ohiobobcats.com/sports/wbkb/index",
+    "url": "https://ohiobobcats.com/sports/wbball",
     "ncaa_id": 519
   },
   {
@@ -5093,7 +5094,8 @@
     "team": "Pine Manor",
     "twitter": "PineManorWBB",
     "url": "https://pmcathletics.com/sports/wbkb/index",
-    "ncaa_id": 544
+    "ncaa_id": 544,
+    "roster": "skip"
   },
   {
     "team": "Pitt.-Johnstown",
@@ -6142,7 +6144,8 @@
     "team": "Caltech",
     "twitter": "caltechwbb",
     "url": "https://www.gocaltech.com/sports/wbkb/index",
-    "ncaa_id": 89
+    "ncaa_id": 89,
+    "roster": "skip"
   },
   {
     "team": "Wis. Lutheran",
