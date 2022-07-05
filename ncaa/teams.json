@@ -58,7 +58,6 @@
   {
     "team": "Bellarmine",
     "twitter": "BUKnightsWBB",
-    "url": "https://athletics.bellarmine.edu/sports/womens-basketball",
     "ncaa_id": 52,
     "stats_name": "Bellarmine"
   },
@@ -79,7 +78,7 @@
   {
     "team": "Belmont",
     "twitter": "belmontwbb",
-    "url": "https://belmontbruins.com/sports/w-baskbl",
+    "url": "https://belmontbruins.com/sports/womens-basketball/roster",
     "ncaa_id": 14927
   },
   {
@@ -2324,7 +2323,7 @@
   {
     "team": "Guilford",
     "twitter": "GuilfordWBB",
-    "url": "https://www.guilfordquakers.com/sports/wbkb/index",
+    "url": "https://guilfordquakers.com/sports/womens-basketball/roster",
     "ncaa_id": 1112
   },
   {
@@ -2734,7 +2733,7 @@
   {
     "team": "St. Joseph's (L.I.)",
     "twitter": "sjc_wbb",
-    "url": "https://www.sjcgoldeneagles.com/sports/wbkb/index",
+    "url": "https://sjliathletics.com/sports/wbkb/index",
     "ncaa_id": 1340
   },
   {
@@ -3282,7 +3281,7 @@
   {
     "team": "Ferrum",
     "twitter": "FerrumWBB",
-    "url": "https://www.ferrumpanthers.com/sports/wbkb/index",
+    "url": "https://ferrumpanthers.com/sports/womens-basketball",
     "ncaa_id": 225
   },
   {
@@ -3414,7 +3413,7 @@
   {
     "team": "SUNY Geneseo",
     "twitter": "GeneseoWBB",
-    "url": "https://www.geneseoknights.com/sports/wbkb/index",
+    "url": "https://geneseoknights.com/sports/wbball",
     "ncaa_id": 247
   },
   {
@@ -3539,7 +3538,7 @@
   {
     "team": "Oglethorpe",
     "twitter": "OUWBBall",
-    "url": "https://www.gopetrels.com/sports/wbkb/index",
+    "url": "https://gopetrels.com/sports/womens-basketball",
     "ncaa_id": 2713
   },
   {
@@ -5676,7 +5675,7 @@
   {
     "team": "Tufts",
     "twitter": "TuftsWbball",
-    "url": "https://www.gotuftsjumbos.com/sports/wbkb/index",
+    "url": "https://gotuftsjumbos.com/sports/womens-basketball/roster",
     "ncaa_id": 717
   },
   {
@@ -5776,7 +5775,7 @@
   {
     "team": "Bridgewater (VA)",
     "twitter": "BridgewaterWBB",
-    "url": "https://www.bridgewatereagles.com/sports/wbkb/index",
+    "url": "https://bridgewatereagles.com/sports/womens-basketball/roster",
     "ncaa_id": 75
   },
   {
@@ -5864,7 +5863,7 @@
   {
     "team": "McDaniel",
     "twitter": "McDaniel_WBB",
-    "url": "https://www.mcdanielathletics.com/sports/wbkb/index",
+    "url": "https://mcdanielathletics.com/sports/womens-basketball/roster",
     "ncaa_id": 773
   },
   {
@@ -6055,7 +6054,7 @@
   {
     "team": "Youngstown St.",
     "twitter": "YSUWomensHoops",
-    "url": "https://ysusports.com/sports/wbkb/index",
+    "url": "https://ysusports.com/sports/womens-basketball/roster",
     "ncaa_id": 817,
     "stats_name": "Youngstown St."
   },
@@ -6155,7 +6154,7 @@
   },
   {
     "team": "Converse",
-    "twitter": "Valkyries_WBB",
+    "twitter": "Converse_wbb",
     "url": "https://govalkyries.com/sports/womens-basketball",
     "ncaa_id": 8935,
     "private": false
