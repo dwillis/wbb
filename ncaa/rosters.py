@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 
 HEADERS = {'No.': 'jersey', 'Name': 'name', 'Cl.': 'academic_year', 'Pos.': 'position', 'Ht.': 'height', 'Hometown/High School': 'town', 'Hometown/Last School': 'town', 'Num': 'jersey', 'Yr': 'academic_year', 'Ht': 'height', 'Hometown': 'town', 'High School/Previous School': 'high_school', 'Pos': 'position', 'Hometown/Previous School': 'town', 'Exp.': 'academic_year', 'Number': 'jersey', 'Position': 'position', 'HT.': 'height', 'YEAR': 'academic_year', 'HOMETOWN': 'town', 'LAST SCHOOL': 'high_school', 'Yr.': 'academic_year', 'Hometown/High School/Last School': 'town', 'Class': 'academic_year', 'High school': 'high_school', 'Previous College': 'previous_school', 'Cl.-Exp.': 'academic_year', '#': 'jersey', 'High School': 'high_school', 'Hometown / Previous School': 'town', 'No': "jersey", 'Hometown/High School/Previous School': 'town', 'Hometown / High School / Last College': 'town', 'Year': 'academic_year', 'Height': 'height', 'Previous School': 'high_school', 'Cl': 'academic_year', 'Prev. Coll.': 'previous_school', 'Hgt.': 'height', 'Hometown/ High School': 'town', 'Hometown/High School (Last School)': 'town', 'Hometown/High School (Former School)': 'town', 'Hometown / High School': 'town', 'YR': 'academic_year', 'POS': 'position', 'HT': 'height', 'Player': 'name', 'Hometown/High School/Previous College': 'town', 'Last School/Hometown': 'town', 'NO.': 'jersey', 'NAME': 'name', 'YR.': 'academic_year', 'POS.': 'position', 'HIGH SCHOOL': 'high_school', 'NO': 'jersey', 'HOMETOWN/HIGH SCHOOL': 'town', 'Academic Yr.': 'academic_year', 'Full Name': 'name', 'POSITION': 'position'}
 
-SEASONS = ['2021-22', '2020-21', '2019-20', '2018-19', '2017-18', '2016-17', '2015-16', '2014-15', '2013-14',
+SEASONS = ['2022-23', '2021-22', '2020-21', '2019-20', '2018-19', '2017-18', '2016-17', '2015-16', '2014-15', '2013-14',
 '2012-13', '2011-12', '2010-11', '2009-10', '2008-09', '2007-08', '2006-07', '2005-06', '2004-05', '2003-04',
 '2002-03', '2001-02', '2000-01', '1999-00', '1998-99', '1997-98', '1996-97', '1995-96', '1994-95', '1993-94', '1992-93', '1991-92', '1990-91']
 
@@ -31,7 +31,11 @@ def fetch_wbkb_roster(base_url, season):
         "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
     }
     r = requests.get(url, headers=headers)
-    return BeautifulSoup(r.text, features="html.parser")
+    if r.status_code == 404:
+        html = None
+    else:
+        html = BeautifulSoup(r.text, features="html.parser")
+    return html
 
 def fetch_baskbl_roster(base_url, season):
     if 'index' in base_url:
@@ -52,7 +56,9 @@ def fetch_baskbl_roster(base_url, season):
 def parse_roster_baskbl(team, html, season):
     roster = []
     er = tldextract.extract(team['url'])
-    cols = [x.text.strip() for x in html.find('thead').find_all('th') if x.text.strip() != '']
+    cols = [x.text.strip() for x in html.find('thead').find_all('th') if x.text.strip() if x.text.strip() != '']
+    if team['ncaa_id'] == 255:
+        cols = [x.text.strip() for x in html.find('thead').find_all('th') if x.text.strip() != 'Social']
     new_cols = [HEADERS[c] for c in cols]
     raw_players = [x for x in html.find('tbody').find_all('tr')]
     for raw_player in raw_players:
@@ -90,7 +96,7 @@ def parse_roster_wbkb(team, html, season):
     if team['ncaa_id'] == 30164:
         headers = html.find_all('table')[1].find_all('tr')[0]
     elif team['ncaa_id'] == 326:
-        headers = html.find_all('table')[11].find_all('tr')[0]
+        headers = html.find_all('table')[12].find_all('tr')[0]
     else:
         headers = html.find('table').find_all('tr')[0]
     cols = [x.text.strip() for x in headers if x.text.strip() != '']
@@ -117,7 +123,7 @@ def parse_roster_wbkb(team, html, season):
         raw_player_list = [x.text.strip() for x in raw_player.find_all('td') if x.text.replace('*','').replace('(she/her/hers)','').replace('she/her/hers','').strip() != '']
         if team['ncaa_id'] == 73 and raw_player_list[0] == '43':
             continue
-        if team['ncaa_id'] == 114 or team['ncaa_id'] == 1199 or team['ncaa_id'] == 22626 or team['ncaa_id'] == 24317 or team['ncaa_id'] == 30037 or team['ncaa_id'] == 341 or team['ncaa_id'] == 1315 or team['ncaa_id'] == 46 or team['ncaa_id'] == 510 or team['ncaa_id'] == 641 or team['ncaa_id'] == 730 or team['ncaa_id'] == 75 or team['ncaa_id'] == 806 or team['ncaa_id'] == 817 or team['ncaa_id'] == 89 or team['ncaa_id'] == 145 or team['ncaa_id'] == 217 or team['ncaa_id'] == 247 or team['ncaa_id'] == 2713 or team['ncaa_id'] == 2798 or team['ncaa_id'] == 28594 or team['ncaa_id'] == 30002 or team['ncaa_id'] == 30225 or team['ncaa_id'] == 467 or team['ncaa_id'] == 567 or team['ncaa_id'] == 569 or team['ncaa_id'] == 137 or team['ncaa_id'] == 715 or team['ncaa_id'] == 760 or team['ncaa_id'] == 779 or team['ncaa_id'] == 808 or team['ncaa_id'] == 8688:
+        if team['ncaa_id'] == 114 or team['ncaa_id'] == 1199 or team['ncaa_id'] == 22626 or team['ncaa_id'] == 24317 or team['ncaa_id'] == 30037 or team['ncaa_id'] == 341 or team['ncaa_id'] == 1315 or team['ncaa_id'] == 46 or team['ncaa_id'] == 510 or team['ncaa_id'] == 641 or team['ncaa_id'] == 730 or team['ncaa_id'] == 75 or team['ncaa_id'] == 806 or team['ncaa_id'] == 817 or team['ncaa_id'] == 89 or team['ncaa_id'] == 145 or team['ncaa_id'] == 217 or team['ncaa_id'] == 247 or team['ncaa_id'] == 2713 or team['ncaa_id'] == 2798 or team['ncaa_id'] == 28594 or team['ncaa_id'] == 30002 or team['ncaa_id'] == 30225 or team['ncaa_id'] == 467 or team['ncaa_id'] == 567 or team['ncaa_id'] == 569 or team['ncaa_id'] == 137 or team['ncaa_id'] == 715 or team['ncaa_id'] == 760 or team['ncaa_id'] == 779 or team['ncaa_id'] == 808 or team['ncaa_id'] == 8688 or team['ncaa_id'] == 379:
             raw_player_list = [x.text.strip() for x in raw_player.find_all('td')]
         raw_player_list[4] = " ".join([x for x in raw_player_list[4].split()])
         if team['ncaa_id'] == 1036:
@@ -128,7 +134,7 @@ def parse_roster_wbkb(team, html, season):
                 raw_player_list.pop()
         if team['ncaa_id'] == 142:
             del raw_player_list[2]
-        if any(major in raw_player_list for major in ['Nursing', 'Biology', 'Public Health', 'Exercise Science', 'Pre-Nursing', 'Economics', 'Physical Therapy', 'Psychology','Business Administration','Criminal Justice/Psychology', 'Forensic Science', 'Undecided', 'Management', 'Psychology / Management', 'Political Science', 'Psychology / Pre-Medicine', 'Undeclared', 'Biomedical Engineering', 'Business Marketing', 'Chemistry', 'Business', 'Computer Science', 'Business Management', 'AS', 'BIOE', 'CM', 'AE', 'ME', 'BM', 'CVE', 'BME', 'Information Technology', 'Criminal Justice', 'Elementary Education', 'Special Education', 'Criminal Justice/Sociology', 'Exercise and Sports Science', 'Political Science', 'Exercise Sports Science', 'Accounting', 'Psychology', 'Pre-Physical Therapy', 'MS-Counseling Psychology', 'Business Admin.', 'Pre-Medicine', 'MBA', 'Occupational Therapy', 'Pharmacy', 'Biomedical Sciences/Medical Laboratory Sciences', 'Pharm. & Healthcare Business', 'Biomedical Sciences', 'Exercise Science: Pre-Athletic Training', 'Business Administration: Sport Management', 'Exercise Science: Individual Program of Study', 'Applied Psychology & Human Services', 'Outdoor Education, Leadership, & Tourism: Adventure Education', 'Natural Science', 'Exercise Science: Pre-Physical Therapy', 'Childhood Education', 'Global Studies', 'Healthcare Mgmt.', 'Computer Info. Systems', 'Veterinary Science', 'Psychology & Business', 'Business & Psychology', 'Biology & Spanish', 'History & Spanish', 'Politics/Computer Science', 'Geology', 'Politics/Sociology', 'Economics', 'English/Psychology', 'Education', 'Communication Sciences and Disorders', 'Sociology', 'Social Work', 'Psychology / Criminal Justice', 'Undeclared / -', 'Dental Hygiene', 'Early Education/Psychology', 'Elementary Education/Psychology', 'Sports Management', 'Exploratory', 'Creative Writing and Publishing', 'Administration of Justice', 'Emergency Medical Services Management', 'Sport Psychology', 'Physical Education', 'Athletic Training', 'Physician Assistant', 'Sports and Exercise Psychology', 'Athletic Training', 'Sports Managment', 'Sport Management', 'Film and Interactive Media', 'Biochemistry', 'HSSP', 'Business/HSSP', 'Business/Psychology', 'Business/International and Global Studies', 'Industrial Design', 'Mechanical Engineering', 'Architecture', 'Applied Mathematics', 'Business Analytics and Information Management', 'General Business', 'Forensic Biology', 'Pharmaceutical Business', 'Health Sciences', 'Business Undecided', 'Civil Engineering', 'Health Science', 'Education & Studio Art', 'Political Science & Philosophy', 'Biochemistry & Molecular Biology', 'Education & English', 'Business Economics', 'Global & International Studies & French & Francophone Studies', 'Marketing & Sales', 'Math', 'Sports Broadcasting', 'General Studies', 'Occupational Studies', 'Elementary Education/Mathematics', 'Liberal Studies', 'Communication', 'Elementary Education/Sociology', 'Public Health', 'Elementary Education/History', 'Accounting & Marketing', 'Biology/Biotechnology', 'Liberal Studies/Education', 'Entrepreneurship & Marketing', 'Engineering', 'Finance', 'English', 'Music', 'UX', 'NU', 'BE', 'Pre-Veterinary', 'Forensic Psychology', 'Exercise Physiology', 'Outdoor Education, Leadership, & Tourism', 'Recreation & Sports Mgmt.', 'Liberal Arts', 'French', 'Marketing & Communication', 'Dental Hygiene', 'Early Education/Psychology', 'Mathematics and Computer Technology', 'Pre-Physician Assistant', 'Applied Sciences', 'Computer Information Systems', 'Forensic Chemistry', 'Elementary Education and Psychology',"Pre- Physician's Assistant", 'Professional Communications (Graduate)', 'Environmental Science']):
+        if any(major in raw_player_list for major in ['Nursing', 'Biology', 'Public Health', 'Exercise Science', 'Pre-Nursing', 'Economics', 'Physical Therapy', 'Psychology','Business Administration','Criminal Justice/Psychology', 'Forensic Science', 'Undecided', 'Management', 'Psychology / Management', 'Political Science', 'Psychology / Pre-Medicine', 'Undeclared', 'Biomedical Engineering', 'Business Marketing', 'Chemistry', 'Business', 'Computer Science', 'Business Management', 'AS', 'BIOE', 'CM', 'AE', 'ME', 'BM', 'CVE', 'BME', 'Information Technology', 'Criminal Justice', 'Elementary Education', 'Special Education', 'Criminal Justice/Sociology', 'Exercise and Sports Science', 'Political Science', 'Exercise Sports Science', 'Accounting', 'Psychology', 'Pre-Physical Therapy', 'MS-Counseling Psychology', 'Business Admin.', 'Pre-Medicine', 'MBA', 'Occupational Therapy', 'Pharmacy', 'Biomedical Sciences/Medical Laboratory Sciences', 'Pharm. & Healthcare Business', 'Biomedical Sciences', 'Exercise Science: Pre-Athletic Training', 'Business Administration: Sport Management', 'Exercise Science: Individual Program of Study', 'Applied Psychology & Human Services', 'Outdoor Education, Leadership, & Tourism: Adventure Education', 'Natural Science', 'Exercise Science: Pre-Physical Therapy', 'Childhood Education', 'Global Studies', 'Healthcare Mgmt.', 'Computer Info. Systems', 'Veterinary Science', 'Psychology & Business', 'Business & Psychology', 'Biology & Spanish', 'History & Spanish', 'Politics/Computer Science', 'Geology', 'Politics/Sociology', 'Economics', 'English/Psychology', 'Education', 'Communication Sciences and Disorders', 'Sociology', 'Social Work', 'Psychology / Criminal Justice', 'Undeclared / -', 'Dental Hygiene', 'Early Education/Psychology', 'Elementary Education/Psychology', 'Sports Management', 'Exploratory', 'Creative Writing and Publishing', 'Administration of Justice', 'Emergency Medical Services Management', 'Sport Psychology', 'Physical Education', 'Athletic Training', 'Physician Assistant', 'Sports and Exercise Psychology', 'Athletic Training', 'Sports Managment', 'Sport Management', 'Film and Interactive Media', 'Biochemistry', 'HSSP', 'Business/HSSP', 'Business/Psychology', 'Business/International and Global Studies', 'Industrial Design', 'Mechanical Engineering', 'Architecture', 'Applied Mathematics', 'Business Analytics and Information Management', 'General Business', 'Forensic Biology', 'Pharmaceutical Business', 'Health Sciences', 'Business Undecided', 'Civil Engineering', 'Health Science', 'Education & Studio Art', 'Political Science & Philosophy', 'Biochemistry & Molecular Biology', 'Education & English', 'Business Economics', 'Global & International Studies & French & Francophone Studies', 'Marketing & Sales', 'Math', 'Sports Broadcasting', 'General Studies', 'Occupational Studies', 'Elementary Education/Mathematics', 'Liberal Studies', 'Communication', 'Elementary Education/Sociology', 'Public Health', 'Elementary Education/History', 'Accounting & Marketing', 'Biology/Biotechnology', 'Liberal Studies/Education', 'Entrepreneurship & Marketing', 'Engineering', 'Finance', 'English', 'Music', 'UX', 'NU', 'BE', 'Pre-Veterinary', 'Forensic Psychology', 'Exercise Physiology', 'Outdoor Education, Leadership, & Tourism', 'Recreation & Sports Mgmt.', 'Liberal Arts', 'French', 'Marketing & Communication', 'Dental Hygiene', 'Early Education/Psychology', 'Mathematics and Computer Technology', 'Pre-Physician Assistant', 'Applied Sciences', 'Computer Information Systems', 'Forensic Chemistry', 'Elementary Education and Psychology',"Pre- Physician's Assistant", 'Professional Communications (Graduate)', 'Environmental Science', 'Welding', 'Business Management & Marketing']):
             if team['ncaa_id'] == 186:
                 del raw_player_list[4]
             else:
@@ -199,8 +205,8 @@ def fetch_and_parse_miami(team, season):
     url = team['url'] + "/roster/season/" + season
     session = HTMLSession()
     r = session.get(url)
-    r.html.render()
-    cols = [x.text for x in r.html.find('th')]
+    r.html.render(timeout=30)
+    cols = [x.text for x in r.html.find('th') if x.text not in ['Experience','Twitter', 'Instagram', 'TikTok']]
     cols = cols[0:-2]
     new_cols = [HEADERS[c] for c in cols]
     new_cols[7] = 'previous_school'
@@ -231,7 +237,7 @@ def fetch_and_parse_iowa_state(team, season):
     url = team['url'] + "/roster/" + season
     session = HTMLSession()
     r = session.get(url)
-    r.html.render()
+    r.html.render(timeout=30)
     players = r.html.find('li.sidearm-roster-list-item')
     new_cols = ['number', 'name', ]
     for player in players:
@@ -252,16 +258,41 @@ def fetch_and_parse_iowa_state(team, season):
         })
     return roster
 
+def fetch_and_parse_iowa(team, season):
+    roster = []
+    er = tldextract.extract(team['url'])
+    url = team['url'] + "/roster/" + "season/" + season
+    r = requests.get(url)
+    html = BeautifulSoup(r.text, features="html.parser")
+    players = html.find_all('div', class_="rosters__table")[0].find('table').find_all('tr')[1:]
+    for player in players:
+        roster.append({
+            'team_id': team['ncaa_id'],
+            'team': team['team'],
+            'id': None,
+            'name': player.find_all('td')[1].text.strip(),
+            'year': player.find_all('td')[4].text,
+            'hometown': player.find_all('td')[5].text.strip(),
+            'high_school': player.find_all('td')[6].text.strip(),
+            'previous_school': None,
+            'height': player.find_all('td')[3].text,
+            'position': player.find_all('td')[2].text,
+            'jersey': player.find_all('td')[0].text,
+            'url': player.find('a')['href'],
+            'season': season
+        })
+    return roster
+
 def fetch_and_parse_baylor(team, season):
     roster = []
     er = tldextract.extract(team['url'])
     url = team['url'] + "/roster/" + season
     session = HTMLSession()
-    r = session.get(url)
+    r = session.get(url, timeout=30)
     r.html.render()
     rows = r.html.find('tr.sidearm-roster-table-row')
     headers = rows[0]
-    cols = [x.text for x in headers.find('th') if x.text != 'Experience']
+    cols = [x.text for x in headers.find('th') if x.text not in ['Experience','Twitter']]
     new_cols = [HEADERS[c] for c in cols]
     players = rows[1:-1]
     for player in players:
@@ -342,6 +373,8 @@ def parse_roster(team, html, season):
             name = player.find('a')['aria-label'].split(' - ')[0].strip()
         except:
             name = player.find('h3').text.strip()
+        if 'Instagram' in name:
+            name = player.find('h3').text.strip()
         roster.append({
             'team_id': team['ncaa_id'],
             'team': team['team'],
@@ -383,9 +416,15 @@ def get_all_rosters(season, team = None):
                 roster = fetch_and_parse_clemson(team, season)
             elif team['ncaa_id'] == 311 or team['ncaa_id'] == 742:
                 roster = fetch_and_parse_iowa_state(team, season)
+            elif team['ncaa_id'] == 312:
+                roster = fetch_and_parse_iowa(team, season)
+            elif team['ncaa_id'] == 532:
+                continue
             elif 'wbkb' in team['url']:
                 html = fetch_wbkb_roster(team['url'], season)
-                roster = parse_roster_wbkb(team, html, season)
+                roster = None
+                if html:
+                    roster = parse_roster_wbkb(team, html, season)
             elif 'w-baskbl' in team['url']:
                 html = fetch_baskbl_roster(team['url'], season)
                 roster = parse_roster_baskbl(team, html, season)
