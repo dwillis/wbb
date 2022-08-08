@@ -6,8 +6,8 @@ from datetime import datetime
 from sqlite_utils import Database
 import tweepy
 
-auth = tweepy.OAuthHandler('j8gO12xQHIu9Ukx6ofQfdNdeC', 'F0wQmBCs89doG73XVzpkJU22zryk8sQ2rYCP5dVDvZQZSijqyG')
-auth.set_access_token('14517538-17ddx0zvhvPTeQcVAgzfjstFKRnc4wXLOjLkgpiBr', 'FljJEiS7wS2vIoT6RosFZj1GgVqRUXsJgSOu8EN0lcJ0z')
+auth = tweepy.OAuthHandler(os.getenv('TWITTER_KEY'), os.getenv('TWITTER_SECRET_KEY'))
+auth.set_access_token(os.getenv('TWITTER_TOKEN'), os.getenv('TWITTER_TOKEN_SECRET'))
 api = tweepy.API(auth)
 
 def open_db():
@@ -27,11 +27,11 @@ def get_coaches_tweets(start):
         tweets = []
         print(account)
         try:
-            user = api.get_user(account)
+            user = api.get_user(screen_name=account)
 #            r = db.execute(f"select min(id) from player_tweets where account_name = '{account}'")
 #            min_id = r.fetchone()
 #            for tweet in api.user_timeline(user.id, max_id=min_id[0]):
-            for tweet in api.user_timeline(user.id):
+            for tweet in api.user_timeline(user_id=user.id):
                 tw = {}
                 tw['account_name'] = account
                 tw['id'] = tweet.id
@@ -50,10 +50,10 @@ def get_coaches_tweets(start):
                 tw['retweet_count'] = tweet.retweet_count
                 tw['favorite_count'] = tweet.favorite_count
                 tweets.append(tw)
-        except tweepy.RateLimitError:
+        except tweepy.TooManyRequests:
             print('waiting...')
             time.sleep(15 * 60)
-        except tweepy.error.TweepError:
+        except tweepy.TweepyException:
             continue
         coaches_tweets_table.upsert_all(tweets, pk="id")
 
@@ -65,11 +65,11 @@ def get_player_tweets(start):
         tweets = []
         print(account)
         try:
-            user = api.get_user(account)
+            user = api.get_user(screen_name=account)
 #            r = db.execute(f"select min(id) from player_tweets where account_name = '{account}'")
 #            min_id = r.fetchone()
 #            for tweet in api.user_timeline(user.id, max_id=min_id[0]):
-            for tweet in api.user_timeline(user.id):
+            for tweet in api.user_timeline(user_id=user.id):
                 tw = {}
                 tw['account_name'] = account
                 tw['id'] = tweet.id
@@ -88,10 +88,10 @@ def get_player_tweets(start):
                 tw['retweet_count'] = tweet.retweet_count
                 tw['favorite_count'] = tweet.favorite_count
                 tweets.append(tw)
-        except tweepy.RateLimitError:
+        except tweepy.TooManyRequests:
             print('waiting...')
             time.sleep(15 * 60)
-        except tweepy.error.TweepError:
+        except tweepy.TweepyException:
             continue
         player_tweets_table.upsert_all(tweets, pk="id")
 
@@ -103,11 +103,11 @@ def get_commit_tweets(start):
         tweets = []
         print(account)
         try:
-            user = api.get_user(account)
+            user = api.get_user(screen_name=account)
 #            r = db.execute(f"select min(id) from player_tweets where account_name = '{account}'")
 #            min_id = r.fetchone()
 #            for tweet in api.user_timeline(user.id, max_id=min_id[0]):
-            for tweet in api.user_timeline(user.id):
+            for tweet in api.user_timeline(user_id=user.id):
                 tw = {}
                 tw['account_name'] = account
                 tw['id'] = tweet.id
@@ -126,10 +126,10 @@ def get_commit_tweets(start):
                 tw['retweet_count'] = tweet.retweet_count
                 tw['favorite_count'] = tweet.favorite_count
                 tweets.append(tw)
-        except tweepy.RateLimitError:
+        except tweepy.TooManyRequests:
             print('waiting...')
             time.sleep(15 * 60)
-        except tweepy.error.TweepError:
+        except tweepy.TweepyException:
             continue
         commits_tweets_table.upsert_all(tweets, pk="id")
 
@@ -145,11 +145,11 @@ def get_team_tweets(start):
         tweets = []
         print(team['twitter'])
         try:
-            user = api.get_user(team['twitter'])
+            user = api.get_user(screen_name=team['twitter'])
 #            r = db.execute(f"select min(id) from tweets where account_name = '{team['twitter']}'")
 #            min_id = r.fetchone()
 #            for tweet in api.user_timeline(user.id, max_id=min_id[0]):
-            for tweet in api.user_timeline(user.id):
+            for tweet in api.user_timeline(user_id=user.id):
                 tw = {}
                 tw['team_id'] = team['ncaa_id']
                 tw['account_name'] = team['twitter']
@@ -163,12 +163,12 @@ def get_team_tweets(start):
                 tw['retweet_count'] = tweet.retweet_count
                 tw['favorite_count'] = tweet.favorite_count
                 tweets.append(tw)
-        except tweepy.error.TweepError as e:
+        except tweepy.TweepyException as e:
             if e.api_code == 63:
                 suspended.append(team['twitter'])
             else:
                 continue
-        except tweepy.error.RateLimitError:
+        except tweepy.TooManyRequests:
             print('waiting...')
             time.sleep(15 * 60)
         tweets_table.upsert_all(tweets, pk="id")
