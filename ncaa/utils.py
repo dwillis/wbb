@@ -163,14 +163,14 @@ def get_team_tweets(start):
                 tw['retweet_count'] = tweet.retweet_count
                 tw['favorite_count'] = tweet.favorite_count
                 tweets.append(tw)
+        except tweepy.errors.TooManyRequests:
+            print('waiting...')
+            time.sleep(15 * 60)
         except tweepy.TweepyException as e:
             if e.api_code == 63:
                 suspended.append(team['twitter'])
             else:
                 continue
-        except tweepy.TooManyRequests:
-            print('waiting...')
-            time.sleep(15 * 60)
         tweets_table.upsert_all(tweets, pk="id")
     print(suspended)
 
