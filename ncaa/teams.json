@@ -3509,7 +3509,7 @@
   },
   {
     "team": "Franklin",
-    "twitter": "FCGrizWBall",
+    "twitter": "FCGrizWBB",
     "url": "https://franklingrizzlies.com/sports/wbkb/index",
     "ncaa_id": 2694
   },
@@ -4768,9 +4768,9 @@
   },
   {
     "team": "Morgan St.",
-    "twitter": "morganstate_wbb",
     "url": "https://morganstatebears.com/sports/womens-basketball",
     "ncaa_id": 446,
+    "private": true,
     "stats_name": "Morgan St."
   },
   {
@@ -6010,7 +6010,7 @@
   },
   {
     "team": "Wittenberg",
-    "twitter": "WWBtigers",
+    "twitter": "wittwbb",
     "url": "https://www.wittenbergtigers.com/sports/wbkb/index",
     "ncaa_id": 806
   },
