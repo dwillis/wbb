@@ -1107,9 +1107,9 @@
     "stats_name": "Hawaii"
   },
   {
-    "team": "Houston Baptist",
-    "twitter": "hbuwbb",
-    "url": "https://hbuhuskies.com/sports/womens-basketball",
+    "team": "Houston Christian",
+    "twitter": "HCUWBB",
+    "url": "https://hcuhuskies.com/sports/womens-basketball",
     "ncaa_id": 287
   },
   {
@@ -4543,7 +4543,7 @@
   },
   {
     "team": "Manhattanville",
-    "twitter": "MvilleWBB",
+    "twitter": "valiantswbb",
     "url": "https://govaliants.com/sports/womens-basketball",
     "ncaa_id": 382,
     "private": false
