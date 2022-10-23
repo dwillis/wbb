@@ -551,7 +551,7 @@
   },
   {
     "team": "Louisville",
-    "twitter": "uoflwbb",
+    "twitter": "LouisvilleWBB",
     "url": "https://gocards.com/sports/womens-basketball",
     "ncaa_id": 367,
     "stats_name": "Louisville"
@@ -691,7 +691,7 @@
   },
   {
     "team": "Long Beach State",
-    "twitter": "beachwbb",
+    "twitter": "LBSUWBB",
     "url": "https://longbeachstate.com/sports/womens-basketball",
     "ncaa_id": 99,
     "stats_name": "Long Beach St."
@@ -2837,7 +2837,7 @@
   },
   {
     "team": "West Liberty",
-    "twitter": "WLUHoops",
+    "twitter": "WLU_Hoops",
     "url": "https://hilltoppersports.com/sports/womens-basketball",
     "ncaa_id": 1438,
     "stats_name": "West Liberty"
