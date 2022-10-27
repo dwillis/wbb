@@ -175,7 +175,7 @@ def fetch_and_parse_clemson(team, season):
     url = team['url'] + "roster/season/" + season[0:4]
     r = fetch_url(url)
     html = BeautifulSoup(r.text, features="html.parser")
-    cols = [x.text for x in html.find_all('th')]
+    cols = [x.text for x in html.find_all('th') if not x.text in ['MAJOR']]
     cols = cols[0:-4]
     new_cols = [HEADERS[c] for c in cols]
     players = html.find('table').find_all('tr')[1:]
