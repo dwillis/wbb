@@ -196,7 +196,7 @@
   {
     "team": "South Carolina",
     "twitter": "GamecockWBB",
-    "url": "https://gamecocksonline.com/sports/womens-basketball",
+    "url": "https://gamecocksonline.com/sports/wbball",
     "ncaa_id": 648,
     "stats_name": "South Carolina"
   },
@@ -5724,7 +5724,8 @@
     "team": "Ursinus",
     "twitter": "UrsinusWBB",
     "url": "https://www.ursinusathletics.com/sports/wbkb/index",
-    "ncaa_id": 730
+    "ncaa_id": 730,
+    "private": true
   },
   {
     "team": "Utah St.",
@@ -6277,7 +6278,7 @@
   },
   {
     "team": "West Va. Wesleyan",
-    "twitter": "wbb_wvwc",
+    "twitter": "WVWC_Hoops",
     "url": "https://wesleyanbobcats.com/sports/womens-basketball",
     "ncaa_id": 9630
   },
