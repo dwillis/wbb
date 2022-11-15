@@ -6,9 +6,14 @@ import argparse
 import requests
 from requests_html import HTMLSession
 import tldextract
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.by import By
 from bs4 import BeautifulSoup
 
-HEADERS = {'No.': 'jersey', 'Name': 'name', 'NAME': 'name', 'Cl.': 'academic_year', 'Pos.': 'position', 'Ht.': 'height', 'Hometown/High School': 'town', 'Hometown/Last School': 'town', 'Num': 'jersey', 'Yr': 'academic_year', 'Ht': 'height', 'Hometown': 'town', 'High School/Previous School': 'high_school', 'Pos': 'position', 'Hometown/Previous School': 'town', 'Exp.': 'academic_year', 'Number': 'jersey', 'Position': 'position', 'HT.': 'height', 'YEAR': 'academic_year', 'HOMETOWN': 'town', 'LAST SCHOOL': 'high_school', 'Yr.': 'academic_year', 'Hometown/High School/Last School': 'town', 'Class': 'academic_year', 'High school': 'high_school', 'Previous College': 'previous_school', 'Cl.-Exp.': 'academic_year', '#': 'jersey', 'High School': 'high_school', 'Hometown / Previous School': 'town', 'No': "jersey", 'Hometown/High School/Previous School': 'town', 'Hometown / High School / Last College': 'town', 'Year': 'academic_year', 'Height': 'height', 'Previous School': 'high_school', 'Cl': 'academic_year', 'Prev. Coll.': 'previous_school', 'Hgt.': 'height', 'Hometown/ High School': 'town', 'Hometown/High School (Last School)': 'town', 'Hometown/High School (Former School)': 'town', 'Hometown / High School': 'town', 'YR': 'academic_year', 'POS': 'position', 'HT': 'height', 'Player': 'name', 'Hometown/High School/Previous College': 'town', 'Last School/Hometown': 'town', 'NO.': 'jersey', 'NAME': 'name', 'YR.': 'academic_year', 'POS.': 'position', 'HIGH SCHOOL': 'high_school', 'NO': 'jersey', 'HOMETOWN/HIGH SCHOOL': 'town', 'Academic Yr.': 'academic_year', 'Full Name': 'name', 'POSITION': 'position'}
+driver = webdriver.Firefox()
+
+HEADERS = {'No.': 'jersey', 'Name': 'name', 'NAME': 'name', 'Cl.': 'academic_year', 'Pos.': 'position', 'Ht.': 'height', 'Hometown/High School': 'town', 'Hometown/Last School': 'town', 'Num': 'jersey', 'Yr': 'academic_year', 'Ht': 'height', 'Hometown': 'town', 'High School/Previous School': 'high_school', 'Pos': 'position', 'Hometown/Previous School': 'town', 'Exp.': 'academic_year', 'Number': 'jersey', 'Position': 'position', 'HT.': 'height', 'YEAR': 'academic_year', 'HOMETOWN': 'town', 'LAST SCHOOL': 'high_school', 'Yr.': 'academic_year', 'Hometown/High School/Last School': 'town', 'Class': 'academic_year', 'High school': 'high_school', 'Previous College': 'previous_school', 'Cl.-Exp.': 'academic_year', '#': 'jersey', 'High School': 'high_school', 'Hometown / Previous School': 'town', 'No': "jersey", 'Hometown/High School/Previous School': 'town', 'Hometown / High School / Last College': 'town', 'Year': 'academic_year', 'Height': 'height', 'Previous School': 'high_school', 'Cl': 'academic_year', 'Prev. Coll.': 'previous_school', 'Hgt.': 'height', 'Hometown/ High School': 'town', 'Hometown/High School (Last School)': 'town', 'Hometown/High School (Former School)': 'town', 'Hometown / High School': 'town', 'YR': 'academic_year', 'POS': 'position', 'HT': 'height', 'Player': 'name', 'Hometown/High School/Previous College': 'town', 'Last School/Hometown': 'town', 'NO.': 'jersey', 'NAME': 'name', 'YR.': 'academic_year', 'POS.': 'position', 'HIGH SCHOOL': 'high_school', 'NO': 'jersey', 'HOMETOWN/HIGH SCHOOL': 'town', 'Academic Yr.': 'academic_year', 'Full Name': 'name', 'POSITION': 'position', 'Hometown / Previous School / High School': 'town'}
 
 SEASONS = ['2022-23', '2021-22', '2020-21', '2019-20', '2018-19', '2017-18', '2016-17', '2015-16', '2014-15', '2013-14',
 '2012-13', '2011-12', '2010-11', '2009-10', '2008-09', '2007-08', '2006-07', '2005-06', '2004-05', '2003-04',
@@ -123,7 +128,7 @@ def parse_roster_wbkb(team, html, season):
         raw_player_list = [x.text.strip() for x in raw_player.find_all('td') if x.text.replace('*','').replace('(she/her/hers)','').replace('she/her/hers','').strip() != '']
         if team['ncaa_id'] == 73 and raw_player_list[0] == '43':
             continue
-        if team['ncaa_id'] == 114 or team['ncaa_id'] == 1199 or team['ncaa_id'] == 22626 or team['ncaa_id'] == 24317 or team['ncaa_id'] == 30037 or team['ncaa_id'] == 341 or team['ncaa_id'] == 1315 or team['ncaa_id'] == 46 or team['ncaa_id'] == 510 or team['ncaa_id'] == 641 or team['ncaa_id'] == 730 or team['ncaa_id'] == 75 or team['ncaa_id'] == 806 or team['ncaa_id'] == 817 or team['ncaa_id'] == 89 or team['ncaa_id'] == 145 or team['ncaa_id'] == 217 or team['ncaa_id'] == 247 or team['ncaa_id'] == 2713 or team['ncaa_id'] == 2798 or team['ncaa_id'] == 28594 or team['ncaa_id'] == 30002 or team['ncaa_id'] == 30225 or team['ncaa_id'] == 467 or team['ncaa_id'] == 567 or team['ncaa_id'] == 569 or team['ncaa_id'] == 137 or team['ncaa_id'] == 715 or team['ncaa_id'] == 760 or team['ncaa_id'] == 779 or team['ncaa_id'] == 808 or team['ncaa_id'] == 8688 or team['ncaa_id'] == 379:
+        if team['ncaa_id'] == 114 or team['ncaa_id'] == 1340 or team['ncaa_id'] == 1050 or team['ncaa_id'] == 1059 or team['ncaa_id'] == 1199 or team['ncaa_id'] == 22626 or team['ncaa_id'] == 24317 or team['ncaa_id'] == 30037 or team['ncaa_id'] == 341 or team['ncaa_id'] == 1315 or team['ncaa_id'] == 46 or team['ncaa_id'] == 510 or team['ncaa_id'] == 641 or team['ncaa_id'] == 730 or team['ncaa_id'] == 75 or team['ncaa_id'] == 806 or team['ncaa_id'] == 817 or team['ncaa_id'] == 89 or team['ncaa_id'] == 145 or team['ncaa_id'] == 217 or team['ncaa_id'] == 247 or team['ncaa_id'] == 2713 or team['ncaa_id'] == 2798 or team['ncaa_id'] == 28594 or team['ncaa_id'] == 30002 or team['ncaa_id'] == 30225 or team['ncaa_id'] == 467 or team['ncaa_id'] == 567 or team['ncaa_id'] == 569 or team['ncaa_id'] == 137 or team['ncaa_id'] == 715 or team['ncaa_id'] == 760 or team['ncaa_id'] == 779 or team['ncaa_id'] == 808 or team['ncaa_id'] == 8688 or team['ncaa_id'] == 379 or team['ncaa_id'] == 1461:
             raw_player_list = [x.text.strip() for x in raw_player.find_all('td')]
         raw_player_list[4] = " ".join([x for x in raw_player_list[4].split()])
         if team['ncaa_id'] == 1036:
@@ -311,6 +316,57 @@ def fetch_and_parse_iowa(team, season):
         })
     return roster
 
+def fetch_and_parse_south_carolina(team, season):
+    roster = []
+    er = tldextract.extract(team['url'])
+    url = team['url'] + "/roster/season/" + season
+    driver.get(url)
+    driver.find_element(By.LINK_TEXT, 'List').click()
+    html = BeautifulSoup(driver.page_source, features="html.parser")
+    players = html.find('table', id="players-table").find_all('tr')[1:]
+    for player in players:
+        roster.append({
+            'team_id': team['ncaa_id'],
+            'team': team['team'],
+            'id': None,
+            'name': player.find_all('td')[1].text.strip(),
+            'year': player.find_all('td')[5].text,
+            'hometown': player.find_all('td')[6].text.strip(),
+            'high_school': player.find_all('td')[7].text.strip(),
+            'previous_school': player.find_all('td')[8].text.strip(),
+            'height': player.find_all('td')[3].text,
+            'position': player.find_all('td')[2].text,
+            'jersey': player.find_all('td')[0].text,
+            'url': player.find('a')['href'],
+            'season': season
+        })
+    return roster
+
+def fetch_and_parse_oregon_state(team, season):
+    roster = []
+    er = tldextract.extract(team['url'])
+    url = team['url'] + "/roster/" + season
+    driver.get(url)
+    html = BeautifulSoup(driver.page_source, features="html.parser")
+    players = html.find('table', class_="w-full").find_all('tr')[1:]
+    for player in players:
+        roster.append({
+            'team_id': team['ncaa_id'],
+            'team': team['team'],
+            'id': None,
+            'name': player.find_all('td')[1].text.strip(),
+            'year': player.find_all('td')[4].text,
+            'hometown': player.find_all('td')[5].text.strip(),
+            'high_school': None,
+            'previous_school': None,
+            'height': player.find_all('td')[3].text,
+            'position': player.find_all('td')[2].text,
+            'jersey': player.find_all('td')[0].text,
+            'url': player.find('a')['href'],
+            'season': season
+        })
+    return roster
+
 def fetch_and_parse_baylor(team, season):
     roster = []
     er = tldextract.extract(team['url'])
@@ -358,6 +414,8 @@ def parse_roster(team, html, season):
         return None
     for player in players:
         position = None
+        if player.find('a')['aria-label'].split(' - ')[0].strip() == 'Addison Jeansonne':
+            continue
         if player.find('span', {'class': 'sidearm-roster-player-previous-school'}):
             previous_school = player.find('span', {'class': 'sidearm-roster-player-previous-school'}).text
         else:
@@ -422,6 +480,7 @@ def parse_roster(team, html, season):
 
 def get_all_rosters(season, team = None):
     unparsed = []
+    skipped = []
     teams_json = json.loads(open('/Users/dwillis/code/wbb/ncaa/teams.json').read())
     if team:
         idx = [i for i,_ in enumerate(teams_json) if _['ncaa_id'] == team][0]
@@ -448,6 +507,10 @@ def get_all_rosters(season, team = None):
                     roster = fetch_and_parse_iowa_state(team, season)
                 elif team['ncaa_id'] == 312:
                     roster = fetch_and_parse_iowa(team, season)
+                elif team['ncaa_id'] == 528:
+                    roster = fetch_and_parse_oregon_state(team, season)
+                elif team['ncaa_id'] == 648:
+                    roster = fetch_and_parse_south_carolina(team, season)
                 elif team['ncaa_id'] == 532 or team['ncaa_id'] == 742:
                     continue
                 elif 'wbkb' in team['url']:
@@ -468,8 +531,10 @@ def get_all_rosters(season, team = None):
                     unparsed.append(team['ncaa_id'])
             except:
                 print("skipping for now")
+#                raise
+                skipped.append(team['ncaa_id'])
                 continue
-    return unparsed
+    return [unparsed, skipped]
 
 def get_all_rosters_baskbl(season):
     teams_json = json.loads(open('/Users/dwillis/code/wbb/ncaa/teams.json').read())
