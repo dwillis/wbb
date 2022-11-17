@@ -13,7 +13,7 @@ from bs4 import BeautifulSoup
 
 driver = webdriver.Firefox()
 
-HEADERS = {'No.': 'jersey', 'Name': 'name', 'NAME': 'name', 'Cl.': 'academic_year', 'Pos.': 'position', 'Ht.': 'height', 'Hometown/High School': 'town', 'Hometown/Last School': 'town', 'Num': 'jersey', 'Yr': 'academic_year', 'Ht': 'height', 'Hometown': 'town', 'High School/Previous School': 'high_school', 'Pos': 'position', 'Hometown/Previous School': 'town', 'Exp.': 'academic_year', 'Number': 'jersey', 'Position': 'position', 'HT.': 'height', 'YEAR': 'academic_year', 'HOMETOWN': 'town', 'LAST SCHOOL': 'high_school', 'Yr.': 'academic_year', 'Hometown/High School/Last School': 'town', 'Class': 'academic_year', 'High school': 'high_school', 'Previous College': 'previous_school', 'Cl.-Exp.': 'academic_year', '#': 'jersey', 'High School': 'high_school', 'Hometown / Previous School': 'town', 'No': "jersey", 'Hometown/High School/Previous School': 'town', 'Hometown / High School / Last College': 'town', 'Year': 'academic_year', 'Height': 'height', 'Previous School': 'high_school', 'Cl': 'academic_year', 'Prev. Coll.': 'previous_school', 'Hgt.': 'height', 'Hometown/ High School': 'town', 'Hometown/High School (Last School)': 'town', 'Hometown/High School (Former School)': 'town', 'Hometown / High School': 'town', 'YR': 'academic_year', 'POS': 'position', 'HT': 'height', 'Player': 'name', 'Hometown/High School/Previous College': 'town', 'Last School/Hometown': 'town', 'NO.': 'jersey', 'NAME': 'name', 'YR.': 'academic_year', 'POS.': 'position', 'HIGH SCHOOL': 'high_school', 'NO': 'jersey', 'HOMETOWN/HIGH SCHOOL': 'town', 'Academic Yr.': 'academic_year', 'Full Name': 'name', 'POSITION': 'position', 'Hometown / Previous School / High School': 'town'}
+HEADERS = {'No.': 'jersey', 'Name': 'name', 'NAME': 'name', 'Cl.': 'academic_year', 'Pos.': 'position', 'Ht.': 'height', 'Hometown/High School': 'town', 'Hometown/Last School': 'town', 'Num': 'jersey', 'Yr': 'academic_year', 'Ht': 'height', 'Hometown': 'town', 'High School/Previous School': 'high_school', 'Pos': 'position', 'Hometown/Previous School': 'town', 'Exp.': 'academic_year', 'Number': 'jersey', 'Position': 'position', 'HT.': 'height', 'YEAR': 'academic_year', 'HOMETOWN': 'town', 'LAST SCHOOL': 'high_school', 'Yr.': 'academic_year', 'Hometown/High School/Last School': 'town', 'Class': 'academic_year', 'High school': 'high_school', 'Previous College': 'previous_school', 'Cl.-Exp.': 'academic_year', '#': 'jersey', 'High School': 'high_school', 'Hometown / Previous School': 'town', 'No': "jersey", 'Hometown/High School/Previous School': 'town', 'Hometown / High School / Last College': 'town', 'Year': 'academic_year', 'Height': 'height', 'Previous School': 'high_school', 'Cl': 'academic_year', 'Prev. Coll.': 'previous_school', 'Hgt.': 'height', 'Hometown/ High School': 'town', 'Hometown/High School (Last School)': 'town', 'Hometown/High School (Former School)': 'town', 'Hometown / High School': 'town', 'YR': 'academic_year', 'POS': 'position', 'HT': 'height', 'Player': 'name', 'Hometown/High School/Previous College': 'town', 'Last School/Hometown': 'town', 'NO.': 'jersey', 'NAME': 'name', 'YR.': 'academic_year', 'POS.': 'position', 'HIGH SCHOOL': 'high_school', 'NO': 'jersey', 'HOMETOWN/HIGH SCHOOL': 'town', 'Academic Yr.': 'academic_year', 'Full Name': 'name', 'POSITION': 'position', 'Hometown / Previous School / High School': 'town', 'High School / Previous School': 'high_school'}
 
 SEASONS = ['2022-23', '2021-22', '2020-21', '2019-20', '2018-19', '2017-18', '2016-17', '2015-16', '2014-15', '2013-14',
 '2012-13', '2011-12', '2010-11', '2009-10', '2008-09', '2007-08', '2006-07', '2005-06', '2004-05', '2003-04',
@@ -342,6 +342,32 @@ def fetch_and_parse_south_carolina(team, season):
         })
     return roster
 
+def fetch_and_parse_kentucky(team, season):
+    roster = []
+    er = tldextract.extract(team['url'])
+    url = team['url'] + "/roster/season/" + season
+    driver.get(url)
+    driver.find_element(By.LINK_TEXT, 'List').click()
+    html = BeautifulSoup(driver.page_source, features="html.parser")
+    players = html.find('table', id="players-table__general").find_all('tr')[1:]
+    for player in players:
+        roster.append({
+            'team_id': team['ncaa_id'],
+            'team': team['team'],
+            'id': None,
+            'name': player.find_all('td')[1].text.strip(),
+            'year': player.find_all('td')[4].text.strip(),
+            'hometown': player.find_all('td')[5].text.strip(),
+            'high_school': None,
+            'previous_school': player.find_all('td')[6].text.strip(),
+            'height': player.find_all('td')[3].text,
+            'position': player.find_all('td')[2].text,
+            'jersey': player.find_all('td')[0].text,
+            'url': player.find('a')['href'],
+            'season': season
+        })
+    return roster
+
 def fetch_and_parse_oregon_state(team, season):
     roster = []
     er = tldextract.extract(team['url'])
@@ -386,6 +412,40 @@ def fetch_and_parse_baylor(team, season):
         if 'high_school' in player_dict:
             player_dict['previous_school'] = player_dict['high_school']
         player_dict['town'], player_dict['high_school'] = [x.strip() for x in player_dict['town'].split('/', maxsplit=1)]
+        if 'previous_school' not in player_dict:
+            player_dict['previous_school'] = None
+        roster.append({
+            'team_id': team['ncaa_id'],
+            'team': team['team'],
+            'id': None,
+            'name': player_dict['name'],
+            'year': player_dict['academic_year'],
+            'hometown': player_dict['town'],
+            'high_school': player_dict['high_school'],
+            'previous_school': player_dict['previous_school'],
+            'height': player_dict['height'],
+            'position': player_dict['position'],
+            'jersey': player_dict['jersey'],
+            'url': "https://www."+er.domain+"."+er.suffix+player.find('a', first=True).attrs['href'],
+            'season': season
+        })
+    return roster
+
+def fetch_and_parse_tennessee(team, season):
+    roster = []
+    er = tldextract.extract(team['url'])
+    url = team['url'] + "/roster/" + season
+    session = HTMLSession()
+    r = session.get(url, timeout=100)
+    r.html.render()
+    rows = r.html.find('tr.sidearm-roster-table-row')
+    headers = rows[0]
+    cols = [x.text for x in headers.find('th') if x.text not in ['Experience','Twitter', 'Instagram', 'Opendorse']]
+    new_cols = [HEADERS[c] for c in cols]
+    players = rows[1:-1]
+    for player in players:
+        raw_player_list = player.text.split('\n')
+        player_dict = dict(zip(new_cols, raw_player_list))
         if 'previous_school' not in player_dict:
             player_dict['previous_school'] = None
         roster.append({
@@ -497,7 +557,6 @@ def get_all_rosters(season, team = None):
                     continue
                 print(team['team'])
                 if team['ncaa_id'] == 51:
-                    continue
                     roster = fetch_and_parse_baylor(team, season)
                 elif team['ncaa_id'] == 415:
                     roster = fetch_and_parse_miami(team, season)
@@ -507,10 +566,14 @@ def get_all_rosters(season, team = None):
                     roster = fetch_and_parse_iowa_state(team, season)
                 elif team['ncaa_id'] == 312:
                     roster = fetch_and_parse_iowa(team, season)
-                elif team['ncaa_id'] == 528:
+                elif team['ncaa_id'] == 334:
+                    roster = fetch_and_parse_kentucky(team, season)
+                elif team['ncaa_id'] == 528 or team['ncaa_id'] == 306:
                     roster = fetch_and_parse_oregon_state(team, season)
                 elif team['ncaa_id'] == 648:
                     roster = fetch_and_parse_south_carolina(team, season)
+                elif team['ncaa_id'] == 694:
+                    roster = fetch_and_parse_tennessee(team, season)
                 elif team['ncaa_id'] == 532 or team['ncaa_id'] == 742:
                     continue
                 elif 'wbkb' in team['url']:

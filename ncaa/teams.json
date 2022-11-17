@@ -78,7 +78,7 @@
   {
     "team": "Belmont",
     "twitter": "belmontwbb",
-    "url": "https://belmontbruins.com/sports/womens-basketball/roster",
+    "url": "https://belmontbruins.com/sports/womens-basketball",
     "ncaa_id": 14927
   },
   {
@@ -266,7 +266,7 @@
   {
     "team": "Iona",
     "twitter": "ionawbb",
-    "url": "https://icgaels.com/sports/womens-basketball",
+    "url": "https://ionagaels.com/sports/womens-basketball",
     "ncaa_id": 310,
     "stats_name": "Iona"
   },
@@ -280,7 +280,7 @@
   {
     "team": "Kentucky",
     "twitter": "kentuckywbb",
-    "url": "https://ukathletics.com/sports/womens-basketball",
+    "url": "https://ukathletics.com/sports/wbball",
     "ncaa_id": 334,
     "stats_name": "Kentucky"
   },
@@ -6278,7 +6278,7 @@
   },
   {
     "team": "West Va. Wesleyan",
-    "twitter": "WVWC_Hoops",
+    "twitter": "wvwcwbb",
     "url": "https://wesleyanbobcats.com/sports/womens-basketball",
     "ncaa_id": 9630
   },
