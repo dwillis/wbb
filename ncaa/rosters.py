@@ -393,6 +393,32 @@ def fetch_and_parse_oregon_state(team, season):
         })
     return roster
 
+def fetch_and_parse_marquette(team, season):
+    roster = []
+    er = tldextract.extract(team['url'])
+    url = team['url'] + "/roster/" + season
+    driver.get(url)
+    driver.find_element(By.CLASS_NAME, 'grid h-[53px] w-[53px] appearance-none place-content-center overflow-hidden rounded-[10px] bg-theme-elevated-light hover:bg-theme-elevated-light-hover text-theme-muted').click()
+    html = BeautifulSoup(driver.page_source, features="html.parser")
+    players = html.find('table', class_="w-full").find_all('tr')[1:]
+    for player in players:
+        roster.append({
+            'team_id': team['ncaa_id'],
+            'team': team['team'],
+            'id': None,
+            'name': player.find_all('td')[1].text.strip(),
+            'year': player.find_all('td')[4].text,
+            'hometown': player.find_all('td')[5].text.strip(),
+            'high_school': None,
+            'previous_school': None,
+            'height': player.find_all('td')[3].text,
+            'position': player.find_all('td')[2].text,
+            'jersey': player.find_all('td')[0].text,
+            'url': player.find('a')['href'],
+            'season': season
+        })
+    return roster
+
 def fetch_and_parse_baylor(team, season):
     roster = []
     er = tldextract.extract(team['url'])
