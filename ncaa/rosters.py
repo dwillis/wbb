@@ -19,6 +19,16 @@ SEASONS = ['2022-23', '2021-22', '2020-21', '2019-20', '2018-19', '2017-18', '20
 '2012-13', '2011-12', '2010-11', '2009-10', '2008-09', '2007-08', '2006-07', '2005-06', '2004-05', '2003-04',
 '2002-03', '2001-02', '2000-01', '1999-00', '1998-99', '1997-98', '1996-97', '1995-96', '1994-95', '1993-94', '1992-93', '1991-92', '1990-91']
 
+class LazyDecoder(json.JSONDecoder):
+    def decode(self, s, **kwargs):
+        regex_replacements = [
+            (re.compile(r'([^\\])\\([^\\])'), r'\1\\\\\2'),
+            (re.compile(r',(\s*])'), r'\1'),
+        ]
+        for regex, replacement in regex_replacements:
+            s = regex.sub(replacement, s)
+        return super().decode(s, **kwargs)
+
 def fetch_url(url):
     r = requests.get(url)
     return r
@@ -398,23 +408,22 @@ def fetch_and_parse_marquette(team, season):
     er = tldextract.extract(team['url'])
     url = team['url'] + "/roster/" + season
     driver.get(url)
-    driver.find_element(By.CLASS_NAME, 'grid h-[53px] w-[53px] appearance-none place-content-center overflow-hidden rounded-[10px] bg-theme-elevated-light hover:bg-theme-elevated-light-hover text-theme-muted').click()
     html = BeautifulSoup(driver.page_source, features="html.parser")
-    players = html.find('table', class_="w-full").find_all('tr')[1:]
+    players = json.loads(html.find_all('script')[24].text.replace("window.__INITIAL_STATE__=",'')[18039:45194], cls=LazyDecoder)
     for player in players:
         roster.append({
             'team_id': team['ncaa_id'],
             'team': team['team'],
             'id': None,
-            'name': player.find_all('td')[1].text.strip(),
-            'year': player.find_all('td')[4].text,
-            'hometown': player.find_all('td')[5].text.strip(),
-            'high_school': None,
-            'previous_school': None,
-            'height': player.find_all('td')[3].text,
-            'position': player.find_all('td')[2].text,
-            'jersey': player.find_all('td')[0].text,
-            'url': player.find('a')['href'],
+            'name': player['firstName']+' '+player['lastName'],
+            'year': player['academicYearLong'],
+            'hometown': player['hometown'],
+            'high_school': player['highSchool'],
+            'previous_school': player['previousSchool'],
+            'height': str(player['heightFeet'])+"-"+str(player['heightInches']),
+            'position': player['positionLong'],
+            'jersey': player['jerseyNumber'],
+            'url': "https://gomarquette.com/sports/womens-basketball/roster/player/"+str(player['rosterPlayerId']),
             'season': season
         })
     return roster
@@ -594,6 +603,8 @@ def get_all_rosters(season, team = None):
                     roster = fetch_and_parse_iowa(team, season)
                 elif team['ncaa_id'] == 334:
                     roster = fetch_and_parse_kentucky(team, season)
+                elif team['ncaa_id'] == 387:
+                    roster = fetch_and_parse_marquette(team, season)
                 elif team['ncaa_id'] == 528 or team['ncaa_id'] == 306:
                     roster = fetch_and_parse_oregon_state(team, season)
                 elif team['ncaa_id'] == 648:
