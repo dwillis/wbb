@@ -392,7 +392,7 @@
   {
     "team": "Southeast Missouri State",
     "twitter": "officialsemowbb",
-    "url": "https://gosoutheast.com/sports/womens-basketball",
+    "url": "https://semoredhawks.com/sports/womens-basketball",
     "ncaa_id": 654,
     "stats_name": "Southeast Mo. St."
   },
@@ -531,7 +531,7 @@
   {
     "team": "UCLA",
     "twitter": "UCLAWBB",
-    "url": "http://www.uclawbb.com/",
+    "url": "https://uclabruins.com/sports/womens-basketball",
     "ncaa_id": 110,
     "stats_name": "Ucla"
   },
@@ -1569,8 +1569,8 @@
   },
   {
     "team": "Saint Francis (NY)",
-    "twitter": "redflashwbb",
-    "url": "https://sfuathletics.com/sports/womens-basketball",
+    "twitter": "SFBK_WBB",
+    "url": "https://sfcathletics.com/sports/womens-basketball",
     "ncaa_id": 599,
     "stats_name": "Saint Francis (NY)"
   },
