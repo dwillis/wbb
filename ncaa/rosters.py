@@ -691,7 +691,7 @@ def get_all_rosters(season, team = None):
                     roster = fetch_and_parse_virginia_tech(team, season)
                 elif team['ncaa_id'] == 811:
                     roster = fetch_and_parse_wyoming(team, season)
-                elif team['ncaa_id'] == 532 or team['ncaa_id'] == 742:
+                elif team['ncaa_id'] == 532:
                     continue
                 elif 'wbkb' in team['url']:
                     html = fetch_wbkb_roster(team['url'], season)
