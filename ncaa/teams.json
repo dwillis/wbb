@@ -1220,7 +1220,7 @@
   {
     "team": "Liberty",
     "twitter": "libertywbb",
-    "url": "https://www.liberty.edu/flames/index.cfm?PID=36964&teamID=7",
+    "url": "https://www.liberty.edu/flames/womens-basketball/",
     "ncaa_id": 355,
     "stats_name": "Liberty"
   },
@@ -1612,7 +1612,7 @@
   {
     "team": "Sacramento State",
     "twitter": "sacstatewbb",
-    "url": "https://www.hornetsports.com/sports/wbkb/index",
+    "url": "https://hornetsports.com/sports/womens-basketball",
     "ncaa_id": 102,
     "stats_name": "Sacramento St."
   },
@@ -4479,7 +4479,7 @@
   {
     "team": "LSU",
     "twitter": "LSUwbkb",
-    "url": "https://lsusports.net/sports/womens-basketball",
+    "url": "https://lsusports.net/sports/wbball/",
     "ncaa_id": 365,
     "stats_name": "Lsu"
   },
