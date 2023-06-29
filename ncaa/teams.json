@@ -2383,7 +2383,7 @@
   {
     "team": "Husson",
     "twitter": "Hussonwbb",
-    "url": "https://hussoneagles.com/sports/wbkb/index",
+    "url": "https://hussoneagles.com/sports/womens-basketball",
     "ncaa_id": 1133
   },
   {
@@ -2426,7 +2426,7 @@
   {
     "team": "Keuka",
     "twitter": "KeukaWBB",
-    "url": "https://www.keukaathletics.com/sports/wbkb/index",
+    "url": "https://keukaathletics.com/sports/womens-basketball",
     "ncaa_id": 1159
   },
   {
@@ -2851,7 +2851,7 @@
   {
     "team": "Western N.M.",
     "twitter": "WNMU_WBB",
-    "url": "https://wnmumustangs.com/index.aspx?path=wbball",
+    "url": "https://wnmumustangs.com/sports/womens-basketball",
     "ncaa_id": 1445
   },
   {
@@ -4519,7 +4519,7 @@
   {
     "team": "MacMurray",
     "twitter": "MacWHoops",
-    "url": "https://mchighlanders.com/sports/womens-basketball",
+    "url": "https://mcmurrysports.com/sports/womens-basketball",
     "ncaa_id": 377
   },
   {
@@ -5381,7 +5381,7 @@
   {
     "team": "Salisbury",
     "twitter": "SalisburyWBB",
-    "url": "https://www.suseagulls.com/sports/wbkb/index",
+    "url": "https://suseagulls.com/sports/womens-basketball",
     "ncaa_id": 622
   },
   {
@@ -5664,7 +5664,7 @@
   {
     "team": "Trinity (TX)",
     "twitter": "TUWBB",
-    "url": "https://www.trinitytigers.com/sports/wbkb/index",
+    "url": "https://trinitytigers.com/sports/womens-basketball",
     "ncaa_id": 715
   },
   {
@@ -5717,7 +5717,7 @@
   {
     "team": "Ursinus",
     "twitter": "UrsinusWBB",
-    "url": "https://www.ursinusathletics.com/sports/wbkb/index",
+    "url": "https://ursinusathletics.com/sports/womens-basketball",
     "ncaa_id": 730,
     "private": true
   },
@@ -5790,13 +5790,13 @@
   {
     "team": "Washington Col.",
     "twitter": "washcollwbb",
-    "url": "https://www.washingtoncollegesports.com/sports/wbkb/index",
+    "url": "https://washcollsports.com/sports/womens-basketball",
     "ncaa_id": 753
   },
   {
     "team": "WashU",
     "twitter": "WashU_WBB",
-    "url": "https://washubears.com/sports/wbkb/index",
+    "url": "https://washubears.com/sports/womens-basketball",
     "ncaa_id": 755
   },
   {
@@ -6045,6 +6045,7 @@
   {
     "team": "York (PA)",
     "twitter": "YCPWBasketball",
+    "url": "https://ycpspartans.com/sports/womens-basketball",
     "ncaa_id": 815
   },
   {
@@ -6350,11 +6351,9 @@
   },
   {
     "team": "Edward Waters",
-    "url": "https://www.ewctigerpride.com/sport/0/2.php",
+    "url": "https://ewutigerpride.com/sports/womens-basketball",
     "ncaa_id": 30244,
-    "private": true,
-    "stats_name": "Edward Waters",
-    "roster": "skip"
+    "stats_name": "Edward Waters"
   },
   {
     "team": "Pfeiffer",
