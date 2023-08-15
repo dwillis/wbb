@@ -1,6 +1,7 @@
 import os
 import re
 import csv
+import subprocess
 import json
 import argparse
 import requests
@@ -801,6 +802,44 @@ def get_all_rosters_baskbl(season):
             if roster:
                 for player in roster:
                     csv_file.writerow(list(player.values()))
+
+
+def shotscraper(teams, season):
+
+    # JavaScript to be executed by shot-scraper
+    javascript_code = """
+    Array.from(document.querySelectorAll('.s-table-body__row'), el => {
+      const jersey = el.querySelectorAll('td')[0].innerText;
+      const name = el.querySelectorAll('td')[1].innerText;
+      const url = el.querySelectorAll('td')[1].querySelector('a')['href']
+      const year = el.querySelectorAll('td')[2].innerText;
+      const height = el.querySelectorAll('td')[3].innerText;
+      const position = el.querySelectorAll('td')[4].innerText;
+      const hometown = el.querySelectorAll('td')[5].innerText;
+      const high_school = el.querySelectorAll('td')[6].innerText;
+      return {jersey, name, url, year, height, position, hometown, high_school};
+    })
+    """
+
+    all_data = []
+
+    for team in teams:
+        url = team['url'] + "/roster/" + season
+        # Execute shot-scraper with the given JavaScript
+        result = subprocess.check_output(['shot-scraper', 'javascript', url, javascript_code])
+        parsed_data = json.loads(result)
+
+        # Add the new attribute in Python for each item
+        for item in parsed_data:
+            item["ncaa_id"] = team['id']
+            item["season"] = season
+
+        all_data.extend(parsed_data)
+
+    # Save combined data to a single JSON file
+    with open("shotscraped_rosters.json", "w") as file:
+        json.dump(all_data, file, indent=4)
+
 
 # Example usage: python rosters.py -season 2021-22 -url https://baylorbears.com/sports/womens-basketball/
 
