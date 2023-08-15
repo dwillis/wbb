@@ -18,6 +18,7 @@ tldextract = "*"
 bs4 = "*"
 selenium = "*"
 shot-scraper = "*"
+jsoncsv = "*"
 
 [requires]
 python_version = "3.9"
