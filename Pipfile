@@ -13,6 +13,11 @@ datasette = "*"
 pdfreader = "*"
 tweepy = "*"
 twint = "*"
+requests-html = "*"
+tldextract = "*"
+bs4 = "*"
+selenium = "*"
+shot-scraper = "*"
 
 [requires]
 python_version = "3.9"
