@@ -770,7 +770,7 @@
   {
     "team": "Brigham Young",
     "twitter": "byuwbb",
-    "url": "https://byucougars.com/home/w-basketball",
+    "url": "https://byucougars.com/sports/womens-basketball",
     "ncaa_id": 77,
     "stats_name": "Byu"
   },
@@ -1770,7 +1770,6 @@
     "twitter": "UAB_WBBALL",
     "url": "https://uabsports.com/sports/womens-basketball",
     "ncaa_id": 9,
-    "private": false,
     "stats_name": "Uab"
   },
   {
