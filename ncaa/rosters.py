@@ -1105,6 +1105,45 @@ def shotscraper_roster_player(team, season):
     except:
         raise
 
+def shotscraper_roster_player2(team, season):
+    ncaa_id = team['ncaa_id']
+    name = team['team']
+
+    # JavaScript to be executed by shot-scraper
+    javascript_code = """
+    Array.from(document.querySelectorAll('.sidearm-roster-player-container'), el => {
+        const id = '';
+        const name = el.querySelector('h3').innerText;
+        const year = el.querySelector('.sidearm-roster-player-academic-year').innerText;
+        const height = el.querySelector('.sidearm-roster-player-height').innerText;
+        const position = el.querySelector('.sidearm-roster-player-position').innerText.split(' ')[0];
+        const hometown = el.querySelector('.sidearm-roster-player-hometown').innerText;
+        hs_el = el.querySelector('.sidearm-roster-player-highschool');
+        const high_school = hs_el ? hs_el.innerText : '';
+        ps_el = el.querySelector('.sidearm-roster-player-previous-school');
+        const previous_school = ps_el ? ps_el.innerText : '';
+        const jersey = el.querySelector('.sidearm-roster-player-jersey-number').innerText;
+        const url = el.querySelector('a')['href']
+        return {id, name, year, hometown, high_school, previous_school, height, position, jersey, url};
+    })
+    """
+
+    roster = []
+    url = team['url'] + "/roster/" + season
+    # Execute shot-scraper with the given JavaScript
+    try:
+        result = subprocess.check_output(['shot-scraper', 'javascript', url, javascript_code, "--user-agent", "Firefox"])
+        parsed_data = json.loads(result)
+
+        for player in parsed_data:
+            player['team_id'] = ncaa_id
+            player['team'] = name
+            player['season'] = season
+
+        return parsed_data
+    except:
+        raise
+
 # Example usage: python rosters.py -season 2021-22 -url https://baylorbears.com/sports/womens-basketball/
 
 if __name__ == "__main__":

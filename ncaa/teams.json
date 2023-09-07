@@ -1451,7 +1451,7 @@
   {
     "team": "Ohio State",
     "twitter": "ohiostatewbb",
-    "url": "https://ohiostatebuckeyes.com/sports/w-baskbl/",
+    "url": "https://ohiostatebuckeyes.com/sports/womens-basketball",
     "ncaa_id": 518,
     "stats_name": "Ohio St."
   },
@@ -1634,7 +1634,7 @@
   {
     "team": "Santa Clara",
     "twitter": "santaclarawbb",
-    "url": "https://www.santaclarabroncos.com/sports/w-baskbl/index",
+    "url": "https://santaclarabroncos.com/sports/womens-basketball",
     "ncaa_id": 631,
     "stats_name": "Santa Clara"
   },
@@ -1811,7 +1811,7 @@
   {
     "team": "UC Santa Barbara",
     "twitter": "ucsb_wbb",
-    "url": "https://www.ucsbgauchos.com/sports/w-baskbl/index",
+    "url": "https://ucsbgauchos.com/sports/womens-basketball",
     "ncaa_id": 104,
     "stats_name": "UC Santa Barbara"
   },
