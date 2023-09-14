@@ -900,7 +900,7 @@ def get_all_rosters(season, team = None):
                 print(team['team'])
                 if team['ncaa_id'] in [5, 156, 306, 308, 388, 497, 528, 721]:
                     roster = shotscraper_table(team, season)
-                elif team['ncaa_id'] in [9, 71, 83, 96, 99, 173, 180, 191, 249, 257, 367, 387, 400, 404, 418, 428, 441, 490, 521, 522, 559, 574, 603, 635, 688, 690, 749]:
+                elif team['ncaa_id'] in [9, 71, 83, 96, 99, 173, 180, 191, 234, 249, 257, 367, 387, 400, 404, 418, 428, 441, 490, 521, 522, 559, 574, 603, 635, 688, 690, 749]:
                     roster = shotscraper_card(team, season)
                 elif team['ncaa_id'] in [51, 248]:
                     roster = shotscraper_list_item(team, season)
@@ -1118,8 +1118,7 @@ def shotscraper_roster_player2(team, season):
         const height = el.querySelector('.sidearm-roster-player-height').innerText;
         const position = el.querySelector('.sidearm-roster-player-position').innerText.split(' ')[0];
         const hometown = el.querySelector('.sidearm-roster-player-hometown').innerText;
-        hs_el = el.querySelector('.sidearm-roster-player-highschool');
-        const high_school = hs_el ? hs_el.innerText : '';
+        const high_school = el.querySelector('.sidearm-roster-player-custom2').innerText;
         ps_el = el.querySelector('.sidearm-roster-player-previous-school');
         const previous_school = ps_el ? ps_el.innerText : '';
         const jersey = el.querySelector('.sidearm-roster-player-jersey-number').innerText;
