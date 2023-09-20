@@ -1041,7 +1041,7 @@ def shotscraper_table(team, season):
         const height = el.querySelectorAll('td')[3].innerText;
         const position = el.querySelectorAll('td')[4].innerText;
         const hometown = el.querySelectorAll('td')[5].innerText;
-        hs_el = el.querySelectorAll('td')[6].innerText;
+        hs_el = el.querySelectorAll('td')[6];
         const high_school = hs_el ? hs_el.innerText : '';
         const previous_school = '';
         const jersey = el.querySelectorAll('td')[0].innerText;
