@@ -898,13 +898,13 @@ def get_all_rosters(season, team = None):
                 if 'roster' in team:
                     continue
                 print(team['team'])
-                if team['ncaa_id'] in [5, 156, 306, 308, 388, 497, 528, 721]:
+                if team['ncaa_id'] in [5, 308, 388, 497, 528, 554, 721]:
                     roster = shotscraper_table(team, season)
-                elif team['ncaa_id'] in [9, 71, 83, 96, 99, 173, 180, 191, 234, 249, 257, 367, 387, 400, 404, 418, 428, 441, 490, 521, 522, 559, 574, 603, 635, 688, 690, 749]:
+                elif team['ncaa_id'] in [9, 71, 83, 96, 99, 156, 173, 180, 191, 234, 249, 257, 301, 306, 367, 387, 392, 400, 404, 418, 428, 441, 490, 521, 522, 559, 574, 603, 635, 688, 690, 749]:
                     roster = shotscraper_card(team, season)
                 elif team['ncaa_id'] in [51, 248]:
                     roster = shotscraper_list_item(team, season)
-                elif team['ncaa_id'] in [175, 430]:
+                elif team['ncaa_id'] in [175, 316, 430]:
                     roster = shotscraper_roster_player(team, season)
                 elif team['ncaa_id'] in [556]:
                     roster = shotscraper_data_tables(team, season)
@@ -918,8 +918,6 @@ def get_all_rosters(season, team = None):
                     roster = fetch_and_parse_miami(team, season)
                 elif team['ncaa_id'] == 147:
                     roster = fetch_and_parse_clemson(team, season)
-                elif team['ncaa_id'] == 301:
-                    roster = fetch_and_parse_illinois(team, season)
                 elif team['ncaa_id'] == 311:
                     roster = fetch_and_parse_iowa_state(team, season)
                 elif team['ncaa_id'] == 312:
@@ -1083,7 +1081,8 @@ def shotscraper_roster_player(team, season):
         const high_school = hs_el ? hs_el.innerText : '';
         ps_el = el.querySelector('.sidearm-roster-player-previous-school');
         const previous_school = ps_el ? ps_el.innerText : '';
-        const jersey = el.querySelector('.sidearm-roster-player-jersey-number').innerText;
+        j = el.querySelector('.sidearm-roster-player-jersey-number');
+        const jersey = j ? j.innerText : '';
         const url = el.querySelector('a')['href']
         return {id, name, year, hometown, high_school, previous_school, height, position, jersey, url};
     })
