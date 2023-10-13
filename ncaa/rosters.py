@@ -294,6 +294,45 @@ def fetch_and_parse_byu(team, season):
     except:
         raise
 
+def fetch_and_parse_sanjose(team, season):
+    name = team['team']
+    ncaa_id = team['ncaa_id']
+
+    # JavaScript to be executed by shot-scraper
+    javascript_code = """
+    Array.from(document.querySelectorAll('.roster__players .roster-card-item'), el => {
+     const id = '';
+     const name = el.querySelector('.roster-card-item__title-link').innerText;
+     const year = el.querySelectorAll('.roster-player-card-profile-field__value')[1].innerText;
+     const height = el.querySelectorAll('.roster-player-card-profile-field__value')[0].innerText;
+     const position = el.querySelector('.roster-card-item__position').innerText;
+     const hometown = el.querySelector(".roster-player-card-profile-field__value--hometown").innerText;
+     hs_el = el.querySelector(".roster-player-card-profile-field__value--school");
+     const high_school = hs_el ? hs_el.innerText : '';
+     ps_el = el.querySelector(".roster-player-card-profile-field__value--previous_school");
+     const previous_school = ps_el ? ps_el.innerText : '';
+     const jersey = el.querySelector(".roster-card-item__jersey-number").innerText;
+     const url =el.querySelector("a")['href'];
+     return {id, name, year, hometown, high_school, previous_school, height, position, jersey, url};
+    })
+    """
+
+    roster = []
+    url = team['url'] + "/roster/season/" + season
+    # Execute shot-scraper with the given JavaScript
+    try:
+        result = subprocess.check_output(['shot-scraper', 'javascript', url, javascript_code, "--user-agent", "Firefox"])
+        parsed_data = json.loads(result)
+
+        for player in parsed_data:
+            player['team_id'] = ncaa_id
+            player['team'] = name
+            player['season'] = season
+
+        return parsed_data
+    except:
+        raise
+
 def fetch_and_parse_iowa_state(team, season):
     roster = []
     er = tldextract.extract(team['url'])
@@ -900,7 +939,7 @@ def get_all_rosters(season, team = None):
                 print(team['team'])
                 if team['ncaa_id'] in [5, 308, 388, 497, 528, 554, 721]:
                     roster = shotscraper_table(team, season)
-                elif team['ncaa_id'] in [9, 71, 83, 96, 99, 156, 173, 180, 191, 234, 249, 257, 301, 306, 367, 387, 392, 400, 404, 418, 428, 441, 490, 521, 522, 559, 574, 603, 635, 688, 690, 749]:
+                elif team['ncaa_id'] in [9, 71, 83, 96, 99, 156, 173, 180, 191, 234, 249, 257, 301, 306, 367, 387, 392, 400, 404, 418, 428, 441, 490, 521, 522, 559, 574, 603, 635, 664, 671, 688, 690, 749]:
                     roster = shotscraper_card(team, season)
                 elif team['ncaa_id'] in [51, 248]:
                     roster = shotscraper_list_item(team, season)
@@ -912,6 +951,8 @@ def get_all_rosters(season, team = None):
                     if str(season[0:1]):
                         season = f"{str(season)[0:5]}20{str(season[5:7])}"
                         roster = fetch_and_parse_byu(team, season)
+                elif team['ncaa_id'] == 630:
+                    roster = fetch_and_parse_sanjose(team, season)
                 elif team['ncaa_id'] == 66:
                     roster = fetch_and_parse_boise_state(team, season)
                 elif team['ncaa_id'] == 415:
