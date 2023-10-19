@@ -939,7 +939,7 @@ def get_all_rosters(season, team = None):
                 print(team['team'])
                 if team['ncaa_id'] in [5, 308, 388, 497, 528, 554, 721]:
                     roster = shotscraper_table(team, season)
-                elif team['ncaa_id'] in [9, 71, 83, 96, 99, 156, 173, 180, 191, 234, 249, 257, 301, 306, 367, 387, 392, 400, 404, 418, 428, 441, 490, 521, 522, 559, 574, 603, 635, 664, 671, 688, 690, 749]:
+                elif team['ncaa_id'] in [9, 71, 83, 96, 99, 156, 173, 180, 191, 234, 249, 257, 301, 306, 367, 387, 392, 400, 404, 418, 428, 441, 490, 521, 522, 559, 574, 603, 635, 664, 671, 676, 688, 690, 700, 719, 749]:
                     roster = shotscraper_card(team, season)
                 elif team['ncaa_id'] in [51, 248]:
                     roster = shotscraper_list_item(team, season)
@@ -947,6 +947,8 @@ def get_all_rosters(season, team = None):
                     roster = shotscraper_roster_player(team, season)
                 elif team['ncaa_id'] in [556]:
                     roster = shotscraper_data_tables(team, season)
+                elif team['ncaa_id'] in [706]:
+                    roster = shotscraper_table_plain(team, season)
                 elif team['ncaa_id'] == 77:
                     if str(season[0:1]):
                         season = f"{str(season)[0:5]}20{str(season[5:7])}"
@@ -1091,6 +1093,47 @@ def shotscraper_table(team, season):
 
     roster = []
     url = team['url'] + "/roster/" + season
+    # Execute shot-scraper with the given JavaScript
+    try:
+        result = subprocess.check_output(['shot-scraper', 'javascript', url, javascript_code, "--user-agent", "Firefox"])
+        parsed_data = json.loads(result)
+
+        for player in parsed_data:
+            player['team_id'] = ncaa_id
+            player['team'] = name
+            player['season'] = season
+
+        return parsed_data
+    except:
+        raise
+
+def shotscraper_table_plain(team, season):
+    # utsa
+
+    ncaa_id = team['ncaa_id']
+    name = team['team']
+
+    # JavaScript to be executed by shot-scraper
+    javascript_code = """
+    Array.from(document.querySelectorAll('.roster-players__group tbody tr'), el => {
+        const id = '';
+        const name = el.querySelectorAll('td')[1].innerText;
+        const year = el.querySelectorAll('td')[4].innerText;
+        const height = el.querySelectorAll('td')[3].innerText;
+        const position = el.querySelectorAll('td')[2].innerText;
+        const hometown = el.querySelectorAll('td')[5].innerText;
+        hs_el = el.querySelectorAll('td')[6];
+        const high_school = hs_el ? hs_el.innerText : '';
+        ps_el = el.querySelectorAll('td')[7];
+        const previous_school = ps_el ? ps_el.innerText : '';
+        const jersey = el.querySelectorAll('td')[0].innerText;
+        const url = el.querySelectorAll('td')[1].querySelector('a')['href']
+        return {id, name, year, hometown, high_school, previous_school, height, position, jersey, url};
+    })
+    """
+
+    roster = []
+    url = team['url'] + "/roster/season/" + season
     # Execute shot-scraper with the given JavaScript
     try:
         result = subprocess.check_output(['shot-scraper', 'javascript', url, javascript_code, "--user-agent", "Firefox"])
