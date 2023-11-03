@@ -997,13 +997,12 @@ def parse_roster(team, html, season):
         })
     return roster
 
-def get_all_rosters(season, team = None):
+def get_all_rosters(season, teams = []):
     unparsed = []
     skipped = []
     teams_json = json.loads(open('/Users/dwillis/code/wbb/ncaa/teams.json').read())
-    if team:
-        idx = [i for i,_ in enumerate(teams_json) if _['ncaa_id'] == team][0]
-        teams_json = teams_json[idx:-1]
+    if len(teams) > 0:
+        teams_json = [t for t in teams_json if t['ncaa_id'] in teams]
     teams_with_urls = [x for x in teams_json if "url" in x]
     with open(f"/Users/dwillis/code/wbb/ncaa/rosters_{season}.csv", 'w') as output_file:
         csv_file = csv.writer(output_file)
