@@ -3136,7 +3136,7 @@
   {
     "team": "MSOE",
     "twitter": "MSOEwbb",
-    "url": "https://www.go-raiders.com/sports/wbkb/index",
+    "url": "https://msoeraiders.com/sports/womens-basketball",
     "ncaa_id": 20220
   },
   {
@@ -3279,7 +3279,7 @@
   {
     "team": "JWU (Providence)",
     "twitter": "JWUWBasketball",
-    "url": "https://providence.jwuathletics.com/sports/wbkb/index",
+    "url": "https://providence.jwuathletics.com/sports/womens-basketball",
     "ncaa_id": 22626
   },
   {
@@ -3596,7 +3596,7 @@
   {
     "team": "Farmingdale St.",
     "twitter": "fscwbb_",
-    "url": "https://www.farmingdalesports.com/sports/wbkb/index",
+    "url": "https://farmingdalesports.com/sports/womens-basketball",
     "ncaa_id": 27892
   },
   {
@@ -4771,8 +4771,7 @@
     "twitter": "mhc_basketball",
     "url": "https://athletics.mtholyoke.edu/sports/wbkb/index",
     "ncaa_id": 449,
-    "private": true,
-    "roster": "skip"
+    "private": true
   },
   {
     "team": "Babson",
@@ -5399,7 +5398,7 @@
   {
     "team": "Scranton",
     "twitter": "ScrantonWBB",
-    "url": "https://athletics.scranton.edu/sports/wbkb/index",
+    "url": "https://athletics.scranton.edu/sports/womens-basketball",
     "ncaa_id": 633
   },
   {
@@ -5433,7 +5432,7 @@
   {
     "team": "TCNJ",
     "twitter": "tcnjwb",
-    "url": "https://tcnjathletics.com/sports/womens-basketball/roster",
+    "url": "https://tcnjathletics.com/sports/womens-basketball",
     "ncaa_id": 712
   },
   {
@@ -5689,7 +5688,7 @@
   {
     "team": "Coast Guard",
     "twitter": "uscga_wbb",
-    "url": "https://www.uscgasports.com/sports/wbkb/index",
+    "url": "https://coastguardathletics.com/sports/womens-basketball",
     "ncaa_id": 722
   },
   {
@@ -5858,13 +5857,13 @@
   {
     "team": "McDaniel",
     "twitter": "McDaniel_WBB",
-    "url": "https://mcdanielathletics.com/sports/womens-basketball/roster",
+    "url": "https://mcdanielathletics.com/sports/womens-basketball",
     "ncaa_id": 773
   },
   {
     "team": "Western New Eng.",
     "twitter": "WNEwbasketball",
-    "url": "https://www.wnegoldenbears.com/sports/wbkb/index",
+    "url": "https://wnegoldenbears.com/sports/womens-basketball",
     "ncaa_id": 775
   },
   {
@@ -5933,7 +5932,7 @@
   {
     "team": "Wis.-Eau Claire",
     "twitter": "UWECWBB",
-    "url": "https://blugolds.com/sports/wbkb/index",
+    "url": "https://blugolds.com/sports/womens-basketball",
     "ncaa_id": 793
   },
   {
@@ -6017,7 +6016,7 @@
   {
     "team": "WPI",
     "twitter": "WPIWBasketball",
-    "url": "https://athletics.wpi.edu/sports/wbkb/index",
+    "url": "https://athletics.wpi.edu/sports/womens-basketball",
     "ncaa_id": 808
   },
   {

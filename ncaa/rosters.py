@@ -146,6 +146,9 @@ def parse_roster_wbkb(team, html, season):
             raw_player_list = [x.text.strip() for x in raw_player.find_all('td')]
         if len(raw_player_list) == 4:
             raw_player_list = [None] + raw_player_list
+        elif len(raw_player_list) < 4:
+            print(f"skipping {raw_player_list}")
+            continue
         raw_player_list[4] = " ".join([x for x in raw_player_list[4].split()])
         if team['ncaa_id'] == 1036:
             if len(raw_player_list) == len(new_cols):
@@ -1000,11 +1003,11 @@ def parse_roster(team, html, season):
 def get_all_rosters(season, teams = []):
     unparsed = []
     skipped = []
-    teams_json = json.loads(open('/Users/dwillis/code/wbb/ncaa/teams.json').read())
+    teams_json = json.loads(open('/Users/dpwillis/code/wbb/ncaa/teams.json').read())
     if len(teams) > 0:
         teams_json = [t for t in teams_json if t['ncaa_id'] in teams]
     teams_with_urls = [x for x in teams_json if "url" in x]
-    with open(f"/Users/dwillis/code/wbb/ncaa/rosters_{season}.csv", 'w') as output_file:
+    with open(f"/Users/dpwillis/code/wbb/ncaa/rosters_{season}.csv", 'w') as output_file:
         csv_file = csv.writer(output_file)
         csv_file.writerow(['ncaa_id', 'team', 'player_id', 'name', 'year', 'hometown', 'high_school', 'previous_school', 'height', 'position', 'jersey', 'url', 'season'])
         for team in teams_with_urls:
@@ -1105,7 +1108,7 @@ def get_all_rosters_baskbl(season):
                     csv_file.writerow(list(player.values()))
 
 def write_one_team(roster, season):
-    with open(f"/Users/dwillis/code/wbb/ncaa/rosters_{season}.csv", 'a') as output_file:
+    with open(f"/Users/dpwillis/code/wbb/ncaa/rosters_{season}.csv", 'a') as output_file:
         csv_file = csv.writer(output_file)
         for player in roster:
             csv_file.writerow([player['team_id'], player['team'], player['id'], player['name'], player['year'], player['hometown'], player['high_school'], player['previous_school'], player['height'], player['position'], player['jersey'], player['url'], season])
@@ -1358,10 +1361,11 @@ def shotscraper_roster_player2(team, season):
         const id = '';
         const name = el.querySelector('h3').innerText;
         const year = el.querySelector('.sidearm-roster-player-academic-year').innerText;
-        const height = el.querySelector('.sidearm-roster-player-height').innerText;
+        ht_el = el.querySelector('span.sidearm-roster-player-height');
+        const height = ht_el ? ht_el.innerText : '';
         const position = el.querySelector('.sidearm-roster-player-position').innerText.split(' ')[0];
         const hometown = el.querySelector('.sidearm-roster-player-hometown').innerText;
-        const high_school = el.querySelector('.sidearm-roster-player-custom2').innerText;
+        const high_school = el.querySelector('.sidearm-roster-player-highschool').innerText;
         ps_el = el.querySelector('.sidearm-roster-player-previous-school');
         const previous_school = ps_el ? ps_el.innerText : '';
         const jersey = el.querySelector('.sidearm-roster-player-jersey-number').innerText;
