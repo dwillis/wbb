@@ -2576,7 +2576,7 @@
   {
     "team": "Centenary (LA)",
     "twitter": "CentenaryWBB",
-    "url": "https://centenarycyclones.com/sports/womens-basketball",
+    "url": "https://www.gocentenary.com/sports/wbkb/index",
     "ncaa_id": 125,
     "stats_name": "Centenary (LA)"
   },
@@ -2644,7 +2644,8 @@
   {
     "team": "Centenary (NJ)",
     "twitter": "CyclonesWBB",
-    "ncaa_id": 12884
+    "ncaa_id": 12884,
+    "url": "https://centenarycyclones.com/sports/womens-basketball"
   },
   {
     "team": "Ouachita Baptist",
@@ -4770,8 +4771,7 @@
     "team": "Mount Holyoke",
     "twitter": "mhc_basketball",
     "url": "https://athletics.mtholyoke.edu/sports/wbkb/index",
-    "ncaa_id": 449,
-    "private": true
+    "ncaa_id": 449
   },
   {
     "team": "Babson",
