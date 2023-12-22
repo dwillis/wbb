@@ -2616,12 +2616,6 @@
     "stats_name": "Northwest Nazarene"
   },
   {
-    "team": "Alliance",
-    "twitter": "NyackWomen",
-    "url": "https://athletics.allianceu.edu/sports/womens-basketball",
-    "ncaa_id": 1277
-  },
-  {
     "team": "Wheeling",
     "twitter": "WU_WBB",
     "url": "https://wucardinals.com/sports/womens-basketball",
@@ -3064,8 +3058,7 @@
     "team": "Dist. Columbia",
     "twitter": "UDC_WBB",
     "url": "https://www.udcfirebirds.com/sports/wbkb/index",
-    "ncaa_id": 186,
-    "roster": "skip"
+    "ncaa_id": 186
   },
   {
     "team": "Denison",
