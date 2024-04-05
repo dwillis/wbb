@@ -103,7 +103,7 @@
 "Bradley","out","Halli Poock","5-4","FR","point guard","Waterloo, IA"
 "Bradley","out","Daija Powell","6-1","SR","forward","Tyrone, GA"
 "Bradley","out","Alex Rouse","5-8","JR","combo guard","Little Rock, AR"
-"Bradley","out","Armoni "Moni" Strozier","6-0","FR","forward/center","Flint, MI"
+"Bradley","out","Armoni 'Moni' Strozier","6-0","FR","forward/center","Flint, MI"
 "BYU","out","Rose Bubakar","6-0","JR","wing","Frederick, MD"
 "BYU","out","Nani Falatea","5-9","JR","point guard","Salt Lake City, UT"
 "BYU","out","Ali'a Matavao","6-0","FR","forward","Las Vegas, NV"
@@ -140,9 +140,6 @@
 "Cal State Fullerton","out","Brielle Minor","5-9","FR","point guard","Los Angeles, CA"
 "Cal State Fullerton","out","Allysan Tse","5-8","SO","shooting guard","Pasasdena, CA"
 "Cal State Northridge","out","Laney Amundsen","6-1","RS JR","forward","Fresno, CA"
-"Cal State Northridge","out
-Here is the rest of the CSV data:
-
 "Cal State Northridge","out","Kaitlyn Elsholz","5-11","FR","wing","Peoria, AZ"
 "Cal State Northridge","out","Amiyah Ferguson","5-7","FR","combo guard","St. Stephen, SC"
 "Cal State Northridge","out","Rachel Harvey","5-7","RS JR","point guard","San Francisco, CA"
@@ -286,8 +283,6 @@ Here is the rest of the CSV data:
 "Gardner-Webb","out","Cecilee Silver","5-8","SO","guard","Asheville, NC"
 "George Mason","in","Louis Volker","6-1","FR","center","Purcellville, VA"
 "George Mason","out","Taylor Jameson","5-6","SR","guard","
-Here is the rest of the CSV data:
-
 "George Mason","out","Amy O'Hara","6-3","SO","forward","Hoppers Crossing, Victoria, Australia"
 "George Washington","out","Aurea Gingras","5-8","SR","shooting guard","Alexandria, VA"
 "George Washington","out","Jaylin Hartman","6-2","FR","forward","Mendham, NJ"
@@ -438,9 +433,7 @@ Here is the rest of the CSV data:
 "Louisville","out","Alexia Mobley","6-2","RS SO","forward","Reynoldsburg, OH"
 "Louisville","out","Hennie van Schaik","6-3","JR","forward","Urk, Netherlands"
 "Loyola Chicago","out","Aaliyah Moore","6-0","SR","forward","Milwaukee, WI"
-"Loyola Chicago","out","Mallory Ramage","5-10","
-Here is the rest of the CSV data:
-
+"Loyola Chicago","out","Mallory Ramage","5-10","SO","guard","Matoon, IL"
 "Loyola Chicago","out","Jazelle Young","5-11","FR","forward","Chicago, IL"
 "Loyola Chicago","out","Maddie Petroelje","6-1","FR","wing","Hudsonville, MI"
 "Loyola Marymount","out","Cynthia Ezeja","6-2","GR","forward","Athens, Greece"
@@ -588,11 +581,9 @@ Here is the rest of the CSV data:
 "UNC Asheville","out","McKinley Brooks-Sumpter","5-7","RS SR","guard","Columbia, SC"
 "UNC Asheville","out","Millie Brown","5-6","SO","shooting guard","Nashville, TN"
 "UNC Asheville","out","Mallory Bruce","5-11","JR","wing","Greenville, SC"
-"UNCG","out","Antoniette Emma-
-Here is the rest of the CSV data:
-
-"UNCG","out","Isys Grady",,,,,
-"UNCG","out","Nina Horvath",,,,,
+"UNCG","out","Antoniette Emma-Nnopu","5-11","SO","forward","Geelong, Victoria, Australia"
+"UNCG","out","Isys Grady","5-11","JR","guard","Ormond Beach, FL"
+"UNCG","out","Nina Horvath","5-8","FR","guard","Oberwart, Austria"
 "UNC Wilmington","out","Sammy Ackles","6-3","RS SO","forward/center","Holly Springs, NC"
 "UNC Wilmington","out","Kylie Chavis","5-7","FR","combo guard","Red Springs, NC"
 "UNC Wilmington","out","Lexi Jackson","6-4","SR","center","Pittsburgh, PA"
@@ -742,9 +733,6 @@ Here is the rest of the CSV data:
 "Saint Mary's","out","Hannah Rapp","5-10","JR","guard","Melbourne, Australia"
 "Saint Peter's","out","Tiara Bellamy","5-7","SO","combo guard","Plainfield, NJ"
 "Saint Peter's","out","Rachel Kuhl","5-7","SR","guard","Matawan, NJ"
-"St. Thomas","out","Natalie Greenwood","6
-Here is the rest of the CSV data:
-
 "St. Thomas","out","Natalie Greenwood","6-3","RS SO","center","Roanoke, TX"
 "Sam Houston State","out","Racheal Emmanuel","6-2","JR","center","Port Harcourt, Nigeria"
 "Sam Houston State","out","Diarrah Sissoko","5-10","JR","guard","Bamako, Mali"
@@ -894,10 +882,7 @@ Here is the rest of the CSV data:
 "Texas State","out","Tiffany Tullis","5-11","JR","forward","San Antonio, TX"
 "Texas Tech","out","Elina Arike","6-0","SR","forward","Helsinki, Finland"
 "Texas Tech","out","Ashley Chevalier","5-7","SR","point guard","Chatsworth, CA"
-"Texas Tech","out","Jazion Jackson","5-9","GR","point guard","Dallas,
-Here is the rest of the CSV data:
-
-Texas Tech","out","Jazion Jackson","5-9","GR","point guard","Dallas, TX"
+"Texas Tech","out","Jazion Jackson","5-9","GR","point guard","Dallas, TX"
 "Texas Tech","out","Saga Ukkonen","5-9","JR","point guard","Helsinki, Finland"
 "Toledo","out","Soleil Barnes","5-6","RS SR","guard","Southfield, MI"
 "Toledo","out","Bella Swedlund","5-8","RS FR","shooting guard","Winner, SD"
