@@ -660,9 +660,9 @@
 "UNC Asheville","out","McKinley Brooks-Sumpter","5-7","RS SR","guard","Columbia, SC"
 "UNC Asheville","out","Millie Brown","5-6","SO","shooting guard","Nashville, TN"
 "UNC Asheville","out","Mallory Bruce","5-11","JR","wing","Greenville, SC"
-"UNCG","out","Antoniette Emma-Nnopu","wing/forward,"
-"UNCG","out","Isys Grady","wing/forward,"
-"UNCG","out","Nina Horvath","wing/forward,"
+"UNCG","out","Antoniette Emma-Nnopu",,,"wing/forward",
+"UNCG","out","Isys Grady",,,"wing/forward",
+"UNCG","out","Nina Horvath",,,"wing/forward",
 "UNC Wilmington","in","Torin Rogers","6-1","SO","forward","Brasstown, NC"
 "UNC Wilmington","out","Sammy Ackles","6-3","RS SO","forward/center","Holly Springs, NC"
 "UNC Wilmington","out","Kylie Chavis","5-7","FR","combo guard","Red Springs, NC"
@@ -693,9 +693,9 @@
 "Northern Illinois","out","Jayden Marable","5-6","SR","point guard","Bolingbrook, IL"
 "Northern Illinois","out","Moriah Prewitt","5-8","JR","combo guard","Urbandale, IA"
 "Northern Iowa","out","Riley Wright","5-11","RS SO","guard","Marion, IA"
-"Northern Kentucky","out","Allison Basye","guard/wing,"
-"Northern Kentucky","out","Carter McCray","guard/wing,"
-"Northern Kentucky","out","Khamari Mitchell-Steen","guard,"
+"Northern Kentucky","out","Allison Basye",,,"guard/wing",
+"Northern Kentucky","out","Carter McCray",,,"guard/wing",
+"Northern Kentucky","out","Khamari Mitchell-Steen",,,"guard",
 "Northwestern","in","Kyla Jones","5-9","SR","guard","Chicago, IL"
 "Northwestern","in","Grace Sullivan","6-4","SO","center","Antioch, IL"
 "Northwestern","out","Alana Goodchild","6-2","SO","forward","Sydney, Australia"
@@ -733,8 +733,8 @@
 "Old Dominion","out","De'Shawnti Thomas","5-10","JR","wing/forward","Tulsa, OK"
 "Omaha","out","Kennedi Grant","5-7","JR","shooting guard","Midwest City, OK"
 "Omaha","out","Liz Martino","6-0","RS JR","shooting guard","Lanham, MD"
-"Oral Roberts","out","Tara Biocanin","FR","wing","Belgrade, Serbia"
-"Oral Roberts","out","Sephora Kayolo","FR","wing","Lubumbashi, Democratic Republic of the Congo"
+"Oral Roberts","out","Tara Biocanin",,"FR","wing","Belgrade, Serbia"
+"Oral Roberts","out","Sephora Kayolo",,"FR","wing","Lubumbashi, Democratic Republic of the Congo"
 "Oregon","in","Elisa Mevius","5-10","SO","guard","Rendsburg, Germany"
 "Oregon","out","Kennedy Basham","6-7","SO","center","Phoenix, AZ"
 "Oregon","out","Chance Gray","5-9","SO","point guard","Cincinnati, OH"
@@ -761,12 +761,12 @@
 "Portland State","out","Alma Rashelbach","6-0","FR","wing/forward","Portland, OR"
 "Prairie View A&M","in","Kimora Sykes","6-0","RS SR","forward","Fontana, CA"
 "Prairie View A&M","out","Kimora Sykes","6-0","RS SR","forward","Fontana, CA"
-"Presbyterian","out","Dagne Apsite","guard,"
-"Presbyterian","out","Núria Cunill","guard,"
-"Presbyterian","out","Laila Grant","guard,"
+"Presbyterian","out","Dagne Apsite",,,"guard",
+"Presbyterian","out","Núria Cunill",,,"guard",
+"Presbyterian","out","Laila Grant",,,"guard",
 "Presbyterian","out","Aubrie Kierscht","5-6","SO","point guard","Salina, KS"
-"Presbyterian","out","Mara Neira","guard,"
-"Presbyterian","out","Tilda Sjökvist","guard,"
+"Presbyterian","out","Mara Neira",,,"guard",
+"Presbyterian","out","Tilda Sjökvist",,,"guard",
 "Princeton","out","Kaitlyn Chen","5-9","SR","point guard","San Marino, CA"
 "Princeton","out","Chet Nweke","6-0","SR","wing","Woodbine, MD"
 "Providence","in","Mackayla Scarlett","5-10","SR","shooting guard/wing","Bronx, NY"
@@ -810,12 +810,12 @@
 "Rutgers","out","Jillian Huerter","6-0","FR","guard","Clifton Park, NY"
 "Rutgers","out","Erica Lafayette","6-0","SR","wing","Baton Rouge, LA"
 "Rutgers","out","Kaylene Smikle","6-0","SO","guard","Farmingdale, NY"
-"Sacramento State","out","Kaylie Edge","guard,"
+"Sacramento State","out","Kaylie Edge",,,"guard",
 "Sacramento State","out","Irune Orio","6-2","SO","wing","Balmaseda, Euskadi, Spain"
-"Sacramento State","out","Ayanna Jackson","wing,"
-"Sacramento State","out","Seilala Lautaimi","wing,"
-"Sacramento State","out","J'yana Salton","guard,"
-"Sacramento State","out","Celestine Segretain","guard,"
+"Sacramento State","out","Ayanna Jackson",,,"wing",
+"Sacramento State","out","Seilala Lautaimi",,,"wing",
+"Sacramento State","out","J'yana Salton",,,"guard",
+"Sacramento State","out","Celestine Segretain",,,"guard",
 "St. Bonaventure","out","Kirah Dandridge","5-10","SO","wing","Richmond, VA"
 "St. Bonaventure","out","Taylor Napper","6-0","JR","forward","Lorton, VA"
 "St. Francis (Pa.)","out","Kendall Carruthers","5-7","FR","point guard","Holland, OH"
@@ -871,11 +871,11 @@
 "Siena","out","Esther Rodellar","5-9","FR","guard","Ripollet, Spain"
 "Siena","out","Nikola Zdenkova","5-9","RS FR","point guard","Karlovy Vary, Czech Republic"
 "South Alabama","in","Daniela Gonzalez","6-0","SO","forward","Jamundí, Colombia"
-"South Alabama","out","Camryn Berry","guard/wing,"
-"South Alabama","out","Emani Burks","guard/wing,"
-"South Alabama","out","Kamaria Gipson","guard/wing,"
-"South Alabama","out","Cheyenne Pearson","guard/wing,"
-"South Alabama","out","Kelsey Thompson","guard/wing,"
+"South Alabama","out","Camryn Berry",,,"guard/wing",
+"South Alabama","out","Emani Burks",,,"guard/wing",
+"South Alabama","out","Kamaria Gipson",,,"guard/wing",
+"South Alabama","out","Cheyenne Pearson",,,"guard/wing",
+"South Alabama","out","Kelsey Thompson",,,"guard/wing",
 "South Alabama","out","Tyrielle Williams","5-7","RS SO","guard","New Orleans, LA"
 "South Carolina","out","Sahnya Jah","6-0","FR","wing","Alexandria, VA"
 "USC Upstate","in","Maggie Brown","6-1","SR","wing/forward","Brentwood, TN"
@@ -891,18 +891,18 @@
 "South Florida","out","Judit Valero Rodriguez","5-11","FR","shooting guard","Sant Feliu de Llobregat, Spain"
 "Southeast Missouri","out","Daejah Richmond","5-8","FR","point guard","Cordova, TN"
 "Southeastern Louisiana","in","Kaili Chamberlin","5-9","JR","shooting guard","Medford, OR"
-"Southeastern Louisiana","out","Breyionce George","guard,"
+"Southeastern Louisiana","out","Breyionce George",,,"guard",
 "Southeastern Louisiana","out","Alexius Horne","6-1","GR","guard","New Orleans, LA"
 "Southern","out","Sirviva Legions","5-7","SO","guard","Brooklyn, NY"
 "Southern","out","Kyanna Morgan","5-10","SR","guard","Charlotte, NC"
 "Southern Cal","out","Taylor Bigby","6-1","RS SO","guard","Las Vegas, NV"
 "Southern Cal","out","Koi Love","6-0","SR","forward","Orlando, FL"
-"Southern Illinois","out","Jaidynn Mason","guard,"
-"Southern Illinois","out","Laniah Randle","forward/wing,"
-"Southern Illinois","out","Maddy Saracco","guard,"
+"Southern Illinois","out","Jaidynn Mason",,,"guard",
+"Southern Illinois","out","Laniah Randle",,,"forward/wing",
+"Southern Illinois","out","Maddy Saracco",,,"guard",
 "Southern Illinois","out","Shemera Williams","5-8","GR","guard","Baltimore, MD"
 "SIUE","out","Alexis Legan","5-9","SR","guard","Palm Desert, CA"
-"Southern Indiana","out","Takiya Howard","guard,"
+"Southern Indiana","out","Takiya Howard",,,"guard",
 "SMU","in","Nicole Rodriguez","5-8","SR","shooting guard","Eastvale, CA"
 "SMU","out","Maya Chandler","5-7","SR","combo guard","Martinsville, IN"
 "SMU","out","Aaliyah Henderson","5-7","FR","point guard","Norman, OK"
@@ -917,8 +917,8 @@
 "Southern Utah","out","Alexandra Eldredge","5-10","FR","guard","McLean, VA"
 "Southern Utah","out","Shiho Isono","5-6","JR","point guard","Fukuoka, Japan"
 "Southern Utah","out","Tomekia Whitman","5-10","SR","guard","Spokane Valley, WA"
-"Stephen F. Austin","out","Atalia Ballesteros","guard,"
-"Stephen F. Austin","out","Kyla Deck","guard,"
+"Stephen F. Austin","out","Atalia Ballesteros",,,"guard",
+"Stephen F. Austin","out","Kyla Deck",,,"guard",
 "Stephen F. Austin","out","Destini Lombard","5-9","SR","guard","New Iberia, LA"
 "Stephen F. Austin","out","Tyler McCliment-Call","6-0","SR","guard","Spokane, WA"
 "Stephen F. Austin","out","Zoe Nelson","6-2","JR","forward","Austin TX"
@@ -1002,10 +1002,10 @@
 "Troy","out","Sara Carvajal Caro","6-3","JR","center","Seville, Spain"
 "Troy","out","Jamila Nansikombi-Gunter","5-11","SR","wing","Kampala, Uganda"
 "Troy","out","Shaniah Nunn","6-0","SO","wing","Birmingham, AL"
-"Tulsa","out","Amira Brown","guard,"
+"Tulsa","out","Amira Brown",,,"guard",
 "Tulsa","out","Queen Ikhiuwu","6-1","FR","center","Navalcarnero, Spain"
 "Tulsa","out","Caroline Lyles","6-0","SO","shooting guard","Argyle, TX"
-"Tulsa","out","Caranda Perea","guard,"
+"Tulsa","out","Caranda Perea",,,"guard",
 "Utah","out","Daniela Falcon Hernandez","6-2","FR","wing/forward","Las Palmas Gran Canaria, Spain"
 "Utah","out","Lani White","5-11","SO","guard","Irvine, CA"
 "Utah State","out","Lauren Crocker",,"FR","wing","Logan, UT"
@@ -1066,7 +1066,7 @@
 "Western Kentucky","in","Mariama Sow","6-3","JR","forward","Thies, Senegal"
 "Western Kentucky","out","Karris Allen","5-11","SO","wing","Sikeston, MO"
 "Western Kentucky","out","Nevaeh Foster","5-8","FR","combo guard","South Bend, IN"
-"Western Kentucky","out","Alexis Mead","guard,"
+"Western Kentucky","out","Alexis Mead",,,"guard",
 "Western Kentucky","out","Aaliyah Pitts","5-8","GR","guard","Oak Ridge, TN"
 "Western Michigan","out","Denali Craig-Edwards","6-1","FR","wing","Peoria, IL"
 "Western Michigan","out","Kaiden Glenn","5-10","JR","wing","Ypsilanti, MI"
