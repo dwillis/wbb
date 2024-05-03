@@ -101,7 +101,8 @@
     "twitter": "caneswbb",
     "url": "https://miamihurricanes.com/sports/wbball",
     "ncaa_id": 415,
-    "stats_name": "Miami (FL)"
+    "stats_name": "Miami (FL)",
+    "pbp": "false"
   },
   {
     "team": "California Baptist",
@@ -199,7 +200,8 @@
     "twitter": "GamecockWBB",
     "url": "https://gamecocksonline.com/sports/wbball",
     "ncaa_id": 648,
-    "stats_name": "South Carolina"
+    "stats_name": "South Carolina",
+    "pbp": "false"
   },
   {
     "team": "Green Bay",
@@ -276,14 +278,16 @@
     "twitter": "iowawbb",
     "url": "https://hawkeyesports.com/sports/wbball",
     "ncaa_id": 312,
-    "stats_name": "Iowa"
+    "stats_name": "Iowa",
+    "pbp": "false"
   },
   {
     "team": "Kentucky",
     "twitter": "kentuckywbb",
     "url": "https://ukathletics.com/sports/wbball",
     "ncaa_id": 334,
-    "stats_name": "Kentucky"
+    "stats_name": "Kentucky",
+    "pbp": "false"
   },
   {
     "team": "Kansas State",
@@ -374,7 +378,8 @@
     "twitter": "ndwbb",
     "url": "https://fightingirish.com/sports/wbball",
     "ncaa_id": 513,
-    "stats_name": "Notre Dame"
+    "stats_name": "Notre Dame",
+    "pbp": "false"
   },
   {
     "team": "Nevada",
@@ -936,7 +941,7 @@
   {
     "team": "East Tennessee State",
     "twitter": "etsu_wbb",
-    "url": "https://www.etsubucs.com/wbasketball",
+    "url": "https://etsubucs.com/sports/womens-basketball",
     "ncaa_id": 198,
     "stats_name": "Etsu"
   },
@@ -1188,7 +1193,8 @@
     "twitter": "kuwbball",
     "url": "https://kuathletics.com/sports/wbball/",
     "ncaa_id": 328,
-    "stats_name": "Kansas"
+    "stats_name": "Kansas",
+    "pbp": "false"
   },
   {
     "team": "Texas Tech",
@@ -1930,7 +1936,8 @@
     "twitter": "unmlobowbb",
     "url": "https://golobos.com/sports/Wbball/",
     "ncaa_id": 473,
-    "stats_name": "New Mexico"
+    "stats_name": "New Mexico",
+    "pbp": "false"
   },
   {
     "team": "Southern Cal",
@@ -2007,7 +2014,8 @@
     "twitter": "vandywbb",
     "url": "https://vucommodores.com/sports/wbball",
     "ncaa_id": 736,
-    "stats_name": "Vanderbilt"
+    "stats_name": "Vanderbilt",
+    "pbp": "false"
   },
   {
     "team": "Weber State",
@@ -3740,12 +3748,6 @@
     "ncaa_id": 30031
   },
   {
-    "team": "Finlandia",
-    "twitter": "FinnUwbb",
-    "url": "https://fulions.com/sports/womens-basketball",
-    "ncaa_id": 30032
-  },
-  {
     "team": "Crown (MN)",
     "twitter": "BasketballCrown",
     "url": "https://athletics.crown.edu/sports/womens-basketball",
@@ -3831,12 +3833,6 @@
     "url": "https://otterathletics.com/sports/womens-basketball",
     "ncaa_id": 30055,
     "stats_name": "Cal St. Monterey Bay"
-  },
-  {
-    "team": "Notre Dame de Namur",
-    "twitter": "NDNUbasketball",
-    "url": "https://ndnuargos.com/sports/womens-basketball",
-    "ncaa_id": 30056
   },
   {
     "team": "Seton Hill",
@@ -4115,13 +4111,6 @@
     "url": "https://bereaathletics.com/sports/womens-basketball",
     "ncaa_id": 30171,
     "stats_name": "Berea"
-  },
-  {
-    "team": "Iowa Wesleyan",
-    "twitter": "IWTigersWBB",
-    "url": "https://www.iwtigers.com/sport/0/2",
-    "ncaa_id": 30173,
-    "private": false
   },
   {
     "team": "Daemen",
@@ -4468,7 +4457,8 @@
     "twitter": "LSUwbkb",
     "url": "https://lsusports.net/sports/wbball",
     "ncaa_id": 365,
-    "stats_name": "Lsu"
+    "stats_name": "Lsu",
+    "pbp": "false"
   },
   {
     "team": "Louisiana Tech",
@@ -5001,7 +4991,8 @@
     "team": "Ohio",
     "twitter": "OhioWBasketball",
     "url": "https://ohiobobcats.com/sports/wbball",
-    "ncaa_id": 519
+    "ncaa_id": 519,
+    "pbp": "false"
   },
   {
     "team": "Olivet",
@@ -5750,7 +5741,8 @@
     "twitter": "UVAWomensHoops",
     "url": "https://virginiasports.com/sports/wbball/",
     "ncaa_id": 746,
-    "stats_name": "Virginia"
+    "stats_name": "Virginia",
+    "pbp": "false"
   },
   {
     "team": "Wagner",
@@ -6216,12 +6208,6 @@
     "ncaa_id": 93
   },
   {
-    "team": "Alderson Broaddus",
-    "twitter": "ABUWBB",
-    "url": "https://gobattlers.com/sports/womens-basketball",
-    "ncaa_id": 934
-  },
-  {
     "team": "Alvernia",
     "twitter": "AlverniaWbb",
     "url": "https://auwolves.com/sports/womens-basketball",
@@ -6334,9 +6320,8 @@
   },
   {
     "team": "Talladega",
-    "url": "http://www.talladegatornadoes.com/sport/0/3",
+    "url": "https://talladegatornadoes.com/sports/womens-basketball",
     "ncaa_id": 505160,
-    "private": true,
     "stats_name": "Talladega"
   },
   {
