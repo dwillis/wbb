@@ -8,7 +8,10 @@ import requests
 from requests_html import HTMLSession
 import tldextract
 from selenium import webdriver
+from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.by import By
 from bs4 import BeautifulSoup
 
@@ -16,7 +19,7 @@ driver = webdriver.Firefox()
 
 HEADERS = {'No.': 'jersey', 'Name': 'name', 'NAME': 'name', 'Cl.': 'academic_year', 'Pos.': 'position', 'Ht.': 'height', 'Hometown/High School': 'town', 'Hometown/Last School': 'town', 'Num': 'jersey', 'Yr': 'academic_year', 'Ht': 'height', 'Hometown': 'town', 'High School/Previous School': 'high_school', 'Pos': 'position', 'Hometown/Previous School': 'town', 'Exp.': 'academic_year', 'Number': 'jersey', 'Position': 'position', 'HT.': 'height', 'YEAR': 'academic_year', 'HOMETOWN': 'town', 'LAST SCHOOL': 'high_school', 'Yr.': 'academic_year', 'Hometown/High School/Last School': 'town', 'Class': 'academic_year', 'High school': 'high_school', 'Previous College': 'previous_school', 'Cl.-Exp.': 'academic_year', '#': 'jersey', 'High School': 'high_school', 'Hometown / Previous School': 'town', 'No': "jersey", 'Hometown/High School/Previous School': 'town', 'Hometown / High School / Last College': 'town', 'Year': 'academic_year', 'Height': 'height', 'Previous School': 'high_school', 'Cl': 'academic_year', 'Prev. Coll.': 'previous_school', 'Hgt.': 'height', 'Hometown/ High School': 'town', 'Hometown/High School (Last School)': 'town', 'Hometown/High School (Former School)': 'town', 'Hometown / High School': 'town', 'YR': 'academic_year', 'POS': 'position', 'HT': 'height', 'Player': 'name', 'Hometown/High School/Previous College': 'town', 'Last School/Hometown': 'town', 'NO.': 'jersey', 'NAME': 'name', 'YR.': 'academic_year', 'POS.': 'position', 'HIGH SCHOOL': 'high_school', 'NO': 'jersey', 'HOMETOWN/HIGH SCHOOL': 'town', 'Academic Yr.': 'academic_year', 'Full Name': 'name', 'POSITION': 'position', 'Hometown / Previous School / High School': 'town', 'High School / Previous School': 'high_school'}
 
-SEASONS = ['2023-24', '2022-23', '2021-22', '2020-21', '2019-20', '2018-19', '2017-18', '2016-17', '2015-16', '2014-15', '2013-14',
+SEASONS = ['2024-25', '2023-24', '2022-23', '2021-22', '2020-21', '2019-20', '2018-19', '2017-18', '2016-17', '2015-16', '2014-15', '2013-14',
 '2012-13', '2011-12', '2010-11', '2009-10', '2008-09', '2007-08', '2006-07', '2005-06', '2004-05', '2003-04',
 '2002-03', '2001-02', '2000-01', '1999-00', '1998-99', '1997-98', '1996-97', '1995-96', '1994-95', '1993-94', '1992-93', '1991-92', '1990-91']
 
@@ -307,9 +310,9 @@ def fetch_and_parse_byu(team, season):
     javascript_code = """
     Array.from(document.querySelectorAll('.roster__players .roster-card-item'), el => {
      const id = '';
-     const name = el.querySelector('a').innerText;
-     const year = el.querySelectorAll('.roster-card-item__profile-field')[1].innerText;
-     const height = el.querySelectorAll('.roster-card-item__profile-field')[0].innerText;
+     const name = el.querySelector('h3').innerText;
+     const year = el.querySelectorAll('.roster-player-card-profile-field__value')[1].innerText;
+     const height = el.querySelectorAll('.roster-player-card-profile-field__value')[0].innerText;
      const position = el.querySelector('.roster-card-item__position').innerText;
      const hometown = el.querySelector(".roster-player-card-profile-field__value--hometown").innerText;
      hs_el = el.querySelector(".roster-player-card-profile-field__value--previous-school");
@@ -439,13 +442,14 @@ def fetch_and_parse_boise_state(team, season):
         const id = '';
         const name = el.querySelector('.s-person-card__header__person-details-personal').innerText;
         const year = '';
-        const height = el.querySelectorAll('.s-person-card__content__person-details-bio-stats-item')[1].innerText;
-        const position = el.querySelectorAll('.s-person-card__content__person-details-bio-stats-item')[0].innerText;
-        const hometown = el.querySelectorAll('.s-person-card__content__person-details-location-item')[0].innerText;
-        const high_school = el.querySelectorAll('.s-person-card__content__person-details-location-item')[1].innerText;
+        const height = el.querySelectorAll('.s-person-card__content__person-details-bio-stats-item')[1].innerText.replace("Height\n ", "");
+        const position = el.querySelectorAll('.s-person-card__content__person-details-bio-stats-item')[0].innerText.replace("Position\n", "");
+        const hometown = el.querySelectorAll('.s-person-card__content__person-details-location-item')[0].innerText.replace('Hometown\n','');
+        let hs_el = el.querySelectorAll('.s-person-card__content__person-details-location-item')[1];
+        const high_school = hs_el ? hs_el.innerText.replace('Last School\n ','') : '';
         const previous_school = '';
         let j = el.querySelector('.s-stamp__text');
-        const jersey = j ? j.innerText : '';
+        const jersey = j ? j.innerText.replace('Jersey Number\n','') : '';
         const url = el.querySelector('a')['href'];
         return {id, name, year, hometown, high_school, previous_school, height, position, jersey, url};
     })
@@ -599,7 +603,12 @@ def fetch_and_parse_south_carolina(team, season):
     er = tldextract.extract(team['url'])
     url = team['url'] + "/roster/season/" + season
     driver.get(url)
-    driver.find_element(By.LINK_TEXT, 'List').click()
+    button = driver.find_element(By.XPATH, "//button[text()='Accept']")
+    button.click()
+    link = driver.find_element(By.LINK_TEXT, 'List')
+    driver.execute_script("arguments[0].scrollIntoView(true);", link)
+    WebDriverWait(driver, 3).until(EC.element_to_be_clickable((By.LINK_TEXT, 'List')))
+    link.click()
     html = BeautifulSoup(driver.page_source, features="html.parser")
     players = html.find('table', id="players-table").find_all('tr')[1:]
     for player in players:
@@ -1073,7 +1082,8 @@ def get_all_rosters(season, teams = []):
                 elif team['ncaa_id'] == 630:
                     roster = fetch_and_parse_sanjose(team, season)
                 elif team['ncaa_id'] == 66:
-                    roster = fetch_and_parse_boise_state(team, season)
+                    continue
+                    #roster = fetch_and_parse_boise_state(team, season)
                 elif team['ncaa_id'] == 72:
                     roster = fetch_and_parse_bradley(team, season)
                 elif team['ncaa_id'] == 415:
@@ -1107,7 +1117,8 @@ def get_all_rosters(season, teams = []):
                 elif team['ncaa_id'] in [623, 641]:
                     roster = shotscraper_wbkb_salve(team, season)
                 elif team['ncaa_id'] == 648:
-                    roster = fetch_and_parse_south_carolina(team, season)
+                    continue
+                    #roster = fetch_and_parse_south_carolina(team, season)
                 elif team['ncaa_id'] == 694:
                     roster = fetch_and_parse_tennessee(team, season)
                 elif team['ncaa_id'] == 721:
@@ -1176,19 +1187,24 @@ def shotscraper_airforce(team, season):
 
     # JavaScript to be executed by shot-scraper
     javascript_code = """
-    Array.from(document.querySelectorAll('.s-person-card'), el => {
-        const id = '';
-        const name = el.querySelector('.s-person-card__header__person-details-personal').innerText;
-        const year = "";
-        const height = el.querySelectorAll('span.s-person-card__content__person-details-bio-stats-item')[1].innerText.replace("Height\n","");
-        const position = el.querySelectorAll('span.s-person-card__content__person-details-bio-stats-item')[0].innerText.replace("Position\n","");
-        const hometown = el.querySelectorAll('span.s-person-card__content__person-details-location-item')[0].innerText.replace("Hometown\n","");
-        const high_school = el.querySelectorAll('span.s-person-card__content__person-details-location-item')[1].innerText.replace("Last School\n ","");
-        const previous_school = '';
-        const jersey = el.querySelector('span.s-stamp__text').innerText;
-        const url = el.querySelector('a')['href'];
-        return {id, name, year, hometown, high_school, previous_school, height, position, jersey, url};
-    })
+    new Promise((resolve) => {
+        setTimeout(() => {
+            resolve(Array.from(document.querySelectorAll('.s-person-card'), el => {
+                const id = '';
+                const name = el.querySelector('.s-person-card__header__person-details-personal').innerText;
+                const year = "";
+                let ht = el.querySelectorAll('span.s-person-card__content__person-details-bio-stats-item')[1];
+                const height = ht ? ht.innerText.replace("Height\\n", "") : '';
+                const position = el.querySelectorAll('span.s-person-card__content__person-details-bio-stats-item')[0].innerText.replace("Position\\n", "");
+                const hometown = el.querySelectorAll('span.s-person-card__content__person-details-location-item')[0].innerText.replace("Hometown\\n", "");
+                const high_school = el.querySelectorAll('span.s-person-card__content__person-details-location-item')[1].innerText.replace("Last School\\n ", "");
+                const previous_school = '';
+                const jersey = el.querySelector('span.s-stamp__text').innerText.replace("Jersey Number\\n", "");
+                const url = el.querySelector('a')['href'];
+                return {id, name, year, hometown, high_school, previous_school, height, position, jersey, url};
+            }));
+        }, 1000);
+    });
     """
 
     roster = []
@@ -1258,7 +1274,8 @@ def shotscraper_card(team, season):
         let ht = el.querySelectorAll('.s-person-details__bio-stats-item')[2];
         const height = ht ? ht.innerText : '';
         const position = el.querySelectorAll('.s-person-details__bio-stats-item')[0].innerText;
-        const hometown = el.querySelectorAll('.s-person-card__content__person__location-item')[0].innerText;
+        let hm_el = el.querySelectorAll('.s-person-card__content__person__location-item')[0];
+        const hometown = hm_el ? hm_el.innerText : '';
         let hs_el = el.querySelectorAll('.s-person-card__content__person__location-item')[1];
         const high_school = hs_el ? hs_el.innerText : '';
         const previous_school = '';
@@ -1410,21 +1427,26 @@ def shotscraper_table(team, season):
 
     # JavaScript to be executed by shot-scraper
     javascript_code = """
-    Array.from(document.querySelectorAll('.s-table-body__row'), el => {
-        const id = '';
-        const name = el.querySelectorAll('td')[1].innerText;
-        const year = el.querySelectorAll('td')[2].innerText;
-        const height = el.querySelectorAll('td')[3].innerText;
-        const position = el.querySelectorAll('td')[4].innerText;
-        const hometown = el.querySelectorAll('td')[5].innerText;
-        hs_el = el.querySelectorAll('td')[6];
-        const high_school = hs_el ? hs_el.innerText : '';
-        const previous_school = '';
-        const jersey = el.querySelectorAll('td')[0].innerText;
-        const url = el.querySelectorAll('td')[1].querySelector('a')['href']
-        return {id, name, year, hometown, high_school, previous_school, height, position, jersey, url};
-    })
+    new Promise((resolve) => {
+        setTimeout(() => {
+            resolve(Array.from(document.querySelectorAll('.s-table-body__row'), el => {
+                const id = '';
+                const name = el.querySelectorAll('td')[1].innerText;
+                const year = el.querySelectorAll('td')[2].innerText;
+                const height = el.querySelectorAll('td')[3].innerText;
+                const position = el.querySelectorAll('td')[4].innerText;
+                const hometown = el.querySelectorAll('td')[5].innerText;
+                const hs_el = el.querySelectorAll('td')[6];
+                const high_school = hs_el ? hs_el.innerText : '';
+                const previous_school = '';
+                const jersey = el.querySelectorAll('td')[0].innerText;
+                const url = el.querySelectorAll('td')[1].querySelector('a').href;
+                return {id, name, year, hometown, high_school, previous_school, height, position, jersey, url};
+            }));
+        }, 1000); // Wait for 1000 milliseconds
+    });
     """
+
 
     roster = []
     url = team['url'] + "/roster/" + season
@@ -1728,8 +1750,10 @@ def shotscraper_roster_player(team, season):
         const id = '';
         const name = el.querySelector('h3').innerText;
         const year = el.querySelector('.sidearm-roster-player-academic-year').innerText;
-        const height = el.querySelector('.sidearm-roster-player-height').innerText;
-        const position = el.querySelector('.sidearm-roster-player-position-long-short').innerText.trim();
+        let ht = el.querySelector('.sidearm-roster-player-height');
+        const height = ht ? ht.innerText : '';
+        let pos = el.querySelector('.sidearm-roster-player-position-long-short');
+        const position = pos ? pos.innerText.trim() : '';
         const hometown = el.querySelector('.sidearm-roster-player-hometown').innerText;
         hs_el = el.querySelector('.sidearm-roster-player-highschool');
         const high_school = hs_el ? hs_el.innerText : '';
