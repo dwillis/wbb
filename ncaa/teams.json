@@ -2005,7 +2005,7 @@
   {
     "team": "Valparaiso",
     "twitter": "valpowbb",
-    "url": "https://www.valpoathletics.com/wbasketball",
+    "url": "https://valpoathletics.com/sports/womens-basketball",
     "ncaa_id": 735,
     "stats_name": "Valparaiso"
   },
@@ -3020,7 +3020,7 @@
   {
     "team": "Claremont-M-S",
     "twitter": "cmswbasketball",
-    "url": "https://www.cmsathletics.org/sports/wbkb/index",
+    "url": "https://cmsathletics.org/sports/womens-basketball",
     "ncaa_id": 142,
     "stats_name": "Claremont-M-S"
   },
@@ -3217,7 +3217,7 @@
   {
     "team": "Emmanuel (MA)",
     "twitter": "EmmanuelHoops",
-    "url": "https://www.goecsaints.com/sports/w-baskbl/index",
+    "url": "https://goecsaints.com/sports/womens-basketball",
     "ncaa_id": 215,
     "private": true
   },
@@ -3231,7 +3231,7 @@
   {
     "team": "Emory",
     "twitter": "EmoryWBB",
-    "url": "https://www.emoryathletics.com/sports/wbkb/index",
+    "url": "https://emoryathletics.com/sports/womens-basketball",
     "ncaa_id": 217
   },
   {
@@ -3478,7 +3478,7 @@
   {
     "team": "Gust. Adolphus",
     "twitter": "GustavusWBB",
-    "url": "https://gustavus.edu/athletics/wbb/",
+    "url": "https://gogusties.com/sports/womens-basketball",
     "ncaa_id": 266
   },
   {
@@ -4791,7 +4791,7 @@
   {
     "team": "Baldwin Wallace",
     "twitter": "BW_wbasketball",
-    "url": "https://www.bwyellowjackets.com/sports/wbkb/index",
+    "url": "https://bwyellowjackets.com/sports/womens-basketball",
     "ncaa_id": 46
   },
   {
@@ -5121,7 +5121,7 @@
   {
     "team": "Bentley",
     "twitter": "BentleyWBball",
-    "url": "https://www.bentleyfalcons.com/sports/wbkb/index",
+    "url": "https://bentleyfalcons.com/sports/womens-basketball",
     "ncaa_id": 56
   },
   {
@@ -5550,7 +5550,7 @@
   {
     "team": "Stonehill",
     "twitter": "StonehillWBB",
-    "url": "https://www.stonehillskyhawks.com/sports/wbkb/index",
+    "url": "https://stonehillskyhawks.com/sports/womens-basketball",
     "ncaa_id": 682
   },
   {
