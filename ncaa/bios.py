@@ -6,12 +6,12 @@ from goose3 import Goose
 
 g = Goose()
 db = Database("bios.db")
-season = "2022_23"
+season = "2024-25"
 
 bios = []
 not_found = []
 
-url = f"https://raw.githubusercontent.com/Sports-Roster-Data/womens-college-basketball/main/wbb_rosters_{season}.csv"
+url = f"https://raw.githubusercontent.com/dwillis/wbb-rosters/refs/heads/main/rosters_2024-25.csv"
 response = requests.get(url)
 reader = csv.DictReader(response.text.splitlines())
 
