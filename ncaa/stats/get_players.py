@@ -5,9 +5,32 @@ import re
 import sys
 import time
 
+
+NCAA_YEAR_DICT = {
+    2025: 16720,
+    2024: 16500,
+    2023: 16061,
+    2022: 15866,
+    2021: 15500,
+    2020: 15002,
+    2019: 14320,
+    2018: 12911,
+    2017: 12500,
+    2016: 12280,
+    2015: 12021,
+    2014: 11560,
+    2013: 11240,
+    2012: 10760,
+    2011: 10420,
+    2010: 10261,
+    2009: 10140
+    # Don't go back past 2010 end year since no game lists but here are mappings
+    # 2009: 10140, 2008: 4, 2007: 6, 2006: 8, 2005: 10, 2004: 10173
+}
+
 # Check if the input and output file arguments are provided
 if len(sys.argv) != 3:
-    print("Usage: python fetch_rosters.py <input_csv> <output_csv>")
+    print("Usage: python get_players.py <input_csv> <output_csv>")
     sys.exit(1)
 
 # Get input and output file paths
@@ -44,9 +67,11 @@ with open(input_csv, 'r', encoding='utf-8') as infile:
             print(f"Failed to fetch roster for team ID {team_id}")
             continue
         
+        ncaa_code = NCAA_YEAR_DICT[int(season)]
+
         # Parse the HTML content
         soup = BeautifulSoup(response.content, 'html.parser')
-        table = soup.find('table', {'id': 'rosters_form_players_16720_data_table'})
+        table = soup.find('table', {'id': f'rosters_form_players_{ncaa_code}_data_table'})
         
         if not table:
             print(f"No roster table found for team ID {team_id}")
@@ -59,7 +84,7 @@ with open(input_csv, 'r', encoding='utf-8') as infile:
             if not cells:
                 continue
             
-            link = cells[0].find('a')
+            link = cells[3].find('a')
             if link:
                 player_name = link.text.strip()
                 player_relative_url = link['href']

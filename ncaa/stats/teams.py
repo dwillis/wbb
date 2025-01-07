@@ -5,7 +5,7 @@ import re
 
 # Check if the season argument is provided
 if len(sys.argv) != 3:
-    print("Usage: python script.py <html_file> <season>")
+    print("Usage: python teams.py <html_file> <season>")
     sys.exit(1)
 
 # Get the arguments
