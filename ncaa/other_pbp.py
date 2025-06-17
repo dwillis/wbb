@@ -7,13 +7,13 @@ def slugify(team):
     slug = str(team['ncaa_id'])+'-'+team['team'].lower().replace(" ","-").replace('.','').replace(',','').replace("'","").replace(')','').replace('(','')
     return slug
 
-def pbp_for_season(season="2023-24", team_ids=[312, 334, 365, 513, 328, 473, 736, 519, 746, 415, 648]):
+def pbp_for_season(season="2024-25", team_ids=[31, 147, 234, 255, 312, 334, 365, 428, 463, 513, 523, 539, 328, 473, 626, 674, 736, 742, 519, 746, 415, 648, 697]):
     with open("teams.json", "r") as file:
         teams = json.load(file)
     for team_id in team_ids:
         team = [t for t in teams if t['ncaa_id'] == team_id][0]
         print(team['team'])
-        if team_id in [513, 365]:
+        if team_id in [463, 513, 365,77,127,234, 742]:
             boxscore_links = boxscore_links_for_season_direct(team, season)
         else:
             boxscore_links = boxscore_links_for_season(team, season)
@@ -35,19 +35,23 @@ def boxscore_links_for_season_direct(team, season):
     }
     r = requests.get(url, headers=headers)
     soup = BeautifulSoup(r.text, "html.parser")
-    if team['ncaa_id'] == 513:
-        boxscore_links = [l['href'] for l in soup.find_all('a') if '/boxscore/' in l['href']]
+    if team['ncaa_id'] in [463, 513, 742]:
+        boxscore_links = [f"https://huskers.com{l['href']}" for l in soup.find_all('a') if '/boxscore/' in l['href']]
     else:
         boxscore_links = [team['url'].split('/sports/')[0] + l['href'] for l in soup.find_all('a') if '/boxscore/' in l['href']]
     return boxscore_links
 
 def parse_boxscore_for_id(url):
+    print(url)
     headers = {
         "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
     }
     r = requests.get(url, headers=headers)
     soup = BeautifulSoup(r.text, "html.parser")
-    id = soup.find("wmt-stats-iframe")['path'].split('/')[-1]
+    tag = [x for x in soup.find_all("a", href=True) if "https://wmt.games/huskers/stats/match/full/" in x['href']]
+    id = tag[0].split('/')[-1]
+
+    #id = soup.find("wmt-stats-iframe")['path'].split('/')[-1]
     return id
 
 def get_plays(id, team, season):
