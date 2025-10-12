@@ -1,1833 +1,2244 @@
+#!/usr/bin/env python3
+"""
+NCAA Women's Basketball Roster Scraper - Refactored
+A clean, modular scraper for NCAA women's basketball rosters
+"""
+
 import os
 import re
 import csv
-import subprocess
 import json
 import argparse
+import logging
+import subprocess
+from typing import List, Dict, Any, Optional, Union
+from dataclasses import dataclass, asdict
+from pathlib import Path
+from urllib.parse import urljoin
+
 import requests
-from requests_html import HTMLSession
-import tldextract
-from selenium import webdriver
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.action_chains import ActionChains
-from selenium.webdriver.common.by import By
 from bs4 import BeautifulSoup
+import tldextract
 
-driver = webdriver.Firefox()
+# Optional imports for advanced scraping
+try:
+    from playwright.sync_api import sync_playwright
+    PLAYWRIGHT_AVAILABLE = True
+except ImportError:
+    PLAYWRIGHT_AVAILABLE = False
 
-HEADERS = {'No.': 'jersey', 'Name': 'name', 'NAME': 'name', 'Cl.': 'academic_year', 'Pos.': 'position', 'Ht.': 'height', 'Hometown/High School': 'town', 'Hometown/Last School': 'town', 'Num': 'jersey', 'Yr': 'academic_year', 'Ht': 'height', 'Hometown': 'town', 'High School/Previous School': 'high_school', 'Pos': 'position', 'Hometown/Previous School': 'town', 'Exp.': 'academic_year', 'Number': 'jersey', 'Position': 'position', 'HT.': 'height', 'YEAR': 'academic_year', 'HOMETOWN': 'town', 'LAST SCHOOL': 'high_school', 'Yr.': 'academic_year', 'Hometown/High School/Last School': 'town', 'Class': 'academic_year', 'High school': 'high_school', 'Previous College': 'previous_school', 'Cl.-Exp.': 'academic_year', '#': 'jersey', 'High School': 'high_school', 'Hometown / Previous School': 'town', 'No': "jersey", 'Hometown/High School/Previous School': 'town', 'Hometown / High School / Last College': 'town', 'Year': 'academic_year', 'Height': 'height', 'Previous School': 'high_school', 'Cl': 'academic_year', 'Prev. Coll.': 'previous_school', 'Hgt.': 'height', 'Hometown/ High School': 'town', 'Hometown/High School (Last School)': 'town', 'Hometown/High School (Former School)': 'town', 'Hometown / High School': 'town', 'YR': 'academic_year', 'POS': 'position', 'HT': 'height', 'Player': 'name', 'Hometown/High School/Previous College': 'town', 'Last School/Hometown': 'town', 'NO.': 'jersey', 'NAME': 'name', 'YR.': 'academic_year', 'POS.': 'position', 'HIGH SCHOOL': 'high_school', 'NO': 'jersey', 'HOMETOWN/HIGH SCHOOL': 'town', 'Academic Yr.': 'academic_year', 'Full Name': 'name', 'POSITION': 'position', 'Hometown / Previous School / High School': 'town', 'High School / Previous School': 'high_school'}
+try:
+    from requests_html import HTMLSession
+    REQUESTS_HTML_AVAILABLE = True
+except ImportError:
+    REQUESTS_HTML_AVAILABLE = False
 
-SEASONS = ['2024-25', '2023-24', '2022-23', '2021-22', '2020-21', '2019-20', '2018-19', '2017-18', '2016-17', '2015-16', '2014-15', '2013-14',
-'2012-13', '2011-12', '2010-11', '2009-10', '2008-09', '2007-08', '2006-07', '2005-06', '2004-05', '2003-04',
-'2002-03', '2001-02', '2000-01', '1999-00', '1998-99', '1997-98', '1996-97', '1995-96', '1994-95', '1993-94', '1992-93', '1991-92', '1990-91']
 
-class LazyDecoder(json.JSONDecoder):
-    def decode(self, s, **kwargs):
-        regex_replacements = [
-            (re.compile(r'([^\\])\\([^\\])'), r'\1\\\\\2'),
-            (re.compile(r',(\s*])'), r'\1'),
+# Configure logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
+
+
+@dataclass
+class Player:
+    """Player data structure"""
+    team_id: int
+    team: str
+    player_id: Optional[str] = None
+    name: str = ""
+    year: str = ""
+    hometown: str = ""
+    high_school: str = ""
+    previous_school: str = ""
+    height: str = ""
+    position: str = ""
+    jersey: str = ""
+    url: str = ""
+    season: str = ""
+
+    def to_dict(self) -> Dict[str, Any]:
+        """Convert to dictionary for CSV output"""
+        return asdict(self)
+
+
+class FieldExtractors:
+    """Common utilities for extracting player fields from text and HTML"""
+    
+    @staticmethod
+    def extract_jersey_number(text: str) -> str:
+        """Extract jersey number from various text patterns"""
+        patterns = [
+            r'Jersey Number (\d+)',
+            r'#(\d{1,2})\b',
+            r'\b(\d{1,2})\s+(?=\w)',  # Number followed by name
         ]
-        for regex, replacement in regex_replacements:
-            s = regex.sub(replacement, s)
-        return super().decode(s, **kwargs)
-
-def fetch_url(url):
-    r = requests.get(url)
-    return r
-
-def fetch_roster(base_url, season):
-    url = base_url + "/roster/" + season
-    r = fetch_url(url)
-#    if r.history:
-#        return None
-    return BeautifulSoup(r.text, features="html.parser")
-
-def fetch_wbkb_roster(base_url, season):
-    url = base_url.replace('index',season+'/roster?view=list')
-    headers = {
-        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
-    }
-    r = requests.get(url, headers=headers)
-    if r.status_code == 404:
-        html = None
-    else:
-        html = BeautifulSoup(r.text, features="html.parser")
-    return html
-
-def fetch_baskbl_roster(base_url, season):
-    if 'index' in base_url:
-        url = base_url.replace('index','roster/?season='+season)
-    elif base_url.endswith('w-baskbl'):
-        url = base_url+"/"+season+"/roster"
-    else:
-        url = base_url + 'roster/?season='+season
-    headers = {
-        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
-    }
-    r = requests.get(url, headers=headers)
-    if r.status_code == 404:
-        url = base_url.replace('index', "/"+season+"/roster")
-        r = requests.get(url, headers=headers)
-    return BeautifulSoup(r.text, features="html.parser")
-
-def parse_roster_baskbl(team, html, season):
-    roster = []
-    er = tldextract.extract(team['url'])
-    cols = [x.text.strip() for x in html.find('thead').find_all('th') if x.text.strip() if x.text.strip() != '']
-    if team['ncaa_id'] == 255:
-        cols = [x.text.strip() for x in html.find('thead').find_all('th') if x.text.strip() != 'Social']
-    new_cols = [HEADERS[c] for c in cols]
-    raw_players = [x for x in html.find('tbody').find_all('tr')]
-    for raw_player in raw_players:
-        [x.span.decompose() for x in raw_player.find_all('td') if x.find('span')]
-        raw_player_list = [x.text.strip() for x in raw_player.find_all('td')]
-        raw_player_list[4] = " ".join([x for x in raw_player_list[4].split()])
-        if len(raw_player_list) < len(new_cols):
-            name = " ".join([x.strip() for x in raw_player.find('a').text.replace("  ","").strip().split()])
-            raw_player_list.insert(1, name)
-        player_dict = dict(zip(new_cols, raw_player_list))
-        if 'high_school' not in player_dict:
-            player_dict['town'], player_dict['high_school'] = [x.strip() for x in player_dict['town'].split('/', maxsplit=1)]
-        if 'previous_school' not in player_dict:
-            player_dict['previous_school'] = None
-        roster.append({
-            'team_id': team['ncaa_id'],
-            'team': team['team'],
-            'id': None,
-            'name': player_dict['name'],
-            'year': player_dict['academic_year'],
-            'hometown': player_dict['town'],
-            'high_school': player_dict['high_school'],
-            'previous_school': player_dict['previous_school'],
-            'height': player_dict['height'],
-            'position': player_dict['position'],
-            'jersey': player_dict['jersey'],
-            'url': "https://www."+er.domain+"."+er.suffix+raw_player.find('a')['href'],
-            'season': season
-        })
-    return roster
-
-def parse_roster_wbkb(team, html, season):
-    roster = []
-    er = tldextract.extract(team['url'])
-    if team['ncaa_id'] == 30164:
-        headers = html.find_all('table')[1].find_all('tr')[0]
-    elif team['ncaa_id'] == 326:
-        headers = html.find_all('table')[12].find_all('tr')[0]
-    else:
-        headers = html.find('table').find_all('tr')[0]
-    cols = [x.text.strip() for x in headers if x.text.strip() != '']
-    if 'Pronounciation' in cols:
-        cols.remove('Pronounciation')
-    if 'Major' in cols:
-        cols.remove('Major')
-    if 'MAJOR' in cols:
-        cols.remove('MAJOR')
-    if 'Major/Minor' in cols:
-        cols.remove('Major/Minor')
-    if 'College' in cols:
-        cols.remove('College')
-    if 'Wt.' in cols:
-        cols.remove('Wt.')
-    if 'Ltrs.' in cols:
-        cols.remove('Ltrs.')
-    if 'Pronouns' in cols:
-        cols.remove('Pronouns')
-    new_cols = [HEADERS[c] for c in cols]
-    raw_players = [x for x in html.find('tbody').find_all('tr')]
-    for raw_player in raw_players:
-        [x.span.decompose() for x in raw_player.find_all('td') if x.find('span')]
-        raw_player_list = [x.text.strip() for x in raw_player.find_all('td') if x.text.replace('*','').replace('(she/her/hers)','').replace('she/her/hers','').strip() != '']
-        if team['ncaa_id'] == 1340 or team['ncaa_id'] == 760 or team['ncaa_id'] == 510 or team['ncaa_id'] == 227:
-            raw_name = raw_player.find('a').text.strip().replace("  "," ").replace("\t","").replace("\r","").replace("\n","").split(' ')
-            raw_player_list.insert(1, " ".join([x.strip() for x in raw_name if x !='']))
-        if team['ncaa_id'] == 73 and raw_player_list[0] == '43':
-            continue
-        if team['ncaa_id'] == 114 or team['ncaa_id'] == 1050 or team['ncaa_id'] == 1059 or team['ncaa_id'] == 1199 or team['ncaa_id'] == 22626 or team['ncaa_id'] == 24317 or team['ncaa_id'] == 30037 or team['ncaa_id'] == 341 or team['ncaa_id'] == 1315 or team['ncaa_id'] == 46 or team['ncaa_id'] == 641 or team['ncaa_id'] == 730 or team['ncaa_id'] == 75 or team['ncaa_id'] == 806 or team['ncaa_id'] == 817 or team['ncaa_id'] == 89 or team['ncaa_id'] == 145 or team['ncaa_id'] == 217 or team['ncaa_id'] == 247 or team['ncaa_id'] == 2713 or team['ncaa_id'] == 2798 or team['ncaa_id'] == 28594 or team['ncaa_id'] == 30002 or team['ncaa_id'] == 30225 or team['ncaa_id'] == 467 or team['ncaa_id'] == 567 or team['ncaa_id'] == 569 or team['ncaa_id'] == 137 or team['ncaa_id'] == 715 or team['ncaa_id'] == 779 or team['ncaa_id'] == 808 or team['ncaa_id'] == 8688 or team['ncaa_id'] == 379 or team['ncaa_id'] == 1461:
-            raw_player_list = [x.text.strip() for x in raw_player.find_all('td')]
-        if len(raw_player_list) == 4:
-            raw_player_list = [None] + raw_player_list
-        elif len(raw_player_list) < 4:
-            print(f"skipping {raw_player_list}")
-            continue
-        raw_player_list[4] = " ".join([x for x in raw_player_list[4].split()])
-        if team['ncaa_id'] == 1036:
-            if len(raw_player_list) == len(new_cols):
-                raw_player_list.pop()
-        if team['ncaa_id'] == 1096:
-            if len(raw_player_list) >= len(new_cols):
-                raw_player_list.pop()
-        if team['ncaa_id'] == 142:
-            del raw_player_list[2]
-        if any(major in raw_player_list for major in ['Nursing', 'Biology', 'Public Health', 'Exercise Science', 'Pre-Nursing', 'Economics', 'Physical Therapy', 'Psychology','Business Administration','Criminal Justice/Psychology', 'Forensic Science', 'Undecided', 'Management', 'Psychology / Management', 'Political Science', 'Psychology / Pre-Medicine', 'Undeclared', 'Biomedical Engineering', 'Business Marketing', 'Chemistry', 'Business', 'Computer Science', 'Business Management', 'AS', 'BIOE', 'CM', 'AE', 'ME', 'BM', 'CVE', 'BME', 'Information Technology', 'Criminal Justice', 'Elementary Education', 'Special Education', 'Criminal Justice/Sociology', 'Exercise and Sports Science', 'Political Science', 'Exercise Sports Science', 'Accounting', 'Psychology', 'Pre-Physical Therapy', 'MS-Counseling Psychology', 'Business Admin.', 'Pre-Medicine', 'MBA', 'Occupational Therapy', 'Pharmacy', 'Biomedical Sciences/Medical Laboratory Sciences', 'Pharm. & Healthcare Business', 'Biomedical Sciences', 'Exercise Science: Pre-Athletic Training', 'Business Administration: Sport Management', 'Exercise Science: Individual Program of Study', 'Applied Psychology & Human Services', 'Outdoor Education, Leadership, & Tourism: Adventure Education', 'Natural Science', 'Exercise Science: Pre-Physical Therapy', 'Childhood Education', 'Global Studies', 'Healthcare Mgmt.', 'Computer Info. Systems', 'Veterinary Science', 'Psychology & Business', 'Business & Psychology', 'Biology & Spanish', 'History & Spanish', 'Politics/Computer Science', 'Geology', 'Politics/Sociology', 'Economics', 'English/Psychology', 'Education', 'Communication Sciences and Disorders', 'Sociology', 'Social Work', 'Psychology / Criminal Justice', 'Undeclared / -', 'Dental Hygiene', 'Early Education/Psychology', 'Elementary Education/Psychology', 'Sports Management', 'Exploratory', 'Creative Writing and Publishing', 'Administration of Justice', 'Emergency Medical Services Management', 'Sport Psychology', 'Physical Education', 'Athletic Training', 'Physician Assistant', 'Sports and Exercise Psychology', 'Athletic Training', 'Sports Managment', 'Sport Management', 'Film and Interactive Media', 'Biochemistry', 'HSSP', 'Business/HSSP', 'Business/Psychology', 'Business/International and Global Studies', 'Industrial Design', 'Mechanical Engineering', 'Architecture', 'Applied Mathematics', 'Business Analytics and Information Management', 'General Business', 'Forensic Biology', 'Pharmaceutical Business', 'Health Sciences', 'Business Undecided', 'Civil Engineering', 'Health Science', 'Education & Studio Art', 'Political Science & Philosophy', 'Biochemistry & Molecular Biology', 'Education & English', 'Business Economics', 'Global & International Studies & French & Francophone Studies', 'Marketing & Sales', 'Math', 'Sports Broadcasting', 'General Studies', 'Occupational Studies', 'Elementary Education/Mathematics', 'Liberal Studies', 'Communication', 'Elementary Education/Sociology', 'Public Health', 'Elementary Education/History', 'Accounting & Marketing', 'Biology/Biotechnology', 'Liberal Studies/Education', 'Entrepreneurship & Marketing', 'Engineering', 'Finance', 'English', 'Music', 'UX', 'NU', 'BE', 'Pre-Veterinary', 'Forensic Psychology', 'Exercise Physiology', 'Outdoor Education, Leadership, & Tourism', 'Recreation & Sports Mgmt.', 'Liberal Arts', 'French', 'Marketing & Communication', 'Dental Hygiene', 'Early Education/Psychology', 'Mathematics and Computer Technology', 'Pre-Physician Assistant', 'Applied Sciences', 'Computer Information Systems', 'Forensic Chemistry', 'Elementary Education and Psychology',"Pre- Physician's Assistant", 'Professional Communications (Graduate)', 'Environmental Science', 'Welding', 'Business Management & Marketing']):
-            if team['ncaa_id'] == 186:
-                del raw_player_list[4]
+        
+        for pattern in patterns:
+            match = re.search(pattern, text)
+            if match:
+                return match.group(1)
+        return ''
+    
+    @staticmethod
+    def extract_height(text: str) -> str:
+        """Extract height from various formats"""
+        patterns = [
+            r"(\d+'\s*\d+\")",     # 6'2"
+            r"(\d+[′']\s*\d+[″\"])", # Unicode quotes
+            r"Height:\s*([^,\n]+)", # Height: label format
+        ]
+        
+        for pattern in patterns:
+            match = re.search(pattern, text)
+            if match:
+                return match.group(1).strip()
+        return ''
+    
+    @staticmethod
+    def extract_position(text: str) -> str:
+        """Extract position from text"""
+        # Look for position patterns
+        position_match = re.search(r'\b([GFC](?:/[GFC])?)\b', text)
+        if position_match:
+            return position_match.group(1)
+        
+        # Look for full position names
+        text_upper = text.upper()
+        if 'GUARD' in text_upper:
+            return 'G'
+        elif 'FORWARD' in text_upper:
+            return 'F' 
+        elif 'CENTER' in text_upper:
+            return 'C'
+        
+        return ''
+    
+    @staticmethod
+    def normalize_academic_year(year_text: str) -> str:
+        """Normalize academic year abbreviations to full forms"""
+        if not year_text:
+            return ''
+        
+        year_map = {
+            'Fr': 'Freshman', 'Fr.': 'Freshman',
+            'So': 'Sophomore', 'So.': 'Sophomore', 
+            'Jr': 'Junior', 'Jr.': 'Junior',
+            'Sr': 'Senior', 'Sr.': 'Senior',
+            'Gr': 'Graduate', 'Gr.': 'Graduate Student',
+            'R-Fr': 'Redshirt Freshman', 'R-Fr.': 'Redshirt Freshman',
+            'R-So': 'Redshirt Sophomore', 'R-So.': 'Redshirt Sophomore',
+            'R-Jr': 'Redshirt Junior', 'R-Jr.': 'Redshirt Junior',
+            'R-Sr': 'Redshirt Senior', 'R-Sr.': 'Redshirt Senior'
+        }
+        
+        cleaned = year_text.strip()
+        return year_map.get(cleaned, year_text)
+    
+    @staticmethod
+    def parse_hometown_school(text: str) -> Dict[str, str]:
+        """Parse hometown and school information from combined text"""
+        result = {'hometown': '', 'high_school': '', 'previous_school': ''}
+        
+        if not text:
+            return result
+        
+        # Clean the text
+        text = re.sub(r'\s*(Instagram|Twitter|Opens in a new window).*$', '', text)
+        text = re.sub(r'\s+', ' ', text).strip()
+        
+        # Pattern: City, State followed by school info
+        state_pattern = r'(.+?),\s*([A-Z][a-z]+\.?|[A-Z]{2})\s+(.*)'
+        match = re.match(state_pattern, text)
+        
+        if match:
+            city, state, school_info = match.groups()
+            result['hometown'] = f"{city.strip()}, {state.strip()}"
+            
+            # Try to separate high school from previous school
+            college_indicators = ['University', 'College', 'State', 'Tech']
+            for indicator in college_indicators:
+                if indicator in school_info:
+                    parts = school_info.split(indicator, 1)
+                    result['high_school'] = parts[0].strip()
+                    result['previous_school'] = (indicator + parts[1]).strip()
+                    break
             else:
-                raw_player_list.pop()
-        if len(raw_player_list) < len(new_cols):
-            name = " ".join([x.strip() for x in raw_player.find('a').text.replace("  ","").strip().split()])
-            raw_player_list.insert(1, name)
-        player_dict = dict(zip(new_cols, raw_player_list))
-        if 'high_school' not in player_dict:
-            if team['ncaa_id'] == 2713:
-                player_dict['high_school'] = None
+                result['high_school'] = school_info.strip()
+        else:
+            result['hometown'] = text
+        
+        return result
+    
+    @staticmethod
+    def clean_text(text: str) -> str:
+        """Clean and normalize text"""
+        if not text:
+            return ""
+
+        # Remove extra whitespace and normalize
+        cleaned = re.sub(r'\s+', ' ', text.strip())
+
+        # Remove common unwanted elements
+        cleaned = re.sub(r'\s*(Full Bio|Instagram|Twitter|Opens in a new window).*$', '', cleaned)
+
+        # Strip common labelled prefixes that appear on some smaller sites (e.g. "Class: Freshman")
+        cleaned = FieldExtractors.clean_field_labels(cleaned)
+
+        return cleaned
+
+    @staticmethod
+    def clean_field_labels(text: str) -> str:
+        """Remove label prefixes like 'Class:', 'Hometown:', 'High school:', 'Ht.:', 'Pos.:'
+
+        This helps with sites that dump labelled content into table cells or bio blocks.
+        """
+        if not text:
+            return text
+
+        # Common label patterns to strip
+        patterns = [
+            r'\bClass:\s*', r'\bHometown:\s*', r'\bHigh school:\s*', r'\bPrevious College:\s*',
+            r'\bPrevious School:\s*', r'\bHt\.:\s*', r'\bPos\.:\s*', r'^High school:\s*', r'^Hometown:\s*'
+        ]
+
+        for p in patterns:
+            text = re.sub(p, '', text, flags=re.IGNORECASE).strip()
+
+        # Remove accidental duplicate full-name repeats like "Harmony Sullivan Harmony Sullivan"
+        words = text.split()
+        if len(words) >= 4:
+            # if first half equals second half, collapse
+            half = len(words) // 2
+            if words[:half] == words[half:half*2]:
+                text = ' '.join(words[:half])
+
+        return text
+
+
+class SeasonVerifier:
+    """Centralized season verification logic"""
+    
+    @staticmethod
+    def verify_season_on_page(html, expected_season: str, entity_type: str = 'player') -> bool:
+        """Verify that the roster page is for the expected season
+        
+        For players, requires both season and 'roster' text
+        For coaches, only requires season text (since coaching pages may not use 'roster')
+        """
+        try:
+            elements_to_check = []
+            
+            # Check h1, h2, and title elements
+            for tag in ['h1', 'h2']:
+                elements = html.find_all(tag) if hasattr(html, 'find_all') else []
+                elements_to_check.extend(elements)
+            
+            title = html.find('title') if hasattr(html, 'find') else None
+            if title:
+                elements_to_check.append(title)
+            
+            for element in elements_to_check:
+                text = element.get_text(strip=True) if hasattr(element, 'get_text') else str(element)
+                # For coaches, just check for season; for players, also require 'roster'
+                if entity_type == 'coach':
+                    if expected_season in text:
+                        logger.info(f"Season verification successful - found: '{text.strip()}'")
+                        return True
+                else:
+                    if expected_season in text and 'roster' in text.lower():
+                        logger.info(f"Season verification successful - found: '{text.strip()}'")
+                        return True
+                    
+            if entity_type == 'coach':
+                logger.info(f"Season verification failed - no header found with '{expected_season}'")
             else:
-                player_dict['town'], player_dict['high_school'] = [x.strip() for x in player_dict['town'].split('/', maxsplit=1)]
-        if 'previous_school' not in player_dict:
-            player_dict['previous_school'] = None
-        #print(player_dict)
-        roster.append({
-            'team_id': team['ncaa_id'],
-            'team': team['team'],
-            'id': None,
-            'name': player_dict['name'],
-            'year': player_dict['academic_year'],
-            'hometown': player_dict['town'],
-            'high_school': player_dict['high_school'],
-            'previous_school': player_dict['previous_school'],
-            'height': player_dict['height'],
-            'position': player_dict['position'],
-            'jersey': player_dict['jersey'],
-            'url': "https://www."+er.domain+"."+er.suffix+raw_player.find('a')['href'],
-            'season': season
-        })
-    return roster
-
-def fetch_and_parse_clemson(team, season):
-    roster = []
-    er = tldextract.extract(team['url'])
-    url = team['url'] + "roster/season/" + season[0:4]
-    r = fetch_url(url)
-    html = BeautifulSoup(r.text, features="html.parser")
-    cols = [x.text for x in html.find_all('th') if not x.text in ['MAJOR']]
-    cols = cols[0:-4]
-    new_cols = [HEADERS[c] for c in cols]
-    players = html.find('table').find_all('tr')[1:]
-    for player in players:
-        raw_player_list = [x.text.strip() for x in player.find_all('td')][0:-2]
-        player_dict = dict(zip(new_cols, raw_player_list))
-        roster.append({
-            'team_id': team['ncaa_id'],
-            'team': team['team'],
-            'id': None,
-            'name': player_dict['name'],
-            'year': player_dict['academic_year'],
-            'hometown': player_dict['town'],
-            'high_school': None,
-            'previous_school': None,
-            'height': player_dict['height'],
-            'position': player_dict['position'],
-            'jersey': player_dict['jersey'],
-            'url': "https://www."+er.domain+"."+er.suffix+player.find('a')['href'],
-            'season': season
-        })
-    return roster
-
-def fetch_and_parse_vandy(team, season):
-    name = team['team']
-    ncaa_id = team['ncaa_id']
-
-    # JavaScript to be executed by shot-scraper
-    javascript_code = """
-    Array.from(document.querySelectorAll('#players-table tbody tr'), el => {
-     const id = '';
-     const name = el.querySelectorAll('td')[1].innerText;
-     const year = el.querySelectorAll('td')[3].innerText;
-     const height = el.querySelectorAll('td')[4].innerText;
-     const position = el.querySelectorAll('td')[2].innerText;
-     const hometown = el.querySelectorAll('td')[5].innerText;
-     hs_el = el.querySelectorAll('td')[6];
-     const high_school = hs_el ? hs_el.innerText : '';
-     const previous_school = '';
-     const jersey = el.querySelectorAll('td')[0].innerText;
-     const url = el.querySelectorAll('td')[1].querySelector('a')['href']
-     return {id, name, year, hometown, high_school, previous_school, height, position, jersey, url};
-    })
-    """
-
-    roster = []
-    url = team['url'] + "/roster/season/" + season
-    # Execute shot-scraper with the given JavaScript
-    try:
-        result = subprocess.check_output(['shot-scraper', 'javascript', url, javascript_code, "--user-agent", "Firefox"])
-        parsed_data = json.loads(result)
-
-        for player in parsed_data:
-            player['team_id'] = ncaa_id
-            player['team'] = name
-            player['season'] = season
-
-        return parsed_data
-    except:
-        raise
-
-def fetch_and_parse_miami(team, season):
-    name = team['team']
-    ncaa_id = team['ncaa_id']
-
-    # JavaScript to be executed by shot-scraper
-    javascript_code = """
-    Array.from(document.querySelectorAll('#players-table tbody tr'), el => {
-     const id = '';
-     const name = el.querySelectorAll('td')[1].innerText;
-     const year = el.querySelectorAll('td')[4].innerText;
-     const height = el.querySelectorAll('td')[3].innerText;
-     const position = el.querySelectorAll('td')[2].innerText;
-     const hometown = el.querySelectorAll('td')[5].innerText;
-     hs_el = el.querySelectorAll('td')[6];
-     const high_school = hs_el ? hs_el.innerText : '';
-     ps_el = el.querySelectorAll('td')[7];
-     const previous_school = ps_el ? ps_el.innerText : '';
-     const jersey = el.querySelectorAll('td')[0].innerText;
-     const url = el.querySelectorAll('td')[1].querySelector('a')['href']
-     return {id, name, year, hometown, high_school, previous_school, height, position, jersey, url};
-    })
-    """
-
-    roster = []
-    url = team['url'] + "/roster/season/" + season
-    # Execute shot-scraper with the given JavaScript
-    try:
-        result = subprocess.check_output(['shot-scraper', 'javascript', url, javascript_code, "--user-agent", "Firefox"])
-        parsed_data = json.loads(result)
-
-        for player in parsed_data:
-            player['team_id'] = ncaa_id
-            player['team'] = name
-            player['season'] = season
-
-        return parsed_data
-    except:
-        raise
-
-def fetch_and_parse_byu(team, season):
-    name = team['team']
-    ncaa_id = team['ncaa_id']
-
-    # JavaScript to be executed by shot-scraper
-    javascript_code = """
-    Array.from(document.querySelectorAll('.roster__players .roster-card-item'), el => {
-     const id = '';
-     const name = el.querySelector('h3').innerText;
-     const year = el.querySelectorAll('.roster-player-card-profile-field__value')[1].innerText;
-     const height = el.querySelectorAll('.roster-player-card-profile-field__value')[0].innerText;
-     const position = el.querySelector('.roster-card-item__position').innerText;
-     const hometown = el.querySelector(".roster-player-card-profile-field__value--hometown").innerText;
-     hs_el = el.querySelector(".roster-player-card-profile-field__value--previous-school");
-     const high_school = hs_el ? hs_el.innerText : '';
-     const previous_school = '';
-     const jersey = el.querySelector(".roster-card-item__jersey-number").innerText;
-     const url =el.querySelector("a")['href'];
-     return {id, name, year, hometown, high_school, previous_school, height, position, jersey, url};
-    })
-    """
-
-    roster = []
-    url = team['url'] + "/roster/season/" + season
-    # Execute shot-scraper with the given JavaScript
-    try:
-        result = subprocess.check_output(['shot-scraper', 'javascript', url, javascript_code, "--user-agent", "Firefox"])
-        parsed_data = json.loads(result)
-
-        for player in parsed_data:
-            player['team_id'] = ncaa_id
-            player['team'] = name
-            player['season'] = season
-
-        return parsed_data
-    except:
-        raise
-
-def fetch_and_parse_sanjose(team, season):
-    name = team['team']
-    ncaa_id = team['ncaa_id']
-
-    # JavaScript to be executed by shot-scraper
-    javascript_code = """
-    Array.from(document.querySelectorAll('.roster__players .roster-card-item'), el => {
-     const id = '';
-     const name = el.querySelector('.roster-card-item__title-link').innerText;
-     const year = el.querySelectorAll('.roster-player-card-profile-field__value')[1].innerText;
-     const height = el.querySelectorAll('.roster-player-card-profile-field__value')[0].innerText;
-     const position = el.querySelector('.roster-card-item__position').innerText;
-     const hometown = el.querySelector(".roster-player-card-profile-field__value--hometown").innerText;
-     hs_el = el.querySelector(".roster-player-card-profile-field__value--school");
-     const high_school = hs_el ? hs_el.innerText : '';
-     ps_el = el.querySelector(".roster-player-card-profile-field__value--previous_school");
-     const previous_school = ps_el ? ps_el.innerText : '';
-     const jersey = el.querySelector(".roster-card-item__jersey-number").innerText;
-     const url =el.querySelector("a")['href'];
-     return {id, name, year, hometown, high_school, previous_school, height, position, jersey, url};
-    })
-    """
-
-    roster = []
-    url = team['url'] + "/roster/season/" + season
-    # Execute shot-scraper with the given JavaScript
-    try:
-        result = subprocess.check_output(['shot-scraper', 'javascript', url, javascript_code, "--user-agent", "Firefox"])
-        parsed_data = json.loads(result)
-
-        for player in parsed_data:
-            player['team_id'] = ncaa_id
-            player['team'] = name
-            player['season'] = season
-
-        return parsed_data
-    except:
-        raise
-
-def fetch_and_parse_iowa_state(team, season):
-    roster = []
-    er = tldextract.extract(team['url'])
-    url = team['url'] + "/roster/" + season
-    session = HTMLSession()
-    r = session.get(url)
-    r.html.render(timeout=30)
-    players = r.html.find('li.sidearm-roster-list-item')
-    new_cols = ['number', 'name', ]
-    for player in players:
-        roster.append({
-            'team_id': team['ncaa_id'],
-            'team': team['team'],
-            'id': None,
-            'name': player.find('a', first=True).text,
-            'year': player.find('span.sidearm-roster-list-item-year', first=True).text,
-            'hometown': player.find('div.sidearm-roster-list-item-hometown', first=True).text,
-            'high_school': player.find('span.sidearm-roster-list-item-highschool', first=True).text,
-            'previous_school': None,
-            'height': player.find('span.sidearm-roster-list-item-height', first=True).text,
-            'position': player.find('span.sidearm-roster-list-item-position', first=True).text,
-            'jersey': player.find('span')[0].text,
-            'url': "https://www."+er.domain+"."+er.suffix+player.find('a', first=True).attrs['href'],
-            'season': season
-        })
-    return roster
-
-def fetch_and_parse_temple(team, season):
-    roster = []
-    er = tldextract.extract(team['url'])
-    url = team['url'] + "/roster/" + season
-    session = HTMLSession()
-    r = session.get(url)
-    r.html.render(timeout=30)
-    players = r.html.find('div.s-person-card')
-    for player in players:
-        roster.append({
-            'team_id': team['ncaa_id'],
-            'team': team['team'],
-            'id': None,
-            'name': player.find('a')[1].text,
-            'year': player.find('span.s-person-details__bio-stats-item')[1].text,
-            'hometown': player.find('span.s-person-card__content__person__location-item')[1].text,
-            'high_school': player.find('span.s-person-card__content__person__location-item')[0].text,
-            'previous_school': None,
-            'height': player.find('span.s-person-details__bio-stats-item')[2].text,
-            'position': player.find('span.s-person-details__bio-stats-item')[0].text,
-            'jersey': player.find('a', first=True).text,
-            'url': "https://www."+er.domain+"."+er.suffix+player.find('a', first=True).attrs['href'],
-            'season': season
-        })
-    return roster
-
-def fetch_and_parse_boise_state(team, season):
-    ncaa_id = team['ncaa_id']
-    name = team['team']
-
-    # JavaScript to be executed by shot-scraper
-    javascript_code = """
-    Array.from(document.querySelectorAll('.s-person-card'), el => {
-        const id = '';
-        const name = el.querySelector('.s-person-card__header__person-details-personal').innerText;
-        const year = '';
-        const height = el.querySelectorAll('.s-person-card__content__person-details-bio-stats-item')[1].innerText.replace("Height\n ", "");
-        const position = el.querySelectorAll('.s-person-card__content__person-details-bio-stats-item')[0].innerText.replace("Position\n", "");
-        const hometown = el.querySelectorAll('.s-person-card__content__person-details-location-item')[0].innerText.replace('Hometown\n','');
-        let hs_el = el.querySelectorAll('.s-person-card__content__person-details-location-item')[1];
-        const high_school = hs_el ? hs_el.innerText.replace('Last School\n ','') : '';
-        const previous_school = '';
-        let j = el.querySelector('.s-stamp__text');
-        const jersey = j ? j.innerText.replace('Jersey Number\n','') : '';
-        const url = el.querySelector('a')['href'];
-        return {id, name, year, hometown, high_school, previous_school, height, position, jersey, url};
-    })
-    """
-
-    roster = []
-    url = team['url'] + "/roster/" + season
-    # Execute shot-scraper with the given JavaScript
-    try:
-        result = subprocess.check_output(['shot-scraper', 'javascript', url, javascript_code, "--user-agent", "Firefox"])
-        parsed_data = json.loads(result)
-
-        for player in parsed_data:
-            player['team_id'] = ncaa_id
-            player['team'] = name
-            player['season'] = season
-
-        return parsed_data
-    except:
-        raise
-
-def fetch_and_parse_wyoming(team, season):
-    roster = []
-    er = tldextract.extract(team['url'])
-    url = team['url'] + "/roster/" + season
-    session = HTMLSession()
-    r = session.get(url)
-    r.html.render(timeout=30)
-    players = r.html.find('li.sidearm-roster-list-item')
-    for player in players:
-        roster.append({
-            'team_id': team['ncaa_id'],
-            'team': team['team'],
-            'id': None,
-            'name': player.find('a', first=True).attrs['title'],
-            'year': player.find('span.sidearm-roster-list-item-year', first=True).text,
-            'hometown': player.find('span.sidearm-roster-list-item-hometown', first=True).text,
-            'high_school': player.find('span.sidearm-roster-list-item-highschool', first=True).text if player.find('span.sidearm-roster-list-item-highschool', first=True) else None,
-            'previous_school': None,
-            'height': player.find('span.sidearm-roster-list-item-height', first=True).text,
-            'position': player.find('span.sidearm-roster-list-item-position', first=True).text,
-            'jersey': player.find('div.sidearm-roster-list-item-number', first=True).text,
-            'url': "https://www."+er.domain+"."+er.suffix+player.find('a', first=True).attrs['href'],
-            'season': season
-        })
-    return roster
-
-def fetch_and_parse_nebraska(team, season):
-    name = team['team']
-    ncaa_id = team['ncaa_id']
-
-    # JavaScript to be executed by shot-scraper
-    javascript_code = """
-    Array.from(document.querySelectorAll('#players .table--roster tbody tr'), el => {
-     const id = '';
-     const name = el.querySelectorAll('td')[1].innerText;
-     const year = el.querySelectorAll('td')[4].innerText;
-     const height = el.querySelectorAll('td')[2].innerText;
-     const position = el.querySelectorAll('td')[3].innerText;
-     const hometown = el.querySelectorAll('td')[5].innerText;
-     const high_school = el.children[6].innerText.split('/')[0];
-     let prev_school = el.children[6].innerText.split('/');
-     const previous_school = prev_school[1] ? prev_school[1] : '';
-     const jersey = el.querySelectorAll('td')[0].innerText;
-     const url = el.querySelectorAll('td')[1].querySelector('a')['href']
-     return {id, name, year, hometown, high_school, previous_school, height, position, jersey, url};
-    })
-    """
-
-    roster = []
-    url = team['url'] + "/roster/season/" + season
-    # Execute shot-scraper with the given JavaScript
-    try:
-        result = subprocess.check_output(['shot-scraper', 'javascript', url, javascript_code, "--user-agent", "Firefox"])
-        parsed_data = json.loads(result)
-
-        for player in parsed_data:
-            player['team_id'] = ncaa_id
-            player['team'] = name
-            player['season'] = season
-
-        return parsed_data
-    except:
-        raise
-
-def fetch_and_parse_notre_dame(team, season):
-    name = team['team']
-    ncaa_id = team['ncaa_id']
-
-    # JavaScript to be executed by shot-scraper
-    javascript_code = """
-    Array.from(document.querySelectorAll('#players-table tbody tr'), el => {
-     const id = '';
-     const name = el.querySelectorAll('td')[1].innerText;
-     const year = el.querySelectorAll('td')[4].innerText;
-     const height = el.querySelectorAll('td')[3].innerText;
-     const position = el.querySelectorAll('td')[2].innerText;
-     const hometown = el.querySelectorAll('td')[6].innerText;
-     const high_school = el.children[7].innerText.split('/')[0];
-     let prev_school = el.children[7].innerText.split('/');
-     const previous_school = prev_school[1] ? prev_school[1] : '';
-     const jersey = el.querySelectorAll('td')[0].innerText;
-     const url = el.querySelectorAll('td')[1].querySelector('a')['href']
-     return {id, name, year, hometown, high_school, previous_school, height, position, jersey, url};
-    })
-    """
-
-    roster = []
-    url = team['url'] + "/roster/season/" + season
-    # Execute shot-scraper with the given JavaScript
-    try:
-        result = subprocess.check_output(['shot-scraper', 'javascript', url, javascript_code, "--user-agent", "Firefox"])
-        parsed_data = json.loads(result)
-
-        for player in parsed_data:
-            player['team_id'] = ncaa_id
-            player['team'] = name
-            player['season'] = season
-
-        return parsed_data
-    except:
-        raise
-
-def fetch_and_parse_iowa(team, season):
-    roster = []
-    er = tldextract.extract(team['url'])
-    url = team['url'] + "/roster/" + "season/" + season
-    r = requests.get(url)
-    html = BeautifulSoup(r.text, features="html.parser")
-    players = html.find_all('div', class_="rosters__table")[0].find('table').find_all('tr')[1:]
-    for player in players:
-        roster.append({
-            'team_id': team['ncaa_id'],
-            'team': team['team'],
-            'id': None,
-            'name': player.find_all('td')[1].text.strip(),
-            'year': player.find_all('td')[4].text,
-            'hometown': player.find_all('td')[5].text.strip(),
-            'high_school': player.find_all('td')[6].text.strip(),
-            'previous_school': None,
-            'height': player.find_all('td')[3].text,
-            'position': player.find_all('td')[2].text,
-            'jersey': player.find_all('td')[0].text,
-            'url': player.find('a')['href'],
-            'season': season
-        })
-    return roster
-
-def fetch_and_parse_south_carolina(team, season):
-    roster = []
-    er = tldextract.extract(team['url'])
-    url = team['url'] + "/roster/season/" + season
-    driver.get(url)
-    button = driver.find_element(By.XPATH, "//button[text()='Accept']")
-    button.click()
-    link = driver.find_element(By.LINK_TEXT, 'List')
-    driver.execute_script("arguments[0].scrollIntoView(true);", link)
-    WebDriverWait(driver, 3).until(EC.element_to_be_clickable((By.LINK_TEXT, 'List')))
-    link.click()
-    html = BeautifulSoup(driver.page_source, features="html.parser")
-    players = html.find('table', id="players-table").find_all('tr')[1:]
-    for player in players:
-        roster.append({
-            'team_id': team['ncaa_id'],
-            'team': team['team'],
-            'id': None,
-            'name': player.find_all('td')[1].text.strip(),
-            'year': player.find_all('td')[5].text,
-            'hometown': player.find_all('td')[6].text.strip(),
-            'high_school': player.find_all('td')[7].text.strip(),
-            'previous_school': player.find_all('td')[8].text.strip(),
-            'height': player.find_all('td')[3].text,
-            'position': player.find_all('td')[2].text,
-            'jersey': player.find_all('td')[0].text,
-            'url': player.find('a')['href'],
-            'season': season
-        })
-    return roster
-
-def fetch_and_parse_virginia_tech(team, season):
-    name = team['team']
-    ncaa_id = team['ncaa_id']
-
-    # JavaScript to be executed by shot-scraper
-    javascript_code = """
-    Array.from(document.querySelectorAll('.sidearm-roster-list-item'), el => {
-     const id = '';
-     const name = el.querySelector('.sidearm-roster-list-item-name').innerText;
-     const year = el.querySelector('.sidearm-roster-list-item-year').innerText;
-     const height = el.querySelector('.sidearm-roster-list-item-height').innerText;
-     const position = el.querySelector('.sidearm-roster-list-item-position').innerText;
-     const hometown = el.querySelector('.sidearm-roster-list-item-hometown').innerText;
-     const high_school = el.querySelector('.sidearm-roster-list-item-highschool').innerText;
-     let prev_school = el.querySelector('.sidearm-roster-list-item-previous-school');
-     const previous_school = prev_school ? prev_school.innerText : '';
-     const jersey = el.querySelector('.sidearm-roster-list-item-number').innerText;
-     const url = el.querySelector('a')['href'];
-     return {id, name, year, hometown, high_school, previous_school, height, position, jersey, url};
-    })
-    """
-
-    roster = []
-    url = team['url'] + "/roster/" + season
-    # Execute shot-scraper with the given JavaScript
-    try:
-        result = subprocess.check_output(['shot-scraper', 'javascript', url, javascript_code, "--user-agent", "Firefox"])
-        parsed_data = json.loads(result)
-
-        for player in parsed_data:
-            player['team_id'] = ncaa_id
-            player['team'] = name
-            player['season'] = season
-
-        return parsed_data
-    except:
-        raise
-
-def fetch_and_parse_kansas_state(team, season):
-    ncaa_id = team['ncaa_id']
-    name = team['team']
-
-    # JavaScript to be executed by shot-scraper
-    javascript_code = """
-    Array.from(document.querySelectorAll('li.sidearm-roster-player'), el => {
-        const id = el.attributes['data-player-id'].textContent;
-        const name = el.querySelector('h3').innerText;
-        const year = el.querySelector('.sidearm-roster-player-academic-year').innerText;
-        const height = el.querySelector('.sidearm-roster-player-height').innerText;
-        const position = el.querySelector('.sidearm-roster-player-position-long-short').innerText.trim();
-        const hometown = el.querySelector('.sidearm-roster-player-hometown').innerText;
-        hs_el = el.querySelector('.sidearm-roster-player-highschool');
-        const high_school = hs_el ? hs_el.innerText : '';
-        ps_el = el.querySelector('.sidearm-roster-player-previous-school');
-        const previous_school = ps_el ? ps_el.innerText : '';
-        const jersey = el.querySelector('.sidearm-roster-player-jersey-number').innerText;
-        const url = 'https://www.kstatesports.com' + el.attributes['data-player-url'].textContent;
-        return {id, name, year, hometown, high_school, previous_school, height, position, jersey, url};
-    })
-    """
-
-    roster = []
-    url = team['url'] + "/roster/" + season
-    # Execute shot-scraper with the given JavaScript
-    try:
-        result = subprocess.check_output(['shot-scraper', 'javascript', url, javascript_code, "--user-agent", "Firefox"])
-        parsed_data = json.loads(result)
-
-        for player in parsed_data:
-            player['team_id'] = ncaa_id
-            player['team'] = name
-            player['season'] = season
-
-        return parsed_data
-    except:
-        raise
-
-def fetch_and_parse_valpo(team, season):
-    ncaa_id = team['ncaa_id']
-    name = team['team']
-
-    # JavaScript to be executed by shot-scraper
-    javascript_code = """
-    Array.from(document.querySelector('table').querySelectorAll('tr:not(:first-child)'), el => {
-        const id = '';
-        const name = el.querySelectorAll('td')[1].innerText;
-        const year = el.querySelectorAll('td')[4].innerText;
-        const height = el.querySelectorAll('td')[3].innerText;
-        const position = el.querySelectorAll('td')[2].innerText;
-        const hometown = el.querySelectorAll('td')[5].innerText;
-        const high_school = el.querySelectorAll('td')[6].innerText;
-        const previous_school = "";
-        const jersey = el.querySelectorAll('td')[0].innerText;
-        const url = el.querySelectorAll('td')[1].querySelector('a')['href'];
-        return {id, name, year, hometown, high_school, previous_school, height, position, jersey, url};
-    })
-    """
-
-    roster = []
-    url = team['url'] + "/roster/" + season + "/?view=list"
-    # Execute shot-scraper with the given JavaScript
-    try:
-        result = subprocess.check_output(['shot-scraper', 'javascript', url, javascript_code, "--user-agent", "Firefox"])
-        parsed_data = json.loads(result)
-
-        for player in parsed_data:
-            player['team_id'] = ncaa_id
-            player['team'] = name
-            player['season'] = season
-
-        return parsed_data
-    except:
-        raise
-
-
-def fetch_and_parse_illinois(team, season):
-    ncaa_id = team['ncaa_id']
-    name = team['team']
-
-    # JavaScript to be executed by shot-scraper
-    javascript_code = """
-    Array.from(document.querySelectorAll('.s-table-body__row'), el => {
-        const id = '';
-        const name = el.querySelectorAll('td')[2].innerText;
-        const year = el.querySelectorAll('td')[4].innerText;
-        const height = el.querySelectorAll('td')[2].innerText;
-        const position = el.querySelectorAll('td')[3].innerText;
-        const hometown = el.querySelectorAll('td')[5].innerText;
-        const high_school = el.querySelectorAll('td')[6].innerText;
-        const previous_school = el.querySelectorAll('td')[9].innerText;
-        const jersey = el.querySelectorAll('td')[1].innerText;
-        const url = el.querySelectorAll('td')[2].querySelector('a')['href'];
-        return {id, name, year, hometown, high_school, previous_school, height, position, jersey, url};
-    })
-    """
-
-    roster = []
-    url = team['url'] + "/roster/" + season
-    # Execute shot-scraper with the given JavaScript
-    try:
-        result = subprocess.check_output(['shot-scraper', 'javascript', url, javascript_code, "--user-agent", "Firefox"])
-        parsed_data = json.loads(result)
-
-        for player in parsed_data:
-            player['team_id'] = ncaa_id
-            player['team'] = name
-            player['season'] = season
-
-        return parsed_data
-    except:
-        raise
-
-
-def fetch_and_parse_kentucky(team, season):
-    name = team['team']
-    ncaa_id = team['ncaa_id']
-
-    # JavaScript to be executed by shot-scraper
-    javascript_code = """
-    Array.from(document.querySelectorAll('div[itemprop="athlete"]') , el => {
-     const id = '';
-     const name = el.querySelector('h3').innerText;
-     const year = el.querySelector('.roster-item__info').innerText.split('-')[1].split(' ')[2];
-     const height = el.querySelector('.roster-item__info').innerText.split('-')[1].split(' ')[1];
-     const position = el.querySelector('.roster-item__info').innerText.split('-')[0].trim();
-     const hometown = '';
-     const high_school = '';
-     let prev_school = el.querySelector('.sidearm-roster-list-item-previous-school');
-     const previous_school = prev_school ? prev_school.innerText : '';
-     const jersey = el.querySelector('.roster-item__number').innerText;
-     const url = el.querySelector('a')['href'];
-     return {id, name, year, hometown, high_school, previous_school, height, position, jersey, url};
-    })
-    """
-
-    roster = []
-    url = team['url'] + "/roster/season/" + season
-    # Execute shot-scraper with the given JavaScript
-    try:
-        result = subprocess.check_output(['shot-scraper', 'javascript', url, javascript_code, "--user-agent", "Firefox"])
-        parsed_data = json.loads(result)
-
-        for player in parsed_data:
-            player['team_id'] = ncaa_id
-            player['team'] = name
-            player['season'] = season
-
-        return parsed_data
-    except:
-        raise
-
-def shotscraper_list_item(team, season):
-    # baylor
-    name = team['team']
-    ncaa_id = team['ncaa_id']
-
-    # JavaScript to be executed by shot-scraper
-    javascript_code = """
-        Array.from(document.querySelectorAll('.sidearm-roster-list-item'), el => {
-         const id = '';
-         const name = el.querySelector('.sidearm-roster-player-name').innerText;
-         const year = el.querySelector('.sidearm-roster-list-item-year').innerText;
-         const height = el.querySelector('.sidearm-roster-list-item-height').innerText;
-         const position = el.querySelector('.sidearm-roster-list-item-position').innerText;
-         const hometown = el.querySelector('.sidearm-roster-list-item-hometown').innerText;
-         const high_school = el.querySelector('.sidearm-roster-list-item-highschool').innerText;
-         let prev_school = el.querySelector('.sidearm-roster-list-item-previous-school');
-         const previous_school = prev_school ? prev_school.innerText : '';
-         const jersey = el.querySelector('.sidearm-roster-list-item-photo-number').innerText;
-         const url = el.querySelector('.sidearm-roster-player-name a')['href'];
-         return {id, name, year, hometown, high_school, previous_school, height, position, jersey, url};
-        })
-    """
-
-    roster = []
-    url = team['url'] + "/roster/" + season
-    # Execute shot-scraper with the given JavaScript
-    try:
-        result = subprocess.check_output(['shot-scraper', 'javascript', url, javascript_code, "--user-agent", "Firefox"])
-        parsed_data = json.loads(result)
-
-        for player in parsed_data:
-            player['team_id'] = ncaa_id
-            player['team'] = name
-            player['season'] = season
-
-        return parsed_data
-    except:
-        raise
-
-def shotscraper_data_tables(team, season):
-    name = team['team']
-    ncaa_id = team['ncaa_id']
-
-    # JavaScript to be executed by shot-scraper
-    javascript_code = """
-    Array.from(document.querySelectorAll('#DataTables_Table_0 tbody tr'), el => {
-     const id = '';
-     const name = el.querySelector(".sidearm-table-player-name").innerText;
-     const year = el.querySelector(".roster_class").innerText;
-     const height = el.querySelector(".height").innerText;
-     const position = el.querySelector(".rp_position_short").innerText;
-     const hometown = el.querySelector(".hometownhighschool").innerText.split('/')[0].trim();
-     let hs = el.querySelector(".hometownhighschool").innerText.split('/');
-     const high_school = hs[1] ? hs[1].trim() : '';
-     const previous_school = el.querySelector(".player_previous_school").innerText;
-     const jersey = el.querySelector(".roster_jerseynum").innerText;
-     const url = el.querySelector(".sidearm-table-player-name a")['href'];
-     return {id, name, year, hometown, high_school, previous_school, height, position, jersey, url};
-    })
-    """
-
-    roster = []
-    url = team['url'] + "/roster/" + season
-    # Execute shot-scraper with the given JavaScript
-    try:
-        result = subprocess.check_output(['shot-scraper', 'javascript', url, javascript_code, "--user-agent", "Firefox"])
-        parsed_data = json.loads(result)
-
-        for player in parsed_data:
-            player['team_id'] = ncaa_id
-            player['team'] = name
-            player['season'] = season
-
-        return parsed_data
-    except:
-        raise
-
-def fetch_and_parse_bradley(team, season):
-    name = team['team']
-    ncaa_id = team['ncaa_id']
-
-    # JavaScript to be executed by shot-scraper
-    javascript_code = """
-    Array.from(document.querySelectorAll('.sidearm-roster-table tbody tr'), el => {
-     const id = '';
-     const name = el.children[1].innerText;
-     const year = el.children[2].innerText;
-     const height = el.children[3].innerText;
-     const position = el.children[4].innerText;
-     const hometown = el.children[5].innerText;
-     const high_school = el.children[6].innerText.split('/')[0];
-     let prev_school = el.children[6].innerText.split('/');
-     const previous_school = prev_school[1] ? prev_school[1].innerText : '';
-     const jersey = el.children[0].innerText;
-     const url = el.children[1].querySelector('a')['href']
-     return {id, name, year, hometown, high_school, previous_school, height, position, jersey, url};
-    })
-    """
-
-    roster = []
-    url = team['url'] + "/roster/" + season
-    # Execute shot-scraper with the given JavaScript
-    try:
-        result = subprocess.check_output(['shot-scraper', 'javascript', url, javascript_code, "--user-agent", "Firefox"])
-        parsed_data = json.loads(result)
-
-        for player in parsed_data:
-            player['team_id'] = ncaa_id
-            player['team'] = name
-            player['season'] = season
-
-        return parsed_data
-    except:
-        raise
-
-def fetch_and_parse_tennessee(team, season):
-    name = team['team']
-    ncaa_id = team['ncaa_id']
-
-    # JavaScript to be executed by shot-scraper
-    javascript_code = """
-    Array.from(document.querySelectorAll('.sidearm-roster-table tbody tr'), el => {
-     const id = '';
-     const name = el.children[1].innerText;
-     const year = el.children[2].innerText;
-     const height = el.children[4].innerText;
-     const position = el.children[3].innerText;
-     const hometown = el.children[5].innerText;
-     const high_school = el.children[6].innerText.split('/')[0];
-     let prev_school = el.children[6].innerText.split('/');
-     const previous_school = prev_school[1] ? prev_school[1].innerText : '';
-     const jersey = el.children[0].innerText;
-     const url = el.children[1].querySelector('a')['href']
-     return {id, name, year, hometown, high_school, previous_school, height, position, jersey, url};
-    })
-    """
-
-    roster = []
-    url = team['url'] + "/roster/" + season
-    # Execute shot-scraper with the given JavaScript
-    try:
-        result = subprocess.check_output(['shot-scraper', 'javascript', url, javascript_code, "--user-agent", "Firefox"])
-        parsed_data = json.loads(result)
-
-        for player in parsed_data:
-            player['team_id'] = ncaa_id
-            player['team'] = name
-            player['season'] = season
-
-        return parsed_data
-    except:
-        raise
-
-def parse_roster(team, html, season):
-    roster = []
-    er = tldextract.extract(team['url'])
-    try:
-        players = html.find_all('li', {'class': 'sidearm-roster-player'})
-    except:
-        return None
-    for player in players:
-        position = None
-        if player.find('a')['aria-label'].split(' - ')[0].strip() == 'Addison Jeansonne':
-            continue
-        if player.find('span', {'class': 'sidearm-roster-player-previous-school'}):
-            previous_school = player.find('span', {'class': 'sidearm-roster-player-previous-school'}).text
-        else:
-            previous_school = None
-        if player.find('span', {'class': 'sidearm-roster-player-highschool'}):
-            high_school_text = player.find('span', {'class': 'sidearm-roster-player-highschool'}).text.strip()
-            high_school = " ".join([x.strip() for x in high_school_text.split(' ') if x != ''])
-        else:
-            high_school = None
-        if player.find('span', {'class': 'sidearm-roster-player-height'}):
-            height = player.find('span', {'class': 'sidearm-roster-player-height'}).text
-        else:
-            height = None
+                logger.info(f"Season verification failed - no header found with '{expected_season}' and 'roster'")
+            return False
+        except Exception as e:
+            logger.warning(f"Failed to verify season: {e}")
+            return True  # Default to True if verification fails
+
+    @staticmethod
+    def is_sidearm_site(html) -> bool:
+        """Check if this is a Sidearm-based site"""
         try:
-            hometown = player.find('span', {'class': 'sidearm-roster-player-hometown'}).text.strip()
-        except:
-            hometown = None
-        if player.find('div', {'class': 'sidearm-roster-player-position'}).text.strip() == '':
-            position = 'N/A'
-        if not position and '"' in player.find('div', {'class': 'sidearm-roster-player-position'}).text.strip():
-            position = player.find('div', {'class': 'sidearm-roster-player-position'}).text.strip().split()[0]
-        if not position and player.find('div', {'class': 'sidearm-roster-player-position'}).find('span', {'class': 'text-bold'}).find('span', {'class': 'sidearm-roster-player-position-long-short hide-on-small-down'}):
+            sidearm_indicators = [
+                html.find('li', {'class': 'sidearm-roster-player'}),
+                html.find('div', {'class': 'sidearm-roster-list-item'}),
+                html.find('span', {'class': 'sidearm-roster-player-name'}),
+                html.find_all('div', class_=lambda x: x and 'sidearm' in x)
+            ]
+            
+            return any(indicator for indicator in sidearm_indicators)
+        except Exception as e:
+            logger.warning(f"Failed to detect Sidearm site: {e}")
+            return False
+
+    @staticmethod
+    def create_season_check_js(selector_code: str) -> str:
+        """Wrap JavaScript selector with season verification"""
+        return f"""
+        (() => {{
+            const h2Elements = document.querySelectorAll('h2');
+            const expectedSeason = '{{{{SEASON}}}}';
+            let correctSeason = false;
+            
+            for (const h2 of h2Elements) {{
+                const text = h2.textContent || h2.innerText || '';
+                if (text.includes(expectedSeason) && text.toLowerCase().includes('roster')) {{
+                    correctSeason = true;
+                    break;
+                }}
+            }}
+            
+            if (!correctSeason) {{
+                console.log('Season verification failed - expected:', expectedSeason);
+                return [];
+            }}
+            
+            {selector_code}
+        }})()
+        """
+
+
+class JSTemplates:
+    """Templates for common JavaScript selector patterns"""
+    
+    @staticmethod
+    def coaching_staff_template():
+        """Template for coaching-staff div extraction (used by some Nuxt sites)"""
+        return """
+        (() => {
+            try {
+                const coachingSection = document.getElementById('coaching-staff');
+                if (!coachingSection) {
+                    console.log('No coaching-staff section found');
+                    return [];
+                }
+                
+                // Find all coach cards within the coaching-staff section
+                const coachCards = coachingSection.querySelectorAll('.roster-card');
+                if (!coachCards.length) {
+                    console.log('No coach cards found');
+                    return [];
+                }
+                
+                return Array.from(coachCards).map(card => {
+                    // Extract name
+                    const nameElem = card.querySelector('.roster-card__name, h3, .name');
+                    const name = nameElem ? nameElem.textContent.trim() : '';
+                    
+                    // Extract title/position
+                    const titleElem = card.querySelector('.roster-card__title, .title, .position');
+                    const title = titleElem ? titleElem.textContent.trim() : '';
+                    
+                    // Extract bio link/URL
+                    const linkElem = card.querySelector('a[href*="/roster/"], a[href*="/coaches/"]');
+                    const url = linkElem ? linkElem.href : '';
+                    
+                    // Extract additional info if available
+                    const infoElems = card.querySelectorAll('.roster-card__info, .info, .bio-info');
+                    let experience = '';
+                    let alma_mater = '';
+                    
+                    infoElems.forEach(elem => {
+                        const text = elem.textContent.trim();
+                        if (text.includes('Season') || text.includes('Year')) {
+                            experience = text;
+                        } else if (text.match(/\b(University|College)\b/i)) {
+                            alma_mater = text;
+                        }
+                    });
+                    
+                    return {
+                        name: name,
+                        title: title,
+                        experience: experience,
+                        alma_mater: alma_mater,
+                        url: url
+                    };
+                }).filter(coach => coach && coach.name && coach.name.length > 2);
+                
+            } catch (error) {
+                console.error('Error extracting coaching staff:', error);
+                return [];
+            }
+        })()
+        """
+    
+    @staticmethod
+    def nuxt_data_coaches_template():
+        """Template for Nuxt.js coach data extraction from table rows"""
+        return """
+        (() => {
+            try {
+                const coaches = [];
+
+                // Find all table rows
+                const allRows = document.querySelectorAll('tr');
+
+                for (const row of allRows) {
+                    const text = row.textContent.toLowerCase();
+
+                    // Check if this row mentions coach-related terms (case insensitive)
+                    if (text.includes('head coach') || text.includes('assistant coach') ||
+                        text.includes('director of') || text.includes('coach')) {
+
+                        // Extract cells from this row
+                        const cells = row.querySelectorAll('td');
+                        if (cells.length >= 2) {
+                            // Find which cells contain name and title
+                            // Name: cell with text that doesn't contain "coach" or "director"
+                            // Title: cell with text that contains "coach"
+                            let name = '', title = '', url = '';
+
+                            for (let i = 0; i < cells.length; i++) {
+                                const cellText = cells[i]?.textContent.trim() || '';
+                                const cellLower = cellText.toLowerCase();
+
+                                // Skip empty cells
+                                if (!cellText || cellText.length < 3) continue;
+
+                                // If cell contains "coach", it's probably the title
+                                if (cellLower.includes('coach') || cellLower.includes('director')) {
+                                    if (!title) title = cellText;
+                                }
+                                // Otherwise, if it doesn't look like a header, it's probably the name
+                                else if (!cellLower.includes('name') &&
+                                         !cellLower.includes('title') &&
+                                         !cellLower.includes('email') &&
+                                         !cellLower.includes('phone')) {
+                                    if (!name) {
+                                        name = cellText;
+                                        // Try to find a link in this cell
+                                        const link = cells[i]?.querySelector('a');
+                                        if (link && link.href) {
+                                            url = link.href;
+                                        }
+                                    }
+                                }
+                            }
+
+                            // Skip if name or title is empty, or if it's a header row
+                            if (name && title &&
+                                !name.toLowerCase().includes('name') &&
+                                !name.toLowerCase().includes('title') &&
+                                !title.toLowerCase().includes('name') &&
+                                !title.toLowerCase().includes('title') &&
+                                name.length > 2 &&
+                                title.toLowerCase().includes('coach')) {
+                                coaches.push({
+                                    name: name,
+                                    title: title,
+                                    experience: '',
+                                    alma_mater: '',
+                                    url: url
+                                });
+                            }
+                        }
+                    }
+                }
+
+                return coaches;
+
+            } catch (error) {
+                console.error('Error extracting coaches:', error);
+                return [];
+            }
+        })()
+        """
+
+    @staticmethod
+    def nuxt_data_template():
+        """Template for Nuxt.js data extraction (used by 50+ teams)"""
+        return """
+        (() => {
+            try {
+                const nuxtData = JSON.parse(document.getElementById('__NUXT_DATA__').textContent);
+                
+                function resolveValue(value) {
+                    if (typeof value === 'number' && nuxtData[value] !== undefined) {
+                        const resolved = nuxtData[value];
+                        if (resolved === null || resolved === undefined || resolved === '' || resolved === 15 || resolved === 21) {
+                            return '';
+                        }
+                        return resolved;
+                    }
+                    return value || '';
+                }
+                
+                let players = [];
+                
+                for (const key in nuxtData) {
+                    const item = nuxtData[key];
+                    if (item && typeof item === 'object' && 
+                        item.firstName && item.lastName && 
+                        item.rosterPlayerId) {
+                        players.push(item);
+                    }
+                }
+                
+                if (players.length === 0) {
+                    console.log('No player data found');
+                    return [];
+                }
+                
+                return players.map(player => {
+                    const firstName = resolveValue(player.firstName) || '';
+                    const lastName = resolveValue(player.lastName) || '';
+                    const fullName = (firstName + ' ' + lastName).trim();
+                    const jersey = resolveValue(player.jerseyNumber) || '';
+                    const position = resolveValue(player.positionShort) || resolveValue(player.positionLong) || '';
+                    const year = resolveValue(player.academicYearLong) || resolveValue(player.academicYearShort) || '';
+                    const heightFeet = resolveValue(player.heightFeet) || '';
+                    const heightInches = resolveValue(player.heightInches) || '';
+                    const height = heightFeet && heightInches ? heightFeet + "'" + heightInches + '"' : '';
+                    const hometown = resolveValue(player.hometown) || '';
+                    const high_school = resolveValue(player.highSchool) || '';
+                    const previous_school = resolveValue(player.previousSchool) || '';
+                    const url = resolveValue(player.call_to_action) || '';
+                    
+                    return {
+                        name: fullName,
+                        jersey: jersey.toString(),
+                        position: position,
+                        year: year,
+                        height: height,
+                        hometown: hometown,
+                        high_school: high_school,
+                        previous_school: previous_school,
+                        url: url
+                    };
+                }).filter(player => player && player.name && player.name.length > 2);
+                
+            } catch (error) {
+                console.error('Error extracting roster:', error);
+                return [];
+            }
+        })()
+        """
+
+    @staticmethod
+    def s_person_card_template():
+        """Template for .s-person-card based sites"""
+        return """
+        Array.from(document.querySelectorAll('.s-person-card'), card => {
+            const fullText = card.textContent || '';
+            
+            const link = card.querySelector('a[href*="/roster/"]');
+            if (!link || link.href.includes('/coaches/') || link.href.includes('/staff/')) {
+                return null;
+            }
+            
+            const jerseyMatch = fullText.match(/Jersey Number (\\d+)/);
+            const jersey = jerseyMatch ? jerseyMatch[1] : '';
+            
+            const nameMatch = fullText.match(/Jersey Number \\d+([^P]+?)Position/);
+            const name = nameMatch ? nameMatch[1].trim() : '';
+            
+            const positionMatch = fullText.match(/Position ([GFC])/);
+            const position = positionMatch ? positionMatch[1] : '';
+            
+            const yearMatch = fullText.match(/Academic Year ([^H]+?)Height/);
+            let year = yearMatch ? yearMatch[1].trim().replace(/\\.$/, '') : '';
+            
+            // Convert year abbreviations
+            const yearMap = {'Fr': 'Freshman', 'So': 'Sophomore', 'Jr': 'Junior', 'Sr': 'Senior', 'Gr': 'Graduate'};
+            year = yearMap[year] || year;
+            
+            const heightMatch = fullText.match(/Height ([^H]+?)Hometown/);
+            const height = heightMatch ? heightMatch[1] : '';
+            
+            const hometownMatch = fullText.match(/Hometown ([^L]+?)Last School/);
+            const hometown = hometownMatch ? hometownMatch[1].trim() : '';
+            
+            const schoolMatch = fullText.match(/Last School ([^F]+?)Full Bio/);
+            const high_school = schoolMatch ? schoolMatch[1].trim() : '';
+            
+            return {
+                name: name || '',
+                jersey: jersey || '',
+                position: position || '',
+                year: year || '',
+                height: height || '',
+                hometown: hometown || '',
+                high_school: high_school || '',
+                previous_school: '',
+                url: link.href || ''
+            };
+        }).filter(player => player && player.name && player.name.length > 2)
+        """
+
+    @staticmethod
+    def s_person_card_coaches_template():
+        """Template for .s-person-card based sites - coaches version"""
+        return """
+        (() => {
+            const coaches = [];
+            const seenNames = new Set();
+            
+            document.querySelectorAll('.s-person-card').forEach(card => {
+                const fullText = card.textContent || '';
+                
+                // For coaches, we want links that include /coaches/ or /staff/
+                const link = card.querySelector('a[href*="/roster/coaches/"], a[href*="/staff/"], a[href*="/roster/"]');
+                if (!link) {
+                    return;
+                }
+                
+                // Skip if it looks like a player (has jersey number)
+                if (fullText.match(/Jersey Number \\d+/)) {
+                    return;
+                }
+                
+                // Extract name - try multiple patterns
+                let name = '';
+                const nameElem = card.querySelector('.s-person-card__header__person-details-personal, h3, .name');
+                if (nameElem) {
+                    name = nameElem.textContent.trim();
+                } else {
+                    // Fallback to link text
+                    name = link.textContent.trim();
+                }
+                
+                // Skip if we've already seen this name (avoid duplicates)
+                if (seenNames.has(name)) {
+                    return;
+                }
+                seenNames.add(name);
+                
+                // Extract title/position - clean up extra text
+                let title = '';
+                const titleMatch = fullText.match(/Title\\s+([^\\n]+)/);
+                if (titleMatch) {
+                    title = titleMatch[1].trim();
+                } else {
+                    // Look for common coach titles
+                    const coachTitleMatch = fullText.match(/((?:Head |Assistant |Associate Head |Director of |Coordinator of )?(?:Coach|Director|Coordinator|Operations|Performance)[^Phone^Full^Email]*)/i);
+                    if (coachTitleMatch) {
+                        title = coachTitleMatch[1]
+                            .replace(/Phone.*$/i, '')
+                            .replace(/Full Bio.*$/i, '')
+                            .replace(/Email.*$/i, '')
+                            .replace(/\\(\\d{3}\\).*$/i, '')
+                            .replace(/[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,}.*$/i, '')
+                            .trim();
+                    }
+                }
+                
+                // Extract experience/seasons
+                let experience = '';
+                const expMatch = fullText.match(/(\\d+(?:st|nd|rd|th)?\\s+Season|\\d+\\s+Years?)/i);
+                if (expMatch) {
+                    experience = expMatch[0].trim();
+                }
+                
+                // Extract alma mater
+                let alma_mater = '';
+                const almaMatch = fullText.match(/Alma Mater\\s+([^\\n]+)/);
+                if (almaMatch) {
+                    alma_mater = almaMatch[1].trim();
+                } else {
+                    // Look for university/college mentions
+                    const collegeMatch = fullText.match(/([A-Z][a-z]+(?:\\s+[A-Z][a-z]+)*\\s+(?:University|College))/);
+                    if (collegeMatch) {
+                        alma_mater = collegeMatch[0].trim();
+                    }
+                }
+                
+                coaches.push({
+                    name: name || '',
+                    title: title || '',
+                    experience: experience || '',
+                    alma_mater: alma_mater || '',
+                    url: link.href || ''
+                });
+            });
+            
+            return coaches.filter(coach => coach && coach.name && coach.name.length > 2);
+        })()
+        """
+
+    @staticmethod
+    def get_custom_selector(team_id: int, selector_name: str) -> str:
+        """Get custom selectors for specific teams that need special handling"""
+        custom_selectors = {
+            'auburn_roster': """
+            Array.from(document.querySelectorAll('a[href*="/roster/player/"]'), el => {
+                if (el.href.includes('/staff/')) return null;
+                
+                const name = el.innerText.trim();
+                const url = el.href;
+                let container = el.closest('div');
+                
+                while (container && !container.innerText.includes('#')) {
+                    container = container.parentElement;
+                }
+                
+                if (!container) container = el.parentElement;
+                const fullText = container.innerText;
+                
+                const jerseyMatch = fullText.match(/#(\\d+)/);
+                const jersey = jerseyMatch ? jerseyMatch[1] : '';
+                
+                const positionMatch = fullText.match(/\\b(G|F|C|GUARD|FORWARD|CENTER|G\\/F|F\\/C)\\b/i);
+                const position = positionMatch ? positionMatch[1] : '';
+                
+                const heightMatch = fullText.match(/(\\d+[′']\\d+[″"])/);
+                const height = heightMatch ? heightMatch[1] : '';
+                
+                const yearMatch = fullText.match(/\\b(Freshman|Sophomore|Junior|Senior|Redshirt\\s+\\w+)\\b/i);
+                const year = yearMatch ? yearMatch[1] : '';
+                
+                return {name, jersey, position, height, year, hometown: '', high_school: '', previous_school: '', url};
+            }).filter(player => player && player.name)
+            """,
+            'oregon_state_roster': """
+            Array.from(document.querySelectorAll('.s-table-body__row'), el => {
+                const tds = el.querySelectorAll('td');
+                const jersey = tds[0]?.textContent?.trim() || '';
+                const name = tds[1]?.querySelector('a')?.textContent?.trim() || tds[1]?.textContent?.trim() || '';
+                const position = tds[2]?.textContent?.trim() || '';
+                const height = tds[3]?.textContent?.trim() || '';
+                const year = tds[4]?.textContent?.trim() || '';
+                const hometown = tds[5]?.textContent?.trim() || '';
+                const url = tds[1]?.querySelector('a')?.href || '';
+                
+                if (!jersey || jersey === '') return null;
+                
+                return {name, jersey, position, height, year, hometown, high_school: '', previous_school: '', url};
+            }).filter(player => player !== null)
+            """,
+            'virginia_roster_table': """
+(() => {
+    const table = document.querySelector('#players-table');
+    if (!table) {
+        console.log('No players table found');
+        return [];
+    }
+    
+    const rows = table.querySelectorAll('tbody tr');
+    console.log('Found table rows:', rows.length);
+    
+    return Array.from(rows).map(row => {
+        const cells = row.querySelectorAll('td');
+        if (cells.length < 6) return null;
+        
+        const jersey = cells[0] ? cells[0].textContent.trim() : '';
+        const nameCell = cells[1];
+        const nameLink = nameCell ? nameCell.querySelector('a') : null;
+        const name = nameLink ? nameLink.textContent.trim() : (nameCell ? nameCell.textContent.trim() : '');
+        const year = cells[2] ? cells[2].textContent.trim() : '';
+        const position = cells[3] ? cells[3].textContent.trim() : '';
+        const height = cells[4] ? cells[4].textContent.trim() : '';
+        const hometown = cells[5] ? cells[5].textContent.trim() : '';
+        const high_school = cells[6] ? cells[6].textContent.trim() : '';
+        const previous_school = cells.length > 9 && cells[9] ? cells[9].textContent.trim() : '';
+        const url = nameLink ? nameLink.href : '';
+        
+        return {
+            name: name,
+            jersey: jersey,
+            position: position,
+            height: height,
+            year: year,
+            hometown: hometown,
+            high_school: high_school,
+            previous_school: previous_school,
+            url: url
+        };
+    }).filter(player => player && player.name && player.name.length > 2);
+})()
+            """,
+            'auburn_roster_coaches': """
+            // NOTE: Auburn-specific coach scraping - may need manual verification
+            Array.from(document.querySelectorAll('a[href*="/roster/coaches/"], a[href*="/staff/"]'), el => {
+                const name = el.innerText.trim();
+                const url = el.href;
+                let container = el.closest('div');
+                
+                // Find the container with coach information
+                while (container && !container.innerText.match(/Head Coach|Assistant|Director|Coordinator/i)) {
+                    container = container.parentElement;
+                    if (!container || container === document.body) break;
+                }
+                
+                if (!container || container === document.body) container = el.parentElement;
+                const fullText = container.innerText;
+                
+                // Extract title
+                const titleMatch = fullText.match(/(Head Coach|Assistant Coach|Associate Head Coach|Director[^\\n]*|Coordinator[^\\n]*)/i);
+                const title = titleMatch ? titleMatch[1].trim() : '';
+                
+                // Extract experience/seasons
+                const expMatch = fullText.match(/(\\d+(?:st|nd|rd|th)?\\s+Season|\\d+\\s+Years?)/i);
+                const experience = expMatch ? expMatch[0].trim() : '';
+                
+                // Extract alma mater
+                const almaMatch = fullText.match(/([A-Z][a-z]+(?:\\s+[A-Z][a-z]+)*\\s+(?:University|College))/);
+                const alma_mater = almaMatch ? almaMatch[0].trim() : '';
+                
+                return {name, title, experience, alma_mater, url};
+            }).filter(coach => coach && coach.name && coach.name.length > 2)
+            """,
+            'oregon_state_roster_coaches': """
+            Array.from(document.querySelectorAll('.s-table-body__row'), el => {
+                const tds = el.querySelectorAll('td');
+                
+                // Check if this looks like a coach row (no jersey number or has title)
+                const firstCell = tds[0]?.textContent?.trim() || '';
+                const secondCell = tds[1]?.textContent?.trim() || '';
+                
+                // If first cell is a number, it's probably a player
+                if (firstCell.match(/^\\d+$/)) return null;
+                
+                const name = tds[0]?.querySelector('a')?.textContent?.trim() || tds[0]?.textContent?.trim() || 
+                             tds[1]?.querySelector('a')?.textContent?.trim() || tds[1]?.textContent?.trim() || '';
+                const title = tds[1]?.textContent?.trim() || tds[2]?.textContent?.trim() || '';
+                const url = tds[0]?.querySelector('a')?.href || tds[1]?.querySelector('a')?.href || '';
+                
+                // Look for typical coach titles
+                if (!title.match(/Coach|Director|Coordinator/i)) return null;
+                
+                return {name, title, experience: '', alma_mater: '', url};
+            }).filter(coach => coach !== null && coach.name && coach.name.length > 2)
+            """,
+            'virginia_roster_table_coaches': """
+(() => {
+    // Look for coaching staff section or table
+    const coachHeaders = document.querySelectorAll('h2, h3, h4');
+    let coachSection = null;
+    
+    for (const header of coachHeaders) {
+        if (header.textContent.match(/coach|staff/i)) {
+            coachSection = header;
+            break;
+        }
+    }
+    
+    if (!coachSection) {
+        console.log('No coaching staff section found');
+        return [];
+    }
+    
+    // Find table or list after the header
+    let table = coachSection.nextElementSibling;
+    while (table && table.tagName !== 'TABLE' && !table.classList.contains('roster')) {
+        table = table.nextElementSibling;
+        if (!table) break;
+    }
+    
+    if (!table) {
+        // Try looking for coach cards or divs
+        const coachCards = document.querySelectorAll('.coach-card, .staff-card, [class*="coach"]');
+        return Array.from(coachCards).map(card => {
+            const nameElem = card.querySelector('h3, h4, .name, a');
+            const name = nameElem ? nameElem.textContent.trim() : '';
+            const titleElem = card.querySelector('.title, .position, [class*="title"]');
+            const title = titleElem ? titleElem.textContent.trim() : '';
+            const linkElem = card.querySelector('a[href*="/coaches/"], a[href*="/staff/"]');
+            const url = linkElem ? linkElem.href : '';
+            
+            return {name, title, experience: '', alma_mater: '', url};
+        }).filter(coach => coach && coach.name && coach.name.length > 2);
+    }
+    
+    // Parse table
+    const rows = table.querySelectorAll('tbody tr, tr');
+    return Array.from(rows).map(row => {
+        const cells = row.querySelectorAll('td, th');
+        if (cells.length < 2) return null;
+        
+        const nameCell = cells[0];
+        const nameLink = nameCell ? nameCell.querySelector('a') : null;
+        const name = nameLink ? nameLink.textContent.trim() : (nameCell ? nameCell.textContent.trim() : '');
+        const title = cells[1] ? cells[1].textContent.trim() : '';
+        const url = nameLink ? nameLink.href : '';
+        
+        // Skip if no name or if it looks like column headers
+        if (!name || name.match(/^Name$/i)) return null;
+        
+        return {name, title, experience: '', alma_mater: '', url};
+    }).filter(coach => coach && coach.name && coach.name.length > 2);
+})()
+            """
+        }
+        
+        return custom_selectors.get(selector_name, '')
+
+
+class HeaderMapper:
+    """Maps various header formats to standardized field names"""
+    
+    HEADER_MAP = {
+        'No.': 'jersey', 'Name': 'name', 'Full Name': 'name', 'NAME': 'name',
+        'Cl.': 'academic_year', 'Academic Year': 'academic_year', 'Class': 'academic_year',
+        'Number': 'jersey', 'High school': 'high_school', 'Previous School': 'previous_school',
+        'Pos.': 'position', 'Ht.': 'height', 'Hometown/High School': 'town',
+        'Hometown / High School': 'town', 'Hometown/Last School': 'town',
+        'Num': 'jersey', 'Yr': 'academic_year', 'Ht': 'height', 'Hometown': 'hometown',
+        'High School/Previous School': 'high_school', 'Pos': 'position',
+        'Hometown/Previous School': 'town', 'Exp.': 'academic_year',
+        'Position': 'position', 'HT.': 'height', 'YEAR': 'academic_year',
+        'HOMETOWN': 'hometown', 'LAST SCHOOL': 'high_school', 'Yr.': 'academic_year',
+        'Hometown/High School/Last School': 'town', 'Previous College': 'previous_school',
+        'Cl.-Exp.': 'academic_year', '#': 'jersey', 'High School': 'high_school',
+        'Hometown / Previous School': 'town', 'No': "jersey",
+        'Hometown/High School/Previous School': 'town', 'Cl.:': 'academic_year',
+        'Hometown / High School / Last College': 'town', 'Year': 'academic_year',
+        'Height': 'height', 'Cl': 'academic_year', 'Prev. Coll.': 'previous_school',
+        'Hgt.': 'height', 'Hometown/ High School': 'town', 'YR': 'academic_year',
+        'POS': 'position', 'HT': 'height', 'Player': 'name', 'NO.': 'jersey',
+        'YR.': 'academic_year', 'POS.': 'position', 'HIGH SCHOOL': 'high_school',
+        'NO': 'jersey', 'HOMETOWN/HIGH SCHOOL': 'town', 'Academic Yr.': 'academic_year',
+        'POSITION': 'position', '#Jersey Number': 'jersey', 'NumberJersey Number': 'jersey'
+    }
+
+    @classmethod
+    def map_headers(cls, headers: List[str]) -> List[str]:
+        """Map raw headers to standardized field names"""
+        return [cls.HEADER_MAP.get(h, h.lower().replace(' ', '_')) for h in headers]
+
+
+class URLBuilder:
+    """Builds roster URLs for different site formats"""
+    
+    @staticmethod
+    def build_url(base_url: str, season: str, url_format: str = "default", entity_type: str = 'player') -> str:
+        """Build roster URL based on site format and entity type"""
+        if f"/{season}" in base_url or url_format == "direct_url":
+            return base_url + f"/{season}"
+        
+        # Remove trailing slash from base_url to avoid double slashes
+        base_url = base_url.rstrip('/')
+        
+        # Determine path based on entity type
+        path = "coaches" if entity_type == 'coach' else "roster"
+        
+        formats = {
+            "default": f"{base_url}/{path}/{season}",
+            "direct": f"{base_url}/{path}/",
+            "season_first": f"{base_url}/{season}/{path}",
+            "season_path": f"{base_url}/{path}/season/{season}/",
+            "clemson": f"{base_url}/{path}/season/{season[:4]}",
+            "iowa_table": f"{base_url}/{path}/season/{season}?view=table",
+            "valpo": f"{base_url}/{path}/{season}/?view=list",
+            "la_salle": f"{base_url}/{path}/{season[:4]}-{season[:2]}{season[-2:]}",
+            "byu_table": f"{base_url}/{path}/season/{season[:4]}-{season[:2]}{season[-2:]}?view=table",
+            "four_digit_year": f"{base_url}/{path}/{season[:4]}-{season[:2]}{season[-2:]}"
+        }
+
+        # Special cases
+        if base_url.startswith('https://arkansasrazorbacks.com'):
+            path_param = "w-baskbl/coaches" if entity_type == 'coach' else "w-baskbl/roster"
+            return f"https://arkansasrazorbacks.com/sport/{path_param}/?season={season}"
+        
+        if base_url.startswith('https://goaztecs.com'):
+            return f"https://goaztecs.com/sports/womens-basketball/{path}/season/{season}?view=table"
+        
+        return formats.get(url_format, formats["default"])
+
+
+class TeamConfig:
+    """Simplified configuration for team-specific scraping"""
+    
+    # Teams using Nuxt.js data extraction (50+ teams)
+    NUXT_JS_TEAMS = {
+        71: 'https://bgsufalcons.com', 83: 'https://gobison.com', 96: 'https://gobulldogs.com',
+        99: 'https://longbeachstate.com', 164: 'https://uconnhuskies.com', 176: 'https://depaulbluedemons.com',
+        180: 'https://bluehens.com', 191: 'https://drexeldragons.com', 204: 'https://emueagles.com',
+        229: 'https://fausports.com', 234: 'https://seminoles.com', 367: 'https://gocards.com',
+        418: 'https://mgoblue.com', 428: 'https://gophersports.com', 458: 'https://charlotte49ers.com',
+        716: 'https://troytrojans.com', 718: 'https://tulanegreenwave.com', 700: 'https://texastech.com',
+        355: 'https://libertyflames.com', 497: 'https://meangreensports.com', 441: 'https://gogriz.com',
+        416: 'https://msuspartans.com', 509: 'https://nusports.com', 521: 'https://okstate.com',
+        522: 'https://soonersports.com', 454: 'https://goracers.com', 404: 'https://gotigersgo.com',
+        470: 'https://golobos.com', 671: 'https://ragincajuns.com', 574: 'https://riceowls.com',
+        664: 'https://southernmiss.com', 575: 'https://richmondspiders.com', 698: 'https://gofrogs.com',
+        288: 'https://uhcougars.com', 400: 'https://umassathletics.com', 457: 'https://goheels.com',
+        156: 'https://csurams.com', 196: 'https://ecupirates.com', 725: 'https://goarmywestpoint.com',
+        9: 'https://uabsports.com', 502: 'https://uncbears.com', 456: 'https://uncabulldogs.com',
+        469: 'https://unhwildcats.com', 504: 'https://unipanthers.com', 758: 'https://weberstatesports.com',
+        490: 'https://gopack.com', 690: 'https://owlsports.com', 732: 'https://utahutes.com',
+        749: 'https://godeacs.com', 110: 'https://uclabruins.com', 1104: 'https://gculopes.com',
+        719: 'https://tulsahurricane.com', 772: 'https://wkusports.com', 328: 'https://kuathletics.com',
+        635: 'https://shupirates.com', 86: 'https://ubbulls.com', 694: 'https://utsports.com',
+        387: 'https://gomarquette.com', 545: 'https://pittsburghpanthers.com', 721: 'https://goairforcefalcons.com',
+        419: 'https://goblueraiders.com', 688: 'https://cuse.com', 311: 'https://cyclones.com',
+        129: 'https://cmuchippewas.com', 8: 'https://rolltide.com', 193: 'https://goduke.com', 649: 'https://gojacks.com',
+        249: 'https://gwsports.com', 430: 'https://hailstate.com', 80: 'https://brownbears.com',
+        257: 'https://georgiadogs.com', 317: 'https://jmusports.com', 66: 'https://broncosports.com',
+        562: 'https://gobobcats.com', 659: 'https://siusalukis.com', 756: 'https://gohuskies.com',
+        697: 'https://12thman.com', 173: 'https://davidsonwildcats.com', 518: 'https://ohiostatebuckeyes.com',
+        47: 'https://ballstatesports.com', 529: 'https://goducks.com', 676: 'https://sfajacks.com'
+    }
+    
+    # Teams using .s-person-card structure
+    S_PERSON_CARD_TEAMS = [67, 169, 157, 603]  # Boston College, Creighton, Colorado, St. John's
+    
+    # Table-based teams
+    TABLE_BASED_TEAMS = {
+        5: {'url_format': 'default'},
+        28: {'url_format': 'iowa_table'},
+        31: {'url_format': 'default'},  # Arkansas
+        37: {'url_format': 'iowa_table'},
+        77: {'url_format': 'byu_table'},
+        127: {'url_format': 'default'},
+        128: {'url_format': 'season_path'},
+        140: {'url_format': 'iowa_table'},
+        147: {'url_format': 'clemson'},
+        255: {'url_format': 'season_path'},
+        306: {'url_format': 'direct'},
+        308: {'url_format': 'default'},
+        312: {'url_format': 'iowa_table'},
+        334: {'url_format': 'season_path'},
+        388: {'url_format': 'default'},
+        415: {'url_format': 'season_path'},
+        433: {'url_format': 'default'},
+        463: {'url_format': 'iowa_table'},
+        473: {'url_format': 'season_path'},
+        513: {'url_format': 'season_path'},
+        523: {'url_format': 'iowa_table'},
+        539: {'url_format': 'iowa_table'},
+        554: {'url_format': 'default'},
+        556: {'url_format': 'default'},
+        559: {'url_format': 'iowa_table'},
+        626: {'url_format': 'default'},  # San Diego State
+        657: {'url_format': 'default'},
+        695: {'url_format': 'default'},
+        736: {'url_format': 'season_path'},
+        742: {'url_format': 'iowa_table'},
+        812: {'url_format': 'default'},
+        674: {'url_format': 'iowa_table'},
+        630: {'url_format': 'iowa_table'},
+        706: {'url_format': 'iowa_table'},
+        365: {'url_format': 'season_path'},
+        473: {'url_format': 'season_path'},
+        692: {'url_format': 'season_first'},
+        648: {'url_format': 'season_path'},
+        127: {'url_format': 'season_first'},
+        692: {'url_format': 'season_first'},
+        1000: {'url_format': 'season_first'}
+    }
+    
+    # Custom JavaScript teams
+    CUSTOM_JS_TEAMS = {
+        528: {'selector': 'oregon_state_roster', 'url_format': 'default'},
+        129: {'selector': 'central_michigan_roster', 'url_format': 'default'},
+        746: {'type': 'javascript', 'selector': 'virginia_roster_table', 'url_format': 'direct'}
+    }
+
+    # Teams with roster data embedded in a Vue.js data object
+    VUE_DATA_TEAMS = {
+        # 51: {'url_format': 'default'},  # Baylor - now uses standard Sidearm rendering
+        811: {'url_format': 'default'}, # Wyoming
+        72: {'url_format': 'default'},
+        731: {'url_format': 'default'},
+        248: {'url_format': 'default'},
+    }
+
+    @classmethod
+    def get_config(cls, team_id: int) -> Dict[str, Any]:
+        """Get configuration for team"""
+
+        # Nuxt.js teams (most common)
+        if team_id in cls.NUXT_JS_TEAMS:
+            return {
+                'type': 'javascript',
+                'selector': 'nuxt_roster',
+                'url_format': 'default'
+            }
+        
+        # S-person-card teams
+        if team_id in cls.S_PERSON_CARD_TEAMS:
+            return {
+                'type': 'javascript',
+                'selector': 's_person_card',
+                'url_format': 'default'
+            }
+        
+        # Table-based teams
+        if team_id in cls.TABLE_BASED_TEAMS:
+            return {
+                'type': 'table',
+                **cls.TABLE_BASED_TEAMS[team_id]
+            }
+        
+        # Custom JavaScript teams
+        if team_id in cls.CUSTOM_JS_TEAMS:
+            return {
+                'type': 'javascript',
+                **cls.CUSTOM_JS_TEAMS[team_id]
+            }
+        
+        # Vue data teams
+        if team_id in cls.VUE_DATA_TEAMS:
+            return {
+                'type': 'vue_data',
+                **cls.VUE_DATA_TEAMS[team_id]
+            }
+        
+        if team_id in [340]:
+            return {
+                'type': 'standard',
+                'url_format': 'la_salle'
+            }
+        
+        if team_id in [77]:
+            return {
+                'type': 'table',
+                'url_format': 'byu_table'
+            }
+        
+        if team_id in [352]:
+            return {
+                'type': 'javascript',
+                'url_format': 'la_salle'
+            }
+
+        # Default fallback
+        return {'type': 'standard', 'url_format': 'default'}
+
+
+# Entity-specific configurations for players and coaches
+ENTITY_CONFIGS = {
+    'player': {
+        'sidearm_selectors': [
+            '.sidearm-roster-player',
+            '.sidearm-roster-list-item',
+            '.s-person-card'  # Used by some teams
+        ],
+        'sidearm_container': '.sidearm-roster-players',
+        'field_selectors': {
+            'name': ['.sidearm-roster-player-name', 'h3 a', '.sidearm-roster-player-name-link'],
+            'jersey': ['.sidearm-roster-player-jersey-number', '.sidearm-roster-player-jersey'],
+            'position': ['.sidearm-roster-player-position'],
+            'height': ['.sidearm-roster-player-height'],
+            'academic_year': ['.sidearm-roster-player-academic-year', '.sidearm-roster-player-academic-year-long'],
+            'hometown': ['.sidearm-roster-player-hometown'],
+            'high_school': ['.sidearm-roster-player-highschool', '.sidearm-roster-player-high-school']
+        },
+        'output_fields': ['team', 'team_id', 'season', 'jersey', 'name', 'position', 
+                         'height', 'academic_year', 'hometown', 'high_school', 'previous_school', 'url'],
+        'csv_prefix': 'rosters',
+        'entity_label': 'players'
+    },
+    'coach': {
+        'sidearm_selectors': [
+            '.sidearm-roster-coach',
+            '.sidearm-roster-coaches-card',
+            '.s-person-card--list'  # Newer Sidearm design (e.g., Baylor)
+        ],
+        'sidearm_container': '.sidearm-roster-coaches',
+        'field_selectors': {
+            'name': ['.sidearm-roster-coach-name', 'h3', 'h4', 'strong a', 'a'],
+            'title': ['.sidearm-roster-coach-title', '.sidearm-roster-coach-position', '.title'],
+            'experience': ['.sidearm-roster-coach-seasons', '.sidearm-roster-coach-experience'],
+            'alma_mater': ['.sidearm-roster-coach-college', '.sidearm-roster-coach-alma-mater']
+        },
+        'output_fields': ['team_id', 'team', 'name', 'title', 'url', 'season'],
+        'csv_prefix': 'coaches',
+        'entity_label': 'coaches'
+    }
+}
+
+
+class BaseScraper:
+    """Base class for all roster scrapers"""
+    
+    def __init__(self, session: Optional[requests.Session] = None, entity_type: str = 'player'):
+        self.session = session or requests.Session()
+        self.session.headers.update({
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36'
+        })
+        self.entity_type = entity_type
+        self.entity_config = ENTITY_CONFIGS[entity_type]
+
+    def fetch_html(self, url: str) -> Optional[BeautifulSoup]:
+        """Fetch and parse HTML from URL"""
+        try:
+            response = self.session.get(url, timeout=30)
+            response.raise_for_status()
+            return BeautifulSoup(response.text, 'html.parser')
+        except requests.RequestException as e:
+            logger.error(f"Failed to fetch {url}: {e}")
+            return None
+
+    def build_player_url(self, base_url: str, relative_url: str) -> str:
+        """Build complete player URL"""
+        if not relative_url:
+            return ""
+        if relative_url.startswith('http'):
+            return relative_url
+        
+        return urljoin(base_url, relative_url)
+
+
+class StandardScraper(BaseScraper):
+    """Scraper for standard sidearm-roster-player layouts"""
+    
+    def scrape_roster(self, team: Dict, season: str, url_format: str = "default") -> List[Player]:
+        """Scrape roster using standard sidearm layout"""
+        url = URLBuilder.build_url(team['url'], season, url_format, entity_type=self.entity_type)
+        html = self.fetch_html(url)
+        
+        if not html:
+            return []
+
+        # Verify season if it's a Sidearm site
+        if SeasonVerifier.is_sidearm_site(html):
+            if team['ncaa_id'] in [209, 339, 340, 77, 670, 1013, 11403, 11504]:
+                season = f"{season[:4]}-{season[:2]}{season[-2:]}"
+            if not SeasonVerifier.verify_season_on_page(html, season, entity_type=self.entity_type):
+                logger.warning(f"Season verification failed for {team['team']} - expected {season}")
+                return []
+
+        # Find player/coach elements
+        elements = self._find_player_elements(html)
+        entity_label = self.entity_config['entity_label']
+        logger.info(f"Found {len(elements)} {entity_label} for {team['team']}")
+        
+        roster = []
+        for elem in elements:
             try:
-                position = player.find('div', {'class': 'sidearm-roster-player-position'}).find('span', {'class': 'text-bold'}).find('span', {'class': 'sidearm-roster-player-position-long-short hide-on-small-down'}).text.strip()
-            except AttributeError:
-                position = None
-        if not position and player.find('div', {'class': 'sidearm-roster-player-position'}).find('span', {'class': 'text-bold'}):
-            try:
-                position = player.find('div', {'class': 'sidearm-roster-player-position'}).find('span', {'class': 'text-bold'}).text.strip()
-            except AttributeError:
-                position = None
-        try:
-            jersey = player.find('span', {'class': 'sidearm-roster-player-jersey-number'}).text.strip()
-        except:
-            jersey = None
-        try:
-            academic_year = player.find_all('span', {'class': 'sidearm-roster-player-academic-year'})[1].text
-        except:
-            academic_year = None
-        try:
-            name = player.find('a')['aria-label'].split(' - ')[0].strip()
-        except:
-            name = player.find('h3').text.strip()
-        if 'Instagram' in name:
-            name = player.find('h3').text.strip()
-        roster.append({
-            'team_id': team['ncaa_id'],
-            'team': team['team'],
-            'id': player['data-player-id'],
-            'name': name,
-            'year': academic_year,
-            'hometown': hometown,
-            'high_school': high_school,
-            'previous_school': previous_school,
-            'height': height,
-            'position': position,
-            'jersey': jersey,
-            'url': "https://www."+er.domain+"."+er.suffix+player.find('a')['href'],
-            'season': season
-        })
-    return roster
-
-def get_all_rosters(season, teams = []):
-    unparsed = []
-    skipped = []
-    teams_json = json.loads(open('/Users/dwillis/code/wbb/ncaa/teams.json').read())
-    if len(teams) > 0:
-        teams_json = [t for t in teams_json if t['ncaa_id'] in teams]
-    teams_with_urls = [x for x in teams_json if "url" in x]
-    with open(f"/Users/dwillis/code/wbb/ncaa/rosters_{season}.csv", 'w') as output_file:
-        csv_file = csv.writer(output_file)
-        csv_file.writerow(['ncaa_id', 'team', 'player_id', 'name', 'year', 'hometown', 'high_school', 'previous_school', 'height', 'position', 'jersey', 'url', 'season'])
-        for team in teams_with_urls:
-            try:
-                if team['ncaa_id'] == 26107 and season == '2021-22':
-                    continue
-                if 'roster' in team:
-                    continue
-                print(team['team'])
-                if team['ncaa_id'] in [5, 497]:
-                    roster = shotscraper_table(team, season)
-                elif team['ncaa_id'] in [9, 71, 83, 96, 99, 156, 173, 180, 191, 234, 249, 257, 301, 306, 367, 387, 392, 400, 404, 418, 428, 441, 490, 521, 522, 559, 574, 603, 635, 664, 671, 676, 688, 690, 700, 719, 749, 758]:
-                    roster = shotscraper_card(team, season)
-                elif team['ncaa_id'] in [51, 248, 731]:
-                    roster = shotscraper_list_item(team, season)
-                elif team['ncaa_id'] in [175, 316, 430]:
-                    roster = shotscraper_roster_player(team, season)
-                elif team['ncaa_id'] in [556]:
-                    roster = shotscraper_data_tables(team, season)
-                elif team['ncaa_id'] in [706]:
-                    roster = shotscraper_table_plain(team, season)
-                elif team['ncaa_id'] == 77:
-                    if str(season[0:1]):
-                        season = f"{str(season)[0:5]}20{str(season[5:7])}"
-                        roster = fetch_and_parse_byu(team, season)
-                elif team['ncaa_id'] == 630:
-                    roster = fetch_and_parse_sanjose(team, season)
-                elif team['ncaa_id'] == 66:
-                    continue
-                    #roster = fetch_and_parse_boise_state(team, season)
-                elif team['ncaa_id'] == 72:
-                    roster = fetch_and_parse_bradley(team, season)
-                elif team['ncaa_id'] == 415:
-                    roster = fetch_and_parse_miami(team, season)
-                elif team['ncaa_id'] == 147:
-                    roster = fetch_and_parse_clemson(team, season)
-                elif team['ncaa_id'] == 186:
-                    roster = shotscraper_wbkb_udc(team, season)
-                elif team['ncaa_id'] == 308:
-                    roster = shotscraper_card2(team, season)
-                elif team['ncaa_id'] == 311:
-                    roster = fetch_and_parse_iowa_state(team, season)
-                elif team['ncaa_id'] == 312:
-                    roster = fetch_and_parse_iowa(team, season)
-                elif team['ncaa_id'] in [326, 762, 8981, 30225]:
-                    roster = shotscraper_table_wbkb(team, season)
-                elif team['ncaa_id'] == 327:
-                    roster = fetch_and_parse_kansas_state(team, season)
-                elif team['ncaa_id'] == 334:
-                    roster = fetch_and_parse_kentucky(team, season)
-                elif team['ncaa_id'] == 388:
-                    roster = shotscraper_marshall(team, season)
-                elif team['ncaa_id'] == 463:
-                    roster = fetch_and_parse_nebraska(team, season)
-                elif team['ncaa_id'] == 513:
-                    roster = fetch_and_parse_notre_dame(team, season)
-                elif team['ncaa_id'] in [497, 528, 554]:
-                    roster = shotscraper_oregon_state(team, season)
-                elif team['ncaa_id'] == 532:
-                    roster = shotscraper_wbkb_elms(team, season)
-                elif team['ncaa_id'] in [623, 641]:
-                    roster = shotscraper_wbkb_salve(team, season)
-                elif team['ncaa_id'] == 648:
-                    continue
-                    #roster = fetch_and_parse_south_carolina(team, season)
-                elif team['ncaa_id'] == 694:
-                    roster = fetch_and_parse_tennessee(team, season)
-                elif team['ncaa_id'] == 721:
-                    roster = shotscraper_airforce(team, season)
-                elif team['ncaa_id'] == 735:
-                    roster = fetch_and_parse_valpo(team, season)
-                elif team['ncaa_id'] == 736:
-                    roster = fetch_and_parse_vandy(team, season)
-                elif team['ncaa_id'] == 742:
-                    roster = fetch_and_parse_virginia_tech(team, season)
-                elif team['ncaa_id'] in [449, 569, 807]:
-                    roster = shotscraper_wbkb_wooster(team, season)
-                elif team['ncaa_id'] == 809:
-                    roster = shotscraper_table_worc(team, season)
-                elif team['ncaa_id'] == 811:
-                    roster = fetch_and_parse_wyoming(team, season)
-                elif team['ncaa_id'] == 532:
-                    continue
-                elif 'wbkb' in team['url']:
-                    html = fetch_wbkb_roster(team['url'], season)
-                    roster = None
-                    if html:
-                        roster = parse_roster_wbkb(team, html, season)
-                elif 'w-baskbl' in team['url']:
-                    html = fetch_baskbl_roster(team['url'], season)
-                    roster = parse_roster_baskbl(team, html, season)
-                else:
-                    html = fetch_roster(team['url'], season)
-                    roster = parse_roster(team, html, season)
-                if len(roster) > 0:
-                    for player in roster:
-                        csv_file.writerow([player['team_id'], player['team'], player['id'], player['name'], player['year'], player['hometown'], player['high_school'], player['previous_school'], player['height'], player['position'], player['jersey'], player['url'], season])
-                else:
-                    unparsed.append(team['ncaa_id'])
-            except:
-                print("skipping for now")
-#                raise
-                skipped.append(team['ncaa_id'])
+                # Extract based on entity type
+                if self.entity_type == 'player':
+                    entity = self._extract_player_data(elem, team, season)
+                else:  # coach
+                    entity = self._extract_coach_data(elem, team, season)
+                
+                if entity:
+                    roster.append(entity)
+            except Exception as e:
+                logger.warning(f"Failed to parse {self.entity_type} for {team['team']}: {e}")
                 continue
-    return [unparsed, skipped]
-
-def get_all_rosters_baskbl(season):
-    teams_json = json.loads(open('/Users/dwillis/code/wbb/ncaa/teams.json').read())
-    teams_with_urls = [x for x in teams_json if "url" in x]
-    teams_with_baskbl = [x for x in teams_with_urls if 'w-baskbl' in x['url']]
-    with open(f"/Users/dwillis/code/wbb/ncaa/rosters_{season}_baskbl.csv", 'w') as output_file:
-        csv_file = csv.writer(output_file)
-        csv_file.writerow(['ncaa_id', 'team', 'player_id', 'name', 'year', 'hometown', 'high_school', 'previous_school', 'height', 'position', 'jersey', 'url', 'season'])
-        for team in teams_with_baskbl:
-            print(team['team'])
-            html = fetch_baskbl_roster(team['url'], season)
-            roster = parse_roster_baskbl(team, html, season)
-            if roster:
-                for player in roster:
-                    csv_file.writerow(list(player.values()))
-
-def write_one_team(roster, season):
-    with open(f"/Users/dwillis/code/wbb/ncaa/rosters_{season}.csv", 'a') as output_file:
-        csv_file = csv.writer(output_file)
-        for player in roster:
-            csv_file.writerow([player['team_id'], player['team'], player['id'], player['name'], player['year'], player['hometown'], player['high_school'], player['previous_school'], player['height'], player['position'], player['jersey'], player['url'], season])
-
-def shotscraper_airforce(team, season):
-    ncaa_id = team['ncaa_id']
-    name = team['team']
-
-    # JavaScript to be executed by shot-scraper
-    javascript_code = """
-    new Promise((resolve) => {
-        setTimeout(() => {
-            resolve(Array.from(document.querySelectorAll('.s-person-card'), el => {
-                const id = '';
-                const name = el.querySelector('.s-person-card__header__person-details-personal').innerText;
-                const year = "";
-                let ht = el.querySelectorAll('span.s-person-card__content__person-details-bio-stats-item')[1];
-                const height = ht ? ht.innerText.replace("Height\\n", "") : '';
-                const position = el.querySelectorAll('span.s-person-card__content__person-details-bio-stats-item')[0].innerText.replace("Position\\n", "");
-                const hometown = el.querySelectorAll('span.s-person-card__content__person-details-location-item')[0].innerText.replace("Hometown\\n", "");
-                const high_school = el.querySelectorAll('span.s-person-card__content__person-details-location-item')[1].innerText.replace("Last School\\n ", "");
-                const previous_school = '';
-                const jersey = el.querySelector('span.s-stamp__text').innerText.replace("Jersey Number\\n", "");
-                const url = el.querySelector('a')['href'];
-                return {id, name, year, hometown, high_school, previous_school, height, position, jersey, url};
-            }));
-        }, 1000);
-    });
-    """
-
-    roster = []
-    url = team['url'] + "/roster/" + season
-    # Execute shot-scraper with the given JavaScript
-    try:
-        result = subprocess.check_output(['shot-scraper', 'javascript', url, javascript_code, "--user-agent", "Firefox"])
-        parsed_data = json.loads(result)
-
-        for player in parsed_data:
-            player['team_id'] = ncaa_id
-            player['team'] = name
-            player['season'] = season
-
-        return parsed_data
-    except:
-        raise
-
-def shotscraper_card2(team, season):
-    ncaa_id = team['ncaa_id']
-    name = team['team']
-
-    # JavaScript to be executed by shot-scraper
-    javascript_code = """
-    Array.from(document.querySelectorAll('.s-person-card__content'), el => {
-        const id = '';
-        const name = el.querySelector('.s-person-details__personal-single-line').innerText;
-        const year = el.querySelectorAll('span.s-person-details__bio-stats-item')[1].querySelector('span').nextSibling['data'].trim();
-        const height = el.querySelectorAll('span.s-person-details__bio-stats-item')[2].querySelector('span').nextSibling['data'].trim();
-        const position = el.querySelectorAll('.s-person-details__bio-stats-item')[0].querySelector('span').nextSibling['data'].trim();
-        const hometown = el.querySelectorAll('.s-person-card__content__person__location-item')[0].querySelector('span').nextSibling['data'].trim();
-        const high_school = el.querySelectorAll('.s-person-card__content__person__location-item')[1].querySelector('span').nextSibling['data'].trim();
-        const previous_school = '';
-        let j = el.querySelector('.s-stamp__text');
-        const jersey = j ? j.innerText : '';
-        const url = el.querySelector('a')['href']
-        return {id, name, year, hometown, high_school, previous_school, height, position, jersey, url};
-    })
-    """
-
-    roster = []
-    url = team['url'] + "/roster/" + season
-    # Execute shot-scraper with the given JavaScript
-    try:
-        result = subprocess.check_output(['shot-scraper', 'javascript', url, javascript_code, "--user-agent", "Firefox"])
-        parsed_data = json.loads(result)
-
-        for player in parsed_data:
-            player['team_id'] = ncaa_id
-            player['team'] = name
-            player['season'] = season
-
-        return parsed_data
-    except:
-        raise
-
-def shotscraper_card(team, season):
-    ncaa_id = team['ncaa_id']
-    name = team['team']
-
-    # JavaScript to be executed by shot-scraper
-    javascript_code = """
-    Array.from(document.querySelectorAll('.s-person-card__content'), el => {
-        const id = '';
-        const name = el.querySelector('.s-person-details__personal-single-line').innerText;
-        const year = el.querySelectorAll('.s-person-details__bio-stats-item')[1].innerText;
-        let ht = el.querySelectorAll('.s-person-details__bio-stats-item')[2];
-        const height = ht ? ht.innerText : '';
-        const position = el.querySelectorAll('.s-person-details__bio-stats-item')[0].innerText;
-        let hm_el = el.querySelectorAll('.s-person-card__content__person__location-item')[0];
-        const hometown = hm_el ? hm_el.innerText : '';
-        let hs_el = el.querySelectorAll('.s-person-card__content__person__location-item')[1];
-        const high_school = hs_el ? hs_el.innerText : '';
-        const previous_school = '';
-        let j = el.querySelector('.s-stamp__text');
-        const jersey = j ? j.innerText : '';
-        const url = el.querySelector('a')['href']
-        return {id, name, year, hometown, high_school, previous_school, height, position, jersey, url};
-    })
-    """
-
-    roster = []
-    url = team['url'] + "/roster/" + season
-    # Execute shot-scraper with the given JavaScript
-    try:
-        result = subprocess.check_output(['shot-scraper', 'javascript', url, javascript_code, "--user-agent", "Firefox"])
-        parsed_data = json.loads(result)
-
-        for player in parsed_data:
-            player['team_id'] = ncaa_id
-            player['team'] = name
-            player['season'] = season
-
-        return parsed_data
-    except:
-        raise
-
-def shotscraper_card_image(team, season):
-    ncaa_id = team['ncaa_id']
-    name = team['team']
-
-    # JavaScript to be executed by shot-scraper
-    javascript_code = """
-    Array.from(document.querySelectorAll('.s-person-card__content'), el => {
-        const id = '';
-        const name = el.querySelector('.s-person-card__header__person-details-personal').innerText;
-        const year = el.querySelectorAll('.s-person-details__bio-stats-item')[1].innerText;
-        let ht = el.querySelectorAll('.s-person-details__bio-stats-item')[2];
-        const height = ht ? ht.innerText : '';
-        const position = el.querySelectorAll('.s-person-details__bio-stats-item')[0].innerText;
-        const hometown = el.querySelectorAll('.s-person-card__content__person__location-item')[0].innerText;
-        let hs_el = el.querySelectorAll('.s-person-card__content__person__location-item')[1];
-        const high_school = hs_el ? hs_el.innerText : '';
-        const previous_school = '';
-        let j = el.querySelector('.s-stamp__text');
-        const jersey = j ? j.innerText : '';
-        const url = el.querySelector('a')['href']
-        return {id, name, year, hometown, high_school, previous_school, height, position, jersey, url};
-    })
-    """
-
-    roster = []
-    url = team['url'] + "/roster/" + season
-    # Execute shot-scraper with the given JavaScript
-    try:
-        result = subprocess.check_output(['shot-scraper', 'javascript', url, javascript_code, "--user-agent", "Firefox"])
-        parsed_data = json.loads(result)
-
-        for player in parsed_data:
-            player['team_id'] = ncaa_id
-            player['team'] = name
-            player['season'] = season
-
-        return parsed_data
-    except:
-        raise
-
-def shotscraper_marshall(team, season):
-
-    ncaa_id = team['ncaa_id']
-    name = team['team']
-
-    # JavaScript to be executed by shot-scraper
-    javascript_code = """
-    Array.from(document.querySelectorAll('.s-table-body__row'), el => {
-        const id = '';
-        const name = el.querySelectorAll('td')[1].innerText;
-        const year = el.querySelectorAll('td')[4].innerText;
-        const height = el.querySelectorAll('td')[2].innerText;
-        const position = el.querySelectorAll('td')[3].innerText;
-        const hometown = el.querySelectorAll('td')[5].innerText.split(' / ')[0];
-        const high_school = el.querySelectorAll('td')[5].innerText.split(' / ')[1];
-        const previous_school = '';
-        const jersey = el.querySelectorAll('td')[0].innerText;
-        const url = el.querySelectorAll('td')[1].querySelector('a')['href']
-        return {id, name, year, hometown, high_school, previous_school, height, position, jersey, url};
-    })
-    """
-
-    roster = []
-    url = team['url'] + "/roster/" + season
-    # Execute shot-scraper with the given JavaScript
-    try:
-        result = subprocess.check_output(['shot-scraper', 'javascript', url, javascript_code, "--user-agent", "Firefox"])
-        parsed_data = json.loads(result)
-
-        for player in parsed_data:
-            player['team_id'] = ncaa_id
-            player['team'] = name
-            player['season'] = season
-
-        return parsed_data
-    except:
-        raise
-
-def shotscraper_oregon_state(team, season):
-    # oregon state
-
-    ncaa_id = team['ncaa_id']
-    name = team['team']
-
-    # JavaScript to be executed by shot-scraper
-    javascript_code = """
-    Array.from(document.querySelectorAll('.s-table-body__row'), el => {
-        const id = '';
-        const name = el.querySelectorAll('td')[1].innerText;
-        const year = el.querySelectorAll('td')[4].innerText;
-        const height = el.querySelectorAll('td')[3].innerText;
-        const position = el.querySelectorAll('td')[2].innerText;
-        const hometown = el.querySelectorAll('td')[5].innerText;
-        const high_school = '';
-        const previous_school = '';
-        const jersey = el.querySelectorAll('td')[0].innerText;
-        const url = el.querySelectorAll('td')[1].querySelector('a')['href']
-        return {id, name, year, hometown, high_school, previous_school, height, position, jersey, url};
-    })
-    """
-
-    roster = []
-    url = team['url'] + "/roster/" + season
-    # Execute shot-scraper with the given JavaScript
-    try:
-        result = subprocess.check_output(['shot-scraper', 'javascript', url, javascript_code, "--user-agent", "Firefox"])
-        parsed_data = json.loads(result)
-
-        for player in parsed_data:
-            player['team_id'] = ncaa_id
-            player['team'] = name
-            player['season'] = season
-
-        return parsed_data
-    except:
-        raise
-
-def shotscraper_table(team, season):
-    # akron
-
-    ncaa_id = team['ncaa_id']
-    name = team['team']
-
-    # JavaScript to be executed by shot-scraper
-    javascript_code = """
-    new Promise((resolve) => {
-        setTimeout(() => {
-            resolve(Array.from(document.querySelectorAll('.s-table-body__row'), el => {
-                const id = '';
-                const name = el.querySelectorAll('td')[1].innerText;
-                const year = el.querySelectorAll('td')[2].innerText;
-                const height = el.querySelectorAll('td')[3].innerText;
-                const position = el.querySelectorAll('td')[4].innerText;
-                const hometown = el.querySelectorAll('td')[5].innerText;
-                const hs_el = el.querySelectorAll('td')[6];
-                const high_school = hs_el ? hs_el.innerText : '';
-                const previous_school = '';
-                const jersey = el.querySelectorAll('td')[0].innerText;
-                const url = el.querySelectorAll('td')[1].querySelector('a').href;
-                return {id, name, year, hometown, high_school, previous_school, height, position, jersey, url};
-            }));
-        }, 1000); // Wait for 1000 milliseconds
-    });
-    """
-
-
-    roster = []
-    url = team['url'] + "/roster/" + season
-    # Execute shot-scraper with the given JavaScript
-    try:
-        result = subprocess.check_output(['shot-scraper', 'javascript', url, javascript_code, "--user-agent", "Firefox"])
-        parsed_data = json.loads(result)
-
-        for player in parsed_data:
-            player['team_id'] = ncaa_id
-            player['team'] = name
-            player['season'] = season
-
-        return parsed_data
-    except:
-        raise
-
-def shotscraper_wbkb_salve(team, season):
-    # Salve Regina
-
-    ncaa_id = team['ncaa_id']
-    name = team['team']
-
-    # JavaScript to be executed by shot-scraper
-    javascript_code = """
-    Array.from(document.querySelectorAll('.roster-data table tbody tr'), el => {
-        const id = '';
-        const name = el.querySelector('a').innerText.trim();
-        const year = el.querySelectorAll('td')[4].innerText;
-        const height = el.querySelectorAll('td')[3].innerText;
-        const position = el.querySelectorAll('td')[2].innerText;
-        const hometown = el.querySelectorAll('td')[5].innerText.split(' / ')[0];
-        const high_school = el.querySelectorAll('td')[5].innerText.split(' / ')[1];
-        const previous_school = '';
-        const jersey = el.querySelectorAll('td')[1].innerText;
-        const url = el.querySelector('a')['href'];
-        return {id, name, year, hometown, high_school, previous_school, height, position, jersey, url};
-    })
-    """
-
-    roster = []
-    url = team['url'].replace("index", season) + "/roster"
-    # Execute shot-scraper with the given JavaScript
-    try:
-        result = subprocess.check_output(['shot-scraper', 'javascript', url, javascript_code, "--user-agent", "Firefox"])
-        parsed_data = json.loads(result)
-
-        for player in parsed_data:
-            player['team_id'] = ncaa_id
-            player['team'] = name
-            player['season'] = season
-
-        return parsed_data
-    except:
-        raise
-
-def shotscraper_wbkb_elms(team, season):
-    # Elms
-
-    ncaa_id = team['ncaa_id']
-    name = team['team']
-
-    # JavaScript to be executed by shot-scraper
-    javascript_code = """
-    Array.from(document.querySelectorAll('.roster-data table tbody tr'), el => {
-        const id = '';
-        const name = el.querySelector('a').innerText.trim();
-        const year = el.querySelectorAll('td')[2].innerText;
-        const height = el.querySelectorAll('td')[3].innerText;
-        const position = el.querySelectorAll('td')[1].innerText;
-        const hometown = el.querySelectorAll('td')[4].innerText.split(' / ')[0];
-        const high_school = el.querySelectorAll('td')[4].innerText.split(' / ')[1];
-        const previous_school = '';
-        const jersey = el.querySelectorAll('td')[0].innerText;
-        const url = el.querySelector('a')['href'];
-        return {id, name, year, hometown, high_school, previous_school, height, position, jersey, url};
-    })
-    """
-
-    roster = []
-    url = team['url'].replace("index", season) + "/roster"
-    # Execute shot-scraper with the given JavaScript
-    try:
-        result = subprocess.check_output(['shot-scraper', 'javascript', url, javascript_code, "--user-agent", "Firefox"])
-        parsed_data = json.loads(result)
-
-        for player in parsed_data:
-            player['team_id'] = ncaa_id
-            player['team'] = name
-            player['season'] = season
-
-        return parsed_data
-    except:
-        raise
-
-def shotscraper_table_worc(team, season):
-    # Worcester State
-
-    ncaa_id = team['ncaa_id']
-    name = team['team']
-
-    # JavaScript to be executed by shot-scraper
-    javascript_code = """
-    Array.from(document.querySelectorAll('.roster table tbody tr'), el => {
-        const id = '';
-        const name = el.querySelector('a').innerText.trim();
-        const year = el.querySelectorAll('td')[3].innerText;
-        const height = el.querySelectorAll('td')[4].innerText;
-        const position = el.querySelectorAll('td')[2].innerText;
-        const hometown = el.querySelectorAll('td')[5].innerText.split(' / ')[0];
-        const high_school = el.querySelectorAll('td')[5].innerText.split(' / ')[1];
-        const previous_school = '';
-        const jersey = el.querySelectorAll('td')[1].innerText;
-        const url = el.querySelector('a')['href'];
-        return {id, name, year, hometown, high_school, previous_school, height, position, jersey, url};
-    })
-    """
-
-    roster = []
-    url = team['url'].replace("index", season) + "/roster"
-    # Execute shot-scraper with the given JavaScript
-    try:
-        result = subprocess.check_output(['shot-scraper', 'javascript', url, javascript_code, "--user-agent", "Firefox"])
-        parsed_data = json.loads(result)
-
-        for player in parsed_data:
-            player['team_id'] = ncaa_id
-            player['team'] = name
-            player['season'] = season
-
-        return parsed_data
-    except:
-        raise
-
-def shotscraper_wbkb_wooster(team, season):
-    # Wooster
-
-    ncaa_id = team['ncaa_id']
-    name = team['team']
-
-    # JavaScript to be executed by shot-scraper
-    javascript_code = """
-    Array.from(document.querySelectorAll('table tbody tr'), el => {
-        const id = '';
-        const name = el.querySelector('a').innerText.trim();
-        const year = el.querySelectorAll('td')[1].innerText;
-        const height = el.querySelectorAll('td')[3].innerText;
-        const position = el.querySelectorAll('td')[2].innerText;
-        const hometown = el.querySelectorAll('td')[4].innerText;
-        const high_school = el.querySelectorAll('td')[5].innerText;
-        const previous_school = '';
-        const jersey = el.querySelectorAll('td')[0].innerText.trim();
-        const url = el.querySelector('a')['href'];
-        return {id, name, year, hometown, high_school, previous_school, height, position, jersey, url};
-    })
-    """
-
-    roster = []
-    url = team['url'].replace("index", season) + "/roster"
-    # Execute shot-scraper with the given JavaScript
-    try:
-        result = subprocess.check_output(['shot-scraper', 'javascript', url, javascript_code, "--user-agent", "Firefox"])
-        parsed_data = json.loads(result)
-
-        for player in parsed_data:
-            player['team_id'] = ncaa_id
-            player['team'] = name
-            player['season'] = season
-
-        return parsed_data
-    except:
-        raise
-
-
-def shotscraper_wbkb_udc(team, season):
-    # Dist. Columbia
-
-    ncaa_id = team['ncaa_id']
-    name = team['team']
-
-    # JavaScript to be executed by shot-scraper
-    javascript_code = """
-    Array.from(document.querySelectorAll('table tbody tr'), el => {
-        const id = '';
-        const name = el.querySelector('a').innerText.trim();
-        const year = el.querySelectorAll('td')[3].innerText;
-        const height = el.querySelectorAll('td')[4].innerText;
-        const position = el.querySelectorAll('td')[2].innerText;
-        const hometown = el.querySelectorAll('td')[6].innerText.split(' / ')[0];
-        const high_school = el.querySelectorAll('td')[6].innerText.split(' / ')[1];
-        const previous_school = '';
-        const jersey = el.querySelectorAll('td')[0].innerText.trim();
-        const url = el.querySelector('a')['href'];
-        return {id, name, year, hometown, high_school, previous_school, height, position, jersey, url};
-    })
-    """
-
-    roster = []
-    url = team['url'].replace("index", season) + "/roster"
-    # Execute shot-scraper with the given JavaScript
-    try:
-        result = subprocess.check_output(['shot-scraper', 'javascript', url, javascript_code, "--user-agent", "Firefox"])
-        parsed_data = json.loads(result)
-
-        for player in parsed_data:
-            player['team_id'] = ncaa_id
-            player['team'] = name
-            player['season'] = season
-
-        return parsed_data
-    except:
-        raise
-
-def shotscraper_table_wbkb(team, season):
-    # Kalamazoo
-
-    ncaa_id = team['ncaa_id']
-    name = team['team']
-
-    # JavaScript to be executed by shot-scraper
-    javascript_code = """
-    Array.from(document.querySelectorAll('.roster table tbody tr'), el => {
-        const id = '';
-        const name = el.querySelector('a').innerText.trim();
-        const year = el.querySelectorAll('td')[2].innerText;
-        const height = el.querySelectorAll('td')[3].innerText;
-        const position = el.querySelectorAll('td')[1].innerText;
-        const hometown = el.querySelectorAll('td')[4].innerText.split(' / ')[0];
-        const high_school = el.querySelectorAll('td')[4].innerText.split(' / ')[1];
-        const previous_school = '';
-        const jersey = el.querySelectorAll('td')[0].innerText;
-        const url = el.querySelector('a')['href'];
-        return {id, name, year, hometown, high_school, previous_school, height, position, jersey, url};
-    })
-    """
-
-    roster = []
-    url = team['url'].replace("index", season) + "/roster"
-    # Execute shot-scraper with the given JavaScript
-    try:
-        result = subprocess.check_output(['shot-scraper', 'javascript', url, javascript_code, "--user-agent", "Firefox"])
-        parsed_data = json.loads(result)
-
-        for player in parsed_data:
-            player['team_id'] = ncaa_id
-            player['team'] = name
-            player['season'] = season
-
-        return parsed_data
-    except:
-        raise
-
-def shotscraper_table_plain(team, season):
-    # utsa
-
-    ncaa_id = team['ncaa_id']
-    name = team['team']
-
-    # JavaScript to be executed by shot-scraper
-    javascript_code = """
-    Array.from(document.querySelectorAll('.roster-players__group tbody tr'), el => {
-        const id = '';
-        const name = el.querySelectorAll('td')[1].innerText;
-        const year = el.querySelectorAll('td')[4].innerText;
-        const height = el.querySelectorAll('td')[3].innerText;
-        const position = el.querySelectorAll('td')[2].innerText;
-        const hometown = el.querySelectorAll('td')[5].innerText;
-        hs_el = el.querySelectorAll('td')[6];
-        const high_school = hs_el ? hs_el.innerText : '';
-        ps_el = el.querySelectorAll('td')[7];
-        const previous_school = ps_el ? ps_el.innerText : '';
-        const jersey = el.querySelectorAll('td')[0].innerText;
-        const url = el.querySelectorAll('td')[1].querySelector('a')['href']
-        return {id, name, year, hometown, high_school, previous_school, height, position, jersey, url};
-    })
-    """
-
-    roster = []
-    url = team['url'] + "/roster/season/" + season
-    # Execute shot-scraper with the given JavaScript
-    try:
-        result = subprocess.check_output(['shot-scraper', 'javascript', url, javascript_code, "--user-agent", "Firefox"])
-        parsed_data = json.loads(result)
-
-        for player in parsed_data:
-            player['team_id'] = ncaa_id
-            player['team'] = name
-            player['season'] = season
-
-        return parsed_data
-    except:
-        raise
-
-def shotscraper_roster_player(team, season):
-    ncaa_id = team['ncaa_id']
-    name = team['team']
-
-    # JavaScript to be executed by shot-scraper
-    javascript_code = """
-    Array.from(document.querySelectorAll('.sidearm-roster-player-container'), el => {
-        const id = '';
-        const name = el.querySelector('h3').innerText;
-        const year = el.querySelector('.sidearm-roster-player-academic-year').innerText;
-        let ht = el.querySelector('.sidearm-roster-player-height');
-        const height = ht ? ht.innerText : '';
-        let pos = el.querySelector('.sidearm-roster-player-position-long-short');
-        const position = pos ? pos.innerText.trim() : '';
-        const hometown = el.querySelector('.sidearm-roster-player-hometown').innerText;
-        hs_el = el.querySelector('.sidearm-roster-player-highschool');
-        const high_school = hs_el ? hs_el.innerText : '';
-        ps_el = el.querySelector('.sidearm-roster-player-previous-school');
-        const previous_school = ps_el ? ps_el.innerText : '';
-        j = el.querySelector('.sidearm-roster-player-jersey-number');
-        const jersey = j ? j.innerText : '';
-        const url = el.querySelector('a')['href']
-        return {id, name, year, hometown, high_school, previous_school, height, position, jersey, url};
-    })
-    """
-
-    roster = []
-    url = team['url'] + "/roster/" + season
-    # Execute shot-scraper with the given JavaScript
-    try:
-        result = subprocess.check_output(['shot-scraper', 'javascript', url, javascript_code, "--user-agent", "Firefox"])
-        parsed_data = json.loads(result)
-
-        for player in parsed_data:
-            player['team_id'] = ncaa_id
-            player['team'] = name
-            player['season'] = season
-
-        return parsed_data
-    except:
-        raise
-
-def shotscraper_roster_player2(team, season):
-    ncaa_id = team['ncaa_id']
-    name = team['team']
-
-    # JavaScript to be executed by shot-scraper
-    javascript_code = """
-    Array.from(document.querySelectorAll('.sidearm-roster-player-container'), el => {
-        const id = '';
-        const name = el.querySelector('h3').innerText;
-        const year = el.querySelector('.sidearm-roster-player-academic-year').innerText;
-        ht_el = el.querySelector('span.sidearm-roster-player-height');
-        const height = ht_el ? ht_el.innerText : '';
-        const position = el.querySelector('.sidearm-roster-player-position').innerText.split(' ')[0];
-        const hometown = el.querySelector('.sidearm-roster-player-hometown').innerText;
-        const high_school = el.querySelector('.sidearm-roster-player-highschool').innerText;
-        ps_el = el.querySelector('.sidearm-roster-player-previous-school');
-        const previous_school = ps_el ? ps_el.innerText : '';
-        const jersey = el.querySelector('.sidearm-roster-player-jersey-number').innerText;
-        const url = el.querySelector('a')['href']
-        return {id, name, year, hometown, high_school, previous_school, height, position, jersey, url};
-    })
-    """
-
-    roster = []
-    url = team['url'] + "/roster/" + season
-    # Execute shot-scraper with the given JavaScript
-    try:
-        result = subprocess.check_output(['shot-scraper', 'javascript', url, javascript_code, "--user-agent", "Firefox"])
-        parsed_data = json.loads(result)
-
-        for player in parsed_data:
-            player['team_id'] = ncaa_id
-            player['team'] = name
-            player['season'] = season
-
-        return parsed_data
-    except:
-        raise
-
-# Example usage: python rosters.py -season 2021-22 -url https://baylorbears.com/sports/womens-basketball/
+                
+        return roster
+
+    def _find_player_elements(self, html):
+        """Find player/coach elements using entity-specific selectors"""
+        # First, try to find the entity-specific container
+        container_selector = self.entity_config.get('sidearm_container')
+        search_context = html
+        
+        if container_selector:
+            container = html.select_one(container_selector)
+            if container:
+                search_context = container
+                logger.info(f"Found {self.entity_type} container: {container_selector}")
+            else:
+                logger.warning(f"Container {container_selector} not found, searching entire page")
+        
+        # Use entity-specific selectors from config
+        selectors = self.entity_config['sidearm_selectors']
+        elements = []
+        
+        for selector in selectors:
+            # Try CSS selector first
+            if selector.startswith('.'):
+                # Use select() instead of find_all() to support full CSS selectors
+                elements = search_context.select(selector)
+                if elements:
+                    logger.info(f"Found {len(elements)} {self.entity_type} elements with selector: {selector}")
+                    break
+                else:
+                    logger.debug(f"No elements found with selector: {selector}")
+        
+        # Fallback: Try text-wrapper pattern (South Carolina style) for players only
+        if not elements and self.entity_type == 'player':
+            text_wrappers = search_context.find_all('div', {'class': 'text-wrapper'})
+            if text_wrappers:
+                elements = [div.parent for div in text_wrappers 
+                          if div.parent and div.parent.name == 'li']
+        
+        return elements
+
+    def _extract_player_data(self, player_elem, team: Dict, season: str) -> Optional[Player]:
+        """Extract player data using field extractors"""
+        try:
+            # Extract name
+            name = ""
+            if player_elem.find('a') and 'aria-label' in player_elem.find('a').attrs:
+                name = player_elem.find('a')['aria-label'].split(' - ')[0].strip()
+            elif player_elem.find('h3'):
+                name = FieldExtractors.clean_text(player_elem.find('h3').get_text())
+            
+            if not name or 'Instagram' in name:
+                return None
+
+            # Extract other fields
+            fields = {
+                'previous_school': self._get_text_by_class(player_elem, 'sidearm-roster-player-previous-school'),
+                'high_school': self._get_text_by_class(player_elem, 'sidearm-roster-player-highschool'),
+                'height': self._get_text_by_class(player_elem, 'sidearm-roster-player-height'),
+                'hometown': self._get_text_by_class(player_elem, 'sidearm-roster-player-hometown'),
+                'jersey': self._get_text_by_class(player_elem, 'sidearm-roster-player-jersey-number'),
+                'year': self._get_academic_year(player_elem),
+                'position': self._get_position(player_elem)
+            }
+
+            # Build player URL
+            player_url = ""
+            if player_elem.find('a'):
+                relative_url = player_elem.find('a').get('href', '')
+                player_url = self.build_player_url(team['url'], relative_url)
+
+            return Player(
+                team_id=team['ncaa_id'],
+                team=team['team'],
+                player_id=player_elem.get('data-player-id'),
+                name=name,
+                year=fields['year'],
+                hometown=fields['hometown'],
+                high_school=fields['high_school'],
+                previous_school=fields['previous_school'],
+                height=fields['height'],
+                position=fields['position'],
+                jersey=fields['jersey'],
+                url=player_url,
+                season=season
+            )
+
+        except Exception as e:
+            logger.error(f"Error extracting player data: {e}")
+            return None
+
+    def _get_text_by_class(self, element, class_name: str) -> str:
+        """Get text from element with class name"""
+        found = element.find('span', {'class': class_name})
+        return FieldExtractors.clean_text(found.get_text()) if found else ""
+
+    def _get_academic_year(self, player_elem) -> str:
+        """Extract academic year"""
+        year_elements = player_elem.find_all('span', {'class': 'sidearm-roster-player-academic-year'})
+        if len(year_elements) > 1:
+            return FieldExtractors.normalize_academic_year(year_elements[1].get_text())
+        elif year_elements:
+            return FieldExtractors.normalize_academic_year(year_elements[0].get_text())
+        return ""
+
+    def _extract_coach_data(self, coach_elem, team: Dict, season: str) -> Optional[Player]:
+        """Extract coach information from a coach element"""
+        try:
+            # Extract name using entity-specific selectors
+            name = None
+            for selector in self.entity_config['field_selectors']['name']:
+                if selector.startswith('.'):
+                    class_name = selector[1:]
+                    name_elem = coach_elem.find(class_=class_name)
+                    if name_elem:
+                        name = FieldExtractors.clean_text(name_elem.get_text())
+                        break
+                else:
+                    # Try as tag name (h3, h4, etc)
+                    name_elem = coach_elem.find(selector)
+                    if name_elem:
+                        name = FieldExtractors.clean_text(name_elem.get_text())
+                        break
+            
+            if not name:
+                return None
+            
+            # Extract title
+            title = ""
+            for selector in self.entity_config['field_selectors']['title']:
+                if selector.startswith('.'):
+                    class_name = selector[1:]
+                    title_elem = coach_elem.find(class_=class_name)
+                    if title_elem:
+                        title = FieldExtractors.clean_text(title_elem.get_text())
+                        break
+            
+            # Extract experience
+            experience = ""
+            for selector in self.entity_config['field_selectors']['experience']:
+                if selector.startswith('.'):
+                    class_name = selector[1:]
+                    exp_elem = coach_elem.find(class_=class_name)
+                    if exp_elem:
+                        experience = FieldExtractors.clean_text(exp_elem.get_text())
+                        break
+            
+            # Extract alma mater
+            alma_mater = ""
+            for selector in self.entity_config['field_selectors']['alma_mater']:
+                if selector.startswith('.'):
+                    class_name = selector[1:]
+                    alma_elem = coach_elem.find(class_=class_name)
+                    if alma_elem:
+                        alma_mater = FieldExtractors.clean_text(alma_elem.get_text())
+                        break
+            
+            # Build coach URL
+            coach_url = ""
+            if coach_elem.find('a'):
+                relative_url = coach_elem.find('a').get('href', '')
+                coach_url = self.build_player_url(team['url'], relative_url)
+            
+            # Create Player object (reusing same dataclass for coaches)
+            # Map coach fields to player fields
+            return Player(
+                team_id=team['ncaa_id'],
+                team=team['team'],
+                player_id=None,
+                name=name,
+                year=experience,  # Map experience to year field
+                hometown=alma_mater,  # Map alma_mater to hometown field
+                high_school='',
+                previous_school='',
+                height='',
+                position=title,  # Map title to position field
+                jersey='',  # Coaches don't have jersey numbers
+                url=coach_url,
+                season=season
+            )
+        
+        except Exception as e:
+            logger.error(f"Error extracting coach data: {e}")
+            return None
+
+    def _get_position(self, player_elem) -> str:
+        """Extract position"""
+        position_div = player_elem.find('div', {'class': 'sidearm-roster-player-position'})
+        if not position_div:
+            return ""
+
+        position_text = FieldExtractors.clean_text(position_div.get_text())
+        return FieldExtractors.extract_position(position_text)
+
+
+class TableScraper(BaseScraper):
+    """Scraper for table-based rosters"""
+    
+    def scrape_roster(self, team: Dict, season: str, url_format: str = "default") -> List[Player]:
+        """Scrape roster from table format"""
+        url = URLBuilder.build_url(team['url'], season, url_format, entity_type=self.entity_type)
+        html = self.fetch_html(url)
+        
+        if not html:
+            return []
+
+        # Verify season for Sidearm sites
+        if SeasonVerifier.is_sidearm_site(html):
+            verification_season = season
+            if team['ncaa_id'] in [209, 339, 340, 77, 670, 1013, 11403, 11504]:
+                verification_season = f"{season[:4]}-{season[:2]}{season[-2:]}"
+            if not SeasonVerifier.verify_season_on_page(html, verification_season, entity_type=self.entity_type):
+                logger.warning(f"Season {verification_season} not found on page for {team['team']}")
+                return []
+
+        # For coaches, look for coach-specific tables or sections
+        if self.entity_type == 'coach':
+            return self._scrape_coaches(html, team, season, url)
+        
+        # Player scraping logic
+        table = html.find('table', {'id': 'players-table__general'})
+        if not table:
+            table = html.find('table')
+
+        if not table:
+            logger.warning(f"No table found for {team['team']} at {url}")
+            return []
+
+        headers, rows = self._parse_table(table)
+        if not headers or not rows:
+            logger.warning(f"Could not parse headers or rows for {team['team']}")
+            return []
+
+        mapped_headers = HeaderMapper.map_headers(headers)
+        
+        roster = []
+        for row in rows:
+            try:
+                player = self._extract_table_player(row, mapped_headers, team, season)
+                if player:
+                    roster.append(player)
+            except Exception as e:
+                logger.warning(f"Failed to parse table row for {team['team']}: {e}")
+                continue
+
+        return roster
+    
+    def _scrape_coaches(self, html, team: Dict, season: str, url: str) -> List[Player]:
+        """Scrape coaches from table or coach-specific sections"""
+        coaches = []
+        
+        # Try to find coach-specific headers or sections
+        coach_headers = html.find_all(['h2', 'h3', 'h4'], 
+                                      string=lambda s: s and 'coach' in s.lower() if s else False)
+        
+        if coach_headers:
+            # Find table after coach header
+            for header in coach_headers:
+                table = header.find_next('table')
+                if table:
+                    coaches = self._parse_coach_table(table, team, season, url)
+                    if coaches:
+                        return coaches
+        
+        # Try finding coaches in the main table by looking for coach-like positions
+        table = html.find('table', {'id': 'players-table__general'})
+        if not table:
+            table = html.find('table')
+        
+        if table:
+            headers, rows = self._parse_table(table)
+            if headers and rows:
+                # Check if any row has coach titles
+                for row in rows:
+                    cells = row.find_all(['td', 'th'])
+                    if len(cells) >= 2:
+                        # Look for coach indicators in any cell
+                        row_text = ' '.join([cell.get_text(strip=True) for cell in cells])
+                        if any(keyword in row_text.lower() for keyword in ['head coach', 'assistant coach', 'director', 'coordinator']):
+                            coach = self._extract_coach_from_row(row, team, season, url)
+                            if coach:
+                                coaches.append(coach)
+        
+        return coaches
+    
+    def _parse_coach_table(self, table, team: Dict, season: str, url: str) -> List[Player]:
+        """Parse a table containing coaches"""
+        coaches = []
+        headers, rows = self._parse_table(table)
+        
+        for row in rows:
+            coach = self._extract_coach_from_row(row, team, season, url)
+            if coach:
+                coaches.append(coach)
+        
+        return coaches
+    
+    def _extract_coach_from_row(self, row, team: Dict, season: str, base_url: str) -> Optional[Player]:
+        """Extract coach data from a table row"""
+        try:
+            cells = row.find_all(['td', 'th'])
+            if len(cells) < 2:
+                return None
+            
+            # Extract name (usually first or second cell)
+            name = ''
+            title = ''
+            coach_url = base_url
+            
+            # Try to find name link
+            link = row.find('a')
+            if link:
+                name = FieldExtractors.clean_text(link.get_text())
+                coach_url = self.build_player_url(team['url'], link.get('href', ''))
+            else:
+                name = FieldExtractors.clean_text(cells[0].get_text())
+            
+            # Extract title - look for coach keywords
+            for cell in cells:
+                cell_text = FieldExtractors.clean_text(cell.get_text())
+                if any(keyword in cell_text.lower() for keyword in ['coach', 'director', 'coordinator']):
+                    title = cell_text
+                    break
+            
+            if not name or not title:
+                return None
+            
+            # Map to Player object with coach data
+            return Player(
+                team=team['team'],
+                team_id=str(team['ncaa_id']),
+                season=season,
+                name=name,
+                jersey='',
+                position=title,  # Map title to position
+                height='',
+                year='',
+                hometown='',
+                high_school='',
+                previous_school='',
+                url=coach_url
+            )
+        except Exception as e:
+            logger.warning(f"Error extracting coach from row: {e}")
+            return None
+
+    def _parse_table(self, table) -> tuple:
+        """Parse table headers and rows"""
+        # Extract headers
+        header_row = table.find('thead')
+        if header_row:
+            headers = [th.get_text(strip=True) for th in header_row.find_all('th')]
+        else:
+            first_row = table.find('tr')
+            headers = [th.get_text(strip=True) for th in first_row.find_all(['th', 'td'])]
+
+        # Clean headers
+        unwanted = ['MAJOR', 'Social', 'Pronounciation', 'Wt.', 'Ltrs.', 'Pronouns', 'Major']
+        headers = [h for h in headers if h and h not in unwanted]
+
+        # Extract rows
+        tbody = table.find('tbody')
+        rows = tbody.find_all('tr') if tbody else table.find_all('tr')[1:]
+
+        return headers, rows
+
+    def _extract_table_player(self, row, headers: List[str], team: Dict, season: str) -> Optional[Player]:
+        """Extract player data from table row"""
+        cells = row.find_all(['td', 'th'])
+        if len(cells) < len(headers):
+            return None
+
+        # Handle team-specific formats
+        if team.get('ncaa_id') in [529, 31]:  # Oregon, Arkansas
+            return self._extract_special_format(row, cells, team, season)
+        
+        return self._extract_standard_format(row, cells, headers, team, season)
+
+    def _extract_special_format(self, row, cells, team: Dict, season: str) -> Optional[Player]:
+        """Handle special table formats for specific teams"""
+        team_id = team.get('ncaa_id')
+        
+        if team_id in [529, 31]:  # Oregon, Arkansas
+            data = {
+                'name': FieldExtractors.clean_text(cells[1].get_text()),
+                'jersey': FieldExtractors.clean_text(cells[0].get_text()),
+                'position': FieldExtractors.clean_text(cells[2].get_text()),
+                'height': FieldExtractors.clean_text(cells[3].get_text()),
+                'year': FieldExtractors.clean_text(cells[4].get_text()),
+                'hometown': FieldExtractors.clean_text(cells[5].get_text()),
+                'high_school': FieldExtractors.clean_text(cells[6].get_text()) if len(cells) > 6 else '',
+                'previous_school': FieldExtractors.clean_text(cells[7].get_text()) if len(cells) > 7 else '',
+            }
+        else:
+            return None
+        
+        # Extract URL
+        link = row.find('a')
+        player_url = self.build_player_url(team['url'], link.get('href', '')) if link else ""
+
+        return Player(
+            team_id=team['ncaa_id'], team=team['team'], name=data['name'],
+            year=data['year'], hometown=data['hometown'], high_school=data['high_school'],
+            previous_school=data['previous_school'], height=data['height'],
+            position=data['position'], jersey=data['jersey'], url=player_url, season=season
+        )
+
+    def _extract_standard_format(self, row, cells, headers: List[str], team: Dict, season: str) -> Optional[Player]:
+        """Extract from standard table format"""
+        data = {}
+        for i, header in enumerate(headers):
+            if i < len(cells):
+                data[header] = FieldExtractors.clean_text(cells[i].get_text())
+
+        # Handle hometown/high school splitting
+        hometown_data = FieldExtractors.parse_hometown_school(data.get('town', ''))
+        if not hometown_data['hometown']:
+            hometown_data['hometown'] = data.get('hometown', '')
+            hometown_data['high_school'] = data.get('high_school', '')
+
+        link = row.find('a')
+        player_url = self.build_player_url(team['url'], link.get('href', '')) if link else ""
+
+        return Player(
+            team_id=team['ncaa_id'], team=team['team'], name=data.get('name', ''),
+            year=FieldExtractors.normalize_academic_year(data.get('academic_year', '')),
+            hometown=hometown_data['hometown'], high_school=hometown_data['high_school'],
+            previous_school=hometown_data['previous_school'] or data.get('previous_school', ''),
+            height=data.get('height', ''), position=data.get('position', ''),
+            jersey=data.get('jersey', ''), url=player_url, season=season
+        )
+
+
+class JavaScriptScraper(BaseScraper):
+    """Scraper using JavaScript execution for dynamic content"""
+    
+    def __init__(self, use_playwright: bool = False, entity_type: str = 'player'):
+        super().__init__(entity_type=entity_type)
+        self.use_playwright = use_playwright and PLAYWRIGHT_AVAILABLE
+
+    def scrape_roster(self, team: Dict, season: str, js_selector: str, url_format: str = "default", base_url: str = "") -> List[Player]:
+        """Scrape roster using JavaScript with templates"""
+        url = URLBuilder.build_url(team['url'], season, url_format, entity_type=self.entity_type)
+        
+        # Get JavaScript code from templates based on entity type
+        if js_selector == 'nuxt_roster':
+            if self.entity_type == 'coach':
+                # Try coaching-staff section first, fallback to __NUXT_DATA__
+                js_code = JSTemplates.coaching_staff_template()
+                result = self._scrape_with_shot_scraper(url, js_code, team, season, base_url) if not self.use_playwright else self._scrape_with_playwright(url, js_code, team, season, base_url)
+                
+                # If no coaches found, try __NUXT_DATA__ approach
+                if not result:
+                    logger.info(f"No coaches found in #coaching-staff, trying __NUXT_DATA__ for {team['team']}")
+                    js_code = JSTemplates.nuxt_data_coaches_template()
+                else:
+                    return result
+            else:
+                js_code = JSTemplates.nuxt_data_template()
+        elif js_selector == 's_person_card':
+            if self.entity_type == 'coach':
+                js_code = JSTemplates.s_person_card_coaches_template()
+            else:
+                js_code = JSTemplates.s_person_card_template()
+        else:
+            # Handle custom selectors with coach support
+            if self.entity_type == 'coach':
+                # Try coach-specific version first
+                coach_selector = f"{js_selector}_coaches"
+                js_code = JSTemplates.get_custom_selector(team['ncaa_id'], coach_selector)
+                if not js_code:
+                    # Fall back to regular selector
+                    logger.info(f"No coach-specific selector found for {js_selector}, trying regular selector")
+                    js_code = JSTemplates.get_custom_selector(team['ncaa_id'], js_selector)
+            else:
+                js_code = JSTemplates.get_custom_selector(team['ncaa_id'], js_selector)
+        
+        if not js_code:
+            logger.error(f"No JavaScript code found for selector: {js_selector}")
+            return []
+        
+        # Replace season placeholder
+        if '{{SEASON}}' in js_code:
+            js_code = js_code.replace('{{SEASON}}', season)
+        
+        if self.use_playwright:
+            return self._scrape_with_playwright(url, js_code, team, season, base_url)
+        else:
+            return self._scrape_with_shot_scraper(url, js_code, team, season, base_url)
+
+    def _scrape_with_shot_scraper(self, url: str, js_code: str, team: Dict, season: str, base_url: str = "") -> List[Player]:
+        """Scrape using shot-scraper"""
+        try:
+            cmd = ['uv', 'run', 'shot-scraper', 'javascript', url, js_code, '--user-agent', 'Firefox', '--bypass-csp']
+            result = subprocess.check_output(cmd, timeout=120)
+            data = json.loads(result.decode('utf-8'))
+            
+            return self._process_js_result(data, team, season, base_url)
+            
+        except (subprocess.CalledProcessError, json.JSONDecodeError, subprocess.TimeoutExpired) as e:
+            logger.error(f"Shot-scraper failed for {url}: {e}")
+            return []
+
+    def _scrape_with_playwright(self, url: str, js_code: str, team: Dict, season: str, base_url: str = "") -> List[Player]:
+        """Scrape using Playwright"""
+        try:
+            with sync_playwright() as p:
+                browser = p.chromium.launch()
+                page = browser.new_page()
+                page.goto(url)
+                page.wait_for_timeout(2000)
+                
+                result = page.evaluate(js_code)
+                browser.close()
+                
+                return self._process_js_result(result, team, season, base_url)
+        except Exception as e:
+            logger.error(f"Playwright scraping failed for {url}: {e}")
+            return []
+
+    def _process_js_result(self, data: List[Dict], team: Dict, season: str, base_url: str = "") -> List[Player]:
+        """Process JavaScript scraping result"""
+        roster = []
+        for entity_data in data:
+            try:
+                player_url = entity_data.get('url', '')
+                if base_url and player_url.startswith('/'):
+                    player_url = base_url + player_url
+                
+                # Handle coach data differently
+                if self.entity_type == 'coach':
+                    player = Player(
+                        team_id=team['ncaa_id'],
+                        team=team['team'],
+                        player_id=entity_data.get('id'),
+                        name=entity_data.get('name', ''),
+                        year=entity_data.get('experience', ''),  # Map experience to year
+                        hometown=entity_data.get('alma_mater', ''),  # Map alma_mater to hometown
+                        high_school='',
+                        previous_school='',
+                        height='',
+                        position=entity_data.get('title', ''),  # Map title to position
+                        jersey='',
+                        url=player_url,
+                        season=season
+                    )
+                else:
+                    # Player data
+                    player = Player(
+                        team_id=team['ncaa_id'],
+                        team=team['team'],
+                        player_id=entity_data.get('id'),
+                        name=entity_data.get('name', ''),
+                        year=entity_data.get('year', ''),
+                        hometown=entity_data.get('hometown', ''),
+                        high_school=entity_data.get('high_school', ''),
+                        previous_school=entity_data.get('previous_school', ''),
+                        height=entity_data.get('height', ''),
+                        position=entity_data.get('position', ''),
+                        jersey=entity_data.get('jersey', ''),
+                        url=player_url,
+                        season=season
+                    )
+                roster.append(player)
+            except Exception as e:
+                logger.warning(f"Failed to process JS {self.entity_type} data: {e}")
+                continue
+        
+        return roster
+
+
+class VueDataScraper(BaseScraper):
+    """Scraper for sites with roster data in a Vue.js data object."""
+
+    def scrape_roster(self, team: Dict, season: str, url_format: str = "default") -> List[Player]:
+        url = URLBuilder.build_url(team['url'], season, url_format, entity_type=self.entity_type)
+        
+        try:
+            response = self.session.get(url, timeout=30)
+            response.raise_for_status()
+            html_text = response.text
+        except requests.RequestException as e:
+            logger.error(f"Failed to fetch {url}: {e}")
+            return []
+
+        # Regex to find the roster data object within the script tag
+        match = re.search(r'roster:\s*({.*?}),\s*roster_settings:', html_text, re.DOTALL)
+        if not match:
+            logger.warning(f"Could not find Vue roster data for {team['team']}")
+            return []
+
+        json_str = match.group(1)
+        
+        try:
+            roster_data = json.loads(json_str)
+        except json.JSONDecodeError as e:
+            logger.error(f"Failed to parse JSON for {team['team']}: {e}")
+            return []
+
+        # Get players or coaches depending on entity type
+        if self.entity_type == 'coach':
+            entities_list = roster_data.get('coaches', [])
+            entity_label = 'coaches'
+        else:
+            entities_list = roster_data.get('players', [])
+            entity_label = 'players'
+
+        if not entities_list:
+            logger.warning(f"No {entity_label} found in the JSON data for {team['team']}")
+            return []
+
+        roster = []
+        for p_data in entities_list:
+            try:
+                full_name = f"{p_data.get('first_name', '')} {p_data.get('last_name', '')}".strip()
+
+                # Construct entity URL
+                slug = re.sub(r'\s+', '-', full_name.lower()).strip()
+                slug = re.sub(r'[^\w\-]+', '', slug)
+
+                if self.entity_type == 'coach':
+                    relative_url = f"/sports/womens-basketball/roster/coaches/{slug}/{p_data.get('rp_id')}"
+                else:
+                    relative_url = f"/sports/womens-basketball/roster/{slug}/{p_data.get('rp_id')}"
+
+                player_url = self.build_player_url(team['url'], relative_url)
+
+                if self.entity_type == 'coach':
+                    # For coaches, map title to position field
+                    player = Player(
+                        team_id=team['ncaa_id'],
+                        team=team['team'],
+                        player_id=str(p_data.get('rp_id')),
+                        name=full_name,
+                        position=p_data.get('title', ''),  # Use title as position
+                        url=player_url,
+                        season=season
+                    )
+                else:
+                    # For players, use full player data
+                    height = ""
+                    if p_data.get('height_feet') is not None and p_data.get('height_inches') is not None:
+                        height = f"{p_data['height_feet']}'{p_data['height_inches']}\""
+
+                    player = Player(
+                        team_id=team['ncaa_id'],
+                        team=team['team'],
+                        player_id=str(p_data.get('rp_id')),
+                        name=full_name,
+                        year=FieldExtractors.normalize_academic_year(p_data.get('academic_year_short', '')),
+                        hometown=p_data.get('hometown', ''),
+                        high_school=p_data.get('highschool', ''),
+                        previous_school=p_data.get('previous_school', '') or '',
+                        height=height,
+                        position=p_data.get('position_short', ''),
+                        jersey=p_data.get('jersey_number', ''),
+                        url=player_url,
+                        season=season
+                    )
+                roster.append(player)
+            except Exception as e:
+                logger.warning(f"Failed to process player data for {team['team']}: {p_data.get('first_name')} - {e}")
+                continue
+        
+        return roster
+
+
+class ScraperFactory:
+    """Factory for creating appropriate scrapers"""
+    
+    @classmethod
+    def create_scraper(cls, scraper_type: str, entity_type: str = 'player', **kwargs) -> BaseScraper:
+        """Create appropriate scraper based on type"""
+        if scraper_type == "standard":
+            return StandardScraper(entity_type=entity_type)
+        elif scraper_type == "table":
+            return TableScraper(entity_type=entity_type)
+        elif scraper_type == "javascript":
+            return JavaScriptScraper(entity_type=entity_type, use_playwright=kwargs.get('use_playwright', False))
+        elif scraper_type == "vue_data":
+            return VueDataScraper(entity_type=entity_type)
+        else:
+            return StandardScraper(entity_type=entity_type)
+
+
+class RosterManager:
+    """Main class for managing roster scraping operations"""
+    
+    def __init__(self, teams_file: str = "/Users/dwillis/code/wbb/ncaa/teams.json", entity_type: str = 'player'):
+        self.teams_file = teams_file
+        self.teams_data = self._load_teams()
+        self.zero_player_teams = []
+        self.failed_year_check_teams = []
+        self.entity_type = entity_type
+
+    def _load_teams(self) -> List[Dict]:
+        """Load teams data from JSON file"""
+        try:
+            with open(self.teams_file, 'r') as f:
+                return json.load(f)
+        except FileNotFoundError:
+            logger.error(f"Teams file not found: {self.teams_file}")
+            return []
+
+    def get_teams(self, team_ids: Optional[List[int]] = None) -> List[Dict]:
+        """Get teams to scrape"""
+        teams_with_urls = [t for t in self.teams_data if "url" in t]
+        
+        if team_ids:
+            teams_with_urls = [t for t in teams_with_urls if t['ncaa_id'] in team_ids]
+        
+        return teams_with_urls
+
+    def scrape_team_roster(self, team: Dict, season: str) -> List[Player]:
+        """Scrape roster for a single team"""
+        config = TeamConfig.get_config(team['ncaa_id'])
+        scraper = ScraperFactory.create_scraper(config['type'], entity_type=self.entity_type)
+
+        logger.info(f"Scraping {team['team']} (ID: {team['ncaa_id']}) for {season}")
+        logger.info(f"Using config: {config}")
+
+        try:
+            if config['type'] == 'javascript':
+                selector = config.get('selector', 'nuxt_roster')
+                url_format = config.get('url_format', 'default')
+                base_url = config.get('base_url', '')
+                return scraper.scrape_roster(team, season, selector, url_format, base_url)
+            elif config['type'] == 'table':
+                url_format = config.get('url_format', 'default')
+                return scraper.scrape_roster(team, season, url_format)
+            elif config['type'] == 'vue_data':
+                url_format = config.get('url_format', 'default')
+                return scraper.scrape_roster(team, season, url_format)
+            else:
+                url_format = config.get('url_format', 'default')
+                return scraper.scrape_roster(team, season, url_format)
+        except Exception as e:
+            logger.error(f"Failed to scrape {team['team']}: {e}")
+            return []
+
+    def scrape_multiple_teams(self, season: str, team_ids: Optional[List[int]] = None) -> List[Player]:
+        """Scrape rosters for multiple teams"""
+        teams = self.get_teams(team_ids)
+        all_players = []
+        entity_label = ENTITY_CONFIGS[self.entity_type]['entity_label']
+
+        for team in teams:
+            try:
+                players = self.scrape_team_roster(team, season)
+                all_players.extend(players)
+
+                # Check for year verification failure first
+                year_check_failed = not self._verify_team_season(team, season)
+                
+                if year_check_failed:
+                    self.failed_year_check_teams.append({
+                        'team_id': team['ncaa_id'],
+                        'team_name': team['team'],
+                        'url': team['url']
+                    })
+                    logger.warning(f"Year verification failed for {team['team']} (ID: {team['ncaa_id']})")
+
+                # Only add to zero players if year check passed but no players found
+                if len(players) == 0:
+                    if not year_check_failed:
+                        self.zero_player_teams.append({
+                            'team_id': team['ncaa_id'],
+                            'team_name': team['team']
+                        })
+                        logger.warning(f"No {entity_label} scraped from {team['team']} (ID: {team['ncaa_id']})")
+                    else:
+                        logger.info(f"No {entity_label} scraped from {team['team']} but year check failed - not counting as zero {entity_label}")
+                else:
+                    logger.info(f"Scraped {len(players)} {entity_label} from {team['team']}")
+
+            except Exception as e:
+                logger.error(f"Failed to scrape {team['team']}: {e}")
+                # Only add to zero players, not year check failures
+                self.zero_player_teams.append({
+                    'team_id': team['ncaa_id'],
+                    'team_name': team['team']
+                })
+                continue
+
+        return all_players
+
+    def save_to_csv(self, players: List[Player], output_file: str):
+        """Save players to CSV file"""
+        if not players:
+            logger.warning("No players to save")
+            return
+
+        Path(output_file).parent.mkdir(parents=True, exist_ok=True)
+
+        # Use entity-specific fieldnames
+        fieldnames = ENTITY_CONFIGS[self.entity_type]['output_fields']
+        entity_label = ENTITY_CONFIGS[self.entity_type]['entity_label']
+        
+        with open(output_file, 'w', newline='', encoding='utf-8') as f:
+            writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction='ignore')
+            writer.writeheader()
+            for player in players:
+                # Post-process fields to remove label prefixes and accidental duplicates
+                pdata = player.to_dict()
+                pdata['name'] = FieldExtractors.clean_field_labels(pdata.get('name', ''))
+                
+                # For coaches, map position to title
+                if self.entity_type == 'coach':
+                    pdata['title'] = pdata.get('position', '')
+                else:
+                    # Only clean player-specific fields if we're saving players
+                    pdata['hometown'] = FieldExtractors.clean_field_labels(pdata.get('hometown', ''))
+                    pdata['high_school'] = FieldExtractors.clean_field_labels(pdata.get('high_school', ''))
+                    pdata['previous_school'] = FieldExtractors.clean_field_labels(pdata.get('previous_school', ''))
+                    pdata['year'] = FieldExtractors.clean_field_labels(pdata.get('year', ''))
+                
+                writer.writerow(pdata)
+
+        logger.info(f"Saved {len(players)} {entity_label} to {output_file}")
+
+    def save_zero_player_teams_to_csv(self, output_file: str):
+        """Save teams with zero scraped players to CSV file"""
+        if not self.zero_player_teams:
+            logger.info("No teams with zero players to save")
+            return
+
+        Path(output_file).parent.mkdir(parents=True, exist_ok=True)
+
+        with open(output_file, 'w', newline='', encoding='utf-8') as f:
+            fieldnames = ['team_id', 'team_name']
+            writer = csv.DictWriter(f, fieldnames=fieldnames)
+            writer.writeheader()
+            for team in self.zero_player_teams:
+                writer.writerow(team)
+
+        logger.info(f"Saved {len(self.zero_player_teams)} teams with zero players to {output_file}")
+
+    def _verify_team_season(self, team: Dict, season: str) -> bool:
+        """Verify that the team's roster page shows the correct season"""
+
+        try:
+            url = URLBuilder.build_url(team['url'], season, 'default', entity_type=self.entity_type)
+            html = self.fetch_html(url)
+            
+            if not html:
+                return False
+                
+            # Only verify season for Sidearm sites
+            if SeasonVerifier.is_sidearm_site(html):
+                return SeasonVerifier.verify_season_on_page(html, season, entity_type=self.entity_type)
+            
+            return True  # Assume OK for non-Sidearm sites
+        except Exception as e:
+            logger.warning(f"Failed to verify season for {team['team']}: {e}")
+            return True  # Default to True if verification fails
+
+    def fetch_html(self, url: str) -> Optional[BeautifulSoup]:
+        """Fetch and parse HTML from URL"""
+        try:
+            response = requests.get(url, timeout=30)
+            response.raise_for_status()
+            return BeautifulSoup(response.text, 'html.parser')
+        except requests.RequestException as e:
+            logger.error(f"Failed to fetch {url}: {e}")
+            return None
+
+    def save_failed_year_check_teams_to_csv(self, output_file: str):
+        """Save teams that failed the year check to CSV file"""
+        if not self.failed_year_check_teams:
+            logger.info("No teams failed the year check")
+            return
+
+        Path(output_file).parent.mkdir(parents=True, exist_ok=True)
+
+        with open(output_file, 'w', newline='', encoding='utf-8') as f:
+            fieldnames = ['team_id', 'team_name', 'url']
+            writer = csv.DictWriter(f, fieldnames=fieldnames)
+            writer.writeheader()
+            for team in self.failed_year_check_teams:
+                writer.writerow(team)
+
+        logger.info(f"Saved {len(self.failed_year_check_teams)} teams that failed year check to {output_file}")
+
+
+def main():
+    """Main entry point"""
+    parser = argparse.ArgumentParser(description='NCAA Women\'s Basketball Roster Scraper - Refactored')
+    parser.add_argument('-season', required=True, help='Season (e.g., "2023-24")')
+    parser.add_argument('-teams', nargs='*', type=int, help='Specific team IDs to scrape')
+    parser.add_argument('-team', type=int, help='Single team ID to scrape')
+    parser.add_argument('-output', help='Output CSV file path')
+    parser.add_argument('-url', help='Base URL for single team scraping')
+    parser.add_argument('-entity', '--entity-type', 
+                       choices=['player', 'coach', 'all'], 
+                       default='player',
+                       help='Type of entity to scrape: player, coach, or all (default: player)')
+    parser.add_argument('--use-playwright', action='store_true', help='Use Playwright instead of shot-scraper')
+    parser.add_argument('--verbose', action='store_true', help='Verbose logging')
+    
+    args = parser.parse_args()
+    
+    if args.verbose:
+        logging.getLogger().setLevel(logging.DEBUG)
+
+    manager = RosterManager(entity_type=args.entity_type)
+
+    # Handle single team with URL
+    if args.url and args.team:
+        teams = manager.get_teams([args.team])
+        if teams:
+            team_data = teams[0].copy()
+            team_data['url'] = args.url
+        else:
+            team_data = {'ncaa_id': args.team, 'team': f'Team_{args.team}', 'url': args.url}
+        
+        players = manager.scrape_team_roster(team_data, args.season)
+        
+        # Check year verification for single team case
+        year_check_failed = not manager._verify_team_season(team_data, args.season)
+        
+        if year_check_failed:
+            manager.failed_year_check_teams.append({
+                'team_id': team_data['ncaa_id'],
+                'team_name': team_data.get('team', f'Team_{team_data["ncaa_id"]}'),
+                'url': team_data['url']
+            })
+        
+        # Only add to zero players if year check passed but no players found
+        if len(players) == 0 and not year_check_failed:
+            manager.zero_player_teams.append({
+                'team_id': team_data['ncaa_id'],
+                'team_name': team_data.get('team', f'Team_{team_data["ncaa_id"]}')
+            })
+        
+        if args.output:
+            manager.save_to_csv(players, args.output)
+            if manager.zero_player_teams:
+                zero_output_file = args.output.replace('.csv', '_zero_players.csv')
+                manager.save_zero_player_teams_to_csv(zero_output_file)
+            if manager.failed_year_check_teams:
+                failed_year_output_file = args.output.replace('.csv', '_failed_year_check.csv')
+                manager.save_failed_year_check_teams_to_csv(failed_year_output_file)
+        else:
+            for player in players:
+                print(json.dumps(player.to_dict(), indent=2))
+        return
+
+    # Handle multiple teams
+    team_ids = None
+    if args.teams:
+        team_ids = args.teams
+    elif args.team:
+        team_ids = [args.team]
+
+    # Handle 'all' entity type - scrape both players and coaches
+    if args.entity_type == 'all':
+        logger.info("Scraping both players and coaches")
+        
+        # Scrape players
+        logger.info("=== Scraping Players ===")
+        player_manager = RosterManager(entity_type='player')
+        players = player_manager.scrape_multiple_teams(args.season, team_ids)
+        
+        # Determine player output file
+        if args.output:
+            player_output = args.output.replace('.csv', '_players.csv')
+        elif team_ids and len(team_ids) == 1:
+            player_output = f"/Users/dwillis/code/wbb/ncaa/rosters_{args.season}_team_{team_ids[0]}.csv"
+        else:
+            player_output = f"/Users/dwillis/code/wbb/ncaa/rosters_{args.season}.csv"
+        
+        player_manager.save_to_csv(players, player_output)
+        
+        # Scrape coaches
+        logger.info("=== Scraping Coaches ===")
+        coach_manager = RosterManager(entity_type='coach')
+        coaches = coach_manager.scrape_multiple_teams(args.season, team_ids)
+        
+        # Determine coach output file
+        if args.output:
+            coach_output = args.output.replace('.csv', '_coaches.csv')
+        elif team_ids and len(team_ids) == 1:
+            coach_output = f"/Users/dwillis/code/wbb/ncaa/coaches_{args.season}_team_{team_ids[0]}.csv"
+        else:
+            coach_output = f"/Users/dwillis/code/wbb/ncaa/coaches_{args.season}.csv"
+        
+        coach_manager.save_to_csv(coaches, coach_output)
+        
+        # Save zero player/coach teams if any
+        if player_manager.zero_player_teams:
+            zero_output = player_output.replace('.csv', '_zero_players.csv')
+            player_manager.save_zero_player_teams_to_csv(zero_output)
+        
+        if coach_manager.zero_player_teams:
+            zero_output = coach_output.replace('.csv', '_zero_coaches.csv')
+            coach_manager.save_zero_player_teams_to_csv(zero_output)
+        
+        # Save failed year check teams if any
+        if player_manager.failed_year_check_teams:
+            failed_output = player_output.replace('.csv', '_failed_year_check.csv')
+            player_manager.save_failed_year_check_teams_to_csv(failed_output)
+            
+    else:
+        # Single entity type scraping
+        players = manager.scrape_multiple_teams(args.season, team_ids)
+        
+        # Determine output file based on entity type
+        entity_prefix = ENTITY_CONFIGS[args.entity_type]['csv_prefix']
+        if args.output:
+            output_file = args.output
+        elif team_ids and len(team_ids) == 1:
+            output_file = f"/Users/dwillis/code/wbb/ncaa/{entity_prefix}_{args.season}_team_{team_ids[0]}.csv"
+        else:
+            output_file = f"/Users/dwillis/code/wbb/ncaa/{entity_prefix}_{args.season}.csv"
+
+        manager.save_to_csv(players, output_file)
+        
+        # Save teams with zero players
+        if manager.zero_player_teams:
+            zero_output_file = output_file.replace('.csv', '_zero_players.csv')
+            manager.save_zero_player_teams_to_csv(zero_output_file)
+
+        # Save teams that failed the year check
+        if manager.failed_year_check_teams:
+            failed_year_output_file = output_file.replace('.csv', '_failed_year_check.csv')
+            manager.save_failed_year_check_teams_to_csv(failed_year_output_file)
+
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='NCAA team information')
-    parser.add_argument('-season', action='store', dest='season', help='a string season such as "2020-21"')
-    parser.add_argument('-url', action='store', dest='url', help='base url for a team')
-    results = parser.parse_args()
-    roster_html = fetch_roster(results.url, results.season)
-    roster = parse_roster(roster_html, results.season)
-    print(roster)
+    main()
