@@ -2565,11 +2565,15 @@ class JavaScriptScraper(BaseScraper):
     def _process_js_result(self, data: List[Dict], team: Dict, season: str, base_url: str = "") -> List[Player]:
         """Process JavaScript scraping result"""
         roster = []
+        # Use team URL as fallback for base_url if not provided
+        url_base = base_url if base_url else team['url']
+        
         for entity_data in data:
             try:
                 player_url = entity_data.get('url', '')
-                if base_url and player_url.startswith('/'):
-                    player_url = base_url + player_url
+                # Convert relative URLs to absolute URLs
+                if player_url and player_url.startswith('/'):
+                    player_url = urljoin(url_base, player_url)
                 
                 # Handle coach data differently
                 if self.entity_type == 'coach':
