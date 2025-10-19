@@ -1181,12 +1181,16 @@ class URLBuilder:
         if base_url.startswith('https://miamihurricanes.com'):
             return f"{base_url}/roster/season/{season}/"
 
-        # Iowa uses roster path with tab parameter for coaches
+        # Iowa uses wbball sport path with roster and view parameter
         if base_url.startswith('https://hawkeyesports.com'):
             if entity_type == 'coach':
                 return f"{base_url}/roster/season/{season}?tab=coaches"
             else:
-                return f"{base_url}/roster/season/{season}?view=table"
+                # Iowa uses /wbball/ in the path, ensure it's included
+                if '/wbball' in base_url:
+                    return f"{base_url}/roster/season/{season}?view=table"
+                else:
+                    return f"{base_url.rstrip('/')}/sports/wbball/roster/season/{season}?view=table"
 
         # George Mason and Miami Ohio use roster path for both coaches and players
         if base_url.startswith('https://gomason.com') or base_url.startswith('https://miamiredhawks.com'):
@@ -1248,6 +1252,7 @@ class TeamConfig:
         255: {'url_format': 'season_path'},
         306: {'url_format': 'direct'},
         308: {'url_format': 'default'},
+        312: {'url_format': 'iowa_table'},  # Iowa
         334: {'url_format': 'season_path'},
         388: {'url_format': 'default'},
         433: {'url_format': 'default'},
@@ -1280,7 +1285,6 @@ class TeamConfig:
     # Custom JavaScript teams
     CUSTOM_JS_TEAMS = {
         248: {'selector': 'wyoming_roster', 'url_format': 'default'},  # George Mason - uses roster-staff structure
-        312: {'selector': 'iowa_roster', 'url_format': 'iowa_table'},  # Iowa
         327: {'selector': 'nuxt_roster', 'url_format': 'next_year'},  # Kansas State
         414: {'selector': 'wyoming_roster', 'url_format': 'default'},  # Miami Ohio - uses roster-staff structure
         415: {'selector': 'miami_table_roster', 'url_format': 'season_path'},  # Miami - uses DataTable with full player data
