@@ -586,6 +586,89 @@ class JSTemplates:
         """
 
     @staticmethod
+    def sidearm_roster_player_template():
+        """Template for standard sidearm-roster-player elements (used by many Vue.js sites)"""
+        return """
+        Array.from(document.querySelectorAll('.sidearm-roster-player'), player => {
+            // Get link first
+            const link = player.querySelector('a[href*="/roster/"]');
+            const url = link ? link.href : '';
+            
+            // Get name from aria-label or link text
+            let name = '';
+            if (link && link.getAttribute('aria-label')) {
+                const ariaLabel = link.getAttribute('aria-label');
+                // Extract name from "Name - View Full Bio" format
+                name = ariaLabel.replace(/ - View Full Bio.*$/i, '').trim();
+            }
+            if (!name && link) {
+                // Fallback to link text content (but skip if it's just the image)
+                const linkText = link.textContent.trim();
+                if (linkText && linkText.length > 2 && !linkText.includes('http')) {
+                    name = linkText;
+                }
+            }
+            
+            // Skip if no name
+            if (!name) {
+                return null;
+            }
+            
+            // Get jersey number
+            const jerseyElem = player.querySelector('.sidearm-roster-player-jersey-number, .sidearm-roster-player-jersey');
+            const jersey = jerseyElem ? jerseyElem.textContent.trim().replace('#', '') : '';
+            
+            // Get position - get direct text only, not from child elements
+            const positionElem = player.querySelector('.sidearm-roster-player-position');
+            let position = '';
+            if (positionElem) {
+                // Get only direct text nodes, not text from child elements like height
+                for (const node of positionElem.childNodes) {
+                    if (node.nodeType === Node.TEXT_NODE) {
+                        const text = node.textContent.trim();
+                        if (text && !text.match(/^\d+['"]?\d*["']?$/)) {  // Skip if it looks like height
+                            position = text;
+                            break;
+                        }
+                    }
+                }
+            }
+            
+            // Get academic year
+            const yearElem = player.querySelector('.sidearm-roster-player-academic-year, .sidearm-roster-player-academic-year-long');
+            let year = yearElem ? yearElem.textContent.trim() : '';
+            
+            // Get height
+            const heightElem = player.querySelector('.sidearm-roster-player-height');
+            const height = heightElem ? heightElem.textContent.trim() : '';
+            
+            // Get hometown
+            const hometownElem = player.querySelector('.sidearm-roster-player-hometown');
+            const hometown = hometownElem ? hometownElem.textContent.trim() : '';
+            
+            // Get high school
+            const highSchoolElem = player.querySelector('.sidearm-roster-player-highschool, .sidearm-roster-player-high-school');
+            const high_school = highSchoolElem ? highSchoolElem.textContent.trim() : '';
+            
+            // Get previous school
+            const prevSchoolElem = player.querySelector('.sidearm-roster-player-previous-school');
+            const previous_school = prevSchoolElem ? prevSchoolElem.textContent.trim() : '';
+            
+            return {
+                name: name,
+                jersey: jersey,
+                position: position,
+                year: year,
+                height: height,
+                hometown: hometown,
+                high_school: high_school,
+                previous_school: previous_school,
+                url: url
+            };
+        }).filter(player => player && player.name && player.name.length > 2)
+        """
+
+    @staticmethod
     def wyoming_roster_template():
         """Template for Wyoming-style Vue.js roster (uses sidearm-roster-list-item)"""
         return """
@@ -739,6 +822,7 @@ class JSTemplates:
     def get_custom_selector(team_id: int, selector_name: str) -> str:
         """Get custom selectors for specific teams that need special handling"""
         custom_selectors = {
+            'sidearm_roster_player': JSTemplates.sidearm_roster_player_template(),
             'wyoming_roster': JSTemplates.wyoming_roster_template(),
             'auburn_roster': """
             Array.from(document.querySelectorAll('a[href*="/roster/player/"]'), el => {
@@ -1292,7 +1376,7 @@ class TeamConfig:
         562: 'https://gobobcats.com', 659: 'https://siusalukis.com', 756: 'https://gohuskies.com',
         697: 'https://12thman.com', 173: 'https://davidsonwildcats.com', 518: 'https://ohiostatebuckeyes.com',
         47: 'https://ballstatesports.com', 529: 'https://goducks.com', 676: 'https://sfajacks.com',
-        30135: 'https://cbulancers.com', 178: 'https://dsuhornets.com', 414: 'https://miamiredhawks.com',
+        30135: 'https://cbulancers.com', 414: 'https://miamiredhawks.com',
         434: 'https://mutigers.com', 440: 'https://msubobcats.com', 703: 'https://texassports.com'
     }
     
@@ -1345,6 +1429,7 @@ class TeamConfig:
     
     # Custom JavaScript teams
     CUSTOM_JS_TEAMS = {
+        178: {'selector': 'sidearm_roster_player', 'url_format': 'default'},  # Delaware State - uses standard sidearm with Vue.js
         248: {'selector': 'wyoming_roster', 'url_format': 'default'},  # George Mason - uses roster-staff structure
         327: {'selector': 'nuxt_roster', 'url_format': 'default'},  # Kansas State
         414: {'selector': 'wyoming_roster', 'url_format': 'default'},  # Miami Ohio - uses roster-staff structure
