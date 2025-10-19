@@ -586,6 +586,66 @@ class JSTemplates:
         """
 
     @staticmethod
+    def wyoming_roster_template():
+        """Template for Wyoming-style Vue.js roster (uses sidearm-roster-list-item)"""
+        return """
+        Array.from(document.querySelectorAll('.sidearm-roster-list-item'), item => {
+            // Get name
+            const nameElem = item.querySelector('.sidearm-roster-list-item-name, .sidearm-roster-player-name');
+            const name = nameElem ? nameElem.textContent.trim() : '';
+            
+            // Get link
+            const link = item.querySelector('a[href*="/roster/"]');
+            const url = link ? link.href : '';
+            
+            // Skip if no name or if it's a coach
+            if (!name || url.includes('/coaches/') || url.includes('/staff/')) {
+                return null;
+            }
+            
+            // Get jersey number
+            const jerseyElem = item.querySelector('.sidearm-roster-list-item-number, .sidearm-roster-player-jersey-number');
+            const jersey = jerseyElem ? jerseyElem.textContent.trim() : '';
+            
+            // Get position
+            const positionElem = item.querySelector('.sidearm-roster-list-item-position, .sidearm-roster-player-position');
+            const position = positionElem ? positionElem.textContent.trim() : '';
+            
+            // Get academic year
+            const yearElem = item.querySelector('.sidearm-roster-list-item-year, .sidearm-roster-list-item-academic-year, .sidearm-roster-player-academic-year');
+            let year = yearElem ? yearElem.textContent.trim() : '';
+            
+            // Get height
+            const heightElem = item.querySelector('.sidearm-roster-list-item-height, .sidearm-roster-player-height');
+            const height = heightElem ? heightElem.textContent.trim() : '';
+            
+            // Get hometown
+            const hometownElem = item.querySelector('.sidearm-roster-list-item-hometown, .sidearm-roster-player-hometown');
+            const hometown = hometownElem ? hometownElem.textContent.trim() : '';
+            
+            // Get high school
+            const highSchoolElem = item.querySelector('.sidearm-roster-list-item-highschool, .sidearm-roster-player-highschool');
+            const high_school = highSchoolElem ? highSchoolElem.textContent.trim() : '';
+            
+            // Get previous school
+            const prevSchoolElem = item.querySelector('.sidearm-roster-list-item-previous-school, .sidearm-roster-player-previous-school');
+            const previous_school = prevSchoolElem ? prevSchoolElem.textContent.trim() : '';
+            
+            return {
+                name: name,
+                jersey: jersey,
+                position: position,
+                year: year,
+                height: height,
+                hometown: hometown,
+                high_school: high_school,
+                previous_school: previous_school,
+                url: url
+            };
+        }).filter(player => player && player.name && player.name.length > 2)
+        """
+
+    @staticmethod
     def s_person_card_coaches_template():
         """Template for .s-person-card based sites - coaches version"""
         return """
@@ -679,6 +739,7 @@ class JSTemplates:
     def get_custom_selector(team_id: int, selector_name: str) -> str:
         """Get custom selectors for specific teams that need special handling"""
         custom_selectors = {
+            'wyoming_roster': JSTemplates.wyoming_roster_template(),
             'auburn_roster': """
             Array.from(document.querySelectorAll('a[href*="/roster/player/"]'), el => {
                 if (el.href.includes('/staff/')) return null;
@@ -1290,7 +1351,8 @@ class TeamConfig:
         415: {'selector': 'miami_table_roster', 'url_format': 'season_path'},  # Miami - uses DataTable with full player data
         528: {'selector': 'oregon_state_roster', 'url_format': 'default'},
         129: {'selector': 'central_michigan_roster', 'url_format': 'default'},
-        746: {'type': 'javascript', 'selector': 'virginia_roster_table', 'url_format': 'direct'}
+        746: {'type': 'javascript', 'selector': 'virginia_roster_table', 'url_format': 'direct'},
+        811: {'selector': 'wyoming_roster', 'url_format': 'default'}  # Wyoming - uses Vue.js with sidearm-roster-list-item
     }
 
     # Teams with roster data embedded in a Vue.js data object
@@ -1491,13 +1553,6 @@ class TeamConfig:
             return {
                 'type': 'javascript',
                 'url_format': 'la_salle'
-            }
-
-        if team_id in [811]:  # Wyoming
-            return {
-                'type': 'standard',
-                'url_format': 'default',
-                'use_staff_container': True  # Use #roster-staff instead of .sidearm-roster-coaches
             }
 
         # Default fallback
