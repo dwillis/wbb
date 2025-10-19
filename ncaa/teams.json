@@ -2142,7 +2142,7 @@
   {
     "team": "Coker",
     "twitter": "Coker_WBB",
-    "url": "https://www.cokercobras.com/sports/wbkb/index",
+    "url": "https://www.cokercobras.com/sports/wbkb",
     "ncaa_id": 1023,
     "stats_name": "Coker"
   },
@@ -2156,7 +2156,7 @@
   {
     "team": "Concordia Wisconsin",
     "twitter": "CUWWBB",
-    "url": "https://www.cuwfalcons.com/sports/wbkb/index",
+    "url": "https://www.cuwfalcons.com/sports/wbkb",
     "ncaa_id": 1036,
     "stats_name": "Concordia Wisconsin"
   },
@@ -2170,7 +2170,7 @@
   {
     "team": "Defiance",
     "twitter": "DCWB_",
-    "url": "https://www.defianceathletics.com/sports/wbkb/index",
+    "url": "https://www.defianceathletics.com/sports/wbkb",
     "ncaa_id": 1050,
     "stats_name": "Defiance"
   },
@@ -2205,7 +2205,7 @@
   {
     "team": "Eastern Nazarene",
     "twitter": "ENCWBB",
-    "url": "https://athletics.enc.edu/sports/wbkb/index",
+    "url": "https://athletics.enc.edu/sports/wbkb",
     "ncaa_id": 1064,
     "stats_name": "Eastern Nazarene"
   },
@@ -2314,13 +2314,13 @@
   {
     "team": "Sage Colleges",
     "twitter": "sagewbb",
-    "url": "https://www.sagegators.com/sports/wbkb/index",
+    "url": "https://www.sagegators.com/sports/wbkb",
     "ncaa_id": 11036
   },
   {
     "team": "Greenville",
     "twitter": "guwbball",
-    "url": "http://athletics.greenville.edu/sports/wbkb/index",
+    "url": "http://athletics.greenville.edu/sports/wbkb",
     "ncaa_id": 1111
   },
   {
@@ -2387,7 +2387,7 @@
   {
     "team": "Huntingdon",
     "twitter": "HCHawksWBB",
-    "url": "https://www.huntingdonhawks.com/sports/wbkb/index",
+    "url": "https://www.huntingdonhawks.com/sports/wbkb",
     "ncaa_id": 1130
   },
   {
@@ -2423,7 +2423,7 @@
   {
     "team": "Fontbonne",
     "twitter": "fontbonnewbb",
-    "url": "https://fontbonnegriffins.com/sports/wbkb/index",
+    "url": "https://fontbonnegriffins.com/sports/wbkb",
     "ncaa_id": 11538
   },
   {
@@ -2506,7 +2506,7 @@
   {
     "team": "Carnegie Mellon",
     "twitter": "cmutartanswbb",
-    "url": "https://athletics.cmu.edu/sports/wbkb/index",
+    "url": "https://athletics.cmu.edu/sports/wbkb",
     "ncaa_id": 119
   },
   {
@@ -2518,7 +2518,7 @@
   {
     "team": "Mars Hill",
     "twitter": "MarsHill_WBB",
-    "url": "https://www.marshilllions.com/sports/wbkb/index",
+    "url": "https://www.marshilllions.com/sports/wbkb",
     "ncaa_id": 1199,
     "stats_name": "Mars Hill"
   },
@@ -2587,7 +2587,7 @@
   {
     "team": "Centenary (LA)",
     "twitter": "CentenaryWBB",
-    "url": "https://www.gocentenary.com/sports/wbkb/index",
+    "url": "https://www.gocentenary.com/sports/wbkb",
     "ncaa_id": 125,
     "stats_name": "Centenary (LA)"
   },
@@ -2643,7 +2643,7 @@
   {
     "team": "Tusculum",
     "twitter": "TusculumWBB",
-    "url": "https://www.tusculumpioneers.com/sports/wbkb/index",
+    "url": "https://www.tusculumpioneers.com/sports/wbkb",
     "ncaa_id": 12830
   },
   {
@@ -2751,20 +2751,20 @@
   {
     "team": "St. Thomas Aquinas",
     "twitter": "STACWBB",
-    "url": "https://www.stacathletics.com/sports/wbkb/index",
+    "url": "https://www.stacathletics.com/sports/wbkb",
     "ncaa_id": 1348
   },
   {
     "team": "Schreiner",
     "twitter": "SchreinerWBK",
-    "url": "https://schreinermountaineers.com/sports/wbkb/index",
+    "url": "https://schreinermountaineers.com/sports/wbkb",
     "ncaa_id": 1355,
     "stats_name": "Schreiner"
   },
   {
     "team": "Blackburn",
     "twitter": "Blackburn_WBB",
-    "url": "https://www.blackburnbeavers.com/sports/wbkb/index",
+    "url": "https://www.blackburnbeavers.com/sports/wbkb",
     "ncaa_id": 64,
     "stats_name": "Blackburn"
   },
@@ -2913,7 +2913,7 @@
   {
     "team": "Goucher",
     "twitter": "GoucherWBB",
-    "url": "https://athletics.goucher.edu/sports/wbkb/index",
+    "url": "https://athletics.goucher.edu/sports/wbkb",
     "ncaa_id": 1467
   },
   {
@@ -3068,7 +3068,7 @@
   {
     "team": "Dist. Columbia",
     "twitter": "UDC_WBB",
-    "url": "https://www.udcfirebirds.com/sports/wbkb/index",
+    "url": "https://www.udcfirebirds.com/sports/wbkb",
     "ncaa_id": 186
   },
   {
@@ -3227,7 +3227,7 @@
   {
     "team": "Emory & Henry",
     "twitter": "EHCWBB",
-    "url": "https://www.gowasps.com/sports/wbkb/index",
+    "url": "https://www.gowasps.com/sports/wbkb",
     "ncaa_id": 216,
     "stats_name": "Emory & Henry"
   },
@@ -3240,7 +3240,7 @@
   {
     "team": "Eureka",
     "twitter": "wildcatwmnhoops",
-    "url": "http://www.eurekareddevils.com/sports/wbkb/index",
+    "url": "http://www.eurekareddevils.com/sports/wbkb",
     "ncaa_id": 218
   },
   {
@@ -3259,7 +3259,7 @@
   {
     "team": "American International",
     "twitter": "AICWBB",
-    "url": "https://aicyellowjackets.com/sports/wbkb/index",
+    "url": "https://aicyellowjackets.com/sports/wbkb",
     "ncaa_id": 22
   },
   {
@@ -3272,7 +3272,7 @@
   {
     "team": "Ferris St.",
     "twitter": "FerrisWBBall",
-    "url": "https://www.ferrisstatebulldogs.com/sports/wbkb/index",
+    "url": "https://www.ferrisstatebulldogs.com/sports/wbkb",
     "ncaa_id": 224
   },
   {
@@ -3290,7 +3290,7 @@
   {
     "team": "Fitchburg St.",
     "twitter": "FSU_FalconsWBB",
-    "url": "https://www.fitchburgfalcons.com/sports/wbkb/index",
+    "url": "https://www.fitchburgfalcons.com/sports/wbkb",
     "ncaa_id": 227
   },
   {
@@ -3364,7 +3364,7 @@
   {
     "team": "Franklin Pierce",
     "twitter": "FPURavensWBB",
-    "url": "https://www.fpuravens.com/sports/wbkb/index",
+    "url": "https://www.fpuravens.com/sports/wbkb",
     "ncaa_id": 241
   },
   {
@@ -3383,7 +3383,7 @@
   {
     "team": "Lesley",
     "twitter": "Lesley_WBB",
-    "url": "https://lesleyathletics.com/sports/wbkb/index",
+    "url": "https://lesleyathletics.com/sports/wbkb",
     "ncaa_id": 24317
   },
   {
@@ -3423,7 +3423,7 @@
   {
     "team": "Penn St.-Altoona",
     "twitter": "PSAltoonaWBB",
-    "url": "https://www.psaltoonalions.com/sports/wbkb/index",
+    "url": "https://www.psaltoonalions.com/sports/wbkb",
     "ncaa_id": 25719
   },
   {
@@ -3449,7 +3449,7 @@
   {
     "team": "Becker",
     "twitter": "BCLadyhoopHawks",
-    "url": "https://beckerhawks.com/sports/wbkb/index",
+    "url": "https://beckerhawks.com/sports/wbkb",
     "ncaa_id": 26107
   },
   {
@@ -3607,7 +3607,7 @@
   {
     "team": "Albertus Magnus",
     "twitter": "AlbertusWBB",
-    "url": "https://www.albertusfalcons.com/sports/wbkb/index",
+    "url": "https://www.albertusfalcons.com/sports/wbkb",
     "ncaa_id": 2798
   },
   {
@@ -3627,7 +3627,7 @@
   {
     "team": "St. Thomas (TX)",
     "twitter": "USTWBB",
-    "url": "https://ustcelts.com/sports/wbkb/index",
+    "url": "https://ustcelts.com/sports/wbkb",
     "ncaa_id": 2810
   },
   {
@@ -3653,7 +3653,7 @@
   {
     "team": "USciences",
     "twitter": "USciencesWBB",
-    "url": "https://www.devilsathletics.com/sports/wbkb/index",
+    "url": "https://www.devilsathletics.com/sports/wbkb",
     "ncaa_id": 28594
   },
   {
@@ -3767,7 +3767,7 @@
   {
     "team": "Trine",
     "twitter": "TrineWBB",
-    "url": "https://www.trinethunder.com/sports/wbkb/index",
+    "url": "https://www.trinethunder.com/sports/wbkb",
     "ncaa_id": 30037
   },
   {
@@ -3788,7 +3788,7 @@
   {
     "team": "Mitchell",
     "twitter": "mitchellcollwbb",
-    "url": "https://www.mitchellathletics.com/sports/wbkb/index",
+    "url": "https://www.mitchellathletics.com/sports/wbkb",
     "ncaa_id": 30042
   },
   {
@@ -3880,7 +3880,7 @@
   {
     "team": "Penn St. Harrisburg",
     "twitter": "PSHbgWBBall",
-    "url": "https://athletics.hbg.psu.edu/sports/wbkb/index",
+    "url": "https://athletics.hbg.psu.edu/sports/wbkb",
     "ncaa_id": 30081
   },
   {
@@ -3939,7 +3939,7 @@
   {
     "team": "Moravian",
     "twitter": "MoravianWBB",
-    "url": "https://www.moraviansports.com/sports/wbkb/index",
+    "url": "https://www.moraviansports.com/sports/wbkb",
     "ncaa_id": 443
   },
   {
@@ -4244,7 +4244,7 @@
   {
     "team": "SUNY Delhi",
     "twitter": "SUNYDelhiWBB",
-    "url": "https://delhibroncos.com/sports/wbkb/index",
+    "url": "https://delhibroncos.com/sports/wbkb",
     "ncaa_id": 30225
   },
   {
@@ -4320,7 +4320,7 @@
   {
     "team": "Juniata",
     "twitter": "JuniataWBB",
-    "url": "https://www.juniatasports.net/sports/wbkb/index",
+    "url": "https://www.juniatasports.net/sports/wbkb",
     "ncaa_id": 325
   },
   {
@@ -4737,7 +4737,7 @@
   {
     "team": "Pitt.-Bradford",
     "twitter": "upb_wbb",
-    "url": "https://athletics.pittbradford.org/sports/wbkb/index",
+    "url": "https://athletics.pittbradford.org/sports/wbkb",
     "ncaa_id": 1315
   },
   {
@@ -4756,7 +4756,7 @@
   {
     "team": "Mount Holyoke",
     "twitter": "mhc_basketball",
-    "url": "https://athletics.mtholyoke.edu/sports/wbkb/index",
+    "url": "https://athletics.mtholyoke.edu/sports/wbkb",
     "ncaa_id": 449
   },
   {
@@ -4788,7 +4788,7 @@
   {
     "team": "Muskingum",
     "twitter": "MuskingumWBB",
-    "url": "https://www.fightingmuskies.com/sports/wbkb/index",
+    "url": "https://www.fightingmuskies.com/sports/wbkb",
     "ncaa_id": 455
   },
   {
@@ -4866,7 +4866,7 @@
   {
     "team": "MCLA",
     "twitter": "MCLAWbasketball",
-    "url": "https://athletics.mcla.edu/sports/wbkb/index",
+    "url": "https://athletics.mcla.edu/sports/wbkb",
     "ncaa_id": 486
   },
   {
@@ -4954,7 +4954,7 @@
   {
     "team": "Northwood",
     "twitter": "NorthwoodWBB",
-    "url": "https://www.gonorthwood.com/sports/wbkb/index",
+    "url": "https://www.gonorthwood.com/sports/wbkb",
     "ncaa_id": 510
   },
   {
@@ -4987,7 +4987,7 @@
   {
     "team": "Ohio Northern",
     "twitter": "Onuwomensbball",
-    "url": "https://www.onusports.com/sports/wbkb/index",
+    "url": "https://www.onusports.com/sports/wbkb",
     "ncaa_id": 517
   },
   {
@@ -5000,7 +5000,7 @@
   {
     "team": "Olivet",
     "twitter": "olivet_wbb",
-    "url": "https://www.olivetcomets.com/sports/wbkb/index",
+    "url": "https://www.olivetcomets.com/sports/wbkb",
     "ncaa_id": 525
   },
   {
@@ -5025,7 +5025,7 @@
   {
     "team": "Elms",
     "twitter": "ElmsBlazersWBB",
-    "url": "https://www.ecblazers.com/sports/wbkb/index",
+    "url": "https://www.ecblazers.com/sports/wbkb",
     "ncaa_id": 532
   },
   {
@@ -5044,7 +5044,7 @@
   {
     "team": "Penn St.-Behrend",
     "twitter": "PSB_WBB",
-    "url": "https://www.psblions.com/sports/wbkb/index",
+    "url": "https://www.psblions.com/sports/wbkb",
     "ncaa_id": 538
   },
   {
@@ -5071,7 +5071,7 @@
   {
     "team": "Pine Manor",
     "twitter": "PineManorWBB",
-    "url": "https://pmcathletics.com/sports/wbkb/index",
+    "url": "https://pmcathletics.com/sports/wbkb",
     "ncaa_id": 544,
     "roster": "skip"
   },
@@ -5174,7 +5174,7 @@
   {
     "team": "Regis (MA)",
     "twitter": "RegisWBB",
-    "url": "https://www.goregispride.com/sports/wbkb/index",
+    "url": "https://www.goregispride.com/sports/wbkb",
     "ncaa_id": 569
   },
   {
@@ -5248,13 +5248,13 @@
   {
     "team": "Bethany (WV)",
     "twitter": "BCWBB",
-    "url": "https://www.bethanybison.com/sports/wbkb/index",
+    "url": "https://www.bethanybison.com/sports/wbkb",
     "ncaa_id": 59
   },
   {
     "team": "Saginaw Valley",
     "twitter": "svsuwbb",
-    "url": "https://www.svsucardinals.com/sports/wbkb/index",
+    "url": "https://www.svsucardinals.com/sports/wbkb",
     "ncaa_id": 591
   },
   {
@@ -5425,7 +5425,7 @@
   {
     "team": "Simpson",
     "twitter": "SCStorm_WBB",
-    "url": "https://www.simpsonathletics.com/sports/wbkb/index",
+    "url": "https://www.simpsonathletics.com/sports/wbkb",
     "ncaa_id": 641
   },
   {
@@ -5546,7 +5546,7 @@
   {
     "team": "Texas Lutheran",
     "twitter": "TLUwbb",
-    "url": "https://tlubulldogs.com/sports/wbkb/index",
+    "url": "https://tlubulldogs.com/sports/wbkb",
     "ncaa_id": 1400,
     "stats_name": "Texas Lutheran"
   },
@@ -5559,7 +5559,7 @@
   {
     "team": "Suffolk",
     "twitter": "SuffolkWbb",
-    "url": "https://www.gosuffolkrams.com/sports/wbkb/index",
+    "url": "https://www.gosuffolkrams.com/sports/wbkb",
     "ncaa_id": 684
   },
   {
@@ -5730,7 +5730,7 @@
   {
     "team": "Bridgeport",
     "twitter": "ub_wbb",
-    "url": "https://www.ubknights.com/sports/wbkb/index",
+    "url": "https://www.ubknights.com/sports/wbkb",
     "ncaa_id": 74
   },
   {
@@ -5802,13 +5802,13 @@
   {
     "team": "Wellesley",
     "twitter": "WellesleyBB",
-    "url": "https://www.wellesleyblue.com/sports/wbkb/index",
+    "url": "https://www.wellesleyblue.com/sports/wbkb",
     "ncaa_id": 760
   },
   {
     "team": "Wentworth",
     "twitter": "WITWomensBball",
-    "url": "https://www.wentworthathletics.com/sports/wbkb/index",
+    "url": "https://www.wentworthathletics.com/sports/wbkb",
     "ncaa_id": 762
   },
   {
@@ -5896,7 +5896,7 @@
   {
     "team": "Willamette",
     "twitter": "WillametteWBB",
-    "url": "https://www.wubearcats.com/sports/wbkb/index",
+    "url": "https://www.wubearcats.com/sports/wbkb",
     "ncaa_id": 785
   },
   {
@@ -5933,7 +5933,7 @@
   {
     "team": "Wis.-Oshkosh",
     "twitter": "UWOWBB1",
-    "url": "https://www.uwoshkoshtitans.com/sports/wbkb/index",
+    "url": "https://www.uwoshkoshtitans.com/sports/wbkb",
     "ncaa_id": 798
   },
   {
@@ -5953,7 +5953,7 @@
   {
     "team": "Wis.-Platteville",
     "twitter": "UWPLATTWBB",
-    "url": "https://letsgopioneers.com/sports/wbkb/index",
+    "url": "https://letsgopioneers.com/sports/wbkb",
     "ncaa_id": 800
   },
   {
@@ -5992,13 +5992,13 @@
   {
     "team": "Wittenberg",
     "twitter": "wittwbb",
-    "url": "https://www.wittenbergtigers.com/sports/wbkb/index",
+    "url": "https://www.wittenbergtigers.com/sports/wbkb",
     "ncaa_id": 806
   },
   {
     "team": "Wooster",
     "twitter": "WoosterWBB",
-    "url": "https://www.woosterathletics.com/sports/wbkb/index",
+    "url": "https://www.woosterathletics.com/sports/wbkb",
     "ncaa_id": 807
   },
   {
@@ -6089,7 +6089,7 @@
   {
     "team": "St. Mary's (IN)",
     "twitter": "SMC_Basketball",
-    "url": "https://belles.saintmarys.edu/sports/wbkb/index",
+    "url": "https://belles.saintmarys.edu/sports/wbkb",
     "ncaa_id": 8688
   },
   {
@@ -6113,7 +6113,7 @@
   {
     "team": "Worcester St.",
     "twitter": "WSUWBBall",
-    "url": "https://www.wsulancers.com/sports/wbkb/index",
+    "url": "https://www.wsulancers.com/sports/wbkb",
     "ncaa_id": 809
   },
   {
@@ -6150,7 +6150,7 @@
   {
     "team": "Endicott",
     "twitter": "EndicottWBB",
-    "url": "https://www.ecgulls.com/sports/wbkb/index",
+    "url": "https://www.ecgulls.com/sports/wbkb",
     "ncaa_id": 8981
   },
   {
@@ -6220,7 +6220,7 @@
   {
     "team": "Anderson (IN)",
     "twitter": "AURavensWBB",
-    "url": "https://aua.prestosports.com/sports/wbkb/index",
+    "url": "https://aua.prestosports.com/sports/wbkb",
     "ncaa_id": 939
   },
   {
@@ -6240,7 +6240,7 @@
   {
     "team": "Austin",
     "twitter": "roos_hoops",
-    "url": "https://www.acroos.com/sports/wbkb/index",
+    "url": "https://www.acroos.com/sports/wbkb",
     "ncaa_id": 953
   },
   {
