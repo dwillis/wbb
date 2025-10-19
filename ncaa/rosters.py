@@ -1305,6 +1305,7 @@ class URLBuilder:
             "direct": f"{base_url}/{path}/",
             "season_first": f"{base_url}/{season}/{path}",
             "season_path": f"{base_url}/{path}/season/{season}/",
+            "season_path_table": f"{base_url}/{path}/season/{season}?view=table",
             "clemson": f"{base_url}/{path}/season/{season[:4]}",
             "iowa_table": f"{base_url}/{path}/season/{season}?view=table",
             "valpo": f"{base_url}/{path}/{season}/?view=list",
@@ -1352,27 +1353,31 @@ class TeamConfig:
     """Simplified configuration for team-specific scraping"""
     
     # Teams using Nuxt.js data extraction (50+ teams)
+    # Most use default URL format, but some need special handling (stored as dict with 'base_url' and 'url_format')
     NUXT_JS_TEAMS = {
         71: 'https://bgsufalcons.com', 83: 'https://gobison.com', 96: 'https://gobulldogs.com',
-        99: 'https://longbeachstate.com', 164: 'https://uconnhuskies.com', 176: 'https://depaulbluedemons.com',
-        180: 'https://bluehens.com', 191: 'https://drexeldragons.com', 204: 'https://emueagles.com',
-        229: 'https://fausports.com', 234: 'https://seminoles.com', 367: 'https://gocards.com',
-        418: 'https://mgoblue.com', 428: 'https://gophersports.com', 458: 'https://charlotte49ers.com',
-        716: 'https://troytrojans.com', 718: 'https://tulanegreenwave.com', 700: 'https://texastech.com',
-        355: 'https://libertyflames.com', 497: 'https://meangreensports.com', 441: 'https://gogriz.com',
-        416: 'https://msuspartans.com', 509: 'https://nusports.com', 521: 'https://okstate.com',
-        522: 'https://soonersports.com', 454: 'https://goracers.com', 404: 'https://gotigersgo.com',
-        470: 'https://golobos.com', 671: 'https://ragincajuns.com', 574: 'https://riceowls.com',
-        664: 'https://southernmiss.com', 575: 'https://richmondspiders.com', 698: 'https://gofrogs.com',
-        288: 'https://uhcougars.com', 400: 'https://umassathletics.com', 457: 'https://goheels.com',
-        156: 'https://csurams.com', 196: 'https://ecupirates.com', 725: 'https://goarmywestpoint.com',
-        9: 'https://uabsports.com', 502: 'https://uncbears.com', 456: 'https://uncabulldogs.com',
-        469: 'https://unhwildcats.com', 504: 'https://unipanthers.com', 758: 'https://weberstatesports.com',
-        490: 'https://gopack.com', 690: 'https://owlsports.com', 732: 'https://utahutes.com',
-        749: 'https://godeacs.com', 110: 'https://uclabruins.com', 1104: 'https://gculopes.com',
-        719: 'https://tulsahurricane.com', 772: 'https://wkusports.com', 328: 'https://kuathletics.com',
-        635: 'https://shupirates.com', 86: 'https://ubbulls.com', 694: 'https://utsports.com',
-        387: 'https://gomarquette.com', 545: 'https://pittsburghpanthers.com', 721: 'https://goairforcefalcons.com',
+        99: 'https://longbeachstate.com',
+        # 128: Central Florida - moved to CUSTOM_JS_TEAMS (uses sidearm-roster-player with Nuxt.js)
+        164: 'https://uconnhuskies.com',
+        176: 'https://depaulbluedemons.com', 180: 'https://bluehens.com', 191: 'https://drexeldragons.com',
+        204: 'https://emueagles.com', 229: 'https://fausports.com', 234: 'https://seminoles.com',
+        367: 'https://gocards.com', 418: 'https://mgoblue.com', 428: 'https://gophersports.com',
+        458: 'https://charlotte49ers.com', 716: 'https://troytrojans.com', 718: 'https://tulanegreenwave.com',
+        700: 'https://texastech.com', 355: 'https://libertyflames.com', 497: 'https://meangreensports.com',
+        441: 'https://gogriz.com', 416: 'https://msuspartans.com', 509: 'https://nusports.com',
+        521: 'https://okstate.com', 522: 'https://soonersports.com', 454: 'https://goracers.com',
+        404: 'https://gotigersgo.com', 470: 'https://golobos.com', 671: 'https://ragincajuns.com',
+        574: 'https://riceowls.com', 664: 'https://southernmiss.com', 575: 'https://richmondspiders.com',
+        698: 'https://gofrogs.com', 288: 'https://uhcougars.com', 400: 'https://umassathletics.com',
+        457: 'https://goheels.com', 156: 'https://csurams.com', 196: 'https://ecupirates.com',
+        725: 'https://goarmywestpoint.com', 9: 'https://uabsports.com', 502: 'https://uncbears.com',
+        456: 'https://uncabulldogs.com', 469: 'https://unhwildcats.com', 504: 'https://unipanthers.com',
+        758: 'https://weberstatesports.com', 490: 'https://gopack.com', 690: 'https://owlsports.com',
+        732: 'https://utahutes.com', 749: 'https://godeacs.com', 110: 'https://uclabruins.com',
+        1104: 'https://gculopes.com', 719: 'https://tulsahurricane.com', 772: 'https://wkusports.com',
+        328: 'https://kuathletics.com', 635: 'https://shupirates.com', 86: 'https://ubbulls.com',
+        694: 'https://utsports.com', 387: 'https://gomarquette.com', 545: 'https://pittsburghpanthers.com',
+        721: 'https://goairforcefalcons.com',
         419: 'https://goblueraiders.com', 688: 'https://cuse.com', 311: 'https://cyclones.com',
         129: 'https://cmuchippewas.com', 8: 'https://rolltide.com', 193: 'https://goduke.com', 649: 'https://gojacks.com',
         249: 'https://gwsports.com', 430: 'https://hailstate.com', 80: 'https://brownbears.com',
@@ -1395,7 +1400,7 @@ class TeamConfig:
         37: {'url_format': 'iowa_table'},
         77: {'url_format': 'byu_table'},
         127: {'url_format': 'default'},
-        128: {'url_format': 'season_path'},
+        128: {'url_format': 'season_path_table'},  # Central Florida - uses ?view=table
         140: {'url_format': 'iowa_table'},
         147: {'url_format': 'clemson'},
         255: {'url_format': 'season_path'},
@@ -1433,6 +1438,7 @@ class TeamConfig:
     
     # Custom JavaScript teams
     CUSTOM_JS_TEAMS = {
+        # 128: Central Florida - moved to TABLE_BASED_TEAMS (has ?view=table parameter)
         178: {'selector': 'sidearm_roster_player', 'url_format': 'default'},  # Delaware State - uses standard sidearm with Vue.js
         248: {'selector': 'wyoming_roster', 'url_format': 'default'},  # George Mason - uses roster-staff structure
         327: {'selector': 'nuxt_roster', 'url_format': 'default'},  # Kansas State
@@ -1592,10 +1598,21 @@ class TeamConfig:
 
         # Nuxt.js teams (most common)
         if team_id in cls.NUXT_JS_TEAMS:
+            team_config = cls.NUXT_JS_TEAMS[team_id]
+            # Handle dict format for teams with special URL formats
+            if isinstance(team_config, dict):
+                return {
+                    'type': 'javascript',
+                    'selector': 'nuxt_roster',
+                    'url_format': team_config.get('url_format', 'default'),
+                    'base_url': team_config.get('base_url', '')
+                }
+            # Handle string format (just base_url, use default URL format)
             return {
                 'type': 'javascript',
                 'selector': 'nuxt_roster',
-                'url_format': 'default'
+                'url_format': 'default',
+                'base_url': team_config  # The string IS the base_url
             }
         
         # S-person-card teams
