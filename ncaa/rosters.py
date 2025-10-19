@@ -1411,7 +1411,7 @@ class TeamConfig:
         388: {'url_format': 'default'},
         433: {'url_format': 'default'},
         463: {'url_format': 'iowa_table'},
-        473: {'url_format': 'season_path'},
+        473: {'url_format': 'season_path_table'},  # New Mexico - uses ?view=table
         513: {'url_format': 'season_path'},
         523: {'url_format': 'iowa_table'},
         539: {'url_format': 'iowa_table'},
@@ -1428,11 +1428,9 @@ class TeamConfig:
         630: {'url_format': 'iowa_table'},
         706: {'url_format': 'iowa_table'},
         365: {'url_format': 'season_path'},
-        473: {'url_format': 'season_path'},
         692: {'url_format': 'season_first'},
         648: {'url_format': 'season_path'},
         127: {'url_format': 'season_first'},
-        692: {'url_format': 'season_first'},
         1000: {'url_format': 'season_first'}
     }
     
