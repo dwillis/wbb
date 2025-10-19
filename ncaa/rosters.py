@@ -58,7 +58,10 @@ class Player:
 
     def to_dict(self) -> Dict[str, Any]:
         """Convert to dictionary for CSV output"""
-        return asdict(self)
+        d = asdict(self)
+        # Map 'year' field to 'academic_year' for CSV output
+        d['academic_year'] = d.pop('year', '')
+        return d
 
 
 class FieldExtractors:
@@ -315,32 +318,44 @@ class JSTemplates:
                     console.log('No coaching-staff section found');
                     return [];
                 }
-                
-                // Find all coach cards within the coaching-staff section
-                const coachCards = coachingSection.querySelectorAll('.roster-card');
+
+                // Try multiple coach card structures
+                let coachCards = coachingSection.querySelectorAll('.roster-card');
+                if (!coachCards.length) {
+                    // Try li.sidearm-roster-coach (Delaware State style)
+                    coachCards = coachingSection.querySelectorAll('li.sidearm-roster-coach');
+                }
                 if (!coachCards.length) {
                     console.log('No coach cards found');
                     return [];
                 }
-                
+
                 return Array.from(coachCards).map(card => {
-                    // Extract name
-                    const nameElem = card.querySelector('.roster-card__name, h3, .name');
-                    const name = nameElem ? nameElem.textContent.trim() : '';
-                    
+                    // Extract name - check multiple patterns
+                    let nameElem = card.querySelector('.roster-card__name, .sidearm-roster-coach-name, h3, .name');
+                    let name = nameElem ? nameElem.textContent.trim() : '';
+
+                    // For li.sidearm-roster-coach, name might be in a link
+                    if (!name) {
+                        const linkElem = card.querySelector('a');
+                        if (linkElem) {
+                            name = linkElem.textContent.trim();
+                        }
+                    }
+
                     // Extract title/position
-                    const titleElem = card.querySelector('.roster-card__title, .title, .position');
+                    const titleElem = card.querySelector('.roster-card__title, .sidearm-roster-coach-title, .title, .position');
                     const title = titleElem ? titleElem.textContent.trim() : '';
-                    
+
                     // Extract bio link/URL
-                    const linkElem = card.querySelector('a[href*="/roster/"], a[href*="/coaches/"]');
+                    const linkElem = card.querySelector('a[href*="/roster/"], a[href*="/coaches/"], a');
                     const url = linkElem ? linkElem.href : '';
-                    
+
                     // Extract additional info if available
                     const infoElems = card.querySelectorAll('.roster-card__info, .info, .bio-info');
                     let experience = '';
                     let alma_mater = '';
-                    
+
                     infoElems.forEach(elem => {
                         const text = elem.textContent.trim();
                         if (text.includes('Season') || text.includes('Year')) {
@@ -349,7 +364,7 @@ class JSTemplates:
                             alma_mater = text;
                         }
                     });
-                    
+
                     return {
                         name: name,
                         title: title,
@@ -358,7 +373,7 @@ class JSTemplates:
                         url: url
                     };
                 }).filter(coach => coach && coach.name && coach.name.length > 2);
-                
+
             } catch (error) {
                 console.error('Error extracting coaching staff:', error);
                 return [];
@@ -408,7 +423,8 @@ class JSTemplates:
                                          !cellLower.includes('title') &&
                                          !cellLower.includes('email') &&
                                          !cellLower.includes('phone')) {
-                                    if (!name) {
+                                    // Skip email addresses themselves
+                                    if (!cellText.includes('@') && !name) {
                                         name = cellText;
                                         // Try to find a link in this cell
                                         const link = cells[i]?.querySelector('a');
@@ -750,6 +766,66 @@ class JSTemplates:
     }).filter(player => player && player.name && player.name.length > 2);
 })()
             """,
+            'miami_table_roster': """
+new Promise((resolve) => {
+    // Wait for DataTables to initialize
+    setTimeout(() => {
+        const table = document.querySelector('#players-table');
+        if (!table) {
+            console.log('No players table found');
+            resolve([]);
+            return;
+        }
+        
+        const rows = table.querySelectorAll('tbody tr');
+        console.log('Found table rows:', rows.length);
+        
+        const players = Array.from(rows).map(row => {
+            const cells = row.querySelectorAll('td');
+            console.log('Cell count:', cells.length);
+            if (cells.length < 5) return null;
+            
+            // Extract text content from cells
+            const jersey = cells[0] ? cells[0].textContent.trim() : '';
+            const nameCell = cells[1];
+            const nameLink = nameCell ? nameCell.querySelector('a') : null;
+            const name = nameLink ? nameLink.textContent.trim() : (nameCell ? nameCell.textContent.trim() : '');
+            const position = cells[2] ? cells[2].textContent.trim() : '';
+            
+            // Height with data-sort attribute
+            const heightCell = cells[3];
+            const height = heightCell ? heightCell.textContent.trim() : '';
+            
+            // Class/Year - use data-sort attribute if available for cleaner value
+            const yearCell = cells[4];
+            const year = yearCell ? (yearCell.getAttribute('data-sort') || yearCell.textContent.trim()) : '';
+            
+            // Hometown, high school, previous school
+            const hometown = cells[5] ? cells[5].textContent.trim() : '';
+            const high_school = cells[6] ? cells[6].textContent.trim() : '';
+            const previous_school = cells.length > 7 && cells[7] ? cells[7].textContent.trim() : '';
+            
+            const url = nameLink ? nameLink.href : '';
+            
+            console.log('Player:', name, 'Year:', year);
+            
+            return {
+                name: name,
+                jersey: jersey,
+                position: position,
+                height: height,
+                year: year,
+                hometown: hometown,
+                high_school: high_school,
+                previous_school: previous_school,
+                url: url
+            };
+        }).filter(player => player && player.name && player.name.length > 2);
+        
+        resolve(players);
+    }, 3000);  // Wait 3 seconds for DataTables to load
+})
+            """,
             'auburn_roster_coaches': """
             // NOTE: Auburn-specific coach scraping - may need manual verification
             Array.from(document.querySelectorAll('a[href*="/roster/coaches/"], a[href*="/staff/"]'), el => {
@@ -861,9 +937,168 @@ class JSTemplates:
         return {name, title, experience: '', alma_mater: '', url};
     }).filter(coach => coach && coach.name && coach.name.length > 2);
 })()
+            """,
+            'wyoming_roster_coaches': """
+(() => {
+    // Wyoming uses sidearm-roster-staff structure
+    const coaches = [];
+    const seenNames = new Set();
+
+    // Get all staff items from the ul.sidearm-roster-staff-list
+    const staffItems = document.querySelectorAll('ul.sidearm-roster-staff-list li.sidearm-roster-staff-item');
+
+    if (staffItems.length === 0) {
+        console.log('No staff items found');
+        return [];
+    }
+
+    console.log('Found', staffItems.length, 'staff items');
+
+    for (const item of staffItems) {
+        // Get the name from .sidearm-roster-staff-name div
+        const nameElem = item.querySelector('.sidearm-roster-staff-name');
+        if (!nameElem) continue;
+
+        const name = nameElem.textContent.trim();
+
+        // Skip if empty or if we've seen this name
+        if (!name || name.length < 3 || seenNames.has(name)) continue;
+
+        // Skip if it's contact info (email or phone)
+        if (name.includes('@') || name.match(/\\(\\d{3}\\)/) || name.match(/^\\d{3}/) || name.match(/\\d{3}-\\d{3}/)) continue;
+
+        seenNames.add(name);
+
+        // Get URL from the link
+        const linkElem = item.querySelector('a.sidearm-roster-staff-link');
+        const url = linkElem ? linkElem.href : '';
+
+        // Get title from .sidearm-roster-staff-title div
+        const titleElem = item.querySelector('.sidearm-roster-staff-title');
+        const title = titleElem ? titleElem.textContent.trim() : '';
+
+        coaches.push({
+            name: name,
+            title: title,
+            experience: '',
+            alma_mater: '',
+            url: url
+        });
+    }
+
+    return coaches.filter(coach => coach && coach.name && coach.name.length > 2);
+})()
+            """,
+            'delaware_state_roster_coaches': """
+(() => {
+    // Delaware State uses li.sidearm-roster-coach with specific class names
+    const coaches = [];
+    const seenNames = new Set();
+
+    // Get all coach items
+    const coachItems = document.querySelectorAll('li.sidearm-roster-coach');
+
+    if (coachItems.length === 0) {
+        console.log('No coach items found');
+        return [];
+    }
+
+    console.log('Found', coachItems.length, 'coach items');
+
+    for (const item of coachItems) {
+        // Get the name from .sidearm-roster-coach-name div
+        const nameElem = item.querySelector('.sidearm-roster-coach-name');
+        if (!nameElem) continue;
+
+        const name = nameElem.textContent.trim();
+
+        // Skip if empty or if we've seen this name
+        if (!name || name.length < 3 || seenNames.has(name)) continue;
+
+        // Skip if it's contact info (email or phone)
+        if (name.includes('@') || name.match(/\\(\\d{3}\\)/) || name.match(/^\\d{3}/) || name.match(/\\d{3}-\\d{3}/)) continue;
+
+        seenNames.add(name);
+
+        // Get URL from the link
+        const linkElem = item.querySelector('a');
+        const url = linkElem ? linkElem.href : '';
+
+        // Get title from .sidearm-roster-coach-title div
+        const titleElem = item.querySelector('.sidearm-roster-coach-title');
+        const title = titleElem ? titleElem.textContent.trim() : '';
+
+        coaches.push({
+            name: name,
+            title: title,
+            experience: '',
+            alma_mater: '',
+            url: url
+        });
+    }
+
+    return coaches.filter(coach => coach && coach.name && coach.name.length > 2);
+})()
+            """,
+            'iowa_roster_coaches': """
+(() => {
+    // Iowa uses tabs, need to wait for content to load
+    const coaches = [];
+    const seenNames = new Set();
+
+    // Look for coaches in roster cards or person cards
+    const coachCards = document.querySelectorAll('.s-person-card, .roster-card, [class*="coach"]');
+
+    for (const card of coachCards) {
+        const fullText = card.textContent || '';
+
+        // Check if this is a coach (has coach-related keywords)
+        if (!fullText.match(/Head Coach|Assistant Coach|Associate|Director|Coordinator/i)) continue;
+
+        // Find name
+        let nameElem = card.querySelector('.s-person-card__name, .roster-card__name, h3, h4, a');
+        if (!nameElem) continue;
+
+        let name = nameElem.textContent.trim();
+
+        // Skip if empty or already seen
+        if (!name || name.length < 3 || seenNames.has(name)) continue;
+
+        // Skip contact info
+        if (name.includes('@') || name.match(/\\d{3}-\\d{3}/)) continue;
+
+        seenNames.add(name);
+
+        // Get URL
+        const linkElem = card.querySelector('a[href*="/coaches/"], a[href*="/roster/"]');
+        const url = linkElem ? linkElem.href : '';
+
+        // Get title
+        const titleElem = card.querySelector('.s-person-card__title, .roster-card__title, .title, [class*="title"]');
+        let title = '';
+
+        if (titleElem) {
+            title = titleElem.textContent.trim();
+        } else {
+            // Extract from full text
+            const titleMatch = fullText.match(/(Head Coach|Assistant Coach|Associate Head Coach|Associate Coach|Director[^\\n]*|Coordinator[^\\n]*)/i);
+            title = titleMatch ? titleMatch[1].trim() : '';
+        }
+
+        coaches.push({
+            name: name,
+            title: title,
+            experience: '',
+            alma_mater: '',
+            url: url
+        });
+    }
+
+    return coaches.filter(coach => coach && coach.name && coach.name.length > 2);
+})()
             """
         }
-        
+
         return custom_selectors.get(selector_name, '')
 
 
@@ -915,6 +1150,11 @@ class URLBuilder:
         # Determine path based on entity type
         path = "coaches" if entity_type == 'coach' else "roster"
         
+        # For next year format: 2024-25 season -> 2025-26 URL
+        next_year = str(int(season[:4]) + 1)
+        next_year_short = str(int(season[-2:]) + 1).zfill(2)
+        next_year_season = f"{next_year}-{next_year_short}"
+
         formats = {
             "default": f"{base_url}/{path}/{season}",
             "direct": f"{base_url}/{path}/",
@@ -925,17 +1165,33 @@ class URLBuilder:
             "valpo": f"{base_url}/{path}/{season}/?view=list",
             "la_salle": f"{base_url}/{path}/{season[:4]}-{season[:2]}{season[-2:]}",
             "byu_table": f"{base_url}/{path}/season/{season[:4]}-{season[:2]}{season[-2:]}?view=table",
-            "four_digit_year": f"{base_url}/{path}/{season[:4]}-{season[:2]}{season[-2:]}"
+            "four_digit_year": f"{base_url}/{path}/{season[:4]}-{season[:2]}{season[-2:]}",
+            "next_year": f"{base_url}/{path}/{next_year_season}"
         }
 
         # Special cases
         if base_url.startswith('https://arkansasrazorbacks.com'):
             path_param = "w-baskbl/coaches" if entity_type == 'coach' else "w-baskbl/roster"
             return f"https://arkansasrazorbacks.com/sport/{path_param}/?season={season}"
-        
+
         if base_url.startswith('https://goaztecs.com'):
             return f"https://goaztecs.com/sports/womens-basketball/{path}/season/{season}?view=table"
-        
+
+        # Miami uses roster path for both coaches and players
+        if base_url.startswith('https://miamihurricanes.com'):
+            return f"{base_url}/roster/season/{season}/"
+
+        # Iowa uses roster path with tab parameter for coaches
+        if base_url.startswith('https://hawkeyesports.com'):
+            if entity_type == 'coach':
+                return f"{base_url}/roster/season/{season}?tab=coaches"
+            else:
+                return f"{base_url}/roster/season/{season}?view=table"
+
+        # George Mason and Miami Ohio use roster path for both coaches and players
+        if base_url.startswith('https://gomason.com') or base_url.startswith('https://miamiredhawks.com'):
+            return f"{base_url}/roster/{season}"
+
         return formats.get(url_format, formats["default"])
 
 
@@ -970,7 +1226,9 @@ class TeamConfig:
         257: 'https://georgiadogs.com', 317: 'https://jmusports.com', 66: 'https://broncosports.com',
         562: 'https://gobobcats.com', 659: 'https://siusalukis.com', 756: 'https://gohuskies.com',
         697: 'https://12thman.com', 173: 'https://davidsonwildcats.com', 518: 'https://ohiostatebuckeyes.com',
-        47: 'https://ballstatesports.com', 529: 'https://goducks.com', 676: 'https://sfajacks.com'
+        47: 'https://ballstatesports.com', 529: 'https://goducks.com', 676: 'https://sfajacks.com',
+        30135: 'https://cbulancers.com', 178: 'https://dsuhornets.com', 414: 'https://miamiredhawks.com',
+        434: 'https://mutigers.com', 440: 'https://msubobcats.com', 703: 'https://texassports.com'
     }
     
     # Teams using .s-person-card structure
@@ -990,10 +1248,8 @@ class TeamConfig:
         255: {'url_format': 'season_path'},
         306: {'url_format': 'direct'},
         308: {'url_format': 'default'},
-        312: {'url_format': 'iowa_table'},
         334: {'url_format': 'season_path'},
         388: {'url_format': 'default'},
-        415: {'url_format': 'season_path'},
         433: {'url_format': 'default'},
         463: {'url_format': 'iowa_table'},
         473: {'url_format': 'season_path'},
@@ -1023,6 +1279,11 @@ class TeamConfig:
     
     # Custom JavaScript teams
     CUSTOM_JS_TEAMS = {
+        248: {'selector': 'wyoming_roster', 'url_format': 'default'},  # George Mason - uses roster-staff structure
+        312: {'selector': 'iowa_roster', 'url_format': 'iowa_table'},  # Iowa
+        327: {'selector': 'nuxt_roster', 'url_format': 'next_year'},  # Kansas State
+        414: {'selector': 'wyoming_roster', 'url_format': 'default'},  # Miami Ohio - uses roster-staff structure
+        415: {'selector': 'miami_table_roster', 'url_format': 'season_path'},  # Miami - uses DataTable with full player data
         528: {'selector': 'oregon_state_roster', 'url_format': 'default'},
         129: {'selector': 'central_michigan_roster', 'url_format': 'default'},
         746: {'type': 'javascript', 'selector': 'virginia_roster_table', 'url_format': 'direct'}
@@ -1030,11 +1291,143 @@ class TeamConfig:
 
     # Teams with roster data embedded in a Vue.js data object
     VUE_DATA_TEAMS = {
-        # 51: {'url_format': 'default'},  # Baylor - now uses standard Sidearm rendering
-        811: {'url_format': 'default'}, # Wyoming
+        51: {  # Baylor - uses Vue.js/Nuxt with modern data attributes
+            'type': 'standard',  # Use standard scraper with shot-scraper rendering
+            'url_format': 'default',
+            'field_selectors': {
+                'position': ['[data-test-id="s-person-card-standard__content-person-details-position-short"]'],
+                'height': ['[data-test-id="s-person-card-standard__content-person-details-height"]'],
+                'academic_year': ['[data-test-id="s-person-card-standard__content-person-details-academic-year-short"]'],
+                'hometown': ['[data-test-id="s-person-card-standard__content-person-details-home-town"]'],
+                'high_school': ['[data-test-id="s-person-card-standard__content-person-details-high-school"]']
+            }
+        },
+        406: {  # Mercer - uses Vue.js/Nuxt with modern data attributes
+            'type': 'standard',  # Use standard scraper with shot-scraper rendering
+            'url_format': 'default',
+            'field_selectors': {
+                'position': ['[data-test-id="s-person-card-standard__content-person-details-position-short"]'],
+                'height': ['[data-test-id="s-person-card-standard__content-person-details-height"]'],
+                'academic_year': ['[data-test-id="s-person-card-standard__content-person-details-academic-year-short"]'],
+                'hometown': ['[data-test-id="s-person-card-standard__content-person-details-home-town"]'],
+                'high_school': ['[data-test-id="s-person-card-standard__content-person-details-high-school"]']
+            }
+        },
+        90: {  # Cal Poly - uses Vue.js/Nuxt with modern data attributes
+            'type': 'standard',  # Use standard scraper with shot-scraper rendering
+            'url_format': 'default',
+            'field_selectors': {
+                'position': ['[data-test-id="s-person-card-standard__content-person-details-position-short"]'],
+                'height': ['[data-test-id="s-person-card-standard__content-person-details-height"]'],
+                'academic_year': ['[data-test-id="s-person-card-standard__content-person-details-academic-year-short"]'],
+                'hometown': ['[data-test-id="s-person-card-standard__content-person-details-home-town"]'],
+                'high_school': ['[data-test-id="s-person-card-standard__content-person-details-high-school"]']
+            }
+        },
+        172: {  # Dartmouth - uses Vue.js/Nuxt with modern data attributes
+            'type': 'standard',  # Use standard scraper with shot-scraper rendering
+            'url_format': 'default',
+            'field_selectors': {
+                'position': ['[data-test-id="s-person-card-standard__content-person-details-position-short"]'],
+                'height': ['[data-test-id="s-person-card-standard__content-person-details-height"]'],
+                'academic_year': ['[data-test-id="s-person-card-standard__content-person-details-academic-year-short"]'],
+                'hometown': ['[data-test-id="s-person-card-standard__content-person-details-home-town"]'],
+                'high_school': ['[data-test-id="s-person-card-standard__content-person-details-high-school"]']
+            }
+        },
+        610: {  # Saint Mary's (CA) - uses Vue.js/Nuxt with modern data attributes
+            'type': 'standard',  # Use standard scraper with shot-scraper rendering
+            'url_format': 'default',
+            'field_selectors': {
+                'position': ['[data-test-id="s-person-card-standard__content-person-details-position-short"]'],
+                'height': ['[data-test-id="s-person-card-standard__content-person-details-height"]'],
+                'academic_year': ['[data-test-id="s-person-card-standard__content-person-details-academic-year-short"]'],
+                'hometown': ['[data-test-id="s-person-card-standard__content-person-details-home-town"]'],
+                'high_school': ['[data-test-id="s-person-card-standard__content-person-details-high-school"]']
+            }
+        },
+        331: {  # Kent State - uses Vue.js/Nuxt with modern data attributes
+            'type': 'standard',  # Use standard scraper with shot-scraper rendering
+            'url_format': 'default',
+            'field_selectors': {
+                'position': ['[data-test-id="s-person-card-standard__content-person-details-position-short"]'],
+                'height': ['[data-test-id="s-person-card-standard__content-person-details-height"]'],
+                'academic_year': ['[data-test-id="s-person-card-standard__content-person-details-academic-year-short"]'],
+                'hometown': ['[data-test-id="s-person-card-standard__content-person-details-home-town"]'],
+                'high_school': ['[data-test-id="s-person-card-standard__content-person-details-high-school"]']
+            }
+        },
+        2711: {  # North Florida - uses Vue.js/Nuxt with modern data attributes
+            'type': 'standard',  # Use standard scraper with shot-scraper rendering
+            'url_format': 'default',
+            'field_selectors': {
+                'position': ['[data-test-id="s-person-card-standard__content-person-details-position-short"]'],
+                'height': ['[data-test-id="s-person-card-standard__content-person-details-height"]'],
+                'academic_year': ['[data-test-id="s-person-card-standard__content-person-details-academic-year-short"]'],
+                'hometown': ['[data-test-id="s-person-card-standard__content-person-details-home-town"]'],
+                'high_school': ['[data-test-id="s-person-card-standard__content-person-details-high-school"]']
+            }
+        },
+        101: {  # CSUN - uses Vue.js/Nuxt with modern data attributes
+            'type': 'standard',  # Use standard scraper with shot-scraper rendering
+            'url_format': 'default',
+            'field_selectors': {
+                'position': ['[data-test-id="s-person-card-standard__content-person-details-position-short"]'],
+                'height': ['[data-test-id="s-person-card-standard__content-person-details-height"]'],
+                'academic_year': ['[data-test-id="s-person-card-standard__content-person-details-academic-year-short"]'],
+                'hometown': ['[data-test-id="s-person-card-standard__content-person-details-home-town"]'],
+                'high_school': ['[data-test-id="s-person-card-standard__content-person-details-high-school"]']
+            }
+        },
+        235: {  # Florida - uses Vue.js/Nuxt with modern data attributes
+            'type': 'standard',  # Use standard scraper with shot-scraper rendering
+            'url_format': 'default',
+            'field_selectors': {
+                'position': ['[data-test-id="s-person-card-standard__content-person-details-position-short"]'],
+                'height': ['[data-test-id="s-person-card-standard__content-person-details-height"]'],
+                'academic_year': ['[data-test-id="s-person-card-standard__content-person-details-academic-year-short"]'],
+                'hometown': ['[data-test-id="s-person-card-standard__content-person-details-home-town"]'],
+                'high_school': ['[data-test-id="s-person-card-standard__content-person-details-high-school"]']
+            }
+        },
+        2707: {  # Kansas City - uses Vue.js/Nuxt with modern data attributes
+            'type': 'standard',  # Use standard scraper with shot-scraper rendering
+            'url_format': 'default',
+            'field_selectors': {
+                'position': ['[data-test-id="s-person-card-standard__content-person-details-position-short"]'],
+                'height': ['[data-test-id="s-person-card-standard__content-person-details-height"]'],
+                'academic_year': ['[data-test-id="s-person-card-standard__content-person-details-academic-year-short"]'],
+                'hometown': ['[data-test-id="s-person-card-standard__content-person-details-home-town"]'],
+                'high_school': ['[data-test-id="s-person-card-standard__content-person-details-high-school"]']
+            }
+        },
+        598: {  # St. Cloud St. - uses Vue.js/Nuxt with modern data attributes
+            'type': 'standard',  # Use standard scraper with shot-scraper rendering
+            'url_format': 'default',
+            'field_selectors': {
+                'position': ['[data-test-id="s-person-card-standard__content-person-details-position-short"]'],
+                'height': ['[data-test-id="s-person-card-standard__content-person-details-height"]'],
+                'academic_year': ['[data-test-id="s-person-card-standard__content-person-details-academic-year-short"]'],
+                'hometown': ['[data-test-id="s-person-card-standard__content-person-details-home-town"]'],
+                'high_school': ['[data-test-id="s-person-card-standard__content-person-details-high-school"]']
+            }
+        },
+        620: {  # St. Thomas (MN) - uses Vue.js/Nuxt with modern data attributes
+            'type': 'standard',  # Use standard scraper with shot-scraper rendering
+            'url_format': 'default',
+            'field_selectors': {
+                'position': ['[data-test-id="s-person-card-standard__content-person-details-position-short"]'],
+                'height': ['[data-test-id="s-person-card-standard__content-person-details-height"]'],
+                'academic_year': ['[data-test-id="s-person-card-standard__content-person-details-academic-year-short"]'],
+                'hometown': ['[data-test-id="s-person-card-standard__content-person-details-home-town"]'],
+                'high_school': ['[data-test-id="s-person-card-standard__content-person-details-high-school"]']
+            }
+        },
+        # 415: Miami moved back to CUSTOM_JS_TEAMS - uses DataTable with full data
+        # 811: {'url_format': 'default'}, # Wyoming - moved to NUXT_JS_TEAMS
+        # 248: {'url_format': 'default'}, # George Mason - uses standard sidearm-roster-staff structure
         72: {'url_format': 'default'},
         731: {'url_format': 'default'},
-        248: {'url_format': 'default'},
     }
 
     @classmethod
@@ -1089,11 +1482,18 @@ class TeamConfig:
                 'type': 'table',
                 'url_format': 'byu_table'
             }
-        
+
         if team_id in [352]:
             return {
                 'type': 'javascript',
                 'url_format': 'la_salle'
+            }
+
+        if team_id in [811]:  # Wyoming
+            return {
+                'type': 'standard',
+                'url_format': 'default',
+                'use_staff_container': True  # Use #roster-staff instead of .sidearm-roster-coaches
             }
 
         # Default fallback
@@ -1127,12 +1527,14 @@ ENTITY_CONFIGS = {
         'sidearm_selectors': [
             '.sidearm-roster-coach',
             '.sidearm-roster-coaches-card',
-            '.s-person-card--list'  # Newer Sidearm design (e.g., Baylor)
+            '.sidearm-roster-staff-item',  # Wyoming uses this structure
+            '.s-person-card--list',  # Newer Sidearm design (e.g., Baylor)
+            '.s-person-card'  # Some sites reuse player cards for staff listings
         ],
         'sidearm_container': '.sidearm-roster-coaches',
         'field_selectors': {
-            'name': ['.sidearm-roster-coach-name', 'h3', 'h4', 'strong a', 'a'],
-            'title': ['.sidearm-roster-coach-title', '.sidearm-roster-coach-position', '.title'],
+            'name': ['.sidearm-roster-coach-name', '.sidearm-roster-staff-name', '.s-person-details__personal-single-line', 'h3', 'h4', 'strong a', 'a'],
+            'title': ['.sidearm-roster-coach-title', '.sidearm-roster-staff-title', '.sidearm-roster-coach-position', '.s-person-details__position', '.title'],
             'experience': ['.sidearm-roster-coach-seasons', '.sidearm-roster-coach-experience'],
             'alma_mater': ['.sidearm-roster-coach-college', '.sidearm-roster-coach-alma-mater']
         },
@@ -1163,6 +1565,42 @@ class BaseScraper:
         except requests.RequestException as e:
             logger.error(f"Failed to fetch {url}: {e}")
             return None
+    
+    def fetch_html_with_javascript(self, url: str) -> Optional[BeautifulSoup]:
+        """Fetch HTML using shot-scraper to execute JavaScript"""
+        import subprocess
+        import tempfile
+        import os
+        
+        try:
+            logger.info(f"Using shot-scraper to render JavaScript for {url}")
+            
+            # Use shot-scraper via uv to get fully rendered HTML
+            result = subprocess.run(
+                ['uv', 'run', 'shot-scraper', 'html', url, '--wait', '3000'],
+                capture_output=True,
+                text=True,
+                timeout=45
+            )
+            
+            if result.returncode == 0 and result.stdout:
+                logger.info("Successfully rendered HTML with JavaScript")
+                return BeautifulSoup(result.stdout, 'html.parser')
+            else:
+                logger.warning(f"shot-scraper failed with return code {result.returncode}")
+                if result.stderr:
+                    logger.warning(f"shot-scraper stderr: {result.stderr[:200]}")
+                return None
+                
+        except subprocess.TimeoutExpired:
+            logger.error(f"shot-scraper timed out for {url}")
+            return None
+        except FileNotFoundError:
+            logger.error("uv or shot-scraper not found. Install with: uv add shot-scraper")
+            return None
+        except Exception as e:
+            logger.error(f"Error using shot-scraper: {e}")
+            return None
 
     def build_player_url(self, base_url: str, relative_url: str) -> str:
         """Build complete player URL"""
@@ -1179,11 +1617,30 @@ class StandardScraper(BaseScraper):
     
     def scrape_roster(self, team: Dict, season: str, url_format: str = "default") -> List[Player]:
         """Scrape roster using standard sidearm layout"""
+        # Store team config for custom field selectors
+        team_id = team.get('ncaa_id')
+        if team_id in TeamConfig.VUE_DATA_TEAMS:
+            self.team_config = TeamConfig.VUE_DATA_TEAMS[team_id]
+        else:
+            self.team_config = {}
+        
         url = URLBuilder.build_url(team['url'], season, url_format, entity_type=self.entity_type)
-        html = self.fetch_html(url)
+        
+        # Use shot-scraper for Vue.js teams to handle JavaScript rendering
+        if team.get('ncaa_id') in [51, 406, 90, 172, 610, 331, 2711, 101, 235, 2707, 598, 620]:  # Baylor, Mercer, Cal Poly, Dartmouth, Saint Mary's (CA), Kent State, North Florida, CSUN, Florida, Kansas City, St. Cloud St., St. Thomas (MN)
+            html = self.fetch_html_with_javascript(url)
+            if not html:
+                logger.warning(f"shot-scraper failed for {team['team']}, falling back to regular fetch")
+                html = self.fetch_html(url)
+        else:
+            html = self.fetch_html(url)
         
         if not html:
             return []
+        
+        # Cache HTML for JSON data extraction
+        self._last_html = html
+        self._nuxt_data_cache = None  # Reset cache for new page
 
         # Verify season if it's a Sidearm site
         if SeasonVerifier.is_sidearm_site(html):
@@ -1199,6 +1656,7 @@ class StandardScraper(BaseScraper):
         logger.info(f"Found {len(elements)} {entity_label} for {team['team']}")
         
         roster = []
+        seen_coaches = set()
         for elem in elements:
             try:
                 # Extract based on entity type
@@ -1208,6 +1666,15 @@ class StandardScraper(BaseScraper):
                     entity = self._extract_coach_data(elem, team, season)
                 
                 if entity:
+                    if self.entity_type == 'coach':
+                        dedupe_key = (
+                            (entity.url or '').lower(),
+                            entity.name.lower(),
+                            entity.position.lower()
+                        )
+                        if dedupe_key in seen_coaches:
+                            continue
+                        seen_coaches.add(dedupe_key)
                     roster.append(entity)
             except Exception as e:
                 logger.warning(f"Failed to parse {self.entity_type} for {team['team']}: {e}")
@@ -1215,19 +1682,130 @@ class StandardScraper(BaseScraper):
                 
         return roster
 
+    def _get_nuxt_player_data(self, player_name: str, player_url: str) -> Optional[Dict]:
+        """Extract player data from __NUXT__ JSON embedded in page (for Baylor-style sites)
+        
+        NOTE: This method currently cannot parse Baylor's window.__NUXT__ format because
+        it uses a complex deduplicated array structure that requires the actual JavaScript
+        values to be resolved. BeautifulSoup sees the raw HTML source, not the rendered data.
+        
+        FUTURE: This could be enhanced with shot-scraper or Playwright:
+        - Use shot-scraper to execute: `return JSON.stringify(window.__NUXT__)`
+        - Parse the returned JSON and use the existing search logic below
+        - Or use shot-scraper to render the HTML fully, then extract from DOM elements
+        
+        Example shot-scraper command:
+            shot-scraper javascript URL 'return window.__NUXT__' --output data.json
+        """
+        if not hasattr(self, '_nuxt_data_cache'):
+            # Cache the NUXT data for this page load
+            self._nuxt_data_cache = None
+            
+        if self._nuxt_data_cache is None:
+            # Try to parse NUXT data from the current page
+            try:
+                if hasattr(self, '_last_html') and self._last_html:
+                    import json
+                    import re
+                    
+                    # Look for window.__NUXT__ data
+                    html_text = str(self._last_html)
+                    nuxt_match = re.search(r'window\.__NUXT__\s*=\s*({.+?});?\s*</script>', html_text, re.DOTALL)
+                    if nuxt_match:
+                        try:
+                            nuxt_json = json.loads(nuxt_match.group(1))
+                            self._nuxt_data_cache = nuxt_json
+                            logger.debug("Successfully parsed __NUXT__ data")
+                        except json.JSONDecodeError as e:
+                            logger.debug(f"Failed to parse __NUXT__ JSON: {e}")
+            except Exception as e:
+                logger.debug(f"Error extracting __NUXT__ data: {e}")
+        
+        # Search for player data in the cached NUXT data
+        if self._nuxt_data_cache:
+            try:
+                # Navigate the NUXT data structure to find roster data
+                # The structure varies but typically: state.data or state.roster
+                def search_for_player(obj, depth=0):
+                    """Recursively search for player data"""
+                    if depth > 10:  # Prevent infinite recursion
+                        return None
+                    
+                    if isinstance(obj, dict):
+                        # Check if this dict looks like player data
+                        if 'firstName' in obj and 'lastName' in obj:
+                            full_name = f"{obj.get('firstName', '')} {obj.get('lastName', '')}".strip()
+                            if full_name.lower() == player_name.lower():
+                                return obj
+                        
+                        # Recurse into dict values
+                        for value in obj.values():
+                            result = search_for_player(value, depth + 1)
+                            if result:
+                                return result
+                    
+                    elif isinstance(obj, list):
+                        # Recurse into list items
+                        for item in obj:
+                            result = search_for_player(item, depth + 1)
+                            if result:
+                                return result
+                    
+                    return None
+                
+                return search_for_player(self._nuxt_data_cache)
+            except Exception as e:
+                logger.debug(f"Error searching __NUXT__ data: {e}")
+        
+        return None
+
     def _find_player_elements(self, html):
         """Find player/coach elements using entity-specific selectors"""
-        # First, try to find the entity-specific container
-        container_selector = self.entity_config.get('sidearm_container')
         search_context = html
+
+        # Check for custom player selector in team config
+        team_config = getattr(self, 'team_config', {})
+        custom_player_selector = team_config.get('player_selector')
         
-        if container_selector:
-            container = html.select_one(container_selector)
-            if container:
-                search_context = container
-                logger.info(f"Found {self.entity_type} container: {container_selector}")
+        if custom_player_selector:
+            elements = search_context.select(custom_player_selector)
+            if elements:
+                logger.info(f"Found {len(elements)} {self.entity_type} elements with custom selector: {custom_player_selector}")
+                return elements
+
+        # For Wyoming-style sites, try #roster-staff for coaches first
+        if self.entity_type == 'coach':
+            # Try coaching staff specific containers
+            coaching_container = html.select_one('#coaching-staff, #roster-staff')
+            if coaching_container:
+                search_context = coaching_container
+                logger.info(f"Found coach container")
             else:
-                logger.warning(f"Container {container_selector} not found, searching entire page")
+                # Try regular coach container
+                container_selector = self.entity_config.get('sidearm_container')
+                if container_selector:
+                    container = html.select_one(container_selector)
+                    if container:
+                        search_context = container
+                        logger.info(f"Found {self.entity_type} container: {container_selector}")
+                    else:
+                        logger.warning(f"Container {container_selector} not found, searching entire page")
+        else:
+            # For players, try panel-based containers first (Baylor style)
+            player_container = html.select_one('#cardPanel, #listPanel, #tablePanel')
+            if player_container:
+                search_context = player_container
+                logger.info(f"Found player panel container")
+            else:
+                # Try regular player container
+                container_selector = self.entity_config.get('sidearm_container')
+                if container_selector:
+                    container = html.select_one(container_selector)
+                    if container:
+                        search_context = container
+                        logger.info(f"Found {self.entity_type} container: {container_selector}")
+                    else:
+                        logger.warning(f"Container {container_selector} not found, searching entire page")
         
         # Use entity-specific selectors from config
         selectors = self.entity_config['sidearm_selectors']
@@ -1256,32 +1834,78 @@ class StandardScraper(BaseScraper):
     def _extract_player_data(self, player_elem, team: Dict, season: str) -> Optional[Player]:
         """Extract player data using field extractors"""
         try:
+            # Skip coach/staff elements when scraping players
+            full_text = player_elem.get_text(separator=' ', strip=True)
+            if player_elem.find('a'):
+                href = player_elem.find('a').get('href', '')
+                if '/coaches/' in href or '/staff/' in href:
+                    return None
+            
             # Extract name
             name = ""
             if player_elem.find('a') and 'aria-label' in player_elem.find('a').attrs:
-                name = player_elem.find('a')['aria-label'].split(' - ')[0].strip()
+                aria_label = player_elem.find('a')['aria-label']
+                # Handle different aria-label formats
+                if ' - ' in aria_label:
+                    name = aria_label.split(' - ')[0].strip()
+                else:
+                    # For formats like "Name jersey number X full bio", extract just the name
+                    # Remove common suffixes
+                    name = aria_label.replace(' full bio', '').strip()
+                    # Extract name before "jersey number" if present
+                    if ' jersey number ' in name.lower():
+                        name = name.split(' jersey number ')[0].strip()
             elif player_elem.find('h3'):
                 name = FieldExtractors.clean_text(player_elem.find('h3').get_text())
             
             if not name or 'Instagram' in name:
                 return None
 
-            # Extract other fields
+            # Extract other fields from HTML elements
+            # Use custom selectors if available, otherwise use default classes
             fields = {
-                'previous_school': self._get_text_by_class(player_elem, 'sidearm-roster-player-previous-school'),
-                'high_school': self._get_text_by_class(player_elem, 'sidearm-roster-player-highschool'),
-                'height': self._get_text_by_class(player_elem, 'sidearm-roster-player-height'),
-                'hometown': self._get_text_by_class(player_elem, 'sidearm-roster-player-hometown'),
-                'jersey': self._get_text_by_class(player_elem, 'sidearm-roster-player-jersey-number'),
+                'previous_school': self._get_field_with_custom_selectors(player_elem, 'previous_school', 'sidearm-roster-player-previous-school'),
+                'high_school': self._get_field_with_custom_selectors(player_elem, 'high_school', 'sidearm-roster-player-highschool'),
+                'height': self._get_field_with_custom_selectors(player_elem, 'height', 'sidearm-roster-player-height'),
+                'hometown': self._get_field_with_custom_selectors(player_elem, 'hometown', 'sidearm-roster-player-hometown'),
+                'jersey': self._get_field_with_custom_selectors(player_elem, 'jersey', 'sidearm-roster-player-jersey-number'),
                 'year': self._get_academic_year(player_elem),
                 'position': self._get_position(player_elem)
             }
 
-            # Build player URL
+            # Build player URL - we'll use this to match with JSON data
             player_url = ""
             if player_elem.find('a'):
                 relative_url = player_elem.find('a').get('href', '')
                 player_url = self.build_player_url(team['url'], relative_url)
+            
+            # For Baylor and similar sites, try to enrich data from JSON if fields are empty
+            # NOTE: Currently non-functional without JavaScript execution (see _get_nuxt_player_data)
+            # This provides the framework for a future shot-scraper/Playwright enhancement
+            if player_url and not all([fields.get('position'), fields.get('height'), fields.get('hometown')]):
+                json_data = self._get_nuxt_player_data(name, player_url)
+                if json_data:
+                    if not fields.get('position'):
+                        fields['position'] = json_data.get('positionShort') or json_data.get('positionLong', '')
+                    if not fields.get('height'):
+                        # Try to format height from feet/inches if available
+                        height_str = json_data.get('height', '')
+                        if not height_str and 'heightFeet' in json_data:
+                            try:
+                                feet = int(json_data['heightFeet']) if json_data.get('heightFeet') else 0
+                                inches = int(json_data['heightInches']) if json_data.get('heightInches') else 0
+                                # Only format if values seem reasonable (not IDs)
+                                if 4 <= feet <= 7 and 0 <= inches <= 11:
+                                    height_str = f"{feet}-{inches}"
+                            except (ValueError, TypeError):
+                                pass
+                        fields['height'] = height_str
+                    if not fields.get('hometown'):
+                        fields['hometown'] = json_data.get('hometown', '')
+                    if not fields.get('high_school'):
+                        fields['high_school'] = json_data.get('highSchool', '')
+                    if not fields.get('previous_school'):
+                        fields['previous_school'] = json_data.get('previousSchool', '')
 
             return Player(
                 team_id=team['ncaa_id'],
@@ -1310,16 +1934,19 @@ class StandardScraper(BaseScraper):
 
     def _get_academic_year(self, player_elem) -> str:
         """Extract academic year"""
-        year_elements = player_elem.find_all('span', {'class': 'sidearm-roster-player-academic-year'})
-        if len(year_elements) > 1:
-            return FieldExtractors.normalize_academic_year(year_elements[1].get_text())
-        elif year_elements:
-            return FieldExtractors.normalize_academic_year(year_elements[0].get_text())
+        found = player_elem.find('span', {'class': 'sidearm-roster-player-academic-year'})
+        if found:
+            return found.get_text().strip()
         return ""
 
     def _extract_coach_data(self, coach_elem, team: Dict, season: str) -> Optional[Player]:
         """Extract coach information from a coach element"""
         try:
+            full_text = coach_elem.get_text(separator=' ', strip=True) if coach_elem else ''
+            # Some sites list players and coaches with the same card component; skip player cards
+            if 'Jersey Number' in full_text:
+                return None
+            
             # Extract name using entity-specific selectors
             name = None
             for selector in self.entity_config['field_selectors']['name']:
@@ -1397,14 +2024,45 @@ class StandardScraper(BaseScraper):
             logger.error(f"Error extracting coach data: {e}")
             return None
 
+    def _get_field_with_custom_selectors(self, player_elem, field_name: str, default_class: str = None) -> str:
+        """Extract a field using custom selectors if available, otherwise fall back to default class"""
+        # Check if team has custom field selectors
+        team_config = getattr(self, 'team_config', {})
+        custom_selectors = team_config.get('field_selectors', {}).get(field_name, [])
+        
+        # Try custom selectors first
+        for selector in custom_selectors:
+            elem = player_elem.select_one(selector)
+            if elem:
+                text = FieldExtractors.clean_text(elem.get_text())
+                # Remove <sr-only> hidden text content
+                sr_only = elem.find('span', {'class': 'sr-only'})
+                if sr_only:
+                    sr_text = sr_only.get_text()
+                    text = text.replace(sr_text, '').strip()
+                if text:
+                    # Normalize academic year if that's the field being extracted
+                    if field_name == 'academic_year':
+                        text = FieldExtractors.normalize_academic_year(text)
+                    return text
+        
+        # Fall back to default class if no custom selector worked
+        if default_class:
+            text = self._get_text_by_class(player_elem, default_class)
+            # Normalize academic year if that's the field being extracted
+            if text and field_name == 'academic_year':
+                text = FieldExtractors.normalize_academic_year(text)
+            return text
+        
+        return ""
+    
     def _get_position(self, player_elem) -> str:
         """Extract position"""
-        position_div = player_elem.find('div', {'class': 'sidearm-roster-player-position'})
-        if not position_div:
-            return ""
-
-        position_text = FieldExtractors.clean_text(position_div.get_text())
-        return FieldExtractors.extract_position(position_text)
+        # Try custom selectors first, then fall back to default
+        position_text = self._get_field_with_custom_selectors(player_elem, 'position', 'sidearm-roster-player-position')
+        if position_text:
+            return FieldExtractors.extract_position(position_text)
+        return ""
 
 
 class TableScraper(BaseScraper):
@@ -2026,7 +2684,7 @@ class RosterManager:
                     pdata['hometown'] = FieldExtractors.clean_field_labels(pdata.get('hometown', ''))
                     pdata['high_school'] = FieldExtractors.clean_field_labels(pdata.get('high_school', ''))
                     pdata['previous_school'] = FieldExtractors.clean_field_labels(pdata.get('previous_school', ''))
-                    pdata['year'] = FieldExtractors.clean_field_labels(pdata.get('year', ''))
+                    pdata['academic_year'] = FieldExtractors.clean_field_labels(pdata.get('academic_year', ''))
                 
                 writer.writerow(pdata)
 
