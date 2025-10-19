@@ -1285,7 +1285,7 @@ class TeamConfig:
     # Custom JavaScript teams
     CUSTOM_JS_TEAMS = {
         248: {'selector': 'wyoming_roster', 'url_format': 'default'},  # George Mason - uses roster-staff structure
-        327: {'selector': 'nuxt_roster', 'url_format': 'next_year'},  # Kansas State
+        327: {'selector': 'nuxt_roster', 'url_format': 'default'},  # Kansas State
         414: {'selector': 'wyoming_roster', 'url_format': 'default'},  # Miami Ohio - uses roster-staff structure
         415: {'selector': 'miami_table_roster', 'url_format': 'season_path'},  # Miami - uses DataTable with full player data
         528: {'selector': 'oregon_state_roster', 'url_format': 'default'},
