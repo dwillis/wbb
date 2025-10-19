@@ -18,7 +18,9 @@
     "twitter": "alabamawbb",
     "url": "https://rolltide.com/sports/womens-basketball",
     "ncaa_id": 8,
-    "stats_name": "Alabama"
+    "stats_name": "Alabama",
+    "roster": "standard",
+    "selector": ".s-person-card"
   },
   {
     "team": "Arizona",
@@ -121,7 +123,7 @@
   {
     "team": "Clemson",
     "twitter": "clemsonwbb",
-    "url": "https://clemsontigers.com/sports/w-basketball/",
+    "url": "https://clemsontigers.com/sports/w-basketball",
     "ncaa_id": 147,
     "stats_name": "Clemson"
   },
@@ -336,7 +338,8 @@
     "twitter": "memphiswbb",
     "url": "https://gotigersgo.com/sports/womens-basketball",
     "ncaa_id": 404,
-    "stats_name": "Memphis"
+    "stats_name": "Memphis",
+    "type": "memphis_roster"
   },
   {
     "team": "Mercer",
@@ -796,7 +799,7 @@
   {
     "team": "Central Connecticut",
     "twitter": "ccsu_wbb",
-    "url": "https://ccsubluedevils.com/sports/wbkb/index",
+    "url": "https://ccsubluedevils.com/sports/wbkb",
     "ncaa_id": 127
   },
   {
@@ -934,7 +937,7 @@
   {
     "team": "Maryland-Eastern Shore",
     "twitter": "eshawkswbb",
-    "url": "https://easternshorehawks.com/sports/womens-basketball",
+    "url": "https://umeshawksports.com/sports/womens-basketball",
     "ncaa_id": 393,
     "stats_name": "Maryland Eastern Shore"
   },
@@ -1191,7 +1194,7 @@
   {
     "team": "Kansas",
     "twitter": "kuwbball",
-    "url": "https://kuathletics.com/sports/wbball/",
+    "url": "https://kuathletics.com/sports/wbball",
     "ncaa_id": 328,
     "stats_name": "Kansas",
     "pbp": "false"
@@ -1760,14 +1763,14 @@
   {
     "team": "Tennessee Tech",
     "twitter": "ttuwbb",
-    "url": "https://www.ttusports.com/sports/wbkb/index",
+    "url": "https://www.ttusports.com/sports/wbkb",
     "ncaa_id": 692,
     "stats_name": "Tennessee Tech"
   },
   {
     "team": "Texas State",
     "twitter": "txstatewbb",
-    "url": "https://txstatebobcats.com/sports/womens-basketball",
+    "url": "https://txst.com/sports/womens-basketball",
     "ncaa_id": 670,
     "stats_name": "Texas St."
   },
@@ -1934,7 +1937,7 @@
   {
     "team": "New Mexico",
     "twitter": "unmlobowbb",
-    "url": "https://golobos.com/sports/Wbball/",
+    "url": "https://golobos.com/sports/wbball",
     "ncaa_id": 473,
     "stats_name": "New Mexico",
     "pbp": "false"
@@ -2083,14 +2086,14 @@
   {
     "team": "Carson-Newman",
     "twitter": "CNwbasketball",
-    "url": "https://www.cneagles.com/sports/w-baskbl/index",
+    "url": "https://www.cneagles.com/sports/w-baskbl",
     "ncaa_id": 1000,
     "stats_name": "Carson-Newman"
   },
   {
     "team": "Catawba",
     "twitter": "catawba_wbb",
-    "url": "https://www.catawbaathletics.com/sports/wbkb/index",
+    "url": "https://catawbaathletics.com/sports/womens-basketball",
     "ncaa_id": 1001,
     "stats_name": "Catawba"
   },
@@ -6034,7 +6037,7 @@
   {
     "team": "Youngstown St.",
     "twitter": "YSUWomensHoops",
-    "url": "https://ysusports.com/sports/womens-basketball/roster",
+    "url": "https://ysusports.com/sports/womens-basketball",
     "ncaa_id": 817,
     "stats_name": "Youngstown St."
   },

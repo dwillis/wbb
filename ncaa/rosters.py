@@ -1341,6 +1341,10 @@ class URLBuilder:
         if base_url.startswith('https://gomason.com') or base_url.startswith('https://miamiredhawks.com'):
             return f"{base_url}/roster/{season}"
 
+        # Hawaii uses four-digit year format (2025-26 becomes 2025-2026)
+        if base_url.startswith('https://hawaiiathletics.com'):
+            return f"{base_url}/{path}/{season[:4]}-{season[:2]}{season[-2:]}"
+
         return formats.get(url_format, formats["default"])
 
 
@@ -1579,6 +1583,7 @@ class TeamConfig:
         # 248: {'url_format': 'default'}, # George Mason - uses standard sidearm-roster-staff structure
         72: {'url_format': 'default'},
         731: {'url_format': 'default'},
+        # 277: Hawaii - uses standard Sidearm scraper, URL format handled in URLBuilder
     }
 
     @classmethod
@@ -1788,10 +1793,13 @@ class StandardScraper(BaseScraper):
 
         # Verify season if it's a Sidearm site
         if SeasonVerifier.is_sidearm_site(html):
-            if team['ncaa_id'] in [209, 339, 340, 77, 670, 1013, 11403, 11504]:
-                season = f"{season[:4]}-{season[:2]}{season[-2:]}"
-            if not SeasonVerifier.verify_season_on_page(html, season, entity_type=self.entity_type):
-                logger.warning(f"Season verification failed for {team['team']} - expected {season}")
+            # Use transformed season for four_digit_year format teams
+            verification_season = season
+            if (team['ncaa_id'] in [209, 339, 340, 77, 670, 1013, 11403, 11504] or
+                team['url'].startswith('https://hawaiiathletics.com')):
+                verification_season = f"{season[:4]}-{season[:2]}{season[-2:]}"
+            if not SeasonVerifier.verify_season_on_page(html, verification_season, entity_type=self.entity_type):
+                logger.warning(f"Season verification failed for {team['team']} - expected {verification_season}")
                 return []
 
         # Find player/coach elements
@@ -2223,7 +2231,10 @@ class TableScraper(BaseScraper):
         # Verify season for Sidearm sites
         if SeasonVerifier.is_sidearm_site(html):
             verification_season = season
-            if team['ncaa_id'] in [209, 339, 340, 77, 670, 1013, 11403, 11504]:
+            # Teams using four_digit_year format (2025-26 becomes 2025-2026)
+            if (team['ncaa_id'] in [209, 339, 340, 77, 670, 1013, 11403, 11504] or 
+                url_format == 'four_digit_year' or
+                team['url'].startswith('https://hawaiiathletics.com')):
                 verification_season = f"{season[:4]}-{season[:2]}{season[-2:]}"
             if not SeasonVerifier.verify_season_on_page(html, verification_season, entity_type=self.entity_type):
                 logger.warning(f"Season {verification_season} not found on page for {team['team']}")
@@ -2855,7 +2866,11 @@ class RosterManager:
         """Verify that the team's roster page shows the correct season"""
 
         try:
-            url = URLBuilder.build_url(team['url'], season, 'default', entity_type=self.entity_type)
+            # Get the team's config to use the correct URL format
+            config = TeamConfig.get_config(team['ncaa_id'])
+            url_format = config.get('url_format', 'default') if config else 'default'
+            
+            url = URLBuilder.build_url(team['url'], season, url_format, entity_type=self.entity_type)
             html = self.fetch_html(url)
             
             if not html:
@@ -2863,7 +2878,14 @@ class RosterManager:
                 
             # Only verify season for Sidearm sites
             if SeasonVerifier.is_sidearm_site(html):
-                return SeasonVerifier.verify_season_on_page(html, season, entity_type=self.entity_type)
+                # Use transformed season for four_digit_year format teams
+                verification_season = season
+                # Teams using four_digit_year format (2025-26 becomes 2025-2026)
+                if (url_format == 'four_digit_year' or 
+                    team['ncaa_id'] in [209, 339, 340, 77, 670, 1013, 11403, 11504] or
+                    team['url'].startswith('https://hawaiiathletics.com')):
+                    verification_season = f"{season[:4]}-{season[:2]}{season[-2:]}"
+                return SeasonVerifier.verify_season_on_page(html, verification_season, entity_type=self.entity_type)
             
             return True  # Assume OK for non-Sidearm sites
         except Exception as e:
