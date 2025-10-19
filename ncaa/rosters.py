@@ -1431,7 +1431,8 @@ class TeamConfig:
         692: {'url_format': 'season_first'},
         648: {'url_format': 'season_path'},
         127: {'url_format': 'season_first'},
-        1000: {'url_format': 'season_first'}
+        1000: {'url_format': 'season_first'},
+        1356: {'url_format': 'season_path_table'}  # Seattle U - uses ?view=table
     }
     
     # Custom JavaScript teams
