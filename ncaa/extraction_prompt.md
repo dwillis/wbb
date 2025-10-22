@@ -1,10 +1,10 @@
 # Prompt: Extract Career History and Education from Coach Biographies
 
-Given coach biography text, extract structured data for career positions and education history.
+Given coach biography text, extract structured data for career positions, education and playing career history.
 
 ## Output Format
 
-For each coach, create only a valid JSON object with two arrays:
+For each coach, create only a valid JSON object with three arrays:
 
 ### 1. positions array
 Each position object should contain:
@@ -22,6 +22,16 @@ Each education object should contain:
   "college": "name of college",
   "degree": "Bachelors|Masters|Doctorate",
   "year": graduation_year
+}
+
+### 3. playing_career array
+Each playing_career object should contain:
+
+{
+  "team": "name of college or professional team",
+  "level: "college or professional",
+  "start_year": starting year,
+  "end_year": ending_year
 }
 
 ## Extraction Rules
@@ -45,6 +55,15 @@ Each education object should contain:
   - "graduated from Kentucky in 1994"
   - "2025 graduate of East Tennessee State"
   - "completed her time at CSU" (may require inferring from context)
+
+### For Playing Career:
+- Only add an object if the coach played basketball
+- List playing career in reverse chronological order (most recent team first)
+- Extract years from phrases like:
+  - "from 2014-18" → start_year: 2014, end_year: 2018
+  - "previous nine seasons" (requires context calculation)
+  - "enters her second season in 2025-26" → start_year: 2024
+- If no playing history, return an empty array
 
 ## Examples
 
@@ -193,6 +212,14 @@ Each education object should contain:
       "college": "Colorado State",
       "degree": "Bachelors",
       "year": 2021
+    }
+  ],
+  "playing_career": [
+    {
+      "team": "Colorado State",
+      "level: "college",
+      "start_year": 2018,
+      "end_year": 2021
     }
   ]
 }
