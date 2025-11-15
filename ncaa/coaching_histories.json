@@ -7642,7 +7642,14 @@
     "title": "Assistant Coach",
     "url": "https://uclabruins.com/sports/womens-basketball/roster/coaches/michaela-onyenwere/4314",
     "season": "2025-26",
-    "positions": [],
+    "positions": [
+      {
+        "college": "UCLA",
+        "title": "Assistant Coach",
+        "start_year": null,
+        "end_year": null
+      }
+    ],
     "education": [],
     "playing_career": []
   },
@@ -16623,7 +16630,14 @@
     "title": "Assistant Coach (2nd Season)",
     "url": "https://gomastodons.com/sports/womens-basketball/roster/coaches/wayne-kreiger/1446",
     "season": "2025-26",
-    "positions": [],
+    "positions": [
+      {
+        "college": "Purdue-Fort Wayne",
+        "title": "Assistant Coach",
+        "start_year": 2023,
+        "end_year": null
+      }
+    ],
     "education": [],
     "playing_career": []
   },
@@ -30346,10 +30360,17 @@
     "team_id": "67",
     "team": "Boston College",
     "name": "Nick Alves",
-    "title": "Assistant Coach/D",
+    "title": "Assistant Coach/Director of Operations",
     "url": "https://bceagles.com/sports/womens-basketball/roster/coaches/nick-alves/2757",
     "season": "2025-26",
-    "positions": [],
+    "positions": [
+      {
+        "college": "Boston College",
+        "title": "Assistant Coach/Director of Operations",
+        "start_year": null,
+        "end_year": null
+      }
+    ],
     "education": [],
     "playing_career": []
   },
@@ -30357,10 +30378,17 @@
     "team_id": "67",
     "team": "Boston College",
     "name": "Derrick Slayton",
-    "title": "NA",
+    "title": "Creative Video Production Analyst",
     "url": "https://bceagles.com/sports/womens-basketball/roster/coaches/derrick-slayton/2772",
     "season": "2025-26",
-    "positions": [],
+    "positions": [
+      {
+        "college": "Boston College",
+        "title": "Creative Video Production Analyst",
+        "start_year": null,
+        "end_year": null
+      }
+    ],
     "education": [],
     "playing_career": []
   },
@@ -30368,7 +30396,7 @@
     "team_id": "67",
     "team": "Boston College",
     "name": "Dayna Tirado",
-    "title": "NA",
+    "title": "Graduate Assistant",
     "url": "https://bceagles.com/sports/womens-basketball/roster/coaches/dayna-tirado/2759",
     "season": "2025-26",
     "positions": [
@@ -30410,10 +30438,17 @@
     "team_id": "67",
     "team": "Boston College",
     "name": "Dom DeLuca",
-    "title": "NA",
+    "title": "Graduate Assistant ",
     "url": "https://bceagles.com/sports/womens-basketball/roster/coaches/dom-deluca/2843",
     "season": "2025-26",
-    "positions": [],
+    "positions": [
+      {
+        "college": "Boston College",
+        "title": "Graduate Assistant",
+        "start_year": null,
+        "end_year": null
+      }
+    ],
     "education": [],
     "playing_career": []
   },
@@ -30421,7 +30456,7 @@
     "team_id": "67",
     "team": "Boston College",
     "name": "Brandon Sanders",
-    "title": "Coach",
+    "title": "Assistant Strength & Conditioning Coach",
     "url": "https://bceagles.com/sports/womens-basketball/roster/coaches/brandon-sanders/2761",
     "season": "2025-26",
     "positions": [
@@ -30474,10 +30509,17 @@
     "team_id": "67",
     "team": "Boston College",
     "name": "Hannah Kuntzberg",
-    "title": "Director - S",
+    "title": "Associate Director - Sports Medicine",
     "url": "https://bceagles.com/sports/womens-basketball/roster/coaches/hannah-kuntzberg/2762",
     "season": "2025-26",
-    "positions": [],
+    "positions": [
+      {
+        "college": "Boston College",
+        "title": "Associate Director - Sports Medicine",
+        "start_year": null,
+        "end_year": null
+      }
+    ],
     "education": [],
     "playing_career": []
   },
@@ -30485,10 +30527,17 @@
     "team_id": "67",
     "team": "Boston College",
     "name": "Paula Cooper",
-    "title": "NA",
+    "title": "Staff Assistant",
     "url": "https://bceagles.com/sports/womens-basketball/roster/coaches/paula-cooper/2763",
     "season": "2025-26",
-    "positions": [],
+    "positions": [
+      {
+        "college": "Boston College",
+        "title": "Staff Assistant",
+        "start_year": null,
+        "end_year": null
+      }
+    ],
     "education": [],
     "playing_career": []
   },
@@ -32254,10 +32303,17 @@
     "team_id": "169",
     "team": "Creighton",
     "name": "Dr. Kevin O'Malley",
-    "title": "NA",
+    "title": "Team Orthopedic Physician",
     "url": "https://gocreighton.com/sports/womens-basketball/roster/staff/dr-kevin-omalley/80",
     "season": "2025-26",
-    "positions": [],
+    "positions": [
+      {
+        "college": "Creighton",
+        "title": "Team Orthopedic Physician",
+        "start_year": null,
+        "end_year": null
+      }
+    ],
     "education": [],
     "playing_career": []
   },
@@ -32777,10 +32833,17 @@
     "team_id": "157",
     "team": "Colorado",
     "name": "Serena Rodriguez",
-    "title": "Director",
+    "title": "Women's Basketball Creative Director",
     "url": "https://cubuffs.com/sports/womens-basketball/roster/staff/serena-rodriguez/247",
     "season": "2025-26",
-    "positions": [],
+    "positions": [
+      {
+        "college": "Colorado",
+        "title": "Women's Basketball Creative Director",
+        "start_year": null,
+        "end_year": null
+      }
+    ],
     "education": [],
     "playing_career": []
   },
@@ -35772,8 +35835,45 @@
     "title": "Director of Recruiting, Assistant Coach",
     "url": "https://hokiesports.com/sports/womens-basketball/roster/season/2025-26/staff/jerod-mccullen",
     "season": "2025-26",
-    "positions": [],
-    "education": [],
+    "positions": [
+      {
+        "college": "Virginia Tech",
+        "title": "Director of Recruiting, Assistant Coach",
+        "start_year": 2024,
+        "end_year": null
+      },
+      {
+        "college": "Virginia Tech",
+        "title": "Director of Video and Player Development",
+        "start_year": 2024,
+        "end_year": null
+      },
+      {
+        "college": "Kentucky",
+        "title": "Women's Basketball Coaching Video Coordinator",
+        "start_year": 2023,
+        "end_year": 2024
+      },
+      {
+        "college": "Central Michigan",
+        "title": "Director of Operations",
+        "start_year": 2020,
+        "end_year": 2022
+      },
+      {
+        "college": "Central Michigan",
+        "title": "Student Manager",
+        "start_year": 2019,
+        "end_year": 2020
+      }
+    ],
+    "education": [
+      {
+        "college": "Central Michigan",
+        "degree": "Bachelors",
+        "year": 2022
+      }
+    ],
     "playing_career": []
   },
   {
@@ -35855,9 +35955,82 @@
     "title": "Assistant Coach",
     "url": "https://huskers.com/sports/womens-basketball/roster/season/2025-26/staff/julian-assibey",
     "season": "2025-26",
-    "positions": [],
-    "education": [],
-    "playing_career": []
+    "positions": [
+      {
+        "college": "Nebraska",
+        "title": "Assistant Coach",
+        "start_year": 2023,
+        "end_year": null
+      },
+      {
+        "college": "Florida",
+        "title": "Assistant Coach",
+        "start_year": 2020,
+        "end_year": 2023
+      },
+      {
+        "college": "Montana State",
+        "title": "Assistant Coach/Recruiting Coordinator",
+        "start_year": 2016,
+        "end_year": 2020
+      },
+      {
+        "college": "Colorado",
+        "title": "Assistant Coach",
+        "start_year": 2015,
+        "end_year": 2016
+      },
+      {
+        "college": "Colorado",
+        "title": "Video Coordinator",
+        "start_year": 2014,
+        "end_year": 2015
+      },
+      {
+        "college": "Merrimack College",
+        "title": "Assistant Coach",
+        "start_year": 2011,
+        "end_year": 2014
+      },
+      {
+        "college": "William Penn",
+        "title": "Assistant Coach",
+        "start_year": 2009,
+        "end_year": 2010
+      },
+      {
+        "college": "Metro State Denver",
+        "title": "Assistant Coach",
+        "start_year": 2007,
+        "end_year": 2009
+      },
+      {
+        "college": "Western Colorado",
+        "title": "Assistant Coach",
+        "start_year": 2010,
+        "end_year": 2011
+      }
+    ],
+    "education": [
+      {
+        "college": "Concordia University",
+        "degree": "Masters",
+        "year": 2013
+      },
+      {
+        "college": "William Penn",
+        "degree": "Bachelors",
+        "year": 2005
+      }
+    ],
+    "playing_career": [
+      {
+        "team": "William Penn",
+        "level": "college",
+        "start_year": 2001,
+        "end_year": 2005
+      }
+    ]
   },
   {
     "team_id": "463",
@@ -35866,9 +36039,47 @@
     "title": "Assistant Coach",
     "url": "https://huskers.com/sports/womens-basketball/roster/season/2025-26/staff/tandem-mays",
     "season": "2025-26",
-    "positions": [],
-    "education": [],
-    "playing_career": []
+    "positions": [
+      {
+        "college": "Nebraska",
+        "title": "Assistant Coach",
+        "start_year": 2016,
+        "end_year": null
+      },
+      {
+        "college": "South Dakota",
+        "title": "Assistant Coach",
+        "start_year": 2014,
+        "end_year": 2016
+      },
+      {
+        "college": "South Dakota",
+        "title": "Graduate Assistant",
+        "start_year": 2012,
+        "end_year": 2014
+      },
+      {
+        "college": "Rogers State",
+        "title": "Assistant Coach",
+        "start_year": 2008,
+        "end_year": 2012
+      }
+    ],
+    "education": [
+      {
+        "college": "Tulsa",
+        "degree": "Bachelors",
+        "year": 2007
+      }
+    ],
+    "playing_career": [
+      {
+        "team": "Tulsa",
+        "level": "college",
+        "start_year": 2003,
+        "end_year": 2007
+      }
+    ]
   },
   {
     "team_id": "463",
@@ -35877,9 +36088,64 @@
     "title": "Assistant Coach",
     "url": "https://huskers.com/sports/womens-basketball/roster/season/2025-26/staff/jessica-keller",
     "season": "2025-26",
-    "positions": [],
-    "education": [],
-    "playing_career": []
+    "positions": [
+      {
+        "college": "Nebraska",
+        "title": "Assistant Coach",
+        "start_year": 2022,
+        "end_year": null
+      },
+      {
+        "college": "Illinois State",
+        "title": "Associate Head Coach",
+        "start_year": 2020,
+        "end_year": 2022
+      },
+      {
+        "college": "Illinois State",
+        "title": "Assistant Coach",
+        "start_year": 2017,
+        "end_year": 2020
+      },
+      {
+        "college": "Columbia College",
+        "title": "Head Coach",
+        "start_year": 2014,
+        "end_year": 2017
+      },
+      {
+        "college": "Minnesota State",
+        "title": "Assistant Coach",
+        "start_year": 2011,
+        "end_year": 2014
+      },
+      {
+        "college": "Quincy University",
+        "title": "Graduate Assistant",
+        "start_year": 2009,
+        "end_year": 2011
+      }
+    ],
+    "education": [
+      {
+        "college": "Quincy University",
+        "degree": "Masters",
+        "year": 2011
+      },
+      {
+        "college": "Quincy University",
+        "degree": "Bachelors",
+        "year": 2009
+      }
+    ],
+    "playing_career": [
+      {
+        "team": "Quincy University",
+        "level": "college",
+        "start_year": 2005,
+        "end_year": 2009
+      }
+    ]
   },
   {
     "team_id": "463",
@@ -35888,9 +36154,53 @@
     "title": "Assistant Coach/Assistant Director of Scouting & Operations",
     "url": "https://huskers.com/sports/womens-basketball/roster/season/2025-26/staff/taylor-edwards-basketball",
     "season": "2025-26",
-    "positions": [],
-    "education": [],
-    "playing_career": []
+    "positions": [
+      {
+        "college": "Nebraska",
+        "title": "Assistant Coach",
+        "start_year": 2025,
+        "end_year": null
+      },
+      {
+        "college": "Nebraska",
+        "title": "Assistant Director of Scouting & Operations",
+        "start_year": 2025,
+        "end_year": null
+      },
+      {
+        "college": "Nebraska",
+        "title": "Graduate Assistant",
+        "start_year": 2023,
+        "end_year": 2025
+      },
+      {
+        "college": "Carroll College",
+        "title": "Assistant Coach",
+        "start_year": 2020,
+        "end_year": 2023
+      },
+      {
+        "college": "Montana State-Billings",
+        "title": "Assistant Coach",
+        "start_year": 2019,
+        "end_year": 2020
+      }
+    ],
+    "education": [
+      {
+        "college": "Montana State-Billings",
+        "degree": "Bachelors",
+        "year": 2019
+      }
+    ],
+    "playing_career": [
+      {
+        "team": "Montana State-Billings",
+        "level": "college",
+        "start_year": 2015,
+        "end_year": 2019
+      }
+    ]
   },
   {
     "team_id": "301",
@@ -40774,9 +41084,76 @@
     "title": "Assistant Coach",
     "url": "https://redstormsports.com/sports/womens-basketball/roster/coaches/vanessa-abel/829",
     "season": "2025-26",
-    "positions": [],
-    "education": [],
-    "playing_career": []
+    "positions": [
+      {
+        "college": "St. John's",
+        "title": "Assistant Coach",
+        "start_year": 2025,
+        "end_year": null
+      },
+      {
+        "college": "Duquesne",
+        "title": "Associate Head Coach",
+        "start_year": 2024,
+        "end_year": 2025
+      },
+      {
+        "college": "Duquesne",
+        "title": "Assistant Coach/Offensive Coordinator",
+        "start_year": 2019,
+        "end_year": 2024
+      },
+      {
+        "college": "Western Michigan",
+        "title": "Assistant Coach",
+        "start_year": 2018,
+        "end_year": 2019
+      },
+      {
+        "college": "Saint Francis",
+        "title": "Assistant Coach",
+        "start_year": 2016,
+        "end_year": 2018
+      }
+    ],
+    "education": [
+      {
+        "college": "Duquesne",
+        "degree": "Masters",
+        "year": 2013
+      },
+      {
+        "college": "Duquesne",
+        "degree": "Bachelors",
+        "year": 2012
+      }
+    ],
+    "playing_career": [
+      {
+        "team": "Duquesne",
+        "level": "college",
+        "start_year": 2009,
+        "end_year": 2013
+      },
+      {
+        "team": "Germany",
+        "level": "professional",
+        "start_year": 2013,
+        "end_year": null
+      },
+      {
+        "team": "Sweden",
+        "level": "professional",
+        "start_year": 2013,
+        "end_year": null
+      },
+      {
+        "team": "Romania",
+        "level": "professional",
+        "start_year": 2013,
+        "end_year": null
+      }
+    ]
   },
   {
     "team_id": "603",
@@ -40824,21 +41201,65 @@
     "team_id": "603",
     "team": "St. John's",
     "name": "Mike Gibson",
-    "title": "Director",
+    "title": "Director of Basketball Operations",
     "url": "https://redstormsports.com/sports/womens-basketball/roster/coaches/mike-gibson/831",
     "season": "2025-26",
-    "positions": [],
-    "education": [],
+    "positions": [
+      {
+        "college": "St. John's",
+        "title": "Director of Basketball Operations",
+        "start_year": 2025,
+        "end_year": null
+      },
+      {
+        "college": "Boston College",
+        "title": "Director of Women's Basketball Operations",
+        "start_year": 2018,
+        "end_year": 2025
+      },
+      {
+        "college": "Hofstra",
+        "title": "Assistant Coach",
+        "start_year": 2015,
+        "end_year": 2018
+      },
+      {
+        "college": "Hofstra",
+        "title": "Director of Women's Basketball Operations",
+        "start_year": 2008,
+        "end_year": 2015
+      },
+      {
+        "college": "Boston College",
+        "title": "Student Manager",
+        "start_year": 2006,
+        "end_year": null
+      }
+    ],
+    "education": [
+      {
+        "college": "Boston College",
+        "degree": "Bachelors",
+        "year": 2008
+      }
+    ],
     "playing_career": []
   },
   {
     "team_id": "603",
     "team": "St. John's",
     "name": "Jenna Annecchiarico",
-    "title": "NA",
+    "title": "Graduate Assistant",
     "url": "https://redstormsports.com/sports/womens-basketball/roster/coaches/jenna--annecchiarico/827",
     "season": "2025-26",
-    "positions": [],
+    "positions": [
+      {
+        "college": "St. John's",
+        "title": "Graduate Assistant",
+        "start_year": null,
+        "end_year": null
+      }
+    ],
     "education": [],
     "playing_career": []
   },
@@ -40846,241 +41267,18 @@
     "team_id": "603",
     "team": "St. John's",
     "name": "Caleb Blake",
-    "title": "NA",
+    "title": "Graduate Assistant",
     "url": "https://redstormsports.com/sports/womens-basketball/roster/coaches/caleb--blake/828",
     "season": "2025-26",
-    "positions": [],
+    "positions": [
+      {
+        "college": "St. John's",
+        "title": "Graduate Assistant",
+        "start_year": null,
+        "end_year": null
+      }
+    ],
     "education": [],
-    "playing_career": []
-  },
-  {
-    "team_id": "603",
-    "team": "St. John's",
-    "name": "Kristin Quinn",
-    "title": "Director / S",
-    "url": "https://redstormsports.com/sports/womens-basketball/roster/staff/kristin-quinn/40",
-    "season": "2025-26",
-    "positions": [
-      {
-        "college": "St. John's",
-        "title": "Senior Associate Athletic Director/Senior Woman Administrator",
-        "start_year": 2023,
-        "end_year": null
-      },
-      {
-        "college": "Pace University",
-        "title": "Associate Athletic Director for External Operations",
-        "start_year": 2021,
-        "end_year": 2023
-      },
-      {
-        "college": "BIG EAST Conference",
-        "title": "Assistant Commissioner for Olympic Sports and Marketing & Communications",
-        "start_year": 2014,
-        "end_year": 2021
-      },
-      {
-        "college": "St. John's",
-        "title": "Assistant Director of Athletic Communications",
-        "start_year": null,
-        "end_year": 2014
-      },
-      {
-        "college": "U.S. Merchant Marine Academy",
-        "title": "Athletic Department Staff",
-        "start_year": null,
-        "end_year": null
-      },
-      {
-        "college": "Mercy College",
-        "title": "Athletic Department Staff",
-        "start_year": null,
-        "end_year": null
-      },
-      {
-        "college": "Fordham University",
-        "title": "Athletic Department Staff",
-        "start_year": null,
-        "end_year": null
-      },
-      {
-        "college": "Catholic Charities Brooklyn and Queens",
-        "title": "Assistant Director of Communications",
-        "start_year": null,
-        "end_year": null
-      }
-    ],
-    "education": [
-      {
-        "college": "St. John's",
-        "degree": "Masters",
-        "year": 2009
-      },
-      {
-        "college": "University of Maryland",
-        "degree": "Bachelors",
-        "year": 2005
-      }
-    ],
-    "playing_career": [
-      {
-        "team": "University of Maryland Dance Team",
-        "level": "college",
-        "start_year": 2003,
-        "end_year": 2005
-      }
-    ]
-  },
-  {
-    "team_id": "603",
-    "team": "St. John's",
-    "name": "Liz Sullivan",
-    "title": "NA",
-    "url": "https://redstormsports.com/sports/womens-basketball/roster/staff/liz-sullivan/39",
-    "season": "2025-26",
-    "positions": [],
-    "education": [],
-    "playing_career": []
-  },
-  {
-    "team_id": "603",
-    "team": "St. John's",
-    "name": "Al Caronia",
-    "title": "Coach",
-    "url": "https://redstormsports.com/sports/womens-basketball/roster/staff/al-caronia/43",
-    "season": "2025-26",
-    "positions": [
-      {
-        "college": "St. John's",
-        "title": "Strength and Conditioning Coach, Women's Basketball",
-        "start_year": 2012,
-        "end_year": null
-      },
-      {
-        "college": "St. John's",
-        "title": "Strength and Conditioning Coach",
-        "start_year": 1995,
-        "end_year": 1998
-      },
-      {
-        "college": "University of Texas-Arlington",
-        "title": "Strength and Conditioning Coach",
-        "start_year": null,
-        "end_year": null
-      },
-      {
-        "college": "Clemson University",
-        "title": "Graduate Assistant, Strength and Conditioning",
-        "start_year": 1991,
-        "end_year": 1993
-      },
-      {
-        "college": "Springfield College",
-        "title": "Strength and Conditioning Coach",
-        "start_year": 1988,
-        "end_year": null
-      }
-    ],
-    "education": [
-      {
-        "college": "Springfield College",
-        "degree": "Bachelors",
-        "year": 1989
-      },
-      {
-        "college": "University of Rhode Island",
-        "degree": "Masters",
-        "year": 1991
-      }
-    ],
-    "playing_career": []
-  },
-  {
-    "team_id": "603",
-    "team": "St. John's",
-    "name": "Sydney Halligan",
-    "title": "NA",
-    "url": "https://redstormsports.com/sports/womens-basketball/roster/staff/sydney-halligan/41",
-    "season": "2025-26",
-    "positions": [
-      {
-        "college": "St. John's",
-        "title": "Head Trainer, Women's Basketball",
-        "start_year": 2022,
-        "end_year": null
-      },
-      {
-        "college": "St. John's",
-        "title": "Assistant Athletic Trainer, Women's Basketball",
-        "start_year": 2021,
-        "end_year": 2022
-      },
-      {
-        "college": "St. John's",
-        "title": "Graduate Assistant, Sports Medicine",
-        "start_year": 2019,
-        "end_year": 2021
-      }
-    ],
-    "education": [
-      {
-        "college": "St. John's University",
-        "degree": "Masters",
-        "year": 2021
-      },
-      {
-        "college": "Marist College",
-        "degree": "Bachelors",
-        "year": 2019
-      }
-    ],
-    "playing_career": []
-  },
-  {
-    "team_id": "603",
-    "team": "St. John's",
-    "name": "Ray Howell",
-    "title": "Director,",
-    "url": "https://redstormsports.com/sports/womens-basketball/roster/staff/ray-howell/42",
-    "season": "2025-26",
-    "positions": [
-      {
-        "college": "St. John's",
-        "title": "Associate Director of Academic Support for Student-Athletes",
-        "start_year": 2008,
-        "end_year": null
-      },
-      {
-        "college": "Stony Brook University",
-        "title": "Director of Teachers' Professional Development",
-        "start_year": null,
-        "end_year": null
-      },
-      {
-        "college": "St. John's",
-        "title": "Head Women's Track Coach",
-        "start_year": 1986,
-        "end_year": 2003
-      },
-      {
-        "college": "St. John's",
-        "title": "Assistant Men's Track Coach",
-        "start_year": 1986,
-        "end_year": 2003
-      }
-    ],
-    "education": [
-      {
-        "college": "St. John's",
-        "degree": "Masters",
-        "year": 1990
-      },
-      {
-        "college": "St. John's",
-        "degree": "Bachelors",
-        "year": 1983
-      }
-    ],
     "playing_career": []
   },
   {
@@ -54383,9 +54581,70 @@
     "title": "Head Coach",
     "url": "https://gobearcats.com/sports/womens-basketball/roster/season/2025-26/staff/katrina-merriweather",
     "season": "2025-26",
-    "positions": [],
-    "education": [],
-    "playing_career": []
+    "positions": [
+      {
+        "college": "Cincinnati",
+        "title": "Head Women's Basketball Coach",
+        "start_year": 2023,
+        "end_year": null
+      },
+      {
+        "college": "Memphis",
+        "title": "Head Women's Basketball Coach",
+        "start_year": 2021,
+        "end_year": 2023
+      },
+      {
+        "college": "Wright State",
+        "title": "Head Women's Basketball Coach",
+        "start_year": 2016,
+        "end_year": 2021
+      },
+      {
+        "college": "Wright State",
+        "title": "Assistant Coach",
+        "start_year": 2010,
+        "end_year": 2016
+      },
+      {
+        "college": "Purdue",
+        "title": "Assistant Coach",
+        "start_year": 2003,
+        "end_year": 2006
+      },
+      {
+        "college": "UIC",
+        "title": "Assistant Coach",
+        "start_year": 2002,
+        "end_year": 2003
+      },
+      {
+        "college": "Cincinnati",
+        "title": "Graduate Assistant Coach",
+        "start_year": 2001,
+        "end_year": 2002
+      }
+    ],
+    "education": [
+      {
+        "college": "Cincinnati",
+        "degree": "Bachelors",
+        "year": 2002
+      },
+      {
+        "college": "Cincinnati",
+        "degree": "Bachelors",
+        "year": 2001
+      }
+    ],
+    "playing_career": [
+      {
+        "team": "Cincinnati",
+        "level": "college",
+        "start_year": 1997,
+        "end_year": 2001
+      }
+    ]
   },
   {
     "team_id": "140",
@@ -54461,9 +54720,59 @@
     "title": "Associate Coach / Recruiting Coordinator",
     "url": "https://gobearcats.com/sports/womens-basketball/roster/season/2025-26/staff/abby-jump",
     "season": "2025-26",
-    "positions": [],
-    "education": [],
-    "playing_career": []
+    "positions": [
+      {
+        "college": "Cincinnati",
+        "title": "Associate Coach / Recruiting Coordinator",
+        "start_year": 2025,
+        "end_year": null
+      },
+      {
+        "college": "Cincinnati",
+        "title": "Assistant Coach / Recruiting Coordinator",
+        "start_year": 2023,
+        "end_year": 2025
+      },
+      {
+        "college": "Memphis",
+        "title": "Assistant Coach / Recruiting Coordinator",
+        "start_year": 2020,
+        "end_year": 2023
+      },
+      {
+        "college": "Wright State",
+        "title": "Assistant Coach",
+        "start_year": 2017,
+        "end_year": 2020
+      },
+      {
+        "college": "Morehead State",
+        "title": "Assistant Coach",
+        "start_year": 2015,
+        "end_year": 2017
+      },
+      {
+        "college": "Bucknell",
+        "title": "Director of Operations",
+        "start_year": 2015,
+        "end_year": 2016
+      }
+    ],
+    "education": [
+      {
+        "college": "Wright State",
+        "degree": "Bachelors",
+        "year": 2015
+      }
+    ],
+    "playing_career": [
+      {
+        "team": "Wright State",
+        "level": "college",
+        "start_year": 2011,
+        "end_year": 2015
+      }
+    ]
   },
   {
     "team_id": "140",
@@ -54569,9 +54878,53 @@
     "title": "Director of Player Development / Assistant Coach",
     "url": "https://gobearcats.com/sports/womens-basketball/roster/season/2025-26/staff/michal-miller",
     "season": "2025-26",
-    "positions": [],
+    "positions": [
+      {
+        "college": "Cincinnati",
+        "title": "Director of Player Development / Assistant Coach",
+        "start_year": 2025,
+        "end_year": null
+      },
+      {
+        "college": "Cincinnati",
+        "title": "Director of Player Personnel / Assistant Coach",
+        "start_year": 2023,
+        "end_year": 2025
+      },
+      {
+        "college": "Memphis",
+        "title": "Video Coordinator",
+        "start_year": 2021,
+        "end_year": 2023
+      },
+      {
+        "college": "Wright State",
+        "title": "Volunteer Coach",
+        "start_year": 2020,
+        "end_year": 2021
+      }
+    ],
     "education": [],
-    "playing_career": []
+    "playing_career": [
+      {
+        "team": "Wright State",
+        "level": "college",
+        "start_year": 2018,
+        "end_year": 2020
+      },
+      {
+        "team": "Trinity Valley Community College",
+        "level": "college",
+        "start_year": null,
+        "end_year": 2018
+      },
+      {
+        "team": "Arizona",
+        "level": "college",
+        "start_year": null,
+        "end_year": null
+      }
+    ]
   },
   {
     "team_id": "115",
@@ -67012,9 +67365,83 @@
     "title": "Assistant Coach / Recruitment Coordinator",
     "url": "https://odusports.com/sports/womens-basketball/roster/season/2025-26/staff/roland-jones-jr",
     "season": "2025-26",
-    "positions": [],
+    "positions": [
+      {
+        "college": "Old Dominion",
+        "title": "Assistant Coach / Recruiting Coordinator",
+        "start_year": 2021,
+        "end_year": null
+      },
+      {
+        "college": "Old Dominion",
+        "title": "Director of Basketball Operations",
+        "start_year": 2020,
+        "end_year": 2021
+      },
+      {
+        "college": "Etiwanda High School",
+        "title": "Assistant Coach",
+        "start_year": 2018,
+        "end_year": 2020
+      },
+      {
+        "college": "Pepperdine",
+        "title": "Assistant Coach",
+        "start_year": 2017,
+        "end_year": 2018
+      },
+      {
+        "college": "Nationwide All Stars",
+        "title": "Head Coach / Owner",
+        "start_year": 2013,
+        "end_year": 2016
+      }
+    ],
     "education": [],
-    "playing_career": []
+    "playing_career": [
+      {
+        "team": "Central Methodist College",
+        "level": "college",
+        "start_year": null,
+        "end_year": null
+      },
+      {
+        "team": "University of Arkansas Monticello",
+        "level": "college",
+        "start_year": null,
+        "end_year": null
+      },
+      {
+        "team": "Cochise",
+        "level": "college",
+        "start_year": null,
+        "end_year": null
+      },
+      {
+        "team": "American Basketball Association",
+        "level": "professional",
+        "start_year": null,
+        "end_year": null
+      },
+      {
+        "team": "Continental Basketball Association",
+        "level": "professional",
+        "start_year": null,
+        "end_year": null
+      },
+      {
+        "team": "Southwest Basketball League",
+        "level": "professional",
+        "start_year": null,
+        "end_year": null
+      },
+      {
+        "team": "International Basketball Association",
+        "level": "professional",
+        "start_year": null,
+        "end_year": null
+      }
+    ]
   },
   {
     "team_id": "523",
@@ -67023,9 +67450,69 @@
     "title": "Assistant Coach",
     "url": "https://odusports.com/sports/womens-basketball/roster/season/2025-26/staff/danielle-bell",
     "season": "2025-26",
-    "positions": [],
-    "education": [],
-    "playing_career": []
+    "positions": [
+      {
+        "college": "Old Dominion",
+        "title": "Assistant Coach",
+        "start_year": 2021,
+        "end_year": null
+      },
+      {
+        "college": "Gardner-Webb",
+        "title": "Assistant Coach, Recruiting Coordinator",
+        "start_year": 2018,
+        "end_year": 2021
+      },
+      {
+        "college": "Norfolk State",
+        "title": "Assistant Coach",
+        "start_year": 2016,
+        "end_year": 2018
+      },
+      {
+        "college": "Richmond",
+        "title": "Director of Operations",
+        "start_year": null,
+        "end_year": 2016
+      },
+      {
+        "college": "Auburn",
+        "title": "Director of Operations",
+        "start_year": 2012,
+        "end_year": 2013
+      },
+      {
+        "college": "Georgia",
+        "title": "Graduate Assistant",
+        "start_year": 2010,
+        "end_year": 2012
+      }
+    ],
+    "education": [
+      {
+        "college": "Georgia",
+        "degree": "Masters",
+        "year": 2012
+      },
+      {
+        "college": "Georgia",
+        "degree": "Masters",
+        "year": 2012
+      },
+      {
+        "college": "Richmond",
+        "degree": "Bachelors",
+        "year": 2010
+      }
+    ],
+    "playing_career": [
+      {
+        "team": "Richmond",
+        "level": "college",
+        "start_year": 2006,
+        "end_year": 2010
+      }
+    ]
   },
   {
     "team_id": "523",
@@ -72312,7 +72799,14 @@
     "title": "Assistant Coach",
     "url": "https://sjsuspartans.com/sports/womens-basketball/roster/season/2025-26/staff/brandon-morrison",
     "season": "2025-26",
-    "positions": [],
+    "positions": [
+      {
+        "college": "San Jose State",
+        "title": "Assistant Coach",
+        "start_year": null,
+        "end_year": null
+      }
+    ],
     "education": [],
     "playing_career": []
   },
@@ -92244,7 +92738,14 @@
     "title": "Assistant Coach",
     "url": "https://posteagles.com/sports/womens-basketball/roster/coaches/john-luchs/1372",
     "season": "2025-26",
-    "positions": [],
+    "positions": [
+      {
+        "college": "Post",
+        "title": "Assistant Coach",
+        "start_year": null,
+        "end_year": null
+      }
+    ],
     "education": [],
     "playing_career": []
   },
@@ -145896,9 +146397,47 @@
     "title": "Head Coach",
     "url": "https://www.ttusports.com/sports/wbkb/coaches/rosamond_kim?view=bio",
     "season": "2025-26",
-    "positions": [],
-    "education": [],
-    "playing_career": []
+    "positions": [
+      {
+        "college": "Tennessee Tech",
+        "title": "Head Women's Basketball Coach",
+        "start_year": 2015,
+        "end_year": null
+      },
+      {
+        "college": "Vanderbilt",
+        "title": "Recruiting Coordinator/Assistant Coach",
+        "start_year": 2007,
+        "end_year": 2016
+      },
+      {
+        "college": "Middle Tennessee",
+        "title": "Assistant Coach",
+        "start_year": 2005,
+        "end_year": 2007
+      },
+      {
+        "college": "Ole Miss",
+        "title": "Assistant Coach",
+        "start_year": 1998,
+        "end_year": 2003
+      }
+    ],
+    "education": [
+      {
+        "college": "Ole Miss",
+        "degree": "Bachelors",
+        "year": 1998
+      }
+    ],
+    "playing_career": [
+      {
+        "team": "Ole Miss",
+        "level": "college",
+        "start_year": 1994,
+        "end_year": 1998
+      }
+    ]
   },
   {
     "team_id": "692",
@@ -145979,9 +146518,76 @@
     "title": "Associate Head Coach",
     "url": "https://www.ttusports.com/sports/wbkb/coaches/clark_allison?view=bio",
     "season": "2025-26",
-    "positions": [],
-    "education": [],
-    "playing_career": []
+    "positions": [
+      {
+        "college": "Tennessee Tech",
+        "title": "Associate Head Coach",
+        "start_year": 2023,
+        "end_year": null
+      },
+      {
+        "college": "Tennessee Tech",
+        "title": "Assistant Coach/Recruiting Coordinator",
+        "start_year": 2016,
+        "end_year": 2023
+      },
+      {
+        "college": "Tennessee Tech",
+        "title": "Assistant Coach",
+        "start_year": 2012,
+        "end_year": 2016
+      },
+      {
+        "college": "Shelbyville Central High School",
+        "title": "Coach",
+        "start_year": 2010,
+        "end_year": 2012
+      },
+      {
+        "college": "Middle Tennessee State",
+        "title": "Assistant Coach",
+        "start_year": 2005,
+        "end_year": 2010
+      },
+      {
+        "college": "Tennessee Tech",
+        "title": "Assistant Coach",
+        "start_year": 2002,
+        "end_year": 2003
+      },
+      {
+        "college": "Arkansas",
+        "title": "Graduate Assistant",
+        "start_year": 2003,
+        "end_year": 2005
+      }
+    ],
+    "education": [
+      {
+        "college": "Arkansas",
+        "degree": "Masters",
+        "year": 2005
+      },
+      {
+        "college": "Tennessee Tech",
+        "degree": "Bachelors",
+        "year": 2002
+      }
+    ],
+    "playing_career": [
+      {
+        "team": "Tennessee Tech",
+        "level": "college",
+        "start_year": 1999,
+        "end_year": 2002
+      },
+      {
+        "team": "University of North Texas",
+        "level": "college",
+        "start_year": 1997,
+        "end_year": 1998
+      }
+    ]
   },
   {
     "team_id": "692",
@@ -145990,8 +146596,51 @@
     "title": "Assistant Coach",
     "url": "https://www.ttusports.com/sports/wbkb/coaches/Lilly_Bridges?view=bio",
     "season": "2025-26",
-    "positions": [],
-    "education": [],
+    "positions": [
+      {
+        "college": "Tennessee Tech",
+        "title": "Assistant Coach",
+        "start_year": 2024,
+        "end_year": null
+      },
+      {
+        "college": "Tennessee Tech",
+        "title": "Director of Basketball Operations/Graphics/Skills Development",
+        "start_year": 2023,
+        "end_year": 2024
+      },
+      {
+        "college": "North Oconee High School",
+        "title": "Varsity Assistant Coach/JV Head Coach",
+        "start_year": 2022,
+        "end_year": 2024
+      },
+      {
+        "college": "North Oconee High School",
+        "title": "Assistant JV and Varsity Girls Basketball Coach",
+        "start_year": 2021,
+        "end_year": 2022
+      },
+      {
+        "college": "Oconee County Primary School",
+        "title": "Student Teacher",
+        "start_year": null,
+        "end_year": null
+      },
+      {
+        "college": "Dove Creek Middle",
+        "title": "Student Teacher",
+        "start_year": null,
+        "end_year": null
+      }
+    ],
+    "education": [
+      {
+        "college": "University of Georgia",
+        "degree": "Bachelors",
+        "year": 2024
+      }
+    ],
     "playing_career": []
   },
   {
@@ -149066,9 +149715,101 @@
     "title": "Assistant Coach",
     "url": "https://goseattleu.com/sports/womens-basketball/roster/season/2025-26/staff/john-motherwell",
     "season": "2025-26",
-    "positions": [],
-    "education": [],
-    "playing_career": []
+    "positions": [
+      {
+        "college": "Seattle",
+        "title": "Assistant Coach",
+        "start_year": null,
+        "end_year": null
+      },
+      {
+        "college": "North Dakota",
+        "title": "Primary Recruiting Coordinator",
+        "start_year": 2023,
+        "end_year": null
+      },
+      {
+        "college": "North Dakota",
+        "title": "Associate Head Coach",
+        "start_year": 2018,
+        "end_year": 2023
+      },
+      {
+        "college": "Valparaiso",
+        "title": "Assistant Coach",
+        "start_year": null,
+        "end_year": null
+      },
+      {
+        "college": "Minnesota",
+        "title": "Assistant Coach",
+        "start_year": 2014,
+        "end_year": 2016
+      },
+      {
+        "college": "Detroit Mercy",
+        "title": "Assistant Coach",
+        "start_year": null,
+        "end_year": null
+      },
+      {
+        "college": "West Florida",
+        "title": "Assistant Coach",
+        "start_year": null,
+        "end_year": null
+      },
+      {
+        "college": "Finlandia University",
+        "title": "Head Coach",
+        "start_year": 2017,
+        "end_year": 2018
+      },
+      {
+        "college": "Milwaukee",
+        "title": "Assistant Coach",
+        "start_year": 2005,
+        "end_year": 2010
+      },
+      {
+        "college": "Minnesota State-Moorhead",
+        "title": "Assistant Coach",
+        "start_year": 2000,
+        "end_year": 2005
+      },
+      {
+        "college": "College of St. Scholastica",
+        "title": "Assistant Coach",
+        "start_year": null,
+        "end_year": null
+      },
+      {
+        "college": "Concordia (St. Paul, Minn.)",
+        "title": "Assistant Coach",
+        "start_year": null,
+        "end_year": null
+      },
+      {
+        "college": "North Dakota",
+        "title": "Assistant Coach",
+        "start_year": 2010,
+        "end_year": 2011
+      }
+    ],
+    "education": [
+      {
+        "college": "Michigan",
+        "degree": "Bachelors",
+        "year": 1995
+      }
+    ],
+    "playing_career": [
+      {
+        "team": "Eastern Michigan",
+        "level": "college",
+        "start_year": null,
+        "end_year": null
+      }
+    ]
   },
   {
     "team_id": "1356",
@@ -150898,9 +151639,83 @@
     "title": "Assistant Coach",
     "url": "https://fightingirish.com/sports/wbball/roster/season/2025-26/coach/carlos-knox/",
     "season": "2025-26",
-    "positions": [],
-    "education": [],
-    "playing_career": []
+    "positions": [
+      {
+        "college": "Notre Dame",
+        "title": "Assistant Coach",
+        "start_year": 2025,
+        "end_year": null
+      },
+      {
+        "college": "Notre Dame",
+        "title": "Player Development Program Director",
+        "start_year": 2023,
+        "end_year": 2025
+      },
+      {
+        "college": "Indiana Fever",
+        "title": "Interim Head Coach",
+        "start_year": 2022,
+        "end_year": 2022
+      },
+      {
+        "college": "Cincinnati",
+        "title": "Assistant Coach",
+        "start_year": 2020,
+        "end_year": 2021
+      },
+      {
+        "college": "North Texas",
+        "title": "Assistant Coach",
+        "start_year": 2017,
+        "end_year": 2020
+      },
+      {
+        "college": "San Diego State",
+        "title": "Assistant Coach",
+        "start_year": 2010,
+        "end_year": 2011
+      },
+      {
+        "college": "Indiana Fever",
+        "title": "Assistant Coach",
+        "start_year": 2008,
+        "end_year": 2009
+      },
+      {
+        "college": "IUPUI",
+        "title": "Assistant Coach",
+        "start_year": 2001,
+        "end_year": 2002
+      }
+    ],
+    "education": [
+      {
+        "college": "IUPUI",
+        "degree": "Bachelors",
+        "year": 1998
+      }
+    ],
+    "playing_career": [
+      {
+        "team": "Indiana Pacers",
+        "level": "professional",
+        "start_year": 1998,
+        "end_year": 1999
+      },
+      {
+        "team": "IUPUI",
+        "level": "college",
+        "start_year": 1994,
+        "end_year": 1998
+      },
+      {
+        "team": "UT Martin",
+        "level": "college",
+        "start_year": 1993,
+        "end_year": 1994
+      }
+    ]
   },
   {
     "team_id": "610",
