@@ -3,3 +3,6 @@
 */teams/*
 */players/*
 *.rds
+__pycache__/
+*.pyc
+*.pyo
