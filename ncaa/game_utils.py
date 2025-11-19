@@ -46,6 +46,8 @@ def fetch_rosters(id=None, seasons=None):
     teams_json = json.loads(open('/Users/dwillis/code/wbb/ncaa/teams.json').read())
     if not seasons:
         seasons = ['2020-21', '2019-20', '2018-19', '2017-18', '2016-17', '2015-16', '2014-15']
+    elif isinstance(seasons, str):
+        seasons = [seasons]
     if id:
         team = [t for t in teams_json if id == t['ncaa_id']][0]
         slug = slugify(team)
@@ -67,6 +69,8 @@ def fetch_game_stats(id=None, seasons=None):
     teams_json = json.loads(open('/Users/dwillis/code/wbb/ncaa/teams.json').read())
     if not seasons:
         seasons = ['2025-26','2024-25','2023-24','2022-23','2021-22', '2020-21', '2019-20', '2018-19', '2017-18', '2016-17', '2015-16', '2014-15', '2013-14', '2012-13', '2011-12', '2010-11', '2009-10', '2008-09', '2007-08', '2006-07', '2005-06', '2004-05', '2003-04', '2002-03', '2001-02']
+    elif isinstance(seasons, str):
+        seasons = [seasons]
     if id:
         team = [t for t in teams_json if id == t['ncaa_id']][0]
         slug = slugify(team)
