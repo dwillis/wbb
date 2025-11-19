@@ -8,6 +8,40 @@ import pandas as pd
 from bs4 import BeautifulSoup
 from playwright.sync_api import sync_playwright
 
+def validate_season(season):
+    """
+    Validates that a season string follows the expected format (e.g., '2024-25').
+
+    Args:
+        season: The season string to validate
+
+    Returns:
+        bool: True if valid, False otherwise
+
+    Raises:
+        ValueError: If the season format is invalid
+    """
+    if not season or not isinstance(season, str):
+        raise ValueError(f"Invalid season: '{season}' - season must be a non-empty string")
+
+    # Check if season matches the expected pattern YYYY-YY
+    season_pattern = re.compile(r'^\d{4}-\d{2}$')
+    if not season_pattern.match(season):
+        raise ValueError(f"Invalid season format: '{season}' - expected format is 'YYYY-YY' (e.g., '2024-25')")
+
+    # Additional validation: check that the years are consecutive
+    try:
+        start_year = int(season[:4])
+        end_year_short = int(season[5:7])
+        expected_end = (start_year + 1) % 100
+
+        if end_year_short != expected_end:
+            raise ValueError(f"Invalid season: '{season}' - years must be consecutive (e.g., '2024-25', not '2024-26')")
+    except (ValueError, IndexError):
+        raise ValueError(f"Invalid season format: '{season}' - expected format is 'YYYY-YY' (e.g., '2024-25')")
+
+    return True
+
 def fetch_rosters(id=None, seasons=None):
     teams_json = json.loads(open('/Users/dwillis/code/wbb/ncaa/teams.json').read())
     if not seasons:
@@ -32,7 +66,7 @@ def fetch_rosters(id=None, seasons=None):
 def fetch_game_stats(id=None, seasons=None):
     teams_json = json.loads(open('/Users/dwillis/code/wbb/ncaa/teams.json').read())
     if not seasons:
-        seasons = ['2024-25','2023-24','2022-23','2021-22', '2020-21', '2019-20', '2018-19', '2017-18', '2016-17', '2015-16', '2014-15', '2013-14', '2012-13', '2011-12', '2010-11', '2009-10', '2008-09', '2007-08', '2006-07', '2005-06', '2004-05', '2003-04', '2002-03', '2001-02']
+        seasons = ['2025-26','2024-25','2023-24','2022-23','2021-22', '2020-21', '2019-20', '2018-19', '2017-18', '2016-17', '2015-16', '2014-15', '2013-14', '2012-13', '2011-12', '2010-11', '2009-10', '2008-09', '2007-08', '2006-07', '2005-06', '2004-05', '2003-04', '2002-03', '2001-02']
     if id:
         team = [t for t in teams_json if id == t['ncaa_id']][0]
         slug = slugify(team)
@@ -54,6 +88,7 @@ def fetch_game_stats(id=None, seasons=None):
                     continue
 
 def fetch_season(season, base_url, slug):
+    validate_season(season)
     stats_url = base_url+"/stats/"
     game_ids = fetch_game_ids(season, stats_url)
     domain = parse_domain(stats_url)
@@ -61,12 +96,14 @@ def fetch_season(season, base_url, slug):
 
 
 def fetch_season_playwright(season, base_url, slug):
+    validate_season(season)
     stats_url = base_url+f"/stats/{season}"
     game_ids = fetch_game_ids_playwright(stats_url)
     domain = parse_domain(stats_url)
     parse_games(season, domain, game_ids, slug)
 
 def fetch_season_playwright_season(season, base_url, slug):
+    validate_season(season)
     stats_url = base_url+f"/stats/season/{season}"
     game_ids = fetch_game_ids_playwright(stats_url)
     domain = parse_domain(stats_url)
@@ -135,6 +172,7 @@ def parse_roster(season, slug):
         write_json(game_id, game_json, season)
 
 def parse_games(season, domain, game_ids, slug):
+    validate_season(season)  # Extra validation layer
     results = []
     os.chdir("/Users/dwillis/code/wbb-game-data")
     if not os.path.exists(slug):
