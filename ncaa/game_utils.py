@@ -77,19 +77,30 @@ def fetch_game_stats(id=None, seasons=None):
         print(id)
         for season in seasons:
             try:
-                fetch_season(season, team['url'], slug)
+                if team['ncaa_id'] == 539:
+                    fetch_season_playwright_season(season, team['url'], slug)
+                else:
+                    fetch_season(season, team['url'], slug)
             except:
-                #continue
-                fetch_season_playwright(season, team['url'], slug)
+                try:
+                    fetch_season_playwright(season, team['url'], slug)
+                except:
+                    continue
     else:
         for team in teams_json:
             print(team['ncaa_id'])
             slug = slugify(team)
             for season in seasons:
                 try:
-                    fetch_season(season, team['url'], slug)
+                    if team['ncaa_id'] == "539":
+                        fetch_season_playwright_season(season, team['url'], slug)
+                    else:
+                        fetch_season(season, team['url'], slug)
                 except:
-                    continue
+                    try:
+                        fetch_season_playwright(season, team['url'], slug)
+                    except:
+                        continue
 
 def fetch_season(season, base_url, slug):
     validate_season(season)
