@@ -77,10 +77,7 @@ def fetch_game_stats(id=None, seasons=None):
         print(id)
         for season in seasons:
             try:
-                if team['ncaa_id'] == 539:
-                    fetch_season_playwright_season(season, team['url'], slug)
-                else:
-                    fetch_season(season, team['url'], slug)
+                fetch_season(season, team['url'], slug)
             except:
                 try:
                     fetch_season_playwright(season, team['url'], slug)
@@ -93,7 +90,7 @@ def fetch_game_stats(id=None, seasons=None):
             for season in seasons:
                 try:
                     if team['ncaa_id'] == "539":
-                        fetch_season_playwright_season(season, team['url'], slug)
+                        fetch_season_playwright_season(season, team['url'], slug, page_type='sked')
                     else:
                         fetch_season(season, team['url'], slug)
                 except:
@@ -117,10 +114,13 @@ def fetch_season_playwright(season, base_url, slug):
     domain = parse_domain(stats_url)
     parse_games(season, domain, game_ids, slug)
 
-def fetch_season_playwright_season(season, base_url, slug):
+def fetch_season_playwright_season(season, base_url, slug, page_type='stats'):
     validate_season(season)
-    stats_url = base_url+f"/stats/season/{season}"
-    game_ids = fetch_game_ids_playwright(stats_url)
+    if page_type == 'sked':
+        stats_url = base_url+f"/schedule/season/{season}"
+    else:
+        stats_url = base_url+f"/stats/season/{season}"
+    game_ids = fetch_game_ids_playwright(stats_url, page_type)
     domain = parse_domain(stats_url)
     parse_games(season, domain, game_ids, slug)
 
@@ -132,14 +132,15 @@ def fetch_url(url):
     r = requests.get(url, headers={'User-agent': 'Mozilla/5.0'})
     return r
 
-def fetch_game_ids_playwright(url):
+def fetch_game_ids_playwright(url, page_type='stats'):
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=False)  # Change to True to run headless
         page = browser.new_page()
         page.goto(url)
         
-        # Click on the "Game-by-game" tab
-        page.click("text=Game-By-Game")
+        if page_type == 'stats':
+            # Click on the "Game-by-game" tab
+            page.click("text=Game-By-Game")
         
         # Wait for the content to load
         page.wait_for_timeout(3000)

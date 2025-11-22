@@ -25,7 +25,7 @@ def pbp_for_season(season="2025-26", team_ids=[31, 147, 234, 255, 312, 334, 365,
         print(f"Processing: {team['team']}")
 
         try:
-            if team_id in [463, 513, 365, 77, 127, 234, 742]:
+            if team_id in [539, 463, 365, 77, 127, 234, 742]:
                 boxscore_links = boxscore_links_for_season_direct(team, season)
             else:
                 boxscore_links = boxscore_links_for_season(team, season)
@@ -57,7 +57,7 @@ def boxscore_links_for_season_direct(team, season):
     }
     r = requests.get(url, headers=headers)
     soup = BeautifulSoup(r.text, "html.parser")
-    if team['ncaa_id'] in [463, 513, 742]:
+    if team['ncaa_id'] in [463]:
         boxscore_links = [f"https://huskers.com{l['href']}" for l in soup.find_all('a') if '/boxscore/' in l['href']]
     else:
         boxscore_links = [team['url'].split('/sports/')[0] + l['href'] for l in soup.find_all('a') if '/boxscore/' in l['href']]
@@ -70,14 +70,24 @@ def parse_boxscore_for_id(url):
     }
     r = requests.get(url, headers=headers)
     soup = BeautifulSoup(r.text, "html.parser")
-    tag = [x for x in soup.find_all("a", href=True) if "https://wmt.games/huskers/stats/match/full/" in x['href']]
-    if not tag:
-        print(f"Warning: No game ID found for {url}")
-        return None
-    id = tag[0]['href'].split('/')[-1]
-
-    #id = soup.find("wmt-stats-iframe")['path'].split('/')[-1]
-    return id
+    
+    # Try to find WMT game ID in anchor tags (works for some teams)
+    tag = [x for x in soup.find_all("a", href=True) if "wmt.games" in x['href'] and "/stats/match/full/" in x['href']]
+    if tag:
+        id = tag[0]['href'].split('/')[-1]
+        return id
+    
+    # If not found in anchor tags, search for it in JavaScript data
+    # Pattern: /stats/match/full/XXXXXXX or /stats/match/XXXXXXX
+    import re
+    pattern = r'/stats/match/(?:full/)?(\d+)'
+    matches = re.findall(pattern, r.text)
+    if matches:
+        # Return the first unique match
+        return matches[0]
+    
+    print(f"Warning: No game ID found for {url}")
+    return None
 
 def get_plays(id, team, season):
     if id is None:
@@ -89,8 +99,10 @@ def get_plays(id, team, season):
     game = response.json()
     if 'data' in game['data']['plays']:
         slug = slugify(team)
-        # Create directory structure: slug/season/
-        season_dir = os.path.join(slug, season)
+        # Base directory for JSON files
+        base_dir = os.path.expanduser("~/code/wbb-game-data")
+        # Create directory structure: base_dir/slug/season/
+        season_dir = os.path.join(base_dir, slug, season)
         os.makedirs(season_dir, exist_ok=True)
 
         json_file_path = os.path.join(season_dir, f'{id}.json')
