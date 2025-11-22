@@ -49,7 +49,7 @@ def fetch_rosters(id=None, seasons=None):
     elif isinstance(seasons, str):
         seasons = [seasons]
     if id:
-        team = [t for t in teams_json if id == t['ncaa_id']][0]
+        team = [t for t in teams_json if str(id) == str(t['ncaa_id'])][0]
         slug = slugify(team)
         for season in seasons:
             try:
@@ -72,7 +72,7 @@ def fetch_game_stats(id=None, seasons=None):
     elif isinstance(seasons, str):
         seasons = [seasons]
     if id:
-        team = [t for t in teams_json if id == t['ncaa_id']][0]
+        team = [t for t in teams_json if str(id) == str(t['ncaa_id'])][0]
         slug = slugify(team)
         print(id)
         for season in seasons:
