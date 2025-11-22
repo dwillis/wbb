@@ -8,18 +8,40 @@ def slugify(team):
     return slug
 
 def pbp_for_season(season="2025-26", team_ids=[31, 147, 234, 255, 312, 334, 365, 428, 463, 513, 523, 539, 328, 473, 626, 674, 736, 742, 519, 746, 415, 648, 697]):
-    with open("teams.json", "r") as file:
-        teams = json.load(file)
+    try:
+        with open("teams.json", "r") as file:
+            teams = json.load(file)
+    except FileNotFoundError:
+        print("Error: teams.json not found in current directory")
+        return
+
     for team_id in team_ids:
-        team = [t for t in teams if t['ncaa_id'] == team_id][0]
-        print(team['team'])
-        if team_id in [463, 513, 365,77,127,234, 742]:
-            boxscore_links = boxscore_links_for_season_direct(team, season)
-        else:
-            boxscore_links = boxscore_links_for_season(team, season)
-        for url in boxscore_links:
-            id = parse_boxscore_for_id(url)
-            get_plays(id, team, season)
+        team_matches = [t for t in teams if t['ncaa_id'] == team_id]
+        if not team_matches:
+            print(f"Warning: Team ID {team_id} not found in teams.json")
+            continue
+
+        team = team_matches[0]
+        print(f"Processing: {team['team']}")
+
+        try:
+            if team_id in [463, 513, 365, 77, 127, 234, 742]:
+                boxscore_links = boxscore_links_for_season_direct(team, season)
+            else:
+                boxscore_links = boxscore_links_for_season(team, season)
+
+            print(f"Found {len(boxscore_links)} games for {team['team']}")
+
+            for url in boxscore_links:
+                try:
+                    id = parse_boxscore_for_id(url)
+                    get_plays(id, team, season)
+                except Exception as e:
+                    print(f"Error processing {url}: {e}")
+                    continue
+        except Exception as e:
+            print(f"Error processing team {team['team']}: {e}")
+            continue
 
 def boxscore_links_for_season(team, season):
     url = f"{team['url']}/schedule/season/{season}/"
@@ -49,25 +71,29 @@ def parse_boxscore_for_id(url):
     r = requests.get(url, headers=headers)
     soup = BeautifulSoup(r.text, "html.parser")
     tag = [x for x in soup.find_all("a", href=True) if "https://wmt.games/huskers/stats/match/full/" in x['href']]
-    id = tag[0].split('/')[-1]
+    if not tag:
+        print(f"Warning: No game ID found for {url}")
+        return None
+    id = tag[0]['href'].split('/')[-1]
 
     #id = soup.find("wmt-stats-iframe")['path'].split('/')[-1]
     return id
 
 def get_plays(id, team, season):
+    if id is None:
+        print("Skipping game - no ID found")
+        return
     print(id)
     json_url = f"https://api.wmt.games/api/statistics/games/{id}?with[0]=actions&with[1]=players&with[2]=plays&with[3]=drives&with[4]=penalties"
     response = requests.get(json_url)
     game = response.json()
     if 'data' in game['data']['plays']:
-        os.chdir("/Users/dwillis/code/wbb-game-data")
         slug = slugify(team)
-        if not os.path.exists(slug):
-            os.makedirs(slug)
-        os.chdir(slug)
-        if not os.path.exists(season):
-            os.makedirs(season)
-        os.chdir(season)
-        json_file_path = f'{id}.json'
+        # Create directory structure: slug/season/
+        season_dir = os.path.join(slug, season)
+        os.makedirs(season_dir, exist_ok=True)
+
+        json_file_path = os.path.join(season_dir, f'{id}.json')
         with open(json_file_path, 'w') as json_file:
             json.dump(game, json_file, indent=4)
+        print(f"Saved: {json_file_path}")
