@@ -25,7 +25,7 @@ def pbp_for_season(season="2025-26", team_ids=[31, 147, 234, 255, 312, 334, 365,
         print(f"Processing: {team['team']}")
 
         try:
-            if team_id in [539, 463, 365, 77, 127, 234, 742]:
+            if team_id in [539, 463, 365, 77, 127, 234, 742, 312]:
                 boxscore_links = boxscore_links_for_season_direct(team, season)
             else:
                 boxscore_links = boxscore_links_for_season(team, season)
@@ -53,9 +53,20 @@ def boxscore_links_for_season(team, season):
 def boxscore_links_for_season_direct(team, season):
     url = f"{team['url']}/schedule/season/{season}/"
     headers = {
-        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Accept-Encoding": "gzip, deflate, br",
+        "DNT": "1",
+        "Connection": "keep-alive",
+        "Upgrade-Insecure-Requests": "1"
     }
     r = requests.get(url, headers=headers)
+    if r.status_code != 200:
+        print(f"Warning: Got status code {r.status_code} for {url}")
+        if r.status_code == 403:
+            print("  Site may be blocking automated requests. Try accessing from a different network/IP.")
+        return []
     soup = BeautifulSoup(r.text, "html.parser")
     if team['ncaa_id'] in [463]:
         boxscore_links = [f"https://huskers.com{l['href']}" for l in soup.find_all('a') if '/boxscore/' in l['href']]
@@ -66,7 +77,13 @@ def boxscore_links_for_season_direct(team, season):
 def parse_boxscore_for_id(url):
     print(url)
     headers = {
-        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Accept-Encoding": "gzip, deflate, br",
+        "DNT": "1",
+        "Connection": "keep-alive",
+        "Upgrade-Insecure-Requests": "1"
     }
     r = requests.get(url, headers=headers)
     soup = BeautifulSoup(r.text, "html.parser")
