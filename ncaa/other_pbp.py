@@ -7,7 +7,7 @@ def slugify(team):
     slug = str(team['ncaa_id'])+'-'+team['team'].lower().replace(" ","-").replace('.','').replace(',','').replace("'","").replace(')','').replace('(','')
     return slug
 
-def pbp_for_season(season="2024-25", team_ids=[31, 147, 234, 255, 312, 334, 365, 428, 463, 513, 523, 539, 328, 473, 626, 674, 736, 742, 519, 746, 415, 648, 697]):
+def pbp_for_season(season="2025-26", team_ids=[31, 147, 234, 255, 312, 334, 365, 428, 463, 513, 523, 539, 328, 473, 626, 674, 736, 742, 519, 746, 415, 648, 697]):
     with open("teams.json", "r") as file:
         teams = json.load(file)
     for team_id in team_ids:
