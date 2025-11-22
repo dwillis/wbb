@@ -136,30 +136,77 @@ def fetch_game_ids_playwright(url):
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=False)  # Change to True to run headless
         page = browser.new_page()
-        page.goto(url)
-        
-        # Click on the "Game-by-game" tab
-        page.click("text=Game-By-Game")
-        
-        # Wait for the content to load
-        page.wait_for_timeout(3000)
-        
-        # Find game links
-        game_links = page.locator("a[href*='boxscore']").all()
-        
-        # Extract href attributes
-        ids = []
-        for link in game_links:
-            href = link.get_attribute("href")
-            if href:
-                parts = href.rstrip("/").split("/")
-                if parts and parts[-1].isdigit():
-                    ids.append(parts[-1])
-                elif href.split("=")[1].replace("&path",'').isdigit():
-                    ids.append(href.split("=")[1].replace("&path",''))            
-        
-        browser.close()
-        return ids
+
+        try:
+            # Navigate to the URL with timeout
+            response = page.goto(url, wait_until='networkidle', timeout=30000)
+
+            # Check response status
+            if response and response.status == 404:
+                raise Exception(f"Page not found (404): {url}")
+            elif response and response.status == 403:
+                raise Exception(f"Access forbidden (403): {url}")
+            elif response and response.status != 200:
+                raise Exception(f"HTTP {response.status}: {url}")
+
+            # Wait for page to load
+            page.wait_for_timeout(3000)
+
+            # Try to click on the "Game-by-game" tab with multiple variations
+            tab_clicked = False
+            tab_selectors = [
+                "text=Game-By-Game",
+                "text=Game-by-Game",
+                "text=game-by-game",
+                "text=/game.by.game/i",  # Case-insensitive regex
+            ]
+
+            for selector in tab_selectors:
+                try:
+                    # Try to find and click the element with a short timeout
+                    page.click(selector, timeout=5000)
+                    tab_clicked = True
+                    break
+                except:
+                    continue
+
+            if not tab_clicked:
+                # If we can't find the tab, raise an informative error
+                raise Exception(
+                    f"Could not find 'Game-By-Game' tab on page: {url}\n"
+                    f"The page may not have game-by-game data, or the tab name has changed."
+                )
+
+            # Wait for the content to load
+            page.wait_for_timeout(3000)
+
+            # Find game links
+            game_links = page.locator("a[href*='boxscore']").all()
+
+            if len(game_links) == 0:
+                # No games found - could be no games played yet for this season
+                print(f"Warning: No boxscore links found on {url}")
+
+            # Extract href attributes
+            ids = []
+            for link in game_links:
+                href = link.get_attribute("href")
+                if href:
+                    parts = href.rstrip("/").split("/")
+                    if parts and parts[-1].isdigit():
+                        ids.append(parts[-1])
+                    elif "=" in href:
+                        try:
+                            game_id = href.split("=")[1].replace("&path",'').replace("&path=wbball", '')
+                            if game_id.isdigit():
+                                ids.append(game_id)
+                        except:
+                            pass
+
+            return ids
+
+        finally:
+            browser.close()
 
 def fetch_game_ids(season, stats_url):
     url = build_url(stats_url, season, 'game')
