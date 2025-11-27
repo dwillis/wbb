@@ -214,16 +214,26 @@ class FieldExtractors:
             return text
 
         # Common label patterns to strip
+        # NOTE: More specific patterns MUST come first to avoid partial matches
         patterns = [
-            r'\bClass:\s*', r'\bHometown:\s*', r'\bHigh school:\s*', r'\bPrevious College:\s*',
-            r'\bPrevious School:\s*', r'\bHt\.:\s*', r'\bPos\.:\s*', r'^High school:\s*', r'^Hometown:\s*',
-            r'\bNo\.:\s*', r'\bYr\.:\s*', r'^No\.:\s*', r'^Yr\.:\s*',
-            r'^High School/Previous School:\s*', r'\bHigh School/Previous School:\s*',
-            r'^High School/\s*', r'\bHigh School/\s*',
-            r'\bCl\.:\s*', r'^Cl\.:\s*',
+            # Multi-word patterns first (most specific)
             r'^\s*Hometown / Previous School / High School:\s*', r'\bHometown / Previous School / High School:\s*',
             r'^Hometown / Previous School /\s*', r'\bHometown / Previous School /\s*',
-            r'^Hometown/High School \(Former School\):\s*', r'\bHometown/High School \(Former School\):\s*'
+            r'^Hometown/High School \(Former School\):\s*', r'\bHometown/High School \(Former School\):\s*',
+            r'^Hometown / High School:\s*', r'\bHometown / High School:\s*',  # For Olivet-style tables
+            r'^High School/Previous School:\s*', r'\bHigh School/Previous School:\s*',
+            r'^High School/\s*', r'\bHigh School/\s*',
+            # Slash-format labels (Ohio Northern style)
+            r'^Hometown/\s*', r'\bHometown/\s*',  # Match "Hometown/" prefix
+            # Single-word patterns (less specific)
+            r'\bClass:\s*', r'\bPrevious College:\s*',
+            r'\bPrevious School:\s*', r'\bHt\.:\s*', r'\bPos\.:\s*', r'^High school:\s*',
+            r'\bNo\.:\s*', r'\bYr\.:\s*', r'^No\.:\s*', r'^Yr\.:\s*',
+            r'\bCl\.:\s*', r'^Cl\.:\s*',
+            # Match standalone labels (just the word with optional colon)
+            r'^\s*Hometown\s*:?\s*$',  # Match "Hometown" or "Hometown:" as entire cell content
+            # These must be last as they're most general
+            r'\bHigh school:\s*', r'\bHometown:\s*', r'^Hometown:\s*'
         ]
 
         for p in patterns:
@@ -1577,6 +1587,13 @@ class TeamConfig:
             'player_selector': '.player-card-wrapper',  # Carlow - uses flipcard layout with data in .card-back
             'flipcard_format': True,  # Indicates data is in .card-back with label: value format
         },
+    }
+    
+    # Teams that should have state abbreviation added to hometowns without state
+    # Only hometowns without a comma will have ", STATE" appended (using team's team_state field)
+    ADD_STATE_TO_HOMETOWN = {
+        517,  # Ohio Northern - Ohio hometowns need ", OH" added
+        525,  # Olivet - Michigan hometowns need ", MI" added
     }
     
     # Custom JavaScript teams
@@ -3122,6 +3139,9 @@ class RosterManager:
 
         Path(output_file).parent.mkdir(parents=True, exist_ok=True)
 
+        # Build team_id to team_state mapping
+        team_state_map = {team['ncaa_id']: team.get('team_state', '') for team in self.teams_data}
+
         # Use entity-specific fieldnames
         fieldnames = ENTITY_CONFIGS[self.entity_type]['output_fields']
         entity_label = ENTITY_CONFIGS[self.entity_type]['entity_label']
@@ -3143,6 +3163,16 @@ class RosterManager:
                     pdata['high_school'] = FieldExtractors.clean_field_labels(pdata.get('high_school', ''))
                     pdata['previous_school'] = FieldExtractors.clean_field_labels(pdata.get('previous_school', ''))
                     pdata['academic_year'] = FieldExtractors.clean_field_labels(pdata.get('academic_year', ''))
+                    
+                    # Add state abbreviation to hometown if not already present (opt-in only)
+                    team_id = pdata.get('team_id')
+                    if team_id in TeamConfig.ADD_STATE_TO_HOMETOWN:
+                        hometown = pdata.get('hometown', '')
+                        if hometown and ',' not in hometown:
+                            # Hometown doesn't have state - add team's state abbreviation
+                            team_state = team_state_map.get(team_id)
+                            if team_state:
+                                pdata['hometown'] = f"{hometown}, {team_state}"
                 
                 writer.writerow(pdata)
 
