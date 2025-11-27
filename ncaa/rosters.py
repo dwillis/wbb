@@ -1445,7 +1445,7 @@ class TeamConfig:
         1104: 'https://gculopes.com', 719: 'https://tulsahurricane.com', 772: 'https://wkusports.com',
         328: 'https://kuathletics.com', 635: 'https://shupirates.com', 86: 'https://ubbulls.com',
         694: 'https://utsports.com', 387: 'https://gomarquette.com', 545: 'https://pittsburghpanthers.com',
-        721: 'https://goairforcefalcons.com',
+        721: 'https://goairforcefalcons.com', 51: 'https://baylorbears.com',
         419: 'https://goblueraiders.com', 688: 'https://cuse.com', 311: 'https://cyclones.com',
         129: 'https://cmuchippewas.com', 8: 'https://rolltide.com', 193: 'https://goduke.com', 649: 'https://gojacks.com',
         249: 'https://gwsports.com', 430: 'https://hailstate.com', 80: 'https://brownbears.com',
@@ -1454,7 +1454,8 @@ class TeamConfig:
         697: 'https://12thman.com', 173: 'https://davidsonwildcats.com', 518: 'https://ohiostatebuckeyes.com',
         47: 'https://ballstatesports.com', 529: 'https://goducks.com', 676: 'https://sfajacks.com',
         30135: 'https://cbulancers.com', 414: 'https://miamiredhawks.com',
-        434: 'https://mutigers.com', 440: 'https://msubobcats.com', 703: 'https://texassports.com'
+        434: 'https://mutigers.com', 440: 'https://msubobcats.com', 703: 'https://texassports.com',
+        796: 'https://uwbadgers.com'  # Wisconsin - Nuxt.js with embedded JSON data
     }
     
     # Teams using .s-person-card structure
@@ -1570,17 +1571,6 @@ class TeamConfig:
 
     # Teams with roster data embedded in a Vue.js data object
     VUE_DATA_TEAMS = {
-        51: {  # Baylor - uses Vue.js/Nuxt with modern data attributes
-            'type': 'standard',  # Use standard scraper with shot-scraper rendering
-            'url_format': 'default',
-            'field_selectors': {
-                'position': ['[data-test-id="s-person-card-standard__content-person-details-position-short"]'],
-                'height': ['[data-test-id="s-person-card-standard__content-person-details-height"]'],
-                'academic_year': ['[data-test-id="s-person-card-standard__content-person-details-academic-year-short"]'],
-                'hometown': ['[data-test-id="s-person-card-standard__content-person-details-home-town"]'],
-                'high_school': ['[data-test-id="s-person-card-standard__content-person-details-high-school"]']
-            }
-        },
         406: {  # Mercer - uses Vue.js/Nuxt with modern data attributes
             'type': 'standard',  # Use standard scraper with shot-scraper rendering
             'url_format': 'default',
@@ -2242,7 +2232,8 @@ class StandardScraper(BaseScraper):
 
     def _get_text_by_class(self, element, class_name: str) -> str:
         """Get text from element with class name"""
-        found = element.find('span', {'class': class_name})
+        # Try any element type with the class, not just span
+        found = element.find(class_=class_name)
         return FieldExtractors.clean_text(found.get_text()) if found else ""
 
     def _get_academic_year(self, player_elem) -> str:
