@@ -1464,10 +1464,12 @@ class TeamConfig:
     # Table-based teams
     TABLE_BASED_TEAMS = {
         5: {'url_format': 'default'},
+        26: {'url_format': 'season_first'},
         28: {'url_format': 'iowa_table'},
         31: {'url_format': 'default'},  # Arkansas
         37: {'url_format': 'iowa_table'},
         64: {'url_format': 'season_first'},
+        76: {'url_format': 'season_first'},
         77: {'url_format': 'byu_table'},
         119: {'url_format': 'season_first'},
         125: {'url_format': 'season_first'},  # Centenary (LA) - PrestoSports table
@@ -1475,13 +1477,17 @@ class TeamConfig:
         128: {'url_format': 'season_path_table'},  # Central Florida - uses ?view=table
         140: {'url_format': 'iowa_table'},
         147: {'url_format': 'clemson'},
+        161: {'url_format': 'season_first'},
+        170: {'url_format': 'season_first'},
         186: {'url_format': 'season_first'},
         216: {'url_format': 'season_first'},
         218: {'url_format': 'season_first'},
+        238: {'url_format': 'season_first'},
         255: {'url_format': 'season_path'},
         306: {'url_format': 'direct'},
         308: {'url_format': 'default'},
         312: {'url_format': 'iowa_table'},  # Iowa
+        324: {'url_format': 'season_first'},
         334: {'url_format': 'season_path'},
         388: {'url_format': 'default'},
         433: {'url_format': 'default'},
@@ -1498,6 +1504,7 @@ class TeamConfig:
         695: {'url_format': 'default'},
         736: {'url_format': 'season_path'},
         742: {'url_format': 'iowa_table'},
+        777: {'url_format': 'season_first'},
         812: {'url_format': 'default'},
         674: {'url_format': 'iowa_table'},
         630: {'url_format': 'iowa_table'},
@@ -1506,14 +1513,17 @@ class TeamConfig:
         692: {'url_format': 'season_first'},
         648: {'url_format': 'season_path'},
         127: {'url_format': 'season_first'},
+        987: {'url_format': 'season_first'},
         1000: {'url_format': 'season_first'},
         1023: {'url_format': 'season_first'},  # Coker - /sports/wbkb/2025-26/roster
         1050: {'url_format': 'season_first'},
         1130: {'url_format': 'season_first'},
+        1163: {'url_format': 'season_first'},
         1199: {'url_format': 'season_first'},
         1348: {'url_format': 'season_first'},
         1355: {'url_format': 'season_first'},
         1356: {'url_format': 'season_path_table'},  # Seattle U - uses ?view=table
+        1460: {'url_format': 'season_first'},
         1467: {'url_format': 'season_first_table'},
         689: {'url_format': 'season_first'},  # Tampa - /sports/wbkb/2025-26/roster
         11036: {'url_format': 'season_first'},
@@ -1552,7 +1562,21 @@ class TeamConfig:
         939: {'url_format': 'season_first'},
         953: {'url_format': 'season_first'},
         621: {'url_format': 'season_first'},
+        8486: {'url_format': 'season_first'},
+        8687: {'url_format': 'season_first'},
+        8956: {'url_format': 'season_first'},
+        30033: {'url_format': 'season_first'},
+        30189: {'url_format': 'season_first'},
 
+    }
+    
+    # PrestoSports teams with season_first URL format but standard card layout (not tables)
+    PRESTOSPORTS_SEASON_FIRST = {
+        30253: {
+            'url_format': 'season_first',
+            'player_selector': '.player-card-wrapper',  # Carlow - uses flipcard layout with data in .card-back
+            'flipcard_format': True,  # Indicates data is in .card-back with label: value format
+        },
     }
     
     # Custom JavaScript teams
@@ -1759,6 +1783,13 @@ class TeamConfig:
     def get_config(cls, team_id: int) -> Dict[str, Any]:
         """Get configuration for team"""
 
+        # PrestoSports teams with season_first URL but standard layout
+        if team_id in cls.PRESTOSPORTS_SEASON_FIRST:
+            return {
+                'type': 'standard',
+                **cls.PRESTOSPORTS_SEASON_FIRST[team_id]
+            }
+
         # Nuxt.js teams (most common)
         if team_id in cls.NUXT_JS_TEAMS:
             team_config = cls.NUXT_JS_TEAMS[team_id]
@@ -1835,17 +1866,18 @@ ENTITY_CONFIGS = {
         'sidearm_selectors': [
             '.sidearm-roster-player',
             '.sidearm-roster-list-item',
-            '.s-person-card'  # Used by some teams
+            '.s-person-card',  # Used by some teams
+            '.player-card'  # PrestoSports card layout
         ],
         'sidearm_container': '.sidearm-roster-players',
         'field_selectors': {
-            'name': ['.sidearm-roster-player-name', 'h3 a', '.sidearm-roster-player-name-link'],
+            'name': ['.sidearm-roster-player-name', 'h3 a', '.sidearm-roster-player-name-link', '.name'],  # .name for PrestoSports
             'jersey': ['.sidearm-roster-player-jersey-number', '.sidearm-roster-player-jersey'],
-            'position': ['.sidearm-roster-player-position'],
-            'height': ['.sidearm-roster-player-height'],
-            'academic_year': ['.sidearm-roster-player-academic-year', '.sidearm-roster-player-academic-year-long'],
-            'hometown': ['.sidearm-roster-player-hometown'],
-            'high_school': ['.sidearm-roster-player-highschool', '.sidearm-roster-player-high-school']
+            'position': ['.sidearm-roster-player-position', '.position'],  # .position for PrestoSports
+            'height': ['.sidearm-roster-player-height', '.height'],  # .height for PrestoSports
+            'academic_year': ['.sidearm-roster-player-academic-year', '.sidearm-roster-player-academic-year-long', '.year'],  # .year for PrestoSports
+            'hometown': ['.sidearm-roster-player-hometown', '.hometown'],  # .hometown for PrestoSports
+            'high_school': ['.sidearm-roster-player-highschool', '.sidearm-roster-player-high-school', '.high-school']  # .high-school for PrestoSports
         },
         'output_fields': ['team', 'team_id', 'season', 'jersey', 'name', 'position', 
                          'height', 'academic_year', 'hometown', 'high_school', 'previous_school', 'url'],
@@ -1966,6 +1998,8 @@ class StandardScraper(BaseScraper):
         team_id = team.get('ncaa_id')
         if team_id in TeamConfig.VUE_DATA_TEAMS:
             self.team_config = TeamConfig.VUE_DATA_TEAMS[team_id]
+        elif team_id in TeamConfig.PRESTOSPORTS_SEASON_FIRST:
+            self.team_config = TeamConfig.PRESTOSPORTS_SEASON_FIRST[team_id]
         else:
             self.team_config = {}
         
@@ -2190,6 +2224,25 @@ class StandardScraper(BaseScraper):
         
         return elements
 
+    def _extract_prestosports_flipcard_field(self, player_elem, field_label: str) -> str:
+        """Extract field from PrestoSports flipcard format where data is in .card-back with 'Label: value' format"""
+        # player_elem is .player-card-wrapper, need to find .card-back inside .player-card
+        card_back = player_elem.select_one('.player-card .card-back .bio-data')
+        if not card_back:
+            return ""
+        
+        # Find all list items (they're inside a ul, so use recursive=True)
+        list_items = card_back.find_all('li')
+        for li in list_items:
+            # Check if this list item has the label we're looking for
+            text = li.get_text(separator=' ', strip=True)
+            if text.startswith(field_label + ':'):
+                # Extract the value after the label
+                value = text.replace(field_label + ':', '').strip()
+                return value
+        
+        return ""
+
     def _extract_player_data(self, player_elem, team: Dict, season: str) -> Optional[Player]:
         """Extract player data using field extractors"""
         try:
@@ -2200,37 +2253,65 @@ class StandardScraper(BaseScraper):
                 if '/coaches/' in href or '/staff/' in href:
                     return None
             
-            # Extract name
+            # Extract name - try field selectors first
             name = ""
-            if player_elem.find('a') and 'aria-label' in player_elem.find('a').attrs:
+            name_selectors = self.entity_config['field_selectors']['name']
+            for selector in name_selectors:
+                name_elem = player_elem.select_one(selector)
+                if name_elem:
+                    name = FieldExtractors.clean_text(name_elem.get_text())
+                    break
+            
+            # Fallback to aria-label if no name found
+            if not name and player_elem.find('a') and 'aria-label' in player_elem.find('a').attrs:
                 aria_label = player_elem.find('a')['aria-label']
-                # Handle different aria-label formats
-                if ' - ' in aria_label:
-                    name = aria_label.split(' - ')[0].strip()
-                else:
-                    # For formats like "Name jersey number X full bio", extract just the name
-                    # Remove common suffixes
-                    name = aria_label.replace(' full bio', '').strip()
-                    # Extract name before "jersey number" if present
-                    if ' jersey number ' in name.lower():
-                        name = name.split(' jersey number ')[0].strip()
-            elif player_elem.find('h3'):
-                name = FieldExtractors.clean_text(player_elem.find('h3').get_text())
+                # Skip aria-labels that are for images
+                if 'image thumbnail' not in aria_label.lower():
+                    # Handle different aria-label formats
+                    if ' - ' in aria_label:
+                        name = aria_label.split(' - ')[0].strip()
+                    else:
+                        # For formats like "Name jersey number X full bio", extract just the name
+                        # Remove common suffixes
+                        name = aria_label.replace(' full bio', '').strip()
+                        # Extract name before "jersey number" if present
+                        if ' jersey number ' in name.lower():
+                            name = name.split(' jersey number ')[0].strip()
             
             if not name or 'Instagram' in name:
                 return None
 
-            # Extract other fields from HTML elements
-            # Use custom selectors if available, otherwise use default classes
-            fields = {
-                'previous_school': self._get_field_with_custom_selectors(player_elem, 'previous_school', 'sidearm-roster-player-previous-school'),
-                'high_school': self._get_field_with_custom_selectors(player_elem, 'high_school', 'sidearm-roster-player-highschool'),
-                'height': self._get_field_with_custom_selectors(player_elem, 'height', 'sidearm-roster-player-height'),
-                'hometown': self._get_field_with_custom_selectors(player_elem, 'hometown', 'sidearm-roster-player-hometown'),
-                'jersey': self._get_field_with_custom_selectors(player_elem, 'jersey', 'sidearm-roster-player-jersey-number'),
-                'year': self._get_academic_year(player_elem),
-                'position': self._get_position(player_elem)
-            }
+            # Check if this is a PrestoSports flipcard format
+            team_config = getattr(self, 'team_config', {})
+            is_flipcard = team_config.get('flipcard_format', False)
+            
+            if is_flipcard:
+                # Extract from flipcard format with label: value structure
+                # Jersey from .card-back-head .number (e.g., "#1")
+                jersey_elem = player_elem.select_one('.player-card .card-back-head .number')
+                jersey = jersey_elem.get_text().strip().replace('#', '') if jersey_elem else ""
+                
+                fields = {
+                    'previous_school': self._extract_prestosports_flipcard_field(player_elem, 'Previous School'),
+                    'high_school': self._extract_prestosports_flipcard_field(player_elem, 'Highschool'),
+                    'height': self._extract_prestosports_flipcard_field(player_elem, 'Height'),
+                    'hometown': self._extract_prestosports_flipcard_field(player_elem, 'Hometown'),
+                    'jersey': jersey,
+                    'year': self._extract_prestosports_flipcard_field(player_elem, 'Class'),
+                    'position': self._extract_prestosports_flipcard_field(player_elem, 'Position')
+                }
+            else:
+                # Extract other fields from HTML elements
+                # Use custom selectors if available, otherwise use default classes
+                fields = {
+                    'previous_school': self._get_field_with_custom_selectors(player_elem, 'previous_school', 'sidearm-roster-player-previous-school'),
+                    'high_school': self._get_field_with_custom_selectors(player_elem, 'high_school', 'sidearm-roster-player-highschool'),
+                    'height': self._get_field_with_custom_selectors(player_elem, 'height', 'sidearm-roster-player-height'),
+                    'hometown': self._get_field_with_custom_selectors(player_elem, 'hometown', 'sidearm-roster-player-hometown'),
+                    'jersey': self._get_field_with_custom_selectors(player_elem, 'jersey', 'sidearm-roster-player-jersey-number'),
+                    'year': self._get_academic_year(player_elem),
+                    'position': self._get_position(player_elem)
+                }
 
             # Build player URL - we'll use this to match with JSON data
             player_url = ""
