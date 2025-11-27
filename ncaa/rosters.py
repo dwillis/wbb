@@ -1575,121 +1575,176 @@ class TeamConfig:
             'type': 'standard',  # Use standard scraper with shot-scraper rendering
             'url_format': 'default',
             'field_selectors': {
-                'position': ['[data-test-id="s-person-card-standard__content-person-details-position-short"]'],
-                'height': ['[data-test-id="s-person-card-standard__content-person-details-height"]'],
-                'academic_year': ['[data-test-id="s-person-card-standard__content-person-details-academic-year-short"]'],
-                'hometown': ['[data-test-id="s-person-card-standard__content-person-details-home-town"]'],
-                'high_school': ['[data-test-id="s-person-card-standard__content-person-details-high-school"]']
+                'position': ['[data-test-id="s-person-details__bio-stats-person-position-short"]'],
+                'height': ['[data-test-id="s-person-details__bio-stats-person-season"]'],
+                'academic_year': ['[data-test-id="s-person-details__bio-stats-person-title"]'],
+                'hometown': ['[data-test-id="s-person-card-list__content-location-person-hometown"]'],
+                'high_school': ['[data-test-id="s-person-card-list__content-location-person-high-school"]']
             }
         },
         90: {  # Cal Poly - uses Vue.js/Nuxt with modern data attributes
             'type': 'standard',  # Use standard scraper with shot-scraper rendering
             'url_format': 'default',
             'field_selectors': {
-                'position': ['[data-test-id="s-person-card-standard__content-person-details-position-short"]'],
-                'height': ['[data-test-id="s-person-card-standard__content-person-details-height"]'],
-                'academic_year': ['[data-test-id="s-person-card-standard__content-person-details-academic-year-short"]'],
-                'hometown': ['[data-test-id="s-person-card-standard__content-person-details-home-town"]'],
-                'high_school': ['[data-test-id="s-person-card-standard__content-person-details-high-school"]']
+                'position': ['[data-test-id="s-person-details__bio-stats-person-position-short"]'],
+                'height': ['[data-test-id="s-person-details__bio-stats-person-season"]'],
+                'academic_year': ['[data-test-id="s-person-details__bio-stats-person-title"]'],
+                'hometown': ['[data-test-id="s-person-card-list__content-location-person-hometown"]'],
+                'high_school': ['[data-test-id="s-person-card-list__content-location-person-high-school"]']
             }
         },
         172: {  # Dartmouth - uses Vue.js/Nuxt with modern data attributes
             'type': 'standard',  # Use standard scraper with shot-scraper rendering
             'url_format': 'default',
             'field_selectors': {
-                'position': ['[data-test-id="s-person-card-standard__content-person-details-position-short"]'],
-                'height': ['[data-test-id="s-person-card-standard__content-person-details-height"]'],
-                'academic_year': ['[data-test-id="s-person-card-standard__content-person-details-academic-year-short"]'],
-                'hometown': ['[data-test-id="s-person-card-standard__content-person-details-home-town"]'],
-                'high_school': ['[data-test-id="s-person-card-standard__content-person-details-high-school"]']
+                'position': ['[data-test-id="s-person-details__bio-stats-person-position-short"]'],
+                'height': ['[data-test-id="s-person-details__bio-stats-person-season"]'],
+                'academic_year': ['[data-test-id="s-person-details__bio-stats-person-title"]'],
+                'hometown': ['[data-test-id="s-person-card-list__content-location-person-hometown"]'],
+                'high_school': ['[data-test-id="s-person-card-list__content-location-person-high-school"]']
             }
         },
         610: {  # Saint Mary's (CA) - uses Vue.js/Nuxt with modern data attributes
             'type': 'standard',  # Use standard scraper with shot-scraper rendering
             'url_format': 'default',
             'field_selectors': {
-                'position': ['[data-test-id="s-person-card-standard__content-person-details-position-short"]'],
-                'height': ['[data-test-id="s-person-card-standard__content-person-details-height"]'],
-                'academic_year': ['[data-test-id="s-person-card-standard__content-person-details-academic-year-short"]'],
-                'hometown': ['[data-test-id="s-person-card-standard__content-person-details-home-town"]'],
-                'high_school': ['[data-test-id="s-person-card-standard__content-person-details-high-school"]']
+                'position': ['[data-test-id="s-person-details__bio-stats-person-position-short"]'],
+                'height': ['[data-test-id="s-person-details__bio-stats-person-season"]'],
+                'academic_year': ['[data-test-id="s-person-details__bio-stats-person-title"]'],
+                'hometown': ['[data-test-id="s-person-card-list__content-location-person-hometown"]'],
+                'high_school': ['[data-test-id="s-person-card-list__content-location-person-high-school"]']
             }
         },
         331: {  # Kent State - uses Vue.js/Nuxt with modern data attributes
             'type': 'standard',  # Use standard scraper with shot-scraper rendering
             'url_format': 'default',
             'field_selectors': {
-                'position': ['[data-test-id="s-person-card-standard__content-person-details-position-short"]'],
-                'height': ['[data-test-id="s-person-card-standard__content-person-details-height"]'],
-                'academic_year': ['[data-test-id="s-person-card-standard__content-person-details-academic-year-short"]'],
-                'hometown': ['[data-test-id="s-person-card-standard__content-person-details-home-town"]'],
-                'high_school': ['[data-test-id="s-person-card-standard__content-person-details-high-school"]']
+                'position': ['[data-test-id="s-person-details__bio-stats-person-position-short"]'],
+                'height': ['[data-test-id="s-person-details__bio-stats-person-season"]'],
+                'academic_year': ['[data-test-id="s-person-details__bio-stats-person-title"]'],
+                'hometown': ['[data-test-id="s-person-card-list__content-location-person-hometown"]'],
+                'high_school': ['[data-test-id="s-person-card-list__content-location-person-high-school"]']
             }
         },
         2711: {  # North Florida - uses Vue.js/Nuxt with modern data attributes
             'type': 'standard',  # Use standard scraper with shot-scraper rendering
             'url_format': 'default',
             'field_selectors': {
-                'position': ['[data-test-id="s-person-card-standard__content-person-details-position-short"]'],
-                'height': ['[data-test-id="s-person-card-standard__content-person-details-height"]'],
-                'academic_year': ['[data-test-id="s-person-card-standard__content-person-details-academic-year-short"]'],
-                'hometown': ['[data-test-id="s-person-card-standard__content-person-details-home-town"]'],
-                'high_school': ['[data-test-id="s-person-card-standard__content-person-details-high-school"]']
+                'position': ['[data-test-id="s-person-details__bio-stats-person-position-short"]'],
+                'height': ['[data-test-id="s-person-details__bio-stats-person-season"]'],
+                'academic_year': ['[data-test-id="s-person-details__bio-stats-person-title"]'],
+                'hometown': ['[data-test-id="s-person-card-list__content-location-person-hometown"]'],
+                'high_school': ['[data-test-id="s-person-card-list__content-location-person-high-school"]']
             }
         },
         101: {  # CSUN - uses Vue.js/Nuxt with modern data attributes
             'type': 'standard',  # Use standard scraper with shot-scraper rendering
             'url_format': 'default',
             'field_selectors': {
-                'position': ['[data-test-id="s-person-card-standard__content-person-details-position-short"]'],
-                'height': ['[data-test-id="s-person-card-standard__content-person-details-height"]'],
-                'academic_year': ['[data-test-id="s-person-card-standard__content-person-details-academic-year-short"]'],
-                'hometown': ['[data-test-id="s-person-card-standard__content-person-details-home-town"]'],
-                'high_school': ['[data-test-id="s-person-card-standard__content-person-details-high-school"]']
+                'position': ['[data-test-id="s-person-details__bio-stats-person-position-short"]'],
+                'height': ['[data-test-id="s-person-details__bio-stats-person-season"]'],
+                'academic_year': ['[data-test-id="s-person-details__bio-stats-person-title"]'],
+                'hometown': ['[data-test-id="s-person-card-list__content-location-person-hometown"]'],
+                'high_school': ['[data-test-id="s-person-card-list__content-location-person-high-school"]']
             }
         },
         235: {  # Florida - uses Vue.js/Nuxt with modern data attributes
             'type': 'standard',  # Use standard scraper with shot-scraper rendering
             'url_format': 'default',
             'field_selectors': {
-                'position': ['[data-test-id="s-person-card-standard__content-person-details-position-short"]'],
-                'height': ['[data-test-id="s-person-card-standard__content-person-details-height"]'],
-                'academic_year': ['[data-test-id="s-person-card-standard__content-person-details-academic-year-short"]'],
-                'hometown': ['[data-test-id="s-person-card-standard__content-person-details-home-town"]'],
-                'high_school': ['[data-test-id="s-person-card-standard__content-person-details-high-school"]']
+                'position': ['[data-test-id="s-person-details__bio-stats-person-position-short"]'],
+                'height': ['[data-test-id="s-person-details__bio-stats-person-season"]'],
+                'academic_year': ['[data-test-id="s-person-details__bio-stats-person-title"]'],
+                'hometown': ['[data-test-id="s-person-card-list__content-location-person-hometown"]'],
+                'high_school': ['[data-test-id="s-person-card-list__content-location-person-high-school"]']
             }
         },
         2707: {  # Kansas City - uses Vue.js/Nuxt with modern data attributes
             'type': 'standard',  # Use standard scraper with shot-scraper rendering
             'url_format': 'default',
             'field_selectors': {
-                'position': ['[data-test-id="s-person-card-standard__content-person-details-position-short"]'],
-                'height': ['[data-test-id="s-person-card-standard__content-person-details-height"]'],
-                'academic_year': ['[data-test-id="s-person-card-standard__content-person-details-academic-year-short"]'],
-                'hometown': ['[data-test-id="s-person-card-standard__content-person-details-home-town"]'],
-                'high_school': ['[data-test-id="s-person-card-standard__content-person-details-high-school"]']
+                'position': ['[data-test-id="s-person-details__bio-stats-person-position-short"]'],
+                'height': ['[data-test-id="s-person-details__bio-stats-person-season"]'],
+                'academic_year': ['[data-test-id="s-person-details__bio-stats-person-title"]'],
+                'hometown': ['[data-test-id="s-person-card-list__content-location-person-hometown"]'],
+                'high_school': ['[data-test-id="s-person-card-list__content-location-person-high-school"]']
             }
         },
         598: {  # St. Cloud St. - uses Vue.js/Nuxt with modern data attributes
             'type': 'standard',  # Use standard scraper with shot-scraper rendering
             'url_format': 'default',
             'field_selectors': {
-                'position': ['[data-test-id="s-person-card-standard__content-person-details-position-short"]'],
-                'height': ['[data-test-id="s-person-card-standard__content-person-details-height"]'],
-                'academic_year': ['[data-test-id="s-person-card-standard__content-person-details-academic-year-short"]'],
-                'hometown': ['[data-test-id="s-person-card-standard__content-person-details-home-town"]'],
-                'high_school': ['[data-test-id="s-person-card-standard__content-person-details-high-school"]']
+                'position': ['[data-test-id="s-person-details__bio-stats-person-position-short"]'],
+                'height': ['[data-test-id="s-person-details__bio-stats-person-season"]'],
+                'academic_year': ['[data-test-id="s-person-details__bio-stats-person-title"]'],
+                'hometown': ['[data-test-id="s-person-card-list__content-location-person-hometown"]'],
+                'high_school': ['[data-test-id="s-person-card-list__content-location-person-high-school"]']
             }
         },
         620: {  # St. Thomas (MN) - uses Vue.js/Nuxt with modern data attributes
             'type': 'standard',  # Use standard scraper with shot-scraper rendering
             'url_format': 'default',
             'field_selectors': {
-                'position': ['[data-test-id="s-person-card-standard__content-person-details-position-short"]'],
-                'height': ['[data-test-id="s-person-card-standard__content-person-details-height"]'],
-                'academic_year': ['[data-test-id="s-person-card-standard__content-person-details-academic-year-short"]'],
-                'hometown': ['[data-test-id="s-person-card-standard__content-person-details-home-town"]'],
-                'high_school': ['[data-test-id="s-person-card-standard__content-person-details-high-school"]']
+                'position': ['[data-test-id="s-person-details__bio-stats-person-position-short"]'],
+                'height': ['[data-test-id="s-person-details__bio-stats-person-season"]'],
+                'academic_year': ['[data-test-id="s-person-details__bio-stats-person-title"]'],
+                'hometown': ['[data-test-id="s-person-card-list__content-location-person-hometown"]'],
+                'high_school': ['[data-test-id="s-person-card-list__content-location-person-high-school"]']
+            }
+        },
+        709: {  # Toledo - uses Vue.js/Nuxt with modern data attributes
+            'type': 'standard',  # Use standard scraper with shot-scraper rendering
+            'url_format': 'default',
+            'field_selectors': {
+                'position': ['[data-test-id="s-person-details__bio-stats-person-position-short"]'],
+                'height': ['[data-test-id="s-person-details__bio-stats-person-season"]'],
+                'academic_year': ['[data-test-id="s-person-details__bio-stats-person-title"]'],
+                'hometown': ['[data-test-id="s-person-card-list__content-location-person-hometown"]'],
+                'high_school': ['[data-test-id="s-person-card-list__content-location-person-high-school"]']
+            }
+        },
+        158: {  # Columbia - uses Vue.js/Nuxt with modern data attributes
+            'type': 'standard',  # Use standard scraper with shot-scraper rendering
+            'url_format': 'default',
+            'field_selectors': {
+                'position': ['[data-test-id="s-person-details__bio-stats-person-position-short"]'],
+                'height': ['[data-test-id="s-person-details__bio-stats-person-season"]'],
+                'academic_year': ['[data-test-id="s-person-details__bio-stats-person-title"]'],
+                'hometown': ['[data-test-id="s-person-card-list__content-location-person-hometown"]'],
+                'high_school': ['[data-test-id="s-person-card-list__content-location-person-high-school"]']
+            }
+        },
+        1014: {  # College of Charleston - uses Vue.js/Nuxt with modern data attributes
+            'type': 'standard',  # Use standard scraper with shot-scraper rendering
+            'url_format': 'default',
+            'field_selectors': {
+                'position': ['[data-test-id="s-person-details__bio-stats-person-position-short"]'],
+                'height': ['[data-test-id="s-person-details__bio-stats-person-season"]'],
+                'academic_year': ['[data-test-id="s-person-details__bio-stats-person-title"]'],
+                'hometown': ['[data-test-id="s-person-card-list__content-location-person-hometown"]'],
+                'high_school': ['[data-test-id="s-person-card-list__content-location-person-high-school"]']
+            }
+        },
+        68: {  # Boston University - uses Vue.js/Nuxt with modern data attributes
+            'type': 'standard',  # Use standard scraper with shot-scraper rendering
+            'url_format': 'default',
+            'field_selectors': {
+                'position': ['[data-test-id="s-person-details__bio-stats-person-position-short"]'],
+                'height': ['[data-test-id="s-person-details__bio-stats-person-season"]'],
+                'academic_year': ['[data-test-id="s-person-details__bio-stats-person-title"]'],
+                'hometown': ['[data-test-id="s-person-card-list__content-location-person-hometown"]'],
+                'high_school': ['[data-test-id="s-person-card-list__content-location-person-high-school"]']
+            }
+        },
+        768: {  # West Virginia - uses Vue.js/Nuxt with modern data attributes
+            'type': 'standard',  # Use standard scraper with shot-scraper rendering
+            'url_format': 'default',
+            'field_selectors': {
+                'position': ['[data-test-id="s-person-details__bio-stats-person-position-short"]'],
+                'height': ['[data-test-id="s-person-details__bio-stats-person-season"]'],
+                'academic_year': ['[data-test-id="s-person-details__bio-stats-person-title"]'],
+                'hometown': ['[data-test-id="s-person-card-list__content-location-person-hometown"]'],
+                'high_school': ['[data-test-id="s-person-card-list__content-location-person-high-school"]']
             }
         },
         # 415: Miami moved back to CUSTOM_JS_TEAMS - uses DataTable with full data
@@ -1919,6 +1974,7 @@ class StandardScraper(BaseScraper):
         # Use shot-scraper for Vue.js teams to handle JavaScript rendering
         if team.get('ncaa_id') in [51, 406, 90, 172, 610, 331, 2711, 101, 235, 2707, 598, 620]:  # Baylor, Mercer, Cal Poly, Dartmouth, Saint Mary's (CA), Kent State, North Florida, CSUN, Florida, Kansas City, St. Cloud St., St. Thomas (MN)
             html = self.fetch_html_with_javascript(url)
+            status = 200 if html else None  # Set status for JavaScript-rendered pages
             if not html:
                 logger.warning(f"shot-scraper failed for {team['team']}, falling back to regular fetch")
                 html, status = self.fetch_html(url, return_status=True)
@@ -2238,10 +2294,9 @@ class StandardScraper(BaseScraper):
 
     def _get_academic_year(self, player_elem) -> str:
         """Extract academic year"""
-        found = player_elem.find('span', {'class': 'sidearm-roster-player-academic-year'})
-        if found:
-            return found.get_text().strip()
-        return ""
+        # Try custom selectors first, then fall back to default
+        year_text = self._get_field_with_custom_selectors(player_elem, 'academic_year', 'sidearm-roster-player-academic-year')
+        return year_text if year_text else ""
 
     def _extract_coach_data(self, coach_elem, team: Dict, season: str) -> Optional[Player]:
         """Extract coach information from a coach element"""
