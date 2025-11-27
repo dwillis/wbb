@@ -19,6 +19,10 @@ from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
 import tldextract
+import urllib3
+
+# Disable SSL warnings for sites with certificate issues
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # Optional imports for advanced scraping
 try:
@@ -149,6 +153,17 @@ class FieldExtractors:
         text = re.sub(r'\s*(Instagram|Twitter|Opens in a new window).*$', '', text)
         text = re.sub(r'\s+', ' ', text).strip()
         
+        # Handle format with slashes: "City, State / High School / Previous College"
+        if ' / ' in text:
+            parts = [p.strip() for p in text.split(' / ')]
+            if len(parts) >= 1:
+                result['hometown'] = parts[0]
+            if len(parts) >= 2 and parts[1]:
+                result['high_school'] = parts[1]
+            if len(parts) >= 3 and parts[2]:
+                result['previous_school'] = parts[2]
+            return result
+        
         # Pattern: City, State followed by school info
         state_pattern = r'(.+?),\s*([A-Z][a-z]+\.?|[A-Z]{2})\s+(.*)'
         match = re.match(state_pattern, text)
@@ -201,7 +216,14 @@ class FieldExtractors:
         # Common label patterns to strip
         patterns = [
             r'\bClass:\s*', r'\bHometown:\s*', r'\bHigh school:\s*', r'\bPrevious College:\s*',
-            r'\bPrevious School:\s*', r'\bHt\.:\s*', r'\bPos\.:\s*', r'^High school:\s*', r'^Hometown:\s*'
+            r'\bPrevious School:\s*', r'\bHt\.:\s*', r'\bPos\.:\s*', r'^High school:\s*', r'^Hometown:\s*',
+            r'\bNo\.:\s*', r'\bYr\.:\s*', r'^No\.:\s*', r'^Yr\.:\s*',
+            r'^High School/Previous School:\s*', r'\bHigh School/Previous School:\s*',
+            r'^High School/\s*', r'\bHigh School/\s*',
+            r'\bCl\.:\s*', r'^Cl\.:\s*',
+            r'^\s*Hometown / Previous School / High School:\s*', r'\bHometown / Previous School / High School:\s*',
+            r'^Hometown / Previous School /\s*', r'\bHometown / Previous School /\s*',
+            r'^Hometown/High School \(Former School\):\s*', r'\bHometown/High School \(Former School\):\s*'
         ]
 
         for p in patterns:
@@ -217,12 +239,38 @@ class FieldExtractors:
 
         return text
 
+    @staticmethod
+    def is_visible_cell(cell) -> bool:
+        """Check if a table cell is visible (not hidden by responsive classes)"""
+        classes = cell.get('class', [])
+        # Check for Bootstrap responsive visibility classes that hide cells
+        # d-none = display none (hidden on all sizes)
+        # d-md-none = hidden on medium+ screens
+        # d-lg-none = hidden on large+ screens
+        # d-xl-none = hidden on extra large+ screens
+        hidden_patterns = ['d-none', 'd-md-none', 'd-lg-none', 'd-xl-none']
+        
+        # If cell has any of these classes, it's hidden on desktop
+        # We want to keep cells visible on desktop (d-none d-md-table-cell means hidden on mobile, visible on desktop)
+        if 'd-none' in classes:
+            # Check if it's made visible again on larger screens
+            visible_patterns = ['d-md-table-cell', 'd-lg-table-cell', 'd-xl-table-cell', 'd-md-block', 'd-lg-block', 'd-xl-block']
+            if any(pattern in classes for pattern in visible_patterns):
+                return True  # Hidden on mobile but visible on desktop
+            return False  # Hidden everywhere
+        
+        # Check for d-md-none, d-lg-none (hidden on medium+ screens)
+        if any(pattern in classes for pattern in ['d-md-none', 'd-lg-none', 'd-xl-none']):
+            return False  # Hidden on desktop
+            
+        return True  # Visible
+
 
 class SeasonVerifier:
     """Centralized season verification logic"""
     
     @staticmethod
-    def verify_season_on_page(html, expected_season: str, entity_type: str = 'player') -> bool:
+    def verify_season_on_page(html, expected_season: str, entity_type: str = 'player', team_id: int = None) -> bool:
         """Verify that the roster page is for the expected season
         
         For players, requires both season and 'roster' text
@@ -240,15 +288,29 @@ class SeasonVerifier:
             if title:
                 elements_to_check.append(title)
             
+            # Generate alternative season formats: "2025-26" -> ["2025-26", "2025 - 2026", "2025-2026"]
+            season_variations = [expected_season]
+            if '-' in expected_season and len(expected_season.split('-')) == 2:
+                parts = expected_season.split('-')
+                # Add full year format with spaces: "2025-26" -> "2025 - 2026"
+                full_year_spaces = f"{parts[0]} - {parts[0][:2]}{parts[1]}"
+                season_variations.append(full_year_spaces)
+                # Add full year format without spaces: "2025-26" -> "2025-2026"
+                full_year_no_spaces = f"{parts[0]}-{parts[0][:2]}{parts[1]}"
+                season_variations.append(full_year_no_spaces)
+                # Add just the starting year for MacMurray: "2025-26" -> "2025"
+                if team_id == 377 or team_id == 8530:
+                    season_variations.append(parts[0])
+            
             for element in elements_to_check:
                 text = element.get_text(strip=True) if hasattr(element, 'get_text') else str(element)
                 # For coaches, just check for season; for players, also require 'roster'
                 if entity_type == 'coach':
-                    if expected_season in text:
+                    if any(season in text for season in season_variations):
                         logger.info(f"Season verification successful - found: '{text.strip()}'")
                         return True
                 else:
-                    if expected_season in text and 'roster' in text.lower():
+                    if any(season in text for season in season_variations) and 'roster' in text.lower():
                         logger.info(f"Season verification successful - found: '{text.strip()}'")
                         return True
                     
@@ -1271,7 +1333,12 @@ class HeaderMapper:
         'POS': 'position', 'HT': 'height', 'Player': 'name', 'NO.': 'jersey',
         'YR.': 'academic_year', 'POS.': 'position', 'HIGH SCHOOL': 'high_school',
         'NO': 'jersey', 'HOMETOWN/HIGH SCHOOL': 'town', 'Academic Yr.': 'academic_year',
-        'POSITION': 'position', '#Jersey Number': 'jersey', 'NumberJersey Number': 'jersey'
+        'POSITION': 'position', '#Jersey Number': 'jersey', 'NumberJersey Number': 'jersey',
+        'Yr.': 'academic_year', 'Yr': 'academic_year',
+        'Hometown / Previous School / High School': 'town',
+        'Major': 'major', 'Wt.': 'weight',
+        'Hometown/High School (Former School)': 'town',
+        'Ltrs.': 'letters'
     }
 
     @classmethod
@@ -1304,6 +1371,7 @@ class URLBuilder:
             "default": f"{base_url}/{path}/{season}",
             "direct": f"{base_url}/{path}/",
             "season_first": f"{base_url}/{season}/{path}",
+            "season_first_table": f"{base_url}/{season}/{path}?view=list",
             "season_path": f"{base_url}/{path}/season/{season}/",
             "season_path_table": f"{base_url}/{path}/season/{season}?view=table",
             "clemson": f"{base_url}/{path}/season/{season[:4]}",
@@ -1366,7 +1434,7 @@ class TeamConfig:
         700: 'https://texastech.com', 355: 'https://libertyflames.com', 497: 'https://meangreensports.com',
         441: 'https://gogriz.com', 416: 'https://msuspartans.com', 509: 'https://nusports.com',
         521: 'https://okstate.com', 522: 'https://soonersports.com', 454: 'https://goracers.com',
-        404: 'https://gotigersgo.com', 470: 'https://golobos.com', 671: 'https://ragincajuns.com',
+        404: 'https://gotigersgo.com', 671: 'https://ragincajuns.com',
         574: 'https://riceowls.com', 664: 'https://southernmiss.com', 575: 'https://richmondspiders.com',
         698: 'https://gofrogs.com', 288: 'https://uhcougars.com', 400: 'https://umassathletics.com',
         457: 'https://goheels.com', 156: 'https://csurams.com', 196: 'https://ecupirates.com',
@@ -1398,11 +1466,17 @@ class TeamConfig:
         28: {'url_format': 'iowa_table'},
         31: {'url_format': 'default'},  # Arkansas
         37: {'url_format': 'iowa_table'},
+        64: {'url_format': 'season_first'},
         77: {'url_format': 'byu_table'},
+        119: {'url_format': 'season_first'},
+        125: {'url_format': 'season_first'},  # Centenary (LA) - PrestoSports table
         127: {'url_format': 'default'},
         128: {'url_format': 'season_path_table'},  # Central Florida - uses ?view=table
         140: {'url_format': 'iowa_table'},
         147: {'url_format': 'clemson'},
+        186: {'url_format': 'season_first'},
+        216: {'url_format': 'season_first'},
+        218: {'url_format': 'season_first'},
         255: {'url_format': 'season_path'},
         306: {'url_format': 'direct'},
         308: {'url_format': 'default'},
@@ -1432,8 +1506,52 @@ class TeamConfig:
         648: {'url_format': 'season_path'},
         127: {'url_format': 'season_first'},
         1000: {'url_format': 'season_first'},
+        1023: {'url_format': 'season_first'},  # Coker - /sports/wbkb/2025-26/roster
+        1050: {'url_format': 'season_first'},
+        1130: {'url_format': 'season_first'},
+        1199: {'url_format': 'season_first'},
+        1348: {'url_format': 'season_first'},
+        1355: {'url_format': 'season_first'},
         1356: {'url_format': 'season_path_table'},  # Seattle U - uses ?view=table
-        689: {'url_format': 'season_first'}  # Tampa - /sports/wbkb/2025-26/roster
+        1467: {'url_format': 'season_first_table'},
+        689: {'url_format': 'season_first'},  # Tampa - /sports/wbkb/2025-26/roster
+        11036: {'url_format': 'season_first'},
+        12830: {'url_format': 'season_first'},
+        224: {'url_format': 'season_first'},
+        227: {'url_format': 'season_first'},
+        24317: {'url_format': 'season_first'},
+        25719: {'url_format': 'season_first'},
+        26107: {'url_format': 'season_first'},
+        2798: {'url_format': 'season_first'},
+        28594: {'url_format': 'season_first'},
+        30042: {'url_format': 'season_first'},
+        443: {'url_format': 'season_first'},
+        30225: {'url_format': 'season_first'},
+        325: {'url_format': 'season_first'},
+        1315: {'url_format': 'season_first'},
+        449: {'url_format': 'season_first'},
+        455: {'url_format': 'season_first'},
+        486: {'url_format': 'season_first'},
+        510: {'url_format': 'season_first'},
+        517: {'url_format': 'season_first'},
+        525: {'url_format': 'season_first'},
+        532: {'url_format': 'season_first'},
+        538: {'url_format': 'season_first'},
+        544: {'url_format': 'season_first'},
+        569: {'url_format': 'season_first'},
+        591: {'url_format': 'season_first'},
+        641: {'url_format': 'season_first'},
+        684: {'url_format': 'season_first'},
+        74: {'url_format': 'season_first'},
+        762: {'url_format': 'season_first'},
+        785: {'url_format': 'season_first'},
+        806: {'url_format': 'season_first'},
+        809: {'url_format': 'season_first'},
+        8981: {'url_format': 'season_first'},
+        939: {'url_format': 'season_first'},
+        953: {'url_format': 'season_first'},
+        621: {'url_format': 'season_first'},
+
     }
     
     # Custom JavaScript teams
@@ -1722,15 +1840,31 @@ class BaseScraper:
         self.entity_type = entity_type
         self.entity_config = ENTITY_CONFIGS[entity_type]
 
-    def fetch_html(self, url: str) -> Optional[BeautifulSoup]:
-        """Fetch and parse HTML from URL"""
+    def fetch_html(self, url: str, return_status: bool = False) -> Optional[Union[BeautifulSoup, tuple]]:
+        """Fetch and parse HTML from URL
+        
+        Args:
+            url: URL to fetch
+            return_status: If True, return (html, status_code) tuple instead of just html
+        
+        Returns:
+            BeautifulSoup object if return_status=False, or (BeautifulSoup, status_code) tuple if return_status=True
+        """
         try:
-            response = self.session.get(url, timeout=30)
+            response = self.session.get(url, timeout=30, verify=False)
+            status_code = response.status_code  # Capture before raise_for_status()
             response.raise_for_status()
-            return BeautifulSoup(response.text, 'html.parser')
-        except requests.RequestException as e:
+            html = BeautifulSoup(response.text, 'html.parser')
+            return (html, status_code) if return_status else html
+        except requests.HTTPError as e:
+            if return_status:
+                logger.error(f"Failed to fetch {url}: {e}")
+                return (None, status_code)  # Use the status_code we captured
             logger.error(f"Failed to fetch {url}: {e}")
             return None
+        except requests.RequestException as e:
+            logger.error(f"Failed to fetch {url}: {e}")
+            return (None, None) if return_status else None
     
     def fetch_html_with_javascript(self, url: str) -> Optional[BeautifulSoup]:
         """Fetch HTML using shot-scraper to execute JavaScript"""
@@ -1797,8 +1931,18 @@ class StandardScraper(BaseScraper):
             html = self.fetch_html_with_javascript(url)
             if not html:
                 logger.warning(f"shot-scraper failed for {team['team']}, falling back to regular fetch")
-                html = self.fetch_html(url)
+                html, status = self.fetch_html(url, return_status=True)
         else:
+            html, status = self.fetch_html(url, return_status=True)
+        
+        # Debug logging
+        logger.debug(f"Fetch result: html={'present' if html else 'None'}, status={status}, url_format={url_format}")
+        
+        # If 404 and using default format, try season_first as fallback
+        if not html and status == 404 and url_format == "default":
+            logger.info(f"Got 404 for {team['team']} at {url}, trying season_first URL format as fallback")
+            url = URLBuilder.build_url(team['url'], season, "season_first", entity_type=self.entity_type)
+            logger.info(f"Trying fallback URL: {url}")
             html = self.fetch_html(url)
         
         if not html:
@@ -1815,7 +1959,7 @@ class StandardScraper(BaseScraper):
             if (team['ncaa_id'] in [209, 339, 340, 77, 670, 1013, 11403, 11504] or
                 team['url'].startswith('https://hawaiiathletics.com')):
                 verification_season = f"{season[:4]}-{season[:2]}{season[-2:]}"
-            if not SeasonVerifier.verify_season_on_page(html, verification_season, entity_type=self.entity_type):
+            if not SeasonVerifier.verify_season_on_page(html, verification_season, entity_type=self.entity_type, team_id=team['ncaa_id']):
                 logger.warning(f"Season verification failed for {team['team']} - expected {verification_season}")
                 return []
 
@@ -2240,7 +2384,14 @@ class TableScraper(BaseScraper):
     def scrape_roster(self, team: Dict, season: str, url_format: str = "default") -> List[Player]:
         """Scrape roster from table format"""
         url = URLBuilder.build_url(team['url'], season, url_format, entity_type=self.entity_type)
-        html = self.fetch_html(url)
+        html, status = self.fetch_html(url, return_status=True)
+        
+        # If 404 and using default format, try season_first as fallback
+        if not html and status == 404 and url_format == "default":
+            logger.info(f"Got 404 for {team['team']} at {url}, trying season_first URL format as fallback")
+            url = URLBuilder.build_url(team['url'], season, "season_first", entity_type=self.entity_type)
+            logger.info(f"Trying fallback URL: {url}")
+            html = self.fetch_html(url)
         
         if not html:
             return []
@@ -2253,7 +2404,7 @@ class TableScraper(BaseScraper):
                 url_format == 'four_digit_year' or
                 team['url'].startswith('https://hawaiiathletics.com')):
                 verification_season = f"{season[:4]}-{season[:2]}{season[-2:]}"
-            if not SeasonVerifier.verify_season_on_page(html, verification_season, entity_type=self.entity_type):
+            if not SeasonVerifier.verify_season_on_page(html, verification_season, entity_type=self.entity_type, team_id=team['ncaa_id']):
                 logger.warning(f"Season {verification_season} not found on page for {team['team']}")
                 return []
 
@@ -2398,9 +2549,11 @@ class TableScraper(BaseScraper):
             first_row = table.find('tr')
             headers = [th.get_text(strip=True) for th in first_row.find_all(['th', 'td'])]
 
-        # Clean headers
-        unwanted = ['MAJOR', 'Social', 'Pronounciation', 'Wt.', 'Ltrs.', 'Pronouns', 'Major']
-        headers = [h for h in headers if h and h not in unwanted]
+        # Clean headers - keep empty headers to maintain cell alignment
+        unwanted = ['Social', 'Pronounciation', 'Pronouns']
+        # Replace empty headers with placeholder to maintain alignment
+        headers = [h if h else '_empty_' for h in headers]
+        headers = [h for h in headers if h not in unwanted]
 
         # Extract rows
         tbody = table.find('tbody')
@@ -2410,7 +2563,9 @@ class TableScraper(BaseScraper):
 
     def _extract_table_player(self, row, headers: List[str], team: Dict, season: str) -> Optional[Player]:
         """Extract player data from table row"""
-        cells = row.find_all(['td', 'th'])
+        all_cells = row.find_all(['td', 'th'])
+        # Filter out hidden cells (responsive tables may have duplicate cells for mobile/desktop)
+        cells = [cell for cell in all_cells if FieldExtractors.is_visible_cell(cell)]
         if len(cells) < len(headers):
             return None
 
@@ -2892,7 +3047,14 @@ class RosterManager:
             url_format = config.get('url_format', 'default') if config else 'default'
             
             url = URLBuilder.build_url(team['url'], season, url_format, entity_type=self.entity_type)
-            html = self.fetch_html(url)
+            html, status = self.fetch_html(url, return_status=True)
+            
+            # If 404 and using default format, try season_first as fallback
+            if not html and status == 404 and url_format == "default":
+                logger.info(f"Got 404 during season verification for {team['team']}, trying season_first URL format as fallback")
+                url = URLBuilder.build_url(team['url'], season, "season_first", entity_type=self.entity_type)
+                logger.info(f"Trying fallback URL: {url}")
+                html = self.fetch_html(url)
             
             if not html:
                 return False
@@ -2906,22 +3068,38 @@ class RosterManager:
                     team['ncaa_id'] in [209, 339, 340, 77, 670, 1013, 11403, 11504] or
                     team['url'].startswith('https://hawaiiathletics.com')):
                     verification_season = f"{season[:4]}-{season[:2]}{season[-2:]}"
-                return SeasonVerifier.verify_season_on_page(html, verification_season, entity_type=self.entity_type)
+                return SeasonVerifier.verify_season_on_page(html, verification_season, entity_type=self.entity_type, team_id=team['ncaa_id'])
             
             return True  # Assume OK for non-Sidearm sites
         except Exception as e:
             logger.warning(f"Failed to verify season for {team['team']}: {e}")
             return True  # Default to True if verification fails
 
-    def fetch_html(self, url: str) -> Optional[BeautifulSoup]:
-        """Fetch and parse HTML from URL"""
+    def fetch_html(self, url: str, return_status: bool = False) -> Optional[Union[BeautifulSoup, tuple]]:
+        """Fetch and parse HTML from URL
+        
+        Args:
+            url: URL to fetch
+            return_status: If True, return (html, status_code) tuple instead of just html
+        
+        Returns:
+            BeautifulSoup object if return_status=False, or (BeautifulSoup, status_code) tuple if return_status=True
+        """
         try:
-            response = requests.get(url, timeout=30)
+            response = requests.get(url, timeout=30, verify=False)
+            status_code = response.status_code  # Capture before raise_for_status()
             response.raise_for_status()
-            return BeautifulSoup(response.text, 'html.parser')
-        except requests.RequestException as e:
+            html = BeautifulSoup(response.text, 'html.parser')
+            return (html, status_code) if return_status else html
+        except requests.HTTPError as e:
+            if return_status:
+                logger.error(f"Failed to fetch {url}: {e}")
+                return (None, status_code)  # Use the status_code we captured
             logger.error(f"Failed to fetch {url}: {e}")
             return None
+        except requests.RequestException as e:
+            logger.error(f"Failed to fetch {url}: {e}")
+            return (None, None) if return_status else None
 
     def save_failed_year_check_teams_to_csv(self, output_file: str):
         """Save teams that failed the year check to CSV file"""

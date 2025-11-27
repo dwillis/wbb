@@ -2320,7 +2320,7 @@
   {
     "team": "Greenville",
     "twitter": "guwbball",
-    "url": "http://athletics.greenville.edu/sports/wbkb",
+    "url": "https://greenvillepanthers.com/sports/womens-basketball",
     "ncaa_id": 1111
   },
   {
@@ -3259,7 +3259,7 @@
   {
     "team": "American International",
     "twitter": "AICWBB",
-    "url": "https://aicyellowjackets.com/sports/wbkb",
+    "url": "https://aicyellowjackets.com/sports/womens-basketball",
     "ncaa_id": 22
   },
   {
@@ -3364,7 +3364,7 @@
   {
     "team": "Franklin Pierce",
     "twitter": "FPURavensWBB",
-    "url": "https://www.fpuravens.com/sports/wbkb",
+    "url": "https://fpuravens.com/sports/womens-basketball",
     "ncaa_id": 241
   },
   {
@@ -3627,7 +3627,7 @@
   {
     "team": "St. Thomas (TX)",
     "twitter": "USTWBB",
-    "url": "https://ustcelts.com/sports/wbkb",
+    "url": "https://ustcelts.com/sports/womens-basketball",
     "ncaa_id": 2810
   },
   {
@@ -3767,7 +3767,7 @@
   {
     "team": "Trine",
     "twitter": "TrineWBB",
-    "url": "https://www.trinethunder.com/sports/wbkb",
+    "url": "https://trinethunder.com/sports/wbball",
     "ncaa_id": 30037
   },
   {
@@ -3880,7 +3880,7 @@
   {
     "team": "Penn St. Harrisburg",
     "twitter": "PSHbgWBBall",
-    "url": "https://athletics.hbg.psu.edu/sports/wbkb",
+    "url": "https://psuharrisburgsports.com/sports/womens-basketball",
     "ncaa_id": 30081
   },
   {
@@ -5248,7 +5248,7 @@
   {
     "team": "Bethany (WV)",
     "twitter": "BCWBB",
-    "url": "https://www.bethanybison.com/sports/wbkb",
+    "url": "https://bethanybison.com/sports/womens-basketball",
     "ncaa_id": 59
   },
   {
@@ -5546,7 +5546,7 @@
   {
     "team": "Texas Lutheran",
     "twitter": "TLUwbb",
-    "url": "https://tlubulldogs.com/sports/wbkb",
+    "url": "https://tlubulldogs.com/sports/womens-basketball",
     "ncaa_id": 1400,
     "stats_name": "Texas Lutheran"
   },
@@ -5802,7 +5802,7 @@
   {
     "team": "Wellesley",
     "twitter": "WellesleyBB",
-    "url": "https://www.wellesleyblue.com/sports/wbkb",
+    "url": "https://wellesleyblue.com/sports/womens-basketball",
     "ncaa_id": 760
   },
   {
@@ -5933,7 +5933,7 @@
   {
     "team": "Wis.-Oshkosh",
     "twitter": "UWOWBB1",
-    "url": "https://www.uwoshkoshtitans.com/sports/wbkb",
+    "url": "https://uwoshkoshtitans.com/sports/womens-basketball",
     "ncaa_id": 798
   },
   {
@@ -5953,7 +5953,7 @@
   {
     "team": "Wis.-Platteville",
     "twitter": "UWPLATTWBB",
-    "url": "https://letsgopioneers.com/sports/wbkb",
+    "url": "https://letsgopioneers.com/sports/womens-basketball",
     "ncaa_id": 800
   },
   {
@@ -5998,7 +5998,7 @@
   {
     "team": "Wooster",
     "twitter": "WoosterWBB",
-    "url": "https://www.woosterathletics.com/sports/wbkb",
+    "url": "https://woosterathletics.com/sports/womens-basketball",
     "ncaa_id": 807
   },
   {
@@ -6089,7 +6089,7 @@
   {
     "team": "St. Mary's (IN)",
     "twitter": "SMC_Basketball",
-    "url": "https://belles.saintmarys.edu/sports/wbkb",
+    "url": "https://belles.saintmarys.edu/sports/wbball",
     "ncaa_id": 8688
   },
   {
@@ -6107,7 +6107,7 @@
   {
     "team": "Southwestern (TX)",
     "twitter": "SUPiratesWBB",
-    "url": "https://www.southwesternpirates.com/sports/w-baskbl/index",
+    "url": "https://southwesternpirates.com/sports/womens-basketball",
     "ncaa_id": 8746
   },
   {
@@ -6339,5 +6339,269 @@
     "ncaa_id": 542,
     "private": true,
     "stats_name": "Pfeiffer"
+  },
+  {
+    "team": "Allen",
+    "url": "https://auyellowjackets.com/sports/womens-basketball",
+    "ncaa_id": 30240,
+    "stats_name": "Allen"
+  },
+  {
+    "team": "Azusa Pacific",
+    "url": "https://athletics.apu.edu/sports/womens-basketball",
+    "ncaa_id": 30146,
+    "stats_name": "Azusa Pacific"
+  },
+  {
+    "team": "Bryn Mawr",
+    "url": "https://gobrynmawr.com/sports/womens-basketball",
+    "ncaa_id": 82,
+    "stats_name": "Bryn Mawr"
+  },
+  {
+    "team": "Stanislaus St.",
+    "url": "https://warriorathletics.com/sports/womens-basketball",
+    "ncaa_id": 103,
+    "stats_name": "Stanislaus St."
+  },
+  {
+    "team": "Claflin",
+    "url": "https://athletics.claflin.edu/sports/womens-basketball",
+    "ncaa_id": 30058,
+    "stats_name": "Claflin"
+  },
+  {
+    "team": "Clarion",
+    "url": "https://clariongoldeneagles.com/sports/womens-basketball",
+    "ncaa_id": 143,
+    "stats_name": "Clarion"
+  },
+  {
+    "team": "Clayton State",
+    "url": "https://claytonstatesports.com/sports/wbball",
+    "ncaa_id": 20576,
+    "stats_name": "Clayton State"
+  },
+  {
+    "team": "Colby-Sawyer College",
+    "url": "https://www.colby-sawyerathletics.com/sports/womens-basketball",
+    "ncaa_id": 152,
+    "stats_name": "Colby-Sawyer College"
+  },
+  {
+    "team": "Dominican (CA)",
+    "url": "https://dominicanathletics.com/sports/womens-basketball",
+    "ncaa_id": 30118,
+    "stats_name": "Dominican (CA)"
+  },
+  {
+    "team": "Elizabeth City St.",
+    "url": "https://ecsuvikings.com/sports/womens-basketball",
+    "ncaa_id": 210,
+    "stats_name": "Elizabeth City St."
+  },
+  {
+    "team": "Fayetteville St.",
+    "url": "https://fsubroncos.com/sports/womens-basketball",
+    "ncaa_id": 223,
+    "stats_name": "Fayetteville St."
+  },
+  {
+    "team": "Fort Valley St.",
+    "url": "https://fvsusports.com/sports/womens-basketball",
+    "ncaa_id": 237,
+    "stats_name": "Fort Valley St."
+  },
+  {
+    "team": "Gallaudet",
+    "url": "https://gallaudetbison.com/sports/womens-basketball",
+    "ncaa_id": 245,
+    "stats_name": "Gallaudet"
+  },
+  {
+    "team": "Ga. Southwestern",
+    "url": "https://gswcanes.com/sports/wbball",
+    "ncaa_id": 1097,
+    "stats_name": "Ga. Southwestern"
+  },
+  {
+    "team": "Agnes Scott College",
+    "url": "https://ascscotties.com/sports/womens-basketball",
+    "ncaa_id": 11324,
+    "stats_name": "Agnes Scott College"
+  },
+  {
+    "team": "Salem (NC)",
+    "url": "https://salemspirits.com/sports/womens-basketball",
+    "ncaa_id": 30041,
+    "stats_name": "Salem (NC)"
+  },
+  {
+    "team": "Brevard College",
+    "url": "https://bctornados.com/sports/womens-basketball",
+    "ncaa_id": 30094,
+    "stats_name": "Brevard College"
+  },
+  {
+    "team": "SUNY Buffalo",
+    "url": "https://buffalostateathletics.com/sports/womens-basketball",
+    "ncaa_id": 85,
+    "stats_name": "SUNY Buffalo"
+  },
+  {
+    "team": "Illinois-Springfield",
+    "url": "https://uisprairiestars.com/sports/womens-basketball",
+    "ncaa_id": 30050,
+    "stats_name": "Illinois-Springfield"
+  },
+  {
+    "team": "Vanguard",
+    "url": "https://vanguardlions.com/sports/womens-basketball",
+    "ncaa_id": 30263,
+    "stats_name": "Vanguard"
+  },
+  {
+    "team": "Mary",
+    "url": "https://goumary.com/sports/womens-basketball",
+    "ncaa_id": 30075,
+    "stats_name": "Mary"
+  },
+  {
+    "team": "Salem St.",
+    "url": "https://salemstatevikings.com/sports/wbkb",
+    "ncaa_id": 621,
+    "stats_name": "Salem St."
+  },
+  {
+    "team": "Minnesota-Morris",
+    "url": "https://morriscougars.com/sports/womens-basketball",
+    "ncaa_id": 1226,
+    "stats_name": "Minnesota-Morris"
+  },
+  {
+    "team": "Savannah St.",
+    "url": "https://ssuathletics.com/sports/womens-basketball",
+    "ncaa_id": 632,
+    "stats_name": "Savannah St."
+  },
+  {
+    "team": "Ozarks",
+    "url": "https://uofoathletics.com/sports/womens-basketball",
+    "ncaa_id": 23008,
+    "stats_name": "Ozarks"
+  },
+  {
+    "team": "Shaw",
+    "url": "https://shawbears.com/sports/womens-basketball",
+    "ncaa_id": 636,
+    "stats_name": "Shaw"
+  },
+  {
+    "team": "Texas A&M-International",
+    "url": "https://godustdevils.com/sports/womens-basketball",
+    "ncaa_id": 30090,
+    "stats_name": "Texas A&M-International"
+  },
+  {
+    "team": "Thomas More",
+    "url": "https://thomasmoresaints.com/sports/womens-basketball",
+    "ncaa_id": 1402,
+    "stats_name": "Thomas More"
+  },
+  {
+    "team": "Pacific",
+    "url": "https://pacifictigers.com/sports/womens-basketball",
+    "ncaa_id": 534,
+    "stats_name": "Pacific"
+  },
+  {
+    "team": "Slippery Rock",
+    "url": "https://rockathletics.com/sports/womens-basketball",
+    "ncaa_id": 643,
+    "stats_name": "Slippery Rock"
+  },
+  {
+    "team": "U.S. Merchant Marine",
+    "url": "https://www.usmmasports.com/sports/wbball",
+    "ncaa_id": 724,
+    "stats_name": "U.S. Merchant Marine"
+  },
+  {
+    "team": "UMass Boston",
+    "url": "https://beaconsathletics.com/sports/womens-basketball",
+    "ncaa_id": 401,
+    "stats_name": "UMass Boston"
+  },
+  {
+    "team": "Virginia State",
+    "url": "https://govsutrojans.com/sports/womens-basketball",
+    "ncaa_id": 743,
+    "stats_name": "Virginia State"
+  },
+  {
+    "team": "Virginia Union",
+    "url": "https://vuusports.com/sports/womens-basketball",
+    "ncaa_id": 744,
+    "stats_name": "Virginia Union"
+  },
+  {
+    "team": "Dominican (IL)",
+    "url": "https://dustars.com/sports/womens-basketball",
+    "ncaa_id": 1332,
+    "stats_name": "Dominican (IL)"
+  },
+  {
+    "team": "Spring Hill",
+    "url": "https://shcbadgers.com/sports/womens-basketball",
+    "ncaa_id": 31091,
+    "stats_name": "Spring Hill"
+  },
+  {
+    "team": "Lynchburg",
+    "url": "https://lynchburgsports.com/sports/womens-basketball",
+    "ncaa_id": 374,
+    "stats_name": "Lynchburg"
+  },
+  {
+    "team": "Williams College",
+    "url": "https://ephsports.williams.edu/sports/womens-basketball",
+    "ncaa_id": 789,
+    "stats_name": "Williams College"
+  },
+  {
+    "team": "Westmont",
+    "url": "https://athletics.westmont.edu/sports/womens-basketball",
+    "ncaa_id": 30260,
+    "stats_name": "Westmont"
+  },
+  {
+    "team": "West Virginia Wesleyan",
+    "url": "https://wesleyanbobcats.com/sports/womens-basketball",
+    "ncaa_id": 9630,
+    "stats_name": "West Virginia Wesleyan"
+  },
+  {
+    "team": "West Georgia",
+    "url": "https://uwgathletics.com/sports/womens-basketball",
+    "ncaa_id": 766,
+    "stats_name": "West Georgia"
+  },
+  {
+    "team": "West Chester",
+    "url": "https://wcupagoldenrams.com/sports/womens-basketball",
+    "ncaa_id": 765,
+    "stats_name": "West Chester"
+  },
+  {
+    "team": "Lynn",
+    "url": "https://lynnfightingknights.com/sports/womens-basketball",
+    "ncaa_id": 20794,
+    "stats_name": "Lynn"
+  },
+  {
+    "team": "SUNY Cobleskill",
+    "url": "https://fightingtigers.cobleskill.edu/sports/womens-basketball",
+    "ncaa_id": 30083,
+    "stats_name": "SUNY Cobleskill"
   }
 ]
