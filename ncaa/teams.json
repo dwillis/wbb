@@ -3460,16 +3460,6 @@
         "division": "I"
     },
     {
-        "team": "Fontbonne",
-        "url": "https://fontbonnegriffins.com/sports/wbkb",
-        "ncaa_id": 11538,
-        "stats_name": "",
-        "twitter": "fontbonnewbb",
-        "team_state": "MO",
-        "conference": "SLIAC",
-        "division": "III"
-    },
-    {
         "team": "Neb.-Kearney",
         "url": "https://lopers.com/sports/womens-basketball",
         "ncaa_id": 1156,
@@ -5580,16 +5570,6 @@
         "division": "III"
     },
     {
-        "team": "Ill. Springfield",
-        "url": "https://uisprairiestars.com/sports/womens-basketball",
-        "ncaa_id": 30050,
-        "stats_name": "Ill. Springfield",
-        "twitter": "UISWBB",
-        "team_state": "IL",
-        "conference": "GLVC",
-        "division": "II"
-    },
-    {
         "team": "North Georgia",
         "url": "https://ungathletics.com/sports/womens-basketball",
         "ncaa_id": 30052,
@@ -6587,16 +6567,6 @@
         "twitter": "lycowomensbb",
         "team_state": "PA",
         "conference": "MAC Freedom",
-        "division": "III"
-    },
-    {
-        "team": "Lynchburg",
-        "url": "https://lynchburgsports.com/sports/womens-basketball",
-        "ncaa_id": 374,
-        "stats_name": "",
-        "twitter": "lynchburg_wbb",
-        "team_state": "VA",
-        "conference": "ODAC",
         "division": "III"
     },
     {
@@ -9290,16 +9260,6 @@
         "division": "III"
     },
     {
-        "team": "West Va. Wesleyan",
-        "url": "https://wesleyanbobcats.com/sports/womens-basketball",
-        "ncaa_id": 9630,
-        "stats_name": "",
-        "twitter": "wvwcwbb",
-        "team_state": "WV",
-        "conference": "MEC",
-        "division": "II"
-    },
-    {
         "team": "Arcadia",
         "url": "https://arcadiaknights.com/sports/womens-basketball",
         "ncaa_id": 966,
@@ -9613,7 +9573,7 @@
         "team": "Illinois-Springfield",
         "url": "https://uisprairiestars.com/sports/womens-basketball",
         "ncaa_id": 30050,
-        "stats_name": "Illinois-Springfield",
+        "stats_name": "Ill. Springfield",
         "twitter": "UISWBB",
         "team_state": "IL",
         "conference": "GLVC",
@@ -9823,7 +9783,7 @@
         "team": "West Virginia Wesleyan",
         "url": "https://wesleyanbobcats.com/sports/womens-basketball",
         "ncaa_id": 9630,
-        "stats_name": "West Virginia Wesleyan",
+        "stats_name": "West Va. Wesleyan",
         "twitter": "wvwcwbb",
         "team_state": "WV",
         "conference": "MEC",
@@ -10117,16 +10077,6 @@
         "twitter": "",
         "team_state": "NY",
         "conference": "ECC",
-        "division": "II"
-    },
-    {
-        "team": "Limestone",
-        "url": "https://golimestonesaints.com/sports/womens-basketball",
-        "ncaa_id": 1174,
-        "stats_name": "Limestone",
-        "twitter": "",
-        "team_state": "SC",
-        "conference": "SAC",
         "division": "II"
     },
     {
@@ -10770,16 +10720,6 @@
         "division": "III"
     },
     {
-        "team": "Rosemont",
-        "url": "https://rosemont-ravens.com/sports/womens-basketball",
-        "ncaa_id": 15882,
-        "stats_name": "Rosemont",
-        "twitter": "",
-        "team_state": "PA",
-        "conference": "United East",
-        "division": "III"
-    },
-    {
         "team": "Rivier",
         "url": "https://rivierathletics.com/sports/womens-basketball",
         "ncaa_id": 18422,
@@ -10907,16 +10847,6 @@
         "twitter": "",
         "team_state": "ME",
         "conference": "CNE",
-        "division": "III"
-    },
-    {
-        "team": "Northland",
-        "url": "https://northlandcollegesports.com/sports/womens-basketball",
-        "ncaa_id": 1267,
-        "stats_name": "Northland",
-        "twitter": "",
-        "team_state": "WI",
-        "conference": "UMAC",
         "division": "III"
     },
     {
