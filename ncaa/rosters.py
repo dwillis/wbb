@@ -104,9 +104,12 @@ class FieldExtractors:
     @staticmethod
     def extract_position(text: str) -> str:
         """Extract position from text"""
-        # Look for position patterns
-        position_match = re.search(r'\b([GFC](?:/[GFC])?)\b', text)
+        # Look for position patterns - including two-letter positions (PG, SG, SF, PF, CG)
+        # Also supports non-traditional positions like S (Shooter), BP (Ball Player), etc.
+        # Matches: Common position codes (1-2 uppercase letters) and combinations
+        position_match = re.search(r'\b([A-Z]{1,2}(?:/[A-Z]{1,2})?)\b', text)
         if position_match:
+            # Return any valid 1-2 letter position code
             return position_match.group(1)
         
         # Look for full position names
@@ -690,17 +693,23 @@ class JSTemplates:
             const jerseyElem = player.querySelector('.sidearm-roster-player-jersey-number, .sidearm-roster-player-jersey');
             const jersey = jerseyElem ? jerseyElem.textContent.trim().replace('#', '') : '';
             
-            // Get position - get direct text only, not from child elements
+            // Get position - check nested .text-bold first (for CMSV, Delaware State structure)
             const positionElem = player.querySelector('.sidearm-roster-player-position');
             let position = '';
             if (positionElem) {
-                // Get only direct text nodes, not text from child elements like height
-                for (const node of positionElem.childNodes) {
-                    if (node.nodeType === Node.TEXT_NODE) {
-                        const text = node.textContent.trim();
-                        if (text && !text.match(/^\d+['"]?\d*["']?$/)) {  // Skip if it looks like height
-                            position = text;
-                            break;
+                // First try to get position from nested .text-bold span
+                const textBold = positionElem.querySelector('.text-bold, span.text-bold');
+                if (textBold) {
+                    position = textBold.textContent.trim();
+                } else {
+                    // Fallback: Get only direct text nodes, not text from child elements like height
+                    for (const node of positionElem.childNodes) {
+                        if (node.nodeType === Node.TEXT_NODE) {
+                            const text = node.textContent.trim();
+                            if (text && !text.match(/^\d+['"]?\d*["']?$/)) {  // Skip if it looks like height
+                                position = text;
+                                break;
+                            }
                         }
                     }
                 }
@@ -1494,7 +1503,7 @@ class TeamConfig:
         218: {'url_format': 'season_first'},
         238: {'url_format': 'season_first'},
         255: {'url_format': 'season_path'},
-        306: {'url_format': 'direct'},
+        306: {'url_format': 'default'},  # Indiana - uses /roster/2024-25
         308: {'url_format': 'default'},
         312: {'url_format': 'iowa_table'},  # Iowa
         324: {'url_format': 'season_first'},
@@ -1592,8 +1601,18 @@ class TeamConfig:
     # Teams that should have state abbreviation added to hometowns without state
     # Only hometowns without a comma will have ", STATE" appended (using team's team_state field)
     ADD_STATE_TO_HOMETOWN = {
+        46,   # Baldwin Wallace - Ohio hometowns need ", OH" added
+        98,   # Cal St. East Bay - California hometowns need ", CA" added
+        100,  # Cal St. LA - California hometowns need ", CA" added
+        168,  # Cortland - New York hometowns need ", NY" added
+        200,  # Eastern Conn. St. - Connecticut hometowns need ", CT" added
+        452,  # Mount Union - Ohio hometowns need ", OH" added
+        455,  # Muskingum - Ohio hometowns need ", OH" added
         517,  # Ohio Northern - Ohio hometowns need ", OH" added
         525,  # Olivet - Michigan hometowns need ", MI" added
+        531,  # Otterbein - Ohio hometowns need ", OH" added
+        795,  # Wisconsin-La Crosse - Wisconsin hometowns need ", WI" added
+        798,  # Wis.-Oshkosh - Wisconsin hometowns need ", WI" added
     }
     
     # Custom JavaScript teams
@@ -2276,8 +2295,20 @@ class StandardScraper(BaseScraper):
             for selector in name_selectors:
                 name_elem = player_elem.select_one(selector)
                 if name_elem:
-                    name = FieldExtractors.clean_text(name_elem.get_text())
-                    break
+                    # Special handling: if this is .sidearm-roster-player-name, check for nested <a> or <h3> first
+                    # This handles cases like CMSV where jersey number is nested inside the name div
+                    if 'sidearm-roster-player-name' in selector:
+                        # Try to get name from nested link or h3 to avoid picking up nested jersey number
+                        nested_link = name_elem.select_one('h3 a, a[href*="/roster/"]')
+                        if nested_link:
+                            name = FieldExtractors.clean_text(nested_link.get_text())
+                            if name:
+                                break
+                    # If no special handling or it didn't work, use the element text
+                    if not name:
+                        name = FieldExtractors.clean_text(name_elem.get_text())
+                    if name:
+                        break
             
             # Fallback to aria-label if no name found
             if not name and player_elem.find('a') and 'aria-label' in player_elem.find('a').attrs:
@@ -2515,6 +2546,17 @@ class StandardScraper(BaseScraper):
     
     def _get_position(self, player_elem) -> str:
         """Extract position"""
+        # First try to find position in a nested .text-bold span within .sidearm-roster-player-position
+        # This handles cases like CMSV where position and height are in the same parent element
+        pos_container = player_elem.select_one('.sidearm-roster-player-position')
+        if pos_container:
+            # Look for position in .text-bold span
+            text_bold = pos_container.select_one('.text-bold, span.text-bold')
+            if text_bold:
+                position_text = FieldExtractors.clean_text(text_bold.get_text())
+                if position_text:
+                    return FieldExtractors.extract_position(position_text)
+        
         # Try custom selectors first, then fall back to default
         position_text = self._get_field_with_custom_selectors(player_elem, 'position', 'sidearm-roster-player-position')
         if position_text:
@@ -2893,6 +2935,10 @@ class JavaScriptScraper(BaseScraper):
                     )
                 else:
                     # Player data
+                    # Clean and extract position abbreviation from full text
+                    position_text = entity_data.get('position', '')
+                    position = FieldExtractors.extract_position(position_text) if position_text else ''
+                    
                     player = Player(
                         team_id=team['ncaa_id'],
                         team=team['team'],
@@ -2903,7 +2949,7 @@ class JavaScriptScraper(BaseScraper):
                         high_school=entity_data.get('high_school', ''),
                         previous_school=entity_data.get('previous_school', ''),
                         height=entity_data.get('height', ''),
-                        position=entity_data.get('position', ''),
+                        position=position,
                         jersey=entity_data.get('jersey', ''),
                         url=player_url,
                         season=season
