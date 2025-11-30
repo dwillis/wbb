@@ -1,0 +1,25 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+csvs-to-sqlite = "*"
+datasette = "*"
+pdfreader = "*"
+tweepy = "*"
+twint = "*"
+requests-html = "*"
+tldextract = "*"
+bs4 = "*"
+selenium = "*"
+shot-scraper = "*"
+jsoncsv = "*"
+goose3 = "*"
+requests = "*"
+sqlite-utils = "*"
+
+[requires]
+python_version = "3.9"

@@ -1,0 +1,8 @@
+.DS_Store
+*.sh
+*/teams/*
+*/players/*
+*.rds
+__pycache__/
+*.pyc
+*.pyo

@@ -1,0 +1,112 @@
+---
+title: "NCAA WBB Rosters"
+output: html_notebook
+---
+
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+rosters_2021_22 <- read_csv("~/code/wbb/ncaa/rosters_2021-22.csv")
+rosters_2021_22 <- rosters_2021_22 %>% mutate(year_clean = year, position_clean = position)
+
+rosters_2022_23 <- read_csv("~/code/wbb/ncaa/rosters_2022-23.csv") %>% select(-height,-player_id,-jersey,-position)
+```
+
+```{r}
+rosters_2021_22 <- rosters_2021_22 %>% mutate(year_clean = case_when(
+        year == 'Sr.' ~ 'Senior',
+        year == 'Sr' ~ 'Senior',
+        year == 'SR' ~ 'Senior',
+        year == 'Senior*' ~ 'Senior',
+        year == 'Senior+' ~ 'Senior',
+        year == 'Jr.' ~ 'Junior',
+        year == 'Jr' ~ 'Junior',
+        year == 'JR' ~ 'Junior',
+        year == 'Jr.-Tr.' ~ 'Junior',
+        year == 'Jr.-1L' ~ 'Junior',
+        year == 'Jr.-2L' ~ 'Junior',
+        year == 'So.' ~ 'Sophomore',
+        year == 'So' ~ 'Sophomore',
+        year == 'SO' ~ 'Sophomore',
+        year == 'So.-1L' ~ 'Sophomore',
+        year == 'So.-Tr.' ~ 'Sophomore',
+        year == 'Fr.' ~ 'Freshman',
+        year == 'FR' ~ 'Freshman',
+        year == 'First-year' ~ 'Freshman',
+        year == 'First-Year Student' ~ 'Freshman',
+        year == 'Fr.-HS' ~ 'Freshman',
+        year == 'Gr.' ~ 'Graduate Student',
+        year == 'Gr' ~ 'Graduate Student',
+        year == 'GR' ~ 'Graduate Student',
+        year == 'Grad' ~ 'Graduate Student',
+        year == 'Grad.' ~ 'Graduate Student',
+        year == 'Graduate' ~ 'Graduate Student',
+        year == 'RFr.' ~ 'Redshirt Freshman',
+        year == 'RFr' ~ 'Redshirt Freshman',
+        year == 'R-Fr.' ~ 'Redshirt Freshman',
+        year == 'Fr.-RS' ~ 'Redshirt Freshman',
+        year == 'Fr. (rs)' ~ 'Redshirt Freshman',
+        year == 'r-So.' ~ 'Redshirt Sophomore',
+        year == 'R-So.' ~ 'Redshirt Sophomore',
+        year == 'So. (rs)' ~ 'Redshirt Sophomore',
+        year == 'Redshirt-Sophomore' ~ 'Redshirt Sophomore',
+        year == 'RSo' ~ 'Redshirt Sophomore',
+        year == 'RSo.' ~ 'Redshirt Sophomore',
+        year == 'R-Jr.' ~ 'Redshirt Junior',
+        year == 'RS Jr.' ~ 'Redshirt Junior',
+        year == 'Jr.-R' ~ 'Redshirt Junior',
+        year == 'R-Junior' ~ 'Redshirt Junior',
+        year == 'Jr. (rs)' ~ 'Redshirt Junior',
+        year == 'RSr.' ~ 'Redshirt Senior',
+        year == 'RSr*' ~ 'Redshirt Senior',
+        year == 'RSr' ~ 'Redshirt Senior',
+        year == 'RS Senior' ~ 'Redshirt Senior',
+        year == 'RS Senior' ~ 'Redshirt Senior',
+        year == 'Redshirt-Senior' ~ 'Redshirt Senior',
+        year == 'First Year' ~ 'Freshman',
+        year == 'First-Year' ~ 'Freshman',
+        year == 'Fy.' ~ 'Freshman',
+        year == 'Fy' ~ 'Freshman',
+        year == 'FY' ~ 'Freshman',
+        year == 'Fr' ~ 'Freshman',
+        TRUE ~ year_clean
+))
+```
+
+```{r}
+rosters_2021_22 <- rosters_2021_22 %>% mutate(position_clean = case_when(
+        position == 'Guard' ~ 'G',
+        position == 'guard' ~ 'G',
+        position == 'Point' ~ 'PG',
+        position == 'Point Guard' ~ 'PG',
+        position == 'Point-Guard' ~ 'PG',
+        position == 'G.' ~ 'G',
+        position == 'Point/Shooting' ~ 'PG/SG',
+        position == 'Shooting/Point' ~ 'SG/PG',
+        position == 'Shooting' ~ 'SG',
+        position == 'Gaurd' ~ 'G',
+        position == 'Guard/' ~ 'G',
+        position == 'GUARD' ~ 'G',
+        position == 'Forward' ~ 'F',
+        position == 'FWD' ~ 'F',
+        position == 'Center' ~ 'C',
+        position == 'Guard/Forward' ~ 'G/F',
+        position == 'G / F' ~ 'G/F',
+        position == 'G | F' ~ 'G/F',
+        position == 'Guard-Forward' ~ 'G/F',
+        position == 'Guard/Forawrd' ~ 'G/F',
+        position == 'Guard/Foward' ~ 'G/F',
+        position == 'Forward/Center' ~ 'F/C',
+        position == 'FWD/C' ~ 'F/C',
+        TRUE ~ position_clean)
+)
+
+position_clean <- rosters_2021_22 %>% group_by(position_clean) %>% summarize(count = n())
+
+rosters_2021_22_extract <- rosters_2021_22 %>% select(-height,-player_id,-jersey,-position)
+```
+
+

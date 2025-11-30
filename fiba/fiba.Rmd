@@ -1,0 +1,108 @@
+---
+title: "fiba"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Loading libraries
+
+```{r}
+library(tidyverse)
+library(stringr)
+library(fs)
+```
+
+## setup data
+
+```{r}
+data_dir <- "/Users/dwillis/code/wbb/fiba/data"
+csv_files <- fs::dir_ls(data_dir, regexp = "\\.csv$")
+replace_str <- str_c("_players_game_stats.csv")
+```
+
+## Load data into single dataframe
+
+```{r}
+results <- csv_files %>%
+    map_df(~read_csv(.x, col_types=cols(minutes = col_time(format = "%M:%S"), number=col_character(), date=col_character()), col_names = c('team1','team2','team1_score','team2_score','date','number','player','minutes','points','fg','fg2','fg3','ft','offensive_rebounds','defensive_rebounds','rebounds','assists','fouls','turnovers','steals','blocks','plus_minus','efficiency'), skip = 1), .id = "event")
+```
+
+## Fix source column and add year based on event
+
+```{r}
+results <- results %>% 
+    mutate(event = str_replace(event, data_dir, "")) %>%
+    mutate(event = str_replace(event, replace_str, "")) %>%
+    mutate(event = str_replace(event, "/", "")) %>%
+    mutate(year = str_sub(event,start=-4L, end=-1L)) %>%
+    separate(event,into=c("event","year"),sep="_")
+```
+
+## Split columns with / into separate columns and remove originals
+
+```{r}
+results <- results %>%
+    mutate(tmp_chunks = stringr::str_split(fg,"/",n=2)) %>%
+    mutate(fgm=map_chr(tmp_chunks, 1), fga=map_chr(tmp_chunks, 2)) %>%
+    select(-tmp_chunks) %>%
+    mutate(tmp_chunks = stringr::str_split(fg2,"/",n=2)) %>%
+    mutate(fg2m=map_chr(tmp_chunks, 1), fg2a=map_chr(tmp_chunks, 2)) %>%
+    select(-tmp_chunks) %>%
+    mutate(tmp_chunks = stringr::str_split(fg3,"/",n=2)) %>%
+    mutate(fg3m=map_chr(tmp_chunks, 1), fg3a=map_chr(tmp_chunks, 2)) %>%
+    select(-tmp_chunks) %>%
+    mutate(tmp_chunks = stringr::str_split(ft,"/",n=2)) %>%
+    mutate(ftm=map_chr(tmp_chunks, 1), fta=map_chr(tmp_chunks, 2)) %>%
+    select(-tmp_chunks) %>%
+    select(-fg,-fg2,-fg3,-ft)
+```
+
+## Fix dates
+
+```{r}
+results <- results %>% 
+    mutate(char_date=paste(str_squish(date), str_squish(as.character(year)))) %>%
+    mutate(game_date=parse_date(char_date, format="%d%m %Y")) %>% 
+    mutate(year = if_else(game_date > '2021-08-30', 2020, as.double(year))) %>%
+    mutate(char_date=if_else(game_date > '2021-08-30', paste(str_squish(date), str_squish(as.character(year))), char_date)) %>%
+    mutate(game_date=parse_date(char_date, format="%d%m %Y")) %>%
+    select(-char_date, -date)
+```
+
+## Fix team names
+```{r}
+results <- results %>%
+  mutate(team1 = if_else(team1 == 'Bosnia & Herzegovina', 'Bosnia and Herzegovina', team1)) %>%
+  mutate(team2 = if_else(team2 == 'Bosnia & Herzegovina', 'Bosnia and Herzegovina', team2)) %>%
+  mutate(team1 = if_else(team1 == "People's Republic of China", 'China', team1)) %>%
+  mutate(team2 = if_else(team2 == "People's Republic of China", 'China', team2)) %>%
+  mutate(team1 = if_else(team1 == 'Slovak Republic', 'Slovakia', team1)) %>%
+  mutate(team2 = if_else(team2 == 'Slovak Republic', 'Slovakia', team2)) %>%
+  mutate(team1 = if_else(team1 == 'United States of America', 'USA', team1)) %>%
+  mutate(team2 = if_else(team2 == 'United States of America', 'USA', team2)) %>%
+  mutate(team1 = if_else(team1 == 'Virgin Islands', 'US Virgin Islands', team1)) %>%
+  mutate(team2 = if_else(team2 == 'Virgin Islands', 'US Virgin Islands', team2)) %>%
+  mutate(winner = if_else(team1_score > team2_score, team1, team2)) %>%
+
+teams1 <- results %>% distinct(team1) %>% rename(team=team1)
+teams2 <- results %>% distinct(team2) %>% rename(team=team2)
+master_teams <- full_join(teams1, teams2) %>% arrange(team)
+```
+
+## Generate distinct games
+
+```{r}
+fiba_games <- results %>% distinct(event, year, game_date, team1, team1_score, team2, team2_score, winner)
+fiba_games <- fiba_games %>% filter(team1 == winner) %>%
+  mutate(margin = team1_score-team2_score)
+```
+
+## Output
+
+```{r}
+write_excel_csv(results, 'fiba_player_stats.csv')
+write_excel_csv(fiba_games, 'fiba_games.csv')
+```

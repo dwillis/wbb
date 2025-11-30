@@ -1,0 +1,331 @@
+country,vs,team_score,vs_score,date,#,Players,Min,Pts,FG,2Pts,3Pts,FT,OREB,DREB,REB,AST,PF,TO,STL,BLK,+/-,EFF
+Mexico,Bahamas,61,56,1207,4,Alexis Castro,22:52,10,3/7,3/6,0/1,4/4,0,1,1,2,2,2,0,1,-10,8
+Mexico,Bahamas,61,56,1207,5,Jacqueline Luna,33:07,10,3/8,3/8,0/0,4/4,3,6,9,5,1,2,0,2,12,19
+Mexico,Bahamas,61,56,1207,6,Gladiana Avila,18:44,0,0/3,0/2,0/1,0/0,0,1,1,1,0,2,0,0,-11,-3
+Mexico,Bahamas,61,56,1207,7,Ingrid Martinez,16:08,4,2/4,2/4,0/0,0/0,2,0,2,1,0,2,0,0,-10,3
+Mexico,Bahamas,61,56,1207,8,Paola Beltran,01:05,0,0/0,0/0,0/0,0/0,0,0,0,0,1,2,0,0,-3,-2
+Mexico,Bahamas,61,56,1207,9,Brisa Silva,23:51,8,4/8,4/6,0/2,0/0,1,2,3,3,0,2,1,0,15,9
+Mexico,Bahamas,61,56,1207,10,Carmen Saad,08:49,1,0/1,0/1,0/0,1/2,1,0,1,2,0,1,0,0,-2,1
+Mexico,Bahamas,61,56,1207,11,Daniela Pardo,30:04,14,5/9,2/4,3/5,1/2,0,0,0,3,2,2,4,0,10,14
+Mexico,Bahamas,61,56,1207,12,Laura Nuñez,19:14,4,2/4,2/4,0/0,0/0,0,4,4,2,5,1,0,6,15,13
+Mexico,Bahamas,61,56,1207,13,Myriam Lara,02:48,0,0/0,0/0,0/0,0/0,0,1,1,0,3,0,0,0,0,1
+Mexico,Bahamas,61,56,1207,14,Jazmin Valenzuela,01:57,0,0/1,0/1,0/0,0/0,0,1,1,0,2,1,0,1,-7,0
+Mexico,Bahamas,61,56,1207,15,Maria Orozco,21:15,10,5/7,5/7,0/0,0/0,2,2,4,2,1,1,2,0,16,15
+Bahamas,Mexico,56,61,1207,4,Valerie Nesbitt,23:50,6,3/10,3/9,0/1,0/0,2,0,2,2,3,3,1,0,-10,1
+Bahamas,Mexico,56,61,1207,5,Samantha Gilbert,01:59,0,0/0,0/0,0/0,0/0,0,1,1,0,1,0,0,0,-4,1
+Bahamas,Mexico,56,61,1207,6,Tracy Lewis,17:04,0,0/1,0/1,0/0,0/0,0,0,0,1,2,1,1,0,-6,0
+Bahamas,Mexico,56,61,1207,7,Diasti Delancy,14:48,0,0/2,0/2,0/0,0/0,0,1,1,3,0,1,0,0,-4,1
+Bahamas,Mexico,56,61,1207,8,Pamela Bethel,11:01,2,1/3,1/3,0/0,0/0,4,2,6,0,2,0,0,0,-7,6
+Bahamas,Mexico,56,61,1207,9,Lashae Rolle,11:37,2,1/2,1/2,0/0,0/0,2,2,4,1,0,1,0,0,2,5
+Bahamas,Mexico,56,61,1207,10,Sha-Londa Neely,23:16,7,3/9,3/9,0/0,1/2,2,3,5,0,2,1,1,0,3,5
+Bahamas,Mexico,56,61,1207,11,Leashja Grant,27:53,29,10/24,10/23,0/1,9/15,5,2,7,0,3,0,3,0,2,19
+Bahamas,Mexico,56,61,1207,12,Linda Pierre,10:02,2,0/1,0/1,0/0,2/2,0,1,1,0,0,0,0,0,-1,2
+Bahamas,Mexico,56,61,1207,13,Philicia Kelly,33:11,7,3/13,3/12,0/1,1/2,3,2,5,2,0,3,2,0,-6,2
+Bahamas,Mexico,56,61,1207,14,Joette Fernander,08:20,0,0/0,0/0,0/0,0/0,1,1,2,1,0,0,1,0,15,4
+Bahamas,Mexico,56,61,1207,15,Taneil Poitier,16:54,1,0/0,0/0,0/0,1/2,0,1,1,0,0,1,0,0,-9,0
+Puerto Rico,Jamaica,90,44,1207,1,Tayra Melendez,20:21,4,1/6,1/5,0/1,2/2,1,1,2,3,2,1,0,0,15,3
+Puerto Rico,Jamaica,90,44,1207,2,Ashley Santos,17:01,9,4/11,3/10,1/1,0/0,3,3,6,1,3,0,0,0,12,9
+Puerto Rico,Jamaica,90,44,1207,3,Adily Martucci,14:06,4,2/6,2/5,0/1,0/0,0,1,1,1,1,0,1,0,28,3
+Puerto Rico,Jamaica,90,44,1207,5,Pamela Rosado,23:03,18,7/11,3/5,4/6,0/0,1,6,7,5,1,0,5,0,24,31
+Puerto Rico,Jamaica,90,44,1207,7,Angelica Bermudez,11:56,1,0/0,0/0,0/0,1/2,1,0,1,1,0,2,2,0,2,2
+Puerto Rico,Jamaica,90,44,1207,10,Paola Crespo,10:06,0,0/1,0/1,0/0,0/2,1,1,2,0,0,0,0,0,9,-1
+Puerto Rico,Jamaica,90,44,1207,11,Michelle Gonzalez,18:13,15,6/14,3/8,3/6,0/0,0,2,2,3,0,2,4,0,31,14
+Puerto Rico,Jamaica,90,44,1207,12,Dayshalee Salaman,15:46,12,4/6,3/5,1/1,3/4,1,4,5,5,1,1,4,0,25,22
+Puerto Rico,Jamaica,90,44,1207,14,Marie Placido,15:16,5,2/5,1/1,1/4,0/0,0,1,1,0,1,0,1,1,19,5
+Puerto Rico,Jamaica,90,44,1207,22,Ashley Perez,16:59,4,2/5,2/2,0/3,0/0,0,1,1,0,3,0,2,0,3,4
+Puerto Rico,Jamaica,90,44,1207,24,Yolanda Jones,16:41,6,3/7,3/7,0/0,0/0,1,4,5,1,3,1,0,0,30,7
+Puerto Rico,Jamaica,90,44,1207,25,Isalys Quiñones,20:29,12,6/6,6/6,0/0,0/0,1,0,1,1,0,0,1,0,32,15
+Jamaica,Puerto Rico,44,90,1207,4,Tarita Gordon,27:23,3,0/8,0/2,0/6,3/3,0,2,2,3,2,1,1,0,-28,0
+Jamaica,Puerto Rico,44,90,1207,5,Ashalee Gordon,06:38,2,1/2,1/2,0/0,0/0,0,1,1,0,0,0,0,0,-3,2
+Jamaica,Puerto Rico,44,90,1207,6,Zandria Dell,12:37,2,1/1,1/1,0/0,0/0,0,1,1,0,0,4,0,0,-21,-1
+Jamaica,Puerto Rico,44,90,1207,7,Loreta Ann Gordon,10:07,2,0/2,0/2,0/0,2/2,0,1,1,0,0,2,0,0,-15,-1
+Jamaica,Puerto Rico,44,90,1207,8,Sasha Dixon,32:08,6,2/6,1/2,1/4,1/2,1,2,3,3,0,5,2,0,-38,4
+Jamaica,Puerto Rico,44,90,1207,9,Kimoya Draggon,01:35,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-3,0
+Jamaica,Puerto Rico,44,90,1207,10,Angelee Latouche,30:22,2,1/2,1/2,0/0,0/0,1,1,2,0,2,2,0,0,-42,1
+Jamaica,Puerto Rico,44,90,1207,11,Shenneika Smith,28:23,11,5/8,5/7,0/1,1/3,0,4,4,1,1,9,1,1,-26,4
+Jamaica,Puerto Rico,44,90,1207,12,Nicole Dias,02:23,0,0/2,0/2,0/0,0/0,0,0,0,0,0,0,0,0,-6,-2
+Jamaica,Puerto Rico,44,90,1207,13,Yanique Gordon,25:21,14,4/11,4/10,0/1,6/8,1,5,6,0,3,2,1,1,-25,11
+Jamaica,Puerto Rico,44,90,1207,14,Ladonna Lamonth,15:13,2,1/6,1/6,0/0,0/0,4,5,9,0,1,1,0,0,-15,5
+Jamaica,Puerto Rico,44,90,1207,15,Antoinnette Bannister,07:43,0,0/2,0/0,0/2,0/0,0,0,0,0,1,1,0,0,-8,-3
+Guatemala,Virgin Islands,58,82,1207,4,Alma Lopez,30:43,10,4/9,2/4,2/5,0/0,1,0,1,3,2,3,1,0,-11,7
+Guatemala,Virgin Islands,58,82,1207,5,Krystha Cano,06:19,0,0/1,0/1,0/0,0/2,1,0,1,0,2,4,0,0,-13,-6
+Guatemala,Virgin Islands,58,82,1207,6,Astrid Garcia,17:19,5,2/8,1/4,1/4,0/0,0,1,1,0,2,1,0,0,-15,-1
+Guatemala,Virgin Islands,58,82,1207,7,Zaby Aldana,24:13,10,3/5,2/4,1/1,3/4,0,1,1,3,1,4,0,0,-13,7
+Guatemala,Virgin Islands,58,82,1207,8,Linda Gonzalez,13:58,2,1/2,1/2,0/0,0/0,2,1,3,0,3,1,0,0,1,3
+Guatemala,Virgin Islands,58,82,1207,9,Diana Chavarria,03:14,0,0/2,0/2,0/0,0/0,1,1,2,1,0,0,0,0,-5,1
+Guatemala,Virgin Islands,58,82,1207,10,Ligia Del Valle,09:26,0,0/1,0/1,0/0,0/0,1,0,1,0,3,0,1,0,-13,1
+Guatemala,Virgin Islands,58,82,1207,11,Angelica Cardenas,20:11,4,2/6,2/6,0/0,0/0,0,1,1,0,5,0,2,0,1,3
+Guatemala,Virgin Islands,58,82,1207,12,Emily Rosales,26:14,9,2/10,1/4,1/6,4/6,1,6,7,4,4,1,1,1,-6,11
+Guatemala,Virgin Islands,58,82,1207,13,Luisa Rivas,20:17,2,1/6,1/6,0/0,0/2,1,1,2,2,2,0,1,0,-17,0
+Guatemala,Virgin Islands,58,82,1207,14,Sonia Vasquez,26:40,16,6/16,6/15,0/1,4/4,3,5,8,0,3,2,0,1,-31,13
+Guatemala,Virgin Islands,58,82,1207,15,Vicky Juarez,01:19,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,2,0
+Virgin Islands,Guatemala,82,58,1207,4,Breya Wallace,05:22,0,0/1,0/0,0/1,0/2,0,1,1,0,0,0,0,0,-5,-2
+Virgin Islands,Guatemala,82,58,1207,5,Tanecka Carey,09:37,4,1/2,1/1,0/1,2/4,0,0,0,0,0,1,0,1,2,1
+Virgin Islands,Guatemala,82,58,1207,6,Kadesha Barry,19:58,2,0/1,0/1,0/0,2/4,0,0,0,1,2,1,2,0,14,1
+Virgin Islands,Guatemala,82,58,1207,7,Natalie Day,31:42,21,7/12,7/11,0/1,7/7,11,6,17,1,2,7,2,3,28,32
+Virgin Islands,Guatemala,82,58,1207,8,Raemiesha Claxton,08:52,0,0/0,0/0,0/0,0/0,0,0,0,0,2,2,1,0,-4,-1
+Virgin Islands,Guatemala,82,58,1207,9,Lanese Bough,31:55,4,2/5,2/5,0/0,0/0,0,3,3,11,1,0,2,0,31,17
+Virgin Islands,Guatemala,82,58,1207,10,Victoria Hamilton,17:23,12,4/8,4/8,0/0,4/5,4,1,5,0,2,0,2,0,9,14
+Virgin Islands,Guatemala,82,58,1207,12,Imani Tate,37:50,18,6/15,6/14,0/1,6/6,1,6,7,6,4,1,2,1,23,24
+Virgin Islands,Guatemala,82,58,1207,13,Taylor Jones,20:43,18,4/9,2/6,2/3,8/10,0,3,3,2,1,2,1,2,17,17
+Virgin Islands,Guatemala,82,58,1207,14,Anisha George,16:35,3,1/5,1/5,0/0,1/5,3,6,9,1,3,3,0,2,5,4
+Bahamas,Jamaica,48,64,1307,4,Valerie Nesbitt,12:33,3,1/2,0/0,1/2,0/0,0,0,0,2,5,2,1,0,-4,3
+Bahamas,Jamaica,48,64,1307,5,Samantha Gilbert,08:08,2,1/2,1/2,0/0,0/0,2,1,3,0,0,0,0,0,-5,4
+Bahamas,Jamaica,48,64,1307,6,Tracy Lewis,15:23,4,2/6,2/6,0/0,0/1,1,0,1,1,2,0,2,0,-23,3
+Bahamas,Jamaica,48,64,1307,7,Diasti Delancy,15:45,0,0/1,0/1,0/0,0/0,0,2,2,4,1,0,1,0,3,6
+Bahamas,Jamaica,48,64,1307,8,Pamela Bethel,17:19,9,3/6,3/5,0/1,3/4,2,1,3,0,0,0,0,0,-6,8
+Bahamas,Jamaica,48,64,1307,9,Lashae Rolle,04:11,0,0/2,0/2,0/0,0/0,0,0,0,0,0,1,0,0,0,-3
+Bahamas,Jamaica,48,64,1307,10,Sha-Londa Neely,21:46,6,3/9,3/9,0/0,0/0,0,3,3,0,1,1,3,0,-7,5
+Bahamas,Jamaica,48,64,1307,11,Leashja Grant,30:01,12,5/16,5/12,0/4,2/3,4,6,10,2,2,3,1,0,-13,10
+Bahamas,Jamaica,48,64,1307,12,Linda Pierre,02:42,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,1,0,-1,1
+Bahamas,Jamaica,48,64,1307,13,Philicia Kelly,31:38,8,3/15,3/9,0/6,2/5,2,1,3,0,2,3,0,0,-19,-7
+Bahamas,Jamaica,48,64,1307,14,Joette Fernander,22:04,2,1/4,1/4,0/0,0/0,0,0,0,2,4,2,0,0,-10,-1
+Bahamas,Jamaica,48,64,1307,15,Taneil Poitier,18:23,2,1/4,1/3,0/1,0/0,1,3,4,3,1,4,0,0,5,2
+Jamaica,Bahamas,64,48,1307,4,Tarita Gordon,27:36,10,4/9,4/7,0/2,2/4,0,4,4,4,0,3,2,0,15,10
+Jamaica,Bahamas,64,48,1307,5,Ashalee Gordon,06:54,0,0/1,0/1,0/0,0/0,0,0,0,0,0,0,0,2,-9,1
+Jamaica,Bahamas,64,48,1307,6,Zandria Dell,05:15,3,1/1,1/1,0/0,1/2,0,0,0,0,0,0,0,0,1,2
+Jamaica,Bahamas,64,48,1307,7,Loreta Ann Gordon,06:36,2,1/4,1/4,0/0,0/0,0,0,0,0,0,0,0,0,-3,-1
+Jamaica,Bahamas,64,48,1307,8,Sasha Dixon,29:58,16,5/12,3/7,2/5,4/4,1,5,6,2,2,1,3,0,15,19
+Jamaica,Bahamas,64,48,1307,10,Angelee Latouche,24:26,4,1/1,1/1,0/0,2/2,1,4,5,1,5,0,0,1,12,11
+Jamaica,Bahamas,64,48,1307,11,Shenneika Smith,38:14,10,5/10,5/10,0/0,0/1,0,7,7,3,3,5,2,0,15,11
+Jamaica,Bahamas,64,48,1307,13,Yanique Gordon,33:49,16,4/8,4/8,0/0,8/9,3,7,10,2,2,1,3,3,20,28
+Jamaica,Bahamas,64,48,1307,14,Ladonna Lamonth,07:17,0,0/0,0/0,0/0,0/0,1,1,2,0,1,1,0,0,0,1
+Jamaica,Bahamas,64,48,1307,15,Antoinnette Bannister,19:48,3,0/3,0/1,0/2,3/3,0,2,2,1,1,3,2,1,14,3
+Guatemala,Puerto Rico,55,87,1307,4,Alma Lopez,32:45,4,1/5,1/3,0/2,2/2,0,5,5,2,1,0,2,0,-34,9
+Guatemala,Puerto Rico,55,87,1307,5,Krystha Cano,03:58,2,1/1,1/1,0/0,0/0,1,0,1,1,0,0,1,0,4,5
+Guatemala,Puerto Rico,55,87,1307,6,Astrid Garcia,22:15,6,2/4,2/3,0/1,2/2,1,4,5,1,3,0,0,0,-25,10
+Guatemala,Puerto Rico,55,87,1307,7,Zaby Aldana,28:00,4,1/6,1/5,0/1,2/2,0,4,4,0,1,6,4,0,-17,1
+Guatemala,Puerto Rico,55,87,1307,8,Linda Gonzalez,18:42,4,2/5,2/5,0/0,0/0,1,1,2,0,0,0,0,1,-13,4
+Guatemala,Puerto Rico,55,87,1307,9,Diana Chavarria,11:50,3,1/4,1/4,0/0,1/2,1,0,1,0,1,1,0,0,-19,-1
+Guatemala,Puerto Rico,55,87,1307,10,Ligia Del Valle,17:26,2,1/4,1/3,0/1,0/0,0,2,2,5,3,1,0,0,-9,5
+Guatemala,Puerto Rico,55,87,1307,11,Angelica Cardenas,13:30,2,1/3,1/3,0/0,0/0,0,1,1,1,3,1,0,0,-12,1
+Guatemala,Puerto Rico,55,87,1307,12,Emily Rosales,05:26,0,0/4,0/2,0/2,0/0,0,0,0,0,0,2,0,0,-7,-6
+Guatemala,Puerto Rico,55,87,1307,13,Luisa Rivas,07:12,0,0/1,0/0,0/1,0/2,1,1,2,1,2,2,0,0,-4,-2
+Guatemala,Puerto Rico,55,87,1307,14,Sonia Vasquez,34:18,22,8/20,8/20,0/0,6/6,4,7,11,1,5,2,0,0,-28,20
+Guatemala,Puerto Rico,55,87,1307,15,Vicky Juarez,04:31,6,2/3,0/0,2/3,0/0,0,0,0,0,0,0,1,0,4,6
+Puerto Rico,Guatemala,87,55,1307,1,Tayra Melendez,20:04,8,3/8,2/4,1/4,1/1,3,5,8,0,0,1,0,3,22,13
+Puerto Rico,Guatemala,87,55,1307,2,Ashley Santos,18:40,8,4/10,4/9,0/1,0/0,3,2,5,1,0,1,1,0,25,8
+Puerto Rico,Guatemala,87,55,1307,3,Adily Martucci,20:28,5,2/3,2/3,0/0,1/1,1,1,2,2,2,1,1,0,9,8
+Puerto Rico,Guatemala,87,55,1307,5,Pamela Rosado,22:01,13,5/11,2/3,3/8,0/0,2,3,5,5,1,0,1,0,25,18
+Puerto Rico,Guatemala,87,55,1307,7,Angelica Bermudez,11:44,0,0/1,0/1,0/0,0/0,2,2,4,2,1,1,0,0,12,4
+Puerto Rico,Guatemala,87,55,1307,10,Paola Crespo,10:20,0,0/1,0/1,0/0,0/0,0,1,1,0,2,1,0,0,3,-1
+Puerto Rico,Guatemala,87,55,1307,11,Michelle Gonzalez,22:06,3,1/6,0/2,1/4,0/0,2,2,4,6,1,1,1,0,13,8
+Puerto Rico,Guatemala,87,55,1307,12,Dayshalee Salaman,17:55,14,3/10,1/6,2/4,6/6,0,2,2,3,1,0,0,0,5,12
+Puerto Rico,Guatemala,87,55,1307,14,Marie Placido,18:17,13,5/9,2/2,3/7,0/0,1,1,2,1,1,1,1,1,6,13
+Puerto Rico,Guatemala,87,55,1307,22,Ashley Perez,17:53,17,7/14,4/6,3/8,0/0,0,3,3,3,3,2,0,0,19,14
+Puerto Rico,Guatemala,87,55,1307,24,Yolanda Jones,07:18,4,1/1,1/1,0/0,2/6,1,1,2,0,3,1,2,0,4,3
+Puerto Rico,Guatemala,87,55,1307,25,Isalys Quiñones,13:06,2,1/3,1/3,0/0,0/0,1,1,2,1,1,0,2,0,14,5
+Virgin Islands,Mexico,63,55,1307,5,Tanecka Carey,18:44,7,2/3,0/0,2/3,1/2,0,1,1,0,0,1,0,0,6,5
+Virgin Islands,Mexico,63,55,1307,6,Kadesha Barry,04:47,0,0/0,0/0,0/0,0/0,0,1,1,0,0,0,0,0,7,1
+Virgin Islands,Mexico,63,55,1307,7,Natalie Day,38:54,19,9/19,9/15,0/4,1/2,1,7,8,1,1,4,2,3,9,18
+Virgin Islands,Mexico,63,55,1307,8,Raemiesha Claxton,05:08,0,0/0,0/0,0/0,0/0,0,0,0,0,2,0,1,0,1,1
+Virgin Islands,Mexico,63,55,1307,9,Lanese Bough,36:20,0,0/2,0/2,0/0,0/0,0,5,5,2,1,3,0,0,1,2
+Virgin Islands,Mexico,63,55,1307,10,Victoria Hamilton,37:01,18,9/14,9/14,0/0,0/0,2,5,7,3,1,4,0,0,6,19
+Virgin Islands,Mexico,63,55,1307,12,Imani Tate,35:26,13,4/10,2/8,2/2,3/3,1,8,9,5,2,5,5,0,10,21
+Virgin Islands,Mexico,63,55,1307,13,Taylor Jones,09:54,4,1/5,1/4,0/1,2/3,0,1,1,0,0,2,0,0,0,-2
+Virgin Islands,Mexico,63,55,1307,14,Anisha George,13:41,2,1/4,1/4,0/0,0/0,2,2,4,0,4,1,0,0,0,2
+Mexico,Virgin Islands,55,63,1307,4,Alexis Castro,26:58,11,4/6,4/6,0/0,3/4,0,6,6,1,1,2,0,0,2,13
+Mexico,Virgin Islands,55,63,1307,5,Jacqueline Luna,24:43,8,3/9,3/8,0/1,2/2,1,2,3,1,1,4,1,1,-11,4
+Mexico,Virgin Islands,55,63,1307,6,Gladiana Avila,21:37,5,2/7,2/6,0/1,1/1,0,0,0,6,1,1,1,0,-8,6
+Mexico,Virgin Islands,55,63,1307,7,Ingrid Martinez,18:16,6,3/6,3/4,0/2,0/1,0,2,2,0,2,1,1,1,-6,5
+Mexico,Virgin Islands,55,63,1307,9,Brisa Silva,21:43,8,3/7,1/3,2/4,0/0,0,2,2,1,0,0,1,0,-2,8
+Mexico,Virgin Islands,55,63,1307,10,Carmen Saad,11:32,5,2/2,2/2,0/0,1/2,0,2,2,1,0,0,1,0,0,8
+Mexico,Virgin Islands,55,63,1307,11,Daniela Pardo,28:27,4,2/6,2/4,0/2,0/0,0,2,2,3,1,3,3,0,-8,5
+Mexico,Virgin Islands,55,63,1307,12,Laura Nuñez,28:17,8,4/13,4/11,0/2,0/0,2,4,6,2,4,0,0,1,-7,8
+Mexico,Virgin Islands,55,63,1307,15,Maria Orozco,18:22,0,0/3,0/3,0/0,0/0,1,1,2,0,2,0,0,0,0,-1
+Jamaica,Guatemala,66,48,1407,4,Tarita Gordon,24:53,16,5/9,3/5,2/4,4/4,1,6,7,2,2,4,2,0,11,19
+Jamaica,Guatemala,66,48,1407,5,Ashalee Gordon,09:35,6,3/4,3/4,0/0,0/0,0,2,2,1,0,1,0,1,10,8
+Jamaica,Guatemala,66,48,1407,6,Zandria Dell,02:35,0,0/0,0/0,0/0,0/0,0,0,0,0,0,1,0,0,-2,-1
+Jamaica,Guatemala,66,48,1407,7,Loreta Ann Gordon,13:48,3,1/4,1/4,0/0,1/1,0,4,4,1,0,1,0,0,9,4
+Jamaica,Guatemala,66,48,1407,8,Sasha Dixon,34:20,5,2/11,2/8,0/3,1/4,3,8,11,3,1,2,1,0,17,6
+Jamaica,Guatemala,66,48,1407,9,Kimoya Draggon,02:54,0,0/1,0/1,0/0,0/0,0,0,0,0,0,1,0,0,-2,-2
+Jamaica,Guatemala,66,48,1407,10,Angelee Latouche,33:18,4,2/10,2/10,0/0,0/0,5,6,11,1,3,3,2,1,19,8
+Jamaica,Guatemala,66,48,1407,11,Shenneika Smith,28:30,12,6/10,6/9,0/1,0/0,0,6,6,5,1,7,4,1,15,17
+Jamaica,Guatemala,66,48,1407,12,Nicole Dias,01:45,0,0/1,0/1,0/0,0/0,0,0,0,0,1,0,0,0,-2,-1
+Jamaica,Guatemala,66,48,1407,13,Yanique Gordon,22:10,7,3/8,3/8,0/0,1/2,2,6,8,1,1,2,0,0,4,8
+Jamaica,Guatemala,66,48,1407,14,Ladonna Lamonth,05:16,0,0/0,0/0,0/0,0/0,1,0,1,0,0,0,0,0,-6,1
+Jamaica,Guatemala,66,48,1407,15,Antoinnette Bannister,20:46,13,5/6,4/4,1/2,2/2,0,3,3,2,1,3,0,0,15,14
+Guatemala,Jamaica,48,66,1407,4,Alma Lopez,37:46,9,3/11,0/2,3/9,0/0,2,2,4,3,2,0,1,0,-15,9
+Guatemala,Jamaica,48,66,1407,6,Astrid Garcia,22:12,0,0/7,0/2,0/5,0/0,0,1,1,0,1,0,1,0,-8,-5
+Guatemala,Jamaica,48,66,1407,7,Zaby Aldana,34:54,7,3/11,2/6,1/5,0/0,0,3,3,3,3,5,7,0,-22,7
+Guatemala,Jamaica,48,66,1407,8,Linda Gonzalez,18:02,1,0/4,0/4,0/0,1/4,1,1,2,1,0,0,2,0,-10,-1
+Guatemala,Jamaica,48,66,1407,10,Ligia Del Valle,13:58,2,1/3,1/1,0/2,0/0,0,4,4,0,1,0,1,0,3,5
+Guatemala,Jamaica,48,66,1407,11,Angelica Cardenas,11:41,2,1/2,1/2,0/0,0/0,0,1,1,1,0,3,2,0,-11,2
+Guatemala,Jamaica,48,66,1407,12,Emily Rosales,14:38,4,2/5,2/2,0/3,0/0,0,0,0,1,3,2,1,1,-5,2
+Guatemala,Jamaica,48,66,1407,13,Luisa Rivas,02:28,0,0/1,0/0,0/1,0/0,0,1,1,0,0,0,0,0,-4,0
+Guatemala,Jamaica,48,66,1407,14,Sonia Vasquez,38:25,20,7/19,5/15,2/4,4/6,1,6,7,0,3,4,1,0,-14,10
+Guatemala,Jamaica,48,66,1407,15,Vicky Juarez,05:27,3,1/4,0/0,1/4,0/0,0,0,0,0,0,0,0,0,-3,0
+Puerto Rico,Mexico,58,64,1407,1,Tayra Melendez,26:14,2,1/3,1/1,0/2,0/0,3,3,6,1,1,3,1,0,-10,5
+Puerto Rico,Mexico,58,64,1407,2,Ashley Santos,22:00,6,2/7,0/3,2/4,0/0,0,2,2,1,3,1,1,0,-1,4
+Puerto Rico,Mexico,58,64,1407,3,Adily Martucci,09:58,0,0/1,0/0,0/1,0/0,1,0,1,0,0,0,0,0,0,0
+Puerto Rico,Mexico,58,64,1407,5,Pamela Rosado,23:34,17,5/10,3/5,2/5,5/7,1,2,3,1,3,2,2,0,-3,14
+Puerto Rico,Mexico,58,64,1407,7,Angelica Bermudez,18:25,4,2/6,2/6,0/0,0/4,3,2,5,0,2,1,0,0,-13,0
+Puerto Rico,Mexico,58,64,1407,11,Michelle Gonzalez,14:27,0,0/3,0/2,0/1,0/0,0,1,1,2,4,2,1,0,1,-1
+Puerto Rico,Mexico,58,64,1407,12,Dayshalee Salaman,15:37,9,2/5,2/4,0/1,5/6,0,0,0,0,0,2,1,0,-2,4
+Puerto Rico,Mexico,58,64,1407,14,Marie Placido,07:43,3,1/2,0/0,1/2,0/0,0,0,0,0,2,0,0,0,-3,2
+Puerto Rico,Mexico,58,64,1407,22,Ashley Perez,24:19,6,2/11,2/8,0/3,2/2,0,0,0,1,1,2,1,0,-8,-3
+Puerto Rico,Mexico,58,64,1407,24,Yolanda Jones,25:58,9,3/10,3/10,0/0,3/7,4,5,9,1,2,0,3,1,9,12
+Puerto Rico,Mexico,58,64,1407,25,Isalys Quiñones,11:39,2,0/1,0/1,0/0,2/2,1,1,2,0,0,0,1,1,0,5
+Mexico,Puerto Rico,64,58,1407,4,Alexis Castro,16:41,10,4/6,2/4,2/2,0/0,0,1,1,0,2,1,0,0,7,8
+Mexico,Puerto Rico,64,58,1407,5,Jacqueline Luna,29:42,17,7/9,5/6,2/3,1/2,1,5,6,1,1,3,2,0,-1,20
+Mexico,Puerto Rico,64,58,1407,6,Gladiana Avila,14:59,4,1/4,0/2,1/2,1/2,0,2,2,1,1,2,0,0,-1,1
+Mexico,Puerto Rico,64,58,1407,7,Ingrid Martinez,14:16,4,1/2,1/2,0/0,2/2,0,3,3,2,2,3,0,0,4,5
+Mexico,Puerto Rico,64,58,1407,9,Brisa Silva,22:11,3,1/7,0/2,1/5,0/0,2,1,3,3,1,1,0,0,5,2
+Mexico,Puerto Rico,64,58,1407,10,Carmen Saad,20:01,4,1/4,1/3,0/1,2/4,0,0,0,2,2,3,0,0,-7,-2
+Mexico,Puerto Rico,64,58,1407,11,Daniela Pardo,20:01,8,3/5,2/3,1/2,1/2,0,1,1,4,5,1,2,0,14,11
+Mexico,Puerto Rico,64,58,1407,12,Laura Nuñez,27:36,6,2/4,2/4,0/0,2/2,2,9,11,1,5,1,2,0,19,17
+Mexico,Puerto Rico,64,58,1407,13,Myriam Lara,02:50,0,0/0,0/0,0/0,0/0,0,0,0,0,0,1,0,0,-8,-1
+Mexico,Puerto Rico,64,58,1407,14,Jazmin Valenzuela,03:43,0,0/1,0/1,0/0,0/0,0,0,0,0,0,0,0,0,-4,-1
+Mexico,Puerto Rico,64,58,1407,15,Maria Orozco,27:49,8,4/7,4/7,0/0,0/0,1,3,4,1,1,1,1,0,2,10
+Virgin Islands,Bahamas,63,56,1407,5,Tanecka Carey,03:56,0,0/0,0/0,0/0,0/0,0,2,2,0,0,1,0,0,-1,1
+Virgin Islands,Bahamas,63,56,1407,6,Kadesha Barry,15:26,2,1/3,1/2,0/1,0/0,0,2,2,1,0,1,0,2,-4,4
+Virgin Islands,Bahamas,63,56,1407,7,Natalie Day,33:10,22,7/15,5/12,2/3,6/6,3,6,9,1,3,7,2,1,7,20
+Virgin Islands,Bahamas,63,56,1407,8,Raemiesha Claxton,03:52,2,1/1,1/1,0/0,0/0,0,0,0,0,0,0,0,0,3,2
+Virgin Islands,Bahamas,63,56,1407,9,Lanese Bough,31:22,4,2/5,2/5,0/0,0/0,1,1,2,6,4,2,4,0,11,11
+Virgin Islands,Bahamas,63,56,1407,10,Victoria Hamilton,35:33,7,2/8,2/8,0/0,3/4,6,4,10,2,4,5,1,0,11,8
+Virgin Islands,Bahamas,63,56,1407,12,Imani Tate,35:32,20,6/16,5/14,1/2,7/7,1,5,6,4,5,2,4,1,9,23
+Virgin Islands,Bahamas,63,56,1407,13,Taylor Jones,12:07,2,1/8,1/4,0/4,0/0,0,1,1,0,1,1,0,0,-8,-5
+Virgin Islands,Bahamas,63,56,1407,14,Anisha George,28:52,4,1/4,1/4,0/0,2/4,2,5,7,0,2,4,2,0,7,4
+Bahamas,Virgin Islands,56,63,1407,4,Valerie Nesbitt,30:24,13,6/17,6/17,0/0,1/1,0,3,3,3,3,8,5,0,-2,5
+Bahamas,Virgin Islands,56,63,1407,5,Samantha Gilbert,09:27,2,1/1,1/1,0/0,0/0,0,3,3,0,1,1,0,1,-1,5
+Bahamas,Virgin Islands,56,63,1407,6,Tracy Lewis,11:43,2,1/2,1/2,0/0,0/0,1,0,1,1,1,0,1,0,-10,4
+Bahamas,Virgin Islands,56,63,1407,7,Diasti Delancy,01:32,0,0/0,0/0,0/0,0/0,0,0,0,0,1,1,0,0,0,-1
+Bahamas,Virgin Islands,56,63,1407,8,Pamela Bethel,20:53,2,1/4,1/3,0/1,0/2,2,3,5,0,4,0,1,1,2,4
+Bahamas,Virgin Islands,56,63,1407,9,Lashae Rolle,06:12,0,0/1,0/1,0/0,0/0,0,0,0,1,0,0,0,0,-5,0
+Bahamas,Virgin Islands,56,63,1407,10,Sha-Londa Neely,24:25,8,4/6,4/6,0/0,0/0,2,4,6,3,1,1,0,1,5,15
+Bahamas,Virgin Islands,56,63,1407,11,Leashja Grant,19:27,8,4/13,4/11,0/2,0/0,1,3,4,1,4,1,1,1,-19,5
+Bahamas,Virgin Islands,56,63,1407,12,Linda Pierre,03:52,1,0/0,0/0,0/0,1/2,0,0,0,0,0,0,0,0,-3,0
+Bahamas,Virgin Islands,56,63,1407,13,Philicia Kelly,33:05,14,4/12,2/8,2/4,4/8,2,2,4,1,3,4,1,0,-7,4
+Bahamas,Virgin Islands,56,63,1407,14,Joette Fernander,16:05,6,2/4,2/4,0/0,2/4,1,0,1,0,2,1,2,0,-2,4
+Bahamas,Virgin Islands,56,63,1407,15,Taneil Poitier,22:49,0,0/5,0/5,0/0,0/0,0,4,4,0,0,1,2,0,6,0
+Guatemala,Mexico,44,61,1507,4,Alma Lopez,39:44,0,0/6,0/3,0/3,0/0,0,3,3,4,2,2,2,0,-16,1
+Guatemala,Mexico,44,61,1507,5,Krystha Cano,01:08,0,0/0,0/0,0/0,0/0,0,0,0,0,1,0,0,0,-4,0
+Guatemala,Mexico,44,61,1507,6,Astrid Garcia,11:39,0,0/5,0/3,0/2,0/0,0,1,1,0,2,1,0,0,-16,-5
+Guatemala,Mexico,44,61,1507,7,Zaby Aldana,33:54,3,1/6,1/5,0/1,1/3,1,5,6,2,0,3,2,0,-13,3
+Guatemala,Mexico,44,61,1507,8,Linda Gonzalez,19:56,6,3/9,3/9,0/0,0/2,2,1,3,1,3,0,0,0,-4,2
+Guatemala,Mexico,44,61,1507,9,Diana Chavarria,03:16,0,0/1,0/1,0/0,0/0,0,1,1,0,0,0,0,0,-6,0
+Guatemala,Mexico,44,61,1507,10,Ligia Del Valle,00:15,0,0/1,0/0,0/1,0/0,0,1,1,0,0,0,0,0,-1,0
+Guatemala,Mexico,44,61,1507,11,Angelica Cardenas,23:29,13,6/9,6/9,0/0,1/2,2,0,2,1,2,3,1,0,4,10
+Guatemala,Mexico,44,61,1507,12,Emily Rosales,30:18,13,4/12,1/4,3/8,2/2,2,5,7,1,1,3,2,0,-11,12
+Guatemala,Mexico,44,61,1507,13,Luisa Rivas,04:55,0,0/5,0/3,0/2,0/0,1,2,3,1,1,0,1,0,1,0
+Guatemala,Mexico,44,61,1507,14,Sonia Vasquez,24:19,6,2/9,2/7,0/2,2/2,2,6,8,0,2,3,0,2,-19,6
+Guatemala,Mexico,44,61,1507,15,Vicky Juarez,07:00,3,1/4,0/0,1/4,0/0,0,0,0,0,1,1,1,0,0,0
+Mexico,Guatemala,61,44,1507,4,Alexis Castro,23:53,9,3/8,3/6,0/2,3/6,3,6,9,3,2,0,0,0,22,13
+Mexico,Guatemala,61,44,1507,5,Jacqueline Luna,23:26,7,2/5,2/5,0/0,3/4,0,0,0,2,1,0,1,0,1,6
+Mexico,Guatemala,61,44,1507,6,Gladiana Avila,15:10,0,0/3,0/2,0/1,0/0,0,2,2,1,1,2,0,1,0,-1
+Mexico,Guatemala,61,44,1507,7,Ingrid Martinez,13:46,0,0/3,0/3,0/0,0/0,0,2,2,1,0,2,0,0,-1,-2
+Mexico,Guatemala,61,44,1507,8,Paola Beltran,02:19,2,0/0,0/0,0/0,2/2,0,2,2,0,1,1,0,0,1,3
+Mexico,Guatemala,61,44,1507,9,Brisa Silva,31:06,9,3/9,0/0,3/9,0/0,0,4,4,3,1,2,4,0,14,12
+Mexico,Guatemala,61,44,1507,10,Carmen Saad,08:51,7,2/4,1/3,1/1,2/2,1,0,1,1,1,1,0,0,8,6
+Mexico,Guatemala,61,44,1507,11,Daniela Pardo,28:48,9,3/9,1/4,2/5,1/2,0,6,6,3,0,2,0,0,8,9
+Mexico,Guatemala,61,44,1507,12,Laura Nuñez,31:10,6,3/5,3/5,0/0,0/0,1,8,9,2,2,3,0,2,14,14
+Mexico,Guatemala,61,44,1507,13,Myriam Lara,02:19,2,1/2,1/2,0/0,0/0,0,0,0,0,0,0,1,1,1,3
+Mexico,Guatemala,61,44,1507,14,Jazmin Valenzuela,02:35,2,1/1,1/1,0/0,0/0,0,1,1,0,0,0,0,0,2,3
+Mexico,Guatemala,61,44,1507,15,Maria Orozco,16:30,8,4/5,4/5,0/0,0/0,0,2,2,0,3,3,1,0,15,7
+Puerto Rico,Bahamas,69,42,1507,1,Tayra Melendez,18:24,8,3/6,3/5,0/1,2/2,2,5,7,0,1,1,2,2,7,15
+Puerto Rico,Bahamas,69,42,1507,2,Ashley Santos,23:54,9,2/7,1/4,1/3,4/4,1,1,2,1,2,0,3,0,12,10
+Puerto Rico,Bahamas,69,42,1507,3,Adily Martucci,08:19,0,0/3,0/2,0/1,0/0,0,1,1,1,0,1,0,0,5,-2
+Puerto Rico,Bahamas,69,42,1507,5,Pamela Rosado,22:19,7,3/13,2/9,1/4,0/0,3,1,4,2,1,0,0,0,7,3
+Puerto Rico,Bahamas,69,42,1507,7,Angelica Bermudez,18:05,2,1/5,1/5,0/0,0/0,0,5,5,0,2,1,0,2,4,4
+Puerto Rico,Bahamas,69,42,1507,10,Paola Crespo,07:53,2,0/1,0/1,0/0,2/2,0,3,3,1,3,1,1,0,11,5
+Puerto Rico,Bahamas,69,42,1507,11,Michelle Gonzalez,19:23,8,3/5,1/3,2/2,0/0,1,3,4,4,0,3,3,0,18,14
+Puerto Rico,Bahamas,69,42,1507,12,Dayshalee Salaman,24:42,14,4/10,4/7,0/3,6/6,1,3,4,3,2,1,2,0,26,16
+Puerto Rico,Bahamas,69,42,1507,14,Marie Placido,08:55,4,1/2,0/1,1/1,1/2,1,1,2,1,0,1,0,0,13,4
+Puerto Rico,Bahamas,69,42,1507,22,Ashley Perez,12:26,2,1/6,1/4,0/2,0/0,1,0,1,2,2,1,2,0,0,1
+Puerto Rico,Bahamas,69,42,1507,24,Yolanda Jones,16:43,5,1/4,1/4,0/0,3/6,3,2,5,0,2,2,2,1,18,5
+Puerto Rico,Bahamas,69,42,1507,25,Isalys Quiñones,18:52,8,4/8,4/7,0/1,0/0,0,1,1,0,0,0,1,0,14,6
+Bahamas,Puerto Rico,42,69,1507,4,Valerie Nesbitt,29:07,2,1/8,1/6,0/2,0/0,1,2,3,2,2,4,1,0,-20,-3
+Bahamas,Puerto Rico,42,69,1507,5,Samantha Gilbert,07:10,1,0/0,0/0,0/0,1/2,2,0,2,0,1,1,0,0,-13,1
+Bahamas,Puerto Rico,42,69,1507,6,Tracy Lewis,04:51,0,0/2,0/1,0/1,0/0,0,0,0,0,0,2,0,0,-11,-4
+Bahamas,Puerto Rico,42,69,1507,7,Diasti Delancy,04:35,0,0/1,0/1,0/0,0/0,0,1,1,0,0,0,0,0,-3,0
+Bahamas,Puerto Rico,42,69,1507,8,Pamela Bethel,10:50,2,0/1,0/1,0/0,2/2,0,2,2,0,2,1,0,0,-17,2
+Bahamas,Puerto Rico,42,69,1507,9,Lashae Rolle,02:03,0,0/0,0/0,0/0,0/0,0,0,0,0,0,1,0,0,-4,-1
+Bahamas,Puerto Rico,42,69,1507,10,Sha-Londa Neely,27:14,11,5/11,5/11,0/0,1/5,4,7,11,1,3,0,1,1,-8,15
+Bahamas,Puerto Rico,42,69,1507,11,Leashja Grant,28:05,15,6/14,6/14,0/0,3/6,3,8,11,1,2,6,2,2,-8,14
+Bahamas,Puerto Rico,42,69,1507,12,Linda Pierre,06:37,0,0/0,0/0,0/0,0/0,0,2,2,0,0,0,0,0,-6,2
+Bahamas,Puerto Rico,42,69,1507,13,Philicia Kelly,35:56,11,4/14,2/6,2/8,1/2,2,2,4,1,2,8,2,0,-19,-1
+Bahamas,Puerto Rico,42,69,1507,14,Joette Fernander,28:40,0,0/2,0/2,0/0,0/0,0,4,4,2,4,0,1,1,-9,6
+Bahamas,Puerto Rico,42,69,1507,15,Taneil Poitier,14:45,0,0/0,0/0,0/0,0/0,0,1,1,2,0,2,0,0,-15,1
+Jamaica,Virgin Islands,40,60,1507,4,Tarita Gordon,27:43,8,2/10,2/5,0/5,4/6,1,2,3,1,1,2,3,0,-13,3
+Jamaica,Virgin Islands,40,60,1507,5,Ashalee Gordon,01:10,2,1/1,1/1,0/0,0/0,0,0,0,0,0,0,0,0,4,2
+Jamaica,Virgin Islands,40,60,1507,7,Loreta Ann Gordon,07:15,0,0/1,0/1,0/0,0/0,0,0,0,0,0,0,0,0,-3,-1
+Jamaica,Virgin Islands,40,60,1507,8,Sasha Dixon,37:16,7,3/14,2/11,1/3,0/0,0,5,5,1,0,3,1,0,-15,0
+Jamaica,Virgin Islands,40,60,1507,10,Angelee Latouche,32:01,1,0/3,0/3,0/0,1/2,0,1,1,3,1,4,2,2,-25,1
+Jamaica,Virgin Islands,40,60,1507,11,Shenneika Smith,33:58,15,5/16,5/13,0/3,5/7,1,4,5,2,2,2,1,0,-19,8
+Jamaica,Virgin Islands,40,60,1507,12,Nicole Dias,10:52,0,0/2,0/2,0/0,0/0,0,1,1,0,1,0,1,0,-8,0
+Jamaica,Virgin Islands,40,60,1507,13,Yanique Gordon,26:00,4,2/10,2/10,0/0,0/0,2,6,8,1,3,1,1,2,-7,7
+Jamaica,Virgin Islands,40,60,1507,15,Antoinnette Bannister,23:41,3,1/3,0/1,1/2,0/0,0,2,2,1,1,2,1,0,-14,3
+Virgin Islands,Jamaica,60,40,1507,4,Breya Wallace,01:37,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-6,0
+Virgin Islands,Jamaica,60,40,1507,5,Tanecka Carey,13:14,6,2/5,0/1,2/4,0/0,0,2,2,0,2,0,2,0,0,7
+Virgin Islands,Jamaica,60,40,1507,6,Kadesha Barry,04:58,0,0/1,0/1,0/0,0/0,0,0,0,0,1,0,0,0,0,-1
+Virgin Islands,Jamaica,60,40,1507,7,Natalie Day,26:34,14,5/10,3/8,2/2,2/2,3,6,9,1,3,4,1,2,14,18
+Virgin Islands,Jamaica,60,40,1507,8,Raemiesha Claxton,06:19,2,1/2,1/2,0/0,0/0,0,0,0,0,0,1,0,0,-5,0
+Virgin Islands,Jamaica,60,40,1507,9,Lanese Bough,33:24,7,3/9,2/8,1/1,0/0,1,5,6,7,2,6,1,0,24,9
+Virgin Islands,Jamaica,60,40,1507,10,Victoria Hamilton,36:39,21,10/18,10/18,0/0,1/1,2,6,8,4,1,3,2,0,26,24
+Virgin Islands,Jamaica,60,40,1507,12,Imani Tate,37:00,8,2/9,0/3,2/6,2/2,1,4,5,2,2,1,1,0,26,8
+Virgin Islands,Jamaica,60,40,1507,13,Taylor Jones,12:46,1,0/4,0/3,0/1,1/2,2,5,7,2,0,3,0,0,3,2
+Virgin Islands,Jamaica,60,40,1507,14,Anisha George,27:24,1,0/5,0/5,0/0,1/2,3,5,8,0,4,2,3,3,18,7
+Bahamas,Guatemala,68,65,1607,4,Valerie Nesbitt,16:50,12,5/10,4/8,1/2,1/4,0,1,1,5,2,3,1,0,12,8
+Bahamas,Guatemala,68,65,1607,6,Tracy Lewis,12:53,5,2/5,2/5,0/0,1/2,2,1,3,1,2,1,0,0,5,4
+Bahamas,Guatemala,68,65,1607,7,Diasti Delancy,15:22,1,0/1,0/1,0/0,1/4,0,1,1,5,0,1,2,0,-2,4
+Bahamas,Guatemala,68,65,1607,8,Pamela Bethel,12:24,6,2/2,1/1,1/1,1/2,2,2,4,0,0,1,0,0,5,8
+Bahamas,Guatemala,68,65,1607,9,Lashae Rolle,05:33,4,2/3,2/2,0/1,0/0,0,0,0,0,0,2,0,0,-3,1
+Bahamas,Guatemala,68,65,1607,10,Sha-Londa Neely,23:16,10,5/8,5/8,0/0,0/2,1,5,6,2,2,1,0,3,-4,15
+Bahamas,Guatemala,68,65,1607,11,Leashja Grant,27:26,14,5/16,5/14,0/2,4/6,10,11,21,1,2,1,0,1,12,23
+Bahamas,Guatemala,68,65,1607,12,Linda Pierre,15:27,0,0/3,0/3,0/0,0/0,1,5,6,0,1,2,0,1,-5,2
+Bahamas,Guatemala,68,65,1607,13,Philicia Kelly,16:50,8,3/6,1/3,2/3,0/0,1,1,2,1,0,1,0,0,12,7
+Bahamas,Guatemala,68,65,1607,14,Joette Fernander,26:11,2,1/6,1/6,0/0,0/0,1,4,5,1,2,2,0,0,-5,1
+Bahamas,Guatemala,68,65,1607,15,Taneil Poitier,27:42,6,2/7,2/6,0/1,2/2,1,5,6,3,2,3,1,0,-12,8
+Guatemala,Bahamas,65,68,1607,4,Alma Lopez,32:50,20,7/16,4/9,3/7,3/5,4,2,6,5,2,0,3,0,0,23
+Guatemala,Bahamas,65,68,1607,6,Astrid Garcia,09:38,0,0/2,0/0,0/2,0/0,0,0,0,0,1,0,0,0,-7,-2
+Guatemala,Bahamas,65,68,1607,7,Zaby Aldana,29:10,7,2/8,1/5,1/3,2/2,0,3,3,3,1,1,4,0,4,10
+Guatemala,Bahamas,65,68,1607,8,Linda Gonzalez,18:16,1,0/2,0/2,0/0,1/2,2,1,3,0,2,1,1,0,-13,1
+Guatemala,Bahamas,65,68,1607,9,Diana Chavarria,09:51,2,1/3,1/3,0/0,0/0,1,0,1,1,0,0,0,0,3,2
+Guatemala,Bahamas,65,68,1607,10,Ligia Del Valle,05:12,0,0/1,0/0,0/1,0/0,0,0,0,0,0,0,0,1,-1,0
+Guatemala,Bahamas,65,68,1607,11,Angelica Cardenas,21:52,4,2/10,2/10,0/0,0/0,2,2,4,0,4,1,1,0,-5,0
+Guatemala,Bahamas,65,68,1607,12,Emily Rosales,32:37,16,6/12,2/5,4/7,0/0,0,5,5,7,4,2,2,0,-1,22
+Guatemala,Bahamas,65,68,1607,14,Sonia Vasquez,29:58,15,6/20,5/18,1/2,2/4,2,4,6,0,3,4,0,0,9,1
+Guatemala,Bahamas,65,68,1607,15,Vicky Juarez,10:30,0,0/2,0/1,0/1,0/0,0,0,0,0,0,0,0,0,-4,-2
+Jamaica,Mexico,43,74,1607,4,Tarita Gordon,21:44,2,1/5,1/5,0/0,0/0,1,1,2,0,0,2,0,0,-19,-2
+Jamaica,Mexico,43,74,1607,5,Ashalee Gordon,04:24,0,0/0,0/0,0/0,0/0,1,0,1,0,0,1,0,0,-2,0
+Jamaica,Mexico,43,74,1607,6,Zandria Dell,03:13,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,1,0,0,1
+Jamaica,Mexico,43,74,1607,7,Loreta Ann Gordon,22:13,4,2/5,2/5,0/0,0/0,0,2,2,0,1,1,1,0,-11,3
+Jamaica,Mexico,43,74,1607,8,Sasha Dixon,31:37,5,2/5,1/4,1/1,0/0,1,2,3,2,2,2,2,1,-30,8
+Jamaica,Mexico,43,74,1607,9,Kimoya Draggon,01:10,0,0/1,0/1,0/0,0/0,0,0,0,0,0,0,0,0,-2,-1
+Jamaica,Mexico,43,74,1607,10,Angelee Latouche,21:15,0,0/2,0/2,0/0,0/0,1,0,1,1,2,1,0,0,-23,-1
+Jamaica,Mexico,43,74,1607,11,Shenneika Smith,38:15,22,8/20,8/18,0/2,6/8,1,2,3,3,2,4,4,1,-29,15
+Jamaica,Mexico,43,74,1607,12,Nicole Dias,05:42,0,0/0,0/0,0/0,0/0,0,2,2,0,0,0,0,0,-2,2
+Jamaica,Mexico,43,74,1607,13,Yanique Gordon,22:48,10,3/12,3/12,0/0,4/4,0,4,4,0,2,2,1,0,-19,4
+Jamaica,Mexico,43,74,1607,14,Ladonna Lamonth,14:43,0,0/3,0/3,0/0,0/2,1,0,1,0,0,1,2,0,-8,-3
+Jamaica,Mexico,43,74,1607,15,Antoinnette Bannister,12:51,0,0/3,0/1,0/2,0/0,1,1,2,0,1,1,1,0,-10,-1
+Mexico,Jamaica,74,43,1607,4,Alexis Castro,16:26,9,2/3,1/1,1/2,4/4,0,4,4,1,2,0,0,0,9,13
+Mexico,Jamaica,74,43,1607,5,Jacqueline Luna,28:35,18,8/12,6/8,2/4,0/0,3,3,6,2,3,2,0,1,28,21
+Mexico,Jamaica,74,43,1607,6,Gladiana Avila,20:47,2,1/2,1/1,0/1,0/0,0,2,2,3,1,2,1,0,6,5
+Mexico,Jamaica,74,43,1607,7,Ingrid Martinez,19:49,4,2/6,2/6,0/0,0/0,0,0,0,1,3,1,0,0,10,0
+Mexico,Jamaica,74,43,1607,8,Paola Beltran,06:52,0,0/1,0/1,0/0,0/0,0,2,2,1,1,3,0,0,2,-1
+Mexico,Jamaica,74,43,1607,9,Brisa Silva,19:00,11,4/6,1/1,3/5,0/0,2,3,5,2,0,1,2,0,21,17
+Mexico,Jamaica,74,43,1607,10,Carmen Saad,10:17,3,1/2,0/1,1/1,0/0,0,0,0,0,1,2,0,0,5,0
+Mexico,Jamaica,74,43,1607,11,Daniela Pardo,25:05,5,2/7,1/2,1/5,0/0,0,3,3,5,0,3,4,0,22,9
+Mexico,Jamaica,74,43,1607,12,Laura Nuñez,23:33,6,3/6,3/5,0/1,0/0,0,6,6,5,1,0,3,1,22,18
+Mexico,Jamaica,74,43,1607,13,Myriam Lara,11:24,4,1/5,1/5,0/0,2/2,1,2,3,1,0,0,1,2,3,7
+Mexico,Jamaica,74,43,1607,15,Maria Orozco,18:06,12,6/7,6/6,0/1,0/0,0,0,0,3,1,2,0,0,27,12
+Virgin Islands,Puerto Rico,58,60,1607,4,Breya Wallace,06:02,3,1/2,0/1,1/1,0/0,0,2,2,0,1,0,0,0,0,4
+Virgin Islands,Puerto Rico,58,60,1607,5,Tanecka Carey,06:17,0,0/1,0/0,0/1,0/0,0,0,0,0,0,0,0,0,-5,-1
+Virgin Islands,Puerto Rico,58,60,1607,6,Kadesha Barry,16:44,0,0/2,0/1,0/1,0/0,0,1,1,2,5,2,1,0,0,0
+Virgin Islands,Puerto Rico,58,60,1607,7,Natalie Day,38:23,17,6/20,5/16,1/4,4/6,4,8,12,1,3,5,1,2,2,12
+Virgin Islands,Puerto Rico,58,60,1607,9,Lanese Bough,34:40,2,1/3,1/3,0/0,0/0,0,10,10,7,2,0,1,0,6,18
+Virgin Islands,Puerto Rico,58,60,1607,10,Victoria Hamilton,40:00,12,3/10,2/7,1/3,5/6,5,4,9,1,2,2,0,1,-2,13
+Virgin Islands,Puerto Rico,58,60,1607,12,Imani Tate,35:26,16,6/16,5/11,1/5,3/5,2,3,5,3,3,2,1,0,0,11
+Virgin Islands,Puerto Rico,58,60,1607,13,Taylor Jones,15:42,6,2/6,0/0,2/6,0/0,0,1,1,0,1,2,1,0,-4,2
+Virgin Islands,Puerto Rico,58,60,1607,14,Anisha George,06:43,2,1/2,1/2,0/0,0/0,0,0,0,0,0,1,0,0,-7,0
+Puerto Rico,Virgin Islands,60,58,1607,1,Tayra Melendez,25:41,7,3/6,3/6,0/0,1/3,2,6,8,2,2,1,3,0,3,14
+Puerto Rico,Virgin Islands,60,58,1607,2,Ashley Santos,20:15,3,0/5,0/4,0/1,3/4,1,4,5,0,0,1,1,0,5,2
+Puerto Rico,Virgin Islands,60,58,1607,3,Adily Martucci,08:34,2,1/1,1/1,0/0,0/0,1,0,1,0,0,0,0,0,-1,3
+Puerto Rico,Virgin Islands,60,58,1607,5,Pamela Rosado,32:43,11,3/15,1/8,2/7,3/3,0,3,3,3,0,4,3,0,1,4
+Puerto Rico,Virgin Islands,60,58,1607,7,Angelica Bermudez,11:28,2,1/2,1/2,0/0,0/0,0,0,0,0,3,1,0,0,1,0
+Puerto Rico,Virgin Islands,60,58,1607,11,Michelle Gonzalez,14:20,4,2/4,2/3,0/1,0/0,0,0,0,1,2,2,1,0,4,2
+Puerto Rico,Virgin Islands,60,58,1607,12,Dayshalee Salaman,21:48,12,3/7,2/5,1/2,5/6,0,3,3,2,4,0,1,0,12,13
+Puerto Rico,Virgin Islands,60,58,1607,14,Marie Placido,03:15,2,1/1,1/1,0/0,0/0,0,0,0,0,0,0,0,0,-7,2
+Puerto Rico,Virgin Islands,60,58,1607,22,Ashley Perez,24:34,15,6/15,5/10,1/5,2/4,1,2,3,0,2,3,1,0,-1,5
+Puerto Rico,Virgin Islands,60,58,1607,24,Yolanda Jones,22:04,2,0/3,0/3,0/0,2/2,2,4,6,1,1,3,0,0,-1,3
+Puerto Rico,Virgin Islands,60,58,1607,25,Isalys Quiñones,15:12,0,0/1,0/1,0/0,0/0,0,4,4,0,1,0,1,0,-6,4

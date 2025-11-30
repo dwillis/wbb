@@ -1,0 +1,1014 @@
+country,vs,team_score,vs_score,date,#,Players,Min,Pts,FG,2Pts,3Pts,FT,OREB,DREB,REB,AST,PF,TO,STL,BLK,+/-,EFF
+Senegal,Guinea,105,39,1808,4,Oumoul Thiam,13:55,13,5/5,2/2,3/3,0/0,0,1,1,3,3,0,0,0,21,17
+Senegal,Guinea,105,39,1808,5,Aya Traore,25:40,17,6/12,5/9,1/3,4/6,1,2,3,0,0,1,2,0,45,13
+Senegal,Guinea,105,39,1808,6,Oumoul Khairy Sarr,19:16,7,3/4,3/4,0/0,1/1,0,5,5,7,2,1,1,0,28,18
+Senegal,Guinea,105,39,1808,8,Diodio Diouf,23:59,2,1/7,1/5,0/2,0/0,0,4,4,8,1,1,5,0,39,12
+Senegal,Guinea,105,39,1808,9,Ndèye Sène,16:00,6,2/3,0/1,2/2,0/0,0,2,2,3,1,1,2,0,27,11
+Senegal,Guinea,105,39,1808,10,Astou Traore,25:15,26,12/15,12/13,0/2,2/3,1,1,2,1,2,3,1,0,46,23
+Senegal,Guinea,105,39,1808,11,Aminata Fall,09:16,6,2/5,2/5,0/0,2/2,1,2,3,0,2,1,0,1,19,6
+Senegal,Guinea,105,39,1808,12,Mame Marie Sy Diop,25:05,16,7/8,6/7,1/1,1/1,0,2,2,4,1,0,0,0,42,21
+Senegal,Guinea,105,39,1808,13,Sokhna Sy,14:44,7,2/3,2/3,0/0,3/4,1,0,1,2,4,2,0,0,20,6
+Senegal,Guinea,105,39,1808,14,Ramata Daou,14:16,3,1/3,1/3,0/0,1/2,0,7,7,0,2,2,0,3,21,8
+Senegal,Guinea,105,39,1808,15,Aicha Sidibe,12:28,2,0/2,0/2,0/0,2/2,4,3,7,0,1,2,1,2,22,8
+Guinea,Senegal,39,105,1808,4,Aminata Sylla,13:41,0,0/1,0/1,0/0,0/0,0,1,1,1,3,1,3,0,-14,3
+Guinea,Senegal,39,105,1808,5,Aicha Dallo Mara,23:20,3,1/10,1/8,0/2,1/4,2,1,3,0,3,1,2,0,-46,-5
+Guinea,Senegal,39,105,1808,6,Fanta Soumah,20:00,4,1/4,0/3,1/1,1/2,1,0,1,1,0,4,0,0,-36,-2
+Guinea,Senegal,39,105,1808,7,Khady Mbaye,29:47,9,3/9,1/4,2/5,1/2,0,3,3,0,0,3,0,0,-58,2
+Guinea,Senegal,39,105,1808,8,Fatima Sacko,17:40,1,0/5,0/2,0/3,1/3,1,2,3,3,1,3,2,0,-17,-1
+Guinea,Senegal,39,105,1808,10,Aissata Bangoura,03:57,0,0/0,0/0,0/0,0/0,0,1,1,1,1,1,0,0,-5,1
+Guinea,Senegal,39,105,1808,11,Fanta Bérété,09:35,4,2/3,2/3,0/0,0/0,0,1,1,0,2,1,0,0,-12,3
+Guinea,Senegal,39,105,1808,12,Fatou Bah,28:20,7,1/9,1/6,0/3,5/8,1,1,2,0,1,4,0,0,-41,-6
+Guinea,Senegal,39,105,1808,13,Nadia Peruch Niang,20:13,0,0/6,0/1,0/5,0/0,0,1,1,2,2,1,0,0,-44,-4
+Guinea,Senegal,39,105,1808,14,Angeline Keita,11:59,6,3/6,3/6,0/0,0/0,1,1,2,0,3,0,1,0,-10,6
+Guinea,Senegal,39,105,1808,15,Simone Keita,21:21,5,2/4,2/4,0/0,1/2,1,1,2,1,2,0,0,0,-47,5
+Dem.Rep. of Congo,Egypt,72,99,1808,4,Ginette Mfutila Makiese,03:08,1,0/1,0/0,0/1,1/2,0,0,0,0,0,0,0,0,-9,-1
+Dem.Rep. of Congo,Egypt,72,99,1808,5,Yvonne Bilonda Ntumba,27:05,12,3/9,1/3,2/6,4/5,4,1,5,2,2,0,0,0,-25,12
+Dem.Rep. of Congo,Egypt,72,99,1808,6,Naura Bombolo Balongya,22:44,6,2/6,0/2,2/4,0/2,0,0,0,2,4,3,0,0,-13,-1
+Dem.Rep. of Congo,Egypt,72,99,1808,7,Jeanine Kapinga Kalombo,31:35,6,2/12,2/12,0/0,2/5,2,4,6,2,1,2,0,0,-16,-1
+Dem.Rep. of Congo,Egypt,72,99,1808,8,Cecile Mukoso Nyoka,18:10,6,3/6,3/5,0/1,0/2,1,0,1,1,2,1,1,0,-4,3
+Dem.Rep. of Congo,Egypt,72,99,1808,9,Natacha Mambengya Teba,17:15,2,1/5,1/4,0/1,0/0,1,3,4,4,2,4,0,0,-14,2
+Dem.Rep. of Congo,Egypt,72,99,1808,10,Ortice Kabobo Haongi,13:18,11,3/5,3/5,0/0,5/8,2,6,8,2,2,0,1,0,7,17
+Dem.Rep. of Congo,Egypt,72,99,1808,11,Mireille Mbiya Tshiyoyo,03:31,0,0/2,0/1,0/1,0/0,0,0,0,0,0,2,0,0,-8,-4
+Dem.Rep. of Congo,Egypt,72,99,1808,12,Mireille Muganza Nyota,21:55,12,6/9,6/9,0/0,0/2,3,9,12,1,4,3,1,1,-21,19
+Dem.Rep. of Congo,Egypt,72,99,1808,13,Christelle Ngusu Mafuta,21:04,8,4/13,4/13,0/0,0/2,2,7,9,3,4,0,1,0,1,10
+Dem.Rep. of Congo,Egypt,72,99,1808,14,Mudju Bernadette Ngoyisa,05:02,0,0/0,0/0,0/0,0/0,0,2,2,0,2,2,0,0,-12,0
+Dem.Rep. of Congo,Egypt,72,99,1808,15,Chanel Mokango Modiri,15:07,8,4/9,4/8,0/1,0/2,2,2,4,1,1,1,1,0,-21,6
+Egypt,Dem.Rep. of Congo,99,72,1808,4,Manar Youssef,06:07,2,1/4,1/3,0/1,0/0,0,2,2,0,0,0,1,0,7,2
+Egypt,Dem.Rep. of Congo,99,72,1808,5,Nouralla Abdelalim,11:39,8,4/7,4/7,0/0,0/0,1,3,4,1,3,1,0,1,18,10
+Egypt,Dem.Rep. of Congo,99,72,1808,8,Soraia Deghady,33:06,33,11/18,5/7,6/11,5/5,0,3,3,2,2,1,1,0,26,31
+Egypt,Dem.Rep. of Congo,99,72,1808,9,Reem AWAD,21:07,9,3/9,2/5,1/4,2/6,0,1,1,2,2,1,1,0,2,2
+Egypt,Dem.Rep. of Congo,99,72,1808,11,Radwa Sherif,15:28,10,2/8,2/8,0/0,6/6,1,4,5,0,3,1,0,0,8,8
+Egypt,Dem.Rep. of Congo,99,72,1808,12,Rana Abdelfattah,05:59,3,1/2,0/1,1/1,0/0,0,1,1,0,3,1,0,0,8,2
+Egypt,Dem.Rep. of Congo,99,72,1808,14,Menatalla Awad,22:34,13,5/7,5/7,0/0,3/7,2,4,6,0,0,1,2,0,10,14
+Egypt,Dem.Rep. of Congo,99,72,1808,18,Asrar Bakr,03:31,2,0/0,0/0,0/0,2/2,0,0,0,0,0,1,1,0,10,2
+Egypt,Dem.Rep. of Congo,99,72,1808,41,Hala Elshaarawy,33:46,9,4/11,3/10,1/1,0/1,1,7,8,4,2,1,2,2,30,16
+Egypt,Dem.Rep. of Congo,99,72,1808,49,Meral Abdelgawad,14:42,5,2/4,2/4,0/0,1/2,2,0,2,2,3,3,1,0,8,4
+Egypt,Dem.Rep. of Congo,99,72,1808,69,Mai Helwa,31:56,5,2/9,2/7,0/2,1/2,4,9,13,3,3,0,0,3,8,16
+Cote d'Ivoire,CAF,104,57,1808,4,Mamiky Cisse,27:40,17,5/10,1/3,4/7,3/4,0,6,6,0,2,0,3,2,38,22
+Cote d'Ivoire,CAF,104,57,1808,5,Awa Kone,07:52,2,1/3,1/3,0/0,0/2,0,0,0,0,1,1,0,0,12,-3
+Cote d'Ivoire,CAF,104,57,1808,6,Abiba Kone,25:57,18,4/9,4/8,0/1,10/16,1,0,1,8,4,2,1,0,21,15
+Cote d'Ivoire,CAF,104,57,1808,8,Blandine N'Goran,08:57,4,2/3,2/3,0/0,0/0,1,2,3,0,4,0,0,0,9,6
+Cote d'Ivoire,CAF,104,57,1808,9,Edwige Djedjemel,19:07,3,0/3,0/3,0/0,3/4,2,0,2,2,3,1,0,0,22,2
+Cote d'Ivoire,CAF,104,57,1808,10,Kani Kouyate,20:35,6,1/7,1/5,0/2,4/4,2,0,2,3,4,2,4,0,31,7
+Cote d'Ivoire,CAF,104,57,1808,11,Amandine Kouakou,16:44,6,3/9,3/9,0/0,0/0,2,2,4,0,4,4,0,0,18,0
+Cote d'Ivoire,CAF,104,57,1808,12,Irène Bognini,22:00,7,2/8,1/5,1/3,2/4,0,2,2,3,2,3,4,0,21,5
+Cote d'Ivoire,CAF,104,57,1808,13,Kariata Diaby,13:23,15,5/6,4/5,1/1,4/6,1,1,2,1,1,0,1,1,18,17
+Cote d'Ivoire,CAF,104,57,1808,14,Mariama Kouyate,20:40,14,4/10,4/7,0/3,6/7,5,3,8,5,2,0,4,1,33,25
+Cote d'Ivoire,CAF,104,57,1808,15,Minata Fofana,16:58,12,5/9,5/9,0/0,2/4,4,4,8,1,3,2,0,1,12,14
+CAF,Cote d'Ivoire,57,104,1808,4,Keitia Kalene,18:48,11,2/8,1/6,1/2,6/11,0,3,3,0,4,4,0,0,-33,-1
+CAF,Cote d'Ivoire,57,104,1808,5,Nina Koumba,25:27,0,0/4,0/4,0/0,0/2,1,2,3,0,3,2,1,0,-26,-4
+CAF,Cote d'Ivoire,57,104,1808,6,Debora Eyene,18:39,6,2/3,2/2,0/1,2/4,2,1,3,0,4,2,2,0,3,6
+CAF,Cote d'Ivoire,57,104,1808,7,Princesse M'Baye Ndack,10:25,1,0/3,0/2,0/1,1/2,2,1,3,0,4,0,0,0,-18,0
+CAF,Cote d'Ivoire,57,104,1808,8,Abety Imbangueret II,36:27,22,8/14,8/14,0/0,6/10,6,6,12,1,4,6,1,0,-46,20
+CAF,Cote d'Ivoire,57,104,1808,9,Hortencia Yamalet,03:46,0,0/1,0/1,0/0,0/0,0,0,0,1,0,0,0,0,-8,0
+CAF,Cote d'Ivoire,57,104,1808,10,Claudie Yagba Kokito,20:38,4,2/11,2/9,0/2,0/0,1,2,3,0,2,6,0,0,-26,-8
+CAF,Cote d'Ivoire,57,104,1808,11,Esthelle Gaombalet,11:18,3,1/2,1/2,0/0,1/1,0,1,1,1,4,2,0,0,-21,2
+CAF,Cote d'Ivoire,57,104,1808,12,Gabriella Guegbelet,30:22,5,1/2,1/2,0/0,3/6,2,6,8,0,3,2,1,0,-47,8
+CAF,Cote d'Ivoire,57,104,1808,13,Chancella Derebona-Ngaïsset,00:44,0,0/1,0/1,0/0,0/0,0,0,0,0,1,0,0,0,0,-1
+CAF,Cote d'Ivoire,57,104,1808,14,Isabelle Djel,16:41,2,0/1,0/1,0/0,2/2,1,2,3,0,2,2,1,0,-12,3
+CAF,Cote d'Ivoire,57,104,1808,15,Patricia Ngbonga,06:38,3,1/4,1/4,0/0,1/2,4,0,4,0,5,2,0,0,-1,1
+Angola,Cameroon,78,56,1808,1,Italee Lucas,30:43,28,9/19,2/7,7/12,3/6,1,5,6,2,0,4,1,0,11,20
+Angola,Cameroon,78,56,1808,2,Rosa Gala,08:00,4,2/2,2/2,0/0,0/0,0,3,3,0,1,1,0,0,5,6
+Angola,Cameroon,78,56,1808,3,Clarisse Mpaka,27:59,8,4/7,4/6,0/1,0/0,1,3,4,0,1,1,0,0,17,8
+Angola,Cameroon,78,56,1808,4,Fineza Eusébio,09:56,2,0/3,0/2,0/1,2/2,0,3,3,0,2,0,0,0,6,2
+Angola,Cameroon,78,56,1808,5,Artémis Afonso,04:17,0,0/0,0/0,0/0,0/0,0,0,0,1,1,0,0,0,4,1
+Angola,Cameroon,78,56,1808,6,Felizarda Jorge,26:19,10,2/4,0/1,2/3,4/4,0,2,2,3,2,0,0,0,13,13
+Angola,Cameroon,78,56,1808,7,Whitney Miguel,12:55,4,2/2,2/2,0/0,0/2,1,2,3,1,4,0,0,0,14,6
+Angola,Cameroon,78,56,1808,10,Sonia Ndoniema,08:37,3,1/2,1/2,0/0,1/4,0,0,0,0,0,0,0,0,6,-1
+Angola,Cameroon,78,56,1808,11,Luisa Tomas,16:42,4,1/3,1/3,0/0,2/2,1,3,4,1,2,1,0,1,9,7
+Angola,Cameroon,78,56,1808,14,Ana Goncalves,08:50,0,0/1,0/1,0/0,0/0,1,0,1,2,1,1,0,1,9,2
+Angola,Cameroon,78,56,1808,15,Ngiendula Filipe,27:15,10,3/8,3/8,0/0,4/4,0,3,3,1,2,2,2,1,18,10
+Angola,Cameroon,78,56,1808,20,Cristina Matiquite,18:17,5,1/3,1/3,0/0,3/4,3,1,4,0,1,2,0,0,-3,4
+Cameroon,Angola,56,78,1808,4,Linda Mba Minna,03:33,0,0/1,0/1,0/0,0/0,0,0,0,0,0,1,0,0,-7,-2
+Cameroon,Angola,56,78,1808,5,Priscilla Mbiandja,20:59,6,1/7,1/6,0/1,4/4,0,4,4,2,3,0,2,0,-16,8
+Cameroon,Angola,56,78,1808,6,Anne Marie Assena,07:01,0,0/3,0/1,0/2,0/0,0,0,0,0,1,0,1,0,-9,-2
+Cameroon,Angola,56,78,1808,7,Rose Abenkou,06:57,5,2/4,2/4,0/0,1/1,2,1,3,1,1,0,0,0,7,7
+Cameroon,Angola,56,78,1808,8,Marie Ange Mfoula,25:27,7,3/9,2/5,1/4,0/0,0,2,2,0,1,1,0,0,-24,2
+Cameroon,Angola,56,78,1808,9,Ramses Lonlack,34:40,8,4/14,4/11,0/3,0/2,2,2,4,4,2,3,1,0,-17,2
+Cameroon,Angola,56,78,1808,10,Tia Weledji,23:46,10,3/9,2/5,1/4,3/4,0,2,2,1,0,0,0,0,3,6
+Cameroon,Angola,56,78,1808,11,Angi Ramey,23:21,4,1/2,1/2,0/0,2/6,5,4,9,0,3,0,1,0,-21,9
+Cameroon,Angola,56,78,1808,12,Achiri Ade,25:47,6,3/11,3/9,0/2,0/0,0,3,3,0,3,1,0,0,-16,0
+Cameroon,Angola,56,78,1808,13,Nelly Tchasi,15:26,9,4/6,3/4,1/2,0/1,0,3,3,0,1,0,0,0,1,9
+Cameroon,Angola,56,78,1808,14,Catherine Ghane Yenou,03:15,0,0/0,0/0,0/0,0/0,0,1,1,1,1,0,1,1,-2,4
+Cameroon,Angola,56,78,1808,15,Amandine Ebogo Fabo,09:40,1,0/1,0/1,0/0,1/2,1,2,3,1,3,0,0,0,-9,3
+Mali,Tunisia,86,48,1808,4,Nassira Traore,19:12,12,5/10,5/9,0/1,2/2,1,4,5,2,0,0,0,0,30,14
+Mali,Tunisia,86,48,1808,5,Aissata Maiga,13:40,2,1/4,1/4,0/0,0/0,1,0,1,0,0,3,0,0,-2,-3
+Mali,Tunisia,86,48,1808,7,Fatoumata Bagayoko,12:22,0,0/5,0/0,0/5,0/0,0,1,1,3,3,1,0,0,10,-2
+Mali,Tunisia,86,48,1808,8,Touty Gandega,18:54,2,1/5,1/2,0/3,0/0,0,1,1,3,2,1,1,0,24,2
+Mali,Tunisia,86,48,1808,10,Kankou Coulibaly,19:17,12,3/10,3/6,0/4,6/6,6,5,11,2,2,2,3,0,6,19
+Mali,Tunisia,86,48,1808,13,Meiya Tirera,20:42,14,4/7,3/4,1/3,5/8,1,3,4,3,2,1,1,0,32,15
+Mali,Tunisia,86,48,1808,14,Mariam Coulibaly,15:23,4,2/6,2/6,0/0,0/0,2,2,4,2,2,4,0,0,11,2
+Mali,Tunisia,86,48,1808,15,Naignouma Coulibaly,18:21,17,7/9,7/9,0/0,3/4,2,5,7,0,3,3,3,1,24,22
+Mali,Tunisia,86,48,1808,17,Minata Keita,10:35,6,2/3,2/3,0/0,2/2,2,2,4,0,1,1,0,0,-3,8
+Mali,Tunisia,86,48,1808,30,Astan Dabo,14:48,6,3/4,3/4,0/0,0/0,2,6,8,1,2,3,0,2,6,13
+Mali,Tunisia,86,48,1808,77,Kouta Camara,15:50,2,1/3,1/3,0/0,0/0,0,2,2,3,1,1,0,0,14,4
+Mali,Tunisia,86,48,1808,87,Ramata Diakite,20:49,9,4/8,4/8,0/0,1/1,2,5,7,3,3,2,3,0,38,16
+Tunisia,Mali,48,86,1808,4,Chaima Ben Mahmoud,05:14,0,0/0,0/0,0/0,0/0,1,1,2,0,1,1,0,0,-5,1
+Tunisia,Mali,48,86,1808,5,Houda Hamrouni,15:58,12,4/6,2/3,2/3,2/2,0,2,2,0,3,3,1,0,-30,10
+Tunisia,Mali,48,86,1808,6,Marwa Shili,09:44,0,0/4,0/1,0/3,0/0,0,1,1,0,2,1,0,0,-13,-4
+Tunisia,Mali,48,86,1808,7,Monia Ben Mechlia,31:00,4,1/9,1/3,0/6,2/2,0,1,1,4,2,4,1,0,-22,-2
+Tunisia,Mali,48,86,1808,8,Khouloud Mefteh,11:52,4,1/3,1/3,0/0,2/2,1,0,1,0,2,1,1,0,-9,3
+Tunisia,Mali,48,86,1808,9,Imen Jedidi Mistiri,17:27,0,0/3,0/3,0/0,0/0,1,1,2,0,3,0,0,0,-11,-1
+Tunisia,Mali,48,86,1808,10,Hela Msadak,28:05,10,3/7,0/2,3/5,1/2,1,3,4,1,1,1,1,0,-16,10
+Tunisia,Mali,48,86,1808,11,Siwar Khlifa,08:59,0,0/2,0/2,0/0,0/0,0,2,2,2,1,2,0,0,-16,0
+Tunisia,Mali,48,86,1808,12,Wafa Loubiri,20:57,6,1/3,0/0,1/3,3/6,1,2,3,1,2,2,0,0,-12,3
+Tunisia,Mali,48,86,1808,13,Maherzia Ksouri Sbeii,25:39,8,4/13,4/12,0/1,0/0,0,0,0,0,1,1,0,0,-12,-2
+Tunisia,Mali,48,86,1808,14,Beya Ben Ameur,05:06,0,0/0,0/0,0/0,0/0,0,0,0,0,1,1,1,0,-6,0
+Tunisia,Mali,48,86,1808,15,Salma Mnasria,19:55,4,1/9,1/7,0/2,2/2,0,4,4,2,2,2,1,1,-38,2
+Mozambique,Nigeria,69,80,1808,4,Iliana Sheila Alexandre Ventura,09:21,2,0/3,0/0,0/3,2/2,0,0,0,0,0,0,0,0,0,-1
+Mozambique,Nigeria,69,80,1808,5,Aquila Mucubaquine,12:08,4,2/3,2/3,0/0,0/0,1,1,2,2,1,2,0,0,-4,5
+Mozambique,Nigeria,69,80,1808,6,Chanaya Pinto,14:03,2,1/3,1/3,0/0,0/2,0,2,2,1,1,0,0,0,-5,1
+Mozambique,Nigeria,69,80,1808,7,Anabela Cossa,31:32,13,4/14,1/4,3/10,2/4,0,2,2,6,3,4,1,0,-12,6
+Mozambique,Nigeria,69,80,1808,8,Amelia Massingue,04:34,2,0/1,0/1,0/0,2/2,0,0,0,1,1,0,0,0,1,2
+Mozambique,Nigeria,69,80,1808,9,Catia Halar,03:28,3,1/1,0/0,1/1,0/0,1,0,1,0,1,0,0,0,-6,4
+Mozambique,Nigeria,69,80,1808,10,Eleuteria Lhavanguane,02:50,2,1/2,1/2,0/0,0/0,0,0,0,0,1,1,0,0,1,0
+Mozambique,Nigeria,69,80,1808,11,Leia Dongue,20:59,19,5/7,5/7,0/0,9/10,3,2,5,2,3,4,0,0,-9,19
+Mozambique,Nigeria,69,80,1808,12,Rute Muianga,30:53,2,1/9,1/6,0/3,0/0,4,2,6,0,2,1,1,0,-10,0
+Mozambique,Nigeria,69,80,1808,13,Elizabeth Pereira,14:24,6,1/3,1/2,0/1,4/4,0,0,0,0,2,0,0,0,5,4
+Mozambique,Nigeria,69,80,1808,14,Odélia Mafanela,28:58,4,2/8,2/7,0/1,0/0,2,4,6,1,1,2,0,0,-7,3
+Mozambique,Nigeria,69,80,1808,15,Tamara Seda,26:45,10,4/8,4/8,0/0,2/2,2,2,4,0,1,1,1,1,-9,11
+Nigeria,Mozambique,80,69,1808,3,Ugochi Nwaigwe,03:40,0,0/0,0/0,0/0,0/0,0,1,1,1,0,0,1,0,4,3
+Nigeria,Mozambique,80,69,1808,5,Upe Atosu,19:10,7,1/4,0/2,1/2,4/7,0,2,2,2,2,0,0,0,8,5
+Nigeria,Mozambique,80,69,1808,7,Sarah Ogoke,23:14,11,4/12,1/4,3/8,0/0,0,3,3,4,1,2,1,0,-1,9
+Nigeria,Mozambique,80,69,1808,8,Nkechi Akashili,05:49,0,0/2,0/2,0/0,0/0,1,0,1,1,0,0,0,0,0,0
+Nigeria,Mozambique,80,69,1808,9,Aisha Mohammed,20:44,2,1/2,1/2,0/0,0/0,3,4,7,3,2,3,0,1,15,9
+Nigeria,Mozambique,80,69,1808,11,Adaora Elonu,35:57,17,8/16,8/15,0/1,1/2,5,1,6,7,2,3,1,1,15,20
+Nigeria,Mozambique,80,69,1808,12,Ndidi Madu,20:27,6,3/8,3/7,0/1,0/0,1,4,5,1,4,0,1,1,6,9
+Nigeria,Mozambique,80,69,1808,13,Evelyn Akhator,22:13,13,4/8,4/8,0/0,5/6,4,2,6,0,3,4,0,2,6,12
+Nigeria,Mozambique,80,69,1808,14,Chioma Udeaja,05:21,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-7,0
+Nigeria,Mozambique,80,69,1808,21,Atonye Nyingifa,14:26,4,2/4,2/3,0/1,0/0,0,2,2,2,0,0,0,0,7,6
+Nigeria,Mozambique,80,69,1808,23,Ezinne Kalu,20:29,16,6/9,4/6,2/3,2/2,1,3,4,3,4,3,3,0,5,20
+Nigeria,Mozambique,80,69,1808,30,Cecilia Okoye,08:24,4,2/5,2/5,0/0,0/0,2,1,3,0,2,0,0,0,-3,4
+CAF,Tunisia,51,96,1908,4,Keitia Kalene,22:03,3,1/9,0/4,1/5,0/2,1,2,3,2,1,1,1,0,-29,-2
+CAF,Tunisia,51,96,1908,5,Nina Koumba,18:46,2,0/2,0/2,0/0,2/6,1,3,4,1,3,1,0,0,-18,0
+CAF,Tunisia,51,96,1908,6,Debora Eyene,19:35,4,1/3,1/1,0/2,2/5,1,2,3,2,0,3,0,0,-19,1
+CAF,Tunisia,51,96,1908,7,Princesse M'Baye Ndack,08:58,0,0/2,0/2,0/0,0/0,1,1,2,0,1,1,1,0,-8,0
+CAF,Tunisia,51,96,1908,8,Abety Imbangueret II,40:00,30,11/19,11/18,0/1,8/12,4,4,8,0,5,5,2,0,-45,23
+CAF,Tunisia,51,96,1908,9,Hortencia Yamalet,07:29,0,0/2,0/2,0/0,0/0,0,3,3,2,2,2,1,0,-4,2
+CAF,Tunisia,51,96,1908,10,Claudie Yagba Kokito,18:32,3,1/5,0/4,1/1,0/4,0,2,2,2,1,1,1,0,-15,-1
+CAF,Tunisia,51,96,1908,11,Esthelle Gaombalet,18:13,3,1/4,0/2,1/2,0/0,0,0,0,1,7,4,0,0,-25,-3
+CAF,Tunisia,51,96,1908,12,Gabriella Guegbelet,21:34,3,1/7,1/7,0/0,1/3,2,4,6,0,1,0,0,0,-34,1
+CAF,Tunisia,51,96,1908,14,Isabelle Djel,04:53,0,0/2,0/1,0/1,0/0,0,0,0,0,2,1,0,0,-9,-3
+CAF,Tunisia,51,96,1908,15,Patricia Ngbonga,19:15,3,0/2,0/2,0/0,3/4,0,0,0,1,4,2,1,0,-19,0
+Tunisia,CAF,96,51,1908,4,Chaima Ben Mahmoud,09:19,5,1/4,0/2,1/2,2/2,3,0,3,1,1,2,1,0,5,5
+Tunisia,CAF,96,51,1908,5,Houda Hamrouni,22:06,19,7/12,5/8,2/4,3/3,0,10,10,0,3,3,2,0,18,23
+Tunisia,CAF,96,51,1908,6,Marwa Shili,15:22,2,1/2,1/1,0/1,0/0,0,1,1,4,1,1,2,0,4,7
+Tunisia,CAF,96,51,1908,7,Monia Ben Mechlia,23:16,10,2/4,1/1,1/3,5/6,0,5,5,4,3,2,1,0,36,15
+Tunisia,CAF,96,51,1908,8,Khouloud Mefteh,05:18,0,0/2,0/1,0/1,0/0,1,2,3,1,2,1,0,0,-5,1
+Tunisia,CAF,96,51,1908,9,Imen Jedidi Mistiri,13:15,4,1/2,1/2,0/0,2/4,1,1,2,4,5,1,0,0,36,6
+Tunisia,CAF,96,51,1908,10,Hela Msadak,19:46,12,5/8,4/6,1/2,1/1,0,1,1,1,3,0,1,0,37,12
+Tunisia,CAF,96,51,1908,11,Siwar Khlifa,20:51,11,3/5,2/4,1/1,4/4,0,1,1,3,2,3,1,0,16,11
+Tunisia,CAF,96,51,1908,12,Wafa Loubiri,17:58,11,4/6,3/4,1/2,2/4,0,1,1,2,4,0,0,0,36,10
+Tunisia,CAF,96,51,1908,13,Maherzia Ksouri Sbeii,06:52,1,0/3,0/3,0/0,1/2,1,0,1,1,3,0,0,0,4,-1
+Tunisia,CAF,96,51,1908,14,Beya Ben Ameur,15:56,9,4/8,4/8,0/0,1/2,1,0,1,0,2,0,0,0,-3,5
+Tunisia,CAF,96,51,1908,15,Salma Mnasria,29:53,12,4/7,4/7,0/0,4/7,0,5,5,0,1,1,0,3,41,13
+Egypt,Guinea,109,78,1908,4,Manar Youssef,13:09,13,4/5,4/5,0/0,5/11,0,2,2,0,3,1,3,0,32,10
+Egypt,Guinea,109,78,1908,5,Nouralla Abdelalim,17:40,5,1/3,1/3,0/0,3/4,3,7,10,1,1,2,1,0,25,12
+Egypt,Guinea,109,78,1908,8,Soraia Deghady,26:48,7,2/7,2/4,0/3,3/4,1,2,3,6,1,2,1,0,17,9
+Egypt,Guinea,109,78,1908,9,Reem AWAD,20:50,12,3/10,2/6,1/4,5/5,1,0,1,0,2,2,2,0,5,6
+Egypt,Guinea,109,78,1908,11,Radwa Sherif,15:36,9,4/7,4/7,0/0,1/4,2,4,6,1,3,2,1,0,18,9
+Egypt,Guinea,109,78,1908,12,Rana Abdelfattah,08:59,5,2/5,1/2,1/3,0/2,0,0,0,0,2,0,0,0,0,0
+Egypt,Guinea,109,78,1908,14,Menatalla Awad,21:34,20,6/9,6/9,0/0,8/8,3,4,7,0,1,1,3,0,0,26
+Egypt,Guinea,109,78,1908,18,Asrar Bakr,13:15,10,2/5,2/3,0/2,6/7,0,0,0,1,1,1,0,0,20,6
+Egypt,Guinea,109,78,1908,41,Hala Elshaarawy,22:19,10,5/10,5/8,0/2,0/0,1,4,5,3,2,3,4,1,6,15
+Egypt,Guinea,109,78,1908,49,Meral Abdelgawad,16:17,15,5/7,5/5,0/2,5/7,2,2,4,2,3,0,0,0,23,17
+Egypt,Guinea,109,78,1908,69,Mai Helwa,23:28,3,1/7,1/5,0/2,1/2,3,6,9,3,2,4,0,0,9,4
+Guinea,Egypt,78,109,1908,4,Aminata Sylla,15:41,2,1/3,1/2,0/1,0/0,2,1,3,5,5,1,0,0,-4,7
+Guinea,Egypt,78,109,1908,5,Aicha Dallo Mara,19:40,9,4/11,3/7,1/4,0/0,1,4,5,3,5,4,1,1,-18,8
+Guinea,Egypt,78,109,1908,6,Fanta Soumah,09:32,0,0/1,0/1,0/0,0/0,0,0,0,0,4,1,0,0,-6,-2
+Guinea,Egypt,78,109,1908,7,Khady Mbaye,30:13,15,5/16,2/4,3/12,2/3,0,3,3,2,4,2,1,0,-25,7
+Guinea,Egypt,78,109,1908,8,Fatima Sacko,02:29,0,0/1,0/0,0/1,0/0,0,0,0,1,0,1,1,0,0,0
+Guinea,Egypt,78,109,1908,10,Aissata Bangoura,02:47,0,0/2,0/2,0/0,0/0,1,0,1,0,2,0,0,0,-9,-1
+Guinea,Egypt,78,109,1908,11,Fanta Bérété,05:17,0,0/2,0/2,0/0,0/0,2,0,2,1,0,0,0,0,-17,1
+Guinea,Egypt,78,109,1908,12,Fatou Bah,25:06,12,6/13,6/13,0/0,0/2,1,6,7,2,2,3,1,0,-8,10
+Guinea,Egypt,78,109,1908,13,Nadia Peruch Niang,36:54,20,6/18,4/9,2/9,6/9,2,4,6,6,4,6,1,0,-18,12
+Guinea,Egypt,78,109,1908,14,Angeline Keita,18:58,10,3/7,3/7,0/0,4/6,0,0,0,1,4,2,1,0,-35,4
+Guinea,Egypt,78,109,1908,15,Simone Keita,33:17,10,5/9,5/9,0/0,0/1,7,7,14,1,4,3,4,0,-15,21
+Cameroon,Cote d'Ivoire,54,57,1908,5,Priscilla Mbiandja,24:19,8,3/9,2/7,1/2,1/2,0,4,4,4,5,4,0,0,4,5
+Cameroon,Cote d'Ivoire,54,57,1908,6,Anne Marie Assena,06:44,4,2/4,2/2,0/2,0/0,2,1,3,1,0,1,1,0,7,6
+Cameroon,Cote d'Ivoire,54,57,1908,7,Rose Abenkou,11:35,4,2/2,2/2,0/0,0/0,2,2,4,1,2,1,0,0,0,8
+Cameroon,Cote d'Ivoire,54,57,1908,8,Marie Ange Mfoula,17:08,6,3/6,3/6,0/0,0/2,0,0,0,1,0,1,2,1,1,4
+Cameroon,Cote d'Ivoire,54,57,1908,9,Ramses Lonlack,28:49,5,0/7,0/5,0/2,5/6,1,4,5,2,3,0,5,0,-13,9
+Cameroon,Cote d'Ivoire,54,57,1908,10,Tia Weledji,25:15,3,1/11,0/5,1/6,0/0,1,0,1,1,2,2,1,0,-8,-6
+Cameroon,Cote d'Ivoire,54,57,1908,11,Angi Ramey,17:35,6,3/3,3/3,0/0,0/0,1,3,4,2,1,2,0,0,7,10
+Cameroon,Cote d'Ivoire,54,57,1908,12,Achiri Ade,30:27,15,5/10,4/9,1/1,4/6,2,6,8,1,4,3,1,3,5,18
+Cameroon,Cote d'Ivoire,54,57,1908,13,Nelly Tchasi,20:06,3,0/2,0/0,0/2,3/4,1,2,3,2,1,0,0,0,-4,5
+Cameroon,Cote d'Ivoire,54,57,1908,14,Catherine Ghane Yenou,07:49,0,0/1,0/1,0/0,0/0,0,1,1,0,2,1,0,0,-8,-1
+Cameroon,Cote d'Ivoire,54,57,1908,15,Amandine Ebogo Fabo,10:07,0,0/1,0/1,0/0,0/0,1,2,3,0,0,0,0,0,-6,2
+Cote d'Ivoire,Cameroon,57,54,1908,4,Mamiky Cisse,36:25,9,2/7,2/4,0/3,5/5,2,2,4,4,1,5,5,0,0,12
+Cote d'Ivoire,Cameroon,57,54,1908,6,Abiba Kone,21:41,0,0/4,0/2,0/2,0/0,1,0,1,0,0,2,0,0,3,-5
+Cote d'Ivoire,Cameroon,57,54,1908,7,Djefarina Diawara,29:21,18,6/9,6/9,0/0,6/8,1,4,5,2,4,1,0,0,18,19
+Cote d'Ivoire,Cameroon,57,54,1908,8,Blandine N'Goran,18:29,8,4/10,4/10,0/0,0/0,0,3,3,1,0,1,1,0,8,6
+Cote d'Ivoire,Cameroon,57,54,1908,9,Edwige Djedjemel,02:44,0,0/2,0/1,0/1,0/0,0,0,0,0,0,0,0,0,0,-2
+Cote d'Ivoire,Cameroon,57,54,1908,10,Kani Kouyate,23:57,3,1/6,1/5,0/1,1/2,1,2,3,0,3,1,1,0,2,0
+Cote d'Ivoire,Cameroon,57,54,1908,11,Amandine Kouakou,07:05,0,0/2,0/2,0/0,0/0,1,1,2,0,2,0,0,0,-6,0
+Cote d'Ivoire,Cameroon,57,54,1908,12,Irène Bognini,01:55,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-7,0
+Cote d'Ivoire,Cameroon,57,54,1908,13,Kariata Diaby,35:40,15,5/14,4/12,1/2,4/8,3,6,9,1,3,2,2,1,8,13
+Cote d'Ivoire,Cameroon,57,54,1908,14,Mariama Kouyate,08:26,2,0/3,0/3,0/0,2/2,0,1,1,2,2,2,0,0,-5,0
+Cote d'Ivoire,Cameroon,57,54,1908,15,Minata Fofana,14:11,2,1/1,1/1,0/0,0/0,2,2,4,1,3,3,0,0,-6,4
+Nigeria,Dem.Rep. of Congo,84,47,1908,3,Ugochi Nwaigwe,05:40,2,1/1,1/1,0/0,0/1,0,0,0,0,2,0,0,0,11,1
+Nigeria,Dem.Rep. of Congo,84,47,1908,5,Upe Atosu,22:53,12,3/8,2/5,1/3,5/5,0,1,1,2,2,1,1,0,33,10
+Nigeria,Dem.Rep. of Congo,84,47,1908,7,Sarah Ogoke,14:55,7,3/6,2/3,1/3,0/0,1,2,3,0,0,1,1,0,2,7
+Nigeria,Dem.Rep. of Congo,84,47,1908,8,Nkechi Akashili,16:24,11,4/8,4/7,0/1,3/4,1,0,1,1,1,1,3,0,19,10
+Nigeria,Dem.Rep. of Congo,84,47,1908,9,Aisha Mohammed,21:01,9,4/4,4/4,0/0,1/2,2,4,6,1,3,3,2,0,28,14
+Nigeria,Dem.Rep. of Congo,84,47,1908,11,Adaora Elonu,24:44,6,2/6,2/6,0/0,2/3,2,3,5,4,1,2,0,1,18,9
+Nigeria,Dem.Rep. of Congo,84,47,1908,12,Ndidi Madu,14:48,5,2/7,2/7,0/0,1/1,3,0,3,1,5,1,0,0,-2,3
+Nigeria,Dem.Rep. of Congo,84,47,1908,13,Evelyn Akhator,23:24,7,3/8,3/6,0/2,1/4,1,8,9,0,3,0,0,0,18,8
+Nigeria,Dem.Rep. of Congo,84,47,1908,14,Chioma Udeaja,10:03,2,1/4,1/4,0/0,0/0,0,0,0,0,2,0,0,0,8,-1
+Nigeria,Dem.Rep. of Congo,84,47,1908,21,Atonye Nyingifa,21:17,13,5/11,5/11,0/0,3/5,2,2,4,3,3,2,2,0,36,12
+Nigeria,Dem.Rep. of Congo,84,47,1908,23,Ezinne Kalu,19:44,7,1/8,1/6,0/2,5/6,1,2,3,1,2,1,1,0,3,3
+Nigeria,Dem.Rep. of Congo,84,47,1908,30,Cecilia Okoye,05:02,3,1/4,0/3,1/1,0/0,0,0,0,0,2,1,1,0,11,0
+Dem.Rep. of Congo,Nigeria,47,84,1908,4,Ginette Mfutila Makiese,13:01,0,0/3,0/3,0/0,0/2,1,3,4,0,0,0,0,0,-8,-1
+Dem.Rep. of Congo,Nigeria,47,84,1908,5,Yvonne Bilonda Ntumba,14:31,0,0/0,0/0,0/0,0/0,0,0,0,2,3,0,0,0,-20,2
+Dem.Rep. of Congo,Nigeria,47,84,1908,6,Naura Bombolo Balongya,16:45,4,1/3,1/2,0/1,2/3,1,0,1,1,4,2,0,0,-13,1
+Dem.Rep. of Congo,Nigeria,47,84,1908,7,Jeanine Kapinga Kalombo,30:36,6,2/9,2/8,0/1,2/3,0,1,1,0,3,4,2,0,-38,-3
+Dem.Rep. of Congo,Nigeria,47,84,1908,8,Cecile Mukoso Nyoka,19:11,7,2/8,2/8,0/0,3/7,1,4,5,1,4,3,2,0,-11,2
+Dem.Rep. of Congo,Nigeria,47,84,1908,9,Natacha Mambengya Teba,23:14,8,3/8,1/3,2/5,0/0,0,1,1,0,1,4,0,1,-24,1
+Dem.Rep. of Congo,Nigeria,47,84,1908,10,Ortice Kabobo Haongi,07:20,2,1/2,1/2,0/0,0/0,0,2,2,0,2,0,0,0,6,3
+Dem.Rep. of Congo,Nigeria,47,84,1908,11,Mireille Mbiya Tshiyoyo,05:38,2,0/3,0/3,0/0,2/4,2,0,2,0,1,1,0,0,-6,-2
+Dem.Rep. of Congo,Nigeria,47,84,1908,12,Mireille Muganza Nyota,16:31,2,1/1,1/1,0/0,0/2,1,3,4,0,1,2,1,0,-15,3
+Dem.Rep. of Congo,Nigeria,47,84,1908,13,Christelle Ngusu Mafuta,15:44,5,2/3,2/2,0/1,1/2,1,1,2,1,2,2,0,0,-18,4
+Dem.Rep. of Congo,Nigeria,47,84,1908,14,Mudju Bernadette Ngoyisa,10:24,1,0/1,0/1,0/0,1/2,0,1,1,1,0,0,0,0,-17,1
+Dem.Rep. of Congo,Nigeria,47,84,1908,15,Chanel Mokango Modiri,27:00,10,4/9,4/9,0/0,2/2,2,6,8,0,2,3,0,0,-21,10
+Mali,Angola,59,68,1908,4,Nassira Traore,25:29,4,2/5,2/4,0/1,0/0,3,2,5,4,4,0,1,0,-5,11
+Mali,Angola,59,68,1908,5,Aissata Maiga,07:49,0,0/4,0/2,0/2,0/0,1,0,1,3,2,1,0,0,2,-1
+Mali,Angola,59,68,1908,7,Fatoumata Bagayoko,10:59,0,0/4,0/2,0/2,0/0,1,1,2,0,1,0,0,0,-19,-2
+Mali,Angola,59,68,1908,8,Touty Gandega,31:38,13,4/14,2/6,2/8,3/7,0,5,5,2,1,1,0,0,1,5
+Mali,Angola,59,68,1908,10,Kankou Coulibaly,03:33,0,0/2,0/1,0/1,0/0,2,0,2,0,1,1,0,0,-7,-1
+Mali,Angola,59,68,1908,13,Meiya Tirera,33:53,21,7/21,3/8,4/13,3/4,0,2,2,3,3,1,2,1,-1,13
+Mali,Angola,59,68,1908,14,Mariam Coulibaly,10:47,4,2/5,2/5,0/0,0/0,0,4,4,0,0,1,1,0,-9,5
+Mali,Angola,59,68,1908,15,Naignouma Coulibaly,24:26,10,4/9,4/9,0/0,2/4,4,11,15,1,4,2,1,1,-11,19
+Mali,Angola,59,68,1908,17,Minata Keita,06:45,0,0/1,0/1,0/0,0/0,0,0,0,0,0,0,0,0,-1,-1
+Mali,Angola,59,68,1908,30,Astan Dabo,18:04,4,2/3,2/3,0/0,0/2,3,2,5,0,4,0,0,1,-1,7
+Mali,Angola,59,68,1908,77,Kouta Camara,06:00,0,0/1,0/1,0/0,0/0,1,2,3,2,0,0,0,0,1,4
+Mali,Angola,59,68,1908,87,Ramata Diakite,20:31,3,1/3,1/3,0/0,1/2,1,3,4,1,3,4,0,0,5,1
+Angola,Mali,68,59,1908,1,Italee Lucas,31:34,21,6/15,3/10,3/5,6/10,0,6,6,2,2,3,0,0,11,13
+Angola,Mali,68,59,1908,2,Rosa Gala,32:22,6,1/5,1/4,0/1,4/4,1,7,8,3,0,0,3,0,19,16
+Angola,Mali,68,59,1908,3,Clarisse Mpaka,07:37,0,0/2,0/1,0/1,0/0,0,1,1,1,2,2,1,0,-10,-1
+Angola,Mali,68,59,1908,4,Fineza Eusébio,08:25,4,1/2,0/0,1/2,1/2,0,0,0,0,0,0,0,0,-2,2
+Angola,Mali,68,59,1908,6,Felizarda Jorge,09:58,0,0/4,0/3,0/1,0/2,1,3,4,1,1,0,0,0,-6,-1
+Angola,Mali,68,59,1908,7,Whitney Miguel,19:09,8,2/4,0/1,2/3,2/3,1,5,6,1,3,1,0,0,12,11
+Angola,Mali,68,59,1908,10,Sonia Ndoniema,30:01,8,2/5,2/4,0/1,4/4,1,5,6,1,2,0,0,0,15,12
+Angola,Mali,68,59,1908,11,Luisa Tomas,08:06,0,0/3,0/3,0/0,0/0,0,1,1,0,2,1,0,0,-5,-3
+Angola,Mali,68,59,1908,14,Ana Goncalves,24:02,19,7/15,2/4,5/11,0/0,0,2,2,0,5,1,0,0,21,12
+Angola,Mali,68,59,1908,15,Ngiendula Filipe,09:48,0,0/3,0/3,0/0,0/0,0,1,1,0,0,1,0,0,-5,-3
+Angola,Mali,68,59,1908,20,Cristina Matiquite,18:52,2,1/1,1/1,0/0,0/0,1,3,4,1,2,0,0,0,-5,7
+Senegal,Mozambique,76,67,1908,4,Oumoul Thiam,17:09,10,3/6,1/2,2/4,2/3,0,1,1,0,0,2,0,0,3,5
+Senegal,Mozambique,76,67,1908,5,Aya Traore,26:06,15,6/14,5/11,1/3,2/3,1,1,2,4,2,1,0,0,0,11
+Senegal,Mozambique,76,67,1908,6,Oumoul Khairy Sarr,27:39,2,1/5,1/4,0/1,0/0,1,1,2,5,4,2,0,1,7,4
+Senegal,Mozambique,76,67,1908,7,Fatou Dieng,00:04,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Senegal,Mozambique,76,67,1908,8,Diodio Diouf,25:56,8,3/7,1/1,2/6,0/0,1,3,4,1,3,1,0,0,15,8
+Senegal,Mozambique,76,67,1908,9,Ndèye Sène,14:45,0,0/2,0/1,0/1,0/0,0,0,0,0,1,2,0,0,-6,-4
+Senegal,Mozambique,76,67,1908,10,Astou Traore,36:42,29,8/15,7/11,1/4,12/13,2,4,6,1,2,3,3,0,17,28
+Senegal,Mozambique,76,67,1908,12,Mame Marie Sy Diop,30:43,11,4/7,3/4,1/3,2/2,1,5,6,4,5,5,1,1,2,15
+Senegal,Mozambique,76,67,1908,14,Ramata Daou,13:24,1,0/1,0/1,0/0,1/2,0,4,4,0,3,0,0,0,1,3
+Senegal,Mozambique,76,67,1908,15,Aicha Sidibe,07:28,0,0/2,0/2,0/0,0/0,1,0,1,0,5,1,0,1,6,-1
+Mozambique,Senegal,67,76,1908,4,Iliana Sheila Alexandre Ventura,07:15,3,1/1,0/0,1/1,0/0,0,0,0,0,0,1,0,0,-2,2
+Mozambique,Senegal,67,76,1908,5,Aquila Mucubaquine,14:19,2,1/1,1/1,0/0,0/0,0,0,0,1,1,1,0,0,-18,2
+Mozambique,Senegal,67,76,1908,6,Chanaya Pinto,18:06,3,1/4,1/2,0/2,1/2,1,3,4,1,4,1,0,0,5,3
+Mozambique,Senegal,67,76,1908,7,Anabela Cossa,36:07,16,3/10,1/3,2/7,8/8,0,3,3,2,2,0,2,0,-3,16
+Mozambique,Senegal,67,76,1908,8,Amelia Massingue,06:43,2,1/4,1/4,0/0,0/0,0,1,1,1,0,0,0,0,6,1
+Mozambique,Senegal,67,76,1908,9,Catia Halar,04:32,0,0/0,0/0,0/0,0/0,0,0,0,0,1,1,0,0,-9,-1
+Mozambique,Senegal,67,76,1908,11,Leia Dongue,32:14,14,6/16,6/15,0/1,2/8,4,7,11,2,2,6,1,0,-17,6
+Mozambique,Senegal,67,76,1908,12,Rute Muianga,23:10,6,2/4,1/2,1/2,1/2,3,1,4,0,4,2,2,0,-10,7
+Mozambique,Senegal,67,76,1908,13,Elizabeth Pereira,09:44,3,1/2,0/0,1/2,0/0,0,0,0,0,1,0,0,0,4,2
+Mozambique,Senegal,67,76,1908,14,Odélia Mafanela,27:48,10,5/11,5/11,0/0,0/2,1,4,5,0,3,2,0,0,-9,5
+Mozambique,Senegal,67,76,1908,15,Tamara Seda,19:56,8,2/5,2/5,0/0,4/4,1,0,1,0,2,2,0,0,8,4
+Nigeria,Egypt,106,72,2008,3,Ugochi Nwaigwe,07:25,4,2/4,2/4,0/0,0/0,2,0,2,0,2,0,2,0,6,6
+Nigeria,Egypt,106,72,2008,5,Upe Atosu,20:06,5,2/8,1/4,1/4,0/0,2,1,3,4,2,4,3,0,3,5
+Nigeria,Egypt,106,72,2008,7,Sarah Ogoke,14:02,13,5/11,2/7,3/4,0/0,0,5,5,3,3,1,0,0,23,14
+Nigeria,Egypt,106,72,2008,8,Nkechi Akashili,11:23,7,3/7,2/2,1/5,0/0,1,0,1,3,3,0,1,0,12,8
+Nigeria,Egypt,106,72,2008,9,Aisha Mohammed,10:17,0,0/1,0/1,0/0,0/0,0,6,6,0,0,1,1,0,2,5
+Nigeria,Egypt,106,72,2008,11,Adaora Elonu,28:35,5,2/11,2/10,0/1,1/2,1,2,3,8,0,2,5,1,27,10
+Nigeria,Egypt,106,72,2008,12,Ndidi Madu,16:13,2,1/5,1/5,0/0,0/0,2,1,3,0,3,0,1,1,20,3
+Nigeria,Egypt,106,72,2008,13,Evelyn Akhator,24:42,24,10/12,10/12,0/0,4/4,4,9,13,5,2,1,3,3,31,45
+Nigeria,Egypt,106,72,2008,14,Chioma Udeaja,08:57,4,1/5,1/5,0/0,2/2,1,0,1,0,2,0,0,0,2,1
+Nigeria,Egypt,106,72,2008,21,Atonye Nyingifa,24:49,15,7/17,7/17,0/0,1/2,6,6,12,5,2,4,5,2,13,24
+Nigeria,Egypt,106,72,2008,23,Ezinne Kalu,24:07,18,7/14,7/12,0/2,4/7,4,1,5,3,2,2,5,0,29,19
+Nigeria,Egypt,106,72,2008,30,Cecilia Okoye,09:19,9,4/4,4/4,0/0,1/1,0,6,6,1,3,3,0,2,2,15
+Egypt,Nigeria,72,106,2008,4,Manar Youssef,16:26,6,3/5,3/5,0/0,0/1,0,4,4,1,1,4,2,0,-3,6
+Egypt,Nigeria,72,106,2008,5,Nouralla Abdelalim,18:05,10,5/8,5/6,0/2,0/0,3,1,4,1,2,2,0,0,-18,10
+Egypt,Nigeria,72,106,2008,8,Soraia Deghady,28:37,15,6/10,5/8,1/2,2/6,0,3,3,1,4,2,2,0,-22,11
+Egypt,Nigeria,72,106,2008,9,Reem AWAD,21:35,12,4/12,4/10,0/2,4/7,2,1,3,1,1,6,2,0,-26,1
+Egypt,Nigeria,72,106,2008,11,Radwa Sherif,03:14,2,1/3,1/3,0/0,0/0,1,1,2,0,0,0,0,0,-3,2
+Egypt,Nigeria,72,106,2008,14,Menatalla Awad,16:40,5,2/6,2/6,0/0,1/2,1,3,4,0,0,2,1,1,-28,4
+Egypt,Nigeria,72,106,2008,18,Asrar Bakr,10:30,3,0/5,0/4,0/1,3/4,0,0,0,1,0,2,0,0,-9,-4
+Egypt,Nigeria,72,106,2008,41,Hala Elshaarawy,36:45,6,3/11,3/9,0/2,0/0,0,7,7,4,2,2,0,0,-30,7
+Egypt,Nigeria,72,106,2008,49,Meral Abdelgawad,26:09,7,1/9,1/7,0/2,5/9,1,2,3,7,2,5,3,0,-14,3
+Egypt,Nigeria,72,106,2008,69,Mai Helwa,21:54,6,2/4,1/3,1/1,1/2,1,4,5,1,1,4,2,0,-17,7
+Mozambique,Guinea,88,47,2008,4,Iliana Sheila Alexandre Ventura,14:54,10,4/14,2/3,2/11,0/0,0,0,0,0,1,2,0,0,12,-2
+Mozambique,Guinea,88,47,2008,5,Aquila Mucubaquine,14:08,6,2/4,2/3,0/1,2/2,1,2,3,1,1,0,0,0,14,8
+Mozambique,Guinea,88,47,2008,6,Chanaya Pinto,14:44,6,2/5,1/1,1/4,1/2,1,4,5,2,4,0,0,0,17,9
+Mozambique,Guinea,88,47,2008,7,Anabela Cossa,20:23,11,4/7,1/1,3/6,0/0,0,0,0,5,1,2,0,0,19,11
+Mozambique,Guinea,88,47,2008,8,Amelia Massingue,05:28,2,0/0,0/0,0/0,2/2,0,0,0,1,0,0,1,0,8,4
+Mozambique,Guinea,88,47,2008,9,Catia Halar,15:11,0,0/2,0/1,0/1,0/0,0,0,0,2,0,1,0,0,14,-1
+Mozambique,Guinea,88,47,2008,10,Eleuteria Lhavanguane,16:46,2,1/5,1/4,0/1,0/0,2,1,3,1,0,0,0,0,10,2
+Mozambique,Guinea,88,47,2008,11,Leia Dongue,21:37,18,8/11,8/11,0/0,2/8,4,3,7,2,2,4,1,0,22,15
+Mozambique,Guinea,88,47,2008,12,Rute Muianga,08:59,2,1/2,1/1,0/1,0/0,3,0,3,3,1,0,2,0,17,9
+Mozambique,Guinea,88,47,2008,13,Elizabeth Pereira,17:19,8,2/7,0/2,2/5,2/4,0,0,0,3,2,1,3,0,20,6
+Mozambique,Guinea,88,47,2008,14,Odélia Mafanela,27:21,12,4/9,4/9,0/0,4/4,2,9,11,2,1,1,3,0,29,22
+Mozambique,Guinea,88,47,2008,15,Tamara Seda,23:05,11,5/11,5/11,0/0,1/2,3,9,12,0,1,0,2,1,23,19
+Guinea,Mozambique,47,88,2008,4,Aminata Sylla,08:58,1,0/1,0/0,0/1,1/2,0,1,1,1,2,0,0,0,-8,1
+Guinea,Mozambique,47,88,2008,5,Aicha Dallo Mara,29:54,18,7/17,7/11,0/6,4/8,2,1,3,2,4,4,0,1,-31,6
+Guinea,Mozambique,47,88,2008,6,Fanta Soumah,28:31,8,3/11,3/11,0/0,2/2,1,0,1,1,0,4,0,0,-23,-2
+Guinea,Mozambique,47,88,2008,7,Khady Mbaye,24:00,11,4/7,1/1,3/6,0/0,0,1,1,2,3,2,2,1,-26,12
+Guinea,Mozambique,47,88,2008,8,Fatima Sacko,05:43,0,0/1,0/0,0/1,0/0,0,0,0,0,0,0,0,0,-3,-1
+Guinea,Mozambique,47,88,2008,10,Aissata Bangoura,05:44,0,0/0,0/0,0/0,0/0,0,0,0,0,1,2,1,0,-5,-1
+Guinea,Mozambique,47,88,2008,11,Fanta Bérété,10:02,0,0/1,0/1,0/0,0/0,0,1,1,0,0,1,0,0,-10,-1
+Guinea,Mozambique,47,88,2008,12,Fatou Bah,25:38,4,2/4,2/2,0/2,0/0,1,5,6,2,2,2,2,0,-32,10
+Guinea,Mozambique,47,88,2008,13,Nadia Peruch Niang,14:06,2,1/6,1/4,0/2,0/0,1,0,1,2,0,2,0,0,-20,-2
+Guinea,Mozambique,47,88,2008,14,Angeline Keita,17:14,1,0/5,0/5,0/0,1/2,1,2,3,0,3,1,0,0,-15,-3
+Guinea,Mozambique,47,88,2008,15,Simone Keita,29:24,2,1/5,1/5,0/0,0/0,4,4,8,1,3,5,2,0,-32,4
+Angola,Tunisia,62,55,2008,1,Italee Lucas,26:09,15,4/13,0/5,4/8,3/4,1,5,6,1,0,3,0,0,-6,9
+Angola,Tunisia,62,55,2008,2,Rosa Gala,32:54,13,5/12,2/5,3/7,0/2,1,4,5,2,4,0,3,0,4,14
+Angola,Tunisia,62,55,2008,3,Clarisse Mpaka,12:37,3,1/6,1/4,0/2,1/1,1,0,1,1,2,3,0,0,2,-3
+Angola,Tunisia,62,55,2008,4,Fineza Eusébio,13:50,8,3/6,2/4,1/2,1/2,2,2,4,0,1,1,0,0,13,7
+Angola,Tunisia,62,55,2008,5,Artémis Afonso,08:14,3,0/0,0/0,0/0,3/4,0,2,2,0,2,0,0,1,-5,5
+Angola,Tunisia,62,55,2008,6,Felizarda Jorge,07:05,0,0/2,0/1,0/1,0/0,0,0,0,1,0,2,0,0,3,-3
+Angola,Tunisia,62,55,2008,7,Whitney Miguel,22:53,3,1/3,0/1,1/2,0/0,0,6,6,2,4,2,0,1,7,8
+Angola,Tunisia,62,55,2008,10,Sonia Ndoniema,19:08,4,1/5,0/2,1/3,1/2,0,4,4,0,1,2,0,1,10,2
+Angola,Tunisia,62,55,2008,11,Luisa Tomas,20:34,4,0/4,0/4,0/0,4/6,2,8,10,2,1,1,1,2,8,12
+Angola,Tunisia,62,55,2008,14,Ana Goncalves,10:12,2,0/3,0/0,0/3,2/2,2,0,2,0,1,0,0,0,-8,1
+Angola,Tunisia,62,55,2008,15,Ngiendula Filipe,26:19,7,1/3,1/3,0/0,5/5,4,3,7,1,3,3,0,1,7,11
+Tunisia,Angola,55,62,2008,5,Houda Hamrouni,19:19,14,3/8,2/5,1/3,7/8,0,5,5,0,3,1,0,0,5,12
+Tunisia,Angola,55,62,2008,6,Marwa Shili,03:01,0,0/1,0/1,0/0,0/0,1,1,2,0,0,0,1,0,0,2
+Tunisia,Angola,55,62,2008,7,Monia Ben Mechlia,22:05,6,2/5,2/2,0/3,2/2,0,4,4,0,3,1,2,0,2,8
+Tunisia,Angola,55,62,2008,9,Imen Jedidi Mistiri,16:50,1,0/1,0/0,0/1,1/2,0,2,2,1,2,0,0,0,-2,2
+Tunisia,Angola,55,62,2008,10,Hela Msadak,29:09,3,1/9,1/5,0/4,1/2,0,2,2,2,2,1,0,0,-13,-3
+Tunisia,Angola,55,62,2008,11,Siwar Khlifa,23:49,2,1/6,1/3,0/3,0/0,0,6,6,5,2,1,2,0,-1,9
+Tunisia,Angola,55,62,2008,12,Wafa Loubiri,26:32,9,3/10,2/6,1/4,2/2,0,1,1,0,2,1,2,0,-17,4
+Tunisia,Angola,55,62,2008,13,Maherzia Ksouri Sbeii,19:10,8,4/9,4/8,0/1,0/0,4,1,5,1,4,1,1,0,-2,9
+Tunisia,Angola,55,62,2008,14,Beya Ben Ameur,12:32,3,0/3,0/3,0/0,3/4,1,1,2,0,1,0,2,0,6,3
+Tunisia,Angola,55,62,2008,15,Salma Mnasria,27:27,9,3/11,3/10,0/1,3/5,3,6,9,2,4,2,1,0,-13,9
+Dem.Rep. of Congo,Senegal,63,70,2008,4,Ginette Mfutila Makiese,05:17,0,0/0,0/0,0/0,0/0,0,0,0,1,0,1,0,0,-6,0
+Dem.Rep. of Congo,Senegal,63,70,2008,5,Yvonne Bilonda Ntumba,17:47,0,0/1,0/0,0/1,0/0,0,1,1,1,1,1,2,0,6,2
+Dem.Rep. of Congo,Senegal,63,70,2008,6,Naura Bombolo Balongya,11:00,0,0/2,0/1,0/1,0/2,0,1,1,2,0,3,0,0,-12,-4
+Dem.Rep. of Congo,Senegal,63,70,2008,7,Jeanine Kapinga Kalombo,23:16,11,5/9,5/8,0/1,1/3,2,2,4,0,1,0,0,0,0,9
+Dem.Rep. of Congo,Senegal,63,70,2008,8,Cecile Mukoso Nyoka,22:12,3,1/4,0/2,1/2,0/0,0,3,3,0,3,1,3,0,-13,5
+Dem.Rep. of Congo,Senegal,63,70,2008,9,Natacha Mambengya Teba,28:59,12,4/11,3/4,1/7,3/4,0,2,2,10,1,5,3,0,5,14
+Dem.Rep. of Congo,Senegal,63,70,2008,10,Ortice Kabobo Haongi,07:02,4,2/4,2/4,0/0,0/0,2,0,2,0,0,2,0,0,-6,2
+Dem.Rep. of Congo,Senegal,63,70,2008,12,Mireille Muganza Nyota,13:56,5,2/6,2/6,0/0,1/4,6,2,8,1,0,2,1,0,-8,6
+Dem.Rep. of Congo,Senegal,63,70,2008,13,Christelle Ngusu Mafuta,09:44,4,1/5,1/5,0/0,2/4,0,2,2,0,1,0,0,0,-4,0
+Dem.Rep. of Congo,Senegal,63,70,2008,14,Mudju Bernadette Ngoyisa,30:15,12,6/10,6/10,0/0,0/0,3,3,6,3,0,1,0,1,-3,17
+Dem.Rep. of Congo,Senegal,63,70,2008,15,Chanel Mokango Modiri,30:26,12,5/11,5/10,0/1,2/3,3,4,7,2,0,4,2,0,6,12
+Senegal,Dem.Rep. of Congo,70,63,2008,4,Oumoul Thiam,23:56,6,2/8,0/2,2/6,0/0,2,2,4,7,1,2,2,0,15,11
+Senegal,Dem.Rep. of Congo,70,63,2008,5,Aya Traore,20:43,7,3/10,2/8,1/2,0/0,3,2,5,0,1,1,3,0,9,7
+Senegal,Dem.Rep. of Congo,70,63,2008,6,Oumoul Khairy Sarr,20:19,6,3/5,3/5,0/0,0/0,0,1,1,3,1,4,0,0,3,4
+Senegal,Dem.Rep. of Congo,70,63,2008,7,Fatou Dieng,03:22,0,0/1,0/1,0/0,0/0,1,0,1,1,1,0,1,0,-8,2
+Senegal,Dem.Rep. of Congo,70,63,2008,8,Diodio Diouf,28:34,8,3/10,1/3,2/7,0/0,0,1,1,2,2,2,2,0,14,4
+Senegal,Dem.Rep. of Congo,70,63,2008,9,Ndèye Sène,10:41,10,3/7,1/2,2/5,2/2,2,2,4,2,0,1,0,1,-10,12
+Senegal,Dem.Rep. of Congo,70,63,2008,10,Astou Traore,28:13,19,6/9,3/4,3/5,4/6,4,4,8,0,3,2,3,0,5,23
+Senegal,Dem.Rep. of Congo,70,63,2008,11,Aminata Fall,01:54,0,0/1,0/1,0/0,0/0,0,0,0,0,1,0,0,0,-2,-1
+Senegal,Dem.Rep. of Congo,70,63,2008,12,Mame Marie Sy Diop,26:42,8,3/6,1/4,2/2,0/0,3,4,7,6,4,4,1,0,12,15
+Senegal,Dem.Rep. of Congo,70,63,2008,13,Sokhna Sy,04:27,0,0/0,0/0,0/0,0/0,0,1,1,0,0,1,0,0,-4,0
+Senegal,Dem.Rep. of Congo,70,63,2008,14,Ramata Daou,15:18,4,2/8,2/8,0/0,0/0,3,2,5,0,2,2,1,2,-2,4
+Senegal,Dem.Rep. of Congo,70,63,2008,15,Aicha Sidibe,15:45,2,1/4,1/4,0/0,0/0,2,0,2,0,2,2,0,0,3,-1
+Cote d'Ivoire,Mali,39,61,2008,4,Mamiky Cisse,35:27,3,1/3,0/1,1/2,0/0,0,3,3,3,3,6,1,0,-21,2
+Cote d'Ivoire,Mali,39,61,2008,6,Abiba Kone,11:33,1,0/3,0/2,0/1,1/2,0,0,0,0,3,2,0,0,-9,-5
+Cote d'Ivoire,Mali,39,61,2008,7,Djefarina Diawara,21:49,0,0/6,0/6,0/0,0/0,0,1,1,1,0,2,0,0,-23,-6
+Cote d'Ivoire,Mali,39,61,2008,8,Blandine N'Goran,17:28,4,2/5,2/4,0/1,0/0,0,4,4,1,0,0,1,0,-7,7
+Cote d'Ivoire,Mali,39,61,2008,9,Edwige Djedjemel,01:25,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-3,0
+Cote d'Ivoire,Mali,39,61,2008,10,Kani Kouyate,34:22,10,0/7,0/4,0/3,10/12,0,4,4,1,3,4,3,0,-8,5
+Cote d'Ivoire,Mali,39,61,2008,11,Amandine Kouakou,02:30,0,0/3,0/3,0/0,0/0,0,0,0,0,0,0,0,0,-7,-3
+Cote d'Ivoire,Mali,39,61,2008,12,Irène Bognini,07:35,3,1/4,1/2,0/2,1/2,1,0,1,0,0,0,0,0,3,0
+Cote d'Ivoire,Mali,39,61,2008,13,Kariata Diaby,27:16,10,3/7,2/4,1/3,3/5,0,4,4,0,5,1,0,1,-15,8
+Cote d'Ivoire,Mali,39,61,2008,14,Mariama Kouyate,09:21,0,0/1,0/0,0/1,0/0,0,1,1,2,0,0,1,0,-8,3
+Cote d'Ivoire,Mali,39,61,2008,15,Minata Fofana,31:02,8,3/9,3/8,0/1,2/4,2,1,3,1,4,3,3,0,-12,4
+Mali,Cote d'Ivoire,61,39,2008,4,Nassira Traore,24:15,4,2/8,2/8,0/0,0/0,0,2,2,4,3,3,1,0,10,2
+Mali,Cote d'Ivoire,61,39,2008,5,Aissata Maiga,04:49,0,0/1,0/1,0/0,0/0,0,0,0,0,0,0,0,0,10,-1
+Mali,Cote d'Ivoire,61,39,2008,7,Fatoumata Bagayoko,12:36,2,1/4,1/1,0/3,0/0,2,1,3,1,0,1,1,0,15,3
+Mali,Cote d'Ivoire,61,39,2008,8,Touty Gandega,22:29,12,5/7,3/4,2/3,0/0,0,1,1,0,2,3,2,0,-3,10
+Mali,Cote d'Ivoire,61,39,2008,10,Kankou Coulibaly,13:55,11,3/3,2/2,1/1,4/6,1,4,5,0,3,2,1,0,10,13
+Mali,Cote d'Ivoire,61,39,2008,13,Meiya Tirera,25:23,6,2/7,0/3,2/4,0/0,0,0,0,3,2,4,2,0,1,2
+Mali,Cote d'Ivoire,61,39,2008,14,Mariam Coulibaly,15:37,10,4/9,4/9,0/0,2/2,3,5,8,0,1,1,0,0,9,12
+Mali,Cote d'Ivoire,61,39,2008,15,Naignouma Coulibaly,30:02,12,3/7,3/7,0/0,6/7,3,10,13,3,3,2,1,1,24,23
+Mali,Cote d'Ivoire,61,39,2008,17,Minata Keita,03:16,0,0/3,0/3,0/0,0/0,2,0,2,0,0,0,0,0,6,-1
+Mali,Cote d'Ivoire,61,39,2008,30,Astan Dabo,15:46,2,1/2,1/2,0/0,0/0,0,4,4,0,4,3,0,1,3,3
+Mali,Cote d'Ivoire,61,39,2008,77,Kouta Camara,16:31,2,1/2,1/1,0/1,0/0,0,2,2,4,0,0,0,0,23,7
+Mali,Cote d'Ivoire,61,39,2008,87,Ramata Diakite,15:10,0,0/5,0/4,0/1,0/0,2,5,7,1,1,1,0,0,2,2
+Cameroon,CAF,94,42,2008,4,Linda Mba Minna,21:33,3,1/4,0/2,1/2,0/2,0,0,0,1,3,2,0,0,30,-3
+Cameroon,CAF,94,42,2008,5,Priscilla Mbiandja,18:06,6,2/4,1/2,1/2,1/2,0,2,2,6,1,3,2,0,21,10
+Cameroon,CAF,94,42,2008,6,Anne Marie Assena,16:52,15,5/11,2/2,3/9,2/2,0,1,1,1,3,0,1,0,29,12
+Cameroon,CAF,94,42,2008,7,Rose Abenkou,12:06,4,1/2,1/1,0/1,2/2,1,0,1,1,3,0,0,0,14,5
+Cameroon,CAF,94,42,2008,8,Marie Ange Mfoula,11:32,8,3/10,1/6,2/4,0/0,2,1,3,0,4,0,0,0,18,4
+Cameroon,CAF,94,42,2008,9,Ramses Lonlack,22:35,15,5/15,5/10,0/5,5/6,2,4,6,4,2,1,5,0,25,18
+Cameroon,CAF,94,42,2008,10,Tia Weledji,23:52,13,6/16,5/11,1/5,0/0,4,1,5,3,3,0,3,0,31,14
+Cameroon,CAF,94,42,2008,11,Angi Ramey,08:30,0,0/0,0/0,0/0,0/2,0,3,3,0,0,2,0,0,7,-1
+Cameroon,CAF,94,42,2008,12,Achiri Ade,19:21,12,4/10,4/6,0/4,4/10,6,3,9,3,1,1,2,1,14,14
+Cameroon,CAF,94,42,2008,13,Nelly Tchasi,10:55,6,2/4,0/0,2/4,0/0,1,1,2,1,1,0,2,0,13,9
+Cameroon,CAF,94,42,2008,14,Catherine Ghane Yenou,11:02,9,3/7,3/7,0/0,3/3,3,2,5,1,3,0,1,0,19,12
+Cameroon,CAF,94,42,2008,15,Amandine Ebogo Fabo,23:24,3,1/3,1/3,0/0,1/3,5,2,7,0,1,2,1,0,39,5
+CAF,Cameroon,42,94,2008,4,Keitia Kalene,09:26,2,0/1,0/1,0/0,2/2,0,1,1,0,3,4,0,1,-20,-1
+CAF,Cameroon,42,94,2008,5,Nina Koumba,13:44,0,0/2,0/2,0/0,0/0,0,1,1,0,2,1,1,0,-18,-1
+CAF,Cameroon,42,94,2008,6,Debora Eyene,21:08,7,2/5,1/4,1/1,2/6,0,1,1,0,4,4,0,0,-29,-3
+CAF,Cameroon,42,94,2008,7,Princesse M'Baye Ndack,07:53,1,0/1,0/1,0/0,1/2,0,1,1,1,5,1,0,0,-14,0
+CAF,Cameroon,42,94,2008,8,Abety Imbangueret II,39:08,25,5/9,5/9,0/0,15/21,2,10,12,1,3,7,1,0,-47,22
+CAF,Cameroon,42,94,2008,9,Hortencia Yamalet,02:32,0,0/0,0/0,0/0,0/0,0,0,0,0,0,1,0,0,-5,-1
+CAF,Cameroon,42,94,2008,10,Claudie Yagba Kokito,25:28,0,0/7,0/5,0/2,0/0,0,3,3,0,1,4,1,0,-35,-7
+CAF,Cameroon,42,94,2008,11,Esthelle Gaombalet,23:43,1,0/2,0/0,0/2,1/2,0,2,2,1,4,4,1,0,-25,-2
+CAF,Cameroon,42,94,2008,12,Gabriella Guegbelet,29:17,3,1/7,1/7,0/0,1/2,2,6,8,0,2,2,0,0,-38,2
+CAF,Cameroon,42,94,2008,13,Chancella Derebona-Ngaïsset,22:16,2,1/4,1/4,0/0,0/0,2,3,5,0,1,2,1,0,-21,3
+CAF,Cameroon,42,94,2008,14,Isabelle Djel,03:18,0,0/0,0/0,0/0,0/0,0,0,0,0,1,1,0,0,-2,-1
+CAF,Cameroon,42,94,2008,15,Patricia Ngbonga,02:01,1,0/0,0/0,0/0,1/2,0,0,0,0,0,2,0,0,-6,-2
+Egypt,Senegal,61,93,2208,4,Manar Youssef,16:52,3,1/4,1/4,0/0,1/2,0,0,0,2,1,1,3,0,-15,3
+Egypt,Senegal,61,93,2208,5,Nouralla Abdelalim,22:09,4,1/6,1/5,0/1,2/3,1,3,4,1,3,3,1,0,1,1
+Egypt,Senegal,61,93,2208,8,Soraia Deghady,27:57,10,3/10,2/6,1/4,3/3,0,3,3,2,2,3,1,0,-28,6
+Egypt,Senegal,61,93,2208,9,Reem AWAD,19:58,10,4/10,2/6,2/4,0/0,1,2,3,1,1,2,1,0,-16,7
+Egypt,Senegal,61,93,2208,11,Radwa Sherif,08:22,0,0/1,0/0,0/1,0/0,0,2,2,0,0,1,0,0,-17,0
+Egypt,Senegal,61,93,2208,14,Menatalla Awad,22:58,13,5/14,5/13,0/1,3/3,2,2,4,1,3,0,2,0,-11,11
+Egypt,Senegal,61,93,2208,18,Asrar Bakr,04:10,0,0/1,0/1,0/0,0/0,0,0,0,0,0,0,0,0,1,-1
+Egypt,Senegal,61,93,2208,41,Hala Elshaarawy,27:19,4,2/8,2/7,0/1,0/1,0,3,3,3,1,1,1,0,-31,3
+Egypt,Senegal,61,93,2208,49,Meral Abdelgawad,14:51,7,3/8,3/7,0/1,1/2,1,1,2,2,0,4,3,0,-9,4
+Egypt,Senegal,61,93,2208,69,Mai Helwa,35:18,10,4/13,2/9,2/4,0/0,1,5,6,3,2,1,3,0,-35,12
+Senegal,Egypt,93,61,2208,4,Oumoul Thiam,11:26,7,3/5,2/3,1/2,0/0,0,2,2,2,1,0,0,0,0,9
+Senegal,Egypt,93,61,2208,5,Aya Traore,33:37,14,5/15,2/6,3/9,1/2,0,2,2,0,0,3,0,1,39,3
+Senegal,Egypt,93,61,2208,6,Oumoul Khairy Sarr,17:15,2,1/5,1/5,0/0,0/0,0,7,7,3,1,3,0,0,5,5
+Senegal,Egypt,93,61,2208,7,Fatou Dieng,17:41,4,1/4,1/2,0/2,2/2,0,3,3,2,0,7,2,0,18,1
+Senegal,Egypt,93,61,2208,8,Diodio Diouf,02:09,0,0/1,0/0,0/1,0/0,0,1,1,1,1,0,0,0,5,1
+Senegal,Egypt,93,61,2208,9,Ndèye Sène,20:09,8,3/7,1/1,2/6,0/0,1,5,6,7,2,3,1,0,9,15
+Senegal,Egypt,93,61,2208,10,Astou Traore,29:10,26,10/18,6/9,4/9,2/2,3,4,7,0,3,3,3,0,29,25
+Senegal,Egypt,93,61,2208,11,Aminata Fall,08:33,5,2/4,2/4,0/0,1/2,2,5,7,1,3,0,3,0,10,13
+Senegal,Egypt,93,61,2208,12,Mame Marie Sy Diop,24:43,10,4/4,4/4,0/0,2/2,4,0,4,8,1,0,1,0,27,23
+Senegal,Egypt,93,61,2208,13,Sokhna Sy,05:45,0,0/2,0/1,0/1,0/0,0,0,0,1,0,0,0,0,-4,-1
+Senegal,Egypt,93,61,2208,14,Ramata Daou,22:40,17,7/8,7/8,0/0,3/4,6,6,12,1,0,4,0,1,11,25
+Senegal,Egypt,93,61,2208,15,Aicha Sidibe,06:46,0,0/3,0/3,0/0,0/0,1,2,3,0,0,0,0,0,11,0
+Guinea,Nigeria,33,106,2208,4,Aminata Sylla,12:42,0,0/2,0/1,0/1,0/0,0,1,1,0,3,2,0,0,-25,-3
+Guinea,Nigeria,33,106,2208,5,Aicha Dallo Mara,25:20,11,3/5,3/3,0/2,5/8,0,2,2,0,2,3,0,0,-44,5
+Guinea,Nigeria,33,106,2208,6,Fanta Soumah,26:23,4,2/5,2/4,0/1,0/2,1,2,3,0,2,7,2,0,-37,-3
+Guinea,Nigeria,33,106,2208,7,Khady Mbaye,28:52,1,0/8,0/1,0/7,1/1,0,0,0,0,2,3,1,0,-53,-9
+Guinea,Nigeria,33,106,2208,8,Fatima Sacko,15:30,3,1/3,0/1,1/2,0/2,0,1,1,0,0,2,0,0,-22,-2
+Guinea,Nigeria,33,106,2208,10,Aissata Bangoura,09:55,4,2/2,2/2,0/0,0/0,0,0,0,0,1,2,1,0,-23,3
+Guinea,Nigeria,33,106,2208,11,Fanta Bérété,07:55,5,2/3,2/3,0/0,1/2,0,0,0,0,3,0,0,0,-19,3
+Guinea,Nigeria,33,106,2208,12,Fatou Bah,22:51,0,0/1,0/1,0/0,0/0,0,2,2,1,1,1,0,0,-51,1
+Guinea,Nigeria,33,106,2208,13,Nadia Peruch Niang,17:35,3,1/5,1/2,0/3,1/2,0,2,2,3,2,3,0,0,-32,0
+Guinea,Nigeria,33,106,2208,14,Angeline Keita,06:02,2,0/0,0/0,0/0,2/2,0,0,0,0,0,0,0,0,-19,2
+Guinea,Nigeria,33,106,2208,15,Simone Keita,26:49,0,0/3,0/3,0/0,0/2,0,3,3,0,4,0,0,0,-40,-2
+Nigeria,Guinea,106,33,2208,3,Ugochi Nwaigwe,13:45,4,2/3,2/3,0/0,0/0,0,3,3,0,4,0,2,0,20,8
+Nigeria,Guinea,106,33,2208,5,Upe Atosu,18:23,7,3/6,3/3,0/3,1/1,1,1,2,4,1,0,1,0,28,11
+Nigeria,Guinea,106,33,2208,7,Sarah Ogoke,19:28,13,4/7,1/2,3/5,2/2,1,1,2,1,1,0,0,0,30,13
+Nigeria,Guinea,106,33,2208,8,Nkechi Akashili,17:48,12,5/9,5/9,0/0,2/3,1,0,1,2,1,0,0,0,29,10
+Nigeria,Guinea,106,33,2208,9,Aisha Mohammed,14:21,6,3/3,3/3,0/0,0/1,1,3,4,0,1,2,1,0,23,8
+Nigeria,Guinea,106,33,2208,11,Adaora Elonu,19:29,11,3/8,2/6,1/2,4/4,0,2,2,0,0,0,2,0,42,10
+Nigeria,Guinea,106,33,2208,12,Ndidi Madu,16:56,3,1/5,1/5,0/0,1/2,0,7,7,5,1,0,1,0,37,11
+Nigeria,Guinea,106,33,2208,13,Evelyn Akhator,19:51,24,9/13,9/12,0/1,6/6,5,2,7,3,1,3,4,1,47,32
+Nigeria,Guinea,106,33,2208,14,Chioma Udeaja,09:30,7,2/4,2/4,0/0,3/4,3,3,6,1,0,1,1,0,13,11
+Nigeria,Guinea,106,33,2208,21,Atonye Nyingifa,16:18,8,4/7,4/7,0/0,0/0,2,2,4,2,3,0,0,0,36,11
+Nigeria,Guinea,106,33,2208,23,Ezinne Kalu,13:58,5,2/3,1/1,1/2,0/0,0,0,0,1,1,1,0,0,34,4
+Nigeria,Guinea,106,33,2208,30,Cecilia Okoye,20:08,6,2/6,1/2,1/4,1/2,1,1,2,1,1,1,0,0,26,3
+Dem.Rep. of Congo,Mozambique,42,52,2208,4,Ginette Mfutila Makiese,09:52,2,1/4,1/3,0/1,0/0,0,0,0,0,0,3,0,0,-8,-4
+Dem.Rep. of Congo,Mozambique,42,52,2208,5,Yvonne Bilonda Ntumba,17:12,8,3/9,1/1,2/8,0/0,1,1,2,1,1,1,0,0,4,4
+Dem.Rep. of Congo,Mozambique,42,52,2208,6,Naura Bombolo Balongya,22:38,0,0/5,0/3,0/2,0/0,0,1,1,6,1,3,0,0,-3,-1
+Dem.Rep. of Congo,Mozambique,42,52,2208,7,Jeanine Kapinga Kalombo,26:32,2,1/6,1/4,0/2,0/0,1,4,5,1,1,0,2,0,-7,5
+Dem.Rep. of Congo,Mozambique,42,52,2208,8,Cecile Mukoso Nyoka,26:17,13,6/11,6/10,0/1,1/1,1,2,3,2,3,4,2,0,-9,11
+Dem.Rep. of Congo,Mozambique,42,52,2208,9,Natacha Mambengya Teba,17:21,4,2/4,2/3,0/1,0/0,1,3,4,0,2,6,2,0,-7,2
+Dem.Rep. of Congo,Mozambique,42,52,2208,10,Ortice Kabobo Haongi,06:46,0,0/2,0/2,0/0,0/0,0,1,1,0,0,1,0,1,-2,-1
+Dem.Rep. of Congo,Mozambique,42,52,2208,12,Mireille Muganza Nyota,16:09,2,1/3,1/3,0/0,0/0,1,4,5,3,2,6,1,0,-11,3
+Dem.Rep. of Congo,Mozambique,42,52,2208,13,Christelle Ngusu Mafuta,06:40,0,0/2,0/2,0/0,0/0,0,1,1,0,1,1,0,0,1,-2
+Dem.Rep. of Congo,Mozambique,42,52,2208,14,Mudju Bernadette Ngoyisa,23:08,5,2/3,2/3,0/0,1/2,1,5,6,0,4,5,0,1,-1,5
+Dem.Rep. of Congo,Mozambique,42,52,2208,15,Chanel Mokango Modiri,27:19,6,3/7,3/6,0/1,0/0,3,3,6,1,0,1,1,6,-7,15
+Mozambique,Dem.Rep. of Congo,52,42,2208,4,Iliana Sheila Alexandre Ventura,08:17,2,1/3,1/1,0/2,0/0,2,0,2,0,0,0,0,1,0,3
+Mozambique,Dem.Rep. of Congo,52,42,2208,5,Aquila Mucubaquine,17:26,0,0/3,0/1,0/2,0/0,0,0,0,0,0,2,0,0,4,-5
+Mozambique,Dem.Rep. of Congo,52,42,2208,6,Chanaya Pinto,22:29,6,2/5,1/4,1/1,1/2,0,2,2,2,0,2,1,0,-3,5
+Mozambique,Dem.Rep. of Congo,52,42,2208,7,Anabela Cossa,28:00,3,1/9,0/4,1/5,0/2,0,2,2,8,1,5,4,0,3,2
+Mozambique,Dem.Rep. of Congo,52,42,2208,10,Eleuteria Lhavanguane,02:20,0,0/1,0/1,0/0,0/0,0,0,0,0,0,0,0,0,-3,-1
+Mozambique,Dem.Rep. of Congo,52,42,2208,11,Leia Dongue,35:10,14,5/16,5/15,0/1,4/4,1,10,11,4,3,4,5,0,20,19
+Mozambique,Dem.Rep. of Congo,52,42,2208,13,Elizabeth Pereira,26:15,10,4/7,2/3,2/4,0/0,1,2,3,2,0,0,3,0,13,15
+Mozambique,Dem.Rep. of Congo,52,42,2208,14,Odélia Mafanela,31:47,12,6/8,6/8,0/0,0/0,1,4,5,1,1,1,3,0,21,18
+Mozambique,Dem.Rep. of Congo,52,42,2208,15,Tamara Seda,28:12,5,2/12,2/12,0/0,1/4,4,4,8,0,2,3,2,0,-5,-1
+Tunisia,Cameroon,49,64,2208,5,Houda Hamrouni,25:33,6,3/7,3/4,0/3,0/0,0,7,7,2,2,4,1,0,-4,8
+Tunisia,Cameroon,49,64,2208,6,Marwa Shili,01:55,0,0/0,0/0,0/0,0/0,0,0,0,0,0,1,0,0,-2,-1
+Tunisia,Cameroon,49,64,2208,7,Monia Ben Mechlia,24:55,10,5/8,5/8,0/0,0/0,1,3,4,5,2,4,0,0,-10,12
+Tunisia,Cameroon,49,64,2208,8,Khouloud Mefteh,07:49,4,2/4,2/4,0/0,0/0,0,1,1,0,1,0,0,0,0,3
+Tunisia,Cameroon,49,64,2208,9,Imen Jedidi Mistiri,17:22,4,1/3,1/3,0/0,2/2,1,1,2,2,1,2,0,0,2,4
+Tunisia,Cameroon,49,64,2208,10,Hela Msadak,18:55,0,0/3,0/0,0/3,0/0,0,4,4,1,1,1,0,0,-12,1
+Tunisia,Cameroon,49,64,2208,11,Siwar Khlifa,22:08,0,0/5,0/3,0/2,0/0,1,1,2,1,1,0,1,0,-13,-1
+Tunisia,Cameroon,49,64,2208,12,Wafa Loubiri,32:11,10,3/8,2/6,1/2,3/4,0,5,5,1,3,4,1,0,-14,7
+Tunisia,Cameroon,49,64,2208,13,Maherzia Ksouri Sbeii,19:43,8,4/8,4/7,0/1,0/0,0,2,2,1,0,0,0,0,-10,7
+Tunisia,Cameroon,49,64,2208,14,Beya Ben Ameur,03:58,0,0/0,0/0,0/0,0/0,0,0,0,0,2,0,0,0,-1,0
+Tunisia,Cameroon,49,64,2208,15,Salma Mnasria,25:26,7,3/9,3/9,0/0,1/2,2,5,7,1,5,4,1,1,-11,6
+Cameroon,Tunisia,64,49,2208,5,Priscilla Mbiandja,24:02,2,0/5,0/3,0/2,2/4,2,2,4,3,5,2,2,0,-1,2
+Cameroon,Tunisia,64,49,2208,6,Anne Marie Assena,11:03,6,2/7,0/2,2/5,0/2,0,0,0,0,0,0,2,0,0,1
+Cameroon,Tunisia,64,49,2208,7,Rose Abenkou,06:58,0,0/0,0/0,0/0,0/0,1,3,4,0,0,0,0,0,-1,4
+Cameroon,Tunisia,64,49,2208,8,Marie Ange Mfoula,23:03,6,1/4,0/1,1/3,3/4,2,2,4,1,0,2,2,1,16,8
+Cameroon,Tunisia,64,49,2208,9,Ramses Lonlack,33:27,18,8/25,7/17,1/8,1/3,1,6,7,1,0,0,4,0,16,11
+Cameroon,Tunisia,64,49,2208,10,Tia Weledji,31:41,22,8/13,7/10,1/3,5/5,2,5,7,1,2,1,1,0,16,25
+Cameroon,Tunisia,64,49,2208,11,Angi Ramey,11:48,4,2/3,2/3,0/0,0/2,1,4,5,0,2,2,0,0,-1,4
+Cameroon,Tunisia,64,49,2208,12,Achiri Ade,24:31,6,3/10,3/9,0/1,0/0,4,0,4,1,1,2,1,1,13,4
+Cameroon,Tunisia,64,49,2208,13,Nelly Tchasi,19:45,0,0/2,0/0,0/2,0/0,1,2,3,1,2,0,1,0,14,3
+Cameroon,Tunisia,64,49,2208,14,Catherine Ghane Yenou,09:46,0,0/2,0/2,0/0,0/0,1,1,2,0,2,1,0,0,5,-1
+Cameroon,Tunisia,64,49,2208,15,Amandine Ebogo Fabo,03:50,0,0/1,0/1,0/0,0/0,0,0,0,0,0,1,0,0,-2,-2
+CAF,Mali,38,97,2208,4,Keitia Kalene,17:25,2,1/4,1/3,0/1,0/0,1,2,3,1,1,2,1,0,-22,2
+CAF,Mali,38,97,2208,5,Nina Koumba,06:12,0,0/0,0/0,0/0,0/0,0,0,0,0,1,4,0,0,-13,-4
+CAF,Mali,38,97,2208,6,Debora Eyene,13:35,0,0/3,0/2,0/1,0/2,2,1,3,1,3,5,0,0,-21,-6
+CAF,Mali,38,97,2208,7,Princesse M'Baye Ndack,03:18,2,1/1,1/1,0/0,0/0,0,0,0,0,4,2,1,1,-5,2
+CAF,Mali,38,97,2208,8,Abety Imbangueret II,38:09,13,5/12,5/10,0/2,3/5,1,7,8,0,3,4,2,0,-47,10
+CAF,Mali,38,97,2208,9,Hortencia Yamalet,08:09,0,0/2,0/2,0/0,0/2,1,1,2,1,0,1,1,0,-10,-1
+CAF,Mali,38,97,2208,10,Claudie Yagba Kokito,32:48,13,5/13,2/8,3/5,0/0,1,3,4,0,3,5,3,0,-42,7
+CAF,Mali,38,97,2208,11,Esthelle Gaombalet,28:29,3,1/7,1/4,0/3,1/2,0,5,5,2,3,3,1,0,-39,1
+CAF,Mali,38,97,2208,12,Gabriella Guegbelet,35:00,5,1/7,1/6,0/1,3/6,3,6,9,2,1,3,3,0,-53,7
+CAF,Mali,38,97,2208,13,Chancella Derebona-Ngaïsset,07:40,0,0/3,0/3,0/0,0/0,1,1,2,0,0,0,0,0,-9,-1
+CAF,Mali,38,97,2208,14,Isabelle Djel,09:12,0,0/0,0/0,0/0,0/0,0,0,0,0,1,4,1,0,-34,-3
+Mali,CAF,97,38,2208,4,Nassira Traore,17:24,6,3/11,3/11,0/0,0/0,2,4,6,2,1,1,0,0,29,5
+Mali,CAF,97,38,2208,5,Aissata Maiga,22:31,12,6/10,6/9,0/1,0/2,1,4,5,3,3,2,4,0,36,16
+Mali,CAF,97,38,2208,7,Fatoumata Bagayoko,21:57,12,4/11,0/2,4/9,0/0,1,0,1,4,1,3,4,0,30,11
+Mali,CAF,97,38,2208,8,Touty Gandega,12:51,7,3/6,2/3,1/3,0/0,0,0,0,7,1,1,1,0,27,11
+Mali,CAF,97,38,2208,10,Kankou Coulibaly,17:05,12,4/6,4/4,0/2,4/6,2,4,6,1,1,3,2,0,26,14
+Mali,CAF,97,38,2208,13,Meiya Tirera,14:15,11,4/7,1/1,3/6,0/0,3,0,3,3,0,0,2,1,29,17
+Mali,CAF,97,38,2208,14,Mariam Coulibaly,13:41,5,1/6,1/6,0/0,3/4,1,2,3,1,3,0,2,1,17,6
+Mali,CAF,97,38,2208,15,Naignouma Coulibaly,14:33,4,1/1,1/1,0/0,2/4,1,4,5,3,2,1,2,1,29,12
+Mali,CAF,97,38,2208,17,Minata Keita,16:12,2,1/5,1/4,0/1,0/2,2,1,3,2,1,2,0,0,1,-1
+Mali,CAF,97,38,2208,30,Astan Dabo,13:44,6,3/7,3/7,0/0,0/0,5,3,8,0,2,2,0,2,17,10
+Mali,CAF,97,38,2208,77,Kouta Camara,17:23,5,2/3,2/3,0/0,1/2,2,0,2,4,1,2,1,0,22,8
+Mali,CAF,97,38,2208,87,Ramata Diakite,18:18,15,7/10,7/9,0/1,1/1,1,2,3,2,1,3,3,0,32,17
+Cote d'Ivoire,Angola,62,70,2208,4,Mamiky Cisse,17:51,0,0/5,0/2,0/3,0/0,0,2,2,1,0,3,0,0,-7,-5
+Cote d'Ivoire,Angola,62,70,2208,6,Abiba Kone,32:55,11,4/10,3/7,1/3,2/2,2,2,4,4,1,3,1,0,-1,11
+Cote d'Ivoire,Angola,62,70,2208,7,Djefarina Diawara,03:50,0,0/1,0/1,0/0,0/0,1,1,2,0,1,0,0,0,-2,1
+Cote d'Ivoire,Angola,62,70,2208,8,Blandine N'Goran,05:52,2,1/1,1/1,0/0,0/0,0,1,1,0,1,0,0,0,1,3
+Cote d'Ivoire,Angola,62,70,2208,9,Edwige Djedjemel,07:31,1,0/0,0/0,0/0,1/2,0,2,2,0,0,0,0,0,-5,2
+Cote d'Ivoire,Angola,62,70,2208,10,Kani Kouyate,34:50,19,4/9,0/3,4/6,7/8,1,8,9,1,1,4,3,0,-5,22
+Cote d'Ivoire,Angola,62,70,2208,11,Amandine Kouakou,17:54,6,3/4,3/4,0/0,0/0,2,4,6,1,5,1,1,0,-3,12
+Cote d'Ivoire,Angola,62,70,2208,12,Irène Bognini,09:51,5,2/4,1/1,1/3,0/0,0,2,2,0,2,1,0,0,-11,4
+Cote d'Ivoire,Angola,62,70,2208,13,Kariata Diaby,28:47,12,3/10,3/8,0/2,6/8,2,6,8,0,2,1,0,0,-8,10
+Cote d'Ivoire,Angola,62,70,2208,14,Mariama Kouyate,20:39,2,0/4,0/1,0/3,2/2,0,5,5,2,2,4,1,0,2,2
+Cote d'Ivoire,Angola,62,70,2208,15,Minata Fofana,19:54,4,2/5,2/5,0/0,0/0,0,1,1,0,1,1,0,0,-1,1
+Angola,Cote d'Ivoire,70,62,2208,1,Italee Lucas,34:18,27,8/16,3/6,5/10,6/8,1,7,8,5,1,5,3,0,13,28
+Angola,Cote d'Ivoire,70,62,2208,2,Rosa Gala,22:29,2,1/7,1/5,0/2,0/0,0,2,2,3,2,1,1,0,0,1
+Angola,Cote d'Ivoire,70,62,2208,3,Clarisse Mpaka,21:02,9,3/9,2/8,1/1,2/4,0,1,1,0,1,0,1,0,5,3
+Angola,Cote d'Ivoire,70,62,2208,4,Fineza Eusébio,05:41,3,1/1,0/0,1/1,0/0,0,0,0,0,1,1,0,0,-5,2
+Angola,Cote d'Ivoire,70,62,2208,5,Artémis Afonso,02:35,0,0/0,0/0,0/0,0/0,0,0,0,0,1,0,0,0,-2,0
+Angola,Cote d'Ivoire,70,62,2208,6,Felizarda Jorge,20:06,9,2/4,1/1,1/3,4/4,1,2,3,1,1,2,1,0,20,10
+Angola,Cote d'Ivoire,70,62,2208,7,Whitney Miguel,23:32,5,2/3,1/2,1/1,0/0,1,3,4,1,4,1,1,0,11,9
+Angola,Cote d'Ivoire,70,62,2208,10,Sonia Ndoniema,05:48,0,0/2,0/2,0/0,0/0,0,0,0,0,1,0,0,0,0,-2
+Angola,Cote d'Ivoire,70,62,2208,11,Luisa Tomas,21:45,4,2/4,2/4,0/0,0/0,0,5,5,0,2,1,0,1,-1,7
+Angola,Cote d'Ivoire,70,62,2208,14,Ana Goncalves,21:50,4,1/6,0/1,1/5,1/2,1,3,4,0,2,0,1,0,11,3
+Angola,Cote d'Ivoire,70,62,2208,15,Ngiendula Filipe,17:13,2,1/6,1/6,0/0,0/0,0,1,1,1,1,1,1,1,-7,0
+Angola,Cote d'Ivoire,70,62,2208,20,Cristina Matiquite,03:35,5,1/2,1/2,0/0,3/3,2,0,2,0,0,0,0,0,-5,6
+Guinea,Dem.Rep. of Congo,37,84,2308,4,Aminata Sylla,10:04,2,1/7,1/7,0/0,0/0,2,0,2,0,0,0,1,0,-18,-1
+Guinea,Dem.Rep. of Congo,37,84,2308,5,Aicha Dallo Mara,25:26,8,3/7,3/7,0/0,2/2,1,1,2,2,4,2,1,1,-20,8
+Guinea,Dem.Rep. of Congo,37,84,2308,6,Fanta Soumah,31:29,10,4/13,4/12,0/1,2/4,1,2,3,1,2,7,4,0,-47,0
+Guinea,Dem.Rep. of Congo,37,84,2308,7,Khady Mbaye,24:35,3,1/4,0/1,1/3,0/0,0,1,1,0,2,1,1,1,-28,2
+Guinea,Dem.Rep. of Congo,37,84,2308,8,Fatima Sacko,09:56,0,0/1,0/1,0/0,0/0,0,1,1,1,3,0,0,0,-14,1
+Guinea,Dem.Rep. of Congo,37,84,2308,10,Aissata Bangoura,11:25,0,0/0,0/0,0/0,0/0,0,1,1,0,2,0,0,0,-11,1
+Guinea,Dem.Rep. of Congo,37,84,2308,12,Fatou Bah,29:44,5,1/8,1/7,0/1,3/6,0,6,6,1,1,3,1,0,-32,0
+Guinea,Dem.Rep. of Congo,37,84,2308,13,Nadia Peruch Niang,20:11,4,2/5,2/2,0/3,0/0,0,1,1,0,3,3,0,0,-25,-1
+Guinea,Dem.Rep. of Congo,37,84,2308,14,Angeline Keita,05:15,1,0/0,0/0,0/0,1/2,0,0,0,1,1,0,0,0,-10,1
+Guinea,Dem.Rep. of Congo,37,84,2308,15,Simone Keita,31:52,4,2/7,2/6,0/1,0/4,2,5,7,0,4,3,2,1,-30,2
+Dem.Rep. of Congo,Guinea,84,37,2308,4,Ginette Mfutila Makiese,15:30,8,3/6,3/6,0/0,2/6,4,4,8,1,1,2,0,0,9,8
+Dem.Rep. of Congo,Guinea,84,37,2308,5,Yvonne Bilonda Ntumba,18:53,11,4/9,1/2,3/7,0/0,0,1,1,1,1,0,0,0,26,8
+Dem.Rep. of Congo,Guinea,84,37,2308,6,Naura Bombolo Balongya,16:56,0,0/4,0/1,0/3,0/2,0,0,0,5,2,0,0,0,20,-1
+Dem.Rep. of Congo,Guinea,84,37,2308,7,Jeanine Kapinga Kalombo,23:32,4,2/6,2/5,0/1,0/2,1,7,8,3,3,4,3,0,26,8
+Dem.Rep. of Congo,Guinea,84,37,2308,8,Cecile Mukoso Nyoka,22:03,8,4/10,4/9,0/1,0/0,0,0,0,4,1,1,2,0,33,7
+Dem.Rep. of Congo,Guinea,84,37,2308,9,Natacha Mambengya Teba,23:03,0,0/5,0/1,0/4,0/0,0,3,3,7,2,2,2,0,27,5
+Dem.Rep. of Congo,Guinea,84,37,2308,10,Ortice Kabobo Haongi,13:47,8,3/3,3/3,0/0,2/4,2,3,5,1,1,2,1,1,22,12
+Dem.Rep. of Congo,Guinea,84,37,2308,11,Mireille Mbiya Tshiyoyo,02:28,0,0/0,0/0,0/0,0/0,0,0,0,0,0,2,0,0,-2,-2
+Dem.Rep. of Congo,Guinea,84,37,2308,12,Mireille Muganza Nyota,15:56,11,4/8,4/8,0/0,3/4,5,1,6,0,3,2,1,0,20,11
+Dem.Rep. of Congo,Guinea,84,37,2308,13,Christelle Ngusu Mafuta,08:47,2,1/1,1/1,0/0,0/0,0,5,5,0,0,3,0,1,14,5
+Dem.Rep. of Congo,Guinea,84,37,2308,14,Mudju Bernadette Ngoyisa,18:32,10,5/6,5/6,0/0,0/3,1,6,7,3,1,1,0,0,15,15
+Dem.Rep. of Congo,Guinea,84,37,2308,15,Chanel Mokango Modiri,20:26,22,7/9,7/9,0/0,8/9,5,2,7,1,3,1,0,3,25,29
+Egypt,Mozambique,91,70,2308,4,Manar Youssef,07:04,7,3/3,3/3,0/0,1/1,0,0,0,1,0,1,0,1,-1,8
+Egypt,Mozambique,91,70,2308,5,Nouralla Abdelalim,20:18,4,2/3,2/2,0/1,0/0,2,2,4,1,2,1,3,0,2,10
+Egypt,Mozambique,91,70,2308,8,Soraia Deghady,29:52,16,6/10,4/6,2/4,2/2,0,5,5,3,2,2,3,0,27,21
+Egypt,Mozambique,91,70,2308,9,Reem AWAD,20:20,16,5/8,3/4,2/4,4/7,2,1,3,0,2,1,0,0,14,12
+Egypt,Mozambique,91,70,2308,11,Radwa Sherif,13:47,9,4/5,3/4,1/1,0/0,0,1,1,0,1,0,0,0,3,9
+Egypt,Mozambique,91,70,2308,12,Rana Abdelfattah,21:10,9,4/9,3/4,1/5,0/0,1,0,1,2,1,0,0,0,10,7
+Egypt,Mozambique,91,70,2308,14,Menatalla Awad,05:50,6,3/4,3/3,0/1,0/0,1,1,2,0,0,0,0,0,9,7
+Egypt,Mozambique,91,70,2308,18,Asrar Bakr,04:57,0,0/1,0/0,0/1,0/0,0,0,0,0,0,1,1,0,-8,-1
+Egypt,Mozambique,91,70,2308,41,Hala Elshaarawy,32:56,11,4/10,3/7,1/3,2/4,2,7,9,2,3,2,3,2,23,17
+Egypt,Mozambique,91,70,2308,49,Meral Abdelgawad,12:04,9,4/5,3/4,1/1,0/1,0,1,1,3,1,1,2,0,2,12
+Egypt,Mozambique,91,70,2308,69,Mai Helwa,31:38,4,2/10,2/7,0/3,0/0,0,2,2,3,3,0,1,0,24,2
+Mozambique,Egypt,70,91,2308,4,Iliana Sheila Alexandre Ventura,19:42,11,3/12,1/3,2/9,3/4,1,1,2,2,2,1,1,0,-7,5
+Mozambique,Egypt,70,91,2308,5,Aquila Mucubaquine,27:27,3,1/5,0/1,1/4,0/0,2,3,5,4,0,5,0,0,-19,3
+Mozambique,Egypt,70,91,2308,6,Chanaya Pinto,03:39,2,0/2,0/2,0/0,2/2,1,0,1,0,1,0,0,0,-1,1
+Mozambique,Egypt,70,91,2308,7,Anabela Cossa,22:53,7,3/7,2/3,1/4,0/0,0,0,0,1,3,3,1,0,-17,2
+Mozambique,Egypt,70,91,2308,8,Amelia Massingue,04:46,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,6,0
+Mozambique,Egypt,70,91,2308,9,Catia Halar,15:31,0,0/4,0/2,0/2,0/0,1,2,3,1,0,3,0,0,-11,-3
+Mozambique,Egypt,70,91,2308,10,Eleuteria Lhavanguane,05:55,6,3/3,3/3,0/0,0/0,0,0,0,0,0,0,0,0,7,6
+Mozambique,Egypt,70,91,2308,11,Leia Dongue,19:34,13,5/6,5/6,0/0,3/3,0,6,6,0,1,1,1,0,-12,18
+Mozambique,Egypt,70,91,2308,12,Rute Muianga,24:23,4,2/9,2/5,0/4,0/1,1,2,3,2,0,1,0,0,-3,0
+Mozambique,Egypt,70,91,2308,13,Elizabeth Pereira,10:00,4,1/2,0/1,1/1,1/2,0,0,0,0,1,1,0,0,-8,1
+Mozambique,Egypt,70,91,2308,14,Odélia Mafanela,24:34,10,5/8,5/8,0/0,0/2,6,2,8,1,2,3,0,0,-29,11
+Mozambique,Egypt,70,91,2308,15,Tamara Seda,21:31,10,5/7,5/7,0/0,0/1,2,6,8,1,1,2,0,0,-11,14
+CAF,Angola,58,96,2308,4,Keitia Kalene,22:17,1,0/2,0/1,0/1,1/2,0,0,0,1,4,2,0,0,-26,-3
+CAF,Angola,58,96,2308,5,Nina Koumba,03:19,0,0/0,0/0,0/0,0/0,0,0,0,0,0,1,0,0,-6,-1
+CAF,Angola,58,96,2308,6,Debora Eyene,13:19,3,1/2,1/2,0/0,1/2,0,0,0,2,2,1,0,0,-17,2
+CAF,Angola,58,96,2308,7,Princesse M'Baye Ndack,07:45,4,2/2,2/2,0/0,0/0,0,1,1,1,4,0,0,0,-3,6
+CAF,Angola,58,96,2308,8,Abety Imbangueret II,36:36,25,8/18,8/18,0/0,9/12,1,8,9,2,4,3,1,0,-32,21
+CAF,Angola,58,96,2308,10,Claudie Yagba Kokito,26:36,11,5/15,4/12,1/3,0/0,0,6,6,1,1,2,0,0,-23,6
+CAF,Angola,58,96,2308,11,Esthelle Gaombalet,29:01,3,1/3,0/0,1/3,0/0,0,2,2,4,3,5,1,0,-20,3
+CAF,Angola,58,96,2308,12,Gabriella Guegbelet,40:00,11,4/8,4/8,0/0,3/4,7,5,12,2,4,5,1,0,-38,16
+CAF,Angola,58,96,2308,13,Chancella Derebona-Ngaïsset,05:57,0,0/1,0/1,0/0,0/0,1,1,2,0,1,0,0,0,-4,1
+CAF,Angola,58,96,2308,14,Isabelle Djel,13:17,0,0/2,0/2,0/0,0/0,0,0,0,1,2,1,1,0,-12,-1
+CAF,Angola,58,96,2308,15,Patricia Ngbonga,01:47,0,0/0,0/0,0/0,0/0,1,0,1,0,0,0,0,0,-9,1
+Angola,CAF,96,58,2308,1,Italee Lucas,16:57,9,3/8,0/1,3/7,0/0,0,0,0,4,0,1,0,0,11,7
+Angola,CAF,96,58,2308,3,Clarisse Mpaka,20:26,16,5/12,4/8,1/4,5/8,3,0,3,3,3,1,0,1,18,12
+Angola,CAF,96,58,2308,4,Fineza Eusébio,27:44,7,3/6,2/2,1/4,0/0,1,2,3,5,1,1,1,0,28,12
+Angola,CAF,96,58,2308,5,Artémis Afonso,13:37,7,1/3,0/1,1/2,4/4,2,0,2,2,4,0,0,1,16,10
+Angola,CAF,96,58,2308,6,Felizarda Jorge,17:34,11,4/11,3/3,1/8,2/3,0,2,2,2,0,0,0,0,23,7
+Angola,CAF,96,58,2308,7,Whitney Miguel,19:28,4,2/3,2/3,0/0,0/0,1,3,4,1,2,0,0,0,18,8
+Angola,CAF,96,58,2308,10,Sonia Ndoniema,21:12,14,3/7,0/0,3/7,5/8,5,3,8,2,2,1,0,0,22,16
+Angola,CAF,96,58,2308,11,Luisa Tomas,24:14,10,3/6,3/6,0/0,4/8,1,6,7,2,0,2,2,2,18,14
+Angola,CAF,96,58,2308,14,Ana Goncalves,21:38,13,5/13,2/4,3/9,0/0,0,2,2,0,0,1,2,0,18,8
+Angola,CAF,96,58,2308,15,Ngiendula Filipe,17:04,5,1/2,1/2,0/0,3/4,2,1,3,1,2,2,3,1,18,9
+Tunisia,Cote d'Ivoire,69,64,2308,5,Houda Hamrouni,10:38,4,1/2,1/2,0/0,2/2,0,0,0,0,5,2,1,0,12,2
+Tunisia,Cote d'Ivoire,69,64,2308,6,Marwa Shili,01:14,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-4,0
+Tunisia,Cote d'Ivoire,69,64,2308,7,Monia Ben Mechlia,45:21,15,5/13,5/9,0/4,5/6,0,4,4,5,3,3,3,1,8,16
+Tunisia,Cote d'Ivoire,69,64,2308,9,Imen Jedidi Mistiri,21:31,4,0/2,0/2,0/0,4/6,1,6,7,3,3,1,1,0,-4,10
+Tunisia,Cote d'Ivoire,69,64,2308,10,Hela Msadak,35:25,8,4/10,4/5,0/5,0/0,0,4,4,1,2,3,0,0,7,4
+Tunisia,Cote d'Ivoire,69,64,2308,11,Siwar Khlifa,35:24,5,2/6,1/4,1/2,0/0,0,2,2,2,1,3,4,0,-3,6
+Tunisia,Cote d'Ivoire,69,64,2308,12,Wafa Loubiri,32:33,14,6/11,6/7,0/4,2/2,0,3,3,3,3,1,1,0,7,15
+Tunisia,Cote d'Ivoire,69,64,2308,13,Maherzia Ksouri Sbeii,20:15,4,2/4,2/4,0/0,0/0,0,3,3,1,2,2,1,0,-1,5
+Tunisia,Cote d'Ivoire,69,64,2308,14,Beya Ben Ameur,03:12,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-9,0
+Tunisia,Cote d'Ivoire,69,64,2308,15,Salma Mnasria,44:21,15,7/17,7/15,0/2,1/2,1,10,11,1,4,6,4,1,12,15
+Cote d'Ivoire,Tunisia,64,69,2308,4,Mamiky Cisse,37:13,10,3/10,0/2,3/8,1/2,2,1,3,1,2,7,1,0,6,0
+Cote d'Ivoire,Tunisia,64,69,2308,5,Awa Kone,00:39,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,3,0
+Cote d'Ivoire,Tunisia,64,69,2308,6,Abiba Kone,14:32,2,1/3,1/2,0/1,0/0,2,0,2,0,0,1,0,0,-14,1
+Cote d'Ivoire,Tunisia,64,69,2308,7,Djefarina Diawara,08:08,4,2/4,2/4,0/0,0/0,2,0,2,0,1,3,1,0,-7,2
+Cote d'Ivoire,Tunisia,64,69,2308,9,Edwige Djedjemel,04:08,1,0/0,0/0,0/0,1/2,0,0,0,0,2,0,0,0,-5,0
+Cote d'Ivoire,Tunisia,64,69,2308,10,Kani Kouyate,46:10,26,7/15,6/8,1/7,11/14,5,9,14,5,4,4,3,0,-3,33
+Cote d'Ivoire,Tunisia,64,69,2308,11,Amandine Kouakou,38:09,7,2/11,2/11,0/0,3/5,3,10,13,0,2,1,2,0,1,10
+Cote d'Ivoire,Tunisia,64,69,2308,12,Irène Bognini,31:18,10,4/14,2/8,2/6,0/0,1,2,3,0,1,1,1,0,0,3
+Cote d'Ivoire,Tunisia,64,69,2308,13,Kariata Diaby,34:34,3,1/8,1/5,0/3,1/4,2,4,6,1,2,3,1,1,2,-1
+Cote d'Ivoire,Tunisia,64,69,2308,14,Mariama Kouyate,19:40,1,0/5,0/1,0/4,1/2,1,1,2,1,3,3,0,1,-1,-4
+Cote d'Ivoire,Tunisia,64,69,2308,15,Minata Fofana,15:25,0,0/4,0/4,0/0,0/0,2,3,5,0,2,1,0,2,-7,2
+Mali,Cameroon,69,35,2308,4,Nassira Traore,20:32,5,1/6,1/6,0/0,3/4,2,2,4,1,1,2,2,1,20,5
+Mali,Cameroon,69,35,2308,5,Aissata Maiga,07:29,0,0/2,0/2,0/0,0/0,0,0,0,0,0,1,0,0,5,-3
+Mali,Cameroon,69,35,2308,7,Fatoumata Bagayoko,14:55,5,1/6,0/0,1/6,2/2,0,0,0,1,2,0,0,0,16,1
+Mali,Cameroon,69,35,2308,8,Touty Gandega,22:04,4,2/6,2/4,0/2,0/0,0,2,2,2,2,3,6,0,18,7
+Mali,Cameroon,69,35,2308,10,Kankou Coulibaly,23:05,10,2/5,2/4,0/1,6/8,5,6,11,2,3,3,1,1,23,17
+Mali,Cameroon,69,35,2308,13,Meiya Tirera,23:04,13,4/9,3/4,1/5,4/7,1,1,2,2,0,1,0,0,24,8
+Mali,Cameroon,69,35,2308,14,Mariam Coulibaly,17:45,19,7/11,7/11,0/0,5/6,3,3,6,0,1,2,0,1,7,19
+Mali,Cameroon,69,35,2308,15,Naignouma Coulibaly,13:47,3,1/4,1/4,0/0,1/2,1,1,2,0,4,1,3,1,14,4
+Mali,Cameroon,69,35,2308,17,Minata Keita,05:59,0,0/2,0/2,0/0,0/0,0,1,1,1,2,0,0,1,7,1
+Mali,Cameroon,69,35,2308,30,Astan Dabo,13:45,4,1/3,1/3,0/0,2/4,1,8,9,1,3,1,0,1,12,10
+Mali,Cameroon,69,35,2308,77,Kouta Camara,19:43,0,0/3,0/3,0/0,0/0,3,5,8,0,4,0,0,0,8,5
+Mali,Cameroon,69,35,2308,87,Ramata Diakite,17:47,6,3/7,3/7,0/0,0/1,1,4,5,3,3,4,3,0,16,8
+Cameroon,Mali,35,69,2308,4,Linda Mba Minna,14:31,1,0/0,0/0,0/0,1/2,0,2,2,1,4,1,0,0,-14,2
+Cameroon,Mali,35,69,2308,5,Priscilla Mbiandja,13:22,0,0/4,0/3,0/1,0/0,0,1,1,0,1,5,0,0,-18,-8
+Cameroon,Mali,35,69,2308,6,Anne Marie Assena,17:46,1,0/5,0/3,0/2,1/2,0,2,2,0,3,4,1,0,-13,-6
+Cameroon,Mali,35,69,2308,8,Marie Ange Mfoula,22:02,7,3/10,3/7,0/3,1/1,0,4,4,0,1,0,0,0,-11,4
+Cameroon,Mali,35,69,2308,9,Ramses Lonlack,19:38,10,3/6,2/4,1/2,3/4,0,1,1,2,0,4,2,0,-16,7
+Cameroon,Mali,35,69,2308,10,Tia Weledji,25:52,2,1/8,1/5,0/3,0/0,0,1,1,0,1,4,1,0,-24,-7
+Cameroon,Mali,35,69,2308,11,Angi Ramey,17:05,2,1/2,1/2,0/0,0/6,2,3,5,0,2,0,0,0,-16,0
+Cameroon,Mali,35,69,2308,12,Achiri Ade,25:20,7,3/6,3/6,0/0,1/2,2,4,6,0,3,2,0,0,-23,7
+Cameroon,Mali,35,69,2308,13,Nelly Tchasi,25:55,4,1/5,1/3,0/2,2/2,0,1,1,2,2,2,0,0,-16,1
+Cameroon,Mali,35,69,2308,14,Catherine Ghane Yenou,05:30,0,0/1,0/1,0/0,0/0,1,0,1,0,5,0,0,0,-6,0
+Cameroon,Mali,35,69,2308,15,Amandine Ebogo Fabo,12:54,1,0/2,0/2,0/0,1/2,0,2,2,0,3,0,0,0,-13,0
+Senegal,Nigeria,54,58,2308,4,Oumoul Thiam,17:00,5,2/6,2/2,0/4,1/2,0,1,1,1,1,0,0,0,-2,2
+Senegal,Nigeria,54,58,2308,5,Aya Traore,23:32,6,2/5,1/4,1/1,1/2,1,3,4,2,0,2,2,0,-4,8
+Senegal,Nigeria,54,58,2308,6,Oumoul Khairy Sarr,18:00,6,3/5,3/5,0/0,0/0,0,2,2,2,2,3,2,1,-11,8
+Senegal,Nigeria,54,58,2308,7,Fatou Dieng,15:27,1,0/4,0/2,0/2,1/2,0,1,1,2,1,1,0,0,0,-2
+Senegal,Nigeria,54,58,2308,8,Diodio Diouf,18:38,3,1/3,0/1,1/2,0/0,0,0,0,2,4,3,1,0,-4,1
+Senegal,Nigeria,54,58,2308,9,Ndèye Sène,10:34,4,1/4,1/3,0/1,2/2,0,0,0,1,0,2,0,0,-7,0
+Senegal,Nigeria,54,58,2308,10,Astou Traore,21:34,13,5/12,4/8,1/4,2/2,3,5,8,0,0,0,1,0,2,15
+Senegal,Nigeria,54,58,2308,11,Aminata Fall,17:41,2,1/4,1/4,0/0,0/0,1,3,4,0,3,2,0,0,-6,1
+Senegal,Nigeria,54,58,2308,12,Mame Marie Sy Diop,21:03,2,1/6,1/1,0/5,0/2,3,2,5,2,1,2,1,3,13,4
+Senegal,Nigeria,54,58,2308,13,Sokhna Sy,07:02,1,0/2,0/1,0/1,1/2,0,1,1,0,0,0,0,1,-1,0
+Senegal,Nigeria,54,58,2308,14,Ramata Daou,14:47,4,2/3,2/3,0/0,0/0,0,3,3,1,3,1,0,0,-1,6
+Senegal,Nigeria,54,58,2308,15,Aicha Sidibe,14:36,7,3/8,3/8,0/0,1/2,2,3,5,0,2,3,0,2,1,5
+Nigeria,Senegal,58,54,2308,5,Upe Atosu,07:45,0,0/0,0/0,0/0,0/0,1,1,2,1,0,0,1,0,-4,4
+Nigeria,Senegal,58,54,2308,7,Sarah Ogoke,15:30,7,2/6,0/3,2/3,1/2,1,2,3,1,0,0,2,0,8,8
+Nigeria,Senegal,58,54,2308,8,Nkechi Akashili,02:27,0,0/2,0/2,0/0,0/0,0,0,0,0,1,0,0,0,-4,-2
+Nigeria,Senegal,58,54,2308,9,Aisha Mohammed,14:45,4,2/7,2/7,0/0,0/0,3,4,7,0,1,2,0,0,10,4
+Nigeria,Senegal,58,54,2308,11,Adaora Elonu,35:24,10,4/8,4/8,0/0,2/2,1,4,5,4,2,4,4,1,10,16
+Nigeria,Senegal,58,54,2308,12,Ndidi Madu,25:14,5,2/5,2/5,0/0,1/2,0,1,1,1,3,0,0,0,-6,3
+Nigeria,Senegal,58,54,2308,13,Evelyn Akhator,35:55,15,5/14,5/14,0/0,5/8,2,11,13,2,1,5,1,1,9,15
+Nigeria,Senegal,58,54,2308,21,Atonye Nyingifa,32:56,6,1/10,1/10,0/0,4/6,4,4,8,5,0,1,2,0,6,9
+Nigeria,Senegal,58,54,2308,23,Ezinne Kalu,24:29,11,3/9,2/4,1/5,4/6,0,0,0,1,4,3,3,0,-4,4
+Nigeria,Senegal,58,54,2308,30,Cecilia Okoye,05:31,0,0/3,0/3,0/0,0/0,1,0,1,0,2,0,1,0,-5,-1
+Guinea,Tunisia,60,56,2508,4,Aminata Sylla,15:52,18,6/9,2/4,4/5,2/2,2,1,3,0,1,0,2,0,-3,20
+Guinea,Tunisia,60,56,2508,5,Aicha Dallo Mara,36:45,10,3/9,3/7,0/2,4/8,2,8,10,3,3,5,2,3,9,13
+Guinea,Tunisia,60,56,2508,6,Fanta Soumah,27:22,9,3/6,2/4,1/2,2/2,1,0,1,2,5,1,2,0,2,10
+Guinea,Tunisia,60,56,2508,7,Khady Mbaye,35:48,10,2/10,1/4,1/6,5/5,0,0,0,4,0,2,3,0,4,7
+Guinea,Tunisia,60,56,2508,8,Fatima Sacko,04:11,0,0/1,0/1,0/0,0/0,0,0,0,1,1,0,0,0,0,0
+Guinea,Tunisia,60,56,2508,11,Fanta Bérété,08:28,2,0/2,0/2,0/0,2/2,0,0,0,0,3,0,0,0,-6,0
+Guinea,Tunisia,60,56,2508,12,Fatou Bah,36:18,9,4/9,3/5,1/4,0/0,2,6,8,0,3,2,1,0,1,11
+Guinea,Tunisia,60,56,2508,15,Simone Keita,35:12,2,0/3,0/3,0/0,2/4,2,10,12,2,2,1,2,2,13,14
+Tunisia,Guinea,56,60,2508,5,Houda Hamrouni,19:16,7,3/9,3/7,0/2,1/1,0,3,3,0,3,3,0,0,8,1
+Tunisia,Guinea,56,60,2508,6,Marwa Shili,08:03,2,1/3,1/3,0/0,0/0,1,0,1,0,0,0,0,0,-5,1
+Tunisia,Guinea,56,60,2508,7,Monia Ben Mechlia,40:00,8,1/5,1/4,0/1,6/8,1,4,5,5,4,8,1,0,-4,5
+Tunisia,Guinea,56,60,2508,9,Imen Jedidi Mistiri,19:07,5,0/4,0/3,0/1,5/6,0,3,3,0,3,1,0,0,-10,2
+Tunisia,Guinea,56,60,2508,10,Hela Msadak,18:22,6,3/6,3/5,0/1,0/0,1,0,1,0,0,1,1,0,-3,4
+Tunisia,Guinea,56,60,2508,11,Siwar Khlifa,08:42,2,1/4,1/3,0/1,0/0,0,0,0,0,0,0,0,0,-5,-1
+Tunisia,Guinea,56,60,2508,12,Wafa Loubiri,36:33,14,5/10,4/7,1/3,3/4,0,2,2,2,4,1,1,0,1,12
+Tunisia,Guinea,56,60,2508,13,Maherzia Ksouri Sbeii,20:37,2,1/5,1/5,0/0,0/0,2,3,5,0,1,3,0,0,-6,0
+Tunisia,Guinea,56,60,2508,15,Salma Mnasria,29:17,10,3/6,2/4,1/2,3/3,0,5,5,2,4,2,0,0,4,12
+CAF,Dem.Rep. of Congo,40,101,2508,4,Keitia Kalene,07:10,0,0/3,0/2,0/1,0/0,2,0,2,1,0,1,0,0,-12,-1
+CAF,Dem.Rep. of Congo,40,101,2508,5,Nina Koumba,18:15,0,0/0,0/0,0/0,0/0,0,1,1,0,4,2,2,0,-32,1
+CAF,Dem.Rep. of Congo,40,101,2508,6,Debora Eyene,30:36,9,3/8,2/5,1/3,2/4,3,1,4,1,3,5,2,0,-51,4
+CAF,Dem.Rep. of Congo,40,101,2508,7,Princesse M'Baye Ndack,09:53,4,2/3,2/3,0/0,0/0,1,1,2,0,4,3,0,0,-18,2
+CAF,Dem.Rep. of Congo,40,101,2508,8,Abety Imbangueret II,32:46,13,2/13,2/13,0/0,9/11,2,2,4,1,3,8,2,0,-49,-1
+CAF,Dem.Rep. of Congo,40,101,2508,9,Hortencia Yamalet,10:13,0,0/3,0/2,0/1,0/0,1,2,3,1,2,0,1,0,-21,2
+CAF,Dem.Rep. of Congo,40,101,2508,10,Claudie Yagba Kokito,31:50,11,4/16,2/9,2/7,1/3,2,3,5,1,3,3,2,0,-44,2
+CAF,Dem.Rep. of Congo,40,101,2508,11,Esthelle Gaombalet,22:19,2,1/6,1/3,0/3,0/0,1,1,2,3,2,2,0,0,-24,0
+CAF,Dem.Rep. of Congo,40,101,2508,12,Gabriella Guegbelet,26:28,0,0/6,0/6,0/0,0/0,2,2,4,1,1,1,1,0,-43,-1
+CAF,Dem.Rep. of Congo,40,101,2508,13,Chancella Derebona-Ngaïsset,02:34,0,0/0,0/0,0/0,0/0,0,0,0,0,0,1,0,0,-2,-1
+CAF,Dem.Rep. of Congo,40,101,2508,14,Isabelle Djel,02:32,0,0/2,0/2,0/0,0/0,0,0,0,0,1,1,0,0,-4,-3
+CAF,Dem.Rep. of Congo,40,101,2508,15,Patricia Ngbonga,05:18,1,0/1,0/1,0/0,1/2,0,1,1,0,1,1,0,0,-5,-1
+Dem.Rep. of Congo,CAF,101,40,2508,4,Ginette Mfutila Makiese,20:00,25,10/11,5/5,5/6,0/0,2,6,8,2,2,3,1,0,33,32
+Dem.Rep. of Congo,CAF,101,40,2508,5,Yvonne Bilonda Ntumba,16:18,8,3/5,2/2,1/3,1/4,1,0,1,2,1,0,2,0,34,8
+Dem.Rep. of Congo,CAF,101,40,2508,6,Naura Bombolo Balongya,17:47,10,3/7,1/4,2/3,2/2,0,1,1,4,0,2,3,0,32,12
+Dem.Rep. of Congo,CAF,101,40,2508,7,Jeanine Kapinga Kalombo,23:41,2,1/8,1/8,0/0,0/0,4,1,5,4,1,1,4,0,36,7
+Dem.Rep. of Congo,CAF,101,40,2508,8,Cecile Mukoso Nyoka,20:00,7,3/7,3/6,0/1,1/2,0,1,1,2,3,3,2,0,19,4
+Dem.Rep. of Congo,CAF,101,40,2508,9,Natacha Mambengya Teba,22:12,0,0/4,0/1,0/3,0/0,0,5,5,6,1,9,4,0,29,2
+Dem.Rep. of Congo,CAF,101,40,2508,10,Ortice Kabobo Haongi,17:11,10,2/6,2/6,0/0,6/6,6,4,10,1,2,2,3,2,36,20
+Dem.Rep. of Congo,CAF,101,40,2508,12,Mireille Muganza Nyota,22:38,15,5/9,5/9,0/0,5/7,3,5,8,2,1,1,1,0,40,19
+Dem.Rep. of Congo,CAF,101,40,2508,13,Christelle Ngusu Mafuta,08:33,6,3/5,3/5,0/0,0/0,0,2,2,1,0,0,0,0,10,7
+Dem.Rep. of Congo,CAF,101,40,2508,14,Mudju Bernadette Ngoyisa,14:42,13,4/6,4/6,0/0,5/5,2,3,5,1,2,2,0,0,22,15
+Dem.Rep. of Congo,CAF,101,40,2508,15,Chanel Mokango Modiri,16:53,5,2/3,2/3,0/0,1/2,2,2,4,2,3,1,0,2,14,10
+Cote d'Ivoire,Nigeria,43,98,2508,4,Mamiky Cisse,19:08,0,0/5,0/2,0/3,0/0,0,3,3,1,1,3,0,0,-11,-4
+Cote d'Ivoire,Nigeria,43,98,2508,5,Awa Kone,05:32,0,0/1,0/1,0/0,0/0,0,0,0,0,2,0,0,0,-16,-1
+Cote d'Ivoire,Nigeria,43,98,2508,6,Abiba Kone,15:40,0,0/1,0/1,0/0,0/0,0,0,0,0,0,6,0,0,-30,-7
+Cote d'Ivoire,Nigeria,43,98,2508,7,Djefarina Diawara,20:41,7,2/6,1/5,1/1,2/6,2,2,4,0,3,3,0,0,-20,0
+Cote d'Ivoire,Nigeria,43,98,2508,8,Blandine N'Goran,13:42,4,2/5,2/4,0/1,0/0,0,3,3,1,1,0,0,0,-6,5
+Cote d'Ivoire,Nigeria,43,98,2508,9,Edwige Djedjemel,06:12,0,0/1,0/1,0/0,0/0,0,2,2,3,1,1,0,0,-2,3
+Cote d'Ivoire,Nigeria,43,98,2508,10,Kani Kouyate,30:32,7,3/8,3/8,0/0,1/2,1,8,9,3,1,1,1,0,-38,13
+Cote d'Ivoire,Nigeria,43,98,2508,11,Amandine Kouakou,22:25,6,2/10,2/10,0/0,2/2,1,4,5,1,2,2,0,0,-43,2
+Cote d'Ivoire,Nigeria,43,98,2508,12,Irène Bognini,17:31,11,5/11,4/6,1/5,0/0,1,2,3,1,0,1,3,0,-26,11
+Cote d'Ivoire,Nigeria,43,98,2508,13,Kariata Diaby,24:08,6,1/6,1/3,0/3,4/8,1,5,6,1,4,3,3,0,-38,4
+Cote d'Ivoire,Nigeria,43,98,2508,14,Mariama Kouyate,07:24,2,1/4,1/3,0/1,0/0,0,0,0,0,4,1,0,0,-15,-2
+Cote d'Ivoire,Nigeria,43,98,2508,15,Minata Fofana,16:59,0,0/2,0/2,0/0,0/0,1,1,2,0,1,3,0,0,-29,-3
+Nigeria,Cote d'Ivoire,98,43,2508,5,Upe Atosu,21:05,12,5/8,4/4,1/4,1/2,0,2,2,4,2,1,1,0,14,14
+Nigeria,Cote d'Ivoire,98,43,2508,7,Sarah Ogoke,19:59,3,1/4,0/1,1/3,0/0,0,3,3,2,4,3,0,0,11,2
+Nigeria,Cote d'Ivoire,98,43,2508,8,Nkechi Akashili,21:18,13,5/10,2/5,3/5,0/0,1,3,4,0,1,0,0,0,22,12
+Nigeria,Cote d'Ivoire,98,43,2508,9,Aisha Mohammed,13:40,2,0/2,0/2,0/0,2/2,1,4,5,0,3,1,0,0,12,4
+Nigeria,Cote d'Ivoire,98,43,2508,11,Adaora Elonu,20:19,5,2/6,1/4,1/2,0/0,0,3,3,3,0,0,2,0,43,9
+Nigeria,Cote d'Ivoire,98,43,2508,12,Ndidi Madu,14:22,10,5/7,5/7,0/0,0/0,0,5,5,1,1,0,2,0,26,16
+Nigeria,Cote d'Ivoire,98,43,2508,13,Evelyn Akhator,21:48,21,8/14,8/13,0/1,5/7,5,6,11,2,3,3,3,0,46,26
+Nigeria,Cote d'Ivoire,98,43,2508,14,Chioma Udeaja,16:17,5,1/6,1/6,0/0,3/4,0,6,6,1,1,2,0,0,6,4
+Nigeria,Cote d'Ivoire,98,43,2508,21,Atonye Nyingifa,17:17,5,1/7,1/7,0/0,3/4,0,1,1,1,0,1,3,0,36,2
+Nigeria,Cote d'Ivoire,98,43,2508,23,Ezinne Kalu,21:37,17,6/8,5/7,1/1,4/4,1,2,3,8,1,1,5,1,49,31
+Nigeria,Cote d'Ivoire,98,43,2508,30,Cecilia Okoye,12:12,5,1/7,0/6,1/1,2/4,4,1,5,2,1,1,0,0,10,3
+Mozambique,Angola,61,47,2508,4,Iliana Sheila Alexandre Ventura,01:59,0,0/3,0/0,0/3,0/0,0,0,0,0,0,0,1,0,4,-2
+Mozambique,Angola,61,47,2508,6,Chanaya Pinto,03:01,2,1/1,1/1,0/0,0/2,0,0,0,0,0,0,1,0,4,1
+Mozambique,Angola,61,47,2508,7,Anabela Cossa,40:00,3,1/12,0/1,1/11,0/0,0,8,8,10,3,5,1,0,14,6
+Mozambique,Angola,61,47,2508,9,Catia Halar,06:23,0,0/1,0/0,0/1,0/0,0,0,0,0,0,0,1,0,-1,0
+Mozambique,Angola,61,47,2508,11,Leia Dongue,38:43,27,12/26,11/24,1/2,2/3,6,8,14,1,3,5,1,1,19,24
+Mozambique,Angola,61,47,2508,12,Rute Muianga,34:49,5,2/10,1/6,1/4,0/0,6,1,7,2,3,3,4,0,17,7
+Mozambique,Angola,61,47,2508,13,Elizabeth Pereira,28:34,12,4/13,0/0,4/13,0/0,0,1,1,0,3,1,0,0,7,3
+Mozambique,Angola,61,47,2508,14,Odélia Mafanela,16:06,6,1/3,1/3,0/0,4/4,0,3,3,2,3,3,1,0,2,7
+Mozambique,Angola,61,47,2508,15,Tamara Seda,30:21,6,1/5,1/5,0/0,4/4,6,9,15,0,3,2,0,1,4,16
+Angola,Mozambique,47,61,2508,1,Italee Lucas,34:32,18,4/15,2/8,2/7,8/9,0,7,7,0,1,5,6,1,-6,15
+Angola,Mozambique,47,61,2508,2,Rosa Gala,21:39,4,1/7,1/4,0/3,2/2,1,3,4,1,1,0,2,0,-7,5
+Angola,Mozambique,47,61,2508,3,Clarisse Mpaka,16:34,3,1/4,1/3,0/1,1/2,1,0,1,0,3,3,1,0,-4,-2
+Angola,Mozambique,47,61,2508,4,Fineza Eusébio,09:31,0,0/4,0/2,0/2,0/0,0,1,1,1,0,2,1,0,-12,-3
+Angola,Mozambique,47,61,2508,6,Felizarda Jorge,18:03,6,2/9,0/5,2/4,0/0,1,1,2,2,4,1,0,1,-3,3
+Angola,Mozambique,47,61,2508,7,Whitney Miguel,26:03,3,1/8,1/5,0/3,1/1,4,3,7,0,5,1,1,1,0,4
+Angola,Mozambique,47,61,2508,10,Sonia Ndoniema,17:16,2,0/2,0/2,0/0,2/4,1,1,2,1,0,2,2,0,-5,1
+Angola,Mozambique,47,61,2508,11,Luisa Tomas,27:29,6,2/5,2/5,0/0,2/2,5,1,6,1,2,2,2,3,-15,13
+Angola,Mozambique,47,61,2508,14,Ana Goncalves,13:58,3,1/6,0/2,1/4,0/0,1,4,5,0,0,0,0,0,-13,3
+Angola,Mozambique,47,61,2508,15,Ngiendula Filipe,12:12,2,1/4,1/4,0/0,0/0,2,2,4,0,1,2,0,1,-3,2
+Angola,Mozambique,47,61,2508,20,Cristina Matiquite,02:37,0,0/0,0/0,0/0,0/0,0,0,0,0,0,1,0,0,-2,-1
+Egypt,Mali,50,90,2508,4,Manar Youssef,08:12,0,0/0,0/0,0/0,0/0,0,0,0,1,0,0,0,0,-13,1
+Egypt,Mali,50,90,2508,5,Nouralla Abdelalim,15:29,7,2/5,1/3,1/2,2/2,0,0,0,1,3,0,0,0,-8,5
+Egypt,Mali,50,90,2508,8,Soraia Deghady,31:43,7,3/12,2/10,1/2,0/0,0,4,4,2,1,4,1,0,-26,1
+Egypt,Mali,50,90,2508,9,Reem AWAD,15:42,1,0/2,0/0,0/2,1/2,1,1,2,1,1,4,0,0,-15,-3
+Egypt,Mali,50,90,2508,11,Radwa Sherif,09:02,0,0/2,0/2,0/0,0/0,0,0,0,0,2,0,0,0,-14,-2
+Egypt,Mali,50,90,2508,18,Asrar Bakr,13:06,0,0/0,0/0,0/0,0/0,1,0,1,0,2,2,1,0,-18,0
+Egypt,Mali,50,90,2508,41,Hala Elshaarawy,31:42,6,3/11,3/10,0/1,0/1,2,2,4,1,0,2,0,0,-37,0
+Egypt,Mali,50,90,2508,49,Meral Abdelgawad,35:46,15,5/14,5/13,0/1,5/9,0,2,2,0,2,4,5,0,-29,5
+Egypt,Mali,50,90,2508,69,Mai Helwa,39:14,14,6/11,4/7,2/4,0/0,2,7,9,4,3,2,1,1,-40,22
+Mali,Egypt,90,50,2508,4,Nassira Traore,19:11,10,4/12,4/11,0/1,2/2,3,1,4,1,1,3,1,0,24,5
+Mali,Egypt,90,50,2508,5,Aissata Maiga,11:14,4,1/4,1/4,0/0,2/2,0,1,1,4,0,3,3,0,6,6
+Mali,Egypt,90,50,2508,7,Fatoumata Bagayoko,16:34,14,5/9,1/1,4/8,0/0,1,0,1,1,2,1,1,0,18,12
+Mali,Egypt,90,50,2508,8,Touty Gandega,25:30,6,3/5,3/4,0/1,0/0,0,0,0,6,1,1,4,0,27,13
+Mali,Egypt,90,50,2508,10,Kankou Coulibaly,20:50,4,2/9,2/8,0/1,0/0,7,5,12,1,1,1,1,0,25,10
+Mali,Egypt,90,50,2508,13,Meiya Tirera,20:52,11,5/12,4/9,1/3,0/0,0,7,7,1,3,0,0,1,23,13
+Mali,Egypt,90,50,2508,14,Mariam Coulibaly,17:13,8,4/10,4/10,0/0,0/0,6,3,9,0,1,0,0,0,16,11
+Mali,Egypt,90,50,2508,15,Naignouma Coulibaly,20:23,16,6/10,6/10,0/0,4/6,7,5,12,3,1,2,0,0,17,23
+Mali,Egypt,90,50,2508,17,Minata Keita,07:23,4,2/2,2/2,0/0,0/0,1,2,3,2,2,0,1,0,2,10
+Mali,Egypt,90,50,2508,77,Kouta Camara,19:12,4,2/4,2/4,0/0,0/0,1,5,6,7,4,2,0,0,19,13
+Mali,Egypt,90,50,2508,87,Ramata Diakite,21:33,9,4/8,4/8,0/0,1/2,0,4,4,1,2,2,1,0,23,8
+Cameroon,Senegal,58,71,2508,4,Linda Mba Minna,15:56,5,2/5,1/4,1/1,0/1,1,1,2,1,0,0,0,0,-3,4
+Cameroon,Senegal,58,71,2508,5,Priscilla Mbiandja,08:57,3,0/1,0/1,0/0,3/4,1,0,1,2,0,0,0,0,-7,4
+Cameroon,Senegal,58,71,2508,6,Anne Marie Assena,04:02,3,1/2,0/0,1/2,0/0,0,0,0,0,1,0,1,0,3,3
+Cameroon,Senegal,58,71,2508,7,Rose Abenkou,25:57,2,1/3,1/3,0/0,0/0,1,6,7,1,3,2,0,0,-13,6
+Cameroon,Senegal,58,71,2508,8,Marie Ange Mfoula,20:42,5,2/4,1/2,1/2,0/0,0,0,0,0,3,2,0,0,-10,1
+Cameroon,Senegal,58,71,2508,9,Ramses Lonlack,36:30,21,8/18,6/14,2/4,3/7,0,9,9,2,0,4,1,0,-14,15
+Cameroon,Senegal,58,71,2508,10,Tia Weledji,35:57,10,5/10,5/9,0/1,0/0,0,2,2,6,1,3,1,0,-14,11
+Cameroon,Senegal,58,71,2508,11,Angi Ramey,07:36,0,0/1,0/1,0/0,0/0,0,1,1,0,1,0,0,0,3,0
+Cameroon,Senegal,58,71,2508,12,Achiri Ade,21:08,8,4/14,4/14,0/0,0/0,2,2,4,0,1,0,1,1,-2,4
+Cameroon,Senegal,58,71,2508,13,Nelly Tchasi,18:35,1,0/3,0/2,0/1,1/2,0,5,5,1,0,0,0,0,-4,3
+Cameroon,Senegal,58,71,2508,15,Amandine Ebogo Fabo,04:35,0,0/1,0/1,0/0,0/0,1,2,3,0,1,0,0,0,-4,2
+Senegal,Cameroon,71,58,2508,4,Oumoul Thiam,15:22,14,5/8,1/3,4/5,0/0,1,0,1,2,2,1,0,0,8,13
+Senegal,Cameroon,71,58,2508,5,Aya Traore,24:38,2,0/6,0/1,0/5,2/2,1,0,1,3,2,1,0,0,6,-1
+Senegal,Cameroon,71,58,2508,6,Oumoul Khairy Sarr,26:18,12,5/6,5/6,0/0,2/2,0,4,4,5,1,1,0,1,25,20
+Senegal,Cameroon,71,58,2508,7,Fatou Dieng,04:17,0,0/1,0/0,0/1,0/0,0,0,0,0,0,0,0,0,-3,-1
+Senegal,Cameroon,71,58,2508,8,Diodio Diouf,25:48,6,2/4,0/0,2/4,0/0,1,3,4,5,0,1,0,0,6,12
+Senegal,Cameroon,71,58,2508,9,Ndèye Sène,16:59,2,1/8,1/4,0/4,0/0,1,4,5,5,2,1,2,0,8,6
+Senegal,Cameroon,71,58,2508,10,Astou Traore,32:33,21,7/18,5/13,2/5,5/5,1,4,5,1,1,1,2,1,17,18
+Senegal,Cameroon,71,58,2508,11,Aminata Fall,22:06,8,4/6,4/6,0/0,0/1,0,3,3,1,2,0,1,2,-7,12
+Senegal,Cameroon,71,58,2508,12,Mame Marie Sy Diop,24:50,6,3/6,3/5,0/1,0/0,1,4,5,3,2,1,1,1,14,12
+Senegal,Cameroon,71,58,2508,14,Ramata Daou,06:49,0,0/4,0/4,0/0,0/0,0,3,3,0,0,2,0,0,-8,-3
+Senegal,Cameroon,71,58,2508,15,Aicha Sidibe,00:56,0,0/0,0/0,0/0,0/0,0,0,0,0,1,0,0,0,0,0
+Tunisia,CAF,73,63,2608,4,Chaima Ben Mahmoud,29:40,12,5/11,5/10,0/1,2/4,5,7,12,3,3,2,2,0,1,19
+Tunisia,CAF,73,63,2608,5,Houda Hamrouni,20:00,14,4/8,3/5,1/3,5/6,1,3,4,2,4,2,1,0,6,14
+Tunisia,CAF,73,63,2608,6,Marwa Shili,07:50,2,0/2,0/0,0/2,2/6,0,4,4,0,1,1,0,0,7,-1
+Tunisia,CAF,73,63,2608,7,Monia Ben Mechlia,20:00,5,1/3,0/1,1/2,2/2,0,3,3,3,0,3,0,0,6,6
+Tunisia,CAF,73,63,2608,8,Khouloud Mefteh,12:10,6,1/1,1/1,0/0,4/6,1,0,1,0,2,2,0,0,4,3
+Tunisia,CAF,73,63,2608,10,Hela Msadak,23:19,6,3/7,3/6,0/1,0/0,0,2,2,2,1,0,1,0,6,7
+Tunisia,CAF,73,63,2608,11,Siwar Khlifa,20:00,6,2/7,0/1,2/6,0/0,0,0,0,2,2,1,0,0,4,2
+Tunisia,CAF,73,63,2608,12,Wafa Loubiri,19:10,5,2/7,1/3,1/4,0/2,0,3,3,5,3,1,1,0,6,6
+Tunisia,CAF,73,63,2608,13,Maherzia Ksouri Sbeii,28:40,13,5/12,5/12,0/0,3/5,0,5,5,2,2,1,0,1,-1,11
+Tunisia,CAF,73,63,2608,15,Salma Mnasria,19:08,4,1/4,1/4,0/0,2/2,2,5,7,1,5,1,2,2,11,12
+CAF,Tunisia,63,73,2608,4,Keitia Kalene,11:49,4,1/6,1/6,0/0,2/2,0,0,0,1,4,1,1,0,-5,0
+CAF,Tunisia,63,73,2608,6,Debora Eyene,30:09,1,0/3,0/2,0/1,1/4,1,2,3,7,5,1,3,1,-9,8
+CAF,Tunisia,63,73,2608,7,Princesse M'Baye Ndack,13:47,4,1/3,1/3,0/0,2/2,0,1,1,1,3,0,1,0,-4,5
+CAF,Tunisia,63,73,2608,8,Abety Imbangueret II,35:29,23,8/21,8/21,0/0,7/10,5,6,11,0,2,2,0,0,-7,16
+CAF,Tunisia,63,73,2608,9,Hortencia Yamalet,03:56,0,0/2,0/2,0/0,0/0,0,2,2,0,1,0,1,0,-4,1
+CAF,Tunisia,63,73,2608,10,Claudie Yagba Kokito,21:20,8,2/13,2/11,0/2,4/5,3,5,8,2,4,0,1,0,-9,7
+CAF,Tunisia,63,73,2608,11,Esthelle Gaombalet,26:27,9,3/10,0/1,3/9,0/0,0,3,3,0,1,2,1,0,-1,4
+CAF,Tunisia,63,73,2608,12,Gabriella Guegbelet,40:00,5,2/8,2/7,0/1,1/4,7,7,14,1,1,3,0,0,-10,8
+CAF,Tunisia,63,73,2608,14,Isabelle Djel,13:10,9,3/4,3/4,0/0,3/4,0,2,2,1,5,3,0,0,0,7
+CAF,Tunisia,63,73,2608,15,Patricia Ngbonga,03:47,0,0/0,0/0,0/0,0/2,0,0,0,0,0,0,0,0,-1,-2
+Guinea,Dem.Rep. of Congo,38,69,2608,4,Aminata Sylla,20:41,4,0/4,0/3,0/1,4/4,2,2,4,1,0,2,0,0,-20,3
+Guinea,Dem.Rep. of Congo,38,69,2608,5,Aicha Dallo Mara,31:07,14,4/13,2/7,2/6,4/4,1,3,4,2,1,2,4,2,-27,15
+Guinea,Dem.Rep. of Congo,38,69,2608,6,Fanta Soumah,15:30,1,0/2,0/2,0/0,1/2,2,2,4,1,2,1,1,0,-16,3
+Guinea,Dem.Rep. of Congo,38,69,2608,7,Khady Mbaye,35:58,5,2/10,1/2,1/8,0/0,1,2,3,2,0,3,3,0,-27,2
+Guinea,Dem.Rep. of Congo,38,69,2608,8,Fatima Sacko,08:44,0,0/2,0/1,0/1,0/0,0,0,0,1,0,1,0,0,-4,-2
+Guinea,Dem.Rep. of Congo,38,69,2608,10,Aissata Bangoura,07:56,2,1/2,1/2,0/0,0/0,0,1,1,0,1,0,0,0,1,2
+Guinea,Dem.Rep. of Congo,38,69,2608,11,Fanta Bérété,14:12,4,2/7,2/5,0/2,0/0,0,0,0,1,3,2,1,1,-5,0
+Guinea,Dem.Rep. of Congo,38,69,2608,12,Fatou Bah,35:04,8,3/12,2/8,1/4,1/1,1,5,6,0,3,2,2,0,-26,5
+Guinea,Dem.Rep. of Congo,38,69,2608,14,Angeline Keita,08:40,0,0/2,0/2,0/0,0/0,0,0,0,0,2,1,0,0,-13,-3
+Guinea,Dem.Rep. of Congo,38,69,2608,15,Simone Keita,22:01,0,0/7,0/7,0/0,0/2,2,1,3,0,3,1,1,1,-18,-5
+Dem.Rep. of Congo,Guinea,69,38,2608,4,Ginette Mfutila Makiese,18:26,0,0/4,0/1,0/3,0/0,0,3,3,1,2,2,0,0,7,-2
+Dem.Rep. of Congo,Guinea,69,38,2608,5,Yvonne Bilonda Ntumba,22:52,8,3/6,1/3,2/3,0/0,0,1,1,1,0,2,2,0,17,7
+Dem.Rep. of Congo,Guinea,69,38,2608,6,Naura Bombolo Balongya,18:42,3,0/6,0/3,0/3,3/4,0,5,5,8,3,2,1,0,14,8
+Dem.Rep. of Congo,Guinea,69,38,2608,7,Jeanine Kapinga Kalombo,21:33,2,1/2,1/2,0/0,0/0,1,0,1,0,0,1,1,0,22,2
+Dem.Rep. of Congo,Guinea,69,38,2608,8,Cecile Mukoso Nyoka,18:31,8,2/5,2/4,0/1,4/6,1,2,3,1,3,3,1,0,17,5
+Dem.Rep. of Congo,Guinea,69,38,2608,9,Natacha Mambengya Teba,21:17,4,2/8,2/7,0/1,0/0,0,3,3,4,1,3,2,0,17,4
+Dem.Rep. of Congo,Guinea,69,38,2608,10,Ortice Kabobo Haongi,08:40,6,3/5,3/5,0/0,0/0,0,4,4,0,4,3,0,0,-2,5
+Dem.Rep. of Congo,Guinea,69,38,2608,12,Mireille Muganza Nyota,16:35,10,4/4,4/4,0/0,2/5,1,6,7,0,2,5,0,1,16,10
+Dem.Rep. of Congo,Guinea,69,38,2608,13,Christelle Ngusu Mafuta,13:53,4,2/4,2/4,0/0,0/0,1,1,2,1,1,1,1,0,5,5
+Dem.Rep. of Congo,Guinea,69,38,2608,14,Mudju Bernadette Ngoyisa,17:59,13,5/10,5/10,0/0,3/4,5,7,12,1,1,2,0,0,17,18
+Dem.Rep. of Congo,Guinea,69,38,2608,15,Chanel Mokango Modiri,21:25,11,4/5,4/5,0/0,3/4,2,2,4,3,0,3,0,1,25,14
+Angola,Cameroon,66,54,2608,1,Italee Lucas,21:54,5,2/4,1/2,1/2,0/0,0,3,3,4,0,4,0,0,5,6
+Angola,Cameroon,66,54,2608,2,Rosa Gala,23:25,14,5/8,3/4,2/4,2/3,0,2,2,1,4,2,1,1,5,13
+Angola,Cameroon,66,54,2608,3,Clarisse Mpaka,12:36,4,2/5,2/3,0/2,0/0,1,2,3,0,0,0,0,0,12,4
+Angola,Cameroon,66,54,2608,4,Fineza Eusébio,18:05,5,1/5,0/2,1/3,2/2,1,0,1,2,0,4,1,0,7,1
+Angola,Cameroon,66,54,2608,5,Artémis Afonso,03:58,0,0/1,0/1,0/0,0/0,0,1,1,0,1,1,0,0,-5,-1
+Angola,Cameroon,66,54,2608,6,Felizarda Jorge,28:11,11,3/8,2/5,1/3,4/4,0,2,2,1,4,2,1,0,14,8
+Angola,Cameroon,66,54,2608,7,Whitney Miguel,15:43,2,1/2,1/2,0/0,0/0,0,4,4,1,1,1,2,0,1,7
+Angola,Cameroon,66,54,2608,10,Sonia Ndoniema,11:48,2,1/3,1/3,0/0,0/0,0,3,3,0,2,0,0,0,-2,3
+Angola,Cameroon,66,54,2608,11,Luisa Tomas,33:10,16,4/7,4/7,0/0,8/12,0,7,7,1,0,1,3,1,15,20
+Angola,Cameroon,66,54,2608,14,Ana Goncalves,04:24,0,0/0,0/0,0/0,0/0,0,1,1,0,1,1,0,0,-6,0
+Angola,Cameroon,66,54,2608,15,Ngiendula Filipe,26:41,7,1/4,1/4,0/0,5/8,1,7,8,2,2,3,3,0,14,11
+Cameroon,Angola,54,66,2608,4,Linda Mba Minna,04:30,0,0/0,0/0,0/0,0/0,0,1,1,1,0,4,1,0,-2,-1
+Cameroon,Angola,54,66,2608,5,Priscilla Mbiandja,18:52,7,3/9,2/6,1/3,0/0,0,1,1,4,5,1,1,0,-5,6
+Cameroon,Angola,54,66,2608,6,Anne Marie Assena,04:12,3,1/2,0/0,1/2,0/0,0,0,0,0,1,1,0,0,-2,1
+Cameroon,Angola,54,66,2608,7,Rose Abenkou,24:38,2,0/2,0/2,0/0,2/2,2,3,5,2,2,0,0,0,-7,7
+Cameroon,Angola,54,66,2608,8,Marie Ange Mfoula,20:34,10,3/9,1/5,2/4,2/2,0,3,3,0,2,2,1,1,-7,7
+Cameroon,Angola,54,66,2608,9,Ramses Lonlack,34:52,18,7/16,6/14,1/2,3/7,1,4,5,3,3,5,3,0,-12,11
+Cameroon,Angola,54,66,2608,10,Tia Weledji,32:24,0,0/7,0/6,0/1,0/0,0,4,4,5,1,3,2,0,-9,1
+Cameroon,Angola,54,66,2608,11,Angi Ramey,15:01,0,0/2,0/2,0/0,0/0,1,3,4,0,2,0,0,0,-5,2
+Cameroon,Angola,54,66,2608,12,Achiri Ade,27:20,12,6/15,6/14,0/1,0/2,3,3,6,0,2,0,1,0,-10,8
+Cameroon,Angola,54,66,2608,13,Nelly Tchasi,17:31,2,1/5,1/1,0/4,0/0,1,2,3,1,1,1,0,0,-3,1
+Cote d'Ivoire,Egypt,73,70,2608,4,Mamiky Cisse,30:04,19,6/15,2/4,4/11,3/3,0,3,3,1,1,1,0,0,7,13
+Cote d'Ivoire,Egypt,73,70,2608,6,Abiba Kone,14:47,3,1/4,1/3,0/1,1/2,0,0,0,1,1,1,0,0,-10,-1
+Cote d'Ivoire,Egypt,73,70,2608,7,Djefarina Diawara,22:04,13,6/13,5/8,1/5,0/0,4,5,9,0,2,2,0,0,-10,13
+Cote d'Ivoire,Egypt,73,70,2608,8,Blandine N'Goran,12:09,0,0/3,0/3,0/0,0/0,0,2,2,1,2,0,3,2,12,5
+Cote d'Ivoire,Egypt,73,70,2608,9,Edwige Djedjemel,06:02,0,0/2,0/2,0/0,0/0,1,1,2,0,1,1,0,0,-8,-1
+Cote d'Ivoire,Egypt,73,70,2608,10,Kani Kouyate,27:10,11,2/6,2/4,0/2,7/8,2,4,6,8,4,1,1,0,7,20
+Cote d'Ivoire,Egypt,73,70,2608,11,Amandine Kouakou,13:01,2,1/6,1/6,0/0,0/0,3,4,7,0,3,3,1,0,-6,2
+Cote d'Ivoire,Egypt,73,70,2608,12,Irène Bognini,17:18,3,1/10,0/4,1/6,0/0,2,0,2,2,1,1,0,0,0,-3
+Cote d'Ivoire,Egypt,73,70,2608,13,Kariata Diaby,29:07,11,4/9,4/8,0/1,3/3,5,4,9,1,2,5,1,0,13,12
+Cote d'Ivoire,Egypt,73,70,2608,14,Mariama Kouyate,24:06,11,5/11,5/10,0/1,1/4,2,5,7,1,3,2,1,0,14,9
+Cote d'Ivoire,Egypt,73,70,2608,15,Minata Fofana,03:58,0,0/2,0/2,0/0,0/0,1,1,2,0,0,1,0,0,-4,-1
+Egypt,Cote d'Ivoire,70,73,2608,4,Manar Youssef,13:20,3,1/2,1/2,0/0,1/2,0,1,1,0,2,0,0,0,3,2
+Egypt,Cote d'Ivoire,70,73,2608,5,Nouralla Abdelalim,24:43,6,2/5,2/5,0/0,2/3,1,4,5,2,0,1,0,1,8,9
+Egypt,Cote d'Ivoire,70,73,2608,8,Soraia Deghady,33:57,6,2/15,2/9,0/6,2/3,0,2,2,3,3,2,0,0,8,-5
+Egypt,Cote d'Ivoire,70,73,2608,9,Reem AWAD,22:45,13,4/5,2/2,2/3,3/3,0,3,3,0,0,2,1,0,0,14
+Egypt,Cote d'Ivoire,70,73,2608,11,Radwa Sherif,02:40,0,0/1,0/1,0/0,0/0,1,0,1,0,0,2,0,0,-12,-2
+Egypt,Cote d'Ivoire,70,73,2608,12,Rana Abdelfattah,02:54,0,0/2,0/1,0/1,0/0,0,0,0,0,1,1,0,0,-14,-3
+Egypt,Cote d'Ivoire,70,73,2608,41,Hala Elshaarawy,32:16,19,7/13,7/13,0/0,5/6,2,4,6,2,2,2,1,0,6,19
+Egypt,Cote d'Ivoire,70,73,2608,49,Meral Abdelgawad,27:31,15,6/11,5/9,1/2,2/7,1,3,4,1,3,5,2,0,-8,7
+Egypt,Cote d'Ivoire,70,73,2608,69,Mai Helwa,39:44,8,3/11,1/5,2/6,0/0,2,7,9,6,4,3,0,0,-6,12
+Nigeria,Mali,48,47,2608,5,Upe Atosu,05:45,0,0/3,0/2,0/1,0/0,0,0,0,0,0,0,2,0,-3,-1
+Nigeria,Mali,48,47,2608,7,Sarah Ogoke,14:41,5,2/5,1/2,1/3,0/0,1,0,1,2,1,1,0,0,3,4
+Nigeria,Mali,48,47,2608,8,Nkechi Akashili,02:34,0,0/0,0/0,0/0,0/0,0,0,0,0,2,0,0,0,-3,0
+Nigeria,Mali,48,47,2608,9,Aisha Mohammed,14:14,4,1/3,1/3,0/0,2/4,1,3,4,0,2,1,0,0,-1,3
+Nigeria,Mali,48,47,2608,11,Adaora Elonu,33:32,7,3/10,2/7,1/3,0/0,1,5,6,1,1,2,2,0,5,7
+Nigeria,Mali,48,47,2608,12,Ndidi Madu,28:47,0,0/6,0/6,0/0,0/2,0,2,2,0,2,1,0,0,0,-7
+Nigeria,Mali,48,47,2608,13,Evelyn Akhator,25:30,5,2/11,2/10,0/1,1/2,1,9,10,1,5,1,2,1,9,8
+Nigeria,Mali,48,47,2608,14,Chioma Udeaja,03:27,0,0/1,0/1,0/0,0/0,0,0,0,0,0,0,0,0,-8,-1
+Nigeria,Mali,48,47,2608,21,Atonye Nyingifa,31:10,11,4/8,4/8,0/0,3/7,1,3,4,2,1,1,2,0,-1,10
+Nigeria,Mali,48,47,2608,23,Ezinne Kalu,32:58,11,3/10,2/6,1/4,4/5,3,1,4,6,4,6,0,0,6,7
+Nigeria,Mali,48,47,2608,30,Cecilia Okoye,07:17,5,2/2,2/2,0/0,1/1,0,1,1,0,1,0,0,1,-2,7
+Mali,Nigeria,47,48,2608,4,Nassira Traore,24:10,7,3/12,3/12,0/0,1/2,0,1,1,2,0,0,0,0,-9,0
+Mali,Nigeria,47,48,2608,5,Aissata Maiga,09:40,4,1/3,0/2,1/1,1/2,1,0,1,1,2,2,1,0,10,2
+Mali,Nigeria,47,48,2608,7,Fatoumata Bagayoko,12:23,3,1/5,0/3,1/2,0/0,0,1,1,0,3,0,2,0,7,2
+Mali,Nigeria,47,48,2608,8,Touty Gandega,30:19,0,0/7,0/5,0/2,0/0,1,3,4,0,2,3,0,0,-11,-6
+Mali,Nigeria,47,48,2608,10,Kankou Coulibaly,07:10,0,0/4,0/3,0/1,0/0,0,1,1,0,1,1,0,0,-2,-4
+Mali,Nigeria,47,48,2608,13,Meiya Tirera,40:00,15,5/17,5/14,0/3,5/6,1,3,4,6,1,4,0,0,-1,8
+Mali,Nigeria,47,48,2608,14,Mariam Coulibaly,04:11,0,0/1,0/1,0/0,0/0,0,1,1,0,0,0,0,0,-4,0
+Mali,Nigeria,47,48,2608,15,Naignouma Coulibaly,31:11,6,3/7,3/7,0/0,0/0,3,14,17,1,2,3,1,1,2,19
+Mali,Nigeria,47,48,2608,30,Astan Dabo,14:19,0,0/0,0/0,0/0,0/0,6,2,8,0,2,2,1,0,-4,7
+Mali,Nigeria,47,48,2608,77,Kouta Camara,02:07,0,0/1,0/1,0/0,0/0,0,0,0,0,0,0,0,0,-1,-1
+Mali,Nigeria,47,48,2608,87,Ramata Diakite,24:25,12,3/7,3/7,0/0,6/9,4,5,9,1,3,4,1,0,8,12
+Mozambique,Senegal,52,72,2608,4,Iliana Sheila Alexandre Ventura,06:25,0,0/2,0/1,0/1,0/0,0,1,1,0,1,0,0,0,1,-1
+Mozambique,Senegal,52,72,2608,5,Aquila Mucubaquine,12:07,0,0/1,0/1,0/0,0/0,0,1,1,0,0,2,0,0,-12,-2
+Mozambique,Senegal,52,72,2608,6,Chanaya Pinto,10:34,0,0/3,0/2,0/1,0/0,0,0,0,0,1,0,0,0,-4,-3
+Mozambique,Senegal,52,72,2608,7,Anabela Cossa,25:58,5,2/11,2/5,0/6,1/1,1,2,3,3,3,6,0,0,-10,-4
+Mozambique,Senegal,52,72,2608,8,Amelia Massingue,01:54,0,0/1,0/1,0/0,0/0,0,0,0,0,0,0,0,0,2,-1
+Mozambique,Senegal,52,72,2608,9,Catia Halar,07:41,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-10,0
+Mozambique,Senegal,52,72,2608,10,Eleuteria Lhavanguane,03:58,0,0/1,0/1,0/0,0/0,0,0,0,0,0,0,0,0,-3,-1
+Mozambique,Senegal,52,72,2608,11,Leia Dongue,34:31,20,7/13,6/10,1/3,5/7,1,5,6,1,3,4,3,0,-19,18
+Mozambique,Senegal,52,72,2608,12,Rute Muianga,09:43,2,1/3,1/3,0/0,0/0,0,0,0,1,1,1,0,0,-7,0
+Mozambique,Senegal,52,72,2608,13,Elizabeth Pereira,22:25,6,2/6,0/3,2/3,0/0,0,2,2,0,0,0,1,0,-11,5
+Mozambique,Senegal,52,72,2608,14,Odélia Mafanela,26:34,4,0/5,0/4,0/1,4/4,2,1,3,1,3,1,1,0,-14,3
+Mozambique,Senegal,52,72,2608,15,Tamara Seda,38:05,15,6/10,6/10,0/0,3/6,6,8,14,1,2,4,1,0,-13,20
+Senegal,Mozambique,72,52,2608,4,Oumoul Thiam,19:28,5,2/6,1/3,1/3,0/0,0,1,1,2,0,2,0,0,12,2
+Senegal,Mozambique,72,52,2608,5,Aya Traore,20:31,0,0/3,0/0,0/3,0/0,1,0,1,4,0,1,1,0,8,2
+Senegal,Mozambique,72,52,2608,6,Oumoul Khairy Sarr,18:51,7,3/8,3/6,0/2,1/2,0,0,0,3,3,2,0,3,19,5
+Senegal,Mozambique,72,52,2608,8,Diodio Diouf,16:59,10,3/7,1/3,2/4,2/2,1,1,2,3,1,0,1,1,7,13
+Senegal,Mozambique,72,52,2608,9,Ndèye Sène,23:00,12,4/12,1/4,3/8,1/2,1,2,3,2,2,0,2,0,13,10
+Senegal,Mozambique,72,52,2608,10,Astou Traore,37:27,22,8/17,7/9,1/8,5/7,1,2,3,4,1,3,3,0,20,18
+Senegal,Mozambique,72,52,2608,11,Aminata Fall,12:44,4,2/4,2/4,0/0,0/0,1,2,3,1,5,0,0,0,10,6
+Senegal,Mozambique,72,52,2608,12,Mame Marie Sy Diop,14:03,8,4/8,4/8,0/0,0/0,1,2,3,1,0,1,1,2,0,10
+Senegal,Mozambique,72,52,2608,13,Sokhna Sy,02:32,0,0/1,0/0,0/1,0/0,0,0,0,0,0,0,0,0,0,-1
+Senegal,Mozambique,72,52,2608,14,Ramata Daou,20:06,4,1/2,1/2,0/0,2/2,2,5,7,0,2,0,1,0,17,11
+Senegal,Mozambique,72,52,2608,15,Aicha Sidibe,14:15,0,0/1,0/1,0/0,0/0,3,5,8,0,0,0,0,1,-6,8
+Cameroon,Egypt,83,86,2708,4,Linda Mba Minna,26:13,6,2/5,2/4,0/1,2/2,1,6,7,4,2,2,3,0,9,15
+Cameroon,Egypt,83,86,2708,6,Anne Marie Assena,05:20,0,0/1,0/0,0/1,0/0,0,1,1,2,1,0,1,0,2,3
+Cameroon,Egypt,83,86,2708,8,Marie Ange Mfoula,19:43,10,4/9,4/8,0/1,2/2,1,3,4,2,1,0,1,0,6,12
+Cameroon,Egypt,83,86,2708,9,Ramses Lonlack,34:39,22,8/32,5/20,3/12,3/3,2,3,5,8,4,2,3,0,-5,12
+Cameroon,Egypt,83,86,2708,10,Tia Weledji,26:08,8,3/16,2/11,1/5,1/2,4,2,6,2,2,3,1,1,-6,1
+Cameroon,Egypt,83,86,2708,11,Angi Ramey,12:04,4,2/2,2/2,0/0,0/0,2,3,5,1,1,1,1,0,-11,10
+Cameroon,Egypt,83,86,2708,12,Achiri Ade,17:46,4,2/5,2/5,0/0,0/0,2,0,2,2,4,0,1,1,-4,7
+Cameroon,Egypt,83,86,2708,13,Nelly Tchasi,14:56,8,3/7,1/2,2/5,0/0,0,5,5,2,0,0,0,1,-7,12
+Cameroon,Egypt,83,86,2708,14,Catherine Ghane Yenou,17:23,2,1/4,1/4,0/0,0/0,0,0,0,0,5,1,0,0,-4,-2
+Cameroon,Egypt,83,86,2708,15,Amandine Ebogo Fabo,25:36,19,8/12,8/12,0/0,3/7,10,6,16,1,4,1,1,0,5,28
+Egypt,Cameroon,86,83,2708,4,Manar Youssef,09:55,0,0/2,0/2,0/0,0/0,0,3,3,2,0,0,1,0,13,4
+Egypt,Cameroon,86,83,2708,5,Nouralla Abdelalim,24:06,7,2/8,2/7,0/1,3/4,1,5,6,2,3,1,0,1,2,8
+Egypt,Cameroon,86,83,2708,8,Soraia Deghady,34:02,12,4/13,3/9,1/4,3/4,0,7,7,5,1,5,2,0,5,11
+Egypt,Cameroon,86,83,2708,9,Reem AWAD,33:07,14,5/12,3/6,2/6,2/2,0,2,2,2,1,0,0,0,10,11
+Egypt,Cameroon,86,83,2708,11,Radwa Sherif,21:35,6,2/6,2/6,0/0,2/2,1,3,4,3,0,1,1,0,-5,9
+Egypt,Cameroon,86,83,2708,41,Hala Elshaarawy,33:37,16,7/10,6/9,1/1,1/4,2,3,5,4,0,2,2,1,-3,20
+Egypt,Cameroon,86,83,2708,49,Meral Abdelgawad,20:22,16,3/4,3/4,0/0,10/17,1,5,6,3,0,5,0,0,-13,12
+Egypt,Cameroon,86,83,2708,69,Mai Helwa,23:13,15,6/10,3/6,3/4,0/0,0,10,10,3,5,2,0,0,6,22
+Angola,Cote d'Ivoire,56,61,2708,1,Italee Lucas,11:56,0,0/3,0/0,0/3,0/0,0,4,4,1,0,1,0,0,-7,1
+Angola,Cote d'Ivoire,56,61,2708,2,Rosa Gala,30:34,3,1/6,0/4,1/2,0/0,1,1,2,3,0,3,0,0,4,0
+Angola,Cote d'Ivoire,56,61,2708,3,Clarisse Mpaka,09:25,2,0/3,0/2,0/1,2/2,1,0,1,0,2,1,2,0,-11,1
+Angola,Cote d'Ivoire,56,61,2708,4,Fineza Eusébio,28:03,12,4/10,3/5,1/5,3/4,0,4,4,1,3,0,5,0,2,15
+Angola,Cote d'Ivoire,56,61,2708,6,Felizarda Jorge,05:32,0,0/3,0/1,0/2,0/0,0,0,0,1,1,0,0,0,-5,-2
+Angola,Cote d'Ivoire,56,61,2708,7,Whitney Miguel,10:32,2,1/5,1/4,0/1,0/0,0,1,1,0,3,1,0,0,-11,-2
+Angola,Cote d'Ivoire,56,61,2708,10,Sonia Ndoniema,29:57,9,3/9,2/6,1/3,2/5,1,5,6,1,1,2,1,1,5,7
+Angola,Cote d'Ivoire,56,61,2708,11,Luisa Tomas,21:48,7,1/4,1/4,0/0,5/8,0,3,3,0,3,1,1,0,-6,4
+Angola,Cote d'Ivoire,56,61,2708,14,Ana Goncalves,20:39,8,3/5,1/2,2/3,0/0,0,4,4,2,2,0,0,0,2,12
+Angola,Cote d'Ivoire,56,61,2708,15,Ngiendula Filipe,31:29,13,5/11,5/11,0/0,3/4,5,5,10,0,3,4,1,1,2,14
+Cote d'Ivoire,Angola,61,56,2708,4,Mamiky Cisse,29:04,7,2/7,1/3,1/4,2/2,0,2,2,3,3,2,1,0,7,6
+Cote d'Ivoire,Angola,61,56,2708,5,Awa Kone,04:54,0,0/0,0/0,0/0,0/0,0,0,0,2,0,0,0,0,7,2
+Cote d'Ivoire,Angola,61,56,2708,6,Abiba Kone,15:04,3,1/3,0/2,1/1,0/0,1,1,2,1,0,2,0,0,-9,2
+Cote d'Ivoire,Angola,61,56,2708,7,Djefarina Diawara,30:28,9,3/7,3/6,0/1,3/6,0,3,3,1,1,4,2,0,7,4
+Cote d'Ivoire,Angola,61,56,2708,8,Blandine N'Goran,16:58,0,0/5,0/4,0/1,0/0,0,5,5,1,2,1,0,0,5,0
+Cote d'Ivoire,Angola,61,56,2708,9,Edwige Djedjemel,10:03,2,1/2,1/2,0/0,0/0,1,2,3,0,5,0,0,0,7,4
+Cote d'Ivoire,Angola,61,56,2708,10,Kani Kouyate,28:02,15,5/9,4/7,1/2,4/4,1,6,7,4,2,5,1,0,0,18
+Cote d'Ivoire,Angola,61,56,2708,12,Irène Bognini,12:24,8,3/5,1/3,2/2,0/0,0,1,1,0,1,0,1,0,3,8
+Cote d'Ivoire,Angola,61,56,2708,13,Kariata Diaby,36:58,8,3/15,3/13,0/2,2/5,3,8,11,1,2,4,1,2,7,4
+Cote d'Ivoire,Angola,61,56,2708,14,Mariama Kouyate,01:27,0,0/0,0/0,0/0,0/0,0,0,0,0,0,1,0,0,-4,-1
+Cote d'Ivoire,Angola,61,56,2708,15,Minata Fofana,14:31,9,3/5,3/5,0/0,3/4,0,2,2,0,1,1,0,0,-5,7
+Mozambique,Mali,52,75,2708,4,Iliana Sheila Alexandre Ventura,10:32,0,0/2,0/0,0/2,0/0,1,0,1,0,0,0,1,0,-11,0
+Mozambique,Mali,52,75,2708,5,Aquila Mucubaquine,10:54,7,3/4,2/3,1/1,0/1,1,1,2,0,2,1,0,0,-2,6
+Mozambique,Mali,52,75,2708,6,Chanaya Pinto,18:26,9,3/7,1/3,2/4,1/2,0,1,1,1,1,2,1,0,1,5
+Mozambique,Mali,52,75,2708,7,Anabela Cossa,26:19,0,0/4,0/2,0/2,0/0,0,3,3,5,4,8,3,0,-15,-1
+Mozambique,Mali,52,75,2708,8,Amelia Massingue,02:45,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-6,0
+Mozambique,Mali,52,75,2708,10,Eleuteria Lhavanguane,02:35,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-4,0
+Mozambique,Mali,52,75,2708,11,Leia Dongue,24:37,10,4/12,4/10,0/2,2/2,0,1,1,1,4,3,1,0,-17,2
+Mozambique,Mali,52,75,2708,12,Rute Muianga,08:57,3,1/2,0/0,1/2,0/0,0,0,0,1,0,0,1,0,-11,4
+Mozambique,Mali,52,75,2708,13,Elizabeth Pereira,29:27,5,2/7,2/4,0/3,1/2,1,3,4,2,2,1,0,0,-12,4
+Mozambique,Mali,52,75,2708,14,Odélia Mafanela,34:21,9,4/8,4/8,0/0,1/5,1,5,6,2,3,5,1,0,-23,5
+Mozambique,Mali,52,75,2708,15,Tamara Seda,31:00,9,3/7,3/7,0/0,3/5,3,4,7,0,3,3,3,1,-15,11
+Mali,Mozambique,75,52,2708,4,Nassira Traore,23:47,19,8/9,7/8,1/1,2/4,0,1,1,2,2,3,2,0,21,18
+Mali,Mozambique,75,52,2708,5,Aissata Maiga,10:59,5,2/5,1/3,1/2,0/0,2,0,2,0,0,0,1,0,5,5
+Mali,Mozambique,75,52,2708,7,Fatoumata Bagayoko,13:18,7,2/9,0/1,2/8,1/2,0,3,3,0,0,0,1,0,7,3
+Mali,Mozambique,75,52,2708,8,Touty Gandega,29:00,7,2/7,2/6,0/1,3/4,0,2,2,2,2,1,4,0,18,8
+Mali,Mozambique,75,52,2708,10,Kankou Coulibaly,19:28,3,0/4,0/2,0/2,3/4,2,6,8,2,1,4,2,0,9,6
+Mali,Mozambique,75,52,2708,13,Meiya Tirera,26:40,15,5/11,3/6,2/5,3/4,3,5,8,4,1,2,1,1,19,20
+Mali,Mozambique,75,52,2708,14,Mariam Coulibaly,14:21,4,1/2,1/2,0/0,2/2,1,0,1,2,0,1,0,0,-3,5
+Mali,Mozambique,75,52,2708,15,Naignouma Coulibaly,27:57,6,3/4,3/4,0/0,0/0,1,5,6,1,4,1,0,0,24,11
+Mali,Mozambique,75,52,2708,30,Astan Dabo,04:49,0,0/0,0/0,0/0,0/0,2,1,3,1,0,1,0,1,0,4
+Mali,Mozambique,75,52,2708,77,Kouta Camara,03:54,0,0/0,0/0,0/0,0/0,0,0,0,0,0,1,0,0,-5,-1
+Mali,Mozambique,75,52,2708,87,Ramata Diakite,25:41,9,3/11,3/10,0/1,3/4,4,4,8,5,4,0,1,0,20,14
+Senegal,Nigeria,48,65,2708,4,Oumoul Thiam,16:56,3,1/3,0/2,1/1,0/0,0,2,2,0,0,3,0,0,-30,0
+Senegal,Nigeria,48,65,2708,5,Aya Traore,23:27,6,2/3,0/0,2/3,0/0,1,2,3,1,0,2,0,0,8,7
+Senegal,Nigeria,48,65,2708,6,Oumoul Khairy Sarr,20:51,4,2/6,2/6,0/0,0/0,0,2,2,1,1,4,1,0,-15,0
+Senegal,Nigeria,48,65,2708,7,Fatou Dieng,04:43,0,0/2,0/0,0/2,0/0,0,0,0,0,0,0,0,0,-7,-2
+Senegal,Nigeria,48,65,2708,8,Diodio Diouf,29:14,5,2/11,1/4,1/7,0/0,0,1,1,4,3,3,1,0,3,-1
+Senegal,Nigeria,48,65,2708,9,Ndèye Sène,07:49,0,0/4,0/2,0/2,0/0,0,0,0,0,3,3,1,0,-13,-6
+Senegal,Nigeria,48,65,2708,10,Astou Traore,37:10,17,5/10,2/5,3/5,4/6,1,5,6,3,4,2,2,0,-11,19
+Senegal,Nigeria,48,65,2708,11,Aminata Fall,10:32,0,0/0,0/0,0/0,0/0,0,1,1,0,1,1,0,0,-15,0
+Senegal,Nigeria,48,65,2708,12,Mame Marie Sy Diop,27:42,7,3/6,3/4,0/2,1/1,3,2,5,1,3,4,0,3,0,9
+Senegal,Nigeria,48,65,2708,13,Sokhna Sy,02:43,0,0/0,0/0,0/0,0/0,1,0,1,0,0,0,0,0,-5,1
+Senegal,Nigeria,48,65,2708,14,Ramata Daou,14:40,6,3/5,3/5,0/0,0/0,1,3,4,0,4,2,0,0,6,6
+Senegal,Nigeria,48,65,2708,15,Aicha Sidibe,04:06,0,0/0,0/0,0/0,0/2,0,0,0,0,2,0,0,0,-6,-2
+Nigeria,Senegal,65,48,2708,3,Ugochi Nwaigwe,01:44,2,1/2,1/2,0/0,0/0,1,0,1,0,0,0,0,0,1,2
+Nigeria,Senegal,65,48,2708,5,Upe Atosu,11:58,3,1/2,0/0,1/2,0/1,0,0,0,3,2,0,1,0,-1,5
+Nigeria,Senegal,65,48,2708,7,Sarah Ogoke,14:18,8,3/6,1/1,2/5,0/0,0,2,2,1,1,1,0,1,-2,8
+Nigeria,Senegal,65,48,2708,8,Nkechi Akashili,03:15,2,1/2,1/2,0/0,0/0,1,0,1,0,1,0,0,0,-5,2
+Nigeria,Senegal,65,48,2708,9,Aisha Mohammed,21:37,6,3/7,3/7,0/0,0/0,2,5,7,1,0,1,1,1,11,11
+Nigeria,Senegal,65,48,2708,11,Adaora Elonu,30:23,12,5/11,5/10,0/1,2/4,0,3,3,4,2,2,1,0,24,10
+Nigeria,Senegal,65,48,2708,12,Ndidi Madu,12:30,0,0/5,0/5,0/0,0/0,2,3,5,2,0,0,1,0,2,3
+Nigeria,Senegal,65,48,2708,13,Evelyn Akhator,30:51,13,5/13,5/13,0/0,3/3,6,1,7,2,2,1,1,0,9,14
+Nigeria,Senegal,65,48,2708,14,Chioma Udeaja,04:07,0,0/1,0/1,0/0,0/2,1,0,1,0,1,1,0,0,3,-3
+Nigeria,Senegal,65,48,2708,21,Atonye Nyingifa,30:23,11,3/6,3/5,0/1,5/6,2,2,4,2,2,1,1,0,14,13
+Nigeria,Senegal,65,48,2708,23,Ezinne Kalu,26:19,8,3/11,3/9,0/2,2/3,1,1,2,1,1,2,2,1,17,3
+Nigeria,Senegal,65,48,2708,30,Cecilia Okoye,12:30,0,0/0,0/0,0/0,0/0,1,0,1,0,0,1,0,0,12,0

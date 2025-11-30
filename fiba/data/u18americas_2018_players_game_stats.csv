@@ -1,0 +1,577 @@
+country,vs,team_score,vs_score,date,#,Players,Min,Pts,FG,2Pts,3Pts,FT,OREB,DREB,REB,AST,PF,TO,STL,BLK,+/-,EFF
+Puerto Rico,Chile,74,69,0108,2,Lesiriam  Pagan,15:13,3,1/3,1/3,0/0,1/2,2,3,5,0,2,2,0,0,-1,3
+Puerto Rico,Chile,74,69,0108,3,Nairimar Vargas,31:01,7,2/10,1/7,1/3,2/6,6,8,14,1,1,7,1,0,-3,4
+Puerto Rico,Chile,74,69,0108,4,Sariana Rodriguez,02:10,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-6,0
+Puerto Rico,Chile,74,69,0108,5,Nadechka Reyes,23:36,9,4/10,4/8,0/2,1/2,3,5,8,2,2,4,1,0,9,9
+Puerto Rico,Chile,74,69,0108,6,Alisha Cotto,00:51,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-3,0
+Puerto Rico,Chile,74,69,0108,9,Gabriela Santana,10:31,4,2/3,2/3,0/0,0/0,0,5,5,0,1,1,0,1,9,8
+Puerto Rico,Chile,74,69,0108,11,Alicia Penzo,08:23,0,0/2,0/2,0/0,0/0,0,1,1,0,1,2,0,0,-7,-3
+Puerto Rico,Chile,74,69,0108,12,Wilneishka Rivera,16:15,7,1/3,1/2,0/1,5/8,0,3,3,1,2,2,0,0,-4,4
+Puerto Rico,Chile,74,69,0108,14,Julianna Rosario,27:10,15,5/10,3/6,2/4,3/6,4,5,9,3,0,5,0,0,2,14
+Puerto Rico,Chile,74,69,0108,20,Sheslanie Laureano,28:51,14,6/17,4/11,2/6,0/2,1,8,9,3,2,2,2,2,14,15
+Puerto Rico,Chile,74,69,0108,22,Eva Sanchez,22:10,13,5/10,5/10,0/0,3/6,5,8,13,0,0,1,1,0,17,18
+Puerto Rico,Chile,74,69,0108,33,Yaidelis Torres,13:46,2,1/2,1/2,0/0,0/0,2,1,3,1,1,0,1,0,-2,6
+Chile,Puerto Rico,69,74,0108,1,Paula Barrientos,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Chile,Puerto Rico,69,74,0108,2,Jovanka Ljubetic,29:16,17,6/23,2/6,4/17,1/2,1,2,3,2,2,3,4,0,-4,5
+Chile,Puerto Rico,69,74,0108,5,Fernanda Ovalle,18:36,14,4/9,1/4,3/5,3/4,2,1,3,1,5,0,0,1,-6,13
+Chile,Puerto Rico,69,74,0108,6,Javiera Campos,03:34,0,0/0,0/0,0/0,0/0,0,0,0,1,2,0,0,0,5,1
+Chile,Puerto Rico,69,74,0108,7,Thiare Garcia,35:55,7,3/11,2/3,1/8,0/0,0,2,2,6,3,3,2,1,-4,7
+Chile,Puerto Rico,69,74,0108,8,Macarena Retamales,27:49,8,3/17,1/11,2/6,0/0,0,3,3,1,1,1,1,2,-16,0
+Chile,Puerto Rico,69,74,0108,9,Catalina Valenzuela,12:07,3,1/6,0/4,1/2,0/0,0,3,3,2,1,0,1,0,-2,4
+Chile,Puerto Rico,69,74,0108,10,Javiera Merino,19:22,5,2/5,1/4,1/1,0/0,2,4,6,0,4,0,0,0,1,8
+Chile,Puerto Rico,69,74,0108,11,Javiera Alvarez,09:47,2,1/2,1/2,0/0,0/0,2,4,6,0,1,1,0,0,0,6
+Chile,Puerto Rico,69,74,0108,12,Valentina Garay,07:59,5,2/2,2/2,0/0,1/5,0,3,3,0,1,0,1,0,15,5
+Chile,Puerto Rico,69,74,0108,14,Alva Nuñez,17:00,4,2/3,2/3,0/0,0/0,2,0,2,1,1,0,0,0,-11,6
+Chile,Puerto Rico,69,74,0108,15,Carla Vargas,18:31,4,2/5,2/4,0/1,0/0,0,0,0,1,1,0,0,0,-3,2
+Colombia,Canada,49,73,0108,5,Gabriela Chivata,13:37,8,2/4,1/3,1/1,3/3,0,1,1,1,1,5,1,0,-12,4
+Colombia,Canada,49,73,0108,6,Yuliany Paz,21:07,6,3/7,3/7,0/0,0/0,3,5,8,2,4,1,0,1,9,12
+Colombia,Canada,49,73,0108,7,Mayra Caicedo,26:22,6,2/17,2/8,0/9,2/2,0,6,6,4,1,5,2,0,-12,-2
+Colombia,Canada,49,73,0108,9,Naylee Cortes,09:54,0,0/3,0/3,0/0,0/0,0,1,1,0,0,2,2,0,2,-2
+Colombia,Canada,49,73,0108,10,Hamileth Ulloa,15:33,4,1/2,1/1,0/1,2/4,0,2,2,0,0,0,2,0,-18,5
+Colombia,Canada,49,73,0108,11,Maria Escobar,03:24,0,0/1,0/1,0/0,0/0,0,1,1,0,3,1,0,0,-11,-1
+Colombia,Canada,49,73,0108,14,Natalia Pineda,24:26,0,0/3,0/1,0/2,0/2,1,0,1,2,1,1,1,0,-6,-2
+Colombia,Canada,49,73,0108,15,Camila Valencia,05:30,1,0/1,0/0,0/1,1/2,1,1,2,0,1,0,0,0,-11,1
+Colombia,Canada,49,73,0108,17,Maria Alvarez,26:07,19,6/9,0/2,6/7,1/2,0,4,4,0,3,1,0,0,-12,18
+Colombia,Canada,49,73,0108,18,Esperanza Morales,18:18,0,0/2,0/2,0/0,0/0,1,1,2,1,2,0,0,0,-34,1
+Colombia,Canada,49,73,0108,19,Daniela Gonzalez,26:40,2,0/5,0/2,0/3,2/2,1,3,4,0,1,1,0,0,-15,0
+Colombia,Canada,49,73,0108,25,Maria Zamora,08:56,3,1/4,0/0,1/4,0/0,0,0,0,0,2,1,0,0,0,-1
+Canada,Colombia,73,49,0108,4,Keishana Washington,14:36,7,3/5,2/2,1/3,0/0,2,1,3,1,3,1,0,0,4,8
+Canada,Colombia,73,49,0108,5,Justina King,25:23,3,1/11,1/6,0/5,1/2,2,3,5,0,1,2,0,1,20,-4
+Canada,Colombia,73,49,0108,6,Kenya Cote-Lysius,20:00,0,0/1,0/0,0/1,0/0,0,2,2,2,2,0,1,0,15,4
+Canada,Colombia,73,49,0108,7,Roxane Makolo,22:13,5,0/8,0/6,0/2,5/6,1,3,4,3,1,1,5,0,15,7
+Canada,Colombia,73,49,0108,8,Niyah Becker,17:04,5,2/8,1/5,1/3,0/0,1,2,3,3,1,1,1,0,3,5
+Canada,Colombia,73,49,0108,9,Taya Hanson,24:30,14,5/15,1/6,4/9,0/0,2,7,9,3,1,2,2,0,17,16
+Canada,Colombia,73,49,0108,10,Julia Chadwick,11:58,2,1/3,1/3,0/0,0/0,1,2,3,1,4,0,0,0,3,4
+Canada,Colombia,73,49,0108,11,Ashley De Sousa Martins,10:56,7,2/2,2/2,0/0,3/4,2,3,5,0,0,0,1,0,18,12
+Canada,Colombia,73,49,0108,12,Carly Ahlstrom,13:16,8,2/7,1/3,1/4,3/4,2,2,4,0,1,4,0,0,1,2
+Canada,Colombia,73,49,0108,13,Kiandra Browne,07:42,5,1/3,1/3,0/0,3/8,0,0,0,0,3,1,0,0,4,-3
+Canada,Colombia,73,49,0108,14,Sammie Martin,03:10,0,0/1,0/1,0/0,0/0,0,0,0,0,1,0,0,0,-7,-1
+Canada,Colombia,73,49,0108,15,Christina Morra,29:06,17,8/11,8/11,0/0,1/2,5,7,12,2,1,1,0,1,27,27
+USA,Argentina,87,42,0108,4,Ashley Joens,18:37,6,2/5,2/3,0/2,2/6,1,4,5,1,3,3,1,0,22,3
+USA,Argentina,87,42,0108,5,Desiree Caldwell,11:27,5,1/1,1/1,0/0,3/3,0,2,2,3,2,3,3,0,11,10
+USA,Argentina,87,42,0108,6,Anaya Peoples,18:15,6,3/5,3/5,0/0,0/2,0,2,2,2,0,3,2,1,15,6
+USA,Argentina,87,42,0108,7,Jenna Brown,18:10,5,2/2,2/2,0/0,1/4,0,2,2,5,2,4,0,0,14,5
+USA,Argentina,87,42,0108,8,Aijha Blackwell,19:31,13,5/7,3/5,2/2,1/1,2,1,3,4,2,3,2,0,27,17
+USA,Argentina,87,42,0108,9,Olivia Nelson-Ododa,13:05,6,3/3,3/3,0/0,0/0,1,2,3,2,4,3,0,1,12,9
+USA,Argentina,87,42,0108,10,Maori Davenport,19:12,4,1/1,1/1,0/0,2/2,0,5,5,1,4,1,3,1,21,13
+USA,Argentina,87,42,0108,11,Christyn Williams,14:22,6,3/5,3/4,0/1,0/4,0,4,4,2,0,2,2,1,17,7
+USA,Argentina,87,42,0108,12,Nalyssa Smith,18:11,13,6/10,5/8,1/2,0/1,1,5,6,1,4,4,2,0,21,13
+USA,Argentina,87,42,0108,13,Rhyne Howard,16:52,6,3/7,3/5,0/2,0/0,0,2,2,1,0,0,1,0,31,6
+USA,Argentina,87,42,0108,14,Nazahrah Hillmon-Baker,16:35,9,4/7,4/7,0/0,1/1,1,3,4,0,2,1,3,0,17,12
+USA,Argentina,87,42,0108,15,Sedona Prince,15:36,8,3/7,3/7,0/0,2/4,2,7,9,0,2,0,0,3,17,14
+Argentina,USA,42,87,0108,4,Brenda Fontana,19:08,5,1/3,1/2,0/1,3/6,1,2,3,2,2,1,0,0,-24,4
+Argentina,USA,42,87,0108,5,Laila Raviolo,21:43,3,1/7,0/3,1/4,0/0,1,1,2,0,4,2,1,0,-32,-2
+Argentina,USA,42,87,0108,6,Sol Castro,24:04,4,1/5,1/5,0/0,2/4,2,4,6,1,3,1,0,0,-27,4
+Argentina,USA,42,87,0108,7,Martina Scian,10:37,2,0/2,0/0,0/2,2/3,0,0,0,0,1,1,0,0,-7,-2
+Argentina,USA,42,87,0108,8,Sofia Wolf,21:15,4,1/9,0/7,1/2,1/2,0,1,1,1,2,2,0,0,-16,-5
+Argentina,USA,42,87,0108,9,Sofia Acevedo,16:41,5,2/5,1/2,1/3,0/0,0,1,1,2,3,6,3,0,-29,2
+Argentina,USA,42,87,0108,10,Camila Suarez,22:43,8,3/8,3/8,0/0,2/7,0,7,7,1,4,4,0,0,-24,2
+Argentina,USA,42,87,0108,11,Lucia Operto,09:49,0,0/1,0/1,0/0,0/0,0,0,0,0,1,2,1,0,-19,-2
+Argentina,USA,42,87,0108,12,Maria Fux,18:35,0,0/5,0/3,0/2,0/0,0,2,2,0,4,1,0,1,-14,-3
+Argentina,USA,42,87,0108,13,Candela Gentinetta,09:31,0,0/1,0/0,0/1,0/0,0,0,0,0,1,2,0,0,-4,-3
+Argentina,USA,42,87,0108,14,Florencia Chagas,17:27,7,2/9,1/2,1/7,2/2,0,2,2,1,1,6,0,0,-23,-3
+Argentina,USA,42,87,0108,15,Lucila Cragnolino,08:21,4,2/2,2/2,0/0,0/0,0,0,0,0,1,1,0,0,-6,3
+Mexico,El Salvador,88,48,0108,4,Rosa Montes,18:58,4,2/4,2/3,0/1,0/0,1,4,5,2,1,1,2,0,20,10
+Mexico,El Salvador,88,48,0108,5,Katia Gallegos,15:46,13,4/6,2/4,2/2,3/4,2,3,5,6,1,3,3,0,12,21
+Mexico,El Salvador,88,48,0108,7,Karla Martinez,21:11,11,5/10,4/6,1/4,0/0,2,1,3,2,1,0,2,0,28,13
+Mexico,El Salvador,88,48,0108,8,Karina Esquer,12:37,2,1/6,1/3,0/3,0/0,0,2,2,1,0,0,1,0,-1,1
+Mexico,El Salvador,88,48,0108,9,Angela Carrasco,07:58,4,1/4,1/4,0/0,2/2,3,1,4,1,1,0,0,0,9,6
+Mexico,El Salvador,88,48,0108,10,Angel Fierro,11:26,8,3/5,3/3,0/2,2/2,1,1,2,0,0,0,1,0,21,9
+Mexico,El Salvador,88,48,0108,12,Denis Tejada,17:37,6,2/7,2/6,0/1,2/2,1,1,2,0,3,2,1,0,22,2
+Mexico,El Salvador,88,48,0108,13,Paola Velasquez,20:08,4,2/4,2/4,0/0,0/3,1,2,3,4,0,3,2,0,22,5
+Mexico,El Salvador,88,48,0108,16,Mariana Rodriguez,18:10,5,2/2,2/2,0/0,1/2,3,1,4,1,2,0,0,1,8,10
+Mexico,El Salvador,88,48,0108,18,Adriana Salinas,26:40,14,4/7,4/7,0/0,6/9,1,4,5,5,2,2,0,3,30,19
+Mexico,El Salvador,88,48,0108,20,Jessica Paz y Puente,19:51,13,5/9,2/3,3/6,0/0,0,1,1,5,0,4,1,0,18,12
+Mexico,El Salvador,88,48,0108,21,Irais Aguilera,09:33,4,2/2,2/2,0/0,0/0,1,2,3,1,2,4,2,0,11,6
+El Salvador,Mexico,48,88,0108,1,Alexis Rodriguez,21:38,3,1/3,0/0,1/3,0/0,0,1,1,2,1,2,0,0,-31,2
+El Salvador,Mexico,48,88,0108,2,Sarah Miranda,21:21,3,1/5,0/3,1/2,0/0,1,2,3,0,3,4,2,0,-22,0
+El Salvador,Mexico,48,88,0108,5,Jasmine Rodriguez,06:31,0,0/4,0/2,0/2,0/0,1,0,1,0,0,0,0,0,2,-3
+El Salvador,Mexico,48,88,0108,7,Keylin Murcia,18:40,4,2/9,2/6,0/3,0/0,0,0,0,4,3,4,1,0,-6,-2
+El Salvador,Mexico,48,88,0108,9,Silvia Vega,08:11,2,1/3,1/3,0/0,0/2,2,2,4,0,1,2,1,0,-9,1
+El Salvador,Mexico,48,88,0108,10,Andrea Jovel,02:52,0,0/0,0/0,0/0,0/0,0,1,1,0,0,1,0,0,-3,0
+El Salvador,Mexico,48,88,0108,11,Elisa Dominguez,24:11,5,1/3,0/1,1/2,2/3,0,0,0,1,2,2,0,0,-25,1
+El Salvador,Mexico,48,88,0108,14,Gracia Torres,17:19,6,1/5,1/5,0/0,4/4,1,1,2,1,2,0,0,0,-21,5
+El Salvador,Mexico,48,88,0108,15,Yurizell Funes,15:49,4,2/9,2/7,0/2,0/0,1,2,3,0,2,2,1,0,-19,-1
+El Salvador,Mexico,48,88,0108,22,Kimberly Villalobos,36:07,18,8/15,8/14,0/1,2/4,4,7,11,1,3,2,4,1,-29,24
+El Salvador,Mexico,48,88,0108,23,Fabiola Garcia,14:10,3,1/2,0/1,1/1,0/0,0,0,0,1,0,2,0,0,-13,1
+El Salvador,Mexico,48,88,0108,24,Lindsey Castillo,13:07,0,0/0,0/0,0/0,0/0,0,2,2,0,1,1,0,0,-24,1
+Chile,USA,39,115,0208,1,Paula Barrientos,12:35,0,0/6,0/2,0/4,0/0,0,2,2,1,1,2,0,0,-28,-5
+Chile,USA,39,115,0208,2,Jovanka Ljubetic,19:10,7,3/12,2/6,1/6,0/0,0,0,0,0,2,1,0,0,-44,-3
+Chile,USA,39,115,0208,5,Fernanda Ovalle,19:10,11,3/14,1/9,2/5,3/4,1,1,2,1,1,5,1,0,-23,-2
+Chile,USA,39,115,0208,6,Javiera Campos,12:58,0,0/1,0/0,0/1,0/0,0,0,0,0,0,1,2,0,-16,0
+Chile,USA,39,115,0208,7,Thiare Garcia,20:11,1,0/3,0/2,0/1,1/4,0,0,0,3,1,3,1,1,-43,-3
+Chile,USA,39,115,0208,8,Macarena Retamales,25:22,7,1/14,1/10,0/4,5/5,0,3,3,0,3,1,0,2,-49,-2
+Chile,USA,39,115,0208,9,Catalina Valenzuela,10:30,5,0/2,0/0,0/2,5/7,0,2,2,0,2,2,1,0,-25,2
+Chile,USA,39,115,0208,10,Javiera Merino,18:26,2,1/2,1/2,0/0,0/0,2,0,2,0,5,0,0,0,-34,3
+Chile,USA,39,115,0208,11,Javiera Alvarez,13:40,2,1/3,1/3,0/0,0/0,1,0,1,0,0,1,0,0,-41,0
+Chile,USA,39,115,0208,12,Valentina Garay,14:28,0,0/1,0/0,0/1,0/0,2,2,4,0,2,1,0,1,-45,3
+Chile,USA,39,115,0208,14,Alva Nuñez,17:15,2,1/3,1/3,0/0,0/0,0,0,0,0,1,4,0,0,-22,-4
+Chile,USA,39,115,0208,15,Carla Vargas,16:10,2,1/2,1/1,0/1,0/2,1,3,4,1,4,3,1,0,-10,2
+USA,Chile,115,39,0208,4,Ashley Joens,17:49,11,3/5,3/4,0/1,5/7,2,2,4,3,1,1,2,0,47,15
+USA,Chile,115,39,0208,5,Desiree Caldwell,19:58,6,3/6,3/6,0/0,0/0,1,3,4,2,4,2,1,0,35,8
+USA,Chile,115,39,0208,6,Anaya Peoples,16:25,5,2/5,2/4,0/1,1/3,2,4,6,3,3,2,3,0,11,10
+USA,Chile,115,39,0208,7,Jenna Brown,18:16,5,1/3,1/2,0/1,3/4,2,1,3,3,1,2,2,0,26,8
+USA,Chile,115,39,0208,8,Aijha Blackwell,16:11,13,5/9,4/7,1/2,2/3,1,3,4,5,3,1,5,0,36,21
+USA,Chile,115,39,0208,9,Olivia Nelson-Ododa,15:43,6,2/6,2/6,0/0,2/2,2,3,5,0,1,1,0,0,35,6
+USA,Chile,115,39,0208,10,Maori Davenport,19:15,17,7/8,7/8,0/0,3/5,2,7,9,0,2,3,0,1,40,21
+USA,Chile,115,39,0208,11,Christyn Williams,14:20,19,7/14,5/12,2/2,3/6,7,3,10,1,1,1,2,0,31,21
+USA,Chile,115,39,0208,12,Nalyssa Smith,12:52,5,2/9,2/8,0/1,1/1,1,4,5,0,2,1,2,1,12,5
+USA,Chile,115,39,0208,13,Rhyne Howard,16:56,7,3/8,2/5,1/3,0/0,3,5,8,3,0,1,1,2,42,15
+USA,Chile,115,39,0208,14,Nazahrah Hillmon-Baker,14:19,11,5/6,5/6,0/0,1/2,3,3,6,0,0,1,0,1,26,15
+USA,Chile,115,39,0208,15,Sedona Prince,17:51,10,5/9,5/9,0/0,0/0,4,7,11,1,2,1,0,1,39,18
+El Salvador,Canada,52,81,0208,1,Alexis Rodriguez,37:07,8,3/6,1/3,2/3,0/0,0,3,3,4,0,2,0,0,-24,10
+El Salvador,Canada,52,81,0208,2,Sarah Miranda,18:11,6,2/5,2/5,0/0,2/2,0,1,1,0,2,2,1,0,-13,3
+El Salvador,Canada,52,81,0208,5,Jasmine Rodriguez,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+El Salvador,Canada,52,81,0208,7,Keylin Murcia,22:16,5,2/10,1/4,1/6,0/0,0,0,0,2,3,1,2,0,-2,0
+El Salvador,Canada,52,81,0208,9,Silvia Vega,06:32,4,1/2,1/2,0/0,2/2,1,1,2,0,2,0,0,1,-2,6
+El Salvador,Canada,52,81,0208,10,Andrea Jovel,11:07,0,0/0,0/0,0/0,0/0,0,2,2,0,1,1,1,0,2,2
+El Salvador,Canada,52,81,0208,11,Elisa Dominguez,13:55,5,2/5,1/1,1/4,0/0,0,1,1,1,4,2,0,0,-16,2
+El Salvador,Canada,52,81,0208,14,Gracia Torres,08:37,0,0/1,0/1,0/0,0/0,0,4,4,1,2,2,0,0,-8,2
+El Salvador,Canada,52,81,0208,15,Yurizell Funes,20:13,2,1/6,1/4,0/2,0/0,0,1,1,1,3,5,0,0,-26,-6
+El Salvador,Canada,52,81,0208,22,Kimberly Villalobos,36:51,15,6/14,6/14,0/0,3/9,2,8,10,2,2,2,2,3,-31,16
+El Salvador,Canada,52,81,0208,23,Fabiola Garcia,05:19,0,0/1,0/0,0/1,0/0,0,1,1,1,0,0,0,0,-10,1
+El Salvador,Canada,52,81,0208,24,Lindsey Castillo,19:48,7,2/7,0/2,2/5,1/2,0,3,3,1,2,2,0,0,-15,3
+Canada,El Salvador,81,52,0208,4,Keishana Washington,19:40,5,2/6,1/2,1/4,0/0,0,1,1,3,1,2,4,0,18,7
+Canada,El Salvador,81,52,0208,5,Justina King,20:19,7,2/5,1/3,1/2,2/2,1,0,1,2,0,2,2,0,11,7
+Canada,El Salvador,81,52,0208,6,Kenya Cote-Lysius,18:18,7,3/8,2/4,1/4,0/0,0,0,0,1,0,1,0,1,11,3
+Canada,El Salvador,81,52,0208,7,Roxane Makolo,20:19,11,3/10,2/5,1/5,4/6,1,2,3,3,2,1,2,0,27,9
+Canada,El Salvador,81,52,0208,8,Niyah Becker,15:57,15,6/7,4/5,2/2,1/2,2,7,9,2,1,3,2,1,13,24
+Canada,El Salvador,81,52,0208,9,Taya Hanson,21:41,9,3/9,2/5,1/4,2/2,0,1,1,1,1,1,1,0,18,5
+Canada,El Salvador,81,52,0208,10,Julia Chadwick,12:05,4,2/8,2/7,0/1,0/1,4,5,9,0,3,1,1,0,6,6
+Canada,El Salvador,81,52,0208,11,Ashley De Sousa Martins,11:56,4,1/2,1/2,0/0,2/4,6,6,12,0,1,1,0,0,10,12
+Canada,El Salvador,81,52,0208,12,Carly Ahlstrom,19:40,3,1/6,1/1,0/5,1/2,3,5,8,2,1,0,0,0,2,7
+Canada,El Salvador,81,52,0208,13,Kiandra Browne,14:17,5,2/5,2/5,0/0,1/2,3,2,5,2,0,0,0,0,18,8
+Canada,El Salvador,81,52,0208,14,Sammie Martin,08:52,0,0/2,0/2,0/0,0/0,1,0,1,0,0,0,0,0,1,-1
+Canada,El Salvador,81,52,0208,15,Christina Morra,16:50,11,2/8,2/8,0/0,7/10,3,4,7,0,0,1,0,0,10,8
+Argentina,Puerto Rico,79,60,0208,4,Brenda Fontana,17:05,8,4/5,4/5,0/0,0/0,3,5,8,0,4,3,4,1,16,17
+Argentina,Puerto Rico,79,60,0208,5,Laila Raviolo,21:33,9,4/8,4/5,0/3,1/1,2,0,2,1,4,3,1,0,2,6
+Argentina,Puerto Rico,79,60,0208,6,Sol Castro,27:58,14,4/8,4/8,0/0,6/9,7,5,12,4,0,3,1,2,10,23
+Argentina,Puerto Rico,79,60,0208,7,Martina Scian,03:04,0,0/0,0/0,0/0,0/0,0,0,0,1,1,2,0,0,-1,-1
+Argentina,Puerto Rico,79,60,0208,8,Sofia Wolf,20:18,6,3/6,3/3,0/3,0/0,1,2,3,1,2,3,3,0,13,7
+Argentina,Puerto Rico,79,60,0208,9,Sofia Acevedo,22:15,8,3/9,1/2,2/7,0/0,0,0,0,6,1,1,2,0,11,9
+Argentina,Puerto Rico,79,60,0208,10,Camila Suarez,17:07,5,1/5,1/4,0/1,3/6,1,3,4,3,2,2,2,0,7,5
+Argentina,Puerto Rico,79,60,0208,11,Lucia Operto,08:24,6,2/3,2/3,0/0,2/4,0,1,1,0,2,2,1,1,5,4
+Argentina,Puerto Rico,79,60,0208,12,Maria Fux,21:26,7,3/7,3/6,0/1,1/8,0,2,2,2,1,1,1,1,5,1
+Argentina,Puerto Rico,79,60,0208,13,Candela Gentinetta,11:13,6,2/3,2/3,0/0,2/3,0,1,1,0,1,1,0,0,8,4
+Argentina,Puerto Rico,79,60,0208,14,Florencia Chagas,24:26,10,3/8,1/3,2/5,2/2,0,5,5,4,4,3,5,0,17,16
+Argentina,Puerto Rico,79,60,0208,15,Lucila Cragnolino,05:04,0,0/1,0/1,0/0,0/0,1,1,2,0,1,1,0,0,2,0
+Puerto Rico,Argentina,60,79,0208,2,Lesiriam  Pagan,16:10,0,0/2,0/2,0/0,0/0,4,0,4,0,4,2,3,0,0,3
+Puerto Rico,Argentina,60,79,0208,3,Nairimar Vargas,23:43,5,2/8,2/7,0/1,1/1,2,4,6,1,1,7,3,0,-11,2
+Puerto Rico,Argentina,60,79,0208,4,Sariana Rodriguez,10:49,8,2/5,2/5,0/0,4/4,0,3,3,0,0,1,1,0,-7,8
+Puerto Rico,Argentina,60,79,0208,5,Nadechka Reyes,27:48,13,6/12,5/11,1/1,0/0,2,2,4,1,4,6,3,0,-14,9
+Puerto Rico,Argentina,60,79,0208,6,Alisha Cotto,11:34,3,1/3,1/3,0/0,1/2,2,3,5,0,2,0,1,0,-14,6
+Puerto Rico,Argentina,60,79,0208,9,Gabriela Santana,09:15,0,0/3,0/3,0/0,0/0,0,1,1,1,4,0,0,0,2,-1
+Puerto Rico,Argentina,60,79,0208,11,Alicia Penzo,17:45,9,3/9,3/5,0/4,3/3,1,1,2,0,1,1,2,0,1,6
+Puerto Rico,Argentina,60,79,0208,12,Wilneishka Rivera,15:18,1,0/4,0/3,0/1,1/2,1,1,2,1,1,0,0,0,-15,-1
+Puerto Rico,Argentina,60,79,0208,14,Julianna Rosario,24:38,12,3/15,2/11,1/4,5/5,0,3,3,0,2,1,1,0,-8,3
+Puerto Rico,Argentina,60,79,0208,20,Sheslanie Laureano,12:58,2,1/5,1/3,0/2,0/0,0,3,3,0,2,2,1,0,-16,0
+Puerto Rico,Argentina,60,79,0208,22,Eva Sanchez,18:14,2,1/4,1/4,0/0,0/0,4,0,4,1,3,6,1,0,-12,-1
+Puerto Rico,Argentina,60,79,0208,33,Yaidelis Torres,11:43,5,2/7,1/3,1/4,0/0,3,2,5,0,3,2,1,0,-1,4
+Mexico,Colombia,78,88,0208,4,Rosa Montes,25:19,11,3/9,2/6,1/3,4/6,0,3,3,4,4,1,1,0,6,10
+Mexico,Colombia,78,88,0208,5,Katia Gallegos,16:46,3,1/6,1/6,0/0,1/1,1,6,7,6,3,2,1,0,-8,10
+Mexico,Colombia,78,88,0208,7,Karla Martinez,27:10,13,4/8,3/6,1/2,4/4,4,2,6,1,4,3,1,0,-14,14
+Mexico,Colombia,78,88,0208,8,Karina Esquer,03:27,0,0/1,0/0,0/1,0/0,0,1,1,0,1,1,0,0,-11,-1
+Mexico,Colombia,78,88,0208,9,Angela Carrasco,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Mexico,Colombia,78,88,0208,10,Angel Fierro,11:13,1,0/4,0/4,0/0,1/2,0,0,0,0,3,1,0,0,-3,-5
+Mexico,Colombia,78,88,0208,12,Denis Tejada,15:07,5,2/4,1/3,1/1,0/0,1,2,3,0,0,2,0,0,4,4
+Mexico,Colombia,78,88,0208,13,Paola Velasquez,12:28,4,1/3,1/3,0/0,2/2,0,4,4,2,2,4,0,0,-2,4
+Mexico,Colombia,78,88,0208,16,Mariana Rodriguez,07:58,4,2/4,2/4,0/0,0/0,1,0,1,1,3,0,0,0,-2,4
+Mexico,Colombia,78,88,0208,18,Adriana Salinas,37:02,22,9/14,6/9,3/5,1/2,2,5,7,2,3,3,1,2,-7,25
+Mexico,Colombia,78,88,0208,20,Jessica Paz y Puente,16:22,6,2/6,2/4,0/2,2/3,0,0,0,2,4,0,0,0,1,3
+Mexico,Colombia,78,88,0208,21,Irais Aguilera,27:01,9,3/5,3/5,0/0,3/6,5,3,8,1,2,3,0,0,-14,10
+Colombia,Mexico,88,78,0208,5,Gabriela Chivata,08:41,5,1/3,1/3,0/0,3/4,0,0,0,0,0,0,0,0,-3,2
+Colombia,Mexico,88,78,0208,6,Yuliany Paz,22:45,7,3/6,3/6,0/0,1/2,4,3,7,0,2,1,0,2,2,11
+Colombia,Mexico,88,78,0208,7,Mayra Caicedo,31:58,30,9/20,5/12,4/8,8/9,1,3,4,2,4,1,4,0,15,27
+Colombia,Mexico,88,78,0208,9,Naylee Cortes,00:42,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-6,0
+Colombia,Mexico,88,78,0208,10,Hamileth Ulloa,11:38,4,2/5,2/4,0/1,0/2,1,2,3,0,1,0,0,0,0,2
+Colombia,Mexico,88,78,0208,11,Maria Escobar,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Colombia,Mexico,88,78,0208,14,Natalia Pineda,31:49,8,4/9,4/5,0/4,0/2,2,2,4,2,1,0,0,0,5,7
+Colombia,Mexico,88,78,0208,15,Camila Valencia,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Colombia,Mexico,88,78,0208,17,Maria Alvarez,36:40,22,6/16,1/3,5/13,5/5,2,4,6,1,4,4,5,1,16,21
+Colombia,Mexico,88,78,0208,18,Esperanza Morales,15:43,0,0/0,0/0,0/0,0/0,0,2,2,0,5,0,0,0,11,2
+Colombia,Mexico,88,78,0208,19,Daniela Gonzalez,40:00,12,3/10,2/5,1/5,5/8,1,7,8,2,4,2,5,2,10,17
+Colombia,Mexico,88,78,0208,25,Maria Zamora,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Argentina,Chile,82,56,0308,4,Brenda Fontana,19:01,10,3/6,3/5,0/1,4/8,2,6,8,1,2,2,0,1,11,11
+Argentina,Chile,82,56,0308,5,Laila Raviolo,18:10,5,1/6,1/3,0/3,3/4,1,4,5,1,3,1,0,1,21,5
+Argentina,Chile,82,56,0308,6,Sol Castro,18:30,6,2/8,2/8,0/0,2/2,4,8,12,2,3,2,3,0,19,15
+Argentina,Chile,82,56,0308,7,Martina Scian,14:48,5,2/3,1/2,1/1,0/0,0,0,0,0,2,0,2,0,-9,6
+Argentina,Chile,82,56,0308,8,Sofia Wolf,19:26,11,5/9,4/6,1/3,0/0,0,2,2,1,2,3,0,1,19,8
+Argentina,Chile,82,56,0308,9,Sofia Acevedo,12:34,5,2/3,1/1,1/2,0/0,0,1,1,2,3,0,0,1,15,8
+Argentina,Chile,82,56,0308,10,Camila Suarez,17:50,12,3/9,3/7,0/2,6/8,2,4,6,2,5,1,2,0,16,13
+Argentina,Chile,82,56,0308,11,Lucia Operto,14:13,6,1/2,1/2,0/0,4/4,1,1,2,3,1,3,0,2,5,9
+Argentina,Chile,82,56,0308,12,Maria Fux,19:07,8,4/8,4/8,0/0,0/0,3,5,8,2,1,1,1,1,16,15
+Argentina,Chile,82,56,0308,13,Candela Gentinetta,18:58,5,1/3,1/2,0/1,3/4,0,2,2,3,3,1,1,1,9,8
+Argentina,Chile,82,56,0308,14,Florencia Chagas,18:11,7,2/7,1/2,1/5,2/2,1,3,4,1,3,2,1,0,7,6
+Argentina,Chile,82,56,0308,15,Lucila Cragnolino,09:07,2,0/2,0/2,0/0,2/2,1,2,3,0,1,3,0,1,1,1
+Chile,Argentina,56,82,0308,1,Paula Barrientos,09:00,0,0/3,0/1,0/2,0/0,0,1,1,0,0,0,0,0,-6,-2
+Chile,Argentina,56,82,0308,2,Jovanka Ljubetic,13:46,3,1/5,0/1,1/4,0/0,0,1,1,0,1,1,1,0,-14,0
+Chile,Argentina,56,82,0308,5,Fernanda Ovalle,23:26,14,4/10,3/7,1/3,5/7,1,3,4,1,2,4,1,1,-19,9
+Chile,Argentina,56,82,0308,6,Javiera Campos,11:00,2,1/2,1/2,0/0,0/0,0,0,0,0,3,0,2,0,2,3
+Chile,Argentina,56,82,0308,7,Thiare Garcia,26:49,8,2/6,0/4,2/2,2/4,0,2,2,3,2,6,2,0,-18,3
+Chile,Argentina,56,82,0308,8,Macarena Retamales,24:46,15,4/14,3/8,1/6,6/7,0,2,2,0,4,1,0,0,-11,5
+Chile,Argentina,56,82,0308,9,Catalina Valenzuela,11:10,8,1/3,1/2,0/1,6/8,0,1,1,1,3,1,0,0,-12,5
+Chile,Argentina,56,82,0308,10,Javiera Merino,22:49,0,0/3,0/3,0/0,0/0,0,4,4,1,2,0,0,0,-18,2
+Chile,Argentina,56,82,0308,11,Javiera Alvarez,17:16,1,0/5,0/5,0/0,1/2,1,4,5,1,2,2,1,0,-19,0
+Chile,Argentina,56,82,0308,12,Valentina Garay,06:32,3,1/2,1/2,0/0,1/1,0,2,2,0,0,1,1,0,-1,4
+Chile,Argentina,56,82,0308,14,Alva Nuñez,16:55,2,1/4,1/4,0/0,0/0,0,3,3,0,2,1,0,0,-7,1
+Chile,Argentina,56,82,0308,15,Carla Vargas,16:26,0,0/4,0/1,0/3,0/0,0,2,2,0,3,0,1,0,-7,-1
+Colombia,El Salvador,80,48,0308,5,Gabriela Chivata,20:55,1,0/4,0/3,0/1,1/2,2,5,7,2,2,3,2,1,5,5
+Colombia,El Salvador,80,48,0308,6,Yuliany Paz,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Colombia,El Salvador,80,48,0308,7,Mayra Caicedo,19:04,22,9/13,8/9,1/4,3/6,0,3,3,5,2,1,6,0,27,28
+Colombia,El Salvador,80,48,0308,9,Naylee Cortes,21:38,7,2/7,2/7,0/0,3/8,6,1,7,1,4,1,2,0,11,6
+Colombia,El Salvador,80,48,0308,10,Hamileth Ulloa,15:16,3,1/6,0/3,1/3,0/0,4,0,4,3,0,1,1,0,0,5
+Colombia,El Salvador,80,48,0308,11,Maria Escobar,11:52,10,5/10,5/10,0/0,0/0,2,1,3,0,1,0,0,1,5,9
+Colombia,El Salvador,80,48,0308,14,Natalia Pineda,21:37,15,6/9,3/5,3/4,0/1,1,2,3,1,0,1,0,0,27,14
+Colombia,El Salvador,80,48,0308,15,Camila Valencia,16:07,2,1/4,1/2,0/2,0/0,0,1,1,1,0,0,0,0,7,1
+Colombia,El Salvador,80,48,0308,17,Maria Alvarez,19:22,3,1/6,0/0,1/6,0/2,0,5,5,3,1,2,1,0,26,3
+Colombia,El Salvador,80,48,0308,18,Esperanza Morales,24:56,9,4/8,4/7,0/1,1/2,4,3,7,1,0,3,0,1,26,10
+Colombia,El Salvador,80,48,0308,19,Daniela Gonzalez,18:16,5,2/6,1/5,1/1,0/0,2,3,5,0,2,0,0,0,25,6
+Colombia,El Salvador,80,48,0308,25,Maria Zamora,10:49,3,1/7,0/2,1/5,0/0,0,3,3,1,2,0,2,0,1,3
+El Salvador,Colombia,48,80,0308,1,Alexis Rodriguez,24:51,3,1/4,0/2,1/2,0/0,0,2,2,6,1,4,1,0,-14,5
+El Salvador,Colombia,48,80,0308,2,Sarah Miranda,27:36,9,4/11,3/8,1/3,0/0,0,1,1,1,2,2,3,1,-23,6
+El Salvador,Colombia,48,80,0308,5,Jasmine Rodriguez,07:12,0,0/1,0/0,0/1,0/0,0,1,1,1,1,2,1,0,2,0
+El Salvador,Colombia,48,80,0308,7,Keylin Murcia,10:39,2,0/4,0/2,0/2,2/2,0,0,0,0,2,3,0,0,-11,-5
+El Salvador,Colombia,48,80,0308,9,Silvia Vega,02:52,0,0/1,0/1,0/0,0/0,1,0,1,0,0,2,0,0,2,-2
+El Salvador,Colombia,48,80,0308,10,Andrea Jovel,04:01,0,0/1,0/1,0/0,0/0,0,0,0,0,2,1,0,0,-7,-2
+El Salvador,Colombia,48,80,0308,11,Elisa Dominguez,17:13,3,1/3,0/2,1/1,0/0,0,2,2,0,1,0,0,0,-23,3
+El Salvador,Colombia,48,80,0308,14,Gracia Torres,10:09,3,1/1,1/1,0/0,1/1,0,3,3,1,2,1,0,0,-6,6
+El Salvador,Colombia,48,80,0308,15,Yurizell Funes,08:25,3,1/4,1/4,0/0,1/2,0,2,2,0,1,2,0,0,3,-1
+El Salvador,Colombia,48,80,0308,22,Kimberly Villalobos,36:34,9,2/6,2/5,0/1,5/6,0,10,10,0,3,5,3,1,-36,13
+El Salvador,Colombia,48,80,0308,23,Fabiola Garcia,28:16,12,4/7,1/2,3/5,1/2,0,2,2,0,0,1,0,0,-20,9
+El Salvador,Colombia,48,80,0308,24,Lindsey Castillo,22:07,4,1/2,1/1,0/1,2/2,0,0,0,1,1,3,0,0,-27,1
+Puerto Rico,USA,59,103,0308,2,Lesiriam  Pagan,16:22,0,0/0,0/0,0/0,0/0,1,0,1,0,4,4,3,0,-15,0
+Puerto Rico,USA,59,103,0308,3,Nairimar Vargas,25:28,3,1/6,0/2,1/4,0/0,1,2,3,0,1,7,0,0,-27,-6
+Puerto Rico,USA,59,103,0308,4,Sariana Rodriguez,13:33,7,2/6,2/6,0/0,3/3,2,0,2,0,3,4,1,1,-16,3
+Puerto Rico,USA,59,103,0308,5,Nadechka Reyes,25:02,16,4/10,2/3,2/7,6/8,2,2,4,4,1,6,3,0,-25,13
+Puerto Rico,USA,59,103,0308,6,Alisha Cotto,14:40,2,1/3,1/3,0/0,0/0,0,4,4,0,4,0,0,0,-30,4
+Puerto Rico,USA,59,103,0308,9,Gabriela Santana,14:10,0,0/1,0/1,0/0,0/0,0,1,1,0,4,0,0,0,-13,0
+Puerto Rico,USA,59,103,0308,11,Alicia Penzo,19:31,2,1/4,1/1,0/3,0/0,0,3,3,3,3,4,1,0,-17,2
+Puerto Rico,USA,59,103,0308,12,Wilneishka Rivera,17:07,5,2/8,1/3,1/5,0/1,0,3,3,1,0,2,1,0,-16,1
+Puerto Rico,USA,59,103,0308,14,Julianna Rosario,23:22,17,5/15,4/8,1/7,6/12,0,0,0,2,2,3,2,0,-36,2
+Puerto Rico,USA,59,103,0308,20,Sheslanie Laureano,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Puerto Rico,USA,59,103,0308,22,Eva Sanchez,13:58,2,1/3,1/3,0/0,0/1,1,1,2,1,5,2,0,0,-15,0
+Puerto Rico,USA,59,103,0308,33,Yaidelis Torres,16:43,5,2/3,1/1,1/2,0/0,0,2,2,1,3,1,3,2,-10,11
+USA,Puerto Rico,103,59,0308,4,Ashley Joens,20:52,11,3/9,2/6,1/3,4/5,6,2,8,1,1,2,2,0,21,13
+USA,Puerto Rico,103,59,0308,5,Desiree Caldwell,17:10,2,1/3,1/3,0/0,0/0,2,6,8,0,1,2,3,0,12,9
+USA,Puerto Rico,103,59,0308,6,Anaya Peoples,19:28,6,2/8,1/6,1/2,1/1,0,4,4,1,3,2,1,0,20,4
+USA,Puerto Rico,103,59,0308,7,Jenna Brown,21:37,9,4/7,4/4,0/3,1/2,0,3,3,3,0,4,5,0,31,12
+USA,Puerto Rico,103,59,0308,8,Aijha Blackwell,21:11,9,3/9,3/7,0/2,3/3,2,3,5,2,2,6,1,0,28,5
+USA,Puerto Rico,103,59,0308,9,Olivia Nelson-Ododa,17:31,10,4/9,4/8,0/1,2/7,4,1,5,3,3,1,0,1,32,8
+USA,Puerto Rico,103,59,0308,10,Maori Davenport,18:25,7,2/4,2/4,0/0,3/6,2,3,5,1,2,3,2,2,-2,9
+USA,Puerto Rico,103,59,0308,11,Christyn Williams,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+USA,Puerto Rico,103,59,0308,12,Nalyssa Smith,17:23,24,9/15,9/15,0/0,6/8,3,4,7,2,4,1,2,0,34,26
+USA,Puerto Rico,103,59,0308,13,Rhyne Howard,19:37,11,5/9,4/4,1/5,0/0,4,2,6,1,2,1,6,0,20,19
+USA,Puerto Rico,103,59,0308,14,Nazahrah Hillmon-Baker,20:31,10,2/3,2/3,0/0,6/8,3,4,7,0,2,2,2,0,18,14
+USA,Puerto Rico,103,59,0308,15,Sedona Prince,06:05,4,1/2,1/2,0/0,2/2,0,0,0,0,2,0,0,0,6,3
+Canada,Mexico,65,54,0308,4,Keishana Washington,19:18,7,3/10,2/5,1/5,0/0,0,2,2,1,2,1,1,0,8,3
+Canada,Mexico,65,54,0308,5,Justina King,20:41,3,1/4,1/2,0/2,1/2,0,1,1,1,1,1,2,0,3,2
+Canada,Mexico,65,54,0308,6,Kenya Cote-Lysius,08:00,0,0/2,0/0,0/2,0/0,0,2,2,2,0,1,0,0,0,1
+Canada,Mexico,65,54,0308,7,Roxane Makolo,25:30,13,6/19,6/16,0/3,1/2,5,5,10,0,2,2,1,0,-1,8
+Canada,Mexico,65,54,0308,8,Niyah Becker,21:54,5,2/8,2/7,0/1,1/2,1,2,3,2,4,2,0,0,2,1
+Canada,Mexico,65,54,0308,9,Taya Hanson,34:22,11,4/10,2/4,2/6,1/2,0,1,1,1,1,3,3,0,13,6
+Canada,Mexico,65,54,0308,10,Julia Chadwick,03:58,3,0/0,0/0,0/0,3/4,1,1,2,0,0,1,1,0,1,4
+Canada,Mexico,65,54,0308,11,Ashley De Sousa Martins,14:07,4,2/3,2/3,0/0,0/0,3,5,8,1,4,1,0,0,8,11
+Canada,Mexico,65,54,0308,12,Carly Ahlstrom,12:06,5,2/7,1/3,1/4,0/0,1,2,3,0,1,3,1,0,10,1
+Canada,Mexico,65,54,0308,13,Kiandra Browne,08:43,4,1/2,1/2,0/0,2/2,4,1,5,0,1,0,0,0,8,8
+Canada,Mexico,65,54,0308,14,Sammie Martin,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Canada,Mexico,65,54,0308,15,Christina Morra,31:16,10,5/13,5/13,0/0,0/0,8,8,16,0,2,2,0,1,3,17
+Mexico,Canada,54,65,0308,4,Rosa Montes,18:56,0,0/8,0/6,0/2,0/0,0,2,2,0,1,1,3,1,-4,-3
+Mexico,Canada,54,65,0308,5,Katia Gallegos,13:31,10,4/8,4/7,0/1,2/3,0,0,0,0,0,1,1,0,1,5
+Mexico,Canada,54,65,0308,7,Karla Martinez,32:10,16,7/16,5/12,2/4,0/0,0,3,3,2,1,4,2,1,-13,11
+Mexico,Canada,54,65,0308,8,Karina Esquer,04:09,3,1/4,0/0,1/4,0/0,0,0,0,0,0,0,0,0,1,0
+Mexico,Canada,54,65,0308,9,Angela Carrasco,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Mexico,Canada,54,65,0308,10,Angel Fierro,09:46,0,0/2,0/2,0/0,0/0,0,0,0,1,0,1,2,0,-5,0
+Mexico,Canada,54,65,0308,12,Denis Tejada,08:50,0,0/2,0/1,0/1,0/0,1,0,1,1,0,0,0,0,-1,0
+Mexico,Canada,54,65,0308,13,Paola Velasquez,17:08,6,2/6,2/5,0/1,2/4,0,4,4,1,0,2,0,0,1,3
+Mexico,Canada,54,65,0308,16,Mariana Rodriguez,33:30,4,1/4,1/2,0/2,2/2,2,3,5,3,3,0,1,4,-13,14
+Mexico,Canada,54,65,0308,18,Adriana Salinas,15:31,7,2/5,2/5,0/0,3/4,3,4,7,0,3,1,0,0,2,9
+Mexico,Canada,54,65,0308,20,Jessica Paz y Puente,21:40,4,2/12,2/5,0/7,0/2,0,1,1,1,0,2,1,0,-12,-7
+Mexico,Canada,54,65,0308,21,Irais Aguilera,24:45,4,1/4,1/4,0/0,2/2,4,3,7,2,2,1,1,0,-12,10
+USA,El Salvador,87,27,0508,4,Ashley Joens,18:11,12,5/8,3/5,2/3,0/0,0,5,5,3,0,1,0,0,29,16
+USA,El Salvador,87,27,0508,5,Desiree Caldwell,19:48,4,1/4,1/4,0/0,2/2,1,3,4,2,3,3,1,0,32,5
+USA,El Salvador,87,27,0508,6,Anaya Peoples,17:37,8,2/4,2/4,0/0,4/4,0,1,1,2,0,0,2,0,24,11
+USA,El Salvador,87,27,0508,7,Jenna Brown,15:25,5,1/4,0/2,1/2,2/2,2,1,3,2,0,1,0,0,20,6
+USA,El Salvador,87,27,0508,8,Aijha Blackwell,19:03,8,4/8,4/8,0/0,0/2,1,1,2,4,1,3,1,0,28,6
+USA,El Salvador,87,27,0508,9,Olivia Nelson-Ododa,20:30,14,5/7,5/7,0/0,4/6,2,6,8,1,0,2,2,2,35,21
+USA,El Salvador,87,27,0508,10,Maori Davenport,15:55,9,4/4,4/4,0/0,1/2,1,5,6,1,2,3,1,6,24,19
+USA,El Salvador,87,27,0508,11,Christyn Williams,14:43,0,0/3,0/2,0/1,0/0,0,3,3,3,1,1,1,0,31,3
+USA,El Salvador,87,27,0508,12,Nalyssa Smith,21:16,6,2/2,1/1,1/1,1/1,0,7,7,3,2,0,1,2,29,19
+USA,El Salvador,87,27,0508,13,Rhyne Howard,18:55,8,2/4,2/3,0/1,4/4,1,5,6,4,1,0,1,2,24,19
+USA,El Salvador,87,27,0508,14,Nazahrah Hillmon-Baker,18:32,13,6/9,6/9,0/0,1/3,3,4,7,0,0,3,1,0,24,13
+USA,El Salvador,87,27,0508,15,Sedona Prince,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+El Salvador,USA,27,87,0508,1,Alexis Rodriguez,16:31,3,1/9,0/3,1/6,0/0,0,1,1,1,0,2,1,0,-21,-4
+El Salvador,USA,27,87,0508,2,Sarah Miranda,20:33,2,1/7,1/5,0/2,0/0,0,2,2,0,2,2,0,1,-35,-3
+El Salvador,USA,27,87,0508,5,Jasmine Rodriguez,09:54,3,1/3,0/1,1/2,0/0,0,0,0,1,0,2,1,0,-14,1
+El Salvador,USA,27,87,0508,7,Keylin Murcia,16:46,4,1/8,0/1,1/7,1/4,0,1,1,0,3,0,1,0,-24,-4
+El Salvador,USA,27,87,0508,9,Silvia Vega,16:41,1,0/4,0/4,0/0,1/2,0,0,0,0,0,2,0,0,-26,-6
+El Salvador,USA,27,87,0508,10,Andrea Jovel,08:43,0,0/1,0/1,0/0,0/0,0,1,1,0,1,0,0,0,-9,0
+El Salvador,USA,27,87,0508,11,Elisa Dominguez,16:28,1,0/7,0/2,0/5,1/2,1,1,2,0,1,2,0,0,-27,-7
+El Salvador,USA,27,87,0508,14,Gracia Torres,16:25,2,1/2,1/2,0/0,0/2,0,1,1,2,3,0,2,0,-19,4
+El Salvador,USA,27,87,0508,15,Yurizell Funes,22:22,0,0/4,0/2,0/2,0/0,0,2,2,0,3,2,2,0,-39,-2
+El Salvador,USA,27,87,0508,22,Kimberly Villalobos,22:07,7,2/11,1/8,1/3,2/2,0,3,3,1,1,1,2,0,-35,3
+El Salvador,USA,27,87,0508,23,Fabiola Garcia,15:01,4,2/4,2/3,0/1,0/0,2,1,3,0,2,1,0,0,-23,4
+El Salvador,USA,27,87,0508,24,Lindsey Castillo,18:22,0,0/3,0/1,0/2,0/0,0,1,1,1,1,1,0,0,-28,-2
+Chile,Canada,52,98,0508,1,Paula Barrientos,06:40,3,1/3,0/0,1/3,0/0,1,0,1,0,0,0,0,0,-8,2
+Chile,Canada,52,98,0508,2,Jovanka Ljubetic,14:42,9,3/9,1/3,2/6,1/2,0,1,1,0,2,1,0,0,0,2
+Chile,Canada,52,98,0508,5,Fernanda Ovalle,21:58,9,3/11,2/6,1/5,2/2,0,4,4,0,1,0,1,0,-31,6
+Chile,Canada,52,98,0508,6,Javiera Campos,14:30,0,0/1,0/1,0/0,0/0,0,1,1,0,1,2,0,0,-26,-2
+Chile,Canada,52,98,0508,7,Thiare Garcia,21:08,2,1/5,1/4,0/1,0/0,1,4,5,2,2,4,0,0,-23,1
+Chile,Canada,52,98,0508,8,Macarena Retamales,30:19,16,4/12,2/6,2/6,6/8,0,2,2,3,0,3,0,0,-43,8
+Chile,Canada,52,98,0508,9,Catalina Valenzuela,10:51,4,1/4,1/2,0/2,2/4,1,0,1,2,1,1,0,0,-7,1
+Chile,Canada,52,98,0508,10,Javiera Merino,25:06,3,1/4,0/2,1/2,0/0,0,6,6,0,4,3,1,0,-26,4
+Chile,Canada,52,98,0508,11,Javiera Alvarez,13:52,0,0/2,0/2,0/0,0/0,0,4,4,2,1,0,0,0,-17,4
+Chile,Canada,52,98,0508,12,Valentina Garay,04:45,1,0/0,0/0,0/0,1/2,0,0,0,0,2,0,0,0,-9,0
+Chile,Canada,52,98,0508,14,Alva Nuñez,20:30,2,1/4,1/4,0/0,0/0,0,0,0,0,0,1,0,0,-35,-2
+Chile,Canada,52,98,0508,15,Carla Vargas,15:34,3,1/4,0/3,1/1,0/0,2,4,6,0,2,2,1,0,-5,5
+Canada,Chile,98,52,0508,4,Keishana Washington,19:52,10,3/6,2/5,1/1,3/3,1,4,5,2,1,0,1,0,24,15
+Canada,Chile,98,52,0508,5,Justina King,24:41,12,4/8,2/4,2/4,2/2,0,1,1,8,0,1,1,0,32,17
+Canada,Chile,98,52,0508,6,Kenya Cote-Lysius,16:31,7,3/9,2/3,1/6,0/0,0,4,4,1,1,0,1,1,11,8
+Canada,Chile,98,52,0508,7,Roxane Makolo,15:07,12,5/9,4/8,1/1,1/3,1,3,4,0,0,0,0,0,16,10
+Canada,Chile,98,52,0508,8,Niyah Becker,17:42,6,1/8,1/6,0/2,4/4,4,1,5,1,3,0,2,1,27,8
+Canada,Chile,98,52,0508,9,Taya Hanson,26:37,16,6/18,4/11,2/7,2/2,3,8,11,1,2,3,4,0,27,17
+Canada,Chile,98,52,0508,10,Julia Chadwick,10:31,0,0/2,0/2,0/0,0/0,2,2,4,1,3,0,0,0,1,3
+Canada,Chile,98,52,0508,11,Ashley De Sousa Martins,15:10,3,0/3,0/3,0/0,3/4,4,2,6,2,1,0,0,0,25,7
+Canada,Chile,98,52,0508,12,Carly Ahlstrom,17:07,8,3/8,2/3,1/5,1/2,1,3,4,3,4,2,3,1,28,11
+Canada,Chile,98,52,0508,13,Kiandra Browne,05:40,1,0/1,0/1,0/0,1/2,0,2,2,1,0,0,0,0,0,2
+Canada,Chile,98,52,0508,14,Sammie Martin,06:40,2,1/3,1/3,0/0,0/0,0,2,2,0,1,1,0,0,8,1
+Canada,Chile,98,52,0508,15,Christina Morra,24:13,21,10/17,10/17,0/0,1/1,6,4,10,2,0,0,0,1,31,27
+Puerto Rico,Colombia,58,85,0508,2,Lesiriam  Pagan,21:32,5,2/5,2/5,0/0,1/1,2,3,5,0,2,3,0,0,-5,4
+Puerto Rico,Colombia,58,85,0508,3,Nairimar Vargas,25:06,15,6/15,5/11,1/4,2/6,1,3,4,0,4,1,0,0,-17,5
+Puerto Rico,Colombia,58,85,0508,4,Sariana Rodriguez,03:52,2,1/1,1/1,0/0,0/0,0,0,0,0,1,0,0,0,-3,2
+Puerto Rico,Colombia,58,85,0508,5,Nadechka Reyes,23:14,5,1/5,1/3,0/2,3/4,2,5,7,1,1,6,0,0,-28,2
+Puerto Rico,Colombia,58,85,0508,6,Alisha Cotto,02:25,0,0/0,0/0,0/0,0/0,0,0,0,0,0,1,0,0,-8,-1
+Puerto Rico,Colombia,58,85,0508,9,Gabriela Santana,11:16,3,1/2,1/2,0/0,1/2,0,3,3,0,0,1,0,0,-11,3
+Puerto Rico,Colombia,58,85,0508,11,Alicia Penzo,20:01,0,0/3,0/3,0/0,0/0,0,0,0,3,1,2,1,0,1,-1
+Puerto Rico,Colombia,58,85,0508,12,Wilneishka Rivera,13:47,3,0/2,0/1,0/1,3/4,0,3,3,0,3,3,0,0,-6,0
+Puerto Rico,Colombia,58,85,0508,14,Julianna Rosario,14:07,7,3/7,2/5,1/2,0/0,0,2,2,0,0,1,3,0,-14,7
+Puerto Rico,Colombia,58,85,0508,20,Sheslanie Laureano,30:58,10,3/13,2/7,1/6,3/6,1,4,5,2,4,2,1,0,-22,3
+Puerto Rico,Colombia,58,85,0508,22,Eva Sanchez,20:08,4,2/6,2/6,0/0,0/0,3,5,8,1,2,2,0,0,-22,7
+Puerto Rico,Colombia,58,85,0508,33,Yaidelis Torres,13:30,4,1/6,1/4,0/2,2/2,0,1,1,0,0,0,2,1,0,3
+Colombia,Puerto Rico,85,58,0508,5,Gabriela Chivata,13:19,0,0/4,0/3,0/1,0/0,1,0,1,0,1,0,1,0,3,-2
+Colombia,Puerto Rico,85,58,0508,6,Yuliany Paz,12:37,4,0/3,0/3,0/0,4/4,1,3,4,0,4,0,0,1,22,6
+Colombia,Puerto Rico,85,58,0508,7,Mayra Caicedo,23:40,17,6/14,5/11,1/3,4/7,0,2,2,8,3,3,5,0,26,18
+Colombia,Puerto Rico,85,58,0508,9,Naylee Cortes,17:04,9,2/5,2/4,0/1,5/6,5,2,7,2,3,0,1,0,13,15
+Colombia,Puerto Rico,85,58,0508,10,Hamileth Ulloa,10:40,0,0/2,0/1,0/1,0/0,0,1,1,0,1,1,2,0,2,0
+Colombia,Puerto Rico,85,58,0508,11,Maria Escobar,02:10,0,0/0,0/0,0/0,0/0,0,1,1,0,1,1,0,0,-4,0
+Colombia,Puerto Rico,85,58,0508,14,Natalia Pineda,35:28,29,11/16,4/6,7/10,0/1,3,3,6,1,2,1,1,1,27,31
+Colombia,Puerto Rico,85,58,0508,15,Camila Valencia,02:10,0,0/1,0/1,0/0,0/0,0,1,1,0,0,0,0,0,-4,0
+Colombia,Puerto Rico,85,58,0508,17,Maria Alvarez,32:49,18,5/15,1/3,4/12,4/4,0,3,3,4,3,3,5,0,25,17
+Colombia,Puerto Rico,85,58,0508,18,Esperanza Morales,22:03,2,1/4,1/4,0/0,0/0,0,2,2,1,0,2,0,0,4,0
+Colombia,Puerto Rico,85,58,0508,19,Daniela Gonzalez,24:33,6,2/7,2/4,0/3,2/4,4,10,14,0,4,2,2,0,23,13
+Colombia,Puerto Rico,85,58,0508,25,Maria Zamora,03:23,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-2,0
+Argentina,Mexico,89,62,0508,4,Brenda Fontana,27:45,11,2/7,2/6,0/1,7/8,1,8,9,0,3,3,0,2,25,13
+Argentina,Mexico,89,62,0508,5,Laila Raviolo,22:46,7,3/5,2/4,1/1,0/0,0,5,5,3,2,2,2,0,38,13
+Argentina,Mexico,89,62,0508,6,Sol Castro,24:40,10,4/5,4/5,0/0,2/5,2,4,6,2,2,3,1,0,28,12
+Argentina,Mexico,89,62,0508,7,Martina Scian,02:59,0,0/0,0/0,0/0,0/0,1,0,1,1,1,0,0,0,-9,2
+Argentina,Mexico,89,62,0508,8,Sofia Wolf,17:11,3,1/6,1/5,0/1,1/4,0,1,1,0,3,0,0,0,8,-4
+Argentina,Mexico,89,62,0508,9,Sofia Acevedo,20:55,16,4/9,1/4,3/5,5/8,2,4,6,2,2,1,1,0,11,16
+Argentina,Mexico,89,62,0508,10,Camila Suarez,25:07,5,1/6,0/5,1/1,2/6,0,2,2,6,2,1,2,0,8,5
+Argentina,Mexico,89,62,0508,11,Lucia Operto,01:10,0,0/0,0/0,0/0,0/0,0,0,0,0,2,2,0,0,-4,-2
+Argentina,Mexico,89,62,0508,12,Maria Fux,14:35,9,3/5,1/3,2/2,1/4,1,5,6,0,4,1,1,0,3,10
+Argentina,Mexico,89,62,0508,13,Candela Gentinetta,14:23,2,0/5,0/3,0/2,2/2,0,2,2,1,1,0,0,0,-1,0
+Argentina,Mexico,89,62,0508,14,Florencia Chagas,24:56,24,9/15,5/8,4/7,2/2,1,3,4,3,4,2,2,0,35,25
+Argentina,Mexico,89,62,0508,15,Lucila Cragnolino,03:27,2,1/1,1/1,0/0,0/0,2,0,2,0,0,0,0,0,-7,4
+Mexico,Argentina,62,89,0508,4,Rosa Montes,24:53,7,0/10,0/6,0/4,7/10,2,4,6,0,2,0,1,1,-16,2
+Mexico,Argentina,62,89,0508,5,Katia Gallegos,12:37,4,0/5,0/3,0/2,4/4,2,2,4,0,5,2,2,0,0,3
+Mexico,Argentina,62,89,0508,7,Karla Martinez,24:22,8,4/10,4/9,0/1,0/0,3,2,5,1,1,3,1,1,-22,7
+Mexico,Argentina,62,89,0508,8,Karina Esquer,13:22,3,1/8,1/5,0/3,1/2,2,1,3,1,4,1,0,1,-11,-1
+Mexico,Argentina,62,89,0508,9,Angela Carrasco,07:43,2,0/2,0/2,0/0,2/4,0,2,2,0,3,2,0,0,-12,-2
+Mexico,Argentina,62,89,0508,10,Angel Fierro,15:37,7,3/7,2/4,1/3,0/0,0,2,2,1,1,2,0,0,-5,4
+Mexico,Argentina,62,89,0508,12,Denis Tejada,19:02,9,4/8,3/6,1/2,0/0,3,2,5,2,3,0,1,1,5,14
+Mexico,Argentina,62,89,0508,13,Paola Velasquez,06:30,5,2/3,1/2,1/1,0/0,0,0,0,1,1,1,1,0,0,5
+Mexico,Argentina,62,89,0508,16,Mariana Rodriguez,16:45,0,0/2,0/2,0/0,0/0,2,1,3,0,3,3,1,0,-26,-1
+Mexico,Argentina,62,89,0508,18,Adriana Salinas,18:13,2,1/5,1/5,0/0,0/0,0,3,3,0,5,2,0,4,-25,3
+Mexico,Argentina,62,89,0508,20,Jessica Paz y Puente,22:36,11,3/10,0/1,3/9,2/2,0,2,2,2,1,1,1,0,-27,8
+Mexico,Argentina,62,89,0508,21,Irais Aguilera,18:16,4,1/4,1/4,0/0,2/2,0,3,3,0,1,0,1,0,4,5
+El Salvador,Puerto Rico,56,70,0608,1,Alexis Rodriguez,28:43,8,3/9,2/2,1/7,1/1,0,2,2,3,1,9,0,0,-19,-2
+El Salvador,Puerto Rico,56,70,0608,2,Sarah Miranda,29:07,9,4/10,3/8,1/2,0/0,1,4,5,1,2,4,2,0,-12,7
+El Salvador,Puerto Rico,56,70,0608,5,Jasmine Rodriguez,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+El Salvador,Puerto Rico,56,70,0608,7,Keylin Murcia,18:53,11,4/7,1/1,3/6,0/0,0,0,0,2,3,0,1,1,3,12
+El Salvador,Puerto Rico,56,70,0608,9,Silvia Vega,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+El Salvador,Puerto Rico,56,70,0608,10,Andrea Jovel,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+El Salvador,Puerto Rico,56,70,0608,11,Elisa Dominguez,22:58,4,2/7,2/4,0/3,0/0,0,3,3,0,2,1,1,0,-11,2
+El Salvador,Puerto Rico,56,70,0608,14,Gracia Torres,05:46,0,0/0,0/0,0/0,0/2,0,1,1,0,2,0,0,0,-10,-1
+El Salvador,Puerto Rico,56,70,0608,15,Yurizell Funes,13:04,0,0/3,0/2,0/1,0/0,0,2,2,0,2,1,0,0,2,-2
+El Salvador,Puerto Rico,56,70,0608,22,Kimberly Villalobos,39:23,14,6/14,6/13,0/1,2/5,0,6,6,2,0,2,2,1,-13,12
+El Salvador,Puerto Rico,56,70,0608,23,Fabiola Garcia,17:53,7,3/5,2/4,1/1,0/0,1,1,2,1,0,5,1,0,-7,4
+El Salvador,Puerto Rico,56,70,0608,24,Lindsey Castillo,24:08,3,1/6,0/1,1/5,0/0,0,2,2,2,2,1,5,0,-3,6
+Puerto Rico,El Salvador,70,56,0608,2,Lesiriam  Pagan,26:26,4,2/4,2/4,0/0,0/1,2,4,6,0,2,3,2,0,18,6
+Puerto Rico,El Salvador,70,56,0608,3,Nairimar Vargas,37:21,20,7/15,5/11,2/4,4/5,2,8,10,4,1,4,3,0,17,24
+Puerto Rico,El Salvador,70,56,0608,4,Sariana Rodriguez,10:32,2,1/4,1/4,0/0,0/0,0,4,4,1,2,2,1,1,-4,4
+Puerto Rico,El Salvador,70,56,0608,5,Nadechka Reyes,30:53,15,6/13,4/9,2/4,1/2,3,5,8,2,2,1,6,0,26,22
+Puerto Rico,El Salvador,70,56,0608,6,Alisha Cotto,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Puerto Rico,El Salvador,70,56,0608,9,Gabriela Santana,03:27,1,0/2,0/2,0/0,1/2,3,1,4,0,0,1,0,0,-4,1
+Puerto Rico,El Salvador,70,56,0608,11,Alicia Penzo,17:41,1,0/5,0/4,0/1,1/2,1,1,2,0,0,2,0,0,-6,-5
+Puerto Rico,El Salvador,70,56,0608,12,Wilneishka Rivera,12:43,7,3/3,2/2,1/1,0/0,0,4,4,1,1,2,0,1,-11,11
+Puerto Rico,El Salvador,70,56,0608,14,Julianna Rosario,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Puerto Rico,El Salvador,70,56,0608,20,Sheslanie Laureano,27:27,8,3/11,3/8,0/3,2/2,0,3,3,6,0,1,0,1,21,9
+Puerto Rico,El Salvador,70,56,0608,22,Eva Sanchez,29:05,12,4/9,4/9,0/0,4/5,2,6,8,1,2,5,2,0,17,12
+Puerto Rico,El Salvador,70,56,0608,33,Yaidelis Torres,04:20,0,0/0,0/0,0/0,0/0,0,0,0,0,2,0,0,0,-4,0
+Mexico,Chile,69,71,0608,4,Rosa Montes,37:28,8,4/10,4/9,0/1,0/0,1,2,3,2,1,0,0,0,-1,7
+Mexico,Chile,69,71,0608,5,Katia Gallegos,19:16,13,4/8,3/7,1/1,4/6,2,2,4,5,1,2,0,0,11,14
+Mexico,Chile,69,71,0608,7,Karla Martinez,27:58,12,5/10,5/9,0/1,2/2,3,6,9,2,4,3,3,0,-5,18
+Mexico,Chile,69,71,0608,8,Karina Esquer,11:28,4,2/6,2/4,0/2,0/2,0,0,0,2,2,1,0,0,-7,-1
+Mexico,Chile,69,71,0608,9,Angela Carrasco,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Mexico,Chile,69,71,0608,10,Angel Fierro,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Mexico,Chile,69,71,0608,12,Denis Tejada,06:55,0,0/1,0/1,0/0,0/0,1,1,2,1,2,2,0,1,-9,1
+Mexico,Chile,69,71,0608,13,Paola Velasquez,13:30,4,2/4,2/4,0/0,0/0,0,1,1,3,5,2,1,1,8,6
+Mexico,Chile,69,71,0608,16,Mariana Rodriguez,04:58,3,1/2,1/2,0/0,1/1,3,2,5,0,0,1,0,0,0,6
+Mexico,Chile,69,71,0608,18,Adriana Salinas,33:12,8,3/10,3/10,0/0,2/5,1,8,9,1,1,2,1,1,-6,8
+Mexico,Chile,69,71,0608,20,Jessica Paz y Puente,32:22,17,6/13,1/5,5/8,0/0,0,3,3,3,1,4,2,0,-5,14
+Mexico,Chile,69,71,0608,21,Irais Aguilera,12:49,0,0/4,0/4,0/0,0/0,2,3,5,1,1,3,0,0,4,-1
+Chile,Mexico,71,69,0608,1,Paula Barrientos,01:50,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,3,0
+Chile,Mexico,71,69,0608,2,Jovanka Ljubetic,20:34,16,5/14,1/4,4/10,2/2,0,2,2,1,1,1,1,0,7,10
+Chile,Mexico,71,69,0608,5,Fernanda Ovalle,25:28,7,1/8,0/5,1/3,4/4,0,4,4,2,2,4,0,0,12,2
+Chile,Mexico,71,69,0608,6,Javiera Campos,01:37,0,0/0,0/0,0/0,0/0,0,0,0,0,1,0,0,0,-1,0
+Chile,Mexico,71,69,0608,7,Thiare Garcia,35:55,6,2/5,2/5,0/0,2/2,0,6,6,7,3,3,4,0,0,17
+Chile,Mexico,71,69,0608,8,Macarena Retamales,29:00,17,3/11,1/7,2/4,9/11,0,6,6,0,0,4,2,0,-12,11
+Chile,Mexico,71,69,0608,9,Catalina Valenzuela,10:26,3,1/2,1/1,0/1,1/2,0,0,0,2,0,2,0,0,-9,1
+Chile,Mexico,71,69,0608,10,Javiera Merino,23:17,7,3/3,3/3,0/0,1/1,0,1,1,1,2,1,0,0,1,8
+Chile,Mexico,71,69,0608,11,Javiera Alvarez,13:50,4,1/3,1/3,0/0,2/2,0,3,3,0,1,0,0,0,-14,5
+Chile,Mexico,71,69,0608,12,Valentina Garay,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Chile,Mexico,71,69,0608,14,Alva Nuñez,10:09,0,0/1,0/1,0/0,0/0,0,1,1,0,0,0,0,0,13,0
+Chile,Mexico,71,69,0608,15,Carla Vargas,27:48,11,4/6,3/4,1/2,2/2,1,3,4,0,3,1,1,0,10,13
+USA,Colombia,83,47,0608,4,Ashley Joens,16:58,14,5/12,2/4,3/8,1/1,1,3,4,3,1,2,2,0,29,14
+USA,Colombia,83,47,0608,5,Desiree Caldwell,07:19,0,0/1,0/1,0/0,0/0,2,1,3,0,1,1,1,0,6,2
+USA,Colombia,83,47,0608,6,Anaya Peoples,21:08,3,1/6,1/5,0/1,1/2,1,6,7,5,1,0,3,1,10,13
+USA,Colombia,83,47,0608,7,Jenna Brown,16:46,17,6/7,3/3,3/4,2/4,1,0,1,1,1,0,2,0,22,18
+USA,Colombia,83,47,0608,8,Aijha Blackwell,19:43,5,2/7,2/6,0/1,1/4,3,1,4,1,1,3,0,0,6,-1
+USA,Colombia,83,47,0608,9,Olivia Nelson-Ododa,18:55,12,5/9,5/9,0/0,2/3,1,1,2,0,4,2,1,2,1,10
+USA,Colombia,83,47,0608,10,Maori Davenport,20:00,3,1/3,1/3,0/0,1/2,5,6,11,2,1,2,1,3,26,15
+USA,Colombia,83,47,0608,11,Christyn Williams,18:13,6,1/6,1/5,0/1,4/4,2,3,5,2,1,0,0,0,14,8
+USA,Colombia,83,47,0608,12,Nalyssa Smith,17:48,0,0/4,0/3,0/1,0/2,4,2,6,0,1,3,1,0,8,-2
+USA,Colombia,83,47,0608,13,Rhyne Howard,25:38,14,5/10,1/3,4/7,0/1,0,2,2,5,0,3,2,2,31,16
+USA,Colombia,83,47,0608,14,Nazahrah Hillmon-Baker,17:25,9,3/3,3/3,0/0,3/3,1,3,4,0,2,2,1,0,27,12
+USA,Colombia,83,47,0608,15,Sedona Prince,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Colombia,USA,47,83,0608,5,Gabriela Chivata,09:34,0,0/2,0/1,0/1,0/0,0,1,1,0,1,0,0,0,-17,-1
+Colombia,USA,47,83,0608,6,Yuliany Paz,29:30,9,4/8,4/8,0/0,1/2,1,9,10,0,5,2,2,5,-15,19
+Colombia,USA,47,83,0608,7,Mayra Caicedo,27:37,4,2/9,2/6,0/3,0/0,0,2,2,5,3,4,3,0,-13,3
+Colombia,USA,47,83,0608,9,Naylee Cortes,21:43,5,2/4,2/4,0/0,1/2,3,0,3,1,0,3,1,0,-31,4
+Colombia,USA,47,83,0608,10,Hamileth Ulloa,24:25,3,1/7,0/3,1/4,0/0,0,1,1,1,1,3,2,0,-32,-2
+Colombia,USA,47,83,0608,11,Maria Escobar,01:16,0,0/0,0/0,0/0,0/0,0,0,0,0,0,1,0,0,-3,-1
+Colombia,USA,47,83,0608,14,Natalia Pineda,21:48,3,1/6,0/2,1/4,0/0,0,1,1,3,4,1,0,0,-9,1
+Colombia,USA,47,83,0608,15,Camila Valencia,01:16,0,0/1,0/0,0/1,0/0,0,0,0,0,1,0,0,0,-3,-1
+Colombia,USA,47,83,0608,17,Maria Alvarez,29:53,19,6/15,0/3,6/12,1/2,0,2,2,1,0,1,1,0,-24,12
+Colombia,USA,47,83,0608,18,Esperanza Morales,09:13,0,0/3,0/3,0/0,0/0,1,0,1,0,0,0,0,0,-18,-2
+Colombia,USA,47,83,0608,19,Daniela Gonzalez,18:16,4,1/5,1/5,0/0,2/2,3,1,4,0,4,0,0,1,-5,5
+Colombia,USA,47,83,0608,25,Maria Zamora,05:25,0,0/0,0/0,0/0,0/0,0,0,0,1,0,1,0,0,-10,0
+Argentina,Canada,71,77,0608,4,Brenda Fontana,29:18,14,6/16,6/14,0/2,2/4,0,4,4,2,4,0,1,1,-8,10
+Argentina,Canada,71,77,0608,5,Laila Raviolo,14:02,3,1/2,0/1,1/1,0/0,0,0,0,0,2,1,1,0,-9,2
+Argentina,Canada,71,77,0608,6,Sol Castro,17:43,0,0/1,0/1,0/0,0/0,2,1,3,0,3,1,0,0,-12,1
+Argentina,Canada,71,77,0608,7,Martina Scian,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Argentina,Canada,71,77,0608,8,Sofia Wolf,08:39,0,0/2,0/2,0/0,0/0,0,0,0,0,0,0,0,0,-13,-2
+Argentina,Canada,71,77,0608,9,Sofia Acevedo,30:58,18,5/13,2/4,3/9,5/6,0,2,2,6,4,3,2,0,0,16
+Argentina,Canada,71,77,0608,10,Camila Suarez,28:15,5,1/6,1/5,0/1,3/6,2,2,4,1,4,2,0,0,-4,0
+Argentina,Canada,71,77,0608,11,Lucia Operto,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Argentina,Canada,71,77,0608,12,Maria Fux,22:31,2,1/4,1/3,0/1,0/0,1,2,3,1,3,0,1,0,5,4
+Argentina,Canada,71,77,0608,13,Candela Gentinetta,14:48,3,0/2,0/1,0/1,3/4,3,1,4,0,1,0,0,0,1,4
+Argentina,Canada,71,77,0608,14,Florencia Chagas,28:46,26,8/21,5/11,3/10,7/9,1,5,6,5,5,3,6,0,9,25
+Argentina,Canada,71,77,0608,15,Lucila Cragnolino,04:55,0,0/2,0/2,0/0,0/0,2,1,3,0,0,0,0,0,1,1
+Canada,Argentina,77,71,0608,4,Keishana Washington,20:07,9,3/5,2/2,1/3,2/2,0,0,0,2,3,0,2,0,-4,11
+Canada,Argentina,77,71,0608,5,Justina King,28:51,9,4/8,3/5,1/3,0/0,0,0,0,2,4,2,1,0,8,6
+Canada,Argentina,77,71,0608,6,Kenya Cote-Lysius,03:31,0,0/0,0/0,0/0,0/0,0,1,1,0,0,0,0,0,5,1
+Canada,Argentina,77,71,0608,7,Roxane Makolo,18:06,10,2/11,2/10,0/1,6/10,4,3,7,0,3,2,0,0,-4,2
+Canada,Argentina,77,71,0608,8,Niyah Becker,17:43,2,1/4,1/3,0/1,0/0,1,0,1,1,2,1,0,0,-3,0
+Canada,Argentina,77,71,0608,9,Taya Hanson,25:07,13,2/7,0/2,2/5,7/8,0,6,6,1,3,6,0,0,7,8
+Canada,Argentina,77,71,0608,10,Julia Chadwick,13:22,0,0/2,0/1,0/1,0/0,2,6,8,2,1,1,1,0,0,8
+Canada,Argentina,77,71,0608,11,Ashley De Sousa Martins,08:53,2,1/1,1/1,0/0,0/0,1,2,3,1,5,1,0,0,9,5
+Canada,Argentina,77,71,0608,12,Carly Ahlstrom,24:16,13,5/13,2/6,3/7,0/0,0,4,4,1,1,4,1,0,6,7
+Canada,Argentina,77,71,0608,13,Kiandra Browne,07:02,4,2/4,2/4,0/0,0/0,1,1,2,0,1,1,0,0,6,3
+Canada,Argentina,77,71,0608,14,Sammie Martin,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Canada,Argentina,77,71,0608,15,Christina Morra,32:57,15,6/11,6/11,0/0,3/4,2,12,14,2,1,1,0,2,0,26
+El Salvador,Mexico,61,83,0708,1,Alexis Rodriguez,22:22,5,2/10,1/2,1/8,0/0,0,0,0,1,0,2,0,0,-27,-4
+El Salvador,Mexico,61,83,0708,2,Sarah Miranda,19:19,2,1/4,1/3,0/1,0/0,1,2,3,2,1,1,2,0,-9,5
+El Salvador,Mexico,61,83,0708,5,Jasmine Rodriguez,16:53,16,6/10,3/5,3/5,1/2,1,1,2,1,2,0,1,0,2,15
+El Salvador,Mexico,61,83,0708,7,Keylin Murcia,21:13,5,2/7,2/3,0/4,1/1,0,1,1,0,3,2,2,0,-12,1
+El Salvador,Mexico,61,83,0708,9,Silvia Vega,06:04,0,0/0,0/0,0/0,0/0,0,0,0,0,1,0,0,0,-7,0
+El Salvador,Mexico,61,83,0708,10,Andrea Jovel,07:13,0,0/0,0/0,0/0,0/0,0,0,0,0,2,1,0,1,0,0
+El Salvador,Mexico,61,83,0708,11,Elisa Dominguez,15:49,2,1/3,1/3,0/0,0/0,1,1,2,1,2,0,0,0,5,3
+El Salvador,Mexico,61,83,0708,14,Gracia Torres,13:18,0,0/2,0/2,0/0,0/0,0,3,3,1,2,3,0,0,-7,-1
+El Salvador,Mexico,61,83,0708,15,Yurizell Funes,14:40,2,1/4,1/4,0/0,0/0,2,3,5,0,2,0,0,0,-12,4
+El Salvador,Mexico,61,83,0708,22,Kimberly Villalobos,32:25,24,10/19,9/15,1/4,3/10,4,5,9,3,1,3,1,1,-25,19
+El Salvador,Mexico,61,83,0708,23,Fabiola Garcia,20:37,5,2/7,1/3,1/4,0/0,0,3,3,1,0,3,2,0,-18,3
+El Salvador,Mexico,61,83,0708,24,Lindsey Castillo,10:01,0,0/2,0/1,0/1,0/0,0,0,0,1,0,2,1,0,0,-2
+Mexico,El Salvador,83,61,0708,4,Rosa Montes,20:02,0,0/2,0/1,0/1,0/0,0,2,2,2,0,3,1,0,12,0
+Mexico,El Salvador,83,61,0708,5,Katia Gallegos,16:38,10,5/9,5/8,0/1,0/0,3,1,4,2,1,0,0,0,12,12
+Mexico,El Salvador,83,61,0708,7,Karla Martinez,27:40,29,10/12,7/9,3/3,6/7,1,7,8,1,1,0,5,0,24,40
+Mexico,El Salvador,83,61,0708,8,Karina Esquer,09:55,2,0/6,0/0,0/6,2/2,0,1,1,0,0,2,0,0,-6,-5
+Mexico,El Salvador,83,61,0708,9,Angela Carrasco,22:51,10,3/7,3/7,0/0,4/6,2,4,6,2,2,4,1,0,27,9
+Mexico,El Salvador,83,61,0708,10,Angel Fierro,09:33,0,0/3,0/3,0/0,0/0,1,0,1,0,0,0,0,0,-1,-2
+Mexico,El Salvador,83,61,0708,12,Denis Tejada,20:53,10,3/9,3/7,0/2,4/5,1,4,5,0,2,1,1,2,12,10
+Mexico,El Salvador,83,61,0708,13,Paola Velasquez,16:16,4,1/2,1/2,0/0,2/4,0,3,3,2,2,2,2,0,12,6
+Mexico,El Salvador,83,61,0708,16,Mariana Rodriguez,14:20,0,0/3,0/2,0/1,0/0,1,4,5,2,2,0,0,2,7,6
+Mexico,El Salvador,83,61,0708,18,Adriana Salinas,09:15,8,4/5,4/4,0/1,0/0,0,1,1,0,0,2,0,0,5,6
+Mexico,El Salvador,83,61,0708,20,Jessica Paz y Puente,18:38,3,1/2,0/0,1/2,0/0,0,4,4,2,1,3,1,1,11,7
+Mexico,El Salvador,83,61,0708,21,Irais Aguilera,13:54,7,2/4,2/4,0/0,3/3,1,3,4,2,3,0,0,0,-5,11
+Puerto Rico,Chile,61,54,0708,2,Lesiriam  Pagan,12:14,0,0/2,0/2,0/0,0/0,0,1,1,1,2,1,0,0,4,-1
+Puerto Rico,Chile,61,54,0708,3,Nairimar Vargas,30:51,6,2/8,1/5,1/3,1/2,2,9,11,0,0,2,1,0,0,9
+Puerto Rico,Chile,61,54,0708,4,Sariana Rodriguez,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Puerto Rico,Chile,61,54,0708,5,Nadechka Reyes,32:35,15,6/15,5/12,1/3,2/5,2,6,8,2,3,2,1,0,9,12
+Puerto Rico,Chile,61,54,0708,6,Alisha Cotto,03:10,2,1/1,1/1,0/0,0/0,1,1,2,0,0,0,0,0,1,4
+Puerto Rico,Chile,61,54,0708,9,Gabriela Santana,05:41,0,0/0,0/0,0/0,0/0,0,1,1,0,0,0,0,0,-6,1
+Puerto Rico,Chile,61,54,0708,11,Alicia Penzo,25:46,12,5/11,4/8,1/3,1/2,1,3,4,1,2,1,2,0,-1,11
+Puerto Rico,Chile,61,54,0708,12,Wilneishka Rivera,22:35,0,0/8,0/5,0/3,0/0,0,4,4,0,2,0,0,0,0,-4
+Puerto Rico,Chile,61,54,0708,14,Julianna Rosario,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Puerto Rico,Chile,61,54,0708,20,Sheslanie Laureano,33:20,16,7/20,6/15,1/5,1/6,3,5,8,1,3,4,3,1,18,7
+Puerto Rico,Chile,61,54,0708,22,Eva Sanchez,23:41,8,4/7,4/7,0/0,0/0,3,5,8,2,3,1,2,0,5,16
+Puerto Rico,Chile,61,54,0708,33,Yaidelis Torres,10:03,2,1/3,1/3,0/0,0/0,4,2,6,1,1,0,0,0,5,7
+Chile,Puerto Rico,54,61,0708,1,Paula Barrientos,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Chile,Puerto Rico,54,61,0708,2,Jovanka Ljubetic,13:40,2,0/5,0/1,0/4,2/2,1,0,1,0,1,2,2,0,-2,-2
+Chile,Puerto Rico,54,61,0708,5,Fernanda Ovalle,28:00,18,8/19,6/14,2/5,0/0,2,7,9,1,1,3,1,1,-8,16
+Chile,Puerto Rico,54,61,0708,6,Javiera Campos,17:21,4,2/2,2/2,0/0,0/0,0,1,1,1,0,1,0,0,-8,5
+Chile,Puerto Rico,54,61,0708,7,Thiare Garcia,32:19,2,0/5,0/3,0/2,2/2,1,4,5,3,2,1,1,1,-12,6
+Chile,Puerto Rico,54,61,0708,8,Macarena Retamales,30:33,13,6/16,5/13,1/3,0/1,1,4,5,2,1,2,2,0,6,9
+Chile,Puerto Rico,54,61,0708,9,Catalina Valenzuela,02:55,0,0/0,0/0,0/0,0/0,0,0,0,0,0,1,0,0,3,-1
+Chile,Puerto Rico,54,61,0708,10,Javiera Merino,28:07,10,5/12,5/8,0/4,0/0,1,3,4,0,4,0,1,0,-7,8
+Chile,Puerto Rico,54,61,0708,11,Javiera Alvarez,08:03,3,1/5,1/5,0/0,1/2,0,3,3,0,0,0,0,0,-12,1
+Chile,Puerto Rico,54,61,0708,12,Valentina Garay,01:28,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,-3,0
+Chile,Puerto Rico,54,61,0708,14,Alva Nuñez,11:49,2,1/2,1/2,0/0,0/0,0,3,3,0,0,0,0,0,5,4
+Chile,Puerto Rico,54,61,0708,15,Carla Vargas,25:41,0,0/4,0/2,0/2,0/0,1,4,5,1,1,1,0,0,3,1
+Colombia,Argentina,52,62,0708,5,Gabriela Chivata,01:26,0,0/1,0/0,0/1,0/0,0,0,0,0,2,0,0,0,-4,-1
+Colombia,Argentina,52,62,0708,6,Yuliany Paz,31:34,7,3/9,3/9,0/0,1/1,3,7,10,0,4,1,0,6,0,16
+Colombia,Argentina,52,62,0708,7,Mayra Caicedo,38:32,20,6/21,4/15,2/6,6/7,0,4,4,4,3,5,2,0,-6,9
+Colombia,Argentina,52,62,0708,9,Naylee Cortes,14:09,0,0/1,0/1,0/0,0/0,0,4,4,0,3,1,1,0,-16,3
+Colombia,Argentina,52,62,0708,10,Hamileth Ulloa,03:31,0,0/0,0/0,0/0,0/0,0,0,0,0,1,1,0,0,-9,-1
+Colombia,Argentina,52,62,0708,11,Maria Escobar,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Colombia,Argentina,52,62,0708,14,Natalia Pineda,36:51,8,3/9,1/4,2/5,0/0,2,6,8,2,3,3,1,0,-1,10
+Colombia,Argentina,52,62,0708,15,Camila Valencia,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Colombia,Argentina,52,62,0708,17,Maria Alvarez,39:37,15,2/17,0/7,2/10,9/13,1,1,2,1,1,0,2,0,-10,1
+Colombia,Argentina,52,62,0708,18,Esperanza Morales,05:42,0,0/2,0/2,0/0,0/0,1,3,4,0,1,1,0,0,-4,1
+Colombia,Argentina,52,62,0708,19,Daniela Gonzalez,28:34,2,0/4,0/4,0/0,2/2,2,8,10,0,4,1,1,2,0,10
+Colombia,Argentina,52,62,0708,25,Maria Zamora,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Argentina,Colombia,62,52,0708,4,Brenda Fontana,17:55,9,3/7,1/5,2/2,1/2,1,1,2,1,2,1,1,0,0,7
+Argentina,Colombia,62,52,0708,5,Laila Raviolo,09:49,0,0/2,0/2,0/0,0/0,0,0,0,0,1,0,0,0,-3,-2
+Argentina,Colombia,62,52,0708,6,Sol Castro,31:55,8,3/8,3/8,0/0,2/4,4,12,16,0,4,1,1,2,11,19
+Argentina,Colombia,62,52,0708,7,Martina Scian,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Argentina,Colombia,62,52,0708,8,Sofia Wolf,18:13,5,2/10,1/6,1/4,0/0,0,0,0,1,2,0,1,0,5,-1
+Argentina,Colombia,62,52,0708,9,Sofia Acevedo,20:19,9,2/5,1/4,1/1,4/4,0,3,3,2,4,2,0,0,9,9
+Argentina,Colombia,62,52,0708,10,Camila Suarez,32:58,15,3/10,2/6,1/4,8/10,0,5,5,5,1,2,1,0,3,15
+Argentina,Colombia,62,52,0708,11,Lucia Operto,02:04,0,0/0,0/0,0/0,0/0,0,0,0,0,1,1,0,0,4,-1
+Argentina,Colombia,62,52,0708,12,Maria Fux,25:52,5,1/7,0/2,1/5,2/2,0,7,7,1,1,2,0,0,3,5
+Argentina,Colombia,62,52,0708,13,Candela Gentinetta,03:58,0,0/0,0/0,0/0,0/2,0,0,0,0,2,0,0,0,2,-2
+Argentina,Colombia,62,52,0708,14,Florencia Chagas,36:53,11,3/16,2/10,1/6,4/4,0,8,8,1,3,1,3,0,16,9
+Argentina,Colombia,62,52,0708,15,Lucila Cragnolino,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+USA,Canada,84,60,0708,4,Ashley Joens,17:44,10,3/4,0/1,3/3,1/2,1,0,1,2,1,2,0,0,5,9
+USA,Canada,84,60,0708,5,Desiree Caldwell,05:12,0,0/0,0/0,0/0,0/0,0,0,0,1,1,0,1,0,-1,2
+USA,Canada,84,60,0708,6,Anaya Peoples,22:18,4,2/7,2/6,0/1,0/0,2,0,2,5,3,0,4,0,17,10
+USA,Canada,84,60,0708,7,Jenna Brown,15:24,4,2/5,2/5,0/0,0/0,1,1,2,3,1,0,3,0,4,9
+USA,Canada,84,60,0708,8,Aijha Blackwell,20:22,8,3/6,1/4,2/2,0/0,1,3,4,0,1,1,3,0,14,11
+USA,Canada,84,60,0708,9,Olivia Nelson-Ododa,12:58,7,3/10,3/10,0/0,1/1,3,1,4,1,3,0,1,0,16,6
+USA,Canada,84,60,0708,10,Maori Davenport,27:40,7,3/8,3/7,0/1,1/4,3,3,6,1,1,2,1,3,12,8
+USA,Canada,84,60,0708,11,Christyn Williams,23:55,11,5/12,5/9,0/3,1/2,1,4,5,5,0,1,1,0,19,13
+USA,Canada,84,60,0708,12,Nalyssa Smith,18:37,18,8/12,8/9,0/3,2/3,1,5,6,0,4,0,0,1,7,20
+USA,Canada,84,60,0708,13,Rhyne Howard,15:03,5,2/6,1/2,1/4,0/0,1,3,4,4,2,2,0,2,14,9
+USA,Canada,84,60,0708,14,Nazahrah Hillmon-Baker,20:43,10,3/6,3/6,0/0,4/4,2,4,6,0,2,1,1,0,13,13
+USA,Canada,84,60,0708,15,Sedona Prince,0:0,0,0/0,0/0,0/0,0/0,0,0,0,0,0,0,0,0,0,0
+Canada,USA,60,84,0708,4,Keishana Washington,16:30,4,2/4,2/2,0/2,0/0,0,0,0,1,1,3,1,0,-11,1
+Canada,USA,60,84,0708,5,Justina King,25:52,2,0/2,0/2,0/0,2/2,0,1,1,3,1,1,3,0,-14,6
+Canada,USA,60,84,0708,6,Kenya Cote-Lysius,08:48,2,1/3,1/3,0/0,0/0,0,0,0,0,0,1,0,0,1,-1
+Canada,USA,60,84,0708,7,Roxane Makolo,23:58,8,1/3,1/3,0/0,6/8,1,3,4,4,1,2,0,0,-22,10
+Canada,USA,60,84,0708,8,Niyah Becker,20:45,6,3/11,3/9,0/2,0/0,2,5,7,3,2,2,1,0,-19,7
+Canada,USA,60,84,0708,9,Taya Hanson,30:16,6,2/7,1/3,1/4,1/2,1,0,1,0,2,5,0,0,-19,-4
+Canada,USA,60,84,0708,10,Julia Chadwick,06:45,0,0/1,0/1,0/0,0/0,1,0,1,1,1,1,0,0,-3,0
+Canada,USA,60,84,0708,11,Ashley De Sousa Martins,13:10,6,3/6,3/6,0/0,0/0,1,1,2,1,1,1,0,1,0,6
+Canada,USA,60,84,0708,12,Carly Ahlstrom,13:52,8,3/5,1/2,2/3,0/2,0,2,2,1,1,1,1,0,-9,7
+Canada,USA,60,84,0708,13,Kiandra Browne,09:13,5,1/2,1/2,0/0,3/4,2,2,4,1,1,1,0,1,-2,8
+Canada,USA,60,84,0708,14,Sammie Martin,01:40,0,0/0,0/0,0/0,0/0,0,1,1,0,1,0,0,0,4,1
+Canada,USA,60,84,0708,15,Christina Morra,29:07,13,5/14,5/14,0/0,3/5,1,4,5,2,3,1,0,0,-26,8

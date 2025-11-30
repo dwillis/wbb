@@ -1,0 +1,3039 @@
+ncaa_id,game_id,date,team,opponent,official
+721,13238,3/1/2021,Air Force,Colorado St.,Cheryll Blue
+721,13238,3/1/2021,Air Force,Colorado St.,Michol Murray
+721,13238,3/1/2021,Air Force,Colorado St.,Michael Price
+721,13234,2/23/2021,Air Force,New Mexico,Roy Gulbeyan
+721,13234,2/23/2021,Air Force,New Mexico,Michol Murray
+721,13234,2/23/2021,Air Force,New Mexico,Lisa Jones
+721,13222,1/6/2021,Air Force,Boise St.,Michol Murrat
+721,13222,1/6/2021,Air Force,Boise St.,Melissa Barlow
+721,13222,1/6/2021,Air Force,Boise St.,Lisa Jones
+721,13259,11/25/2020,Air Force,Denver,Stacie Blow
+721,13259,11/25/2020,Air Force,Denver,Scott Fruehling
+721,13259,11/25/2020,Air Force,Denver,Adria Molina
+721,13223,1/8/2021,Air Force,Boise St.,Stacie Blow
+721,13223,1/8/2021,Air Force,Boise St.,In'Fini Robinson
+721,13223,1/8/2021,Air Force,Boise St.,Chuck Gonzalez
+721,13262,12/16/2020,Air Force,Western Colo.,Kevin Kizewski
+721,13262,12/16/2020,Air Force,Western Colo.,Kelly Broomfield
+721,13262,12/16/2020,Air Force,Western Colo.,Randy Campbell
+721,13235,2/24/2021,Air Force,New Mexico,Julie Krommenhoek
+721,13235,2/24/2021,Air Force,New Mexico,Chuck Gonzalez
+721,13235,2/24/2021,Air Force,New Mexico,Melissa Barlow
+721,13215,3/3/2021,Air Force,Nevada,Zac Brost
+721,13215,3/3/2021,Air Force,Nevada,Janetta Graham
+721,13215,3/3/2021,Air Force,Nevada,Randy Campbell
+721,13628,2/19/2021,Air Force,Colo. Christian,Jess Martinez
+721,13628,2/19/2021,Air Force,Colo. Christian,Catherine Chang
+721,13628,2/19/2021,Air Force,Colo. Christian,Shelly Nakasone
+721,13236,2/27/2021,Air Force,Colorado St.,Robert Strong
+721,13236,2/27/2021,Air Force,Colorado St.,Laura Rahe
+721,13236,2/27/2021,Air Force,Colorado St.,Brian Woods
+721,13276,12/28/2020,Air Force,Portland St.,Kent Johnson
+721,13276,12/28/2020,Air Force,Portland St.,Jack Jones
+721,13276,12/28/2020,Air Force,Portland St.,Michol Murray
+721,13217,3/4/2021,Air Force,Nevada,Clarke Stevens
+721,13217,3/4/2021,Air Force,Nevada,Adria Molina
+721,13217,3/4/2021,Air Force,Nevada,Robert Strong
+721,13230,2/5/2021,Air Force,Unlv,Roy Gulbeyan
+721,13230,2/5/2021,Air Force,Unlv,Cheryll Blue
+721,13230,2/5/2021,Air Force,Unlv,Benny Luna
+721,13231,2/7/2021,Air Force,Unlv,Zac Brost
+721,13231,2/7/2021,Air Force,Unlv,Teresa Turner
+721,13231,2/7/2021,Air Force,Unlv,Melissa Barlow
+697,17660,11/25/2020,Texas A&M,Lamar University,Paulani Spurlock-Welsh
+697,17660,11/25/2020,Texas A&M,Lamar University,Katie Lukanich
+697,17660,11/25/2020,Texas A&M,Lamar University,Brian Garland
+697,17709,2/4/2021,Texas A&M,Lsu,Christopher Sauceda
+697,17709,2/4/2021,Texas A&M,Lsu,Felicia Grinter
+697,17709,2/4/2021,Texas A&M,Lsu,Joseph Vaszily
+697,17705,1/17/2021,Texas A&M,Mississippi St.,Brian Garland
+697,17705,1/17/2021,Texas A&M,Mississippi St.,Gina Cross
+697,17705,1/17/2021,Texas A&M,Mississippi St.,Beverly Roberts
+697,17708,1/31/2021,Texas A&M,Georgia,Natasha Camy
+697,17708,1/31/2021,Texas A&M,Georgia,Brian Hall
+697,17708,1/31/2021,Texas A&M,Georgia,Beverly Roberts
+697,18008,3/24/2021,Texas A&M,Iowa St.,Kenneth Nash
+697,18008,3/24/2021,Texas A&M,Iowa St.,Doug Knight
+697,18008,3/24/2021,Texas A&M,Iowa St.,Melissa Barlow
+697,17715,2/28/2021,Texas A&M,South Carolina,Eric Brewton
+697,17715,2/28/2021,Texas A&M,South Carolina,Doug Knight
+697,17715,2/28/2021,Texas A&M,South Carolina,Tina Napier
+697,17666,12/13/2020,Texas A&M,Abilene Christian,Christopher Sauceda
+697,17666,12/13/2020,Texas A&M,Abilene Christian,Karleena Tobin
+697,17666,12/13/2020,Texas A&M,Abilene Christian,Gina Cross
+697,17667,12/20/2020,Texas A&M,Rice,D'Lynn Schertz
+697,17667,12/20/2020,Texas A&M,Rice,Brian Hall
+697,17667,12/20/2020,Texas A&M,Rice,Felicia Grinter
+697,18009,3/27/2021,Texas A&M,Arizona,Tyler Trimble
+697,18009,3/27/2021,Texas A&M,Arizona,Meadow Overstreet
+697,18009,3/27/2021,Texas A&M,Arizona,Charles Gonzalez
+697,17702,1/7/2021,Texas A&M,Kentucky,Joseph Vaszily
+697,17702,1/7/2021,Texas A&M,Kentucky,Felicia Grinter
+697,17702,1/7/2021,Texas A&M,Kentucky,Beverly Roberts
+697,17668,12/28/2020,Texas A&M,Northwestern St.,Marcus Clayton
+697,17668,12/28/2020,Texas A&M,Northwestern St.,Kelly Johnson
+697,17668,12/28/2020,Texas A&M,Northwestern St.,Brian Garland
+697,18007,3/22/2021,Texas A&M,Troy,Darren Krzesnik
+697,18007,3/22/2021,Texas A&M,Troy,In'Fini Robinson
+697,18007,3/22/2021,Texas A&M,Troy,Felicia Grinter
+697,18027,3/6/2021,Texas A&M,Georgia,Roy Gulbeyan
+697,18027,3/6/2021,Texas A&M,Georgia,Pualani Spurlock
+697,18027,3/6/2021,Texas A&M,Georgia,Dee Kantner
+697,17700,2/14/2021,Texas A&M,Tennessee,Billy Smith
+697,17700,2/14/2021,Texas A&M,Tennessee,Karen Preato
+697,17700,2/14/2021,Texas A&M,Tennessee,Cameron Inouye
+697,17716,12/15/2020,Texas A&M,Sam Houston St.,Roy Gulbeyan
+697,17716,12/15/2020,Texas A&M,Sam Houston St.,Billy Smith
+697,17716,12/15/2020,Texas A&M,Sam Houston St.,Maj Forsberg
+697,17680,3/5/2021,Texas A&M,Lsu,Brian Garland
+697,17680,3/5/2021,Texas A&M,Lsu,Jesse Dickerson
+697,17680,3/5/2021,Texas A&M,Lsu,Denise Brooks
+697,17663,12/2/2020,Texas A&M,Lamar University,Ify Seales
+697,17663,12/2/2020,Texas A&M,Lamar University,Eric Baker
+697,17663,12/2/2020,Texas A&M,Lamar University,Eric Koch
+8,12663,3/4/2021,Alabama,Missouri,Brian Hall
+8,12663,3/4/2021,Alabama,Missouri,Karen Preato
+8,12663,3/4/2021,Alabama,Missouri,Tina Napier
+8,12638,11/25/2020,Alabama,Samford,Eric Koch
+8,12638,11/25/2020,Alabama,Samford,Eric Baker
+8,12638,11/25/2020,Alabama,Samford,Jody Cantrell
+8,12639,11/29/2020,Alabama,Houston,Bryan Enterline
+8,12639,11/29/2020,Alabama,Houston,Maggie Tierman
+8,12639,11/29/2020,Alabama,Houston,Angelica Suffren
+8,12653,1/24/2021,Alabama,Auburn,Pualani Spurlock
+8,12653,1/24/2021,Alabama,Auburn,Angelica Suffren
+8,12653,1/24/2021,Alabama,Auburn,Gina Cross
+8,12690,12/16/2020,Alabama,Nicholls St.,Frank Steratore
+8,12690,12/16/2020,Alabama,Nicholls St.,Chaney Muench
+8,12690,12/16/2020,Alabama,Nicholls St.,Brian Garland
+8,12649,1/7/2021,Alabama,Lsu,Meadow Overstreet
+8,12649,1/7/2021,Alabama,Lsu,Kylie Galloway
+8,12649,1/7/2021,Alabama,Lsu,Pualani Spurlock
+8,12648,1/4/2021,Alabama,South Carolina,Cameron Inouye
+8,12648,1/4/2021,Alabama,South Carolina,Angelica Suffren
+8,12648,1/4/2021,Alabama,South Carolina,Dee Kantner
+8,12652,1/17/2021,Alabama,Tennessee,Saif Esho
+8,12652,1/17/2021,Alabama,Tennessee,Karen Preato
+8,12652,1/17/2021,Alabama,Tennessee,Roy Gulbeyan
+8,12996,3/22/2021,Alabama,North Carolina,Laura Morris
+8,12996,3/22/2021,Alabama,North Carolina,Charles Gonzalez
+8,12996,3/22/2021,Alabama,North Carolina,Maj Forsberg
+8,12661,2/25/2021,Alabama,Texas A&M,Beverly Roberts
+8,12661,2/25/2021,Alabama,Texas A&M,Pualani Spurlock
+8,12661,2/25/2021,Alabama,Texas A&M,Gina Cross
+8,12657,2/11/2021,Alabama,Ole Miss,Cameron Inouye
+8,12657,2/11/2021,Alabama,Ole Miss,Joseph Vaszily
+8,12657,2/11/2021,Alabama,Ole Miss,Denise Brooks
+8,12640,12/2/2020,Alabama,USC Upstate,Stephanie Barksdale
+8,12640,12/2/2020,Alabama,USC Upstate,Metta Christensen
+8,12640,12/2/2020,Alabama,USC Upstate,Laura Morris
+8,12656,2/4/2021,Alabama,Georgia,Maj Forsberg
+8,12656,2/4/2021,Alabama,Georgia,Brian Garland
+8,12656,2/4/2021,Alabama,Georgia,Tina Napier
+8,12660,2/21/2021,Alabama,Mississippi St.,Kylie Galloway
+8,12660,2/21/2021,Alabama,Mississippi St.,Cameron Inouye
+8,12660,2/21/2021,Alabama,Mississippi St.,Laura Morris
+29,23333,3/24/2021,Arizona,Byu,Nic Cappel
+29,23333,3/24/2021,Arizona,Byu,Darren Krzesnik
+29,23333,3/24/2021,Arizona,Byu,Michol Murray
+29,20820,1/22/2021,Arizona,Utah,Cathi Cornell
+29,20820,1/22/2021,Arizona,Utah,Tiffany Bird
+29,20820,1/22/2021,Arizona,Utah,Charles Gonzalez
+29,20841,11/29/2020,Arizona,Northern Ariz.,Nicole Leon
+29,20841,11/29/2020,Arizona,Northern Ariz.,Richard Waters
+29,20841,11/29/2020,Arizona,Northern Ariz.,Bob Scofield
+29,20827,2/14/2021,Arizona,Washington,Rochelle Bennett
+29,20827,2/14/2021,Arizona,Washington,Richard Waters
+29,20827,2/14/2021,Arizona,Washington,Charles Gonzalez
+29,20811,12/10/2020,Arizona,Arizona St.,Cheryll Blue
+29,20811,12/10/2020,Arizona,Arizona St.,Tyler Trimble
+29,20811,12/10/2020,Arizona,Arizona St.,Michael Price
+29,23302,3/5/2021,Arizona,Ucla,Tiffany Bird
+29,23302,3/5/2021,Arizona,Ucla,Michael Price
+29,23302,3/5/2021,Arizona,Ucla,Robert Scofield
+29,20810,12/6/2020,Arizona,Southern California,Rochelle Bennett
+29,20810,12/6/2020,Arizona,Southern California,Alecia Murray
+29,20810,12/6/2020,Arizona,Southern California,Lisa Jones
+29,20826,2/12/2021,Arizona,Washington St.,Kim Hobbs
+29,20826,2/12/2021,Arizona,Washington St.,Tyler Trimble
+29,20826,2/12/2021,Arizona,Washington St.,Michol Murray
+29,24333,3/29/2021,Arizona,Indiana,Tiffany Bird
+29,24333,3/29/2021,Arizona,Indiana,Tiara Cruse
+29,24333,3/29/2021,Arizona,Indiana,Felicia Grinter
+29,20809,12/4/2020,Arizona,Ucla,Kenneth Nash
+29,20809,12/4/2020,Arizona,Ucla,Charles Gonzalez
+29,20809,12/4/2020,Arizona,Ucla,Michol Murray
+29,23287,3/4/2021,Arizona,Washington St.,Anita Ortega
+29,23287,3/4/2021,Arizona,Washington St.,Charles Gonzalez
+29,23287,3/4/2021,Arizona,Washington St.,Lisa Jones
+29,20873,12/23/2020,Arizona,Idaho,Alejandro Moreno
+29,20873,12/23/2020,Arizona,Idaho,Richard Waters
+29,20873,12/23/2020,Arizona,Idaho,Cheryl Flores
+29,20815,1/3/2021,Arizona,California,Cathi Cornell
+29,20815,1/3/2021,Arizona,California,Darren Krzesnik
+29,20815,1/3/2021,Arizona,California,Lisa Jones
+29,20819,1/17/2021,Arizona,Oregon St.,Teresa Turner
+29,20819,1/17/2021,Arizona,Oregon St.,Tyler Trimble
+29,20819,1/17/2021,Arizona,Oregon St.,Melissa Barlow
+29,23327,3/22/2021,Arizona,Stony Brook,Mark Resch
+29,23327,3/22/2021,Arizona,Stony Brook,Alecia Murray
+29,23327,3/22/2021,Arizona,Stony Brook,William Smith
+29,20818,1/14/2021,Arizona,Oregon,In'Fini Robinson
+29,20818,1/14/2021,Arizona,Oregon,Anita Ortega
+29,20818,1/14/2021,Arizona,Oregon,Lisa Jones
+29,20814,1/1/2021,Arizona,Stanford,Benny Luna
+29,20814,1/1/2021,Arizona,Stanford,In'Fini Robinson
+29,20814,1/1/2021,Arizona,Stanford,Bob Scofield
+725,12317,1/23/2021,Army West Point,Navy,Ashlee Goode
+725,12317,1/23/2021,Army West Point,Navy,Ken Kelly
+725,12317,1/23/2021,Army West Point,Navy,Kathleen Lonergan
+725,12313,1/16/2021,Army West Point,Boston U.,Gina Catanzariti
+725,12313,1/16/2021,Army West Point,Boston U.,Gary Schimel
+725,12313,1/16/2021,Army West Point,Boston U.,Kevin Ruland
+725,12305,1/2/2021,Army West Point,Colgate,Jorge Martinez
+725,12305,1/2/2021,Army West Point,Colgate,Lori Deutsch
+725,12305,1/2/2021,Army West Point,Colgate,Kevin Ruland
+725,12309,1/9/2021,Army West Point,Holy Cross,Katelyn Adams
+725,12309,1/9/2021,Army West Point,Holy Cross,Carlos Alvarez
+725,12309,1/9/2021,Army West Point,Holy Cross,Michael Motta
+725,12308,1/3/2021,Army West Point,Colgate,Jorge Martinez
+725,12308,1/3/2021,Army West Point,Colgate,Lori Deutsch
+725,12308,1/3/2021,Army West Point,Colgate,Kevin Ruland
+725,12324,11/29/2020,Army West Point,Iona,Katelyn Adams
+725,12324,11/29/2020,Army West Point,Iona,Ronald Stephenson
+725,12324,11/29/2020,Army West Point,Iona,Scott Berkins
+725,12312,2/7/2021,Army West Point,Holy Cross,Katelyn Adams
+725,12312,2/7/2021,Army West Point,Holy Cross,Kelly Callahan
+725,12312,2/7/2021,Army West Point,Holy Cross,Roger Saraiva
+725,12323,11/25/2020,Army West Point,Hofstra,Jorge Martinez
+725,12323,11/25/2020,Army West Point,Hofstra,Carlos Alvarez
+725,12323,11/25/2020,Army West Point,Hofstra,Corey Pothier
+725,12314,1/17/2021,Army West Point,Boston U.,Gina Catanzariti
+725,12314,1/17/2021,Army West Point,Boston U.,Gary Schimel
+725,12314,1/17/2021,Army West Point,Boston U.,Kevin Ruland
+725,12318,1/24/2021,Army West Point,Navy,Ashlee Goode
+725,12318,1/24/2021,Army West Point,Navy,Ken Kelly
+725,12318,1/24/2021,Army West Point,Navy,Kathleen Lonergan
+725,12334,12/5/2020,Army West Point,Marist,Kevin Ruland
+725,12334,12/5/2020,Army West Point,Marist,Paola Trujillo
+725,12334,12/5/2020,Army West Point,Marist,Kelly Callahan
+37,19185,1/21/2021,Auburn,Kentucky,Doug Knight
+37,19185,1/21/2021,Auburn,Kentucky,Brian Garland
+37,19185,1/21/2021,Auburn,Kentucky,Angelica Suffren
+37,19188,1/28/2021,Auburn,Texas A&M,Eric Koch
+37,19188,1/28/2021,Auburn,Texas A&M,Carla Fountain
+37,19188,1/28/2021,Auburn,Texas A&M,Roy Gulbeyan
+37,19184,2/7/2021,Auburn,Missouri,Kylie Galloway
+37,19184,2/7/2021,Auburn,Missouri,Meadow Overstreet
+37,19184,2/7/2021,Auburn,Missouri,Laura Morris
+37,19192,2/14/2021,Auburn,Alabama,Dawn Marsh
+37,19192,2/14/2021,Auburn,Alabama,Eric Brewton
+37,19192,2/14/2021,Auburn,Alabama,Tina Napier
+37,19203,12/20/2020,Auburn,Belmont,Carmen Portorreal
+37,19203,12/20/2020,Auburn,Belmont,Marcus Clayton
+37,19203,12/20/2020,Auburn,Belmont,Doug Knight
+37,19199,11/25/2020,Auburn,USC Upstate,Ashlee Goode
+37,19199,11/25/2020,Auburn,USC Upstate,Kylie Galloway
+37,19199,11/25/2020,Auburn,USC Upstate,Michael McConnell
+37,19204,12/13/2020,Auburn,South Alabama,Ashlee Goode
+37,19204,12/13/2020,Auburn,South Alabama,Meadow Overstreet
+37,19204,12/13/2020,Auburn,South Alabama,Beverly Roberts
+37,19195,2/25/2021,Auburn,Arkansas,Dawn Marsh
+37,19195,2/25/2021,Auburn,Arkansas,Roy Gulbeyan
+37,19195,2/25/2021,Auburn,Arkansas,Tina Napier
+37,19182,1/3/2021,Auburn,Georgia,Carla Fountain
+37,19182,1/3/2021,Auburn,Georgia,Angelica Suffren
+37,19182,1/3/2021,Auburn,Georgia,Dee Kantner
+37,19205,12/16/2020,Auburn,Sfa,Karen Preato
+37,19205,12/16/2020,Auburn,Sfa,Gina Cross
+37,19205,12/16/2020,Auburn,Sfa,Tina Napier
+37,19206,12/17/2020,Auburn,North Florida,Kristen Bell
+37,19206,12/17/2020,Auburn,North Florida,Blanca Burns
+37,19206,12/17/2020,Auburn,North Florida,Felicia Grinter
+37,19200,11/28/2020,Auburn,Samford,Saif Esho
+37,19200,11/28/2020,Auburn,Samford,Maggie Tieman
+37,19200,11/28/2020,Auburn,Samford,Felicia Grinter
+37,19201,12/1/2020,Auburn,Gardner-Webb,Roy Gulbeyan
+37,19201,12/1/2020,Auburn,Gardner-Webb,Brian Garland
+37,19201,12/1/2020,Auburn,Gardner-Webb,Tina Napier
+37,19190,2/4/2021,Auburn,South Carolina,Ashlee Goode
+37,19190,2/4/2021,Auburn,South Carolina,Pualani Spurlock
+37,19190,2/4/2021,Auburn,South Carolina,Beverly Roberts
+796,13208,12/13/2020,Wisconsin,North Dakota,Ellen Frias
+796,13208,12/13/2020,Wisconsin,North Dakota,Jamie Brodenck
+796,13208,12/13/2020,Wisconsin,North Dakota,Natasha Carry
+796,13183,1/6/2021,Wisconsin,Northwestern,Natasha Camy
+796,13183,1/6/2021,Wisconsin,Northwestern,Nykesha Thompson
+796,13183,1/6/2021,Wisconsin,Northwestern,Michael McConnell
+796,13182,1/3/2021,Wisconsin,Minnesota,Erika Herriman-Cararota
+796,13182,1/3/2021,Wisconsin,Minnesota,Jeff Cross
+796,13182,1/3/2021,Wisconsin,Minnesota,Mark Zentz
+796,13194,2/10/2021,Wisconsin,Ohio St.,Karleena Tobin
+796,13194,2/10/2021,Wisconsin,Ohio St.,Jeff Cross
+796,13194,2/10/2021,Wisconsin,Ohio St.,Mark Zentz
+796,13198,2/28/2021,Wisconsin,Iowa,Jamie Broderick
+796,13198,2/28/2021,Wisconsin,Iowa,Nykesha Thompson
+796,13198,2/28/2021,Wisconsin,Iowa,Mark Zentz
+796,13185,1/14/2021,Wisconsin,Michigan,Tim Daley
+796,13185,1/14/2021,Wisconsin,Michigan,Michael McConnell
+796,13185,1/14/2021,Wisconsin,Michigan,Beverly Roberts
+796,13189,12/11/2020,Wisconsin,Rutgers,Kelly Pfeifer
+796,13189,12/11/2020,Wisconsin,Rutgers,Courtney Green
+796,13189,12/11/2020,Wisconsin,Rutgers,Bo Boroski
+796,13188,1/24/2021,Wisconsin,Michigan St.,Maggie Tieman
+796,13188,1/24/2021,Wisconsin,Michigan St.,Bruce Morris
+796,13188,1/24/2021,Wisconsin,Michigan St.,Mark Berger
+796,13191,1/31/2021,Wisconsin,Illinois,Eriika Herriman-Camarota
+796,13191,1/31/2021,Wisconsin,Illinois,Bryan Enterline
+796,13191,1/31/2021,Wisconsin,Illinois,Bruce Morris
+796,13186,1/17/2021,Wisconsin,Maryland,Karleena Tobin
+796,13186,1/17/2021,Wisconsin,Maryland,Bryan Enterline
+796,13186,1/17/2021,Wisconsin,Maryland,Mark Zentz
+796,13197,2/24/2021,Wisconsin,Indiana,Mark Berger
+796,13197,2/24/2021,Wisconsin,Indiana,Natasha Camy
+796,13197,2/24/2021,Wisconsin,Indiana,Mark Zentz
+796,13179,11/29/2020,Wisconsin,Western Ill.,Tom Hallead
+796,13179,11/29/2020,Wisconsin,Western Ill.,Nykesha Thompson
+796,13179,11/29/2020,Wisconsin,Western Ill.,Frank Steratore
+796,13175,12/20/2020,Wisconsin,Valparaiso,Rob Kueneman
+796,13175,12/20/2020,Wisconsin,Valparaiso,Rob Riley
+796,13175,12/20/2020,Wisconsin,Valparaiso,D.J. Carstensen
+51,25822,12/16/2020,Baylor,Southern U.,Julie Krommenhoek
+51,25822,12/16/2020,Baylor,Southern U.,Nykesha Thompson
+51,25822,12/16/2020,Baylor,Southern U.,Eric Brewton
+51,25823,12/19/2020,Baylor,McNeese,Marty Cook
+51,25823,12/19/2020,Baylor,McNeese,Ify Seales
+51,25823,12/19/2020,Baylor,McNeese,Bill Larance
+51,26126,3/23/2021,Baylor,Virginia Tech,Jeffrey Smith
+51,26126,3/23/2021,Baylor,Virginia Tech,Mark Resch
+51,26126,3/23/2021,Baylor,Virginia Tech,Karen Preato
+51,25839,2/24/2021,Baylor,Oklahoma St.,Billy Smith
+51,25839,2/24/2021,Baylor,Oklahoma St.,Metta Christensen
+51,25839,2/24/2021,Baylor,Oklahoma St.,Maj Forsberg
+51,26121,3/14/2021,Baylor,West Virginia,Maj Forsberg
+51,26121,3/14/2021,Baylor,West Virginia,Lisa Jones
+51,26121,3/14/2021,Baylor,West Virginia,Dee Kantner
+51,25808,11/25/2020,Baylor,Central Ark.,Christopher Sauceda
+51,25808,11/25/2020,Baylor,Central Ark.,Metta Christensen
+51,25808,11/25/2020,Baylor,Central Ark.,Doug Knight
+51,25828,1/16/2021,Baylor,Iowa St.,Maj Forsberg
+51,25828,1/16/2021,Baylor,Iowa St.,Brenda Pantoja
+51,25828,1/16/2021,Baylor,Iowa St.,Lisa Jones
+51,26116,3/12/2021,Baylor,Tcu,Roy Gulbeyan
+51,26116,3/12/2021,Baylor,Tcu,Jesse Dickerson
+51,26116,3/12/2021,Baylor,Tcu,Maj Forsberg
+51,26120,3/13/2021,Baylor,Texas,Cameron Inouye
+51,26120,3/13/2021,Baylor,Texas,Michael McConnell
+51,26120,3/13/2021,Baylor,Texas,Maj Forsberg
+51,25833,2/4/2021,Baylor,Kansas,Metta Christensen
+51,25833,2/4/2021,Baylor,Kansas,Lisa Jones
+51,25833,2/4/2021,Baylor,Kansas,Cameron Inouye
+51,26123,3/21/2021,Baylor,Jackson St.,Meadow Overstreet
+51,26123,3/21/2021,Baylor,Jackson St.,Kevin Pethtel
+51,26123,3/21/2021,Baylor,Jackson St.,William Smith
+51,25830,1/23/2021,Baylor,Oklahoma,Doug Knight
+51,25830,1/23/2021,Baylor,Oklahoma,Julie Krommenhoek
+51,25830,1/23/2021,Baylor,Oklahoma,Brian Garland
+51,25811,12/18/2020,Baylor,Northwestern St.,Chaney Muench
+51,25811,12/18/2020,Baylor,Northwestern St.,Scott Yarbrough
+51,25811,12/18/2020,Baylor,Northwestern St.,Maj Forsberg
+51,25831,1/26/2021,Baylor,Tcu,Brian Hall
+51,25831,1/26/2021,Baylor,Tcu,Maj Forsburg
+51,25831,1/26/2021,Baylor,Tcu,Dee Kantner
+51,26129,3/27/2021,Baylor,Michigan,Kenneth Nash
+51,26129,3/27/2021,Baylor,Michigan,Tim Daley
+51,26129,3/27/2021,Baylor,Michigan,Brenda Pantoja
+51,25836,2/14/2021,Baylor,Texas,Julie Krommenhoek
+51,25836,2/14/2021,Baylor,Texas,Michael McConnell
+51,25836,2/14/2021,Baylor,Texas,Roy Gulbeyan
+51,25837,3/8/2021,Baylor,West Virginia,Brian Garland
+51,25837,3/8/2021,Baylor,West Virginia,Roy Gulbeyan
+51,25837,3/8/2021,Baylor,West Virginia,Brian Hall
+51,25821,12/14/2020,Baylor,Texas Tech,Beverly Roberts
+51,25821,12/14/2020,Baylor,Texas Tech,Gina Cross
+51,25821,12/14/2020,Baylor,Texas Tech,Felicia Grinter
+52,6191,2/13/2021,Bellarmine,Liberty,Kyle Thomas
+52,6191,2/13/2021,Bellarmine,Liberty,Hannah Reynolds
+52,6191,2/13/2021,Bellarmine,Liberty,Linda Miles
+52,6196,1/16/2021,Bellarmine,Fgcu,Bobby Ray
+52,6196,1/16/2021,Bellarmine,Fgcu,Linda MIles
+52,6196,1/16/2021,Bellarmine,Fgcu,Charlie Hust
+52,6248,12/19/2020,Bellarmine,Western Ill.,Aaron Brooks
+52,6248,12/19/2020,Bellarmine,Western Ill.,Hannah Reynolds
+52,6248,12/19/2020,Bellarmine,Western Ill.,Marla Gearhart
+52,6199,3/6/2021,Bellarmine,North Florida,Jessamyn Bradley
+52,6199,3/6/2021,Bellarmine,North Florida,Kyle Thomas
+52,6199,3/6/2021,Bellarmine,North Florida,Joshua Hall
+52,6249,12/14/2020,Bellarmine,Ball St.,Troy Winders
+52,6249,12/14/2020,Bellarmine,Ball St.,Stacey Lee
+52,6249,12/14/2020,Bellarmine,Ball St.,Royce Blevins
+52,6204,1/17/2021,Bellarmine,Fgcu,Kayla Maxey
+52,6204,1/17/2021,Bellarmine,Fgcu,Shane Bennett
+52,6204,1/17/2021,Bellarmine,Fgcu,Marla Gearhart
+52,6193,3/5/2021,Bellarmine,North Florida,Troy Ramey
+52,6193,3/5/2021,Bellarmine,North Florida,Rachel Rayford
+52,6193,3/5/2021,Bellarmine,North Florida,Bobby Ray
+67,22974,1/7/2021,Boston College,Notre Dame,Krystie Apellaniz
+67,22974,1/7/2021,Boston College,Notre Dame,Mark Resch
+67,22974,1/7/2021,Boston College,Notre Dame,Bryan Brunette
+67,22965,11/25/2020,Boston College,New Hampshire,Elizabeth Kuzmeski
+67,22965,11/25/2020,Boston College,New Hampshire,Mark Resch
+67,22965,11/25/2020,Boston College,New Hampshire,Fatou Cissoko-Stephens
+67,22987,2/21/2021,Boston College,Georgia Tech,Katie Lukanich
+67,22987,2/21/2021,Boston College,Georgia Tech,Talisa Green
+67,22987,2/21/2021,Boston College,Georgia Tech,Ed Sidlasky
+67,22968,12/6/2020,Boston College,UMass Lowell,Elizabeth Kuzmeski
+67,22968,12/6/2020,Boston College,UMass Lowell,Roy Jackson
+67,22968,12/6/2020,Boston College,UMass Lowell,Fatou Cissoko-Stephens
+67,22972,2/16/2021,Boston College,Pittsburgh,Shawn Goode
+67,22972,2/16/2021,Boston College,Pittsburgh,Mark Resch
+67,22972,2/16/2021,Boston College,Pittsburgh,Eric Brewton
+67,22967,12/2/2020,Boston College,Providence,Shawn Goode
+67,22967,12/2/2020,Boston College,Providence,Ashley Gloss
+67,22967,12/2/2020,Boston College,Providence,Paulani Spurlock-Welsh
+67,22971,12/20/2020,Boston College,Syracuse,Jules Gallien
+67,22971,12/20/2020,Boston College,Syracuse,Maj Forsberg
+67,22971,12/20/2020,Boston College,Syracuse,Dee Kantner
+67,22970,12/13/2020,Boston College,NC State,Rod Creech
+67,22970,12/13/2020,Boston College,NC State,Thomas Danaher
+67,22970,12/13/2020,Boston College,NC State,Karen Preato
+67,22966,11/29/2020,Boston College,Massachusetts,Michael DoCouto
+67,22966,11/29/2020,Boston College,Massachusetts,Keith Miller
+67,22966,11/29/2020,Boston College,Massachusetts,Elizabeth Kuzmeski
+67,22982,2/4/2021,Boston College,Louisville,Meadow Overstreet
+67,22982,2/4/2021,Boston College,Louisville,Thomas Danaher
+67,22982,2/4/2021,Boston College,Louisville,Ed Sidlasky
+528,17396,12/13/2020,Oregon St.,Oregon,Brian Woods
+528,17396,12/13/2020,Oregon St.,Oregon,In'Fini Robinson
+528,17396,12/13/2020,Oregon St.,Oregon,Lisa Jones
+528,17406,1/24/2021,Oregon St.,Washington St.,Darren Krzesnik
+528,17406,1/24/2021,Oregon St.,Washington St.,Tiffany Bird
+528,17406,1/24/2021,Oregon St.,Washington St.,Michol Murray
+528,17797,3/21/2021,Oregon St.,Florida St.,Benny Luna
+528,17797,3/21/2021,Oregon St.,Florida St.,Karen Preato
+528,17797,3/21/2021,Oregon St.,Florida St.,Joseph Vaszily
+528,17754,3/3/2021,Oregon St.,California,Tiffany Bird
+528,17754,3/3/2021,Oregon St.,California,Melissa Barlow
+528,17754,3/3/2021,Oregon St.,California,In'Fini Robinson
+528,17411,2/13/2021,Oregon St.,Stanford,Darren Krzesnik
+528,17411,2/13/2021,Oregon St.,Stanford,Lisa Jones
+528,17411,2/13/2021,Oregon St.,Stanford,Michael Price
+528,17490,12/3/2020,Oregon St.,San Francisco,Lorena Ahumada
+528,17490,12/3/2020,Oregon St.,San Francisco,Clarke Stevens
+528,17490,12/3/2020,Oregon St.,San Francisco,Michael Price
+528,17449,11/28/2020,Oregon St.,Montana Western,Lorena Ahumada
+528,17449,11/28/2020,Oregon St.,Montana Western,InFiini Robinson
+528,17449,11/28/2020,Oregon St.,Montana Western,Cheryl Flores
+528,17576,1/26/2021,Oregon St.,Washington,Lorena Ahumada
+528,17576,1/26/2021,Oregon St.,Washington,Michael Price
+528,17576,1/26/2021,Oregon St.,Washington,Anita Ortega
+528,17394,12/8/2020,Oregon St.,Utah,Anita Ortega
+528,17394,12/8/2020,Oregon St.,Utah,Kim Hobbs
+528,17394,12/8/2020,Oregon St.,Utah,Bob Scofield
+528,17395,12/6/2020,Oregon St.,Colorado,Shelly Nakasone
+528,17395,12/6/2020,Oregon St.,Colorado,Benny Luna
+528,17395,12/6/2020,Oregon St.,Colorado,Melissa Barlow
+107,28836,2/19/2021,California,Arizona,Brian Woods
+107,28836,2/19/2021,California,Arizona,Michael Price
+107,28836,2/19/2021,California,Arizona,Clarke Stevens
+107,28840,12/10/2020,California,San Francisco,Marc Merritt
+107,28840,12/10/2020,California,San Francisco,Cheryl Flores
+107,28840,12/10/2020,California,San Francisco,Tiffany Bird
+107,28837,2/21/2021,California,Arizona St.,Richard Waters
+107,28837,2/21/2021,California,Arizona St.,Michol Murry
+107,28837,2/21/2021,California,Arizona St.,Tiffany Bird
+107,28832,2/5/2021,California,Utah,Kim Hobbs
+107,28832,2/5/2021,California,Utah,Michael Price
+107,28832,2/5/2021,California,Utah,Clarke Stevens
+107,28833,2/7/2021,California,Colorado,Carla Fujimoto
+107,28833,2/7/2021,California,Colorado,Corey Long
+107,28833,2/7/2021,California,Colorado,Darren Krzesnik
+107,28825,1/10/2021,California,Oregon,Nicole Leon
+107,28825,1/10/2021,California,Oregon,Shelley Nakasone
+107,28825,1/10/2021,California,Oregon,Melissa Barlow
+107,28842,11/29/2020,California,CSU Bakersfield,Anita Ortega
+107,28842,11/29/2020,California,CSU Bakersfield,Teresa Turner
+107,28842,11/29/2020,California,CSU Bakersfield,Kenneth Nash
+107,28819,12/13/2020,California,Stanford,Teresa Turner
+107,28819,12/13/2020,California,Stanford,Charles Gonzalez
+107,28819,12/13/2020,California,Stanford,Benny Luna
+30135,13822,3/12/2021,California Baptist,New Mexico St.,Benny Luna
+30135,13822,3/12/2021,California Baptist,New Mexico St.,Tiffany Bird
+30135,13822,3/12/2021,California Baptist,New Mexico St.,Brenda Pantoja
+30135,13814,2/6/2021,California Baptist,New Mexico St.,Deon Lewis
+30135,13814,2/6/2021,California Baptist,New Mexico St.,Kaili Kimura
+30135,13814,2/6/2021,California Baptist,New Mexico St.,Richard Waters
+30135,13838,12/5/2020,California Baptist,UC Riverside,Alex Carroll
+30135,13838,12/5/2020,California Baptist,UC Riverside,Kim Hobbs
+30135,13838,12/5/2020,California Baptist,UC Riverside,Brian Woods
+30135,13839,12/8/2020,California Baptist,William Jessup,Juchell Wardlow
+30135,13839,12/8/2020,California Baptist,William Jessup,Kaili Kimura
+30135,13839,12/8/2020,California Baptist,William Jessup,Richard Waters
+30135,13842,12/19/2020,California Baptist,Cal Poly,Esther Hsu
+30135,13842,12/19/2020,California Baptist,Cal Poly,Shelley Nakasone
+30135,13842,12/19/2020,California Baptist,Cal Poly,Charles Gonzalez
+30135,13835,11/25/2020,California Baptist,Fresno Pacific,Johnny Mendez
+30135,13835,11/25/2020,California Baptist,Fresno Pacific,Deon Lewis
+30135,13835,11/25/2020,California Baptist,Fresno Pacific,Randy Campbell
+30135,13823,3/13/2021,California Baptist,Grand Canyon,Brian Woods
+30135,13823,3/13/2021,California Baptist,Grand Canyon,Anita Ortega
+30135,13823,3/13/2021,California Baptist,Grand Canyon,Michol Murray
+30135,14123,2/20/2021,California Baptist,Grand Canyon,COrey Long
+30135,14123,2/20/2021,California Baptist,Grand Canyon,In'Fini Robinson
+30135,14123,2/20/2021,California Baptist,Grand Canyon,Brenda Pantoja
+30135,13809,1/22/2021,California Baptist,Chicago St.,Nate Acosta
+30135,13809,1/22/2021,California Baptist,Chicago St.,Corey Long
+30135,13809,1/22/2021,California Baptist,Chicago St.,Benny Luna
+30135,13805,1/8/2021,California Baptist,Utah Valley,Sha'Rae Mitchell
+30135,13805,1/8/2021,California Baptist,Utah Valley,Felecity Willis
+30135,13805,1/8/2021,California Baptist,Utah Valley,Richard Waters
+30135,13813,2/5/2021,California Baptist,New Mexico St.,Deon Lewis
+30135,13813,2/5/2021,California Baptist,New Mexico St.,Kaili Kimura
+30135,13813,2/5/2021,California Baptist,New Mexico St.,Richard Waters
+30135,13806,1/9/2021,California Baptist,Utah Valley,Sha'Rae Mitchell
+30135,13806,1/9/2021,California Baptist,Utah Valley,Felecity Willis
+30135,13806,1/9/2021,California Baptist,Utah Valley,Richard Waters
+30135,13810,1/23/2021,California Baptist,Chicago St.,Nate Acosta
+30135,13810,1/23/2021,California Baptist,Chicago St.,Corey Long
+30135,13810,1/23/2021,California Baptist,Chicago St.,Benny Luna
+30135,14146,3/20/2021,California Baptist,San Francisco,Travis Jones
+30135,14146,3/20/2021,California Baptist,San Francisco,Christopher Sauceda
+30135,14146,3/20/2021,California Baptist,San Francisco,Rochelle Bennett
+30135,13817,2/19/2021,California Baptist,Grand Canyon,Felecity Lewis
+30135,13817,2/19/2021,California Baptist,Grand Canyon,Corey Long
+30135,13817,2/19/2021,California Baptist,Grand Canyon,Randy Campbell
+30135,14147,3/22/2021,California Baptist,Rice,Christopher Sauceda
+30135,14147,3/22/2021,California Baptist,Rice,Rochelle Bennett
+30135,14147,3/22/2021,California Baptist,Rice,Ify Seales
+136,6221,1/30/2021,Chicago St.,Seattle U,Johnny Jackson
+136,6221,1/30/2021,Chicago St.,Seattle U,Keneitha Shoulder
+136,6221,1/30/2021,Chicago St.,Seattle U,Dave Rafalski
+136,6220,1/29/2021,Chicago St.,Seattle U,Johnny Jackson
+136,6220,1/29/2021,Chicago St.,Seattle U,Keneitha Shoulder
+136,6220,1/29/2021,Chicago St.,Seattle U,Dave Rafalski
+136,6224,2/13/2021,Chicago St.,Tarleton St.,Johnny Jackson
+136,6224,2/13/2021,Chicago St.,Tarleton St.,Keneitha Shoulder
+136,6224,2/13/2021,Chicago St.,Tarleton St.,Dave Rafalski
+136,6290,11/28/2020,Chicago St.,Loyola Chicago,Dave Rafalski
+136,6290,11/28/2020,Chicago St.,Loyola Chicago,Nate Acosta
+136,6290,11/28/2020,Chicago St.,Loyola Chicago,LaSha Hopson
+129,6915,2/24/2021,Central Mich.,Toledo,Andrew Bills
+129,6915,2/24/2021,Central Mich.,Toledo,Meghan Joseph
+129,6915,2/24/2021,Central Mich.,Toledo,Kalei Enterline
+129,6914,12/9/2020,Central Mich.,Western Mich.,Monique Davis
+129,6914,12/9/2020,Central Mich.,Western Mich.,Andrew Bills
+129,6914,12/9/2020,Central Mich.,Western Mich.,Michelle Del Duco
+129,7139,3/10/2021,Central Mich.,Northern Ill.,Stacey Lee
+129,7139,3/10/2021,Central Mich.,Northern Ill.,Kali Enterline
+129,7139,3/10/2021,Central Mich.,Northern Ill.,Brad Maxey
+129,6905,1/20/2021,Central Mich.,Eastern Mich.,Justin Paluch
+129,6905,1/20/2021,Central Mich.,Eastern Mich.,Lindsey VanDyken
+129,6905,1/20/2021,Central Mich.,Eastern Mich.,Mark Berger
+129,6899,12/15/2020,Central Mich.,Miami (OH),Kalie Enterline
+129,6899,12/15/2020,Central Mich.,Miami (OH),Andrew Bills
+129,6899,12/15/2020,Central Mich.,Miami (OH),Michelle Del Duco
+129,6909,2/3/2021,Central Mich.,Ball St.,Kalei Enterline
+129,6909,2/3/2021,Central Mich.,Ball St.,Frank Steratore
+129,6909,2/3/2021,Central Mich.,Ball St.,Mark Berger
+129,6908,1/30/2021,Central Mich.,Buffalo,Kamaria Douglas
+129,6908,1/30/2021,Central Mich.,Buffalo,Michelle Del Duco
+129,6908,1/30/2021,Central Mich.,Buffalo,Jeff Cross
+129,6912,2/13/2021,Central Mich.,Kent St.,Andrew Bills
+129,6912,2/13/2021,Central Mich.,Kent St.,Michelle Del Duco
+129,6912,2/13/2021,Central Mich.,Kent St.,Tom Hallead
+129,6904,1/16/2021,Central Mich.,Ohio,Kalie Enterline
+129,6904,1/16/2021,Central Mich.,Ohio,Kayla Maxey
+129,6904,1/16/2021,Central Mich.,Ohio,Brad Duistermars
+129,7140,3/12/2021,Central Mich.,Ohio,Natosha Harris
+129,7140,3/12/2021,Central Mich.,Ohio,Bryan Enterline
+129,7140,3/12/2021,Central Mich.,Ohio,Frank Steratore
+129,6897,12/12/2020,Central Mich.,Cincinnati,Andrew Bills
+129,6897,12/12/2020,Central Mich.,Cincinnati,Tom Hallead
+129,6897,12/12/2020,Central Mich.,Cincinnati,Michelle Del Duco
+129,6901,1/6/2021,Central Mich.,Akron,Dorran Stewart
+129,6901,1/6/2021,Central Mich.,Akron,Jennifer Washo
+129,6901,1/6/2021,Central Mich.,Akron,Brad Duistermars
+169,14099,11/25/2020,Creighton,Drake,Jeffrey Smith
+169,14099,11/25/2020,Creighton,Drake,Ashley Gloss
+169,14099,11/25/2020,Creighton,Drake,Tom Danaher
+169,14186,2/1/2021,Creighton,Marquette,Maj Forsberg
+169,14186,2/1/2021,Creighton,Marquette,Tom Donaher
+169,14186,2/1/2021,Creighton,Marquette,Zac Brost
+169,14104,12/14/2020,Creighton,Nebraska,Joseph Vaszily
+169,14104,12/14/2020,Creighton,Nebraska,Krystle Apellaniz
+169,14104,12/14/2020,Creighton,Nebraska,Bruce Morris
+169,14165,2/25/2021,Creighton,UConn,Katie Lukanich
+169,14165,2/25/2021,Creighton,UConn,Rod Creech
+169,14165,2/25/2021,Creighton,UConn,Jonn Capolino
+169,14396,3/20/2021,Creighton,Uni,Dorran Stewart
+169,14396,3/20/2021,Creighton,Uni,Mark Berger
+169,14396,3/20/2021,Creighton,Uni,Erika Herriman
+169,14155,1/30/2021,Creighton,Georgetown,Linda Miles
+169,14155,1/30/2021,Creighton,Georgetown,Kevin Dillard
+169,14155,1/30/2021,Creighton,Georgetown,Karen Preato
+169,14157,2/10/2021,Creighton,Providence,Ashlee Goode
+169,14157,2/10/2021,Creighton,Providence,Rod Creech
+169,14157,2/10/2021,Creighton,Providence,Zac Brost
+169,14388,3/5/2021,Creighton,Georgetown,Jeff Smith
+169,14388,3/5/2021,Creighton,Georgetown,Geraldine Smith
+169,14388,3/5/2021,Creighton,Georgetown,Tom Danaher
+169,14106,12/22/2020,Creighton,DePaul,Katie Lukanich
+169,14106,12/22/2020,Creighton,DePaul,Jules Gallien
+169,14106,12/22/2020,Creighton,DePaul,Joseph Vaszily
+157,13930,11/25/2020,Colorado,Western Colo.,Rochelle Bennett
+157,13930,11/25/2020,Colorado,Western Colo.,Tiffany Bird
+157,13930,11/25/2020,Colorado,Western Colo.,Michol Murray
+157,13947,12/18/2020,Colorado,Arizona,Kim Hobbs
+157,13947,12/18/2020,Colorado,Arizona,Tiffany Bird
+157,13947,12/18/2020,Colorado,Arizona,Anita Ortega
+157,14241,3/19/2021,Colorado,Louisiana,Tim Hackett
+157,14241,3/19/2021,Colorado,Louisiana,Randy Robertson
+157,14241,3/19/2021,Colorado,Louisiana,Kelly Johnson
+157,13946,12/14/2020,Colorado,Utah,Nicole Leon
+157,13946,12/14/2020,Colorado,Utah,Alecia Murray
+157,13946,12/14/2020,Colorado,Utah,Brenda Pantoja
+157,13950,1/3/2021,Colorado,Washington St.,Chryll Blue
+157,13950,1/3/2021,Colorado,Washington St.,Tiffany Bird
+157,13950,1/3/2021,Colorado,Washington St.,Charles Gonzalez
+157,13957,1/29/2021,Colorado,Oregon St.,Felecity Willis
+157,13957,1/29/2021,Colorado,Oregon St.,In'Fini Robinson
+157,13957,1/29/2021,Colorado,Oregon St.,Brenda Pantoja
+157,13961,2/12/2021,Colorado,Southern California,Teresa Turner
+157,13961,2/12/2021,Colorado,Southern California,Julie Krommenhoek
+157,13961,2/12/2021,Colorado,Southern California,Charles Gonzalez
+157,13954,1/17/2021,Colorado,Stanford,Corey Long
+157,13954,1/17/2021,Colorado,Stanford,Darren Krzesnik
+157,13954,1/17/2021,Colorado,Stanford,Charles Gonzalez
+157,14218,3/3/2021,Colorado,Washington,Anita Ortega
+157,14218,3/3/2021,Colorado,Washington,Lisa Jones
+157,14218,3/3/2021,Colorado,Washington,Charles Gonzalez
+157,13932,11/28/2020,Colorado,Air Force,Kaili Kimura
+157,13932,11/28/2020,Colorado,Air Force,Cathi Cornell
+157,13932,11/28/2020,Colorado,Air Force,Michael Price
+157,13949,1/1/2021,Colorado,Washington,Clarke Stevens
+157,13949,1/1/2021,Colorado,Washington,Darren Krzesnik
+157,13949,1/1/2021,Colorado,Washington,Lisa Jones
+157,13953,1/15/2021,Colorado,California,Julie Krommenhoek
+157,13953,1/15/2021,Colorado,California,In'Fini Robinson
+157,13953,1/15/2021,Colorado,California,Tiffany Bird
+157,14242,3/20/2021,Colorado,Nebraska,Trey Miles
+157,14242,3/20/2021,Colorado,Nebraska,Eric Baker
+157,14242,3/20/2021,Colorado,Nebraska,Metta Christensen
+688,13839,2/25/2021,Syracuse,Boston College,Saif Esho
+688,13839,2/25/2021,Syracuse,Boston College,Kevin Dillard
+688,13839,2/25/2021,Syracuse,Boston College,Maj Forsberg
+688,13828,1/17/2021,Syracuse,Miami (FL),Billy Smith
+688,13828,1/17/2021,Syracuse,Miami (FL),Thomas Danaher
+688,13828,1/17/2021,Syracuse,Miami (FL),Angelica Suffren
+688,13824,1/19/2021,Syracuse,North Carolina,Nykesha Thompson
+688,13824,1/19/2021,Syracuse,North Carolina,Mark Resch
+688,13824,1/19/2021,Syracuse,North Carolina,Joseph Vaszily
+688,14027,3/4/2021,Syracuse,Boston College,Talisa Green
+688,14027,3/4/2021,Syracuse,Boston College,Bryan Brunette
+688,14027,3/4/2021,Syracuse,Boston College,Eric Brewton
+688,13833,2/4/2021,Syracuse,Wake Forest,Kevin Sparrock
+688,13833,2/4/2021,Syracuse,Wake Forest,Katie Lukanich
+688,13833,2/4/2021,Syracuse,Wake Forest,Jules Gallien
+688,13826,1/31/2021,Syracuse,Notre Dame,Rod Creech
+688,13826,1/31/2021,Syracuse,Notre Dame,Pualani Spurlock
+688,13826,1/31/2021,Syracuse,Notre Dame,Angelica Suffren
+688,13831,1/28/2021,Syracuse,Pittsburgh,Daryl Humphrey
+688,13831,1/28/2021,Syracuse,Pittsburgh,Luis Gonzalez
+688,13831,1/28/2021,Syracuse,Pittsburgh,Denise Brooks
+688,13850,12/6/2020,Syracuse,Penn St.,Michael Docouto
+688,13850,12/6/2020,Syracuse,Penn St.,Talisa Green
+688,13850,12/6/2020,Syracuse,Penn St.,Mark Hardcastle
+688,13840,2/28/2021,Syracuse,NC State,Mark Resch
+688,13840,2/28/2021,Syracuse,NC State,Joseph Vaszily
+688,13840,2/28/2021,Syracuse,NC State,Maj Forsberg
+688,14055,3/21/2021,Syracuse,South Dakota St.,Doug Knight
+688,14055,3/21/2021,Syracuse,South Dakota St.,Julie Krommenhoek
+688,14055,3/21/2021,Syracuse,South Dakota St.,Eric Brewton
+311,14187,12/6/2020,Iowa St.,South Carolina,Nykesha Thompson
+311,14187,12/6/2020,Iowa St.,South Carolina,Roy Gulbeyan
+311,14187,12/6/2020,Iowa St.,South Carolina,Dee Kantner
+311,14169,12/18/2020,Iowa St.,Kansas St.,Bruce Morris
+311,14169,12/18/2020,Iowa St.,Kansas St.,Brian Garland
+311,14169,12/18/2020,Iowa St.,Kansas St.,Michael McConnell
+311,14186,11/25/2020,Iowa St.,Omaha,Jason Wolfe
+311,14186,11/25/2020,Iowa St.,Omaha,Marty Cook
+311,14186,11/25/2020,Iowa St.,Omaha,Missy Brooks
+311,14173,1/13/2021,Iowa St.,Oklahoma St.,Brian Garland
+311,14173,1/13/2021,Iowa St.,Oklahoma St.,Cameron Inouye
+311,14173,1/13/2021,Iowa St.,Oklahoma St.,Dee Kantner
+311,14396,3/22/2021,Iowa St.,Michigan St.,Tim Daley
+311,14396,3/22/2021,Iowa St.,Michigan St.,NATASHA CAMY
+311,14396,3/22/2021,Iowa St.,Michigan St.,BRIAN HALL
+311,14379,3/12/2021,Iowa St.,Texas,Bill Larance
+311,14379,3/12/2021,Iowa St.,Texas,Eric Brewton
+311,14379,3/12/2021,Iowa St.,Texas,Lisa Jones
+311,14178,1/31/2021,Iowa St.,Baylor,Kevin Pethtel
+311,14178,1/31/2021,Iowa St.,Baylor,Maj Forsberg
+311,14178,1/31/2021,Iowa St.,Baylor,Michael McConnell
+311,14363,3/3/2021,Iowa St.,Kansas,Missy Brooks
+311,14363,3/3/2021,Iowa St.,Kansas,Doug Knight
+311,14363,3/3/2021,Iowa St.,Kansas,Michael McConnell
+311,14175,1/19/2021,Iowa St.,Oklahoma,Eric Brewton
+311,14175,1/19/2021,Iowa St.,Oklahoma,Scott Yarbrough
+311,14175,1/19/2021,Iowa St.,Oklahoma,Dee Kantner
+311,14176,1/23/2021,Iowa St.,Texas,Brian Hall
+311,14176,1/23/2021,Iowa St.,Texas,Jesse Dickerson
+311,14176,1/23/2021,Iowa St.,Texas,Felicia Grinter
+311,14182,2/13/2021,Iowa St.,Tcu,Brian Garland
+311,14182,2/13/2021,Iowa St.,Tcu,Maj Forsberg
+311,14182,2/13/2021,Iowa St.,Tcu,Jesse Dickerson
+311,14189,12/22/2020,Iowa St.,Drake,Brian Hall
+311,14189,12/22/2020,Iowa St.,Drake,Maj Forsberg
+311,14189,12/22/2020,Iowa St.,Drake,Eric Brewton
+311,14185,2/24/2021,Iowa St.,West Virginia,Eric Brewton
+311,14185,2/24/2021,Iowa St.,West Virginia,Jesse Dickerson
+311,14185,2/24/2021,Iowa St.,West Virginia,Lisa Jones
+311,14188,12/12/2020,Iowa St.,North Dakota St.,Doug Knight
+311,14188,12/12/2020,Iowa St.,North Dakota St.,Brian Hall
+311,14188,12/12/2020,Iowa St.,North Dakota St.,Maj Forsberg
+175,12072,2/20/2021,Dayton,Saint Louis,Sarah Williams
+175,12072,2/20/2021,Dayton,Saint Louis,Chris Oakes
+175,12072,2/20/2021,Dayton,Saint Louis,Mark McClenney
+175,13081,12/6/2020,Dayton,Akron,Ashlee Goode
+175,13081,12/6/2020,Dayton,Akron,Anthony Reddin
+175,13081,12/6/2020,Dayton,Akron,Charlie Hurst
+175,13326,3/19/2021,Dayton,Uni,Kina Brown
+175,13326,3/19/2021,Dayton,Uni,Tom Hallead
+175,13326,3/19/2021,Dayton,Uni,Jeff Cross
+175,12059,1/3/2021,Dayton,Duquesne,Brandon Enterline
+175,12059,1/3/2021,Dayton,Duquesne,Justin Paluch
+175,12059,1/3/2021,Dayton,Duquesne,Charlie Hust
+175,12058,1/1/2021,Dayton,St. Bonaventure,Bobby Ray
+175,12058,1/1/2021,Dayton,St. Bonaventure,Brandon Enterline
+175,12058,1/1/2021,Dayton,St. Bonaventure,Jennifer Washo
+175,12062,1/14/2021,Dayton,Davidson,Rod Creech
+175,12062,1/14/2021,Dayton,Davidson,Jules Gallien
+175,12062,1/14/2021,Dayton,Davidson,Geraldine Smith
+175,13324,3/13/2021,Dayton,Vcu,Brandon Enterline
+175,13324,3/13/2021,Dayton,Vcu,Maggie Tieman
+175,13324,3/13/2021,Dayton,Vcu,Mark McClenney
+175,12071,2/14/2021,Dayton,Vcu,Justin Paluch
+175,12071,2/14/2021,Dayton,Vcu,Shawn Goode
+175,12071,2/14/2021,Dayton,Vcu,Isaac Johnson
+175,12070,2/12/2021,Dayton,Richmond,Gerda Gatling
+175,12070,2/12/2021,Dayton,Richmond,Mark Resch
+175,12070,2/12/2021,Dayton,Richmond,Maggie Tieman
+193,19382,12/9/2020,Duke,Louisville,Rod Creech
+193,19382,12/9/2020,Duke,Louisville,Talisa Green
+193,19382,12/9/2020,Duke,Louisville,Luis Gonzalez
+193,19380,11/29/2020,Duke,Western Caro.,Alexis Perez
+193,19380,11/29/2020,Duke,Western Caro.,Kevin Dillard
+193,19380,11/29/2020,Duke,Western Caro.,Rod Creech
+193,19379,11/25/2020,Duke,Longwood,Deanna Jackson
+193,19379,11/25/2020,Duke,Longwood,Ray Bullock
+193,19379,11/25/2020,Duke,Longwood,Jr.
+193,19379,11/25/2020,Duke,Longwood,Karen Preato
+193,19381,12/5/2020,Duke,East Carolina,Marc Merritt
+193,19381,12/5/2020,Duke,East Carolina,Jules Gallien
+193,19381,12/5/2020,Duke,East Carolina,Denise Brooks
+194,13862,2/18/2021,Duquesne,Rhode Island,Kara Hunter
+194,13862,2/18/2021,Duquesne,Rhode Island,Nic Cappel
+194,13862,2/18/2021,Duquesne,Rhode Island,Isaac D. Johnson
+194,13853,1/17/2021,Duquesne,La Salle,Gerda Gatling
+194,13853,1/17/2021,Duquesne,La Salle,Isaac Johnson
+194,13853,1/17/2021,Duquesne,La Salle,Mark McClenney
+194,13851,1/10/2021,Duquesne,Richmond,Jennifer Washo
+194,13851,1/10/2021,Duquesne,Richmond,Brandon Appel
+194,13851,1/10/2021,Duquesne,Richmond,Felicia Young
+194,13847,12/11/2020,Duquesne,St. Bonaventure,Ashlee Goode
+194,13847,12/11/2020,Duquesne,St. Bonaventure,Brandon Enterline
+194,13847,12/11/2020,Duquesne,St. Bonaventure,John Capolino
+194,13850,1/8/2021,Duquesne,Vcu,Rod Creech
+194,13850,1/8/2021,Duquesne,Vcu,Norma Jones
+194,13850,1/8/2021,Duquesne,Vcu,Joseph Vaszily
+648,15702,3/5/2021,South Carolina,Alabama,Brian Halll
+648,15702,3/5/2021,South Carolina,Alabama,Laura Morris
+648,15702,3/5/2021,South Carolina,Alabama,Dee Kantner
+648,15692,1/31/2021,South Carolina,Alabama,Karleena Tobin
+648,15692,1/31/2021,South Carolina,Alabama,Doug Knight
+648,15692,1/31/2021,South Carolina,Alabama,Gina Cross
+648,15703,3/6/2021,South Carolina,Tennessee,Brian Garland
+648,15703,3/6/2021,South Carolina,Tennessee,Laura Morris
+648,15703,3/6/2021,South Carolina,Tennessee,Eric Brewton
+648,15689,1/18/2021,South Carolina,Arkansas,Angelica Suffren
+648,15689,1/18/2021,South Carolina,Arkansas,Cameron Inouye
+648,15689,1/18/2021,South Carolina,Arkansas,Dee Kantner
+648,16162,3/23/2021,South Carolina,Oregon St.,Meadow Overstreet
+648,16162,3/23/2021,South Carolina,Oregon St.,William Smith
+648,16162,3/23/2021,South Carolina,Oregon St.,Lisa Jones
+648,15704,3/7/2021,South Carolina,Georgia,Gina Cross
+648,15704,3/7/2021,South Carolina,Georgia,Felicia Grinter
+648,15704,3/7/2021,South Carolina,Georgia,Tina Napier
+648,15657,12/3/2020,South Carolina,NC State,Angelica Suffren
+648,15657,12/3/2020,South Carolina,NC State,Karen Preato
+648,15657,12/3/2020,South Carolina,NC State,Dee Kantner
+648,15694,2/11/2021,South Carolina,Missouri,Carla Fountain
+648,15694,2/11/2021,South Carolina,Missouri,Brian Garland
+648,15694,2/11/2021,South Carolina,Missouri,Karen Preato
+648,15698,12/31/2020,South Carolina,Florida,Dawn Marsh
+648,15698,12/31/2020,South Carolina,Florida,Natasha Camy
+648,15698,12/31/2020,South Carolina,Florida,Pualani Spurlock
+648,15661,11/28/2020,South Carolina,South Dakota,Marla Ann Gearhart
+648,15661,11/28/2020,South Carolina,South Dakota,Marcus Clayton
+648,15661,11/28/2020,South Carolina,South Dakota,Marty Cook
+648,15660,12/17/2020,South Carolina,Temple,Karleena Tobin
+648,15660,12/17/2020,South Carolina,Temple,Katie Lukanich
+648,15660,12/17/2020,South Carolina,Temple,Pualani Spurlock
+648,16164,3/28/2021,South Carolina,Georgia Tech,Maggie Tieman
+648,16164,3/28/2021,South Carolina,Georgia Tech,Michol Murray
+648,16164,3/28/2021,South Carolina,Georgia Tech,Eric Brewton
+648,15695,2/14/2021,South Carolina,Lsu,Doug Knight
+648,15695,2/14/2021,South Carolina,Lsu,Felicia Grinter
+648,15695,2/14/2021,South Carolina,Lsu,Denise Brooks
+648,15656,11/25/2020,South Carolina,Col. of Charleston,Saif Esho
+648,15656,11/25/2020,South Carolina,Col. of Charleston,Luis Gonzalez
+648,15656,11/25/2020,South Carolina,Col. of Charleston,Dawn Marsh
+648,16166,3/30/2021,South Carolina,Texas,Pualani Spurlock
+648,16166,3/30/2021,South Carolina,Texas,In'Fini Robinson
+648,16166,3/30/2021,South Carolina,Texas,Joseph Vaszily
+648,15697,2/21/2021,South Carolina,Kentucky,Jesse Dickerson
+648,15697,2/21/2021,South Carolina,Kentucky,Brian Garland
+648,15697,2/21/2021,South Carolina,Kentucky,Beverly Roberts
+648,16161,3/21/2021,South Carolina,Mercer,Joshua Hall
+648,16161,3/21/2021,South Carolina,Mercer,Robert Scofield
+648,16161,3/21/2021,South Carolina,Mercer,Felicia Grinter
+648,15686,1/21/2021,South Carolina,Georgia,Karleena Tobin
+648,15686,1/21/2021,South Carolina,Georgia,Carla Fountain
+648,15686,1/21/2021,South Carolina,Georgia,Roy Gulbeyan
+794,4461,2/12/2021,Green Bay,Uic,Kina Brown
+794,4461,2/12/2021,Green Bay,Uic,Matt Andrews
+794,4461,2/12/2021,Green Bay,Uic,Scott Doberstein
+794,4457,1/29/2021,Green Bay,Iupui,Chuck Morning
+794,4457,1/29/2021,Green Bay,Iupui,Abby Burmeister
+794,4457,1/29/2021,Green Bay,Iupui,Scott Doberstein
+794,4451,1/8/2021,Green Bay,Detroit Mercy,Mark Woelfel
+794,4451,1/8/2021,Green Bay,Detroit Mercy,Jodi Duffe
+794,4451,1/8/2021,Green Bay,Detroit Mercy,Jeff Cross
+794,4446,12/13/2020,Green Bay,Milwaukee,Mark Woelfel
+794,4446,12/13/2020,Green Bay,Milwaukee,Dorran Stewart
+794,4446,12/13/2020,Green Bay,Milwaukee,Jodi Duffe
+794,4445,12/12/2020,Green Bay,Milwaukee,Mark Woelfel
+794,4445,12/12/2020,Green Bay,Milwaukee,Dorran Stewart
+794,4445,12/12/2020,Green Bay,Milwaukee,Jodi Duffe
+794,4452,1/9/2021,Green Bay,Detroit Mercy,Mark Woelfel
+794,4452,1/9/2021,Green Bay,Detroit Mercy,Jodi Duffe
+794,4452,1/9/2021,Green Bay,Detroit Mercy,Jeff Cross
+794,4468,11/28/2020,Green Bay,Drake,Jodi Duffe
+794,4468,11/28/2020,Green Bay,Drake,Matt Andrews
+794,4468,11/28/2020,Green Bay,Drake,Scott Doberstein
+794,4547,3/2/2021,Green Bay,Cleveland St.,Kalei Enterline
+794,4547,3/2/2021,Green Bay,Cleveland St.,Stacey Lee
+794,4547,3/2/2021,Green Bay,Cleveland St.,Tom Hallead
+794,4458,1/30/2021,Green Bay,Iupui,Chuck Morning
+794,4458,1/30/2021,Green Bay,Iupui,Abby Burmeister
+794,4458,1/30/2021,Green Bay,Iupui,Scott Doberstein
+794,4462,2/13/2021,Green Bay,Uic,Kina Brown
+794,4462,2/13/2021,Green Bay,Uic,Matt Andrews
+794,4462,2/13/2021,Green Bay,Uic,Scott Doberstein
+251,16933,1/16/2021,Georgetown,DePaul,Krystle Apellaniz
+251,16933,1/16/2021,Georgetown,DePaul,Tom Danaher
+251,16933,1/16/2021,Georgetown,DePaul,Karen Preato
+251,16928,12/31/2020,Georgetown,Butler,Teresa Stuck
+251,16928,12/31/2020,Georgetown,Butler,Ashlee Goode
+251,16928,12/31/2020,Georgetown,Butler,Ed Sidlasky
+251,16943,2/21/2021,Georgetown,Villanova,Shawn Goode
+251,16943,2/21/2021,Georgetown,Villanova,Norma Jones
+251,16943,2/21/2021,Georgetown,Villanova,Bryan Brunette
+251,16938,2/3/2021,Georgetown,Marquette,Saif Esho
+251,16938,2/3/2021,Georgetown,Marquette,Krystle Apellaniz
+251,16938,2/3/2021,Georgetown,Marquette,Dee Kantner
+251,16940,2/12/2021,Georgetown,UConn,Rod Creech
+251,16940,2/12/2021,Georgetown,UConn,Pualani Spurlock
+251,16940,2/12/2021,Georgetown,UConn,Eric Brewton
+251,16936,1/27/2021,Georgetown,St. John's (NY),Brandon Enterline
+251,16936,1/27/2021,Georgetown,St. John's (NY),Bruce Morris
+251,16936,1/27/2021,Georgetown,St. John's (NY),Norma Jones
+251,16941,2/15/2021,Georgetown,Creighton,Geraldine Smith
+251,16941,2/15/2021,Georgetown,Creighton,Bruce Morris
+251,16941,2/15/2021,Georgetown,Creighton,Bryan Enterline
+251,16946,2/8/2021,Georgetown,Seton Hall,Ashlee Goode
+251,16946,2/8/2021,Georgetown,Seton Hall,John Capolino
+251,16946,2/8/2021,Georgetown,Seton Hall,Maj Forsberg
+649,12527,3/6/2021,South Dakota St.,Omaha,Erica Parker
+649,12527,3/6/2021,South Dakota St.,Omaha,Ann Schroeder
+649,12527,3/6/2021,South Dakota St.,Omaha,Zac Brost
+649,11274,1/22/2021,South Dakota St.,North Dakota,Amy Sanchez
+649,11274,1/22/2021,South Dakota St.,North Dakota,Tim Widiker
+649,11274,1/22/2021,South Dakota St.,North Dakota,Jon Garrow
+649,11278,2/5/2021,South Dakota St.,South Dakota,Chuck Morning
+649,11278,2/5/2021,South Dakota St.,South Dakota,Michelle Kramer
+649,11278,2/5/2021,South Dakota St.,South Dakota,Scott Doberstein
+649,11279,2/6/2021,South Dakota St.,South Dakota,Michelle Kramer
+649,11279,2/6/2021,South Dakota St.,South Dakota,Scott Doberstein
+649,11279,2/6/2021,South Dakota St.,South Dakota,Chuck Morning
+649,11351,12/23/2020,South Dakota St.,Uni,Marlin Schoonhoven
+649,11351,12/23/2020,South Dakota St.,Uni,Jon Garrow
+649,11351,12/23/2020,South Dakota St.,Uni,Ann Schroeder
+649,11275,1/23/2021,South Dakota St.,North Dakota,Amy Sanchez
+649,11275,1/23/2021,South Dakota St.,North Dakota,Tim Widiker
+649,11275,1/23/2021,South Dakota St.,North Dakota,Jon Garrow
+649,11270,1/8/2021,South Dakota St.,Western Ill.,Jeremy Zacher
+649,11270,1/8/2021,South Dakota St.,Western Ill.,Erica Parker
+649,11270,1/8/2021,South Dakota St.,Western Ill.,Kelly Ternes
+649,11271,1/9/2021,South Dakota St.,Western Ill.,Jeremy Zacher
+649,11271,1/9/2021,South Dakota St.,Western Ill.,Erica Parker
+649,11271,1/9/2021,South Dakota St.,Western Ill.,Kelly Ternes
+649,11343,11/28/2020,South Dakota St.,Iowa St.,Blanca Burns
+649,11343,11/28/2020,South Dakota St.,Iowa St.,Zac Brost
+649,11343,11/28/2020,South Dakota St.,Iowa St.,Dough Knight
+649,11348,12/15/2020,South Dakota St.,Drake,Timothy Resch
+649,11348,12/15/2020,South Dakota St.,Drake,Jon Garrow
+649,11348,12/15/2020,South Dakota St.,Drake,Missy Brooks
+649,11344,11/30/2020,South Dakota St.,Creighton,Michelle Kramer
+649,11344,11/30/2020,South Dakota St.,Creighton,Tim Widiker
+649,11344,11/30/2020,South Dakota St.,Creighton,Jeff Cross
+649,11345,12/6/2020,South Dakota St.,Gonzaga,Christopher Cooper
+649,11345,12/6/2020,South Dakota St.,Gonzaga,Kelly Broomfield
+649,11345,12/6/2020,South Dakota St.,Gonzaga,Zac Brost
+249,12659,2/12/2021,George Washington,Duquesne,Saif Esho
+249,12659,2/12/2021,George Washington,Duquesne,John Capolino
+249,12659,2/12/2021,George Washington,Duquesne,Geraldine Smith
+249,12663,2/28/2021,George Washington,George Mason,Jennifer Washo
+249,12663,2/28/2021,George Washington,George Mason,Shawn Goode
+249,12663,2/28/2021,George Washington,George Mason,Norma Jones
+249,12706,3/10/2021,George Washington,George Mason,Whitney Armstrong
+249,12706,3/10/2021,George Washington,George Mason,Kristi Vera
+249,12706,3/10/2021,George Washington,George Mason,Tom Danaher
+249,12655,1/29/2021,George Washington,Richmond,Whitney Armstrong
+249,12655,1/29/2021,George Washington,Richmond,Teresa Stuck
+249,12655,1/29/2021,George Washington,Richmond,Joseph Vaszily
+249,12639,11/25/2020,George Washington,Lincoln (PA),Alex Leap
+249,12639,11/25/2020,George Washington,Lincoln (PA),Jenn Washo
+249,12639,11/25/2020,George Washington,Lincoln (PA),Kristi Vera
+249,12645,12/20/2020,George Washington,Delaware,Bobby Ray
+249,12645,12/20/2020,George Washington,Delaware,Brandon Appel
+249,12645,12/20/2020,George Washington,Delaware,Teresa Stuck
+249,12649,1/10/2021,George Washington,Dayton,Ashlee Goode
+249,12649,1/10/2021,George Washington,Dayton,Kristi Vera
+249,12649,1/10/2021,George Washington,Dayton,Mark McClenney
+249,12640,11/28/2020,George Washington,Old Dominion,Anthony Reddin
+249,12640,11/28/2020,George Washington,Old Dominion,Krystle Apellaniz
+249,12640,11/28/2020,George Washington,Old Dominion,Brandon Appel
+249,13006,3/4/2021,George Washington,Fordham,Kara Hunter
+249,13006,3/4/2021,George Washington,Fordham,Ryan Nunes
+249,13006,3/4/2021,George Washington,Fordham,Charlie Hust
+249,12656,2/1/2021,George Washington,Vcu,Maggie Tieman
+249,12656,2/1/2021,George Washington,Vcu,Ahslee Goode
+249,12656,2/1/2021,George Washington,Vcu,Brandon Enterline
+249,12660,2/14/2021,George Washington,St. Bonaventure,Charlie Hust
+249,12660,2/14/2021,George Washington,St. Bonaventure,Mark McClenney
+249,12660,2/14/2021,George Washington,St. Bonaventure,Kristi Vera
+430,10449,1/10/2021,Mississippi St.,Ole Miss,Eric Koch
+430,10449,1/10/2021,Mississippi St.,Ole Miss,Saif Esho
+430,10449,1/10/2021,Mississippi St.,Ole Miss,Angelica Suffren
+430,10453,1/28/2021,Mississippi St.,South Carolina,Karen Preato
+430,10453,1/28/2021,Mississippi St.,South Carolina,Brian Garland
+430,10453,1/28/2021,Mississippi St.,South Carolina,Brian Hall
+430,10468,12/20/2020,Mississippi St.,Central Ark.,Eric Koch
+430,10468,12/20/2020,Mississippi St.,Central Ark.,Maggie Tieman
+430,10468,12/20/2020,Mississippi St.,Central Ark.,Eric Brewton
+430,10452,1/3/2021,Mississippi St.,Kentucky,Joseph Vaszily
+430,10452,1/3/2021,Mississippi St.,Kentucky,BIlly Smith
+430,10452,1/3/2021,Mississippi St.,Kentucky,Laura Morris
+430,10462,12/2/2020,Mississippi St.,New Orleans,Natasha Camy
+430,10462,12/2/2020,Mississippi St.,New Orleans,Chaney Muench
+430,10462,12/2/2020,Mississippi St.,New Orleans,Gina Cross
+430,10458,2/23/2021,Mississippi St.,Auburn,Brian Hall
+430,10458,2/23/2021,Mississippi St.,Auburn,Karen Preato
+430,10458,2/23/2021,Mississippi St.,Auburn,Pualani Spurlock
+430,10461,2/28/2021,Mississippi St.,Missouri,Eric Baker
+430,10461,2/28/2021,Mississippi St.,Missouri,Roy Gulbeyan
+430,10461,2/28/2021,Mississippi St.,Missouri,Laura Morris
+430,10467,12/18/2020,Mississippi St.,Southern U.,Karleena Tobin
+430,10467,12/18/2020,Mississippi St.,Southern U.,Beverly Roberts
+430,10467,12/18/2020,Mississippi St.,Southern U.,Gina Cross
+430,10450,1/14/2021,Mississippi St.,Alabama,Bill Larance
+430,10450,1/14/2021,Mississippi St.,Alabama,Billy Smith
+430,10450,1/14/2021,Mississippi St.,Alabama,Tina Napier
+430,10466,12/14/2020,Mississippi St.,Troy,Denise Brooks
+430,10466,12/14/2020,Mississippi St.,Troy,Brian Garland
+430,10466,12/14/2020,Mississippi St.,Troy,Cameron Inouye
+742,22534,1/7/2021,Virginia Tech,Louisville,Jules Gallien
+742,22534,1/7/2021,Virginia Tech,Louisville,Thomas Danaher
+742,22534,1/7/2021,Virginia Tech,Louisville,Dee Kantner
+742,22522,12/4/2020,Virginia Tech,Appalachian St.,Jules Gallien
+742,22522,12/4/2020,Virginia Tech,Appalachian St.,Jeffrey Smith
+742,22522,12/4/2020,Virginia Tech,Appalachian St.,Nora Jones
+742,22574,3/4/2021,Virginia Tech,Miami (FL),Luis Gonzalez
+742,22574,3/4/2021,Virginia Tech,Miami (FL),Tiara Cruse
+742,22574,3/4/2021,Virginia Tech,Miami (FL),Joe Vaszily
+742,22535,1/31/2021,Virginia Tech,North Carolina,Katie Lukanich
+742,22535,1/31/2021,Virginia Tech,North Carolina,Dan Outlaw
+742,22535,1/31/2021,Virginia Tech,North Carolina,Jeffrey Smith
+742,22532,1/21/2021,Virginia Tech,Notre Dame,Talisa Green
+742,22532,1/21/2021,Virginia Tech,Notre Dame,Luis Gonzalez
+742,22532,1/21/2021,Virginia Tech,Notre Dame,Karen Preato
+742,22524,12/10/2020,Virginia Tech,Pittsburgh,Natasha Carny
+742,22524,12/10/2020,Virginia Tech,Pittsburgh,Saif Esho
+742,22524,12/10/2020,Virginia Tech,Pittsburgh,Joseph Vaszily
+742,22637,12/31/2020,Virginia Tech,Florida St.,Dee Kantner
+742,22637,12/31/2020,Virginia Tech,Florida St.,Carla Fountain
+742,22637,12/31/2020,Virginia Tech,Florida St.,Joseph Vaszily
+742,22815,2/28/2021,Virginia Tech,North Carolina,Talisa Green
+742,22815,2/28/2021,Virginia Tech,North Carolina,Thomas Danaher
+742,22815,2/28/2021,Virginia Tech,North Carolina,Rod Creech
+742,22531,1/17/2021,Virginia Tech,Wake Forest,Kevin Sparrock
+742,22531,1/17/2021,Virginia Tech,Wake Forest,Erika Herriman-Camarota
+742,22531,1/17/2021,Virginia Tech,Wake Forest,Ed Sidlasky
+742,22541,2/21/2021,Virginia Tech,Syracuse,Bobby Ray
+742,22541,2/21/2021,Virginia Tech,Syracuse,Fatou Cissoko-Stephens
+742,22541,2/21/2021,Virginia Tech,Syracuse,Thomas Danaher
+742,22582,12/1/2020,Virginia Tech,George Washington,Nic Cappel
+742,22582,12/1/2020,Virginia Tech,George Washington,Timothy Bryant
+742,22582,12/1/2020,Virginia Tech,George Washington,Nykesha Thompson
+742,22520,11/25/2020,Virginia Tech,Richmond,Kevin Sparrock
+742,22520,11/25/2020,Virginia Tech,Richmond,Jennifer Rezac
+742,22520,11/25/2020,Virginia Tech,Richmond,Bryan Brunette
+742,22521,11/28/2020,Virginia Tech,Liberty,Dan Outlaw
+742,22521,11/28/2020,Virginia Tech,Liberty,Daryl Humphrey
+742,22521,11/28/2020,Virginia Tech,Liberty,Carla Fountain
+742,22761,1/28/2021,Virginia Tech,NC State,Kevin Dillard
+742,22761,1/28/2021,Virginia Tech,NC State,Bruce Morris
+742,22761,1/28/2021,Virginia Tech,NC State,Maj Forsberg
+742,23886,3/21/2021,Virginia Tech,Marquette,Tyler Trimble
+742,23886,3/21/2021,Virginia Tech,Marquette,Tiffany Bird
+742,23886,3/21/2021,Virginia Tech,Marquette,Maj Forsberg
+463,20437,12/31/2020,Nebraska,Northwestern,Missy Brooks
+463,20437,12/31/2020,Nebraska,Northwestern,Angie Enlund
+463,20437,12/31/2020,Nebraska,Northwestern,Bob Enterline
+463,20441,1/16/2021,Nebraska,Ohio St.,Nykesha Thompson
+463,20441,1/16/2021,Nebraska,Ohio St.,Bryan Enterline
+463,20441,1/16/2021,Nebraska,Ohio St.,Tim Daley
+463,20431,12/4/2020,Nebraska,Oral Roberts,Ann Schroeder
+463,20431,12/4/2020,Nebraska,Oral Roberts,Maggie Tieman
+463,20431,12/4/2020,Nebraska,Oral Roberts,Michael McConnell
+463,20450,2/21/2021,Nebraska,Penn St.,Mark Berger
+463,20450,2/21/2021,Nebraska,Penn St.,Bryan Enterline
+463,20450,2/21/2021,Nebraska,Penn St.,Nykesha Thompson
+463,20447,2/11/2021,Nebraska,Iowa,Steratore Frank
+463,20447,2/11/2021,Nebraska,Iowa,Enterline Bryan
+463,20447,2/11/2021,Nebraska,Iowa,Pethtel Kevin
+463,20448,2/14/2021,Nebraska,Maryland,Missy Brooks
+463,20448,2/14/2021,Nebraska,Maryland,Jeff Cross
+463,20448,2/14/2021,Nebraska,Maryland,Nykesha Thompson
+463,20868,3/19/2021,Nebraska,UT Martin,Scott Klomfas
+463,20868,3/19/2021,Nebraska,UT Martin,Jessica Fortner
+463,20868,3/19/2021,Nebraska,UT Martin,Eric Koch
+463,20444,1/28/2021,Nebraska,Wisconsin,Kelsey Reynolds
+463,20444,1/28/2021,Nebraska,Wisconsin,Missy Brooks
+463,20444,1/28/2021,Nebraska,Wisconsin,Michael McConnell
+463,20432,12/6/2020,Nebraska,Idaho St.,Erica Parker
+463,20432,12/6/2020,Nebraska,Idaho St.,Jeff Cross
+463,20432,12/6/2020,Nebraska,Idaho St.,Mark Resch
+463,20454,3/10/2021,Nebraska,Minnesota,Beverly Roberts
+463,20454,3/10/2021,Nebraska,Minnesota,Mark Zentz
+463,20454,3/10/2021,Nebraska,Minnesota,Gina Cross
+463,20442,1/19/2021,Nebraska,Minnesota,Michael McConnell
+463,20442,1/19/2021,Nebraska,Minnesota,Beverly Roberts
+463,20442,1/19/2021,Nebraska,Minnesota,Mark Zentz
+463,20434,12/10/2020,Nebraska,Illinois,Missy Brooks
+463,20434,12/10/2020,Nebraska,Illinois,Brad Maxey
+463,20434,12/10/2020,Nebraska,Illinois,Tom Hallead
+463,20438,1/3/2021,Nebraska,Rutgers,Blanca Burns
+463,20438,1/3/2021,Nebraska,Rutgers,Mark Berger
+463,20438,1/3/2021,Nebraska,Rutgers,Michael McConnell
+301,22888,11/25/2020,Illinois,Indiana St.,Erica Parker
+301,22888,11/25/2020,Illinois,Indiana St.,Talisa Green
+301,22888,11/25/2020,Illinois,Indiana St.,Bob Enterline
+301,22889,12/2/2020,Illinois,Valparaiso,Jeff Cross
+301,22889,12/2/2020,Illinois,Valparaiso,Karleena Tobin
+301,22889,12/2/2020,Illinois,Valparaiso,Maggie Tieman
+301,23138,3/9/2021,Illinois,Wisconsin,Beverly Roberts
+301,23138,3/9/2021,Illinois,Wisconsin,Michael McConnell
+301,23138,3/9/2021,Illinois,Wisconsin,Mark Zentz
+301,22904,2/7/2021,Illinois,Purdue,Michael McConnell
+301,22904,2/7/2021,Illinois,Purdue,Jeff Cross
+301,22904,2/7/2021,Illinois,Purdue,Felicia Grinter
+301,22895,1/3/2021,Illinois,Iowa,Kelsey Reynolds
+301,22895,1/3/2021,Illinois,Iowa,Karleena Tobin
+301,22895,1/3/2021,Illinois,Iowa,Bryan Enterline
+301,22909,2/24/2021,Illinois,Northwestern,Michael McConnell
+301,22909,2/24/2021,Illinois,Northwestern,Beverly Roberts
+301,22909,2/24/2021,Illinois,Northwestern,Tina Napier
+301,22906,2/14/2021,Illinois,Indiana,Brad Maxey
+301,22906,2/14/2021,Illinois,Indiana,Erika Herriman-Camarota
+301,22906,2/14/2021,Illinois,Indiana,Bob Enterline
+301,22896,1/7/2021,Illinois,Ohio St.,Erika Herriman-Carmota
+301,22896,1/7/2021,Illinois,Ohio St.,Jeff Cross
+301,22896,1/7/2021,Illinois,Ohio St.,Tim Daley
+301,22911,3/5/2021,Illinois,Minnesota,Brad Maxey
+301,22911,3/5/2021,Illinois,Minnesota,Jeff Cross
+301,22911,3/5/2021,Illinois,Minnesota,Mark Zentz
+301,22900,1/25/2021,Illinois,Nebraska,Erika Herriman-Broderick
+301,22900,1/25/2021,Illinois,Nebraska,Mark Berger
+301,22900,1/25/2021,Illinois,Nebraska,Tim Daley
+301,22890,12/6/2020,Illinois,Omaha,Jamie Broderick
+301,22890,12/6/2020,Illinois,Omaha,Angie Enlund
+301,22890,12/6/2020,Illinois,Omaha,Tim Daley
+301,22901,1/28/2021,Illinois,Penn St.,Jamie Broderick
+301,22901,1/28/2021,Illinois,Penn St.,Jeff Cross
+301,22901,1/28/2021,Illinois,Penn St.,Angie Enlund
+306,24566,1/10/2021,Indiana,Wisconsin,Mark Berger
+306,24566,1/10/2021,Indiana,Wisconsin,Erika Herriman-Camarota
+306,24566,1/10/2021,Indiana,Wisconsin,Frank Steratore
+306,24571,1/31/2021,Indiana,Michigan St.,Mark Berger
+306,24571,1/31/2021,Indiana,Michigan St.,Nykesha Thompson
+306,24571,1/31/2021,Indiana,Michigan St.,Tina Napier
+306,24576,2/18/2021,Indiana,Michigan,Kevin Pethtel
+306,24576,2/18/2021,Indiana,Michigan,Nykesha Thompson
+306,24576,2/18/2021,Indiana,Michigan,Tim Daley
+306,24582,12/17/2020,Indiana,Tennessee,Kevin Pethtel
+306,24582,12/17/2020,Indiana,Tennessee,Angie Enlund
+306,24582,12/17/2020,Indiana,Tennessee,Brian Hall
+306,24561,12/20/2020,Indiana,Nebraska,Kristen Bell
+306,24561,12/20/2020,Indiana,Nebraska,Tom Hallead
+306,24561,12/20/2020,Indiana,Nebraska,Michael McConnell
+306,24577,3/3/2021,Indiana,Iowa,Tiara Cruse
+306,24577,3/3/2021,Indiana,Iowa,Tim Daley
+306,24577,3/3/2021,Indiana,Iowa,Mark Zentz
+306,24574,2/10/2021,Indiana,Penn St.,Jamie Broderick
+306,24574,2/10/2021,Indiana,Penn St.,Kevin Pethtel
+306,24574,2/10/2021,Indiana,Penn St.,Jesse Dickerson
+306,24558,11/25/2020,Indiana,Eastern Ky.,Trey Miles
+306,24558,11/25/2020,Indiana,Eastern Ky.,Brad Maxey
+306,24558,11/25/2020,Indiana,Eastern Ky.,Tom Hallead
+306,24580,3/6/2021,Indiana,Purdue,Karleena Tobin
+306,24580,3/6/2021,Indiana,Purdue,Kevin Pethtel
+306,24580,3/6/2021,Indiana,Purdue,Nykesha Thompson
+306,24559,12/3/2020,Indiana,Samford,Jamie Broderick
+306,24559,12/3/2020,Indiana,Samford,Frank Steratore
+306,24559,12/3/2020,Indiana,Samford,Mark Zentz
+306,24563,12/31/2020,Indiana,Illinois,Mark Berger
+306,24563,12/31/2020,Indiana,Illinois,Jamie Broderick
+306,24563,12/31/2020,Indiana,Illinois,Jesse Dickerson
+306,24925,3/22/2021,Indiana,Vcu,Bryan Brunette
+306,24925,3/22/2021,Indiana,Vcu,Tiara Cruse
+306,24925,3/22/2021,Indiana,Vcu,Lisa Jones
+306,24572,1/28/2021,Indiana,Ohio St.,Karleena Tobin
+306,24572,1/28/2021,Indiana,Ohio St.,Brad Maxey
+306,24572,1/28/2021,Indiana,Ohio St.,Tiara Cruse
+306,24953,3/24/2021,Indiana,Belmont,Tim Daley
+306,24953,3/24/2021,Indiana,Belmont,Maggie Tieman
+306,24953,3/24/2021,Indiana,Belmont,Felicia Grinter
+306,24894,3/11/2021,Indiana,Michigan St.,Cameron Inouye
+306,24894,3/11/2021,Indiana,Michigan St.,Tim Daley
+306,24894,3/11/2021,Indiana,Michigan St.,Gina Cross
+310,12852,12/4/2020,Iona,Bryant,Zoe Robbins
+310,12852,12/4/2020,Iona,Bryant,Kevin Farlow
+310,12852,12/4/2020,Iona,Bryant,Don Cummiskey
+310,12809,12/12/2020,Iona,Saint Peter's,Michael VanGelder
+310,12809,12/12/2020,Iona,Saint Peter's,Jr.
+310,12809,12/12/2020,Iona,Saint Peter's,Ronnie Stephenson
+310,12809,12/12/2020,Iona,Saint Peter's,Don Cummiskey
+310,12798,12/18/2020,Iona,Rider,James Hawkins
+310,12798,12/18/2020,Iona,Rider,Ryan Nunes
+310,12798,12/18/2020,Iona,Rider,Kathy Lonergan
+310,12808,12/19/2020,Iona,Rider,James Hawkins
+310,12808,12/19/2020,Iona,Rider,Ryan Nunes
+310,12808,12/19/2020,Iona,Rider,Kathy Longeran
+310,12804,12/13/2020,Iona,Saint Peter's,Michael VanGelder
+310,12804,12/13/2020,Iona,Saint Peter's,Jr.
+310,12804,12/13/2020,Iona,Saint Peter's,Ronnie Stephenson
+310,12804,12/13/2020,Iona,Saint Peter's,Don Cummiskey
+310,12853,12/22/2020,Iona,Sacred Heart,Michael Mei
+310,12853,12/22/2020,Iona,Sacred Heart,Kaz Beverley
+310,12853,12/22/2020,Iona,Sacred Heart,Lori Deutsch
+310,12797,2/17/2021,Iona,Fairfield,Kaz Beverley
+310,12797,2/17/2021,Iona,Fairfield,Sarah Williams
+310,12797,2/17/2021,Iona,Fairfield,Pastor Torres
+334,8585,12/9/2020,Kentucky,Marshall,Dee Kantner
+334,8585,12/9/2020,Kentucky,Marshall,Cameron Inouye
+334,8585,12/9/2020,Kentucky,Marshall,Beverly Roberts
+334,8589,12/31/2020,Kentucky,Arkansas,Kylie Galloway
+334,8589,12/31/2020,Kentucky,Arkansas,Brian Hall
+334,8589,12/31/2020,Kentucky,Arkansas,Eric Brewton
+334,8588,12/19/2020,Kentucky,Wofford,Carmen Portorreal
+334,8588,12/19/2020,Kentucky,Wofford,Eric Brewton
+334,8588,12/19/2020,Kentucky,Wofford,Denise Brooks
+334,8906,3/23/2021,Kentucky,Iowa,Cameron Inouye
+334,8906,3/23/2021,Kentucky,Iowa,Tiara Cruse
+334,8906,3/23/2021,Kentucky,Iowa,Charles Gonzalez
+334,8592,1/10/2021,Kentucky,South Carolina,Billy Smith
+334,8592,1/10/2021,Kentucky,South Carolina,Pualani Spurlock
+334,8592,1/10/2021,Kentucky,South Carolina,Gina Cross
+334,8599,2/11/2021,Kentucky,Tennessee,Tina Napier
+334,8599,2/11/2021,Kentucky,Tennessee,Beverly Roberts
+334,8599,2/11/2021,Kentucky,Tennessee,Pualani Spurlock
+334,8583,11/29/2020,Kentucky,Belmont,Starr Jefferson
+334,8583,11/29/2020,Kentucky,Belmont,Blanca Burns
+334,8583,11/29/2020,Kentucky,Belmont,Troy Winders
+334,8604,2/28/2021,Kentucky,Ole Miss,Natasha Camy
+334,8604,2/28/2021,Kentucky,Ole Miss,Pualani Spurlock
+334,8604,2/28/2021,Kentucky,Ole Miss,Gina Cross
+334,8605,12/6/2020,Kentucky,Indiana,Kristen Bell
+334,8605,12/6/2020,Kentucky,Indiana,Eric Koch
+334,8605,12/6/2020,Kentucky,Indiana,Meadow Overstreet
+334,8594,1/17/2021,Kentucky,Vanderbilt,Maggie Tieman
+334,8594,1/17/2021,Kentucky,Vanderbilt,Luis Gonzalez
+334,8594,1/17/2021,Kentucky,Vanderbilt,Felicia Grinter
+334,8582,11/25/2020,Kentucky,Murray St.,Laura Morris
+334,8582,11/25/2020,Kentucky,Murray St.,Gina Cross
+334,8582,11/25/2020,Kentucky,Murray St.,Tina Napier
+334,8597,1/31/2021,Kentucky,Missouri,Luis Gonzalez
+334,8597,1/31/2021,Kentucky,Missouri,Felicia Grinter
+334,8597,1/31/2021,Kentucky,Missouri,Cameron Inouye
+334,8596,1/28/2021,Kentucky,Alabama,Kylie Galloway
+334,8596,1/28/2021,Kentucky,Alabama,Laura Morris
+334,8596,1/28/2021,Kentucky,Alabama,Dee Kantner
+334,8905,3/21/2021,Kentucky,Idaho St.,Kylie Galloway
+334,8905,3/21/2021,Kentucky,Idaho St.,Brian Garland
+334,8905,3/21/2021,Kentucky,Idaho St.,Michol Murray
+334,8898,3/4/2021,Kentucky,Florida,Roy Gulbeyan
+334,8898,3/4/2021,Kentucky,Florida,Laura Morris
+334,8898,3/4/2021,Kentucky,Florida,Denise Brooks
+334,8586,12/13/2020,Kentucky,Samford,Starr Jefferson
+334,8586,12/13/2020,Kentucky,Samford,Roy Gulbeyan
+334,8586,12/13/2020,Kentucky,Samford,Michael McConnell
+327,16319,1/28/2021,Kansas St.,Iowa St.,Greg Small
+327,16319,1/28/2021,Kansas St.,Iowa St.,Bill Larance
+327,16319,1/28/2021,Kansas St.,Iowa St.,Cameron Inouye
+327,16322,2/7/2021,Kansas St.,Baylor,Marty Cook
+327,16322,2/7/2021,Kansas St.,Baylor,Tiara Cruse
+327,16322,2/7/2021,Kansas St.,Baylor,Kevin Pethtel
+327,16477,3/1/2021,Kansas St.,Tcu,Missy Brooks
+327,16477,3/1/2021,Kansas St.,Tcu,Bill Larance
+327,16477,3/1/2021,Kansas St.,Tcu,Michael McConnell
+327,16324,2/13/2021,Kansas St.,Kansas,Bruce Morris
+327,16324,2/13/2021,Kansas St.,Kansas,Beverly Roberts
+327,16324,2/13/2021,Kansas St.,Kansas,Gina Cross
+327,16257,12/8/2020,Kansas St.,Idaho St.,Zac Brost
+327,16257,12/8/2020,Kansas St.,Idaho St.,Roy Gulbeyan
+327,16257,12/8/2020,Kansas St.,Idaho St.,Beverly Roberts
+327,16262,12/3/2020,Kansas St.,Kentucky,Doug Knight
+327,16262,12/3/2020,Kansas St.,Kentucky,Metta Christensen
+327,16262,12/3/2020,Kansas St.,Kentucky,Brian Garland
+327,16327,2/24/2021,Kansas St.,Texas Tech,Nick Marshall
+327,16327,2/24/2021,Kansas St.,Texas Tech,Brian Garland
+327,16327,2/24/2021,Kansas St.,Texas Tech,Felicia Grinter
+327,16258,12/14/2020,Kansas St.,Kansas City,Greg Small
+327,16258,12/14/2020,Kansas St.,Kansas City,Maj Forsberg
+327,16258,12/14/2020,Kansas St.,Kansas City,Mark Zentz
+327,16310,12/21/2020,Kansas St.,Texas,Doug Knight
+327,16310,12/21/2020,Kansas St.,Texas,Billy Smith
+327,16310,12/21/2020,Kansas St.,Texas,Jesse Dickerson
+327,16255,11/29/2020,Kansas St.,Southern U.,Zac Brost
+327,16255,11/29/2020,Kansas St.,Southern U.,Roy Gulbeyan
+327,16255,11/29/2020,Kansas St.,Southern U.,Julie Krommenhoek
+327,16264,12/12/2020,Kansas St.,Omaha,Tiara Cruse
+327,16264,12/12/2020,Kansas St.,Omaha,Eric Brewton
+327,16264,12/12/2020,Kansas St.,Omaha,Dee Kantner
+327,16478,3/3/2021,Kansas St.,West Virginia,Julie Krommenhoek
+327,16478,3/3/2021,Kansas St.,West Virginia,Bryan Enterline
+327,16478,3/3/2021,Kansas St.,West Virginia,Brian Hall
+327,16402,1/25/2021,Kansas St.,Oklahoma St.,Doug Knight
+327,16402,1/25/2021,Kansas St.,Oklahoma St.,Scott Yarbrough
+327,16402,1/25/2021,Kansas St.,Oklahoma St.,Lisa Jones
+327,16265,12/10/2020,Kansas St.,South Dakota St.,Bryan Enterline
+327,16265,12/10/2020,Kansas St.,South Dakota St.,Nykesha Thompson
+327,16265,12/10/2020,Kansas St.,South Dakota St.,Kevin Pethtel
+327,16320,1/31/2021,Kansas St.,Oklahoma,Julie Krommenhoek
+327,16320,1/31/2021,Kansas St.,Oklahoma,Metta Christensen
+327,16320,1/31/2021,Kansas St.,Oklahoma,Jesse Dickerson
+270,8171,12/22/2020,Hampton University,Charleston So.,Mark Hardcastle
+270,8171,12/22/2020,Hampton University,Charleston So.,Deanna Jackson
+270,8171,12/22/2020,Hampton University,Charleston So.,Ray Bullock
+270,8171,12/22/2020,Hampton University,Charleston So.,Jr.
+270,8170,12/21/2020,Hampton University,Charleston Southern,Edward Matthews
+270,8170,12/21/2020,Hampton University,Charleston Southern,Toni Patillo
+270,8170,12/21/2020,Hampton University,Charleston Southern,Ray Bullock
+270,8170,12/21/2020,Hampton University,Charleston Southern,Jr.
+270,8179,1/16/2021,Hampton University,USC Upstate,Kristi Vera
+270,8179,1/16/2021,Hampton University,USC Upstate,Michael Knisely
+270,8179,1/16/2021,Hampton University,USC Upstate,Wesley Carter
+270,8180,1/22/2021,Hampton University,Winthrop,Toni Patillo
+270,8180,1/22/2021,Hampton University,Winthrop,John Holmes
+270,8180,1/22/2021,Hampton University,Winthrop,Kyle Pickett
+270,8175,2/16/2021,Hampton University,Radford,Daryl Humphrey
+270,8175,2/16/2021,Hampton University,Radford,Katie Wood
+270,8175,2/16/2021,Hampton University,Radford,Kevin Maurer
+270,8174,1/26/2021,Hampton University,Radford,Mark McClenney
+270,8174,1/26/2021,Hampton University,Radford,Josh Howell
+270,8174,1/26/2021,Hampton University,Radford,Michael Johnson
+270,8181,1/23/2021,Hampton University,Winthrop,John Holmes
+270,8181,1/23/2021,Hampton University,Winthrop,Kyle Pickett
+270,8181,1/23/2021,Hampton University,Winthrop,Quinn Mathlin
+270,8178,1/15/2021,Hampton University,USC Upstate,Roy Jackson
+270,8178,1/15/2021,Hampton University,USC Upstate,Wesley Carter
+270,8178,1/15/2021,Hampton University,USC Upstate,Darryl Humphrey
+694,16397,1/28/2021,Tennessee,Ole Miss,Saif Esho
+694,16397,1/28/2021,Tennessee,Ole Miss,Joseph Vaszily
+694,16397,1/28/2021,Tennessee,Ole Miss,Tina Napier
+694,16391,1/24/2021,Tennessee,Kentucky,Brian Hall
+694,16391,1/24/2021,Tennessee,Kentucky,Billy Smith
+694,16391,1/24/2021,Tennessee,Kentucky,Denise Brooks
+694,16451,12/10/2020,Tennessee,Furman,Meadow Overstreet
+694,16451,12/10/2020,Tennessee,Furman,Roy Gulbeyan
+694,16451,12/10/2020,Tennessee,Furman,Tina Napier
+694,16406,3/5/2021,Tennessee,Ole Miss,Pulani Spurlock-Welsh
+694,16406,3/5/2021,Tennessee,Ole Miss,Felicia Grinter
+694,16406,3/5/2021,Tennessee,Ole Miss,Tina Napier
+694,16385,12/1/2020,Tennessee,Etsu,Mark Zentz
+694,16385,12/1/2020,Tennessee,Etsu,Felicia Grinter
+694,16385,12/1/2020,Tennessee,Etsu,Dee Kantner
+694,16405,2/28/2021,Tennessee,Auburn,Luis Gonzalez
+694,16405,2/28/2021,Tennessee,Auburn,Felicia Grinter
+694,16405,2/28/2021,Tennessee,Auburn,Beverly Roberts
+694,16389,12/28/2020,Tennessee,Lipscomb,Kylie Galloway
+694,16389,12/28/2020,Tennessee,Lipscomb,Brian Hall
+694,16389,12/28/2020,Tennessee,Lipscomb,Laura Morris
+694,16409,3/23/2021,Tennessee,Michigan,Bryan Brunette
+694,16409,3/23/2021,Tennessee,Michigan,Bob Scofield
+694,16409,3/23/2021,Tennessee,Michigan,Maj Forsberg
+694,16408,3/21/2021,Tennessee,Middle Tenn.,Roy Gulbeyan
+694,16408,3/21/2021,Tennessee,Middle Tenn.,Brian Hall
+694,16408,3/21/2021,Tennessee,Middle Tenn.,Carla Fountain
+694,16388,12/20/2020,Tennessee,UNC Greensboro,Meadow Overstreet
+694,16388,12/20/2020,Tennessee,UNC Greensboro,Karleena Tobin
+694,16388,12/20/2020,Tennessee,UNC Greensboro,Tina Napier
+694,16392,1/7/2021,Tennessee,Arkansas,Metta Christensen
+694,16392,1/7/2021,Tennessee,Arkansas,Karen Preato
+694,16392,1/7/2021,Tennessee,Arkansas,Billy Smith
+694,16384,11/28/2020,Tennessee,Western Ky.,Ify Seales
+694,16384,11/28/2020,Tennessee,Western Ky.,Edir Baker
+694,16384,11/28/2020,Tennessee,Western Ky.,Katie Lukanich
+694,16394,1/14/2021,Tennessee,Georgia,Metta Christensen
+694,16394,1/14/2021,Tennessee,Georgia,Meadow Overstreet
+694,16394,1/14/2021,Tennessee,Georgia,Jesse Dickerson
+694,16402,2/18/2021,Tennessee,South Carolina,Natasha Camy
+694,16402,2/18/2021,Tennessee,South Carolina,Eric Brewton
+694,16402,2/18/2021,Tennessee,South Carolina,Laura Morris
+694,15920,1/21/2021,Tennessee,UConn,Cameron Inouye
+694,15920,1/21/2021,Tennessee,UConn,Gina Cross
+694,15920,1/21/2021,Tennessee,UConn,Dee Kantner
+694,16398,1/31/2021,Tennessee,Florida,Bill Larance
+694,16398,1/31/2021,Tennessee,Florida,Maggie Tieman
+694,16398,1/31/2021,Tennessee,Florida,Eric Brewton
+340,9873,3/11/2021,La Salle,Duquesne,Maggie Tieman
+340,9873,3/11/2021,La Salle,Duquesne,Brandon Enterline
+340,9873,3/11/2021,La Salle,Duquesne,John Capolino
+340,9609,12/11/2020,La Salle,Howard,Toni Patillo
+340,9609,12/11/2020,La Salle,Howard,Alex Leap
+340,9609,12/11/2020,La Salle,Howard,Mark Resch
+340,9652,1/3/2021,La Salle,Massachusetts,Bobby Ray
+340,9652,1/3/2021,La Salle,Massachusetts,Nic Cappel
+340,9652,1/3/2021,La Salle,Massachusetts,Ryan Durham
+340,9653,1/10/2021,La Salle,Saint Joseph's,Brandon Marion
+340,9653,1/10/2021,La Salle,Saint Joseph's,Krystle Apellaniz
+340,9653,1/10/2021,La Salle,Saint Joseph's,Bob Enterline
+340,9669,11/30/2020,La Salle,Towson,Timothy Greenee
+340,9669,11/30/2020,La Salle,Towson,Shawn Goode
+340,9669,11/30/2020,La Salle,Towson,Norma Jones
+340,9666,2/26/2021,La Salle,Duquesne,Isaac Johnson
+340,9666,2/26/2021,La Salle,Duquesne,Carmen Portorreal
+340,9666,2/26/2021,La Salle,Duquesne,Tom Danaher
+340,9611,12/5/2020,La Salle,Saint Francis (PA),Scott Berkins
+340,9611,12/5/2020,La Salle,Saint Francis (PA),Isaac Johnson
+340,9611,12/5/2020,La Salle,Saint Francis (PA),Kristi Vera
+340,9651,1/1/2021,La Salle,Rhode Island,Felicia Young
+340,9651,1/1/2021,La Salle,Rhode Island,Maggie Tieman
+340,9651,1/1/2021,La Salle,Rhode Island,Tom Danaher
+340,9667,2/28/2021,La Salle,St. Bonaventure,Nic Cappel
+340,9667,2/28/2021,La Salle,St. Bonaventure,Ryan Nunes
+340,9667,2/28/2021,La Salle,St. Bonaventure,Geraldine Smith
+340,9763,1/13/2021,La Salle,Drexel,Toni Patillo
+340,9763,1/13/2021,La Salle,Drexel,Pastor Torres
+340,9763,1/13/2021,La Salle,Drexel,Jeffrey Smith
+340,9656,1/22/2021,La Salle,George Washington,Brandon Appel
+340,9656,1/22/2021,La Salle,George Washington,Saif Esho
+340,9656,1/22/2021,La Salle,George Washington,Pulami Spurlock-Welsh
+340,9660,2/5/2021,La Salle,Saint Louis,Brandon Marion
+340,9660,2/5/2021,La Salle,Saint Louis,Krystle Apellaniz
+340,9660,2/5/2021,La Salle,Saint Louis,Mark McClenney
+340,9661,2/7/2021,La Salle,Dayton,Jennifer Washo
+340,9661,2/7/2021,La Salle,Dayton,Charlie Hust
+340,9661,2/7/2021,La Salle,Dayton,Bob Enterline
+340,9657,1/24/2021,La Salle,George Mason,Whitney Armstrong
+340,9657,1/24/2021,La Salle,George Mason,Brandon Enterline
+340,9657,1/24/2021,La Salle,George Mason,Fatou Cissoko-Stephens
+381,9418,2/14/2021,Manhattan,Iona,Scott Berkins
+381,9418,2/14/2021,Manhattan,Iona,Lori Deutsch
+381,9418,2/14/2021,Manhattan,Iona,Anthony Reddin
+381,9422,12/19/2020,Manhattan,Quinnipiac,Brandon Appel
+381,9422,12/19/2020,Manhattan,Quinnipiac,Hillary Harwell
+381,9422,12/19/2020,Manhattan,Quinnipiac,Timothy Greenee
+381,9609,3/21/2021,Manhattan,Fiu,Stacey Lee
+381,9609,3/21/2021,Manhattan,Fiu,Troy Ramey
+381,9609,3/21/2021,Manhattan,Fiu,Kalei Enterline
+381,9412,1/1/2021,Manhattan,Saint Peter's,Hillary Harwell
+381,9412,1/1/2021,Manhattan,Saint Peter's,Brandon Appel
+381,9412,1/1/2021,Manhattan,Saint Peter's,Timothy Greenee
+381,9445,1/19/2021,Manhattan,Northeastern,Ashlee Goode
+381,9445,1/19/2021,Manhattan,Northeastern,Kathy Lonergan
+381,9445,1/19/2021,Manhattan,Northeastern,Teresa Stuck
+381,9413,12/18/2020,Manhattan,Quinnipiac,Brandon Appel
+381,9413,12/18/2020,Manhattan,Quinnipiac,Hillary Harwell
+381,9413,12/18/2020,Manhattan,Quinnipiac,Timothy Greenee
+381,9608,3/20/2021,Manhattan,Loyola Chicago,Charlie Hurst
+381,9608,3/20/2021,Manhattan,Loyola Chicago,Troy Winders
+381,9608,3/20/2021,Manhattan,Loyola Chicago,Jamie Broderick
+381,9409,2/6/2021,Manhattan,Saint Peter's,Ray Bullock
+381,9409,2/6/2021,Manhattan,Saint Peter's,Heather Browne
+381,9409,2/6/2021,Manhattan,Saint Peter's,Joe Vaszily
+381,9426,1/2/2021,Manhattan,Saint Peter's,Hillary Harwell
+381,9426,1/2/2021,Manhattan,Saint Peter's,Brandon Appel
+381,9426,1/2/2021,Manhattan,Saint Peter's,Timothy Greenee
+381,9427,2/13/2021,Manhattan,Iona,Scott Berkins
+381,9427,2/13/2021,Manhattan,Iona,Lori Deutsch
+381,9427,2/13/2021,Manhattan,Iona,Anthony Reddin
+381,9440,12/8/2020,Manhattan,Stony Brook,Scott Berkins
+381,9440,12/8/2020,Manhattan,Stony Brook,Lori Deutsch
+381,9440,12/8/2020,Manhattan,Stony Brook,Jeffrey Smith
+387,8854,3/7/2021,Marquette,Creighton,Katie Lukanich
+387,8854,3/7/2021,Marquette,Creighton,Tiara Cruse
+387,8854,3/7/2021,Marquette,Creighton,Rod Creech
+387,8663,12/16/2020,Marquette,St. John's (NY),Kevin Dillard
+387,8663,12/16/2020,Marquette,St. John's (NY),Tiara Cruse
+387,8663,12/16/2020,Marquette,St. John's (NY),Joseph Vaszily
+387,8662,12/4/2020,Marquette,Providence,Karen Preato
+387,8662,12/4/2020,Marquette,Providence,Tom Danaher
+387,8662,12/4/2020,Marquette,Providence,Ed Sidlasky
+387,8736,2/7/2021,Marquette,DePaul,Billy Smith
+387,8736,2/7/2021,Marquette,DePaul,Jules Gallien
+387,8736,2/7/2021,Marquette,DePaul,Fatou Cissoko-Stephens
+387,8690,2/5/2021,Marquette,UConn,Maggie Tieman
+387,8690,2/5/2021,Marquette,UConn,Karen Preato
+387,8690,2/5/2021,Marquette,UConn,Eric Brewton
+387,8669,12/2/2020,Marquette,Milwaukee,Saif Esho
+387,8669,12/2/2020,Marquette,Milwaukee,Brandon Enterline
+387,8669,12/2/2020,Marquette,Milwaukee,Katie Lukanich
+387,8853,3/6/2021,Marquette,Providence,Jeff Smith
+387,8853,3/6/2021,Marquette,Providence,Fatou Cissoko-Stevens
+387,8853,3/6/2021,Marquette,Providence,Tom Danaher
+387,8701,2/10/2021,Marquette,Butler,John Capolino
+387,8701,2/10/2021,Marquette,Butler,Brandon Enterline
+387,8701,2/10/2021,Marquette,Butler,Pulani Spurlock-Welsh
+387,8703,2/22/2021,Marquette,Creighton,Brandon Enterline
+387,8703,2/22/2021,Marquette,Creighton,Erik Brewton
+387,8703,2/22/2021,Marquette,Creighton,Dee Kantner
+387,8739,2/19/2021,Marquette,Villanova,Rod Creech
+387,8739,2/19/2021,Marquette,Villanova,Bruce Morris
+387,8739,2/19/2021,Marquette,Villanova,Ed Sidlasky
+387,8695,1/20/2021,Marquette,Georgetown,Jules Gallien
+387,8695,1/20/2021,Marquette,Georgetown,Brandon Enterline
+387,8695,1/20/2021,Marquette,Georgetown,Natasha Camy
+404,16071,1/23/2021,Memphis,Tulsa,Rod Creech
+404,16071,1/23/2021,Memphis,Tulsa,Krystle Apellaniz
+404,16071,1/23/2021,Memphis,Tulsa,Denise Brooks
+404,16046,12/19/2020,Memphis,Alabama,Katie Lukanich
+404,16046,12/19/2020,Memphis,Alabama,Fatou Cissoko-Stephens
+404,16046,12/19/2020,Memphis,Alabama,Bruce Morris
+404,16085,2/23/2021,Memphis,Tulane,Katie Lukanich
+404,16085,2/23/2021,Memphis,Tulane,Bobby Ray
+404,16085,2/23/2021,Memphis,Tulane,Maj Forsberg
+404,16089,12/1/2020,Memphis,Little Rock,Teresa Stuck
+404,16089,12/1/2020,Memphis,Little Rock,Gerladine Smith
+404,16089,12/1/2020,Memphis,Little Rock,Bryan Brunette
+404,16040,12/16/2020,Memphis,South Fla.,Natasha Camy
+404,16040,12/16/2020,Memphis,South Fla.,Ed Sidlasky
+404,16040,12/16/2020,Memphis,South Fla.,Bryan Brunette
+404,16079,2/6/2021,Memphis,East Carolina,Brandon Enterline
+404,16079,2/6/2021,Memphis,East Carolina,Norma Jones
+404,16079,2/6/2021,Memphis,East Carolina,Bryan Brunette
+404,16038,12/6/2020,Memphis,Liberty,Rob Fessler
+404,16038,12/6/2020,Memphis,Liberty,Pualani Spurlock
+404,16038,12/6/2020,Memphis,Liberty,Nic Cappel
+404,16039,12/12/2020,Memphis,McNeese,Joshua Hall
+404,16039,12/12/2020,Memphis,McNeese,Norma Jones
+404,16039,12/12/2020,Memphis,McNeese,Luis Gonzalez
+404,16081,2/10/2021,Memphis,Cincinnati,Krystle Apellaniz
+404,16081,2/10/2021,Memphis,Cincinnati,Ron Ledington
+404,16081,2/10/2021,Memphis,Cincinnati,Scott Yarbrough
+404,16048,12/22/2020,Memphis,Houston,Isaac D. Johnson
+404,16048,12/22/2020,Memphis,Houston,Talisa Green
+404,16048,12/22/2020,Memphis,Houston,Jeffery Smith
+406,6827,1/30/2021,Mercer,Chattanooga,Kim Crabtree
+406,6827,1/30/2021,Mercer,Chattanooga,Chad Tucker
+406,6827,1/30/2021,Mercer,Chattanooga,Ed Novak
+406,6831,1/23/2021,Mercer,Furman,Courtney Robinson
+406,6831,1/23/2021,Mercer,Furman,Libya Rentz
+406,6831,1/23/2021,Mercer,Furman,Kristie Weed
+406,6830,2/21/2021,Mercer,Wofford,Adrienne Gilmore
+406,6830,2/21/2021,Mercer,Wofford,Jeffrey McNichol
+406,6830,2/21/2021,Mercer,Wofford,Mark McClenney
+406,6821,1/28/2021,Mercer,Chattanooga,Shawnie Smith
+406,6821,1/28/2021,Mercer,Chattanooga,Carla Roberts-Jeter
+406,6821,1/28/2021,Mercer,Chattanooga,Mark McClenney
+406,6822,2/25/2021,Mercer,Samford,Chad Tucker
+406,6822,2/25/2021,Mercer,Samford,Libya Rentz
+406,6822,2/25/2021,Mercer,Samford,Carla Roberts-Jeter
+406,6834,3/7/2021,Mercer,Wofford,Mark McClenney
+406,6834,3/7/2021,Mercer,Wofford,Carla Fountain
+406,6834,3/7/2021,Mercer,Wofford,Mark Hardcastle
+406,6896,12/5/2020,Mercer,Covenant,Tori Durrett
+406,6896,12/5/2020,Mercer,Covenant,Keith Wages
+406,6896,12/5/2020,Mercer,Covenant,Carla Roberts-Jeter
+406,6814,12/15/2020,Mercer,South Carolina St.,Carla Roberts-Jeter
+406,6814,12/15/2020,Mercer,South Carolina St.,Talisa Green
+406,6814,12/15/2020,Mercer,South Carolina St.,Carla Fountin
+406,6809,11/28/2020,Mercer,Tennessee St.,Kristen Jones
+406,6809,11/28/2020,Mercer,Tennessee St.,Daniel Drake
+406,6809,11/28/2020,Mercer,Tennessee St.,Ed Novak
+406,6798,11/25/2020,Mercer,Georgia,Timothy Buckner
+406,6798,11/25/2020,Mercer,Georgia,Chad Tucker
+406,6798,11/25/2020,Mercer,Georgia,Kristie Weed
+406,6833,3/5/2021,Mercer,Furman,Rob Fessler
+406,6833,3/5/2021,Mercer,Furman,Roy Jackson
+406,6833,3/5/2021,Mercer,Furman,Kristie Weed
+406,6813,12/13/2020,Mercer,Alabama,Courtney Robinson
+406,6813,12/13/2020,Mercer,Alabama,Chad Tucker
+406,6813,12/13/2020,Mercer,Alabama,Carla Fountain
+406,6824,2/19/2021,Mercer,Wofford,Kiesha Brown
+406,6824,2/19/2021,Mercer,Wofford,Kristen Jones
+406,6824,2/19/2021,Mercer,Wofford,Ed Novak
+406,6832,3/4/2021,Mercer,Western Caro.,David Jenkins
+406,6832,3/4/2021,Mercer,Western Caro.,Carla Roberts-Jeter
+406,6832,3/4/2021,Mercer,Western Caro.,Nic Cappel
+434,23169,12/19/2020,Missouri,Oral Roberts,Maggie Tieman
+434,23169,12/19/2020,Missouri,Oral Roberts,Karen Preato
+434,23169,12/19/2020,Missouri,Oral Roberts,Brian Garland
+434,23220,12/20/2020,Missouri,Southern Ill.,Greg Small
+434,23220,12/20/2020,Missouri,Southern Ill.,Ify Seales
+434,23220,12/20/2020,Missouri,Southern Ill.,Gina Cross
+434,23168,12/16/2020,Missouri,New Orleans,Ify Seales
+434,23168,12/16/2020,Missouri,New Orleans,Angelica Suffren
+434,23168,12/16/2020,Missouri,New Orleans,Dee Kantner
+434,23175,1/18/2021,Missouri,Lsu,Maggie Tieman
+434,23175,1/18/2021,Missouri,Lsu,Natasha Camy
+434,23175,1/18/2021,Missouri,Lsu,Gina Cross
+434,23179,2/4/2021,Missouri,Arkansas,Roy Gulbeyan
+434,23179,2/4/2021,Missouri,Arkansas,Julie Krommenhoek
+434,23179,2/4/2021,Missouri,Arkansas,Jess Dickerson
+434,23181,2/14/2021,Missouri,Georgia,Natasha Camy
+434,23181,2/14/2021,Missouri,Georgia,Beverly Roberts
+434,23181,2/14/2021,Missouri,Georgia,Gina Cross
+434,23162,11/27/2020,Missouri,North Ala.,Katie Lukanic
+434,23162,11/27/2020,Missouri,North Ala.,Pualani Spurlock
+434,23162,11/27/2020,Missouri,North Ala.,Brian Garland
+434,23183,2/21/2021,Missouri,Florida,Luis Gonzalez
+434,23183,2/21/2021,Missouri,Florida,Eric Brewton
+434,23183,2/21/2021,Missouri,Florida,Tina Napier
+434,23176,1/24/2021,Missouri,Texas A&M,Doug Knight
+434,23176,1/24/2021,Missouri,Texas A&M,Cameron Inouye
+434,23176,1/24/2021,Missouri,Texas A&M,Felicia Grinter
+434,23184,2/25/2021,Missouri,Tennessee,Doug Knight
+434,23184,2/25/2021,Missouri,Tennessee,Cameron Inouye
+434,23184,2/25/2021,Missouri,Tennessee,Karen Preato
+434,23167,12/14/2020,Missouri,Missouri St.,Stephanie Barksdale
+434,23167,12/14/2020,Missouri,Missouri St.,Luis Gonzalez
+434,23167,12/14/2020,Missouri,Missouri St.,Brian Hall
+434,23170,12/31/2020,Missouri,Alabama,Beverly Roberts
+434,23170,12/31/2020,Missouri,Alabama,Roy Gulbeyan
+434,23170,12/31/2020,Missouri,Alabama,Laura Morris
+434,23490,3/19/2021,Missouri,Fresno St.,Jaclyn Watson
+434,23490,3/19/2021,Missouri,Fresno St.,Ify Seales
+434,23490,3/19/2021,Missouri,Fresno St.,Christopher Sauceda
+450,5816,1/8/2021,Mount St. Mary's,St. Francis Brooklyn,Alex Leap
+450,5816,1/8/2021,Mount St. Mary's,St. Francis Brooklyn,Gerda Gatling
+450,5816,1/8/2021,Mount St. Mary's,St. Francis Brooklyn,Timothy Greenee
+450,5820,2/28/2021,Mount St. Mary's,Saint Francis (PA),Jermaine Griggs
+450,5820,2/28/2021,Mount St. Mary's,Saint Francis (PA),Taacha Brown-Drummond
+450,5820,2/28/2021,Mount St. Mary's,Saint Francis (PA),Skelly Wingard
+450,5978,2/20/2021,Mount St. Mary's,Bryant,Kelly Mitchell
+450,5978,2/20/2021,Mount St. Mary's,Bryant,Gina Cataranziti
+450,5978,2/20/2021,Mount St. Mary's,Bryant,Kelly Callahan
+450,5811,1/24/2021,Mount St. Mary's,Central Conn. St.,Sharlene Davis
+450,5811,1/24/2021,Mount St. Mary's,Central Conn. St.,Latifa Boyce
+450,5811,1/24/2021,Mount St. Mary's,Central Conn. St.,Kelly Callahan
+450,5810,1/29/2021,Mount St. Mary's,Fairleigh Dickinson,Sarah Williams
+450,5810,1/29/2021,Mount St. Mary's,Fairleigh Dickinson,Skelly Wingard
+450,5810,1/29/2021,Mount St. Mary's,Fairleigh Dickinson,Shawn Goode
+450,5806,1/7/2021,Mount St. Mary's,St. Francis Brooklyn,Alex Leap
+450,5806,1/7/2021,Mount St. Mary's,St. Francis Brooklyn,Gerda Gatling
+450,5806,1/7/2021,Mount St. Mary's,St. Francis Brooklyn,Timothy Greenee
+450,5979,2/21/2021,Mount St. Mary's,Bryant,Kelly Mitchell
+450,5979,2/21/2021,Mount St. Mary's,Bryant,Gina Catanzariti
+450,5979,2/21/2021,Mount St. Mary's,Bryant,Kelly Callahan
+450,5868,12/5/2020,Mount St. Mary's,Umbc,Cara Seggie
+450,5868,12/5/2020,Mount St. Mary's,Umbc,Gerda Gatling
+450,5868,12/5/2020,Mount St. Mary's,Umbc,Sharlene Davis
+450,6224,3/10/2021,Mount St. Mary's,Fairleigh Dickinson,Gina Catanzariti
+450,6224,3/10/2021,Mount St. Mary's,Fairleigh Dickinson,Scott Berkins
+450,6224,3/10/2021,Mount St. Mary's,Fairleigh Dickinson,Shawn Goode
+450,5819,1/28/2021,Mount St. Mary's,Fairleigh Dickinson,Sarah Williams
+450,5819,1/28/2021,Mount St. Mary's,Fairleigh Dickinson,Skelly Wingard
+450,5819,1/28/2021,Mount St. Mary's,Fairleigh Dickinson,Shawn Goode
+450,5803,1/23/2021,Mount St. Mary's,Central Conn. St.,Sharlene Davis
+450,5803,1/23/2021,Mount St. Mary's,Central Conn. St.,Latifa Boyce
+450,5803,1/23/2021,Mount St. Mary's,Central Conn. St.,Kelly Callahan
+450,6234,3/14/2021,Mount St. Mary's,Wagner,Cara Seggie
+450,6234,3/14/2021,Mount St. Mary's,Wagner,Kathleen Lonergan
+450,6234,3/14/2021,Mount St. Mary's,Wagner,Kenneth Kelly
+501,3388,12/17/2020,Northern Ariz.,Utep,Brenda Pantoja
+501,3388,12/17/2020,Northern Ariz.,Utep,Melissa Barlow
+501,3388,12/17/2020,Northern Ariz.,Utep,Robert Scofield
+501,3351,2/25/2021,Northern Ariz.,Southern Utah,Steve Belnap
+501,3351,2/25/2021,Northern Ariz.,Southern Utah,Michol Murray
+501,3351,2/25/2021,Northern Ariz.,Southern Utah,Ashley Ellis
+501,3350,2/20/2021,Northern Ariz.,Weber St.,Michael Thorner
+501,3350,2/20/2021,Northern Ariz.,Weber St.,Michal Watts
+501,3350,2/20/2021,Northern Ariz.,Weber St.,Shelley Nakasone
+501,3346,2/6/2021,Northern Ariz.,Sacramento St.,Stacie Blow
+501,3346,2/6/2021,Northern Ariz.,Sacramento St.,Rigoberto Vasquez
+501,3346,2/6/2021,Northern Ariz.,Sacramento St.,Shelley Nakasone
+501,3336,1/2/2021,Northern Ariz.,Idaho,Robert Scofield
+501,3336,1/2/2021,Northern Ariz.,Idaho,Felicity Willis
+501,3336,1/2/2021,Northern Ariz.,Idaho,Michol Murray
+501,3340,1/14/2021,Northern Ariz.,Montana,Victoria Francis-Monette
+501,3340,1/14/2021,Northern Ariz.,Montana,Bryce Cook
+501,3340,1/14/2021,Northern Ariz.,Montana,Melissa Barlow
+501,3335,12/31/2020,Northern Ariz.,Idaho,Tyler Trimble
+501,3335,12/31/2020,Northern Ariz.,Idaho,Robert Scofield
+501,3335,12/31/2020,Northern Ariz.,Idaho,Michol Murray
+501,3513,3/8/2021,Northern Ariz.,Weber St.,Clarke Stevens
+501,3513,3/8/2021,Northern Ariz.,Weber St.,Teresa Turner
+501,3513,3/8/2021,Northern Ariz.,Weber St.,Shelly Nakasone
+501,3339,1/16/2021,Northern Ariz.,Montana,Tyler Trimble
+501,3339,1/16/2021,Northern Ariz.,Montana,Melissa Barlow
+501,3339,1/16/2021,Northern Ariz.,Montana,Mark Munoz
+501,3349,2/18/2021,Northern Ariz.,Weber St.,Julie Krommenhoek
+501,3349,2/18/2021,Northern Ariz.,Weber St.,Lisa Jones
+501,3349,2/18/2021,Northern Ariz.,Weber St.,DeAnna Butler
+501,3518,3/20/2021,Northern Ariz.,Portland,Lee Stacey
+501,3518,3/20/2021,Northern Ariz.,Portland,Molly Caldwell
+501,3518,3/20/2021,Northern Ariz.,Portland,Royce Blevins
+501,3345,2/4/2021,Northern Ariz.,Sacramento St.,In'Fini Robinson
+501,3345,2/4/2021,Northern Ariz.,Sacramento St.,Clarke Stevens
+501,3345,2/4/2021,Northern Ariz.,Sacramento St.,Kim Hobbs
+501,3344,1/30/2021,Northern Ariz.,Northern Colo.,Lorena Ahumada
+501,3344,1/30/2021,Northern Ariz.,Northern Colo.,Shelley Nakasone
+501,3344,1/30/2021,Northern Ariz.,Northern Colo.,K. Jeneane Pence
+466,9199,12/31/2020,Nevada,New Mexico,Scott Osborne
+466,9199,12/31/2020,Nevada,New Mexico,Alecia Murray
+466,9199,12/31/2020,Nevada,New Mexico,Brian Woods
+466,9233,12/18/2020,Nevada,Fresno Pacific,Cheryll Blue
+466,9233,12/18/2020,Nevada,Fresno Pacific,Bob Scofield
+466,9233,12/18/2020,Nevada,Fresno Pacific,Brenda Pantoja
+466,9189,1/7/2021,Nevada,San Diego St.,In'Fini Robinson
+466,9189,1/7/2021,Nevada,San Diego St.,Jerry Ousley
+466,9189,1/7/2021,Nevada,San Diego St.,Michael Price
+466,9192,2/24/2021,Nevada,Utah St.,Bob Scofield
+466,9192,2/24/2021,Nevada,Utah St.,Michael Price
+466,9192,2/24/2021,Nevada,Utah St.,Brenda Pantoja
+466,9236,1/2/2021,Nevada,New Mexico,Peter Contreras
+466,9236,1/2/2021,Nevada,New Mexico,Cheryll Blue
+466,9236,1/2/2021,Nevada,New Mexico,In'Fini Robinson
+466,9190,1/24/2021,Nevada,Wyoming,Benny Luna
+466,9190,1/24/2021,Nevada,Wyoming,Cheryll Blue
+466,9190,1/24/2021,Nevada,Wyoming,Chuck Gonzalez
+466,9186,1/22/2021,Nevada,Wyoming,Janetta Graham
+466,9186,1/22/2021,Nevada,Wyoming,Darren Krzesnik
+466,9186,1/22/2021,Nevada,Wyoming,Julie Krommenhoek
+466,9197,2/25/2021,Nevada,Utah St.,Kent Johnson
+466,9197,2/25/2021,Nevada,Utah St.,Esther Hsu
+466,9197,2/25/2021,Nevada,Utah St.,Chuck Gonzalez
+466,9231,11/28/2020,Nevada,William Jessup,Kenny Nash
+466,9231,11/28/2020,Nevada,William Jessup,Clarke Stevens
+466,9231,11/28/2020,Nevada,William Jessup,Brenda Pantoja
+466,9196,1/9/2021,Nevada,San Diego St.,Gator Parrish
+466,9196,1/9/2021,Nevada,San Diego St.,Janetta Graham
+466,9196,1/9/2021,Nevada,San Diego St.,Brad Schmidt
+654,16619,3/4/2021,Southeast Mo. St.,Murray St.,Shane Bennett
+654,16619,3/4/2021,Southeast Mo. St.,Murray St.,Angel Kent
+654,16619,3/4/2021,Southeast Mo. St.,Murray St.,Troy Winders
+529,19500,11/28/2020,Oregon,Seattle U,Corey Long
+529,19500,11/28/2020,Oregon,Seattle U,Charles Gonzalez
+529,19500,11/28/2020,Oregon,Seattle U,Brian Woods
+529,19486,1/24/2021,Oregon,Washington,Felecity Williams
+529,19486,1/24/2021,Oregon,Washington,Clarke Stevens
+529,19486,1/24/2021,Oregon,Washington,Melissa Barlow
+529,19490,2/8/2021,Oregon,Arizona,Teresa Turner
+529,19490,2/8/2021,Oregon,Arizona,Tiffany Bird
+529,19490,2/8/2021,Oregon,Arizona,Robert Schofield
+529,19475,12/6/2020,Oregon,Utah,Felecity Willis
+529,19475,12/6/2020,Oregon,Utah,Kenneth Nash
+529,19475,12/6/2020,Oregon,Utah,Cathi Cornell
+529,19480,1/3/2021,Oregon,Ucla,Alecia Murray
+529,19480,1/3/2021,Oregon,Ucla,In'Fini Robinson
+529,19480,1/3/2021,Oregon,Ucla,Michol Murray
+529,19479,1/1/2021,Oregon,Southern California,Tiffany Bird
+529,19479,1/1/2021,Oregon,Southern California,Cheryl Flores
+529,19479,1/1/2021,Oregon,Southern California,Charles Gonzalez
+529,19474,12/4/2020,Oregon,Colorado,Clarke Stevens
+529,19474,12/4/2020,Oregon,Colorado,Lorena Ahumada
+529,19474,12/4/2020,Oregon,Colorado,Michael Price
+529,19882,3/4/2021,Oregon,Oregon St.,Kenneth Nash
+529,19882,3/4/2021,Oregon,Oregon St.,Michael Price
+529,19882,3/4/2021,Oregon,Oregon St.,Michol Murray
+529,19905,3/22/2021,Oregon,South Dakota,Teresa Turner
+529,19905,3/22/2021,Oregon,South Dakota,Katie Lukanich
+529,19905,3/22/2021,Oregon,South Dakota,Melissa Barlow
+529,19495,2/28/2021,Oregon,Oregon St.,Tiffany Bird
+529,19495,2/28/2021,Oregon,Oregon St.,Anita Ortega
+529,19495,2/28/2021,Oregon,Oregon St.,Michael Price
+529,19492,2/15/2021,Oregon,Stanford,In'Fini Robinson
+529,19492,2/15/2021,Oregon,Stanford,Melissa Barlow
+529,19492,2/15/2021,Oregon,Stanford,Michol Murray
+529,19827,2/6/2021,Oregon,UC Davis,Nicole Leon
+529,19827,2/6/2021,Oregon,UC Davis,Kim Hobbs
+529,19827,2/6/2021,Oregon,UC Davis,Michol Murray
+529,19485,1/22/2021,Oregon,Washington St.,Cheryll Blue
+529,19485,1/22/2021,Oregon,Washington St.,Brian Woods
+529,19485,1/22/2021,Oregon,Washington St.,Robert Scofield
+617,3388,1/10/2021,Saint Peter's,Quinnipiac,Zoe Robbins
+617,3388,1/10/2021,Saint Peter's,Quinnipiac,Pastor Torres
+617,3388,1/10/2021,Saint Peter's,Quinnipiac,Ronnie Stephenson
+617,3384,2/13/2021,Saint Peter's,Monmouth,Hillary Harwell
+617,3384,2/13/2021,Saint Peter's,Monmouth,Don Cummiskey
+617,3384,2/13/2021,Saint Peter's,Monmouth,Ronnie Stephenson
+617,3389,2/27/2021,Saint Peter's,Siena,Jorge Martinez
+617,3389,2/27/2021,Saint Peter's,Siena,Geraldine Smith
+617,3389,2/27/2021,Saint Peter's,Siena,Kathy Lonergan
+617,3414,3/11/2021,Saint Peter's,Iona,Lori Deutsch
+617,3414,3/11/2021,Saint Peter's,Iona,Anthony Reddin
+617,3414,3/11/2021,Saint Peter's,Iona,Pastor Torres
+617,4373,11/25/2020,Saint Peter's,Njit,Christian Peterson
+617,4373,11/25/2020,Saint Peter's,Njit,Dirk Link
+617,4373,11/25/2020,Saint Peter's,Njit,Kevin Ruland
+617,3376,2/14/2021,Saint Peter's,Monmouth,Hillary Harwell
+617,3376,2/14/2021,Saint Peter's,Monmouth,Ronnie Stephenson
+617,3376,2/14/2021,Saint Peter's,Monmouth,Don Cummiskey
+617,3379,1/9/2021,Saint Peter's,Quinnipiac,Zoe Robbins
+617,3379,1/9/2021,Saint Peter's,Quinnipiac,Pastor Torres
+617,3379,1/9/2021,Saint Peter's,Quinnipiac,Ronnie Stephenson
+617,5520,3/12/2021,Saint Peter's,Rider,Don Cummiskey
+617,5520,3/12/2021,Saint Peter's,Rider,Lori Deutsch
+617,5520,3/12/2021,Saint Peter's,Rider,Anthony Reddin
+617,3381,2/26/2021,Saint Peter's,Siena,Jorge Martinez
+617,3381,2/26/2021,Saint Peter's,Siena,Stephanie Barksdale
+617,3381,2/26/2021,Saint Peter's,Siena,Kathy Lonergan
+617,3373,12/19/2020,Saint Peter's,Canisius,Jorge Martinez
+617,3373,12/19/2020,Saint Peter's,Canisius,Gerda Gatling
+617,3373,12/19/2020,Saint Peter's,Canisius,Kevin Farlow
+617,3387,12/20/2020,Saint Peter's,Canisius,Jorge Martinez
+617,3387,12/20/2020,Saint Peter's,Canisius,Gerda Gatling
+617,3387,12/20/2020,Saint Peter's,Canisius,Kevin Farlow
+545,12589,2/7/2021,Pittsburgh,Syracuse,Jeffrey Smith
+545,12589,2/7/2021,Pittsburgh,Syracuse,Norma Jones
+545,12589,2/7/2021,Pittsburgh,Syracuse,Karen Preato
+545,12593,2/22/2021,Pittsburgh,Notre Dame,Tiara Cruse
+545,12593,2/22/2021,Pittsburgh,Notre Dame,Fatou Cissoko-Stephens
+545,12593,2/22/2021,Pittsburgh,Notre Dame,Jules Gallien
+545,12592,2/18/2021,Pittsburgh,Louisville,Talisa Green
+545,12592,2/18/2021,Pittsburgh,Louisville,Carla Fountain
+545,12592,2/18/2021,Pittsburgh,Louisville,Mark Hardcastle
+545,12584,1/21/2021,Pittsburgh,Miami (FL),Linda Miles
+545,12584,1/21/2021,Pittsburgh,Miami (FL),Katie Lukanich
+545,12584,1/21/2021,Pittsburgh,Miami (FL),Pualani Spurlock
+545,12727,2/14/2021,Pittsburgh,North Carolina,Bryan Brunette
+545,12727,2/14/2021,Pittsburgh,North Carolina,Jules Gallien
+545,12727,2/14/2021,Pittsburgh,North Carolina,Jennifer Rezac
+545,12588,2/4/2021,Pittsburgh,Virginia Tech,Bobby Ray
+545,12588,2/4/2021,Pittsburgh,Virginia Tech,Billy Smith
+545,12588,2/4/2021,Pittsburgh,Virginia Tech,Angelica Suffren
+545,12599,12/6/2020,Pittsburgh,Delaware,Keith Miller
+545,12599,12/6/2020,Pittsburgh,Delaware,Saif Esho
+545,12599,12/6/2020,Pittsburgh,Delaware,Jennifer Rezac
+545,12598,11/29/2020,Pittsburgh,Hofstra,Natasha Camy
+545,12598,11/29/2020,Pittsburgh,Hofstra,Roy Jackson
+545,12598,11/29/2020,Pittsburgh,Hofstra,Bryan Brunette
+545,12577,12/13/2020,Pittsburgh,Clemson,Ashley Gloss
+545,12577,12/13/2020,Pittsburgh,Clemson,Pualani Spurlock
+545,12577,12/13/2020,Pittsburgh,Clemson,Eric Brewton
+545,12597,11/25/2020,Pittsburgh,George Mason,Linda Miles
+545,12597,11/25/2020,Pittsburgh,George Mason,Timothy Bryant
+545,12597,11/25/2020,Pittsburgh,George Mason,Billy Smith
+545,12596,3/3/2021,Pittsburgh,Boston College,Jeff Smith
+545,12596,3/3/2021,Pittsburgh,Boston College,Fatou Cissoko-Stephens
+545,12596,3/3/2021,Pittsburgh,Boston College,Denise Brooks
+556,10307,3/5/2021,Providence,Butler,Saif Esho
+556,10307,3/5/2021,Providence,Butler,Fatou Cissoko-Stephens
+556,10307,3/5/2021,Providence,Butler,Mark Resch
+556,10055,12/10/2020,Providence,Maine,Keith Miller
+556,10055,12/10/2020,Providence,Maine,Ashley Gloss
+556,10055,12/10/2020,Providence,Maine,Tiara Cruse
+556,10151,1/7/2021,Providence,Butler,Jeffrey Smith
+556,10151,1/7/2021,Providence,Butler,Maggie Tieman
+556,10151,1/7/2021,Providence,Butler,Rod Creech
+556,10137,1/3/2021,Providence,Seton Hall,Anthony Reddin
+556,10137,1/3/2021,Providence,Seton Hall,Michael DoCouto
+556,10137,1/3/2021,Providence,Seton Hall,Norma Jones
+556,10284,2/24/2021,Providence,Villanova,Linda Miles
+556,10284,2/24/2021,Providence,Villanova,Brandon Enterline
+556,10284,2/24/2021,Providence,Villanova,Jules Gallien
+556,10051,11/29/2020,Providence,Bryant,Anthony Reddin
+556,10051,11/29/2020,Providence,Bryant,Kathy Lonergan
+556,10051,11/29/2020,Providence,Bryant,Geraldine Smith
+556,10152,2/27/2021,Providence,DePaul,John Capolino
+556,10152,2/27/2021,Providence,DePaul,Mark Resch
+556,10152,2/27/2021,Providence,DePaul,Maj Forsberg
+556,10057,12/19/2020,Providence,St. John's (NY),Tom Danaher
+556,10057,12/19/2020,Providence,St. John's (NY),Norma Jones
+556,10057,12/19/2020,Providence,St. John's (NY),Bryan Brunette
+556,10149,2/13/2021,Providence,Marquette,Saif Esho
+556,10149,2/13/2021,Providence,Marquette,Fatou Cissoko-Stephens
+556,10149,2/13/2021,Providence,Marquette,Tiara Cruse
+559,55700,1/14/2021,Purdue,Indiana,Kevin Pethte
+559,55700,1/14/2021,Purdue,Indiana,Angie Enlund
+559,55700,1/14/2021,Purdue,Indiana,Bruce Morris
+559,55664,12/13/2020,Purdue,Bowling Green,Kelsey Reynolds
+559,55664,12/13/2020,Purdue,Bowling Green,Tim Daley
+559,55664,12/13/2020,Purdue,Bowling Green,Tina Napier
+559,55668,12/9/2020,Purdue,Buffalo,Ivykesha Thompson
+559,55668,12/9/2020,Purdue,Buffalo,Jaimie Brocerick
+559,55668,12/9/2020,Purdue,Buffalo,Jeff Cross
+559,55696,12/23/2020,Purdue,Nebraska,Kevin Pethtel
+559,55696,12/23/2020,Purdue,Nebraska,Gina Cross
+559,55696,12/23/2020,Purdue,Nebraska,Angie Enlund
+559,55707,2/11/2021,Purdue,Michigan,Natasha Camy
+559,55707,2/11/2021,Purdue,Michigan,Mark Berger
+559,55707,2/11/2021,Purdue,Michigan,Mark Zentz
+559,55711,2/25/2021,Purdue,Maryland,Hykesha Thompson
+559,55711,2/25/2021,Purdue,Maryland,Bruce Morris
+559,55711,2/25/2021,Purdue,Maryland,Mack Zentz
+559,55708,2/14/2021,Purdue,Rutgers,Karleena Tobin
+559,55708,2/14/2021,Purdue,Rutgers,Kevin Pethtel
+559,55708,2/14/2021,Purdue,Rutgers,Bryan Enterline
+559,55712,2/28/2021,Purdue,Illinois,Natosha Harris
+559,55712,2/28/2021,Purdue,Illinois,Tim Daily
+559,55712,2/28/2021,Purdue,Illinois,Bryan Enterline
+559,55694,12/17/2020,Purdue,Northwestern,Laura Morris
+559,55694,12/17/2020,Purdue,Northwestern,Michael McConnell
+559,55694,12/17/2020,Purdue,Northwestern,Mark Zentz
+559,55705,1/31/2021,Purdue,Penn St.,Kelsey Reynlods
+559,55705,1/31/2021,Purdue,Penn St.,Mark Resch
+559,55705,1/31/2021,Purdue,Penn St.,Angie Enlund
+559,55702,1/21/2021,Purdue,Wisconsin,Jamie Broderick
+559,55702,1/21/2021,Purdue,Wisconsin,Felicia Grinter
+559,55702,1/21/2021,Purdue,Wisconsin,Tina Napier
+587,9727,2/7/2021,Rutgers,Nebraska,Natasha Curry
+587,9727,2/7/2021,Rutgers,Nebraska,Mark Resch
+587,9727,2/7/2021,Rutgers,Nebraska,Bryan Enterline
+587,9731,2/20/2021,Rutgers,Illinois,Erika Harriman-Camarota
+587,9731,2/20/2021,Rutgers,Illinois,Maggie Tieman
+587,9731,2/20/2021,Rutgers,Illinois,Bruce Morris
+587,9730,2/17/2021,Rutgers,Minnesota,Stephanie Barksdale
+587,9730,2/17/2021,Rutgers,Minnesota,Nykesha Thompson
+587,9730,2/17/2021,Rutgers,Minnesota,Frank Steratore
+587,9740,12/18/2020,Rutgers,Hampton,Kax Beverley
+587,9740,12/18/2020,Rutgers,Hampton,Steph Barksdale
+587,9740,12/18/2020,Rutgers,Hampton,Tiara Cruse
+587,9741,12/20/2020,Rutgers,Sacred Heart,Kalei Enterline
+587,9741,12/20/2020,Rutgers,Sacred Heart,Staff Jefferson
+587,9741,12/20/2020,Rutgers,Sacred Heart,Kevin Pethtel
+587,9716,12/14/2020,Rutgers,Maryland,Kelsey Reynolds
+587,9716,12/14/2020,Rutgers,Maryland,Natasha Curry
+587,9716,12/14/2020,Rutgers,Maryland,Tim Daley
+587,11047,3/22/2021,Rutgers,Byu,Karleena Tobin
+587,11047,3/22/2021,Rutgers,Byu,Brian Woods
+587,11047,3/22/2021,Rutgers,Byu,Dee Kantner
+587,9735,3/11/2021,Rutgers,Iowa,Natasha Camy
+587,9735,3/11/2021,Rutgers,Iowa,Beverly Roberts
+587,9735,3/11/2021,Rutgers,Iowa,Tina Napier
+587,9723,3/2/2021,Rutgers,Penn St.,Nykesha Thompson
+587,9723,3/2/2021,Rutgers,Penn St.,Tiara Cruse
+587,9723,3/2/2021,Rutgers,Penn St.,Mark Zentz
+587,9742,12/23/2020,Rutgers,Manhattan,Maggie Tieman
+587,9742,12/23/2020,Rutgers,Manhattan,Frank Steratore
+587,9742,12/23/2020,Rutgers,Manhattan,Erika Herriman-Camarota
+587,9739,11/27/2020,Rutgers,Monmouth,Kaz Beverley
+587,9739,11/27/2020,Rutgers,Monmouth,Natasha Camy
+587,9739,11/27/2020,Rutgers,Monmouth,Nykesha Thompson
+587,9734,3/5/2021,Rutgers,Ohio St.,Kevin Pethtel
+587,9734,3/5/2021,Rutgers,Ohio St.,Bob Enterline
+587,9734,3/5/2021,Rutgers,Ohio St.,Erika Herriman Camarota
+635,5972,12/15/2020,Seton Hall,UConn,Saif Esho
+635,5972,12/15/2020,Seton Hall,UConn,Fatou Cissoko-Stephens
+635,5972,12/15/2020,Seton Hall,UConn,Pualani Spurlock
+635,5997,1/17/2021,Seton Hall,Butler,Ashlee Goode
+635,5997,1/17/2021,Seton Hall,Butler,Jules Gallien
+635,5997,1/17/2021,Seton Hall,Butler,John Capolino
+635,5978,12/13/2020,Seton Hall,Albany (NY),Kathy Lonergan
+635,5978,12/13/2020,Seton Hall,Albany (NY),Krystle Apellaniz
+635,5978,12/13/2020,Seton Hall,Albany (NY),Bruce Morris
+635,6006,2/18/2021,Seton Hall,Georgetown,Shawn Goode
+635,6006,2/18/2021,Seton Hall,Georgetown,Norma Jones
+635,6006,2/18/2021,Seton Hall,Georgetown,Jeffrey Smith
+635,5963,12/11/2020,Seton Hall,Wagner,Lauren Niemiera
+635,5963,12/11/2020,Seton Hall,Wagner,Shawn Goode
+635,5963,12/11/2020,Seton Hall,Wagner,Joseph Vaszily
+635,6011,3/6/2021,Seton Hall,Creighton,Brandon Enterline
+635,6011,3/6/2021,Seton Hall,Creighton,Saif Esho
+635,6011,3/6/2021,Seton Hall,Creighton,Norma Jones
+635,6007,2/20/2021,Seton Hall,Providence,Ashlee Goode
+635,6007,2/20/2021,Seton Hall,Providence,Katie Lukanich
+635,6007,2/20/2021,Seton Hall,Providence,Mark Resch
+635,6004,2/13/2021,Seton Hall,Creighton,Krystle Apellaniz
+635,6004,2/13/2021,Seton Hall,Creighton,Pualani Spurlock
+635,6004,2/13/2021,Seton Hall,Creighton,Denise Brooks
+635,5976,12/8/2020,Seton Hall,Saint Peter's,Joseph Vaszily
+635,5976,12/8/2020,Seton Hall,Saint Peter's,Krystle Apellaniz
+635,5976,12/8/2020,Seton Hall,Saint Peter's,Ashlee Goode
+635,5999,1/23/2021,Seton Hall,Xavier,Anthony Reddin
+635,5999,1/23/2021,Seton Hall,Xavier,Jeffrey Smith
+635,5999,1/23/2021,Seton Hall,Xavier,Fatou Cissoko-Stephens
+635,5998,1/20/2021,Seton Hall,St. John's (NY),Saif Esho
+635,5998,1/20/2021,Seton Hall,St. John's (NY),Pualani Spurlock
+635,5998,1/20/2021,Seton Hall,St. John's (NY),Bruce Morris
+635,5994,1/6/2021,Seton Hall,Villanova,Ashley Gloss
+635,5994,1/6/2021,Seton Hall,Villanova,John Capolino
+635,5994,1/6/2021,Seton Hall,Villanova,Pualani Spurlock
+635,6014,1/15/2021,Seton Hall,Marquette,Teresa Stuck
+635,6014,1/15/2021,Seton Hall,Marquette,Tiara Cruse
+635,6014,1/15/2021,Seton Hall,Marquette,Joseph Vaszily
+603,12966,3/5/2021,St. John's (NY),Xavier,Katie Lukanich
+603,12966,3/5/2021,St. John's (NY),Xavier,Brandon Enterline
+603,12966,3/5/2021,St. John's (NY),Xavier,John Capolino
+603,12771,2/17/2021,St. John's (NY),UConn,Brandon Enterline
+603,12771,2/17/2021,St. John's (NY),UConn,Karen Preato
+603,12771,2/17/2021,St. John's (NY),UConn,Joseph Vaszily
+603,12731,12/1/2020,St. John's (NY),Saint Peter's,Anthony Reddin
+603,12731,12/1/2020,St. John's (NY),Saint Peter's,Shawn Goode
+603,12731,12/1/2020,St. John's (NY),Saint Peter's,Ashley Gloss
+603,12737,12/22/2020,St. John's (NY),St. Bonaventure,Ryan Nunes
+603,12737,12/22/2020,St. John's (NY),St. Bonaventure,Fatou Cissoko-Stephens
+603,12737,12/22/2020,St. John's (NY),St. Bonaventure,Tom Danaher
+603,12759,1/9/2021,St. John's (NY),Butler,Krystle Apellaniz
+603,12759,1/9/2021,St. John's (NY),Butler,Pualani Spurlock
+603,12759,1/9/2021,St. John's (NY),Butler,Dee Kantner
+603,12774,3/1/2021,St. John's (NY),Seton Hall,Mark Resch
+603,12774,3/1/2021,St. John's (NY),Seton Hall,Rod Creech
+603,12774,3/1/2021,St. John's (NY),Seton Hall,Denise Brooks
+603,12778,1/17/2021,St. John's (NY),Marquette,Ashley Gloss
+603,12778,1/17/2021,St. John's (NY),Marquette,Mark Resch
+603,12778,1/17/2021,St. John's (NY),Marquette,Katie Lukanich
+603,12773,2/24/2021,St. John's (NY),Georgetown,Shawn Goode
+603,12773,2/24/2021,St. John's (NY),Georgetown,Saif Esho
+603,12773,2/24/2021,St. John's (NY),Georgetown,Pualani Spurlock
+603,12769,2/10/2021,St. John's (NY),DePaul,Fatou Cissoko
+603,12769,2/10/2021,St. John's (NY),DePaul,Luis Gonzalez
+603,12769,2/10/2021,St. John's (NY),DePaul,Maj Forsberg
+603,12882,2/21/2021,St. John's (NY),Providence,John Capolino
+603,12882,2/21/2021,St. John's (NY),Providence,Geraldine Smith
+603,12882,2/21/2021,St. John's (NY),Providence,Mark Resch
+603,12733,12/6/2020,St. John's (NY),Villanova,Jules Gallien
+603,12733,12/6/2020,St. John's (NY),Villanova,Geraldine Smith
+603,12733,12/6/2020,St. John's (NY),Villanova,Jeffrey Smith
+28,27690,11/30/2020,Arizona St.,Saint Mary's (CA),Nicole Leon
+28,27690,11/30/2020,Arizona St.,Saint Mary's (CA),Julie Krommenhoek
+28,27690,11/30/2020,Arizona St.,Saint Mary's (CA),Michol Murray
+28,27669,1/22/2021,Arizona St.,Colorado,Nicole Leon
+28,27669,1/22/2021,Arizona St.,Colorado,Melissa Barlow
+28,27669,1/22/2021,Arizona St.,Colorado,Michol Murray
+28,27716,12/6/2020,Arizona St.,Ucla,Teresa Turner
+28,27716,12/6/2020,Arizona St.,Ucla,In'Fini Robinson
+28,27716,12/6/2020,Arizona St.,Ucla,Brenda Pantoja
+28,27664,1/3/2021,Arizona St.,Stanford,Kim Hobbs
+28,27664,1/3/2021,Arizona St.,Stanford,Michael Price
+28,27664,1/3/2021,Arizona St.,Stanford,Melissa Barlow
+28,28323,3/20/2021,Arizona St.,Missouri,Stacie Blow
+28,28323,3/20/2021,Arizona St.,Missouri,Symbrie Tuttle
+28,28323,3/20/2021,Arizona St.,Missouri,Britton Sherry
+28,27675,2/12/2021,Arizona St.,Washington,Felecity Willis
+28,27675,2/12/2021,Arizona St.,Washington,Clarke Stevens
+28,27675,2/12/2021,Arizona St.,Washington,Anita Ortega
+28,27663,1/1/2021,Arizona St.,California,Julie Krommenhoek
+28,27663,1/1/2021,Arizona St.,California,Richard Waters
+28,27663,1/1/2021,Arizona St.,California,Michol Murray
+28,27679,2/28/2021,Arizona St.,Arizona,Tyler Trimble
+28,27679,2/28/2021,Arizona St.,Arizona,In'Fini Robinson
+28,27679,2/28/2021,Arizona St.,Arizona,Melissa Barlow
+28,28324,3/22/2021,Arizona St.,Houston,Marleah Vidal
+28,28324,3/22/2021,Arizona St.,Houston,D'Lynn Schertz
+28,28324,3/22/2021,Arizona St.,Houston,Travis Jones
+28,27697,12/13/2020,Arizona St.,San Diego,Corey Long
+28,27697,12/13/2020,Arizona St.,San Diego,Richard Waters
+28,27697,12/13/2020,Arizona St.,San Diego,Anita Ortega
+28,27658,12/4/2020,Arizona St.,Southern California,Marc Merritt
+28,27658,12/4/2020,Arizona St.,Southern California,Tiffany Bird
+28,27658,12/4/2020,Arizona St.,Southern California,Melissa Barlow
+28,27676,2/14/2021,Arizona St.,Washington St.,Nicole Leon
+28,27676,2/14/2021,Arizona St.,Washington St.,In'Fini Robinson
+28,27676,2/14/2021,Arizona St.,Washington St.,Brenda Pantoja
+28,27688,11/25/2020,Arizona St.,Sfa,Felecity Willis
+28,27688,11/25/2020,Arizona St.,Sfa,Darren Krzesnik
+28,27688,11/25/2020,Arizona St.,Sfa,Robert Scofield
+28,28245,2/8/2021,Arizona St.,Southern Utah,Kaili Kimura
+28,28245,2/8/2021,Arizona St.,Southern Utah,Julie Krommenhoek
+28,28245,2/8/2021,Arizona St.,Southern Utah,Melissa Barlow
+28,27670,1/24/2021,Arizona St.,Utah,Richard Waters
+28,27670,1/24/2021,Arizona St.,Utah,Robert Scofield
+28,27670,1/24/2021,Arizona St.,Utah,Brenda Pantoja
+28,27689,11/27/2020,Arizona St.,Vcu,Marc Merritt
+28,27689,11/27/2020,Arizona St.,Vcu,In'Fini Robinson
+28,27689,11/27/2020,Arizona St.,Vcu,Michol Murray
+690,10150,3/2/2021,Temple,Memphis,Anthony Reddin
+690,10150,3/2/2021,Temple,Memphis,Natasha Camy
+690,10150,3/2/2021,Temple,Memphis,Bruce Morris
+690,10139,1/23/2021,Temple,Wichita St.,Saif Esho
+690,10139,1/23/2021,Temple,Wichita St.,Brandon Enterline
+690,10139,1/23/2021,Temple,Wichita St.,Norma Jones
+690,10380,3/4/2021,Temple,Memphis,Isaac Johnson
+690,10380,3/4/2021,Temple,Memphis,Linda Miles
+690,10380,3/4/2021,Temple,Memphis,Nykesha Thompson
+690,10135,1/9/2021,Temple,Ucf,John Capolino
+690,10135,1/9/2021,Temple,Ucf,Joe Vaszily
+690,10135,1/9/2021,Temple,Ucf,Maj Forsberg
+690,10148,2/24/2021,Temple,South Fla.,Ed Sidlasky
+690,10148,2/24/2021,Temple,South Fla.,Rod Creech
+690,10148,2/24/2021,Temple,South Fla.,Denise Brooks
+690,10144,2/10/2021,Temple,Houston,Alexis Perez
+690,10144,2/10/2021,Temple,Houston,Saif Esho
+690,10144,2/10/2021,Temple,Houston,Karen Preato
+690,10145,2/13/2021,Temple,East Carolina,Geraldine Smith
+690,10145,2/13/2021,Temple,East Carolina,Dee Kantner
+690,10145,2/13/2021,Temple,East Carolina,Joe Vaszily
+690,10132,12/23/2020,Temple,Tulsa,Blanca Burns
+690,10132,12/23/2020,Temple,Tulsa,Tom Danaher
+690,10132,12/23/2020,Temple,Tulsa,Billy Smith
+703,14148,2/27/2021,Texas,Oklahoma,Bill Larance
+703,14148,2/27/2021,Texas,Oklahoma,Metta Christensen
+703,14148,2/27/2021,Texas,Oklahoma,Jesse Dickerson
+703,13818,2/10/2021,Texas,Oklahoma St.,Roy Gulbeyan
+703,13818,2/10/2021,Texas,Oklahoma St.,Beverly Roberts
+703,13818,2/10/2021,Texas,Oklahoma St.,Gina Cross
+703,13766,12/6/2020,Texas,Texas A&M,Brian Garland
+703,13766,12/6/2020,Texas,Texas A&M,Brian Hall
+703,13766,12/6/2020,Texas,Texas A&M,Cameron Inouye
+703,13907,12/18/2020,Texas,Drake,Nykesha Thompson
+703,13907,12/18/2020,Texas,Drake,Bill Larance
+703,13907,12/18/2020,Texas,Drake,Roy Gulbeyan
+703,13815,1/30/2021,Texas,Texas Tech,Doug Knight
+703,13815,1/30/2021,Texas,Texas Tech,Gina Cross
+703,13815,1/30/2021,Texas,Texas Tech,Beverly Roberts
+703,13823,3/1/2021,Texas,Baylor,Roy Gulbeyan
+703,13823,3/1/2021,Texas,Baylor,Eric Brewton
+703,13823,3/1/2021,Texas,Baylor,Lisa Jones
+703,13931,1/14/2021,Texas,Kansas,Missy Brooks
+703,13931,1/14/2021,Texas,Kansas,Greg Small
+703,13931,1/14/2021,Texas,Kansas,Bryan Enterline
+703,13767,12/9/2020,Texas,Idaho,Doug Knight
+703,13767,12/9/2020,Texas,Idaho,Julie Krommenhoek
+703,13767,12/9/2020,Texas,Idaho,Eric Brewton
+703,13812,1/20/2021,Texas,Tcu,Doug Knight
+703,13812,1/20/2021,Texas,Tcu,Eric Brewton
+703,13812,1/20/2021,Texas,Tcu,Lisa Jones
+703,13828,3/22/2021,Texas,Bradley,Nykesha Thompson
+703,13828,3/22/2021,Texas,Bradley,Tiffany Bird
+703,13828,3/22/2021,Texas,Bradley,Michael Price
+703,13808,1/3/2021,Texas,Iowa St.,Metta Christensen
+703,13808,1/3/2021,Texas,Iowa St.,Kevin Pethtel
+703,13808,1/3/2021,Texas,Iowa St.,Maj Forsberg
+703,13763,11/25/2020,Texas,Smu,Marcus Clayton
+703,13763,11/25/2020,Texas,Smu,Nykesha Thomson
+703,13763,11/25/2020,Texas,Smu,Julie Krommenhoek
+703,13764,11/29/2020,Texas,North Texas,Demoya Willams
+703,13764,11/29/2020,Texas,North Texas,Maj Forsberg
+703,13764,11/29/2020,Texas,North Texas,Gina Cross
+703,13817,2/6/2021,Texas,West Virginia,Bryan Enterline
+703,13817,2/6/2021,Texas,West Virginia,Brenda Pantoja
+703,13817,2/6/2021,Texas,West Virginia,Maj Forsberg
+703,13769,12/29/2020,Texas,Lamar University,Brian Hall
+703,13769,12/29/2020,Texas,Lamar University,Cameron Inouye
+703,13769,12/29/2020,Texas,Lamar University,Eric Brewton
+703,13765,12/2/2020,Texas,Louisiana Tech,Roy Gulbeyan
+703,13765,12/2/2020,Texas,Louisiana Tech,Scott Yarbrough
+703,13765,12/2/2020,Texas,Louisiana Tech,Dee Kantner
+703,13821,2/21/2021,Texas,Kansas St.,Doug Knight
+703,13821,2/21/2021,Texas,Kansas St.,Roy Gulbeyan
+703,13821,2/21/2021,Texas,Kansas St.,Maj Forsberg
+709,18887,2/17/2021,Toledo,Miami (OH),Rachael Rayford
+709,18887,2/17/2021,Toledo,Miami (OH),Matt Balster
+709,18887,2/17/2021,Toledo,Miami (OH),Tom Hallead
+709,18995,12/21/2020,Toledo,North Dakota,Chris Oakes
+709,18995,12/21/2020,Toledo,North Dakota,Meghan Joseph
+709,18995,12/21/2020,Toledo,North Dakota,Michelle Del Duco
+709,18994,12/18/2020,Toledo,Duquesne,Steve Lazroff
+709,18994,12/18/2020,Toledo,Duquesne,Dara Loftion
+709,18994,12/18/2020,Toledo,Duquesne,Angie Enlund
+709,18886,2/10/2021,Toledo,Buffalo,Linsey VanDyken
+709,18886,2/10/2021,Toledo,Buffalo,Michael Del Duco
+709,18886,2/10/2021,Toledo,Buffalo,Andrew Bills
+709,18881,1/2/2021,Toledo,Akron,Kristyne Esparza
+709,18881,1/2/2021,Toledo,Akron,Andrew Bills
+709,18881,1/2/2021,Toledo,Akron,Todd Moistner
+709,18993,12/5/2020,Toledo,Detroit Mercy,Chris Oakes
+709,18993,12/5/2020,Toledo,Detroit Mercy,Todd Moistner
+709,18993,12/5/2020,Toledo,Detroit Mercy,Kristyne Esparza
+709,18992,11/29/2020,Toledo,Oakland,Rachael Rayford
+709,18992,11/29/2020,Toledo,Oakland,Kalei Enterline
+709,18992,11/29/2020,Toledo,Oakland,Brad Maxey
+709,18880,12/13/2020,Toledo,Kent St.,Brad Maxey
+709,18880,12/13/2020,Toledo,Kent St.,Erika Herriman-Camarota
+709,18880,12/13/2020,Toledo,Kent St.,Michelle Del Duco
+709,18883,1/16/2021,Toledo,Bowling Green,Lindsey Van Dyken
+709,18883,1/16/2021,Toledo,Bowling Green,Erika Herriman-Camarota
+709,18883,1/16/2021,Toledo,Bowling Green,Tom Hallead
+709,18882,1/13/2021,Toledo,Western Mich.,Brad Maxey
+709,18882,1/13/2021,Toledo,Western Mich.,Matt Balster
+709,18882,1/13/2021,Toledo,Western Mich.,Michelle Del Duco
+709,18885,1/20/2021,Toledo,Northern Ill.,Erika Herriman-Camarota
+709,18885,1/20/2021,Toledo,Northern Ill.,Frank Steratore
+709,18885,1/20/2021,Toledo,Northern Ill.,Bryan Enterline
+709,18889,3/6/2021,Toledo,Eastern Mich.,Tony Capasso
+709,18889,3/6/2021,Toledo,Eastern Mich.,Jordan Pingle
+709,18889,3/6/2021,Toledo,Eastern Mich.,Josh Howell
+709,18888,2/27/2021,Toledo,Ball St.,Tony Capasso
+709,18888,2/27/2021,Toledo,Ball St.,Jeff Cross
+709,18888,2/27/2021,Toledo,Ball St.,Bryan Enterline
+709,18884,1/27/2021,Toledo,Central Mich.,Erika Herriman-Camarota
+709,18884,1/27/2021,Toledo,Central Mich.,Stacey Lee
+709,18884,1/27/2021,Toledo,Central Mich.,Bryan Enterline
+716,7488,12/20/2020,Troy,Martin Methodist,Kerry Pierre
+716,7488,12/20/2020,Troy,Martin Methodist,Carla Roberts-Jeter
+716,7488,12/20/2020,Troy,Martin Methodist,Kiesha Brown
+716,7447,2/20/2021,Troy,Georgia St.,Stephanie Barksdale
+716,7447,2/20/2021,Troy,Georgia St.,Deanna Jackson
+716,7447,2/20/2021,Troy,Georgia St.,Meadow Overstreet
+716,7484,12/9/2020,Troy,Chattanooga,Kristen Bell
+716,7484,12/9/2020,Troy,Chattanooga,Carla Fountain
+716,7484,12/9/2020,Troy,Chattanooga,Eric Koch
+716,8674,3/7/2021,Troy,Appalachian St.,Ify Seales
+716,8674,3/7/2021,Troy,Appalachian St.,Karleena Tobin
+716,8674,3/7/2021,Troy,Appalachian St.,Meadow Overstreet
+716,7446,2/19/2021,Troy,Georgia St.,John Fletcher
+716,7446,2/19/2021,Troy,Georgia St.,Kaz Beverley
+716,7446,2/19/2021,Troy,Georgia St.,Dawn Marsh
+716,7437,1/16/2021,Troy,Ga. Southern,Nicole Brannon
+716,7437,1/16/2021,Troy,Ga. Southern,Eric Baker
+716,7437,1/16/2021,Troy,Ga. Southern,Meadow Overstreet
+716,7483,11/28/2020,Troy,Alabama A&M,Kevin Britt
+716,7483,11/28/2020,Troy,Alabama A&M,Sarah Fleming
+716,7483,11/28/2020,Troy,Alabama A&M,LaShonda Kidd
+716,7495,12/7/2020,Troy,LaGrange,Simone Redd
+716,7495,12/7/2020,Troy,LaGrange,Adrienne Gilmore
+716,7495,12/7/2020,Troy,LaGrange,Kiesha Brown
+716,7438,1/22/2021,Troy,Coastal Carolina,Aaron Brooks
+716,7438,1/22/2021,Troy,Coastal Carolina,Christopher Sauceda
+716,7438,1/22/2021,Troy,Coastal Carolina,Kylie Galloway
+716,7439,1/23/2021,Troy,Coastal Carolina,Tim Buckner
+716,7439,1/23/2021,Troy,Coastal Carolina,Starr Jefferson
+716,7439,1/23/2021,Troy,Coastal Carolina,Angel Kent
+716,7432,1/1/2021,Troy,Appalachian St.,Blanca Burns
+716,7432,1/1/2021,Troy,Appalachian St.,Demoya Williams
+716,7432,1/1/2021,Troy,Appalachian St.,Meadow Overstreet
+716,7444,2/11/2021,Troy,South Alabama,Joshua Hall
+716,7444,2/11/2021,Troy,South Alabama,Deanna Jackson
+716,7444,2/11/2021,Troy,South Alabama,Billy Smithh
+716,7491,3/6/2021,Troy,Texas St.,Deanna Jackson
+716,7491,3/6/2021,Troy,Texas St.,Eric Baker
+716,7491,3/6/2021,Troy,Texas St.,Jody Cantrell
+716,7433,1/2/2021,Troy,Appalachian St.,Starr Jefferson
+716,7433,1/2/2021,Troy,Appalachian St.,Eric Koch
+716,7433,1/2/2021,Troy,Appalachian St.,Jody Cantrell
+14,7651,1/23/2021,Albany (NY),New Hampshire,Skelly Wingard
+14,7651,1/23/2021,Albany (NY),New Hampshire,Mark McClenney
+14,7651,1/23/2021,Albany (NY),New Hampshire,Elizabeth Kuzmeski
+14,7656,1/17/2021,Albany (NY),Maine,Sarah Williams
+14,7656,1/17/2021,Albany (NY),Maine,Katlyn Tortorice
+14,7656,1/17/2021,Albany (NY),Maine,Elizabeth Kuzmeski
+14,7655,1/16/2021,Albany (NY),Maine,Robert McDow
+14,7655,1/16/2021,Albany (NY),Maine,Ken Kelly
+14,7655,1/16/2021,Albany (NY),Maine,Mark Resch
+14,7652,1/24/2021,Albany (NY),New Hampshire,Luis Gonzalez
+14,7652,1/24/2021,Albany (NY),New Hampshire,KAtly Tortorice
+14,7652,1/24/2021,Albany (NY),New Hampshire,Elizabeth Kuzmeski
+128,16800,2/27/2021,Ucf,Temple,Pualani Spurlock
+128,16800,2/27/2021,Ucf,Temple,Fatou Cissoko-Stephens
+128,16800,2/27/2021,Ucf,Temple,Bryan Brunette
+128,16791,1/27/2021,Ucf,East Carolina,Luis Gonzalez
+128,16791,1/27/2021,Ucf,East Carolina,Pualani Spurlock
+128,16791,1/27/2021,Ucf,East Carolina,Eric Brewton
+128,16759,12/13/2020,Ucf,Fgcu,John Capolino
+128,16759,12/13/2020,Ucf,Fgcu,Saif Esho
+128,16759,12/13/2020,Ucf,Fgcu,Jules Gallien
+128,16722,11/25/2020,Ucf,Virginia,Teresa Stuck
+128,16722,11/25/2020,Ucf,Virginia,Brandon Enterline
+128,16722,11/25/2020,Ucf,Virginia,Rod Creech
+128,16782,12/15/2020,Ucf,Tulane,Ashley Gloss
+128,16782,12/15/2020,Ucf,Tulane,Dee Kantner
+128,16782,12/15/2020,Ucf,Tulane,Denise Brooks
+128,16798,2/20/2021,Ucf,Tulsa,John Capolino
+128,16798,2/20/2021,Ucf,Tulsa,Jeffrey Smith
+128,16798,2/20/2021,Ucf,Tulsa,Tiara Cruse
+128,16808,3/9/2021,Ucf,Cincinnati,Rod Creech
+128,16808,3/9/2021,Ucf,Cincinnati,Jeffrey Smith
+128,16808,3/9/2021,Ucf,Cincinnati,Maj Forsberg
+128,16788,1/17/2021,Ucf,Cincinnati,Talisa Green
+128,16788,1/17/2021,Ucf,Cincinnati,Rod Creech
+128,16788,1/17/2021,Ucf,Cincinnati,Jeffrey Smith
+128,16993,3/4/2021,Ucf,South Fla.,Alexis Perez
+128,16993,3/4/2021,Ucf,South Fla.,Maggie Tieman
+128,16993,3/4/2021,Ucf,South Fla.,Scott Yarbrough
+128,16785,1/3/2021,Ucf,Houston,Tasha Smith
+128,16785,1/3/2021,Ucf,Houston,Alexis Perez
+128,16785,1/3/2021,Ucf,Houston,John Capolino
+164,21343,3/7/2021,UConn,Villanova,Fatou Cissoko-Stephens
+164,21343,3/7/2021,UConn,Villanova,Tom Danaher
+164,21343,3/7/2021,UConn,Villanova,Jeff Smith
+164,21396,3/27/2021,UConn,Iowa,Julie Krommenhoek
+164,21396,3/27/2021,UConn,Iowa,Doug Knight
+164,21396,3/27/2021,UConn,Iowa,Maj Forsberg
+164,21134,2/10/2021,UConn,Seton Hall,Katie Lukanich
+164,21134,2/10/2021,UConn,Seton Hall,Jeffrey Smith
+164,21134,2/10/2021,UConn,Seton Hall,Bryan Brunette
+164,21397,3/29/2021,UConn,Baylor,Karen Preato
+164,21397,3/29/2021,UConn,Baylor,Brian Hall
+164,21397,3/29/2021,UConn,Baylor,LIsa Jones
+164,21125,3/1/2021,UConn,Marquette,Katie Lukanich
+164,21125,3/1/2021,UConn,Marquette,Jeffrey Smith
+164,21125,3/1/2021,UConn,Marquette,Joseph Vaszily
+164,21133,2/3/2021,UConn,St. John's (NY),John Capolino
+164,21133,2/3/2021,UConn,St. John's (NY),Fatou Cissoko-Stephens
+164,21133,2/3/2021,UConn,St. John's (NY),Denise Brooks
+164,21129,1/19/2021,UConn,Butler,Maggie Tieman
+164,21129,1/19/2021,UConn,Butler,Fatou Cissoko-Stephens
+164,21129,1/19/2021,UConn,Butler,Tom Danaher
+164,20738,12/19/2020,UConn,Xavier,Keith Miller
+164,20738,12/19/2020,UConn,Xavier,John Capolino
+164,20738,12/19/2020,UConn,Xavier,Joseph Vaszily
+164,21094,12/17/2020,UConn,Creighton,Teresa Stuck
+164,21094,12/17/2020,UConn,Creighton,Mark Resch
+164,21094,12/17/2020,UConn,Creighton,Karen Preato
+164,21344,3/8/2021,UConn,Marquette,Karen Preato
+164,21344,3/8/2021,UConn,Marquette,Maj Forseberg
+164,21344,3/8/2021,UConn,Marquette,Cameron Inouye
+164,21372,3/21/2021,UConn,High Point,Nic Cappel
+164,21372,3/21/2021,UConn,High Point,Bryan Brunette
+164,21372,3/21/2021,UConn,High Point,Cheryl Flores
+164,20740,2/8/2021,UConn,South Carolina,Tiara Cruse
+164,20740,2/8/2021,UConn,South Carolina,Joseph Vaszily
+164,20740,2/8/2021,UConn,South Carolina,Dee Kantner
+164,21126,1/9/2021,UConn,Providence,Brandon Enterline
+164,21126,1/9/2021,UConn,Providence,Fatou Cissoko-Stephens
+164,21126,1/9/2021,UConn,Providence,Denise Brooks
+164,21130,1/23/2021,UConn,Georgetown,Rod Creech
+164,21130,1/23/2021,UConn,Georgetown,Ashley Gloss
+164,21130,1/23/2021,UConn,Georgetown,Jules Gallien
+164,21336,3/6/2021,UConn,St. John's (NY),Krystle Apellaniz
+164,21336,3/6/2021,UConn,St. John's (NY),Mark Resch
+164,21336,3/6/2021,UConn,St. John's (NY),Jules Gallien
+164,21398,4/2/2021,UConn,Arizona,Pualani Spurlock
+164,21398,4/2/2021,UConn,Arizona,Charles Gonzalez
+164,21398,4/2/2021,UConn,Arizona,Denise Kantner
+164,20822,12/12/2020,UConn,UMass Lowell,Lauren Niemiera
+164,20822,12/12/2020,UConn,UMass Lowell,Talisa Green
+164,20822,12/12/2020,UConn,UMass Lowell,Tom Danahar
+164,21383,3/23/2021,UConn,Syracuse,Alecia Murray
+164,21383,3/23/2021,UConn,Syracuse,Brian Woods
+164,21383,3/23/2021,UConn,Syracuse,Gina Cross
+418,19279,2/21/2021,Michigan,Ohio St.,Frank Steratore
+418,19279,2/21/2021,Michigan,Ohio St.,Angie Enlund
+418,19279,2/21/2021,Michigan,Ohio St.,Mark Zentz
+418,19265,12/31/2020,Michigan,Wisconsin,Kelsey Reynolds
+418,19265,12/31/2020,Michigan,Wisconsin,Brad Maxey
+418,19265,12/31/2020,Michigan,Wisconsin,Tom Hallead
+418,19290,12/9/2020,Michigan,Butler,Bruce Morris
+418,19290,12/9/2020,Michigan,Butler,Gina Cross
+418,19290,12/9/2020,Michigan,Butler,Felicia Grinter
+418,19268,1/10/2021,Michigan,Illinois,Stephanie Barksdale
+418,19268,1/10/2021,Michigan,Illinois,Tom Hallead
+418,19268,1/10/2021,Michigan,Illinois,Mark Zentz
+418,19267,1/7/2021,Michigan,Nebraska,Nykesha Thompson
+418,19267,1/7/2021,Michigan,Nebraska,Frank Steratore
+418,19267,1/7/2021,Michigan,Nebraska,Bryan Enterline
+418,19285,3/11/2021,Michigan,Northwestern,Nykesha Thompson
+418,19285,3/11/2021,Michigan,Northwestern,Michael McConnell
+418,19285,3/11/2021,Michigan,Northwestern,Mark Zentz
+418,19289,12/6/2020,Michigan,Wright St.,Starr Jefferson
+418,19289,12/6/2020,Michigan,Wright St.,Kalei Enterline
+418,19289,12/6/2020,Michigan,Wright St.,Brian Enterline
+418,20053,2/16/2021,Michigan,Michigan St.,Felicia Grinter
+418,20053,2/16/2021,Michigan,Michigan St.,Gina Cross
+418,20053,2/16/2021,Michigan,Michigan St.,Mark Zentz
+418,19282,3/6/2021,Michigan,Northwestern,Natasha Camy
+418,19282,3/6/2021,Michigan,Northwestern,Bryan Enterline
+418,19282,3/6/2021,Michigan,Northwestern,Tim Daley
+418,20177,3/4/2021,Michigan,Maryland,Karleena Tobin
+418,20177,3/4/2021,Michigan,Maryland,Kevin Pethtel
+418,20177,3/4/2021,Michigan,Maryland,Mark Zentz
+418,20209,3/21/2021,Michigan,Fgcu,Mark Resch
+418,20209,3/21/2021,Michigan,Fgcu,Karleena Tobin
+418,20209,3/21/2021,Michigan,Fgcu,Gina Cross
+418,19261,11/25/2020,Michigan,Central Mich.,Karleena Tobin
+418,19261,11/25/2020,Michigan,Central Mich.,Cameron Inouye
+418,19261,11/25/2020,Michigan,Central Mich.,Frank Steratore
+367,22650,11/29/2020,Louisville,Eastern Ky.,Bobby Ray
+367,22650,11/29/2020,Louisville,Eastern Ky.,Linda Miles
+367,22650,11/29/2020,Louisville,Eastern Ky.,Robert Enterline
+367,22685,1/17/2021,Louisville,Florida St.,Carla Fountain
+367,22685,1/17/2021,Louisville,Florida St.,Joseph Vaszily
+367,22685,1/17/2021,Louisville,Florida St.,Dee Kantner
+367,22684,1/28/2021,Louisville,North Carolina,Ashley Gloss
+367,22684,1/28/2021,Louisville,North Carolina,Rod Creech
+367,22684,1/28/2021,Louisville,North Carolina,Jules Gallien
+367,22692,2/1/2021,Louisville,NC State,Karen Preato
+367,22692,2/1/2021,Louisville,NC State,Denise Brooks
+367,22692,2/1/2021,Louisville,NC State,Dee Kantner
+367,23083,3/22/2021,Louisville,Marist,Angel Kent
+367,23083,3/22/2021,Louisville,Marist,Jeffrey Smith
+367,23083,3/22/2021,Louisville,Marist,Joseph Vaszily
+367,22695,1/21/2021,Louisville,Syracuse,Ed Sidlasky
+367,22695,1/21/2021,Louisville,Syracuse,Billy Smith
+367,22695,1/21/2021,Louisville,Syracuse,Denise Brooks
+367,22698,2/11/2021,Louisville,Georgia Tech,Krystle Apellaniz
+367,22698,2/11/2021,Louisville,Georgia Tech,Mark Resch
+367,22698,2/11/2021,Louisville,Georgia Tech,Ed Sidlasky
+367,22837,1/2/2021,Louisville,Bellarmine,Brandon Enterline
+367,22837,1/2/2021,Louisville,Bellarmine,Ryan Durham
+367,22837,1/2/2021,Louisville,Bellarmine,Eric Brewton
+367,22697,2/7/2021,Louisville,Notre Dame,Katie Lukanich
+367,22697,2/7/2021,Louisville,Notre Dame,Maj Forsberg
+367,22697,2/7/2021,Louisville,Notre Dame,Eric Brewton
+367,23086,3/24/2021,Louisville,Northwestern,Talisa Green
+367,23086,3/24/2021,Louisville,Northwestern,Pualani Spurlock
+367,23086,3/24/2021,Louisville,Northwestern,Michael Price
+367,23053,3/6/2021,Louisville,Syracuse,Bruce Morris
+367,23053,3/6/2021,Louisville,Syracuse,Carla Fountain
+367,23053,3/6/2021,Louisville,Syracuse,Karen Preato
+367,22838,1/1/2021,Louisville,Northern Ky.,Linda Miles
+367,22838,1/1/2021,Louisville,Northern Ky.,Ryan Durham
+367,22838,1/1/2021,Louisville,Northern Ky.,Eric Brewton
+367,22839,1/5/2021,Louisville,UT Martin,John Capolino
+367,22839,1/5/2021,Louisville,UT Martin,Mark Resch
+367,22839,1/5/2021,Louisville,UT Martin,Karen Preato
+367,23052,3/5/2021,Louisville,Wake Forest,Talisa Green
+367,23052,3/5/2021,Louisville,Wake Forest,Luis Gonzalez
+367,23052,3/5/2021,Louisville,Wake Forest,Eric Brewton
+367,23087,3/28/2021,Louisville,Oregon,Fatou Cissoko-Stephens
+367,23087,3/28/2021,Louisville,Oregon,Robert Scofield
+367,23087,3/28/2021,Louisville,Oregon,Michael McConnell
+367,22691,1/14/2021,Louisville,Boston College,Mark Resch
+367,22691,1/14/2021,Louisville,Boston College,Luis Gonzalez
+367,22691,1/14/2021,Louisville,Boston College,Maj Forsberg
+367,22652,12/6/2020,Louisville,UT Martin,Ryan Durham
+367,22652,12/6/2020,Louisville,UT Martin,Thomas Danaher
+367,22652,12/6/2020,Louisville,UT Martin,Carla Fountain
+367,22701,1/10/2021,Louisville,Clemson,Jeffrey Smith
+367,22701,1/10/2021,Louisville,Clemson,Thomas Danaher
+367,22701,1/10/2021,Louisville,Clemson,Karen Preato
+367,23054,3/7/2021,Louisville,NC State,Joe Vaszily
+367,23054,3/7/2021,Louisville,NC State,Eric Brewton
+367,23054,3/7/2021,Louisville,NC State,Dee Kantner
+367,22686,1/26/2021,Louisville,Miami (FL),Karen Preato
+367,22686,1/26/2021,Louisville,Miami (FL),Thomas Danaher
+367,22686,1/26/2021,Louisville,Miami (FL),Carla Fountain
+629,6626,12/18/2020,San Francisco,William Jessup,Alejandro Moreno
+629,6626,12/18/2020,San Francisco,William Jessup,Chris Hirano
+629,6626,12/18/2020,San Francisco,William Jessup,Mark Harman
+629,6543,2/27/2021,San Francisco,Byu,Johnny Mendez
+629,6543,2/27/2021,San Francisco,Byu,Kimberely Hobbs
+629,6543,2/27/2021,San Francisco,Byu,Melissa Barlow
+629,6538,2/6/2021,San Francisco,Pacific,Cheryll Blue
+629,6538,2/6/2021,San Francisco,Pacific,Benny Luna
+629,6538,2/6/2021,San Francisco,Pacific,Anita Ortega
+629,6529,1/4/2021,San Francisco,Loyola Marymount,Mark Harman
+629,6529,1/4/2021,San Francisco,Loyola Marymount,Sha'Rae Mitchell
+629,6529,1/4/2021,San Francisco,Loyola Marymount,Lorena Ahumada
+629,6533,1/16/2021,San Francisco,Gonzaga,Darren Krzesnik
+629,6533,1/16/2021,San Francisco,Gonzaga,Mark Harman
+629,6533,1/16/2021,San Francisco,Gonzaga,DeVaughn Brazier
+629,6532,1/14/2021,San Francisco,Portland,Dominique Hunter
+629,6532,1/14/2021,San Francisco,Portland,Breana Fields
+629,6532,1/14/2021,San Francisco,Portland,DeVaughn Brazier
+629,6528,1/25/2021,San Francisco,Pepperdine,Kim Hobbs
+629,6528,1/25/2021,San Francisco,Pepperdine,In'Fini Robinson
+629,6528,1/25/2021,San Francisco,Pepperdine,Benny Luna
+629,6792,3/6/2021,San Francisco,Saint Mary's (CA),Cheryll Blue
+629,6792,3/6/2021,San Francisco,Saint Mary's (CA),Kenny Nash
+629,6792,3/6/2021,San Francisco,Saint Mary's (CA),Riachard Water
+629,6537,2/4/2021,San Francisco,Saint Mary's (CA),Teresa Turner
+629,6537,2/4/2021,San Francisco,Saint Mary's (CA),Robert Scofield
+629,6537,2/4/2021,San Francisco,Saint Mary's (CA),Tiffany Bird
+629,6541,2/20/2021,San Francisco,Santa Clara,Alejandro Moreno
+629,6541,2/20/2021,San Francisco,Santa Clara,Benny Luna
+629,6541,2/20/2021,San Francisco,Santa Clara,Tiffany Bird
+629,6625,12/13/2020,San Francisco,Fresno St.,Sha'Rae Mitchell
+629,6625,12/13/2020,San Francisco,Fresno St.,Dominique Hunter
+629,6625,12/13/2020,San Francisco,Fresno St.,Kathleen Cassidy
+651,11761,3/11/2021,South Fla.,Ucf,Pualani Spurlock
+651,11761,3/11/2021,South Fla.,Ucf,Joseph Vaszily
+651,11761,3/11/2021,South Fla.,Ucf,Karen Preato
+651,11716,1/6/2021,South Fla.,Wichita St.,Ron Ledington
+651,11716,1/6/2021,South Fla.,Wichita St.,Luis Gonzalez
+651,11716,1/6/2021,South Fla.,Wichita St.,Dee Kantner
+651,11760,3/10/2021,South Fla.,Tulane,Bruce Morris
+651,11760,3/10/2021,South Fla.,Tulane,Jeffrey Smith
+651,11760,3/10/2021,South Fla.,Tulane,Maj Forsberg
+651,11706,11/28/2020,South Fla.,Jacksonville,Kiara Negron
+651,11706,11/28/2020,South Fla.,Jacksonville,Rod Creech
+651,11706,11/28/2020,South Fla.,Jacksonville,Jules Gallien
+651,11730,3/2/2021,South Fla.,Ucf,Joseph Vaszily
+651,11730,3/2/2021,South Fla.,Ucf,Luis Gonzalez
+651,11730,3/2/2021,South Fla.,Ucf,Cameron Inouye
+651,11727,2/20/2021,South Fla.,Tulane,Alexis Perez
+651,11727,2/20/2021,South Fla.,Tulane,Marc Merritt
+651,11727,2/20/2021,South Fla.,Tulane,Denise Brooks
+651,11707,12/1/2020,South Fla.,Baylor,Pualani Spurlock
+651,11707,12/1/2020,South Fla.,Baylor,Maj Forsberg
+651,11707,12/1/2020,South Fla.,Baylor,Joseph Vaszily
+651,12039,3/21/2021,South Fla.,Washington St.,Katie Lukanich
+651,12039,3/21/2021,South Fla.,Washington St.,Pualani Spurlock
+651,12039,3/21/2021,South Fla.,Washington St.,Brenda Pantoja
+651,11708,12/5/2020,South Fla.,Mississippi St.,John Capolino
+651,11708,12/5/2020,South Fla.,Mississippi St.,Karen Preato
+651,11708,12/5/2020,South Fla.,Mississippi St.,Luis Gonzalez
+651,11709,12/13/2020,South Fla.,Stetson,Tasha Smith
+651,11709,12/13/2020,South Fla.,Stetson,Isaac Johnson
+651,11709,12/13/2020,South Fla.,Stetson,Ron Ledington
+651,11725,2/13/2021,South Fla.,Tulsa,Kiara Negron
+651,11725,2/13/2021,South Fla.,Tulsa,Ron Ledington
+651,11725,2/13/2021,South Fla.,Tulsa,Luis Gonzalez
+651,11768,1/9/2021,South Fla.,Houston,Marc Merritt
+651,11768,1/9/2021,South Fla.,Houston,Geraldine Smith
+651,11768,1/9/2021,South Fla.,Houston,Cameron Inouye
+651,11759,3/9/2021,South Fla.,Wichita St.,John Capolino
+651,11759,3/9/2021,South Fla.,Wichita St.,Tom Danaher
+651,11759,3/9/2021,South Fla.,Wichita St.,Denise Brooks
+651,11715,1/2/2021,South Fla.,East Carolina,Alexis Perez
+651,11715,1/2/2021,South Fla.,East Carolina,John Capolino
+651,11715,1/2/2021,South Fla.,East Carolina,Bruce Morris
+651,12011,2/17/2021,South Fla.,Cincinnati,Tasha Smith
+651,12011,2/17/2021,South Fla.,Cincinnati,John Capolino
+651,12011,2/17/2021,South Fla.,Cincinnati,Ron Ledington
+732,18521,1/31/2021,Utah,Oregon St.,Kenneth Nash
+732,18521,1/31/2021,Utah,Oregon St.,Clarke Stevens
+732,18521,1/31/2021,Utah,Oregon St.,Lisa Jones
+732,18511,12/20/2020,Utah,Arizona,Clarke Stevens
+732,18511,12/20/2020,Utah,Arizona,In'Fini Robinson
+732,18511,12/20/2020,Utah,Arizona,Melissa Barlow
+732,18510,12/18/2020,Utah,Arizona St.,Brian Woods
+732,18510,12/18/2020,Utah,Arizona St.,Benny Luna
+732,18510,12/18/2020,Utah,Arizona St.,Cheryl Flores
+732,18513,1/3/2021,Utah,Washington,Lorena Ahumada
+732,18513,1/3/2021,Utah,Washington,Kenneth Nash
+732,18513,1/3/2021,Utah,Washington,Robert Scofield
+732,18512,1/1/2021,Utah,Washington St.,Tyler Trimble
+732,18512,1/1/2021,Utah,Washington St.,Brian Woods
+732,18512,1/1/2021,Utah,Washington St.,Brenda Pantoja
+732,18524,2/12/2021,Utah,Ucla,Tiffany Bird
+732,18524,2/12/2021,Utah,Ucla,Kenneth Nash
+732,18524,2/12/2021,Utah,Ucla,Robert Scofield
+732,18558,12/11/2020,Utah,Montana St.,Cheryll Blue
+732,18558,12/11/2020,Utah,Montana St.,Shelley Nakasone
+732,18558,12/11/2020,Utah,Montana St.,Charles Gonzalez
+702,14581,2/13/2021,UT Arlington,Texas St.,D'Lynn Schertz
+702,14581,2/13/2021,UT Arlington,Texas St.,Jennifer White
+702,14581,2/13/2021,UT Arlington,Texas St.,Katie Lukanich
+702,14578,1/30/2021,UT Arlington,Arkansas St.,Jenna Reneau
+702,14578,1/30/2021,UT Arlington,Arkansas St.,Starr Jefferson
+702,14578,1/30/2021,UT Arlington,Arkansas St.,Blanca Burns
+702,14574,1/8/2021,UT Arlington,La.-Monroe,Starr Jefferson
+702,14574,1/8/2021,UT Arlington,La.-Monroe,Troy Winders
+702,14574,1/8/2021,UT Arlington,La.-Monroe,Royce Blevins
+702,14573,1/1/2021,UT Arlington,Little Rock,Kristen Bell
+702,14573,1/1/2021,UT Arlington,Little Rock,Ify Seales
+702,14573,1/1/2021,UT Arlington,Little Rock,Brian Garland
+702,14548,1/9/2021,UT Arlington,La.-Monroe,Randy Robertson
+702,14548,1/9/2021,UT Arlington,La.-Monroe,Ify Seales
+702,14548,1/9/2021,UT Arlington,La.-Monroe,Eric Koch
+702,14544,1/2/2021,UT Arlington,Little Rock,Nadi Carey
+702,14544,1/2/2021,UT Arlington,Little Rock,Symbri Tuttle
+702,14544,1/2/2021,UT Arlington,Little Rock,Britton Sherry
+702,14566,11/25/2020,UT Arlington,Tex. A&M-Commerce,Doug Williams
+702,14566,11/25/2020,UT Arlington,Tex. A&M-Commerce,Nadi Carey
+702,14566,11/25/2020,UT Arlington,Tex. A&M-Commerce,Symbri Tuttle
+702,14550,1/29/2021,UT Arlington,Arkansas St.,Beverly Roberts
+702,14550,1/29/2021,UT Arlington,Arkansas St.,Gina Cross
+702,14550,1/29/2021,UT Arlington,Arkansas St.,Demoya Williams
+702,15582,12/13/2020,UT Arlington,St. Edward's,Jaclyn Watson
+702,15582,12/13/2020,UT Arlington,St. Edward's,Shandra Twine
+702,15582,12/13/2020,UT Arlington,St. Edward's,D'Lynn Schertz
+295,7578,3/5/2021,Idaho,Montana,Mark Munoz
+295,7578,3/5/2021,Idaho,Montana,Sydney Mott
+295,7578,3/5/2021,Idaho,Montana,Jacob Finn
+295,7574,1/9/2021,Idaho,Southern Utah,Rigo Vasquez
+295,7574,1/9/2021,Idaho,Southern Utah,Michael Thorner
+295,7574,1/9/2021,Idaho,Southern Utah,Tyler Trimble
+295,7626,12/21/2020,Idaho,Seattle U,Sydney Mott
+295,7626,12/21/2020,Idaho,Seattle U,Jessica Fortner
+295,7626,12/21/2020,Idaho,Seattle U,Lisa Jones
+295,7569,12/4/2020,Idaho,Sacramento St.,Felecity Willis
+295,7569,12/4/2020,Idaho,Sacramento St.,Michael Thorner
+295,7569,12/4/2020,Idaho,Sacramento St.,Jacob Petz
+295,7746,3/10/2021,Idaho,Montana St.,Steve Belnap
+295,7746,3/10/2021,Idaho,Montana St.,Shelley Nakasone
+295,7746,3/10/2021,Idaho,Montana St.,Bob Scofield
+295,7584,2/13/2021,Idaho,Idaho St.,Steve Belnap
+295,7584,2/13/2021,Idaho,Idaho St.,Shelley Nakasone
+295,7584,2/13/2021,Idaho,Idaho St.,Robert Scofield
+295,7570,12/5/2020,Idaho,Sacramento St.,Jacob Petz
+295,7570,12/5/2020,Idaho,Sacramento St.,Michael Thorner
+295,7570,12/5/2020,Idaho,Sacramento St.,Sean Martin
+295,7585,2/18/2021,Idaho,Portland St.,Melissa Barlow
+295,7585,2/18/2021,Idaho,Portland St.,Kim Hobbs
+295,7585,2/18/2021,Idaho,Portland St.,Tiffany Bird
+295,7582,2/6/2021,Idaho,Eastern Wash.,Alicia Iwakiri
+295,7582,2/6/2021,Idaho,Eastern Wash.,Tim Gilbetson
+295,7582,2/6/2021,Idaho,Eastern Wash.,Steven Belnap
+295,7583,2/11/2021,Idaho,Idaho St.,Teresa Turner
+295,7583,2/11/2021,Idaho,Idaho St.,Lisa Jones
+295,7583,2/11/2021,Idaho,Idaho St.,Julie Krommenhoek
+295,7736,3/9/2021,Idaho,Northern Ariz.,Kim Hobbs
+295,7736,3/9/2021,Idaho,Northern Ariz.,Shelley Nakasone
+295,7736,3/9/2021,Idaho,Northern Ariz.,Tyler Trimble
+740,4836,2/18/2021,Vcu,La Salle,Brandon Mario
+740,4836,2/18/2021,Vcu,La Salle,Mark McClenney
+740,4836,2/18/2021,Vcu,La Salle,Geraldine Smith
+740,4816,12/3/2020,Vcu,Buffalo,Toni Patillo
+740,4816,12/3/2020,Vcu,Buffalo,John Capolino
+740,4816,12/3/2020,Vcu,Buffalo,Mark Clenney
+740,4837,2/20/2021,Vcu,Saint Joseph's,Anthony Reddin
+740,4837,2/20/2021,Vcu,Saint Joseph's,Whitney Armstrong
+740,4837,2/20/2021,Vcu,Saint Joseph's,Nic Cappel
+740,5070,3/14/2021,Vcu,Massachusetts,John Capolino
+740,5070,3/14/2021,Vcu,Massachusetts,Fatou Cissoko-Stephens
+740,5070,3/14/2021,Vcu,Massachusetts,Jeffrey Smith
+740,4826,1/15/2021,Vcu,Massachusetts,Krystle Apellaniz
+740,4826,1/15/2021,Vcu,Massachusetts,Ed Sidlasky
+740,4826,1/15/2021,Vcu,Massachusetts,Tom Danaher
+740,5060,3/11/2021,Vcu,Davidson,Krystle Apellaniz
+740,5060,3/11/2021,Vcu,Davidson,Saif Esho
+740,5060,3/11/2021,Vcu,Davidson,Mark McClenney
+740,4828,1/27/2021,Vcu,George Washington,Brandon Marion
+740,4828,1/27/2021,Vcu,George Washington,Teresa Stuck
+740,4828,1/27/2021,Vcu,George Washington,Geraldine Smith
+740,4825,1/13/2021,Vcu,George Mason,Lauren Niemiera
+740,4825,1/13/2021,Vcu,George Mason,Ashlee Goode
+740,4825,1/13/2021,Vcu,George Mason,Bob Enterline
+740,4829,1/24/2021,Vcu,Richmond,Alex Leap
+740,4829,1/24/2021,Vcu,Richmond,Jennifer Washo
+740,4829,1/24/2021,Vcu,Richmond,Shawn Goode
+740,4815,11/28/2020,Vcu,Sfa,Marc Merritt
+740,4815,11/28/2020,Vcu,Sfa,Darren Barlow
+740,4815,11/28/2020,Vcu,Sfa,Melissa Barlow Krzesnik
+749,11868,1/10/2021,Wake Forest,Boston College,Roy Jackson
+749,11868,1/10/2021,Wake Forest,Boston College,Dan Outlaw
+749,11868,1/10/2021,Wake Forest,Boston College,Carla Fountain
+749,11852,12/10/2020,Wake Forest,North Carolina,Mark Resch
+749,11852,12/10/2020,Wake Forest,North Carolina,Karen Preato
+749,11852,12/10/2020,Wake Forest,North Carolina,Denise Brooks
+749,11858,2/18/2021,Wake Forest,NC State,Billy Smith
+749,11858,2/18/2021,Wake Forest,NC State,Bryan Brunette
+749,11858,2/18/2021,Wake Forest,NC State,Karen Preato
+749,11863,1/31/2021,Wake Forest,Clemson,Saif Esho
+749,11863,1/31/2021,Wake Forest,Clemson,Felicia Young
+749,11863,1/31/2021,Wake Forest,Clemson,Dee Kantner
+749,11856,1/28/2021,Wake Forest,Florida St.,Maggie Tieman
+749,11856,1/28/2021,Wake Forest,Florida St.,Billy Smith
+749,11856,1/28/2021,Wake Forest,Florida St.,Jeffery Smith
+749,11860,1/21/2021,Wake Forest,Georgia Tech,Alexis Perez
+749,11860,1/21/2021,Wake Forest,Georgia Tech,Jennifer Rezac
+749,11860,1/21/2021,Wake Forest,Georgia Tech,Joseph Vaszily
+749,11861,1/24/2021,Wake Forest,Louisville,Ryan Durham
+749,11861,1/24/2021,Wake Forest,Louisville,Talisa Green
+749,11861,1/24/2021,Wake Forest,Louisville,Rod Creech
+749,11857,1/7/2021,Wake Forest,Miami (FL),Bobby Ray
+749,11857,1/7/2021,Wake Forest,Miami (FL),Angelica Suffren
+749,11857,1/7/2021,Wake Forest,Miami (FL),Ed Sidlasky
+749,11866,2/11/2021,Wake Forest,Pittsburgh,Katie Lukanich
+749,11866,2/11/2021,Wake Forest,Pittsburgh,Jennifer Rezac
+749,11866,2/11/2021,Wake Forest,Pittsburgh,Thomas Danaher
+771,8268,1/3/2021,Western Ill.,North Dakota St.,Scott Fruehling
+771,8268,1/3/2021,Western Ill.,North Dakota St.,Michelle Kramer
+771,8268,1/3/2021,Western Ill.,North Dakota St.,Greg Small
+771,8272,1/16/2021,Western Ill.,Kansas City,Carson Hattel
+771,8272,1/16/2021,Western Ill.,Kansas City,Jessica Fortner
+771,8272,1/16/2021,Western Ill.,Kansas City,Angel Kent
+771,10487,3/8/2021,Western Ill.,Omaha,Erica Parker
+771,10487,3/8/2021,Western Ill.,Omaha,Marty Cook
+771,10487,3/8/2021,Western Ill.,Omaha,Doug Knight
+771,8280,2/13/2021,Western Ill.,Denver,Carson Hattel
+771,8280,2/13/2021,Western Ill.,Denver,Angel Kent
+771,8280,2/13/2021,Western Ill.,Denver,Jared Wilson
+771,8279,2/12/2021,Western Ill.,Denver,Carson Hattel
+771,8279,2/12/2021,Western Ill.,Denver,Angel Kent
+771,8279,2/12/2021,Western Ill.,Denver,Missy Brooks
+771,8271,1/15/2021,Western Ill.,Kansas City,Carson Hattel
+771,8271,1/15/2021,Western Ill.,Kansas City,Jessica Fortner
+771,8271,1/15/2021,Western Ill.,Kansas City,Angel Kent
+771,8267,1/2/2021,Western Ill.,North Dakota St.,Scott Fruehling
+771,8267,1/2/2021,Western Ill.,North Dakota St.,Michelle Kramer
+771,8267,1/2/2021,Western Ill.,North Dakota St.,Greg Small
+754,13199,1/10/2021,Washington St.,Arizona,Nicholas Mitch
+754,13199,1/10/2021,Washington St.,Arizona,Clarke Stevens
+754,13199,1/10/2021,Washington St.,Arizona,Kenneth Nash
+754,13195,12/21/2020,Washington St.,Oregon,Julie Krommenhoek
+754,13195,12/21/2020,Washington St.,Oregon,Benny Luna
+754,13195,12/21/2020,Washington St.,Oregon,Robert Scofield
+754,13212,2/28/2021,Washington St.,Washington,Cheryll Blue
+754,13212,2/28/2021,Washington St.,Washington,Kenneth Nash
+754,13212,2/28/2021,Washington St.,Washington,Robert Scofield
+754,13439,3/3/2021,Washington St.,Utah,Benny Luna
+754,13439,3/3/2021,Washington St.,Utah,Michol Murray
+754,13439,3/3/2021,Washington St.,Utah,Robert Scofield
+754,13194,12/19/2020,Washington St.,Oregon St.,Nicole Leon
+754,13194,12/19/2020,Washington St.,Oregon St.,Alecia Murray
+754,13194,12/19/2020,Washington St.,Oregon St.,Brenda Pantoja
+754,13222,12/13/2020,Washington St.,Idaho,Lorena Ahumada
+754,13222,12/13/2020,Washington St.,Idaho,Kenneth Nash
+754,13222,12/13/2020,Washington St.,Idaho,Cheryl Flores
+754,13223,12/22/2020,Washington St.,Eastern Wash.,Rochelle Bennett
+754,13223,12/22/2020,Washington St.,Eastern Wash.,Shelly Naskasone
+754,13223,12/22/2020,Washington St.,Eastern Wash.,Michol Murray
+754,13191,1/27/2021,Washington St.,Stanford,Teresa Turner
+754,13191,1/27/2021,Washington St.,Stanford,Kenneth Nash
+754,13191,1/27/2021,Washington St.,Stanford,Brenda Pantoja
+754,13210,2/19/2021,Washington St.,Colorado,Alejandro Moreno
+754,13210,2/19/2021,Washington St.,Colorado,Tiffany Boyd
+754,13210,2/19/2021,Washington St.,Colorado,Melissa Barlow
+754,13206,2/5/2021,Washington St.,Ucla,Nicole Leon
+754,13206,2/5/2021,Washington St.,Ucla,Benny Luna
+754,13206,2/5/2021,Washington St.,Ucla,Melissa Barlow
+754,13207,2/7/2021,Washington St.,Southern California,Lorena Ahumada
+754,13207,2/7/2021,Washington St.,Southern California,Cathi Cornell
+754,13207,2/7/2021,Washington St.,Southern California,Michael Price
+754,13211,2/21/2021,Washington St.,Utah,Darren Krzesnik
+754,13211,2/21/2021,Washington St.,Utah,Benny Luna
+754,13211,2/21/2021,Washington St.,Utah,Michael Price
+754,13421,1/29/2021,Washington St.,Stanford,Nicole Leon
+754,13421,1/29/2021,Washington St.,Stanford,Benny Luna
+754,13421,1/29/2021,Washington St.,Stanford,Melissa Barlow
+811,5026,12/8/2020,Wyoming,Gonzaga,Tiffany Bird
+811,5026,12/8/2020,Wyoming,Gonzaga,Cheryl Flores
+811,5026,12/8/2020,Wyoming,Gonzaga,Michol Murray
+811,5030,1/2/2021,Wyoming,Fresno St.,Janetta Graham
+811,5030,1/2/2021,Wyoming,Fresno St.,Randy Campbell
+811,5030,1/2/2021,Wyoming,Fresno St.,Chuck Gonzalez
+811,5031,1/4/2021,Wyoming,Fresno St.,Maj Forsberg
+811,5031,1/4/2021,Wyoming,Fresno St.,Melissa Barlow
+811,5031,1/4/2021,Wyoming,Fresno St.,Lisa Jones
+811,5038,1/28/2021,Wyoming,San Diego St.,Brian Woods
+811,5038,1/28/2021,Wyoming,San Diego St.,Ashley Ellis
+811,5038,1/28/2021,Wyoming,San Diego St.,Darren Krzesnik
+811,5034,1/16/2021,Wyoming,Air Force,Scott Fruehling
+811,5034,1/16/2021,Wyoming,Air Force,Tiffany Jump
+811,5034,1/16/2021,Wyoming,Air Force,Clarke Stevens
+811,5035,1/18/2021,Wyoming,Air Force,Maj Forsberg
+811,5035,1/18/2021,Wyoming,Air Force,Brenda Pantoja
+811,5035,1/18/2021,Wyoming,Air Force,Lisa Jones
+811,5039,1/30/2021,Wyoming,San Diego St.,Kevin Kizewski
+811,5039,1/30/2021,Wyoming,San Diego St.,Kelly Broomfield
+811,5039,1/30/2021,Wyoming,San Diego St.,Chuck Gonzalez
+811,5045,2/13/2021,Wyoming,Utah St.,Scott Osborne
+811,5045,2/13/2021,Wyoming,Utah St.,Cheryll Blue
+811,5045,2/13/2021,Wyoming,Utah St.,Gator Parrish
+811,5044,2/11/2021,Wyoming,Utah St.,Ify Seales
+811,5044,2/11/2021,Wyoming,Utah St.,Kristen Bell
+811,5044,2/11/2021,Wyoming,Utah St.,Chuck Gonzalez
+811,5025,12/5/2020,Wyoming,Denver,Michael Price
+811,5025,12/5/2020,Wyoming,Denver,Chuck Gonzalez
+811,5025,12/5/2020,Wyoming,Denver,Lisa Jones
+812,8946,12/31/2020,Xavier,Providence,Bobby Ray
+812,8946,12/31/2020,Xavier,Providence,Linda Miles
+812,8946,12/31/2020,Xavier,Providence,Ashley Gloss
+812,8950,2/20/2021,Xavier,UConn,Jules Gallien
+812,8950,2/20/2021,Xavier,UConn,Ed Sidlasky
+812,8950,2/20/2021,Xavier,UConn,Bryan Brunette
+812,8926,12/14/2020,Xavier,Indiana St.,Brandon Enterline
+812,8926,12/14/2020,Xavier,Indiana St.,Linda Miles
+812,8926,12/14/2020,Xavier,Indiana St.,Katie Lukanich
+812,8947,1/3/2021,Xavier,Creighton,Lauren Niemiera
+812,8947,1/3/2021,Xavier,Creighton,Talisa Green
+812,8947,1/3/2021,Xavier,Creighton,Christopher Sauceda
+812,8919,12/22/2020,Xavier,Marquette,Brandon Enterline
+812,8919,12/22/2020,Xavier,Marquette,Ashley Gloss
+812,8919,12/22/2020,Xavier,Marquette,Rod Creech
+812,8962,2/24/2021,Xavier,Seton Hall,Bruce Morris
+812,8962,2/24/2021,Xavier,Seton Hall,Luis Gonzalez
+812,8962,2/24/2021,Xavier,Seton Hall,Norma Jones
+812,8923,12/13/2020,Xavier,Wofford,Shawn Goode
+812,8923,12/13/2020,Xavier,Wofford,Jeneane Pence
+812,8923,12/13/2020,Xavier,Wofford,Bob Enterline
+812,8963,2/28/2021,Xavier,Georgetown,Ashlee Goode
+812,8963,2/28/2021,Xavier,Georgetown,Bob Enterline
+812,8963,2/28/2021,Xavier,Georgetown,Jules Gallien
+2,7892,2/3/2021,Abilene Christian,Lamar University,Marcus Clayton
+2,7892,2/3/2021,Abilene Christian,Lamar University,Bill Larance
+2,7892,2/3/2021,Abilene Christian,Lamar University,Marleah Vidal
+2,7885,12/1/2020,Abilene Christian,Tex. Permian Basin,Kara Crossett
+2,7885,12/1/2020,Abilene Christian,Tex. Permian Basin,Jenna Reneau
+2,7885,12/1/2020,Abilene Christian,Tex. Permian Basin,Britton Sherry
+2,7889,12/15/2020,Abilene Christian,Texas-Tyler,Tammy Williams
+2,7889,12/15/2020,Abilene Christian,Texas-Tyler,D'Lynn Schertz
+2,7889,12/15/2020,Abilene Christian,Texas-Tyler,Jennifer White
+2,7904,2/24/2021,Abilene Christian,Sam Houston,Nicoles Brannon
+2,7904,2/24/2021,Abilene Christian,Sam Houston,Ify Seales
+2,7904,2/24/2021,Abilene Christian,Sam Houston,D'Lynn Schertz
+2,7949,11/29/2020,Abilene Christian,Midwestern St.,Marcus Barnett
+2,7949,11/29/2020,Abilene Christian,Midwestern St.,Tammy Williams
+2,7949,11/29/2020,Abilene Christian,Midwestern St.,Kristin Mckinnon
+2,7908,3/10/2021,Abilene Christian,Incarnate Word,Travis Jones
+2,7908,3/10/2021,Abilene Christian,Incarnate Word,Marleah Vidal
+2,7908,3/10/2021,Abilene Christian,Incarnate Word,John Fletcher
+2,7898,1/27/2021,Abilene Christian,Sfa,Tucker Furlow
+2,7898,1/27/2021,Abilene Christian,Sfa,Britton Sherry
+2,7898,1/27/2021,Abilene Christian,Sfa,D'Lynn Schertz
+2,7895,1/16/2021,Abilene Christian,Southeastern La.,Phil Henderson
+2,7895,1/16/2021,Abilene Christian,Southeastern La.,Shantell Bogues
+2,7895,1/16/2021,Abilene Christian,Southeastern La.,Kristin Mckinnon
+2,7883,11/25/2020,Abilene Christian,Howard Payne,Trey Bowers
+2,7883,11/25/2020,Abilene Christian,Howard Payne,Shantell Bogues
+2,7883,11/25/2020,Abilene Christian,Howard Payne,Glenn Dixon
+2,8144,3/20/2021,Abilene Christian,Fiu,Hannah Reynolds
+2,8144,3/20/2021,Abilene Christian,Fiu,Marla Gearhart
+2,8144,3/20/2021,Abilene Christian,Fiu,Brad Maxey
+2,7907,3/6/2021,Abilene Christian,Incarnate Word,Brent Simmons
+2,7907,3/6/2021,Abilene Christian,Incarnate Word,Ryan Huber
+2,7907,3/6/2021,Abilene Christian,Incarnate Word,Ross Cullins
+2,7897,1/23/2021,Abilene Christian,Central Ark.,Shandra Twine
+2,7897,1/23/2021,Abilene Christian,Central Ark.,Travis Jones
+2,7897,1/23/2021,Abilene Christian,Central Ark.,Jaclyn Watson
+2,7887,12/10/2020,Abilene Christian,Mary Hardin-Baylor,Kristin Mckinnon
+2,7887,12/10/2020,Abilene Christian,Mary Hardin-Baylor,Symbri Tuttle
+2,7887,12/10/2020,Abilene Christian,Mary Hardin-Baylor,Britton Sherry
+17,5622,2/22/2021,Alcorn,Alabama A&M,Isaac Johnson
+17,5622,2/22/2021,Alcorn,Alabama A&M,Neonta Williams
+17,5622,2/22/2021,Alcorn,Alabama A&M,Eric Baker
+27,7534,2/27/2021,Appalachian St.,Ga. Southern,Starr Jefferson
+27,7534,2/27/2021,Appalachian St.,Ga. Southern,LaSonia Baker
+27,7534,2/27/2021,Appalachian St.,Ga. Southern,Jody Cantrell
+27,7522,1/16/2021,Appalachian St.,South Alabama,Traci Drake
+27,7522,1/16/2021,Appalachian St.,South Alabama,Starr Jefferson
+27,7522,1/16/2021,Appalachian St.,South Alabama,Troy Winders
+27,7535,3/5/2021,Appalachian St.,La.-Monroe,Demoya Williams
+27,7535,3/5/2021,Appalachian St.,La.-Monroe,Eric Baker
+27,7535,3/5/2021,Appalachian St.,La.-Monroe,Kylie Galloway
+27,7528,2/5/2021,Appalachian St.,Georgia St.,Molly Caldwell
+27,7528,2/5/2021,Appalachian St.,Georgia St.,Danielle Jackson
+27,7528,2/5/2021,Appalachian St.,Georgia St.,Deanna Jackson
+27,7525,1/29/2021,Appalachian St.,Troy,Daniel Drake
+27,7525,1/29/2021,Appalachian St.,Troy,Eric Baker
+27,7525,1/29/2021,Appalachian St.,Troy,Karleena Tobin
+27,7533,2/26/2021,Appalachian St.,Ga. Southern,Daniel Drake
+27,7533,2/26/2021,Appalachian St.,Ga. Southern,Royce Blevins
+27,7533,2/26/2021,Appalachian St.,Ga. Southern,Natosha Harris
+27,7544,12/11/2020,Appalachian St.,Davidson,Traci Drake
+27,7544,12/11/2020,Appalachian St.,Davidson,Royce Blevins
+27,7544,12/11/2020,Appalachian St.,Davidson,Karleena Tobin
+27,7530,2/13/2021,Appalachian St.,Coastal Carolina,Danielle Jackson
+27,7530,2/13/2021,Appalachian St.,Coastal Carolina,Deanna Jackson
+27,7530,2/13/2021,Appalachian St.,Coastal Carolina,Jennifer Rezac
+27,7536,2/6/2021,Appalachian St.,Georgia St.,Kaz Beverley
+27,7536,2/6/2021,Appalachian St.,Georgia St.,Christopher Sauceda
+27,7536,2/6/2021,Appalachian St.,Georgia St.,Karen Preato
+27,7541,11/29/2020,Appalachian St.,UNC Asheville,Jennifer Reza
+27,7540,11/25/2020,Appalachian St.,Charlotte,LaSonia Baker
+27,7540,11/25/2020,Appalachian St.,Charlotte,Daniel Drake
+27,7540,11/25/2020,Appalachian St.,Charlotte,Joshua Hall
+27,7521,1/15/2021,Appalachian St.,South Alabama,Ifeyinma Seales
+27,7521,1/15/2021,Appalachian St.,South Alabama,Natosha Harris
+27,7521,1/15/2021,Appalachian St.,South Alabama,Eric Koch
+43,10107,2/13/2021,Austin Peay,Southeast Mo. St.,Stanley Wormley
+43,10107,2/13/2021,Austin Peay,Southeast Mo. St.,Cole Womack
+43,10107,2/13/2021,Austin Peay,Southeast Mo. St.,Terri Tubbs
+43,10106,2/12/2021,Austin Peay,UT Martin,Troy Winders
+43,10106,2/12/2021,Austin Peay,UT Martin,Adam Rider
+43,10106,2/12/2021,Austin Peay,UT Martin,Hannah Reynolds
+43,10101,1/25/2021,Austin Peay,Murray St.,Kristen Jones
+43,10101,1/25/2021,Austin Peay,Murray St.,Ryan Durham
+43,10101,1/25/2021,Austin Peay,Murray St.,Royce Blevins
+43,10091,12/15/2020,Austin Peay,Chattanooga,Maria Gearhart
+43,10091,12/15/2020,Austin Peay,Chattanooga,Molly Caldwell
+43,10091,12/15/2020,Austin Peay,Chattanooga,Eric Brewton
+43,10100,1/23/2021,Austin Peay,Jacksonville St.,Terri Tubbs
+43,10100,1/23/2021,Austin Peay,Jacksonville St.,Kyle Thomas
+43,10100,1/23/2021,Austin Peay,Jacksonville St.,Jason Schmitz
+43,10103,2/9/2021,Austin Peay,Tennessee St.,Trey Miles
+43,10103,2/9/2021,Austin Peay,Tennessee St.,Charlie Hurst
+43,10103,2/9/2021,Austin Peay,Tennessee St.,Royce Blevens
+43,10088,11/28/2020,Austin Peay,Trevecca Nazarene,Hannah Reynolds
+43,10088,11/28/2020,Austin Peay,Trevecca Nazarene,Troy Winders
+43,10088,11/28/2020,Austin Peay,Trevecca Nazarene,Brooke Shoulders
+43,10099,1/21/2021,Austin Peay,Tennessee Tech,Cole Womack
+43,10099,1/21/2021,Austin Peay,Tennessee Tech,Hannah Reynolds
+43,10099,1/21/2021,Austin Peay,Tennessee Tech,Timothy Hackett
+43,10109,2/20/2021,Austin Peay,Eastern Ill.,Jessamyn Bradley
+43,10109,2/20/2021,Austin Peay,Eastern Ill.,Shane Bennett
+43,10109,2/20/2021,Austin Peay,Eastern Ill.,Charlie Hust
+43,10094,1/2/2021,Austin Peay,Eastern Ky.,Carlos Jones
+43,10094,1/2/2021,Austin Peay,Eastern Ky.,Aaron Brooks
+43,10094,1/2/2021,Austin Peay,Eastern Ky.,Joshua Hall
+43,10108,2/18/2021,Austin Peay,Siue,Judith Dyehouse
+43,10108,2/18/2021,Austin Peay,Siue,Adam Rider
+43,10108,2/18/2021,Austin Peay,Siue,Royce Blevins
+47,9377,3/6/2021,Ball St.,Western Mich.,Nathan Baker
+47,9377,3/6/2021,Ball St.,Western Mich.,Lindsey VanDyken
+47,9377,3/6/2021,Ball St.,Western Mich.,Brad Duistermars
+47,9356,2/20/2021,Ball St.,Buffalo,Monique Davis
+47,9356,2/20/2021,Ball St.,Buffalo,Tom Hallead
+47,9356,2/20/2021,Ball St.,Buffalo,Angie Enlund
+47,9717,2/8/2021,Ball St.,Northern Ill.,Jeff Cross
+47,9717,2/8/2021,Ball St.,Northern Ill.,Bryan Enterline
+47,9717,2/8/2021,Ball St.,Northern Ill.,Angie Enlund
+47,9366,12/2/2020,Ball St.,Eastern Mich.,Kalei Enterline
+47,9366,12/2/2020,Ball St.,Eastern Mich.,Troy Ramey
+47,9366,12/2/2020,Ball St.,Eastern Mich.,Andrew Bills
+47,9353,1/6/2021,Ball St.,Toledo,Jamie Broderick
+47,9353,1/6/2021,Ball St.,Toledo,Andrew Bills
+47,9353,1/6/2021,Ball St.,Toledo,Mark Berger
+47,9352,1/2/2021,Ball St.,Bowling Green,Jennifer Washo
+47,9352,1/2/2021,Ball St.,Bowling Green,Brad Duistermars
+47,9352,1/2/2021,Ball St.,Bowling Green,Dorran Stewart
+47,9359,1/27/2021,Ball St.,Miami (OH),Kayla Maxey
+47,9359,1/27/2021,Ball St.,Miami (OH),Andrew Bills
+47,9359,1/27/2021,Ball St.,Miami (OH),Mark Berger
+47,9363,2/10/2021,Ball St.,Ohio,Nathan Baker
+47,9363,2/10/2021,Ball St.,Ohio,Erika Herriman-Camarota
+47,9363,2/10/2021,Ball St.,Ohio,Mark Berger
+47,9375,3/3/2021,Ball St.,Central Mich.,Jamie Broderick
+47,9375,3/3/2021,Ball St.,Central Mich.,Bob Enterline
+47,9375,3/3/2021,Ball St.,Central Mich.,Mark Berger
+47,9362,2/6/2021,Ball St.,Akron,Steve Lazroff
+47,9362,2/6/2021,Ball St.,Akron,Meghan Joseph
+47,9362,2/6/2021,Ball St.,Akron,Andrew Bills
+7,8710,1/27/2021,Alabama St.,Grambling,Neonta Williams
+7,8710,1/27/2021,Alabama St.,Grambling,LaShonda Kidd
+7,8710,1/27/2021,Alabama St.,Grambling,Meadow Overstreet
+7,7915,2/6/2021,Alabama St.,Ark.-Pine Bluff,Simone Redd
+7,7915,2/6/2021,Alabama St.,Ark.-Pine Bluff,Kristen Jones
+7,7915,2/6/2021,Alabama St.,Ark.-Pine Bluff,Jennyfer Imanuel
+7,7912,1/25/2021,Alabama St.,Southern U.,Rashon Smith
+7,7912,1/25/2021,Alabama St.,Southern U.,Kelvin Short
+7,7912,1/25/2021,Alabama St.,Southern U.,Tori Durrett
+7,7920,2/27/2021,Alabama St.,Texas Southern,Neonta Williams
+7,7920,2/27/2021,Alabama St.,Texas Southern,Marcus Smith
+7,7920,2/27/2021,Alabama St.,Texas Southern,Tunita Dumas
+7,7916,2/8/2021,Alabama St.,Mississippi Val.,Neonta Williams
+7,7916,2/8/2021,Alabama St.,Mississippi Val.,Marcus Smith
+7,7916,2/8/2021,Alabama St.,Mississippi Val.,Meadow Overstreet
+7,7917,2/13/2021,Alabama St.,Alabama A&M,Kelvin Short
+7,7917,2/13/2021,Alabama St.,Alabama A&M,Tori Durett
+7,7917,2/13/2021,Alabama St.,Alabama A&M,Kevin Britt
+7,7921,3/1/2021,Alabama St.,Prairie View,Rashon Smith
+7,7921,3/1/2021,Alabama St.,Prairie View,LaShonda Kidd
+7,7921,3/1/2021,Alabama St.,Prairie View,Kristen Jones
+99,6759,1/8/2021,Long Beach St.,Cal St. Fullerton,Jack Jones
+99,6759,1/8/2021,Long Beach St.,Cal St. Fullerton,Gordon Torigoe
+99,6759,1/8/2021,Long Beach St.,Cal St. Fullerton,Deon Lewis
+99,6781,3/10/2021,Long Beach St.,Cal Poly,Kent Johnson
+99,6781,3/10/2021,Long Beach St.,Cal Poly,Cathi Cornell
+99,6781,3/10/2021,Long Beach St.,Cal Poly,Micheal Price
+99,6778,2/27/2021,Long Beach St.,Hawaii,Kenneth Nash
+99,6778,2/27/2021,Long Beach St.,Hawaii,Kent Johnson
+99,6778,2/27/2021,Long Beach St.,Hawaii,Julie Krommenhoek
+99,6774,2/13/2021,Long Beach St.,UC Davis,Gordon Torigoe
+99,6774,2/13/2021,Long Beach St.,UC Davis,Lajwan Robinson
+99,6774,2/13/2021,Long Beach St.,UC Davis,Alecia Murray
+99,6745,12/27/2020,Long Beach St.,UC Riverside,Scott Osborne
+99,6745,12/27/2020,Long Beach St.,UC Riverside,Kenneth Nash
+99,6745,12/27/2020,Long Beach St.,UC Riverside,Michael Price
+99,6773,2/12/2021,Long Beach St.,UC Davis,Gordon Torigoe
+99,6773,2/12/2021,Long Beach St.,UC Davis,Lajwan Robinson
+99,6773,2/12/2021,Long Beach St.,UC Davis,Richard Waters
+99,6765,2/5/2021,Long Beach St.,UC Santa Barbara,Kenny Parzych
+99,6765,2/5/2021,Long Beach St.,UC Santa Barbara,Cathi Cornell
+99,6765,2/5/2021,Long Beach St.,UC Santa Barbara,Julie Krommenhoek
+99,6772,2/6/2021,Long Beach St.,UC Santa Barbara,Julie Krommenhoek
+99,6772,2/6/2021,Long Beach St.,UC Santa Barbara,Janetta Graham
+99,6772,2/6/2021,Long Beach St.,UC Santa Barbara,Cathi Cornell
+99,6788,12/12/2020,Long Beach St.,Westmont,Kaili Kimura
+99,6788,12/12/2020,Long Beach St.,Westmont,Gordon Torigoe
+99,6788,12/12/2020,Long Beach St.,Westmont,Charles Gonzalez
+99,6760,1/9/2021,Long Beach St.,Cal St. Fullerton,Jack Jones
+99,6760,1/9/2021,Long Beach St.,Cal St. Fullerton,Gordon Torigoe
+99,6760,1/9/2021,Long Beach St.,Cal St. Fullerton,Deon Lewis
+624,12478,12/28/2020,Sam Houston,Our Lady of the Lake,Ed Collopy
+624,12478,12/28/2020,Sam Houston,Our Lady of the Lake,Rochelle Bennett
+624,12478,12/28/2020,Sam Houston,Our Lady of the Lake,Marleah Vidal
+624,12403,2/22/2021,Sam Houston,Lamar,Ed Collopy
+624,12403,2/22/2021,Sam Houston,Lamar,Jaclyn Watson
+624,12403,2/22/2021,Sam Houston,Lamar,Christopher Sauceda
+624,12402,2/13/2021,Sam Houston,Central Arkansas,Tucker Furlow
+624,12402,2/13/2021,Sam Houston,Central Arkansas,Ed Collopy
+624,12402,2/13/2021,Sam Houston,Central Arkansas,Symbri Tuttle
+624,12443,12/18/2020,Sam Houston,Utsa,Travis Jones
+624,12443,12/18/2020,Sam Houston,Utsa,Rochelle Bennett
+624,12443,12/18/2020,Sam Houston,Utsa,D'Lynn Schertz
+624,12393,1/6/2021,Sam Houston,Southeastern Louisiana,Jenna Reneau
+624,12393,1/6/2021,Sam Houston,Southeastern Louisiana,Travis Jones
+624,12393,1/6/2021,Sam Houston,Southeastern Louisiana,D'Lynn Schertz
+624,12389,11/28/2020,Sam Houston,Central Baptist,Tucker Furlow
+624,12389,11/28/2020,Sam Houston,Central Baptist,Corey Malone
+624,12389,11/28/2020,Sam Houston,Central Baptist,Jaclyn Watson
+624,12407,3/6/2021,Sam Houston,Stephen F. Austin,Sean Stewart
+624,12407,3/6/2021,Sam Houston,Stephen F. Austin,Bill Lawrence
+624,12407,3/6/2021,Sam Houston,Stephen F. Austin,Travis Jones
+624,12519,12/6/2020,Sam Houston,New Mexico,Tiffany Bridges
+624,12519,12/6/2020,Sam Houston,New Mexico,Christopher Sauceda
+624,12519,12/6/2020,Sam Houston,New Mexico,Jaclyn Watson
+624,12397,1/20/2021,Sam Houston,Abilene Christian,Tina Townsend
+624,12397,1/20/2021,Sam Houston,Abilene Christian,Symbri Tuttle
+624,12397,1/20/2021,Sam Houston,Abilene Christian,Chaney Muench
+624,12441,11/25/2020,Sam Houston,Midwestern State,Alexis Burton
+624,12441,11/25/2020,Sam Houston,Midwestern State,Victoria Francis-Monette
+624,12441,11/25/2020,Sam Houston,Midwestern State,Jennifer White
+624,12396,2/3/2021,Sam Houston,Houston Baptist,James Foster
+624,12396,2/3/2021,Sam Houston,Houston Baptist,Jaclyn Watson
+624,12396,2/3/2021,Sam Houston,Houston Baptist,Travis Jones
+624,12400,2/6/2021,Sam Houston,Nicholls,Tiffany Bridges
+624,12400,2/6/2021,Sam Houston,Nicholls,Shandra Twine
+624,12400,2/6/2021,Sam Houston,Nicholls,Jennifer White
+71,11184,3/19/2021,Bowling Green,Creighton,Mark Woelfel
+71,11184,3/19/2021,Bowling Green,Creighton,Meghan Joseph
+71,11184,3/19/2021,Bowling Green,Creighton,Bob Enterline
+71,10957,12/6/2020,Bowling Green,Milwaukee,Kayla Maxey
+71,10957,12/6/2020,Bowling Green,Milwaukee,Zachary Klein
+71,10957,12/6/2020,Bowling Green,Milwaukee,Todd Moistner
+71,10901,12/11/2020,Bowling Green,Eastern Mich.,Chris Oakes
+71,10901,12/11/2020,Bowling Green,Eastern Mich.,Kamaria Douglas
+71,10901,12/11/2020,Bowling Green,Eastern Mich.,Michelle Del Duco
+71,11185,3/20/2021,Bowling Green,Dayton,Erin Frias
+71,11185,3/20/2021,Bowling Green,Dayton,Rachael Rayford
+71,11185,3/20/2021,Bowling Green,Dayton,Steve Matuszewski
+71,10910,2/6/2021,Bowling Green,Ohio,Kalei Enterline
+71,10910,2/6/2021,Bowling Green,Ohio,Brad Maxey
+71,10910,2/6/2021,Bowling Green,Ohio,Michelle Del Duco
+71,10906,12/22/2020,Bowling Green,Miami (OH),Chris Oakes
+71,10906,12/22/2020,Bowling Green,Miami (OH),Meghan Joseph
+71,10906,12/22/2020,Bowling Green,Miami (OH),Michelle Del Duco
+71,10907,2/17/2021,Bowling Green,Central Mich.,Meghan Joseph
+71,10907,2/17/2021,Bowling Green,Central Mich.,Kalei Enterline
+71,10907,2/17/2021,Bowling Green,Central Mich.,Brad Maxey
+71,11180,3/13/2021,Bowling Green,Central Mich.,Natosha Harris
+71,11180,3/13/2021,Bowling Green,Central Mich.,Bryan Enterline
+71,11180,3/13/2021,Bowling Green,Central Mich.,Frank Steratore
+71,10912,1/30/2021,Bowling Green,Toledo,Kayla Maxey
+71,10912,1/30/2021,Bowling Green,Toledo,Andrew Bills
+71,10912,1/30/2021,Bowling Green,Toledo,Zachary Klein
+71,11174,3/10/2021,Bowling Green,Eastern Mich.,Mark Beger
+71,11174,3/10/2021,Bowling Green,Eastern Mich.,Jamie Broderick
+71,11174,3/10/2021,Bowling Green,Eastern Mich.,Frank Steratore
+71,11178,3/12/2021,Bowling Green,Buffalo,Michelle Del Duco
+71,11178,3/12/2021,Bowling Green,Buffalo,Bob Enterline
+71,11178,3/12/2021,Bowling Green,Buffalo,Tom Hallead
+71,10913,1/27/2021,Bowling Green,Western Mich.,Chris Oakes
+71,10913,1/27/2021,Bowling Green,Western Mich.,Troy Ramey
+71,10913,1/27/2021,Bowling Green,Western Mich.,Michelle Del Duco
+71,10918,1/9/2021,Bowling Green,Northern Ill.,Troy Ramey
+71,10918,1/9/2021,Bowling Green,Northern Ill.,Jamie Broderick
+71,10918,1/9/2021,Bowling Green,Northern Ill.,Mark Berger
+71,10955,11/29/2020,Bowling Green,Valparaiso,Stacey Lee
+71,10955,11/29/2020,Bowling Green,Valparaiso,Althea Bufford
+71,10955,11/29/2020,Bowling Green,Valparaiso,Michelle Del Duco
+71,10902,3/6/2021,Bowling Green,Buffalo,Rachael Rayford
+71,10902,3/6/2021,Bowling Green,Buffalo,Bob Enterline
+71,10902,3/6/2021,Bowling Green,Buffalo,Michelle Del Duco
+71,10915,1/20/2021,Bowling Green,Akron,Brad Duistermars
+71,10915,1/20/2021,Bowling Green,Akron,Meghan Joseph
+71,10915,1/20/2021,Bowling Green,Akron,Kalei Enterline
+71,10903,3/3/2021,Bowling Green,Kent St.,Troy Ramey
+71,10903,3/3/2021,Bowling Green,Kent St.,Erika Herriman-Camarota
+71,10903,3/3/2021,Bowling Green,Kent St.,Tom Hallead
+62,12823,1/3/2021,Binghamton,Hartford,Steven Call
+62,12823,1/3/2021,Binghamton,Hartford,Scott Berkins
+62,12823,1/3/2021,Binghamton,Hartford,Ryan Nunes
+62,12910,2/7/2021,Binghamton,Albany (NY),Kaitlyn Totorice
+62,12910,2/7/2021,Binghamton,Albany (NY),Rob Fessler
+62,12910,2/7/2021,Binghamton,Albany (NY),Ken Kelly
+62,12822,1/2/2021,Binghamton,Hartford,Scott Berkins
+62,12822,1/2/2021,Binghamton,Hartford,Anthony Reddin
+62,12822,1/2/2021,Binghamton,Hartford,Ryan Nunes
+62,12829,1/24/2021,Binghamton,Maine,Sarah Williams
+62,12829,1/24/2021,Binghamton,Maine,Scott Osborne
+62,12829,1/24/2021,Binghamton,Maine,Ryan Nunes
+62,12828,1/23/2021,Binghamton,Maine,Skelly Wingard
+62,12828,1/23/2021,Binghamton,Maine,Scott Osborne
+62,12828,1/23/2021,Binghamton,Maine,Ryan Nunes
+62,12831,1/11/2021,Binghamton,New Hampshire,Victor Torregiano
+62,12831,1/11/2021,Binghamton,New Hampshire,Steven Call
+62,12831,1/11/2021,Binghamton,New Hampshire,ed sidlasky
+62,12830,1/10/2021,Binghamton,New Hampshire,Victor Torregiano
+62,12830,1/10/2021,Binghamton,New Hampshire,Steven Call
+62,12830,1/10/2021,Binghamton,New Hampshire,Ed Sidalsky
+62,12867,12/2/2020,Binghamton,Fairleigh Dickinson,John Capolino
+62,12867,12/2/2020,Binghamton,Fairleigh Dickinson,Mark Resch
+62,12867,12/2/2020,Binghamton,Fairleigh Dickinson,Ed Sidlasky
+62,12909,2/6/2021,Binghamton,Albany (NY),VIctor Torregiano
+62,12909,2/6/2021,Binghamton,Albany (NY),John Capolino
+62,12909,2/6/2021,Binghamton,Albany (NY),Ed Sidlasky
+62,12821,12/28/2020,Binghamton,Umbc,Timothy Resch
+62,12821,12/28/2020,Binghamton,Umbc,Victor Torregiano
+62,12821,12/28/2020,Binghamton,Umbc,Mark Resch
+62,12820,12/27/2020,Binghamton,Umbc,Timothy Resch
+62,12820,12/27/2020,Binghamton,Umbc,Victor Torregiano
+62,12820,12/27/2020,Binghamton,Umbc,Mark Resch
+380,9029,1/9/2021,Maine,Njit,Christian Peterson
+380,9029,1/9/2021,Maine,Njit,Kate Burrell
+380,9029,1/9/2021,Maine,Njit,Kerri Lang
+380,9232,3/7/2021,Maine,Albany (NY),Luis Gonzalez
+380,9232,3/7/2021,Maine,Albany (NY),Maggie Tieman
+380,9232,3/7/2021,Maine,Albany (NY),Mark Resch
+380,11248,3/12/2021,Maine,Stony Brook,John Capolino
+380,11248,3/12/2021,Maine,Stony Brook,Maggie Tieman
+380,11248,3/12/2021,Maine,Stony Brook,Mark Resch
+380,9038,2/7/2021,Maine,UMass Lowell,Kevin Sparrock
+380,9038,2/7/2021,Maine,UMass Lowell,Cori Chambers
+380,9038,2/7/2021,Maine,UMass Lowell,Timothy Greenee
+380,9030,1/10/2021,Maine,Njit,Christian Peterson
+380,9030,1/10/2021,Maine,Njit,Kate Burrell
+380,9030,1/10/2021,Maine,Njit,Kerri Lang
+380,9211,2/20/2021,Maine,New Hampshire,Meg Dallmann
+380,9211,2/20/2021,Maine,New Hampshire,Dirk Link
+380,9211,2/20/2021,Maine,New Hampshire,Rob Fessler
+1320,11720,2/3/2021,Presbyterian,UNC Asheville,Brandon Marion
+1320,11720,2/3/2021,Presbyterian,UNC Asheville,Kristie Weed
+1320,11720,2/3/2021,Presbyterian,UNC Asheville,Roy Jackson
+1320,11721,1/22/2021,Presbyterian,High Point,Carla Robbins-Jeter
+1320,11721,1/22/2021,Presbyterian,High Point,Daniel Drake
+1320,11721,1/22/2021,Presbyterian,High Point,David Jenkins
+1320,11712,12/17/2020,Presbyterian,Gardner-Webb,Kevin Maurer
+1320,11712,12/17/2020,Presbyterian,Gardner-Webb,Courtney Robinson
+1320,11712,12/17/2020,Presbyterian,Gardner-Webb,Chad Tucker
+1320,11724,1/15/2021,Presbyterian,Campbell,Antoine Love
+1320,11724,1/15/2021,Presbyterian,Campbell,Kristie Weed
+1320,11724,1/15/2021,Presbyterian,Campbell,Billy Smith
+1320,11722,2/16/2021,Presbyterian,UNC Asheville,Danielle Jackson
+1320,11722,2/16/2021,Presbyterian,UNC Asheville,Courtney Robinson
+1320,11722,2/16/2021,Presbyterian,UNC Asheville,Brandon Marion
+1320,11714,12/16/2020,Presbyterian,Gardner-Webb,Kevin Maurer
+1320,11714,12/16/2020,Presbyterian,Gardner-Webb,Courtney Robinson
+1320,11714,12/16/2020,Presbyterian,Gardner-Webb,Chad Tucker
+1320,11719,1/23/2021,Presbyterian,High Point,Desmond Sullivan
+1320,11719,1/23/2021,Presbyterian,High Point,Brandon Marion
+1320,11719,1/23/2021,Presbyterian,High Point,Carla Roberts-Jeter
+1320,11723,1/16/2021,Presbyterian,Campbell,Kim Crabtree
+1320,11723,1/16/2021,Presbyterian,Campbell,Antoine Love
+1320,11723,1/16/2021,Presbyterian,Campbell,Kristie Weed
+72,19516,3/5/2021,Bradley,Indiana State,Bryan Enterline
+72,19516,3/5/2021,Bradley,Indiana State,Doug Knight Marla Gearhart
+72,19687,12/13/2020,Bradley,Northern Illinois,Mark Berger
+72,19687,12/13/2020,Bradley,Northern Illinois,Todd Moistner
+72,19687,12/13/2020,Bradley,Northern Illinois,Angel Kent
+72,19520,2/12/2021,Bradley,Uni,Michael McConnell
+72,19520,2/12/2021,Bradley,Uni,Tim Daley
+72,19520,2/12/2021,Bradley,Uni,Erika Herriman-Camarota
+72,19700,3/6/2021,Bradley,Indiana State,Brad Maxey
+72,19700,3/6/2021,Bradley,Indiana State,Steve Matuszewski
+72,19700,3/6/2021,Bradley,Indiana State,Jessica Fortner
+72,18469,3/13/2021,Bradley,Loyola Chicago,Erika Herriman
+72,18469,3/13/2021,Bradley,Loyola Chicago,Jeff Cross
+72,18469,3/13/2021,Bradley,Loyola Chicago,Doug Knight
+72,19517,2/25/2021,Bradley,Illinois St.,Missy Brooks
+72,19517,2/25/2021,Bradley,Illinois St.,Greg Small
+72,19517,2/25/2021,Bradley,Illinois St.,Nick Marshall
+72,19506,1/8/2021,Bradley,Southern Illinois,Tim Daley
+72,19506,1/8/2021,Bradley,Southern Illinois,Doug Knight
+72,19506,1/8/2021,Bradley,Southern Illinois,Kelsey Reynolds
+72,19696,1/23/2021,Bradley,Loyola,Greg Small
+72,19696,1/23/2021,Bradley,Loyola,Marty Cook
+72,19696,1/23/2021,Bradley,Loyola,Kelsey Reynolds
+72,19730,12/18/2020,Bradley,Quincy,Steve Matuszewski
+72,19730,12/18/2020,Bradley,Quincy,LaSha Hopson
+72,19730,12/18/2020,Bradley,Quincy,Rachael Rayford
+72,19683,11/25/2020,Bradley,Kansas City,Steve Matuszewski
+72,19683,11/25/2020,Bradley,Kansas City,Kalee Davidson
+72,19683,11/25/2020,Bradley,Kansas City,Shane Bennett
+72,19512,1/22/2021,Bradley,Loyola,Felicia Grinter
+72,19512,1/22/2021,Bradley,Loyola,Tim Daley
+72,19512,1/22/2021,Bradley,Loyola,Kevin Pethtel
+72,19694,1/9/2021,Bradley,Southern Illinois,Greg Small
+72,19694,1/9/2021,Bradley,Southern Illinois,Angel Kent
+72,19694,1/9/2021,Bradley,Southern Illinois,Steve Matuszewski
+72,19698,2/13/2021,Bradley,Uni,Bryan Enterline
+72,19698,2/13/2021,Bradley,Uni,Chuck Morning
+72,19698,2/13/2021,Bradley,Uni,Kayla Maxey
+72,19688,12/17/2020,Bradley,South Dakota,Jeff Cross
+72,19688,12/17/2020,Bradley,South Dakota,Tim Daley
+72,19688,12/17/2020,Bradley,South Dakota,Erika Herriman-Camarota
+72,19684,11/28/2020,Bradley,Milwaukee,Todd Moistner
+72,19684,11/28/2020,Bradley,Milwaukee,Kayla Maxey
+72,19684,11/28/2020,Bradley,Milwaukee,Angel Kent
+66,17733,3/9/2021,Boise St.,Wyoming,Benny Luna
+66,17733,3/9/2021,Boise St.,Wyoming,Chuck Gonzalez
+66,17733,3/9/2021,Boise St.,Wyoming,Melissa Barlow

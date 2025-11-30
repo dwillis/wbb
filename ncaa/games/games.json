@@ -1,0 +1,3950 @@
+[
+  {
+    "home_team": "#1 Boise State",
+    "id": 66
+  },
+  {
+    "home_team": "#1 Colorado State",
+    "id": 156
+  },
+  {
+    "home_team": "#1/1 South Carolina",
+    "id": 648
+  },
+  {
+    "home_team": "#1/2 South Carolina",
+    "id": 648
+  },
+  {
+    "home_team": "#10 NC State",
+    "id": 490
+  },
+  {
+    "home_team": "#11/10 Kentucky",
+    "id": 334
+  },
+  {
+    "home_team": "#13 Ucla",
+    "id": 110
+  },
+  {
+    "home_team": "#13/13 Duke",
+    "id": 193
+  },
+  {
+    "home_team": "#14/14 Duke",
+    "id": 193
+  },
+  {
+    "home_team": "#14/15 Duke",
+    "id": 193
+  },
+  {
+    "home_team": "#17 NC State",
+    "id": 490
+  },
+  {
+    "home_team": "#17/18 Duke",
+    "id": 193
+  },
+  {
+    "home_team": "#18/19 South Carolina",
+    "id": 648
+  },
+  {
+    "home_team": "#2/2 South Carolina",
+    "id": 648
+  },
+  {
+    "home_team": "#22/19 Duke",
+    "id": 193
+  },
+  {
+    "home_team": "#23 Usf",
+    "id": 651
+  },
+  {
+    "home_team": "#25/- South Carolina",
+    "id": 648
+  },
+  {
+    "home_team": "#3/#2 South Carolina",
+    "id": 648
+  },
+  {
+    "home_team": "#4 Boise State",
+    "id": 66
+  },
+  {
+    "home_team": "#5/6 South Carolina",
+    "id": 648
+  },
+  {
+    "home_team": "#8 NC State",
+    "id": 490
+  },
+  {
+    "home_team": "#8/8 Kentucky",
+    "id": 334
+  },
+  {
+    "home_team": "#9 NC State",
+    "id": 490
+  },
+  {
+    "home_team": "#9/8 South Carolina",
+    "id": 648
+  },
+  {
+    "home_team": "A&M-Corpus Christi",
+    "id": 26172
+  },
+  {
+    "home_team": "A&T",
+    "id": ""
+  },
+  {
+    "home_team": "Abilene Christian",
+    "id": 2
+  },
+  {
+    "home_team": "Adams State",
+    "id": 929
+  },
+  {
+    "home_team": "Adelphi",
+    "id": 3
+  },
+  {
+    "home_team": "Air Force",
+    "id": 721
+  },
+  {
+    "home_team": "Akron",
+    "id": 5
+  },
+  {
+    "home_team": "Alabama",
+    "id": 8
+  },
+  {
+    "home_team": "Alabama A&M",
+    "id": 6
+  },
+  {
+    "home_team": "Alabama Huntsville",
+    "id": ""
+  },
+  {
+    "home_team": "Alabama St.",
+    "id": 7
+  },
+  {
+    "home_team": "Alabama State",
+    "id": 7
+  },
+  {
+    "home_team": "Alabama State University",
+    "id": 7
+  },
+  {
+    "home_team": "Alas. Fairbanks",
+    "id": 12
+  },
+  {
+    "home_team": "Alaska",
+    "id": ""
+  },
+  {
+    "home_team": "Alaska Anchorage",
+    "id": 11
+  },
+  {
+    "home_team": "Alaska Fairbanks",
+    "id": 12
+  },
+  {
+    "home_team": "Alaska Nanooks",
+    "id": ""
+  },
+  {
+    "home_team": "Albany",
+    "id": 14
+  },
+  {
+    "home_team": "Albany (NY)",
+    "id": 14
+  },
+  {
+    "home_team": "Albany State",
+    "id": ""
+  },
+  {
+    "home_team": "Albany State University",
+    "id": ""
+  },
+  {
+    "home_team": "Alcnw",
+    "id": ""
+  },
+  {
+    "home_team": "Alcorn",
+    "id": 17
+  },
+  {
+    "home_team": "Alcorn State",
+    "id": 17
+  },
+  {
+    "home_team": "Alderson Broaddus",
+    "id": 934
+  },
+  {
+    "home_team": "Alverno",
+    "id": ""
+  },
+  {
+    "home_team": "Alverno College",
+    "id": ""
+  },
+  {
+    "home_team": "American",
+    "id": 23
+  },
+  {
+    "home_team": "Anderson",
+    "id": ""
+  },
+  {
+    "home_team": "Appalachian St.",
+    "id": 27
+  },
+  {
+    "home_team": "Appalachian State",
+    "id": 27
+  },
+  {
+    "home_team": "Arizona",
+    "id": 29
+  },
+  {
+    "home_team": "Arizona St.",
+    "id": 28
+  },
+  {
+    "home_team": "Arizona State",
+    "id": 28
+  },
+  {
+    "home_team": "Ark.-Monticello",
+    "id": 8411
+  },
+  {
+    "home_team": "Ark.-Pine Bluff",
+    "id": 2678
+  },
+  {
+    "home_team": "Arkansas",
+    "id": 31
+  },
+  {
+    "home_team": "Arkansas at Pine Bluff",
+    "id": 2678
+  },
+  {
+    "home_team": "Arkansas St.",
+    "id": 30
+  },
+  {
+    "home_team": "Arkansas State",
+    "id": 30
+  },
+  {
+    "home_team": "Arkansas Tech",
+    "id": 947
+  },
+  {
+    "home_team": "Arkansas-Monticello",
+    "id": 8411
+  },
+  {
+    "home_team": "Arkansas-Pine Bluff",
+    "id": 2678
+  },
+  {
+    "home_team": "Armstrong",
+    "id": ""
+  },
+  {
+    "home_team": "Army",
+    "id": 725
+  },
+  {
+    "home_team": "Army West Point",
+    "id": 725
+  },
+  {
+    "home_team": "Asheville",
+    "id": 456
+  },
+  {
+    "home_team": "Asuw",
+    "id": ""
+  },
+  {
+    "home_team": "Auburn",
+    "id": 37
+  },
+  {
+    "home_team": "Augusta University",
+    "id": 39
+  },
+  {
+    "home_team": "Aurora University",
+    "id": 42
+  },
+  {
+    "home_team": "Austin",
+    "id": 953
+  },
+  {
+    "home_team": "Austin Peay",
+    "id": 43
+  },
+  {
+    "home_team": "Azusa Pacific",
+    "id": ""
+  },
+  {
+    "home_team": "Baldwin Wallace",
+    "id": 46
+  },
+  {
+    "home_team": "Ball St.",
+    "id": 47
+  },
+  {
+    "home_team": "Ball State",
+    "id": 47
+  },
+  {
+    "home_team": "Barry",
+    "id": 49
+  },
+  {
+    "home_team": "Barton",
+    "id": ""
+  },
+  {
+    "home_team": "Baylor",
+    "id": 51
+  },
+  {
+    "home_team": "Belhaven",
+    "id": 30197
+  },
+  {
+    "home_team": "Bellarmine",
+    "id": ""
+  },
+  {
+    "home_team": "Belmont",
+    "id": 14927
+  },
+  {
+    "home_team": "Belmont Abbey",
+    "id": 2683
+  },
+  {
+    "home_team": "Benedict",
+    "id": 55
+  },
+  {
+    "home_team": "Benedictine",
+    "id": 296
+  },
+  {
+    "home_team": "Benedictine (IL)",
+    "id": 296
+  },
+  {
+    "home_team": "Bentley",
+    "id": 56
+  },
+  {
+    "home_team": "Berry",
+    "id": 973
+  },
+  {
+    "home_team": "Bethany",
+    "id": 59
+  },
+  {
+    "home_team": "Bethune-Cookman",
+    "id": 61
+  },
+  {
+    "home_team": "Binghamton",
+    "id": 62
+  },
+  {
+    "home_team": "Birmingham-Southern",
+    "id": 28593
+  },
+  {
+    "home_team": "Black Hills St.",
+    "id": 30134
+  },
+  {
+    "home_team": "Black Hills State",
+    "id": 30134
+  },
+  {
+    "home_team": "Bloomfield",
+    "id": ""
+  },
+  {
+    "home_team": "Bloomsburg",
+    "id": 65
+  },
+  {
+    "home_team": "Bluefield St.",
+    "id": 985
+  },
+  {
+    "home_team": "Bluefield State",
+    "id": 985
+  },
+  {
+    "home_team": "Bluffton",
+    "id": ""
+  },
+  {
+    "home_team": "Bluffton University",
+    "id": ""
+  },
+  {
+    "home_team": "Boise St.",
+    "id": 66
+  },
+  {
+    "home_team": "Boise State",
+    "id": 66
+  },
+  {
+    "home_team": "Boston College",
+    "id": 67
+  },
+  {
+    "home_team": "Boston U.",
+    "id": 68
+  },
+  {
+    "home_team": "Boston University",
+    "id": 68
+  },
+  {
+    "home_team": "Bowdoin",
+    "id": 69
+  },
+  {
+    "home_team": "Bowling Green",
+    "id": 71
+  },
+  {
+    "home_team": "Bradley",
+    "id": 72
+  },
+  {
+    "home_team": "Brandeis",
+    "id": 73
+  },
+  {
+    "home_team": "Brevard",
+    "id": ""
+  },
+  {
+    "home_team": "Brigham Young",
+    "id": 77
+  },
+  {
+    "home_team": "Brigham Young University",
+    "id": 77
+  },
+  {
+    "home_team": "Brooklyn College",
+    "id": ""
+  },
+  {
+    "home_team": "Brown",
+    "id": 80
+  },
+  {
+    "home_team": "Bryant",
+    "id": 81
+  },
+  {
+    "home_team": "Bucknell",
+    "id": 83
+  },
+  {
+    "home_team": "Buffalo",
+    "id": 86
+  },
+  {
+    "home_team": "Butler",
+    "id": 87
+  },
+  {
+    "home_team": "Byu",
+    "id": 77
+  },
+  {
+    "home_team": "Cal",
+    "id": 107
+  },
+  {
+    "home_team": "Cal Poly",
+    "id": 90
+  },
+  {
+    "home_team": "Cal Poly Pomona",
+    "id": 91
+  },
+  {
+    "home_team": "Cal St. Fullerton",
+    "id": 97
+  },
+  {
+    "home_team": "Cal State Dominguez Hills",
+    "id": 92
+  },
+  {
+    "home_team": "Cal State East Bay",
+    "id": 98
+  },
+  {
+    "home_team": "Cal State Fullerton",
+    "id": 97
+  },
+  {
+    "home_team": "Cal State L.A.",
+    "id": 100
+  },
+  {
+    "home_team": "Cal State Monterey Bay",
+    "id": 30055
+  },
+  {
+    "home_team": "Cal State San Bernardino",
+    "id": 93
+  },
+  {
+    "home_team": "Cal State San Marcos",
+    "id": 30198
+  },
+  {
+    "home_team": "California",
+    "id": 107
+  },
+  {
+    "home_team": "California (PA)",
+    "id": 106
+  },
+  {
+    "home_team": "California Baptist",
+    "id": 30135
+  },
+  {
+    "home_team": "Cameron",
+    "id": 996
+  },
+  {
+    "home_team": "Campbell",
+    "id": 115
+  },
+  {
+    "home_team": "Canisius",
+    "id": 116
+  },
+  {
+    "home_team": "Carleton College",
+    "id": 118
+  },
+  {
+    "home_team": "Carnegie Mellon",
+    "id": 119
+  },
+  {
+    "home_team": "Carson-Newman",
+    "id": 1000
+  },
+  {
+    "home_team": "Case Western Reserve",
+    "id": 122
+  },
+  {
+    "home_team": "Catawba",
+    "id": 1001
+  },
+  {
+    "home_team": "Cedarville",
+    "id": 30124
+  },
+  {
+    "home_team": "Central Ark.",
+    "id": 1004
+  },
+  {
+    "home_team": "Central Arkansas",
+    "id": 1004
+  },
+  {
+    "home_team": "Central Conn. St.",
+    "id": 127
+  },
+  {
+    "home_team": "Central Connecticut",
+    "id": 127
+  },
+  {
+    "home_team": "Central Mich.",
+    "id": 129
+  },
+  {
+    "home_team": "Central Michigan",
+    "id": 129
+  },
+  {
+    "home_team": "Central Missouri",
+    "id": 130
+  },
+  {
+    "home_team": "Central Mo.",
+    "id": 130
+  },
+  {
+    "home_team": "Central Okla.",
+    "id": 1009
+  },
+  {
+    "home_team": "Central Oklahoma",
+    "id": 1009
+  },
+  {
+    "home_team": "Central State",
+    "id": ""
+  },
+  {
+    "home_team": "Central Wash.",
+    "id": 1010
+  },
+  {
+    "home_team": "Central Washington",
+    "id": 1010
+  },
+  {
+    "home_team": "Centre",
+    "id": 132
+  },
+  {
+    "home_team": "Chadron State",
+    "id": 1012
+  },
+  {
+    "home_team": "Chadron State Colleg",
+    "id": 1012
+  },
+  {
+    "home_team": "Chadron State College",
+    "id": 1012
+  },
+  {
+    "home_team": "Chaminade",
+    "id": ""
+  },
+  {
+    "home_team": "Charleston",
+    "id": 1013
+  },
+  {
+    "home_team": "Charleston (WV)",
+    "id": 1013
+  },
+  {
+    "home_team": "Charleston So.",
+    "id": 48
+  },
+  {
+    "home_team": "Charleston Southern",
+    "id": 48
+  },
+  {
+    "home_team": "Charlotte",
+    "id": 458
+  },
+  {
+    "home_team": "Chattanooga",
+    "id": 693
+  },
+  {
+    "home_team": "Chicago St.",
+    "id": 136
+  },
+  {
+    "home_team": "Chicago State",
+    "id": 136
+  },
+  {
+    "home_team": "Chico State",
+    "id": 95
+  },
+  {
+    "home_team": "Chowan",
+    "id": 8875
+  },
+  {
+    "home_team": "Christian Brothers",
+    "id": 1015
+  },
+  {
+    "home_team": "Cincinnati",
+    "id": 140
+  },
+  {
+    "home_team": "Claflin",
+    "id": ""
+  },
+  {
+    "home_team": "Claflin University",
+    "id": ""
+  },
+  {
+    "home_team": "Clarion",
+    "id": ""
+  },
+  {
+    "home_team": "Clark Atlanta University",
+    "id": 144
+  },
+  {
+    "home_team": "Clayton State",
+    "id": ""
+  },
+  {
+    "home_team": "Clemson",
+    "id": 147
+  },
+  {
+    "home_team": "Cleveland St.",
+    "id": 148
+  },
+  {
+    "home_team": "Cleveland State",
+    "id": 148
+  },
+  {
+    "home_team": "Coastal Caro.",
+    "id": 149
+  },
+  {
+    "home_team": "Coastal Carolina",
+    "id": 149
+  },
+  {
+    "home_team": "Coker",
+    "id": 1023
+  },
+  {
+    "home_team": "Col. of Charleston",
+    "id": 1014
+  },
+  {
+    "home_team": "Colgate",
+    "id": 153
+  },
+  {
+    "home_team": "Colo. Christian",
+    "id": 11403
+  },
+  {
+    "home_team": "Colo. Sch. of Mines",
+    "id": 155
+  },
+  {
+    "home_team": "Colorado",
+    "id": 157
+  },
+  {
+    "home_team": "Colorado Christian",
+    "id": 11403
+  },
+  {
+    "home_team": "Colorado Mesa",
+    "id": 11416
+  },
+  {
+    "home_team": "Colorado Mines",
+    "id": 155
+  },
+  {
+    "home_team": "Colorado St.",
+    "id": 156
+  },
+  {
+    "home_team": "Colorado State",
+    "id": 156
+  },
+  {
+    "home_team": "Columbia",
+    "id": 158
+  },
+  {
+    "home_team": "Columbus State",
+    "id": 159
+  },
+  {
+    "home_team": "Concord",
+    "id": 1028
+  },
+  {
+    "home_team": "Concordia",
+    "id": ""
+  },
+  {
+    "home_team": "Concordia (Ore.)",
+    "id": 30200
+  },
+  {
+    "home_team": "Concordia Chicago",
+    "id": 160
+  },
+  {
+    "home_team": "Concordia Wisconsin",
+    "id": 1036
+  },
+  {
+    "home_team": "Converse",
+    "id": 8935
+  },
+  {
+    "home_team": "Coppin State",
+    "id": ""
+  },
+  {
+    "home_team": "Cornell",
+    "id": 167
+  },
+  {
+    "home_team": "Creighton",
+    "id": 169
+  },
+  {
+    "home_team": "CSU Bakersfield",
+    "id": 94
+  },
+  {
+    "home_team": "CSU San Bernardino",
+    "id": 93
+  },
+  {
+    "home_team": "CSU-Pueblo",
+    "id": 2720
+  },
+  {
+    "home_team": "Csun",
+    "id": ""
+  },
+  {
+    "home_team": "Cu-W",
+    "id": ""
+  },
+  {
+    "home_team": "Dartmouth",
+    "id": 172
+  },
+  {
+    "home_team": "Davidson",
+    "id": 173
+  },
+  {
+    "home_team": "Davis & Elkins",
+    "id": 174
+  },
+  {
+    "home_team": "Dayton",
+    "id": 175
+  },
+  {
+    "home_team": "Defiance",
+    "id": 1050
+  },
+  {
+    "home_team": "Defiance College",
+    "id": 1050
+  },
+  {
+    "home_team": "Delaware",
+    "id": 180
+  },
+  {
+    "home_team": "Delaware St.",
+    "id": 178
+  },
+  {
+    "home_team": "Delaware State",
+    "id": 178
+  },
+  {
+    "home_team": "Delta State University",
+    "id": 181
+  },
+  {
+    "home_team": "Denver",
+    "id": 183
+  },
+  {
+    "home_team": "DePaul",
+    "id": 176
+  },
+  {
+    "home_team": "Depaul",
+    "id": 176
+  },
+  {
+    "home_team": "Detroit",
+    "id": ""
+  },
+  {
+    "home_team": "Detroit Mercy",
+    "id": 184
+  },
+  {
+    "home_team": "Dixie State",
+    "id": 30095
+  },
+  {
+    "home_team": "Dominican University",
+    "id": ""
+  },
+  {
+    "home_team": "Drake",
+    "id": 189
+  },
+  {
+    "home_team": "Drexel",
+    "id": 191
+  },
+  {
+    "home_team": "Drury",
+    "id": 1057
+  },
+  {
+    "home_team": "Drury Lady Panthers",
+    "id": 1057
+  },
+  {
+    "home_team": "Drury University",
+    "id": 1057
+  },
+  {
+    "home_team": "Du",
+    "id": ""
+  },
+  {
+    "home_team": "Duke",
+    "id": 193
+  },
+  {
+    "home_team": "Duquesne",
+    "id": 194
+  },
+  {
+    "home_team": "Earlham",
+    "id": 195
+  },
+  {
+    "home_team": "Earlham College",
+    "id": 195
+  },
+  {
+    "home_team": "East Carolina",
+    "id": 196
+  },
+  {
+    "home_team": "East Central",
+    "id": 8965
+  },
+  {
+    "home_team": "East Stroudsburg",
+    "id": 197
+  },
+  {
+    "home_team": "East Tennessee State",
+    "id": 198
+  },
+  {
+    "home_team": "East Texas Baptist",
+    "id": 1062
+  },
+  {
+    "home_team": "Eastern Ill.",
+    "id": 201
+  },
+  {
+    "home_team": "Eastern Illinois",
+    "id": 201
+  },
+  {
+    "home_team": "Eastern Kentucky",
+    "id": 202
+  },
+  {
+    "home_team": "Eastern Kentucky University",
+    "id": 202
+  },
+  {
+    "home_team": "Eastern Mich.",
+    "id": 204
+  },
+  {
+    "home_team": "Eastern Michigan",
+    "id": 204
+  },
+  {
+    "home_team": "Eastern Wash.",
+    "id": 207
+  },
+  {
+    "home_team": "Eastern Washington",
+    "id": 207
+  },
+  {
+    "home_team": "Eckerd College",
+    "id": 208
+  },
+  {
+    "home_team": "Ecu",
+    "id": 196
+  },
+  {
+    "home_team": "Edgewood College",
+    "id": 1066
+  },
+  {
+    "home_team": "Edinboro",
+    "id": 209
+  },
+  {
+    "home_team": "Elon",
+    "id": 1068
+  },
+  {
+    "home_team": "Embry-Riddle",
+    "id": 9680
+  },
+  {
+    "home_team": "Emmanuel (Ga.)",
+    "id": ""
+  },
+  {
+    "home_team": "Emory University",
+    "id": 217
+  },
+  {
+    "home_team": "Emporia St.",
+    "id": 1071
+  },
+  {
+    "home_team": "Emporia State",
+    "id": 1071
+  },
+  {
+    "home_team": "Erskine",
+    "id": 1072
+  },
+  {
+    "home_team": "Etsu",
+    "id": 198
+  },
+  {
+    "home_team": "Evansville",
+    "id": 219
+  },
+  {
+    "home_team": "Fairfield",
+    "id": 220
+  },
+  {
+    "home_team": "Fairfield University",
+    "id": 220
+  },
+  {
+    "home_team": "Fairleigh Dickinson",
+    "id": 222
+  },
+  {
+    "home_team": "Fairmont St.",
+    "id": 1076
+  },
+  {
+    "home_team": "Fairmont State",
+    "id": 1076
+  },
+  {
+    "home_team": "Famuw",
+    "id": ""
+  },
+  {
+    "home_team": "Fau",
+    "id": 229
+  },
+  {
+    "home_team": "Fgcu",
+    "id": 28755
+  },
+  {
+    "home_team": "Fiu",
+    "id": ""
+  },
+  {
+    "home_team": "Fiuw",
+    "id": ""
+  },
+  {
+    "home_team": "Fla. Atlantic",
+    "id": 229
+  },
+  {
+    "home_team": "Fla. Southern",
+    "id": 233
+  },
+  {
+    "home_team": "Flagler",
+    "id": 30092
+  },
+  {
+    "home_team": "Florida",
+    "id": 235
+  },
+  {
+    "home_team": "Florida A&M",
+    "id": 228
+  },
+  {
+    "home_team": "Florida Atlantic",
+    "id": 229
+  },
+  {
+    "home_team": "Florida Southern",
+    "id": ""
+  },
+  {
+    "home_team": "Florida St.",
+    "id": 234
+  },
+  {
+    "home_team": "Florida State",
+    "id": 234
+  },
+  {
+    "home_team": "Florida Tech",
+    "id": 230
+  },
+  {
+    "home_team": "Fordham",
+    "id": 236
+  },
+  {
+    "home_team": "Fort Hays St.",
+    "id": 9011
+  },
+  {
+    "home_team": "Fort Hays State",
+    "id": 9011
+  },
+  {
+    "home_team": "Fort Lewis",
+    "id": 1083
+  },
+  {
+    "home_team": "Fort Valley State University",
+    "id": ""
+  },
+  {
+    "home_team": "Fort Wayne",
+    "id": ""
+  },
+  {
+    "home_team": "Francis Marion",
+    "id": 1085
+  },
+  {
+    "home_team": "Francis Marion University",
+    "id": 1085
+  },
+  {
+    "home_team": "Franciscan",
+    "id": 30069
+  },
+  {
+    "home_team": "Franklin",
+    "id": 2694
+  },
+  {
+    "home_team": "Fresno St.",
+    "id": 96
+  },
+  {
+    "home_team": "Fresno State",
+    "id": 96
+  },
+  {
+    "home_team": "Frostburg St.",
+    "id": 243
+  },
+  {
+    "home_team": "Furman",
+    "id": 244
+  },
+  {
+    "home_team": "Ga. Southern",
+    "id": 253
+  },
+  {
+    "home_team": "Gannon University",
+    "id": 246
+  },
+  {
+    "home_team": "Gardner-Webb",
+    "id": 1092
+  },
+  {
+    "home_team": "Geneva",
+    "id": 30084
+  },
+  {
+    "home_team": "George Fox",
+    "id": 1094
+  },
+  {
+    "home_team": "George Mason",
+    "id": 248
+  },
+  {
+    "home_team": "George Washington",
+    "id": 249
+  },
+  {
+    "home_team": "Georgetown",
+    "id": 251
+  },
+  {
+    "home_team": "Georgia",
+    "id": 257
+  },
+  {
+    "home_team": "Georgia College",
+    "id": 1096
+  },
+  {
+    "home_team": "Georgia Southern",
+    "id": 253
+  },
+  {
+    "home_team": "Georgia St.",
+    "id": 254
+  },
+  {
+    "home_team": "Georgia State",
+    "id": 254
+  },
+  {
+    "home_team": "Georgia Tech",
+    "id": 255
+  },
+  {
+    "home_team": "Georgian Court",
+    "id": 9004
+  },
+  {
+    "home_team": "Glenville St.",
+    "id": 1098
+  },
+  {
+    "home_team": "Glenville State",
+    "id": 1098
+  },
+  {
+    "home_team": "Goldey-Beacom",
+    "id": ""
+  },
+  {
+    "home_team": "Gonzaga",
+    "id": 260
+  },
+  {
+    "home_team": "Gonzaga Bulldogs",
+    "id": 260
+  },
+  {
+    "home_team": "Grambling",
+    "id": 261
+  },
+  {
+    "home_team": "Grambling State",
+    "id": 261
+  },
+  {
+    "home_team": "Grambling State Univ",
+    "id": 261
+  },
+  {
+    "home_team": "Grand Canyon",
+    "id": 1104
+  },
+  {
+    "home_team": "Green Bay",
+    "id": 794
+  },
+  {
+    "home_team": "Grove City",
+    "id": 265
+  },
+  {
+    "home_team": "Gsu",
+    "id": ""
+  },
+  {
+    "home_team": "Gw",
+    "id": 249
+  },
+  {
+    "home_team": "Gwu",
+    "id": 249
+  },
+  {
+    "home_team": "Hampton",
+    "id": 270
+  },
+  {
+    "home_team": "Hampton Univ.",
+    "id": 270
+  },
+  {
+    "home_team": "Hampton University",
+    "id": 270
+  },
+  {
+    "home_team": "Hanover",
+    "id": 1115
+  },
+  {
+    "home_team": "Hardin-Simmons",
+    "id": 271
+  },
+  {
+    "home_team": "Harding",
+    "id": 1116
+  },
+  {
+    "home_team": "Hartford",
+    "id": 272
+  },
+  {
+    "home_team": "Harvard",
+    "id": 275
+  },
+  {
+    "home_team": "Hawaii",
+    "id": 277
+  },
+  {
+    "home_team": "Hawaii Pacific",
+    "id": ""
+  },
+  {
+    "home_team": "Hbu",
+    "id": ""
+  },
+  {
+    "home_team": "Hc",
+    "id": ""
+  },
+  {
+    "home_team": "Heidelberg",
+    "id": 278
+  },
+  {
+    "home_team": "Henderson State",
+    "id": 1123
+  },
+  {
+    "home_team": "High Point",
+    "id": 19651
+  },
+  {
+    "home_team": "High Point University",
+    "id": 19651
+  },
+  {
+    "home_team": "Hilbert",
+    "id": 8398
+  },
+  {
+    "home_team": "Hofstra",
+    "id": 283
+  },
+  {
+    "home_team": "Holy Cross",
+    "id": 285
+  },
+  {
+    "home_team": "Houston",
+    "id": 288
+  },
+  {
+    "home_team": "Houston Baptist",
+    "id": 287
+  },
+  {
+    "home_team": "Howard",
+    "id": 290
+  },
+  {
+    "home_team": "Howard University",
+    "id": 290
+  },
+  {
+    "home_team": "Humboldt State",
+    "id": 291
+  },
+  {
+    "home_team": "Idaho",
+    "id": 295
+  },
+  {
+    "home_team": "Idaho St.",
+    "id": 294
+  },
+  {
+    "home_team": "Idaho State",
+    "id": 294
+  },
+  {
+    "home_team": "Ill. Springfield",
+    "id": 30050
+  },
+  {
+    "home_team": "Illinois",
+    "id": 301
+  },
+  {
+    "home_team": "Illinois Springfield",
+    "id": 30050
+  },
+  {
+    "home_team": "Illinois St.",
+    "id": 299
+  },
+  {
+    "home_team": "Illinois State",
+    "id": 299
+  },
+  {
+    "home_team": "Incarnate Word",
+    "id": 2743
+  },
+  {
+    "home_team": "Indiana",
+    "id": 306
+  },
+  {
+    "home_team": "Indiana (PA)",
+    "id": 307
+  },
+  {
+    "home_team": "Indiana St.",
+    "id": 305
+  },
+  {
+    "home_team": "Indiana State",
+    "id": 305
+  },
+  {
+    "home_team": "Indianapolis",
+    "id": ""
+  },
+  {
+    "home_team": "Iona",
+    "id": 310
+  },
+  {
+    "home_team": "Iona College",
+    "id": 310
+  },
+  {
+    "home_team": "Iowa",
+    "id": 312
+  },
+  {
+    "home_team": "Iowa St.",
+    "id": 311
+  },
+  {
+    "home_team": "Iowa State",
+    "id": 311
+  },
+  {
+    "home_team": "Ipfw",
+    "id": 311
+  },
+  {
+    "home_team": "Ithaca College",
+    "id": 313
+  },
+  {
+    "home_team": "Iupui",
+    "id": 2699
+  },
+  {
+    "home_team": "Jackson St.",
+    "id": 314
+  },
+  {
+    "home_team": "Jackson State",
+    "id": 314
+  },
+  {
+    "home_team": "Jackson State L. Tig",
+    "id": 314
+  },
+  {
+    "home_team": "Jacksonville",
+    "id": 316
+  },
+  {
+    "home_team": "Jacksonville St.",
+    "id": 315
+  },
+  {
+    "home_team": "Jacksonville State",
+    "id": 315
+  },
+  {
+    "home_team": "James Madison",
+    "id": 317
+  },
+  {
+    "home_team": "Jmu",
+    "id": 317
+  },
+  {
+    "home_team": "John Carroll",
+    "id": 320
+  },
+  {
+    "home_team": "Johnson C. Smith",
+    "id": 323
+  },
+  {
+    "home_team": "K-State",
+    "id": 327
+  },
+  {
+    "home_team": "Kansas",
+    "id": 328
+  },
+  {
+    "home_team": "Kansas City",
+    "id": 2707
+  },
+  {
+    "home_team": "Kansas St.",
+    "id": 327
+  },
+  {
+    "home_team": "Kansas State",
+    "id": 327
+  },
+  {
+    "home_team": "Kennesaw St.",
+    "id": 1157
+  },
+  {
+    "home_team": "Kennesaw State",
+    "id": 1157
+  },
+  {
+    "home_team": "Kent St.",
+    "id": 331
+  },
+  {
+    "home_team": "Kent State",
+    "id": 331
+  },
+  {
+    "home_team": "Kentucky",
+    "id": 334
+  },
+  {
+    "home_team": "Kentucky State",
+    "id": 332
+  },
+  {
+    "home_team": "Kentucky State University",
+    "id": 332
+  },
+  {
+    "home_team": "King (Tenn.)",
+    "id": ""
+  },
+  {
+    "home_team": "Kutztown",
+    "id": 339
+  },
+  {
+    "home_team": "La Roche",
+    "id": ""
+  },
+  {
+    "home_team": "La Salle",
+    "id": 340
+  },
+  {
+    "home_team": "LA Tech",
+    "id": 366
+  },
+  {
+    "home_team": "La.-Monroe",
+    "id": 498
+  },
+  {
+    "home_team": "Lafayette",
+    "id": 342
+  },
+  {
+    "home_team": "Lakeland College",
+    "id": ""
+  },
+  {
+    "home_team": "Lakeland University",
+    "id": ""
+  },
+  {
+    "home_team": "Lamar",
+    "id": 346
+  },
+  {
+    "home_team": "Lamar University",
+    "id": 346
+  },
+  {
+    "home_team": "Lander",
+    "id": 1167
+  },
+  {
+    "home_team": "Lane",
+    "id": ""
+  },
+  {
+    "home_team": "Le Moyne",
+    "id": 349
+  },
+  {
+    "home_team": "Lee University",
+    "id": 30013
+  },
+  {
+    "home_team": "Lees-McRae",
+    "id": 13302
+  },
+  {
+    "home_team": "Lehigh",
+    "id": 352
+  },
+  {
+    "home_team": "LeMoyne-Owen",
+    "id": ""
+  },
+  {
+    "home_team": "Lenoir-Rhyne",
+    "id": 1170
+  },
+  {
+    "home_team": "LeTourneau",
+    "id": ""
+  },
+  {
+    "home_team": "Lewis",
+    "id": 354
+  },
+  {
+    "home_team": "Liberty",
+    "id": 355
+  },
+  {
+    "home_team": "Limestone",
+    "id": 1174
+  },
+  {
+    "home_team": "Lincoln (MO)",
+    "id": ""
+  },
+  {
+    "home_team": "Lincoln Memorial",
+    "id": ""
+  },
+  {
+    "home_team": "Lindenwood",
+    "id": 30136
+  },
+  {
+    "home_team": "Lipscomb",
+    "id": 28600
+  },
+  {
+    "home_team": "Little Rock",
+    "id": ""
+  },
+  {
+    "home_team": "Liu",
+    "id": 361
+  },
+  {
+    "home_team": "LIU Brooklyn",
+    "id": ""
+  },
+  {
+    "home_team": "Lmu",
+    "id": ""
+  },
+  {
+    "home_team": "Lock Haven",
+    "id": 360
+  },
+  {
+    "home_team": "Long Beach St.",
+    "id": 99
+  },
+  {
+    "home_team": "Long Beach State",
+    "id": 99
+  },
+  {
+    "home_team": "Longwood",
+    "id": 363
+  },
+  {
+    "home_team": "Louisiana",
+    "id": 671
+  },
+  {
+    "home_team": "Louisiana College",
+    "id": ""
+  },
+  {
+    "home_team": "Louisiana Tech",
+    "id": 366
+  },
+  {
+    "home_team": "Louisville",
+    "id": 367
+  },
+  {
+    "home_team": "Loyola",
+    "id": ""
+  },
+  {
+    "home_team": "Loyola Chicago",
+    "id": 371
+  },
+  {
+    "home_team": "Loyola Maryland",
+    "id": 369
+  },
+  {
+    "home_team": "Loyola Marymount",
+    "id": ""
+  },
+  {
+    "home_team": "Lsu",
+    "id": 365
+  },
+  {
+    "home_team": "Lynn",
+    "id": ""
+  },
+  {
+    "home_team": "Maine",
+    "id": 380
+  },
+  {
+    "home_team": "Manchester",
+    "id": ""
+  },
+  {
+    "home_team": "Manhattan",
+    "id": 381
+  },
+  {
+    "home_team": "Marian University",
+    "id": 1196
+  },
+  {
+    "home_team": "Marietta",
+    "id": 385
+  },
+  {
+    "home_team": "Marietta College",
+    "id": 385
+  },
+  {
+    "home_team": "Marist",
+    "id": 386
+  },
+  {
+    "home_team": "Marquette",
+    "id": 387
+  },
+  {
+    "home_team": "Mars Hill",
+    "id": 1199
+  },
+  {
+    "home_team": "Marshall",
+    "id": 388
+  },
+  {
+    "home_team": "Mary Hardin-Baylor",
+    "id": 1203
+  },
+  {
+    "home_team": "Maryland",
+    "id": 392
+  },
+  {
+    "home_team": "Maryland Eastern Shore",
+    "id": 393
+  },
+  {
+    "home_team": "Maryville",
+    "id": ""
+  },
+  {
+    "home_team": "Maryville (MO)",
+    "id": 395
+  },
+  {
+    "home_team": "Mason",
+    "id": ""
+  },
+  {
+    "home_team": "Massachusetts",
+    "id": 400
+  },
+  {
+    "home_team": "McKendree",
+    "id": 30138
+  },
+  {
+    "home_team": "McNeese",
+    "id": 402
+  },
+  {
+    "home_team": "Md. Eastern Shore",
+    "id": 393
+  },
+  {
+    "home_team": "Medaille College",
+    "id": 23725
+  },
+  {
+    "home_team": "Memphis",
+    "id": 404
+  },
+  {
+    "home_team": "Mercer",
+    "id": 406
+  },
+  {
+    "home_team": "Mercyhurst",
+    "id": 408
+  },
+  {
+    "home_team": "Merrimack",
+    "id": 410
+  },
+  {
+    "home_team": "Miami",
+    "id": ""
+  },
+  {
+    "home_team": "Miami (FL)",
+    "id": 415
+  },
+  {
+    "home_team": "Miami (OH)",
+    "id": 414
+  },
+  {
+    "home_team": "Michigan",
+    "id": 418
+  },
+  {
+    "home_team": "Michigan St.",
+    "id": 416
+  },
+  {
+    "home_team": "Michigan State",
+    "id": 416
+  },
+  {
+    "home_team": "Middle Tenn.",
+    "id": 419
+  },
+  {
+    "home_team": "Middle Tennessee",
+    "id": 419
+  },
+  {
+    "home_team": "Midwestern State",
+    "id": ""
+  },
+  {
+    "home_team": "Miles",
+    "id": 422
+  },
+  {
+    "home_team": "Millersville",
+    "id": 423
+  },
+  {
+    "home_team": "Millsaps",
+    "id": 426
+  },
+  {
+    "home_team": "Milwaukee",
+    "id": 797
+  },
+  {
+    "home_team": "Minnesota",
+    "id": 428
+  },
+  {
+    "home_team": "Mississippi College",
+    "id": 429
+  },
+  {
+    "home_team": "Mississippi St.",
+    "id": 430
+  },
+  {
+    "home_team": "Mississippi State",
+    "id": 430
+  },
+  {
+    "home_team": "Mississippi Val.",
+    "id": 432
+  },
+  {
+    "home_team": "Mississippi Valley",
+    "id": 432
+  },
+  {
+    "home_team": "Mississippi Valley State",
+    "id": 432
+  },
+  {
+    "home_team": "Missouri",
+    "id": 434
+  },
+  {
+    "home_team": "Missouri S&T",
+    "id": 435
+  },
+  {
+    "home_team": "Missouri Southern",
+    "id": 9012
+  },
+  {
+    "home_team": "Missouri St.",
+    "id": 669
+  },
+  {
+    "home_team": "Missouri State",
+    "id": 669
+  },
+  {
+    "home_team": "Missouri Western",
+    "id": 9013
+  },
+  {
+    "home_team": "Missouri-Kansas City",
+    "id": ""
+  },
+  {
+    "home_team": "Missouri-St. Louis",
+    "id": 436
+  },
+  {
+    "home_team": "Mizzou",
+    "id": 434
+  },
+  {
+    "home_team": "Mo. Southern St.",
+    "id": 9012
+  },
+  {
+    "home_team": "Mo. Western St.",
+    "id": ""
+  },
+  {
+    "home_team": "Monmouth",
+    "id": ""
+  },
+  {
+    "home_team": "Montana",
+    "id": 441
+  },
+  {
+    "home_team": "Montana St.",
+    "id": 440
+  },
+  {
+    "home_team": "Montana State",
+    "id": 440
+  },
+  {
+    "home_team": "Morehead St.",
+    "id": 444
+  },
+  {
+    "home_team": "Morehead State",
+    "id": 444
+  },
+  {
+    "home_team": "Morgan State",
+    "id": 446
+  },
+  {
+    "home_team": "Mount Aloysius",
+    "id": 30036
+  },
+  {
+    "home_team": "Mount Olive",
+    "id": 1245
+  },
+  {
+    "home_team": "Mount St. Joseph University",
+    "id": 8567
+  },
+  {
+    "home_team": "Mount Union",
+    "id": 452
+  },
+  {
+    "home_team": "Msoe",
+    "id": ""
+  },
+  {
+    "home_team": "MSU Billings",
+    "id": 205
+  },
+  {
+    "home_team": "MSU Denver",
+    "id": ""
+  },
+  {
+    "home_team": "Msub",
+    "id": 205
+  },
+  {
+    "home_team": "Mt. St. Joseph",
+    "id": 8567
+  },
+  {
+    "home_team": "Murray St.",
+    "id": 454
+  },
+  {
+    "home_team": "Murray State",
+    "id": 454
+  },
+  {
+    "home_team": "Muskingum",
+    "id": 455
+  },
+  {
+    "home_team": "N.C. A&T",
+    "id": 488
+  },
+  {
+    "home_team": "N.C. Central",
+    "id": 489
+  },
+  {
+    "home_team": "N.M. Highlands",
+    "id": ""
+  },
+  {
+    "home_team": "Navy",
+    "id": 726
+  },
+  {
+    "home_team": "NC Central",
+    "id": 489
+  },
+  {
+    "home_team": "NC State",
+    "id": 490
+  },
+  {
+    "home_team": "Ndc-W",
+    "id": ""
+  },
+  {
+    "home_team": "Neb.-Kearney",
+    "id": 1156
+  },
+  {
+    "home_team": "Nebraska",
+    "id": 463
+  },
+  {
+    "home_team": "Nebraska Kearney",
+    "id": 1156
+  },
+  {
+    "home_team": "Nebraska-Kearney",
+    "id": 1156
+  },
+  {
+    "home_team": "Nevada",
+    "id": 466
+  },
+  {
+    "home_team": "New Hampshire",
+    "id": 469
+  },
+  {
+    "home_team": "New Mexico",
+    "id": 473
+  },
+  {
+    "home_team": "New Mexico Highlands",
+    "id": ""
+  },
+  {
+    "home_team": "New Mexico St.",
+    "id": 472
+  },
+  {
+    "home_team": "New Mexico State",
+    "id": 472
+  },
+  {
+    "home_team": "New Orleans",
+    "id": 474
+  },
+  {
+    "home_team": "New York U",
+    "id": 479
+  },
+  {
+    "home_team": "New York U.",
+    "id": 479
+  },
+  {
+    "home_team": "New York University",
+    "id": 479
+  },
+  {
+    "home_team": "Newberry",
+    "id": 1257
+  },
+  {
+    "home_team": "Newman",
+    "id": 30054
+  },
+  {
+    "home_team": "Niagara",
+    "id": 482
+  },
+  {
+    "home_team": "Niagara University",
+    "id": 482
+  },
+  {
+    "home_team": "Nicholls",
+    "id": 483
+  },
+  {
+    "home_team": "Nicholls St.",
+    "id": 483
+  },
+  {
+    "home_team": "Niu",
+    "id": ""
+  },
+  {
+    "home_team": "Njit",
+    "id": 471
+  },
+  {
+    "home_team": "NM State",
+    "id": 472
+  },
+  {
+    "home_team": "No. 15 Mizzou",
+    "id": 434
+  },
+  {
+    "home_team": "Norfolk State",
+    "id": 485
+  },
+  {
+    "home_team": "North Ala.",
+    "id": 487
+  },
+  {
+    "home_team": "North Alabama",
+    "id": 487
+  },
+  {
+    "home_team": "North Carolina",
+    "id": 457
+  },
+  {
+    "home_team": "North Carolina A&T",
+    "id": 488
+  },
+  {
+    "home_team": "North Dakota",
+    "id": 494
+  },
+  {
+    "home_team": "North Dakota St.",
+    "id": 493
+  },
+  {
+    "home_team": "North Dakota State",
+    "id": 493
+  },
+  {
+    "home_team": "North Florida",
+    "id": 2711
+  },
+  {
+    "home_team": "North Georgia",
+    "id": 30052
+  },
+  {
+    "home_team": "North Greenville",
+    "id": ""
+  },
+  {
+    "home_team": "North Texas",
+    "id": 497
+  },
+  {
+    "home_team": "Northeastern",
+    "id": 500
+  },
+  {
+    "home_team": "Northeastern St.",
+    "id": 12810
+  },
+  {
+    "home_team": "Northeastern State",
+    "id": 12810
+  },
+  {
+    "home_team": "Northern Ariz.",
+    "id": 501
+  },
+  {
+    "home_team": "Northern Arizona",
+    "id": 501
+  },
+  {
+    "home_team": "Northern Colo.",
+    "id": 502
+  },
+  {
+    "home_team": "Northern Colorado",
+    "id": 502
+  },
+  {
+    "home_team": "Northern Ill.",
+    "id": 503
+  },
+  {
+    "home_team": "Northern Illinois",
+    "id": 503
+  },
+  {
+    "home_team": "Northern Illinois University",
+    "id": 503
+  },
+  {
+    "home_team": "Northern Iowa",
+    "id": 504
+  },
+  {
+    "home_team": "Northern Kentucky",
+    "id": 505
+  },
+  {
+    "home_team": "Northern Ky.",
+    "id": 505
+  },
+  {
+    "home_team": "Northwest Missouri",
+    "id": 507
+  },
+  {
+    "home_team": "Northwest Missouri State",
+    "id": 507
+  },
+  {
+    "home_team": "Northwest Mo. St.",
+    "id": 507
+  },
+  {
+    "home_team": "Northwest Nazarene",
+    "id": 1274
+  },
+  {
+    "home_team": "Northwestern",
+    "id": 509
+  },
+  {
+    "home_team": "Northwestern Okla.",
+    "id": 30178
+  },
+  {
+    "home_team": "Northwestern St.",
+    "id": 508
+  },
+  {
+    "home_team": "Northwestern State",
+    "id": 508
+  },
+  {
+    "home_team": "Notre Dame",
+    "id": 513
+  },
+  {
+    "home_team": "Notre Dame (OH)",
+    "id": 30126
+  },
+  {
+    "home_team": "Notre Dame College",
+    "id": ""
+  },
+  {
+    "home_team": "Nova Southeastern",
+    "id": 24639
+  },
+  {
+    "home_team": "Nyack College",
+    "id": 1277
+  },
+  {
+    "home_team": "Nyu",
+    "id": 479
+  },
+  {
+    "home_team": "Oakland",
+    "id": 514
+  },
+  {
+    "home_team": "Oglethorpe",
+    "id": 2713
+  },
+  {
+    "home_team": "Ohio",
+    "id": 519
+  },
+  {
+    "home_team": "Ohio Dominican",
+    "id": 30119
+  },
+  {
+    "home_team": "Ohio Northern",
+    "id": 517
+  },
+  {
+    "home_team": "Ohio Northern women",
+    "id": 517
+  },
+  {
+    "home_team": "Ohio St.",
+    "id": 518
+  },
+  {
+    "home_team": "Ohio State",
+    "id": 518
+  },
+  {
+    "home_team": "Okla. Baptist",
+    "id": 30202
+  },
+  {
+    "home_team": "Oklahoma",
+    "id": 522
+  },
+  {
+    "home_team": "Oklahoma Baptist University",
+    "id": 30202
+  },
+  {
+    "home_team": "Oklahoma Christian",
+    "id": ""
+  },
+  {
+    "home_team": "Oklahoma St",
+    "id": 521
+  },
+  {
+    "home_team": "Oklahoma St.",
+    "id": 521
+  },
+  {
+    "home_team": "Oklahoma State",
+    "id": 521
+  },
+  {
+    "home_team": "Old Dominion",
+    "id": 523
+  },
+  {
+    "home_team": "Omaha",
+    "id": ""
+  },
+  {
+    "home_team": "Oral Roberts",
+    "id": 527
+  },
+  {
+    "home_team": "Oregon",
+    "id": 529
+  },
+  {
+    "home_team": "Oregon St.",
+    "id": 528
+  },
+  {
+    "home_team": "Oregon State",
+    "id": 528
+  },
+  {
+    "home_team": "Otterbein",
+    "id": 531
+  },
+  {
+    "home_team": "Otterbein University",
+    "id": 531
+  },
+  {
+    "home_team": "Ouachita Baptist",
+    "id": 1289
+  },
+  {
+    "home_team": "Ozarks (AR)",
+    "id": ""
+  },
+  {
+    "home_team": "Pacific",
+    "id": ""
+  },
+  {
+    "home_team": "Pacific Lutheran",
+    "id": ""
+  },
+  {
+    "home_team": "Paine",
+    "id": ""
+  },
+  {
+    "home_team": "Paine College",
+    "id": ""
+  },
+  {
+    "home_team": "Palm Beach Atlantic",
+    "id": 30045
+  },
+  {
+    "home_team": "Penn",
+    "id": 540
+  },
+  {
+    "home_team": "Penn St.",
+    "id": 539
+  },
+  {
+    "home_team": "Penn State",
+    "id": 539
+  },
+  {
+    "home_team": "Penn State Altoona",
+    "id": 25719
+  },
+  {
+    "home_team": "Penn State Behrend",
+    "id": 538
+  },
+  {
+    "home_team": "Pepperdine",
+    "id": 541
+  },
+  {
+    "home_team": "Pfeiffer",
+    "id": ""
+  },
+  {
+    "home_team": "Philadelphia U.",
+    "id": ""
+  },
+  {
+    "home_team": "Pitt",
+    "id": 545
+  },
+  {
+    "home_team": "Pitt-Bradford",
+    "id": 1315
+  },
+  {
+    "home_team": "Pitt-Greensburg",
+    "id": 11839
+  },
+  {
+    "home_team": "Pitt-Johnstown",
+    "id": 546
+  },
+  {
+    "home_team": "Pitt.-Bradford",
+    "id": 1315
+  },
+  {
+    "home_team": "Pittsburg State",
+    "id": 1314
+  },
+  {
+    "home_team": "Pittsburgh",
+    "id": 545
+  },
+  {
+    "home_team": "Portland",
+    "id": 551
+  },
+  {
+    "home_team": "Portland St.",
+    "id": 550
+  },
+  {
+    "home_team": "Portland State",
+    "id": 550
+  },
+  {
+    "home_team": "Post",
+    "id": 1318
+  },
+  {
+    "home_team": "Prairie View",
+    "id": 553
+  },
+  {
+    "home_team": "Prairie View A&M",
+    "id": 553
+  },
+  {
+    "home_team": "Presbyterian",
+    "id": 1320
+  },
+  {
+    "home_team": "Presbyterian College",
+    "id": 1320
+  },
+  {
+    "home_team": "Prin",
+    "id": ""
+  },
+  {
+    "home_team": "Princeton",
+    "id": 554
+  },
+  {
+    "home_team": "Princeton University",
+    "id": 554
+  },
+  {
+    "home_team": "Providence",
+    "id": 556
+  },
+  {
+    "home_team": "Puget Sound",
+    "id": 557
+  },
+  {
+    "home_team": "Purdue",
+    "id": 559
+  },
+  {
+    "home_team": "Purdue Fort Wayne",
+    "id": 308
+  },
+  {
+    "home_team": "Purdue University",
+    "id": 559
+  },
+  {
+    "home_team": "Queens",
+    "id": ""
+  },
+  {
+    "home_team": "Queens (N.C.)",
+    "id": 11504
+  },
+  {
+    "home_team": "Queens (NC)",
+    "id": 11504
+  },
+  {
+    "home_team": "Queens University of Charlotte",
+    "id": 11504
+  },
+  {
+    "home_team": "Queens Women's Basketball",
+    "id": ""
+  },
+  {
+    "home_team": "Quincy",
+    "id": 561
+  },
+  {
+    "home_team": "Quinnipiac",
+    "id": 562
+  },
+  {
+    "home_team": "Quwbb14",
+    "id": ""
+  },
+  {
+    "home_team": "Radford",
+    "id": 563
+  },
+  {
+    "home_team": "Regis",
+    "id": ""
+  },
+  {
+    "home_team": "Regis (CO)",
+    "id": 568
+  },
+  {
+    "home_team": "Regis University",
+    "id": ""
+  },
+  {
+    "home_team": "Rhode Island",
+    "id": 572
+  },
+  {
+    "home_team": "Rhodes",
+    "id": 573
+  },
+  {
+    "home_team": "Rice",
+    "id": 574
+  },
+  {
+    "home_team": "Richmond",
+    "id": 575
+  },
+  {
+    "home_team": "Rider",
+    "id": 576
+  },
+  {
+    "home_team": "Rider University",
+    "id": 576
+  },
+  {
+    "home_team": "Rit",
+    "id": ""
+  },
+  {
+    "home_team": "Robert Morris",
+    "id": 579
+  },
+  {
+    "home_team": "Rochester",
+    "id": 581
+  },
+  {
+    "home_team": "Rockford",
+    "id": 582
+  },
+  {
+    "home_team": "Rockford University",
+    "id": 582
+  },
+  {
+    "home_team": "Rockhurst",
+    "id": 1328
+  },
+  {
+    "home_team": "Rogers St.",
+    "id": 30180
+  },
+  {
+    "home_team": "Rollins",
+    "id": 584
+  },
+  {
+    "home_team": "Rose-Hulman",
+    "id": 585
+  },
+  {
+    "home_team": "Rutgers",
+    "id": 587
+  },
+  {
+    "home_team": "S.C. State",
+    "id": 647
+  },
+  {
+    "home_team": "S.C.State",
+    "id": 647
+  },
+  {
+    "home_team": "Sacramento St.",
+    "id": 102
+  },
+  {
+    "home_team": "Sacramento State",
+    "id": 102
+  },
+  {
+    "home_team": "Sacred Heart",
+    "id": 590
+  },
+  {
+    "home_team": "Saint Augustine's",
+    "id": ""
+  },
+  {
+    "home_team": "Saint Francis",
+    "id": ""
+  },
+  {
+    "home_team": "Saint Francis (PA)",
+    "id": 600
+  },
+  {
+    "home_team": "Saint Francis U",
+    "id": ""
+  },
+  {
+    "home_team": "Saint Joseph's",
+    "id": ""
+  },
+  {
+    "home_team": "Saint Joseph's (IN)",
+    "id": ""
+  },
+  {
+    "home_team": "Saint Leo",
+    "id": 608
+  },
+  {
+    "home_team": "Saint Louis",
+    "id": 609
+  },
+  {
+    "home_team": "Saint Vincent",
+    "id": 30064
+  },
+  {
+    "home_team": "Salem",
+    "id": 19117
+  },
+  {
+    "home_team": "Sam Houston",
+    "id": 624
+  },
+  {
+    "home_team": "Sam Houston St.",
+    "id": 624
+  },
+  {
+    "home_team": "Sam Houston State",
+    "id": 624
+  },
+  {
+    "home_team": "Samford",
+    "id": 625
+  },
+  {
+    "home_team": "San Diego",
+    "id": 627
+  },
+  {
+    "home_team": "San Diego St.",
+    "id": 626
+  },
+  {
+    "home_team": "San Diego State",
+    "id": 626
+  },
+  {
+    "home_team": "San Francisco",
+    "id": 629
+  },
+  {
+    "home_team": "San Francisco State",
+    "id": 628
+  },
+  {
+    "home_team": "San Jose St.",
+    "id": 630
+  },
+  {
+    "home_team": "San Jose State",
+    "id": 630
+  },
+  {
+    "home_team": "Santa Clara",
+    "id": 631
+  },
+  {
+    "home_team": "Savannah State",
+    "id": ""
+  },
+  {
+    "home_team": "SC State Lady Bulldogs",
+    "id": 647
+  },
+  {
+    "home_team": "Schreiner",
+    "id": 1355
+  },
+  {
+    "home_team": "Seattle",
+    "id": 1356
+  },
+  {
+    "home_team": "Seattle Pacific",
+    "id": 634
+  },
+  {
+    "home_team": "Seattle U",
+    "id": 1356
+  },
+  {
+    "home_team": "Seattle University",
+    "id": 1356
+  },
+  {
+    "home_team": "Semow",
+    "id": ""
+  },
+  {
+    "home_team": "Seton Hall",
+    "id": 635
+  },
+  {
+    "home_team": "Seton Hill",
+    "id": 30063
+  },
+  {
+    "home_team": "Sewanee",
+    "id": 652
+  },
+  {
+    "home_team": "SF State",
+    "id": 628
+  },
+  {
+    "home_team": "Sfa",
+    "id": 676
+  },
+  {
+    "home_team": "Sfu",
+    "id": 629
+  },
+  {
+    "home_team": "Sfu-W",
+    "id": ""
+  },
+  {
+    "home_team": "Shaw",
+    "id": ""
+  },
+  {
+    "home_team": "Shepherd",
+    "id": 10870
+  },
+  {
+    "home_team": "Shepherd University",
+    "id": 10870
+  },
+  {
+    "home_team": "Shippensburg",
+    "id": 638
+  },
+  {
+    "home_team": "Shorter",
+    "id": 30151
+  },
+  {
+    "home_team": "Siena",
+    "id": 639
+  },
+  {
+    "home_team": "Siena College",
+    "id": 639
+  },
+  {
+    "home_team": "Simon Fraser",
+    "id": 30127
+  },
+  {
+    "home_team": "Sioux Falls",
+    "id": 30128
+  },
+  {
+    "home_team": "Siue",
+    "id": 660
+  },
+  {
+    "home_team": "Skidmore College",
+    "id": 642
+  },
+  {
+    "home_team": "Slippery Rock",
+    "id": ""
+  },
+  {
+    "home_team": "Smu",
+    "id": 663
+  },
+  {
+    "home_team": "Sonoma State",
+    "id": 645
+  },
+  {
+    "home_team": "South Alabama",
+    "id": 646
+  },
+  {
+    "home_team": "South Carolina",
+    "id": 648
+  },
+  {
+    "home_team": "South Carolina St.",
+    "id": 647
+  },
+  {
+    "home_team": "South Carolina State",
+    "id": 647
+  },
+  {
+    "home_team": "South Dakota",
+    "id": 650
+  },
+  {
+    "home_team": "South Dakota Mines",
+    "id": 30139
+  },
+  {
+    "home_team": "South Dakota School of Mines",
+    "id": 30139
+  },
+  {
+    "home_team": "South Dakota St.",
+    "id": 649
+  },
+  {
+    "home_team": "South Dakota State",
+    "id": 649
+  },
+  {
+    "home_team": "South Fla.",
+    "id": 651
+  },
+  {
+    "home_team": "South Florida",
+    "id": 651
+  },
+  {
+    "home_team": "Southeast Missouri",
+    "id": 654
+  },
+  {
+    "home_team": "Southeast Missouri S",
+    "id": 654
+  },
+  {
+    "home_team": "Southeast Mo. St.",
+    "id": 654
+  },
+  {
+    "home_team": "Southeastern La.",
+    "id": 655
+  },
+  {
+    "home_team": "Southeastern Louisia",
+    "id": 655
+  },
+  {
+    "home_team": "Southeastern Louisiana",
+    "id": 655
+  },
+  {
+    "home_team": "Southeastern Okla.",
+    "id": 1371
+  },
+  {
+    "home_team": "Southern",
+    "id": 665
+  },
+  {
+    "home_team": "Southern Ark.",
+    "id": 1376
+  },
+  {
+    "home_team": "Southern Arkansas",
+    "id": 1376
+  },
+  {
+    "home_team": "Southern California",
+    "id": 657
+  },
+  {
+    "home_team": "Southern Ill.",
+    "id": 659
+  },
+  {
+    "home_team": "Southern Illinois",
+    "id": 659
+  },
+  {
+    "home_team": "Southern Indiana",
+    "id": 661
+  },
+  {
+    "home_team": "Southern Miss",
+    "id": 664
+  },
+  {
+    "home_team": "Southern Miss.",
+    "id": 664
+  },
+  {
+    "home_team": "Southern Nazarene",
+    "id": 30152
+  },
+  {
+    "home_team": "Southern U.",
+    "id": 665
+  },
+  {
+    "home_team": "Southern University",
+    "id": 665
+  },
+  {
+    "home_team": "Southern Utah",
+    "id": 667
+  },
+  {
+    "home_team": "Southern Wesleyan",
+    "id": 30192
+  },
+  {
+    "home_team": "Southwest Baptist",
+    "id": 2755
+  },
+  {
+    "home_team": "Southwestern Okla.",
+    "id": 8744
+  },
+  {
+    "home_team": "Spalding",
+    "id": ""
+  },
+  {
+    "home_team": "Spartans",
+    "id": ""
+  },
+  {
+    "home_team": "Spring Hill College",
+    "id": ""
+  },
+  {
+    "home_team": "Spuw",
+    "id": ""
+  },
+  {
+    "home_team": "St. Bonaventure",
+    "id": 596
+  },
+  {
+    "home_team": "St. Francis Brooklyn",
+    "id": ""
+  },
+  {
+    "home_team": "St. Lawrence",
+    "id": 607
+  },
+  {
+    "home_team": "Stanford",
+    "id": 674
+  },
+  {
+    "home_team": "Stanislaus State",
+    "id": ""
+  },
+  {
+    "home_team": "Stephen F. Austin",
+    "id": 676
+  },
+  {
+    "home_team": "Stetson",
+    "id": 678
+  },
+  {
+    "home_team": "Stevens",
+    "id": 679
+  },
+  {
+    "home_team": "Stevens Institute",
+    "id": 679
+  },
+  {
+    "home_team": "Stonehill",
+    "id": 682
+  },
+  {
+    "home_team": "Stony Brook",
+    "id": 683
+  },
+  {
+    "home_team": "Sul Ross St.",
+    "id": 1390
+  },
+  {
+    "home_team": "Syracuse",
+    "id": 688
+  },
+  {
+    "home_team": "Tampa",
+    "id": 689
+  },
+  {
+    "home_team": "Tarleton St.",
+    "id": 1395
+  },
+  {
+    "home_team": "Tcu",
+    "id": 698
+  },
+  {
+    "home_team": "Temple",
+    "id": 690
+  },
+  {
+    "home_team": "Temple University",
+    "id": 690
+  },
+  {
+    "home_team": "Tennessee",
+    "id": 694
+  },
+  {
+    "home_team": "Tennessee St.",
+    "id": 691
+  },
+  {
+    "home_team": "Tennessee State",
+    "id": 691
+  },
+  {
+    "home_team": "Tennessee State Lady",
+    "id": 691
+  },
+  {
+    "home_team": "Tennessee State Lady Tigers",
+    "id": 691
+  },
+  {
+    "home_team": "Tennessee Tech",
+    "id": 692
+  },
+  {
+    "home_team": "Tex. A&M Int'l",
+    "id": ""
+  },
+  {
+    "home_team": "Texas",
+    "id": 703
+  },
+  {
+    "home_team": "Texas A&M",
+    "id": 697
+  },
+  {
+    "home_team": "Texas A&M-Corpus Christi",
+    "id": ""
+  },
+  {
+    "home_team": "Texas Dallas",
+    "id": 23121
+  },
+  {
+    "home_team": "Texas Lutheran",
+    "id": 1400
+  },
+  {
+    "home_team": "Texas Southern",
+    "id": 699
+  },
+  {
+    "home_team": "Texas St.",
+    "id": 670
+  },
+  {
+    "home_team": "Texas State",
+    "id": 670
+  },
+  {
+    "home_team": "Texas Tech",
+    "id": 700
+  },
+  {
+    "home_team": "Texas-Dallas",
+    "id": 23121
+  },
+  {
+    "home_team": "Texas-Pan American",
+    "id": ""
+  },
+  {
+    "home_team": "Texas-Tyler",
+    "id": 30028
+  },
+  {
+    "home_team": "Thiel",
+    "id": 707
+  },
+  {
+    "home_team": "Thomas More",
+    "id": ""
+  },
+  {
+    "home_team": "Toledo",
+    "id": 709
+  },
+  {
+    "home_team": "Toledo Rockets",
+    "id": 709
+  },
+  {
+    "home_team": "Towson",
+    "id": 711
+  },
+  {
+    "home_team": "Towson University",
+    "id": 711
+  },
+  {
+    "home_team": "Transylvania",
+    "id": 28749
+  },
+  {
+    "home_team": "Troy",
+    "id": 716
+  },
+  {
+    "home_team": "Truman",
+    "id": 499
+  },
+  {
+    "home_team": "TSU Lady Tigers",
+    "id": 691
+  },
+  {
+    "home_team": "Tulane",
+    "id": 718
+  },
+  {
+    "home_team": "Tulsa",
+    "id": 719
+  },
+  {
+    "home_team": "Tusculum",
+    "id": 12830
+  },
+  {
+    "home_team": "Tuskegee",
+    "id": 720
+  },
+  {
+    "home_team": "Tuskegee University",
+    "id": 720
+  },
+  {
+    "home_team": "Uab",
+    "id": 9
+  },
+  {
+    "home_team": "Uafs",
+    "id": ""
+  },
+  {
+    "home_team": "UAlbany",
+    "id": ""
+  },
+  {
+    "home_team": "Ualr",
+    "id": 32
+  },
+  {
+    "home_team": "UC Davis",
+    "id": 108
+  },
+  {
+    "home_team": "UC Irvine",
+    "id": 109
+  },
+  {
+    "home_team": "UC Riverside",
+    "id": 111
+  },
+  {
+    "home_team": "UC San Diego",
+    "id": 112
+  },
+  {
+    "home_team": "UC Santa Barbara",
+    "id": 104
+  },
+  {
+    "home_team": "UC-Colo. Springs",
+    "id": 9754
+  },
+  {
+    "home_team": "Uc-W",
+    "id": ""
+  },
+  {
+    "home_team": "Uccs",
+    "id": ""
+  },
+  {
+    "home_team": "Ucf",
+    "id": 128
+  },
+  {
+    "home_team": "Ucla",
+    "id": 110
+  },
+  {
+    "home_team": "UConn",
+    "id": 164
+  },
+  {
+    "home_team": "Uconn",
+    "id": 164
+  },
+  {
+    "home_team": "Ucr",
+    "id": 111
+  },
+  {
+    "home_team": "Ucsb",
+    "id": 104
+  },
+  {
+    "home_team": "Uf",
+    "id": 235
+  },
+  {
+    "home_team": "Uic",
+    "id": 302
+  },
+  {
+    "home_team": "UIC Flames",
+    "id": 302
+  },
+  {
+    "home_team": "Uiw",
+    "id": ""
+  },
+  {
+    "home_team": "Uiw-W",
+    "id": ""
+  },
+  {
+    "home_team": "UL Lafayette",
+    "id": ""
+  },
+  {
+    "home_team": "Ulm",
+    "id": 498
+  },
+  {
+    "home_team": "UMass",
+    "id": 400
+  },
+  {
+    "home_team": "UMass Lowell",
+    "id": 368
+  },
+  {
+    "home_team": "Umbc",
+    "id": 391
+  },
+  {
+    "home_team": "Umkc",
+    "id": ""
+  },
+  {
+    "home_team": "UNC Asheville",
+    "id": 456
+  },
+  {
+    "home_team": "UNC Greensboro",
+    "id": 459
+  },
+  {
+    "home_team": "UNC Pembroke",
+    "id": 537
+  },
+  {
+    "home_team": "UNC Wilmington",
+    "id": 460
+  },
+  {
+    "home_team": "Uncg",
+    "id": 459
+  },
+  {
+    "home_team": "Unco",
+    "id": ""
+  },
+  {
+    "home_team": "Uncw",
+    "id": 460
+  },
+  {
+    "home_team": "Uni",
+    "id": ""
+  },
+  {
+    "home_team": "Union (TN)",
+    "id": 30153
+  },
+  {
+    "home_team": "Univ. Arkansas at Pine Bluff",
+    "id": 2678
+  },
+  {
+    "home_team": "Univ. of Chicago",
+    "id": 137
+  },
+  {
+    "home_team": "Univ. of MD Eastern Shore",
+    "id": 393
+  },
+  {
+    "home_team": "Univ. of Md. Eastern Shore",
+    "id": 393
+  },
+  {
+    "home_team": "University at Albany",
+    "id": ""
+  },
+  {
+    "home_team": "University of Dallas",
+    "id": ""
+  },
+  {
+    "home_team": "University of Hartford",
+    "id": 272
+  },
+  {
+    "home_team": "University of Memphis",
+    "id": 404
+  },
+  {
+    "home_team": "Unlv",
+    "id": ""
+  },
+  {
+    "home_team": "UPR Bayamon",
+    "id": ""
+  },
+  {
+    "home_team": "Urbana",
+    "id": ""
+  },
+  {
+    "home_team": "Urbana University",
+    "id": ""
+  },
+  {
+    "home_team": "Usc",
+    "id": "657"
+  },
+  {
+    "home_team": "USC Aiken",
+    "id": ""
+  },
+  {
+    "home_team": "USC Upstate",
+    "id": 10411
+  },
+  {
+    "home_team": "Uscaw",
+    "id": ""
+  },
+  {
+    "home_team": "USciences",
+    "id": 28594
+  },
+  {
+    "home_team": "Usd",
+    "id": ""
+  },
+  {
+    "home_team": "Usf",
+    "id": 651
+  },
+  {
+    "home_team": "UT Arlington",
+    "id": 702
+  },
+  {
+    "home_team": "UT Martin",
+    "id": 695
+  },
+  {
+    "home_team": "UT Rio Grande Valley",
+    "id": 536
+  },
+  {
+    "home_team": "Uta",
+    "id": ""
+  },
+  {
+    "home_team": "Utah",
+    "id": 732
+  },
+  {
+    "home_team": "Utah State",
+    "id": 731
+  },
+  {
+    "home_team": "Utah Valley",
+    "id": 30024
+  },
+  {
+    "home_team": "Utep",
+    "id": 704
+  },
+  {
+    "home_team": "Utica College",
+    "id": ""
+  },
+  {
+    "home_team": "Utrgv",
+    "id": 536
+  },
+  {
+    "home_team": "Utsa",
+    "id": 706
+  },
+  {
+    "home_team": "UVA Wise",
+    "id": 30181
+  },
+  {
+    "home_team": "UVa-Wise",
+    "id": 30181
+  },
+  {
+    "home_team": "UW-Parkside",
+    "id": ""
+  },
+  {
+    "home_team": "Valdosta State",
+    "id": 734
+  },
+  {
+    "home_team": "Valparaiso",
+    "id": 735
+  },
+  {
+    "home_team": "Valpo",
+    "id": 735
+  },
+  {
+    "home_team": "Vanderbilt",
+    "id": 736
+  },
+  {
+    "home_team": "Vanderbilt University",
+    "id": 736
+  },
+  {
+    "home_team": "Vandy",
+    "id": 736
+  },
+  {
+    "home_team": "Vassar College",
+    "id": 737
+  },
+  {
+    "home_team": "Vcu",
+    "id": 740
+  },
+  {
+    "home_team": "Vermont",
+    "id": 738
+  },
+  {
+    "home_team": "Villanova",
+    "id": 739
+  },
+  {
+    "home_team": "Villanova University",
+    "id": 739
+  },
+  {
+    "home_team": "Virginia",
+    "id": 746
+  },
+  {
+    "home_team": "Virginia Tech",
+    "id": 742
+  },
+  {
+    "home_team": "Virginia Union",
+    "id": ""
+  },
+  {
+    "home_team": "Wagner",
+    "id": 748
+  },
+  {
+    "home_team": "Wagner Seahawks",
+    "id": 748
+  },
+  {
+    "home_team": "Wagnerw",
+    "id": ""
+  },
+  {
+    "home_team": "Wake Forest",
+    "id": 749
+  },
+  {
+    "home_team": "Wartburg",
+    "id": 750
+  },
+  {
+    "home_team": "Wash. & Jeff.",
+    "id": 751
+  },
+  {
+    "home_team": "Washburn",
+    "id": 2814
+  },
+  {
+    "home_team": "Washington",
+    "id": 756
+  },
+  {
+    "home_team": "Washington St.",
+    "id": 754
+  },
+  {
+    "home_team": "Washington State",
+    "id": 754
+  },
+  {
+    "home_team": "WashU",
+    "id": 755
+  },
+  {
+    "home_team": "Wayne State (Neb.)",
+    "id": 1433
+  },
+  {
+    "home_team": "Waynesburg",
+    "id": 1434
+  },
+  {
+    "home_team": "Weber St.",
+    "id": 758
+  },
+  {
+    "home_team": "Weber State",
+    "id": 758
+  },
+  {
+    "home_team": "West Alabama",
+    "id": 358
+  },
+  {
+    "home_team": "West Chester",
+    "id": ""
+  },
+  {
+    "home_team": "West Florida",
+    "id": 11740
+  },
+  {
+    "home_team": "West Georgia",
+    "id": ""
+  },
+  {
+    "home_team": "West Liberty",
+    "id": 1438
+  },
+  {
+    "home_team": "West Liberty University",
+    "id": 1438
+  },
+  {
+    "home_team": "West Texas A&M",
+    "id": 767
+  },
+  {
+    "home_team": "West Va. Wesleyan",
+    "id": 9630
+  },
+  {
+    "home_team": "West Virginia",
+    "id": 768
+  },
+  {
+    "home_team": "West Virginia St.",
+    "id": 1439
+  },
+  {
+    "home_team": "West Virginia State",
+    "id": 1439
+  },
+  {
+    "home_team": "West Virginia Wesleyan College",
+    "id": 9630
+  },
+  {
+    "home_team": "Western Caro.",
+    "id": 769
+  },
+  {
+    "home_team": "Western Carolina",
+    "id": 769
+  },
+  {
+    "home_team": "Western Colo.",
+    "id": 2759
+  },
+  {
+    "home_team": "Western Colorado",
+    "id": 2759
+  },
+  {
+    "home_team": "Western Ill.",
+    "id": 771
+  },
+  {
+    "home_team": "Western Illinois",
+    "id": 771
+  },
+  {
+    "home_team": "Western Kentucky",
+    "id": 772
+  },
+  {
+    "home_team": "Western Ky.",
+    "id": 772
+  },
+  {
+    "home_team": "Western Mich.",
+    "id": 774
+  },
+  {
+    "home_team": "Western Michigan",
+    "id": 774
+  },
+  {
+    "home_team": "Western New Mexico",
+    "id": 1445
+  },
+  {
+    "home_team": "Western Ore.",
+    "id": 1446
+  },
+  {
+    "home_team": "Western Oregon",
+    "id": 1446
+  },
+  {
+    "home_team": "Western State",
+    "id": ""
+  },
+  {
+    "home_team": "Western Wash.",
+    "id": 1448
+  },
+  {
+    "home_team": "Western Washington",
+    "id": 1448
+  },
+  {
+    "home_team": "Westminster",
+    "id": ""
+  },
+  {
+    "home_team": "Westminster (UT)",
+    "id": 30209
+  },
+  {
+    "home_team": "Wheeling",
+    "id": 12799
+  },
+  {
+    "home_team": "Wheeling Jesuit",
+    "id": ""
+  },
+  {
+    "home_team": "Wheeling Jesuit Univ",
+    "id": ""
+  },
+  {
+    "home_team": "Whitman",
+    "id": 780
+  },
+  {
+    "home_team": "Whitworth",
+    "id": 1454
+  },
+  {
+    "home_team": "Wichita St.",
+    "id": 782
+  },
+  {
+    "home_team": "Wichita State",
+    "id": 782
+  },
+  {
+    "home_team": "Willamette",
+    "id": 785
+  },
+  {
+    "home_team": "William & Mary",
+    "id": 786
+  },
+  {
+    "home_team": "William Jewell",
+    "id": 30120
+  },
+  {
+    "home_team": "William Smith",
+    "id": 30073
+  },
+  {
+    "home_team": "Wilmington (DE)",
+    "id": ""
+  },
+  {
+    "home_team": "Wilmington (Ohio)",
+    "id": 1461
+  },
+  {
+    "home_team": "Wingate",
+    "id": 1462
+  },
+  {
+    "home_team": "Winston-Salem State",
+    "id": 791
+  },
+  {
+    "home_team": "Winthrop",
+    "id": 792
+  },
+  {
+    "home_team": "Wis. Lutheran",
+    "id": 8911
+  },
+  {
+    "home_team": "Wisconsin",
+    "id": 796
+  },
+  {
+    "home_team": "Wisconsin Lutheran",
+    "id": 8911
+  },
+  {
+    "home_team": "Wise",
+    "id": ""
+  },
+  {
+    "home_team": "Wittenberg",
+    "id": 806
+  },
+  {
+    "home_team": "Wku",
+    "id": ""
+  },
+  {
+    "home_team": "Wofford",
+    "id": 2915
+  },
+  {
+    "home_team": "Wright St.",
+    "id": 810
+  },
+  {
+    "home_team": "Wright State",
+    "id": 810
+  },
+  {
+    "home_team": "Wyoming",
+    "id": 811
+  },
+  {
+    "home_team": "Wyoming Cowgirls",
+    "id": 811
+  },
+  {
+    "home_team": "Xavier",
+    "id": 812
+  },
+  {
+    "home_team": "Yale",
+    "id": 813
+  },
+  {
+    "home_team": "Yale Bulldogs",
+    "id": 813
+  },
+  {
+    "home_team": "Young Harris",
+    "id": 30154
+  },
+  {
+    "home_team": "Youngstown St.",
+    "id": 817
+  },
+  {
+    "home_team": "Youngstown State",
+    "id": 817
+  }
+]
