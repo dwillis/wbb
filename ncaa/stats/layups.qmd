@@ -1,0 +1,22 @@
+```{r}
+library(tidyverse)
+```
+
+```{r}
+layups <- read_csv("layups_2025-26.csv")
+layups25 <- read_csv("layups_2024-25.csv")
+
+
+bigten_layups <- layups |> 
+  filter(team %in% c("Maryland", "Rutgers", "Iowa", "Michigan", "Michigan St.", "Ohio St.", "Penn St.", "Ucla", "Southern California", "Illinois", "Nebraska", "Purdue", "Indiana", "Northwestern", "Wisconsin", "Minnesota", "Washington", "Oregon", ""))
+
+layups |> 
+  group_by(team, action) |> 
+  summarise(count = n()) |> 
+  pivot_wider(names_from = action, values_from = count) |> 
+  mutate(total = GOOD + MISS) |> 
+  mutate(pct_miss = MISS/total) |> 
+  arrange(desc(pct_miss))
+
+```
+
