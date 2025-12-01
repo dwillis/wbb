@@ -49,7 +49,7 @@ def fetch_rosters(id=None, seasons=None):
     elif isinstance(seasons, str):
         seasons = [seasons]
     if id:
-        team = [t for t in teams_json if str(id) == str(t['ncaa_id'])][0]
+        team = [t for t in teams_json if id == t['ncaa_id']][0]
         slug = slugify(team)
         for season in seasons:
             try:
@@ -72,7 +72,7 @@ def fetch_game_stats(id=None, seasons=None):
     elif isinstance(seasons, str):
         seasons = [seasons]
     if id:
-        team = [t for t in teams_json if str(id) == str(t['ncaa_id'])][0]
+        team = [t for t in teams_json if id == t['ncaa_id']][0]
         slug = slugify(team)
         print(id)
         for season in seasons:
@@ -320,6 +320,119 @@ def parse_layups(team, slug, season, game_id):
                     layups.append([team['ncaa_id'], game_id, game_json['Game']['Date'], team_name, opponent, play['Action'], play['Period'], play['ClockSeconds'], uniform, play['Id']])
     return layups
 
+def parse_wmt_layups(team, slug, season, game_id):
+    """
+    Parse layups from WMT API JSON structure.
+    
+    Args:
+        team: Team dictionary with ncaa_id and team name
+        slug: Team slug for directory structure
+        season: Season string (e.g., '2025-26')
+        game_id: Game ID string
+        
+    Returns:
+        List of layup records: [ncaa_id, game_id, date, team_name, opponent, action, period, seconds, uniform, play_id]
+    """
+    layups = []
+    try:
+        # Load JSON from wbb-game-data directory
+        json_path = os.path.expanduser(f"~/code/wbb-game-data/{slug}/{season}/{game_id}.json")
+        with open(json_path, 'r') as f:
+            game_json = json.load(f)
+    except FileNotFoundError:
+        print(f"File not found: {json_path}")
+        return layups
+    except Exception as e:
+        print(f"Error loading game {game_id}: {e}")
+        raise
+    
+    if not game_json or 'data' not in game_json:
+        return layups
+    
+    data = game_json['data']
+    
+    # Get game date
+    game_date = data.get('game_date', '')
+    
+    # Get team names from competitors
+    if 'competitors' not in data:
+        return layups
+    
+    competitors = data['competitors']
+    team_names = {}
+    for comp in competitors:
+        school_id = comp.get('schoolId')
+        name_tabular = comp.get('nameTabular')
+        if school_id and name_tabular:
+            team_names[school_id] = name_tabular
+    
+    # Get actions (not plays)
+    if 'actions' not in data or 'data' not in data['actions']:
+        return layups
+    
+    actions = data['actions']['data']
+    
+    for action_wrapper in actions:
+        # The actual action data is nested under the 'action' key
+        action = action_wrapper.get('action', {})
+        play_action_sub_type = action.get('play_action_sub_type', '')
+        
+        # Check if it's a layup or driving layup
+        if play_action_sub_type in ['layup', 'drivinglayup']:
+            # Get team name from the action's name_tabular attribute
+            team_name = action.get('name_tabular', '')
+            
+            # Only process if it matches the team we're tracking
+            if 'stats_name' in team and team_name != team['stats_name']:
+                continue
+            elif 'stats_name' not in team and team_name != team['team']:
+                continue
+            
+            # Get opponent name
+            school_id = action_wrapper.get('school_id')
+            opponent = ''
+            for sid, name in team_names.items():
+                if sid != school_id:
+                    opponent = name
+                    break
+            
+            # Get action based on success
+            play_successful = action.get('play_successful', False)
+            action_result = 'GOOD' if play_successful else 'MISS'
+            
+            # Get player info - check for jersey number in player name or use game_player_id
+            uniform = None
+            checkname = action.get('checkname', '')
+            # Try to extract number from checkname if available
+            
+            # Get period and time
+            period = action.get('period_number')
+            play_time = action.get('play_time', '')
+            # Convert play_time (MM:SS:00) to seconds
+            clock_seconds = 0
+            if play_time:
+                parts = play_time.split(':')
+                if len(parts) >= 2:
+                    clock_seconds = int(parts[0]) * 60 + int(parts[1])
+            
+            # Get play ID
+            play_id = action.get('id')
+            
+            layups.append([
+                team['ncaa_id'], 
+                game_id, 
+                game_date, 
+                team_name, 
+                opponent, 
+                action_result, 
+                period, 
+                clock_seconds, 
+                uniform, 
+                play_id
+            ])
+    
+    return layups
+
 def get_all_turnovers(season):
     teams_json = json.loads(open('/Users/dwillis/code/wbb/ncaa/teams.json').read())
     with open(f"turnovers_{season}.csv", 'w') as output_file:
@@ -342,8 +455,16 @@ def get_all_turnovers(season):
                     for turnover in turnovers:
                         csv_file.writerow(turnover)
 
-def get_all_layups(season):
+def get_all_layups(season, ncaa_id=None):
     teams_json = json.loads(open('/Users/dwillis/code/wbb/ncaa/teams.json').read())
+    
+    # Filter to single team if ncaa_id provided
+    if ncaa_id:
+        teams_json = [t for t in teams_json if t['ncaa_id'] == ncaa_id]
+        if not teams_json:
+            print(f"Warning: Team ID {ncaa_id} not found in teams.json")
+            return
+    
     with open(f"/Users/dwillis/code/wbb/ncaa/layups_{season}.csv", 'w') as output_file:
         csv_file = csv.writer(output_file)
         csv_file.writerow(['ncaa_id', 'game_id', 'date', 'team', 'opponent', 'action', 'period', 'seconds', 'player', 'play_id'])
@@ -352,17 +473,30 @@ def get_all_layups(season):
             slug = slugify(team)
             try:
                 os.chdir(f"/Users/dwillis/code/wbb-game-data/{slug}/{season}")
-            except:
+            except FileNotFoundError:
+                print(f"Directory not found: /Users/dwillis/code/wbb-game-data/{slug}/{season}")
+                continue
+            except Exception as e:
+                print(f"Error accessing directory for {slug}: {e}")
                 continue
             for root, dirs, files in os.walk(".", topdown=False):
                 for file in files:
                     if file == '.DS_Store':
                         continue
                     game_id = file.split('.')[0]
-                    print(game_id)
-                    layups = parse_layups(team, slug, season, game_id)
-                    for layup in layups:
-                        csv_file.writerow(layup)
+#                    print(game_id)
+                    try:
+                        layups = parse_layups(team, slug, season, game_id)
+                        for layup in layups:
+                            csv_file.writerow(layup)
+                    except Exception as e:
+                        print(f"Error with parse_layups for game {game_id}, trying parse_wmt_layups: {e}")
+                        try:
+                            layups = parse_wmt_layups(team, slug, season, game_id)
+                            for layup in layups:
+                                csv_file.writerow(layup)
+                        except Exception as e2:
+                            print(f"Error with parse_wmt_layups for game {game_id}: {e2}")
 
 def get_all_officials(season):
     teams_json = json.loads(open('/Users/dwillis/code/wbb/ncaa/teams.json').read())

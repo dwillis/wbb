@@ -25,7 +25,7 @@ def pbp_for_season(season="2025-26", team_ids=[31, 147, 234, 255, 312, 334, 365,
         print(f"Processing: {team['team']}")
 
         try:
-            if team_id in [539, 463, 365, 77, 127, 234, 742, 312]:
+            if team_id in [539, 463, 365, 77, 127, 234, 742, 312, 559]:
                 boxscore_links = boxscore_links_for_season_direct(team, season)
             else:
                 boxscore_links = boxscore_links_for_season(team, season)
