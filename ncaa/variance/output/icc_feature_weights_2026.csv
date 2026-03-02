@@ -1,0 +1,10 @@
+feature,icc,weight
+three_par_resid,0.4248,0.6518
+opp_tov_pct_resid,0.3404,0.5834
+orb_pct_resid,0.2427,0.4927
+efg_pct_resid,0.1511,0.3888
+tov_pct_resid,0.1333,0.3652
+ft_rate_resid,0.1051,0.3242
+opp_efg_pct_resid,0.0952,0.3085
+opp_ft_rate_resid,0.0875,0.2958
+drb_pct_resid,0,0

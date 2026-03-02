@@ -1,0 +1,6 @@
+archetype,arch_label
+1,S1: Low Δ 3PA Rate
+2,S2: Low Δ ORB%
+3,S3: High Δ ORB%
+4,S4: High Δ Opp TOV%
+5,S5: High Δ 3PA Rate
