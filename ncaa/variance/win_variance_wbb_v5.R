@@ -1287,7 +1287,7 @@ top25_entropy <- combined %>%
          team_ordered = reorder(team_label, entropy_norm))
 
 arch_comp_long <- top25_entropy %>%
-  select(team_short_display_name, team_label, team_ordered, entropy_norm,
+  select(team_short_display_name, team_label, team_ordered, entropy_norm, versatility_score,
          all_of(arch_share_cols_present)) %>%
   pivot_longer(all_of(arch_share_cols_present),
                names_to = "arch_col", values_to = "share") %>%
@@ -1295,14 +1295,22 @@ arch_comp_long <- top25_entropy %>%
   left_join(arch_names, by = "archetype") %>%
   mutate(arch_label = factor(arch_label))
 
+p3_vscore_labels <- top25_entropy %>%
+  select(team_ordered, versatility_score)
+
 p3 <- arch_comp_long %>%
   ggplot(aes(x = share, y = team_ordered, fill = arch_label)) +
   geom_col(width = 0.75) +
+  geom_text(
+    data = p3_vscore_labels,
+    aes(x = 1.01, y = team_ordered, label = sprintf("%.3f", versatility_score), fill = NULL),
+    hjust = 0, size = 3, color = "grey30", inherit.aes = FALSE
+  ) +
   scale_fill_brewer(palette = "Set2", name = "Style") +
-  scale_x_continuous(labels = scales::percent) +
+  scale_x_continuous(labels = scales::percent, expand = expansion(mult = c(0, 0.08))) +
   labs(
     title    = "How The Most Versatile Teams Win",
-    subtitle = paste0("The weighted share of wins in each style (all teams have 20+ wins)"),
+    subtitle = paste0("The weighted share of wins in each style (all teams have 20+ wins) \u00b7 Score = versatility score"),
     x = "Weighted share of wins in each style", y = NULL
   ) +
   theme_minimal(base_size = 10) +
