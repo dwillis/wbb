@@ -53,32 +53,25 @@
 #
 # Packages required: wehoop, tidyverse, ggrepel
 # ============================================================================
-
 library(wehoop)
 library(tidyverse)
 library(ggrepel)
-
 # ---- CONFIG ----------------------------------------------------------------
-
 SEASON          <- 2026
 MIN_WINS        <- 20
 CLOSENESS_SCALE <- 10        # primary scale: w = 1/(1 + margin/10)
 N_ARCHETYPES    <- 5         # k-means clusters; silhouette check below
 CACHE_FILE      <- "data/wbb_team_box_2026.rds"
-
 # Sensitivity analysis scales
 SENSITIVITY_SCALES <- c(5, 10, 20, 50, Inf)
-
 # Opponent adjustment: use residuals (TRUE) or raw features (FALSE)
 # When TRUE, features are opponent-adjusted residuals;
 # a raw-vs-residual comparison diagnostic is always printed.
 USE_RESIDUALS <- TRUE
-
 # Feature vectors
 OFF_FEATURES <- c("efg_pct", "tov_pct", "orb_pct", "ft_rate", "three_par")
 DEF_FEATURES <- c("opp_efg_pct", "opp_tov_pct", "drb_pct", "opp_ft_rate")
 ALL_FEATURES <- c(OFF_FEATURES, DEF_FEATURES)
-
 # CV stat groups (diagnostic)
 CV_GROUPS <- list(
   Shooting    = c("efg_pct", "three_par"),
@@ -88,23 +81,18 @@ CV_GROUPS <- list(
   Scoring_Mix = c("paint_share", "fastbreak_share"),
   Def_Quality = c("opp_efg_pct", "opp_tov_pct", "opp_ft_rate")
 )
-
 # Conference tier definitions
 POWER_CONFERENCES <- c("SEC", "Big Ten", "Big 12", "ACC")
 HIGH_MAJOR        <- c("Big East", "AAC", "WCC", "Mountain West", "Atlantic 10")
-
 TIER_COLORS <- c(
   "Power 4"       = "#6b21a8",
   "High Major"    = "#2563eb",
   "Mid/Low Major" = "#9ca3af",
   "All"           = "#6b21a8"
 )
-
-
 # ============================================================================
 # STEP 0a: PULL GAME DATA
 # ============================================================================
-
 if (file.exists(CACHE_FILE)) {
   team_box <- readRDS(CACHE_FILE)
   message("Loaded cached data: ", nrow(team_box), " rows")
@@ -114,49 +102,37 @@ if (file.exists(CACHE_FILE)) {
   saveRDS(team_box, CACHE_FILE)
   message("Pulled and cached: ", nrow(team_box), " rows")
 }
-
-
 # ============================================================================
 # STEP 0b: CONFERENCE LOOKUP FROM LOCAL CSV
 # ============================================================================
-
-TEAMS_CSV <- "data/teams.csv"
-
+TEAMS_CSV <- "/Users/dwillis/code/wbb/ncaa/variance/data/teams.csv"
 normalize_name <- function(x) {
   x <- iconv(x, from = "UTF-8", to = "ASCII//TRANSLIT")
   x %>% tolower() %>% gsub("[^a-z0-9]", "", .)
 }
-
 message("Loading conference data from ", TEAMS_CSV, "...")
 csv_teams <- read_csv(TEAMS_CSV, show_col_types = FALSE) %>%
   filter(division == "I") %>%
   select(team, espn_name, conference_short_name = conference) %>%
   mutate(join_key = normalize_name(espn_name)) %>%
   select(join_key, conference_short_name)
-
 message("  ", nrow(csv_teams), " D1 teams loaded from CSV")
-
 espn_teams <- team_box %>%
   distinct(team_id, team_short_display_name) %>%
   mutate(join_key = normalize_name(team_short_display_name))
-
 teams_info <- espn_teams %>%
   left_join(csv_teams, by = "join_key") %>%
   filter(!is.na(conference_short_name)) %>%
   select(team_id, conference_short_name) %>%
   distinct(team_id, .keep_all = TRUE)
-
 unmatched <- espn_teams %>%
   anti_join(csv_teams, by = "join_key") %>%
   arrange(team_short_display_name)
-
 if (nrow(unmatched) > 0) {
   message("\n  Teams with no conference match (", nrow(unmatched), "):")
   walk(unmatched$team_short_display_name, ~ message("    ", .x))
 }
-
 message("\nConference lookup matched ", nrow(teams_info), " teams")
-
 has_conferences <- nrow(teams_info) > 0
 if (has_conferences) {
   teams_info <- teams_info %>%
@@ -171,15 +147,12 @@ if (has_conferences) {
 } else {
   message("No conference data — continuing without it")
 }
-
-
 # ============================================================================
 # STEP 0c: BUILD OPPONENT JOIN (ALL GAMES)
 #
 # We join opponent stats for ALL games (not just wins) because we need
 # season-average profiles for every team to compute opponent adjustments.
 # ============================================================================
-
 opp_stats <- team_box %>%
   select(
     game_id,
@@ -195,49 +168,40 @@ opp_stats <- team_box %>%
     opp_to    = turnovers,
     opp_score = team_score
   )
-
 # Join ALL games (wins + losses) with opponent stats
 all_games_with_opp <- team_box %>%
   inner_join(opp_stats, by = "game_id", suffix = c("", "_opp")) %>%
   filter(team_id != team_id_opp)
-
 message("\nAll game-rows after opponent join: ", nrow(all_games_with_opp))
-
-
 # ============================================================================
 # STEP 0d: COMPUTE FEATURES FOR ALL GAMES
 #
 # Same feature definitions applied to every game (wins + losses).
 # This gives us the data to compute season-average profiles.
 # ============================================================================
-
 compute_game_features <- function(df) {
   df %>%
     mutate(
       # === WBB FIVE FACTORS (OFFENSIVE) ===
       efg_pct   = (field_goals_made + 0.5 * three_point_field_goals_made) /
-                   field_goals_attempted,
+        field_goals_attempted,
       tov_pct   = turnovers /
-                  (field_goals_attempted + 0.44 * free_throws_attempted + turnovers),
+        (field_goals_attempted + 0.44 * free_throws_attempted + turnovers),
       orb_pct   = offensive_rebounds / (offensive_rebounds + opp_drb),
       ft_rate   = free_throws_made / field_goals_attempted,
       three_par = three_point_field_goals_attempted / field_goals_attempted,
-
       # === DEFENSIVE FACTORS (what opponent did = what this team allowed) ===
       opp_efg_pct = (opp_fgm + 0.5 * opp_3pm) / opp_fga,
       opp_tov_pct = opp_to / (opp_fga + 0.44 * opp_fta + opp_to),
       drb_pct     = defensive_rebounds / (defensive_rebounds + opp_orb),
       opp_ft_rate = opp_ftm / opp_fga,
-
       # === SCORING SOURCE SHARES ===
       paint_pts       = suppressWarnings(as.numeric(points_in_paint)),
       fastbreak_pts   = suppressWarnings(as.numeric(fast_break_points)),
       paint_share     = paint_pts / team_score,
       fastbreak_share = fastbreak_pts / team_score,
-
       # === ASSIST RATE ===
       ast_rate = assists / field_goals_made,
-
       # === FREE THROW COMPONENTS ===
       ft_attempt_rate = free_throws_attempted / field_goals_attempted,
       ft_accuracy     = ifelse(free_throws_attempted > 0,
@@ -254,11 +218,8 @@ compute_game_features <- function(df) {
       is.finite(drb_pct), is.finite(opp_ft_rate)
     )
 }
-
 all_game_features <- compute_game_features(all_games_with_opp)
 message("All games with valid features: ", nrow(all_game_features))
-
-
 # ============================================================================
 # STEP 0e: COMPUTE SEASON-AVERAGE PROFILES AND OPPONENT-ADJUSTED RESIDUALS
 #
@@ -296,9 +257,7 @@ message("All games with valid features: ", nrow(all_game_features))
 # depends on your own team's positioning, not the opponent's offense. So we
 # adjust drb_pct relative to the team's own season average, not the opponent's.
 # ============================================================================
-
 message("\n=== COMPUTING SEASON AVERAGES AND OPPONENT ADJUSTMENTS ===")
-
 # Season offensive averages per team (what each team DOES on offense)
 team_off_avg <- all_game_features %>%
   group_by(team_id) %>%
@@ -311,7 +270,6 @@ team_off_avg <- all_game_features %>%
     n_games       = n(),
     .groups = "drop"
   )
-
 # Season defensive averages per team (what each team ALLOWS)
 team_def_avg <- all_game_features %>%
   group_by(team_id) %>%
@@ -324,20 +282,16 @@ team_def_avg <- all_game_features %>%
     avg_opp_three_par = mean(opp_3pa / opp_fga, na.rm = TRUE),
     .groups = "drop"
   )
-
 message("Season averages computed for ", nrow(team_off_avg), " teams (",
         round(mean(team_off_avg$n_games), 1), " avg games per team)")
-
 # --- Build win features with opponent adjustment ---
 wins_with_opp <- all_games_with_opp %>%
   filter(team_winner == TRUE)
-
 win_features_raw <- compute_game_features(wins_with_opp) %>%
   mutate(
     margin           = team_score - opp_score,
     closeness_weight = 1 / (1 + margin / CLOSENESS_SCALE)
   )
-
 # Join opponent's season averages to each winning game
 # team_id_opp is the opponent in this game
 win_features <- win_features_raw %>%
@@ -376,7 +330,6 @@ win_features <- win_features_raw %>%
     orb_pct_resid   = orb_pct   - (1 - opp_avg_drb_pct),  # their DRB% → our expected ORB%
     ft_rate_resid   = ft_rate   - opp_avg_opp_ft_rate,
     three_par_resid = three_par - opp_avg_opp_three_par,
-
     # --- Defensive residuals: what opponent did - what opponent usually does ---
     # Negative = we held them below their average (good defense)
     opp_efg_pct_resid = opp_efg_pct - opp_avg_efg_pct,
@@ -384,17 +337,14 @@ win_features <- win_features_raw %>%
     drb_pct_resid     = drb_pct     - own_avg_drb_pct,  # vs own season average
     opp_ft_rate_resid = opp_ft_rate - opp_avg_ft_rate
   )
-
 message("Win features with opponent adjustment: ", nrow(win_features))
 message("Closeness weight — mean: ", round(mean(win_features$closeness_weight), 3),
         "  median: ", round(median(win_features$closeness_weight), 3))
-
 # Define residual feature names
 RESID_FEATURES <- c("efg_pct_resid", "tov_pct_resid", "orb_pct_resid",
                     "ft_rate_resid", "three_par_resid",
                     "opp_efg_pct_resid", "opp_tov_pct_resid",
                     "drb_pct_resid", "opp_ft_rate_resid")
-
 # Check residual distributions
 message("\nResidual summary statistics:")
 resid_summary <- win_features %>%
@@ -410,26 +360,18 @@ resid_summary <- win_features %>%
 message("  (means should be positive for offensive and negative for defensive,")
 message("   since these are winning games — winners perform above opponent averages)")
 print(resid_summary, n = 20)
-
 # Choose which features to use for clustering
 CLUSTER_FEATURES <- if (USE_RESIDUALS) RESID_FEATURES else ALL_FEATURES
 message("\nClustering on: ", if (USE_RESIDUALS) "OPPONENT-ADJUSTED RESIDUALS" else "RAW FEATURES")
-
-
 # ============================================================================
 # STEP 0f: FILTER TO ELIGIBLE TEAMS
 # ============================================================================
-
 team_wins <- win_features %>%
   count(team_id, team_short_display_name, name = "n_wins") %>%
   filter(n_wins >= MIN_WINS)
-
 message("Eligible teams (>=", MIN_WINS, " wins): ", nrow(team_wins))
-
 wf_eligible <- win_features %>%
   filter(team_id %in% team_wins$team_id)
-
-
 # ============================================================================
 # STEP 1: ICC COMPUTATION — FEATURE SIGNAL-TO-NOISE
 #
@@ -448,42 +390,31 @@ wf_eligible <- win_features %>%
 # We use sqrt(ICC) as the weight so that the influence is moderated —
 # low-ICC features aren't zeroed out, just damped.
 # ============================================================================
-
 message("\n=== ICC COMPUTATION (feature signal-to-noise) ===")
-
 compute_icc <- function(df, feature, group_var = "team_id") {
   # One-way random effects ICC(1)
   vals <- df[[feature]]
   grps <- df[[group_var]]
   keep <- !is.na(vals)
   vals <- vals[keep]; grps <- grps[keep]
-
   grp_f <- factor(grps)
   n_groups <- nlevels(grp_f)
   if (n_groups < 3) return(NA_real_)
-
   N <- length(vals)
   grp_sizes <- table(grp_f)
-
   grand_mean <- mean(vals)
   grp_means  <- tapply(vals, grp_f, mean)
-
   SSb <- sum(grp_sizes * (grp_means - grand_mean)^2)
   SSw <- sum((vals - grp_means[grp_f])^2)
-
   dfb <- n_groups - 1
   dfw <- N - n_groups
-
   MSb <- SSb / dfb
   MSw <- SSw / dfw
-
   # k0: adjusted group size for unbalanced designs
   k0 <- (1 / dfb) * (N - sum(grp_sizes^2) / N)
-
   icc <- (MSb - MSw) / (MSb + (k0 - 1) * MSw)
   max(0, icc)  # floor at 0 (negative ICC means no between-group signal)
 }
-
 icc_values <- sapply(CLUSTER_FEATURES, function(f) compute_icc(wf_eligible, f))
 icc_table  <- tibble(
   feature  = names(icc_values),
@@ -491,20 +422,15 @@ icc_table  <- tibble(
   weight   = round(sqrt(as.numeric(icc_values)), 4)
 ) %>%
   arrange(desc(icc))
-
 message("\nFeature ICCs and clustering weights",
         if (USE_RESIDUALS) " (opponent-adjusted residuals):" else " (raw features):")
 print(icc_table, n = 20)
-
 # Extract weight vector in feature order
 icc_weights <- sqrt(pmax(0, icc_values[CLUSTER_FEATURES]))
 # Floor: don't let any weight drop below 0.1 (keeps feature in play, just damped)
 icc_weights <- pmax(icc_weights, 0.1)
-
 message("\nICC weight vector (floored at 0.1):")
 message("  ", paste(CLUSTER_FEATURES, round(icc_weights, 3), sep = "=", collapse = "  "))
-
-
 # ============================================================================
 # METRIC 1: WIN PROFILE CLUSTERING (ICC-WEIGHTED)
 #
@@ -526,58 +452,46 @@ message("  ", paste(CLUSTER_FEATURES, round(icc_weights, 3), sep = "=", collapse
 #   - Dominance ratio: share_1 / share_2 (top two archetype shares)
 #     Ratio near 1 = two balanced modes; ratio >> 1 = single dominant mode
 # ============================================================================
-
 # --- Standardize features ---
 feature_means <- wf_eligible %>% select(all_of(CLUSTER_FEATURES)) %>% colMeans()
 feature_sds   <- wf_eligible %>% select(all_of(CLUSTER_FEATURES)) %>%
   summarise(across(everything(), sd)) %>% unlist()
-
 wf_z_mat <- wf_eligible %>%
   select(all_of(CLUSTER_FEATURES)) %>%
   scale(center = feature_means, scale = feature_sds) %>%
   as.matrix()
-
 # Apply ICC weights: multiply each column by its weight
 wf_scaled_mat <- sweep(wf_z_mat, 2, icc_weights, FUN = "*")
-
 message("\n=== Clustering on ICC-weighted features ===")
-
 # --- Silhouette check: k = 3..8 (subsample for speed) ---
 message("Checking silhouette scores for k = 3..8 (subsampled)...")
 set.seed(42)
 sil_sample_idx <- sample(nrow(wf_scaled_mat), min(2000, nrow(wf_scaled_mat)))
 sil_sample     <- wf_scaled_mat[sil_sample_idx, ]
-
 sil_scores <- sapply(3:8, function(k) {
   km_s <- kmeans(wf_scaled_mat, centers = k, nstart = 10, iter.max = 100)
   ss   <- cluster::silhouette(km_s$cluster[sil_sample_idx],
-                               dist(sil_sample))
+                              dist(sil_sample))
   mean(ss[, "sil_width"])
 })
 names(sil_scores) <- 3:8
-
 best_k <- as.integer(names(which.max(sil_scores)))
 message("Silhouette: ", paste(names(sil_scores), round(sil_scores, 3), sep = "=", collapse = "  "))
 message("Silhouette-optimal k = ", best_k,
         "  (using N_ARCHETYPES = ", N_ARCHETYPES, " as configured)")
-
 # --- Final clustering ---
 set.seed(42)
 km <- kmeans(wf_scaled_mat, centers = N_ARCHETYPES, nstart = 50, iter.max = 200)
 wf_eligible <- wf_eligible %>% mutate(archetype = km$cluster)
-
 message("Archetype sizes: ",
         paste(paste0("A", 1:N_ARCHETYPES), tabulate(wf_eligible$archetype),
               sep = "=", collapse = "  "))
-
 # --- Name and describe each archetype ---
 # Centroids are in the ICC-weighted space; to label them meaningfully,
 # use the unweighted z-score centroids (divide back by weights).
 # This tells us what each archetype looks like in standard-deviation units
 # of the original features.
-
 unweighted_centers <- sweep(km$centers, 2, icc_weights, FUN = "/")
-
 # Feature labels work for both raw and residual features
 FEATURE_NICE <- c(
   # Raw features
@@ -601,7 +515,6 @@ FEATURE_NICE <- c(
   drb_pct_resid     = "\u0394 DRB%",
   opp_ft_rate_resid = "\u0394 Opp FT Rate"
 )
-
 # Meanings work the same for residuals — positive residual means "more than expected"
 FEATURE_MEANING <- c(
   # Raw feature meanings
@@ -643,7 +556,6 @@ FEATURE_MEANING <- c(
   opp_ft_rate_resid_high = "opponent getting more FTs than their norm",
   opp_ft_rate_resid_low  = "opponent getting fewer FTs than their norm"
 )
-
 # Determine offense/defense grouping for the active feature set
 if (USE_RESIDUALS) {
   OFF_CLUSTER_FEATURES <- c("efg_pct_resid", "tov_pct_resid", "orb_pct_resid",
@@ -654,7 +566,6 @@ if (USE_RESIDUALS) {
   OFF_CLUSTER_FEATURES <- OFF_FEATURES
   DEF_CLUSTER_FEATURES <- DEF_FEATURES
 }
-
 arch_detail <- as.data.frame(unweighted_centers) %>%
   mutate(archetype = row_number()) %>%
   pivot_longer(-archetype, names_to = "feature", values_to = "z") %>%
@@ -670,7 +581,6 @@ arch_detail <- as.data.frame(unweighted_centers) %>%
                         feat_nice,
                         " (z=", sprintf("%+.2f", z), ")")
   )
-
 arch_names <- arch_detail %>%
   filter(rank == 1) %>%
   mutate(
@@ -679,7 +589,6 @@ arch_names <- arch_detail %>%
                         sign_str, " ", feat_nice)
   ) %>%
   select(archetype, arch_label)
-
 arch_descriptions <- arch_detail %>%
   filter(rank <= 3) %>%
   group_by(archetype) %>%
@@ -689,7 +598,6 @@ arch_descriptions <- arch_detail %>%
     .groups = "drop"
   ) %>%
   left_join(arch_names, by = "archetype")
-
 message("\n=== ARCHETYPE DESCRIPTIONS (ICC-weighted",
         if (USE_RESIDUALS) ", opponent-adjusted" else "",
         " clustering) ===")
@@ -698,7 +606,6 @@ for (i in seq_len(nrow(arch_descriptions))) {
   message("  Features : ", arch_descriptions$features_str[i])
   message("  In plain language: wins featuring teams ", arch_descriptions$meaning_str[i])
 }
-
 # --- Per-team entropy + concentration metrics ---
 weighted_entropy <- function(archetypes, weights) {
   weights <- weights / sum(weights)
@@ -706,9 +613,7 @@ weighted_entropy <- function(archetypes, weights) {
   wp <- wp[wp > 0]
   -sum(wp * log(wp))
 }
-
 max_entropy <- log(N_ARCHETYPES)
-
 # HHI: Herfindahl-Hirschman Index of archetype concentration
 # HHI = sum(share_k^2), ranges from 1/N_ARCHETYPES (perfectly even) to 1 (all in one)
 compute_hhi <- function(archetypes, weights) {
@@ -719,7 +624,6 @@ compute_hhi <- function(archetypes, weights) {
   all_shares[as.integer(names(shares))] <- shares
   sum(all_shares^2)
 }
-
 # Dominance ratio: top share / second share
 # Near 1 = two balanced modes; >> 1 = single dominant mode
 compute_dominance_ratio <- function(archetypes, weights) {
@@ -731,7 +635,6 @@ compute_dominance_ratio <- function(archetypes, weights) {
   if (sorted[2] < 1e-10) return(Inf)  # only one archetype used
   sorted[1] / sorted[2]
 }
-
 team_archetypes <- wf_eligible %>%
   group_by(team_id, team_short_display_name) %>%
   summarise(
@@ -763,7 +666,6 @@ team_archetypes <- wf_eligible %>%
     by = "team_id"
   ) %>%
   arrange(desc(entropy_norm))
-
 message("\n=== WIN PROFILE CLUSTERING: TOP 20 (most versatile by entropy) ===")
 team_archetypes %>%
   slice_head(n = 20) %>%
@@ -777,7 +679,6 @@ team_archetypes %>%
     primary           = primary_archetype
   ) %>%
   print(n = 20)
-
 message("\n=== BOTTOM 10 (specialists) ===")
 team_archetypes %>%
   slice_tail(n = 10) %>%
@@ -790,7 +691,6 @@ team_archetypes %>%
     primary         = primary_archetype
   ) %>%
   print(n = 10)
-
 # --- Top two archetype split for top-entropy teams (diagnostic) ---
 message("\n=== TOP-2 ARCHETYPE SPLIT (top 15 by entropy) ===")
 message("(dominance_ratio near 1.0 = two balanced winning modes)")
@@ -804,8 +704,6 @@ team_archetypes %>%
     n_used          = n_archetypes_used
   ) %>%
   print(n = 15)
-
-
 # ============================================================================
 # METRIC 2: CLOSENESS-SCALE SENSITIVITY ANALYSIS
 #
@@ -822,9 +720,7 @@ team_archetypes %>%
 #   - Report pairwise Spearman rank correlations across scales
 #   - Identify teams with the largest rank movement
 # ============================================================================
-
 message("\n=== CLOSENESS-SCALE SENSITIVITY ANALYSIS ===")
-
 # Compute entropy at each scale (reusing archetype assignments from primary clustering)
 sensitivity_entropies <- map_dfc(SENSITIVITY_SCALES, function(sc) {
   # Compute new weights
@@ -833,7 +729,6 @@ sensitivity_entropies <- map_dfc(SENSITIVITY_SCALES, function(sc) {
   } else {
     new_weights <- 1 / (1 + wf_eligible$margin / sc)
   }
-
   # Per-team entropy with these weights
   team_ent <- wf_eligible %>%
     mutate(.w = new_weights) %>%
@@ -844,7 +739,6 @@ sensitivity_entropies <- map_dfc(SENSITIVITY_SCALES, function(sc) {
     ) %>%
     mutate(.ent_norm = .ent / max_entropy) %>%
     select(team_id, .ent_norm)
-
   col_name <- if (is.infinite(sc)) "scale_Inf" else paste0("scale_", sc)
   team_ent %>%
     rename(!!col_name := .ent_norm) %>%
@@ -857,7 +751,6 @@ sensitivity_entropies <- map_dfc(SENSITIVITY_SCALES, function(sc) {
       select(team_id, team_short_display_name),
     .
   )
-
 # Spearman rank correlations between scales
 scale_cols <- grep("^scale_", names(sensitivity_entropies), value = TRUE)
 rank_cor_mat <- cor(
@@ -865,15 +758,12 @@ rank_cor_mat <- cor(
   method = "spearman",
   use = "complete"
 )
-
 message("\nSpearman rank correlations between closeness scales:")
 scale_labels <- gsub("scale_", "", scale_cols)
 dimnames(rank_cor_mat) <- list(scale_labels, scale_labels)
 print(round(rank_cor_mat, 3))
-
 # Identify teams with largest rank movement between extremes (scale=5 vs unweighted)
 extreme_cols <- c(scale_cols[1], scale_cols[length(scale_cols)])
-
 rank_movement <- sensitivity_entropies %>%
   mutate(
     rank_tight    = rank(-!!sym(extreme_cols[1])),
@@ -881,7 +771,6 @@ rank_movement <- sensitivity_entropies %>%
     rank_change   = abs(rank_tight - rank_unweight)
   ) %>%
   arrange(desc(rank_change))
-
 message("\n=== TEAMS WITH LARGEST RANK MOVEMENT (scale=",
         gsub("scale_", "", extreme_cols[1]), " vs unweighted) ===")
 rank_movement %>%
@@ -895,8 +784,6 @@ rank_movement %>%
     ent_unweight = round(!!sym(extreme_cols[2]), 3)
   ) %>%
   print(n = 15)
-
-
 # ============================================================================
 # METRIC 3: WEIGHTED CV PROFILES BY STRATEGIC DIMENSION (DIAGNOSTIC)
 #
@@ -907,9 +794,7 @@ rank_movement %>%
 # CV = weighted SD / weighted mean, using closeness_weight as reliability
 # weights.
 # ============================================================================
-
 message("\n=== CV PROFILES (diagnostic) ===")
-
 weighted_cv <- function(x, w) {
   keep <- !is.na(x)
   x <- x[keep]; w <- w[keep]
@@ -921,9 +806,7 @@ weighted_cv <- function(x, w) {
   wvar <- sum(w * (x - wm)^2) / (1 - sum(w^2))
   sqrt(max(0, wvar)) / wm
 }
-
 all_cv_stats <- unlist(CV_GROUPS, use.names = FALSE)
-
 cv_profiles <- wf_eligible %>%
   group_by(team_id, team_short_display_name) %>%
   summarise(
@@ -938,7 +821,6 @@ cv_profiles <- wf_eligible %>%
     ),
     .groups = "drop"
   )
-
 cv_composites <- cv_profiles %>%
   select(team_id, team_short_display_name, n_wins) %>%
   bind_cols(
@@ -956,13 +838,11 @@ cv_composites <- cv_profiles %>%
   rowwise() %>%
   mutate(
     cv_composite_core = mean(c_across(c(cv_Shooting, cv_Ball_Care,
-                                         cv_Rebounding, cv_Free_Throws,
-                                         cv_Def_Quality)), na.rm = TRUE)
+                                        cv_Rebounding, cv_Free_Throws,
+                                        cv_Def_Quality)), na.rm = TRUE)
   ) %>%
   ungroup() %>%
   arrange(desc(cv_composite_core))
-
-
 # ============================================================================
 # COMBINED ANALYSIS
 #
@@ -982,7 +862,6 @@ cv_composites <- cv_profiles %>%
 # (none of the 3 dominates), or high entropy (5 archetypes) but moderate
 # HHI (one archetype at 40% with the rest spread).
 # ============================================================================
-
 combined <- team_archetypes %>%
   inner_join(cv_composites %>%
                select(team_id, cv_composite_core,
@@ -1002,19 +881,26 @@ combined <- team_archetypes %>%
     else tibble(team_id = character()),
     by = "team_id"
   )
-
 if (!has_conferences) {
   combined <- combined %>%
     mutate(conference_short_name = NA_character_,
            conf_tier = factor("All", levels = "All"))
 }
-
 # Versatility score
 combined <- combined %>%
   mutate(
     versatility_score = 0.5 * entropy_norm + 0.5 * spread_score
   ) %>%
   arrange(desc(versatility_score))
+
+# Add win percentage
+team_game_counts <- all_game_features %>%
+  group_by(team_id) %>%
+  summarise(n_games = n(), .groups = "drop")
+
+combined <- combined %>%
+  left_join(team_game_counts, by = "team_id") %>%
+  mutate(win_pct = n_wins / n_games)
 
 message("\n=== COMBINED VERSATILITY SCORE: TOP 20 ===")
 combined %>%
@@ -1030,7 +916,6 @@ combined %>%
     conference        = conference_short_name
   ) %>%
   print(n = 20)
-
 message("\n=== CORRELATIONS ===")
 message("Entropy vs spread_score (1-HHI): ",
         round(cor(combined$entropy_norm, combined$spread_score, use = "complete"), 3))
@@ -1040,6 +925,12 @@ message("Spread_score vs CV core:         ",
         round(cor(combined$spread_score, combined$cv_composite_core, use = "complete"), 3))
 message("Versatility vs CV core:          ",
         round(cor(combined$versatility_score, combined$cv_composite_core, use = "complete"), 3))
+message("Versatility vs win_pct:          ",
+        round(cor(combined$versatility_score, combined$win_pct, use = "complete"), 3))
+message("Entropy vs win_pct:              ",
+        round(cor(combined$entropy_norm, combined$win_pct, use = "complete"), 3))
+message("Spread_score vs win_pct:         ",
+        round(cor(combined$spread_score, combined$win_pct, use = "complete"), 3))
 
 # --- Diagnostic: CV profiles for top/bottom versatility teams ---
 message("\n=== CV PROFILE DIAGNOSTIC: TOP 10 VERSATILITY TEAMS ===")
@@ -1056,7 +947,6 @@ combined %>%
     cv_Def_Quality    = round(cv_Def_Quality, 3)
   ) %>%
   print(n = 10)
-
 message("\n=== CV PROFILE DIAGNOSTIC: BOTTOM 10 VERSATILITY TEAMS ===")
 combined %>%
   slice_tail(n = 10) %>%
@@ -1070,8 +960,6 @@ combined %>%
     cv_Def_Quality    = round(cv_Def_Quality, 3)
   ) %>%
   print(n = 10)
-
-
 # ============================================================================
 # RAW-VS-RESIDUAL COMPARISON
 #
@@ -1083,30 +971,23 @@ combined %>%
 # Large rank changes identify teams whose apparent versatility was inflated
 # or deflated by schedule heterogeneity.
 # ============================================================================
-
 if (USE_RESIDUALS) {
   message("\n=== RAW-VS-RESIDUAL COMPARISON ===")
   message("Running parallel clustering on RAW features for comparison...")
-
   # Standardize raw features
   raw_means <- wf_eligible %>% select(all_of(ALL_FEATURES)) %>% colMeans()
   raw_sds   <- wf_eligible %>% select(all_of(ALL_FEATURES)) %>%
     summarise(across(everything(), sd)) %>% unlist()
-
   raw_z_mat <- wf_eligible %>%
     select(all_of(ALL_FEATURES)) %>%
     scale(center = raw_means, scale = raw_sds) %>%
     as.matrix()
-
   # ICC on raw features for weighting
   raw_icc <- sapply(ALL_FEATURES, function(f) compute_icc(wf_eligible, f))
   raw_icc_wts <- pmax(sqrt(pmax(0, raw_icc[ALL_FEATURES])), 0.1)
-
   raw_scaled <- sweep(raw_z_mat, 2, raw_icc_wts, FUN = "*")
-
   set.seed(42)
   km_raw <- kmeans(raw_scaled, centers = N_ARCHETYPES, nstart = 50, iter.max = 200)
-
   # Per-team entropy from raw clustering
   raw_archetypes <- wf_eligible %>%
     mutate(raw_arch = km_raw$cluster) %>%
@@ -1115,7 +996,6 @@ if (USE_RESIDUALS) {
       raw_entropy_norm = weighted_entropy(raw_arch, closeness_weight) / max_entropy,
       .groups = "drop"
     )
-
   # Compare raw vs residual rankings
   comparison <- combined %>%
     select(team_id, team_short_display_name, resid_entropy = entropy_norm,
@@ -1127,12 +1007,10 @@ if (USE_RESIDUALS) {
       rank_delta = rank_raw - rank_resid  # positive = opponent adj moved them UP
     ) %>%
     arrange(desc(abs(rank_delta)))
-
   rho_raw_resid <- cor(comparison$resid_entropy, comparison$raw_entropy_norm,
                        method = "spearman")
   message("Spearman rank correlation (raw vs residual entropy): ",
           round(rho_raw_resid, 3))
-
   message("\n=== TEAMS MOST AFFECTED BY OPPONENT ADJUSTMENT ===")
   message("(positive rank_delta = opponent adjustment INCREASED perceived versatility)")
   comparison %>%
@@ -1146,40 +1024,30 @@ if (USE_RESIDUALS) {
       ent_raw        = round(raw_entropy_norm, 3)
     ) %>%
     print(n = 15)
-
   # Save comparison
   raw_resid_comparison <- comparison
 } else {
   message("\n(Raw-vs-residual comparison skipped: USE_RESIDUALS = FALSE)")
   raw_resid_comparison <- NULL
 }
-
-
 # ============================================================================
 # VISUALIZATIONS
 # ============================================================================
-
 dir.create("plots", showWarnings = FALSE)
-
 WHITE_THEME <- theme(
   plot.background  = element_rect(fill = "white", color = NA),
   panel.background = element_rect(fill = "white", color = NA)
 )
-
 team_conf_label <- function(name, conf) {
   ifelse(is.na(conf), name, paste0(name, " (", conf, ")"))
 }
-
-
 # --- Plot 1: Entropy ranking lollipop ---
-
 entropy_extremes <- bind_rows(
   combined %>% slice_max(entropy_norm, n = 20) %>% mutate(group = "Most Versatile (Top 20)"),
   combined %>% slice_min(entropy_norm, n = 20) %>% mutate(group = "Most Specialist (Bottom 20)")
 ) %>%
   distinct(team_id, .keep_all = TRUE) %>%
   mutate(team_label = team_conf_label(team_short_display_name, conference_short_name))
-
 p1 <- entropy_extremes %>%
   ggplot(aes(x = entropy_norm,
              y = reorder(team_label, entropy_norm),
@@ -1212,37 +1080,35 @@ p1 <- entropy_extremes %>%
     WHITE_THEME$panel.background
   ) +
   WHITE_THEME
-
 ggsave("plots/01_entropy_ranking.png", p1, width = 9, height = 11, dpi = 150)
 message("\nSaved: plots/01_entropy_ranking.png")
-
-
 # --- Plot 2: Archetype centroid heatmap (using unweighted z-scores for labeling) ---
-
 # Build feature label vectors for the active feature set
+# --- Plot 2: Archetype centroid heatmap ---
+# Explicitly name icc_weights to guarantee lookups work
+names(icc_weights) <- CLUSTER_FEATURES
+
 heatmap_nice <- FEATURE_NICE[CLUSTER_FEATURES]
 heatmap_off  <- OFF_CLUSTER_FEATURES
 heatmap_def  <- DEF_CLUSTER_FEATURES
+
+# Build ICC weight labels using the named vector directly
+icc_wt_labels <- paste0(heatmap_nice, "\n(ICC wt: ", round(icc_weights[CLUSTER_FEATURES], 2), ")")
+names(icc_wt_labels) <- CLUSTER_FEATURES  # feature_name -> display label
 
 centroid_long <- as.data.frame(unweighted_centers) %>%
   mutate(archetype = row_number()) %>%
   left_join(arch_names, by = "archetype") %>%
   pivot_longer(all_of(CLUSTER_FEATURES), names_to = "feature", values_to = "z_score") %>%
   mutate(
-    feature_label = FEATURE_NICE[feature],
-    icc_wt = icc_weights[feature],
-    feature_group = if_else(feature %in% heatmap_off, "Offense", "Defense"),
-    feature_label_icc = paste0(feature_label, "\n(ICC wt: ", round(icc_wt, 2), ")"),
-    feature_label     = factor(feature_label, levels = heatmap_nice),
-    feature_label_icc = factor(feature_label_icc,
-                               levels = paste0(heatmap_nice,
-                                               "\n(ICC wt: ",
-                                               round(icc_weights[CLUSTER_FEATURES], 2),
-                                               ")"))
+    feature_label     = FEATURE_NICE[feature],
+    icc_wt            = icc_weights[feature],
+    feature_group     = if_else(feature %in% heatmap_off, "Offense", "Defense"),
+    feature_label_icc = icc_wt_labels[feature],
+    feature_label_icc = factor(feature_label_icc, levels = icc_wt_labels),
+    feature_label     = factor(feature_label, levels = heatmap_nice)
   )
-
 z_max <- max(abs(centroid_long$z_score)) * 1.05
-
 p2 <- centroid_long %>%
   ggplot(aes(x = feature_label_icc, y = reorder(arch_label, archetype), fill = z_score)) +
   geom_tile(color = "white", linewidth = 0.5) +
@@ -1271,21 +1137,15 @@ p2 <- centroid_long %>%
     plot.title       = element_text(face = "bold")
   ) +
   WHITE_THEME
-
 ggsave("plots/02_archetype_profiles.png", p2, width = 12, height = 5, dpi = 150)
 message("Saved: plots/02_archetype_profiles.png")
-
-
 # --- Plot 3: Archetype composition stacked bars (top 25 by entropy) ---
-
 arch_share_cols <- paste0("arch_share_", 1:N_ARCHETYPES)
 arch_share_cols_present <- intersect(arch_share_cols, names(combined))
-
 top25_entropy <- combined %>%
   slice_max(entropy_norm, n = 25) %>%
   mutate(team_label = team_conf_label(team_short_display_name, conference_short_name),
          team_ordered = reorder(team_label, entropy_norm))
-
 arch_comp_long <- top25_entropy %>%
   select(team_short_display_name, team_label, team_ordered, entropy_norm,
          all_of(arch_share_cols_present)) %>%
@@ -1295,14 +1155,27 @@ arch_comp_long <- top25_entropy %>%
   left_join(arch_names, by = "archetype") %>%
   mutate(arch_label = factor(arch_label))
 
+# Build per-team label for versatility score (one row per team)
+top25_vscore <- top25_entropy %>%
+  select(team_ordered, versatility_score) %>%
+  distinct()
 p3 <- arch_comp_long %>%
   ggplot(aes(x = share, y = team_ordered, fill = arch_label)) +
   geom_col(width = 0.75) +
+  geom_text(
+    data = top25_vscore,
+    aes(x = 1.02, y = team_ordered,
+        label = sprintf("%.3f", versatility_score)),
+    inherit.aes = FALSE,
+    hjust = 0, size = 2.8, color = "grey20"
+  ) +
   scale_fill_brewer(palette = "Set2", name = "Style") +
-  scale_x_continuous(labels = scales::percent) +
+  scale_x_continuous(labels = scales::percent,
+                     expand = expansion(mult = c(0, 0.12))) +
   labs(
     title    = "How The Most Versatile Teams Win",
-    subtitle = paste0("The weighted share of wins in each style (all teams have 20+ wins)"),
+    subtitle = paste0("The weighted share of wins in each style (all teams have 20+ wins);\n",
+                      "Versatility score shown at right"),
     x = "Weighted share of wins in each style", y = NULL
   ) +
   theme_minimal(base_size = 10) +
@@ -1312,15 +1185,13 @@ p3 <- arch_comp_long %>%
   ) +
   WHITE_THEME
 
+
 ggsave("plots/03_archetype_composition.png", p3, width = 11, height = 9, dpi = 150)
 message("Saved: plots/03_archetype_composition.png")
-
-
 # --- Plot 4: Archetype concentration (HHI vs Entropy) ---
 # Replaces the bimodality scatter from v4.
 # This shows whether high-entropy teams are genuinely spread out (low HHI)
 # or just have noisy assignments.
-
 conc_labels <- combined %>% {
   unique(c(
     slice_max(., entropy_norm,      n = 8)$team_short_display_name,
@@ -1330,7 +1201,6 @@ conc_labels <- combined %>% {
     slice_max(., abs(entropy_norm - spread_score), n = 5)$team_short_display_name
   ))
 }
-
 p4 <- combined %>%
   ggplot(aes(x = entropy_norm, y = hhi)) +
   geom_point(aes(size = n_wins, color = conf_tier), alpha = 0.5) +
@@ -1367,23 +1237,17 @@ p4 <- combined %>%
   theme_minimal(base_size = 11) +
   theme(plot.title = element_text(face = "bold")) +
   WHITE_THEME
-
 ggsave("plots/04_archetype_concentration.png", p4, width = 10, height = 8, dpi = 150)
 message("Saved: plots/04_archetype_concentration.png")
-
-
 # --- Plot 5: Composite versatility score ranking ---
-
 versatility_labels <- combined %>%
   slice_max(versatility_score, n = 20) %>%
   pull(team_short_display_name)
-
 p5_data <- combined %>% filter(!is.na(versatility_score))
 ent_med  <- median(p5_data$entropy_norm, na.rm = TRUE)
 spr_med  <- median(p5_data$spread_score, na.rm = TRUE)
 ent_xq   <- quantile(p5_data$entropy_norm, c(0.05, 0.92), na.rm = TRUE)
 spr_yq   <- quantile(p5_data$spread_score, c(0.05, 0.92), na.rm = TRUE)
-
 p5 <- p5_data %>%
   ggplot(aes(x = entropy_norm, y = spread_score)) +
   geom_point(aes(size = n_wins, color = conf_tier), alpha = 0.5) +
@@ -1431,14 +1295,10 @@ p5 <- p5_data %>%
   theme_minimal(base_size = 11) +
   theme(plot.title = element_text(face = "bold")) +
   WHITE_THEME
-
 ggsave("plots/05_versatility_composite.png", p5, width = 10, height = 8, dpi = 150)
 message("Saved: plots/05_versatility_composite.png")
-
-
 # --- Plot 6: Sensitivity analysis heatmap ---
 # Show how rank correlations change across closeness scales
-
 rank_cor_long <- as.data.frame(rank_cor_mat) %>%
   mutate(scale_y = rownames(.)) %>%
   pivot_longer(-scale_y, names_to = "scale_x", values_to = "rho") %>%
@@ -1446,7 +1306,6 @@ rank_cor_long <- as.data.frame(rank_cor_mat) %>%
     scale_x = factor(scale_x, levels = gsub("scale_", "", scale_cols)),
     scale_y = factor(scale_y, levels = rev(gsub("scale_", "", scale_cols)))
   )
-
 p6 <- rank_cor_long %>%
   ggplot(aes(x = scale_x, y = scale_y, fill = rho)) +
   geom_tile(color = "white", linewidth = 0.5) +
@@ -1470,13 +1329,9 @@ p6 <- rank_cor_long %>%
     panel.grid  = element_blank()
   ) +
   WHITE_THEME
-
 ggsave("plots/06_sensitivity_heatmap.png", p6, width = 7, height = 6, dpi = 150)
 message("Saved: plots/06_sensitivity_heatmap.png")
-
-
 # --- Plot 7: ICC feature weights bar chart ---
-
 p7 <- icc_table %>%
   mutate(feature_label = FEATURE_NICE[feature],
          feature_label = factor(feature_label, levels = rev(FEATURE_NICE[icc_table$feature]))) %>%
@@ -1500,15 +1355,10 @@ p7 <- icc_table %>%
     legend.position = "none"
   ) +
   WHITE_THEME
-
 ggsave("plots/07_icc_feature_weights.png", p7, width = 8, height = 5, dpi = 150)
 message("Saved: plots/07_icc_feature_weights.png")
-
-
 # --- Plot 8: Raw vs Residual rank comparison (only when USE_RESIDUALS) ---
-
 if (USE_RESIDUALS && !is.null(raw_resid_comparison)) {
-
   # Label teams with largest rank movement and top/bottom teams
   rr_labels <- raw_resid_comparison %>% {
     unique(c(
@@ -1517,7 +1367,6 @@ if (USE_RESIDUALS && !is.null(raw_resid_comparison)) {
       slice_min(., resid_entropy, n = 5)$team_short_display_name
     ))
   }
-
   p8 <- raw_resid_comparison %>%
     left_join(
       combined %>% select(team_id, conf_tier, n_wins),
@@ -1561,18 +1410,13 @@ if (USE_RESIDUALS && !is.null(raw_resid_comparison)) {
     theme_minimal(base_size = 11) +
     theme(plot.title = element_text(face = "bold")) +
     WHITE_THEME
-
   ggsave("plots/08_raw_vs_residual.png", p8, width = 10, height = 8, dpi = 150)
   message("Saved: plots/08_raw_vs_residual.png")
 }
-
-
 # ============================================================================
 # SAVE OUTPUTS
 # ============================================================================
-
 dir.create("output", showWarnings = FALSE)
-
 write_csv(team_archetypes,        "output/team_archetypes_v5_2026.csv")
 write_csv(cv_composites,          "output/cv_composites_v5_2026.csv")
 write_csv(combined,               "output/combined_win_variance_v5_2026.csv")
@@ -1583,7 +1427,6 @@ write_csv(rank_movement,          "output/sensitivity_rank_movement_2026.csv")
 if (USE_RESIDUALS && !is.null(raw_resid_comparison)) {
   write_csv(raw_resid_comparison, "output/raw_vs_residual_comparison_2026.csv")
 }
-
 message("\n\u2713 Done. Results in output/, plots in plots/")
 message("\nKey output files:")
 message("  output/combined_win_variance_v5_2026.csv  \u2014 Full combined table")
