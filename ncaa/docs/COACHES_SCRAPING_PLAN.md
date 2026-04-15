@@ -360,6 +360,7 @@ def scrape_roster(self) -> List[Player]:
         if self.entity_type == 'coach':
             # Use coach-specific selectors
             js_code = f"""
+{% raw %}
             {{
                 coaches: Array.from(document.querySelectorAll('{self.entity_config['sidearm_selectors'][0]}')).map(coach => ({{
                     name: coach.querySelector('.sidearm-roster-coach-name')?.textContent?.trim() || '',
@@ -368,6 +369,7 @@ def scrape_roster(self) -> List[Player]:
                     alma_mater: coach.querySelector('.sidearm-roster-coach-college')?.textContent?.trim() || ''
                 }}))
             }}
+{% endraw %}
             """
         else:
             # Existing player JS code
