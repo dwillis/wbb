@@ -1,0 +1,36 @@
+name: Run Updates
+
+on:
+  schedule:
+    - cron: "0 */3 * * *"
+  workflow_dispatch:
+
+jobs:
+  run-updates:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: updates
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Run transfers script
+        run: uv run python transfers.py
+
+      - name: Run coaching changes script
+        run: uv run python coaching_changes.py
+
+      - name: Regenerate dashboard
+        run: uv run python dashboard.py
+
+      - name: Commit updated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add transfers.json coaching_changes.json dashboard.html
+          git diff --cached --quiet || git commit -m "chore: update transfers, coaching changes, and dashboard [skip ci]"
+          git push
