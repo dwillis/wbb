@@ -1,6 +1,16 @@
 [
   {
     "status": "Jobs Open",
+    "school": "Cal State Bakersfield",
+    "conference": "Big West",
+    "coach": "Ari Wideman",
+    "role": "hired",
+    "text": "Ari Wideman resigns; Ray Alvarado is named interim head coach (April 14, 2026; press release)",
+    "date": "2026-04-14",
+    "url": "https://gorunners.com/news/2026/4/14/wideman-resigns-as-csub-head-womens-basketball-coach.aspx"
+  },
+  {
+    "status": "Jobs Open",
     "school": "Cal State Fullerton",
     "conference": "Big West",
     "coach": "John Bonner",
@@ -84,9 +94,9 @@
     "school": "Nicholls State",
     "conference": "Southland",
     "coach": "Justin Payne",
-    "role": "departed",
-    "text": "Justin Payne leaves to become associate head coach at Georgia; press release)",
-    "date": null,
+    "role": "hired",
+    "text": "Justin Payne leaves to become associate head coach at Georgia; Jalyn Johnson-Joubert is named interim head coach (April 14, 2026; press release)",
+    "date": "2026-04-14",
     "url": "https://geauxcolonels.com/news/2026/4/14/womens-basketball-payne-resigns-as-nicholls-womens-basketball-head-coach.aspx"
   },
   {
