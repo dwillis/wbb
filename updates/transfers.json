@@ -89,17 +89,6 @@
   },
   {
     "team": "Alabama",
-    "status": "In",
-    "name": "Amirah Anderson",
-    "height": "5-11",
-    "year": "FR",
-    "position": "guard",
-    "hometown": "Stafford, VA",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Alabama",
     "status": "Out",
     "name": "Essence Cody",
     "height": "6-4",
@@ -1224,10 +1213,10 @@
     "team": "Boston College",
     "status": "Out",
     "name": "Amirah Anderson",
-    "height": "5-11",
-    "year": "FR",
-    "position": "guard",
-    "hometown": "Stafford, VA",
+    "height": null,
+    "year": null,
+    "position": null,
+    "hometown": null,
     "entered_portal": "2026-04-06",
     "transfer_history": null
   },
@@ -4005,17 +3994,6 @@
   },
   {
     "team": "Houston",
-    "status": "In",
-    "name": "Janiyah Williams",
-    "height": "5-9",
-    "year": "FR",
-    "position": "point guard",
-    "hometown": "Edmond, OK",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Houston",
     "status": "Out",
     "name": "Shun\u2019teria Anumele",
     "height": "5-8",
@@ -5457,17 +5435,6 @@
   },
   {
     "team": "Maryland",
-    "status": "In",
-    "name": "Sunaja \u201cNunu\u201d Agara",
-    "height": "6-2",
-    "year": "JR",
-    "position": "wing/forward",
-    "hometown": "Minneapolis, MN",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Maryland",
     "status": "Out",
     "name": "Nicole Fritea",
     "height": "6-2",
@@ -6079,17 +6046,6 @@
     "year": "RS SO",
     "position": "wing",
     "hometown": "Toronto, ON",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Ole Miss",
-    "status": "In",
-    "name": "Jaida Civil",
-    "height": "6-0",
-    "year": "FR",
-    "position": "wing",
-    "hometown": "Vero Beach, FL",
     "entered_portal": null,
     "transfer_history": null
   },
