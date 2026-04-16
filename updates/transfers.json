@@ -100,6 +100,17 @@
   },
   {
     "team": "Alabama",
+    "status": "In",
+    "name": "Brooke Coffey",
+    "height": "6-1",
+    "year": "JR",
+    "position": "wing",
+    "hometown": "St. Charles, MO",
+    "entered_portal": null,
+    "transfer_history": "from Illinois State to Lindenwood following the 2023-24 season"
+  },
+  {
+    "team": "Alabama",
     "status": "Out",
     "name": "Essence Cody",
     "height": "6-4",
@@ -238,6 +249,17 @@
     "year": "FR",
     "position": "shooting guard",
     "hometown": "Brandenburg, KY",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "UAB",
+    "status": "In",
+    "name": "Emilia Dannebauer",
+    "height": "6-4",
+    "year": "SO",
+    "position": "forward/center",
+    "hometown": "Berlin, Germany",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -2662,6 +2684,17 @@
     "transfer_history": null
   },
   {
+    "team": "Dayton",
+    "status": "In",
+    "name": "Cori Allen",
+    "height": "5-10",
+    "year": "JR",
+    "position": "shooting guard/wing",
+    "hometown": "Nashville, TN",
+    "entered_portal": null,
+    "transfer_history": "from Illinois to Memphis following the 2024-25 season"
+  },
+  {
     "team": "Delaware",
     "status": "In",
     "name": "Daniella Matus",
@@ -3258,6 +3291,17 @@
   {
     "team": "Florida",
     "status": "Out",
+    "name": "Me\u2019Arah O\u2019Neal",
+    "height": "6-5",
+    "year": "JR",
+    "position": "forward",
+    "hometown": "Houston, TX",
+    "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
+    "team": "Florida",
+    "status": "Out",
     "name": "Caterina Piatti",
     "height": "6-4",
     "year": "FR",
@@ -3605,6 +3649,17 @@
     "position": "guard",
     "hometown": "Houston, TX",
     "entered_portal": "2026-03-03",
+    "transfer_history": null
+  },
+  {
+    "team": "Georgia",
+    "status": "In",
+    "name": "Milan Brown",
+    "height": "5-8",
+    "year": "FR",
+    "position": "combo guard",
+    "hometown": "Baltimore, MD",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -3962,6 +4017,17 @@
   {
     "team": "High Point",
     "status": "In",
+    "name": "Khloe Lemon",
+    "height": "5-9",
+    "year": "JR",
+    "position": "shooting guard",
+    "hometown": "Omaha, NE (grad xfer)",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "High Point",
+    "status": "In",
     "name": "Juliann Woodard",
     "height": "6-0",
     "year": "SO",
@@ -3980,6 +4046,17 @@
     "hometown": "Cincinnati, OH",
     "entered_portal": "2026-04-01",
     "transfer_history": "from Bowling Green to High Point following the 2024-25 season (third-team All-Mac in 2024-25: 23 GP [22 starts], 31.4 MPG, 13.5 PPG, 3.4 RPG, 3.2 APG, 2.1 SPG)"
+  },
+  {
+    "team": "High Point",
+    "status": "Out",
+    "name": "Dom Nesland",
+    "height": "5-9",
+    "year": "SO",
+    "position": "guard",
+    "hometown": "Phoenix, AZ",
+    "entered_portal": "2026-04-06",
+    "transfer_history": null
   },
   {
     "team": "Hofstra",
@@ -4167,6 +4244,17 @@
     "hometown": "Frankfort, IL",
     "entered_portal": "2026-04-06",
     "transfer_history": null
+  },
+  {
+    "team": "UIC",
+    "status": "Out",
+    "name": "Jaya McClure",
+    "height": "5-6",
+    "year": "RS JR",
+    "position": "combo guard",
+    "hometown": "Louisville, KY",
+    "entered_portal": "2026-04-06",
+    "transfer_history": "from Ohio to UIC following the 2024-25 season"
   },
   {
     "team": "Indiana",
@@ -5215,6 +5303,17 @@
   },
   {
     "team": "Louisville",
+    "status": "In",
+    "name": "Deniya Prawl",
+    "height": "6-2",
+    "year": "FR",
+    "position": "wing",
+    "hometown": "Toronto, ON",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Louisville",
     "status": "Out",
     "name": "Peyton Bradley",
     "height": "5-9",
@@ -5876,6 +5975,17 @@
   {
     "team": "Miami (OH)",
     "status": "In",
+    "name": "Addison Baxter",
+    "height": "5-9",
+    "year": "FR",
+    "position": "point guard",
+    "hometown": "Larwill, IN",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Miami (OH)",
+    "status": "In",
     "name": "Audrey Biggs",
     "height": "6-0",
     "year": "SO",
@@ -5894,6 +6004,17 @@
     "hometown": "Coppell, TX",
     "entered_portal": null,
     "transfer_history": "from Indiana to GCU following the 2024-25 season"
+  },
+  {
+    "team": "Miami (OH)",
+    "status": "In",
+    "name": "Jaya McClure",
+    "height": "5-6",
+    "year": "RS JR",
+    "position": "combo guard",
+    "hometown": "Louisville, KY",
+    "entered_portal": null,
+    "transfer_history": null
   },
   {
     "team": "Miami (OH)",
@@ -6499,6 +6620,17 @@
     "hometown": "Somerset, NJ",
     "entered_portal": "2026-04-06",
     "transfer_history": "from CCBC Essex (juco) to Monmouth"
+  },
+  {
+    "team": "Montana",
+    "status": "In",
+    "name": "Dom Nesland",
+    "height": "5-9",
+    "year": "SO",
+    "position": "guard",
+    "hometown": "Phoenix, AZ",
+    "entered_portal": null,
+    "transfer_history": null
   },
   {
     "team": "Montana",
@@ -9637,6 +9769,17 @@
   },
   {
     "team": "SMU",
+    "status": "In",
+    "name": "Theresa Hagans Jr.",
+    "height": "5-9",
+    "year": "FR",
+    "position": "point guard",
+    "hometown": "Utica, NY",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "SMU",
     "status": "Out",
     "name": "Elizaveta Filchagina",
     "height": "6-2",
@@ -10144,6 +10287,17 @@
   {
     "team": "Tennessee",
     "status": "In",
+    "name": "Rylie Theuerkauf",
+    "height": "5-9",
+    "year": "JR",
+    "position": "shooting guard",
+    "hometown": "Tenafly, NJ",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Tennessee",
+    "status": "In",
     "name": "Naomi White",
     "height": "5-9",
     "year": "RS FR",
@@ -10418,6 +10572,28 @@
   },
   {
     "team": "Texas A&M",
+    "status": "In",
+    "name": "Kaniya Boyd",
+    "height": "5-9",
+    "year": "RS SO",
+    "position": "combo guard",
+    "hometown": "Las Vegas, NV",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Texas A&M",
+    "status": "In",
+    "name": "Miyah Verse",
+    "height": "6-1",
+    "year": "RS SO",
+    "position": "forward",
+    "hometown": "Dayton, OH",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Texas A&M",
     "status": "Out",
     "name": "Talia Kavoka",
     "height": "5-6",
@@ -10578,6 +10754,17 @@
     "year": "SR",
     "position": "center",
     "hometown": "San Antonio, TX",
+    "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
+    "team": "UTSA",
+    "status": "Out",
+    "name": "Emilia Dannebauer",
+    "height": "6-4",
+    "year": "SO",
+    "position": "forward/center",
+    "hometown": "Berlin, Germany",
     "entered_portal": "2026-04-06",
     "transfer_history": null
   },
@@ -11133,6 +11320,17 @@
   },
   {
     "team": "VCU",
+    "status": "In",
+    "name": "Lexi Fleming",
+    "height": "5-5",
+    "year": "GR",
+    "position": "point guard",
+    "hometown": "Cincinnati, OH (grad xfer)",
+    "entered_portal": null,
+    "transfer_history": "from Bowling Green to High Point following the 2024-25 season (third-team All-Mac in 2024-25: 23 GP [22 starts], 31.4 MPG, 13.5 PPG, 3.4 RPG, 3.2 APG, 2.1 SPG)"
+  },
+  {
+    "team": "VCU",
     "status": "Out",
     "name": "Mary-Anna Asare",
     "height": "5-8",
@@ -11537,6 +11735,28 @@
     "hometown": "Bolingbrook, IL",
     "entered_portal": "2026-04-06",
     "transfer_history": null
+  },
+  {
+    "team": "Wisconsin",
+    "status": "In",
+    "name": "Addie Deal",
+    "height": "6-0",
+    "year": "FR",
+    "position": "wing",
+    "hometown": "Irvine, CA",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Wisconsin",
+    "status": "In",
+    "name": "Kadidia Toure",
+    "height": "6-3",
+    "year": "SR",
+    "position": "center",
+    "hometown": "Silver Spring, MD (grad xfer)",
+    "entered_portal": null,
+    "transfer_history": "from James Madison to Arizona State to LIU"
   },
   {
     "team": "Wisconsin",
