@@ -89,6 +89,17 @@
   },
   {
     "team": "Alabama",
+    "status": "In",
+    "name": "Amirah Anderson",
+    "height": "5-11",
+    "year": "FR",
+    "position": "guard",
+    "hometown": "Stafford, VA",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Alabama",
     "status": "Out",
     "name": "Essence Cody",
     "height": "6-4",
@@ -1213,10 +1224,10 @@
     "team": "Boston College",
     "status": "Out",
     "name": "Amirah Anderson",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
+    "height": "5-11",
+    "year": "FR",
+    "position": "guard",
+    "hometown": "Stafford, VA",
     "entered_portal": "2026-04-06",
     "transfer_history": null
   },
@@ -3990,6 +4001,17 @@
     "position": "shooting guard/wing",
     "hometown": "Buffalo, NY",
     "entered_portal": "2026-04-09",
+    "transfer_history": null
+  },
+  {
+    "team": "Houston",
+    "status": "In",
+    "name": "Janiyah Williams",
+    "height": "5-9",
+    "year": "FR",
+    "position": "point guard",
+    "hometown": "Edmond, OK",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
