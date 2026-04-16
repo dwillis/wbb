@@ -5457,6 +5457,17 @@
   },
   {
     "team": "Maryland",
+    "status": "In",
+    "name": "Sunaja \u201cNunu\u201d Agara",
+    "height": "6-2",
+    "year": "JR",
+    "position": "wing/forward",
+    "hometown": "Minneapolis, MN",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Maryland",
     "status": "Out",
     "name": "Nicole Fritea",
     "height": "6-2",
@@ -6068,6 +6079,17 @@
     "year": "RS SO",
     "position": "wing",
     "hometown": "Toronto, ON",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Ole Miss",
+    "status": "In",
+    "name": "Jaida Civil",
+    "height": "6-0",
+    "year": "FR",
+    "position": "wing",
+    "hometown": "Vero Beach, FL",
     "entered_portal": null,
     "transfer_history": null
   },
