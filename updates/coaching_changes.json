@@ -51,6 +51,16 @@
   },
   {
     "status": "Jobs Open",
+    "school": "Evansville",
+    "conference": "MVC",
+    "coach": "Robyn Scherr",
+    "role": "departed",
+    "text": "Robyn Scherr resigns (March 27, 2026; press release)",
+    "date": "2026-03-27",
+    "url": "https://gopurpleaces.com/news/2026/3/27/womens-basketball-robyn-scherr-resigns-as-ue-head-womens-basketball-coach.aspx"
+  },
+  {
+    "status": "Jobs Open",
     "school": "Hawai\u2018i",
     "conference": "Big West",
     "coach": "Laura Beeman",
@@ -288,26 +298,6 @@
     "text": "Bob Dunn hired (April 13, 2026; press release)",
     "date": "2026-04-13",
     "url": "https://csuvikings.com/news/2026/4/13/womens-basketball-bob-dunn-named-cleveland-state-womens-basketball-head-coach.aspx"
-  },
-  {
-    "status": "Jobs Filled",
-    "school": "Evansville",
-    "conference": "MVC",
-    "coach": "Robyn Scherr",
-    "role": "departed",
-    "text": "Robyn Scherr resigns (March 27, 2026; press release)",
-    "date": "2026-03-27",
-    "url": "https://gopurpleaces.com/news/2026/3/27/womens-basketball-robyn-scherr-resigns-as-ue-head-womens-basketball-coach.aspx"
-  },
-  {
-    "status": "Jobs Filled",
-    "school": "Evansville",
-    "conference": "MVC",
-    "coach": "Ben Wierzba",
-    "role": "hired",
-    "text": "Ben Wierzba hired (April 26, 2026; press release)",
-    "date": "2026-04-26",
-    "url": "https://gopurpleaces.com/news/2026/4/16/womens-basketball-ben-wierzba-named-university-of-evansville-head-womens-basketball-coach.aspx"
   },
   {
     "status": "Jobs Filled",
