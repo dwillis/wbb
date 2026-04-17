@@ -727,17 +727,6 @@
   },
   {
     "team": "Arkansas",
-    "status": "In",
-    "name": "Jianna Morris",
-    "height": "5-7",
-    "year": "JR",
-    "position": "point guard",
-    "hometown": "Sherwood, AR (grad xfer)",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Arkansas",
     "status": "Out",
     "name": "Maryn Archer",
     "height": "5-9",
@@ -949,10 +938,10 @@
     "team": "Austin Peay",
     "status": "Out",
     "name": "Anovia Sheals",
-    "height": "5-11",
-    "year": "SO",
-    "position": "guard",
-    "hometown": "Daytona Beach, FL",
+    "height": null,
+    "year": null,
+    "position": null,
+    "hometown": null,
     "entered_portal": "2026-04-06",
     "transfer_history": null
   },
@@ -1603,17 +1592,6 @@
     "position": "shooting guard",
     "hometown": "Byron Center, MI",
     "entered_portal": "2026-04-06",
-    "transfer_history": null
-  },
-  {
-    "team": "Cal",
-    "status": "In",
-    "name": "Carly Amborn",
-    "height": "6-2",
-    "year": "FR",
-    "position": "wing",
-    "hometown": "Larkspur, CA",
-    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -2274,17 +2252,6 @@
     "position": "wing",
     "hometown": "Queens, NY",
     "entered_portal": "2026-04-06",
-    "transfer_history": null
-  },
-  {
-    "team": "Cincinnati",
-    "status": "In",
-    "name": "Naomi Benson",
-    "height": "6-2",
-    "year": "FR",
-    "position": "center",
-    "hometown": "Streetsboro, OH",
-    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -3444,17 +3411,6 @@
   },
   {
     "team": "Florida State",
-    "status": "In",
-    "name": "Savannah Henderson",
-    "height": "6-3",
-    "year": "RS JR",
-    "position": "wing",
-    "hometown": "Orlando, FL",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Florida State",
     "status": "Out",
     "name": "Pania Davis",
     "height": "6-6",
@@ -3571,17 +3527,6 @@
     "year": "SO",
     "position": "forward",
     "hometown": "Fredericksburg, VA",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "George Mason",
-    "status": "In",
-    "name": "Anovia Sheals",
-    "height": "5-11",
-    "year": "SO",
-    "position": "guard",
-    "hometown": "Daytona Beach, FL",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -4299,17 +4244,6 @@
     "hometown": "Seattle, WA",
     "entered_portal": "2026-03-25",
     "transfer_history": "from Furman to Idaho following the 2024-25 season"
-  },
-  {
-    "team": "Idaho State",
-    "status": "In",
-    "name": "Maggie Hutka",
-    "height": "6-0",
-    "year": "RS JR",
-    "position": "wing",
-    "hometown": "Royse City, TX",
-    "entered_portal": null,
-    "transfer_history": "from Colorado Christian (D-II) to Montana midyear of the 2024-25 season"
   },
   {
     "team": "Idaho State",
@@ -5633,17 +5567,6 @@
   },
   {
     "team": "Marquette",
-    "status": "In",
-    "name": "Brooklyn Hall",
-    "height": "6-1",
-    "year": "FR",
-    "position": "wing",
-    "hometown": "Dayton, Ohio",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Marquette",
     "status": "Out",
     "name": "Jada Bediako",
     "height": "6-3",
@@ -6293,17 +6216,6 @@
   },
   {
     "team": "Middle Tennessee",
-    "status": "In",
-    "name": "Mya Kone",
-    "height": "6-2",
-    "year": "SR",
-    "position": "wing",
-    "hometown": "Pompano Beach, FL (grad xfer)",
-    "entered_portal": null,
-    "transfer_history": "from James Madison to FIU to Miami"
-  },
-  {
-    "team": "Middle Tennessee",
     "status": "Out",
     "name": "Savannah Davis",
     "height": "5-10",
@@ -6950,17 +6862,6 @@
     "hometown": "Izmir, Turkey",
     "entered_portal": "2026-03-19",
     "transfer_history": "from VCU to the Mount following the 2024-25 season"
-  },
-  {
-    "team": "Murray State",
-    "status": "In",
-    "name": "Sydney Huber",
-    "height": "6-0",
-    "year": "FR",
-    "position": "shooting guard",
-    "hometown": "Cedar Rapids, IA",
-    "entered_portal": null,
-    "transfer_history": null
   },
   {
     "team": "Murray State",
@@ -8613,17 +8514,6 @@
     "transfer_history": null
   },
   {
-    "team": "Portland State",
-    "status": "In",
-    "name": "Sara Barhoum",
-    "height": "5-10",
-    "year": "FR",
-    "position": "shooting guard",
-    "hometown": "Clackamas, OR",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
     "team": "Prairie View A&M",
     "status": "Out",
     "name": "Nyam Thornton",
@@ -10044,17 +9934,6 @@
   },
   {
     "team": "Southern Miss",
-    "status": "In",
-    "name": "Chrysta Narcisse",
-    "height": "5-8",
-    "year": "RS SO",
-    "position": "guard",
-    "hometown": "Lafayette, LA (grad xfer)",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Southern Miss",
     "status": "Out",
     "name": "Morgan Sieper",
     "height": "6-0",
@@ -11189,33 +11068,11 @@
   {
     "team": "Utah",
     "status": "In",
-    "name": "Filipa Barros",
-    "height": "5-9",
-    "year": "RS JR",
-    "position": "guard",
-    "hometown": "Vermoim Maia, Portugal (grad xfer)",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Utah",
-    "status": "In",
     "name": "Laia Conesa",
     "height": "5-11",
     "year": "JR",
     "position": "guard",
     "hometown": "Barcelona, Spain",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Utah",
-    "status": "In",
-    "name": "Lena Girardi",
-    "height": "5-11",
-    "year": "FR",
-    "position": "shooting guard/wing",
-    "hometown": "Purchase, NY",
     "entered_portal": null,
     "transfer_history": null
   },
