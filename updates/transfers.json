@@ -1485,6 +1485,17 @@
     "transfer_history": null
   },
   {
+    "team": "Buffalo",
+    "status": "Out",
+    "name": "Amber Howard",
+    "height": "6-0",
+    "year": "SO",
+    "position": "wing",
+    "hometown": "Philadelphia, PA",
+    "entered_portal": "2026-04-06",
+    "transfer_history": "from North Carolina A&T to Buffalo following the 2024-25 season"
+  },
+  {
     "team": "Butler",
     "status": "Out",
     "name": "Addison Baxter",
@@ -1934,6 +1945,17 @@
     "hometown": "Rolesville, NC",
     "entered_portal": null,
     "transfer_history": null
+  },
+  {
+    "team": "UCF",
+    "status": "In",
+    "name": "Candace Kpetikou",
+    "height": "6-3",
+    "year": "RS SO",
+    "position": "center",
+    "hometown": "Niamey, Niger /",
+    "entered_portal": null,
+    "transfer_history": "from Washington State to Miami following the 2024-25 season"
   },
   {
     "team": "UCF",
@@ -2618,6 +2640,17 @@
     "transfer_history": "from Purdue to Stanford following the 2023-24 season"
   },
   {
+    "team": "Columbia",
+    "status": "Out",
+    "name": "Shay Shippen",
+    "height": "5-11",
+    "year": "FR",
+    "position": "combo guard",
+    "hometown": "Idaho Falls, ID",
+    "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
     "team": "UConn",
     "status": "Out",
     "name": "Ice Brady",
@@ -2638,6 +2671,17 @@
     "hometown": "Fort Wayne, IN",
     "entered_portal": "2026-04-06",
     "transfer_history": null
+  },
+  {
+    "team": "Coppin State",
+    "status": "In",
+    "name": "Amber Howard",
+    "height": "6-0",
+    "year": "SO",
+    "position": "wing",
+    "hometown": "Philadelphia, PA",
+    "entered_portal": null,
+    "transfer_history": "from North Carolina A&T to Buffalo following the 2024-25 season"
   },
   {
     "team": "Creighton",
@@ -4884,6 +4928,17 @@
     "transfer_history": null
   },
   {
+    "team": "Kent State",
+    "status": "Out",
+    "name": "Meghan Murray",
+    "height": "5-5",
+    "year": "SO",
+    "position": "point guard",
+    "hometown": "Hampton, PA",
+    "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
     "team": "Kentucky",
     "status": "Out",
     "name": "Lexi Blue",
@@ -5299,6 +5354,17 @@
     "position": "forward",
     "hometown": "West Hartford, CT",
     "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
+    "team": "Louisville",
+    "status": "In",
+    "name": "Zamareya Jones",
+    "height": "5-7",
+    "year": "SO",
+    "position": "point guard",
+    "hometown": "Greenville, NC",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -5899,12 +5965,12 @@
     "team": "Miami (FL)",
     "status": "Out",
     "name": "Candace Kpetikou",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
+    "height": "6-3",
+    "year": "RS SO",
+    "position": "center",
+    "hometown": "Niamey, Niger",
     "entered_portal": "2026-04-06",
-    "transfer_history": null
+    "transfer_history": "from Washington State to Miami following the 2024-25 season"
   },
   {
     "team": "Miami (FL)",
@@ -6629,6 +6695,17 @@
     "year": "SO",
     "position": "guard",
     "hometown": "Phoenix, AZ",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Montana",
+    "status": "In",
+    "name": "Shay Shippen",
+    "height": "5-11",
+    "year": "FR",
+    "position": "combo guard",
+    "hometown": "Idaho Falls, ID",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -8687,6 +8764,28 @@
     "position": "guard",
     "hometown": "Washington, DC",
     "entered_portal": "2026-04-02",
+    "transfer_history": null
+  },
+  {
+    "team": "Robert Morris",
+    "status": "In",
+    "name": "Page Greenburg",
+    "height": "5-9",
+    "year": "RS JR",
+    "position": "combo guard",
+    "hometown": "Washington DC (grad xfer)",
+    "entered_portal": null,
+    "transfer_history": "from Brown to George Mason following the 2022-23 season"
+  },
+  {
+    "team": "Robert Morris",
+    "status": "In",
+    "name": "Meghan Murray",
+    "height": "5-5",
+    "year": "SO",
+    "position": "point guard",
+    "hometown": "Hampton, PA",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
