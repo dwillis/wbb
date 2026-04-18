@@ -31,6 +31,16 @@
   },
   {
     "status": "Jobs Open",
+    "school": "Delaware State",
+    "conference": "MEAC",
+    "coach": "Jazmone Turner",
+    "role": "departed",
+    "text": "Jazmone Turner out as head coach (April 2, 2026)",
+    "date": "2026-04-02",
+    "url": null
+  },
+  {
+    "status": "Jobs Open",
     "school": "Denver",
     "conference": "Summit \u2192 WCC",
     "coach": "Doshia Woods",
@@ -38,6 +48,16 @@
     "text": "head coach Doshia Woods and Denver mutually part ways (March 10, 2026; press release)",
     "date": "2026-03-10",
     "url": "https://denverpioneers.com/news/2026/3/10/womens-basketball-denver-womens-basketball-and-coach-doshia-woods-mutually-part-ways.aspx"
+  },
+  {
+    "status": "Jobs Open",
+    "school": "Evansville",
+    "conference": "MVC",
+    "coach": "Robyn Scherr",
+    "role": "departed",
+    "text": "Robyn Scherr resigns (March 27, 2026; press release)",
+    "date": "2026-03-27",
+    "url": "https://gopurpleaces.com/news/2026/3/27/womens-basketball-robyn-scherr-resigns-as-ue-head-womens-basketball-coach.aspx"
   },
   {
     "status": "Jobs Open",
@@ -278,46 +298,6 @@
     "text": "Bob Dunn hired (April 13, 2026; press release)",
     "date": "2026-04-13",
     "url": "https://csuvikings.com/news/2026/4/13/womens-basketball-bob-dunn-named-cleveland-state-womens-basketball-head-coach.aspx"
-  },
-  {
-    "status": "Jobs Filled",
-    "school": "Delaware State",
-    "conference": "MEAC",
-    "coach": "Jazmone Turner",
-    "role": "departed",
-    "text": "Jazmone Turner out as head coach (April 2, 2026)",
-    "date": "2026-04-02",
-    "url": null
-  },
-  {
-    "status": "Jobs Filled",
-    "school": "Delaware State",
-    "conference": "MEAC",
-    "coach": "Khadijah Rushdan",
-    "role": "hired",
-    "text": "Khadijah Rushdan hired (April 17, 2026; press release)",
-    "date": "2026-04-17",
-    "url": "https://dsuhornets.com/news/2026/4/17/womens-basketball-khadijah-rushdan-named-head-coach-of-delaware-state-university-womens-basketball-team.aspx"
-  },
-  {
-    "status": "Jobs Filled",
-    "school": "Evansville",
-    "conference": "MVC",
-    "coach": "Robyn Scherr",
-    "role": "departed",
-    "text": "Robyn Scherr resigns (March 27, 2026; press release)",
-    "date": "2026-03-27",
-    "url": "https://gopurpleaces.com/news/2026/3/27/womens-basketball-robyn-scherr-resigns-as-ue-head-womens-basketball-coach.aspx"
-  },
-  {
-    "status": "Jobs Filled",
-    "school": "Evansville",
-    "conference": "MVC",
-    "coach": "Ben Wierzba",
-    "role": "hired",
-    "text": "Ben Wierzba hired (April 26, 2026; press release)",
-    "date": "2026-04-26",
-    "url": "https://gopurpleaces.com/news/2026/4/16/womens-basketball-ben-wierzba-named-university-of-evansville-head-womens-basketball-coach.aspx"
   },
   {
     "status": "Jobs Filled",
