@@ -71,16 +71,6 @@
   },
   {
     "status": "Jobs Open",
-    "school": "Nicholls State",
-    "conference": "Southland",
-    "coach": "Justin Payne",
-    "role": "hired",
-    "text": "Justin Payne leaves to become associate head coach at Georgia; Jalyn Johnson-Joubert is named interim head coach (April 14, 2026; press release)",
-    "date": "2026-04-14",
-    "url": "https://geauxcolonels.com/news/2026/4/14/womens-basketball-payne-resigns-as-nicholls-womens-basketball-head-coach.aspx"
-  },
-  {
-    "status": "Jobs Open",
     "school": "North Carolina Central",
     "conference": "MEAC",
     "coach": "Terrence Baxter",
@@ -738,6 +728,26 @@
     "text": "Adeniyi Amadou hired (March 11, 2026; press release)",
     "date": "2026-03-11",
     "url": "https://nmstatesports.com/news/2026/3/11/womens-basketball-nm-state-announces-hiring-of-adeniyi-amadou-as-13th-head-coach-in-program-history.aspx"
+  },
+  {
+    "status": "Jobs Filled",
+    "school": "Nicholls State",
+    "conference": "Southland",
+    "coach": "Justin Payne",
+    "role": "departed",
+    "text": "Justin Payne leaves to become associate head coach at Georgia (April 14, 2026; press release)",
+    "date": "2026-04-14",
+    "url": "https://geauxcolonels.com/news/2026/4/14/womens-basketball-payne-resigns-as-nicholls-womens-basketball-head-coach.aspx"
+  },
+  {
+    "status": "Jobs Filled",
+    "school": "Nicholls State",
+    "conference": "Southland",
+    "coach": "Jalyn Johnson-Joubert",
+    "role": "hired",
+    "text": "Jalyn Johnson-Joubert (who was an assistant coach) initially named interim head coach, then head coach (April 17, 2026; press release)",
+    "date": "2026-04-17",
+    "url": "https://geauxcolonels.com/news/2026/4/17/womens-basketball-terrell-names-johnson-joubert-nicholls-womens-hoops-coach.aspx"
   },
   {
     "status": "Jobs Filled",
