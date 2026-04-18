@@ -1277,6 +1277,17 @@
   },
   {
     "team": "Boston College",
+    "status": "In",
+    "name": "Grace Oliver",
+    "height": "6-1",
+    "year": "SO",
+    "position": "forward",
+    "hometown": "Norwell, MA",
+    "entered_portal": null,
+    "transfer_history": "from Colorado to Wake Forest following the 2024-25 season"
+  },
+  {
+    "team": "Boston College",
     "status": "Out",
     "name": "Amirah Anderson",
     "height": "5-11",
@@ -1635,6 +1646,28 @@
     "year": "FR",
     "position": "wing",
     "hometown": "Larkspur, CA",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Cal",
+    "status": "In",
+    "name": "Shannon Dowell",
+    "height": "5-10",
+    "year": "JR",
+    "position": "shooting guard",
+    "hometown": "O\u2019Fallon, IL",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Cal",
+    "status": "In",
+    "name": "Albina Syla",
+    "height": "6-5",
+    "year": "SO",
+    "position": "center",
+    "hometown": "Vantaa, Finland",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -2186,7 +2219,7 @@
     "position": "forward",
     "hometown": "Nigeria",
     "entered_portal": "2026-04-06",
-    "transfer_history": "from Tyler JC (juco) to Charleston"
+    "transfer_history": null
   },
   {
     "team": "Charleston",
@@ -2195,7 +2228,7 @@
     "height": "5-11",
     "year": "JR",
     "position": "wing",
-    "hometown": "Kingston, RI",
+    "hometown": "South , RI",
     "entered_portal": "2026-04-06",
     "transfer_history": null
   },
@@ -3015,6 +3048,28 @@
   },
   {
     "team": "Detroit Mercy",
+    "status": "In",
+    "name": "Stacy Utomi",
+    "height": "5-10",
+    "year": "RS FR",
+    "position": "wing",
+    "hometown": "Detroit, MI",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Detroit Mercy",
+    "status": "In",
+    "name": "Stephanie Utomi",
+    "height": "5-11",
+    "year": "SO",
+    "position": "wing",
+    "hometown": "Detroit, MI",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Detroit Mercy",
     "status": "Out",
     "name": "Allison Basye",
     "height": "5-11",
@@ -3675,6 +3730,17 @@
   },
   {
     "team": "Gardner-Webb",
+    "status": "In",
+    "name": "Jordan Brooks",
+    "height": "5-3",
+    "year": "SO",
+    "position": "point guard",
+    "hometown": "Atlanta, GA",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Gardner-Webb",
     "status": "Out",
     "name": "Kiarra Handley",
     "height": "5-5",
@@ -3703,6 +3769,17 @@
     "year": "SO",
     "position": "guard",
     "hometown": "Daytona Beach, FL",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "George Mason",
+    "status": "In",
+    "name": "Summer Yancy",
+    "height": "5-11",
+    "year": "SO",
+    "position": "wing",
+    "hometown": "Kansas City, MO",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -4521,6 +4598,72 @@
     "transfer_history": "from Ohio to UIC following the 2024-25 season"
   },
   {
+    "team": "Incarnate Word",
+    "status": "In",
+    "name": "A\u2019Maya Holton",
+    "height": "6-0",
+    "year": "FR",
+    "position": "forward",
+    "hometown": "San Antonio, TX",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Incarnate Word",
+    "status": "Out",
+    "name": "Deja Lumsden",
+    "height": "5-10",
+    "year": "SR",
+    "position": "shooting guard",
+    "hometown": "Fort Worth, TX",
+    "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
+    "team": "Incarnate Word",
+    "status": "Out",
+    "name": "Brynn Lusby",
+    "height": "5-10",
+    "year": "SO",
+    "position": "wing",
+    "hometown": "Frisco, TX",
+    "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
+    "team": "Incarnate Word",
+    "status": "Out",
+    "name": "Izzy Majarucon",
+    "height": "5-6",
+    "year": "SO",
+    "position": "point guard",
+    "hometown": "Phoenix, AZ",
+    "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
+    "team": "Incarnate Word",
+    "status": "Out",
+    "name": "Raimi McCrary",
+    "height": "6-0",
+    "year": "JR",
+    "position": "forward/center",
+    "hometown": "Allen, TX",
+    "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
+    "team": "Incarnate Word",
+    "status": "Out",
+    "name": "Mallory McQuietor",
+    "height": "6-3",
+    "year": "JR",
+    "position": "forward",
+    "hometown": "Keller, TX",
+    "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
     "team": "Indiana",
     "status": "In",
     "name": "Jessica Petrie",
@@ -4595,7 +4738,7 @@
     "position": "combo guard",
     "hometown": "Amsterdam, Netherlands",
     "entered_portal": "2026-04-06",
-    "transfer_history": "from Arkansas following the 2024-25 season"
+    "transfer_history": "from Arkansas to Indiana following the 2024-25 season"
   },
   {
     "team": "Indiana",
@@ -5085,12 +5228,12 @@
     "team": "Kansas State",
     "status": "Out",
     "name": "Izela Arenas",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
+    "height": "5-9",
+    "year": "SO",
+    "position": "guard",
+    "hometown": "Los Angeles, CA",
     "entered_portal": "2026-04-06",
-    "transfer_history": null
+    "transfer_history": "from Louisville to K-State following the 2024-25 season"
   },
   {
     "team": "Kansas State",
@@ -7152,6 +7295,17 @@
   {
     "team": "Nebraska",
     "status": "Out",
+    "name": "Edessa Noyan",
+    "height": "6-3",
+    "year": "JR",
+    "position": "forward",
+    "hometown": "Botkyrka, Sweden",
+    "entered_portal": null,
+    "transfer_history": "from Virginia to Indiana following the 2024-25 season"
+  },
+  {
+    "team": "Nebraska",
+    "status": "Out",
     "name": "Petra Bozan",
     "height": "6-3",
     "year": "SO",
@@ -8417,6 +8571,17 @@
   {
     "team": "Oral Roberts",
     "status": "Out",
+    "name": "Ari Gordon",
+    "height": "5-11",
+    "year": "RS JR",
+    "position": "wing",
+    "hometown": "Maple Grove, MN",
+    "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
+    "team": "Oral Roberts",
+    "status": "Out",
     "name": "A\u2019Maya Holton",
     "height": "6-0",
     "year": "FR",
@@ -8710,6 +8875,28 @@
     "hometown": "North Ogden, UT (grad xfer)",
     "entered_portal": null,
     "transfer_history": "from Nebraska to PSU for volleyball in Jan. 2024; joined the PSU women\u2019s basketball team for the 2025-26 season"
+  },
+  {
+    "team": "Pitt",
+    "status": "In",
+    "name": "Jami Hill",
+    "height": "5-11",
+    "year": "JR",
+    "position": "wing",
+    "hometown": "South Kingston, RI",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Pitt",
+    "status": "In",
+    "name": "Maysen Hill",
+    "height": "5-11",
+    "year": "SO",
+    "position": "point guard",
+    "hometown": "South Kingston, RI",
+    "entered_portal": null,
+    "transfer_history": null
   },
   {
     "team": "Pitt",
@@ -9105,6 +9292,17 @@
     "position": "forward",
     "hometown": "Villeneuve-d\u2019Ascq, France",
     "entered_portal": "2026-03-23",
+    "transfer_history": null
+  },
+  {
+    "team": "Rhode Island",
+    "status": "Out",
+    "name": "Albina Syla",
+    "height": "6-5",
+    "year": "SO",
+    "position": "center",
+    "hometown": "Vantaa, Finland",
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -9889,6 +10087,17 @@
     "transfer_history": null
   },
   {
+    "team": "South Carolina",
+    "status": "In",
+    "name": "Jordan Lee",
+    "height": "6-0",
+    "year": "SO",
+    "position": "wing",
+    "hometown": "Stockton, CA",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
     "team": "South Carolina State",
     "status": "Out",
     "name": "Jhaven Meade",
@@ -10271,6 +10480,28 @@
     "position": "wing",
     "hometown": "Columbia, MO",
     "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
+    "team": "SMU",
+    "status": "In",
+    "name": "Izela Arenas",
+    "height": "5-9",
+    "year": "SO",
+    "position": "guard",
+    "hometown": "Los Angeles, CA",
+    "entered_portal": null,
+    "transfer_history": "from Louisville to K-State following the 2024-25 season"
+  },
+  {
+    "team": "SMU",
+    "status": "In",
+    "name": "Grace Ezebilo",
+    "height": "6-1",
+    "year": "JR",
+    "position": "forward",
+    "hometown": "Nigeria",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -11842,8 +12073,8 @@
     "height": "5-7",
     "year": "JR",
     "position": "guard",
-    "hometown": "Charlottesville, VA",
-    "entered_portal": "2026-04-06",
+    "hometown": "Charlottesville, VA [returned to UVA]",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
