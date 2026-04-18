@@ -5039,6 +5039,17 @@
   },
   {
     "team": "Iowa State",
+    "status": "In",
+    "name": "Ashleigh Connor",
+    "height": "5-11",
+    "year": "RS JR",
+    "position": "guard",
+    "hometown": "Pittsburgh, PA (grad xfer)",
+    "entered_portal": null,
+    "transfer_history": "from Saint Louis to La Salle following the 2023-24 season"
+  },
+  {
+    "team": "Iowa State",
     "status": "Out",
     "name": "Reese Beaty",
     "height": "5-8",
@@ -5486,6 +5497,17 @@
     "position": "point guard",
     "hometown": "Hampton, PA",
     "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
+    "team": "Kentucky",
+    "status": "In",
+    "name": "Ayanna Patterson",
+    "height": "6-2",
+    "year": "RS SO",
+    "position": "wing",
+    "hometown": "Fort Wayne, IN",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -8622,6 +8644,17 @@
     "hometown": "Jacksonville, TX",
     "entered_portal": "2026-03-31",
     "transfer_history": "from Kilgore College (juco) to Labette CC (juco) to New Orleans to NSU"
+  },
+  {
+    "team": "Notre Dame",
+    "status": "In",
+    "name": "Anaya Hardy",
+    "height": "6-3",
+    "year": "SO",
+    "position": "wing",
+    "hometown": "Detroit, MI",
+    "entered_portal": null,
+    "transfer_history": null
   },
   {
     "team": "Notre Dame",
