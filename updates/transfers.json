@@ -1091,17 +1091,6 @@
   {
     "team": "Baylor",
     "status": "In",
-    "name": "Skylar Jones",
-    "height": "6-0",
-    "year": "JR",
-    "position": "wing",
-    "hometown": "Chicago, IL",
-    "entered_portal": null,
-    "transfer_history": "from Arizona to Louisville following the 2024-25 season"
-  },
-  {
-    "team": "Baylor",
-    "status": "In",
     "name": "Reese Ross",
     "height": "6-1",
     "year": "JR",
@@ -1109,17 +1098,6 @@
     "hometown": "Rapid City, SD",
     "entered_portal": null,
     "transfer_history": null
-  },
-  {
-    "team": "Baylor",
-    "status": "In",
-    "name": "Tianna Thompson",
-    "height": "5-10",
-    "year": "SO",
-    "position": "combo guard",
-    "hometown": "Atlanta, GA",
-    "entered_portal": null,
-    "transfer_history": "from Georgia Tech to Ole Miss following the 2024-25 season"
   },
   {
     "team": "Baylor",
@@ -1934,17 +1912,6 @@
     "hometown": "Encino, CA",
     "entered_portal": "2026-03-26",
     "transfer_history": "from Cal State Northridge to Northern Colorado to UCR"
-  },
-  {
-    "team": "UC Riverside",
-    "status": "Out",
-    "name": "Hannah Wickstrom",
-    "height": "5-10",
-    "year": "SO",
-    "position": "shooting guard",
-    "hometown": "Melbourne, Australia",
-    "entered_portal": "2026-04-06",
-    "transfer_history": null
   },
   {
     "team": "UC San Diego",
@@ -3705,17 +3672,6 @@
     "hometown": "Aberdeen, SD",
     "entered_portal": null,
     "transfer_history": "from Arizona State to Butler following the 2024-25 season"
-  },
-  {
-    "team": "Florida",
-    "status": "In",
-    "name": "Moriah Murray",
-    "height": "5-8",
-    "year": "RS JR",
-    "position": "point guard",
-    "hometown": "Dunmore, PA",
-    "entered_portal": null,
-    "transfer_history": "from Drexel to PSU midseason of the 2022-23 season"
   },
   {
     "team": "Florida",
@@ -5685,17 +5641,6 @@
     "hometown": null,
     "entered_portal": "2026-04-06",
     "transfer_history": null
-  },
-  {
-    "team": "Kennesaw State",
-    "status": "Out",
-    "name": "Latazia Williamson",
-    "height": "6-1",
-    "year": "SR",
-    "position": "forward",
-    "hometown": "Nashville, TN",
-    "entered_portal": "2026-04-06",
-    "transfer_history": "from Memphis to Kennesaw following the 2024-25 season"
   },
   {
     "team": "Kennesaw State",
@@ -9692,17 +9637,6 @@
   },
   {
     "team": "Purdue",
-    "status": "In",
-    "name": "Hannah Wickstrom",
-    "height": "5-10",
-    "year": "SO",
-    "position": "shooting guard",
-    "hometown": "Melbourne, Australia",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Purdue",
     "status": "Out",
     "name": "Tara Daye",
     "height": "5-10",
@@ -10800,17 +10734,6 @@
     "hometown": "Lincoln, NE",
     "entered_portal": null,
     "transfer_history": null
-  },
-  {
-    "team": "South Dakota",
-    "status": "In",
-    "name": "Latazia Williamson",
-    "height": "6-1",
-    "year": "SR",
-    "position": "forward",
-    "hometown": "Nashville, TN",
-    "entered_portal": null,
-    "transfer_history": "from Memphis to Kennesaw following the 2024-25 season"
   },
   {
     "team": "South Dakota",
@@ -13179,17 +13102,6 @@
   },
   {
     "team": "Washington",
-    "status": "In",
-    "name": "Tilda Trygger",
-    "height": "6-6",
-    "year": "SO",
-    "position": "forward",
-    "hometown": "Stockholm, Sweden /",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Washington",
     "status": "Out",
     "name": "Olivia Anderson",
     "height": "6-6",
@@ -13506,17 +13418,6 @@
     "hometown": "Silver Spring, MD (grad xfer)",
     "entered_portal": null,
     "transfer_history": "from James Madison to Arizona State to LIU"
-  },
-  {
-    "team": "Wisconsin",
-    "status": "In",
-    "name": "Teagan Mallegni",
-    "height": "6-1",
-    "year": "SO",
-    "position": "wing",
-    "hometown": "McFarland, WI",
-    "entered_portal": null,
-    "transfer_history": null
   },
   {
     "team": "Wisconsin",
