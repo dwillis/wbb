@@ -2630,28 +2630,6 @@
   },
   {
     "team": "Clemson",
-    "status": "In",
-    "name": "Jenna Lawrence",
-    "height": "6-3",
-    "year": "JR",
-    "position": "forward",
-    "hometown": "Melbourne, AR",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Clemson",
-    "status": "In",
-    "name": "Mackenzie Nelson",
-    "height": "5-8",
-    "year": "RS SO",
-    "position": "point guard",
-    "hometown": "Greenwich, CT",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Clemson",
     "status": "Out",
     "name": "Hannah Kohn",
     "height": "5-9",
@@ -3135,17 +3113,6 @@
     "transfer_history": "from Illinois to Memphis following the 2024-25 season"
   },
   {
-    "team": "Dayton",
-    "status": "Out",
-    "name": "Kamryn Grant",
-    "height": "6-0",
-    "year": "SO",
-    "position": "wing",
-    "hometown": "Columbus, OH",
-    "entered_portal": "2026-04-06",
-    "transfer_history": null
-  },
-  {
     "team": "Delaware",
     "status": "In",
     "name": "Daniella Matus",
@@ -3170,28 +3137,6 @@
   {
     "team": "Delaware",
     "status": "Out",
-    "name": "Ande\u2019a Cherisier",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
-    "entered_portal": "2026-04-06",
-    "transfer_history": null
-  },
-  {
-    "team": "Delaware",
-    "status": "Out",
-    "name": "Claudia Clement",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
-    "entered_portal": "2026-04-06",
-    "transfer_history": null
-  },
-  {
-    "team": "Delaware",
-    "status": "Out",
     "name": "Kailah Correa",
     "height": "5-7",
     "year": "FR",
@@ -3210,28 +3155,6 @@
     "hometown": "Palestine, TX",
     "entered_portal": "2026-04-06",
     "transfer_history": "from Ohio to Texas Southern to Delaware, honorable mention All-CUSA"
-  },
-  {
-    "team": "Delaware",
-    "status": "Out",
-    "name": "Arantxa Portalez",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
-    "entered_portal": "2026-04-06",
-    "transfer_history": null
-  },
-  {
-    "team": "Delaware",
-    "status": "Out",
-    "name": "Grace Sundback",
-    "height": "5-9",
-    "year": "RS SO",
-    "position": "guard",
-    "hometown": "Staten Island, NY",
-    "entered_portal": "2026-04-06",
-    "transfer_history": null
   },
   {
     "team": "Delaware",
@@ -3848,17 +3771,6 @@
     "hometown": "Dunmore, PA",
     "entered_portal": null,
     "transfer_history": "from Drexel to PSU midseason of the 2022-23 season"
-  },
-  {
-    "team": "Florida",
-    "status": "In",
-    "name": "Taliyah Parker",
-    "height": "6-1",
-    "year": "SO",
-    "position": "guard",
-    "hometown": "Oklahoma City, OK",
-    "entered_portal": null,
-    "transfer_history": "from Texas A&M to TCU following the 2024-25 season"
   },
   {
     "team": "Florida",
@@ -9087,17 +8999,6 @@
   },
   {
     "team": "Northwestern State",
-    "status": "In",
-    "name": "Erica Carr",
-    "height": "6-3",
-    "year": "SO",
-    "position": "center",
-    "hometown": "Grand Prairie, TX",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Northwestern State",
     "status": "Out",
     "name": "Vernell Atamah",
     "height": "6-0",
@@ -10957,17 +10858,6 @@
   },
   {
     "team": "Siena",
-    "status": "In",
-    "name": "Grace Sundback",
-    "height": "5-9",
-    "year": "RS SO",
-    "position": "guard",
-    "hometown": "Staten Island, NY",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Siena",
     "status": "Out",
     "name": "Valencia Fontenelle-Posson",
     "height": "5-10",
@@ -11547,17 +11437,6 @@
     "position": "shooting guard/wing",
     "hometown": "Tampa, FL",
     "entered_portal": "2026-03-25",
-    "transfer_history": null
-  },
-  {
-    "team": "Stanford",
-    "status": "In",
-    "name": "In\u00e9s Sotelo",
-    "height": "6-3",
-    "year": "SO",
-    "position": "forward",
-    "hometown": "Ourense, Spain",
-    "entered_portal": null,
     "transfer_history": null
   },
   {
