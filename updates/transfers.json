@@ -7702,6 +7702,17 @@
   {
     "team": "Minnesota",
     "status": "In",
+    "name": "Gracie Merkle",
+    "height": "6-6",
+    "year": "RS JR",
+    "position": "center",
+    "hometown": "Mount Washington, KY",
+    "entered_portal": null,
+    "transfer_history": "from Bellarmine to PSU following the 2023-24 season"
+  },
+  {
+    "team": "Minnesota",
+    "status": "In",
     "name": "Tayla Thomas",
     "height": "6-3",
     "year": "SO",
@@ -13011,6 +13022,17 @@
     "hometown": "Vila Nova de Gaia, Portugal (grad xfer)",
     "entered_portal": null,
     "transfer_history": "from Detroit Mercy to Eastern Florida State College (juco) to Bellarmine"
+  },
+  {
+    "team": "Texas A&M\u2013Corpus Christi",
+    "status": "In",
+    "name": "Kalea Rainey",
+    "height": "5-7",
+    "year": "SR",
+    "position": "combo guard",
+    "hometown": "Orlando, FL",
+    "entered_portal": null,
+    "transfer_history": null
   },
   {
     "team": "Texas A&M\u2013Corpus Christi",
