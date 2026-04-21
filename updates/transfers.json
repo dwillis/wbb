@@ -4841,6 +4841,17 @@
   },
   {
     "team": "Grand Canyon",
+    "status": "In",
+    "name": "Maya Foz",
+    "height": "5-9",
+    "year": "FR",
+    "position": "combo guard",
+    "hometown": "Ontario, Canada",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Grand Canyon",
     "status": "Out",
     "name": "Sidney Anderson",
     "height": "5-9",
@@ -6887,6 +6898,28 @@
   },
   {
     "team": "Marquette",
+    "status": "In",
+    "name": "Yu Han Lin",
+    "height": "5-9",
+    "year": "FR",
+    "position": "guard",
+    "hometown": "Hualien, Taiwan",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Marquette",
+    "status": "In",
+    "name": "Kayl Petersen",
+    "height": "6-0",
+    "year": "SO",
+    "position": "wing",
+    "hometown": "Waupun, WI",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Marquette",
     "status": "Out",
     "name": "Jada Bediako",
     "height": "6-3",
@@ -7691,6 +7724,17 @@
   {
     "team": "Minnesota",
     "status": "In",
+    "name": "Gracie Merkle",
+    "height": "6-6",
+    "year": "RS JR",
+    "position": "center",
+    "hometown": "Mount Washington, KY",
+    "entered_portal": null,
+    "transfer_history": "from Bellarmine to PSU following the 2023-24 season"
+  },
+  {
+    "team": "Minnesota",
+    "status": "In",
     "name": "Tayla Thomas",
     "height": "6-3",
     "year": "SO",
@@ -7850,6 +7894,17 @@
     "year": "FR",
     "position": "point guard",
     "hometown": "Jamestown, TN",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Mississippi State",
+    "status": "In",
+    "name": "Aryss Macktoon",
+    "height": "5-11",
+    "year": "RS SO",
+    "position": "wing",
+    "hometown": "Baltimore, MD (grad xfer)",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -9610,6 +9665,28 @@
     "year": "JR",
     "position": "shooting guard",
     "hometown": "Owasso, OK",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Oklahoma State",
+    "status": "In",
+    "name": "Audi Crooks",
+    "height": "6-3",
+    "year": "JR",
+    "position": "center",
+    "hometown": "Algona, Iowa",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Oklahoma State",
+    "status": "In",
+    "name": "Liv McGill",
+    "height": "5-9",
+    "year": "SO",
+    "position": "point guard",
+    "hometown": "Minneapolis, MN",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -11650,6 +11727,17 @@
   },
   {
     "team": "South Florida",
+    "status": "In",
+    "name": "Kate Novik",
+    "height": "5-9",
+    "year": "JR",
+    "position": "combo guard",
+    "hometown": "Grodno, Belarus",
+    "entered_portal": null,
+    "transfer_history": "from Morehead State (2024-25 second-team All-OVC) to DePaul following the 2024-25 season"
+  },
+  {
+    "team": "South Florida",
     "status": "Out",
     "name": "Janette Aarnio",
     "height": "5-11",
@@ -12970,6 +13058,28 @@
   },
   {
     "team": "Texas A&M\u2013Corpus Christi",
+    "status": "In",
+    "name": "Andrea Chiquemba",
+    "height": "6-1",
+    "year": "RS JR",
+    "position": "forward",
+    "hometown": "Vila Nova de Gaia, Portugal (grad xfer)",
+    "entered_portal": null,
+    "transfer_history": "from Detroit Mercy to Eastern Florida State College (juco) to Bellarmine"
+  },
+  {
+    "team": "Texas A&M\u2013Corpus Christi",
+    "status": "In",
+    "name": "Kalea Rainey",
+    "height": "5-7",
+    "year": "SR",
+    "position": "combo guard",
+    "hometown": "Orlando, FL",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Texas A&M\u2013Corpus Christi",
     "status": "Out",
     "name": "Torie Sevier",
     "height": "6-4",
@@ -13120,6 +13230,17 @@
     "position": "center",
     "hometown": "San Antonio, TX",
     "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
+    "team": "UTSA",
+    "status": "In",
+    "name": "Praise Egharevba",
+    "height": "6-3",
+    "year": "RS JR",
+    "position": "center",
+    "hometown": "Papenburg, Germany",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
