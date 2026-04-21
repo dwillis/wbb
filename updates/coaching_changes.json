@@ -31,16 +31,6 @@
   },
   {
     "status": "Jobs Open",
-    "school": "Denver",
-    "conference": "Summit \u2192 WCC",
-    "coach": "Doshia Woods",
-    "role": "departed",
-    "text": "head coach Doshia Woods and Denver mutually part ways (March 10, 2026; press release)",
-    "date": "2026-03-10",
-    "url": "https://denverpioneers.com/news/2026/3/10/womens-basketball-denver-womens-basketball-and-coach-doshia-woods-mutually-part-ways.aspx"
-  },
-  {
-    "status": "Jobs Open",
     "school": "Hawai\u2018i",
     "conference": "Big West",
     "coach": "Laura Beeman",
@@ -78,16 +68,6 @@
     "text": "Terrence Baxter out as head coach (March 16, 2026; press release)",
     "date": "2026-03-16",
     "url": "https://nccueaglepride.com/news/2026/3/16/womens-basketball-nccu-announces-change-in-womens-basketball-leadership.aspx"
-  },
-  {
-    "status": "Jobs Open",
-    "school": "Utah Tech",
-    "conference": "WAC \u2192 Big Sky",
-    "coach": "JD Gustin",
-    "role": "departed",
-    "text": "JD Gustin out as head coach (April 2, 2026; press release)",
-    "date": "2026-04-02",
-    "url": "https://utahtechtrailblazers.com/news/2026/4/2/womens-basketball-utah-tech-athletics-announces-change-in-womens-basketball-leadership.aspx"
   },
   {
     "status": "Jobs Filled",
@@ -288,6 +268,26 @@
     "text": "Khadijah Rushdan hired (April 17, 2026; press release)",
     "date": "2026-04-17",
     "url": "https://dsuhornets.com/news/2026/4/17/womens-basketball-khadijah-rushdan-named-head-coach-of-delaware-state-university-womens-basketball-team.aspx"
+  },
+  {
+    "status": "Jobs Filled",
+    "school": "Denver",
+    "conference": "Summit \u2192 WCC",
+    "coach": "Doshia Woods",
+    "role": "departed",
+    "text": "head coach Doshia Woods and Denver mutually part ways (March 10, 2026; press release)",
+    "date": "2026-03-10",
+    "url": "https://denverpioneers.com/news/2026/3/10/womens-basketball-denver-womens-basketball-and-coach-doshia-woods-mutually-part-ways.aspx"
+  },
+  {
+    "status": "Jobs Filled",
+    "school": "Denver",
+    "conference": "Summit \u2192 WCC",
+    "coach": "Erik Johnson",
+    "role": "hired",
+    "text": "Erik Johnson hired (April 20, 2026; press release)",
+    "date": "2026-04-20",
+    "url": "https://denverpioneers.com/news/2026/4/20/womens-basketball-denver-hires-proven-winner-in-erik-johnson-to-return-as-womens-basketball-head-coach.aspx"
   },
   {
     "status": "Jobs Filled",
@@ -1078,6 +1078,26 @@
     "text": "Chris Kielsmeier hired (March 31, 2026; press release)",
     "date": "2026-03-31",
     "url": "https://txst.com/news/2026/3/31/womens-basketball-kielsmeier-named-texas-state-womens-basketball-head-coach.aspx"
+  },
+  {
+    "status": "Jobs Filled",
+    "school": "Utah Tech",
+    "conference": "WAC \u2192 Big Sky",
+    "coach": "JD Gustin",
+    "role": "departed",
+    "text": "JD Gustin out as head coach (April 2, 2026; press release)",
+    "date": "2026-04-02",
+    "url": "https://utahtechtrailblazers.com/news/2026/4/2/womens-basketball-utah-tech-athletics-announces-change-in-womens-basketball-leadership.aspx"
+  },
+  {
+    "status": "Jobs Filled",
+    "school": "Utah Tech",
+    "conference": "WAC \u2192 Big Sky",
+    "coach": "Adam Wardenburg",
+    "role": "hired",
+    "text": "Adam Wardenburg hired (April 20, 2026; press release)",
+    "date": "2026-04-20",
+    "url": "https://utahtechtrailblazers.com/news/2026/4/20/adam-wardenburg-named-head-womens-basketball-coach.aspx"
   },
   {
     "status": "Jobs Filled",
