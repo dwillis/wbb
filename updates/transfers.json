@@ -332,11 +332,11 @@
   {
     "team": "UAB",
     "status": "Out",
-    "name": "Sofia Munoz",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
+    "name": "Sofia Mu\u00f1oz",
+    "height": "5-8",
+    "year": "FR",
+    "position": "combo guard",
+    "hometown": "Canovanas, Puerto Rico",
     "entered_portal": "2026-04-06",
     "transfer_history": null
   },
@@ -4083,6 +4083,17 @@
   {
     "team": "Florida",
     "status": "In",
+    "name": "Aurora Alm\u00f3n",
+    "height": "6-4",
+    "year": "RS SO",
+    "position": "forward",
+    "hometown": "Santo Domingo, Dominican Republic",
+    "entered_portal": null,
+    "transfer_history": "from Miami (FL) to Syracuse following the 2024-25 season"
+  },
+  {
+    "team": "Florida",
+    "status": "In",
     "name": "Vanessa Harris",
     "height": "5-10",
     "year": "FR",
@@ -4958,6 +4969,17 @@
     "position": "point guard",
     "hometown": "Marietta, GA",
     "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
+    "team": "Georgia Tech",
+    "status": "In",
+    "name": "Sofia Mu\u00f1oz",
+    "height": "5-8",
+    "year": "FR",
+    "position": "combo guard",
+    "hometown": "Canovanas, Puerto Rico",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -12949,6 +12971,17 @@
   {
     "team": "Tennessee",
     "status": "In",
+    "name": "Fatmata Janneh",
+    "height": "6-2",
+    "year": "JR",
+    "position": "forward",
+    "hometown": "London, England",
+    "entered_portal": null,
+    "transfer_history": "from Saint Peter\u2019s (2024-25 first-team All-MAAC) to Texas A&M following the 2024-25 season"
+  },
+  {
+    "team": "Tennessee",
+    "status": "In",
     "name": "Avery Mills",
     "height": "5-9",
     "year": "SO",
@@ -13868,6 +13901,17 @@
     "position": "forward/center",
     "hometown": "Melbourne, Australia",
     "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
+    "team": "Tulane",
+    "status": "In",
+    "name": "Makayla Carter",
+    "height": "6-2",
+    "year": "FR",
+    "position": "forward",
+    "hometown": "Tucson, AZ",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -14857,6 +14901,17 @@
     "year": "JR",
     "position": "forward",
     "hometown": "Markham, ON",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "West Virginia",
+    "status": "In",
+    "name": "Kennedy Harris",
+    "height": "5-7",
+    "year": "JR",
+    "position": "guard",
+    "hometown": "Hampton, VA",
     "entered_portal": null,
     "transfer_history": null
   },
