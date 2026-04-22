@@ -31,6 +31,16 @@
   },
   {
     "status": "Jobs Open",
+    "school": "Hawai\u2018i",
+    "conference": "Big West",
+    "coach": "Laura Beeman",
+    "role": "departed",
+    "text": "Laura Beeman retires (March 30, 2026; press release)",
+    "date": "2026-03-30",
+    "url": "https://hawaiiathletics.com/news/2026/3/30/womens-basketball-laura-beeman-announces-retirement-as-womens-basketball-head-coach.aspx"
+  },
+  {
+    "status": "Jobs Open",
     "school": "Lafayette",
     "conference": "Patriot League",
     "coach": "Kia Damon-Olson",
@@ -398,26 +408,6 @@
     "text": "Marcilina Grayer hired (April 10, 2026; press release)",
     "date": "2026-04-10",
     "url": "https://georgiastatesports.com/news/2026/4/10/womens-basketball-georgia-state-announces-marcilina-grayer-as-womens-basketball-head-coach.aspx"
-  },
-  {
-    "status": "Jobs Filled",
-    "school": "Hawai\u2018i",
-    "conference": "Big West",
-    "coach": "Laura Beeman",
-    "role": "departed",
-    "text": "Laura Beeman retires (March 30, 2026; press release)",
-    "date": "2026-03-30",
-    "url": "https://hawaiiathletics.com/news/2026/3/30/womens-basketball-laura-beeman-announces-retirement-as-womens-basketball-head-coach.aspx"
-  },
-  {
-    "status": "Jobs Filled",
-    "school": "Hawai\u2018i",
-    "conference": "Big West",
-    "coach": "Khalilah Mitchell",
-    "role": "departed",
-    "text": "Khalilah Mitchell promoted to head coach (April 21, 2026; press release)",
-    "date": "2026-04-21",
-    "url": "https://hawaiiathletics.com/news/2026/4/21/womens-basketball-khalilah-mitchell-named-rainbow-wahine-basketball-head-coach.aspx"
   },
   {
     "status": "Jobs Filled",
