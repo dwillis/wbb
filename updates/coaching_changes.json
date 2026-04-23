@@ -31,16 +31,6 @@
   },
   {
     "status": "Jobs Open",
-    "school": "Lafayette",
-    "conference": "Patriot League",
-    "coach": "Kia Damon-Olson",
-    "role": "departed",
-    "text": "Kia Damon-Olson out as head coach (March 23, 2026; press release)",
-    "date": "2026-03-23",
-    "url": "https://goleopards.com/news/2026/3/23/womens-basketball-lafayette-athletics-announces-womens-basketball-coaching-change.aspx"
-  },
-  {
-    "status": "Jobs Open",
     "school": "Niagara",
     "conference": "MAAC",
     "coach": "Jada Pierce",
@@ -508,6 +498,26 @@
     "text": "Todd Starkey leaves to become associate head coach at Arizona; Fran Recchia promoted to head coach (March 16, 2026; press release)",
     "date": "2026-03-16",
     "url": "https://kentstatesports.com/news/2026/3/16/womens-basketball-womens-basketball-head-coach-todd-starkey-departing-fran-recchia-named-seventh-head-coach"
+  },
+  {
+    "status": "Jobs Filled",
+    "school": "Lafayette",
+    "conference": "Patriot League",
+    "coach": "Kia Damon-Olson",
+    "role": "departed",
+    "text": "Kia Damon-Olson out as head coach (March 23, 2026; press release)",
+    "date": "2026-03-23",
+    "url": "https://goleopards.com/news/2026/3/23/womens-basketball-lafayette-athletics-announces-womens-basketball-coaching-change.aspx"
+  },
+  {
+    "status": "Jobs Filled",
+    "school": "Lafayette",
+    "conference": "Patriot League",
+    "coach": "Ben O\u2019Brien",
+    "role": "hired",
+    "text": "Ben O\u2019Brien hired (April 22, 2026; press release)",
+    "date": "2026-04-22",
+    "url": "https://goleopards.com/news/2026/4/22/womens-basketball-ben-o-brien-to-take-helm-of-lafayette-womens-basketball-program.aspx"
   },
   {
     "status": "Jobs Filled",
