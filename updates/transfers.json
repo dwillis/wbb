@@ -11137,7 +11137,7 @@
     "name": "Anaya Hardy",
     "height": "6-3",
     "year": "SO",
-    "position": "forward",
+    "position": "wing",
     "hometown": "Detroit, MI",
     "entered_portal": null,
     "transfer_history": null
@@ -11196,17 +11196,6 @@
     "hometown": "Berdianski, Ukraine",
     "entered_portal": "2026-04-06",
     "transfer_history": null
-  },
-  {
-    "team": "Oklahoma",
-    "status": "In",
-    "name": "Isimenme Ozzy-Momodu",
-    "height": "6-3",
-    "year": "RS JR",
-    "position": "forward/center",
-    "hometown": "London, England (grad xfer)",
-    "entered_portal": null,
-    "transfer_history": "from Gulf Coast State (juco) to Maryland"
   },
   {
     "team": "Oklahoma",
@@ -11645,17 +11634,6 @@
     "year": "FR",
     "position": "combo guard",
     "hometown": "Auburn, NH",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Penn State",
-    "status": "In",
-    "name": "Devyn Quigley",
-    "height": "5-11",
-    "year": "SO",
-    "position": "wing",
-    "hometown": "Manchester, NJ",
     "entered_portal": null,
     "transfer_history": null
   },
