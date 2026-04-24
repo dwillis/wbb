@@ -1706,17 +1706,6 @@
   },
   {
     "team": "BYU",
-    "status": "In",
-    "name": "Liza Astakhova",
-    "height": "6-2",
-    "year": "FR",
-    "position": "forward",
-    "hometown": "Moscow, Russia",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "BYU",
     "status": "Out",
     "name": "Kendra Gillispie",
     "height": "6-2",
@@ -2103,28 +2092,6 @@
   {
     "team": "UCLA",
     "status": "In",
-    "name": "Addy Brown",
-    "height": "6-2",
-    "year": "JR",
-    "position": "forward",
-    "hometown": "Derby, KS (grad xfer)",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "UCLA",
-    "status": "In",
-    "name": "Bonnie Deas",
-    "height": "5-9",
-    "year": "FR",
-    "position": "guard",
-    "hometown": "Frankston, Victoria, Australia",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "UCLA",
-    "status": "In",
     "name": "Donovyn Hunter",
     "height": "6-0",
     "year": "JR",
@@ -2324,10 +2291,10 @@
     "team": "Cal State Bakersfield",
     "status": "Out",
     "name": "Ophelia Powell",
-    "height": "5-9",
-    "year": "FR",
-    "position": "combo guard",
-    "hometown": "Melbourne, Australia",
+    "height": null,
+    "year": null,
+    "position": null,
+    "hometown": null,
     "entered_portal": "2026-04-06",
     "transfer_history": null
   },
@@ -2847,17 +2814,6 @@
     "hometown": "Fresno, CA",
     "entered_portal": "2026-03-20",
     "transfer_history": "from Grand Canyon to Charleston Southern following the 2024-25 season"
-  },
-  {
-    "team": "Charlotte",
-    "status": "In",
-    "name": "Isis Johnson-Musah",
-    "height": "5-10",
-    "year": "FR",
-    "position": "shooting guard/wing",
-    "hometown": "Detroit, MI",
-    "entered_portal": null,
-    "transfer_history": null
   },
   {
     "team": "Charlotte",
@@ -3491,7 +3447,7 @@
     "status": "Out",
     "name": "Ayanna Patterson",
     "height": "6-2",
-    "year": "RS JR",
+    "year": "RS SO",
     "position": "wing",
     "hometown": "Fort Wayne, IN",
     "entered_portal": "2026-04-06",
@@ -6920,17 +6876,6 @@
   },
   {
     "team": "Kansas",
-    "status": "In",
-    "name": "Erianna Gooden",
-    "height": "6-0",
-    "year": "FR",
-    "position": "point guard",
-    "hometown": "Fort Smith, AR",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Kansas",
     "status": "Out",
     "name": "Laia Conesa",
     "height": "5-11",
@@ -7231,7 +7176,7 @@
     "status": "In",
     "name": "Ayanna Patterson",
     "height": "6-2",
-    "year": "RS JR",
+    "year": "RS SO",
     "position": "wing",
     "hometown": "Fort Wayne, IN",
     "entered_portal": null,
@@ -11117,17 +11062,6 @@
     "year": "SO",
     "position": "wing",
     "hometown": "Orlando, FL",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Northwestern",
-    "status": "In",
-    "name": "Jasmyn Cooper",
-    "height": "6-1",
-    "year": "FR",
-    "position": "wing",
-    "hometown": "North Easton, MA",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -17024,17 +16958,6 @@
     "year": "FR",
     "position": "wing",
     "hometown": "Lehi, UT",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Wyoming",
-    "status": "In",
-    "name": "Ophelia Powell",
-    "height": "5-9",
-    "year": "FR",
-    "position": "combo guard",
-    "hometown": "Melbourne, Australia",
     "entered_portal": null,
     "transfer_history": null
   },
