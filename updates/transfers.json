@@ -10869,6 +10869,17 @@
   },
   {
     "team": "North Florida",
+    "status": "In",
+    "name": "Brooke Winchester",
+    "height": "6-0",
+    "year": "FR",
+    "position": "forward",
+    "hometown": "Warsaw, IN",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "North Florida",
     "status": "Out",
     "name": "Sarah Taub",
     "height": "5-9",
