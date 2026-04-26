@@ -573,17 +573,6 @@
   },
   {
     "team": "Appalachian State",
-    "status": "In",
-    "name": "Joi Williams",
-    "height": "5-6",
-    "year": "JR",
-    "position": "point guard",
-    "hometown": "Leesburg, VA",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Appalachian State",
     "status": "Out",
     "name": "Marta Gutierrez",
     "height": "5-7",
@@ -612,17 +601,6 @@
     "year": "JR",
     "position": "center",
     "hometown": "Varena, Lithuania",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Arizona",
-    "status": "In",
-    "name": "Anastasiia Semenova",
-    "height": "6-2",
-    "year": "RS JR",
-    "position": "forward/center",
-    "hometown": "St. Petersburg, Russia (grad xfer)",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -1648,28 +1626,6 @@
     "hometown": "Keila, Estonia",
     "entered_portal": "2026-03-10",
     "transfer_history": "from Rhode Island to BU following the 2022-23 season"
-  },
-  {
-    "team": "Boston University",
-    "status": "Out",
-    "name": "Brooke Baisley",
-    "height": "5-10",
-    "year": "SO",
-    "position": "wing",
-    "hometown": "Flanders, NJ",
-    "entered_portal": "2026-04-06",
-    "transfer_history": null
-  },
-  {
-    "team": "Boston University",
-    "status": "Out",
-    "name": "Sisi Bentley",
-    "height": "6-0",
-    "year": "JR",
-    "position": "wing/forward",
-    "hometown": "Hartford, CT",
-    "entered_portal": "2026-04-06",
-    "transfer_history": null
   },
   {
     "team": "Boston University",
@@ -5146,17 +5102,6 @@
     "hometown": "Seattle, WA",
     "entered_portal": "2026-03-20",
     "transfer_history": "from Hawai\u2018i to Fresno State following the 2023-24 season"
-  },
-  {
-    "team": "Furman",
-    "status": "In",
-    "name": "Ava Sawi",
-    "height": "5-8",
-    "year": "SO",
-    "position": "combo guard",
-    "hometown": "Springfield, VA",
-    "entered_portal": null,
-    "transfer_history": null
   },
   {
     "team": "Furman",
@@ -11859,28 +11804,6 @@
   },
   {
     "team": "Northern Illinois",
-    "status": "In",
-    "name": "Leah Middleton",
-    "height": "5-11",
-    "year": "JR",
-    "position": "wing",
-    "hometown": "Auburn, NY",
-    "entered_portal": null,
-    "transfer_history": "from Le Moyne to Binghamton following the 2023-24 season"
-  },
-  {
-    "team": "Northern Illinois",
-    "status": "In",
-    "name": "Anna Stromberg",
-    "height": "6-3",
-    "year": "SO",
-    "position": "center",
-    "hometown": "Andover, MN",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Northern Illinois",
     "status": "Out",
     "name": "Makenzie Brass",
     "height": "5-9",
@@ -12342,138 +12265,6 @@
     "transfer_history": null
   },
   {
-    "team": "Old Dominion",
-    "status": "Out",
-    "name": "Nakiyah Allen",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
-    "entered_portal": "2026-04-06",
-    "transfer_history": null
-  },
-  {
-    "team": "Old Dominion",
-    "status": "Out",
-    "name": "Mariah Clayton",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
-    "entered_portal": "2026-04-06",
-    "transfer_history": null
-  },
-  {
-    "team": "Old Dominion",
-    "status": "Out",
-    "name": "Nisaa Muhammad",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
-    "entered_portal": "2026-04-06",
-    "transfer_history": null
-  },
-  {
-    "team": "Old Dominion",
-    "status": "Out",
-    "name": "Alisha Nunley",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
-    "entered_portal": "2026-04-06",
-    "transfer_history": null
-  },
-  {
-    "team": "Old Dominion",
-    "status": "Out",
-    "name": "T\u2019anna Saddler",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
-    "entered_portal": "2026-04-07",
-    "transfer_history": null
-  },
-  {
-    "team": "Old Dominion",
-    "status": "Out",
-    "name": "Nevaeh Scott",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
-    "entered_portal": "2026-04-06",
-    "transfer_history": null
-  },
-  {
-    "team": "Omaha",
-    "status": "Out",
-    "name": "Olivia Borsutzki",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
-    "entered_portal": "2026-04-06",
-    "transfer_history": null
-  },
-  {
-    "team": "Omaha",
-    "status": "Out",
-    "name": "Esra Kurban",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
-    "entered_portal": "2026-04-06",
-    "transfer_history": null
-  },
-  {
-    "team": "Omaha",
-    "status": "Out",
-    "name": "Lillian Merow",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
-    "entered_portal": "2026-04-06",
-    "transfer_history": null
-  },
-  {
-    "team": "Omaha",
-    "status": "Out",
-    "name": "Mina Milosevic",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
-    "entered_portal": "2026-04-06",
-    "transfer_history": null
-  },
-  {
-    "team": "Omaha",
-    "status": "Out",
-    "name": "Daria Shelby",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
-    "entered_portal": "2026-04-09",
-    "transfer_history": null
-  },
-  {
-    "team": "Omaha",
-    "status": "Out",
-    "name": "Mar Vidal",
-    "height": "5-9",
-    "year": "JR",
-    "position": "guard",
-    "hometown": "Barcelona, Spain",
-    "entered_portal": "2026-04-06",
-    "transfer_history": "from Felician (D-II) to Omaha following the 2023-24 season"
-  },
-  {
     "team": "Oral Roberts",
     "status": "Out",
     "name": "Bella Edwards",
@@ -12846,17 +12637,6 @@
     "hometown": "North Ogden, UT (grad xfer)",
     "entered_portal": null,
     "transfer_history": "from Nebraska to PSU for volleyball in Jan. 2024; joined the PSU women\u2019s basketball team for the 2025-26 season"
-  },
-  {
-    "team": "Pepperdine",
-    "status": "Out",
-    "name": "Shorna Preston",
-    "height": "6-1",
-    "year": "JR",
-    "position": "forward",
-    "hometown": "Gold Coast, Australia",
-    "entered_portal": "2026-04-06",
-    "transfer_history": null
   },
   {
     "team": "Pitt",
@@ -13244,105 +13024,6 @@
     "transfer_history": "from UNCG to Purdue following the 2024-25 season"
   },
   {
-    "team": "Purdue Fort Wayne",
-    "status": "Out",
-    "name": "Rylee Bess",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
-    "entered_portal": "2026-04-06",
-    "transfer_history": null
-  },
-  {
-    "team": "Purdue Fort Wayne",
-    "status": "Out",
-    "name": "Lili Krasovec",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
-    "entered_portal": "2026-04-09",
-    "transfer_history": null
-  },
-  {
-    "team": "Purdue Fort Wayne",
-    "status": "Out",
-    "name": "Destiny Macharia",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
-    "entered_portal": "2026-04-09",
-    "transfer_history": null
-  },
-  {
-    "team": "Purdue Fort Wayne",
-    "status": "Out",
-    "name": "Hillary Offing",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
-    "entered_portal": "2026-04-09",
-    "transfer_history": null
-  },
-  {
-    "team": "Purdue Fort Wayne",
-    "status": "Out",
-    "name": "Ella Riggs",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
-    "entered_portal": "2026-04-10",
-    "transfer_history": null
-  },
-  {
-    "team": "Queens University of Charlotte",
-    "status": "Out",
-    "name": "Magda Freire",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
-    "entered_portal": "2026-04-06",
-    "transfer_history": null
-  },
-  {
-    "team": "Queens University of Charlotte",
-    "status": "Out",
-    "name": "Alyssa Lewis",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
-    "entered_portal": "2026-04-06",
-    "transfer_history": null
-  },
-  {
-    "team": "Queens University of Charlotte",
-    "status": "Out",
-    "name": "Imani Morris",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
-    "entered_portal": "2026-04-06",
-    "transfer_history": null
-  },
-  {
-    "team": "Queens University of Charlotte",
-    "status": "Out",
-    "name": "Shanelle Smith",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
-    "entered_portal": "2026-04-09",
-    "transfer_history": null
-  },
-  {
     "team": "Quinnipiac",
     "status": "Out",
     "name": "Bri Bowen",
@@ -13428,39 +13109,6 @@
     "position": "combo guard",
     "hometown": "Atlanta, GA",
     "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Radford",
-    "status": "Out",
-    "name": "Ava Sawi",
-    "height": "5-8",
-    "year": "SO",
-    "position": "combo guard",
-    "hometown": "Springfield, VA",
-    "entered_portal": "2026-04-06",
-    "transfer_history": null
-  },
-  {
-    "team": "Radford",
-    "status": "Out",
-    "name": "Anna Stromberg",
-    "height": "6-3",
-    "year": "SO",
-    "position": "center",
-    "hometown": "Andover, MN",
-    "entered_portal": "2026-04-06",
-    "transfer_history": null
-  },
-  {
-    "team": "Radford",
-    "status": "Out",
-    "name": "Joi Williams",
-    "height": "5-6",
-    "year": "JR",
-    "position": "point guard",
-    "hometown": "Leesburg, VA",
-    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -18370,17 +18018,6 @@
     "transfer_history": null
   },
   {
-    "team": "Western Michigan",
-    "status": "Out",
-    "name": "Adelina Urtane",
-    "height": "6-0",
-    "year": "JR",
-    "position": "wing",
-    "hometown": "Aizkraukle, Latvia",
-    "entered_portal": "2026-04-06",
-    "transfer_history": null
-  },
-  {
     "team": "William & Mary",
     "status": "Out",
     "name": "Jana Sallman",
@@ -18400,50 +18037,6 @@
     "position": "shooting guard/wing",
     "hometown": "Omaha, NE",
     "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Winthrop",
-    "status": "Out",
-    "name": "Uniyah Franklin",
-    "height": "6-2",
-    "year": "JR",
-    "position": "forward",
-    "hometown": "Pompano Beach, FL",
-    "entered_portal": "2026-04-08",
-    "transfer_history": "from UL Lafayette to Winthrop following the 2024-25 season"
-  },
-  {
-    "team": "Winthrop",
-    "status": "Out",
-    "name": "Mya Pierfax",
-    "height": "5-9",
-    "year": "SR",
-    "position": "guard",
-    "hometown": "Lake Elsinore, CA",
-    "entered_portal": "2026-04-10",
-    "transfer_history": null
-  },
-  {
-    "team": "Winthrop",
-    "status": "Out",
-    "name": "Amourie Porter",
-    "height": "5-10",
-    "year": "JR",
-    "position": "shooting guard/wing",
-    "hometown": "Glen Burnie, MD",
-    "entered_portal": "2026-04-06",
-    "transfer_history": "from Cal State Bakersfield to Winthrop following the 2023-24 season"
-  },
-  {
-    "team": "Winthrop",
-    "status": "Out",
-    "name": "Ar\u2019Mani Reid",
-    "height": "5-9",
-    "year": "JR",
-    "position": "shooting guard",
-    "hometown": "Jacksonville, NC",
-    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
