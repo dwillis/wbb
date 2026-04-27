@@ -1464,6 +1464,17 @@
   },
   {
     "team": "Bethune-Cookman",
+    "status": "In",
+    "name": "Amiyah Ferguson",
+    "height": "5-8",
+    "year": "JR",
+    "position": "point guard",
+    "hometown": "Saint Stephen, SC",
+    "entered_portal": null,
+    "transfer_history": "from Fordham to TSU following the 2024-25 season"
+  },
+  {
+    "team": "Bethune-Cookman",
     "status": "Out",
     "name": "Jordan Brooks",
     "height": "5-3",
@@ -3411,6 +3422,17 @@
   },
   {
     "team": "Cleveland State",
+    "status": "In",
+    "name": "Brianna Barr-Buday",
+    "height": "6-2",
+    "year": "RS FR",
+    "position": "forward",
+    "hometown": "Grand Island, NY",
+    "entered_portal": null,
+    "transfer_history": "from Buffalo to St. Bonaventure following the 2024-25 season"
+  },
+  {
+    "team": "Cleveland State",
     "status": "Out",
     "name": "Macey Fegan",
     "height": "5-11",
@@ -5012,6 +5034,17 @@
     "year": "JR",
     "position": "shooting guard",
     "hometown": "Sant Feliu de Llobregat, Spain",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Florida State",
+    "status": "In",
+    "name": "Ice Brady",
+    "height": "6-3",
+    "year": "RS JR",
+    "position": "forward",
+    "hometown": "San Diego, CA (grad xfer)",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -10430,6 +10463,39 @@
   {
     "team": "Murray State",
     "status": "Out",
+    "name": "Braxcynn Baker",
+    "height": "5-11",
+    "year": "SO",
+    "position": "combo guard",
+    "hometown": "Lowell, MI",
+    "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
+    "team": "Murray State",
+    "status": "Out",
+    "name": "Jada Cook",
+    "height": "5-8",
+    "year": "SO",
+    "position": "combo guard",
+    "hometown": "Roanoke, VA",
+    "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
+    "team": "Murray State",
+    "status": "Out",
+    "name": "Ellery Minch",
+    "height": "6-3",
+    "year": "SO",
+    "position": "forward",
+    "hometown": "McCordsville, IN",
+    "entered_portal": "2026-04-06",
+    "transfer_history": "from DePaul to Murray State following the 2024-25 season"
+  },
+  {
+    "team": "Murray State",
+    "status": "Out",
     "name": "Gabby Spink",
     "height": "5-9",
     "year": "FR",
@@ -13954,9 +14020,9 @@
     "height": "6-2",
     "year": "RS FR",
     "position": "forward",
-    "hometown": "Buffalo, NY",
+    "hometown": "Grand Island, NY",
     "entered_portal": "2026-04-06",
-    "transfer_history": null
+    "transfer_history": "from Buffalo to St. Bonaventure following the 2024-25 season"
   },
   {
     "team": "Saint Francis (Pa.)",
@@ -15610,6 +15676,17 @@
   },
   {
     "team": "Stony Brook",
+    "status": "In",
+    "name": "Jada Cook",
+    "height": "5-8",
+    "year": "SO",
+    "position": "combo guard",
+    "hometown": "Roanoke, VA",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Stony Brook",
     "status": "Out",
     "name": "Lauren Filien",
     "height": "6-1",
@@ -15739,6 +15816,17 @@
     "hometown": "Calhoun, GA",
     "entered_portal": null,
     "transfer_history": "from Nicholls State to UAB following the 2024-25 season"
+  },
+  {
+    "team": "Tarleton State",
+    "status": "In",
+    "name": "Lucia Navarro",
+    "height": "6-0",
+    "year": "JR",
+    "position": "wing",
+    "hometown": "Valencia, Spain",
+    "entered_portal": null,
+    "transfer_history": null
   },
   {
     "team": "Tarleton State",
@@ -17975,6 +18063,17 @@
   },
   {
     "team": "Wake Forest",
+    "status": "In",
+    "name": "Mckenzie Swanson",
+    "height": "6-3",
+    "year": "RS FR",
+    "position": "forward/center",
+    "hometown": "Rochester, MI",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Wake Forest",
     "status": "Out",
     "name": "Milan Brown",
     "height": "5-8",
@@ -18185,6 +18284,17 @@
   {
     "team": "West Virginia",
     "status": "In",
+    "name": "Hawa Doumbouya",
+    "height": "6-7",
+    "year": "RS SO",
+    "position": "center",
+    "hometown": "Bronx, NY",
+    "entered_portal": null,
+    "transfer_history": "from Maryland to Virginia to VCU"
+  },
+  {
+    "team": "West Virginia",
+    "status": "In",
     "name": "Skylar Forbes",
     "height": "6-3",
     "year": "JR",
@@ -18324,6 +18434,17 @@
     "hometown": "Lebanon, MO",
     "entered_portal": "2026-04-06",
     "transfer_history": null
+  },
+  {
+    "team": "Western Kentucky",
+    "status": "In",
+    "name": "Ellery Minch",
+    "height": "6-3",
+    "year": "SO",
+    "position": "forward",
+    "hometown": "McCordsville, IN",
+    "entered_portal": null,
+    "transfer_history": "from DePaul to Murray State following the 2024-25 season"
   },
   {
     "team": "Western Kentucky",
