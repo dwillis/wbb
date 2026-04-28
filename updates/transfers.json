@@ -3972,17 +3972,6 @@
   },
   {
     "team": "Dayton",
-    "status": "In",
-    "name": "Sophie Swanson",
-    "height": "5-10",
-    "year": "JR",
-    "position": "shooting guard",
-    "hometown": "Barrington, IL",
-    "entered_portal": null,
-    "transfer_history": "from Purdue to Virginia Tech following the 2024-25 season"
-  },
-  {
-    "team": "Dayton",
     "status": "Out",
     "name": "Kamryn Grant",
     "height": "6-0",
@@ -4431,50 +4420,6 @@
     "hometown": "Cary, NC",
     "entered_portal": "2026-04-10",
     "transfer_history": "from Memphis to ECU following the 2024-25 season"
-  },
-  {
-    "team": "East Carolina",
-    "status": "Out",
-    "name": "Kennedy Fauntleroy",
-    "height": "5-7",
-    "year": "SR",
-    "position": "point guard",
-    "hometown": "Upper Marlboro, MD",
-    "entered_portal": "2026-04-21",
-    "transfer_history": "from Georgetown to Oklahoma State to Arizona State to ECU"
-  },
-  {
-    "team": "East Carolina",
-    "status": "Out",
-    "name": "Chimera Iloanya",
-    "height": "6-0",
-    "year": "SR",
-    "position": "wing/forward",
-    "hometown": "Tampa, FL",
-    "entered_portal": "2026-04-13",
-    "transfer_history": "from Tennessee State to Trinity Valley CC (juco) to Portland State to IUP (D-II) to ECU"
-  },
-  {
-    "team": "East Carolina",
-    "status": "Out",
-    "name": "Amaya Shaw",
-    "height": "6-2",
-    "year": "FR",
-    "position": "forward",
-    "hometown": "Lakeland, FL",
-    "entered_portal": "2026-04-06",
-    "transfer_history": null
-  },
-  {
-    "team": "East Carolina",
-    "status": "Out",
-    "name": "Amanda Smith",
-    "height": "5-8",
-    "year": "FR",
-    "position": "point guard",
-    "hometown": "Brooklyn, NY",
-    "entered_portal": "2026-04-06",
-    "transfer_history": null
   },
   {
     "team": "East Tennessee State",
@@ -4959,17 +4904,6 @@
     "hometown": "Sylmar, CA (grad xfer)",
     "entered_portal": null,
     "transfer_history": "from Denver to ASU following the 2024-25 season"
-  },
-  {
-    "team": "Florida",
-    "status": "In",
-    "name": "Kiyomi McMiller",
-    "height": "5-8",
-    "year": "SO",
-    "position": "point guard",
-    "hometown": "Silver Spring, MD",
-    "entered_portal": null,
-    "transfer_history": null
   },
   {
     "team": "Florida",
@@ -6184,17 +6118,6 @@
   {
     "team": "Grand Canyon",
     "status": "In",
-    "name": "Dasha Biriuk",
-    "height": "6-1",
-    "year": "FR",
-    "position": "wing",
-    "hometown": "Berdianski, Ukraine",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Grand Canyon",
-    "status": "In",
     "name": "Ashlynn Chlarson",
     "height": "6-3",
     "year": "JR",
@@ -6235,17 +6158,6 @@
     "hometown": "Cairo, Egypt",
     "entered_portal": null,
     "transfer_history": "from Memphis to W&M following the 2023-24 season"
-  },
-  {
-    "team": "Grand Canyon",
-    "status": "In",
-    "name": "Nyadieng \u201cNidi\u201d Yiech",
-    "height": "6-3",
-    "year": "FR",
-    "position": "wing/forward",
-    "hometown": "Calgary, Alberta",
-    "entered_portal": null,
-    "transfer_history": null
   },
   {
     "team": "Grand Canyon",
@@ -7988,17 +7900,6 @@
   {
     "team": "Kentucky",
     "status": "In",
-    "name": "Me\u2019Arah O\u2019Neal",
-    "height": "6-5",
-    "year": "JR",
-    "position": "forward",
-    "hometown": "Houston, TX",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Kentucky",
-    "status": "In",
     "name": "Ayanna Patterson",
     "height": "6-2",
     "year": "RS JR",
@@ -8687,17 +8588,6 @@
     "position": "forward/center",
     "hometown": "Southfield, MI",
     "entered_portal": "2026-04-06",
-    "transfer_history": null
-  },
-  {
-    "team": "Loyola Maryland",
-    "status": "In",
-    "name": "Maddie Oliver",
-    "height": "6-0",
-    "year": "FR",
-    "position": "wing",
-    "hometown": "Norwell, MA",
-    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -14126,17 +14016,6 @@
   {
     "team": "Rutgers",
     "status": "In",
-    "name": "Fatima Diakhate",
-    "height": "6-5",
-    "year": "RS JR",
-    "position": "forward/center",
-    "hometown": "Dakar, Senegal",
-    "entered_portal": null,
-    "transfer_history": "from Georgia to Pitt following the 2024-25 season"
-  },
-  {
-    "team": "Rutgers",
-    "status": "In",
     "name": "Jaylah Lampley",
     "height": "6-1",
     "year": "FR",
@@ -16458,17 +16337,6 @@
   {
     "team": "Tennessee",
     "status": "In",
-    "name": "Kennedy Fauntleroy",
-    "height": "5-7",
-    "year": "SR",
-    "position": "point guard",
-    "hometown": "Upper Marlboro, MD",
-    "entered_portal": null,
-    "transfer_history": "from Georgetown to Oklahoma State to Arizona State to ECU"
-  },
-  {
-    "team": "Tennessee",
-    "status": "In",
     "name": "Fatmata Janneh",
     "height": "6-2",
     "year": "JR",
@@ -18786,17 +18654,6 @@
     "hometown": "Hampton, VA",
     "entered_portal": null,
     "transfer_history": null
-  },
-  {
-    "team": "West Virginia",
-    "status": "In",
-    "name": "Marya Hudgins",
-    "height": "6-0",
-    "year": "RS JR",
-    "position": "wing",
-    "hometown": "Aurora, CO",
-    "entered_portal": null,
-    "transfer_history": "from Santa Clara to BYU following the 2023-24 season"
   },
   {
     "team": "West Virginia",
