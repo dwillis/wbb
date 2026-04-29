@@ -6084,6 +6084,17 @@
   },
   {
     "team": "Georgia State",
+    "status": "In",
+    "name": "Dawson Jemerson",
+    "height": "5-5",
+    "year": "SO",
+    "position": "combo guard",
+    "hometown": "DeSoto, TX",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Georgia State",
     "status": "Out",
     "name": "Crystal Henderson",
     "height": "5-4",
@@ -7679,6 +7690,17 @@
   },
   {
     "team": "Jacksonville State",
+    "status": "In",
+    "name": "Camden Ward",
+    "height": "6-0",
+    "year": "FR",
+    "position": "forward",
+    "hometown": "Smyrna, TN",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Jacksonville State",
     "status": "Out",
     "name": "Jasmine Baxter",
     "height": "6-1",
@@ -8478,6 +8500,17 @@
     "position": "forward",
     "hometown": "Montreal, Quebec",
     "entered_portal": "2026-03-24",
+    "transfer_history": null
+  },
+  {
+    "team": "LSU",
+    "status": "In",
+    "name": "Chloe Larry",
+    "height": "5-8",
+    "year": "SO",
+    "position": "point guard",
+    "hometown": "Bossier City, LA",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -12117,7 +12150,7 @@
     "height": "5-8",
     "year": "JR",
     "position": "shooting guard",
-    "hometown": "Schertz, Texas",
+    "hometown": "Schertz, TX",
     "entered_portal": "2026-04-06",
     "transfer_history": "from UTSA to UNT following the 2024-25 season"
   },
