@@ -8318,6 +8318,28 @@
   {
     "team": "Lindenwood",
     "status": "In",
+    "name": "Cadence Dykstra",
+    "height": "5-8",
+    "year": "JR",
+    "position": "point guard",
+    "hometown": "Grand Rapids, MI",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Lindenwood",
+    "status": "In",
+    "name": "Elisha Dykstra",
+    "height": "5-11",
+    "year": "FR",
+    "position": "shooting guard/wing",
+    "hometown": "Grand Rapids, MI",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Lindenwood",
+    "status": "In",
     "name": "Macie McNece",
     "height": "5-7",
     "year": "FR",
@@ -12872,6 +12894,17 @@
   {
     "team": "Oakland",
     "status": "In",
+    "name": "Berlynn Carlson",
+    "height": "6-3",
+    "year": "FR",
+    "position": "wing/forward",
+    "hometown": "Beaverton, OR",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Oakland",
+    "status": "In",
     "name": "Mallory Ramage",
     "height": "5-10",
     "year": "RS JR",
@@ -15225,6 +15258,17 @@
   },
   {
     "team": "San Diego State",
+    "status": "In",
+    "name": "Alayna Kraus",
+    "height": "5-8",
+    "year": "SO",
+    "position": "shooting guard",
+    "hometown": "Okawville, IL",
+    "entered_portal": null,
+    "transfer_history": "from Oral Roberts to SIU following the 2024-25 season"
+  },
+  {
+    "team": "San Diego State",
     "status": "Out",
     "name": "Aubrey Cook",
     "height": "6-4",
@@ -16161,6 +16205,17 @@
   {
     "team": "Southern Illinois",
     "status": "In",
+    "name": "Braxcynn Baker",
+    "height": "5-11",
+    "year": "SO",
+    "position": "combo guard",
+    "hometown": "Lowell, MI",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Southern Illinois",
+    "status": "In",
     "name": "Shakara McCline",
     "height": "5-6",
     "year": "JR",
@@ -16641,6 +16696,17 @@
     "hometown": "Montreal, Quebec",
     "entered_portal": "2026-04-01",
     "transfer_history": "from Davidson to Stony Brook following the 2023-24 season"
+  },
+  {
+    "team": "Syracuse",
+    "status": "In",
+    "name": "Jaleesa Molina",
+    "height": "6-3",
+    "year": "JR",
+    "position": "wing/forward",
+    "hometown": "The Hague, Netherlands",
+    "entered_portal": null,
+    "transfer_history": null
   },
   {
     "team": "Syracuse",
