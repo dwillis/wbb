@@ -4391,6 +4391,17 @@
   {
     "team": "Detroit Mercy",
     "status": "In",
+    "name": "Paula Lopez",
+    "height": "5-8",
+    "year": "JR",
+    "position": "guard",
+    "hometown": "Alicante, Spain",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Detroit Mercy",
+    "status": "In",
     "name": "Marie Outlay",
     "height": "5-9",
     "year": "JR",
@@ -6272,6 +6283,28 @@
   {
     "team": "Georgia Tech",
     "status": "In",
+    "name": "Antonia Bates",
+    "height": "6-3",
+    "year": "SR",
+    "position": "wing",
+    "hometown": "Easton, PA (grad xfer)",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Georgia Tech",
+    "status": "In",
+    "name": "Penda Dieng",
+    "height": "6-3",
+    "year": "FR",
+    "position": "forward",
+    "hometown": "Louga, Senegal",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Georgia Tech",
+    "status": "In",
     "name": "Sofia Mu\u00f1oz",
     "height": "5-8",
     "year": "FR",
@@ -6543,6 +6576,17 @@
     "hometown": "Randolph, WI",
     "entered_portal": null,
     "transfer_history": null
+  },
+  {
+    "team": "Green Bay",
+    "status": "In",
+    "name": "McKenna Johnson",
+    "height": "5-9",
+    "year": "SO",
+    "position": "shooting guard",
+    "hometown": "Wilmot, WI",
+    "entered_portal": null,
+    "transfer_history": "from Minnesota to Butler following the 2024-25 season"
   },
   {
     "team": "Green Bay",
@@ -6871,6 +6915,17 @@
     "year": "FR",
     "position": "center",
     "hometown": "Sainte-Luce, Martinique",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Houston",
+    "status": "In",
+    "name": "Raegan McCowan",
+    "height": "6-0",
+    "year": "JR",
+    "position": "wing",
+    "hometown": "Lebanon, MO",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -7503,6 +7558,17 @@
   },
   {
     "team": "IU Indy",
+    "status": "In",
+    "name": "Reagan Sipla",
+    "height": "6-1",
+    "year": "SO",
+    "position": "shooting guard",
+    "hometown": "St. Charles, IL",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "IU Indy",
     "status": "Out",
     "name": "Nevaeh Foster",
     "height": "5-8",
@@ -7643,6 +7709,17 @@
     "hometown": "Pittsburgh, PA (grad xfer)",
     "entered_portal": null,
     "transfer_history": "from Saint Louis to La Salle following the 2023-24 season"
+  },
+  {
+    "team": "Iowa State",
+    "status": "In",
+    "name": "Emilija \u201cMills\u201d Dakic",
+    "height": "5-10",
+    "year": "FR",
+    "position": "point guard",
+    "hometown": "Melbourne, Australia",
+    "entered_portal": null,
+    "transfer_history": null
   },
   {
     "team": "Iowa State",
@@ -9733,6 +9810,17 @@
     "hometown": "Baton Rouge, LA",
     "entered_portal": "2026-04-09",
     "transfer_history": "from Southeastern Louisiana to McNeese following the 2024-25 season"
+  },
+  {
+    "team": "Memphis",
+    "status": "In",
+    "name": "Seda Gabrielyan",
+    "height": "5-10",
+    "year": "RS FR",
+    "position": "shooting guard",
+    "hometown": "Yerevan, Armenia",
+    "entered_portal": null,
+    "transfer_history": null
   },
   {
     "team": "Memphis",
@@ -14797,6 +14885,17 @@
   {
     "team": "Radford",
     "status": "In",
+    "name": "Ralee Bare",
+    "height": "5-10",
+    "year": "FR",
+    "position": "guard",
+    "hometown": "Hays, NC",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Radford",
+    "status": "In",
     "name": "Kailyn Fields",
     "height": "5-6",
     "year": "JR",
@@ -14807,7 +14906,29 @@
   },
   {
     "team": "Radford",
-    "status": "Out",
+    "status": "In",
+    "name": "Jada Green",
+    "height": "6-1",
+    "year": "RS JR",
+    "position": "forward",
+    "hometown": "Fort Lauderdale, FL (grad xfer)",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Radford",
+    "status": "In",
+    "name": "Logan Luebbers Palmer",
+    "height": "5-9",
+    "year": "SO",
+    "position": "guard",
+    "hometown": "Union, KY",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Radford",
+    "status": "In",
     "name": "Ava Sawi",
     "height": "5-8",
     "year": "SO",
@@ -14818,7 +14939,7 @@
   },
   {
     "team": "Radford",
-    "status": "Out",
+    "status": "In",
     "name": "Anna Stromberg",
     "height": "6-3",
     "year": "SO",
@@ -14829,7 +14950,7 @@
   },
   {
     "team": "Radford",
-    "status": "Out",
+    "status": "In",
     "name": "Joi Williams",
     "height": "5-6",
     "year": "JR",
@@ -15266,6 +15387,17 @@
     "hometown": "Murrieta, CA",
     "entered_portal": "2025-08-09",
     "transfer_history": null
+  },
+  {
+    "team": "Sacred Heart",
+    "status": "In",
+    "name": "Katie Ledden",
+    "height": "6-0",
+    "year": "JR",
+    "position": "wing",
+    "hometown": "Clark, NJ",
+    "entered_portal": null,
+    "transfer_history": "from Rhode Island to UNH following the 2024-25 season"
   },
   {
     "team": "Sacred Heart",
@@ -16320,6 +16452,17 @@
     "year": "SO",
     "position": "shooting guard/wing",
     "hometown": "Fallston, MD",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "South Florida",
+    "status": "In",
+    "name": "Gabrielle Kennerly",
+    "height": "5-9",
+    "year": "RS SO",
+    "position": "shooting guard",
+    "hometown": "Charlotte, NC",
     "entered_portal": null,
     "transfer_history": null
   },
