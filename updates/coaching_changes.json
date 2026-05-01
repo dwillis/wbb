@@ -41,6 +41,16 @@
   },
   {
     "status": "Jobs Open",
+    "school": "Long Beach State",
+    "conference": "Big West",
+    "coach": "Amy Wright",
+    "role": "departed",
+    "text": "Amy Wright leaves to become associate head coach at Alabama (April 30, 2026)",
+    "date": "2026-04-30",
+    "url": null
+  },
+  {
+    "status": "Jobs Open",
     "school": "Niagara",
     "conference": "MAAC",
     "coach": "Jada Pierce",
