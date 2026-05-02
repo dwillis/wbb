@@ -2366,6 +2366,17 @@
   },
   {
     "team": "California Baptist",
+    "status": "In",
+    "name": "Chloe Briggs",
+    "height": "5-10",
+    "year": "JR",
+    "position": "combo guard",
+    "hometown": "Ontario, CA",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "California Baptist",
     "status": "Out",
     "name": "Filipa Barros",
     "height": "5-9",
@@ -2977,6 +2988,17 @@
     "year": "SO",
     "position": "wing",
     "hometown": "Frisco, TX",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "UCF",
+    "status": "In",
+    "name": "Jennica Suggs",
+    "height": "5-11",
+    "year": "SO",
+    "position": "wing",
+    "hometown": "St. Paul, MN",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -5557,6 +5579,17 @@
   {
     "team": "Florida Atlantic",
     "status": "In",
+    "name": "Jazzy Gipson",
+    "height": "6-0",
+    "year": "FR",
+    "position": "wing/forward",
+    "hometown": "Albuquerque, NM",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Florida Atlantic",
+    "status": "In",
     "name": "Skyla Tuthill",
     "height": "5-11",
     "year": "FR",
@@ -6070,6 +6103,17 @@
     "hometown": "Clinton, MD",
     "entered_portal": null,
     "transfer_history": null
+  },
+  {
+    "team": "George Washington",
+    "status": "In",
+    "name": "Cam Rust",
+    "height": "6-1",
+    "year": "SO",
+    "position": "forward",
+    "hometown": "Wakefield, RI",
+    "entered_portal": null,
+    "transfer_history": "from Penn State to Seton Hall following the 2024-25 season"
   },
   {
     "team": "George Washington",
@@ -11414,6 +11458,17 @@
     "year": "SO",
     "position": "guard",
     "hometown": "Phoenix, AZ",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Montana",
+    "status": "In",
+    "name": "Kennedy Moore",
+    "height": "6-2",
+    "year": "SO",
+    "position": "forward",
+    "hometown": "Kalispell, MT",
     "entered_portal": null,
     "transfer_history": null
   },
