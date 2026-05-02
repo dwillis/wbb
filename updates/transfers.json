@@ -1420,6 +1420,39 @@
   },
   {
     "team": "Belmont",
+    "status": "In",
+    "name": "Katie Criswell",
+    "height": "5-10",
+    "year": "JR",
+    "position": "wing",
+    "hometown": "Lawrence County, TN",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Belmont",
+    "status": "In",
+    "name": "Kenley McCarn",
+    "height": "5-11",
+    "year": "RS JR",
+    "position": "guard",
+    "hometown": "Melbourne, AR",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Belmont",
+    "status": "In",
+    "name": "Lauren Rust",
+    "height": "6-0",
+    "year": "RS SO",
+    "position": "forward",
+    "hometown": "Victoria, BC",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Belmont",
     "status": "Out",
     "name": "Jailyn Banks",
     "height": "5-9",
@@ -5486,6 +5519,17 @@
     "position": "wing/forward",
     "hometown": "Largo, FL",
     "entered_portal": "2026-04-07",
+    "transfer_history": null
+  },
+  {
+    "team": "FIU",
+    "status": "In",
+    "name": "BreAunna Ward",
+    "height": "5-10",
+    "year": "FR",
+    "position": "wing",
+    "hometown": "St. Louis, MO",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -10165,6 +10209,17 @@
   },
   {
     "team": "Mercyhurst",
+    "status": "In",
+    "name": "Layke Fields",
+    "height": "6-0",
+    "year": "FR",
+    "position": "center",
+    "hometown": "Farrell, PA",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Mercyhurst",
     "status": "Out",
     "name": "Imani Frazier",
     "height": null,
@@ -10623,6 +10678,17 @@
     "position": "wing",
     "hometown": "New Albany, MS",
     "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
+    "team": "Milwaukee",
+    "status": "In",
+    "name": "Jaeda Murphy",
+    "height": "5-3",
+    "year": "SO",
+    "position": "shooting guard",
+    "hometown": "Chicago, IL",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
