@@ -134,6 +134,17 @@
   {
     "team": "Alabama",
     "status": "In",
+    "name": "Rickell Brown",
+    "height": "5-6",
+    "year": "JR",
+    "position": "guard",
+    "hometown": "Sumter, SC",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Alabama",
+    "status": "In",
     "name": "Brooke Coffey",
     "height": "6-1",
     "year": "JR",
@@ -1186,6 +1197,17 @@
     "hometown": "Louga, Senegal",
     "entered_portal": "2026-04-14",
     "transfer_history": "from Towson (All-CAA Rookie Team) to Auburn following the 2024-25 season"
+  },
+  {
+    "team": "Austin Peay",
+    "status": "In",
+    "name": "Destiny Jones",
+    "height": "5-9",
+    "year": "SO",
+    "position": "guard",
+    "hometown": "Louisville, KY",
+    "entered_portal": null,
+    "transfer_history": null
   },
   {
     "team": "Austin Peay",
@@ -2466,6 +2488,17 @@
   {
     "team": "UC Irvine",
     "status": "Out",
+    "name": "Despoina Baltzi",
+    "height": "5-8",
+    "year": "FR",
+    "position": "point guard",
+    "hometown": "Rhodes, Greece",
+    "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
+    "team": "UC Irvine",
+    "status": "Out",
     "name": "Jaida Brooks",
     "height": "5-6",
     "year": "SO",
@@ -2473,6 +2506,28 @@
     "hometown": "Phoenix, AZ",
     "entered_portal": "2025-12-08",
     "transfer_history": "from Mesa CC to UCI"
+  },
+  {
+    "team": "UC Irvine",
+    "status": "Out",
+    "name": "Kianna Wormly",
+    "height": "5-7",
+    "year": "FR",
+    "position": "guard",
+    "hometown": "Cedar Park, TX",
+    "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
+    "team": "UC Irvine",
+    "status": "Out",
+    "name": "Naomy Zonzon-Huyghe",
+    "height": "5-9",
+    "year": "SO",
+    "position": "shooting guard",
+    "hometown": "La Roche-sur-Yon, France",
+    "entered_portal": "2026-04-07",
+    "transfer_history": null
   },
   {
     "team": "UCLA",
@@ -2598,11 +2653,44 @@
   {
     "team": "UC Santa Barbara",
     "status": "In",
+    "name": "Olivia Anderson",
+    "height": "6-6",
+    "year": "JR",
+    "position": "forward",
+    "hometown": "Ellensburg, WA",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "UC Santa Barbara",
+    "status": "In",
+    "name": "Mauriana Hashemian-Orr",
+    "height": "5-7",
+    "year": "SO",
+    "position": "point guard",
+    "hometown": "Portland, OR",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "UC Santa Barbara",
+    "status": "In",
     "name": "Nicole Steiner",
     "height": "6-2",
     "year": "FR",
     "position": "center",
     "hometown": "Los Gatos, CA",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "UC Santa Barbara",
+    "status": "In",
+    "name": "Naomy Zonzon-Huyghe",
+    "height": "5-9",
+    "year": "SO",
+    "position": "shooting guard",
+    "hometown": "La Roche-sur-Yon, France",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -3347,7 +3435,7 @@
     "team": "Charleston Southern",
     "status": "Out",
     "name": "Saniya Jones",
-    "height": "6-4",
+    "height": "6-5",
     "year": "SR",
     "position": "center",
     "hometown": "Tucker, GA",
@@ -4359,10 +4447,10 @@
     "team": "Delaware",
     "status": "Out",
     "name": "Ande\u2019a Cherisier",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
+    "height": "6-1",
+    "year": "JR",
+    "position": "center",
+    "hometown": "Baltimore, MD",
     "entered_portal": "2026-04-06",
     "transfer_history": null
   },
@@ -7455,6 +7543,28 @@
     "position": "wing",
     "hometown": "Friendswood, TX",
     "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
+    "team": "Howard",
+    "status": "In",
+    "name": "Kearra Jones",
+    "height": "6-1",
+    "year": "SO",
+    "position": "forward",
+    "hometown": "Madison, WI",
+    "entered_portal": null,
+    "transfer_history": "from Mississippi Valley State to SEMO following the 2024-25 season"
+  },
+  {
+    "team": "Howard",
+    "status": "In",
+    "name": "Saniya Jones",
+    "height": "6-5",
+    "year": "SR",
+    "position": "center",
+    "hometown": "Tucker, GA (grad xfer)",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -11529,6 +11639,17 @@
   },
   {
     "team": "Monmouth",
+    "status": "In",
+    "name": "Sanai Tyler",
+    "height": "6-0",
+    "year": "JR",
+    "position": "forward",
+    "hometown": "Chicago, IL",
+    "entered_portal": null,
+    "transfer_history": "from Clark Atlanta (D-II) to Trinity Valley CC (juco) to BCU"
+  },
+  {
+    "team": "Monmouth",
     "status": "Out",
     "name": "Alexis Davis",
     "height": "5-10",
@@ -12966,6 +13087,17 @@
     "position": "wing",
     "hometown": "Vail, AZ",
     "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
+    "team": "North Carolina A&T",
+    "status": "In",
+    "name": "Drew Alexander",
+    "height": "5-11",
+    "year": "RS SO",
+    "position": "wing",
+    "hometown": "Durham, NC",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -14819,6 +14951,17 @@
   {
     "team": "Pitt",
     "status": "In",
+    "name": "Ande\u2019a Cherisier",
+    "height": "6-1",
+    "year": "JR",
+    "position": "center",
+    "hometown": "Baltimore, MD",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Pitt",
+    "status": "In",
     "name": "Jami Hill",
     "height": "5-11",
     "year": "JR",
@@ -14837,6 +14980,17 @@
     "hometown": "South Kingston, RI",
     "entered_portal": null,
     "transfer_history": null
+  },
+  {
+    "team": "Pitt",
+    "status": "In",
+    "name": "Alancia Ramsey",
+    "height": "6-0",
+    "year": "JR",
+    "position": "forward",
+    "hometown": "Delray Beach, FL",
+    "entered_portal": null,
+    "transfer_history": "from Coastal Carolina to Alabama following the 2024-25 season"
   },
   {
     "team": "Pitt",
@@ -16183,6 +16337,17 @@
   {
     "team": "St. Bonaventure",
     "status": "In",
+    "name": "Kyla Hayes",
+    "height": "6-0",
+    "year": "FR",
+    "position": "wing/forward",
+    "hometown": "Buffalo, NY",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "St. Bonaventure",
+    "status": "In",
     "name": "Jordyn Williams",
     "height": "5-11",
     "year": "SO",
@@ -16821,6 +16986,17 @@
   {
     "team": "Seattle",
     "status": "In",
+    "name": "Sophie Buzzard",
+    "height": "5-10",
+    "year": "FR",
+    "position": "shooting guard",
+    "hometown": "Camas, WA",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Seattle",
+    "status": "In",
     "name": "Cristina Jones",
     "height": "5-10",
     "year": "SO",
@@ -16828,6 +17004,17 @@
     "hometown": "Long Beach, CA",
     "entered_portal": null,
     "transfer_history": "from Cal State Dominguez Hills (D-II) to Cal State Fullerton following the 2024-25 season"
+  },
+  {
+    "team": "Seattle",
+    "status": "In",
+    "name": "Mahliya Wilson",
+    "height": "5-8",
+    "year": "RS FR",
+    "position": "guard",
+    "hometown": "Chula Vista, CA",
+    "entered_portal": null,
+    "transfer_history": null
   },
   {
     "team": "Seattle",
@@ -17283,6 +17470,17 @@
   {
     "team": "South Florida",
     "status": "In",
+    "name": "Amourie Porter",
+    "height": "5-10",
+    "year": "JR",
+    "position": "shooting guard/wing",
+    "hometown": "Glen Burnie, MD",
+    "entered_portal": null,
+    "transfer_history": "from Cal State Bakersfield to Winthrop following the 2023-24 season"
+  },
+  {
+    "team": "South Florida",
+    "status": "In",
     "name": "Kendall Puryear",
     "height": "6-3",
     "year": "SO",
@@ -17438,12 +17636,12 @@
     "team": "Southeast Missouri",
     "status": "Out",
     "name": "Kearra Jones",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
+    "height": "6-1",
+    "year": "SO",
+    "position": "forward",
+    "hometown": "Madison, WI",
     "entered_portal": "2026-04-06",
-    "transfer_history": null
+    "transfer_history": "from Mississippi Valley State to SEMO following the 2024-25 season"
   },
   {
     "team": "Southeast Missouri",
@@ -17487,6 +17685,17 @@
     "position": "center",
     "hometown": "St. Louis, MO",
     "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
+    "team": "Southern",
+    "status": "In",
+    "name": "Deniya Thornton",
+    "height": "5-10",
+    "year": "JR",
+    "position": "shooting guard/wing",
+    "hometown": "New Roads, LA",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -18362,10 +18571,10 @@
     "team": "Temple",
     "status": "Out",
     "name": "Drew Alexander",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
+    "height": "5-11",
+    "year": "RS SO",
+    "position": "wing",
+    "hometown": "Durham, NC",
     "entered_portal": "2026-04-06",
     "transfer_history": null
   },
@@ -21065,6 +21274,83 @@
     "transfer_history": "from Florida Southwestern State to Buffalo to Weber State"
   },
   {
+    "team": "West Georgia",
+    "status": "In",
+    "name": "Ongolea Afu",
+    "height": "5-10",
+    "year": "JR",
+    "position": "forward",
+    "hometown": "Sandy, UT",
+    "entered_portal": null,
+    "transfer_history": "from Murray State College (juco) to UNLV"
+  },
+  {
+    "team": "West Georgia",
+    "status": "In",
+    "name": "Trishay Collins",
+    "height": "6-1",
+    "year": "FR",
+    "position": "forwad/center",
+    "hometown": "Palm Bay, FL",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "West Georgia",
+    "status": "Out",
+    "name": "Riley Black",
+    "height": "5-9",
+    "year": "SO",
+    "position": "guard",
+    "hometown": "Gainesville, GA",
+    "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
+    "team": "West Georgia",
+    "status": "Out",
+    "name": "Asia Donald",
+    "height": "5-9",
+    "year": "SO",
+    "position": "guard",
+    "hometown": "Hobart, IN",
+    "entered_portal": "2026-04-06",
+    "transfer_history": "from Indiana State to UWG following the 2024-25 season"
+  },
+  {
+    "team": "West Georgia",
+    "status": "Out",
+    "name": "Destiny Jones",
+    "height": "5-9",
+    "year": "SO",
+    "position": "guard",
+    "hometown": "Louisville, KY",
+    "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
+    "team": "West Georgia",
+    "status": "Out",
+    "name": "Anya McKenzie",
+    "height": "6-2",
+    "year": "JR",
+    "position": "center",
+    "hometown": "Luton, England",
+    "entered_portal": "2026-04-06",
+    "transfer_history": "from Tarleton State to UWG following the 2024-25 season"
+  },
+  {
+    "team": "West Georgia",
+    "status": "Out",
+    "name": "Tayah Morgan",
+    "height": "5-10",
+    "year": "JR",
+    "position": "shooting guard",
+    "hometown": "Perth, Australia",
+    "entered_portal": "2026-04-08",
+    "transfer_history": null
+  },
+  {
     "team": "West Virginia",
     "status": "In",
     "name": "Alexis Bordas",
@@ -21621,8 +21907,8 @@
     "height": "6-0",
     "year": "JR",
     "position": "guard",
-    "hometown": "Highlands Ranch, CO",
-    "entered_portal": "2026-04-11",
+    "hometown": "Highlands Ranch, CO [returned to Wisconsin]",
+    "entered_portal": null,
     "transfer_history": "from Missouri State to Wisconsin following the 2024-25 season"
   },
   {
