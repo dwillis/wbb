@@ -34,6 +34,17 @@
   },
   {
     "team": "Akron",
+    "status": "In",
+    "name": "Annika Manthy",
+    "height": "6-3",
+    "year": "RS FR",
+    "position": "forward/center",
+    "hometown": "Arlington Heights, IL",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Akron",
     "status": "Out",
     "name": "Izzy Callaway",
     "height": "5-7",
