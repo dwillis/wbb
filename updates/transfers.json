@@ -156,6 +156,17 @@
   {
     "team": "Alabama",
     "status": "In",
+    "name": "Caitlin Staley",
+    "height": "6-4",
+    "year": "JR",
+    "position": "center",
+    "hometown": "Augusta, GA",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Alabama",
+    "status": "In",
     "name": "Kylie Torrence",
     "height": "6-2",
     "year": "FR",
@@ -1266,6 +1277,17 @@
   },
   {
     "team": "Ball State",
+    "status": "In",
+    "name": "Faith Walker",
+    "height": "6-1",
+    "year": "SO",
+    "position": "wing",
+    "hometown": "York, PA",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Ball State",
     "status": "Out",
     "name": "Ashlynn Brooke",
     "height": "5-6",
@@ -2198,6 +2220,17 @@
     "hometown": "Toronto, ON",
     "entered_portal": null,
     "transfer_history": null
+  },
+  {
+    "team": "Butler",
+    "status": "In",
+    "name": "Lili Krasovec",
+    "height": "6-3",
+    "year": "JR",
+    "position": "forwad",
+    "hometown": "Budapest, Hungary",
+    "entered_portal": null,
+    "transfer_history": "from Boston College to PFW following the 2024-25 season"
   },
   {
     "team": "Butler",
@@ -3478,12 +3511,34 @@
   {
     "team": "Charlotte",
     "status": "Out",
+    "name": "Ty\u2019lissa \u201cLucy\u201d Henderson",
+    "height": "6-0",
+    "year": "JR",
+    "position": "wing",
+    "hometown": "Bossier City, LA",
+    "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
+    "team": "Charlotte",
+    "status": "Out",
     "name": "Karen Nimo",
     "height": "5-10",
     "year": "SO",
     "position": "guard",
     "hometown": "Augusta, GA",
     "entered_portal": "2026-04-20",
+    "transfer_history": null
+  },
+  {
+    "team": "Charlotte",
+    "status": "Out",
+    "name": "Caitlin Staley",
+    "height": "6-4",
+    "year": "JR",
+    "position": "center",
+    "hometown": "Augusta, GA",
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -8417,6 +8472,17 @@
   {
     "team": "Jackson State",
     "status": "In",
+    "name": "Taj Hunter",
+    "height": "5-8",
+    "year": "SO",
+    "position": "combo guard",
+    "hometown": "Atlanta, GA",
+    "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
+    "team": "Jackson State",
+    "status": "In",
     "name": "Joi Johnson",
     "height": "5-11",
     "year": "SO",
@@ -10701,6 +10767,17 @@
     "hometown": null,
     "entered_portal": "2026-04-17",
     "transfer_history": null
+  },
+  {
+    "team": "Merrimack",
+    "status": "In",
+    "name": "Jamie Kent",
+    "height": "6-0",
+    "year": "JR",
+    "position": "wing/forward",
+    "hometown": "Dublin, CA",
+    "entered_portal": null,
+    "transfer_history": "from Pacific to UNH following the 2024-25 season"
   },
   {
     "team": "Merrimack",
@@ -13940,10 +14017,10 @@
     "team": "Northwestern",
     "status": "Out",
     "name": "Angelina Hodgens",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
+    "height": "5-10",
+    "year": "FR",
+    "position": "combo guard",
+    "hometown": "Staten Island, NY",
     "entered_portal": "2026-04-06",
     "transfer_history": null
   },
@@ -14056,6 +14133,17 @@
     "hometown": "Mattoon, IL",
     "entered_portal": null,
     "transfer_history": "from Loyola Chicago to Lewis following the 2023-24 season"
+  },
+  {
+    "team": "Oakland",
+    "status": "In",
+    "name": "Ella Riggs",
+    "height": "5-9",
+    "year": "RS JR",
+    "position": "guard",
+    "hometown": "Cincinnati, OH (grad xfer)",
+    "entered_portal": null,
+    "transfer_history": "from Furman to PFW following the 2023-24 season"
   },
   {
     "team": "Oakland",
@@ -15590,12 +15678,12 @@
     "team": "Purdue Fort Wayne",
     "status": "Out",
     "name": "Lili Krasovec",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
+    "height": "6-3",
+    "year": "JR",
+    "position": "forwad",
+    "hometown": "Budapest, Hungary",
     "entered_portal": "2026-04-09",
-    "transfer_history": null
+    "transfer_history": "from Boston College to PFW following the 2024-25 season"
   },
   {
     "team": "Purdue Fort Wayne",
@@ -15612,23 +15700,23 @@
     "team": "Purdue Fort Wayne",
     "status": "Out",
     "name": "Hillary Offing",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
+    "height": "5-11",
+    "year": "RS SO",
+    "position": "forward",
+    "hometown": "Irmo, SC",
     "entered_portal": "2026-04-09",
-    "transfer_history": null
+    "transfer_history": "from Penn State Lehigh Valley (USCAA) to PFW following the 2023-24 season"
   },
   {
     "team": "Purdue Fort Wayne",
     "status": "Out",
     "name": "Ella Riggs",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
+    "height": "5-9",
+    "year": "RS JR",
+    "position": "guard",
+    "hometown": "Cincinnati, OH",
     "entered_portal": "2026-04-10",
-    "transfer_history": null
+    "transfer_history": "from Furman to PFW following the 2023-24 season"
   },
   {
     "team": "Queens University of Charlotte",
@@ -17008,6 +17096,17 @@
   {
     "team": "Seattle",
     "status": "In",
+    "name": "Erin Sellers",
+    "height": "5-5",
+    "year": "RS FR",
+    "position": "guard",
+    "hometown": "Oakland, CA",
+    "entered_portal": null,
+    "transfer_history": "from Menlo College (D-II) to UTA following the 2024-25 season"
+  },
+  {
+    "team": "Seattle",
+    "status": "In",
     "name": "Mahliya Wilson",
     "height": "5-8",
     "year": "RS FR",
@@ -17168,6 +17267,28 @@
     "position": "wing",
     "hometown": "Huntsville, AL",
     "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
+    "team": "South Alabama",
+    "status": "In",
+    "name": "Julieta Ceja",
+    "height": "6-0",
+    "year": "RS JR",
+    "position": "forward",
+    "hometown": "Jiquilpan, Michoac\u00e1n, Mexico",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "South Alabama",
+    "status": "In",
+    "name": "Carrington \u201cCJ\u201d Wilson",
+    "height": "5-9",
+    "year": "SO",
+    "position": "point guard",
+    "hometown": "Atlanta, GA",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -19791,6 +19912,17 @@
   {
     "team": "Texas State",
     "status": "In",
+    "name": "Sofia Ceppellotti",
+    "height": "6-1",
+    "year": "SO",
+    "position": "forward",
+    "hometown": "Ruda, Udine, Italy",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Texas State",
+    "status": "In",
     "name": "Lay Fantroy",
     "height": "5-10",
     "year": "JR",
@@ -20517,6 +20649,17 @@
   {
     "team": "Valparaiso",
     "status": "In",
+    "name": "Hillary Offing",
+    "height": "5-11",
+    "year": "RS SO",
+    "position": "forward",
+    "hometown": "Irmo, SC",
+    "entered_portal": null,
+    "transfer_history": "from Penn State Lehigh Valley (USCAA) to PFW following the 2023-24 season"
+  },
+  {
+    "team": "Valparaiso",
+    "status": "In",
     "name": "Maddie Vejsicky",
     "height": "6-0",
     "year": "SR",
@@ -20551,10 +20694,10 @@
     "team": "Valparaiso",
     "status": "Out",
     "name": "Kennedy Sproule",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
+    "height": "6-1",
+    "year": "JR",
+    "position": "wing",
+    "hometown": "Niverville, Manitoba",
     "entered_portal": "2026-04-06",
     "transfer_history": null
   },
@@ -20562,10 +20705,10 @@
     "team": "Valparaiso",
     "status": "Out",
     "name": "Kayla Sullivan",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
+    "height": "5-11",
+    "year": "JR",
+    "position": "forward",
+    "hometown": "St. Louis, MO",
     "entered_portal": "2026-04-06",
     "transfer_history": null
   },
@@ -20584,10 +20727,10 @@
     "team": "Valparaiso",
     "status": "Out",
     "name": "Kamryn Winch",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
+    "height": "6-3",
+    "year": "RS JR",
+    "position": "center",
+    "hometown": "Bonne Terre, MO",
     "entered_portal": "2026-04-06",
     "transfer_history": null
   },
@@ -20709,6 +20852,17 @@
     "year": "FR",
     "position": "center",
     "hometown": "Scandiano, Italy",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Virginia",
+    "status": "In",
+    "name": "Janae Walker",
+    "height": "6-3",
+    "year": "JR",
+    "position": "center",
+    "hometown": "Tyrone, GA",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -21094,6 +21248,17 @@
     "year": "SO",
     "position": "point guard",
     "hometown": "Batavia, IL",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Washington",
+    "status": "In",
+    "name": "Kaelyn Carroll",
+    "height": "6-3",
+    "year": "FR",
+    "position": "wing",
+    "hometown": "Dedham, MA",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -21503,6 +21668,39 @@
     "hometown": "Shelby, NC (grad xfer)",
     "entered_portal": null,
     "transfer_history": "from Belmont to UNCW following the 2023-24 season"
+  },
+  {
+    "team": "Western Carolina",
+    "status": "Out",
+    "name": "Betsey Burnett",
+    "height": "5-8",
+    "year": "JR",
+    "position": "shooting guard",
+    "hometown": "Charlotte, NC /",
+    "entered_portal": "2026-04-06",
+    "transfer_history": "from Johnson C. Smith (D-II) to WCU following the 2024-25 season"
+  },
+  {
+    "team": "Western Carolina",
+    "status": "Out",
+    "name": "Taj Hunter",
+    "height": "5-8",
+    "year": "SO",
+    "position": "combo guard",
+    "hometown": "Atlanta, GA",
+    "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
+    "team": "Western Carolina",
+    "status": "Out",
+    "name": "Joyce Mulumba",
+    "height": "6-0",
+    "year": "JR",
+    "position": "forward",
+    "hometown": "Patterson, CA",
+    "entered_portal": "2026-04-06",
+    "transfer_history": null
   },
   {
     "team": "Western Carolina",
@@ -22079,7 +22277,29 @@
   {
     "team": "Xavier",
     "status": "In",
-    "name": "Maria Anais Rodriguez",
+    "name": "Diawna Carter-Hartley",
+    "height": "6-1",
+    "year": "JR",
+    "position": "forward",
+    "hometown": "Cincinnati, OH",
+    "entered_portal": null,
+    "transfer_history": "from Stetson to South Alabama following the 2024-25 season"
+  },
+  {
+    "team": "Xavier",
+    "status": "In",
+    "name": "Hila Karsh",
+    "height": "5-8",
+    "year": "FR",
+    "position": "shooting guard",
+    "hometown": "Rishon LeZion, Israel",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Xavier",
+    "status": "In",
+    "name": "Mar\u00eda Anais Rodr\u00edguez",
     "height": "6-1",
     "year": "SO",
     "position": "forward",
