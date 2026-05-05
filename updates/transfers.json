@@ -34,17 +34,6 @@
   },
   {
     "team": "Akron",
-    "status": "In",
-    "name": "Annika Manthy",
-    "height": "6-3",
-    "year": "RS FR",
-    "position": "forward/center",
-    "hometown": "Arlington Heights, IL",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Akron",
     "status": "Out",
     "name": "Izzy Callaway",
     "height": "5-7",
@@ -1157,17 +1146,6 @@
   {
     "team": "Auburn",
     "status": "In",
-    "name": "Jessica Peterson",
-    "height": "6-2",
-    "year": "GR",
-    "position": "center",
-    "hometown": "Rancho Cucamonga, CA (grad xfer)",
-    "entered_portal": null,
-    "transfer_history": "from Fresno State to SMU to Miami (at SMU in 2024-25: 30 GP (30 starts), 29.8 MPG, 10.3 PPG, 12.0 RPG)"
-  },
-  {
-    "team": "Auburn",
-    "status": "In",
     "name": "Savannah Scott",
     "height": "6-4",
     "year": "RS SO",
@@ -1186,17 +1164,6 @@
     "hometown": "Amsterdam, Netherlands",
     "entered_portal": null,
     "transfer_history": "from Arkansas to Indiana following the 2024-25 season"
-  },
-  {
-    "team": "Auburn",
-    "status": "In",
-    "name": "Sira Thienou",
-    "height": "6-1",
-    "year": "SO",
-    "position": "wing",
-    "hometown": "Bamako, Mali",
-    "entered_portal": null,
-    "transfer_history": null
   },
   {
     "team": "Auburn",
@@ -5391,17 +5358,6 @@
   },
   {
     "team": "Eastern Washington",
-    "status": "In",
-    "name": "Camille Dake",
-    "height": "6-0",
-    "year": "FR",
-    "position": "wing",
-    "hometown": "Vista, CA",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Eastern Washington",
     "status": "Out",
     "name": "Bella Hays",
     "height": "6-4",
@@ -6180,50 +6136,6 @@
     "hometown": "Stockholm, Sweden",
     "entered_portal": "2026-03-12",
     "transfer_history": null
-  },
-  {
-    "team": "Furman",
-    "status": "Out",
-    "name": "Brooklyn King",
-    "height": "6-0",
-    "year": "FR",
-    "position": "wing",
-    "hometown": "Dallas, TX",
-    "entered_portal": "2026-04-06",
-    "transfer_history": null
-  },
-  {
-    "team": "Furman",
-    "status": "Out",
-    "name": "Chantelle Stuart",
-    "height": "5-9",
-    "year": "SO",
-    "position": "point guard",
-    "hometown": "Scarborough, ON",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Furman",
-    "status": "Out",
-    "name": "Samaria Taylor",
-    "height": "5-7",
-    "year": "SO",
-    "position": "shooting guard",
-    "hometown": "Knoxville, TN",
-    "entered_portal": "2026-04-06",
-    "transfer_history": null
-  },
-  {
-    "team": "Furman",
-    "status": "Out",
-    "name": "Channing Warren",
-    "height": "6-3",
-    "year": "SO",
-    "position": "forward",
-    "hometown": "Orlando, FL",
-    "entered_portal": "2026-04-06",
-    "transfer_history": "from Boston University to Furman following the 2024-25 season"
   },
   {
     "team": "Gardner-Webb",
@@ -11596,17 +11508,6 @@
   {
     "team": "Ole Miss",
     "status": "Out",
-    "name": "Sira Thienou",
-    "height": "6-1",
-    "year": "SO",
-    "position": "wing",
-    "hometown": "Bamako, Mali",
-    "entered_portal": "2026-04-06",
-    "transfer_history": null
-  },
-  {
-    "team": "Ole Miss",
-    "status": "Out",
     "name": "Tianna Thompson",
     "height": "5-10",
     "year": "SO",
@@ -12184,7 +12085,7 @@
     "year": "RS FR",
     "position": "wing",
     "hometown": "London, ON",
-    "entered_portal": null,
+    "entered_portal": "2026-04-08",
     "transfer_history": "from Toledo to Montana State following the 2024-25 season"
   },
   {
@@ -12195,19 +12096,8 @@
     "year": "RS FR",
     "position": "wing",
     "hometown": "London, ON",
-    "entered_portal": null,
+    "entered_portal": "2026-04-08",
     "transfer_history": "from Toledo to Montana State following the 2024-25 season"
-  },
-  {
-    "team": "Morehead State",
-    "status": "In",
-    "name": "Samaria Taylor",
-    "height": "5-7",
-    "year": "SO",
-    "position": "shooting guard",
-    "hometown": "Knoxville, TN",
-    "entered_portal": null,
-    "transfer_history": null
   },
   {
     "team": "Morehead State",
@@ -13200,39 +13090,6 @@
     "transfer_history": null
   },
   {
-    "team": "Nicholls State",
-    "status": "Out",
-    "name": "Reese Hoadley",
-    "height": "5-8",
-    "year": "FR",
-    "position": "combo guard",
-    "hometown": "Georgetown, TX",
-    "entered_portal": "2026-04-06",
-    "transfer_history": null
-  },
-  {
-    "team": "Nicholls State",
-    "status": "Out",
-    "name": "Jesslynn Jalomo",
-    "height": "5-6",
-    "year": "SO",
-    "position": "point guard",
-    "hometown": "Laredo, TX",
-    "entered_portal": "2026-04-14",
-    "transfer_history": null
-  },
-  {
-    "team": "Nicholls State",
-    "status": "Out",
-    "name": "India McMahon",
-    "height": "5-11",
-    "year": "JR",
-    "position": "wing",
-    "hometown": "Beaumont, TX",
-    "entered_portal": "2026-04-06",
-    "transfer_history": null
-  },
-  {
     "team": "Norfolk State",
     "status": "In",
     "name": "Ja\u2019Cia Cunningham",
@@ -13638,17 +13495,6 @@
     "hometown": "Louga, Senegal",
     "entered_portal": null,
     "transfer_history": "from Towson (All-CAA Rookie Team) to Auburn following the 2024-25 season"
-  },
-  {
-    "team": "NC State",
-    "status": "In",
-    "name": "Desiree Wooten",
-    "height": "5-8",
-    "year": "RS JR",
-    "position": "combo guard",
-    "hometown": "Dallas, TX",
-    "entered_portal": null,
-    "transfer_history": "from North Texas to Colorado following the 2024-25 season"
   },
   {
     "team": "NC State",
@@ -14373,17 +14219,6 @@
     "year": "FR",
     "position": "combo guard",
     "hometown": "Boerne, TX",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Northwestern State",
-    "status": "In",
-    "name": "India McMahon",
-    "height": "5-11",
-    "year": "JR",
-    "position": "wing",
-    "hometown": "Beaumont, TX",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -18918,17 +18753,6 @@
     "hometown": "Calhoun, GA",
     "entered_portal": null,
     "transfer_history": "from Nicholls State to UAB following the 2024-25 season"
-  },
-  {
-    "team": "Tarleton State",
-    "status": "In",
-    "name": "Brooklyn King",
-    "height": "6-0",
-    "year": "FR",
-    "position": "wing",
-    "hometown": "Dallas, TX",
-    "entered_portal": null,
-    "transfer_history": null
   },
   {
     "team": "Tarleton State",
