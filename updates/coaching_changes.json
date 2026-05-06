@@ -11,6 +11,16 @@
   },
   {
     "status": "Jobs Open",
+    "school": "Cal State Fullerton",
+    "conference": "Big West",
+    "coach": "John Bonner",
+    "role": "departed",
+    "text": "John Bonner leaves for the Seattle job (March 19, 2026; press release)",
+    "date": "2026-03-19",
+    "url": "https://fullertontitans.com/news/2026/3/19/update-on-titans-womens-basketball.aspx"
+  },
+  {
+    "status": "Jobs Open",
     "school": "Campbell",
     "conference": "CAA",
     "coach": "Ronny Fisher",
@@ -178,26 +188,6 @@
     "text": "Maria Marchesano hired (April 8, 2026; press release)",
     "date": "2026-04-08",
     "url": "https://butlersports.com/news/2026/4/8/alum-maria-marchesano-comes-home-to-lead-butler-womens-basketball-program.aspx"
-  },
-  {
-    "status": "Jobs Filled",
-    "school": "Cal State Fullerton",
-    "conference": "Big West",
-    "coach": "John Bonner",
-    "role": "departed",
-    "text": "John Bonner leaves for the Seattle job (March 19, 2026; press release)",
-    "date": "2026-03-19",
-    "url": "https://fullertontitans.com/news/2026/3/19/update-on-titans-womens-basketball.aspx"
-  },
-  {
-    "status": "Jobs Filled",
-    "school": "Cal State Fullerton",
-    "conference": "Big West",
-    "coach": "Sammy Doucette",
-    "role": "hired",
-    "text": "Sammy Doucette hired (May 4, 2026; press release)",
-    "date": "2026-05-04",
-    "url": "https://fullertontitans.com/news/2026/5/4/sammy-doucette-named-head-womens-basketball-coach.aspx"
   },
   {
     "status": "Jobs Filled",
