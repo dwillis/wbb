@@ -1535,7 +1535,7 @@
     "height": "5-10",
     "year": "JR",
     "position": "wing",
-    "hometown": "Lawrence County, TN",
+    "hometown": "Lawrence County, TN (grad xfer)",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -1546,7 +1546,7 @@
     "height": "5-11",
     "year": "RS JR",
     "position": "guard",
-    "hometown": "Melbourne, AR",
+    "hometown": "Melbourne, AR (grad xfer)",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -18093,6 +18093,28 @@
     "hometown": "Long Beach, CA",
     "entered_portal": null,
     "transfer_history": "from Cal State Dominguez Hills (D-II) to Cal State Fullerton following the 2024-25 season"
+  },
+  {
+    "team": "Seattle",
+    "status": "In",
+    "name": "Milana Nenadic",
+    "height": "6-3",
+    "year": "RS JR",
+    "position": "forward/center",
+    "hometown": "Kitchener, ON (grad xfer)",
+    "entered_portal": null,
+    "transfer_history": "from Maine to Idaho State to Valpo"
+  },
+  {
+    "team": "Seattle",
+    "status": "In",
+    "name": "Nari Powers",
+    "height": "6-0",
+    "year": "SO",
+    "position": "forward",
+    "hometown": "Gurnee, IL",
+    "entered_portal": null,
+    "transfer_history": null
   },
   {
     "team": "Seattle",
