@@ -1535,7 +1535,7 @@
     "height": "5-10",
     "year": "JR",
     "position": "wing",
-    "hometown": "Lawrence County, TN (grad xfer)",
+    "hometown": "Lawrence County, TN",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -1546,7 +1546,7 @@
     "height": "5-11",
     "year": "RS JR",
     "position": "guard",
-    "hometown": "Melbourne, AR (grad xfer)",
+    "hometown": "Melbourne, AR",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -9406,17 +9406,6 @@
   },
   {
     "team": "Kennesaw State",
-    "status": "In",
-    "name": "Toni Warren",
-    "height": "5-11",
-    "year": "SO",
-    "position": "forward",
-    "hometown": "Canton, GA",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Kennesaw State",
     "status": "Out",
     "name": "Kailyn Fields",
     "height": "5-6",
@@ -10899,17 +10888,6 @@
     "hometown": "Ciudad Real, Spain",
     "entered_portal": null,
     "transfer_history": null
-  },
-  {
-    "team": "UMass",
-    "status": "In",
-    "name": "Caroline Dotsey",
-    "height": "6-2",
-    "year": "JR",
-    "position": "forward",
-    "hometown": "Havertown, PA",
-    "entered_portal": null,
-    "transfer_history": "from Maine to Butler following the 2024-25 season"
   },
   {
     "team": "UMass",
@@ -15326,10 +15304,10 @@
     "team": "Old Dominion",
     "status": "Out",
     "name": "Mariah Clayton",
-    "height": "5-10",
-    "year": "SO",
-    "position": "forward",
-    "hometown": "Mesquite, TX",
+    "height": null,
+    "year": null,
+    "position": null,
+    "hometown": null,
     "entered_portal": "2026-04-06",
     "transfer_history": null
   },
@@ -15348,10 +15326,10 @@
     "team": "Old Dominion",
     "status": "Out",
     "name": "Alisha Nunley",
-    "height": "5-5",
-    "year": "JR",
-    "position": "point guard",
-    "hometown": "Euless, TX",
+    "height": null,
+    "year": null,
+    "position": null,
+    "hometown": null,
     "entered_portal": "2026-04-06",
     "transfer_history": null
   },
@@ -15359,10 +15337,10 @@
     "team": "Old Dominion",
     "status": "Out",
     "name": "T\u2019anna Saddler",
-    "height": "6-1",
-    "year": "FR",
-    "position": "forward",
-    "hometown": "Dallas, TX",
+    "height": null,
+    "year": null,
+    "position": null,
+    "hometown": null,
     "entered_portal": "2026-04-07",
     "transfer_history": null
   },
@@ -15370,10 +15348,10 @@
     "team": "Old Dominion",
     "status": "Out",
     "name": "Nevaeh Scott",
-    "height": "5-6",
-    "year": "JR",
-    "position": "point guard",
-    "hometown": "Memphis, TN",
+    "height": null,
+    "year": null,
+    "position": null,
+    "hometown": null,
     "entered_portal": "2026-04-06",
     "transfer_history": null
   },
@@ -16842,17 +16820,6 @@
   },
   {
     "team": "Rhode Island",
-    "status": "In",
-    "name": "Queen Ikhiuwu",
-    "height": "6-1",
-    "year": "JR",
-    "position": "center",
-    "hometown": "Madrid, Spain",
-    "entered_portal": null,
-    "transfer_history": "from Tulsa to Wofford following the 2023-24 season"
-  },
-  {
-    "team": "Rhode Island",
     "status": "Out",
     "name": "Vanessa Harris",
     "height": "5-10",
@@ -18130,28 +18097,6 @@
   {
     "team": "Seattle",
     "status": "In",
-    "name": "Milana Nenadic",
-    "height": "6-3",
-    "year": "RS JR",
-    "position": "forward/center",
-    "hometown": "Kitchener, ON (grad xfer)",
-    "entered_portal": null,
-    "transfer_history": "from Maine to Idaho State to Valpo"
-  },
-  {
-    "team": "Seattle",
-    "status": "In",
-    "name": "Nari Powers",
-    "height": "6-0",
-    "year": "SO",
-    "position": "forward",
-    "hometown": "Gurnee, IL",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Seattle",
-    "status": "In",
     "name": "Erin Sellers",
     "height": "5-5",
     "year": "RS FR",
@@ -18356,17 +18301,6 @@
     "position": "shooting guard/wing",
     "hometown": "Guilderland, NY",
     "entered_portal": "2026-03-31",
-    "transfer_history": null
-  },
-  {
-    "team": "Siena",
-    "status": "Out",
-    "name": "Allison O\u2019Hanlon",
-    "height": "5-8",
-    "year": "FR",
-    "position": "point guard",
-    "hometown": "Duanesburg, NY",
-    "entered_portal": "2025-03-25",
     "transfer_history": null
   },
   {
@@ -18994,17 +18928,6 @@
     "position": null,
     "hometown": null,
     "entered_portal": "2026-04-08",
-    "transfer_history": null
-  },
-  {
-    "team": "Southern",
-    "status": "In",
-    "name": "Alisha Nunley",
-    "height": "5-5",
-    "year": "JR",
-    "position": "point guard",
-    "hometown": "Euless, TX",
-    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -23494,83 +23417,6 @@
     "hometown": "Queens, NY",
     "entered_portal": null,
     "transfer_history": "from St. Bonaventure to Stony Brook (2024-25 third-team All-CAA) to Wisconsin"
-  },
-  {
-    "team": "Wofford",
-    "status": "In",
-    "name": "Ola Noworol",
-    "height": "6-3",
-    "year": "FR",
-    "position": "forward",
-    "hometown": "Podkarpackie, Poland",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Wofford",
-    "status": "In",
-    "name": "Angelina Pelayo",
-    "height": "6-3",
-    "year": "RS FR",
-    "position": "center",
-    "hometown": "Louisville, KY",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Wofford",
-    "status": "In",
-    "name": "Mearah Whitehead",
-    "height": "5-8",
-    "year": "FR",
-    "position": "shooting guard",
-    "hometown": "Lawrenceville, GA",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Wofford",
-    "status": "Out",
-    "name": "Brady Branam",
-    "height": "6-2",
-    "year": "FR",
-    "position": "forward",
-    "hometown": "Seymour, TN",
-    "entered_portal": "2026-04-06",
-    "transfer_history": null
-  },
-  {
-    "team": "Wofford",
-    "status": "Out",
-    "name": "Madi Hawk",
-    "height": "5-10",
-    "year": "SO",
-    "position": "guard",
-    "hometown": "Jefferson City, TN",
-    "entered_portal": "2026-04-06",
-    "transfer_history": null
-  },
-  {
-    "team": "Wofford",
-    "status": "Out",
-    "name": "Queen Ikhiuwu",
-    "height": "6-1",
-    "year": "JR",
-    "position": "center",
-    "hometown": "Madrid, Spain",
-    "entered_portal": "2026-04-06",
-    "transfer_history": "from Tulsa to Wofford following the 2023-24 season"
-  },
-  {
-    "team": "Wofford",
-    "status": "Out",
-    "name": "Toni Warren",
-    "height": "5-11",
-    "year": "SO",
-    "position": "forward",
-    "hometown": "Canton, GA",
-    "entered_portal": "2026-04-06",
-    "transfer_history": null
   },
   {
     "team": "Wright State",
