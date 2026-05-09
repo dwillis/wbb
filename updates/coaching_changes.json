@@ -40,6 +40,16 @@
     "url": "https://purpleeagles.com/news/2026/4/10/jada-pierce-steps-down-as-womens-basketball-head-coach.aspx"
   },
   {
+    "status": "Jobs Open",
+    "school": "North Carolina Central",
+    "conference": "MEAC",
+    "coach": "Terrence Baxter",
+    "role": "departed",
+    "text": "Terrence Baxter out as head coach (March 16, 2026; press release)",
+    "date": "2026-03-16",
+    "url": "https://nccueaglepride.com/news/2026/3/16/womens-basketball-nccu-announces-change-in-womens-basketball-leadership.aspx"
+  },
+  {
     "status": "Jobs Filled",
     "school": "Alabama",
     "conference": "SEC",
@@ -818,26 +828,6 @@
     "text": "Anna Nimz hired (March 26, 2026; press release)",
     "date": "2026-03-26",
     "url": "https://roarlions.com/news/2026/3/26/womens-basketball-anna-nimz-named-head-coach-for-una-womens-basketball.aspx"
-  },
-  {
-    "status": "Jobs Filled",
-    "school": "North Carolina Central",
-    "conference": "MEAC",
-    "coach": "Terrence Baxter",
-    "role": "departed",
-    "text": "Terrence Baxter out as head coach (March 16, 2026; press release)",
-    "date": "2026-03-16",
-    "url": "https://nccueaglepride.com/news/2026/3/16/womens-basketball-nccu-announces-change-in-womens-basketball-leadership.aspx"
-  },
-  {
-    "status": "Jobs Filled",
-    "school": "North Carolina Central",
-    "conference": "MEAC",
-    "coach": "Olivia Gaines",
-    "role": "hired",
-    "text": "Olivia Gaines hired (May 6, 2026; press release)",
-    "date": "2026-05-06",
-    "url": "https://nccueaglepride.com/news/2026/5/8/womens-basketball-nccu-hires-gaines-as-head-womens-basketball-coach.aspx"
   },
   {
     "status": "Jobs Filled",
