@@ -4391,6 +4391,17 @@
   {
     "team": "Coppin State",
     "status": "In",
+    "name": "Delaney Cooper",
+    "height": "5-9",
+    "year": "FR",
+    "position": "wing",
+    "hometown": "Atlanta, GA",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Coppin State",
+    "status": "In",
     "name": "Amber Howard",
     "height": "6-0",
     "year": "SO",
@@ -10275,6 +10286,17 @@
   },
   {
     "team": "Longwood",
+    "status": "In",
+    "name": "Nal\u2019La Bennett",
+    "height": "5-6",
+    "year": "FR",
+    "position": "combo guard",
+    "hometown": "Sicklerville, NJ",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Longwood",
     "status": "Out",
     "name": "Olivia Bowes",
     "height": "6-0",
@@ -10700,6 +10722,17 @@
     "position": "forward/center",
     "hometown": "Southfield, MI",
     "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
+    "team": "Loyola Maryland",
+    "status": "In",
+    "name": "Janay Brantley",
+    "height": "5-9",
+    "year": "JR",
+    "position": "combo guard",
+    "hometown": "Catskill, NY",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -20171,6 +20204,50 @@
     "position": "combo guard",
     "hometown": "Roanoke, VA",
     "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Stony Brook",
+    "status": "Out",
+    "name": "Nal\u2019La Bennett",
+    "height": "5-6",
+    "year": "FR",
+    "position": "combo guard",
+    "hometown": "Sicklerville, NJ",
+    "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
+    "team": "Stony Brook",
+    "status": "Out",
+    "name": "Janay Brantley",
+    "height": "5-9",
+    "year": "JR",
+    "position": "combo guard",
+    "hometown": "Catskill, NY",
+    "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
+    "team": "Stony Brook",
+    "status": "Out",
+    "name": "Delaney Cooper",
+    "height": "5-9",
+    "year": "FR",
+    "position": "wing",
+    "hometown": "Atlanta, GA",
+    "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
+    "team": "Stony Brook",
+    "status": "Out",
+    "name": "Ebere Egbirika",
+    "height": "5-8",
+    "year": "JR",
+    "position": "guard",
+    "hometown": "London, England",
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
