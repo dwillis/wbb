@@ -7338,6 +7338,17 @@
   },
   {
     "team": "Georgia State",
+    "status": "In",
+    "name": "Ana Oliveira Dias",
+    "height": "5-5",
+    "year": "JR",
+    "position": "point guard",
+    "hometown": "Porto Feliz, Brazil",
+    "entered_portal": null,
+    "transfer_history": "from Kansas City to Missouri Western following the 2024-25 season"
+  },
+  {
+    "team": "Georgia State",
     "status": "Out",
     "name": "Gabbie Grooms",
     "height": "5-8",
@@ -7389,6 +7400,17 @@
     "position": "forward",
     "hometown": "Gurnee, IL",
     "entered_portal": "2026-04-17",
+    "transfer_history": null
+  },
+  {
+    "team": "Georgia State",
+    "status": "Out",
+    "name": "Ana Luiza Ramos Pires",
+    "height": "6-0",
+    "year": "JR",
+    "position": "forward",
+    "hometown": "S\u00e3o Paulo, Brazil",
+    "entered_portal": "2026-04-30",
     "transfer_history": null
   },
   {
@@ -10374,6 +10396,17 @@
   },
   {
     "team": "Longwood",
+    "status": "In",
+    "name": "McKayla Hosley",
+    "height": "6-0",
+    "year": "FR",
+    "position": "forward",
+    "hometown": "Columbus, GA",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Longwood",
     "status": "Out",
     "name": "Olivia Bowes",
     "height": "6-0",
@@ -10470,6 +10503,17 @@
     "hometown": "Magnolia, AR",
     "entered_portal": null,
     "transfer_history": null
+  },
+  {
+    "team": "UL Monroe",
+    "status": "In",
+    "name": "Destini Ward",
+    "height": "5-8",
+    "year": "RS JR",
+    "position": "shooting guard",
+    "hometown": "Baltimore, MD (grad xfer)",
+    "entered_portal": null,
+    "transfer_history": "from Saint Francis (Pa.) to Georgia Southern following the 2024-25 season"
   },
   {
     "team": "UL Monroe",
@@ -17114,6 +17158,17 @@
     "hometown": "Cincinnati, OH",
     "entered_portal": "2026-04-10",
     "transfer_history": "from Furman to PFW following the 2023-24 season"
+  },
+  {
+    "team": "Queens University of Charlotte",
+    "status": "In",
+    "name": "Anisa Akinola",
+    "height": "5-10",
+    "year": "FR",
+    "position": "forward",
+    "hometown": "Livingston, NJ",
+    "entered_portal": null,
+    "transfer_history": null
   },
   {
     "team": "Queens University of Charlotte",
