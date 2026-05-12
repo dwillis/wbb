@@ -16930,28 +16930,6 @@
   },
   {
     "team": "Presbyterian",
-    "status": "In",
-    "name": "Azjah Reeves",
-    "height": "5-8",
-    "year": "JR",
-    "position": "combo guard",
-    "hometown": "Oklahoma City, OK",
-    "entered_portal": null,
-    "transfer_history": "from McNeese State to Wichita following the 2024-25 season"
-  },
-  {
-    "team": "Presbyterian",
-    "status": "In",
-    "name": "Kyaija Stewart",
-    "height": "6-0",
-    "year": "JR",
-    "position": "wing",
-    "hometown": "Ithaca, NY",
-    "entered_portal": null,
-    "transfer_history": "from Daytona State College (juco) to Texas State"
-  },
-  {
-    "team": "Presbyterian",
     "status": "Out",
     "name": "Morgan Boyd",
     "height": "5-9",
@@ -22068,17 +22046,6 @@
   {
     "team": "UTSA",
     "status": "In",
-    "name": "Emily Hunter",
-    "height": "6-7",
-    "year": "FR",
-    "position": "center",
-    "hometown": "Nolensville, TN",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "UTSA",
-    "status": "In",
     "name": "Kierra Merchant",
     "height": "5-9",
     "year": "JR",
@@ -22337,7 +22304,7 @@
     "year": "JR",
     "position": "wing",
     "hometown": "Ithaca, NY",
-    "entered_portal": null,
+    "entered_portal": "2026-04-08",
     "transfer_history": "from Daytona State College (juco) to Texas State"
   },
   {
