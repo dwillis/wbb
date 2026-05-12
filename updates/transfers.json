@@ -7250,6 +7250,17 @@
   },
   {
     "team": "Georgia",
+    "status": "In",
+    "name": "Faith Wylder",
+    "height": "6-6",
+    "year": "SO",
+    "position": "forward/center",
+    "hometown": "New York, NY",
+    "entered_portal": null,
+    "transfer_history": "from Stony Brook to Mississippi State following the 2024-25 season"
+  },
+  {
+    "team": "Georgia",
     "status": "Out",
     "name": "Dani Carnegie",
     "height": "5-9",
@@ -18060,6 +18071,17 @@
     "hometown": "Blandon, PA",
     "entered_portal": null,
     "transfer_history": null
+  },
+  {
+    "team": "Sacramento State",
+    "status": "In",
+    "name": "Achol Magot",
+    "height": "6-7",
+    "year": "RS SO",
+    "position": "center",
+    "hometown": "Tucson, AZ",
+    "entered_portal": null,
+    "transfer_history": "from Texas Tech to Arizona following the 2024-25 season"
   },
   {
     "team": "Sacramento State",
