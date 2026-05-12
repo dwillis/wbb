@@ -1817,17 +1817,6 @@
   {
     "team": "Boston College",
     "status": "In",
-    "name": "Megan Hollingsworth",
-    "height": "6-0",
-    "year": "FR",
-    "position": "wing",
-    "hometown": "Ottawa, ON",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Boston College",
-    "status": "In",
     "name": "Grace Oliver",
     "height": "6-1",
     "year": "SO",
@@ -5930,17 +5919,6 @@
   },
   {
     "team": "Fairleigh Dickinson",
-    "status": "In",
-    "name": "Ane Valle",
-    "height": "5-11",
-    "year": "JR",
-    "position": "forward",
-    "hometown": "Vitoria-Gasteiz, Spain",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Fairleigh Dickinson",
     "status": "Out",
     "name": "Tyler Edwards",
     "height": "5-6",
@@ -6613,17 +6591,6 @@
   {
     "team": "Furman",
     "status": "In",
-    "name": "Ciara Alexander",
-    "height": "6-0",
-    "year": "SO",
-    "position": "wing",
-    "hometown": "Atlanta, GA",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Furman",
-    "status": "In",
     "name": "Ava Sawi",
     "height": "5-8",
     "year": "SO",
@@ -7247,17 +7214,6 @@
     "hometown": "Cleveland, TN",
     "entered_portal": null,
     "transfer_history": null
-  },
-  {
-    "team": "Georgia",
-    "status": "In",
-    "name": "Faith Wylder",
-    "height": "6-6",
-    "year": "SO",
-    "position": "forward/center",
-    "hometown": "New York, NY",
-    "entered_portal": null,
-    "transfer_history": "from Stony Brook to Mississippi State following the 2024-25 season"
   },
   {
     "team": "Georgia",
@@ -18075,17 +18031,6 @@
   {
     "team": "Sacramento State",
     "status": "In",
-    "name": "Achol Magot",
-    "height": "6-7",
-    "year": "RS SO",
-    "position": "center",
-    "hometown": "Tucson, AZ",
-    "entered_portal": null,
-    "transfer_history": "from Texas Tech to Arizona following the 2024-25 season"
-  },
-  {
-    "team": "Sacramento State",
-    "status": "In",
     "name": "Jelena Savic",
     "height": "5-11",
     "year": "FR",
@@ -22889,17 +22834,6 @@
     "hometown": "Murfreesboro, TN (grad xfer)",
     "entered_portal": null,
     "transfer_history": "from Western Kentucky to ASU following the 2024-25 season"
-  },
-  {
-    "team": "Utah State",
-    "status": "In",
-    "name": "Sami Mancini",
-    "height": "6-4",
-    "year": "RS FR",
-    "position": "forward/center",
-    "hometown": "Webb City, MO",
-    "entered_portal": null,
-    "transfer_history": null
   },
   {
     "team": "Utah State",
