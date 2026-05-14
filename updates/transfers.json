@@ -6656,17 +6656,6 @@
   },
   {
     "team": "Fordham",
-    "status": "In",
-    "name": "Olivia Kulyk",
-    "height": "6-1",
-    "year": "SO",
-    "position": "wing",
-    "hometown": "Edinboro, PA",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Fordham",
     "status": "Out",
     "name": "Karissa Antoine",
     "height": "5-11",
@@ -8226,50 +8215,6 @@
     "hometown": "Katy, TX",
     "entered_portal": "2026-04-06",
     "transfer_history": "from UNLV to High Point following the 2024-25 season"
-  },
-  {
-    "team": "Hofstra",
-    "status": "In",
-    "name": "Kelian Cedano",
-    "height": "5-10",
-    "year": "SO",
-    "position": "shooting guard",
-    "hometown": "Boston, MA",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Hofstra",
-    "status": "In",
-    "name": "Paloma Garcia",
-    "height": "5-6",
-    "year": "JR",
-    "position": "combo guard",
-    "hometown": "Corozal, Puerto Rico",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Hofstra",
-    "status": "In",
-    "name": "Felicia Jacobs",
-    "height": "6-3",
-    "year": "SO",
-    "position": "forward",
-    "hometown": "London, England",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Hofstra",
-    "status": "In",
-    "name": "Comari Mitchell",
-    "height": "5-8",
-    "year": "SO",
-    "position": "shooting guard",
-    "hometown": "Richmond, VA",
-    "entered_portal": null,
-    "transfer_history": null
   },
   {
     "team": "Hofstra",
@@ -12289,61 +12234,6 @@
   {
     "team": "Merrimack",
     "status": "Out",
-    "name": "Paloma Garcia",
-    "height": "5-6",
-    "year": "JR",
-    "position": "combo guard",
-    "hometown": "Corozal, Puerto Rico",
-    "entered_portal": "2026-04-10",
-    "transfer_history": null
-  },
-  {
-    "team": "Merrimack",
-    "status": "Out",
-    "name": "Cadence Johnson",
-    "height": "6-0",
-    "year": "JR",
-    "position": "forward",
-    "hometown": "Mattapoisett, MA",
-    "entered_portal": "2026-04-09",
-    "transfer_history": null
-  },
-  {
-    "team": "Merrimack",
-    "status": "Out",
-    "name": "Oralye Kiefer",
-    "height": "6-3",
-    "year": "GR",
-    "position": "forward",
-    "hometown": "Wayland, MA",
-    "entered_portal": "2026-04-08",
-    "transfer_history": "from Northeastern to Merrimack following the 2024-25 season"
-  },
-  {
-    "team": "Merrimack",
-    "status": "Out",
-    "name": "Madison Roman",
-    "height": "6-0",
-    "year": "JR",
-    "position": "forward",
-    "hometown": "Fairfield, CT",
-    "entered_portal": "2026-04-07",
-    "transfer_history": null
-  },
-  {
-    "team": "Merrimack",
-    "status": "Out",
-    "name": "Daria Shishkina",
-    "height": "5-11",
-    "year": "SO",
-    "position": "wing",
-    "hometown": "Moscow, Russia",
-    "entered_portal": "2026-04-06",
-    "transfer_history": null
-  },
-  {
-    "team": "Merrimack",
-    "status": "Out",
     "name": "Denae Skelton",
     "height": "5-8",
     "year": "SO",
@@ -12351,17 +12241,6 @@
     "hometown": "West Kelowna, BC",
     "entered_portal": "2026-03-26",
     "transfer_history": "from Utah State to Merrimack following the 2024-25 season"
-  },
-  {
-    "team": "Merrimack",
-    "status": "Out",
-    "name": "Makayla Thomas",
-    "height": "5-7",
-    "year": "JR",
-    "position": "guard",
-    "hometown": "Niagara, NY",
-    "entered_portal": "2026-04-14",
-    "transfer_history": null
   },
   {
     "team": "Miami (FL)",
@@ -14275,28 +14154,6 @@
     "position": "center",
     "hometown": "Delta State, Nigeria",
     "entered_portal": "2026-04-06",
-    "transfer_history": null
-  },
-  {
-    "team": "NJIT",
-    "status": "Out",
-    "name": "Olivia Kulyk",
-    "height": "6-1",
-    "year": "SO",
-    "position": "wing",
-    "hometown": "Edinboro, PA",
-    "entered_portal": "2026-04-06",
-    "transfer_history": null
-  },
-  {
-    "team": "NJIT",
-    "status": "Out",
-    "name": "Kyleigh Welsh",
-    "height": "6-2",
-    "year": "RS JR",
-    "position": "forward/center",
-    "hometown": "Clearwater, FL",
-    "entered_portal": "2026-04-09",
     "transfer_history": null
   },
   {
@@ -18548,17 +18405,6 @@
   {
     "team": "Sacramento State",
     "status": "In",
-    "name": "Brooklynn Charlo",
-    "height": "6-0",
-    "year": "FR",
-    "position": "guard",
-    "hometown": "Thornton, CO",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Sacramento State",
-    "status": "In",
     "name": "Alexis Hess",
     "height": "6-1",
     "year": "RS FR",
@@ -21087,17 +20933,6 @@
     "transfer_history": null
   },
   {
-    "team": "Stetson",
-    "status": "Out",
-    "name": "La\u2019Niya Richardson",
-    "height": "5-6",
-    "year": "JR",
-    "position": "guard",
-    "hometown": "Macon, GA",
-    "entered_portal": "2026-04-06",
-    "transfer_history": null
-  },
-  {
     "team": "Stony Brook",
     "status": "In",
     "name": "Jada Cook",
@@ -21541,10 +21376,10 @@
     "team": "Temple",
     "status": "Out",
     "name": "Kelian Cedano",
-    "height": "5-10",
-    "year": "SO",
-    "position": "shooting guard",
-    "hometown": "Boston, MA",
+    "height": null,
+    "year": null,
+    "position": null,
+    "hometown": null,
     "entered_portal": "2026-04-06",
     "transfer_history": null
   },
@@ -21562,24 +21397,13 @@
   {
     "team": "Temple",
     "status": "Out",
-    "name": "Felicia Jacobs",
-    "height": "6-3",
-    "year": "SO",
-    "position": "forward",
-    "hometown": "London, England",
-    "entered_portal": "2026-04-16",
-    "transfer_history": null
-  },
-  {
-    "team": "Temple",
-    "status": "Out",
     "name": "Brianna Mead",
-    "height": "5-7",
-    "year": "SO",
-    "position": "guard",
-    "hometown": "Thompson, CT",
+    "height": null,
+    "year": null,
+    "position": null,
+    "hometown": null,
     "entered_portal": "2026-04-06",
-    "transfer_history": "from Long Island University to Temple following the 2024-25 season"
+    "transfer_history": null
   },
   {
     "team": "Temple",
@@ -21596,10 +21420,10 @@
     "team": "Temple",
     "status": "Out",
     "name": "Sheyenne Swain-Price",
-    "height": "6-0",
-    "year": "RS SO",
-    "position": "forward",
-    "hometown": "Stoughton, MA",
+    "height": null,
+    "year": null,
+    "position": null,
+    "hometown": null,
     "entered_portal": "2026-04-06",
     "transfer_history": null
   },
