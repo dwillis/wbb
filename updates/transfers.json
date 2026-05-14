@@ -353,6 +353,17 @@
   },
   {
     "team": "Alabama A&M",
+    "status": "In",
+    "name": "Logyn McNeil",
+    "height": "6-3",
+    "year": "RS SO",
+    "position": "forward",
+    "hometown": "Rockwall, TX (grad xfer)",
+    "entered_portal": null,
+    "transfer_history": "LSU to Houston following the 2021-22 season"
+  },
+  {
+    "team": "Alabama A&M",
     "status": "Out",
     "name": "Tre\u2019Miyah Berry",
     "height": "5-9",
@@ -360,7 +371,18 @@
     "position": "combo guard",
     "hometown": "Conyers, GA",
     "entered_portal": "2026-04-06",
-    "transfer_history": "from New Orleans to Alabama A&M following the 2024-25 season"
+    "transfer_history": "from New Orleans to AAMU following the 2024-25 season"
+  },
+  {
+    "team": "Alabama A&M",
+    "status": "Out",
+    "name": "Zaria Glover",
+    "height": "5-10",
+    "year": "SR",
+    "position": "wing",
+    "hometown": "Las Vegas, NV",
+    "entered_portal": "2026-04-20",
+    "transfer_history": "from Northwest Mississippi CC (juco) to Jackson State to AAMU"
   },
   {
     "team": "Alabama A&M",
@@ -371,7 +393,7 @@
     "position": "guard",
     "hometown": "Batesville, MS",
     "entered_portal": "2026-04-06",
-    "transfer_history": "from Northeast Mississippi CC (juco) to Alabama A&M"
+    "transfer_history": "from Northeast Mississippi CC (juco) to AAMU"
   },
   {
     "team": "Alabama A&M",
@@ -382,7 +404,18 @@
     "position": "shooting guard",
     "hometown": "Rockwall, TX",
     "entered_portal": "2026-04-06",
-    "transfer_history": "from Jackson State to Colorado to Alabama A&M"
+    "transfer_history": "from Jackson State to Colorado to AAMU"
+  },
+  {
+    "team": "Alabama A&M",
+    "status": "Out",
+    "name": "Amber Scott",
+    "height": "5-9",
+    "year": "SR",
+    "position": "guard",
+    "hometown": "Jackson, MS",
+    "entered_portal": "2026-04-14",
+    "transfer_history": "from Mississippi Gulf Coast CC (juco) to Rust College (NAIA) to AAMU"
   },
   {
     "team": "UAB",
@@ -4131,8 +4164,8 @@
     "height": "6-1",
     "year": "SO",
     "position": "guard",
-    "hometown": "Pelham, ON",
-    "entered_portal": "2026-04-06",
+    "hometown": "Pelham, ON [returned to Cleveland State]",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -4153,8 +4186,8 @@
     "height": "5-7",
     "year": "FR",
     "position": "guard",
-    "hometown": "Norrkoping, Sweden",
-    "entered_portal": "2026-04-06",
+    "hometown": "Norrkoping, Sweden [returned to Cleveland State]",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -4164,9 +4197,9 @@
     "height": "6-1",
     "year": "SO",
     "position": "wing",
-    "hometown": "Sant Andreu de Llavaneres, Spain",
-    "entered_portal": "2026-04-09",
-    "transfer_history": "from Abilene Christian to Cleveland State following the 2024-25 season"
+    "hometown": "Sant Andreu de Llavaneres, Spain [returned to Cleveland State]",
+    "entered_portal": null,
+    "transfer_history": null
   },
   {
     "team": "Cleveland State",
@@ -4175,8 +4208,8 @@
     "height": "5-6",
     "year": "JR",
     "position": "point guard",
-    "hometown": "Moreno Valley, CA",
-    "entered_portal": "2026-04-06",
+    "hometown": "Moreno Valley, CA [returned to Cleveland State]",
+    "entered_portal": null,
     "transfer_history": "from Johnson C. Smith (D-II) to Indiana State to Cleveland State"
   },
   {
@@ -4628,6 +4661,17 @@
     "position": "combo guard",
     "hometown": "Madison, WI",
     "entered_portal": "2026-04-07",
+    "transfer_history": null
+  },
+  {
+    "team": "Creighton",
+    "status": "In",
+    "name": "Niamya Holloway",
+    "height": "6-0",
+    "year": "RS JR",
+    "position": "forward",
+    "hometown": "Eden Prairie, MN (grad xfer)",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -5641,6 +5685,17 @@
     "hometown": "London, KY",
     "entered_portal": null,
     "transfer_history": null
+  },
+  {
+    "team": "Eastern Kentucky",
+    "status": "In",
+    "name": "Michelle Ugwah",
+    "height": "6-1",
+    "year": "RS SO",
+    "position": "forward",
+    "hometown": "Cork, Ireland",
+    "entered_portal": null,
+    "transfer_history": "from Morehead State to San Francisco following the 2024-25 season"
   },
   {
     "team": "Eastern Kentucky",
@@ -12069,6 +12124,17 @@
   {
     "team": "Merrimack",
     "status": "Out",
+    "name": "Mia Fiore",
+    "height": "5-10",
+    "year": "SO",
+    "position": "guard",
+    "hometown": "Naragansett, RI",
+    "entered_portal": "2026-04-08",
+    "transfer_history": null
+  },
+  {
+    "team": "Merrimack",
+    "status": "Out",
     "name": "Denae Skelton",
     "height": "5-8",
     "year": "SO",
@@ -14726,7 +14792,7 @@
     "position": "combo guard",
     "hometown": "Conyers, GA",
     "entered_portal": null,
-    "transfer_history": "from New Orleans to Alabama A&M following the 2024-25 season"
+    "transfer_history": "from New Orleans to AAMU following the 2024-25 season"
   },
   {
     "team": "UNC Asheville",
@@ -17712,6 +17778,28 @@
   {
     "team": "Rhode Island",
     "status": "In",
+    "name": "Mia Fiore",
+    "height": "5-10",
+    "year": "SO",
+    "position": "guard",
+    "hometown": "Naragansett, RI",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Rhode Island",
+    "status": "In",
+    "name": "Delanie Hill",
+    "height": "5-7",
+    "year": "SO",
+    "position": "point guard",
+    "hometown": "Charlotte, NC",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Rhode Island",
+    "status": "In",
     "name": "Queen Ikhiuwu",
     "height": "6-1",
     "year": "JR",
@@ -20352,6 +20440,17 @@
   {
     "team": "SIUE",
     "status": "In",
+    "name": "Giselle Dogan",
+    "height": "5-7",
+    "year": "SO",
+    "position": "guard",
+    "hometown": "Everett, WA",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "SIUE",
+    "status": "In",
     "name": "Pryelle Kesse-Beda",
     "height": "6-1",
     "year": "SO",
@@ -20865,6 +20964,17 @@
     "hometown": "Flint, MI",
     "entered_portal": null,
     "transfer_history": null
+  },
+  {
+    "team": "Syracuse",
+    "status": "In",
+    "name": "Emely Rodriguez",
+    "height": "6-0",
+    "year": "SO",
+    "position": "wing",
+    "hometown": "La Romana, Dominican Republic",
+    "entered_portal": null,
+    "transfer_history": "from UCF (All\u2013Big 12 Freshman Team) to Iowa following the 2024-25 season"
   },
   {
     "team": "Syracuse",
@@ -23043,6 +23153,17 @@
     "hometown": "Snohomish, WA",
     "entered_portal": null,
     "transfer_history": null
+  },
+  {
+    "team": "Utah State",
+    "status": "In",
+    "name": "Lisa Thompson",
+    "height": "5-9",
+    "year": "JR",
+    "position": "shooting guard",
+    "hometown": "Joliet, IL",
+    "entered_portal": null,
+    "transfer_history": "from Rutgers to Missouri following the 2024-25 season"
   },
   {
     "team": "Utah State",
