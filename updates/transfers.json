@@ -7613,6 +7613,17 @@
   },
   {
     "team": "Georgia State",
+    "status": "In",
+    "name": "Aryelle Stevens",
+    "height": "6-1",
+    "year": "SR",
+    "position": "forward",
+    "hometown": "Pearland, TX (grad xfer)",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Georgia State",
     "status": "Out",
     "name": "Gabbie Grooms",
     "height": "5-8",
@@ -9297,6 +9308,17 @@
   {
     "team": "Iowa",
     "status": "In",
+    "name": "Bria Medina",
+    "height": "5-6",
+    "year": "JR",
+    "position": "guard",
+    "hometown": "Tucson, AZ",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Iowa",
+    "status": "In",
     "name": "Amari Whiting",
     "height": "5-10",
     "year": "JR",
@@ -10063,6 +10085,17 @@
     "hometown": "Warrenton, MO",
     "entered_portal": "2026-04-06",
     "transfer_history": null
+  },
+  {
+    "team": "Kennesaw State",
+    "status": "In",
+    "name": "Tracey Bershers",
+    "height": "6-2",
+    "year": "GR",
+    "position": "forward",
+    "hometown": "Glenwood, AR (grad xfer)",
+    "entered_portal": null,
+    "transfer_history": "from Oklahoma State to UAB to Minnesota"
   },
   {
     "team": "Kennesaw State",
@@ -13704,6 +13737,17 @@
     "hometown": "Zaragoza, Spain",
     "entered_portal": "2026-04-06",
     "transfer_history": "from Delaware State to Morehead following the 2024-25 season"
+  },
+  {
+    "team": "Morgan State",
+    "status": "In",
+    "name": "Alexiz Graise",
+    "height": "6-0",
+    "year": "FR",
+    "position": "shooting guard",
+    "hometown": "Phoenix, AZ",
+    "entered_portal": null,
+    "transfer_history": null
   },
   {
     "team": "Morgan State",
@@ -23674,6 +23718,17 @@
   {
     "team": "Valparaiso",
     "status": "In",
+    "name": "Kylee Norkus",
+    "height": "5-10",
+    "year": "RS FR",
+    "position": "shooting guard",
+    "hometown": "Naperville, IL",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Valparaiso",
+    "status": "In",
     "name": "Hillary Offing",
     "height": "5-11",
     "year": "RS SO",
@@ -25330,6 +25385,28 @@
     "position": "forward",
     "hometown": "Canton, GA",
     "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
+    "team": "Wright State",
+    "status": "In",
+    "name": "Jasmine Fearne",
+    "height": "6-0",
+    "year": "RS JR",
+    "position": "wing",
+    "hometown": "Cairns, Australia (grad xfer)",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Wright State",
+    "status": "In",
+    "name": "Jayden Terry",
+    "height": "5-9",
+    "year": "FR",
+    "position": "combo guard",
+    "hometown": "Gainesville, FL",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
