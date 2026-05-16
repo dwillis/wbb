@@ -10573,6 +10573,17 @@
   {
     "team": "Lindenwood",
     "status": "Out",
+    "name": "Jovana Nikoli\u0107",
+    "height": "6-2",
+    "year": "RS FR",
+    "position": "forward",
+    "hometown": "Belgrade, Serbia",
+    "entered_portal": "2026-04-14",
+    "transfer_history": "from Xavier to Lindenwood following the 2024-25 season"
+  },
+  {
+    "team": "Lindenwood",
+    "status": "Out",
     "name": "Valerie Norwood",
     "height": "5-8",
     "year": "FR",
@@ -15961,6 +15972,39 @@
     "transfer_history": null
   },
   {
+    "team": "Northern Illinois",
+    "status": "Out",
+    "name": "Juliana Haddad",
+    "height": "5-10",
+    "year": "SO",
+    "position": "wing",
+    "hometown": "Espoo, Finland",
+    "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
+    "team": "Northern Illinois",
+    "status": "Out",
+    "name": "Julia Sollberger",
+    "height": "5-8",
+    "year": "SO",
+    "position": "guard",
+    "hometown": "Peoria, IL",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Northern Illinois",
+    "status": "Out",
+    "name": "Lily Taylor",
+    "height": "5-9",
+    "year": "FR",
+    "position": "shooting guard",
+    "hometown": "Chicago, IL",
+    "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
     "team": "Northern Iowa",
     "status": "In",
     "name": "Callie Levin",
@@ -16244,6 +16288,17 @@
     "position": "guard",
     "hometown": "Cincinnati, OH",
     "entered_portal": "2026-04-17",
+    "transfer_history": null
+  },
+  {
+    "team": "Oakland",
+    "status": "In",
+    "name": "Samone Andrews",
+    "height": "5-8",
+    "year": "SO",
+    "position": "guard",
+    "hometown": "Port Huron, MI",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
