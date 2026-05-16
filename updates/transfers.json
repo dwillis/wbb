@@ -6393,17 +6393,6 @@
   {
     "team": "Florida A&M",
     "status": "In",
-    "name": "Kamryn Grant",
-    "height": "6-0",
-    "year": "SO",
-    "position": "wing",
-    "hometown": "Columbus, OH",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Florida A&M",
-    "status": "In",
     "name": "Rose Jamison",
     "height": "6-0",
     "year": "RS JR",
@@ -10573,17 +10562,6 @@
   {
     "team": "Lindenwood",
     "status": "Out",
-    "name": "Jovana Nikoli\u0107",
-    "height": "6-2",
-    "year": "RS FR",
-    "position": "forward",
-    "hometown": "Belgrade, Serbia",
-    "entered_portal": "2026-04-14",
-    "transfer_history": "from Xavier to Lindenwood following the 2024-25 season"
-  },
-  {
-    "team": "Lindenwood",
-    "status": "Out",
     "name": "Valerie Norwood",
     "height": "5-8",
     "year": "FR",
@@ -12608,24 +12586,13 @@
   {
     "team": "Miami (OH)",
     "status": "In",
-    "name": "Luc\u00eda Mart\u00ednez L\u00f3pez",
-    "height": "6-1",
-    "year": "SO",
-    "position": "wing/forward",
-    "hometown": "Oviedo, Spain",
+    "name": "Jaya McClure",
+    "height": "5-6",
+    "year": "RS JR",
+    "position": "combo guard",
+    "hometown": "Louisville, KY",
     "entered_portal": null,
     "transfer_history": null
-  },
-  {
-    "team": "Miami (OH)",
-    "status": "In",
-    "name": "Jade Ondineme",
-    "height": "6-3",
-    "year": "JR",
-    "position": "center",
-    "hometown": "Orleans, France",
-    "entered_portal": null,
-    "transfer_history": "from Northwest Florida State College (juco) to Indiana"
   },
   {
     "team": "Miami (OH)",
@@ -13653,17 +13620,6 @@
   {
     "team": "Morehead State",
     "status": "In",
-    "name": "Kamora Morgan",
-    "height": "6-0",
-    "year": "SO",
-    "position": "wing",
-    "hometown": "Oshawa, ON",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Morehead State",
-    "status": "In",
     "name": "Alonna Poole",
     "height": "5-11",
     "year": "SO",
@@ -14386,17 +14342,6 @@
     "hometown": "Clark, NJ",
     "entered_portal": "2026-04-06",
     "transfer_history": "from Rhode Island to UNH following the 2024-25 season"
-  },
-  {
-    "team": "New Haven",
-    "status": "In",
-    "name": "Claudia L\u00e1zaro",
-    "height": "6-2",
-    "year": "FR",
-    "position": "center",
-    "hometown": "Madrid, Spain",
-    "entered_portal": null,
-    "transfer_history": null
   },
   {
     "team": "New Haven",
@@ -15972,39 +15917,6 @@
     "transfer_history": null
   },
   {
-    "team": "Northern Illinois",
-    "status": "Out",
-    "name": "Juliana Haddad",
-    "height": "5-10",
-    "year": "SO",
-    "position": "wing",
-    "hometown": "Espoo, Finland",
-    "entered_portal": "2026-04-06",
-    "transfer_history": null
-  },
-  {
-    "team": "Northern Illinois",
-    "status": "Out",
-    "name": "Julia Sollberger",
-    "height": "5-8",
-    "year": "SO",
-    "position": "guard",
-    "hometown": "Peoria, IL",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Northern Illinois",
-    "status": "Out",
-    "name": "Lily Taylor",
-    "height": "5-9",
-    "year": "FR",
-    "position": "shooting guard",
-    "hometown": "Chicago, IL",
-    "entered_portal": "2026-04-06",
-    "transfer_history": null
-  },
-  {
     "team": "Northern Iowa",
     "status": "In",
     "name": "Callie Levin",
@@ -16288,17 +16200,6 @@
     "position": "guard",
     "hometown": "Cincinnati, OH",
     "entered_portal": "2026-04-17",
-    "transfer_history": null
-  },
-  {
-    "team": "Oakland",
-    "status": "In",
-    "name": "Samone Andrews",
-    "height": "5-8",
-    "year": "SO",
-    "position": "guard",
-    "hometown": "Port Huron, MI",
-    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -18042,17 +17943,6 @@
   {
     "team": "Quinnipiac",
     "status": "In",
-    "name": "Elle Snyder",
-    "height": "5-9",
-    "year": "SO",
-    "position": "shooting guard/wing",
-    "hometown": "Latrobe, PA",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Quinnipiac",
-    "status": "In",
     "name": "Lilly Thomas",
     "height": "6-1",
     "year": "FR",
@@ -18449,7 +18339,7 @@
   {
     "team": "Rider",
     "status": "Out",
-    "name": "Claudia L\u00e1zaro",
+    "name": "Claudia Lazaro-Carrasco",
     "height": "6-2",
     "year": "FR",
     "position": "center",
