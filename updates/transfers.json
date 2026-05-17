@@ -1399,39 +1399,6 @@
   {
     "team": "Austin Peay",
     "status": "In",
-    "name": "Tish Blackwood",
-    "height": "5-10",
-    "year": "FR",
-    "position": "forward",
-    "hometown": "Falmouth, MA",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Austin Peay",
-    "status": "In",
-    "name": "Kiara Croskey",
-    "height": "5-7",
-    "year": "SO",
-    "position": "guard",
-    "hometown": "Sumter, SC",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Austin Peay",
-    "status": "In",
-    "name": "Peighton Jambor",
-    "height": "6-0",
-    "year": "JR",
-    "position": "forward",
-    "hometown": "Moncks Corner, SC",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Austin Peay",
-    "status": "In",
     "name": "Destiny Jones",
     "height": "5-9",
     "year": "SO",
@@ -1866,7 +1833,7 @@
     "year": "FR",
     "position": "combo guard",
     "hometown": "Jonesboro, GA",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -4792,7 +4759,7 @@
     "year": "FR",
     "position": "point guard",
     "hometown": "West Orange, NJ",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
