@@ -249,7 +249,7 @@
     "year": "JR",
     "position": "forward",
     "hometown": "Valdosta, GA",
-    "entered_portal": "2026-04-07",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -271,7 +271,7 @@
     "year": "FR",
     "position": "forward",
     "hometown": "Stockholm, Sweden",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -282,7 +282,7 @@
     "year": "RS SO",
     "position": "wing",
     "hometown": "Raleigh, NC",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -293,7 +293,7 @@
     "year": "FR",
     "position": "forward/center",
     "hometown": "Arlington, TX",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -315,7 +315,7 @@
     "year": "SO",
     "position": "wing",
     "hometown": "Jacksonville, FL",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -326,7 +326,7 @@
     "year": "JR",
     "position": "forward",
     "hometown": "Delray Beach, FL",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Coastal Carolina to Alabama following the 2024-25 season"
   },
   {
@@ -1283,7 +1283,7 @@
     "year": "SO",
     "position": "center",
     "hometown": "Savannah, TX",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -2553,13 +2553,24 @@
   },
   {
     "team": "Butler",
+    "status": "In",
+    "name": "Judit Valero",
+    "height": "5-11",
+    "year": "JR",
+    "position": "shooting guard",
+    "hometown": "Sant Feliu de Llobregat, Spain",
+    "entered_portal": null,
+    "transfer_history": "from South Florida to FIU following the 2023-24 season"
+  },
+  {
+    "team": "Butler",
     "status": "Out",
     "name": "Addison Baxter",
     "height": "5-9",
     "year": "FR",
     "position": "point guard",
     "hometown": "Larwill, IN",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -2570,7 +2581,7 @@
     "year": "JR",
     "position": "forward",
     "hometown": "Havertown, PA",
-    "entered_portal": "2026-04-08",
+    "entered_portal": null,
     "transfer_history": "from Maine to Butler following the 2024-25 season"
   },
   {
@@ -2581,7 +2592,7 @@
     "year": "SO",
     "position": "shooting guard",
     "hometown": "Wilmot, WI",
-    "entered_portal": "2026-04-08",
+    "entered_portal": null,
     "transfer_history": "from Minnesota to Butler following the 2024-25 season"
   },
   {
@@ -2592,7 +2603,7 @@
     "year": "JR",
     "position": "combo guard",
     "hometown": "Harvest, AL",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Samford to Butler following the 2024-25 season"
   },
   {
@@ -2603,7 +2614,7 @@
     "year": "RS SO",
     "position": "forward/center",
     "hometown": "Aberdeen, SD",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Arizona State to Butler following the 2024-25 season"
   },
   {
@@ -2614,7 +2625,7 @@
     "year": "RS FR",
     "position": "forward/center",
     "hometown": "Rochester, MI",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -2625,7 +2636,7 @@
     "year": "SO",
     "position": "forward",
     "hometown": "Beaver Dam, WI",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from South Dakota to Butler following the 2024-25 season"
   },
   {
@@ -2636,7 +2647,7 @@
     "year": "FR",
     "position": "shooting guard/wing",
     "hometown": "Rockford, MI",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -2647,7 +2658,7 @@
     "year": "SO",
     "position": "shooting guard",
     "hometown": "Byron Center, MI",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -3945,7 +3956,7 @@
     "year": "SO",
     "position": "guard",
     "hometown": "Augusta, GA",
-    "entered_portal": "2026-04-20",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -3956,7 +3967,7 @@
     "year": "JR",
     "position": "center",
     "hometown": "Augusta, GA",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -6024,7 +6035,7 @@
     "year": "JR",
     "position": "point guard",
     "hometown": "Shelby, NC",
-    "entered_portal": "2026-03-30",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -6244,7 +6255,7 @@
     "year": "SO",
     "position": "forward",
     "hometown": "Ewing, NJ",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -6277,7 +6288,7 @@
     "year": "SO",
     "position": "point guard",
     "hometown": "Yardley, PA",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -6299,7 +6310,7 @@
     "year": "JR",
     "position": "forward",
     "hometown": "Philadelphia, PA",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -6673,7 +6684,7 @@
     "year": "JR",
     "position": "forward",
     "hometown": "Nassau, Bahamas",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -6684,7 +6695,7 @@
     "year": "JR",
     "position": "combo guard",
     "hometown": "Nassau, Bahamas",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Dayton to FIU following the 2024-25 season"
   },
   {
@@ -6695,7 +6706,7 @@
     "year": "SO",
     "position": "wing",
     "hometown": "Madrid, Spain",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -6751,7 +6762,7 @@
     "position": "shooting guard",
     "hometown": "Sant Feliu de Llobregat, Spain",
     "entered_portal": null,
-    "transfer_history": null
+    "transfer_history": "from South Florida to FIU following the 2023-24 season"
   },
   {
     "team": "Florida State",
@@ -7108,6 +7119,17 @@
   {
     "team": "George Mason",
     "status": "In",
+    "name": "Tia Dobson",
+    "height": "5-7",
+    "year": "SO",
+    "position": "point guard",
+    "hometown": "Dayton Beach, FL",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "George Mason",
+    "status": "In",
     "name": "Roisin Grandberry",
     "height": "6-4",
     "year": "SO",
@@ -7124,6 +7146,17 @@
     "year": "SO",
     "position": "guard",
     "hometown": "Daytona Beach, FL",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "George Mason",
+    "status": "In",
+    "name": "Mary-Kate Tshibuabua",
+    "height": "6-1",
+    "year": "RS FR",
+    "position": "forward",
+    "hometown": "Ternay, France",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -7179,7 +7212,7 @@
     "year": "FR",
     "position": "wing",
     "hometown": "Stafford, VA",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -7190,7 +7223,7 @@
     "year": "FR",
     "position": "point guard",
     "hometown": "Philadelphia, PA",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -11480,7 +11513,7 @@
     "year": "JR",
     "position": "wing",
     "hometown": "Annapolis, MD",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -11788,7 +11821,7 @@
     "year": "FR",
     "position": "forward",
     "hometown": "Arad, Romania",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -11799,7 +11832,7 @@
     "year": "RS JR",
     "position": "forward/center",
     "hometown": "London, England",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Gulf Coast State (juco) to Maryland"
   },
   {
@@ -11810,7 +11843,7 @@
     "year": "SR",
     "position": "guard",
     "hometown": "Bay Shore, NY",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Rutgers to Maryland following the 2023-24 season"
   },
   {
@@ -11821,7 +11854,7 @@
     "year": "RS FR",
     "position": "point guard",
     "hometown": "Beltsville, MD",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -11832,7 +11865,7 @@
     "year": "RS FR",
     "position": "forward",
     "hometown": "Billings, MT",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -11872,21 +11905,21 @@
     "team": "UMBC",
     "status": "Out",
     "name": "Kenya Ramsey",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
-    "entered_portal": "2026-04-06",
+    "height": "6-0",
+    "year": "SO",
+    "position": "wing",
+    "hometown": "Virginia Beach, VA",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
     "team": "UMBC",
     "status": "Out",
     "name": "Lauren Thompson",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
+    "height": "5-6",
+    "year": "SO",
+    "position": "combo guard",
+    "hometown": "Branford, CT",
     "entered_portal": "2026-04-06",
     "transfer_history": null
   },
@@ -11898,7 +11931,7 @@
     "year": "JR",
     "position": "wing",
     "hometown": "Rockville, MD",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from East Carolina to UMBC following the 2024-25 season"
   },
   {
@@ -12283,7 +12316,7 @@
     "year": "FR",
     "position": "combo guard",
     "hometown": "Augusta, GA",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -12294,7 +12327,7 @@
     "year": "FR",
     "position": "forward",
     "hometown": "Brussels, Belgium",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -12338,7 +12371,7 @@
     "year": "RS FR",
     "position": "wing",
     "hometown": "Detroit, MI",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -12349,7 +12382,7 @@
     "year": "SO",
     "position": "wing",
     "hometown": "Detroit, MI",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -13537,7 +13570,7 @@
     "year": "SO",
     "position": "guard",
     "hometown": "Topeka, KS",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Kansas to Missouri State following the 2025-26 season"
   },
   {
@@ -13548,7 +13581,7 @@
     "year": "JR",
     "position": "forward/center",
     "hometown": "Little Rock, AR",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Western Carolina to Missouri State following the 2023-24 season"
   },
   {
@@ -13746,7 +13779,7 @@
     "year": "FR",
     "position": "shooting guard",
     "hometown": "Lynden, WA",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -13757,7 +13790,7 @@
     "year": "RS FR",
     "position": "wing",
     "hometown": "London, ON",
-    "entered_portal": "2026-04-08",
+    "entered_portal": null,
     "transfer_history": "from Toledo to Montana State following the 2024-25 season"
   },
   {
@@ -13768,7 +13801,7 @@
     "year": "RS FR",
     "position": "wing",
     "hometown": "London, ON",
-    "entered_portal": "2026-04-08",
+    "entered_portal": null,
     "transfer_history": "from Toledo to Montana State following the 2024-25 season"
   },
   {
@@ -13982,13 +14015,24 @@
   },
   {
     "team": "Morgan State",
+    "status": "In",
+    "name": "Kenya Ramsey",
+    "height": "6-0",
+    "year": "SO",
+    "position": "wing",
+    "hometown": "Virginia Beach, VA",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Morgan State",
     "status": "Out",
     "name": "Michaela Bogans",
     "height": "5-6",
     "year": "SO",
     "position": "point guard",
     "hometown": "Augusta, GA",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -15269,6 +15313,50 @@
   },
   {
     "team": "North Carolina A&T",
+    "status": "In",
+    "name": "Yves Cox",
+    "height": "6-2",
+    "year": "SO",
+    "position": "center",
+    "hometown": "Savannah, TX",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "North Carolina A&T",
+    "status": "In",
+    "name": "Rania Curry",
+    "height": "5-9",
+    "year": "FR",
+    "position": "combo guard",
+    "hometown": "Augusta, GA",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "North Carolina A&T",
+    "status": "In",
+    "name": "Maraja Pass",
+    "height": "5-4",
+    "year": "JR",
+    "position": "point guard",
+    "hometown": "Shelby, NC (grad xfer)",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "North Carolina A&T",
+    "status": "In",
+    "name": "Icyss Storm",
+    "height": "6-1",
+    "year": "FR",
+    "position": "forward",
+    "hometown": "Durham, NC",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "North Carolina A&T",
     "status": "Out",
     "name": "Eva Andrews",
     "height": "5-8",
@@ -15588,6 +15676,72 @@
   },
   {
     "team": "UNC Wilmington",
+    "status": "In",
+    "name": "Kimmie Hicks",
+    "height": "5-9",
+    "year": "JR",
+    "position": "wing",
+    "hometown": "Annapolis, MD",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "UNC Wilmington",
+    "status": "In",
+    "name": "Loghan Johnson",
+    "height": "5-10",
+    "year": "JR",
+    "position": "shooting guard",
+    "hometown": "Hosuton, TX",
+    "entered_portal": "2026-04-06",
+    "transfer_history": "from Texas Tech to WVU following the 2024-25 season"
+  },
+  {
+    "team": "UNC Wilmington",
+    "status": "In",
+    "name": "Leah Keyes",
+    "height": "5-10",
+    "year": "FR",
+    "position": "wing",
+    "hometown": "Stafford, VA",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "UNC Wilmington",
+    "status": "In",
+    "name": "Bella Toomey",
+    "height": "6-2",
+    "year": "JR",
+    "position": "forward",
+    "hometown": "Philadelphia, PA",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "UNC Wilmington",
+    "status": "Out",
+    "name": "Tia Dobson",
+    "height": "5-7",
+    "year": "SO",
+    "position": "point guard",
+    "hometown": "Dayton Beach, FL",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "UNC Wilmington",
+    "status": "Out",
+    "name": "Mary Ferrito",
+    "height": "5-10",
+    "year": "RS JR",
+    "position": "guard",
+    "hometown": "Plain City, OH",
+    "entered_portal": "2026-04-20",
+    "transfer_history": null
+  },
+  {
+    "team": "UNC Wilmington",
     "status": "Out",
     "name": "Kate Hollifield",
     "height": "5-10",
@@ -15638,6 +15792,28 @@
     "year": "RS SO",
     "position": "shooting guard/wing",
     "hometown": "Greenville, NC",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "UNC Wilmington",
+    "status": "Out",
+    "name": "Paige Smith",
+    "height": "5-7",
+    "year": "JR",
+    "position": "shooting guard",
+    "hometown": "Hagerstown, MD",
+    "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
+    "team": "UNC Wilmington",
+    "status": "Out",
+    "name": "Icyss Storm",
+    "height": "6-1",
+    "year": "FR",
+    "position": "forward",
+    "hometown": "Durham, NC",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -18438,12 +18614,34 @@
   {
     "team": "Rhode Island",
     "status": "Out",
+    "name": "Eva Agba",
+    "height": "6-0",
+    "year": "RS FR",
+    "position": "guard",
+    "hometown": "Marseille, France",
+    "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
+    "team": "Rhode Island",
+    "status": "Out",
+    "name": "Lilyana Fontcha",
+    "height": "6-4",
+    "year": "FR",
+    "position": "center",
+    "hometown": "Strasbourg, France",
+    "entered_portal": "2026-04-07",
+    "transfer_history": null
+  },
+  {
+    "team": "Rhode Island",
+    "status": "Out",
     "name": "Vanessa Harris",
     "height": "5-10",
     "year": "FR",
     "position": "shooting guard",
     "hometown": "Glenarden, MD",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -18460,12 +18658,34 @@
   {
     "team": "Rhode Island",
     "status": "Out",
+    "name": "Aim\u00e9e Michel",
+    "height": "6-3",
+    "year": "FR",
+    "position": "center",
+    "hometown": "Albi, France",
+    "entered_portal": "2026-04-07",
+    "transfer_history": null
+  },
+  {
+    "team": "Rhode Island",
+    "status": "Out",
     "name": "Albina Syla",
     "height": "6-5",
     "year": "SO",
     "position": "center",
     "hometown": "Vantaa, Finland",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Rhode Island",
+    "status": "Out",
+    "name": "Mary-Kate Tshibuabua",
+    "height": "6-1",
+    "year": "RS FR",
+    "position": "forward",
+    "hometown": "Ternay, France",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -19290,7 +19510,7 @@
     "year": "FR",
     "position": "point guard",
     "hometown": "Detroit, MI",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -19301,7 +19521,7 @@
     "year": "SO",
     "position": "forward/center",
     "hometown": "Melbourne, Australia",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -19312,7 +19532,7 @@
     "year": "SO",
     "position": "point guard",
     "hometown": "Portland, OR",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -19334,7 +19554,7 @@
     "year": "SO",
     "position": "wing",
     "hometown": "Melbourne, Australia",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -21088,6 +21308,17 @@
   },
   {
     "team": "SIUE",
+    "status": "In",
+    "name": "Tyra Robinson",
+    "height": "6-3",
+    "year": "JR",
+    "position": "forward/center",
+    "hometown": "Little Rock, AR",
+    "entered_portal": null,
+    "transfer_history": "from Western Carolina to Missouri State following the 2023-24 season"
+  },
+  {
+    "team": "SIUE",
     "status": "Out",
     "name": "Emiyah Cobb",
     "height": "5-9",
@@ -21105,7 +21336,7 @@
     "year": "SO",
     "position": "shooting guard",
     "hometown": "Park Ridge, IL",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -21116,7 +21347,7 @@
     "year": "FR",
     "position": "wing",
     "hometown": "Columbia, MO",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -23069,6 +23300,17 @@
   {
     "team": "Texas Southern",
     "status": "In",
+    "name": "Michaela Bogans",
+    "height": "5-6",
+    "year": "SO",
+    "position": "point guard",
+    "hometown": "Augusta, GA",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Texas Southern",
+    "status": "In",
     "name": "Bailey Burns",
     "height": "5-10",
     "year": "JR",
@@ -23129,7 +23371,7 @@
     "year": "SO",
     "position": "wing",
     "hometown": "Richmond, CA",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Utah State to TSU following the 2024-25 season"
   },
   {
@@ -24290,6 +24532,17 @@
   {
     "team": "Virginia",
     "status": "In",
+    "name": "Eris Lester",
+    "height": "5-11",
+    "year": "SO",
+    "position": "wing",
+    "hometown": "Jacksonville, FL",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Virginia",
+    "status": "In",
     "name": "Caterina Piatti",
     "height": "6-4",
     "year": "FR",
@@ -25087,7 +25340,7 @@
     "year": "JR",
     "position": "forward",
     "hometown": "Fishers, IN",
-    "entered_portal": "2026-04-21",
+    "entered_portal": null,
     "transfer_history": "from Butler to WVU following the 2024-25 season"
   },
   {
@@ -25098,7 +25351,7 @@
     "year": "JR",
     "position": "center",
     "hometown": "Oberlin, OH",
-    "entered_portal": "2026-04-16",
+    "entered_portal": null,
     "transfer_history": "from Northern Kentucky (2023-24 Horizon League Freshman of the Year, second-team All\u2013Horizon League) to Wisconsin to WVU"
   },
   {
@@ -25109,7 +25362,7 @@
     "year": "SO",
     "position": "center",
     "hometown": "Carrollton, TX",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
