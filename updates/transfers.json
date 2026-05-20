@@ -4435,6 +4435,17 @@
   {
     "team": "Cleveland State",
     "status": "In",
+    "name": "Silvia Gonzalez",
+    "height": "6-2",
+    "year": "JR",
+    "position": "forward",
+    "hometown": "Sant Adri\u00e0 del Bes\u00f2s, Catalonia, Spain",
+    "entered_portal": null,
+    "transfer_history": "from Bryant to GW following the 2024-25 season"
+  },
+  {
+    "team": "Cleveland State",
+    "status": "In",
     "name": "Alexa Hocevar",
     "height": "6-1",
     "year": "SO",
@@ -6767,6 +6778,17 @@
   {
     "team": "Florida Gulf Coast",
     "status": "In",
+    "name": "Amelia Hobson",
+    "height": "6-0",
+    "year": "SO",
+    "position": "wing",
+    "hometown": "Melbourne, Australia",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Florida Gulf Coast",
+    "status": "In",
     "name": "Denika Lightbourne",
     "height": "5-9",
     "year": "JR",
@@ -6794,7 +6816,7 @@
     "year": "FR",
     "position": "wing/forward",
     "hometown": "Largo, FL",
-    "entered_portal": "2026-04-07",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -7487,7 +7509,7 @@
     "year": "JR",
     "position": "forward",
     "hometown": "Sant Adri\u00e0 del Bes\u00f2s, Catalonia, Spain",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Bryant to GW following the 2024-25 season"
   },
   {
@@ -16164,9 +16186,9 @@
     "name": "Amelia Hobson",
     "height": "6-0",
     "year": "SO",
-    "position": "guard",
-    "hometown": "Parkdale, Australia",
-    "entered_portal": "2026-04-06",
+    "position": "wing",
+    "hometown": "Melbourne, Australia",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
