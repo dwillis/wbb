@@ -3538,7 +3538,7 @@
     "year": "SO",
     "position": "wing",
     "hometown": "Atlanta, GA",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -3549,7 +3549,7 @@
     "year": "FR",
     "position": "center",
     "hometown": "Lausanne, Switzerland",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -3560,7 +3560,7 @@
     "year": "FR",
     "position": "combo guard",
     "hometown": "Apex, NC",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -3572,6 +3572,17 @@
     "position": "combo guard",
     "hometown": "Charlotte, NC",
     "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
+    "team": "Campbell",
+    "status": "Out",
+    "name": "Olivia Tucker",
+    "height": "5-7",
+    "year": "SO",
+    "position": "shooting guard",
+    "hometown": "Durham, NC",
+    "entered_portal": "2026-05-20",
     "transfer_history": null
   },
   {
@@ -4022,7 +4033,7 @@
     "year": "JR",
     "position": "shooting guard/wing",
     "hometown": "Newark, NJ",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from St. John\u2019s to Charleston Southern following the 2023-24 season"
   },
   {
@@ -4050,13 +4061,35 @@
   {
     "team": "Charleston Southern",
     "status": "Out",
+    "name": "Naveyah Damon",
+    "height": "6-0",
+    "year": "RS SO",
+    "position": "wing",
+    "hometown": "Miami, FL",
+    "entered_portal": "2026-05-19",
+    "transfer_history": "from Oakland to Charleston Southern following the 2024-25 season"
+  },
+  {
+    "team": "Charleston Southern",
+    "status": "Out",
     "name": "Caelan Ellis",
     "height": "5-7",
     "year": "RS JR",
     "position": "shooting guard",
     "hometown": "Powder Springs, GA",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Buffalo to Charleston Southern following the 2022-23 season"
+  },
+  {
+    "team": "Charleston Southern",
+    "status": "Out",
+    "name": "Nevaeh Jones",
+    "height": "6-2",
+    "year": "FR",
+    "position": "center",
+    "hometown": "Bastrop, TX",
+    "entered_portal": null,
+    "transfer_history": null
   },
   {
     "team": "Charleston Southern",
@@ -4066,7 +4099,7 @@
     "year": "SR",
     "position": "center",
     "hometown": "Tucker, GA",
-    "entered_portal": "2026-03-19",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -4935,6 +4968,17 @@
     "year": "FR",
     "position": "wing",
     "hometown": "Atlanta, GA",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Coppin State",
+    "status": "In",
+    "name": "Anya George",
+    "height": "5-8",
+    "year": "FR",
+    "position": "point guard",
+    "hometown": "Chester, PA",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -7074,6 +7118,17 @@
   },
   {
     "team": "Florida State",
+    "status": "In",
+    "name": "Jasmine Nivar",
+    "height": "5-10",
+    "year": "FR",
+    "position": "combo guard",
+    "hometown": "Apex, NC",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Florida State",
     "status": "Out",
     "name": "Pania Davis",
     "height": "6-6",
@@ -7951,6 +8006,17 @@
     "hometown": "Midlothian, VA",
     "entered_portal": "2026-04-06",
     "transfer_history": null
+  },
+  {
+    "team": "Georgia Southern",
+    "status": "In",
+    "name": "Hailey Chiles",
+    "height": "6-3",
+    "year": "JR",
+    "position": "center",
+    "hometown": "Greenwood, SC",
+    "entered_portal": null,
+    "transfer_history": "from La Salle to Barry University (D-II) to NSU"
   },
   {
     "team": "Georgia Southern",
@@ -9412,6 +9478,17 @@
     "year": "FR",
     "position": "forward",
     "hometown": "San Antonio, TX",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Incarnate Word",
+    "status": "In",
+    "name": "Nevaeh Jones",
+    "height": "6-2",
+    "year": "FR",
+    "position": "center",
+    "hometown": "Bastrop, TX",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -12404,7 +12481,7 @@
     "year": "SO",
     "position": "forward",
     "hometown": "Tampa Bay, FL",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Oakland to UMass following the 2024-25 season"
   },
   {
@@ -12415,7 +12492,7 @@
     "year": "FR",
     "position": "point guard",
     "hometown": "Chester, PA",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -14302,6 +14379,17 @@
   {
     "team": "Morehead State",
     "status": "In",
+    "name": "Allie Sykes",
+    "height": "5-3",
+    "year": "FR",
+    "position": "point guard",
+    "hometown": "Burlington, NC",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Morehead State",
+    "status": "In",
     "name": "Samaria Taylor",
     "height": "5-7",
     "year": "SO",
@@ -15287,6 +15375,17 @@
     "position": "forward",
     "hometown": "Madrid, Spain",
     "entered_portal": "2026-04-20",
+    "transfer_history": null
+  },
+  {
+    "team": "New Orleans",
+    "status": "In",
+    "name": "Kehinde Obasuyi",
+    "height": "5-5",
+    "year": "RS JR",
+    "position": "point guard",
+    "hometown": "Villa Rica, GA (grad xfer)",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -18399,7 +18498,7 @@
     "year": "SR",
     "position": "shooting guard",
     "hometown": "Milwaukee, WI",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Chicago State to Presbyterian following the 2024-25 season"
   },
   {
@@ -18421,7 +18520,7 @@
     "year": "FR",
     "position": "point guard",
     "hometown": "Burlington, NC",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -25857,7 +25956,7 @@
     "year": "SO",
     "position": "combo guard",
     "hometown": "Atlanta, GA",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -25879,7 +25978,7 @@
     "year": "RS JR",
     "position": "point guard",
     "hometown": "Villa Rica, GA",
-    "entered_portal": "2026-03-30",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
