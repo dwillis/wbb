@@ -10,6 +10,26 @@
     "url": "https://gorunners.com/news/2026/4/14/wideman-resigns-as-csub-head-womens-basketball-coach.aspx"
   },
   {
+    "status": "Jobs Open",
+    "school": "Long Beach State",
+    "conference": "Big West",
+    "coach": "Amy Wright",
+    "role": "departed",
+    "text": "Amy Wright leaves to become associate head coach at Alabama (April 30, 2026)",
+    "date": "2026-04-30",
+    "url": null
+  },
+  {
+    "status": "Jobs Open",
+    "school": "Niagara",
+    "conference": "MAAC",
+    "coach": "Jada Pierce",
+    "role": "departed",
+    "text": "Jada Pierce resigns (April 10, 2026; press release)",
+    "date": "2026-04-10",
+    "url": "https://purpleeagles.com/news/2026/4/10/jada-pierce-steps-down-as-womens-basketball-head-coach.aspx"
+  },
+  {
     "status": "Jobs Filled",
     "school": "Alabama",
     "conference": "SEC",
@@ -561,26 +581,6 @@
   },
   {
     "status": "Jobs Filled",
-    "school": "Long Beach State",
-    "conference": "Big West",
-    "coach": "Amy Wright",
-    "role": "departed",
-    "text": "Amy Wright leaves to become associate head coach at Alabama (April 30, 2026)",
-    "date": "2026-04-30",
-    "url": null
-  },
-  {
-    "status": "Jobs Filled",
-    "school": "Long Beach State",
-    "conference": "Big West",
-    "coach": "Minyon Moore",
-    "role": "hired",
-    "text": "Minyon Moore hired (May 19, 2026; press release)",
-    "date": "2026-05-19",
-    "url": "https://longbeachstate.com/news/2026/5/19/womens-basketball-called-to-rise-long-beach-state-announces-minyon-moore-as-head-womens-basketball-coach"
-  },
-  {
-    "status": "Jobs Filled",
     "school": "Long Island University",
     "conference": "NEC",
     "coach": "Neil Harrow",
@@ -788,26 +788,6 @@
     "text": "Adeniyi Amadou hired (March 11, 2026; press release)",
     "date": "2026-03-11",
     "url": "https://nmstatesports.com/news/2026/3/11/womens-basketball-nm-state-announces-hiring-of-adeniyi-amadou-as-13th-head-coach-in-program-history.aspx"
-  },
-  {
-    "status": "Jobs Filled",
-    "school": "Niagara",
-    "conference": "MAAC",
-    "coach": "Jada Pierce",
-    "role": "departed",
-    "text": "Jada Pierce resigns (April 10, 2026; press release)",
-    "date": "2026-04-10",
-    "url": "https://purpleeagles.com/news/2026/4/10/jada-pierce-steps-down-as-womens-basketball-head-coach.aspx"
-  },
-  {
-    "status": "Jobs Filled",
-    "school": "Niagara",
-    "conference": "MAAC",
-    "coach": "Tiara Johnson",
-    "role": "hired",
-    "text": "Tiara Johnson hired (May 19, 2026; press release)",
-    "date": "2026-05-19",
-    "url": "https://purpleeagles.com/news/2026/5/19/tiara-johnson-named-womens-basketball-head-coach.aspx"
   },
   {
     "status": "Jobs Filled",
