@@ -5392,17 +5392,6 @@
   {
     "team": "DePaul",
     "status": "In",
-    "name": "Kaliyah Dillard",
-    "height": "6-0",
-    "year": "RS SO",
-    "position": "wing/forward",
-    "hometown": "Las Vegas, NV",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "DePaul",
-    "status": "In",
     "name": "Keira Hanson",
     "height": "5-8",
     "year": "SR",
@@ -20423,7 +20412,7 @@
     "year": "RS SO",
     "position": "wing/forward",
     "hometown": "Las Vegas, NV",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
