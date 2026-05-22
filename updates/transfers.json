@@ -29,7 +29,7 @@
     "year": "FR",
     "position": "point guard",
     "hometown": "Spring, TX",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -2493,7 +2493,7 @@
     "year": "JR",
     "position": "wing",
     "hometown": "Cleveland, OH",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Howard to Buffalo following the 2024-25 season"
   },
   {
@@ -2504,7 +2504,7 @@
     "year": "SO",
     "position": "wing",
     "hometown": "Philadelphia, PA",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from North Carolina A&T to Buffalo following the 2024-25 season"
   },
   {
@@ -2515,7 +2515,7 @@
     "year": "JR",
     "position": "guard",
     "hometown": "Alicante, Spain",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -3583,6 +3583,39 @@
     "position": "shooting guard",
     "hometown": "Durham, NC",
     "entered_portal": "2026-05-20",
+    "transfer_history": null
+  },
+  {
+    "team": "Canisius",
+    "status": "Out",
+    "name": "Ationique Auston",
+    "height": "5-9",
+    "year": "JR",
+    "position": "guard",
+    "hometown": "Sun Prairie, WI",
+    "entered_portal": "2026-04-08",
+    "transfer_history": null
+  },
+  {
+    "team": "Canisius",
+    "status": "Out",
+    "name": "Ileana Feliz",
+    "height": "6-1",
+    "year": "SO",
+    "position": "center",
+    "hometown": "New Milford, CT",
+    "entered_portal": "2026-04-06",
+    "transfer_history": "from Cal State Bakersfield to Canisius following the 2024-25 season"
+  },
+  {
+    "team": "Canisius",
+    "status": "Out",
+    "name": "Irene Rey Pineda",
+    "height": "5-10",
+    "year": "SO",
+    "position": "wing",
+    "hometown": "Madrid, Spain",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -6019,6 +6052,17 @@
   {
     "team": "Eastern Illinois",
     "status": "In",
+    "name": "Janyah Bohanon",
+    "height": "6-0",
+    "year": "JR",
+    "position": "wing",
+    "hometown": "Cleveland, OH",
+    "entered_portal": null,
+    "transfer_history": "from Howard to Buffalo following the 2024-25 season"
+  },
+  {
+    "team": "Eastern Illinois",
+    "status": "In",
     "name": "Nevaeh Dickman",
     "height": "6-0",
     "year": "FR",
@@ -7168,7 +7212,7 @@
     "year": "SO",
     "position": "wing/forward",
     "hometown": "Pattersonville, NY",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -7179,7 +7223,7 @@
     "year": "SO",
     "position": "point guard",
     "hometown": "South Kingston, RI",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -8323,7 +8367,7 @@
     "year": "SR",
     "position": "shooting guard",
     "hometown": "Ankara, Turkey",
-    "entered_portal": "2026-03-29",
+    "entered_portal": null,
     "transfer_history": "from South Georgia Tech (juco) to Gonzaga"
   },
   {
@@ -8334,7 +8378,7 @@
     "year": "FR",
     "position": "combo guard",
     "hometown": "Billings, MT",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -14170,11 +14214,22 @@
   {
     "team": "Montana",
     "status": "In",
-    "name": "Dom Nesland",
+    "name": "Alyssa Blanck",
+    "height": "6-2",
+    "year": "RS JR",
+    "position": "forward",
+    "hometown": "Salt Lake City, UT",
+    "entered_portal": null,
+    "transfer_history": "from BYU to Utah following the 2022-23 season"
+  },
+  {
+    "team": "Montana",
+    "status": "In",
+    "name": "Paige Lofing",
     "height": "5-9",
-    "year": "SO",
-    "position": "guard",
-    "hometown": "Phoenix, AZ",
+    "year": "FR",
+    "position": "combo guard",
+    "hometown": "Billings, MT",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -14186,6 +14241,17 @@
     "year": "SO",
     "position": "forward",
     "hometown": "Kalispell, MT",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Montana",
+    "status": "In",
+    "name": "Dom Nesland",
+    "height": "5-9",
+    "year": "SO",
+    "position": "guard",
+    "hometown": "Phoenix, AZ",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -18982,7 +19048,7 @@
     "year": "FR",
     "position": "shooting guard",
     "hometown": "Syracuse, NY",
-    "entered_portal": "2026-04-09",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -20098,6 +20164,39 @@
   },
   {
     "team": "Saint Peter\u2019s",
+    "status": "In",
+    "name": "Lamaria Estridge",
+    "height": "5-11",
+    "year": "SO",
+    "position": "forward",
+    "hometown": "Walkersville, MD",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Saint Peter\u2019s",
+    "status": "In",
+    "name": "Aniyah Neal",
+    "height": "5-11",
+    "year": "FR",
+    "position": "shooting guard",
+    "hometown": "Syracuse, NY",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Saint Peter\u2019s",
+    "status": "In",
+    "name": "Bree Riley",
+    "height": "5-5",
+    "year": "FR",
+    "position": "point guard",
+    "hometown": "Spring, TX",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Saint Peter\u2019s",
     "status": "Out",
     "name": "Layla Laws",
     "height": "6-1",
@@ -20126,7 +20225,7 @@
     "year": "SO",
     "position": "shooting guard/wing",
     "hometown": "Ocean, NJ",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -20137,7 +20236,7 @@
     "year": "SO",
     "position": "forward",
     "hometown": "Brooklyn, NY",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -22304,6 +22403,17 @@
     "year": "SO",
     "position": "guard",
     "hometown": "New Haven, CT",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Stony Brook",
+    "status": "In",
+    "name": "Irene Rey Pineda",
+    "height": "5-10",
+    "year": "SO",
+    "position": "wing",
+    "hometown": "Madrid, Spain",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -24515,7 +24625,7 @@
     "year": "RS JR",
     "position": "forward",
     "hometown": "Salt Lake City, UT",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from BYU to Utah following the 2022-23 season"
   },
   {
@@ -24526,7 +24636,7 @@
     "year": "SO",
     "position": "shooting guard/wing",
     "hometown": "Perth, Australia",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -24537,7 +24647,7 @@
     "year": "FR",
     "position": "shooting guard",
     "hometown": "Edmond, OK",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -24548,7 +24658,7 @@
     "year": "JR",
     "position": "forward",
     "hometown": "Rapid City, SD",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -24559,7 +24669,7 @@
     "year": "FR",
     "position": "point guard",
     "hometown": "San Antonio, TX",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -24570,7 +24680,7 @@
     "year": "SO",
     "position": "combo guard",
     "hometown": "Andover, KS",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
