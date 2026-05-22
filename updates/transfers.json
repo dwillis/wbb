@@ -2174,7 +2174,7 @@
     "year": "JR",
     "position": "forward",
     "hometown": "Toronto, ON",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -2185,7 +2185,7 @@
     "year": "RS JR",
     "position": "wing",
     "hometown": "Cairns, Australia",
-    "entered_portal": null,
+    "entered_portal": "2026-03-17",
     "transfer_history": null
   },
   {
@@ -2196,7 +2196,7 @@
     "year": "SO",
     "position": "wing/forward",
     "hometown": "Cincinnati, OH",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -2207,7 +2207,7 @@
     "year": "JR",
     "position": "point guard",
     "hometown": "Olmsted Falls, OH",
-    "entered_portal": null,
+    "entered_portal": "2026-03-12",
     "transfer_history": null
   },
   {
@@ -16436,17 +16436,6 @@
   {
     "team": "North Florida",
     "status": "In",
-    "name": "Brianna Mead",
-    "height": "5-7",
-    "year": "SO",
-    "position": "guard",
-    "hometown": "Thompson, CT",
-    "entered_portal": null,
-    "transfer_history": "from Long Island University to Temple following the 2024-25 season"
-  },
-  {
-    "team": "North Florida",
-    "status": "In",
     "name": "Brooke Winchester",
     "height": "6-0",
     "year": "FR",
@@ -16463,7 +16452,7 @@
     "year": "SR",
     "position": "guard",
     "hometown": "Marietta, GA",
-    "entered_portal": null,
+    "entered_portal": "2026-03-11",
     "transfer_history": null
   },
   {
@@ -20143,17 +20132,6 @@
   {
     "team": "Sam Houston State",
     "status": "In",
-    "name": "Laila Harrison",
-    "height": "6-1",
-    "year": "SO",
-    "position": "wing/forward",
-    "hometown": "Cincinnati, OH",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Sam Houston State",
-    "status": "In",
     "name": "Hannah Wallace",
     "height": "6-0",
     "year": "SO",
@@ -22678,7 +22656,7 @@
     "year": "RS SO",
     "position": "wing",
     "hometown": "Durham, NC",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -22689,7 +22667,7 @@
     "year": "SO",
     "position": "shooting guard",
     "hometown": "Boston, MA",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -22700,7 +22678,7 @@
     "year": "SO",
     "position": "shooting guard/wing",
     "hometown": "Fallston, MD",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -22711,7 +22689,7 @@
     "year": "SO",
     "position": "forward",
     "hometown": "London, England",
-    "entered_portal": null,
+    "entered_portal": "2026-04-16",
     "transfer_history": null
   },
   {
@@ -22722,7 +22700,7 @@
     "year": "SO",
     "position": "guard",
     "hometown": "Thompson, CT",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": "from Long Island University to Temple following the 2024-25 season"
   },
   {
@@ -22733,7 +22711,7 @@
     "year": "JR",
     "position": "wing/forward",
     "hometown": "The Hague, Netherlands",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
