@@ -19009,6 +19009,17 @@
   },
   {
     "team": "Purdue Fort Wayne",
+    "status": "In",
+    "name": "Hiba Malkawi",
+    "height": "5-7",
+    "year": "JR",
+    "position": "combo guard",
+    "hometown": "Plano, TX",
+    "entered_portal": null,
+    "transfer_history": "from Northeastern Oklahoma A&M College (juco) to SIU"
+  },
+  {
+    "team": "Purdue Fort Wayne",
     "status": "Out",
     "name": "Rylee Bess",
     "height": "5-6",
@@ -22051,7 +22062,7 @@
     "year": "RS JR",
     "position": "wing",
     "hometown": "Sikeston, MO",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Western Kentucky to SIU following the 2023-24 season"
   },
   {
@@ -22084,7 +22095,7 @@
     "year": "SO",
     "position": "shooting guard",
     "hometown": "Okawville, IL",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Oral Roberts to SIU following the 2024-25 season"
   },
   {
@@ -22095,7 +22106,7 @@
     "year": "JR",
     "position": "combo guard",
     "hometown": "Plano, TX",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Northeastern Oklahoma A&M College (juco) to SIU"
   },
   {
@@ -22117,7 +22128,7 @@
     "year": "JR",
     "position": "center",
     "hometown": "Lagos, Nigeria",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
