@@ -6272,17 +6272,6 @@
   {
     "team": "Eastern Michigan",
     "status": "In",
-    "name": "Zoe Guice",
-    "height": "5-7",
-    "year": "SO",
-    "position": "guard",
-    "hometown": "Westerville, OH",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Eastern Michigan",
-    "status": "In",
     "name": "Cheyenne McEvans",
     "height": "5-9",
     "year": "GR",
@@ -7020,17 +7009,6 @@
   {
     "team": "FIU",
     "status": "In",
-    "name": "Chloe Emanga",
-    "height": "5-9",
-    "year": "FR",
-    "position": "combo guard",
-    "hometown": "Marbach am Neckar, Germany",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "FIU",
-    "status": "In",
     "name": "Shorna Preston",
     "height": "6-1",
     "year": "JR",
@@ -7498,7 +7476,7 @@
     "year": "JR",
     "position": "point guard",
     "hometown": "Dekalb, IL",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -7520,7 +7498,7 @@
     "year": "JR",
     "position": "guard",
     "hometown": "Raleigh, NC",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -7531,7 +7509,7 @@
     "year": "FR",
     "position": "point guard",
     "hometown": "Christchurch, New Zealand",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -12344,33 +12322,11 @@
   {
     "team": "Marshall",
     "status": "In",
-    "name": "Princess Cassell",
-    "height": "5-9",
-    "year": "SO",
-    "position": "guard",
-    "hometown": "Eastvale, CA",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Marshall",
-    "status": "In",
     "name": "Cassie Gallagher",
     "height": "5-11",
     "year": "RS SO",
     "position": "shooting guard/wing",
     "hometown": "Cookeville, TN (grad xfer)",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Marshall",
-    "status": "In",
-    "name": "Anaya Harris",
-    "height": "5-9",
-    "year": "JR",
-    "position": "guard",
-    "hometown": "Raleigh, NC",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -12393,7 +12349,7 @@
     "year": "SR",
     "position": "guard",
     "hometown": "Trenton, NJ",
-    "entered_portal": null,
+    "entered_portal": "2026-04-13",
     "transfer_history": "from VCU to Marshall following the 2024-25 season"
   },
   {
@@ -12404,7 +12360,7 @@
     "year": "RS SO",
     "position": "wing",
     "hometown": "Harrodsburg, KY",
-    "entered_portal": null,
+    "entered_portal": "2026-04-07",
     "transfer_history": null
   },
   {
@@ -15209,7 +15165,7 @@
     "year": "JR",
     "position": "forward",
     "hometown": "Sandy, UT",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": "from Murray State College (juco) to UNLV"
   },
   {
@@ -15220,7 +15176,7 @@
     "year": "SO",
     "position": "point guard",
     "hometown": "Coeur d\u2019Alene, Idaho",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -15242,7 +15198,7 @@
     "year": "FR",
     "position": "center",
     "hometown": "Fresno, CA",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -20995,7 +20951,7 @@
     "year": "FR",
     "position": "combo guard",
     "hometown": "Marbach am Neckar, Germany",
-    "entered_portal": null,
+    "entered_portal": "2026-04-07",
     "transfer_history": null
   },
   {
@@ -21017,7 +20973,7 @@
     "year": "JR",
     "position": "center",
     "hometown": "Sibenik, Croatia",
-    "entered_portal": null,
+    "entered_portal": "2026-04-07",
     "transfer_history": "from Missouri to Seattle following the 2024-25 season"
   },
   {
@@ -21039,7 +20995,7 @@
     "year": "SO",
     "position": "guard",
     "hometown": "Boise, ID",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
