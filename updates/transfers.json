@@ -18,7 +18,7 @@
     "year": "JR",
     "position": "center",
     "hometown": "Zionsville, IN",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": "from Triton College (juco) to ACU"
   },
   {
@@ -1393,7 +1393,7 @@
     "year": "RS FR",
     "position": "center",
     "hometown": "Juba, South Sudan",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": "from UCF to Auburn following the 2024-25 season"
   },
   {
@@ -1404,7 +1404,7 @@
     "year": "FR",
     "position": "shooting guard",
     "hometown": "Paris, France",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -1415,7 +1415,7 @@
     "year": "JR",
     "position": "forward",
     "hometown": "Montreal, Quebec",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": "from Gulf Coast State College (juco) to Auburn"
   },
   {
@@ -1426,7 +1426,7 @@
     "year": "SO",
     "position": "forward",
     "hometown": "Louga, Senegal",
-    "entered_portal": null,
+    "entered_portal": "2026-04-14",
     "transfer_history": "from Towson (All-CAA Rookie Team) to Auburn following the 2024-25 season"
   },
   {
@@ -2257,17 +2257,6 @@
   {
     "team": "Bradley",
     "status": "In",
-    "name": "Amani Abuhatab",
-    "height": "5-6",
-    "year": "JR",
-    "position": "shooting guard",
-    "hometown": "West Haven, CT",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Bradley",
-    "status": "In",
     "name": "Charia Smith",
     "height": "6-1",
     "year": "RS JR",
@@ -2284,7 +2273,7 @@
     "year": "SO",
     "position": "shooting guard/wing",
     "hometown": "Carollton, TX",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": "from Southern Miss to Bradley following the 2024-25 season"
   },
   {
@@ -3331,17 +3320,6 @@
     "hometown": "Palmdale, CA",
     "entered_portal": null,
     "transfer_history": null
-  },
-  {
-    "team": "Cal State Bakersfield",
-    "status": "In",
-    "name": "Madi Johnson",
-    "height": "5-6",
-    "year": "RS JR",
-    "position": "guard",
-    "hometown": "Porterville, CA",
-    "entered_portal": null,
-    "transfer_history": "from Academy of Art (D-II) to Fresno City College (juco) to MSU Denver"
   },
   {
     "team": "Cal State Bakersfield",
@@ -5392,17 +5370,6 @@
   {
     "team": "Delaware",
     "status": "In",
-    "name": "Jordyn Coleman",
-    "height": "6-2",
-    "year": "JR",
-    "position": "center",
-    "hometown": "Zionsville, IN",
-    "entered_portal": null,
-    "transfer_history": "from Triton College (juco) to ACU"
-  },
-  {
-    "team": "Delaware",
-    "status": "In",
     "name": "Kennise Johnson",
     "height": "5-4",
     "year": "RS SO",
@@ -5623,17 +5590,6 @@
   {
     "team": "Denver",
     "status": "Out",
-    "name": "Natalia Fanjul",
-    "height": "5-10",
-    "year": "FR",
-    "position": "wing",
-    "hometown": "Altafulla, Spain",
-    "entered_portal": "2026-04-23",
-    "transfer_history": null
-  },
-  {
-    "team": "Denver",
-    "status": "Out",
     "name": "Laila McLeod",
     "height": "6-0",
     "year": "RS JR",
@@ -5645,45 +5601,12 @@
   {
     "team": "Denver",
     "status": "Out",
-    "name": "Jocelyn Medina",
-    "height": "5-6",
-    "year": "JR",
-    "position": "combo guard",
-    "hometown": "Arbuckle, CA",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Denver",
-    "status": "Out",
-    "name": "Paula Oliva",
-    "height": "6-0",
-    "year": "FR",
-    "position": "wing",
-    "hometown": "Salamanca, Spain",
-    "entered_portal": "2026-04-23",
-    "transfer_history": null
-  },
-  {
-    "team": "Denver",
-    "status": "Out",
-    "name": "Teodora Simoncevic",
-    "height": "6-2",
-    "year": "FR",
-    "position": "forward",
-    "hometown": "Ivanjica, Serbia",
-    "entered_portal": "2026-04-23",
-    "transfer_history": null
-  },
-  {
-    "team": "Denver",
-    "status": "Out",
     "name": "Coryn Watts",
     "height": "5-7",
     "year": "SO",
     "position": "point guard",
     "hometown": "Aurora, CO",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -6277,7 +6200,7 @@
     "year": "FR",
     "position": "shooting guard",
     "hometown": "Lincoln, NE",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -7456,17 +7379,6 @@
     "hometown": "Cincinnati, OH [returned to FSU]",
     "entered_portal": null,
     "transfer_history": "from Texas A&M to FSU following the 2024-25 season"
-  },
-  {
-    "team": "Fordham",
-    "status": "In",
-    "name": "Ella Averill",
-    "height": "6-1",
-    "year": "FR",
-    "position": "wing",
-    "hometown": "Perth, Austrailia",
-    "entered_portal": null,
-    "transfer_history": null
   },
   {
     "team": "Fordham",
@@ -8686,17 +8598,6 @@
     "year": "JR",
     "position": "wing/forward",
     "hometown": "Katy, TX",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Gonzaga",
-    "status": "In",
-    "name": "Jocelyn Medina",
-    "height": "5-6",
-    "year": "JR",
-    "position": "combo guard",
-    "hometown": "Arbuckle, CA",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -11975,7 +11876,7 @@
     "year": "JR",
     "position": "wing",
     "hometown": "Fontanilles, Spain",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": "from Saint Francis (Pa.) to ULL following the 2024-25 season"
   },
   {
@@ -11986,7 +11887,7 @@
     "year": "JR",
     "position": "center",
     "hometown": "Overland Park, KS",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": "from Tulane to ULL following the 2024-25 season"
   },
   {
@@ -13220,17 +13121,6 @@
     "hometown": "Memphis, TN",
     "entered_portal": null,
     "transfer_history": "from Jackson State to Indiana State following the 2024-25 season"
-  },
-  {
-    "team": "Memphis",
-    "status": "In",
-    "name": "Anjanae Richardson",
-    "height": "5-8",
-    "year": "JR",
-    "position": "point guard",
-    "hometown": "Portsmouth, VA",
-    "entered_portal": null,
-    "transfer_history": null
   },
   {
     "team": "Memphis",
@@ -15517,7 +15407,7 @@
     "year": "FR",
     "position": "point guard",
     "hometown": "Oklahoma City, OK",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -16199,7 +16089,7 @@
     "year": "JR",
     "position": "point guard",
     "hometown": "Portsmouth, VA",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -18632,17 +18522,6 @@
     "hometown": "Indianapolis, IN",
     "entered_portal": null,
     "transfer_history": "from Butler to Georgetown following the 2024-25 season"
-  },
-  {
-    "team": "Penn State",
-    "status": "In",
-    "name": "Skylar Durley",
-    "height": "5-9",
-    "year": "FR",
-    "position": "point guard",
-    "hometown": "Oklahoma City, OK",
-    "entered_portal": null,
-    "transfer_history": null
   },
   {
     "team": "Penn State",
@@ -21503,17 +21382,6 @@
     "hometown": "Brisbane, Australia",
     "entered_portal": null,
     "transfer_history": null
-  },
-  {
-    "team": "Seattle",
-    "status": "In",
-    "name": "Ayanna Jackson",
-    "height": "6-1",
-    "year": "JR",
-    "position": "forward",
-    "hometown": "Chicago, IL",
-    "entered_portal": "2026-04-06",
-    "transfer_history": "from Sacramento State to UNCG to TSU"
   },
   {
     "team": "Seattle",
@@ -27172,17 +27040,6 @@
   {
     "team": "Wichita State",
     "status": "In",
-    "name": "Lily Ba",
-    "height": "6-3",
-    "year": "JR",
-    "position": "center",
-    "hometown": "Overland Park, KS",
-    "entered_portal": null,
-    "transfer_history": "from Tulane to ULL following the 2024-25 season"
-  },
-  {
-    "team": "Wichita State",
-    "status": "In",
     "name": "Liliana Harrison",
     "height": "6-2",
     "year": "FR",
@@ -27201,17 +27058,6 @@
     "hometown": "Mississauga, ON (grad xfer)",
     "entered_portal": null,
     "transfer_history": "from Purdue Fort Wayne to Wagner following the 2023-24 season"
-  },
-  {
-    "team": "Wichita State",
-    "status": "In",
-    "name": "Clara Koulibaly",
-    "height": "6-3",
-    "year": "JR",
-    "position": "forward",
-    "hometown": "Montreal, Quebec",
-    "entered_portal": null,
-    "transfer_history": "from Gulf Coast State College (juco) to Auburn"
   },
   {
     "team": "Wichita State",
@@ -27287,7 +27133,7 @@
     "year": "JR",
     "position": "combo guard",
     "hometown": "Oklahoma City, OK",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": "from McNeese State to Wichita following the 2024-25 season"
   },
   {
