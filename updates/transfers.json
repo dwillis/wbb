@@ -211,6 +211,17 @@
   {
     "team": "Alabama",
     "status": "In",
+    "name": "Aaliyah Roberson",
+    "height": "6-2",
+    "year": "SR",
+    "position": "center",
+    "hometown": "San Antonio, TX",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Alabama",
+    "status": "In",
     "name": "Caitlin Staley",
     "height": "6-4",
     "year": "JR",
@@ -2163,7 +2174,7 @@
     "year": "FR",
     "position": "wing",
     "hometown": "Sunbury, OH",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -14038,6 +14049,17 @@
   {
     "team": "Middle Tennessee",
     "status": "In",
+    "name": "Kennedi Neale",
+    "height": "5-10",
+    "year": "FR",
+    "position": "shooting guard",
+    "hometown": "Strongsville, OH",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Middle Tennessee",
+    "status": "In",
     "name": "Xai Whitfield",
     "height": "5-9",
     "year": "SO",
@@ -19637,6 +19659,17 @@
   {
     "team": "Queens University of Charlotte",
     "status": "In",
+    "name": "Ryan Davis",
+    "height": "6-0",
+    "year": "FR",
+    "position": "forward",
+    "hometown": "Cincinnati, OH",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Queens University of Charlotte",
+    "status": "In",
     "name": "Makayla Minshall",
     "height": "5-9",
     "year": "SO",
@@ -24537,7 +24570,7 @@
     "year": "JR",
     "position": "guard",
     "hometown": "Medford, OR",
-    "entered_portal": "2026-04-07",
+    "entered_portal": null,
     "transfer_history": "from Oregon State to TCU following the 2023-24 season"
   },
   {
@@ -24548,7 +24581,7 @@
     "year": "FR",
     "position": "center",
     "hometown": "Nolensville, TN",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -24559,7 +24592,7 @@
     "year": "SO",
     "position": "guard",
     "hometown": "Oklahoma City, OK",
-    "entered_portal": "2026-04-07",
+    "entered_portal": null,
     "transfer_history": "from Texas A&M to TCU following the 2024-25 season"
   },
   {
@@ -24570,7 +24603,7 @@
     "year": "SR",
     "position": "center",
     "hometown": "San Antonio, TX",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -24646,7 +24679,7 @@
     "height": "5-7",
     "year": "FR",
     "position": "combo guard",
-    "hometown": "Fort Worth, TX [withdrew name from portal]",
+    "hometown": "Fort Worth, TX [returned to UTEP]",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -25858,6 +25891,17 @@
     "position": "forward",
     "hometown": "Orem, UT",
     "entered_portal": "2026-04-07",
+    "transfer_history": null
+  },
+  {
+    "team": "Valparaiso",
+    "status": "In",
+    "name": "Denza Allen",
+    "height": "6-1",
+    "year": "FR",
+    "position": "wing",
+    "hometown": "Sunbury, OH",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
