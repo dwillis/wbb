@@ -3719,6 +3719,17 @@
   },
   {
     "team": "Canisius",
+    "status": "In",
+    "name": "Mar\u00eda S\u00e1nchez Pitarch",
+    "height": "5-8",
+    "year": "SO",
+    "position": "point guard",
+    "hometown": "Rocafort, Valencia, Spain",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Canisius",
     "status": "Out",
     "name": "Ationique Auston",
     "height": "5-9",
@@ -17233,7 +17244,7 @@
     "year": "SO",
     "position": "point guard",
     "hometown": "Rocafort, Valencia, Spain",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
