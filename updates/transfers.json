@@ -2174,7 +2174,7 @@
     "year": "FR",
     "position": "wing",
     "hometown": "Sunbury, OH",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -14049,6 +14049,17 @@
   {
     "team": "Middle Tennessee",
     "status": "In",
+    "name": "Kennedi Neale",
+    "height": "5-10",
+    "year": "FR",
+    "position": "shooting guard",
+    "hometown": "Strongsville, OH",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Middle Tennessee",
+    "status": "In",
     "name": "Xai Whitfield",
     "height": "5-9",
     "year": "SO",
@@ -19642,6 +19653,17 @@
     "year": "FR",
     "position": "forward",
     "hometown": "Livingston, NJ",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Queens University of Charlotte",
+    "status": "In",
+    "name": "Ryan Davis",
+    "height": "6-0",
+    "year": "FR",
+    "position": "forward",
+    "hometown": "Cincinnati, OH",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -25869,6 +25891,17 @@
     "position": "forward",
     "hometown": "Orem, UT",
     "entered_portal": "2026-04-07",
+    "transfer_history": null
+  },
+  {
+    "team": "Valparaiso",
+    "status": "In",
+    "name": "Denza Allen",
+    "height": "6-1",
+    "year": "FR",
+    "position": "wing",
+    "hometown": "Sunbury, OH",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
