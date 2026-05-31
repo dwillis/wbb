@@ -2119,7 +2119,7 @@
     "year": "RS JR",
     "position": "center",
     "hometown": "Keila, Estonia",
-    "entered_portal": "2026-03-10",
+    "entered_portal": null,
     "transfer_history": "from Rhode Island to BU following the 2022-23 season"
   },
   {
@@ -2152,7 +2152,7 @@
     "year": "JR",
     "position": "wing",
     "hometown": "Cary, NC",
-    "entered_portal": "2026-03-10",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -2163,7 +2163,7 @@
     "year": "RS JR",
     "position": "forward/center",
     "hometown": "St. Petersburg, Russia",
-    "entered_portal": "2026-03-10",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -4325,6 +4325,17 @@
   {
     "team": "Charlotte",
     "status": "In",
+    "name": "Da\u2019Brya Clark",
+    "height": "5-7",
+    "year": "JR",
+    "position": "shooting guard",
+    "hometown": "Baltimore, MD",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Charlotte",
+    "status": "In",
     "name": "Isis Johnson-Musah",
     "height": "5-10",
     "year": "FR",
@@ -4332,6 +4343,17 @@
     "hometown": "Detroit, MI",
     "entered_portal": null,
     "transfer_history": null
+  },
+  {
+    "team": "Charlotte",
+    "status": "In",
+    "name": "Destinee Salgado",
+    "height": "6-2",
+    "year": "SO",
+    "position": "forward",
+    "hometown": "Stafford, VA",
+    "entered_portal": null,
+    "transfer_history": "from Iona to Little Rock following the 2024-25 season"
   },
   {
     "team": "Charlotte",
@@ -11755,7 +11777,7 @@
     "year": "JR",
     "position": "forward",
     "hometown": "Langley, BC",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from University of British Columbia to California Baptist to Little Rock"
   },
   {
@@ -11788,7 +11810,7 @@
     "year": "SO",
     "position": "forward",
     "hometown": "Stafford, VA",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Iona to Little Rock following the 2024-25 season"
   },
   {
@@ -16221,7 +16243,7 @@
     "year": "JR",
     "position": "shooting guard",
     "hometown": "Baltimore, MD",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -16761,6 +16783,17 @@
     "position": "center",
     "hometown": "Austell, GA",
     "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
+    "team": "NC State",
+    "status": "In",
+    "name": "Audrey Ericksen",
+    "height": "6-0",
+    "year": "JR",
+    "position": "wing",
+    "hometown": "Cary, NC (grad xfer)",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -20302,7 +20335,7 @@
     "year": "FR",
     "position": "center",
     "hometown": "Farrell, PA",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -20313,7 +20346,7 @@
     "year": "FR",
     "position": "point guard",
     "hometown": "Fort Lauderdale, FL",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -20324,7 +20357,7 @@
     "year": "FR",
     "position": "wing/forward",
     "hometown": "Harper Woods, MI",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -20335,7 +20368,7 @@
     "year": "SO",
     "position": "wing",
     "hometown": "St. Paul, MN",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
