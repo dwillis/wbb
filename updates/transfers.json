@@ -6222,7 +6222,7 @@
     "year": "SO",
     "position": "forward/center",
     "hometown": "Ashville, OH",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -8565,17 +8565,6 @@
     "year": "SR",
     "position": "forward",
     "hometown": "Pearland, TX (grad xfer)",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Georgia State",
-    "status": "In",
-    "name": "Nikole Thomas",
-    "height": "5-9",
-    "year": "RS SO",
-    "position": "combo guard",
-    "hometown": "Memphis, TN (grad xfer)",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -11139,7 +11128,7 @@
     "year": "RS SO",
     "position": "combo guard",
     "hometown": "Memphis, TN",
-    "entered_portal": null,
+    "entered_portal": "2026-03-16",
     "transfer_history": null
   },
   {
