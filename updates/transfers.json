@@ -211,22 +211,22 @@
   {
     "team": "Alabama",
     "status": "In",
-    "name": "Aaliyah Roberson",
-    "height": "6-2",
-    "year": "SR",
-    "position": "center",
-    "hometown": "San Antonio, TX",
+    "name": "Mykelle Richards",
+    "height": "6-1",
+    "year": "SO",
+    "position": "forward",
+    "hometown": "San Bernardino, CA",
     "entered_portal": null,
     "transfer_history": null
   },
   {
     "team": "Alabama",
     "status": "In",
-    "name": "Mykelle Richards",
-    "height": "6-1",
-    "year": "SO",
-    "position": "forward",
-    "hometown": "San Bernardino, CA",
+    "name": "Aaliyah Roberson",
+    "height": "6-2",
+    "year": "SR",
+    "position": "center",
+    "hometown": "San Antonio, TX",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -2120,6 +2120,17 @@
     "position": "guard",
     "hometown": "Washington, DC",
     "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
+    "team": "Boston University",
+    "status": "In",
+    "name": "Yael Maayan",
+    "height": "6-1",
+    "year": "SO",
+    "position": "forward",
+    "hometown": "Yehuda, Israel",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -8730,7 +8741,7 @@
     "year": "JR",
     "position": "forward",
     "hometown": "Sydney, Australia",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Long Beach State to Georgia Tech following the 2024-25 season"
   },
   {
@@ -10930,7 +10941,7 @@
     "year": "FR",
     "position": "guard",
     "hometown": "Sant Pere de Torell\u00f3, Barcelona, Spain",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -11233,6 +11244,17 @@
   {
     "team": "Kennesaw State",
     "status": "In",
+    "name": "Camryn Register",
+    "height": "5-7",
+    "year": "FR",
+    "position": "point guard",
+    "hometown": "Lawrenceville, GA",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Kennesaw State",
+    "status": "In",
     "name": "Kayla Sullivan",
     "height": "5-11",
     "year": "JR",
@@ -11271,7 +11293,7 @@
     "year": "JR",
     "position": "combo guard",
     "hometown": "Atlanta, GA",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -11304,7 +11326,7 @@
     "year": "FR",
     "position": "wing/forward",
     "hometown": "Cleveland, TN",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -11315,7 +11337,7 @@
     "year": "RS SO",
     "position": "forward",
     "hometown": "Alpharetta, GA",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -11326,7 +11348,7 @@
     "year": "SR",
     "position": "forward",
     "hometown": "Nashville, TN",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Memphis to Kennesaw following the 2024-25 season"
   },
   {
@@ -11526,6 +11548,28 @@
     "hometown": "Belle Mead, NJ",
     "entered_portal": "2026-02-03",
     "transfer_history": null
+  },
+  {
+    "team": "Lamar",
+    "status": "In",
+    "name": "Brooklyn Alexander",
+    "height": "6-1",
+    "year": "SO",
+    "position": "forward",
+    "hometown": "Houston, TX",
+    "entered_portal": null,
+    "transfer_history": "from Tulsa to Memphis following the 2024-25 season"
+  },
+  {
+    "team": "Lamar",
+    "status": "In",
+    "name": "Kennedi Alexander",
+    "height": "6-1",
+    "year": "SO",
+    "position": "guard",
+    "hometown": "Houston, TX",
+    "entered_portal": null,
+    "transfer_history": "from Tulsa to Memphis following the 2024-25 season"
   },
   {
     "team": "Lamar",
@@ -11900,6 +11944,17 @@
     "hometown": "El Prat De Llobregat, Spain",
     "entered_portal": null,
     "transfer_history": "from South Florida to Long Beach following the 2023-24 season"
+  },
+  {
+    "team": "Long Beach State",
+    "status": "Out",
+    "name": "Brynna Pukis",
+    "height": "5-6",
+    "year": "FR",
+    "position": "point guard",
+    "hometown": "Snohomish, WA",
+    "entered_portal": "2026-05-24",
+    "transfer_history": null
   },
   {
     "team": "Long Beach State",
@@ -13339,7 +13394,7 @@
     "year": "SO",
     "position": "forward",
     "hometown": "Houston, TX",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Tulsa to Memphis following the 2024-25 season"
   },
   {
@@ -13350,7 +13405,7 @@
     "year": "SO",
     "position": "guard",
     "hometown": "Houston, TX",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Tulsa to Memphis following the 2024-25 season"
   },
   {
@@ -15798,11 +15853,44 @@
   {
     "team": "New Haven",
     "status": "Out",
+    "name": "Katie Drozd",
+    "height": "6-0",
+    "year": "SO",
+    "position": "wing",
+    "hometown": "Hastings-on-Hudson, NY",
+    "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
+    "team": "New Haven",
+    "status": "Out",
     "name": "Merit Innocent",
     "height": "6-2",
     "year": "JR",
     "position": "center",
     "hometown": "Delta State, Nigeria",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "New Haven",
+    "status": "Out",
+    "name": "Shannon McCarthy",
+    "height": "6-1",
+    "year": "FR",
+    "position": "center",
+    "hometown": "Woburn, MA",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "New Haven",
+    "status": "Out",
+    "name": "Addisen Sulikowski",
+    "height": "5-10",
+    "year": "SO",
+    "position": "forward",
+    "hometown": "Saco, ME",
     "entered_portal": "2026-04-06",
     "transfer_history": null
   },
@@ -15897,12 +15985,23 @@
   {
     "team": "New Mexico",
     "status": "Out",
+    "name": "Cacia Antonio",
+    "height": "5-11",
+    "year": "JR",
+    "position": "wing",
+    "hometown": "Luanda, Angola",
+    "entered_portal": "2026-04-21",
+    "transfer_history": null
+  },
+  {
+    "team": "New Mexico",
+    "status": "Out",
     "name": "Destinee Hooks",
     "height": "5-9",
     "year": "JR",
     "position": "guard",
     "hometown": "Indianapolis, IN",
-    "entered_portal": "2026-04-08",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -15913,7 +16012,7 @@
     "year": "JR",
     "position": "center",
     "hometown": "Maputo, Mozambique",
-    "entered_portal": "2026-04-08",
+    "entered_portal": null,
     "transfer_history": "from Cochise College (juco) to UNM"
   },
   {
@@ -15924,7 +16023,7 @@
     "year": "FR",
     "position": "shooting guard",
     "hometown": "Memphis, TN",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -15935,7 +16034,7 @@
     "year": "SO",
     "position": "point guard",
     "hometown": "Lisbon, Portugal",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -15946,8 +16045,19 @@
     "year": "RS SO",
     "position": "center",
     "hometown": "Mukono Seeta, Uganda",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from New Mexico JC (juco) to UNM"
+  },
+  {
+    "team": "New Mexico",
+    "status": "Out",
+    "name": "Nayli Padilla",
+    "height": "5-9",
+    "year": "SO",
+    "position": "guard",
+    "hometown": "Santa Cruz de Tenerife, Spain",
+    "entered_portal": null,
+    "transfer_history": null
   },
   {
     "team": "New Mexico State",
@@ -21175,6 +21285,39 @@
     "transfer_history": null
   },
   {
+    "team": "Samford",
+    "status": "Out",
+    "name": "Aubrey Blankenship",
+    "height": "6-0",
+    "year": "RS SO",
+    "position": "shooting guard/wing",
+    "hometown": "Mount Juliet, TN",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Samford",
+    "status": "Out",
+    "name": "Yael Maayan",
+    "height": "6-1",
+    "year": "SO",
+    "position": "forward",
+    "hometown": "Yehuda, Israel",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Samford",
+    "status": "Out",
+    "name": "Camryn Register",
+    "height": "5-7",
+    "year": "FR",
+    "position": "point guard",
+    "hometown": "Lawrenceville, GA",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
     "team": "San Diego",
     "status": "In",
     "name": "Braelynn Barnett",
@@ -21286,13 +21429,24 @@
   },
   {
     "team": "San Diego State",
+    "status": "In",
+    "name": "Nayli Padilla",
+    "height": "5-9",
+    "year": "SO",
+    "position": "guard",
+    "hometown": "Santa Cruz de Tenerife, Spain",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "San Diego State",
     "status": "Out",
     "name": "Aubrey Cook",
     "height": "6-4",
     "year": "FR",
     "position": "center",
     "hometown": "Parker, CO",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -21303,7 +21457,7 @@
     "year": "SR",
     "position": "guard",
     "hometown": "Sunnyvale, CA",
-    "entered_portal": "2026-03-23",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -21314,7 +21468,7 @@
     "year": "SO",
     "position": "guard",
     "hometown": "McKinney, TX",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -21325,7 +21479,7 @@
     "year": "SO",
     "position": "point guard",
     "hometown": "Paul, ID",
-    "entered_portal": "2026-04-08",
+    "entered_portal": null,
     "transfer_history": "from Utah State to SDSU following the 2024-25 season"
   },
   {
@@ -21336,7 +21490,7 @@
     "year": "FR",
     "position": "combo guard",
     "hometown": "Prosper, TX",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -21767,6 +21921,17 @@
     "hometown": "Los Angeles, CA",
     "entered_portal": null,
     "transfer_history": null
+  },
+  {
+    "team": "Seton Hall",
+    "status": "In",
+    "name": "Jada Crawshaw",
+    "height": "6-0",
+    "year": "JR",
+    "position": "forward",
+    "hometown": "Sydney, Australia",
+    "entered_portal": null,
+    "transfer_history": "from Long Beach State to Georgia Tech following the 2024-25 season"
   },
   {
     "team": "Seton Hall",
