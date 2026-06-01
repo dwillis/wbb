@@ -222,17 +222,6 @@
   {
     "team": "Alabama",
     "status": "In",
-    "name": "Mykelle Richards",
-    "height": "6-1",
-    "year": "SO",
-    "position": "forward",
-    "hometown": "San Bernardino, CA",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Alabama",
-    "status": "In",
     "name": "Caitlin Staley",
     "height": "6-4",
     "year": "JR",
@@ -11876,7 +11865,7 @@
     "year": "SO",
     "position": "guard",
     "hometown": "Atlanta, GA",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -11898,7 +11887,7 @@
     "year": "RS SO",
     "position": "center",
     "hometown": "El Prat De Llobregat, Spain",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": "from South Florida to Long Beach following the 2023-24 season"
   },
   {
@@ -11910,17 +11899,6 @@
     "position": "point guard",
     "hometown": "Los Angeles, CA",
     "entered_portal": "2026-04-06",
-    "transfer_history": null
-  },
-  {
-    "team": "Long Beach State",
-    "status": "Out",
-    "name": "Mykelle Richards",
-    "height": "6-1",
-    "year": "SO",
-    "position": "forward",
-    "hometown": "San Bernardino, CA",
-    "entered_portal": null,
     "transfer_history": null
   },
   {
