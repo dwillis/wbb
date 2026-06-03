@@ -5788,17 +5788,6 @@
   {
     "team": "DePaul",
     "status": "In",
-    "name": "Nyah Lowery",
-    "height": "5-11",
-    "year": "JR",
-    "position": "shooting guard/wing",
-    "hometown": "Sacramento, CA",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "DePaul",
-    "status": "In",
     "name": "Lijirin Doyinsola Modesayor",
     "height": "6-3",
     "year": "JR",
@@ -18806,7 +18795,7 @@
     "year": "JR",
     "position": "shooting guard/wing",
     "hometown": "Sacramento, CA",
-    "entered_portal": null,
+    "entered_portal": "2026-04-08",
     "transfer_history": null
   },
   {
