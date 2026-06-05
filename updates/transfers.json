@@ -4659,8 +4659,8 @@
     "height": "6-3",
     "year": "RS SR",
     "position": "center",
-    "hometown": "Lubumbashi, Congo",
-    "entered_portal": "2026-04-16",
+    "hometown": "Lubumbashi, Congo (grad xfer) [withdrew name from portal]",
+    "entered_portal": null,
     "transfer_history": "from Arizona Western College (juco) to Cincinnati"
   },
   {
@@ -4671,7 +4671,7 @@
     "year": "JR",
     "position": "center",
     "hometown": "Richmond, VA",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -12272,7 +12272,7 @@
     "year": "JR",
     "position": "guard",
     "hometown": "Conway, AR",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -18510,6 +18510,17 @@
     "position": "point guard",
     "hometown": "Overland Park, KS",
     "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
+    "team": "Old Dominion",
+    "status": "In",
+    "name": "Delaney Snyder",
+    "height": "6-5",
+    "year": "JR",
+    "position": "center",
+    "hometown": "Richmond, VA",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -27486,6 +27497,17 @@
     "position": "wing",
     "hometown": "Lebanon, MO",
     "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
+    "team": "Western Kentucky",
+    "status": "In",
+    "name": "Kamille Brown",
+    "height": "5-8",
+    "year": "JR",
+    "position": "guard",
+    "hometown": "Conway, AR",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
