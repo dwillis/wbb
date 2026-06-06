@@ -4281,6 +4281,17 @@
   {
     "team": "Charleston Southern",
     "status": "In",
+    "name": "Lauren Cummings",
+    "height": "6-0",
+    "year": "RS SO",
+    "position": "guard",
+    "hometown": "Billings, MT",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Charleston Southern",
+    "status": "In",
     "name": "Celina Vilcinskas",
     "height": "6-8",
     "year": "FR",
@@ -11403,7 +11414,7 @@
     "year": "SO",
     "position": "center",
     "hometown": "Dakar, Senegal",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -12008,7 +12019,7 @@
     "year": "RS SO",
     "position": "guard",
     "hometown": "Billings, MT",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -25280,6 +25291,17 @@
   {
     "team": "Texas Southern",
     "status": "In",
+    "name": "Mame Kane",
+    "height": "6-6",
+    "year": "SO",
+    "position": "center",
+    "hometown": "Dakar, Senegal",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Texas Southern",
+    "status": "In",
     "name": "DeAvion Wilson",
     "height": "5-5",
     "year": "FR",
@@ -26211,6 +26233,17 @@
     "hometown": "Calgary, Alberta",
     "entered_portal": null,
     "transfer_history": "from Utah State to Utah Tech following the 2023-24 season"
+  },
+  {
+    "team": "Utah Tech",
+    "status": "Out",
+    "name": "Amber Kartchner",
+    "height": "5-9",
+    "year": "JR",
+    "position": "guard",
+    "hometown": "Logan, UT",
+    "entered_portal": "2024-03-25",
+    "transfer_history": "from BYU to Utah Tech following the 2021-22 season"
   },
   {
     "team": "Utah Tech",
