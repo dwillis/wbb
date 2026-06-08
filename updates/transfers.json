@@ -629,12 +629,12 @@
   {
     "team": "Alabama State",
     "status": "Out",
-    "name": "Samiah Puckett",
+    "name": "Sami\u2019ah Puckett",
     "height": "6-3",
     "year": "RS SO",
     "position": "forward/center",
     "hometown": "Griffin, GA",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from East Tennessee State to ASU following the 2023-24 season"
   },
   {
@@ -2917,6 +2917,28 @@
   {
     "team": "UC Irvine",
     "status": "In",
+    "name": "Makiah Asidanya",
+    "height": "5-7",
+    "year": "JR",
+    "position": "point guard",
+    "hometown": "Pittsburg, CA",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "UC Irvine",
+    "status": "In",
+    "name": "Gracie Gallegos",
+    "height": "6-1",
+    "year": "RS JR",
+    "position": "wing",
+    "hometown": "Denver, CO (grad xfer)",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "UC Irvine",
+    "status": "In",
     "name": "Sarah Miller",
     "height": "5-10",
     "year": "SO",
@@ -2927,13 +2949,24 @@
   },
   {
     "team": "UC Irvine",
+    "status": "In",
+    "name": "Ahrray Young",
+    "height": "5-11",
+    "year": "RS JR",
+    "position": "wing",
+    "hometown": "Sacramento, CA",
+    "entered_portal": null,
+    "transfer_history": "from Tulsa to Nevada following the 2023-24 season"
+  },
+  {
+    "team": "UC Irvine",
     "status": "Out",
     "name": "Despoina Baltzi",
     "height": "5-8",
     "year": "FR",
     "position": "point guard",
     "hometown": "Rhodes, Greece",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -2944,7 +2977,7 @@
     "year": "SO",
     "position": "point guard",
     "hometown": "Phoenix, AZ",
-    "entered_portal": "2025-12-08",
+    "entered_portal": null,
     "transfer_history": "from Mesa CC to UCI"
   },
   {
@@ -2966,7 +2999,18 @@
     "year": "SO",
     "position": "shooting guard",
     "hometown": "La Roche-sur-Yon, France",
-    "entered_portal": "2026-04-07",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "UC Irvine",
+    "status": "Out",
+    "name": "Giselle Rodriguez",
+    "height": "5-10",
+    "year": "JR",
+    "position": "shooting guard/wing",
+    "hometown": "Fall River Mills, CA",
+    "entered_portal": "2026-06-03",
     "transfer_history": null
   },
   {
@@ -3252,7 +3296,7 @@
     "year": "RS JR",
     "position": "wing",
     "hometown": "Denver, CO",
-    "entered_portal": "2026-04-03",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -5940,6 +5984,17 @@
     "transfer_history": null
   },
   {
+    "team": "DePaul",
+    "status": "Out",
+    "name": "Sophia Nguyen",
+    "height": "5-11",
+    "year": "FR",
+    "position": "forward/center",
+    "hometown": "Indianapolis, IN",
+    "entered_portal": "2026-05-28",
+    "transfer_history": null
+  },
+  {
     "team": "Detroit Mercy",
     "status": "In",
     "name": "Colleena Bryant",
@@ -6862,6 +6917,17 @@
     "hometown": "St. Louis, MO",
     "entered_portal": "2026-04-06",
     "transfer_history": null
+  },
+  {
+    "team": "Fairfield",
+    "status": "In",
+    "name": "Nia Green",
+    "height": "6-0",
+    "year": "SO",
+    "position": "wing",
+    "hometown": "Baltimore, MD",
+    "entered_portal": null,
+    "transfer_history": "from Morgan State to UNC Asheville following the 2024-25 season"
   },
   {
     "team": "Fairfield",
@@ -8763,7 +8829,7 @@
     "year": "FR",
     "position": "combo guard",
     "hometown": "Columbus, OH",
-    "entered_portal": "2026-04-21",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -10325,6 +10391,17 @@
     "year": "RS SO",
     "position": "guard",
     "hometown": "Ontario, CA",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Indiana State",
+    "status": "In",
+    "name": "Kristen McMillan",
+    "height": "6-1",
+    "year": "SO",
+    "position": "forward",
+    "hometown": "Birmingham, AL",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -15814,7 +15891,7 @@
     "year": "RS JR",
     "position": "wing",
     "hometown": "Sacramento, CA",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Tulsa to Nevada following the 2023-24 season"
   },
   {
@@ -16865,6 +16942,17 @@
   {
     "team": "North Carolina A&T",
     "status": "Out",
+    "name": "Ja\u2019naya Meyers",
+    "height": "5-9",
+    "year": "FR",
+    "position": "point guard",
+    "hometown": "Jersey City, NJ",
+    "entered_portal": "2026-04-15",
+    "transfer_history": null
+  },
+  {
+    "team": "North Carolina A&T",
+    "status": "Out",
     "name": "Londyn Walker",
     "height": "5-8",
     "year": "FR",
@@ -16969,7 +17057,7 @@
     "year": "SO",
     "position": "wing",
     "hometown": "Baltimore, MD",
-    "entered_portal": "2026-04-20",
+    "entered_portal": null,
     "transfer_history": "from Morgan State to UNC Asheville following the 2024-25 season"
   },
   {
@@ -16991,7 +17079,7 @@
     "year": "SO",
     "position": "forward",
     "hometown": "Birmingham, AL",
-    "entered_portal": "2026-04-20",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -17002,7 +17090,7 @@
     "year": "SO",
     "position": "forward",
     "hometown": "Edo State, Nigeria",
-    "entered_portal": "2026-04-20",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -17029,13 +17117,24 @@
   },
   {
     "team": "UNCG",
+    "status": "In",
+    "name": "Savannah Robinson-Holmes",
+    "height": "5-6",
+    "year": "FR",
+    "position": "combo guard",
+    "hometown": "Columbus, OH",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "UNCG",
     "status": "Out",
     "name": "Makiah Asidanya",
     "height": "5-7",
     "year": "JR",
     "position": "point guard",
     "hometown": "Pittsburg, CA",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -17057,7 +17156,7 @@
     "year": "FR",
     "position": "center",
     "hometown": "Austell, GA",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -18036,7 +18135,7 @@
     "year": "FR",
     "position": "combo guard",
     "hometown": "Staten Island, NY",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -18047,7 +18146,7 @@
     "year": "SO",
     "position": "forward",
     "hometown": "East Orange, NJ",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -18432,7 +18531,7 @@
     "year": "JR",
     "position": "center",
     "hometown": "Winnsboro, TX",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Tarleton State to OK State following the 2024-25 season"
   },
   {
@@ -18443,7 +18542,7 @@
     "year": "JR",
     "position": "forward",
     "hometown": "Ottawa, ON",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from UCF to OK State following the 2024-25 season"
   },
   {
@@ -18454,7 +18553,7 @@
     "year": "RS JR",
     "position": "center",
     "hometown": "Papenburg, Germany",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -18465,7 +18564,7 @@
     "year": "FR",
     "position": "shooting guard/wing",
     "hometown": "Purchase, NY",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -18476,7 +18575,7 @@
     "year": "SO",
     "position": "wing/forward",
     "hometown": "Sapulpa, OK",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Oral Roberts to OK State following the 2024-25 season"
   },
   {
@@ -18487,7 +18586,7 @@
     "year": "JR",
     "position": "shooting guard",
     "hometown": "Highlands Ranch, CO",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Montana to OK State following the 2023-24 season"
   },
   {
@@ -18498,7 +18597,7 @@
     "year": "RS FR",
     "position": "center",
     "hometown": "Enugu, Nigeria",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -18509,7 +18608,7 @@
     "year": "JR",
     "position": "combo guard",
     "hometown": "Boise, ID",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from BYU to OK State following the 2024-25 season"
   },
   {
@@ -18520,7 +18619,7 @@
     "year": "SO",
     "position": "point guard",
     "hometown": "Overland Park, KS",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -20924,6 +21023,17 @@
   {
     "team": "Sacred Heart",
     "status": "In",
+    "name": "Angelina Hodgens",
+    "height": "5-10",
+    "year": "FR",
+    "position": "combo guard",
+    "hometown": "Staten Island, NY",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Sacred Heart",
+    "status": "In",
     "name": "Laisha Lazu",
     "height": "6-1",
     "year": "JR",
@@ -20952,6 +21062,28 @@
     "position": "guard",
     "hometown": "R\u00edo Grande, Puerto Rico",
     "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
+    "team": "Sacred Heart",
+    "status": "Out",
+    "name": "Nalyce Dudley",
+    "height": "5-11",
+    "year": "JR",
+    "position": "forward",
+    "hometown": "Norwich, CT [returend to Sacred Heart]",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Sacred Heart",
+    "status": "Out",
+    "name": "Esther Kursite",
+    "height": "6-2",
+    "year": "SO",
+    "position": "center",
+    "hometown": "London, England",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -21023,6 +21155,28 @@
   {
     "team": "Saint Francis (Pa.)",
     "status": "Out",
+    "name": "Giselle Eke",
+    "height": "6-3",
+    "year": "SO",
+    "position": "center",
+    "hometown": "Fort Wayne, IN",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Saint Francis (Pa.)",
+    "status": "Out",
+    "name": "Kash Holmes",
+    "height": "5-9",
+    "year": "JR",
+    "position": "guard",
+    "hometown": "Westchester, NY",
+    "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
+    "team": "Saint Francis (Pa.)",
+    "status": "Out",
     "name": "Aleah James",
     "height": "5-7",
     "year": "GR",
@@ -21039,8 +21193,52 @@
     "year": "SR",
     "position": "wing",
     "hometown": "Clinton, MD",
-    "entered_portal": "2026-03-16",
+    "entered_portal": null,
     "transfer_history": "from Hartford to Hampton to Morgan State to Saint Francis"
+  },
+  {
+    "team": "Saint Francis (Pa.)",
+    "status": "Out",
+    "name": "Desire Short",
+    "height": "5-9",
+    "year": "JR",
+    "position": "guard",
+    "hometown": "Portsmouth, VA",
+    "entered_portal": "2026-04-07",
+    "transfer_history": "from Shaw (D-II) to Livingstone College (D-II) to Saint Francis"
+  },
+  {
+    "team": "Saint Francis (Pa.)",
+    "status": "Out",
+    "name": "Sajol Thornhill",
+    "height": "5-7",
+    "year": "SO",
+    "position": "shooting guard",
+    "hometown": "Ashburn, VA",
+    "entered_portal": "2026-04-06",
+    "transfer_history": "from Queens College (D-II) to Saint Francis following the 2024-25 season"
+  },
+  {
+    "team": "Saint Francis (Pa.)",
+    "status": "Out",
+    "name": "Gemma Walker",
+    "height": "5-10",
+    "year": "SO",
+    "position": "shooting guard",
+    "hometown": "Venetia, PA",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Saint Francis (Pa.)",
+    "status": "Out",
+    "name": "Makyiah Ward",
+    "height": "5-4",
+    "year": "FR",
+    "position": "point guard",
+    "hometown": "Oxon Hill, MD",
+    "entered_portal": null,
+    "transfer_history": null
   },
   {
     "team": "St. John\u2019s",
@@ -22299,6 +22497,28 @@
   {
     "team": "South Alabama",
     "status": "In",
+    "name": "Esther Kursite",
+    "height": "6-2",
+    "year": "SO",
+    "position": "center",
+    "hometown": "London, England",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "South Alabama",
+    "status": "In",
+    "name": "Deborah Orianegbena",
+    "height": "6-2",
+    "year": "SO",
+    "position": "forward",
+    "hometown": "Edo State, Nigeria",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "South Alabama",
+    "status": "In",
     "name": "Carrington \u201cCJ\u201d Wilson",
     "height": "5-9",
     "year": "SO",
@@ -22397,6 +22617,17 @@
   },
   {
     "team": "South Carolina State",
+    "status": "In",
+    "name": "Sami\u2019ah Puckett",
+    "height": "6-3",
+    "year": "RS SO",
+    "position": "forward/center",
+    "hometown": "Griffin, GA",
+    "entered_portal": null,
+    "transfer_history": "from East Tennessee State to ASU following the 2023-24 season"
+  },
+  {
+    "team": "South Carolina State",
     "status": "Out",
     "name": "Taniya McGowan",
     "height": "5-10",
@@ -22415,6 +22646,17 @@
     "position": "center",
     "hometown": "Frankfort, KY",
     "entered_portal": "2026-02-05",
+    "transfer_history": null
+  },
+  {
+    "team": "South Carolina State",
+    "status": "Out",
+    "name": "Dream Watson",
+    "height": "5-6",
+    "year": "FR",
+    "position": "point guard",
+    "hometown": "Charleston, SC",
+    "entered_portal": "2026-04-21",
     "transfer_history": null
   },
   {
@@ -23563,13 +23805,35 @@
   },
   {
     "team": "Stephen F. Austin",
+    "status": "In",
+    "name": "Faith Acker",
+    "height": "6-2",
+    "year": "JR",
+    "position": "center",
+    "hometown": "Winnsboro, TX",
+    "entered_portal": null,
+    "transfer_history": "from Tarleton State to OK State following the 2024-25 season"
+  },
+  {
+    "team": "Stephen F. Austin",
+    "status": "Out",
+    "name": "Hope LeMelle",
+    "height": "5-7",
+    "year": "GR",
+    "position": "guard",
+    "hometown": "Dallas, TX",
+    "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
+    "team": "Stephen F. Austin",
     "status": "Out",
     "name": "Trinity Moore",
     "height": "6-0",
     "year": "SR",
     "position": "forward",
     "hometown": "Oklahoma City, OK",
-    "entered_portal": "2026-03-30",
+    "entered_portal": null,
     "transfer_history": "from Oral Roberts to SFA following the 2022-23 season"
   },
   {
@@ -23580,7 +23844,7 @@
     "year": "SO",
     "position": "wing",
     "hometown": "Frisco, TX",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -24537,8 +24801,19 @@
     "year": "JR",
     "position": "point guard",
     "hometown": "Saint Stephen, SC",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Fordham to TSU following the 2024-25 season"
+  },
+  {
+    "team": "Tennessee State",
+    "status": "Out",
+    "name": "Nia Hicks",
+    "height": "5-6",
+    "year": "RS JR",
+    "position": "guard",
+    "hometown": "Suwanee, GA",
+    "entered_portal": "2026-04-27",
+    "transfer_history": null
   },
   {
     "team": "Tennessee State",
@@ -24559,7 +24834,7 @@
     "year": "SO",
     "position": "combo guard",
     "hometown": "Oxford, AL",
-    "entered_portal": "2026-04-07",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -27216,6 +27491,17 @@
   {
     "team": "Weber State",
     "status": "In",
+    "name": "Favour Onoh",
+    "height": "6-5",
+    "year": "RS FR",
+    "position": "center",
+    "hometown": "Enugu, Nigeria",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Weber State",
+    "status": "In",
     "name": "Draya Wacker",
     "height": "5-8",
     "year": "RS JR",
@@ -27517,8 +27803,8 @@
     "height": "5-8",
     "year": "JR",
     "position": "shooting guard",
-    "hometown": "Charlotte, NC /",
-    "entered_portal": "2026-04-06",
+    "hometown": "Charlotte, NC",
+    "entered_portal": null,
     "transfer_history": "from Johnson C. Smith (D-II) to WCU following the 2024-25 season"
   },
   {
@@ -28481,6 +28767,17 @@
   {
     "team": "Youngstown State",
     "status": "In",
+    "name": "Mia Kalich",
+    "height": "5-11",
+    "year": "JR",
+    "position": "forward",
+    "hometown": "Olmsted Falls, OH",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Youngstown State",
+    "status": "In",
     "name": "Jada Leonard",
     "height": "5-8",
     "year": "RS JR",
@@ -28491,13 +28788,24 @@
   },
   {
     "team": "Youngstown State",
+    "status": "In",
+    "name": "Gemma Walker",
+    "height": "5-10",
+    "year": "SO",
+    "position": "shooting guard",
+    "hometown": "Venetia, PA",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Youngstown State",
     "status": "Out",
     "name": "Sophia Gregory",
     "height": "6-2",
     "year": "SO",
     "position": "wing/forward",
     "hometown": "Alliance, OH",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -28519,7 +28827,7 @@
     "year": "RS FR",
     "position": "center",
     "hometown": "Cameron, WV",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   }
 ]
