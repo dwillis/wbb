@@ -3307,7 +3307,18 @@
     "year": "SR",
     "position": "shooting guard/wing",
     "hometown": "Pueblo West, CO",
-    "entered_portal": "2025-10-31",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "UC San Diego",
+    "status": "Out",
+    "name": "Juna\u00e9 Mahan",
+    "height": "5-8",
+    "year": "RS JR",
+    "position": "shooting guard",
+    "hometown": "Stockton, CA",
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -3769,7 +3780,7 @@
     "year": "JR",
     "position": "point guard",
     "hometown": "Fort Lauderdale, FL",
-    "entered_portal": "2026-05-22",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -3902,6 +3913,28 @@
     "position": "point guard",
     "hometown": "Conway, AR",
     "entered_portal": "2026-03-30",
+    "transfer_history": null
+  },
+  {
+    "team": "Central Arkansas",
+    "status": "Out",
+    "name": "Kamryn Griffin",
+    "height": "5-11",
+    "year": "SO",
+    "position": "forward",
+    "hometown": "San Antonio, TX",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Central Arkansas",
+    "status": "Out",
+    "name": "Carla Ramirez",
+    "height": "5-10",
+    "year": "FR",
+    "position": "guard",
+    "hometown": "Malaga, Spain",
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -4321,6 +4354,17 @@
     "hometown": "Austin, TX",
     "entered_portal": "2026-04-16",
     "transfer_history": "from Blinn College (juco) to Alabama A&M to UTRGV to Charleston"
+  },
+  {
+    "team": "Charleston Southern",
+    "status": "In",
+    "name": "Ashleigh Battle",
+    "height": "5-2",
+    "year": "JR",
+    "position": "point guard",
+    "hometown": "Fort Lauderdale, FL",
+    "entered_portal": null,
+    "transfer_history": null
   },
   {
     "team": "Charleston Southern",
@@ -13829,6 +13873,17 @@
   {
     "team": "Merrimack",
     "status": "In",
+    "name": "Olivia Borsutzki",
+    "height": "5-11",
+    "year": "SO",
+    "position": "wing",
+    "hometown": "Munich, Germany",
+    "entered_portal": null,
+    "transfer_history": "from Xavier to Omaha following the 2024-25 season"
+  },
+  {
+    "team": "Merrimack",
+    "status": "In",
     "name": "Emma Dibarboure",
     "height": "6-1",
     "year": "FR",
@@ -13873,6 +13928,17 @@
   {
     "team": "Merrimack",
     "status": "In",
+    "name": "Olivia Vick",
+    "height": "5-5",
+    "year": "SO",
+    "position": "combo guard",
+    "hometown": "Chicago, IL",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Merrimack",
+    "status": "In",
     "name": "Naomi Wilson",
     "height": "6-3",
     "year": "JR",
@@ -13900,7 +13966,7 @@
     "year": "SO",
     "position": "guard",
     "hometown": "Naragansett, RI",
-    "entered_portal": "2026-04-08",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -13911,7 +13977,7 @@
     "year": "JR",
     "position": "combo guard",
     "hometown": "Corozal, Puerto Rico",
-    "entered_portal": "2026-04-10",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -13977,7 +14043,7 @@
     "year": "JR",
     "position": "guard",
     "hometown": "Niagara, NY",
-    "entered_portal": "2026-04-14",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -14021,7 +14087,7 @@
     "year": "JR",
     "position": "guard",
     "hometown": "Udine, Italy",
-    "entered_portal": "2026-03-26",
+    "entered_portal": null,
     "transfer_history": "from South Florida to Miami following the 2024-25 season"
   },
   {
@@ -14032,7 +14098,7 @@
     "year": "RS SO",
     "position": "center",
     "hometown": "Niamey, Niger",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Washington State to Miami following the 2024-25 season"
   },
   {
@@ -14043,7 +14109,7 @@
     "year": "SR",
     "position": "wing",
     "hometown": "Pompano Beach, FL",
-    "entered_portal": "2026-03-26",
+    "entered_portal": null,
     "transfer_history": "from James Madison to FIU to Miami"
   },
   {
@@ -14054,7 +14120,7 @@
     "year": "FR",
     "position": "forward",
     "hometown": "Dacula, GA",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -14065,7 +14131,7 @@
     "year": "RS FR",
     "position": "wing",
     "hometown": "Poughkeepsie, NY",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -14076,7 +14142,7 @@
     "year": "GR",
     "position": "center",
     "hometown": "Rancho Cucamonga, CA",
-    "entered_portal": "2026-04-02",
+    "entered_portal": null,
     "transfer_history": "from Fresno State to SMU to Miami (at SMU in 2024-25: 30 GP (30 starts), 29.8 MPG, 10.3 PPG, 12.0 RPG)"
   },
   {
@@ -14087,7 +14153,7 @@
     "year": "FR",
     "position": "shooting guard",
     "hometown": "Noblesville, IN",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -14098,7 +14164,7 @@
     "year": "FR",
     "position": "combo guard",
     "hometown": "Fort Worth, TX",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -18729,7 +18795,7 @@
     "year": "SO",
     "position": "wing",
     "hometown": "Munich, Germany",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Xavier to Omaha following the 2024-25 season"
   },
   {
@@ -27463,7 +27529,7 @@
     "year": "RS FR",
     "position": "wing/forward",
     "hometown": "Tallinn, Estonia",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
