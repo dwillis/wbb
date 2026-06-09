@@ -2273,7 +2273,7 @@
     "year": "RS FR",
     "position": "forward",
     "hometown": "S\u00e3o Paulo, Brazil",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -18626,21 +18626,21 @@
     "team": "Omaha",
     "status": "Out",
     "name": "Olivia Borsutzki",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
+    "height": "5-11",
+    "year": "SO",
+    "position": "wing",
+    "hometown": "Munich, Germany",
     "entered_portal": "2026-04-06",
-    "transfer_history": null
+    "transfer_history": "from Xavier to Omaha following the 2024-25 season"
   },
   {
     "team": "Omaha",
     "status": "Out",
     "name": "Esra Kurban",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
+    "height": "5-8",
+    "year": "FR",
+    "position": "shooting guard",
+    "hometown": "Istanbul, Turkey",
     "entered_portal": "2026-04-06",
     "transfer_history": null
   },
@@ -18652,29 +18652,29 @@
     "year": "FR",
     "position": "center",
     "hometown": "Port Washington, WI",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
     "team": "Omaha",
     "status": "Out",
     "name": "Mina Milosevic",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
+    "height": "6-2",
+    "year": "SO",
+    "position": "wing/forward",
+    "hometown": "Belgrade, Serbia",
     "entered_portal": "2026-04-06",
-    "transfer_history": null
+    "transfer_history": "from Bellarmine to Omaha following the 2024-25 season"
   },
   {
     "team": "Omaha",
     "status": "Out",
     "name": "Daria Shelby",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
-    "entered_portal": "2026-04-09",
+    "height": "5-8",
+    "year": "SO",
+    "position": "shooting guard",
+    "hometown": "Canton, MI",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -23585,6 +23585,17 @@
   },
   {
     "team": "Stetson",
+    "status": "In",
+    "name": "Sofia Moschen",
+    "height": "6-2",
+    "year": "RS FR",
+    "position": "forward",
+    "hometown": "S\u00e3o Paulo, Brazil",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Stetson",
     "status": "Out",
     "name": "La\u2019Niya Richardson",
     "height": "5-6",
@@ -25433,6 +25444,17 @@
   },
   {
     "team": "Texas State",
+    "status": "In",
+    "name": "Makenna Shaffer-Lauer",
+    "height": "6-1",
+    "year": "JR",
+    "position": "wing",
+    "hometown": "Greeley, CO",
+    "entered_portal": null,
+    "transfer_history": "from Florida Southwestern State (juco) to Buffalo to Weber State"
+  },
+  {
+    "team": "Texas State",
     "status": "Out",
     "name": "Angela Carroll",
     "height": "6-1",
@@ -27232,7 +27254,7 @@
     "year": "SO",
     "position": "shooting guard",
     "hometown": "Dinuba, CA",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -27243,7 +27265,7 @@
     "year": "JR",
     "position": "wing",
     "hometown": "Greeley, CO",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Florida Southwestern State to Buffalo to Weber State"
   },
   {
