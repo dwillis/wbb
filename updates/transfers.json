@@ -3824,7 +3824,7 @@
     "year": "SO",
     "position": "shooting guard",
     "hometown": "Durham, NC",
-    "entered_portal": "2026-05-20",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -11892,13 +11892,24 @@
   },
   {
     "team": "Lindenwood",
+    "status": "In",
+    "name": "Bianca Silva",
+    "height": "5-6",
+    "year": "JR",
+    "position": "point guard",
+    "hometown": "Florianopolis, Brazil",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Lindenwood",
     "status": "Out",
     "name": "Ellie Brueggemann",
     "height": "5-11",
     "year": "JR",
     "position": "shooting guard",
     "hometown": "Owasso, OK",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -11909,7 +11920,7 @@
     "year": "JR",
     "position": "wing",
     "hometown": "St. Charles, MO",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Illinois State to Lindenwood following the 2023-24 season"
   },
   {
@@ -11920,7 +11931,7 @@
     "year": "JR",
     "position": "center",
     "hometown": "Agency, MO",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -11942,7 +11953,7 @@
     "year": "JR",
     "position": "forward",
     "hometown": "Bixby, OK",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -11964,7 +11975,7 @@
     "year": "FR",
     "position": "guard",
     "hometown": "Wellington, KS",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -11975,7 +11986,7 @@
     "year": "JR",
     "position": "wing",
     "hometown": "Bellevue, NE",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -11986,7 +11997,7 @@
     "year": "JR",
     "position": "guard",
     "hometown": "Bixby, OK",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Abilene Christian to Lindenwood following the 2023-24 season"
   },
   {
@@ -12371,7 +12382,7 @@
     "year": "JR",
     "position": "point guard",
     "hometown": "Florianopolis, Brazil",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -17211,8 +17222,8 @@
     "year": "SO",
     "position": "guard",
     "hometown": "McKinney, TX",
-    "entered_portal": "2026-04-06",
-    "transfer_history": "from Oklahoma Christian (D-II) following the 2024-25 season"
+    "entered_portal": null,
+    "transfer_history": "from Oklahoma Christian (D-II) to UNCG following the 2024-25 season"
   },
   {
     "team": "UNCG",
@@ -21336,6 +21347,17 @@
     "year": "SO",
     "position": "point guard",
     "hometown": "Covington, GA",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "St. John\u2019s",
+    "status": "In",
+    "name": "Olivia Tucker",
+    "height": "5-7",
+    "year": "SO",
+    "position": "shooting guard",
+    "hometown": "Durham, NC",
     "entered_portal": null,
     "transfer_history": null
   },
