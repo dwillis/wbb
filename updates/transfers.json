@@ -3648,7 +3648,7 @@
     "year": "FR",
     "position": "wing",
     "hometown": "Ankara, Turkey",
-    "entered_portal": "2026-04-07",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -6116,6 +6116,28 @@
     "transfer_history": "from Northern Kentucky to UDM following the 2024-25 season"
   },
   {
+    "team": "Detroit Mercy",
+    "status": "Out",
+    "name": "Amaya Burch",
+    "height": "5-9",
+    "year": "RS JR",
+    "position": "shooting guard",
+    "hometown": "Sicklerville, NJ",
+    "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
+    "team": "Detroit Mercy",
+    "status": "Out",
+    "name": "Rayven McQueen",
+    "height": "6-0",
+    "year": "FR",
+    "position": "wing/forward",
+    "hometown": "Flint, MI",
+    "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
     "team": "Drake",
     "status": "In",
     "name": "Allie Myers",
@@ -6433,6 +6455,17 @@
     "hometown": "Killeen, TX",
     "entered_portal": null,
     "transfer_history": null
+  },
+  {
+    "team": "East Texas A&M",
+    "status": "In",
+    "name": "Jailynn Brill",
+    "height": "6-3",
+    "year": "JR",
+    "position": "forward/center",
+    "hometown": "Lincoln, NE",
+    "entered_portal": null,
+    "transfer_history": "from Western Kentucky to Chipola College (juco) to Tarleton"
   },
   {
     "team": "East Texas A&M",
@@ -7927,7 +7960,7 @@
     "year": "FR",
     "position": "wing",
     "hometown": "Dallas, TX",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -7949,7 +7982,7 @@
     "year": "SO",
     "position": "shooting guard",
     "hometown": "Knoxville, TN",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -9802,13 +9835,46 @@
   },
   {
     "team": "Houston Christian",
+    "status": "In",
+    "name": "Tessa Engelman",
+    "height": "6-3",
+    "year": "JR",
+    "position": "forward",
+    "hometown": "Calgary, Alberta",
+    "entered_portal": null,
+    "transfer_history": "from Mount St. Mary\u2019s to Tarleton following the 2024-25 season"
+  },
+  {
+    "team": "Houston Christian",
+    "status": "In",
+    "name": "Basak Orhan",
+    "height": "6-1",
+    "year": "FR",
+    "position": "wing",
+    "hometown": "Ankara, Turkey",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Houston Christian",
+    "status": "In",
+    "name": "Nikki Stanic",
+    "height": "5-10",
+    "year": "JR",
+    "position": "guard",
+    "hometown": "Melbourne, Australia",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Houston Christian",
     "status": "Out",
     "name": "Grace Booth",
     "height": "5-10",
     "year": "SO",
     "position": "shooting guard",
     "hometown": "Glen Rose, TX",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Tarleton State to HCU following the 2024-25 season"
   },
   {
@@ -9819,7 +9885,7 @@
     "year": "SO",
     "position": "combo guard",
     "hometown": "Plano, TX",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -9830,7 +9896,7 @@
     "year": "FR",
     "position": "wing",
     "hometown": "Friendswood, TX",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -10243,6 +10309,17 @@
   {
     "team": "Incarnate Word",
     "status": "In",
+    "name": "Mariah Hart",
+    "height": "5-8",
+    "year": "FR",
+    "position": "point guard",
+    "hometown": "Princeton, TX",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Incarnate Word",
+    "status": "In",
     "name": "A\u2019Maya Holton",
     "height": "6-0",
     "year": "FR",
@@ -10292,7 +10369,7 @@
     "year": "SO",
     "position": "wing",
     "hometown": "Frisco, TX",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -10303,7 +10380,7 @@
     "year": "SO",
     "position": "point guard",
     "hometown": "Phoenix, AZ",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -10314,7 +10391,7 @@
     "year": "JR",
     "position": "forward/center",
     "hometown": "Allen, TX",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -10569,6 +10646,17 @@
     "hometown": "Murfreesboro, TN",
     "entered_portal": "2026-04-07",
     "transfer_history": "from Alabama State to Indiana State following the 2024-25 season"
+  },
+  {
+    "team": "IU Indy",
+    "status": "In",
+    "name": "Hailee Brennen",
+    "height": "6-3",
+    "year": "SR",
+    "position": "forward/center",
+    "hometown": "Miami, FL",
+    "entered_portal": null,
+    "transfer_history": "from Daytona State College (juco) to Florida A&M to Charleston Southern to New Orleans"
   },
   {
     "team": "IU Indy",
@@ -12042,6 +12130,17 @@
     "position": "guard",
     "hometown": "Maple Grove, MN",
     "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
+    "team": "Lipscomb",
+    "status": "In",
+    "name": "Taliah Lee",
+    "height": "5-11",
+    "year": "JR",
+    "position": "wing",
+    "hometown": "Spokane Valley, WA",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -16474,7 +16573,7 @@
     "year": "JR",
     "position": "guard",
     "hometown": "Melbourne, Australia",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -16524,6 +16623,61 @@
   {
     "team": "New Orleans",
     "status": "Out",
+    "name": "Trinity Bane",
+    "height": "6-0",
+    "year": "JR",
+    "position": "forward",
+    "hometown": "Pharr, TX",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "New Orleans",
+    "status": "Out",
+    "name": "Hailee Brennen",
+    "height": "6-3",
+    "year": "SR",
+    "position": "forward/center",
+    "hometown": "Miami, FL",
+    "entered_portal": null,
+    "transfer_history": "from Daytona State College (juco) to Florida A&M to Charleston Southern to New Orleans"
+  },
+  {
+    "team": "New Orleans",
+    "status": "Out",
+    "name": "Mariah Hart",
+    "height": "5-8",
+    "year": "FR",
+    "position": "point guard",
+    "hometown": "Princeton, TX",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "New Orleans",
+    "status": "Out",
+    "name": "Logan Johnson",
+    "height": "6-0",
+    "year": "JR",
+    "position": "forward",
+    "hometown": "Houston, TX",
+    "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
+    "team": "New Orleans",
+    "status": "Out",
+    "name": "Mikayla Johnson",
+    "height": "5-10",
+    "year": "FR",
+    "position": "shooting guard",
+    "hometown": "Columbus, GA",
+    "entered_portal": "2026-04-06",
+    "transfer_history": null
+  },
+  {
+    "team": "New Orleans",
+    "status": "Out",
     "name": "Sephora Kayolo",
     "height": "6-1",
     "year": "RS SR",
@@ -16531,6 +16685,17 @@
     "hometown": "Kinsasha, Democratic Republic of the Congo",
     "entered_portal": "2026-03-12",
     "transfer_history": "from Grayson College (juco) to Oral Roberts to New Orleans"
+  },
+  {
+    "team": "New Orleans",
+    "status": "Out",
+    "name": "Sharon Smith",
+    "height": "5-7",
+    "year": "JR",
+    "position": "point guard",
+    "hometown": "Saginaw, MI",
+    "entered_portal": "2026-04-06",
+    "transfer_history": null
   },
   {
     "team": "Niagara",
@@ -16650,7 +16815,7 @@
     "year": "SO",
     "position": "point guard",
     "hometown": "Laredo, TX",
-    "entered_portal": "2026-04-14",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -16661,7 +16826,7 @@
     "year": "JR",
     "position": "wing",
     "hometown": "Beaumont, TX",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -18757,6 +18922,17 @@
   {
     "team": "Old Dominion",
     "status": "In",
+    "name": "Shadasia Brackens",
+    "height": "5-11",
+    "year": "JR",
+    "position": "wing/forward",
+    "hometown": "Fairfield, TX",
+    "entered_portal": null,
+    "transfer_history": "from North Texas to Tarleton following the 2024-25 season"
+  },
+  {
+    "team": "Old Dominion",
+    "status": "In",
     "name": "Delaney Snyder",
     "height": "6-5",
     "year": "JR",
@@ -20212,7 +20388,7 @@
     "name": "Ryan Davis",
     "height": "6-0",
     "year": "FR",
-    "position": "forward",
+    "position": "wing/forward",
     "hometown": "Cincinnati, OH",
     "entered_portal": null,
     "transfer_history": null
@@ -23052,7 +23228,7 @@
     "year": "SR",
     "position": "guard",
     "hometown": "Vantaa, Finland",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -24350,7 +24526,7 @@
     "year": "JR",
     "position": "wing/forward",
     "hometown": "Fairfield, TX",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from North Texas to Tarleton following the 2024-25 season"
   },
   {
@@ -24361,7 +24537,7 @@
     "year": "JR",
     "position": "forward/center",
     "hometown": "Lincoln, NE",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Western Kentucky to Chipola College (juco) to Tarleton"
   },
   {
@@ -24372,7 +24548,7 @@
     "year": "JR",
     "position": "forward",
     "hometown": "Calgary, Alberta",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Mount St. Mary\u2019s to Tarleton following the 2024-25 season"
   },
   {
@@ -25054,7 +25230,7 @@
     "year": "GR",
     "position": "guard",
     "hometown": "Baxter, TN",
-    "entered_portal": "2026-04-02",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -25065,7 +25241,7 @@
     "year": "SO",
     "position": "point guard",
     "hometown": "Bossier City, LA",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -25543,6 +25719,50 @@
   },
   {
     "team": "UTRGV",
+    "status": "In",
+    "name": "Janette Aarnio",
+    "height": "5-11",
+    "year": "SR",
+    "position": "guard",
+    "hometown": "Vantaa, Finland (grad xfer)",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "UTRGV",
+    "status": "In",
+    "name": "Trinity Bane",
+    "height": "6-0",
+    "year": "JR",
+    "position": "forward",
+    "hometown": "Pharr, TX",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "UTRGV",
+    "status": "In",
+    "name": "Jesslynn Jalomo",
+    "height": "5-6",
+    "year": "SO",
+    "position": "point guard",
+    "hometown": "Laredo, TX",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "UTRGV",
+    "status": "In",
+    "name": "Kamryn McLaurin",
+    "height": "5-11",
+    "year": "FR",
+    "position": "wing",
+    "hometown": "Friendswood, TX",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "UTRGV",
     "status": "Out",
     "name": "Ivy Brown",
     "height": "6-0",
@@ -25560,7 +25780,7 @@
     "year": "FR",
     "position": "wing/forward",
     "hometown": "Modi\u2019in-Maccabim-Re\u2019ut, Israel",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
