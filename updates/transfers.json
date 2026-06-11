@@ -282,7 +282,7 @@
     "year": "JR",
     "position": "point guard",
     "hometown": "Lilburn, GA",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Ohio State to Alabama following the 2023-24 season"
   },
   {
@@ -9412,7 +9412,7 @@
     "year": "RS FR",
     "position": "forward",
     "hometown": "Victoria, Australia",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -10600,7 +10600,7 @@
     "year": "SO",
     "position": "point guard",
     "hometown": "Ballarat, Victoria, Australia",
-    "entered_portal": "2026-04-14",
+    "entered_portal": null,
     "transfer_history": "from Sacramento State to IU Indy following the 2024-25 season"
   },
   {
@@ -10611,7 +10611,7 @@
     "year": "JR",
     "position": "combo guard",
     "hometown": "South Bend, IN",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Western Kentucky to IU Indy following the 2023-24 season"
   },
   {
@@ -11651,6 +11651,28 @@
   {
     "team": "Kentucky",
     "status": "In",
+    "name": "Jemma Amoore",
+    "height": "5-4",
+    "year": "SO",
+    "position": "point guard",
+    "hometown": "Ballarat, Victoria, Australia",
+    "entered_portal": null,
+    "transfer_history": "from Sacramento State to IU Indy following the 2024-25 season"
+  },
+  {
+    "team": "Kentucky",
+    "status": "In",
+    "name": "Diana Collins",
+    "height": "5-9",
+    "year": "JR",
+    "position": "point guard",
+    "hometown": "Lilburn, GA",
+    "entered_portal": null,
+    "transfer_history": "from Ohio State to Alabama following the 2023-24 season"
+  },
+  {
+    "team": "Kentucky",
+    "status": "In",
     "name": "Me\u2019Arah O\u2019Neal",
     "height": "6-5",
     "year": "JR",
@@ -12140,6 +12162,17 @@
     "year": "SO",
     "position": "forward",
     "hometown": "Budapest, Hungary",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Long Beach State",
+    "status": "In",
+    "name": "Danijela Kujovic",
+    "height": "6-1",
+    "year": "RS FR",
+    "position": "forward",
+    "hometown": "Victoria, Australia",
     "entered_portal": null,
     "transfer_history": null
   },
