@@ -9616,6 +9616,17 @@
   {
     "team": "Hofstra",
     "status": "In",
+    "name": "Angel Jones",
+    "height": "5-4",
+    "year": "SR",
+    "position": "point guard",
+    "hometown": "Woodbridge, VA",
+    "entered_portal": null,
+    "transfer_history": "from Siena to Coppin State (2024-25 first-team All-MEAC) to Pitt"
+  },
+  {
+    "team": "Hofstra",
+    "status": "In",
     "name": "Comari Mitchell",
     "height": "5-8",
     "year": "SO",
@@ -9676,7 +9687,7 @@
     "year": "SO",
     "position": "forward/center",
     "hometown": "Saco, ME",
-    "entered_portal": "2026-04-09",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -9709,7 +9720,7 @@
     "year": "FR",
     "position": "point guard",
     "hometown": "Rochester, NY",
-    "entered_portal": "2026-04-13",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -13257,6 +13268,17 @@
   {
     "team": "Marshall",
     "status": "In",
+    "name": "Paris Gilmore",
+    "height": "5-7",
+    "year": "JR",
+    "position": "point guard",
+    "hometown": "Youngstown, OH",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Marshall",
+    "status": "In",
     "name": "Anaya Harris",
     "height": "5-9",
     "year": "JR",
@@ -13581,7 +13603,7 @@
     "year": "JR",
     "position": "point guard",
     "hometown": "Youngstown, OH",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -19741,7 +19763,7 @@
     "year": "SR",
     "position": "point guard",
     "hometown": "Woodbridge, VA",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Siena to Coppin State (2024-25 first-team All-MEAC) to Pitt"
   },
   {
