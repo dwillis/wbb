@@ -1246,33 +1246,33 @@
     "team": "Arkansas\u2013Pine Bluff",
     "status": "Out",
     "name": "Jayla Cornelius",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
-    "entered_portal": "2026-04-06",
-    "transfer_history": null
+    "height": "5-8",
+    "year": "SO",
+    "position": "combo guard",
+    "hometown": "Blue Springs, MO",
+    "entered_portal": null,
+    "transfer_history": "from Emporia State (D-II) to UAPB following the 2024-25 season"
   },
   {
     "team": "Arkansas\u2013Pine Bluff",
     "status": "Out",
     "name": "Zoey Davis",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
-    "entered_portal": "2026-04-06",
-    "transfer_history": null
+    "height": "6-2",
+    "year": "SO",
+    "position": "forward",
+    "hometown": "Portland, OR",
+    "entered_portal": null,
+    "transfer_history": "from Southern Utah to UAPB following the 2024-25 season"
   },
   {
     "team": "Arkansas\u2013Pine Bluff",
     "status": "Out",
     "name": "Coumba Keita",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
-    "entered_portal": "2026-04-06",
+    "height": "6-1",
+    "year": "FR",
+    "position": "wing",
+    "hometown": "Paris, France",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -1725,6 +1725,39 @@
     "hometown": "Langley, BC",
     "entered_portal": "2026-04-06",
     "transfer_history": "from North Dakota to Baylor following the 2024-25 season"
+  },
+  {
+    "team": "Bellarmine",
+    "status": "In",
+    "name": "Asiah Harris",
+    "height": "5-11",
+    "year": "JR",
+    "position": "forward",
+    "hometown": "Los Angeles, CA",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Bellarmine",
+    "status": "In",
+    "name": "Kellyn Hunter",
+    "height": "5-4",
+    "year": "JR",
+    "position": "combo guard",
+    "hometown": "Mobile, AL",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Bellarmine",
+    "status": "In",
+    "name": "Coumba Keita",
+    "height": "6-1",
+    "year": "FR",
+    "position": "wing",
+    "hometown": "Paris, France",
+    "entered_portal": null,
+    "transfer_history": null
   },
   {
     "team": "Bellarmine",
@@ -5749,7 +5782,7 @@
     "year": "JR",
     "position": "wing",
     "hometown": "Zebulon, NC",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Queens University of Charlotte to DSU following the 2024-25 season"
   },
   {
@@ -18399,7 +18432,7 @@
     "year": "FR",
     "position": "wing",
     "hometown": "Englewood, TN",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -18421,7 +18454,7 @@
     "year": "JR",
     "position": "center",
     "hometown": "Gold Coast, Australia",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -18432,7 +18465,7 @@
     "year": "FR",
     "position": "forward",
     "hometown": "Kettering, OH",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -18443,7 +18476,7 @@
     "year": "SO",
     "position": "wing",
     "hometown": "Oshawa, ON",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -23399,6 +23432,17 @@
   {
     "team": "Southeast Missouri",
     "status": "In",
+    "name": "Jolie Bonderer",
+    "height": "5-8",
+    "year": "SO",
+    "position": "guard",
+    "hometown": "Chillicothe, MO",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Southeast Missouri",
+    "status": "In",
     "name": "Courtenay Lee",
     "height": "6-4",
     "year": "JR",
@@ -23433,10 +23477,10 @@
     "team": "Southeast Missouri",
     "status": "Out",
     "name": "Aanjelicia Del Valle",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
+    "height": "5-11",
+    "year": "JR",
+    "position": "guard",
+    "hometown": "Portage, IN",
     "entered_portal": "2026-04-06",
     "transfer_history": null
   },
@@ -23444,10 +23488,10 @@
     "team": "Southeast Missouri",
     "status": "Out",
     "name": "Noelani Dunn",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
+    "height": "5-6",
+    "year": "FR",
+    "position": "point guard",
+    "hometown": "Frankfort, IL",
     "entered_portal": "2026-04-06",
     "transfer_history": null
   },
@@ -23455,10 +23499,10 @@
     "team": "Southeast Missouri",
     "status": "Out",
     "name": "Da\u2019Kariya Jackson",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
+    "height": "6-0",
+    "year": "SR",
+    "position": "guard",
+    "hometown": "Jacksonville, AR",
     "entered_portal": "2026-04-06",
     "transfer_history": null
   },
@@ -23477,10 +23521,10 @@
     "team": "Southeast Missouri",
     "status": "Out",
     "name": "Mikayla Riley",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
+    "height": "5-11",
+    "year": "JR",
+    "position": "guard",
+    "hometown": "Tupelo, MS",
     "entered_portal": "2026-04-08",
     "transfer_history": null
   },
@@ -23499,11 +23543,11 @@
     "team": "Southeast Missouri",
     "status": "Out",
     "name": "Addison Tarr",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
-    "entered_portal": "2026-04-06",
+    "height": "5-11",
+    "year": "FR",
+    "position": "shooting guard",
+    "hometown": "Taylorville, IL",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -25516,7 +25560,7 @@
     "year": "JR",
     "position": "forward",
     "hometown": "Harrisburg, PA",
-    "entered_portal": "2026-04-09",
+    "entered_portal": null,
     "transfer_history": "from Moberly Area CC (juco) to North Florida to A&M\u2013Corpus Christi"
   },
   {
@@ -25527,7 +25571,7 @@
     "year": "RS SO",
     "position": "center",
     "hometown": "Aubrey, TX",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -26028,6 +26072,28 @@
   {
     "team": "Texas Southern",
     "status": "In",
+    "name": "Marianah Achol",
+    "height": "6-4",
+    "year": "FR",
+    "position": "forward",
+    "hometown": "Rumbek, South Sudan",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Texas Southern",
+    "status": "In",
+    "name": "Kaitlyn Adams",
+    "height": "5-10",
+    "year": "JR",
+    "position": "wing",
+    "hometown": "Zebulon, NC",
+    "entered_portal": null,
+    "transfer_history": "from Queens University of Charlotte to DSU following the 2024-25 season"
+  },
+  {
+    "team": "Texas Southern",
+    "status": "In",
     "name": "Kennedi Ard",
     "height": "5-10",
     "year": "SO",
@@ -26061,6 +26127,17 @@
   {
     "team": "Texas Southern",
     "status": "In",
+    "name": "Jayla Cornelius",
+    "height": "5-8",
+    "year": "SO",
+    "position": "combo guard",
+    "hometown": "Blue Springs, MO",
+    "entered_portal": null,
+    "transfer_history": "from Emporia State (D-II) to UAPB following the 2024-25 season"
+  },
+  {
+    "team": "Texas Southern",
+    "status": "In",
     "name": "Mame Kane",
     "height": "6-6",
     "year": "SO",
@@ -26068,6 +26145,17 @@
     "hometown": "Dakar, Senegal",
     "entered_portal": null,
     "transfer_history": null
+  },
+  {
+    "team": "Texas Southern",
+    "status": "In",
+    "name": "Sydney Pettis",
+    "height": "6-2",
+    "year": "JR",
+    "position": "forward",
+    "hometown": "Harrisburg, PA Texas A&M\u2013Corpus Christi",
+    "entered_portal": null,
+    "transfer_history": "from Moberly Area CC (juco) to North Florida to A&M\u2013Corpus Christi"
   },
   {
     "team": "Texas Southern",
@@ -26099,7 +26187,7 @@
     "year": "JR",
     "position": "forward",
     "hometown": "Chicago, IL",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Sacramento State to UNCG to TSU"
   },
   {
@@ -26110,7 +26198,7 @@
     "year": "JR",
     "position": "combo guard",
     "hometown": "Portland, OR",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Fresno State to TSU following the 2024-25 season"
   },
   {
@@ -26539,7 +26627,7 @@
     "year": "FR",
     "position": "forward",
     "hometown": "Rumbek, South Sudan",
-    "entered_portal": "2026-04-07",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -26550,7 +26638,7 @@
     "year": "FR",
     "position": "guard",
     "hometown": "Belgrade, Serbia",
-    "entered_portal": "2026-04-07",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
