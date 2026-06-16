@@ -1938,28 +1938,6 @@
   {
     "team": "Bethune-Cookman",
     "status": "In",
-    "name": "Marley Bell",
-    "height": "5-10",
-    "year": "SO",
-    "position": "wing/forward",
-    "hometown": "Montgomery, GA",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Bethune-Cookman",
-    "status": "In",
-    "name": "Jarahle Daniels",
-    "height": "5-6",
-    "year": "JR",
-    "position": "point guard",
-    "hometown": "Fairfield, TX",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Bethune-Cookman",
-    "status": "In",
     "name": "Amiyah Ferguson",
     "height": "5-8",
     "year": "JR",
@@ -1971,44 +1949,11 @@
   {
     "team": "Bethune-Cookman",
     "status": "In",
-    "name": "Mayla Ham",
-    "height": "5-11",
-    "year": "JR",
-    "position": "wing",
-    "hometown": "Detroit, MI",
-    "entered_portal": null,
-    "transfer_history": "from Georgetown to CMU following the 2023-24 season"
-  },
-  {
-    "team": "Bethune-Cookman",
-    "status": "In",
-    "name": "Kayla Lee",
-    "height": "5-8",
-    "year": "SO",
-    "position": "point guard",
-    "hometown": "Franklin, TN",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Bethune-Cookman",
-    "status": "In",
     "name": "Akilah Shelton",
     "height": "6-2",
     "year": "FR",
     "position": "forward/center",
     "hometown": "Columbus, SC",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Bethune-Cookman",
-    "status": "In",
-    "name": "Jazmin Thornton",
-    "height": "6-0",
-    "year": "SO",
-    "position": "wing",
-    "hometown": "LaGrange, GA",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -4319,7 +4264,7 @@
     "year": "JR",
     "position": "wing",
     "hometown": "Detroit, MI",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": "from Georgetown to CMU following the 2023-24 season"
   },
   {
@@ -4330,7 +4275,7 @@
     "year": "SO",
     "position": "shooting guard",
     "hometown": "Canton, MI",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -4341,7 +4286,7 @@
     "year": "SO",
     "position": "forward",
     "hometown": "Lexington, KY",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -12338,7 +12283,7 @@
     "year": "JR",
     "position": "point guard",
     "hometown": "Fairfield, TX",
-    "entered_portal": null,
+    "entered_portal": "2026-04-07",
     "transfer_history": null
   },
   {
