@@ -661,6 +661,17 @@
   },
   {
     "team": "Albany",
+    "status": "In",
+    "name": "Cadence Johnson",
+    "height": "6-0",
+    "year": "JR",
+    "position": "forward",
+    "hometown": "Mattapoisett, MA",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Albany",
     "status": "Out",
     "name": "Martina Borrellas",
     "height": "6-1",
@@ -5930,6 +5941,17 @@
   },
   {
     "team": "Denver",
+    "status": "In",
+    "name": "Mallory McQuietor",
+    "height": "6-3",
+    "year": "JR",
+    "position": "forward",
+    "hometown": "Keller, TX",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Denver",
     "status": "Out",
     "name": "Natalia Fanjul",
     "height": "5-10",
@@ -10523,7 +10545,7 @@
     "year": "JR",
     "position": "forward",
     "hometown": "Keller, TX",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -14285,7 +14307,7 @@
     "year": "JR",
     "position": "forward",
     "hometown": "Mattapoisett, MA",
-    "entered_portal": "2026-04-09",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
