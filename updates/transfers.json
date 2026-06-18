@@ -661,6 +661,17 @@
   },
   {
     "team": "Albany",
+    "status": "In",
+    "name": "Cadence Johnson",
+    "height": "6-0",
+    "year": "JR",
+    "position": "forward",
+    "hometown": "Mattapoisett, MA",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Albany",
     "status": "Out",
     "name": "Martina Borrellas",
     "height": "6-1",
@@ -5930,6 +5941,17 @@
   },
   {
     "team": "Denver",
+    "status": "In",
+    "name": "Mallory McQuietor",
+    "height": "6-3",
+    "year": "JR",
+    "position": "forward",
+    "hometown": "Keller, TX",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Denver",
     "status": "Out",
     "name": "Natalia Fanjul",
     "height": "5-10",
@@ -10523,7 +10545,18 @@
     "year": "JR",
     "position": "forward",
     "hometown": "Keller, TX",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Indiana",
+    "status": "In",
+    "name": "Ashlyn Anderson",
+    "height": "6-3",
+    "year": "SO",
+    "position": "forward",
+    "hometown": "Latchford, ON",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -10578,7 +10611,7 @@
     "year": "FR",
     "position": "point guard",
     "hometown": "Warrenton, MO",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -10589,7 +10622,7 @@
     "year": "JR",
     "position": "forward",
     "hometown": "Botkyrka, Sweden",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Virginia to Indiana following the 2024-25 season"
   },
   {
@@ -10600,7 +10633,7 @@
     "year": "JR",
     "position": "center",
     "hometown": "Orleans, France",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Northwest Florida State College (juco) to Indiana"
   },
   {
@@ -10611,7 +10644,7 @@
     "year": "SO",
     "position": "combo guard",
     "hometown": "Bedford, IN",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Alabama to Indiana following the 2024-25 season"
   },
   {
@@ -10622,7 +10655,7 @@
     "year": "SO",
     "position": "combo guard",
     "hometown": "Amsterdam, Netherlands",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Arkansas to Indiana following the 2024-25 season"
   },
   {
@@ -10633,7 +10666,7 @@
     "year": "SO",
     "position": "forward",
     "hometown": "Martinsville, IN",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -14285,7 +14318,7 @@
     "year": "JR",
     "position": "forward",
     "hometown": "Mattapoisett, MA",
-    "entered_portal": "2026-04-09",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -16738,7 +16771,7 @@
     "year": "SR",
     "position": "forward",
     "hometown": "Madrid, Spain",
-    "entered_portal": "2026-04-20",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -21820,7 +21853,7 @@
     "year": "SO",
     "position": "forward",
     "hometown": "Stockholm, Sweden",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -22392,6 +22425,17 @@
     "year": "FR",
     "position": "point guard",
     "hometown": "Edmonton, Alberta",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "San Francisco",
+    "status": "In",
+    "name": "Lucia Yenes",
+    "height": "6-0",
+    "year": "SR",
+    "position": "forward",
+    "hometown": "Madrid, Spain (grad xfer)",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -27420,6 +27464,17 @@
     "position": "shooting guard/wing",
     "hometown": "Sierakowice, Poland",
     "entered_portal": "2026-04-11",
+    "transfer_history": null
+  },
+  {
+    "team": "Vermont",
+    "status": "In",
+    "name": "Meja J\u00e4gerskog",
+    "height": "6-2",
+    "year": "SO",
+    "position": "forward",
+    "hometown": "Stockholm, Sweden",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
