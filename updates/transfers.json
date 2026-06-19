@@ -3730,17 +3730,6 @@
   },
   {
     "team": "Cal State Fullerton",
-    "status": "In",
-    "name": "Ashari Cassell",
-    "height": "5-6",
-    "year": "JR",
-    "position": "point guard",
-    "hometown": "Eastvale, CA",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Cal State Fullerton",
     "status": "Out",
     "name": "Cristina Jones",
     "height": "5-10",
@@ -9038,7 +9027,7 @@
     "year": "JR",
     "position": "forward",
     "hometown": "S\u00e3o Paulo, Brazil",
-    "entered_portal": null,
+    "entered_portal": "2026-04-30",
     "transfer_history": null
   },
   {
@@ -17899,17 +17888,6 @@
   {
     "team": "North Dakota",
     "status": "In",
-    "name": "Juliana Haddad",
-    "height": "5-10",
-    "year": "SO",
-    "position": "wing",
-    "hometown": "Espoo, Finland",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "North Dakota",
-    "status": "In",
     "name": "Ciona Wells",
     "height": "5-7",
     "year": "SO",
@@ -18476,7 +18454,7 @@
     "year": "SO",
     "position": "wing",
     "hometown": "Espoo, Finland",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -20665,17 +20643,6 @@
     "year": "FR",
     "position": "combo guard",
     "hometown": "Baldwin, NY",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Quinnipiac",
-    "status": "In",
-    "name": "Ana Luiza Ramos Pires",
-    "height": "6-0",
-    "year": "JR",
-    "position": "forward",
-    "hometown": "S\u00e3o Paulo, Brazil",
     "entered_portal": null,
     "transfer_history": null
   },
