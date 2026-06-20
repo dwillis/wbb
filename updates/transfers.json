@@ -3730,6 +3730,17 @@
   },
   {
     "team": "Cal State Fullerton",
+    "status": "In",
+    "name": "Ashari Cassell",
+    "height": "5-6",
+    "year": "JR",
+    "position": "point guard",
+    "hometown": "Eastvale, CA",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Cal State Fullerton",
     "status": "Out",
     "name": "Cristina Jones",
     "height": "5-10",
@@ -9027,7 +9038,7 @@
     "year": "JR",
     "position": "forward",
     "hometown": "S\u00e3o Paulo, Brazil",
-    "entered_portal": "2026-04-30",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -12415,6 +12426,17 @@
     "year": "SO",
     "position": "forward",
     "hometown": "Budapest, Hungary",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Long Beach State",
+    "status": "In",
+    "name": "Amber Furch",
+    "height": "5-5",
+    "year": "JR",
+    "position": "guard",
+    "hometown": "Los Angeles, CA",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -17888,6 +17910,17 @@
   {
     "team": "North Dakota",
     "status": "In",
+    "name": "Juliana Haddad",
+    "height": "5-10",
+    "year": "SO",
+    "position": "wing",
+    "hometown": "Espoo, Finland",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "North Dakota",
+    "status": "In",
     "name": "Ciona Wells",
     "height": "5-7",
     "year": "SO",
@@ -18454,7 +18487,7 @@
     "year": "SO",
     "position": "wing",
     "hometown": "Espoo, Finland",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -20649,6 +20682,17 @@
   {
     "team": "Quinnipiac",
     "status": "In",
+    "name": "Ana Luiza Ramos Pires",
+    "height": "6-0",
+    "year": "JR",
+    "position": "forward",
+    "hometown": "S\u00e3o Paulo, Brazil",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Quinnipiac",
+    "status": "In",
     "name": "Elle Snyder",
     "height": "5-9",
     "year": "SO",
@@ -22469,7 +22513,7 @@
     "year": "FR",
     "position": "forward",
     "hometown": "Oslo, Norway",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -23921,7 +23965,7 @@
     "year": "SO",
     "position": "guard",
     "hometown": "Lagos, Nigeria",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -27865,6 +27909,50 @@
   {
     "team": "Wagner",
     "status": "In",
+    "name": "Ternadoo Agatha Agba",
+    "height": "5-9",
+    "year": "SO",
+    "position": "guard",
+    "hometown": "Lagos, Nigeria",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Wagner",
+    "status": "In",
+    "name": "Lana Beslic",
+    "height": "5-8",
+    "year": "SO",
+    "position": "point guard",
+    "hometown": "Split, Croatia",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Wagner",
+    "status": "In",
+    "name": "Nahia Esnaola",
+    "height": "6-1",
+    "year": "SO",
+    "position": "forward/center",
+    "hometown": "Azkoitia, Spain",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Wagner",
+    "status": "In",
+    "name": "Sophia Priestley",
+    "height": "6-2",
+    "year": "FR",
+    "position": "forward",
+    "hometown": "Oslo, Norway",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Wagner",
+    "status": "In",
     "name": "Stella Sgro",
     "height": "5-11",
     "year": "SO",
@@ -29278,7 +29366,7 @@
     "year": "SO",
     "position": "point guard",
     "hometown": "Split, Croatia",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
