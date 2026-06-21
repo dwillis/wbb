@@ -4512,6 +4512,28 @@
   {
     "team": "Charleston Southern",
     "status": "In",
+    "name": "Sofia Ekh",
+    "height": "5-7",
+    "year": "FR",
+    "position": "point guard",
+    "hometown": "V\u00e4ster\u00e5s, Sweden",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Charleston Southern",
+    "status": "In",
+    "name": "Anica Skrivan",
+    "height": "6-1",
+    "year": "SR",
+    "position": "forward",
+    "hometown": "Trebinje, Bosnia & Herzegovina",
+    "entered_portal": null,
+    "transfer_history": "from Northeastern Oklahoma A&M (juco) to Evansville"
+  },
+  {
+    "team": "Charleston Southern",
+    "status": "In",
     "name": "Celina Vilcinskas",
     "height": "6-8",
     "year": "FR",
@@ -7036,7 +7058,7 @@
     "year": "RS SO",
     "position": "forward",
     "hometown": "Ballarat, Australia",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Eastern Illinois to Evansville following the 2024-25 season"
   },
   {
@@ -7058,7 +7080,7 @@
     "year": "FR",
     "position": "shooting guard",
     "hometown": "Cedar Rapids, IA",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -7069,7 +7091,7 @@
     "year": "SO",
     "position": "guard",
     "hometown": "Union, KY",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -7080,7 +7102,7 @@
     "year": "RS FR",
     "position": "shooting guard",
     "hometown": "Naperville, IL",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -7091,7 +7113,7 @@
     "year": "SO",
     "position": "combo guard",
     "hometown": "Cicero, IN",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -7102,7 +7124,7 @@
     "year": "FR",
     "position": "wing/forward",
     "hometown": "Melbourne, Australia",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -7124,7 +7146,7 @@
     "year": "SO",
     "position": "shooting guard/wing",
     "hometown": "Latrobe, PA",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -7135,7 +7157,7 @@
     "year": "FR",
     "position": "wing",
     "hometown": "St. Louis, MO",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -10138,7 +10160,7 @@
     "year": "FR",
     "position": "point guard",
     "hometown": "V\u00e4ster\u00e5s, Sweden",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
