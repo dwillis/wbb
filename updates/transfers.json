@@ -2614,7 +2614,7 @@
     "year": "SO",
     "position": "forward",
     "hometown": "Fredericksburg, VA",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -2636,7 +2636,7 @@
     "year": "JR",
     "position": "wing/forward",
     "hometown": "Istanbul, Turkey",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -4732,17 +4732,6 @@
   {
     "team": "Chattanooga",
     "status": "In",
-    "name": "Gabbie Grooms",
-    "height": "5-8",
-    "year": "SO",
-    "position": "combo guard",
-    "hometown": "Peachtree City, GA",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Chattanooga",
-    "status": "In",
     "name": "TaTianna Stovall",
     "height": "6-1",
     "year": "FR",
@@ -6750,6 +6739,17 @@
     "year": "FR",
     "position": "wing",
     "hometown": "Fishers, IN",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Eastern Illinois",
+    "status": "In",
+    "name": "Gabbie Grooms",
+    "height": "5-8",
+    "year": "SO",
+    "position": "combo guard",
+    "hometown": "Peachtree City, GA",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -17943,17 +17943,6 @@
   {
     "team": "North Dakota",
     "status": "In",
-    "name": "Jayda Maves",
-    "height": "5-8",
-    "year": "JR",
-    "position": "guard",
-    "hometown": "Lakewood, CO",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "North Dakota",
-    "status": "In",
     "name": "Ciona Wells",
     "height": "5-7",
     "year": "SO",
@@ -19818,7 +19807,7 @@
     "year": "JR",
     "position": "forward",
     "hometown": "Gold Coast, Australia",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
