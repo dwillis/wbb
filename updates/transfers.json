@@ -16710,72 +16710,6 @@
   },
   {
     "team": "New Mexico State",
-    "status": "In",
-    "name": "Eva Agba",
-    "height": "6-0",
-    "year": "RS FR",
-    "position": "guard",
-    "hometown": "Marseille, France",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "New Mexico State",
-    "status": "In",
-    "name": "Lilyana Fontcha",
-    "height": "6-4",
-    "year": "FR",
-    "position": "center",
-    "hometown": "Strasbourg, France",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "New Mexico State",
-    "status": "In",
-    "name": "Talia Kavoka",
-    "height": "5-6",
-    "year": "FR",
-    "position": "point guard",
-    "hometown": "\u00c9vry-Courcouronnes, France",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "New Mexico State",
-    "status": "In",
-    "name": "Aim\u00e9e Michel",
-    "height": "6-3",
-    "year": "FR",
-    "position": "center",
-    "hometown": "Albi, France",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "New Mexico State",
-    "status": "In",
-    "name": "Raina Tomasicka",
-    "height": "5-11",
-    "year": "SO",
-    "position": "wing",
-    "hometown": "Jekabpils, Latvia",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "New Mexico State",
-    "status": "In",
-    "name": "Jana Vesic",
-    "height": "5-7",
-    "year": "FR",
-    "position": "point guard",
-    "hometown": "Belgrade, Serbia",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "New Mexico State",
     "status": "Out",
     "name": "Iyana Beh",
     "height": "6-0",
@@ -21083,7 +21017,7 @@
     "year": "RS FR",
     "position": "guard",
     "hometown": "Marseille, France",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -21094,7 +21028,7 @@
     "year": "FR",
     "position": "center",
     "hometown": "Strasbourg, France",
-    "entered_portal": null,
+    "entered_portal": "2026-04-07",
     "transfer_history": null
   },
   {
@@ -21127,7 +21061,7 @@
     "year": "FR",
     "position": "center",
     "hometown": "Albi, France",
-    "entered_portal": null,
+    "entered_portal": "2026-04-07",
     "transfer_history": null
   },
   {
@@ -23019,7 +22953,7 @@
     "year": "FR",
     "position": "point guard",
     "hometown": "Belgrade, Serbia",
-    "entered_portal": null,
+    "entered_portal": "2026-04-16",
     "transfer_history": null
   },
   {
@@ -23701,7 +23635,7 @@
     "year": "SO",
     "position": "wing",
     "hometown": "Jekabpils, Latvia",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -25802,7 +25736,7 @@
     "year": "FR",
     "position": "point guard",
     "hometown": "\u00c9vry-Courcouronnes, France",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
