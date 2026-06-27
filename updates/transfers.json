@@ -9473,6 +9473,17 @@
   {
     "team": "Hampton",
     "status": "In",
+    "name": "Amiyah Donaldson",
+    "height": "5-7",
+    "year": "RS SR",
+    "position": "shooting guard",
+    "hometown": "Cleveland, OH (grad xfer)",
+    "entered_portal": null,
+    "transfer_history": "from University of Charleston (D-II) to Western Nebraska CC (juco) to Maine"
+  },
+  {
+    "team": "Hampton",
+    "status": "In",
     "name": "Justus Fitzgerald",
     "height": "6-1",
     "year": "FR",
@@ -13273,7 +13284,7 @@
     "year": "RS SR",
     "position": "shooting guard",
     "hometown": "Cleveland, OH",
-    "entered_portal": "2026-03-24",
+    "entered_portal": null,
     "transfer_history": "from University of Charleston (D-II) to Western Nebraska CC (juco) to Maine"
   },
   {
