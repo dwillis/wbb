@@ -2515,7 +2515,7 @@
     "year": "FR",
     "position": "wing",
     "hometown": "Bigfork, MT",
-    "entered_portal": null,
+    "entered_portal": "2026-04-07",
     "transfer_history": null
   },
   {
@@ -2526,7 +2526,7 @@
     "year": "RS JR",
     "position": "wing",
     "hometown": "Aurora, CO",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": "from Santa Clara to BYU following the 2023-24 season"
   },
   {
@@ -2537,7 +2537,7 @@
     "year": "RS SO",
     "position": "forward",
     "hometown": "Corona, CA",
-    "entered_portal": null,
+    "entered_portal": "2026-04-21",
     "transfer_history": null
   },
   {
@@ -2950,44 +2950,11 @@
   {
     "team": "California Baptist",
     "status": "In",
-    "name": "\u0160pela Brecelj",
-    "height": "6-2",
-    "year": "FR",
-    "position": "wing/forward",
-    "hometown": "Ajdov\u0161\u010dina, Slovenia",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "California Baptist",
-    "status": "In",
     "name": "Chloe Briggs",
     "height": "5-10",
     "year": "JR",
     "position": "combo guard",
     "hometown": "Ontario, CA",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "California Baptist",
-    "status": "In",
-    "name": "Sienna Grieger",
-    "height": "5-9",
-    "year": "FR",
-    "position": "combo guard",
-    "hometown": "West Adelaide, Australia",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "California Baptist",
-    "status": "In",
-    "name": "McKinley Willardson",
-    "height": "6-1",
-    "year": "RS SO",
-    "position": "forward",
-    "hometown": "Corona, CA",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -3296,7 +3263,7 @@
     "year": "JR",
     "position": "guard",
     "hometown": "San Antonio, TX",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -12252,17 +12219,6 @@
     "hometown": "Chesterfield, MO",
     "entered_portal": null,
     "transfer_history": "from Navy to Morehead following the 2024-25 season"
-  },
-  {
-    "team": "Lindenwood",
-    "status": "In",
-    "name": "Jarius Powers",
-    "height": "6-1",
-    "year": "FR",
-    "position": "center",
-    "hometown": "Alton, IL",
-    "entered_portal": null,
-    "transfer_history": null
   },
   {
     "team": "Lindenwood",
@@ -22887,7 +22843,7 @@
     "year": "FR",
     "position": "combo guard",
     "hometown": "West Adelaide, Australia",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -28068,7 +28024,7 @@
     "year": "JR",
     "position": "forward",
     "hometown": "West Hartford, CT",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -28079,7 +28035,7 @@
     "year": "FR",
     "position": "wing/forward",
     "hometown": "Ajdov\u0161\u010dina, Slovenia",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -28090,7 +28046,7 @@
     "year": "RS SO",
     "position": "point guard",
     "hometown": "Greenwich, CT",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -28101,7 +28057,7 @@
     "year": "SO",
     "position": "wing",
     "hometown": "Waupun, WI",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -28112,7 +28068,7 @@
     "year": "JR",
     "position": "shooting guard",
     "hometown": "Barrington, IL",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": "from Purdue to Virginia Tech following the 2024-25 season"
   },
   {
