@@ -662,11 +662,33 @@
   {
     "team": "Albany",
     "status": "In",
+    "name": "Shyla Montgomery",
+    "height": "5-6",
+    "year": "SR",
+    "position": "point guard",
+    "hometown": "Brockton, MA",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Albany",
+    "status": "In",
     "name": "Cadence Johnson",
     "height": "6-0",
     "year": "JR",
     "position": "forward",
     "hometown": "Mattapoisett, MA",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Albany",
+    "status": "In",
+    "name": "Madison Roman",
+    "height": "6-0",
+    "year": "JR",
+    "position": "forward",
+    "hometown": "Fairfield, CT",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -14329,7 +14351,7 @@
     "year": "RS FR",
     "position": "wing/forward",
     "hometown": "East Fishkill, NY",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Bryant to Mercyhurst following the 2024-25 season"
   },
   {
@@ -14417,7 +14439,7 @@
     "year": "RS SO",
     "position": "forward",
     "hometown": "Oxford, OH",
-    "entered_portal": "2026-03-25",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -14472,7 +14494,7 @@
     "year": "JR",
     "position": "forward",
     "hometown": "Fairfield, CT",
-    "entered_portal": "2026-04-07",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -17337,13 +17359,24 @@
   },
   {
     "team": "North Alabama",
+    "status": "In",
+    "name": "Kyah Smith",
+    "height": "5-9",
+    "year": "JR",
+    "position": "point guard",
+    "hometown": "Richmond, VA",
+    "entered_portal": null,
+    "transfer_history": "from Navy to W&M following the 2024-25 season"
+  },
+  {
+    "team": "North Alabama",
     "status": "Out",
     "name": "Sofia Ceppellotti",
     "height": "6-1",
     "year": "SO",
     "position": "forward",
     "hometown": "Ruda, Udine, Italy",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -17354,7 +17387,7 @@
     "year": "JR",
     "position": "wing",
     "hometown": "Lawrence County, TN",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -17376,7 +17409,7 @@
     "year": "FR",
     "position": "center",
     "hometown": "Montgomery, TX",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -21352,6 +21385,17 @@
   },
   {
     "team": "Rider",
+    "status": "In",
+    "name": "Gabby Sweeney",
+    "height": "6-1",
+    "year": "RS FR",
+    "position": "wing/forward",
+    "hometown": "East Fishkill, NY",
+    "entered_portal": null,
+    "transfer_history": "from Bryant to Mercyhurst following the 2024-25 season"
+  },
+  {
+    "team": "Rider",
     "status": "Out",
     "name": "Daniya Brown",
     "height": "5-7",
@@ -21364,12 +21408,23 @@
   {
     "team": "Rider",
     "status": "Out",
+    "name": "Jocelyn Chavez",
+    "height": "5-9",
+    "year": "SO",
+    "position": "guard",
+    "hometown": "Surprise, AZ",
+    "entered_portal": "4026-07-02",
+    "transfer_history": null
+  },
+  {
+    "team": "Rider",
+    "status": "Out",
     "name": "Kaylan Deveney",
     "height": "6-3",
     "year": "JR",
     "position": "center",
     "hometown": "Medford, NJ",
-    "entered_portal": "2026-03-13",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -21380,7 +21435,7 @@
     "year": "FR",
     "position": "center",
     "hometown": "Madrid, Spain",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -21391,7 +21446,7 @@
     "year": "SO",
     "position": "combo guard",
     "hometown": "Springfield, MA",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -21402,7 +21457,7 @@
     "year": "RS JR",
     "position": "guard",
     "hometown": "Washington, DC",
-    "entered_portal": "2026-04-02",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -21413,7 +21468,7 @@
     "year": "SO",
     "position": "wing",
     "hometown": "Littlehampton, Australia",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -24768,6 +24823,17 @@
     "year": "SO",
     "position": "point guard",
     "hometown": "Brooklyn, NY",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Stony Brook",
+    "status": "In",
+    "name": "Deb Okechukwu",
+    "height": "5-9",
+    "year": "RS JR",
+    "position": "guard",
+    "hometown": "Washington, DC (grad xfer)",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -29157,7 +29223,7 @@
     "year": "JR",
     "position": "point guard",
     "hometown": "Richmond, VA",
-    "entered_portal": "2026-04-18",
+    "entered_portal": null,
     "transfer_history": "from Navy to W&M following the 2024-25 season"
   },
   {
