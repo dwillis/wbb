@@ -5925,7 +5925,7 @@
     "year": "JR",
     "position": "center",
     "hometown": "Barcelona, Spain",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": "from Winthrop to Evansville to Delaware"
   },
   {
@@ -5980,7 +5980,7 @@
     "year": "RS FR",
     "position": "shooting guard",
     "hometown": "Waterloo, SC",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -12008,7 +12008,7 @@
     "year": "JR",
     "position": "combo guard",
     "hometown": "Papillion, NE",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -12019,7 +12019,7 @@
     "year": "FR",
     "position": "shooting guard",
     "hometown": "Pittsburgh, PA",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -12030,7 +12030,7 @@
     "year": "SO",
     "position": "point guard",
     "hometown": "Hampton, PA",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -13453,17 +13453,6 @@
     "transfer_history": "from Clarion (D-II) to Manhattan following the 2024-25 season"
   },
   {
-    "team": "Marist",
-    "status": "In",
-    "name": "Claudia Clement",
-    "height": "6-3",
-    "year": "JR",
-    "position": "center",
-    "hometown": "Barcelona, Spain",
-    "entered_portal": null,
-    "transfer_history": "from Winthrop to Evansville to Delaware"
-  },
-  {
     "team": "Marquette",
     "status": "In",
     "name": "MacKenzie Givens",
@@ -14549,7 +14538,7 @@
     "year": "SO",
     "position": "shooting guard",
     "hometown": "West Kelowna, BC",
-    "entered_portal": null,
+    "entered_portal": "2026-03-26",
     "transfer_history": "from Utah State to Merrimack following the 2024-25 season"
   },
   {
@@ -18905,7 +18894,7 @@
     "year": "FR",
     "position": "forward/center",
     "hometown": "Indianapolis, IN",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -19450,44 +19439,11 @@
   {
     "team": "Old Dominion",
     "status": "In",
-    "name": "Jaida Mcdonald",
-    "height": "5-11",
-    "year": "JR",
-    "position": "forward",
-    "hometown": "Dallas, TX",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Old Dominion",
-    "status": "In",
     "name": "Delaney Snyder",
     "height": "6-5",
     "year": "JR",
     "position": "center",
     "hometown": "Richmond, VA",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Old Dominion",
-    "status": "In",
-    "name": "Jamaya Thomas",
-    "height": "6-1",
-    "year": "FR",
-    "position": "forward/center",
-    "hometown": "Indianapolis, IN",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Old Dominion",
-    "status": "In",
-    "name": "Trinity Vance",
-    "height": "5-10",
-    "year": "RS FR",
-    "position": "shooting guard",
-    "hometown": "Waterloo, SC",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -20522,17 +20478,6 @@
     "year": "JR",
     "position": "wing",
     "hometown": "Paterson, NJ",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Presbyterian",
-    "status": "In",
-    "name": "Fiona Diomande",
-    "height": "5-11",
-    "year": "RS FR",
-    "position": "guard",
-    "hometown": "Chevilly Larue, France",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -29234,7 +29179,7 @@
     "year": "JR",
     "position": "forward",
     "hometown": "Dallas, TX",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
