@@ -662,11 +662,33 @@
   {
     "team": "Albany",
     "status": "In",
+    "name": "Shyla Montgomery",
+    "height": "5-6",
+    "year": "SR",
+    "position": "point guard",
+    "hometown": "Brockton, MA",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Albany",
+    "status": "In",
     "name": "Cadence Johnson",
     "height": "6-0",
     "year": "JR",
     "position": "forward",
     "hometown": "Mattapoisett, MA",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Albany",
+    "status": "In",
+    "name": "Madison Roman",
+    "height": "6-0",
+    "year": "JR",
+    "position": "forward",
+    "hometown": "Fairfield, CT",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -2549,6 +2571,28 @@
     "position": "forward",
     "hometown": "Dallas, TX",
     "entered_portal": "2026-01-25",
+    "transfer_history": null
+  },
+  {
+    "team": "Bryant",
+    "status": "In",
+    "name": "Astou Nidaye",
+    "height": "6-1",
+    "year": "FR",
+    "position": "forward",
+    "hometown": "Keur Moussa, Senegal",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Bryant",
+    "status": "In",
+    "name": "Ndate Ndiaye",
+    "height": "5-10",
+    "year": "SO",
+    "position": "guard",
+    "hometown": "Thi\u00e8s, Senegal",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -4814,7 +4858,7 @@
     "year": "SO",
     "position": "forward",
     "hometown": "Oakland Park, FL",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -4825,7 +4869,7 @@
     "year": "JR",
     "position": "point guard",
     "hometown": "Whittier, CA",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -4836,7 +4880,7 @@
     "year": "SR",
     "position": "point guard",
     "hometown": "Lincoln, NE",
-    "entered_portal": "2025-10-06",
+    "entered_portal": null,
     "transfer_history": "from Valdosta State (D-II) to Chattanooga following the 2023-24 season"
   },
   {
@@ -4847,7 +4891,7 @@
     "year": "RS JR",
     "position": "forward/center",
     "hometown": "Amsterdam, Netherlands",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -7256,7 +7300,7 @@
     "year": "SO",
     "position": "shooting guard",
     "hometown": "Holmdel, NJ",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -7746,28 +7790,6 @@
   {
     "team": "FIU",
     "status": "In",
-    "name": "Astou Nidaye",
-    "height": "6-1",
-    "year": "FR",
-    "position": "forward",
-    "hometown": "Keur Moussa, Senegal",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "FIU",
-    "status": "In",
-    "name": "Ndate Ndiaye",
-    "height": "5-10",
-    "year": "SO",
-    "position": "guard",
-    "hometown": "Thi\u00e8s, Senegal",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "FIU",
-    "status": "In",
     "name": "Shorna Preston",
     "height": "6-1",
     "year": "JR",
@@ -7784,6 +7806,28 @@
     "year": "JR",
     "position": "combo guard",
     "hometown": "Yamanashi, Japan",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "FIU",
+    "status": "In",
+    "name": "Malia Tharpe",
+    "height": "6-0",
+    "year": "JR",
+    "position": "wing",
+    "hometown": "Cottesloe, Western Australia, Australia",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "FIU",
+    "status": "In",
+    "name": "Frode Flos van der Schans",
+    "height": "6-4",
+    "year": "RS JR",
+    "position": "forward/center",
+    "hometown": "Amsterdam, Netherlands",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -14417,7 +14461,7 @@
     "year": "RS SO",
     "position": "forward",
     "hometown": "Oxford, OH",
-    "entered_portal": "2026-03-25",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -14472,7 +14516,7 @@
     "year": "JR",
     "position": "forward",
     "hometown": "Fairfield, CT",
-    "entered_portal": "2026-04-07",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -14901,7 +14945,7 @@
     "year": "SO",
     "position": "guard",
     "hometown": "McKenzie, TN",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -14912,7 +14956,7 @@
     "year": "JR",
     "position": "shooting guard/wing",
     "hometown": "Murfreesboro, TN",
-    "entered_portal": "2026-03-30",
+    "entered_portal": null,
     "transfer_history": "from Purdue to Middle Tennessee following the 2023-24 season"
   },
   {
@@ -14923,7 +14967,7 @@
     "year": "FR",
     "position": "guard",
     "hometown": "Hualien, Taiwan",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -14934,7 +14978,7 @@
     "year": "FR",
     "position": "wing",
     "hometown": "New Albany, MS",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -16628,7 +16672,7 @@
     "year": "SO",
     "position": "wing",
     "hometown": "Edinboro, PA",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -17337,13 +17381,24 @@
   },
   {
     "team": "North Alabama",
+    "status": "In",
+    "name": "Kyah Smith",
+    "height": "5-9",
+    "year": "JR",
+    "position": "point guard",
+    "hometown": "Richmond, VA",
+    "entered_portal": null,
+    "transfer_history": "from Navy to W&M following the 2024-25 season"
+  },
+  {
+    "team": "North Alabama",
     "status": "Out",
     "name": "Sofia Ceppellotti",
     "height": "6-1",
     "year": "SO",
     "position": "forward",
     "hometown": "Ruda, Udine, Italy",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -17354,7 +17409,7 @@
     "year": "JR",
     "position": "wing",
     "hometown": "Lawrence County, TN",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -17376,7 +17431,7 @@
     "year": "FR",
     "position": "center",
     "hometown": "Montgomery, TX",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -22601,7 +22656,7 @@
     "year": "JR",
     "position": "wing",
     "hometown": "Cottesloe, Western Australia, Australia",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -29190,7 +29245,7 @@
     "year": "JR",
     "position": "point guard",
     "hometown": "Richmond, VA",
-    "entered_portal": "2026-04-18",
+    "entered_portal": null,
     "transfer_history": "from Navy to W&M following the 2024-25 season"
   },
   {
