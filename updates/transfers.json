@@ -4902,7 +4902,7 @@
     "year": "SO",
     "position": "point guard",
     "hometown": "Queens, NY",
-    "entered_portal": "2026-04-11",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -4913,7 +4913,7 @@
     "year": "SO",
     "position": "center",
     "hometown": "Detroit, MI",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -4946,7 +4946,7 @@
     "year": "SO",
     "position": "wing",
     "hometown": "Queens, NY",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -10391,7 +10391,7 @@
     "year": "FR",
     "position": "center",
     "hometown": "Streetsboro, OH",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -10402,7 +10402,7 @@
     "year": "FR",
     "position": "wing",
     "hometown": "Sydney, Australia",
-    "entered_portal": "2026-04-15",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -10413,7 +10413,7 @@
     "year": "SO",
     "position": "center",
     "hometown": "Frankfort, IL",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -12855,6 +12855,17 @@
     "year": "JR",
     "position": "point guard",
     "hometown": "Florianopolis, Brazil",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "UL Monroe",
+    "status": "In",
+    "name": "Aiyanna Culver",
+    "height": "5-3",
+    "year": "SO",
+    "position": "point guard",
+    "hometown": "Queens, NY",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -28939,6 +28950,17 @@
     "hometown": "Shelby, NC (grad xfer)",
     "entered_portal": null,
     "transfer_history": "from Belmont to UNCW following the 2023-24 season"
+  },
+  {
+    "team": "Western Carolina",
+    "status": "In",
+    "name": "Kayla Mount",
+    "height": "6-1",
+    "year": "SO",
+    "position": "center",
+    "hometown": "Detroit, MI",
+    "entered_portal": null,
+    "transfer_history": null
   },
   {
     "team": "Western Carolina",
