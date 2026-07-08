@@ -4902,7 +4902,7 @@
     "year": "SO",
     "position": "point guard",
     "hometown": "Queens, NY",
-    "entered_portal": "2026-04-11",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -4913,7 +4913,7 @@
     "year": "SO",
     "position": "center",
     "hometown": "Detroit, MI",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -4946,7 +4946,7 @@
     "year": "SO",
     "position": "wing",
     "hometown": "Queens, NY",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -5705,7 +5705,7 @@
     "year": "JR",
     "position": "combo guard",
     "hometown": "Joliet, IL",
-    "entered_portal": "2026-04-07",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -5925,7 +5925,7 @@
     "year": "JR",
     "position": "center",
     "hometown": "Barcelona, Spain",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Winthrop to Evansville to Delaware"
   },
   {
@@ -5980,7 +5980,7 @@
     "year": "RS FR",
     "position": "shooting guard",
     "hometown": "Waterloo, SC",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -7080,7 +7080,7 @@
     "year": "RS JR",
     "position": "center",
     "hometown": "Wasilla, AK",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -7091,7 +7091,7 @@
     "year": "JR",
     "position": "wing",
     "hometown": "Meridian, ID",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -7102,7 +7102,7 @@
     "year": "SO",
     "position": "wing",
     "hometown": "Paris, France",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -10391,7 +10391,7 @@
     "year": "FR",
     "position": "center",
     "hometown": "Streetsboro, OH",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -10402,7 +10402,7 @@
     "year": "FR",
     "position": "wing",
     "hometown": "Sydney, Australia",
-    "entered_portal": "2026-04-15",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -10413,7 +10413,7 @@
     "year": "SO",
     "position": "center",
     "hometown": "Frankfort, IL",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -12008,7 +12008,7 @@
     "year": "JR",
     "position": "combo guard",
     "hometown": "Papillion, NE",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -12019,7 +12019,7 @@
     "year": "FR",
     "position": "shooting guard",
     "hometown": "Pittsburgh, PA",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -12030,7 +12030,7 @@
     "year": "SO",
     "position": "point guard",
     "hometown": "Hampton, PA",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -12861,11 +12861,66 @@
   {
     "team": "UL Monroe",
     "status": "In",
+    "name": "Aiyanna Culver",
+    "height": "5-3",
+    "year": "SO",
+    "position": "point guard",
+    "hometown": "Queens, NY",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "UL Monroe",
+    "status": "In",
+    "name": "Erin Henry",
+    "height": "5-8",
+    "year": "JR",
+    "position": "combo guard",
+    "hometown": "Joliet, IL",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "UL Monroe",
+    "status": "In",
+    "name": "Kylee Hunt",
+    "height": "5-6",
+    "year": "RS JR",
+    "position": "point guard",
+    "hometown": "Oklahoma City, OK",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "UL Monroe",
+    "status": "In",
+    "name": "Kayla Lindsey",
+    "height": "5-9",
+    "year": "SO",
+    "position": "guard",
+    "hometown": "Norcross, GA",
+    "entered_portal": null,
+    "transfer_history": "from Barry (D-II) to the Mount following the 2024-25 season"
+  },
+  {
+    "team": "UL Monroe",
+    "status": "In",
     "name": "Kyla McBride",
     "height": "6-0",
     "year": "JR",
     "position": "forward",
     "hometown": "Magnolia, AR",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "UL Monroe",
+    "status": "In",
+    "name": "Nevaeh Scott",
+    "height": "5-6",
+    "year": "JR",
+    "position": "point guard",
+    "hometown": "Memphis, TN",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -12879,6 +12934,17 @@
     "hometown": "Baltimore, MD (grad xfer)",
     "entered_portal": null,
     "transfer_history": "from Saint Francis (Pa.) to Georgia Southern following the 2024-25 season"
+  },
+  {
+    "team": "UL Monroe",
+    "status": "In",
+    "name": "Amani Williams",
+    "height": "6-1",
+    "year": "FR",
+    "position": "forward",
+    "hometown": "Greensboro, NC",
+    "entered_portal": null,
+    "transfer_history": null
   },
   {
     "team": "UL Monroe",
@@ -13451,6 +13517,17 @@
     "hometown": "Twinsburg, OH",
     "entered_portal": null,
     "transfer_history": "from Clarion (D-II) to Manhattan following the 2024-25 season"
+  },
+  {
+    "team": "Marist",
+    "status": "In",
+    "name": "Claudia Clement",
+    "height": "6-3",
+    "year": "JR",
+    "position": "center",
+    "hometown": "Barcelona, Spain",
+    "entered_portal": null,
+    "transfer_history": "from Winthrop to Evansville to Delaware"
   },
   {
     "team": "Marquette",
@@ -14538,7 +14615,7 @@
     "year": "SO",
     "position": "shooting guard",
     "hometown": "West Kelowna, BC",
-    "entered_portal": "2026-03-26",
+    "entered_portal": null,
     "transfer_history": "from Utah State to Merrimack following the 2024-25 season"
   },
   {
@@ -16177,7 +16254,7 @@
     "year": "SO",
     "position": "guard",
     "hometown": "Norcross, GA",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Barry (D-II) to the Mount following the 2024-25 season"
   },
   {
@@ -18850,7 +18927,7 @@
     "year": "RS JR",
     "position": "point guard",
     "hometown": "Oklahoma City, OK",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -18894,7 +18971,7 @@
     "year": "FR",
     "position": "forward/center",
     "hometown": "Indianapolis, IN",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -19439,11 +19516,44 @@
   {
     "team": "Old Dominion",
     "status": "In",
+    "name": "Jaida Mcdonald",
+    "height": "5-11",
+    "year": "JR",
+    "position": "forward",
+    "hometown": "Dallas, TX",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Old Dominion",
+    "status": "In",
     "name": "Delaney Snyder",
     "height": "6-5",
     "year": "JR",
     "position": "center",
     "hometown": "Richmond, VA",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Old Dominion",
+    "status": "In",
+    "name": "Jamaya Thomas",
+    "height": "6-1",
+    "year": "FR",
+    "position": "forward/center",
+    "hometown": "Indianapolis, IN",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Old Dominion",
+    "status": "In",
+    "name": "Trinity Vance",
+    "height": "5-10",
+    "year": "RS FR",
+    "position": "shooting guard",
+    "hometown": "Waterloo, SC",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -19455,7 +19565,7 @@
     "year": "JR",
     "position": "forward",
     "hometown": "Boyce, LA",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -19477,7 +19587,7 @@
     "year": "SO",
     "position": "guard",
     "hometown": "Dallas, TX",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -19488,7 +19598,7 @@
     "year": "JR",
     "position": "point guard",
     "hometown": "Euless, TX",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -19510,7 +19620,7 @@
     "year": "JR",
     "position": "point guard",
     "hometown": "Memphis, TN",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -20484,6 +20594,17 @@
   {
     "team": "Presbyterian",
     "status": "In",
+    "name": "Fiona Diomande",
+    "height": "5-11",
+    "year": "RS FR",
+    "position": "guard",
+    "hometown": "Chevilly Larue, France",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Presbyterian",
+    "status": "In",
     "name": "Azjah Reeves",
     "height": "5-8",
     "year": "JR",
@@ -20566,7 +20687,7 @@
     "year": "FR",
     "position": "forward",
     "hometown": "Greensboro, NC",
-    "entered_portal": "2026-04-13",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -28887,6 +29008,17 @@
   },
   {
     "team": "Western Carolina",
+    "status": "In",
+    "name": "Kayla Mount",
+    "height": "6-1",
+    "year": "SO",
+    "position": "center",
+    "hometown": "Detroit, MI",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Western Carolina",
     "status": "Out",
     "name": "Betsey Burnett",
     "height": "5-8",
@@ -29179,7 +29311,7 @@
     "year": "JR",
     "position": "forward",
     "hometown": "Dallas, TX",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
