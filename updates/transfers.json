@@ -365,6 +365,39 @@
   {
     "team": "Alabama A&M",
     "status": "In",
+    "name": "Ogheneruona \u201cMiracle\u201d Akpotayobo",
+    "height": "6-3",
+    "year": "FR",
+    "position": "center",
+    "hometown": "Delta State, Nigeria",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Alabama A&M",
+    "status": "In",
+    "name": "Shun\u2019teria Anumele",
+    "height": "5-8",
+    "year": "SO",
+    "position": "combo guard",
+    "hometown": "Houston, TX",
+    "entered_portal": null,
+    "transfer_history": "from Saint Louis to Houston following the 2024-25 season"
+  },
+  {
+    "team": "Alabama A&M",
+    "status": "In",
+    "name": "Addison Howell",
+    "height": "5-7",
+    "year": "JR",
+    "position": "guard",
+    "hometown": "Olive Branch, MS",
+    "entered_portal": null,
+    "transfer_history": "from Itawamba CC (juco) to MVSU"
+  },
+  {
+    "team": "Alabama A&M",
+    "status": "In",
     "name": "Janessa Kelley",
     "height": "5-9",
     "year": "SO",
@@ -386,13 +419,46 @@
   },
   {
     "team": "Alabama A&M",
+    "status": "In",
+    "name": "Alisha Murray",
+    "height": "5-11",
+    "year": "JR",
+    "position": "guard",
+    "hometown": "Toronto, ON",
+    "entered_portal": null,
+    "transfer_history": "from Gulf Coast State College (juco) to Grambling"
+  },
+  {
+    "team": "Alabama A&M",
+    "status": "In",
+    "name": "Kalea Rainey",
+    "height": "5-7",
+    "year": "SR",
+    "position": "combo guard",
+    "hometown": "Orlando, FL",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Alabama A&M",
+    "status": "In",
+    "name": "Skylar White",
+    "height": "5-7",
+    "year": "JR",
+    "position": "guard",
+    "hometown": "Fayetteville, NC",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Alabama A&M",
     "status": "Out",
     "name": "Tre\u2019Miyah Berry",
     "height": "5-9",
     "year": "SO",
     "position": "combo guard",
     "hometown": "Conyers, GA",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from New Orleans to AAMU following the 2024-25 season"
   },
   {
@@ -414,30 +480,8 @@
     "year": "SO",
     "position": "guard",
     "hometown": "Batesville, MS",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Northeast Mississippi CC (juco) to AAMU"
-  },
-  {
-    "team": "Alabama A&M",
-    "status": "Out",
-    "name": "Shelomi Sanders",
-    "height": "5-6",
-    "year": "RS JR",
-    "position": "shooting guard",
-    "hometown": "Rockwall, TX",
-    "entered_portal": "2026-04-06",
-    "transfer_history": "from Jackson State to Colorado to AAMU"
-  },
-  {
-    "team": "Alabama A&M",
-    "status": "Out",
-    "name": "Amber Scott",
-    "height": "5-9",
-    "year": "SR",
-    "position": "guard",
-    "hometown": "Jackson, MS",
-    "entered_portal": "2026-04-14",
-    "transfer_history": "from Mississippi Gulf Coast CC (juco) to Rust College (NAIA) to AAMU"
   },
   {
     "team": "UAB",
@@ -942,7 +986,7 @@
     "year": "SO",
     "position": "forward",
     "hometown": "Lagos, Nigeria",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Yamanashi Gakuin University (Japan) to Arizona"
   },
   {
@@ -953,7 +997,7 @@
     "year": "FR",
     "position": "center",
     "hometown": "Delta State, Nigeria",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -964,7 +1008,7 @@
     "year": "FR",
     "position": "wing",
     "hometown": "Aviny\u00f3, Spain",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -975,7 +1019,7 @@
     "year": "RS FR",
     "position": "shooting guard",
     "hometown": "Charlotte, NC",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Virginia to Arizona following the 2024-25 season"
   },
   {
@@ -986,7 +1030,7 @@
     "year": "RS SO",
     "position": "center",
     "hometown": "Tucson, AZ",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Texas Tech to Arizona following the 2024-25 season"
   },
   {
@@ -997,7 +1041,7 @@
     "year": "FR",
     "position": "forward",
     "hometown": "Cincinnati, OH",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -1019,7 +1063,7 @@
     "year": "RS JR",
     "position": "combo guard",
     "hometown": "Indianapolis, IN",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Memphis to Arizona following the 2024-25 season"
   },
   {
@@ -1085,7 +1129,7 @@
     "year": "RS FR",
     "position": "center",
     "hometown": "Katy, TX",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -1096,7 +1140,7 @@
     "year": "SR",
     "position": "point guard",
     "hometown": "Murfreesboro, TN",
-    "entered_portal": "2026-04-20",
+    "entered_portal": null,
     "transfer_history": "from Western Kentucky to ASU following the 2024-25 season"
   },
   {
@@ -1107,7 +1151,7 @@
     "year": "SR",
     "position": "wing",
     "hometown": "Sylmar, CA",
-    "entered_portal": "2026-03-27",
+    "entered_portal": null,
     "transfer_history": "from Denver to ASU following the 2024-25 season"
   },
   {
@@ -1118,7 +1162,7 @@
     "year": "JR",
     "position": "combo guard",
     "hometown": "San Gabriel, CA",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from San Jos\u00e9 State to ASU following the 2023-24 season"
   },
   {
@@ -1384,6 +1428,17 @@
     "hometown": "Ashland, KY",
     "entered_portal": null,
     "transfer_history": "from Rio Grande (NAIA) to EKU following the 2024-25 season"
+  },
+  {
+    "team": "Arkansas State",
+    "status": "In",
+    "name": "Monica Marsh",
+    "height": "5-5",
+    "year": "JR",
+    "position": "combo guard",
+    "hometown": "Plano, TX",
+    "entered_portal": null,
+    "transfer_history": null
   },
   {
     "team": "Arkansas State",
@@ -5135,6 +5190,17 @@
     "hometown": "Grand Island, NY",
     "entered_portal": null,
     "transfer_history": "from Buffalo to St. Bonaventure following the 2024-25 season"
+  },
+  {
+    "team": "Cleveland State",
+    "status": "In",
+    "name": "Annika Corcoran",
+    "height": "5-5",
+    "year": "GR",
+    "position": "guard",
+    "hometown": "Chardon, OH (grad xfer)",
+    "entered_portal": null,
+    "transfer_history": "from Detroit Mercy to Akron to Detroit Mercy to Sam Houston"
   },
   {
     "team": "Cleveland State",
@@ -9390,7 +9456,7 @@
     "year": "JR",
     "position": "combo guard",
     "hometown": "Plano, TX",
-    "entered_portal": "2026-04-15",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -9400,9 +9466,20 @@
     "height": "5-11",
     "year": "JR",
     "position": "guard",
-    "hometown": "Toronto, ON Gulf",
-    "entered_portal": "2026-04-06",
-    "transfer_history": "from Coast State College (juco) to Grambling"
+    "hometown": "Toronto, ON",
+    "entered_portal": null,
+    "transfer_history": "from Gulf Coast State College (juco) to Grambling"
+  },
+  {
+    "team": "Grambling State",
+    "status": "Out",
+    "name": "Nicole Sandifer",
+    "height": "5-10",
+    "year": "FR",
+    "position": "guard",
+    "hometown": "Magee, MS",
+    "entered_portal": null,
+    "transfer_history": null
   },
   {
     "team": "Grand Canyon",
@@ -10050,7 +10127,7 @@
     "year": "SO",
     "position": "combo guard",
     "hometown": "Houston, TX",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Saint Louis to Houston following the 2024-25 season"
   },
   {
@@ -12464,13 +12541,24 @@
   },
   {
     "team": "Lipscomb",
+    "status": "In",
+    "name": "Kennedy Sproule",
+    "height": "6-1",
+    "year": "JR",
+    "position": "wing",
+    "hometown": "Niverville, Manitoba",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Lipscomb",
     "status": "Out",
     "name": "Addison Melton",
     "height": "5-11",
     "year": "SO",
     "position": "guard",
     "hometown": "Murfreesboro, TN",
-    "entered_portal": "2026-03-02",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -12481,7 +12569,7 @@
     "year": "RS SO",
     "position": "combo guard",
     "hometown": "Guntersville, AL",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -13064,7 +13152,7 @@
     "year": "SO",
     "position": "forward",
     "hometown": "Boerne, TX",
-    "entered_portal": "2026-04-13",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -13075,7 +13163,7 @@
     "year": "SO",
     "position": "combo guard",
     "hometown": "Carrollton, TX",
-    "entered_portal": "2026-04-07",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -13086,7 +13174,7 @@
     "year": "JR",
     "position": "point guard",
     "hometown": "Sherwood, AR",
-    "entered_portal": "2026-04-07",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -13097,7 +13185,7 @@
     "year": "FR",
     "position": "combo guard",
     "hometown": "Gainesville, FL",
-    "entered_portal": "2026-04-07",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -14582,7 +14670,7 @@
     "year": "GR",
     "position": "forward",
     "hometown": "Wayland, MA",
-    "entered_portal": "2026-04-08",
+    "entered_portal": null,
     "transfer_history": "from Northeastern to Merrimack following the 2024-25 season"
   },
   {
@@ -15418,7 +15506,7 @@
     "year": "JR",
     "position": "guard",
     "hometown": "Olive Branch, MS",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Itawamba CC (juco) to MVSU"
   },
   {
@@ -15429,7 +15517,7 @@
     "year": "JR",
     "position": "guard",
     "hometown": "Madison, WI",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from West Virginia Wesleyan (D-II) to MVSU"
   },
   {
@@ -15440,7 +15528,7 @@
     "year": "SO",
     "position": "shooting guard",
     "hometown": "Chicago, IL",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -15495,7 +15583,7 @@
     "year": "JR",
     "position": "shooting guard",
     "hometown": "O\u2019Fallon, IL",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Illinois State to Missouri following the 2024-25 season"
   },
   {
@@ -15506,7 +15594,7 @@
     "year": "JR",
     "position": "forward",
     "hometown": "Jefferson City, MO",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -15517,7 +15605,7 @@
     "year": "SO",
     "position": "shooting guard",
     "hometown": "Stamford, CT",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Pepperdine to Missouri following the 2024-25 season"
   },
   {
@@ -15528,7 +15616,7 @@
     "year": "JR",
     "position": "shooting guard",
     "hometown": "Joliet, IL",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Rutgers to Missouri following the 2024-25 season"
   },
   {
@@ -15539,7 +15627,7 @@
     "year": "RS FR",
     "position": "wing",
     "hometown": "Houston, TX",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -17145,7 +17233,7 @@
     "year": "JR",
     "position": "forward",
     "hometown": "Houston, TX",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -17156,7 +17244,7 @@
     "year": "FR",
     "position": "shooting guard",
     "hometown": "Columbus, GA",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -19576,7 +19664,7 @@
     "year": "SO",
     "position": "forward",
     "hometown": "Mesquite, TX",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -19972,7 +20060,7 @@
     "year": "FR",
     "position": "combo guard",
     "hometown": "Houston, TX",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -21457,7 +21545,7 @@
     "year": "FR",
     "position": "shooting guard/wing",
     "hometown": "Summerville, SC",
-    "entered_portal": "2026-04-15",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -21991,6 +22079,17 @@
   {
     "team": "Sacred Heart",
     "status": "In",
+    "name": "Mercedes Artaiz",
+    "height": "5-8",
+    "year": "FR",
+    "position": "guard",
+    "hometown": "Durham, CT",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Sacred Heart",
+    "status": "In",
     "name": "Angelina Hodgens",
     "height": "5-10",
     "year": "FR",
@@ -21998,6 +22097,17 @@
     "hometown": "Staten Island, NY",
     "entered_portal": null,
     "transfer_history": null
+  },
+  {
+    "team": "Sacred Heart",
+    "status": "In",
+    "name": "Oralye Kiefer",
+    "height": "6-3",
+    "year": "GR",
+    "position": "forward",
+    "hometown": "Wayland, MA",
+    "entered_portal": null,
+    "transfer_history": "from Northeastern to Merrimack following the 2024-25 season"
   },
   {
     "team": "Sacred Heart",
@@ -22039,7 +22149,7 @@
     "height": "5-11",
     "year": "JR",
     "position": "forward",
-    "hometown": "Norwich, CT [returend to Sacred Heart]",
+    "hometown": "Norwich, CT [returned to Sacred Heart]",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -22585,6 +22695,50 @@
   {
     "team": "Sam Houston State",
     "status": "In",
+    "name": "Kylah McCullers",
+    "height": "5-7",
+    "year": "JR",
+    "position": "guard",
+    "hometown": "Madison, WI",
+    "entered_portal": null,
+    "transfer_history": "from West Virginia Wesleyan (D-II) to MVSU"
+  },
+  {
+    "team": "Sam Houston State",
+    "status": "In",
+    "name": "Ruke Ogbevire",
+    "height": "5-7",
+    "year": "FR",
+    "position": "combo guard",
+    "hometown": "Houston, TX",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Sam Houston State",
+    "status": "In",
+    "name": "Alani Owens",
+    "height": "5-8",
+    "year": "SO",
+    "position": "combo guard",
+    "hometown": "Conroe, TX",
+    "entered_portal": null,
+    "transfer_history": "from Ranger College (juco) to Montevallo"
+  },
+  {
+    "team": "Sam Houston State",
+    "status": "In",
+    "name": "Maci Quiller",
+    "height": "5-11",
+    "year": "JR",
+    "position": "guard",
+    "hometown": "Pflugerville, TX (grad xfer)",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Sam Houston State",
+    "status": "In",
     "name": "Hannah Wallace",
     "height": "6-0",
     "year": "SO",
@@ -22645,7 +22799,7 @@
     "year": "GR",
     "position": "guard",
     "hometown": "Chardon, OH",
-    "entered_portal": "2026-04-07",
+    "entered_portal": null,
     "transfer_history": "from Detroit Mercy to Akron to Detroit Mercy to Sam Houston"
   },
   {
@@ -24686,6 +24840,17 @@
   {
     "team": "Southern Miss",
     "status": "In",
+    "name": "Mariah Clayton",
+    "height": "5-10",
+    "year": "SO",
+    "position": "forward",
+    "hometown": "Mesquite, TX",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Southern Miss",
+    "status": "In",
     "name": "Kennedy Langham",
     "height": "5-7",
     "year": "JR",
@@ -26116,17 +26281,6 @@
   {
     "team": "Texas A&M\u2013Corpus Christi",
     "status": "In",
-    "name": "Kalea Rainey",
-    "height": "5-7",
-    "year": "SR",
-    "position": "combo guard",
-    "hometown": "Orlando, FL",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Texas A&M\u2013Corpus Christi",
-    "status": "In",
     "name": "Chelsy Singleton",
     "height": "5-7",
     "year": "JR",
@@ -26803,7 +26957,7 @@
     "year": "JR",
     "position": "guard",
     "hometown": "Pflugerville, TX",
-    "entered_portal": "2026-04-07",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -27232,7 +27386,7 @@
     "year": "FR",
     "position": "center",
     "hometown": "Houston, TX",
-    "entered_portal": "2026-04-07",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -27848,7 +28002,7 @@
     "year": "RS JR",
     "position": "forward/center",
     "hometown": "Kitchener, ON",
-    "entered_portal": "2026-03-24",
+    "entered_portal": null,
     "transfer_history": "from Maine to Idaho State to Valpo"
   },
   {
@@ -27859,7 +28013,7 @@
     "year": "JR",
     "position": "shooting guard/wing",
     "hometown": "Omaha, NE",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -27870,7 +28024,7 @@
     "year": "JR",
     "position": "wing",
     "hometown": "Niverville, Manitoba",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -27881,7 +28035,7 @@
     "year": "JR",
     "position": "forward",
     "hometown": "St. Louis, MO",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -27892,7 +28046,7 @@
     "year": "SO",
     "position": "wing/forward",
     "hometown": "Royalton, MN",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -27903,7 +28057,7 @@
     "year": "RS JR",
     "position": "center",
     "hometown": "Bonne Terre, MO",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
