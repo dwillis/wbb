@@ -2449,7 +2449,7 @@
     "year": "SO",
     "position": "combo guard",
     "hometown": "Fort Wayne, IN",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -2591,8 +2591,8 @@
     "height": "5-9",
     "year": "SO",
     "position": "point guard",
-    "hometown": "Naperville, IL",
-    "entered_portal": "2026-04-06",
+    "hometown": "Naperville, IL [returned to Bradley]",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -2658,7 +2658,7 @@
     "year": "SR",
     "position": "forward",
     "hometown": "Dallas, TX",
-    "entered_portal": "2026-01-25",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -2713,7 +2713,7 @@
     "year": "FR",
     "position": "forward",
     "hometown": "Bayonne, NJ",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -2724,7 +2724,7 @@
     "year": "JR",
     "position": "point guard",
     "hometown": "Riga, Latvia",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -8708,6 +8708,17 @@
     "year": "SO",
     "position": "forward",
     "hometown": "Berlin, Germany",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Georgetown",
+    "status": "In",
+    "name": "Johnea Donahue",
+    "height": "5-8",
+    "year": "SO",
+    "position": "combo guard",
+    "hometown": "Fort Wayne, IN",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -23547,7 +23558,7 @@
     "year": "FR",
     "position": "combo guard",
     "hometown": "Minneapolis, MN",
-    "entered_portal": "2026-04-08",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -23558,7 +23569,7 @@
     "year": "RS JR",
     "position": "wing",
     "hometown": "Winter Garden, FL",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Texas to Seton Hall following the 2024-25 season"
   },
   {
@@ -23569,7 +23580,7 @@
     "year": "FR",
     "position": "forwad/center",
     "hometown": "Palm Bay, FL",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -23580,7 +23591,7 @@
     "year": "SO",
     "position": "point guard",
     "hometown": "Orlando, FL",
-    "entered_portal": "2026-04-20",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -23602,7 +23613,7 @@
     "year": "FR",
     "position": "shooting guard/wing",
     "hometown": "Randolph, MA",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -23613,7 +23624,7 @@
     "year": "SO",
     "position": "forward",
     "hometown": "Wakefield, RI",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Penn State to Seton Hall following the 2024-25 season"
   },
   {
@@ -29046,8 +29057,8 @@
     "height": "5-10",
     "year": "JR",
     "position": "shooting guard",
-    "hometown": "Perth, Australia",
-    "entered_portal": "2026-04-08",
+    "hometown": "Perth, Australia [withdrew name from portal]",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -29377,7 +29388,7 @@
     "year": "SO",
     "position": "forward",
     "hometown": "O\u2019Fallon, IL",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -29388,7 +29399,7 @@
     "year": "FR",
     "position": "forward",
     "hometown": "Madrid, Spain",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -29399,7 +29410,7 @@
     "year": "FR",
     "position": "combo guard",
     "hometown": "Harbor Springs, MI",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
