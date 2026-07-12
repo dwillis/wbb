@@ -484,6 +484,28 @@
     "transfer_history": "from Northeast Mississippi CC (juco) to AAMU"
   },
   {
+    "team": "Alabama A&M",
+    "status": "Out",
+    "name": "Shelomi Sanders",
+    "height": "5-6",
+    "year": "RS JR",
+    "position": "shooting guard",
+    "hometown": "Rockwall, TX",
+    "entered_portal": null,
+    "transfer_history": "from Jackson State to Colorado to AAMU"
+  },
+  {
+    "team": "Alabama A&M",
+    "status": "Out",
+    "name": "Amber Scott",
+    "height": "5-9",
+    "year": "SR",
+    "position": "guard",
+    "hometown": "Jackson, MS",
+    "entered_portal": "2026-04-14",
+    "transfer_history": "from Mississippi Gulf Coast CC (juco) to Rust College (NAIA) to AAMU"
+  },
+  {
     "team": "UAB",
     "status": "In",
     "name": "Peyton Bradley",
@@ -777,7 +799,7 @@
     "year": "SO",
     "position": "wing",
     "hometown": "Thorlakshofn, Iceland",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -1239,7 +1261,7 @@
     "year": "RS JR",
     "position": "guard",
     "hometown": "Derby, KS",
-    "entered_portal": "2026-03-30",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -1250,7 +1272,7 @@
     "year": "SO",
     "position": "wing",
     "hometown": "Powder Springs, GA",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -1261,7 +1283,7 @@
     "year": "JR",
     "position": "center",
     "hometown": "Pima, AZ",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Eastern Arizona College (juco) to Arkansas"
   },
   {
@@ -1272,7 +1294,7 @@
     "year": "FR",
     "position": "guard",
     "hometown": "Frankston, Victoria, Australia",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -1283,7 +1305,7 @@
     "year": "SO",
     "position": "center",
     "hometown": "St. Paul\u2019s Bay, Malta",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -1294,7 +1316,7 @@
     "year": "JR",
     "position": "forward",
     "hometown": "Melbourne, AR",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -1305,7 +1327,7 @@
     "year": "SO",
     "position": "forward",
     "hometown": "Barcelona, Spain",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -1316,7 +1338,7 @@
     "year": "JR",
     "position": "forward",
     "hometown": "Galena, Spain",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -1327,7 +1349,7 @@
     "year": "FR",
     "position": "shooting guard/wing",
     "hometown": "Cleveland, TN",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -1624,7 +1646,7 @@
     "year": "RS SR",
     "position": "forward",
     "hometown": "Eguzon Chant\u00f4me, France",
-    "entered_portal": "2026-03-20",
+    "entered_portal": null,
     "transfer_history": "from Long Island University to APSU following the 2022-23 season"
   },
   {
@@ -1636,7 +1658,7 @@
     "position": "center",
     "hometown": "Quebec",
     "entered_portal": null,
-    "transfer_history": "from South Georgia Tech (juco) to George Washington to Austin Peay"
+    "transfer_history": "from South Georgia Tech (juco) to George Washington to APSU"
   },
   {
     "team": "Austin Peay",
@@ -1811,7 +1833,7 @@
     "year": "FR",
     "position": "wing",
     "hometown": "Hunan Province, China",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Auburn to Baylor following the 2024-25 season"
   },
   {
@@ -1822,7 +1844,7 @@
     "year": "JR",
     "position": "forward",
     "hometown": "Langley, BC",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from North Dakota to Baylor following the 2024-25 season"
   },
   {
@@ -2190,6 +2212,17 @@
   },
   {
     "team": "Binghamton",
+    "status": "In",
+    "name": "Emma H\u00e1konard\u00f3ttir",
+    "height": "5-11",
+    "year": "SO",
+    "position": "wing",
+    "hometown": "Thorlakshofn, Iceland",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Binghamton",
     "status": "Out",
     "name": "Leah Middleton",
     "height": "5-11",
@@ -2229,7 +2262,7 @@
     "year": "RS JR",
     "position": "center",
     "hometown": "Vancouver, BC",
-    "entered_portal": "2026-04-01",
+    "entered_portal": null,
     "transfer_history": "from Liberty to Boise State following the 2024-25 season"
   },
   {
@@ -2372,7 +2405,7 @@
     "year": "JR",
     "position": "wing/forward",
     "hometown": "Hartford, CT",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -6707,7 +6740,7 @@
     "position": "wing/forward",
     "hometown": "Tampa, FL",
     "entered_portal": "2026-04-13",
-    "transfer_history": "from Tennessee State to Trinity Valley CC (juco) to Portland State to IUP (D-II) to ECU"
+    "transfer_history": "from Tennessee State to Trinity Valley CC (juco) to Portland State to to ECU"
   },
   {
     "team": "East Carolina",
@@ -13880,6 +13913,17 @@
     "hometown": "Philadelphia, PA",
     "entered_portal": null,
     "transfer_history": null
+  },
+  {
+    "team": "UMBC",
+    "status": "In",
+    "name": "Jeanine Brandsma",
+    "height": "6-2",
+    "year": "RS SR",
+    "position": "forward",
+    "hometown": "Eguzon Chant\u00f4me, France (grad xfer)",
+    "entered_portal": null,
+    "transfer_history": "from Long Island University to APSU following the 2022-23 season"
   },
   {
     "team": "UMBC",
@@ -28893,7 +28937,7 @@
     "year": "SO",
     "position": "shooting guard/wing",
     "hometown": "Sandy, UT",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -29113,7 +29157,7 @@
     "year": "JR",
     "position": "shooting guard",
     "hometown": "Hosuton, TX",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Texas Tech to WVU following the 2024-25 season"
   },
   {
