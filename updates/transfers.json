@@ -12535,74 +12535,19 @@
     "height": "5-5",
     "year": "JR",
     "position": "point guard",
-    "hometown": "Athens, Greece",
+    "hometown": "Athens, Greece [returned to Lindenwood]",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Lindenwood",
+    "status": "Out",
+    "name": "{entered portal 4/8/26}\u2022 Alyssa Nielsen",
+    "height": null,
+    "year": null,
+    "position": null,
+    "hometown": null,
     "entered_portal": "2026-04-08",
-    "transfer_history": null
-  },
-  {
-    "team": "Lindenwood",
-    "status": "Out",
-    "name": "Alyssa Nielsen",
-    "height": "6-0",
-    "year": "JR",
-    "position": "forward",
-    "hometown": "Bixby, OK",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Lindenwood",
-    "status": "Out",
-    "name": "Jovana Nikoli\u0107",
-    "height": "6-2",
-    "year": "RS FR",
-    "position": "forward",
-    "hometown": "Belgrade, Serbia",
-    "entered_portal": "2026-04-14",
-    "transfer_history": "from Xavier to Lindenwood following the 2024-25 season"
-  },
-  {
-    "team": "Lindenwood",
-    "status": "Out",
-    "name": "Valerie Norwood",
-    "height": "5-8",
-    "year": "FR",
-    "position": "guard",
-    "hometown": "Wellington, KS",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Lindenwood",
-    "status": "Out",
-    "name": "Mya Skoff",
-    "height": "5-10",
-    "year": "JR",
-    "position": "wing",
-    "hometown": "Bellevue, NE",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Lindenwood",
-    "status": "Out",
-    "name": "Gracy Wernli",
-    "height": "5-9",
-    "year": "JR",
-    "position": "guard",
-    "hometown": "Bixby, OK",
-    "entered_portal": null,
-    "transfer_history": "from Abilene Christian to Lindenwood following the 2023-24 season"
-  },
-  {
-    "team": "Lindenwood",
-    "status": "Out",
-    "name": "Aalayah Wilson",
-    "height": "5-8",
-    "year": "RS SO",
-    "position": "guard",
-    "hometown": "Maple Grove, MN",
-    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -12921,7 +12866,7 @@
     "year": "JR",
     "position": "guard",
     "hometown": "San Diego, CA",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Alabama State to LIU following the 2024-25 season"
   },
   {
@@ -12932,7 +12877,7 @@
     "year": "SR",
     "position": "center",
     "hometown": "Silver Spring, MD",
-    "entered_portal": "2026-04-07",
+    "entered_portal": null,
     "transfer_history": "from James Madison to Arizona State to LIU"
   },
   {
@@ -16738,7 +16683,7 @@
     "year": "SR",
     "position": "forward",
     "hometown": "Los Angeles, CA",
-    "entered_portal": "2026-04-13",
+    "entered_portal": null,
     "transfer_history": "from Tulsa to Indiana State to Nevada"
   },
   {
@@ -17408,8 +17353,8 @@
     "height": "6-0",
     "year": "RS JR",
     "position": "center",
-    "hometown": "Brooklyn, NY",
-    "entered_portal": "2026-05-12",
+    "hometown": "Brooklyn, NY (grad xfer) [withdrew name from portal]",
+    "entered_portal": null,
     "transfer_history": "from Saint Francis (Pa.) to Campbell following the 2024-25 season"
   },
   {
@@ -18882,8 +18827,8 @@
     "height": "5-9",
     "year": "SR",
     "position": "guard",
-    "hometown": "Boise, ID",
-    "entered_portal": "2026-04-20",
+    "hometown": "Boise, ID (grad xfer) [withdrew name from portal]",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -19454,7 +19399,7 @@
     "height": "5-11",
     "year": "FR",
     "position": "wing",
-    "hometown": "Killeen, TX",
+    "hometown": "Killeen, TX [withdrew name from portal]",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -28276,7 +28221,7 @@
     "height": "6-1",
     "year": "FR",
     "position": "forward",
-    "hometown": "Crofton, MD [withdrew name from portal]",
+    "hometown": "Crofton, MD [returned to Vermont]",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -28299,7 +28244,7 @@
     "year": "JR",
     "position": "combo guard",
     "hometown": "Chilliwack, BC",
-    "entered_portal": "2026-04-14",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -28309,7 +28254,7 @@
     "height": "6-0",
     "year": "SO",
     "position": "forward",
-    "hometown": "Lowell, MI [withdrew name from portal]",
+    "hometown": "Lowell, MI [returned to Vermont]",
     "entered_portal": null,
     "transfer_history": null
   },
