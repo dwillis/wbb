@@ -5441,7 +5441,7 @@
     "year": "SR",
     "position": "point guard",
     "hometown": "Gettysburg, PA",
-    "entered_portal": null,
+    "entered_portal": "2026-03-30",
     "transfer_history": "from Manhattan to Colgate following the 2023-24 season"
   },
   {
@@ -5451,8 +5451,8 @@
     "height": "5-10",
     "year": "RS JR",
     "position": "shooting guard",
-    "hometown": "St. Catharines, ON (grad xfer) [withdrew name from portal]",
-    "entered_portal": null,
+    "hometown": "St. Catharines, ON",
+    "entered_portal": "2026-03-30",
     "transfer_history": null
   },
   {
@@ -7255,8 +7255,8 @@
     "height": "5-5",
     "year": "RS SR",
     "position": "point guard",
-    "hometown": "Tucson, AZ (grad xfer) [returned to Elon]",
-    "entered_portal": null,
+    "hometown": "Tucson, AZ",
+    "entered_portal": "2026-04-07",
     "transfer_history": null
   },
   {
@@ -7278,7 +7278,7 @@
     "year": "SR",
     "position": "center",
     "hometown": "Denver, NC",
-    "entered_portal": null,
+    "entered_portal": "2026-03-16",
     "transfer_history": null
   },
   {
@@ -8389,7 +8389,7 @@
     "year": "SO",
     "position": "forward",
     "hometown": "Orlando, FL",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": "from Boston University to Furman following the 2024-25 season"
   },
   {
@@ -11348,17 +11348,6 @@
     "year": "FR",
     "position": "point guard",
     "hometown": "Geelong, Victoria, Australia",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Iowa State",
-    "status": "In",
-    "name": "Xiao \u201cSmyle\u201d Zhang",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
     "entered_portal": null,
     "transfer_history": null
   },
@@ -14417,7 +14406,7 @@
     "year": "JR",
     "position": "center",
     "hometown": "Orlando, FL",
-    "entered_portal": null,
+    "entered_portal": "2026-04-08",
     "transfer_history": "from Georgia Southern to Memphis following the 2024-25 season"
   },
   {
@@ -15923,8 +15912,8 @@
     "height": "5-8",
     "year": "RS SO",
     "position": "point guard",
-    "hometown": "La Crosse, WI (grad xfer) [withdrew name from portal]",
-    "entered_portal": null,
+    "hometown": "La Crosse, WI",
+    "entered_portal": "2026-03-25",
     "transfer_history": null
   },
   {
@@ -15935,7 +15924,7 @@
     "year": "RS JR",
     "position": "wing",
     "hometown": "Royse City, TX",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": "from Colorado Christian (D-II) to Montana midyear of the 2024-25 season"
   },
   {
@@ -15946,7 +15935,7 @@
     "year": "SO",
     "position": "shooting guard",
     "hometown": "Missoula, MT",
-    "entered_portal": null,
+    "entered_portal": "2026-04-15",
     "transfer_history": null
   },
   {
@@ -15957,7 +15946,7 @@
     "year": "JR",
     "position": "wing",
     "hometown": "Monroe, WA",
-    "entered_portal": null,
+    "entered_portal": "2026-03-25",
     "transfer_history": null
   },
   {
@@ -15968,7 +15957,7 @@
     "year": "SR",
     "position": "forward",
     "hometown": "Highlands Ranch, CO",
-    "entered_portal": null,
+    "entered_portal": "2026-03-30",
     "transfer_history": null
   },
   {
@@ -15979,7 +15968,7 @@
     "year": "RS JR",
     "position": "guard",
     "hometown": "Melstone, MT",
-    "entered_portal": null,
+    "entered_portal": "2026-03-25",
     "transfer_history": null
   },
   {
@@ -17002,7 +16991,7 @@
     "year": "JR",
     "position": "wing",
     "hometown": "Luanda, Angola",
-    "entered_portal": null,
+    "entered_portal": "2026-04-21",
     "transfer_history": null
   },
   {
@@ -17453,7 +17442,7 @@
     "year": "FR",
     "position": "combo guard",
     "hometown": "Georgetown, TX",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -18058,7 +18047,7 @@
     "year": "RS JR",
     "position": "shooting guard/wing",
     "hometown": "Providence, AR",
-    "entered_portal": null,
+    "entered_portal": "2026-03-25",
     "transfer_history": "from Purdue Fort Wayne to Eastern Florida State College (juco) to Coastal Carolina to UNC Asheville"
   },
   {
@@ -24657,7 +24646,7 @@
     "height": "5-9",
     "year": "RS JR",
     "position": "guard",
-    "hometown": "Plano, TX [returned to SIU]",
+    "hometown": "Plano, TX [withdrew name from portal]",
     "entered_portal": null,
     "transfer_history": "from Oklahoma to SIU following the 2023-24 season"
   },
@@ -24834,7 +24823,7 @@
     "year": "FR",
     "position": "forward/center",
     "hometown": "Moscow, Russia",
-    "entered_portal": null,
+    "entered_portal": "2026-04-08",
     "transfer_history": null
   },
   {
@@ -24845,7 +24834,7 @@
     "year": "FR",
     "position": "wing/forward",
     "hometown": "Albuquerque, NM",
-    "entered_portal": null,
+    "entered_portal": "2026-04-16",
     "transfer_history": null
   },
   {
@@ -24855,8 +24844,8 @@
     "height": "5-10",
     "year": "RS JR",
     "position": "wing",
-    "hometown": "Plano, TX (grad xfer) [withdrew name from portal]",
-    "entered_portal": null,
+    "hometown": "Plano, TX",
+    "entered_portal": "2026-01-30",
     "transfer_history": null
   },
   {
@@ -24878,7 +24867,7 @@
     "year": "JR",
     "position": "wing",
     "hometown": "Alexandria, VA",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": "from South Carolina to Arizona to SMU"
   },
   {
@@ -24889,7 +24878,7 @@
     "year": "GR",
     "position": "point guard",
     "hometown": "Washington, DC",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": "from Delaware (CAA All-Rookie Team in 2020-21) to Arizona State (honorable mention All\u2013Big 12 in 2024-25) to SMU"
   },
   {
@@ -25032,7 +25021,7 @@
     "year": "JR",
     "position": "wing/forward",
     "hometown": "Minneapolis, MN",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -25043,7 +25032,7 @@
     "year": "FR",
     "position": "wing",
     "hometown": "Larkspur, CA",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -25054,7 +25043,7 @@
     "year": "JR",
     "position": "combo guard",
     "hometown": "Conway, AR",
-    "entered_portal": null,
+    "entered_portal": "2026-04-09",
     "transfer_history": null
   },
   {
@@ -25065,7 +25054,7 @@
     "year": "JR",
     "position": "wing/forward",
     "hometown": "Atlanta, GA",
-    "entered_portal": null,
+    "entered_portal": "2026-04-08",
     "transfer_history": null
   },
   {
@@ -25076,7 +25065,7 @@
     "year": "SO",
     "position": "forward",
     "hometown": "Rocklin, CA",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -25087,7 +25076,7 @@
     "year": "FR",
     "position": "wing/forward",
     "hometown": "M\u00f3r, Hungary",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -25098,7 +25087,7 @@
     "year": "JR",
     "position": "forward",
     "hometown": "New York, NY",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": "from Purdue to Stanford following the 2023-24 season"
   },
   {
@@ -29442,8 +29431,8 @@
     "height": "6-0",
     "year": "JR",
     "position": "wing",
-    "hometown": "Aizkraukle, Latvia [returned to WMU]",
-    "entered_portal": null,
+    "hometown": "Aizkraukle, Latvia",
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -30289,8 +30278,8 @@
     "height": "5-8",
     "year": "JR",
     "position": "point guard",
-    "hometown": "Oconomowoc, WI [withdrew name from portal]",
-    "entered_portal": null,
+    "hometown": "Oconomowoc, WI",
+    "entered_portal": "2026-03-30",
     "transfer_history": null
   },
   {
