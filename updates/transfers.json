@@ -12926,6 +12926,17 @@
   },
   {
     "team": "Long Island University",
+    "status": "In",
+    "name": "Kylie Morris",
+    "height": "5-10",
+    "year": "SO",
+    "position": "forward",
+    "hometown": "Orlando, FL",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Long Island University",
     "status": "Out",
     "name": "Solangelei Akridge",
     "height": "5-8",
@@ -29388,7 +29399,7 @@
     "year": "JR",
     "position": "wing",
     "hometown": "Lebanon, MO",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
