@@ -6310,7 +6310,7 @@
     "year": "RS JR",
     "position": "forward",
     "hometown": "Dallas, TX",
-    "entered_portal": null,
+    "entered_portal": "2026-04-01",
     "transfer_history": "from Grand Canyon to Denver following the 2022-23 season"
   },
   {
@@ -21820,7 +21820,7 @@
     "year": "SO",
     "position": "guard",
     "hometown": "Surprise, AZ",
-    "entered_portal": "4026-06-29",
+    "entered_portal": "4026-07-02",
     "transfer_history": null
   },
   {
@@ -24019,8 +24019,8 @@
     "height": "6-4",
     "year": "JR",
     "position": "center",
-    "hometown": "Frankfort, KY [withdrew name from portal]",
-    "entered_portal": null,
+    "hometown": "Frankfort, KY",
+    "entered_portal": "2026-02-05",
     "transfer_history": null
   },
   {
