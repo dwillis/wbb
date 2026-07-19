@@ -557,7 +557,7 @@
     "year": "RS SO",
     "position": "center",
     "hometown": "Kobuleti, Georgia",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": "from Xavier to UAB following the 2024-25 season"
   },
   {
@@ -612,7 +612,7 @@
     "year": "JR",
     "position": "center",
     "hometown": "Louisville, KY",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -3477,57 +3477,13 @@
   },
   {
     "team": "UC Riverside",
-    "status": "In",
-    "name": "Kyori Lloyd",
-    "height": "5-10",
-    "year": "JR",
-    "position": "forward",
-    "hometown": "Long Beach, CA",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "UC Riverside",
-    "status": "In",
-    "name": "Morgan Mack",
-    "height": "5-10",
-    "year": "FR",
-    "position": "shooting guard",
-    "hometown": "Lancaster, CA",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "UC Riverside",
-    "status": "In",
-    "name": "Harisa Mehmedovic",
-    "height": "6-1",
-    "year": "JR",
-    "position": "forward",
-    "hometown": "Salt Lake City, UT",
-    "entered_portal": null,
-    "transfer_history": "from Union County (juco) to SJSU"
-  },
-  {
-    "team": "UC Riverside",
-    "status": "In",
-    "name": "Amy Pateman",
-    "height": "5-8",
-    "year": "FR",
-    "position": "point guard",
-    "hometown": "Auckland, New Zealand",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "UC Riverside",
     "status": "Out",
     "name": "Maya Chocano",
     "height": "6-1",
     "year": "JR",
     "position": "shooting guard/wing",
     "hometown": "Toronto, ON",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -3549,7 +3505,7 @@
     "year": "SR",
     "position": "wing",
     "hometown": "Encino, CA",
-    "entered_portal": null,
+    "entered_portal": "2026-03-26",
     "transfer_history": "from Cal State Northridge to Northern Colorado to UCR"
   },
   {
@@ -3560,7 +3516,7 @@
     "year": "SO",
     "position": "combo guard",
     "hometown": "Sydney, Australia",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -3582,7 +3538,7 @@
     "year": "SO",
     "position": "shooting guard",
     "hometown": "Melbourne, Australia",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -4792,7 +4748,7 @@
     "year": "RS SO",
     "position": "guard",
     "hometown": "Paris, France",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": "from UTEP to Charleston Southern following the 2024-25 season"
   },
   {
@@ -5809,17 +5765,6 @@
   },
   {
     "team": "Coppin State",
-    "status": "In",
-    "name": "Samari Taylor",
-    "height": "6-3",
-    "year": "JR",
-    "position": "center",
-    "hometown": "Louisville, KY",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Coppin State",
     "status": "Out",
     "name": "Jordyn Adderly",
     "height": "5-10",
@@ -6310,7 +6255,7 @@
     "year": "RS JR",
     "position": "forward",
     "hometown": "Dallas, TX",
-    "entered_portal": null,
+    "entered_portal": "2026-04-01",
     "transfer_history": "from Grand Canyon to Denver following the 2022-23 season"
   },
   {
@@ -12206,7 +12151,7 @@
     "year": "SR",
     "position": "combo guard",
     "hometown": "Chandler, AZ",
-    "entered_portal": null,
+    "entered_portal": "2026-03-23",
     "transfer_history": null
   },
   {
@@ -12855,7 +12800,7 @@
     "year": "FR",
     "position": "shooting guard",
     "hometown": "Lancaster, CA",
-    "entered_portal": null,
+    "entered_portal": "2026-04-20",
     "transfer_history": null
   },
   {
@@ -12922,17 +12867,6 @@
     "position": "center",
     "hometown": "Valencia, Spain",
     "entered_portal": "2026-04-06",
-    "transfer_history": null
-  },
-  {
-    "team": "Long Island University",
-    "status": "In",
-    "name": "Kylie Morris",
-    "height": "5-10",
-    "year": "SO",
-    "position": "forward",
-    "hometown": "Orlando, FL",
-    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -13120,7 +13054,7 @@
     "position": "guard",
     "hometown": "Norcross, GA",
     "entered_portal": null,
-    "transfer_history": "from Barry University (D-II) to the Mount following the 2024-25 season"
+    "transfer_history": "from Barry (D-II) to the Mount following the 2024-25 season"
   },
   {
     "team": "UL Monroe",
@@ -14483,7 +14417,7 @@
     "year": "JR",
     "position": "center",
     "hometown": "Orlando, FL",
-    "entered_portal": null,
+    "entered_portal": "2026-04-08",
     "transfer_history": "from Georgia Southern to Memphis following the 2024-25 season"
   },
   {
@@ -16392,28 +16326,6 @@
   {
     "team": "Mount St. Mary\u2019s",
     "status": "In",
-    "name": "Thelma Barbitch",
-    "height": "5-10",
-    "year": "RS SO",
-    "position": "guard",
-    "hometown": "Paris, France",
-    "entered_portal": null,
-    "transfer_history": "from UTEP to Charleston Southern following the 2024-25 season"
-  },
-  {
-    "team": "Mount St. Mary\u2019s",
-    "status": "In",
-    "name": "Nevaeh Ferrara Horne",
-    "height": "6-2",
-    "year": "JR",
-    "position": "forward",
-    "hometown": "Regina, Saskatchewan",
-    "entered_portal": null,
-    "transfer_history": "from North Dakota to San Francisco following the 2024-25 season"
-  },
-  {
-    "team": "Mount St. Mary\u2019s",
-    "status": "In",
     "name": "Zaria Harleaux",
     "height": "6-1",
     "year": "SR",
@@ -16421,17 +16333,6 @@
     "hometown": "Baton Rouge, LA (grad xfer)",
     "entered_portal": null,
     "transfer_history": "from Southern to Mississippi Valley State to XULA"
-  },
-  {
-    "team": "Mount St. Mary\u2019s",
-    "status": "In",
-    "name": "Yacine Ndiaye",
-    "height": "6-4",
-    "year": "JR",
-    "position": "center",
-    "hometown": "Pout, Thies, Senegal",
-    "entered_portal": null,
-    "transfer_history": null
   },
   {
     "team": "Mount St. Mary\u2019s",
@@ -16519,7 +16420,7 @@
     "position": "guard",
     "hometown": "Norcross, GA",
     "entered_portal": null,
-    "transfer_history": "from Barry University (D-II) to the Mount following the 2024-25 season"
+    "transfer_history": "from Barry (D-II) to the Mount following the 2024-25 season"
   },
   {
     "team": "Mount St. Mary\u2019s",
@@ -17101,7 +17002,7 @@
     "year": "JR",
     "position": "wing",
     "hometown": "Luanda, Angola",
-    "entered_portal": null,
+    "entered_portal": "2026-04-21",
     "transfer_history": null
   },
   {
@@ -18157,7 +18058,7 @@
     "year": "RS JR",
     "position": "shooting guard/wing",
     "hometown": "Providence, AR",
-    "entered_portal": null,
+    "entered_portal": "2026-03-25",
     "transfer_history": "from Purdue Fort Wayne to Eastern Florida State College (juco) to Coastal Carolina to UNC Asheville"
   },
   {
@@ -21820,7 +21721,7 @@
     "year": "SO",
     "position": "guard",
     "hometown": "Surprise, AZ",
-    "entered_portal": "4026-06-29",
+    "entered_portal": "4026-07-02",
     "transfer_history": null
   },
   {
@@ -22073,7 +21974,7 @@
     "year": "SR",
     "position": "wing",
     "hometown": "Easton, PA",
-    "entered_portal": null,
+    "entered_portal": "2026-03-11",
     "transfer_history": null
   },
   {
@@ -22084,7 +21985,7 @@
     "year": "FR",
     "position": "wing",
     "hometown": "Brooklyn, NY",
-    "entered_portal": null,
+    "entered_portal": "2026-04-14",
     "transfer_history": null
   },
   {
@@ -22095,7 +21996,7 @@
     "year": "JR",
     "position": "wing",
     "hometown": "Saly, Senegal",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -22106,7 +22007,7 @@
     "year": "JR",
     "position": "center",
     "hometown": "Pout, Thies, Senegal",
-    "entered_portal": null,
+    "entered_portal": "2026-04-07",
     "transfer_history": null
   },
   {
@@ -22117,7 +22018,7 @@
     "year": "JR",
     "position": "center",
     "hometown": "Tyrone, GA",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -23250,7 +23151,7 @@
     "year": "JR",
     "position": "forward",
     "hometown": "Regina, Saskatchewan",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": "from North Dakota to San Francisco following the 2024-25 season"
   },
   {
@@ -23261,7 +23162,7 @@
     "year": "FR",
     "position": "point guard",
     "hometown": "Auckland, New Zealand",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -23393,7 +23294,7 @@
     "year": "JR",
     "position": "forward",
     "hometown": "Salt Lake City, UT",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": "from Union County (juco) to SJSU"
   },
   {
@@ -24019,8 +23920,8 @@
     "height": "6-4",
     "year": "JR",
     "position": "center",
-    "hometown": "Frankfort, KY [withdrew name from portal]",
-    "entered_portal": null,
+    "hometown": "Frankfort, KY",
+    "entered_portal": "2026-02-05",
     "transfer_history": null
   },
   {
@@ -29399,7 +29300,7 @@
     "year": "JR",
     "position": "wing",
     "hometown": "Lebanon, MO",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -29541,8 +29442,8 @@
     "height": "6-0",
     "year": "JR",
     "position": "wing",
-    "hometown": "Aizkraukle, Latvia [returned to WMU]",
-    "entered_portal": null,
+    "hometown": "Aizkraukle, Latvia",
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
