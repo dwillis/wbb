@@ -5885,6 +5885,17 @@
     "transfer_history": null
   },
   {
+    "team": "Cornell",
+    "status": "Out",
+    "name": "Emily Pape",
+    "height": "6-1",
+    "year": "SR",
+    "position": "forward",
+    "hometown": "Park Ridge, IL",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
     "team": "Creighton",
     "status": "In",
     "name": "Niamya Holloway",
@@ -15319,7 +15330,7 @@
     "year": "JR",
     "position": "shooting guard",
     "hometown": "Oneida, WI",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Cochise College (juco) to Milwaukee"
   },
   {
@@ -18867,6 +18878,17 @@
   {
     "team": "Northern Arizona",
     "status": "In",
+    "name": "Micayla Silas",
+    "height": "5-9",
+    "year": "JR",
+    "position": "shooting guard",
+    "hometown": "Oneida, WI",
+    "entered_portal": null,
+    "transfer_history": "from Cochise College (juco) to Milwaukee"
+  },
+  {
+    "team": "Northern Arizona",
+    "status": "In",
     "name": "Aaliyah Smith",
     "height": "5-7",
     "year": "JR",
@@ -20742,7 +20764,7 @@
     "year": "FR",
     "position": "shooting guard",
     "hometown": "Camas, WA",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -20753,7 +20775,7 @@
     "year": "FR",
     "position": "forward",
     "hometown": "Taree, NSW, Australia",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -22678,7 +22700,7 @@
     "year": "SO",
     "position": "wing",
     "hometown": "St. Louis, MO",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
