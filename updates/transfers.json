@@ -5885,6 +5885,17 @@
     "transfer_history": null
   },
   {
+    "team": "Cornell",
+    "status": "Out",
+    "name": "Emily Pape",
+    "height": "6-1",
+    "year": "SR",
+    "position": "forward",
+    "hometown": "Park Ridge, IL",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
     "team": "Creighton",
     "status": "In",
     "name": "Niamya Holloway",
@@ -20753,7 +20764,7 @@
     "year": "FR",
     "position": "shooting guard",
     "hometown": "Camas, WA",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -20764,7 +20775,7 @@
     "year": "FR",
     "position": "forward",
     "hometown": "Taree, NSW, Australia",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -22689,7 +22700,7 @@
     "year": "SO",
     "position": "wing",
     "hometown": "St. Louis, MO",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
