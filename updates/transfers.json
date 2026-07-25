@@ -8125,7 +8125,7 @@
     "year": "SO",
     "position": "forward/center",
     "hometown": "Guanajuato, Mexico",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Bethesda University (NCCAA) to FIU following the 2024-25 season"
   },
   {
@@ -12619,12 +12619,67 @@
   {
     "team": "Lindenwood",
     "status": "Out",
-    "name": "{entered portal 4/8/26}\u2022 Alyssa Nielsen",
-    "height": null,
-    "year": null,
-    "position": null,
-    "hometown": null,
-    "entered_portal": "2026-04-08",
+    "name": "Alyssa Nielsen",
+    "height": "6-0",
+    "year": "JR",
+    "position": "forward",
+    "hometown": "Bixby, OK",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Lindenwood",
+    "status": "Out",
+    "name": "Jovana Nikoli\u0107",
+    "height": "6-2",
+    "year": "RS FR",
+    "position": "forward",
+    "hometown": "Belgrade, Serbia",
+    "entered_portal": "2026-04-14",
+    "transfer_history": "from Xavier to Lindenwood following the 2024-25 season"
+  },
+  {
+    "team": "Lindenwood",
+    "status": "Out",
+    "name": "Valerie Norwood",
+    "height": "5-8",
+    "year": "FR",
+    "position": "guard",
+    "hometown": "Wellington, KS",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Lindenwood",
+    "status": "Out",
+    "name": "Mya Skoff",
+    "height": "5-10",
+    "year": "JR",
+    "position": "wing",
+    "hometown": "Bellevue, NE",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Lindenwood",
+    "status": "Out",
+    "name": "Gracy Wernli",
+    "height": "5-9",
+    "year": "JR",
+    "position": "guard",
+    "hometown": "Bixby, OK",
+    "entered_portal": null,
+    "transfer_history": "from Abilene Christian to Lindenwood following the 2023-24 season"
+  },
+  {
+    "team": "Lindenwood",
+    "status": "Out",
+    "name": "Aalayah Wilson",
+    "height": "5-8",
+    "year": "RS SO",
+    "position": "guard",
+    "hometown": "Maple Grove, MN",
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -12824,6 +12879,17 @@
     "hometown": "Bothell, WA",
     "entered_portal": null,
     "transfer_history": "from Wyoming to Seattle following the 2024-25 season"
+  },
+  {
+    "team": "Long Beach State",
+    "status": "In",
+    "name": "Selene Romero",
+    "height": "6-5",
+    "year": "SO",
+    "position": "forward/center",
+    "hometown": "Guanajuato, Mexico",
+    "entered_portal": null,
+    "transfer_history": "from Bethesda University (NCCAA) to FIU following the 2024-25 season"
   },
   {
     "team": "Long Beach State",
