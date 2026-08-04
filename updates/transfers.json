@@ -618,11 +618,11 @@
   {
     "team": "Alabama State",
     "status": "In",
-    "name": "Salote Franklin",
-    "height": "5-10",
-    "year": "JR",
-    "position": "forward",
-    "hometown": "Philadelphia, PA",
+    "name": "Rachel Griffin",
+    "height": "6-3",
+    "year": "SO",
+    "position": "center",
+    "hometown": "Oakland, TN",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -711,7 +711,7 @@
     "year": "JR",
     "position": "guard",
     "hometown": "Detroit, MI",
-    "entered_portal": "2026-04-09",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -723,6 +723,17 @@
     "position": "guard",
     "hometown": "Bronx, NY",
     "entered_portal": "2026-04-09",
+    "transfer_history": null
+  },
+  {
+    "team": "Alabama State",
+    "status": "Out",
+    "name": "Amonya Pampuch-Buck",
+    "height": "5-10",
+    "year": "FR",
+    "position": "wing",
+    "hometown": "Milwaukee, WI",
+    "entered_portal": "4026-07-30",
     "transfer_history": null
   },
   {
@@ -6645,6 +6656,17 @@
   },
   {
     "team": "Drexel",
+    "status": "In",
+    "name": "Meliah Van-Otoo",
+    "height": "5-4",
+    "year": "SR",
+    "position": "point guard",
+    "hometown": "Drexel Hill, PA (grad xfer)",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Drexel",
     "status": "Out",
     "name": "Deja Evans",
     "height": "6-2",
@@ -9231,12 +9253,23 @@
   {
     "team": "Georgia Southern",
     "status": "Out",
+    "name": "Armani Cooke",
+    "height": "5-9",
+    "year": "JR",
+    "position": "guard",
+    "hometown": "Statesboro, GA",
+    "entered_portal": "2026-07-21",
+    "transfer_history": null
+  },
+  {
+    "team": "Georgia Southern",
+    "status": "Out",
     "name": "McKayla Hosley",
     "height": "6-0",
     "year": "FR",
     "position": "forward",
     "hometown": "Columbus, GA",
-    "entered_portal": "2026-04-09",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -9247,7 +9280,7 @@
     "year": "JR",
     "position": "center",
     "hometown": "Mesa, AZ",
-    "entered_portal": "2026-04-08",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -9258,7 +9291,7 @@
     "year": "RS JR",
     "position": "shooting guard",
     "hometown": "Baltimore, MD",
-    "entered_portal": "2026-03-27",
+    "entered_portal": null,
     "transfer_history": "from Saint Francis (Pa.) to Georgia Southern following the 2024-25 season"
   },
   {
@@ -10485,6 +10518,17 @@
   {
     "team": "Idaho",
     "status": "In",
+    "name": "Brynna Pukis",
+    "height": "5-6",
+    "year": "FR",
+    "position": "point guard",
+    "hometown": "Snohomish, WA",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Idaho",
+    "status": "In",
     "name": "Keanna Salave\u2019a",
     "height": "6-2",
     "year": "JR",
@@ -11139,7 +11183,7 @@
     "year": "RS JR",
     "position": "guard",
     "hometown": "Kansas City, MO",
-    "entered_portal": "2026-03-25",
+    "entered_portal": null,
     "transfer_history": "from Missouri\u2013St. Louis (D-II) to Emporia State (D-II) to Indiana State"
   },
   {
@@ -11585,6 +11629,17 @@
   {
     "team": "Jackson State",
     "status": "Out",
+    "name": "Shamya Reid",
+    "height": "5-6",
+    "year": "JR",
+    "position": "guard",
+    "hometown": "Detroit, MI",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Jackson State",
+    "status": "Out",
     "name": "McKenzie Stewart",
     "height": "6-1",
     "year": "JR",
@@ -11689,7 +11744,7 @@
     "year": "JR",
     "position": "forward",
     "hometown": "Hampstead, MD",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Shepherd University (D-II) to Jacksonville following the 2024-25 season"
   },
   {
@@ -11700,7 +11755,7 @@
     "year": "JR",
     "position": "guard",
     "hometown": "Lee\u2019s Summit, MO",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -11711,7 +11766,7 @@
     "year": "SO",
     "position": "forward",
     "hometown": "Louisville, KY",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -11722,7 +11777,7 @@
     "year": "SO",
     "position": "shooting guard",
     "hometown": "Richmond, VA",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -11865,7 +11920,7 @@
     "year": "JR",
     "position": "guard",
     "hometown": "Barcelona, Spain",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -11876,7 +11931,7 @@
     "year": "FR",
     "position": "point guard",
     "hometown": "Norman, OK",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -11975,7 +12030,7 @@
     "year": "SO",
     "position": "guard",
     "hometown": "South Holland, IL",
-    "entered_portal": "2026-04-09",
+    "entered_portal": null,
     "transfer_history": "from Texas A&M International (D-II) to Kansas City following the 2024-25 season"
   },
   {
@@ -11986,7 +12041,7 @@
     "year": "SO",
     "position": "point guard",
     "hometown": "Yonkers, NY",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -12338,7 +12393,7 @@
     "year": "SO",
     "position": "wing",
     "hometown": "Orlando, FL",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -12349,7 +12404,7 @@
     "year": "FR",
     "position": "wing",
     "hometown": "Dedham, MA",
-    "entered_portal": "2026-04-10",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -12360,7 +12415,7 @@
     "year": "FR",
     "position": "center",
     "hometown": "Hudiksvall, Sweden",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -12393,7 +12448,7 @@
     "year": "RS JR",
     "position": "guard",
     "hometown": "Pittsburgh, PA",
-    "entered_portal": "2026-04-01",
+    "entered_portal": null,
     "transfer_history": "from Saint Louis to La Salle following the 2023-24 season"
   },
   {
@@ -12404,7 +12459,7 @@
     "year": "RS SO",
     "position": "wing",
     "hometown": "Baltimore, MD",
-    "entered_portal": "2026-03-31",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -12415,7 +12470,7 @@
     "year": "JR",
     "position": "forward/center",
     "hometown": "Nairobi, Kenya",
-    "entered_portal": "2026-04-08",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -12426,7 +12481,7 @@
     "year": "SO",
     "position": "wing/forward",
     "hometown": "Orlando, FL",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -12437,7 +12492,7 @@
     "year": "SR",
     "position": "shooting guard/wing",
     "hometown": "Belle Mead, NJ",
-    "entered_portal": "2026-02-03",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -12965,7 +13020,7 @@
     "year": "FR",
     "position": "point guard",
     "hometown": "Snohomish, WA",
-    "entered_portal": "2026-05-24",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -13317,7 +13372,7 @@
     "year": "FR",
     "position": "combo guard",
     "hometown": "Davenport, IA",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -13328,7 +13383,7 @@
     "year": "SR",
     "position": "point guard",
     "hometown": "Tampa Bay, FL",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Arizona to LSU following the 2023-24 season"
   },
   {
@@ -13339,7 +13394,7 @@
     "year": "FR",
     "position": "combo guard",
     "hometown": "Albuquerque, NM",
-    "entered_portal": "2026-04-07",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -13350,7 +13405,7 @@
     "year": "SO",
     "position": "point guard",
     "hometown": "Opelousas, LA",
-    "entered_portal": "2026-04-13",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -13449,7 +13504,7 @@
     "year": "FR",
     "position": "shooting guard",
     "hometown": "Brandenburg, KY",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -13460,7 +13515,7 @@
     "year": "SO",
     "position": "wing",
     "hometown": "Detroit, MI",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -13471,7 +13526,7 @@
     "year": "JR",
     "position": "wing",
     "hometown": "Chicago, IL",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Arizona to Louisville following the 2024-25 season"
   },
   {
@@ -13482,7 +13537,7 @@
     "year": "SO",
     "position": "center",
     "hometown": "Coffs Harbour, Australia",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -13592,7 +13647,7 @@
     "year": "SO",
     "position": "point guard",
     "hometown": "Kaukauna, WI",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -13680,7 +13735,7 @@
     "year": "SR",
     "position": "point guard",
     "hometown": "Drexel Hill, PA",
-    "entered_portal": "2026-03-30",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -14451,6 +14506,17 @@
     "position": "guard",
     "hometown": "Baton Rouge, LA",
     "entered_portal": null,
+    "transfer_history": "from Southeastern Louisiana to McNeese following the 2024-25 season"
+  },
+  {
+    "team": "McNeese State",
+    "status": "Out",
+    "name": "Jaslynn Walter",
+    "height": "5-10",
+    "year": "RS FR",
+    "position": "guard",
+    "hometown": "Nashville, TN",
+    "entered_portal": "2026-07-07",
     "transfer_history": "from Southeastern Louisiana to McNeese following the 2024-25 season"
   },
   {
@@ -17553,7 +17619,7 @@
     "position": "center",
     "hometown": "Brooklyn, NY (grad xfer) [withdrew name from portal]",
     "entered_portal": null,
-    "transfer_history": "from Saint Francis (Pa.) to Campbell following the 2024-25 season"
+    "transfer_history": "from Saint Francis (Pa.) to Niagara following the 2024-25 season"
   },
   {
     "team": "Niagara",
@@ -18069,7 +18135,7 @@
     "year": "SO",
     "position": "center",
     "hometown": "Oakland, TN",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -20962,6 +21028,17 @@
     "year": "RS FR",
     "position": "guard",
     "hometown": "Chevilly Larue, France",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Presbyterian",
+    "status": "In",
+    "name": "Alyssa Febres",
+    "height": "5-5",
+    "year": "SO",
+    "position": "point guard",
+    "hometown": "Yonkers, NY",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -27765,13 +27842,24 @@
   },
   {
     "team": "Tulsa",
+    "status": "In",
+    "name": "Alexa Kinas",
+    "height": "5-8",
+    "year": "SO",
+    "position": "point guard",
+    "hometown": "Kaukauna, WI",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Tulsa",
     "status": "Out",
     "name": "Layla-J Cameron",
     "height": "6-0",
     "year": "JR",
     "position": "wing",
     "hometown": "Gold Coast, Australia",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -27782,7 +27870,7 @@
     "year": "RS FR",
     "position": "forward",
     "hometown": "Inverness, IL",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -27793,7 +27881,7 @@
     "year": "RS JR",
     "position": "guard",
     "hometown": "Toronto, ON",
-    "entered_portal": "2026-04-03",
+    "entered_portal": null,
     "transfer_history": "from Villanova to Northeastern to Tulsa"
   },
   {
@@ -27804,7 +27892,7 @@
     "year": "FR",
     "position": "shooting guard",
     "hometown": "Shawnee, OK",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
