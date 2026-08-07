@@ -2713,7 +2713,7 @@
     "year": "FR",
     "position": "wing",
     "hometown": "Williamstown, NJ",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -2746,7 +2746,7 @@
     "year": "JR",
     "position": "shooting guard",
     "hometown": "Staten Island, NY",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from UMass Lowell to Bryant following the 2024-25 season"
   },
   {
@@ -19504,6 +19504,17 @@
   },
   {
     "team": "Northwestern State",
+    "status": "In",
+    "name": "KP Parr",
+    "height": "5-4",
+    "year": "SO",
+    "position": "point guard",
+    "hometown": "Waco, TX",
+    "entered_portal": null,
+    "transfer_history": "from Wichita State to Texas State following the 2024-25 season"
+  },
+  {
+    "team": "Northwestern State",
     "status": "Out",
     "name": "Vernell Atamah",
     "height": "6-0",
@@ -27441,7 +27452,7 @@
     "year": "SO",
     "position": "point guard",
     "hometown": "Waco, TX",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": "from Wichita State to Texas State following the 2024-25 season"
   },
   {
