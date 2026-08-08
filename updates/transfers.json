@@ -678,7 +678,7 @@
     "year": "FR",
     "position": "forward/center",
     "hometown": "London, England",
-    "entered_portal": "2026-04-07",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
@@ -11794,6 +11794,17 @@
   {
     "team": "Jacksonville State",
     "status": "In",
+    "name": "Lillian Jackson",
+    "height": "5-11",
+    "year": "SR",
+    "position": "forward",
+    "hometown": "Little Rock, AR",
+    "entered_portal": null,
+    "transfer_history": null
+  },
+  {
+    "team": "Jacksonville State",
+    "status": "In",
     "name": "Roc\u00edo Jim\u00e9nez",
     "height": "6-7",
     "year": "RS SO",
@@ -18707,7 +18718,7 @@
     "year": "RS FR",
     "position": "forward",
     "hometown": "Oshawa, ON",
-    "entered_portal": "2026-04-06",
+    "entered_portal": null,
     "transfer_history": null
   },
   {
