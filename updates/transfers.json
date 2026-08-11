@@ -11738,39 +11738,6 @@
   },
   {
     "team": "Jacksonville",
-    "status": "In",
-    "name": "Taylor Blunt",
-    "height": "5-8",
-    "year": "GR",
-    "position": "guard",
-    "hometown": "Aston, PA",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Jacksonville",
-    "status": "In",
-    "name": "A\u2019Yiana Flemings",
-    "height": "6-4",
-    "year": "SO",
-    "position": "center",
-    "hometown": "New Orleans, LA",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Jacksonville",
-    "status": "In",
-    "name": "Kelis Grant",
-    "height": "5-7",
-    "year": "JR",
-    "position": "shooting guard",
-    "hometown": "Cedar Hill, TX",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "Jacksonville",
     "status": "Out",
     "name": "Carmaya Bowman",
     "height": "5-10",
@@ -14516,7 +14483,7 @@
     "year": "SO",
     "position": "center",
     "hometown": "New Orleans, LA",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
@@ -23217,7 +23184,7 @@
     "year": "JR",
     "position": "shooting guard",
     "hometown": "Cedar Hill, TX",
-    "entered_portal": null,
+    "entered_portal": "2026-04-07",
     "transfer_history": null
   },
   {
@@ -23822,7 +23789,7 @@
     "year": "SO",
     "position": "guard",
     "hometown": "Seattle, WA",
-    "entered_portal": null,
+    "entered_portal": "2026-04-06",
     "transfer_history": null
   },
   {
