@@ -739,22 +739,22 @@
   {
     "team": "Albany",
     "status": "In",
-    "name": "Cadence Johnson",
-    "height": "6-0",
-    "year": "JR",
-    "position": "forward",
-    "hometown": "Mattapoisett, MA",
+    "name": "Shyla Montgomery",
+    "height": "5-6",
+    "year": "SR",
+    "position": "point guard",
+    "hometown": "Brockton, MA",
     "entered_portal": null,
     "transfer_history": null
   },
   {
     "team": "Albany",
     "status": "In",
-    "name": "Shyla Montgomery",
-    "height": "5-6",
-    "year": "SR",
-    "position": "point guard",
-    "hometown": "Brockton, MA",
+    "name": "Cadence Johnson",
+    "height": "6-0",
+    "year": "JR",
+    "position": "forward",
+    "hometown": "Mattapoisett, MA",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -6387,17 +6387,6 @@
     "year": "SO",
     "position": "point guard",
     "hometown": "Aurora, CO",
-    "entered_portal": null,
-    "transfer_history": null
-  },
-  {
-    "team": "DePaul",
-    "status": "In",
-    "name": "Emily Bojan",
-    "height": "5-11",
-    "year": "SR",
-    "position": "forward",
-    "hometown": "Chicago, IL",
     "entered_portal": null,
     "transfer_history": null
   },
@@ -20538,17 +20527,6 @@
   },
   {
     "team": "Penn State",
-    "status": "In",
-    "name": "Savannah White",
-    "height": "6-2",
-    "year": "SR",
-    "position": "forward",
-    "hometown": "St. Paul, MN",
-    "entered_portal": null,
-    "transfer_history": "from Wisconsin to Indiana State to Xavier"
-  },
-  {
-    "team": "Penn State",
     "status": "Out",
     "name": "T\u00e8a Cl\u00e8ante",
     "height": "5-9",
@@ -30565,7 +30543,7 @@
     "year": "SR",
     "position": "forward",
     "hometown": "St. Paul, MN",
-    "entered_portal": null,
+    "entered_portal": "2026-04-17",
     "transfer_history": "from Wisconsin to Indiana State to Xavier"
   },
   {
