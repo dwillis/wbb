@@ -11,11 +11,18 @@ The primary focus of this repository, containing extensive data, scraping tools,
 
 #### Quick Start - NCAA
 ```bash
-# Scrape rosters for current season (CSV goes to ncaa/rosters/)
-uv run wbb scrape -s 2025-26 -entity player
+# Scrape rosters for a season (CSV lands in ncaa/rosters/)
+uv run wbb scrape -s 2025-26
 
-# Also write to SQLite (ncaa/rosters/rosters.db)
+# Also write to SQLite (opt-in, ncaa/rosters/rosters.db)
 uv run wbb scrape -s 2025-26 -teams 47 433 --db
+
+# Read the database back out
+uv run wbb export -s 2025-26
+uv run wbb query "SELECT team, count(*) n FROM rosters WHERE season='2025-26' GROUP BY team ORDER BY n DESC"
+
+# Inspect the scraper configuration for any team set (no network)
+uv run wbb list-teams --type javascript
 
 # Analyze coaching data
 cd ncaa/coaches
@@ -25,7 +32,7 @@ uv run python merge_coaching_data.py
 
 #### NCAA Directory Structure
 - **`/coaches`** - Coaching histories, biographies, career paths, and gender analysis
-- **`/rosters`** - Roster scraping tools and seasonal player data (2018-2026)
+- **`/rosters`** - The `wbb` CLI's home (season CSVs 2013-14 through 2026-27, `rosters.db`, deprecated `rosters.py` shim)
 - **`/teams`** - Team metadata, URLs, conferences, divisions, and social media
 - **`/players`** - Player information and transfer tracking
 - **`/games`** - Game schedules, play-by-play, and officials data
@@ -36,7 +43,7 @@ uv run python merge_coaching_data.py
 - **`/docs`** - Documentation and guides
 
 #### Key NCAA Features
-- **Comprehensive Roster Scraping**: Automated scraping for 350+ NCAA programs with support for multiple platform types (Sidearm, Nuxt.js, Vue.js, custom JavaScript)
+- **Comprehensive Roster Scraping**: Automated scraping for 1,000+ NCAA programs (Divisions I-III) with support for multiple platform types (Sidearm, Nuxt.js, Vue.js, custom JavaScript)
 - **Coaching Database**: 3,100+ coaches with career histories, 12,700+ position records, standardized titles, and LLM-powered gender identification
 - **Team Tracking**: Complete team metadata including conferences, divisions, URLs, and social media
 - **Play-by-Play Data**: Game-level data with officials, locations, and detailed play information
@@ -168,25 +175,52 @@ llm keys set openai
 
 ## Common Usage Patterns
 
-### NCAA Roster Scraping
+### NCAA Roster Scraping (`wbb` CLI)
+
+The roster scraper is a standalone CLI (installed by `uv sync`, entry point `wbb = "wbb.cli:main"`). **CSV is the primary output** — scraped data goes to files, human-readable progress and the end-of-run summary go to stderr, and `query`/`list-teams` results go to stdout. SQLite is opt-in via `--db`.
+
 ```bash
-# Scrape all teams for a season
+# Scrape every team for a season (live progress counter + summary)
 uv run wbb scrape -s 2025-26
 
 # Scrape specific teams
-uv run wbb scrape -s 2025-26 -teams 193 257 697
+uv run wbb scrape -s 2025-26 -teams 47 433 202
 
-# Scrape single team with custom URL
+# Scrape one team with a custom URL (bypasses teams.json)
 uv run wbb scrape -s 2025-26 -team 193 -url https://goduke.com
 
-# Inspect the scraper configuration map without scraping
-uv run wbb list-teams --type javascript
+# Coach rosters instead of players (-entity all scrapes both)
+uv run wbb scrape -s 2025-26 -entity coach
 
-# Optional SQLite integration (ncaa/rosters/rosters.db)
-uv run wbb scrape -s 2025-26 --db
-uv run wbb export -s 2025-26
-uv run wbb query "SELECT team, count(*) n FROM rosters WHERE season='2025-26' GROUP BY team ORDER BY n DESC"
+# JavaScript-heavy sites need shot-scraper (uv tool install shot-scraper);
+# --use-playwright switches to Playwright instead
+uv run wbb scrape -s 2025-26 -team 47 --use-playwright
+
+# Also persist to SQLite (bare --db = ncaa/rosters/rosters.db, --db PATH for custom)
+uv run wbb scrape -s 2025-26 -teams 47 433 --db
+
+# Read the database back out
+uv run wbb export -s 2025-26                        # season CSV rebuilt from the DB
+uv run wbb query "SELECT team, count(*) n FROM rosters GROUP BY team"
+uv run wbb query "SELECT * FROM rosters WHERE season='2025-26'" --format json
+
+# Scraper configuration map (no network) — filter by division, conference, or type
+uv run wbb list-teams --type javascript
+uv run wbb list-teams --division III --format json
 ```
+
+Other flags: `--quiet` (suppress progress, keep the summary), `--verbose` (DEBUG logging), `--out-dir DIR`, `--teams-file PATH`.
+
+**Exit codes:** `0` = at least one row scraped · `1` = zero rows (including unknown team ids) · `2` = usage error.
+
+**Output files** (under `ncaa/rosters/` unless `--out-dir` or `$WBB_OUTPUT_DIR` is set):
+- `rosters_<season>.csv` — the season file (multi-team runs write here)
+- `rosters_<season>_team_<id>.csv` — single-team runs
+- sidecars: `rosters_<season>_zero_players.csv` and `rosters_<season>_failed_year_check.csv`
+
+**SQLite notes:** tables `rosters` and `coaches`, keyed on `(team_id, season, name)` with a `scraped_at` timestamp. Refreshes are *replace-per-scope*: re-scraping a team replaces exactly that team's rows for the season — departed players drop out, and teams that return zero rows are skipped so a transient failure can't delete good data. A pre-2026 legacy `rosters` table is auto-renamed to `rosters_legacy` on first open; its historical rows are preserved.
+
+Note: multi-team runs rewrite the season CSV, so a small `-teams` run will overwrite a full-season file you may want to keep — use `-output` to redirect when in doubt.
 
 ### Coach Data Analysis
 ```bash
@@ -223,7 +257,7 @@ python scrape_boxscore.py --mode event-games \
 ### NCAA
 - **CSV**: Rosters, coaches, teams, games
 - **JSON**: Teams, coaches, players, coaching histories
-- **SQLite**: ncaa.db (main database), rosters.db, coaches.db, bios.db
+- **SQLite**: ncaa.db (main database), rosters.db (written by `wbb scrape --db`), coaches.db, bios.db
 
 ### FIBA
 - **CSV**: Game results, player stats, shot charts
@@ -237,11 +271,14 @@ python scrape_boxscore.py --mode event-games \
 ## Key Scripts
 
 ### wbb CLI (roster scraping)
-- `uv run wbb scrape` - Main roster scraping entry point (CSV primary; `--db` for SQLite)
-- `uv run wbb export` / `uv run wbb query` - Read a scraped season back out of the DB
-- `uv run wbb list-teams` - Scraper configuration map for all 1,097 teams
-- `wbb/` package - scraper core (moved verbatim from the old `ncaa/rosters/rosters.py`)
-- `ncaa/rosters/rosters.py` - deprecated shim kept for old documented commands
+- `wbb scrape` - Main scraping subcommand (CSV primary; `--db` for SQLite; `-entity player|coach|all`)
+- `wbb export` / `wbb query` - Read a scraped season back out of the DB
+- `wbb list-teams` - Scraper configuration map for all 1,097 teams (no network)
+- `wbb/models.py`, `wbb/parsing.py`, `wbb/templates.py`, `wbb/config.py` - scraper core (Player model, field extractors, live-site JS templates, 1,097 per-team configs), moved verbatim from the old 3,858-line `ncaa/rosters/rosters.py`
+- `wbb/scrapers.py`, `wbb/manager.py` - the five scrapers (standard, table, javascript, vue_data, requests_html) plus orchestration
+- `wbb/csvio.py`, `wbb/db.py` - CSV writers and sqlite-utils persistence (legacy migration, replace-per-scope refresh)
+- `wbb/cli.py` - argparse subcommands, progress, summary, exit codes
+- `ncaa/rosters/rosters.py` - deprecated shim forwarding to the CLI (subcommand required)
 
 ### NCAA
 - `coaches/fetch_coach_bios.py` - Scrape coach biographies
@@ -262,8 +299,8 @@ python scrape_boxscore.py --mode event-games \
 ## Data Coverage
 
 ### NCAA
-- **Seasons**: 2018-19 through 2025-26
-- **Teams**: 350+ Division I programs
+- **Seasons**: 2013-14 through 2026-27 (roster CSVs); 1990-91 through 2021-22 in the legacy `rosters.db` history
+- **Teams**: 1,097 programs across Divisions I, II, and III
 - **Coaches**: 3,100+ coaches with 12,700+ position records
 - **Players**: Comprehensive roster data per season
 
