@@ -41,43 +41,53 @@ uv pip install requests beautifulsoup4 tldextract shot-scraper playwright reques
 
 ## Usage
 
+> **Note:** The scraper described here now lives in the `wbb` package at the
+> repo root, exposed as the `wbb` CLI (installed by `uv sync`). The old
+> `ncaa/rosters/rosters.py` is a deprecated shim that forwards to the CLI.
+> CSV output defaults to `ncaa/rosters/`.
+
 ### Command Line Interface
 
 #### Scrape All Teams for a Season
 ```bash
-python rosters_new.py -season 2023-24
+uv run wbb scrape -s 2023-24
 ```
 
 #### Scrape Specific Teams
 ```bash
 # Single team
-python rosters_new.py -season 2023-24 -team 736
+uv run wbb scrape -s 2023-24 -team 736
 
 # Multiple teams
-python rosters_new.py -season 2023-24 -teams 736 415 77
+uv run wbb scrape -s 2023-24 -teams 736 415 77
 
 # Single team with custom URL
-python rosters_new.py -season 2023-24 -team 736 -url https://vucommodores.com/sports/womens-basketball/
+uv run wbb scrape -s 2023-24 -team 736 -url https://vucommodores.com/sports/womens-basketball/
 ```
 
 #### Custom Output
 ```bash
-python rosters_new.py -season 2023-24 -team 736 -output vanderbilt_2023-24.csv
+uv run wbb scrape -s 2023-24 -team 736 -output vanderbilt_2023-24.csv
 ```
 
 #### Advanced Options
 ```bash
 # Use Playwright instead of shot-scraper
-python rosters_new.py -season 2023-24 -team 736 --use-playwright
+uv run wbb scrape -s 2023-24 -team 736 --use-playwright
 
 # Verbose logging
-python rosters_new.py -season 2023-24 -team 736 --verbose
+uv run wbb scrape -s 2023-24 -team 736 --verbose
+
+# Optional SQLite output (ncaa/rosters/rosters.db)
+uv run wbb scrape -s 2023-24 --db
+uv run wbb export -s 2023-24
+uv run wbb query "SELECT team, count(*) n FROM rosters GROUP BY team"
 ```
 
 ### Programmatic Usage
 
 ```python
-from rosters_new import RosterManager, TeamConfig, ScraperFactory
+from wbb import RosterManager, TeamConfig, ScraperFactory
 
 # Initialize manager
 manager = RosterManager()

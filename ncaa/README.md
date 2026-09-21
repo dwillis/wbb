@@ -50,16 +50,17 @@ Team-related data and scripts:
 - `convert_teams_to_csv.py` - Format conversion
 
 ### `/rosters`
-Roster scraping and data:
-- **Main Script:**
-  - `rosters.py` - Primary roster scraping tool
+Roster scraping and data (scraped by the `wbb` CLI at the repo root):
+- **CLI (repo root):**
+  - `uv run wbb scrape -s 2025-26 [--db]` - Scrape rosters to CSV (optionally SQLite)
+  - `wbb/` package modules - scraper core (models, parsing, templates, config, scrapers, manager, csvio, db, cli)
 
 - **Data Files:**
   - `rosters_YYYY-YY.csv` - Roster data by season
+  - `rosters_YYYY-YY_team_<id>.csv` - Per-team scrape artifacts (used by tests/)
   - `rosters_YYYY-YY_failed_year_check.csv` - Failed validation records
   - `rosters_YYYY-YY_zero_players.csv` - Teams with no players found
-  - `rosters.db` - Roster database
-  - `compare_rosters.py` - Compare rosters across seasons
+  - `rosters.db` - Roster database (written by `wbb scrape --db`)
 
 ### `/games`
 Game data and play-by-play:
@@ -109,13 +110,21 @@ Documentation:
 
 ## Usage
 
-Most scripts can be run using `uv run python <script_name.py>`. For example:
+Roster scraping uses the `wbb` CLI from the repo root:
 
 ```bash
-# Scrape rosters for a season
-cd rosters
-uv run python rosters.py -season 2024-25 -entity player
+# Scrape rosters for a season (CSV lands in ncaa/rosters/)
+uv run wbb scrape -s 2025-26 -entity player
 
+# Optional SQLite output + querying
+uv run wbb scrape -s 2025-26 --db
+uv run wbb export -s 2025-26
+uv run wbb query "SELECT team, count(*) n FROM rosters GROUP BY team ORDER BY n DESC"
+```
+
+Most other scripts can be run using `uv run python <script_name.py>`. For example:
+
+```bash
 # Analyze coach gender from bios
 cd coaches
 uv run python analyze_coach_gender.py -m gpt-4o-mini

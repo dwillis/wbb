@@ -11,14 +11,14 @@ The primary focus of this repository, containing extensive data, scraping tools,
 
 #### Quick Start - NCAA
 ```bash
-cd ncaa
+# Scrape rosters for current season (CSV goes to ncaa/rosters/)
+uv run wbb scrape -s 2025-26 -entity player
 
-# Scrape rosters for current season
-cd rosters
-uv run python rosters.py -season 2024-25 -entity player
+# Also write to SQLite (ncaa/rosters/rosters.db)
+uv run wbb scrape -s 2025-26 -teams 47 433 --db
 
 # Analyze coaching data
-cd ../coaches
+cd ncaa/coaches
 uv run python analyze_coach_gender.py -m gpt-4o-mini
 uv run python merge_coaching_data.py
 ```
@@ -170,16 +170,22 @@ llm keys set openai
 
 ### NCAA Roster Scraping
 ```bash
-cd ncaa/rosters
-
 # Scrape all teams for a season
-uv run python rosters.py -season 2024-25
+uv run wbb scrape -s 2025-26
 
 # Scrape specific teams
-uv run python rosters.py -season 2024-25 -teams 193 257 697
+uv run wbb scrape -s 2025-26 -teams 193 257 697
 
 # Scrape single team with custom URL
-uv run python rosters.py -season 2024-25 -team 193 -url https://goduke.com
+uv run wbb scrape -s 2025-26 -team 193 -url https://goduke.com
+
+# Inspect the scraper configuration map without scraping
+uv run wbb list-teams --type javascript
+
+# Optional SQLite integration (ncaa/rosters/rosters.db)
+uv run wbb scrape -s 2025-26 --db
+uv run wbb export -s 2025-26
+uv run wbb query "SELECT team, count(*) n FROM rosters WHERE season='2025-26' GROUP BY team ORDER BY n DESC"
 ```
 
 ### Coach Data Analysis
@@ -230,8 +236,14 @@ python scrape_boxscore.py --mode event-games \
 
 ## Key Scripts
 
+### wbb CLI (roster scraping)
+- `uv run wbb scrape` - Main roster scraping entry point (CSV primary; `--db` for SQLite)
+- `uv run wbb export` / `uv run wbb query` - Read a scraped season back out of the DB
+- `uv run wbb list-teams` - Scraper configuration map for all 1,097 teams
+- `wbb/` package - scraper core (moved verbatim from the old `ncaa/rosters/rosters.py`)
+- `ncaa/rosters/rosters.py` - deprecated shim kept for old documented commands
+
 ### NCAA
-- `rosters/rosters.py` - Main roster scraping engine (165KB, handles 350+ teams)
 - `coaches/fetch_coach_bios.py` - Scrape coach biographies
 - `coaches/extract_coaching_histories.py` - Extract career histories
 - `coaches/analyze_coach_gender.py` - LLM-powered gender identification
