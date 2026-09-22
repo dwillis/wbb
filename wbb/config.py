@@ -91,7 +91,8 @@ class TeamConfig:
         367: 'https://gocards.com', 418: 'https://mgoblue.com', 428: 'https://gophersports.com',
         458: 'https://charlotte49ers.com', 716: 'https://troytrojans.com', 718: 'https://tulanegreenwave.com',
         700: 'https://texastech.com', 355: 'https://libertyflames.com', 497: 'https://meangreensports.com',
-        441: 'https://gogriz.com', 416: 'https://msuspartans.com', 509: 'https://nusports.com',
+        441: 'https://gogriz.com', 416: 'https://msuspartans.com',
+        # 509 Northwestern - moved to CUSTOM_JS_TEAMS (Sidearm OAS frontend)
         522: 'https://soonersports.com', 454: 'https://goracers.com',
         404: 'https://gotigersgo.com', 671: 'https://ragincajuns.com',
         574: 'https://riceowls.com', 664: 'https://southernmiss.com', 575: 'https://richmondspiders.com',
@@ -113,7 +114,8 @@ class TeamConfig:
         173: 'https://davidsonwildcats.com', 518: 'https://ohiostatebuckeyes.com',
         47: 'https://ballstatesports.com', 529: 'https://goducks.com', 676: 'https://sfajacks.com',
         30135: 'https://cbulancers.com', 414: 'https://miamiredhawks.com',
-        434: 'https://mutigers.com', 440: 'https://msubobcats.com', 703: 'https://texassports.com',
+        440: 'https://msubobcats.com', 703: 'https://texassports.com',
+        # 434 Missouri, 509 Northwestern - moved to CUSTOM_JS_TEAMS (Sidearm OAS frontend)
         796: 'https://uwbadgers.com',  # Wisconsin - Nuxt.js with embedded JSON data
     }
     
@@ -138,14 +140,14 @@ class TeamConfig:
         127: {'url_format': 'default'},
         128: {'url_format': 'season_path_table'},  # Central Florida - uses ?view=table
         140: {'url_format': 'iowa_table'},
-        147: {'url_format': 'clemson'},
+        # 147 Clemson - moved to CUSTOM_JS_TEAMS (Sidearm OAS frontend)
         161: {'url_format': 'season_first'},
         170: {'url_format': 'season_first'},
         186: {'url_format': 'season_first'},
         216: {'url_format': 'season_first'},
         218: {'url_format': 'season_first'},
         238: {'url_format': 'season_first'},
-        255: {'url_format': 'season_path'},
+        # 255 Georgia Tech - moved to CUSTOM_JS_TEAMS (Sidearm OAS frontend)
         306: {'url_format': 'default'},  # Indiana - uses /roster/2024-25
         308: {'url_format': 'default'},
         312: {'url_format': 'iowa_table'},  # Iowa
@@ -164,7 +166,7 @@ class TeamConfig:
         626: {'url_format': 'default'},  # San Diego State
         657: {'url_format': 'default'},
         695: {'url_format': 'default'},
-        736: {'url_format': 'season_path'},
+        # 736 Vanderbilt - moved to CUSTOM_JS_TEAMS (Sidearm OAS frontend)
         742: {'url_format': 'iowa_table'},
         777: {'url_format': 'season_first'},
         812: {'url_format': 'default'},
@@ -266,7 +268,13 @@ class TeamConfig:
         248: {'selector': 'wyoming_roster', 'url_format': 'default'},  # George Mason - uses roster-staff structure
         327: {'selector': 'nuxt_roster', 'url_format': 'default'},  # Kansas State
         414: {'selector': 'wyoming_roster', 'url_format': 'default'},  # Miami Ohio - uses roster-staff structure
-        415: {'selector': 'miami_table_roster', 'url_format': 'season_path'},  # Miami - uses DataTable with full player data
+        147: {'selector': 'sidearm_oas_roster', 'url_format': 'clemson'},  # Clemson - Sidearm OAS frontend
+        255: {'selector': 'sidearm_oas_roster', 'url_format': 'season_path'},  # Georgia Tech - Sidearm OAS frontend
+        434: {'selector': 'sidearm_oas_roster', 'url_format': 'default'},  # Missouri - Sidearm OAS frontend
+        509: {'selector': 'sidearm_oas_roster', 'url_format': 'default'},  # Northwestern - Sidearm OAS frontend
+        736: {'selector': 'sidearm_oas_roster', 'url_format': 'season_path'},  # Vanderbilt - Sidearm OAS frontend
+        754: {'selector': 'sidearm_oas_roster', 'url_format': 'default'},  # Washington State - Sidearm OAS frontend
+        415: {'selector': 'sidearm_oas_roster', 'url_format': 'season_path'},  # Miami - Sidearm OAS frontend (table/cards/list variants)
         528: {'selector': 'oregon_state_roster', 'url_format': 'default'},
         129: {'selector': 'central_michigan_roster', 'url_format': 'default'},
         485: {'type': 'standard', 'url_format': 'four_digit_year'},  # Norfolk State - uses standard Sidearm with /roster/2024-2025
@@ -309,7 +317,6 @@ class TeamConfig:
         332: {'type': 'standard', 'url_format': 'four_digit_year'},  # Kentucky St. - uses standard Sidearm with /roster/2024-2025
         339: {'type': 'standard', 'url_format': 'four_digit_year'},  # Kutztown - uses standard Sidearm with /roster/2024-2025
         42: {'type': 'standard', 'url_format': 'four_digit_year'},  # Aurora - uses standard Sidearm with /roster/2024-2025
-        423: {'type': 'standard', 'url_format': 'four_digit_year'},  # Millersville - uses standard Sidearm with /roster/2024-2025
         432: {'type': 'standard', 'url_format': 'four_digit_year'},  # MVSU - uses standard Sidearm with /roster/2024-2025
         546: {'type': 'standard', 'url_format': 'four_digit_year'},  # Pitt-Johnstown - uses standard Sidearm with /roster/2024-2025
         564: {'type': 'standard', 'url_format': 'four_digit_year'},  # Ramapo - uses standard Sidearm with /roster/2024-2025
@@ -558,6 +565,34 @@ class TeamConfig:
                 'high_school': ['[data-test-id="s-person-card-list__content-location-person-high-school"]']
             }
         },
+        # Sidearm next-gen (OAS) sites: serve .s-person-card rosters server-side with
+        # data-test-id attributes (same markup family as Mercer/Rutgers above).
+        # Registered in the loop after this dict to avoid repeating the block.
+        # Each site was verified to render .s-person-card--list player cards in #listPanel
+        # with server-side HTML (no shot-scraper needed).
+        423: {  # Millersville - same next-gen layout, but serves SSR cards at /roster/2026-27
+            'type': 'standard',
+            'url_format': 'four_digit_year',
+            'field_selectors': {
+                'jersey': ['.s-stamp__text'],
+                'position': ['[data-test-id="s-person-details__bio-stats-person-position-short"]'],
+                'height': ['[data-test-id="s-person-details__bio-stats-person-season"]'],
+                'academic_year': ['[data-test-id="s-person-details__bio-stats-person-title"]'],
+                'hometown': ['[data-test-id="s-person-card-list__content-location-person-hometown"]'],
+                'high_school': ['[data-test-id="s-person-card-list__content-location-person-high-school"]'],
+                'previous_school': ['[data-test-id="s-person-card-list__content-location-person-previous-school"]'],
+            }
+        },
+        199: {  # Tex. A&M-Commerce - classic Sidearm serves two templates; only the
+                # .sidearm-list-card-item template carries academic year in server HTML
+            'type': 'standard',
+            'url_format': 'default',
+            'player_selector': '.sidearm-list-card-item',
+            'field_selectors': {
+                'jersey': ['.sidearm-roster-player-jersey'],
+                'position': ['.sidearm-roster-player-position-short'],
+            }
+        },
         # 415: Miami moved back to CUSTOM_JS_TEAMS - uses DataTable with full data
         # 811: {'url_format': 'default'}, # Wyoming - moved to NUXT_JS_TEAMS
         # 248: {'url_format': 'default'}, # George Mason - uses standard sidearm-roster-staff structure
@@ -565,6 +600,55 @@ class TeamConfig:
         731: {'url_format': 'default'},
         # 277: Hawaii - uses standard Sidearm scraper, URL format handled in URLBuilder
     }
+
+    # Sidearm next-gen (OAS) sites registered in a loop to avoid repeating the
+    # identical field_selectors block (markup matches Millersville's entry above)
+    for _team_id in (
+        2,      # Abilene Christian
+        29,     # Arizona
+        107,    # California
+        109,    # UC Irvine
+        111,    # UC Riverside
+        149,    # Coastal Carolina
+        183,    # Denver
+        270,    # Hampton
+        301,    # Illinois
+        315,    # Jacksonville St.
+        366,    # Louisiana Tech
+        368,    # UMass Lowell
+        380,    # Maine
+        392,    # Maryland
+        464,    # Omaha (omavs.com now 301-redirects to omahamavs.com)
+        493,    # North Dakota State
+        519,    # Ohio
+        541,    # Pepperdine
+        563,    # Radford
+        590,    # Sacred Heart
+        624,    # Sam Houston State
+        629,    # San Francisco
+        651,    # South Florida
+        654,    # Southeast Missouri State
+        663,    # Southern Methodist
+        669,    # Missouri St.
+        693,    # Chattanooga
+        817,    # Youngstown St.
+        10411,  # USC Upstate
+        1092,   # Gardner-Webb
+        28600,  # Lipscomb
+    ):
+        VUE_DATA_TEAMS[_team_id] = {
+            'type': 'standard',
+            'url_format': 'default',
+            'field_selectors': {
+                'jersey': ['.s-stamp__text'],
+                'position': ['[data-test-id="s-person-details__bio-stats-person-position-short"]'],
+                'height': ['[data-test-id="s-person-details__bio-stats-person-season"]'],
+                'academic_year': ['[data-test-id="s-person-details__bio-stats-person-title"]'],
+                'hometown': ['[data-test-id="s-person-card-list__content-location-person-hometown"]'],
+                'high_school': ['[data-test-id="s-person-card-list__content-location-person-high-school"]'],
+                'previous_school': ['[data-test-id="s-person-card-list__content-location-person-previous-school"]'],
+            }
+        }
 
     @classmethod
     def get_config(cls, team_id: int) -> Dict[str, Any]:

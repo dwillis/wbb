@@ -6,12 +6,11 @@ team_id,team_name,url
 599,St. Francis College Brooklyn,https://sfcathletics.com/sports/womens-basketball
 2678,Arkansas-Pine Bluff,https://uapblionsroar.com/sports/womens-basketball
 756,Washington,https://gohuskies.com/sports/womens-basketball
-260,Gonzaga,https://gozags.com/sports/womens-basketball
 100,Cal State LA,https://lagoldeneagles.com/sports/womens-basketball
 1012,Chadron St.,https://chadroneagles.com/sports/womens-basketball
 1015,Christian Brothers,https://cbubucs.com/sports/womens-basketball
 1028,Concord,https://cumountainlions.com/sports/womens-basketball
-1036,Concordia Wisconsin,https://cuwfalcons.com/sports/womens-basketball
+1064,Eastern Nazarene,https://athletics.enc.edu/sports/wbkb
 1066,Edgewood,https://edgewoodcollegeeagles.com/sports/womens-basketball
 1094,George Fox,https://athletics.georgefox.edu/sports/womens-basketball
 10972,Chatham,https://gochathamcougars.com/sports/womens-basketball
@@ -58,12 +57,10 @@ team_id,team_name,url
 142,Claremont-M-S,https://cmsathletics.org/sports/womens-basketball
 179,Delaware Valley,https://athletics.delval.edu/sports/womens-basketball
 18,Alfred,https://gosaxons.com/sports/womens-basketball
-181,Delta St.,https://gostatesmen.com/sports/womens-basketball
 177,DePauw,https://depauwtigers.com/sports/womens-basketball/
 185,Dickinson,https://dickinsonathletics.com/sports/womens-basketball
 186,Dist. Columbia,https://www.udcfirebirds.com/sports/wbkb
 190,Drew,https://drewrangers.com/sports/womens-basketball
-195,Earlham,https://goearlham.com/sports/womens-basketball
 20,DeSales,https://athletics.desales.edu/sports/womens-basketball
 200,Eastern Conn. St.,https://gowarriorathletics.com/sports/womens-basketball
 211,Elizabethtown,https://etownbluejays.com/sports/womens-basketball
@@ -82,9 +79,9 @@ team_id,team_name,url
 24400,Concordia (TX),https://athletics.concordia.edu/sports/womens-basketball
 246,Gannon,https://gannonsports.com/sports/womens-basketball
 247,SUNY Geneseo,https://geneseoknights.com/sports/wbball
-25,Angelo St.,https://angelosports.com/sports/womens-basketball
 258,Gettysburg,https://gettysburgsports.com/sports/womens-basketball
 259,Rowan,https://www.rowanathletics.com/sports/womens-basketball
+26107,Becker,https://beckerhawks.com/sports/wbkb
 265,Grove City,https://athletics.gcc.edu/sports/womens-basketball
 266,Gust. Adolphus,https://gogusties.com/sports/womens-basketball
 30084,Geneva,https://athletics.geneva.edu/sports/womens-basketball
@@ -95,6 +92,7 @@ team_id,team_name,url
 27892,Farmingdale St.,https://farmingdalesports.com/sports/womens-basketball
 267,Hamilton,https://athletics.hamilton.edu/sports/womens-basketball
 28593,Birmingham-Southern,https://bscsports.net/sports/womens-basketball
+28594,USciences,https://www.devilsathletics.com/sports/wbkb
 281,Hiram,https://hiramterriers.com/sports/womens-basketball
 292,Hunter,https://www.huntercollegeathletics.com/sports/womens-basketball
 30037,Trine,https://trinethunder.com/sports/wbball
@@ -137,11 +135,9 @@ team_id,team_name,url
 385,Marietta,https://pioneers.marietta.edu/sports/womens-basketball
 389,Mary Baldwin,https://marybaldwinathletics.com/sports/womens-basketball
 397,Marywood,https://marywoodpacers.com/sports/womens-basketball
-40,Augustana (IL),https://athletics.augustana.edu/sports/womens-basketball
 411,Messiah,https://gomessiah.com/sports/womens-basketball
 42,Aurora,https://athletics.aurora.edu/sports/womens-basketball
 420,Middlebury,https://athletics.middlebury.edu/sports/wbball
-436,Missouri-St. Louis,https://umsltritons.com/sports/womens-basketball
 1315,Pitt.-Bradford,https://athletics.pittbradford.org/sports/wbkb
 30114,Penn St.-Abington,https://abingtonsports.com/sports/womens-basketball
 446,Morgan St.,https://morganstatebears.com/sports/womens-basketball
@@ -160,11 +156,11 @@ team_id,team_name,url
 526,SUNY Oneonta,https://oneontaathletics.com/sports/womens-basketball
 541,Pepperdine,https://pepperdinewaves.com/sports/womens-basketball
 543,Jefferson,https://jeffersonrams.com/sports/womens-basketball
+544,Pine Manor,https://pmcathletics.com/sports/wbkb
 547,Plattsburgh St.,https://gocardinalsports.com/sports/womens-basketball
 553,Prairie View A&M,https://pvpanthers.com/sports/womens-basketball
 557,Puget Sound,https://loggerathletics.com/sports/womens-basketball
 564,Ramapo,https://ramapoathletics.com/sports/womens-basketball
-565,Randolph-Macon,https://rmcathletics.com/sports/womens-basketball
 566,Randolph,https://randolphwildcats.com/sports/womens-basketball
 567,Redlands,https://goredlands.com/sports/womens-basketball
 569,Regis (MA),https://www.goregispride.com/sports/wbkb
@@ -194,7 +190,6 @@ team_id,team_name,url
 685,Susquehanna,https://suriverhawks.com/sports/womens-basketball
 686,Swarthmore,https://swarthmoreathletics.com/sports/womens-basketball
 69,Bowdoin,https://athletics.bowdoin.edu/sports/womens-basketball
-699,Texas Southern,https://tsusports.com/sports/womens-basketball
 70,Bowie St.,https://bsubulldogs.com/sports/womens-basketball
 713,Trinity (CT),https://bantamsports.com/sports/womens-basketball
 720,Tuskegee,https://goldentigersports.com/sports/womens-basketball
@@ -229,6 +224,7 @@ team_id,team_name,url
 8911,Wis. Lutheran,https://wlcsports.com/sports/womens-basketball
 93,Cal St. San Bernardino,https://www.csusbathletics.com/sports/womens-basketball
 938,Alvernia,https://auwolves.com/sports/womens-basketball
+939,Anderson (IN),https://aua.prestosports.com/sports/wbkb
 95,Chico St.,https://chicowildcats.com/sports/womens-basketball
 953,Austin,https://www.acroos.com/sports/wbkb
 966,Arcadia,https://arcadiaknights.com/sports/womens-basketball
@@ -258,7 +254,6 @@ team_id,team_name,url
 374,Lynchburg,https://lynchburgsports.com/sports/womens-basketball
 30260,Westmont,https://athletics.westmont.edu/sports/womens-basketball
 9630,West Virginia Wesleyan,https://wesleyanbobcats.com/sports/womens-basketball
-20794,Lynn,https://lynnfightingknights.com/sports/womens-basketball
 30083,SUNY Cobleskill,https://fightingtigers.cobleskill.edu/sports/womens-basketball
 15646,Barton,https://bartonbulldogs.com/sports/womens-basketball
 30049,Central St. (OH),https://maraudersports.com/sports/womens-basketball
@@ -288,6 +283,7 @@ team_id,team_name,url
 8968,Eastern,https://goeasterneagles.com/sports/womens-basketball
 4,Adrian,https://adrianbulldogs.com/sports/womens-basketball
 24,Amherst,https://athletics.amherst.edu/sports/womens-basketball
+26,Anna Maria,https://www.goamcats.com/sports/wbkb
 53,Beloit,https://beloitcollegeathletics.com/sports/womens-basketball
 30236,Warren Wilson,https://warrenwilsonowls.com/sports/womens-basketball
 134,Chapman,https://athletics.chapman.edu/sports/womens-basketball

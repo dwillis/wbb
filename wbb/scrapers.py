@@ -762,6 +762,10 @@ class StandardScraper(BaseScraper):
                     # Normalize academic year if that's the field being extracted
                     if field_name == 'academic_year':
                         text = FieldExtractors.normalize_academic_year(text)
+                    # Sidearm next-gen cards prefix the value with the label
+                    # ("Previous School: Duke", "Previous: Lindenwood"); strip it
+                    if field_name == 'previous_school':
+                        text = re.sub(r'^(?:previous(?: school)?)\s*:\s*', '', text, flags=re.IGNORECASE)
                     return text
         
         # Fall back to default class if no custom selector worked

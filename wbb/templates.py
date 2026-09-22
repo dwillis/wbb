@@ -385,6 +385,168 @@ class JSTemplates:
         """
 
     @staticmethod
+    def sidearm_oas_roster_template():
+        """Template for Sidearm's newer OAS frontend (server-rendered Nuxt pages).
+
+        Handles the four rendering variants seen across migrated sites:
+          1. Table: .roster-players__group tbody tr with .roster-table-cell--* classes
+          2. Cards: .roster-card / .roster-card-item (labeled profile fields and/or
+             meta items / info items)
+          3. List items: li.roster-list-item (labeled --modifier fields or
+             strong/span field pairs)
+        """
+        return """
+new Promise((resolve) => {
+    setTimeout(() => {
+        const clean = (t) => (t || '').replace(/\\u00a0/g, ' ').replace(/\\s+/g, ' ').trim();
+        const normHeight = (h) => {
+            h = clean(h);
+            if (!h) return '';
+            const m = h.match(/(\\d+)\\s*[\\u2032\\u2019']\\s*(\\d*)/);
+            if (m) return m[2] ? m[1] + '-' + m[2] : m[1];
+            return h;
+        };
+        const expandYear = (y) => {
+            y = clean(y).replace(/\\.$/, '');
+            const map = {'Fr': 'Freshman', 'So': 'Sophomore', 'Jr': 'Junior', 'Sr': 'Senior', 'Gr': 'Graduate'};
+            return map[y] || y;
+        };
+        // Staff/coach entries share the player card/table markup on OAS sites;
+        // their bio links point at /staff/ (or legacy /coaches/) paths.
+        const isStaffUrl = (u) => /\\/(staff|coaches)\\//.test(u || '');
+        const players = [];
+
+        // Variant 1: OAS table layout (class-based cells; staff rows lack the
+        // name link and are filtered out naturally)
+        document.querySelectorAll('.roster-players__group tbody tr').forEach(row => {
+            const nameEl = row.querySelector('a.table__roster-name');
+            if (!nameEl || isStaffUrl(nameEl.href)) return;
+            const cell = (cls) => {
+                const el = row.querySelector('.roster-table-cell--' + cls);
+                return el ? clean(el.textContent) : '';
+            };
+            players.push({
+                name: clean(nameEl.textContent),
+                jersey: cell('jersey-number-label').replace('#', ''),
+                position: cell('player-position-name'),
+                height: normHeight(cell('height-text')),
+                year: expandYear(cell('class-level-name')),
+                hometown: cell('hometown'),
+                high_school: cell('high-school'),
+                previous_school: cell('previous-school'),
+                url: nameEl.href
+            });
+        });
+
+        // Variant 2: OAS cards (.roster-card and .roster-card-item)
+        if (!players.length) {
+            document.querySelectorAll('.roster-card, .roster-card-item').forEach(card => {
+                if (card.classList.contains('roster-staff-members-card-item') ||
+                    card.closest('.roster-staff-members-cards')) return;
+                const nameEl = card.querySelector('.roster-card__title-link, .roster-card-item__title-link, .roster-card-wrapper__name--link');
+                if (!nameEl || isStaffUrl(nameEl.href)) return;
+                const jerseyEl = card.querySelector('.roster-card__jersey-number, .roster-card-item__jersey-number, .roster-card-jersey-number, .roster-card-wrapper__number');
+
+                // Labeled profile fields ("player position", "height", "class",
+                // "hometown", "high school") - Vandy / Missouri style
+                const labeled = {};
+                card.querySelectorAll('.roster-card-profile-field, .roster-player-card-profile-field').forEach(f => {
+                    const lbl = f.querySelector('[class*="__label"]');
+                    const val = f.querySelector('[class*="__value"]');
+                    if (lbl && val) labeled[clean(lbl.textContent).toLowerCase()] = clean(val.textContent);
+                });
+
+                // Unlabeled basic values arrive in a fixed order: height, year
+                const basic = Array.from(card.querySelectorAll('[class*="profile-field__value--basic"]')).map(el => clean(el.textContent)).filter(Boolean);
+
+                // Meta items (Georgia Tech style): --height / --class / --position
+                const meta = (mod) => {
+                    const el = card.querySelector('[class*="meta-item--' + mod + '"]');
+                    return el ? clean(el.textContent) : '';
+                };
+
+                // Info items (Clemson style), fixed order: height, [hometown, year]
+                const infoItems = Array.from(card.querySelectorAll('.roster-players-cards-item__info-item')).map(el => clean(el.textContent)).filter(Boolean);
+
+                const position = labeled['player position'] || labeled['position'] ||
+                    meta('position') ||
+                    (card.querySelector('.roster-card-item__position, .roster-card__position') ? clean(card.querySelector('.roster-card-item__position, .roster-card__position').textContent) : '');
+                const height = normHeight(labeled['height'] || meta('height') || (basic.length ? basic[0] : '') || (infoItems.length ? infoItems[0] : ''));
+                const year = expandYear(labeled['class'] || meta('class') || (basic.length > 1 ? basic[1] : '') || (infoItems.length > 2 ? infoItems[2] : ''));
+                const hometown = labeled['hometown'] || (infoItems.length > 1 ? infoItems[1] : '');
+                const high_school = labeled['high school'] || '';
+
+                players.push({
+                    name: clean(nameEl.textContent).replace(/^#\\s*\\d+\\s*/, ''),
+                    jersey: jerseyEl ? clean(jerseyEl.textContent).replace('#', '') : '',
+                    position: position,
+                    height: height,
+                    year: year,
+                    hometown: hometown,
+                    high_school: high_school,
+                    previous_school: '',
+                    url: nameEl.href
+                });
+            });
+        }
+
+        // Variant 3: OAS list items (li.roster-list-item; also matches
+        // .rosters-list-item which carries both classes). Labeled modifier
+        // fields (Northwestern style) or strong/span pairs (WSU style).
+        if (!players.length) {
+            document.querySelectorAll('li.roster-list-item').forEach(li => {
+                const nameEl = li.querySelector('a[class*="__title-link"], a[class*="__title"], .roster-list-item__title');
+                if (!nameEl || isStaffUrl(nameEl.href)) return;
+                const jerseyEl = li.querySelector('.rosters-list-item__number, .roster-list-item__jersey-number');
+
+                let position = '', height = '', year = '', hometown = '', high_school = '', previous_school = '';
+                const byMod = (mod) => {
+                    const el = li.querySelector('[class*="roster-player-list-profile-field--' + mod + '"]');
+                    return el ? clean(el.textContent) : '';
+                };
+                position = byMod('position');
+                height = normHeight(byMod('height'));
+                year = expandYear(byMod('class-level'));
+                hometown = byMod('hometown');
+                high_school = byMod('high-school');
+                previous_school = byMod('previous-school');
+
+                if (!position && !year) {
+                    const items = li.querySelectorAll('.roster-list-item__fields-item');
+                    items.forEach((item, idx) => {
+                        const strong = item.querySelector('strong');
+                        const spans = Array.from(item.querySelectorAll('span')).map(el => clean(el.textContent)).filter(Boolean);
+                        if (idx === 0) {
+                            position = strong ? clean(strong.textContent) : '';
+                            height = normHeight(spans.length ? spans[0] : '');
+                        } else if (idx === 1) {
+                            year = expandYear(strong ? strong.textContent : '');
+                            if (spans.length > 0) hometown = spans[0];
+                            if (spans.length > 1) previous_school = spans[1];
+                        }
+                    });
+                }
+
+                players.push({
+                    name: clean(nameEl.textContent),
+                    jersey: jerseyEl ? clean(jerseyEl.textContent).replace('#', '') : '',
+                    position: position,
+                    height: height,
+                    year: year,
+                    hometown: hometown,
+                    high_school: high_school,
+                    previous_school: previous_school,
+                    url: nameEl.href
+                });
+            });
+        }
+
+        resolve(players.filter(p => p && p.name && p.name.length > 2));
+    }, 3000);
+})
+            """
+
+    @staticmethod
     def wyoming_roster_template():
         """Template for Wyoming-style Vue.js roster (uses sidearm-roster-list-item)"""
         return """
@@ -548,6 +710,7 @@ class JSTemplates:
         """Get custom selectors for specific teams that need special handling"""
         custom_selectors = {
             'sidearm_roster_player': JSTemplates.sidearm_roster_player_template(),
+            'sidearm_oas_roster': JSTemplates.sidearm_oas_roster_template(),
             'wyoming_roster': JSTemplates.wyoming_roster_template(),
             'auburn_roster': """
             Array.from(document.querySelectorAll('a[href*="/roster/player/"]'), el => {

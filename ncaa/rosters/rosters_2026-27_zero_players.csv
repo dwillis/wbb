@@ -1,15 +1,7 @@
 team_id,team_name
-415,Miami
-147,Clemson
-434,Missouri
-754,Washington State
-255,Georgia Tech
 316,Jacksonville
 361,Long Island
-509,Northwestern
-736,Vanderbilt
 1050,Defiance
-1064,Eastern Nazarene
 1130,Huntingdon
 119,Carnegie Mellon
 12884,Centenary (NJ)
@@ -23,9 +15,7 @@ team_id,team_name
 227,Fitchburg St.
 23725,Medaille
 25719,Penn St.-Altoona
-26107,Becker
 2798,Albertus Magnus
-28594,USciences
 286,Hope
 30002,Trevecca Nazarene
 442,Montclair St.
@@ -40,7 +30,6 @@ team_id,team_name
 517,Ohio Northern
 525,Olivet
 532,Elms
-544,Pine Manor
 552,SUNY Potsdam
 589,Rutgers-Newark
 679,Stevens
@@ -48,6 +37,7 @@ team_id,team_name
 644,Smith
 673,Springfield
 684,Suffolk
+699,Texas Southern
 746,Virginia
 760,Wellesley
 785,Willamette
@@ -63,10 +53,10 @@ team_id,team_name
 161,Concordia-Moorhead
 170,Curry
 814,Yeshiva
+987,Bluffton
 1163,La Roche
 8486,Lasell
 8687,Saint Joseph (CT)
-26,Anna Maria
 76,Bridgewater St.
 28746,Alverno
 238,Framingham St.

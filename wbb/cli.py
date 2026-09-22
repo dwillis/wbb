@@ -92,11 +92,11 @@ def _print_summary(title: str, managers, elapsed: float, output_files, db_info=N
         if zero:
             sidecar = next((f for f, e in output_files if e == m.entity_type), None)
             lines.append(f"  zero-{entity_label} teams    {zero}"
-                         + (f"      -> {sidecar.replace('.csv', f'_zero_{entity_label}.csv')}" if sidecar else ""))
+                         + (f"      -> {str(sidecar).replace('.csv', f'_zero_{entity_label}.csv')}" if sidecar else ""))
         if failed:
             sidecar = next((f for f, e in output_files if e == m.entity_type), None)
             lines.append(f"  failed season check {failed}"
-                         + (f"      -> {sidecar.replace('.csv', '_failed_year_check.csv')}" if sidecar else ""))
+                         + (f"      -> {str(sidecar).replace('.csv', '_failed_year_check.csv')}" if sidecar else ""))
     mins, secs = divmod(int(elapsed), 60)
     lines.append(f"  elapsed             {mins}m {secs:02d}s")
     for f, e in output_files:
