@@ -611,6 +611,7 @@ class TeamConfig:
         111,    # UC Riverside
         149,    # Coastal Carolina
         183,    # Denver
+        260,    # Gonzaga (gozags.com moved to the next-gen s-person-card layout)
         270,    # Hampton
         301,    # Illinois
         315,    # Jacksonville St.
