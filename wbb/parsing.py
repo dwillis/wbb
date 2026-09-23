@@ -395,7 +395,18 @@ class HeaderMapper:
         'Hometown / Previous School / High School': 'town',
         'Major': 'major', 'Wt.': 'weight',
         'Hometown/High School (Former School)': 'town',
-        'Ltrs.': 'letters'
+        'Ltrs.': 'letters',
+        # Spaced/case variants seen on live Sidearm sites during the 2026-27
+        # needs_hs diagnosis (Duquesne, Michigan State, Rhode Island, Saint Louis,
+        # Vermont, Adelphi, Western Ky.). Same targets as the existing unspaced
+        # entries; 'High School/Previous' follows the 'High School/Previous School'
+        # convention above it.
+        'Hometown / Last School': 'town',
+        'HOMETOWN / HIGH SCHOOL (LAST SCHOOL)': 'town',
+        'Hometown (High School)': 'town',
+        'Hometown / High School (Previous School)': 'town',
+        'Hometown / Highschool (Previous School)': 'town',
+        'High School/Previous': 'high_school',
     }
 
     @classmethod
