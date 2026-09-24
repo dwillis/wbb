@@ -1,0 +1,56 @@
+{
+ "team_id": "609",
+ "team": "Saint Louis",
+ "total": 12,
+ "no_hs": 3,
+ "roster_url": "https://slubillikens.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 551518,
+  "oas_table": 0,
+  "oas_card": 1,
+  "oas_list": 0,
+  "person_card": 0,
+  "sidearm_classic": 595,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 25,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "Statistic",
+   "Statistic",
+   "No.",
+   "Name",
+   "Pos.",
+   "Ht.",
+   "Yr.",
+   "Hometown (High School)",
+   "Previous School",
+   "NIL Opportunities",
+   "Image",
+   "Name"
+  ],
+  "present": false
+ },
+ "bio_url": "https://slubillikens.com/sports/womens-basketball/roster/jahda-denis/13473",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 326997,
+  "bio_fields_component": 0,
+  "field_label_class": 5,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://slubillikens.com/sports/womens-basketball/roster/naomi-ikpotokin/13482",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 310289,
+  "bio_fields_component": 0,
+  "field_label_class": 6,
+  "bio_hs_values": [
+   "Capital Courts Academy (Canada)"
+  ]
+ }
+}

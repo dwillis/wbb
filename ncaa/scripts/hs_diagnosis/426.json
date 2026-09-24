@@ -1,0 +1,54 @@
+{
+ "team_id": "426",
+ "team": "Millsaps",
+ "total": 24,
+ "no_hs": 12,
+ "roster_url": "https://gomajors.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 775629,
+  "oas_table": 0,
+  "oas_card": 1,
+  "oas_list": 0,
+  "person_card": 0,
+  "sidearm_classic": 871,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 35,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "Statistic",
+   "Statistic",
+   "#",
+   "Full Name",
+   "Hometown",
+   "High School",
+   "Ht.",
+   "Academic Year",
+   "Pos.",
+   "Previous School",
+   "Image",
+   "Name"
+  ],
+  "present": false
+ },
+ "bio_url": "https://gomajors.com/sports/womens-basketball/roster/jordan-bowden/8087",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 431150,
+  "bio_fields_component": 0,
+  "field_label_class": 2,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://gomajors.com/sports/womens-basketball/roster/garin-freeman/8063",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 464808,
+  "bio_fields_component": 0,
+  "field_label_class": 4,
+  "bio_hs_values": []
+ }
+}

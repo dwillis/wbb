@@ -1,0 +1,55 @@
+{
+ "team_id": "394",
+ "team": "Marymount (VA)",
+ "total": 17,
+ "no_hs": 8,
+ "roster_url": "https://marymountsaints.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 644821,
+  "oas_table": 0,
+  "oas_card": 1,
+  "oas_list": 0,
+  "person_card": 0,
+  "sidearm_classic": 624,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 27,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "Statistic",
+   "Statistic",
+   "No.",
+   "Name",
+   "Cl.",
+   "Pos.",
+   "Ht.",
+   "Hometown / High School",
+   "Image",
+   "Name",
+   "Title"
+  ],
+  "present": false
+ },
+ "bio_url": "https://marymountsaints.com/sports/womens-basketball/roster/mya-adkinson/6365",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 391789,
+  "bio_fields_component": 0,
+  "field_label_class": 1,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://marymountsaints.com/sports/womens-basketball/roster/aaliyah-thrash/6362",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 407305,
+  "bio_fields_component": 0,
+  "field_label_class": 5,
+  "bio_hs_values": [
+   "Colgan"
+  ]
+ }
+}

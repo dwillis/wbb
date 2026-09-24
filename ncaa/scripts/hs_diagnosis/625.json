@@ -1,0 +1,59 @@
+{
+ "team_id": "625",
+ "team": "Samford",
+ "total": 12,
+ "no_hs": 1,
+ "roster_url": "https://samfordsports.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 987186,
+  "oas_table": 0,
+  "oas_card": 0,
+  "oas_list": 0,
+  "person_card": 889,
+  "sidearm_classic": 0,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 12,
+  "bio_fields_component": 0,
+  "th_high_school": 0,
+  "th_sample": [
+   "#",
+   "Full Name",
+   "Position",
+   "Height",
+   "Class",
+   "Hometown",
+   "Previous School",
+   "Coaching Staff",
+   "Image",
+   "Name",
+   "Title",
+   "Email"
+  ],
+  "present": true,
+  "entries": 3158,
+  "snake_persons_with_hs": 0,
+  "snake_sample": [],
+  "camel_persons_with_hs": 0,
+  "camel_sample": []
+ },
+ "bio_url": "https://samfordsports.com/sports/womens-basketball/roster/bailey-hape/11193",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 863894,
+  "bio_fields_component": 9,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://samfordsports.com/sports/womens-basketball/roster/paisley-binswanger/11191",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 864058,
+  "bio_fields_component": 9,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ }
+}

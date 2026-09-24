@@ -1,0 +1,70 @@
+{
+ "team_id": "47",
+ "team": "Ball State",
+ "total": 10,
+ "no_hs": 4,
+ "roster_url": "https://ballstatesports.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 1226663,
+  "oas_table": 0,
+  "oas_card": 0,
+  "oas_list": 0,
+  "person_card": 865,
+  "sidearm_classic": 0,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 6,
+  "bio_fields_component": 0,
+  "th_high_school": 0,
+  "th_sample": [
+   "#",
+   "Name",
+   "Class",
+   "Pos",
+   "Hometown",
+   "Coaching Staff",
+   "Image",
+   "Name",
+   "Title",
+   "Email",
+   "Phone Number",
+   "Support Staff"
+  ],
+  "present": true,
+  "entries": 4988,
+  "snake_persons_with_hs": 0,
+  "snake_sample": [],
+  "camel_persons_with_hs": 6,
+  "camel_sample": [
+   {
+    "name": "Karsyn Norman",
+    "hs": "Bedford North Lawrence"
+   },
+   {
+    "name": "Helen Holley",
+    "hs": "Gilmour Academy"
+   }
+  ]
+ },
+ "bio_url": "https://ballstatesports.com/sports/womens-basketball/roster/zhen-verburgt/13422",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 1039961,
+  "bio_fields_component": 9,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://ballstatesports.com/sports/womens-basketball/roster/karsyn-norman/13419",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 1045339,
+  "bio_fields_component": 11,
+  "field_label_class": 0,
+  "bio_hs_values": [
+   "Bedford North Lawrence"
+  ]
+ }
+}

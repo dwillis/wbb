@@ -1,0 +1,56 @@
+{
+ "team_id": "704",
+ "team": "Texas-El Paso",
+ "total": 13,
+ "no_hs": 10,
+ "roster_url": "https://utepminers.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 746927,
+  "oas_table": 0,
+  "oas_card": 1,
+  "oas_list": 0,
+  "person_card": 0,
+  "sidearm_classic": 620,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 9,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "Statistic",
+   "Statistic",
+   "#",
+   "Full Name",
+   "Academic Year",
+   "Pos.",
+   "Ht.",
+   "Exp.",
+   "Hometown / High School",
+   "Previous School",
+   "Instagram",
+   "Twitter"
+  ],
+  "present": false
+ },
+ "bio_url": "https://utepminers.com/sports/womens-basketball/roster/imani-warren/12229",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 493804,
+  "bio_fields_component": 0,
+  "field_label_class": 6,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://utepminers.com/sports/womens-basketball/roster/charlotte-aldridge/12233",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 493249,
+  "bio_fields_component": 0,
+  "field_label_class": 6,
+  "bio_hs_values": [
+   "Downingtown East HS"
+  ]
+ }
+}

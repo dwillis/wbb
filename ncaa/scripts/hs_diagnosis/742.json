@@ -1,0 +1,55 @@
+{
+ "team_id": "742",
+ "team": "Virginia Tech",
+ "total": 13,
+ "no_hs": 2,
+ "roster_url": "https://hokiesports.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 726609,
+  "oas_table": 5,
+  "oas_card": 0,
+  "oas_list": 396,
+  "person_card": 0,
+  "sidearm_classic": 0,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 0,
+  "th_sample": [],
+  "present": true,
+  "entries": 2880,
+  "snake_persons_with_hs": 11,
+  "snake_sample": [
+   {
+    "name": "Carleigh Wenzel",
+    "hs": "Antonian College Prep"
+   },
+   {
+    "name": "Leila Wells",
+    "hs": "Chelsea"
+   }
+  ],
+  "camel_persons_with_hs": 0,
+  "camel_sample": []
+ },
+ "bio_url": "https://hokiesports.com/sports/womens-basketball/roster/player/jessica-dimaro",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 406462,
+  "bio_fields_component": 0,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://hokiesports.com/sports/womens-basketball/roster/player/carleigh-wenzel",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 587621,
+  "bio_fields_component": 0,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ }
+}

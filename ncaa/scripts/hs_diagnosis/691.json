@@ -1,0 +1,56 @@
+{
+ "team_id": "691",
+ "team": "Tennessee St.",
+ "total": 13,
+ "no_hs": 3,
+ "roster_url": "https://tsutigers.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 599095,
+  "oas_table": 0,
+  "oas_card": 1,
+  "oas_list": 0,
+  "person_card": 0,
+  "sidearm_classic": 636,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 29,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "Statistic",
+   "Statistic",
+   "No.",
+   "Name",
+   "Pos.",
+   "Ht.",
+   "Yr.",
+   "Hometown / High School",
+   "Previous School",
+   "Image",
+   "Name",
+   "Title"
+  ],
+  "present": false
+ },
+ "bio_url": "https://tsutigers.com/sports/womens-basketball/roster/addison-melton/5564",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 344441,
+  "bio_fields_component": 0,
+  "field_label_class": 5,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://tsutigers.com/sports/womens-basketball/roster/icesis-thomas/5562",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 353819,
+  "bio_fields_component": 0,
+  "field_label_class": 5,
+  "bio_hs_values": [
+   "Kenwood Academy"
+  ]
+ }
+}

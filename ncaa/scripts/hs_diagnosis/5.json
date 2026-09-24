@@ -1,0 +1,62 @@
+{
+ "team_id": "5",
+ "team": "Akron",
+ "total": 14,
+ "no_hs": 14,
+ "roster_url": "https://gozips.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 716085,
+  "oas_table": 0,
+  "oas_card": 0,
+  "oas_list": 0,
+  "person_card": 964,
+  "sidearm_classic": 0,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 14,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "No.",
+   "Name",
+   "Cl.",
+   "Ht.",
+   "Pos.",
+   "Hometown",
+   "High School | Previous",
+   "Coaching Staff",
+   "Image",
+   "Name",
+   "Title",
+   "Email"
+  ],
+  "present": true,
+  "entries": 3007,
+  "snake_persons_with_hs": 0,
+  "snake_sample": [],
+  "camel_persons_with_hs": 14,
+  "camel_sample": [
+   {
+    "name": "Kaylah Thornton",
+    "hs": "Kettering Fairmont"
+   },
+   {
+    "name": "Kaylee King",
+    "hs": "Wayne Memorial"
+   }
+  ]
+ },
+ "bio_url": "https://gozips.com/sports/womens-basketball/roster/kaylah-thornton/10250",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 504810,
+  "bio_fields_component": 9,
+  "field_label_class": 0,
+  "bio_hs_values": [
+   "Kettering Fairmont"
+  ]
+ }
+}

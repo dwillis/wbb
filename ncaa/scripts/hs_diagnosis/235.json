@@ -1,0 +1,70 @@
+{
+ "team_id": "235",
+ "team": "Florida",
+ "total": 13,
+ "no_hs": 1,
+ "roster_url": "https://floridagators.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 1256955,
+  "oas_table": 0,
+  "oas_card": 0,
+  "oas_list": 0,
+  "person_card": 1178,
+  "sidearm_classic": 8,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 12,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "#",
+   "Full Name",
+   "Pos.",
+   "Ht.",
+   "Year",
+   "Hometown / High School",
+   "Previous School",
+   "Coaching Staff",
+   "Image",
+   "Name",
+   "Title",
+   "Email"
+  ],
+  "present": true,
+  "entries": 4519,
+  "snake_persons_with_hs": 0,
+  "snake_sample": [],
+  "camel_persons_with_hs": 11,
+  "camel_sample": [
+   {
+    "name": "Aurora Alm\u00f3n",
+    "hs": "The Webb School"
+   },
+   {
+    "name": "Jade Weathersby",
+    "hs": "Brookwood"
+   }
+  ]
+ },
+ "bio_url": "https://floridagators.com/sports/womens-basketball/roster/maja-bigovic/18416",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 1064874,
+  "bio_fields_component": 9,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://floridagators.com/sports/womens-basketball/roster/aurora-almn/18400",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 1074307,
+  "bio_fields_component": 11,
+  "field_label_class": 0,
+  "bio_hs_values": [
+   "The Webb School"
+  ]
+ }
+}

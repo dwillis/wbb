@@ -1,0 +1,68 @@
+{
+ "team_id": "732",
+ "team": "Utah",
+ "total": 13,
+ "no_hs": 6,
+ "roster_url": "https://utahutes.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 1062710,
+  "oas_table": 0,
+  "oas_card": 0,
+  "oas_list": 0,
+  "person_card": 1050,
+  "sidearm_classic": 0,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 12,
+  "bio_fields_component": 0,
+  "th_high_school": 0,
+  "th_sample": [
+   "#",
+   "Full Name",
+   "Pos.",
+   "Ht.",
+   "Academic Year",
+   "Hometown",
+   "Previous School",
+   "Coaching Staff",
+   "Image",
+   "Name",
+   "Title",
+   "Email"
+  ],
+  "present": true,
+  "entries": 3949,
+  "snake_persons_with_hs": 0,
+  "snake_sample": [],
+  "camel_persons_with_hs": 7,
+  "camel_sample": [
+   {
+    "name": "Evelina Otto",
+    "hs": "Denver East"
+   },
+   {
+    "name": "Peyton Jones",
+    "hs": "Valor Christen HS"
+   }
+  ]
+ },
+ "bio_url": "https://utahutes.com/sports/womens-basketball/roster/lena-girardi/17737",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 920137,
+  "bio_fields_component": 11,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://utahutes.com/sports/womens-basketball/roster/evelina-otto/17732",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 939473,
+  "bio_fields_component": 11,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ }
+}

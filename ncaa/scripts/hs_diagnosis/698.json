@@ -1,0 +1,70 @@
+{
+ "team_id": "698",
+ "team": "Texas Christian",
+ "total": 12,
+ "no_hs": 2,
+ "roster_url": "https://gofrogs.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 1271522,
+  "oas_table": 0,
+  "oas_card": 0,
+  "oas_list": 0,
+  "person_card": 1128,
+  "sidearm_classic": 0,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 10,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "Name",
+   "Name",
+   "Hometown / High School",
+   "Previous School",
+   "#",
+   "Pos.",
+   "Ht.",
+   "Academic Year",
+   "Coaching Staff",
+   "Image",
+   "Name",
+   "Title"
+  ],
+  "present": true,
+  "entries": 4881,
+  "snake_persons_with_hs": 0,
+  "snake_sample": [],
+  "camel_persons_with_hs": 10,
+  "camel_sample": [
+   {
+    "name": "Camille Williams",
+    "hs": "Boswell HS"
+   },
+   {
+    "name": "Avery Hjelmstad",
+    "hs": "Edmond Memorial HS"
+   }
+  ]
+ },
+ "bio_url": "https://gofrogs.com/sports/womens-basketball/roster/laura-vilcinskas/18329",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 1088494,
+  "bio_fields_component": 9,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://gofrogs.com/sports/womens-basketball/roster/camille-williams/18326",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 1086712,
+  "bio_fields_component": 13,
+  "field_label_class": 0,
+  "bio_hs_values": [
+   "Boswell HS"
+  ]
+ }
+}

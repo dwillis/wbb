@@ -1,0 +1,55 @@
+{
+ "team_id": "3",
+ "team": "Adelphi",
+ "total": 14,
+ "no_hs": 2,
+ "roster_url": "https://aupanthers.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 596361,
+  "oas_table": 0,
+  "oas_card": 1,
+  "oas_list": 0,
+  "person_card": 0,
+  "sidearm_classic": 618,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 35,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 0,
+  "th_sample": [
+   "Statistic",
+   "Statistic",
+   "#",
+   "Full Name",
+   "Yr.",
+   "Pos.",
+   "Ht.",
+   "Hometown / Highschool (Previous School)",
+   "Image",
+   "Name",
+   "Title"
+  ],
+  "present": false
+ },
+ "bio_url": "https://aupanthers.com/sports/womens-basketball/roster/mya-lambert/16552",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 357327,
+  "bio_fields_component": 0,
+  "field_label_class": 2,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://aupanthers.com/sports/womens-basketball/roster/kirina-azemar/11734",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 378032,
+  "bio_fields_component": 0,
+  "field_label_class": 5,
+  "bio_hs_values": [
+   "Westbury (Nassau Community College)"
+  ]
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "team_id": "125",
+ "team": "Centenary (LA)",
+ "total": 11,
+ "no_hs": 3,
+ "roster_url": "https://www.gocentenary.com/sports/wbkb/2026-27",
+ "roster_status": 200,
+ "roster": {
+  "size": 180387,
+  "oas_table": 0,
+  "oas_card": 0,
+  "oas_list": 0,
+  "person_card": 0,
+  "sidearm_classic": 0,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 0,
+  "th_sample": [],
+  "present": false
+ },
+ "bio_url": "https://www.gocentenary.com/sports/wbkb/2026-27/bios/davis_aniyah_f0q7",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 384854,
+  "bio_fields_component": 0,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://www.gocentenary.com/sports/wbkb/2026-27/bios/green_alisha_exvi",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 398270,
+  "bio_fields_component": 0,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ }
+}

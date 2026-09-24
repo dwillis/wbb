@@ -1,0 +1,45 @@
+{
+ "team_id": "159",
+ "team": "Columbus St.",
+ "total": 17,
+ "no_hs": 17,
+ "roster_url": "https://csucougars.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 646648,
+  "oas_table": 0,
+  "oas_card": 1,
+  "oas_list": 0,
+  "person_card": 0,
+  "sidearm_classic": 750,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 0,
+  "th_sample": [
+   "Statistic",
+   "Statistic",
+   "No.",
+   "Name",
+   "Pos.",
+   "Class",
+   "Ht.",
+   "Hometown/Previous School",
+   "Image",
+   "Name",
+   "Title"
+  ],
+  "present": false
+ },
+ "bio_url": "https://csucougars.com/sports/womens-basketball/roster/kaytlin-arnold/5595",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 412477,
+  "bio_fields_component": 0,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ }
+}

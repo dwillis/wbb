@@ -1,0 +1,56 @@
+{
+ "team_id": "108",
+ "team": "UC Davis",
+ "total": 14,
+ "no_hs": 3,
+ "roster_url": "https://ucdavisaggies.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 763064,
+  "oas_table": 0,
+  "oas_card": 1,
+  "oas_list": 0,
+  "person_card": 0,
+  "sidearm_classic": 695,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 25,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "Statistic",
+   "Statistic",
+   "#",
+   "Full Name",
+   "Pos.",
+   "Ht.",
+   "Yr.",
+   "Hometown / High School",
+   "Previous School",
+   "Major",
+   "Image",
+   "Name"
+  ],
+  "present": false
+ },
+ "bio_url": "https://ucdavisaggies.com/sports/womens-basketball/roster/sahana-kanagasabay/20726",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 508555,
+  "bio_fields_component": 0,
+  "field_label_class": 6,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://ucdavisaggies.com/sports/womens-basketball/roster/carrington-davis/20724",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 506039,
+  "bio_fields_component": 0,
+  "field_label_class": 6,
+  "bio_hs_values": [
+   "Rialto High School"
+  ]
+ }
+}

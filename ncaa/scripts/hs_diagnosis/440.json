@@ -1,0 +1,70 @@
+{
+ "team_id": "440",
+ "team": "Montana State",
+ "total": 14,
+ "no_hs": 1,
+ "roster_url": "https://msubobcats.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 1192483,
+  "oas_table": 0,
+  "oas_card": 0,
+  "oas_list": 0,
+  "person_card": 1168,
+  "sidearm_classic": 0,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 13,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "#",
+   "Full Name",
+   "Pos.",
+   "Ht.",
+   "Yr.",
+   "Hometown",
+   "High School",
+   "Major",
+   "Coaching Staff",
+   "Image",
+   "Name",
+   "Title"
+  ],
+  "present": true,
+  "entries": 4202,
+  "snake_persons_with_hs": 0,
+  "snake_sample": [],
+  "camel_persons_with_hs": 13,
+  "camel_sample": [
+   {
+    "name": "Madison O'Connor",
+    "hs": "Baker HS"
+   },
+   {
+    "name": "Ebele Mbagwu",
+    "hs": "Stockdale HS"
+   }
+  ]
+ },
+ "bio_url": "https://msubobcats.com/sports/womens-basketball/roster/isobel-bunyan/7783",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 1053905,
+  "bio_fields_component": 11,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://msubobcats.com/sports/womens-basketball/roster/madison-oconnor/7796",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 1019742,
+  "bio_fields_component": 11,
+  "field_label_class": 0,
+  "bio_hs_values": [
+   "Baker HS"
+  ]
+ }
+}

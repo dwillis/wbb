@@ -1,0 +1,68 @@
+{
+ "team_id": "107",
+ "team": "California",
+ "total": 14,
+ "no_hs": 4,
+ "roster_url": "https://calbears.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 1055915,
+  "oas_table": 0,
+  "oas_card": 0,
+  "oas_list": 0,
+  "person_card": 1147,
+  "sidearm_classic": 0,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 10,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "#",
+   "Full Name",
+   "Pos.",
+   "Ht.",
+   "Class",
+   "Hometown / High School",
+   "Instagram",
+   "Major",
+   "Coaching Staff",
+   "Image",
+   "Name",
+   "Title"
+  ],
+  "present": true,
+  "entries": 4969,
+  "snake_persons_with_hs": 0,
+  "snake_sample": [],
+  "camel_persons_with_hs": 10,
+  "camel_sample": [
+   {
+    "name": "Shannon Dowell",
+    "hs": "O'Fallon Township"
+   },
+   {
+    "name": "Mjracle Sheppard",
+    "hs": "Montverde Academy"
+   }
+  ]
+ },
+ "bio_url": "https://calbears.com/sports/womens-basketball/roster/anna-lagonikaki/27745",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 879130,
+  "bio_fields_component": 9,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://calbears.com/sports/womens-basketball/roster/shannon-dowell/27740",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 894280,
+  "bio_fields_component": 11,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ }
+}

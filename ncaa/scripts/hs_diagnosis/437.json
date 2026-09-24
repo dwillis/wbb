@@ -1,0 +1,54 @@
+{
+ "team_id": "437",
+ "team": "Molloy",
+ "total": 11,
+ "no_hs": 3,
+ "roster_url": "https://molloylions.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 592938,
+  "oas_table": 0,
+  "oas_card": 1,
+  "oas_list": 0,
+  "person_card": 0,
+  "sidearm_classic": 515,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 24,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "Statistic",
+   "Statistic",
+   "No.",
+   "Image",
+   "Full Name",
+   "Yr.",
+   "Pos.",
+   "Ht.",
+   "Hometown / High School",
+   "Previous School",
+   "Major",
+   "Image"
+  ],
+  "present": false
+ },
+ "bio_url": "https://molloylions.com/sports/womens-basketball/roster/olivia-schnurer/8194",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 430194,
+  "bio_fields_component": 0,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://molloylions.com/sports/womens-basketball/roster/jianna-davneiro/8187",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 452693,
+  "bio_fields_component": 0,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ }
+}

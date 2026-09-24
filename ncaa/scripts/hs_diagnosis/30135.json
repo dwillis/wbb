@@ -1,0 +1,68 @@
+{
+ "team_id": "30135",
+ "team": "California Baptist",
+ "total": 13,
+ "no_hs": 4,
+ "roster_url": "https://cbulancers.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 1270143,
+  "oas_table": 0,
+  "oas_card": 0,
+  "oas_list": 0,
+  "person_card": 1119,
+  "sidearm_classic": 0,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 13,
+  "bio_fields_component": 0,
+  "th_high_school": 0,
+  "th_sample": [
+   "#",
+   "Name",
+   "Class",
+   "Pos",
+   "Hometown",
+   "Coaching Staff",
+   "Image",
+   "Name",
+   "Title",
+   "Email",
+   "Phone Number",
+   "Support Staff"
+  ],
+  "present": true,
+  "entries": 4489,
+  "snake_persons_with_hs": 0,
+  "snake_sample": [],
+  "camel_persons_with_hs": 9,
+  "camel_sample": [
+   {
+    "name": "Novelle McQuiston",
+    "hs": "Perry HS"
+   },
+   {
+    "name": "Josie Agnew",
+    "hs": "Caulfield Grammar School"
+   }
+  ]
+ },
+ "bio_url": "https://cbulancers.com/sports/womens-basketball/roster/sofia-alonso/11983",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 1118516,
+  "bio_fields_component": 9,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://cbulancers.com/sports/womens-basketball/roster/novelle-mcquiston/11988",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 1099616,
+  "bio_fields_component": 7,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "team_id": "30202",
+ "team": "Okla. Baptist",
+ "total": 12,
+ "no_hs": 11,
+ "roster_url": "https://obubison.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 570826,
+  "oas_table": 0,
+  "oas_card": 1,
+  "oas_list": 0,
+  "person_card": 0,
+  "sidearm_classic": 538,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 0,
+  "th_sample": [
+   "Statistic",
+   "Statistic",
+   "#",
+   "Name",
+   "Pos.",
+   "Ht.",
+   "Yr.",
+   "Hometown / Previous School",
+   "Image",
+   "Name",
+   "Title",
+   "Image"
+  ],
+  "present": false
+ },
+ "bio_url": "https://obubison.com/sports/womens-basketball/roster/jordyn-anderson/9644",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 369147,
+  "bio_fields_component": 0,
+  "field_label_class": 5,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://obubison.com/sports/womens-basketball/roster/mattie-rich/9746",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 355403,
+  "bio_fields_component": 0,
+  "field_label_class": 6,
+  "bio_hs_values": [
+   "Prague HS"
+  ]
+ }
+}

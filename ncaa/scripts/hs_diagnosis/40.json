@@ -1,0 +1,54 @@
+{
+ "team_id": "40",
+ "team": "Augustana (IL)",
+ "total": 21,
+ "no_hs": 19,
+ "roster_url": "https://athletics.augustana.edu/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 742466,
+  "oas_table": 0,
+  "oas_card": 1,
+  "oas_list": 0,
+  "person_card": 0,
+  "sidearm_classic": 775,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 1,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 0,
+  "th_sample": [
+   "Statistic",
+   "Statistic",
+   "No",
+   "Full Name",
+   "Pos.",
+   "Ht.",
+   "Yr.",
+   "Hometown",
+   "Previous School",
+   "Image",
+   "Name",
+   "Title"
+  ],
+  "present": false
+ },
+ "bio_url": "https://athletics.augustana.edu/sports/womens-basketball/roster/ciara-hull/14052",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 458122,
+  "bio_fields_component": 0,
+  "field_label_class": 3,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://athletics.augustana.edu/sports/womens-basketball/roster/giulia-milazzo/14059",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 451558,
+  "bio_fields_component": 0,
+  "field_label_class": 4,
+  "bio_hs_values": []
+ }
+}

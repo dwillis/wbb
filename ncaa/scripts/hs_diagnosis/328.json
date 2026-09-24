@@ -1,0 +1,51 @@
+{
+ "team_id": "328",
+ "team": "Kansas",
+ "total": 13,
+ "no_hs": 13,
+ "roster_url": "https://kuathletics.com/sports/wbball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 957540,
+  "oas_table": 0,
+  "oas_card": 0,
+  "oas_list": 0,
+  "person_card": 1130,
+  "sidearm_classic": 0,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 13,
+  "bio_fields_component": 0,
+  "th_high_school": 0,
+  "th_sample": [
+   "Number",
+   "Name",
+   "Pos.",
+   "Height",
+   "Class",
+   "Hometown",
+   "Previous School",
+   "Coaching Staff",
+   "Image",
+   "Name",
+   "Title",
+   "Email"
+  ],
+  "present": true,
+  "entries": 4482,
+  "snake_persons_with_hs": 0,
+  "snake_sample": [],
+  "camel_persons_with_hs": 0,
+  "camel_sample": []
+ },
+ "bio_url": "https://kuathletics.com/sports/wbball/roster/anna-gooden/17948",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 782246,
+  "bio_fields_component": 9,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ }
+}

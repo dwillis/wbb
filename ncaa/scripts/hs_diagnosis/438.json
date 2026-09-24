@@ -1,0 +1,54 @@
+{
+ "team_id": "438",
+ "team": "Monmouth (IL)",
+ "total": 12,
+ "no_hs": 6,
+ "roster_url": "https://monmouthscots.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 459962,
+  "oas_table": 0,
+  "oas_card": 1,
+  "oas_list": 0,
+  "person_card": 0,
+  "sidearm_classic": 454,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 17,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "Statistic",
+   "Statistic",
+   "#",
+   "Full Name",
+   "Pos.",
+   "Ht.",
+   "Academic Year",
+   "Hometown / High School",
+   "Image",
+   "Name",
+   "Title",
+   "Image"
+  ],
+  "present": false
+ },
+ "bio_url": "https://monmouthscots.com/sports/womens-basketball/roster/madelyn-hamby/17913",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 267817,
+  "bio_fields_component": 0,
+  "field_label_class": 1,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://monmouthscots.com/sports/womens-basketball/roster/jamaica-walker/17910",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 282900,
+  "bio_fields_component": 0,
+  "field_label_class": 5,
+  "bio_hs_values": []
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "team_id": "655",
+ "team": "Southeastern Louisiana",
+ "total": 14,
+ "no_hs": 1,
+ "roster_url": "https://lionsports.net/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 728227,
+  "oas_table": 0,
+  "oas_card": 1,
+  "oas_list": 0,
+  "person_card": 0,
+  "sidearm_classic": 679,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 30,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "Statistic",
+   "Statistic",
+   "#",
+   "Full Name",
+   "Pos",
+   "Ht.",
+   "Academic Year",
+   "Hometown / High School",
+   "Image",
+   "Name",
+   "Title",
+   "Image"
+  ],
+  "present": false
+ },
+ "bio_url": "https://lionsports.net/sports/womens-basketball/roster/diana-szakolczi/11819",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 477526,
+  "bio_fields_component": 0,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://lionsports.net/sports/womens-basketball/roster/susan-fahnbulleh/11833",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 477980,
+  "bio_fields_component": 0,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ }
+}

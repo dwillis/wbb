@@ -1,0 +1,55 @@
+{
+ "team_id": "371",
+ "team": "Loyola-Chicago",
+ "total": 12,
+ "no_hs": 1,
+ "roster_url": "https://loyolaramblers.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 591261,
+  "oas_table": 0,
+  "oas_card": 1,
+  "oas_list": 0,
+  "person_card": 0,
+  "sidearm_classic": 574,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 28,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "Statistic",
+   "Statistic",
+   "#",
+   "Full Name",
+   "Pos",
+   "Ht.",
+   "Academic Year",
+   "Hometown / High School",
+   "Image",
+   "Name",
+   "Title"
+  ],
+  "present": false
+ },
+ "bio_url": "https://loyolaramblers.com/sports/womens-basketball/roster/mireia-jurado/3298",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 364864,
+  "bio_fields_component": 0,
+  "field_label_class": 5,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://loyolaramblers.com/sports/womens-basketball/roster/gabby-wilke/3297",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 365438,
+  "bio_fields_component": 0,
+  "field_label_class": 6,
+  "bio_hs_values": [
+   "Beaver Dam"
+  ]
+ }
+}

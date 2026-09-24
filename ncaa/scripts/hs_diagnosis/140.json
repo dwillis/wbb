@@ -1,0 +1,55 @@
+{
+ "team_id": "140",
+ "team": "Cincinnati",
+ "total": 15,
+ "no_hs": 1,
+ "roster_url": "https://gobearcats.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 626422,
+  "oas_table": 5,
+  "oas_card": 301,
+  "oas_list": 0,
+  "person_card": 0,
+  "sidearm_classic": 0,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 0,
+  "th_sample": [],
+  "present": true,
+  "entries": 2861,
+  "snake_persons_with_hs": 14,
+  "snake_sample": [
+   {
+    "name": "Paige Whitted",
+    "hs": "Briarcrest Christian Academy"
+   },
+   {
+    "name": "Caliyah DeVillasee",
+    "hs": "Our Lady of Good Counsel"
+   }
+  ],
+  "camel_persons_with_hs": 0,
+  "camel_sample": []
+ },
+ "bio_url": "https://gobearcats.com/sports/womens-basketball/roster/player/marta-fernandez",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 390371,
+  "bio_fields_component": 0,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://gobearcats.com/sports/womens-basketball/roster/player/yar-tong",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 397918,
+  "bio_fields_component": 0,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "team_id": "522",
+ "team": "Oklahoma",
+ "total": 14,
+ "no_hs": 2,
+ "roster_url": "https://soonersports.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 1089871,
+  "oas_table": 0,
+  "oas_card": 0,
+  "oas_list": 0,
+  "person_card": 1407,
+  "sidearm_classic": 0,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 14,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "#",
+   "Full Name",
+   "Pos.",
+   "Ht.",
+   "Academic Year",
+   "Hometown / High School",
+   "Previous School",
+   "Twitter",
+   "Instagram",
+   "Coaching Staff",
+   "Image",
+   "Name"
+  ],
+  "present": true,
+  "entries": 4603,
+  "snake_persons_with_hs": 0,
+  "snake_sample": [],
+  "camel_persons_with_hs": 12,
+  "camel_sample": [
+   {
+    "name": "Aaliyah Chavez",
+    "hs": "Monterey High School"
+   },
+   {
+    "name": "Caya Smith",
+    "hs": "Putnam City West High School"
+   }
+  ]
+ },
+ "bio_url": "https://soonersports.com/sports/womens-basketball/roster/sina-hllerl/20243",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 747691,
+  "bio_fields_component": 11,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://soonersports.com/sports/womens-basketball/roster/aaliyah-chavez/20230",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 787812,
+  "bio_fields_component": 11,
+  "field_label_class": 0,
+  "bio_hs_values": [
+   "Monterey High School"
+  ]
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "team_id": "23157",
+ "team": "Felician",
+ "total": 18,
+ "no_hs": 1,
+ "roster_url": "https://felicianuathletics.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 735049,
+  "oas_table": 0,
+  "oas_card": 1,
+  "oas_list": 0,
+  "person_card": 0,
+  "sidearm_classic": 732,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 12,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 0,
+  "th_sample": [
+   "Statistic",
+   "Statistic",
+   "Full Name",
+   "Hometown",
+   "#",
+   "Ht.",
+   "Academic Year",
+   "Major",
+   "Pos.",
+   "Previous School",
+   "Image",
+   "Name"
+  ],
+  "present": false
+ },
+ "bio_url": "https://felicianuathletics.com/sports/womens-basketball/roster/kylie-weaver/4891",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 445711,
+  "bio_fields_component": 0,
+  "field_label_class": 1,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://felicianuathletics.com/sports/womens-basketball/roster/deviney-jackson/4880",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 467152,
+  "bio_fields_component": 0,
+  "field_label_class": 5,
+  "bio_hs_values": []
+ }
+}

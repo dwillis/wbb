@@ -1,0 +1,66 @@
+{
+ "team_id": "430",
+ "team": "Mississippi State",
+ "total": 13,
+ "no_hs": 2,
+ "roster_url": "https://hailstate.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 943937,
+  "oas_table": 0,
+  "oas_card": 0,
+  "oas_list": 0,
+  "person_card": 783,
+  "sidearm_classic": 0,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 12,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "#",
+   "Full Name",
+   "Pos.",
+   "Ht.",
+   "Yr.",
+   "Hometown",
+   "High School",
+   "Previous School"
+  ],
+  "present": true,
+  "entries": 3800,
+  "snake_persons_with_hs": 0,
+  "snake_sample": [],
+  "camel_persons_with_hs": 11,
+  "camel_sample": [
+   {
+    "name": "Aryss Macktoon",
+    "hs": "St. Timothy's"
+   },
+   {
+    "name": "Ludovica Sammartino",
+    "hs": "San Francesco"
+   }
+  ]
+ },
+ "bio_url": "https://hailstate.com/sports/womens-basketball/roster/grace-ndubueze/13312",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 863019,
+  "bio_fields_component": 9,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://hailstate.com/sports/womens-basketball/roster/aryss-macktoon/13045",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 868822,
+  "bio_fields_component": 13,
+  "field_label_class": 0,
+  "bio_hs_values": [
+   "St. Timothy&#39;s"
+  ]
+ }
+}

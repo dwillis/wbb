@@ -1,0 +1,53 @@
+{
+ "team_id": "410",
+ "team": "Merrimack",
+ "total": 15,
+ "no_hs": 3,
+ "roster_url": "https://merrimackathletics.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 1101542,
+  "oas_table": 0,
+  "oas_card": 1,
+  "oas_list": 0,
+  "person_card": 0,
+  "sidearm_classic": 696,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 29,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "Statistic",
+   "Statistic",
+   "#",
+   "Full Name",
+   "Pos",
+   "Ht.",
+   "Academic Year",
+   "Hometown / High School",
+   "Image",
+   "Name",
+   "Title"
+  ],
+  "present": false
+ },
+ "bio_url": "https://merrimackathletics.com/sports/womens-basketball/roster/abriel-grant-caracas/15762",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 823496,
+  "bio_fields_component": 0,
+  "field_label_class": 4,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://merrimackathletics.com/sports/womens-basketball/roster/olivia-vick/15594",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 825863,
+  "bio_fields_component": 0,
+  "field_label_class": 7,
+  "bio_hs_values": []
+ }
+}

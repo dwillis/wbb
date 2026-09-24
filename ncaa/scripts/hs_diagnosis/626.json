@@ -1,0 +1,55 @@
+{
+ "team_id": "626",
+ "team": "San Diego State",
+ "total": 14,
+ "no_hs": 1,
+ "roster_url": "https://goaztecs.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 643877,
+  "oas_table": 5,
+  "oas_card": 0,
+  "oas_list": 364,
+  "person_card": 0,
+  "sidearm_classic": 0,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 0,
+  "th_sample": [],
+  "present": true,
+  "entries": 2759,
+  "snake_persons_with_hs": 13,
+  "snake_sample": [
+   {
+    "name": "Alyssa Jackson",
+    "hs": "Vanden HS"
+   },
+   {
+    "name": "Ellie Chen",
+    "hs": "La Salle College Prep"
+   }
+  ],
+  "camel_persons_with_hs": 0,
+  "camel_sample": []
+ },
+ "bio_url": "https://goaztecs.com/sports/womens-basketball/roster/player/nayli-padilla",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 414241,
+  "bio_fields_component": 0,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://goaztecs.com/sports/womens-basketball/roster/player/kennedy-lee",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 538112,
+  "bio_fields_component": 0,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ }
+}

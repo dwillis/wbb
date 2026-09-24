@@ -1,0 +1,54 @@
+{
+ "team_id": "740",
+ "team": "Virginia Commonwealth",
+ "total": 8,
+ "no_hs": 3,
+ "roster_url": "https://vcuathletics.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 605633,
+  "oas_table": 0,
+  "oas_card": 1,
+  "oas_list": 0,
+  "person_card": 0,
+  "sidearm_classic": 488,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 13,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "Statistic",
+   "Statistic",
+   "No.",
+   "Name",
+   "Pos.",
+   "Cl.",
+   "Ht.",
+   "Hometown / High School",
+   "Previous School",
+   "Twitter",
+   "Instagram",
+   "NIL Opportunities"
+  ],
+  "present": false
+ },
+ "bio_url": "https://vcuathletics.com/sports/womens-basketball/roster/laia-cresp-n/6827",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 396574,
+  "bio_fields_component": 0,
+  "field_label_class": 5,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://vcuathletics.com/sports/womens-basketball/roster/cyriah-griffin/6830",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 403220,
+  "bio_fields_component": 0,
+  "field_label_class": 7,
+  "bio_hs_values": []
+ }
+}

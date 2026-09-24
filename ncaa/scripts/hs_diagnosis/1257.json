@@ -1,0 +1,50 @@
+{
+ "team_id": "1257",
+ "team": "Newberry",
+ "total": 24,
+ "no_hs": 6,
+ "roster_url": "https://newberrywolves.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 820406,
+  "oas_table": 0,
+  "oas_card": 1,
+  "oas_list": 0,
+  "person_card": 0,
+  "sidearm_classic": 989,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 53,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "Statistic",
+   "Statistic",
+   "#",
+   "Full Name",
+   "Pos",
+   "Ht.",
+   "Academic Year",
+   "Hometown / High School"
+  ],
+  "present": false
+ },
+ "bio_url": "https://newberrywolves.com/sports/womens-basketball/roster/antoinet-cheeseboro/12182",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 472549,
+  "bio_fields_component": 0,
+  "field_label_class": 4,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://newberrywolves.com/sports/womens-basketball/roster/rihanna-wallace/12451",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 460270,
+  "bio_fields_component": 0,
+  "field_label_class": 4,
+  "bio_hs_values": []
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "team_id": "1014",
+ "team": "College of Charleston",
+ "total": 11,
+ "no_hs": 1,
+ "roster_url": "https://cofcsports.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 1015190,
+  "oas_table": 0,
+  "oas_card": 0,
+  "oas_list": 0,
+  "person_card": 856,
+  "sidearm_classic": 0,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 10,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "Full Name",
+   "#",
+   "Ht.",
+   "Hometown",
+   "High School",
+   "Previous School",
+   "Academic Year",
+   "Pos.",
+   "Coaching Staff",
+   "Image",
+   "Name",
+   "Title"
+  ],
+  "present": true,
+  "entries": 3458,
+  "snake_persons_with_hs": 0,
+  "snake_sample": [],
+  "camel_persons_with_hs": 10,
+  "camel_sample": [
+   {
+    "name": "Aubrey Stevenson",
+    "hs": "Rock Hill HS"
+   },
+   {
+    "name": "Camila De Pool",
+    "hs": "Lake Highland Prep"
+   }
+  ]
+ },
+ "bio_url": "https://cofcsports.com/sports/womens-basketball/roster/janna-vogelaar/8407",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 817918,
+  "bio_fields_component": 5,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://cofcsports.com/sports/womens-basketball/roster/aubrey-stevenson/8395",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 822675,
+  "bio_fields_component": 9,
+  "field_label_class": 0,
+  "bio_hs_values": [
+   "Rock Hill HS"
+  ]
+ }
+}

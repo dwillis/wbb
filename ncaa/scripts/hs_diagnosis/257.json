@@ -1,0 +1,70 @@
+{
+ "team_id": "257",
+ "team": "Georgia",
+ "total": 13,
+ "no_hs": 2,
+ "roster_url": "https://georgiadogs.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 928944,
+  "oas_table": 0,
+  "oas_card": 0,
+  "oas_list": 0,
+  "person_card": 1022,
+  "sidearm_classic": 0,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 13,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "#",
+   "Full Name",
+   "Pos.",
+   "Ht.",
+   "Year",
+   "Hometown / High School",
+   "Coaching Staff",
+   "Image",
+   "Name",
+   "Title",
+   "Email",
+   "Phone Number"
+  ],
+  "present": true,
+  "entries": 3104,
+  "snake_persons_with_hs": 0,
+  "snake_sample": [],
+  "camel_persons_with_hs": 11,
+  "camel_sample": [
+   {
+    "name": "Milan Brown",
+    "hs": "Mercy High School"
+   },
+   {
+    "name": "Harmonie Ware",
+    "hs": "Bradley Central"
+   }
+  ]
+ },
+ "bio_url": "https://georgiadogs.com/sports/womens-basketball/roster/jailyn-banks/10768",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 724362,
+  "bio_fields_component": 7,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://georgiadogs.com/sports/womens-basketball/roster/milan-brown/10760",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 719601,
+  "bio_fields_component": 11,
+  "field_label_class": 0,
+  "bio_hs_values": [
+   "Mercy High School"
+  ]
+ }
+}

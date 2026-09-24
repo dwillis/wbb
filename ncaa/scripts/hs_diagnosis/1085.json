@@ -1,0 +1,51 @@
+{
+ "team_id": "1085",
+ "team": "Francis Marion",
+ "total": 16,
+ "no_hs": 3,
+ "roster_url": "https://fmupatriots.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 606082,
+  "oas_table": 0,
+  "oas_card": 1,
+  "oas_list": 0,
+  "person_card": 0,
+  "sidearm_classic": 719,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 34,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "Statistic",
+   "Statistic",
+   "No.",
+   "Name",
+   "Pos.",
+   "Ht.",
+   "Yr.",
+   "Hometown / High School",
+   "Previous School"
+  ],
+  "present": false
+ },
+ "bio_url": "https://fmupatriots.com/sports/womens-basketball/roster/mykey-avni/9057",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 348143,
+  "bio_fields_component": 0,
+  "field_label_class": 4,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://fmupatriots.com/sports/womens-basketball/roster/jaliyah-benefield/9051",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 364518,
+  "bio_fields_component": 0,
+  "field_label_class": 8,
+  "bio_hs_values": []
+ }
+}

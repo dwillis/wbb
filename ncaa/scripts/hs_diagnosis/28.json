@@ -1,0 +1,55 @@
+{
+ "team_id": "28",
+ "team": "Arizona State",
+ "total": 13,
+ "no_hs": 9,
+ "roster_url": "https://thesundevils.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 742530,
+  "oas_table": 5,
+  "oas_card": 318,
+  "oas_list": 0,
+  "person_card": 0,
+  "sidearm_classic": 0,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 0,
+  "th_sample": [],
+  "present": true,
+  "entries": 3499,
+  "snake_persons_with_hs": 4,
+  "snake_sample": [
+   {
+    "name": "McKinna Brackens",
+    "hs": "Fairfield"
+   },
+   {
+    "name": "Deborah Davenport",
+    "hs": "Woodward"
+   }
+  ],
+  "camel_persons_with_hs": 0,
+  "camel_sample": []
+ },
+ "bio_url": "https://thesundevils.com/sports/womens-basketball/roster/player/madison-morson",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 468355,
+  "bio_fields_component": 0,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://thesundevils.com/sports/womens-basketball/roster/player/amaya-williams",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 569539,
+  "bio_fields_component": 0,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ }
+}

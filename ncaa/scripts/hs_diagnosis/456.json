@@ -1,0 +1,68 @@
+{
+ "team_id": "456",
+ "team": "UNC Asheville",
+ "total": 14,
+ "no_hs": 10,
+ "roster_url": "https://uncabulldogs.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 849959,
+  "oas_table": 0,
+  "oas_card": 0,
+  "oas_list": 0,
+  "person_card": 1074,
+  "sidearm_classic": 0,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 14,
+  "bio_fields_component": 0,
+  "th_high_school": 0,
+  "th_sample": [
+   "#",
+   "Name",
+   "Class",
+   "Pos",
+   "Hometown",
+   "Coaching Staff",
+   "Image",
+   "Name",
+   "Title",
+   "Email",
+   "Phone Number",
+   "Support Staff"
+  ],
+  "present": true,
+  "entries": 3581,
+  "snake_persons_with_hs": 0,
+  "snake_sample": [],
+  "camel_persons_with_hs": 4,
+  "camel_sample": [
+   {
+    "name": "Jamaria Freeman",
+    "hs": "Fike HS"
+   },
+   {
+    "name": "Niyonna Asbelle",
+    "hs": "Andrew Jackson HS"
+   }
+  ]
+ },
+ "bio_url": "https://uncabulldogs.com/sports/womens-basketball/roster/lanicia-parker/5217",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 707272,
+  "bio_fields_component": 11,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://uncabulldogs.com/sports/womens-basketball/roster/jamaria-freeman/5214",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 731779,
+  "bio_fields_component": 11,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ }
+}

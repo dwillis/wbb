@@ -1,0 +1,54 @@
+{
+ "team_id": "22989",
+ "team": "Lyon",
+ "total": 18,
+ "no_hs": 2,
+ "roster_url": "https://lyonscots.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 592219,
+  "oas_table": 0,
+  "oas_card": 1,
+  "oas_list": 0,
+  "person_card": 0,
+  "sidearm_classic": 782,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 47,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "Statistic",
+   "Statistic",
+   "Full Name",
+   "Hometown / High School",
+   "#",
+   "Pos.",
+   "Pos.",
+   "Ht.",
+   "Academic Year",
+   "Previous School",
+   "Image",
+   "Name"
+  ],
+  "present": false
+ },
+ "bio_url": "https://lyonscots.com/sports/womens-basketball/roster/alyssa-abascal/13371",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 302760,
+  "bio_fields_component": 0,
+  "field_label_class": 4,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://lyonscots.com/sports/womens-basketball/roster/kadyn-hilles/13557",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 290743,
+  "bio_fields_component": 0,
+  "field_label_class": 4,
+  "bio_hs_values": []
+ }
+}

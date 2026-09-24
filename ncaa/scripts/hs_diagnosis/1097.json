@@ -1,0 +1,56 @@
+{
+ "team_id": "1097",
+ "team": "Ga. Southwestern",
+ "total": 12,
+ "no_hs": 2,
+ "roster_url": "https://gswcanes.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 524099,
+  "oas_table": 0,
+  "oas_card": 1,
+  "oas_list": 0,
+  "person_card": 0,
+  "sidearm_classic": 544,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 26,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "Statistic",
+   "Statistic",
+   "#",
+   "Full Name",
+   "Pos.",
+   "Academic Year",
+   "Ht.",
+   "Hometown",
+   "Previous School",
+   "High School",
+   "Image",
+   "Name"
+  ],
+  "present": false
+ },
+ "bio_url": "https://gswcanes.com/sports/womens-basketball/roster/ella-reisner/3660",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 320045,
+  "bio_fields_component": 0,
+  "field_label_class": 5,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://gswcanes.com/sports/womens-basketball/roster/alasia-montgomery/3662",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 320193,
+  "bio_fields_component": 0,
+  "field_label_class": 5,
+  "bio_hs_values": [
+   "Taylor County"
+  ]
+ }
+}

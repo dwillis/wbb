@@ -1,0 +1,55 @@
+{
+ "team_id": "37",
+ "team": "Auburn",
+ "total": 14,
+ "no_hs": 3,
+ "roster_url": "https://auburntigers.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 676489,
+  "oas_table": 5,
+  "oas_card": 354,
+  "oas_list": 0,
+  "person_card": 0,
+  "sidearm_classic": 0,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 0,
+  "th_sample": [],
+  "present": true,
+  "entries": 2927,
+  "snake_persons_with_hs": 11,
+  "snake_sample": [
+   {
+    "name": "Ja'Mia Harris",
+    "hs": "DeSoto HS"
+   },
+   {
+    "name": "Quanirah Montague",
+    "hs": "Atlantic City HS"
+   }
+  ],
+  "camel_persons_with_hs": 0,
+  "camel_sample": []
+ },
+ "bio_url": "https://auburntigers.com/sports/womens-basketball/roster/player/danielle-osho",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 407109,
+  "bio_fields_component": 0,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://auburntigers.com/sports/womens-basketball/roster/player/sira-thienou",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 407871,
+  "bio_fields_component": 0,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ }
+}

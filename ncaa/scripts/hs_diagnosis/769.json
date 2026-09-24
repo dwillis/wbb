@@ -1,0 +1,56 @@
+{
+ "team_id": "769",
+ "team": "Western Carolina",
+ "total": 13,
+ "no_hs": 1,
+ "roster_url": "https://catamountsports.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 653433,
+  "oas_table": 0,
+  "oas_card": 1,
+  "oas_list": 0,
+  "person_card": 0,
+  "sidearm_classic": 593,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 33,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "Statistic",
+   "Statistic",
+   "#",
+   "Full Name",
+   "Pos.",
+   "Ht.",
+   "Academic Year",
+   "Hometown / High School",
+   "Previous School",
+   "Image",
+   "Name",
+   "Title"
+  ],
+  "present": false
+ },
+ "bio_url": "https://catamountsports.com/sports/womens-basketball/roster/finley-van-bree/14812",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 418675,
+  "bio_fields_component": 0,
+  "field_label_class": 4,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://catamountsports.com/sports/womens-basketball/roster/tina-bowers/14591",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 434293,
+  "bio_fields_component": 0,
+  "field_label_class": 5,
+  "bio_hs_values": [
+   "Western Alamance HS"
+  ]
+ }
+}

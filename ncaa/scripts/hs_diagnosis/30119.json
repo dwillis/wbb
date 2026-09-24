@@ -1,0 +1,55 @@
+{
+ "team_id": "30119",
+ "team": "Ohio Dominican",
+ "total": 9,
+ "no_hs": 3,
+ "roster_url": "https://ohiodominicanpanthers.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 541324,
+  "oas_table": 0,
+  "oas_card": 1,
+  "oas_list": 0,
+  "person_card": 0,
+  "sidearm_classic": 352,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 18,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "Statistic",
+   "Statistic",
+   "No.",
+   "Name",
+   "Pos.",
+   "Yr.",
+   "Ht.",
+   "Hometown / High School",
+   "Image",
+   "Name",
+   "Title"
+  ],
+  "present": false
+ },
+ "bio_url": "https://ohiodominicanpanthers.com/sports/womens-basketball/roster/lena-buskard/6152",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 416797,
+  "bio_fields_component": 0,
+  "field_label_class": 1,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://ohiodominicanpanthers.com/sports/womens-basketball/roster/meghan-mayotte/6139",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 444867,
+  "bio_fields_component": 0,
+  "field_label_class": 6,
+  "bio_hs_values": [
+   "Worthington Christian"
+  ]
+ }
+}

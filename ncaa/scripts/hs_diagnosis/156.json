@@ -1,0 +1,70 @@
+{
+ "team_id": "156",
+ "team": "Colorado St.",
+ "total": 15,
+ "no_hs": 1,
+ "roster_url": "https://csurams.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 902611,
+  "oas_table": 0,
+  "oas_card": 0,
+  "oas_list": 0,
+  "person_card": 1195,
+  "sidearm_classic": 0,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 15,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "#",
+   "Full Name",
+   "Pos.",
+   "Ht.",
+   "Year",
+   "Hometown / High School",
+   "Previous School",
+   "Coaching Staff",
+   "Image",
+   "Name",
+   "Title",
+   "Email"
+  ],
+  "present": true,
+  "entries": 3841,
+  "snake_persons_with_hs": 0,
+  "snake_sample": [],
+  "camel_persons_with_hs": 14,
+  "camel_sample": [
+   {
+    "name": "Camryn Runner",
+    "hs": "Hamilton Heights HS"
+   },
+   {
+    "name": "Elsie Larsen",
+    "hs": "Strafford HS"
+   }
+  ]
+ },
+ "bio_url": "https://csurams.com/sports/womens-basketball/roster/sophie-sene/14983",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 628386,
+  "bio_fields_component": 11,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://csurams.com/sports/womens-basketball/roster/camryn-runner/14985",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 631593,
+  "bio_fields_component": 13,
+  "field_label_class": 0,
+  "bio_hs_values": [
+   "Hamilton Heights HS"
+  ]
+ }
+}

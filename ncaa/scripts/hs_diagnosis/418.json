@@ -1,0 +1,66 @@
+{
+ "team_id": "418",
+ "team": "Michigan",
+ "total": 14,
+ "no_hs": 1,
+ "roster_url": "https://mgoblue.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 1531782,
+  "oas_table": 0,
+  "oas_card": 0,
+  "oas_list": 0,
+  "person_card": 833,
+  "sidearm_classic": 294,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 13,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "No.",
+   "Name",
+   "Pos.",
+   "Ht.",
+   "Yr.",
+   "Hometown / High School",
+   "Twitter",
+   "Instagram"
+  ],
+  "present": true,
+  "entries": 5866,
+  "snake_persons_with_hs": 0,
+  "snake_sample": [],
+  "camel_persons_with_hs": 13,
+  "camel_sample": [
+   {
+    "name": "Olivia Olson",
+    "hs": "Benilde St. Margaret's"
+   },
+   {
+    "name": "Macy Brown",
+    "hs": "East Grand Rapids"
+   }
+  ]
+ },
+ "bio_url": "https://mgoblue.com/sports/womens-basketball/roster/dallas-loughridge/28504",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 1374912,
+  "bio_fields_component": 9,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://mgoblue.com/sports/womens-basketball/roster/olivia-olson/28499",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 1406059,
+  "bio_fields_component": 11,
+  "field_label_class": 0,
+  "bio_hs_values": [
+   "Benilde St. Margaret&#39;s"
+  ]
+ }
+}

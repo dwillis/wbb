@@ -1,0 +1,62 @@
+{
+ "team_id": "695",
+ "team": "UT Martin",
+ "total": 14,
+ "no_hs": 14,
+ "roster_url": "https://utmsports.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 746639,
+  "oas_table": 0,
+  "oas_card": 0,
+  "oas_list": 0,
+  "person_card": 962,
+  "sidearm_classic": 0,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 14,
+  "bio_fields_component": 0,
+  "th_high_school": 0,
+  "th_sample": [
+   "Image",
+   "#",
+   "Full Name",
+   "Pos.",
+   "Ht.",
+   "Academic Year",
+   "Hometown",
+   "Previous School",
+   "Coaching Staff",
+   "Image",
+   "Name",
+   "Title"
+  ],
+  "present": true,
+  "entries": 3614,
+  "snake_persons_with_hs": 0,
+  "snake_sample": [],
+  "camel_persons_with_hs": 14,
+  "camel_sample": [
+   {
+    "name": "Mimi Lazarevic",
+    "hs": "Greenforest Christian Academy"
+   },
+   {
+    "name": "Sophie Chard Peloquin",
+    "hs": "Newark Catholic HS"
+   }
+  ]
+ },
+ "bio_url": "https://utmsports.com/sports/womens-basketball/roster/mimi-lazarevic/6600",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 620507,
+  "bio_fields_component": 13,
+  "field_label_class": 0,
+  "bio_hs_values": [
+   "Greenforest Christian Academy"
+  ]
+ }
+}

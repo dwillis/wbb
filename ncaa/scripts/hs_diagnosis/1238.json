@@ -1,0 +1,56 @@
+{
+ "team_id": "1238",
+ "team": "Montevallo",
+ "total": 17,
+ "no_hs": 11,
+ "roster_url": "https://montevallofalcons.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 758783,
+  "oas_table": 0,
+  "oas_card": 1,
+  "oas_list": 0,
+  "person_card": 0,
+  "sidearm_classic": 768,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 18,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "Statistic",
+   "Statistic",
+   "#",
+   "Name",
+   "Pos.",
+   "Ht.",
+   "Year",
+   "Hometown",
+   "High School",
+   "Previous School",
+   "Image",
+   "Name"
+  ],
+  "present": false
+ },
+ "bio_url": "https://montevallofalcons.com/sports/womens-basketball/roster/bree-sexton/8419",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 461165,
+  "bio_fields_component": 0,
+  "field_label_class": 5,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://montevallofalcons.com/sports/womens-basketball/roster/hannah-gardner/8418",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 461196,
+  "bio_fields_component": 0,
+  "field_label_class": 5,
+  "bio_hs_values": [
+   "Huntsville High School"
+  ]
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "team_id": "2810",
+ "team": "St. Thomas (TX)",
+ "total": 18,
+ "no_hs": 5,
+ "roster_url": "https://ustcelts.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 728075,
+  "oas_table": 0,
+  "oas_card": 1,
+  "oas_list": 0,
+  "person_card": 0,
+  "sidearm_classic": 661,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 36,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "Statistic",
+   "Statistic",
+   "No.",
+   "Name",
+   "Pos.",
+   "Cl.",
+   "Ht.",
+   "Hometown / High School",
+   "Image",
+   "Name",
+   "Title"
+  ],
+  "present": false
+ },
+ "bio_url": "https://ustcelts.com/sports/womens-basketball/roster/kn-omie-washington/3423",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 474974,
+  "bio_fields_component": 0,
+  "field_label_class": 3,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://ustcelts.com/sports/womens-basketball/roster/mar-reonna-little/3425",
+ "bio_has_status": 404,
+ "bio_has_hs": {
+  "size": 460192,
+  "bio_fields_component": 0,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ }
+}

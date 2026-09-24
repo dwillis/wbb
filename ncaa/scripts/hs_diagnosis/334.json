@@ -1,0 +1,54 @@
+{
+ "team_id": "334",
+ "team": "Kentucky",
+ "total": 12,
+ "no_hs": 2,
+ "roster_url": "https://ukathletics.com/sports/wbball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 289349,
+  "oas_table": 0,
+  "oas_card": 0,
+  "oas_list": 0,
+  "person_card": 0,
+  "sidearm_classic": 0,
+  "presto": 0,
+  "players_table": 2,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "Number",
+   "Name",
+   "Position",
+   "Height",
+   "Class",
+   "Hometown",
+   "High school",
+   "Previous School",
+   "Major",
+   "Social",
+   "Name",
+   "Position"
+  ],
+  "present": false
+ },
+ "bio_url": "https://ukathletics.com/sports/wbball/roster/player/jemma-amoore/",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 204073,
+  "bio_fields_component": 0,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://ukathletics.com/sports/wbball/roster/player/mearah-oneal/",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 204856,
+  "bio_fields_component": 0,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ }
+}

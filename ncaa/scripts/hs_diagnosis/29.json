@@ -1,0 +1,70 @@
+{
+ "team_id": "29",
+ "team": "Arizona",
+ "total": 12,
+ "no_hs": 1,
+ "roster_url": "https://arizonawildcats.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 1065022,
+  "oas_table": 0,
+  "oas_card": 0,
+  "oas_list": 0,
+  "person_card": 977,
+  "sidearm_classic": 0,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 11,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "Image",
+   "#",
+   "Full Name",
+   "Pos.",
+   "Ht.",
+   "Wt.",
+   "Academic Year",
+   "Hometown",
+   "High School",
+   "Previous School",
+   "Coaching Staff",
+   "Image"
+  ],
+  "present": true,
+  "entries": 4125,
+  "snake_persons_with_hs": 0,
+  "snake_sample": [],
+  "camel_persons_with_hs": 11,
+  "camel_sample": [
+   {
+    "name": "Arynn Finley",
+    "hs": "Etiwanda High School"
+   },
+   {
+    "name": "Sumayah Sugapong",
+    "hs": "La Jolla Country Day"
+   }
+  ]
+ },
+ "bio_url": "https://arizonawildcats.com/sports/womens-basketball/roster/karolina-ulan/19618",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 894190,
+  "bio_fields_component": 7,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://arizonawildcats.com/sports/womens-basketball/roster/arynn-finley/19624",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 894162,
+  "bio_fields_component": 9,
+  "field_label_class": 0,
+  "bio_hs_values": [
+   "Etiwanda High School"
+  ]
+ }
+}

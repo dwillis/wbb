@@ -1,0 +1,56 @@
+{
+ "team_id": "275",
+ "team": "Harvard",
+ "total": 18,
+ "no_hs": 2,
+ "roster_url": "https://gocrimson.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 1550621,
+  "oas_table": 0,
+  "oas_card": 1,
+  "oas_list": 0,
+  "person_card": 0,
+  "sidearm_classic": 855,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 48,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "Statistic",
+   "Statistic",
+   "No.",
+   "Name",
+   "Yr.",
+   "Pos.",
+   "Ht.",
+   "Hometown",
+   "High School",
+   "C",
+   "Image",
+   "Name"
+  ],
+  "present": false
+ },
+ "bio_url": "https://gocrimson.com/sports/womens-basketball/roster/cora-blain/33001",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 1203280,
+  "bio_fields_component": 0,
+  "field_label_class": 1,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://gocrimson.com/sports/womens-basketball/roster/olivia-jones/33007",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 1217270,
+  "bio_fields_component": 0,
+  "field_label_class": 5,
+  "bio_hs_values": [
+   "Westtown High School"
+  ]
+ }
+}

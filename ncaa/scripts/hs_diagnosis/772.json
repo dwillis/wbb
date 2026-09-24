@@ -1,0 +1,70 @@
+{
+ "team_id": "772",
+ "team": "Western Ky.",
+ "total": 13,
+ "no_hs": 3,
+ "roster_url": "https://wkusports.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 861023,
+  "oas_table": 0,
+  "oas_card": 0,
+  "oas_list": 0,
+  "person_card": 1007,
+  "sidearm_classic": 0,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 10,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "#",
+   "Name",
+   "Position",
+   "Ht.",
+   "Class",
+   "Hometown",
+   "High School/Previous",
+   "Previous School",
+   "Twitter",
+   "Coaching Staff",
+   "Image",
+   "Name"
+  ],
+  "present": true,
+  "entries": 3714,
+  "snake_persons_with_hs": 0,
+  "snake_sample": [],
+  "camel_persons_with_hs": 10,
+  "camel_sample": [
+   {
+    "name": "Lola Bond",
+    "hs": "Kettle Moraine HS"
+   },
+   {
+    "name": "Jamila Ray",
+    "hs": "Montverde Academy"
+   }
+  ]
+ },
+ "bio_url": "https://wkusports.com/sports/womens-basketball/roster/mafalda-fontan/6668",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 628110,
+  "bio_fields_component": 7,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://wkusports.com/sports/womens-basketball/roster/lola-bond/6620",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 630470,
+  "bio_fields_component": 9,
+  "field_label_class": 0,
+  "bio_hs_values": [
+   "Kettle Moraine HS"
+  ]
+ }
+}

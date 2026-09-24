@@ -1,0 +1,56 @@
+{
+ "team_id": "25",
+ "team": "Angelo St.",
+ "total": 13,
+ "no_hs": 3,
+ "roster_url": "https://angelosports.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 601246,
+  "oas_table": 0,
+  "oas_card": 1,
+  "oas_list": 0,
+  "person_card": 0,
+  "sidearm_classic": 596,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 1,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 0,
+  "th_sample": [
+   "Statistic",
+   "Statistic",
+   "#",
+   "Full Name",
+   "Pos.",
+   "Ht.",
+   "Year",
+   "Hometown",
+   "Previous School",
+   "Major",
+   "Image",
+   "Name"
+  ],
+  "present": false
+ },
+ "bio_url": "https://angelosports.com/sports/womens-basketball/roster/katy-elder/9319",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 370799,
+  "bio_fields_component": 0,
+  "field_label_class": 2,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://angelosports.com/sports/womens-basketball/roster/rilyn-grona/9317",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 372090,
+  "bio_fields_component": 0,
+  "field_label_class": 5,
+  "bio_hs_values": [
+   "Fredericksburg"
+  ]
+ }
+}

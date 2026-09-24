@@ -1,0 +1,70 @@
+{
+ "team_id": "810",
+ "team": "Wright St.",
+ "total": 14,
+ "no_hs": 1,
+ "roster_url": "https://wsuraiders.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 864583,
+  "oas_table": 0,
+  "oas_card": 0,
+  "oas_list": 0,
+  "person_card": 885,
+  "sidearm_classic": 0,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 13,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "#",
+   "Full Name",
+   "Pos.",
+   "Ht.",
+   "Academic Year",
+   "Hometown / High School",
+   "Coaching Staff",
+   "Image",
+   "Name",
+   "Title",
+   "Email",
+   "Phone Number"
+  ],
+  "present": true,
+  "entries": 3215,
+  "snake_persons_with_hs": 0,
+  "snake_sample": [],
+  "camel_persons_with_hs": 13,
+  "camel_sample": [
+   {
+    "name": "Rylee Sagester",
+    "hs": "Tri-Village"
+   },
+   {
+    "name": "Rowan Klesmit",
+    "hs": "Neenah"
+   }
+  ]
+ },
+ "bio_url": "https://wsuraiders.com/sports/womens-basketball/roster/maja-dilen/6859",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 773250,
+  "bio_fields_component": 9,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://wsuraiders.com/sports/womens-basketball/roster/rylee-sagester/6863",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 791697,
+  "bio_fields_component": 11,
+  "field_label_class": 0,
+  "bio_hs_values": [
+   "Tri-Village"
+  ]
+ }
+}

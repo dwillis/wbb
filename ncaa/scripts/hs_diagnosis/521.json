@@ -1,0 +1,72 @@
+{
+ "team_id": "521",
+ "team": "Oklahoma State",
+ "total": 13,
+ "no_hs": 3,
+ "roster_url": "https://okstate.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 1101980,
+  "oas_table": 0,
+  "oas_card": 0,
+  "oas_list": 0,
+  "person_card": 1259,
+  "sidearm_classic": 0,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 13,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "No.",
+   "Name",
+   "Ht.",
+   "Pos.",
+   "Class",
+   "Hometown / High School",
+   "Previous School",
+   "Coaching Staff",
+   "Image",
+   "Name",
+   "Title",
+   "Email"
+  ],
+  "present": true,
+  "entries": 4856,
+  "snake_persons_with_hs": 0,
+  "snake_sample": [],
+  "camel_persons_with_hs": 13,
+  "camel_sample": [
+   {
+    "name": "LA Sneed",
+    "hs": "Wagner"
+   },
+   {
+    "name": "Mojca Jelenc",
+    "hs": "Valencia Basket"
+   }
+  ]
+ },
+ "bio_url": "https://okstate.com/sports/womens-basketball/roster/talexa-weeter/14451",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 911838,
+  "bio_fields_component": 11,
+  "field_label_class": 0,
+  "bio_hs_values": [
+   "Goodland"
+  ]
+ },
+ "bio_has_url": "https://okstate.com/sports/womens-basketball/roster/la-sneed/14442",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 907469,
+  "bio_fields_component": 11,
+  "field_label_class": 0,
+  "bio_hs_values": [
+   "Wagner"
+  ]
+ }
+}

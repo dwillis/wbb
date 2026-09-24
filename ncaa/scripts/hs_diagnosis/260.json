@@ -1,0 +1,67 @@
+{
+ "team_id": "260",
+ "team": "Gonzaga",
+ "total": 13,
+ "no_hs": 1,
+ "roster_url": "https://gozags.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 955791,
+  "oas_table": 0,
+  "oas_card": 0,
+  "oas_list": 0,
+  "person_card": 1054,
+  "sidearm_classic": 0,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 12,
+  "bio_fields_component": 0,
+  "th_high_school": 0,
+  "th_sample": [
+   "#",
+   "Name",
+   "Class",
+   "Pos",
+   "Hometown",
+   "Coaching Staff",
+   "Image",
+   "Name",
+   "Title",
+   "Email",
+   "Phone Number"
+  ],
+  "present": true,
+  "entries": 3368,
+  "snake_persons_with_hs": 0,
+  "snake_sample": [],
+  "camel_persons_with_hs": 5,
+  "camel_sample": [
+   {
+    "name": "Julia Wilson",
+    "hs": "Rancho Christian HS"
+   },
+   {
+    "name": "Allie Turner",
+    "hs": "John Burroughs HS"
+   }
+  ]
+ },
+ "bio_url": "https://gozags.com/sports/womens-basketball/roster/lauren-whittaker/6550",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 887138,
+  "bio_fields_component": 9,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://gozags.com/sports/womens-basketball/roster/ins-bettencourt/6651",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 864128,
+  "bio_fields_component": 11,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ }
+}

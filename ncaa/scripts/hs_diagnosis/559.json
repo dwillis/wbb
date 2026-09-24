@@ -1,0 +1,55 @@
+{
+ "team_id": "559",
+ "team": "Purdue",
+ "total": 14,
+ "no_hs": 5,
+ "roster_url": "https://purduesports.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 775301,
+  "oas_table": 5,
+  "oas_card": 0,
+  "oas_list": 399,
+  "person_card": 0,
+  "sidearm_classic": 0,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 0,
+  "th_sample": [],
+  "present": true,
+  "entries": 3317,
+  "snake_persons_with_hs": 9,
+  "snake_sample": [
+   {
+    "name": "Taylor Henderson",
+    "hs": "Winston Salem Christian School"
+   },
+   {
+    "name": "Avery Gordon",
+    "hs": "Brownsburg"
+   }
+  ],
+  "camel_persons_with_hs": 0,
+  "camel_sample": []
+ },
+ "bio_url": "https://purduesports.com/sports/womens-basketball/roster/player/keona-douwstra",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 452795,
+  "bio_fields_component": 0,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://purduesports.com/sports/womens-basketball/roster/player/taylor-henderson",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 492929,
+  "bio_fields_component": 0,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ }
+}

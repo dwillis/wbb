@@ -1,0 +1,70 @@
+{
+ "team_id": "796",
+ "team": "Wisconsin",
+ "total": 14,
+ "no_hs": 1,
+ "roster_url": "https://uwbadgers.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 1075870,
+  "oas_table": 0,
+  "oas_card": 0,
+  "oas_list": 0,
+  "person_card": 1130,
+  "sidearm_classic": 0,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 13,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "No.",
+   "Image",
+   "Name",
+   "Pos.",
+   "Ht.",
+   "Yr.",
+   "Hometown / High School",
+   "Coaching Staff",
+   "Image",
+   "Name",
+   "Title",
+   "Email"
+  ],
+  "present": true,
+  "entries": 4538,
+  "snake_persons_with_hs": 0,
+  "snake_sample": [],
+  "camel_persons_with_hs": 13,
+  "camel_sample": [
+   {
+    "name": "Nikki Kerstein",
+    "hs": "Montini Catholic"
+   },
+   {
+    "name": "Giselle Janowski",
+    "hs": "Pewaukee"
+   }
+  ]
+ },
+ "bio_url": "https://uwbadgers.com/sports/womens-basketball/roster/alicia-courthiau/15605",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 901038,
+  "bio_fields_component": 7,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://uwbadgers.com/sports/womens-basketball/roster/nikki-kerstein/15595",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 903789,
+  "bio_fields_component": 9,
+  "field_label_class": 0,
+  "bio_hs_values": [
+   "Montini Catholic"
+  ]
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "team_id": "72",
+ "team": "Bradley",
+ "total": 13,
+ "no_hs": 4,
+ "roster_url": "https://bradleybraves.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 436702,
+  "oas_table": 0,
+  "oas_card": 0,
+  "oas_list": 42,
+  "person_card": 0,
+  "sidearm_classic": 1,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 0,
+  "th_sample": [],
+  "present": false
+ },
+ "bio_url": "https://bradleybraves.com/sports/womens-basketball/roster/amani-abuhatab/14123",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 334065,
+  "bio_fields_component": 0,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://bradleybraves.com/sports/womens-basketball/roster/kali-fortson/13977",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 355694,
+  "bio_fields_component": 0,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "team_id": "648",
+ "team": "South Carolina",
+ "total": 15,
+ "no_hs": 2,
+ "roster_url": "https://gamecocksonline.com/sports/wbball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 186779,
+  "oas_table": 0,
+  "oas_card": 1,
+  "oas_list": 0,
+  "person_card": 0,
+  "sidearm_classic": 0,
+  "presto": 0,
+  "players_table": 1,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "Number",
+   "Name",
+   "Position",
+   "Height",
+   "Weight",
+   "Class",
+   "Hometown",
+   "High school",
+   "Previous School",
+   "Name",
+   "Position",
+   "Twitter"
+  ],
+  "present": false
+ },
+ "bio_url": "https://gamecocksonline.com/sports/wbball/roster/player/alicia-tournebize/",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 124652,
+  "bio_fields_component": 0,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://gamecocksonline.com/sports/wbball/roster/player/oliviyah-edwards/",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 119181,
+  "bio_fields_component": 0,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "team_id": "460",
+ "team": "UNCW",
+ "total": 12,
+ "no_hs": 1,
+ "roster_url": "https://uncwsports.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 1409926,
+  "oas_table": 0,
+  "oas_card": 1,
+  "oas_list": 0,
+  "person_card": 0,
+  "sidearm_classic": 585,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 27,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "Statistic",
+   "Statistic",
+   "#",
+   "Name",
+   "Pos.",
+   "Ht.",
+   "Year",
+   "Hometown",
+   "High School",
+   "Previous School",
+   "Image",
+   "Name"
+  ],
+  "present": false
+ },
+ "bio_url": "https://uncwsports.com/sports/womens-basketball/roster/alva-h-gerstr-m/9554",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 1179311,
+  "bio_fields_component": 0,
+  "field_label_class": 4,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://uncwsports.com/sports/womens-basketball/roster/ebbony-wilson/9420",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 1191597,
+  "bio_fields_component": 0,
+  "field_label_class": 5,
+  "bio_hs_values": [
+   "St. Mary's Academy"
+  ]
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "team_id": "416",
+ "team": "Michigan State",
+ "total": 16,
+ "no_hs": 4,
+ "roster_url": "https://msuspartans.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 1112928,
+  "oas_table": 0,
+  "oas_card": 0,
+  "oas_list": 0,
+  "person_card": 1284,
+  "sidearm_classic": 0,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 13,
+  "bio_fields_component": 0,
+  "th_high_school": 0,
+  "th_sample": [
+   "#",
+   "Full Name",
+   "Pos.",
+   "Academic Year",
+   "Hometown / Last School",
+   "Ht.",
+   "Previous School",
+   "Coaching Staff",
+   "Image",
+   "Name",
+   "Title",
+   "Email"
+  ],
+  "present": true,
+  "entries": 5642,
+  "snake_persons_with_hs": 0,
+  "snake_sample": [],
+  "camel_persons_with_hs": 12,
+  "camel_sample": [
+   {
+    "name": "Carter McCray",
+    "hs": "Elyria Catholic"
+   },
+   {
+    "name": "Anna Wypych",
+    "hs": "Rockford"
+   }
+  ]
+ },
+ "bio_url": "https://msuspartans.com/sports/womens-basketball/roster/monique-bobongie/17618",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 925401,
+  "bio_fields_component": 9,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://msuspartans.com/sports/womens-basketball/roster/carter-mccray/17612",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 926231,
+  "bio_fields_component": 13,
+  "field_label_class": 0,
+  "bio_hs_values": [
+   "Elyria Catholic"
+  ]
+ }
+}

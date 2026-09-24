@@ -1,0 +1,46 @@
+{
+ "team_id": "947",
+ "team": "Arkansas Tech",
+ "total": 14,
+ "no_hs": 14,
+ "roster_url": "https://arkansastechsports.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 497641,
+  "oas_table": 0,
+  "oas_card": 1,
+  "oas_list": 0,
+  "person_card": 0,
+  "sidearm_classic": 609,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 0,
+  "th_sample": [
+   "Statistic",
+   "Statistic",
+   "#",
+   "Name",
+   "Pos.",
+   "Ht.",
+   "Year",
+   "Hometown",
+   "Previous School",
+   "Image",
+   "Name",
+   "Title"
+  ],
+  "present": false
+ },
+ "bio_url": "https://arkansastechsports.com/sports/womens-basketball/roster/ari-gordon/6066",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 315799,
+  "bio_fields_component": 0,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "team_id": "30092",
+ "team": "Flagler",
+ "total": 15,
+ "no_hs": 5,
+ "roster_url": "https://flaglerathletics.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 641199,
+  "oas_table": 0,
+  "oas_card": 1,
+  "oas_list": 0,
+  "person_card": 0,
+  "sidearm_classic": 724,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 0,
+  "th_sample": [
+   "Statistic",
+   "Statistic",
+   "#",
+   "Image",
+   "Full Name",
+   "Pos.",
+   "Ht.",
+   "Yr.",
+   "Hometown/Last School",
+   "Image",
+   "Name",
+   "Title"
+  ],
+  "present": false
+ },
+ "bio_url": "https://flaglerathletics.com/sports/womens-basketball/roster/jazmine-major/11501",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 364486,
+  "bio_fields_component": 0,
+  "field_label_class": 6,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://flaglerathletics.com/sports/womens-basketball/roster/aspen-weeks/11504",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 371593,
+  "bio_fields_component": 0,
+  "field_label_class": 8,
+  "bio_hs_values": [
+   "West Aurora HS"
+  ]
+ }
+}

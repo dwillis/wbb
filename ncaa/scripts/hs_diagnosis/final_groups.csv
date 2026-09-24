@@ -1,0 +1,270 @@
+group,team_id,team,fix_count,total,no_hs,csv_hs_26,hs_25,roster_flavor,note
+fixable_payload,697,Texas A&M,14,15,15,0,13,oas_table,"payload has 14 HS values, CSV captured 0"
+fixable_payload,528,Oregon State,8,13,13,0,0,person_card,"payload has 8 HS values, CSV captured 0"
+fixable_payload,147,Clemson,13,13,13,0,0,oas_table,"payload has 13 HS values, CSV captured 0"
+fixable_payload,157,Colorado,2,14,2,12,11,person_card,"payload has 14 HS values, CSV captured 12"
+fixable_payload,463,Nebraska,11,12,12,0,14,oas_table,"payload has 11 HS values, CSV captured 0"
+fixable_payload,603,St. John's,1,12,1,11,10,person_card,"payload has 12 HS values, CSV captured 11"
+fixable_payload,754,Washington State,9,12,12,0,11,oas_table,"payload has 9 HS values, CSV captured 0"
+fixable_payload,255,Georgia Tech,11,14,14,0,4,oas_table,"payload has 11 HS values, CSV captured 0"
+fixable_payload,521,Oklahoma State,3,13,3,10,12,person_card,"payload has 13 HS values, CSV captured 10"
+fixable_payload,695,UT Martin,14,14,14,0,0,person_card,"payload has 14 HS values, CSV captured 0"
+fixable_payload,736,Vanderbilt,12,12,12,0,13,oas_table,"payload has 12 HS values, CSV captured 0"
+fixable_payload,5,Akron,14,14,14,0,0,person_card,"payload has 14 HS values, CSV captured 0"
+dual_template_miss,199,Tex. A&M-Commerce,9,15,9,6,15,oas_card,grid .sidearm-roster-player has HS for all 15; configured custom selector .sidearm-list-card-item picks cards with only 6
+dual_template_miss,213,Elmira,17,20,20,0,0,oas_card,list-card template has hometown+HS spans; default grid template lacks them
+dual_template_miss,320,John Carroll,4,20,7,13,22,oas_card,page now shows 4 more HS values than the scrape captured
+genuine_gap,12799,Wheeling,8,24,24,0,16,oas_card,season page /roster/2026-2027 renders lean cards (no hometown/HS spans; player bios empty); 8 returners backfilled from still-live 2025-26 default /roster (mode wheeling-carryover in backfill_audit.csv, values cross-verified vs rosters_2025-26.csv); 16 newcomers have no published HS anywhere — genuine gap
+bio_page_fixable,352,Lehigh,,13,4,9,8,person_card,missing player's bio page shows: Brigidine College St. Ives/Blair Academy
+bio_page_fixable,30220,Biola,,15,15,0,0,oas_card,missing player's bio page shows: Lynden Christian School
+bio_page_fixable,9223,North Greenville,,15,15,0,0,oas_card,missing player's bio page shows: Wando High School
+bio_page_fixable,30262,Jessup,,18,18,0,0,oas_card,missing player's bio page shows: Saint John Paul II Catholic HS
+genuine_gap,194,Duquesne,,13,1,12,14,oas_card,"unmapped header 'Hometown / Last School' added to HEADER_MAP for future scrapes, but missing players' cells are empty — genuine gap"
+genuine_gap,416,Michigan State,,16,4,12,14,person_card,"unmapped header 'Hometown / Last School' added to HEADER_MAP for future scrapes, but missing players' cells are empty — genuine gap"
+genuine_gap,572,Rhode Island,,13,2,11,12,oas_card,"unmapped header 'HOMETOWN / HIGH SCHOOL (LAST SCHOOL)' added to HEADER_MAP for future scrapes, but missing players' cells are empty — genuine gap"
+genuine_gap,609,Saint Louis,,12,3,9,9,oas_card,"unmapped header 'Hometown (High School)' added to HEADER_MAP for future scrapes, but missing players' cells are empty — genuine gap"
+genuine_gap,738,Vermont,,14,1,13,15,oas_card,"unmapped header 'Hometown / High School (Previous School)' added to HEADER_MAP for future scrapes, but missing players' cells are empty — genuine gap"
+genuine_gap,3,Adelphi,,14,2,12,14,oas_card,"unmapped header 'Hometown / Highschool (Previous School)' added to HEADER_MAP for future scrapes, but missing players' cells are empty — genuine gap"
+genuine_gap,772,Western Ky.,,13,3,10,11,person_card,"unmapped header 'High School/Previous' added to HEADER_MAP for future scrapes, but missing players' cells are empty — genuine gap"
+combined_column,1320,Presbyterian College,,13,13,0,0,oas_card,5 missing rows have HS-looking values in previous_school
+combined_column,77,Brigham Young,,12,12,0,13,oas_table,10 missing rows have HS-looking values in previous_school
+combined_column,94,Cal State Bakersfield,,15,15,0,0,oas_card,4 missing rows have HS-looking values in previous_school
+combined_column,328,Kansas,,13,13,0,0,person_card,13 missing rows have HS-looking values in previous_school
+combined_column,355,Liberty,,15,15,0,0,person_card,9 missing rows have HS-looking values in previous_school
+combined_column,474,New Orleans,,13,13,0,0,oas_card,3 missing rows have HS-looking values in previous_school
+combined_column,473,New Mexico,,15,15,0,0,oas_table,5 missing rows have HS-looking values in previous_school
+combined_column,1116,Harding,,12,12,0,0,oas_card,9 missing rows have HS-looking values in previous_school
+combined_column,1314,Pittsburg St.,,12,12,0,0,oas_card,8 missing rows have HS-looking values in previous_school
+combined_column,159,Columbus St.,,17,17,0,0,oas_card,6 missing rows have HS-looking values in previous_school
+combined_column,205,Mont. St. Billings,,13,13,0,0,oas_card,12 missing rows have HS-looking values in previous_school
+combined_column,262,Grand Valley St.,,20,20,0,0,oas_card,2 missing rows have HS-looking values in previous_school
+combined_column,294,Idaho St.,,15,15,0,0,oas_card,1 missing rows have HS-looking values in previous_school
+combined_column,30120,William Jewell,,16,16,0,0,oas_card,2 missing rows have HS-looking values in previous_school
+combined_column,30153,Union (TN),,16,11,5,6,oas_card,7 missing rows have HS-looking values in previous_school
+combined_column,30202,Okla. Baptist,,12,11,1,0,oas_card,6 missing rows have HS-looking values in previous_school
+combined_column,40,Augustana (IL),,21,19,2,0,oas_card,1 missing rows have HS-looking values in previous_school
+combined_column,413,MSU Denver,,12,2,10,11,oas_card,1 missing rows have HS-looking values in previous_school
+combined_column,429,Mississippi College,,15,15,0,0,oas_card,3 missing rows have HS-looking values in previous_school
+combined_column,49,Barry,,14,14,0,0,oas_card,5 missing rows have HS-looking values in previous_school
+combined_column,6,Alabama A&M,,15,15,0,0,oas_card,4 missing rows have HS-looking values in previous_school
+combined_column,647,South Carolina St.,,19,19,0,0,oas_card,15 missing rows have HS-looking values in previous_school
+combined_column,8744,Southwestern Okla.,,12,12,0,0,oas_card,8 missing rows have HS-looking values in previous_school
+combined_column,9012,Mo. Southern St.,,15,15,0,0,oas_card,7 missing rows have HS-looking values in previous_school
+combined_column,947,Arkansas Tech,,14,14,0,0,oas_card,9 missing rows have HS-looking values in previous_school
+combined_column,985,Bluefield St.,,16,12,4,18,oas_card,4 missing rows have HS-looking values in previous_school
+combined_column,10,UAH,,14,14,0,5,oas_card,6 missing rows have HS-looking values in previous_school
+combined_column,1222,Midwestern St.,,15,15,0,0,oas_card,12 missing rows have HS-looking values in previous_school
+combined_column,405,Menlo,,17,17,0,0,oas_card,9 missing rows have HS-looking values in previous_school
+combined_column,30266,UC Merced,,17,17,0,0,oas_card,9 missing rows have HS-looking values in previous_school
+genuine_gap,29,Arizona,,12,1,11,12,person_card,site publishes HS for only 11/12
+genuine_gap,37,Auburn,,14,3,11,11,oas_table,site publishes HS for only 11/14
+genuine_gap,796,Wisconsin,,14,1,13,15,person_card,site publishes HS for only 13/14
+genuine_gap,107,California,,14,4,10,13,person_card,site publishes HS for only 10/14
+genuine_gap,415,Miami,,11,3,8,14,oas_table,site publishes HS for only 8/11
+genuine_gap,30135,California Baptist,,13,4,9,7,person_card,site publishes HS for only 9/13
+genuine_gap,688,Syracuse,,13,4,9,13,person_card,site publishes HS for only 9/13
+genuine_gap,311,Iowa State,,13,1,12,13,person_card,site publishes HS for only 12/13
+genuine_gap,430,Mississippi State,,13,2,11,12,person_card,site publishes HS for only 11/13
+genuine_gap,742,Virginia Tech,,13,2,11,12,oas_table,site publishes HS for only 11/13
+genuine_gap,306,Indiana,,14,1,13,13,person_card,site publishes HS for only 13/14
+genuine_gap,327,Kansas State,,12,5,7,11,person_card,site publishes HS for only 7/12
+genuine_gap,340,LaSalle,,16,3,13,14,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,381,Manhattan,,15,1,14,15,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,387,Marquette,,12,1,11,14,person_card,site publishes HS for only 11/12
+genuine_gap,419,Middle Tennessee,,15,5,10,11,person_card,site publishes HS for only 10/15
+genuine_gap,466,Nevada,,16,2,14,14,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,529,Oregon,,12,2,10,13,person_card,site publishes HS for only 10/12
+genuine_gap,559,Purdue,,14,5,9,13,oas_table,site publishes HS for only 9/14
+genuine_gap,579,Robert Morris,,15,2,13,13,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,587,Rutgers,,14,1,13,13,person_card,site publishes HS for only 13/14
+genuine_gap,28,Arizona State,,13,9,4,12,oas_table,site publishes HS for only 4/13
+genuine_gap,690,Temple,,12,1,11,11,person_card,site publishes HS for only 11/12
+genuine_gap,128,Central Florida,,13,3,10,12,oas_table,site publishes HS for only 10/13
+genuine_gap,110,UCLA,,12,3,9,11,oas_table,site publishes HS for only 9/12
+genuine_gap,164,UConn,,13,2,11,15,person_card,site publishes HS for only 11/13
+genuine_gap,418,Michigan,,14,1,13,14,person_card,site publishes HS for only 13/14
+genuine_gap,651,South Florida,,13,1,12,11,person_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,732,Utah,,13,6,7,9,person_card,site publishes HS for only 7/13
+genuine_gap,295,Idaho,,14,7,7,11,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,812,Xavier,,13,6,7,13,person_card,site publishes HS for only 7/13
+genuine_gap,626,San Diego State,,14,1,13,14,oas_table,site publishes HS for only 13/14
+genuine_gap,47,Ball State,,10,4,6,7,person_card,site publishes HS for only 6/10
+genuine_gap,71,Bowling Green,,13,9,4,13,person_card,site publishes HS for only 4/13
+genuine_gap,66,Boise State,,15,4,11,12,person_card,site publishes HS for only 11/15
+genuine_gap,769,Western Carolina,,13,1,12,13,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,458,Charlotte,,14,3,11,13,person_card,site publishes HS for only 11/14
+genuine_gap,148,Cleveland State,,13,2,11,5,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,1014,College of Charleston,,11,1,10,14,person_card,site publishes HS for only 10/11
+genuine_gap,173,Davidson,,13,3,10,15,person_card,site publishes HS for only 10/13
+genuine_gap,207,Eastern Washington,,14,1,13,16,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,229,Florida Atlantic,,14,1,13,10,person_card,site publishes HS for only 13/14
+genuine_gap,96,Fresno State,,15,1,14,15,person_card,site publishes HS for only 14/15
+genuine_gap,610,Saint Mary's (CA),,15,3,12,14,person_card,site publishes HS for only 12/15
+genuine_gap,140,Cincinnati,,15,1,14,12,oas_table,site publishes HS for only 14/15
+genuine_gap,275,Harvard,,18,2,16,16,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,285,Holy Cross,,15,1,14,15,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,1157,Kennesaw State,,14,1,13,0,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,440,Montana State,,14,1,13,13,person_card,site publishes HS for only 13/14
+genuine_gap,472,New Mexico State,,14,13,1,9,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,518,Ohio State,,11,1,10,11,person_card,site publishes HS for only 10/11
+genuine_gap,522,Oklahoma,,14,2,12,10,person_card,site publishes HS for only 12/14
+genuine_gap,539,Penn State,,10,2,8,10,oas_table,site publishes HS for only 8/10
+genuine_gap,671,Louisiana,,15,1,14,12,person_card,site publishes HS for only 14/15
+genuine_gap,371,Loyola-Chicago,,12,1,11,13,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,574,Rice,,14,1,13,14,person_card,site publishes HS for only 13/14
+genuine_gap,630,San Jose State,,14,8,6,10,oas_table,site publishes HS for only 6/14
+genuine_gap,676,Stephen F. Austin,,13,4,9,12,person_card,site publishes HS for only 9/13
+genuine_gap,683,Stony Brook,,13,1,12,15,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,698,Texas Christian,,12,2,10,14,person_card,site publishes HS for only 10/12
+genuine_gap,9,UAB,,12,1,11,13,person_card,site publishes HS for only 11/12
+genuine_gap,108,UC Davis,,14,3,11,10,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,104,UC Santa Barbara,,13,1,12,10,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,257,Georgia,,13,2,11,11,person_card,site publishes HS for only 11/13
+genuine_gap,288,Houston,,13,1,12,13,person_card,site publishes HS for only 12/13
+genuine_gap,400,Massachusetts,,15,1,14,13,person_card,site publishes HS for only 14/15
+genuine_gap,502,Northern Colorado,,12,8,4,4,person_card,site publishes HS for only 4/12
+genuine_gap,456,UNC Asheville,,14,10,4,13,person_card,site publishes HS for only 4/14
+genuine_gap,657,Southern Cal,,12,2,10,13,person_card,site publishes HS for only 10/12
+genuine_gap,627,San Diego,,13,1,12,15,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,704,Texas-El Paso,,13,10,3,5,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,758,Weber State,,14,11,3,4,person_card,site publishes HS for only 3/14
+genuine_gap,774,Western Michigan,,13,2,11,12,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,1238,Montevallo,,17,11,6,7,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,124,Catholic,,24,1,23,23,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,156,Colorado St.,,15,1,14,14,person_card,site publishes HS for only 14/15
+genuine_gap,196,East Carolina,,14,1,13,12,person_card,site publishes HS for only 13/14
+genuine_gap,221,FDU-Florham,,19,2,17,18,oas_card,missing players absent from page (phase-3 name check)
+genuine_gap,231,FIU,,14,2,12,14,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,235,Florida,,13,1,12,7,person_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,24639,Nova Southeastern,,13,4,9,2,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,25,Angelo St.,,13,3,10,0,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,30047,Keystone,,10,3,7,16,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,30092,Flagler,,15,5,10,0,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,30119,Ohio Dominican,,9,3,6,15,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,30127,Simon Fraser,,14,1,13,14,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,30222,Purdue Northwest,,15,3,12,13,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,309,UIndy,,16,1,15,16,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,315,Jacksonville St.,,13,2,11,12,person_card,site publishes HS for only 11/13
+genuine_gap,333,Ky. Wesleyan,,14,1,13,15,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,394,Marymount (VA),,17,8,9,13,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,417,Michigan Tech,,16,1,15,14,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,424,Millikin,,23,1,22,14,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,460,UNCW,,12,1,11,12,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,470,New Haven,,20,3,17,16,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,533,Pace,,18,10,8,12,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,54,Bemidji St.,,14,6,8,15,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,565,Randolph-Macon,,18,7,11,16,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,608,Saint Leo,,16,1,15,17,oas_card,missing players absent from page (phase-3 name check)
+genuine_gap,613,Saint Michael's,,13,1,12,16,oas_card,missing players absent from page (phase-3 name check)
+genuine_gap,1400,Texas Lutheran,,16,4,12,17,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,691,Tennessee St.,,13,3,10,12,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,748,Wagner,,15,2,13,13,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,810,Wright St.,,14,1,13,12,person_card,site publishes HS for only 13/14
+genuine_gap,8935,Converse,,19,3,16,14,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,929,Adams St.,,14,8,6,12,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,1097,Ga. Southwestern,,12,2,10,10,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,534,Pacific,,14,3,11,10,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,1176,Lincoln Memorial,,13,12,1,6,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,2807,Roosevelt,,17,3,14,12,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,1450,Westminster (MO),,11,1,10,18,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,105,Cal Lutheran,,24,4,20,20,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,396,Maryville (TN),,23,7,16,20,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,12399,Gwynedd Mercy,,15,2,13,17,oas_card,site publishes HS on bios for some players; sampled missing player had none
+genuine_gap,30253,Carlow,,14,7,7,14,other,site publishes HS on bios for some players; sampled missing player had none
+site_publishes_none,648,South Carolina,,15,2,13,8,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,794,Green Bay,,15,1,14,14,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,334,Kentucky,,12,2,10,11,other,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,740,Virginia Commonwealth,,8,3,5,9,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,811,Wyoming,,15,1,14,11,oas_list,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,72,Bradley,,13,4,9,8,oas_list,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,48,Charleston Southern,,13,4,9,14,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,201,Eastern Illinois,,14,1,13,15,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,198,East Tennessee State,,13,2,11,0,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,782,Wichita State,,12,1,11,12,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,19651,High Point,,13,1,12,15,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,346,Lamar,,13,1,12,11,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,655,Southeastern Louisiana,,14,1,13,11,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,402,McNeese State,,13,2,11,12,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,410,Merrimack,,15,3,12,15,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,482,Niagara,,14,6,8,7,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,505,Northern Kentucky,,13,7,6,14,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,527,Oral Roberts,,12,1,11,12,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,299,Illinois State,,14,1,13,14,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,368,UMass Lowell,,14,5,9,13,person_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,625,Samford,,12,1,11,9,person_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,678,Stetson,,13,1,12,11,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,711,Towson,,15,1,14,15,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,670,Texas State,,13,2,11,13,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,1004,Central Arkansas,,14,6,8,9,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,498,Louisiana Monroe,,13,2,11,0,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,536,UT-Rio Grande Valley,,13,1,12,14,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,792,Winthrop,,14,2,12,10,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,260,Gonzaga,,13,1,12,5,person_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,1013,Charleston (WV),,16,4,12,11,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,1071,Emporia St.,,14,4,10,15,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,1072,Erskine,,20,1,19,17,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,1083,Fort Lewis,,16,2,14,14,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,1085,Francis Marion,,16,3,13,14,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,11276,S.C. Aiken,,12,12,0,7,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,11504,Queens (NC),,15,3,12,4,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,1167,Lander,,18,1,17,0,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,120,Carroll (WI),,14,3,11,16,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,1245,Mount Olive,,16,3,13,16,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,125,Centenary (LA),,11,3,8,13,other,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,1257,Newberry,,24,6,18,0,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,1371,Southeastern Okla.,,15,1,14,0,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,1376,Southern Ark.,,16,6,10,9,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,1434,Waynesburg,,24,11,13,20,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,1445,Western N.M.,,17,1,16,15,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,16,Albright,,17,8,9,14,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,195,Earlham,,8,4,4,7,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,206,Eastern N.M.,,14,10,4,16,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,209,Edinboro,,13,1,12,15,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,23157,Felician,,18,1,17,0,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,261,Grambling,,14,12,2,0,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,2755,Southwest Baptist,,17,6,11,0,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,27854,Minn.-Crookston,,14,14,0,0,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,2810,St. Thomas (TX),,18,5,13,6,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,28749,Transylvania,,20,2,18,17,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,30028,Texas-Tyler,,15,2,13,0,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,30035,Crown (MN),,18,1,17,16,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,30045,Palm Beach Atl.,,18,2,16,11,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,30069,Franciscan,,12,5,7,13,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,30073,William Smith,,13,2,11,13,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,30105,Ark.-Fort Smith,,13,8,5,16,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,30111,Covenant,,17,7,10,14,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,30149,Point Loma,,13,1,12,12,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,30154,Young Harris,,17,1,16,18,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,30178,Northwestern Okla.,,17,7,10,4,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,30192,Southern Wesleyan,,15,6,9,17,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,30221,Davenport,,15,5,10,15,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,307,Indiana (PA),,14,5,9,14,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,323,Johnson C. Smith,,14,12,2,8,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,370,Loyola Marymount,,14,1,13,0,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,39,Augusta,,14,14,0,0,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,422,Miles,,1,1,0,0,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,426,Millsaps,,24,12,12,18,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,427,Minn. Duluth,,15,1,14,16,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,435,Missouri S&T,,18,8,10,15,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,438,Monmouth (IL),,12,6,6,15,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,500,Northeastern,,13,6,7,10,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,514,Oakland,,14,3,11,10,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,515,Oberlin,,11,1,10,12,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,560,Queens (NY),,15,8,7,13,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,696,Tex. A&M-Kingsville,,13,2,11,12,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,701,Texas Woman's,,14,8,6,11,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,84,Buena Vista,,20,1,19,22,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,8411,Ark.-Monticello,,13,1,12,5,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,8965,East Central,,13,7,6,0,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,30244,Edward Waters,,16,1,15,16,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,743,Virginia State,,13,1,12,7,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,2696,Hawaii Pacific,,17,1,16,15,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,8366,Goldey-Beacom,,14,2,12,14,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,30150,Roberts Wesleyan,,13,1,12,14,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,30193,Emmanuel (GA),,19,1,18,18,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,13,Albany St. (GA),,17,12,5,1,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,437,Molloy,,11,3,8,11,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,30080,Point Park,,8,1,7,14,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,1044,Dallas,,14,1,13,14,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,431,MUW,,17,1,16,15,oas_card,"no HS found in roster payload, table headers, or sampled bio"
+site_publishes_none,22989,Lyon,,18,2,16,18,oas_card,"no HS found in roster payload, table headers, or sampled bio"

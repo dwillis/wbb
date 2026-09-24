@@ -1,0 +1,54 @@
+{
+ "team_id": "11504",
+ "team": "Queens (NC)",
+ "total": 15,
+ "no_hs": 3,
+ "roster_url": "https://queensathletics.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 676811,
+  "oas_table": 0,
+  "oas_card": 1,
+  "oas_list": 0,
+  "person_card": 0,
+  "sidearm_classic": 690,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 31,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "Statistic",
+   "Statistic",
+   "#",
+   "Full Name",
+   "Pos",
+   "Ht.",
+   "Academic Year",
+   "Hometown / High School",
+   "Image",
+   "Name",
+   "Title",
+   "Image"
+  ],
+  "present": false
+ },
+ "bio_url": "https://queensathletics.com/sports/womens-basketball/roster/anisa-akinola/13220",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 395789,
+  "bio_fields_component": 0,
+  "field_label_class": 4,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://queensathletics.com/sports/womens-basketball/roster/ahmani-klabunde/13219",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 396195,
+  "bio_fields_component": 0,
+  "field_label_class": 5,
+  "bio_hs_values": []
+ }
+}

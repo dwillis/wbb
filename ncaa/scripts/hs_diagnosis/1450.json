@@ -1,0 +1,56 @@
+{
+ "team_id": "1450",
+ "team": "Westminster (MO)",
+ "total": 11,
+ "no_hs": 1,
+ "roster_url": "https://wcbluejays.wcmo.edu/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 684198,
+  "oas_table": 0,
+  "oas_card": 1,
+  "oas_list": 0,
+  "person_card": 0,
+  "sidearm_classic": 458,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 30,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "Statistic",
+   "Statistic",
+   "No.",
+   "Name",
+   "Pos.",
+   "Cl.",
+   "Ht.",
+   "Major",
+   "Hometown / High School",
+   "Image",
+   "Name",
+   "Title"
+  ],
+  "present": false
+ },
+ "bio_url": "https://wcbluejays.wcmo.edu/sports/womens-basketball/roster/camryn-portell/5477",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 505882,
+  "bio_fields_component": 0,
+  "field_label_class": 2,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://wcbluejays.wcmo.edu/sports/womens-basketball/roster/riley-vogel/5476",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 506251,
+  "bio_fields_component": 0,
+  "field_label_class": 3,
+  "bio_hs_values": [
+   "Festus"
+  ]
+ }
+}

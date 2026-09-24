@@ -1,0 +1,70 @@
+{
+ "team_id": "400",
+ "team": "Massachusetts",
+ "total": 15,
+ "no_hs": 1,
+ "roster_url": "https://umassathletics.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 910613,
+  "oas_table": 0,
+  "oas_card": 0,
+  "oas_list": 0,
+  "person_card": 1186,
+  "sidearm_classic": 0,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 15,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "#",
+   "Name",
+   "Year",
+   "Pos.",
+   "Ht.",
+   "Hometown / High School",
+   "Previous School",
+   "C",
+   "Coaching Staff",
+   "Image",
+   "Name",
+   "Title"
+  ],
+  "present": true,
+  "entries": 3903,
+  "snake_persons_with_hs": 0,
+  "snake_sample": [],
+  "camel_persons_with_hs": 14,
+  "camel_sample": [
+   {
+    "name": "Reagan Hurst",
+    "hs": "Upperman"
+   },
+   {
+    "name": "Chinenye Odenigbo",
+    "hs": "Noble and Greenough School"
+   }
+  ]
+ },
+ "bio_url": "https://umassathletics.com/sports/womens-basketball/roster/alba-caballero/18364",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 646656,
+  "bio_fields_component": 9,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://umassathletics.com/sports/womens-basketball/roster/reagan-hurst/18369",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 648162,
+  "bio_fields_component": 11,
+  "field_label_class": 0,
+  "bio_hs_values": [
+   "Upperman"
+  ]
+ }
+}

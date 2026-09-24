@@ -1,0 +1,70 @@
+{
+ "team_id": "315",
+ "team": "Jacksonville St.",
+ "total": 13,
+ "no_hs": 2,
+ "roster_url": "https://jsugamecocksports.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 878874,
+  "oas_table": 0,
+  "oas_card": 0,
+  "oas_list": 0,
+  "person_card": 897,
+  "sidearm_classic": 0,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 11,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "#",
+   "Full Name",
+   "Cl.",
+   "Ht.",
+   "Pos.",
+   "Hometown / High School",
+   "Previous School",
+   "Coaching Staff",
+   "Image",
+   "Name",
+   "Title",
+   "Email"
+  ],
+  "present": true,
+  "entries": 3127,
+  "snake_persons_with_hs": 0,
+  "snake_sample": [],
+  "camel_persons_with_hs": 11,
+  "camel_sample": [
+   {
+    "name": "Gabby Morales",
+    "hs": "Frenship HS"
+   },
+   {
+    "name": "Kamryn Corporan",
+    "hs": "St. Aquinas HS"
+   }
+  ]
+ },
+ "bio_url": "https://jsugamecocksports.com/sports/womens-basketball/roster/nahia-fernandez/7810",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 767418,
+  "bio_fields_component": 9,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://jsugamecocksports.com/sports/womens-basketball/roster/gabby-morales/7801",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 772546,
+  "bio_fields_component": 13,
+  "field_label_class": 0,
+  "bio_hs_values": [
+   "Frenship HS"
+  ]
+ }
+}

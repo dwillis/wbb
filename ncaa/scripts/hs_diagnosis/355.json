@@ -1,0 +1,51 @@
+{
+ "team_id": "355",
+ "team": "Liberty",
+ "total": 15,
+ "no_hs": 15,
+ "roster_url": "https://libertyflames.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 1217851,
+  "oas_table": 0,
+  "oas_card": 0,
+  "oas_list": 0,
+  "person_card": 1242,
+  "sidearm_classic": 0,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 15,
+  "bio_fields_component": 0,
+  "th_high_school": 0,
+  "th_sample": [
+   "No.",
+   "Name",
+   "Pos.",
+   "Ht.",
+   "Cl.",
+   "Hometown",
+   "Coaching Staff",
+   "Image",
+   "Name",
+   "Title",
+   "Email",
+   "Phone Number"
+  ],
+  "present": true,
+  "entries": 7077,
+  "snake_persons_with_hs": 0,
+  "snake_sample": [],
+  "camel_persons_with_hs": 0,
+  "camel_sample": []
+ },
+ "bio_url": "https://libertyflames.com/sports/womens-basketball/roster/jakayla-thompson/16592",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 951896,
+  "bio_fields_component": 11,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ }
+}

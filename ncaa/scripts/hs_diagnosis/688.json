@@ -1,0 +1,70 @@
+{
+ "team_id": "688",
+ "team": "Syracuse",
+ "total": 13,
+ "no_hs": 4,
+ "roster_url": "https://cuse.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 973807,
+  "oas_table": 0,
+  "oas_card": 0,
+  "oas_list": 0,
+  "person_card": 1126,
+  "sidearm_classic": 0,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 10,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "#",
+   "Image",
+   "Full Name",
+   "Pos.",
+   "Ht.",
+   "Cl.",
+   "Hometown / High School",
+   "Coaching Staff",
+   "Image",
+   "Name",
+   "Title",
+   "Email"
+  ],
+  "present": true,
+  "entries": 4193,
+  "snake_persons_with_hs": 0,
+  "snake_sample": [],
+  "camel_persons_with_hs": 9,
+  "camel_sample": [
+   {
+    "name": "Tyi Skinner",
+    "hs": "TPLS Christian Academy (VA)"
+   },
+   {
+    "name": "Keira Scott",
+    "hs": "DME Academy"
+   }
+  ]
+ },
+ "bio_url": "https://cuse.com/sports/womens-basketball/roster/elif-ayir/25571",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 780856,
+  "bio_fields_component": 9,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://cuse.com/sports/womens-basketball/roster/tyi-skinner/25569",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 784850,
+  "bio_fields_component": 11,
+  "field_label_class": 0,
+  "bio_hs_values": [
+   "TPLS Christian Academy (VA)"
+  ]
+ }
+}

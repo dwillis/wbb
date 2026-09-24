@@ -1,0 +1,270 @@
+team_id,team,total,no_hs,roster_status,oas_table,oas_card,oas_list,person_card,sidearm_classic,players_table,presto,nuxt,snake_hs,camel_hs,roster_hs_class,person_card_hs_dtid,th_hs,bio_missing_hs_found,bio_missing_has_component,bio_missing_has_fieldlabel,roster_url
+697,Texas A&M,15,15,200,5,0,391,0,0,0,0,True,14,0,0,0,0,,0,0,https://12thman.com/sports/womens-basketball/roster
+29,Arizona,12,1,200,0,0,0,977,0,0,0,True,0,11,0,11,1,,7,0,https://arizonawildcats.com/sports/womens-basketball/roster
+37,Auburn,14,3,200,5,354,0,0,0,0,0,True,11,0,0,0,0,,0,0,https://auburntigers.com/sports/womens-basketball/roster
+796,Wisconsin,14,1,200,0,0,0,1130,0,0,0,True,0,13,0,13,1,,7,0,https://uwbadgers.com/sports/womens-basketball/roster
+528,Oregon State,13,13,200,0,0,0,1011,0,0,0,True,0,8,0,13,0,Barlow HS,11,0,https://osubeavers.com/sports/womens-basketball/roster
+107,California,14,4,200,0,0,0,1147,0,0,0,True,0,10,0,10,1,,9,0,https://calbears.com/sports/womens-basketball/roster
+415,Miami,11,3,200,5,0,0,0,0,0,0,True,8,0,0,0,1,,0,0,https://miamihurricanes.com/sports/wbball/roster
+30135,California Baptist,13,4,200,0,0,0,1119,0,0,0,True,0,9,0,13,0,,9,0,https://cbulancers.com/sports/womens-basketball/roster
+147,Clemson,13,13,200,5,307,0,0,0,0,0,True,13,0,0,0,0,,0,0,https://clemsontigers.com/sports/w-basketball/roster
+157,Colorado,14,2,200,0,0,0,1216,0,0,0,True,0,14,0,14,1,Faith Christian High School,11,0,https://cubuffs.com/sports/womens-basketball/roster
+688,Syracuse,13,4,200,0,0,0,1126,0,0,0,True,0,9,0,10,1,,9,0,https://cuse.com/sports/womens-basketball/roster
+311,Iowa State,13,1,200,0,0,0,1129,0,0,0,True,0,12,0,13,1,,11,0,https://cyclones.com/sports/womens-basketball/roster
+194,Duquesne,13,1,200,0,1,0,0,690,0,0,False,0,0,32,0,0,,0,4,https://goduquesne.com/sports/womens-basketball/roster
+648,South Carolina,15,2,200,0,1,0,0,0,1,0,False,0,0,0,0,1,,0,0,https://gamecocksonline.com/sports/wbball/roster
+794,Green Bay,15,1,200,0,1,0,0,710,0,0,False,0,0,37,0,1,,0,0,https://greenbayphoenix.com/sports/womens-basketball/roster
+430,Mississippi State,13,2,200,0,0,0,783,0,0,0,True,0,11,0,12,1,,9,0,https://hailstate.com/sports/womens-basketball/roster
+742,Virginia Tech,13,2,200,5,0,396,0,0,0,0,True,11,0,0,0,0,,0,0,https://hokiesports.com/sports/womens-basketball/roster
+463,Nebraska,12,12,200,5,0,333,0,0,0,0,True,11,0,0,0,0,,0,0,https://huskers.com/sports/womens-basketball/roster
+306,Indiana,14,1,200,0,0,0,1406,0,0,0,True,0,13,0,14,1,,7,0,https://iuhoosiers.com/sports/womens-basketball/roster
+334,Kentucky,12,2,200,0,0,0,0,0,2,0,False,0,0,0,0,1,,0,0,https://ukathletics.com/sports/wbball/roster
+327,Kansas State,12,5,200,0,0,0,1110,0,0,0,True,0,7,0,8,1,,7,0,https://www.kstatesports.com/sports/womens-basketball/roster
+340,LaSalle,16,3,200,0,1,0,0,750,0,0,False,0,0,37,0,1,,0,5,https://goexplorers.com/sports/womens-basketball/roster
+381,Manhattan,15,1,200,0,1,0,0,700,0,0,False,0,0,34,0,1,,0,0,https://gojaspers.com/sports/womens-basketball/roster
+387,Marquette,12,1,200,0,0,0,1089,0,0,0,True,0,11,0,12,0,,9,0,https://gomarquette.com/sports/womens-basketball/roster
+419,Middle Tennessee,15,5,200,0,0,0,1237,0,0,0,True,0,10,0,12,0,,9,0,https://goblueraiders.com/sports/womens-basketball/roster
+466,Nevada,16,2,200,0,1,0,0,816,0,0,False,0,0,37,0,1,,0,5,https://nevadawolfpack.com/sports/womens-basketball/roster
+529,Oregon,12,2,200,0,0,0,1115,0,0,2,True,0,10,0,12,1,,9,0,https://goducks.com/sports/womens-basketball/roster
+559,Purdue,14,5,200,5,0,399,0,0,0,0,True,9,0,0,0,0,,0,0,https://purduesports.com/sports/womens-basketball/roster
+579,Robert Morris,15,2,200,0,1,0,0,800,0,0,False,0,0,31,0,1,,0,0,https://rmucolonials.com/sports/womens-basketball/roster
+587,Rutgers,14,1,200,0,0,0,1517,0,0,0,True,0,13,0,13,1,,9,0,https://scarletknights.com/sports/womens-basketball/roster
+603,St. John's,12,1,200,0,0,0,1107,0,0,0,True,0,12,0,12,0,St. Francis,13,0,https://redstormsports.com/sports/womens-basketball/roster
+28,Arizona State,13,9,200,5,318,0,0,0,0,0,True,4,0,0,0,0,,0,0,https://thesundevils.com/sports/womens-basketball/roster
+690,Temple,12,1,200,0,0,0,1129,0,0,0,True,0,11,0,12,0,,7,0,https://owlsports.com/sports/womens-basketball/roster
+128,Central Florida,13,3,200,5,0,0,0,0,0,0,True,10,0,0,0,1,,0,0,https://ucfknights.com/sports/womens-basketball/roster
+110,UCLA,12,3,200,5,384,0,0,0,0,0,True,9,0,0,0,0,,0,0,https://uclabruins.com/sports/womens-basketball/roster
+164,UConn,13,2,200,0,0,0,1225,0,0,0,True,0,11,0,11,0,,9,0,https://uconnhuskies.com/sports/womens-basketball/roster
+418,Michigan,14,1,200,0,0,0,833,294,0,0,True,0,13,0,13,1,,9,0,https://mgoblue.com/sports/womens-basketball/roster
+651,South Florida,13,1,200,0,0,0,1452,0,0,0,True,0,11,0,12,1,,9,0,https://gousfbulls.com/sports/womens-basketball/roster
+732,Utah,13,6,200,0,0,0,1050,0,0,0,True,0,7,0,12,0,,11,0,https://utahutes.com/sports/womens-basketball/roster
+295,Idaho,14,7,200,0,1,0,0,684,0,0,False,0,0,6,0,0,,0,5,https://govandals.com/sports/womens-basketball/roster
+740,Virginia Commonwealth,8,3,200,0,1,0,0,488,0,0,False,0,0,13,0,1,,0,5,https://vcuathletics.com/sports/womens-basketball/roster
+754,Washington State,12,12,200,5,0,56,0,0,0,0,True,9,0,0,0,0,,0,0,https://wsucougars.com/sports/womens-basketball/roster
+811,Wyoming,15,1,200,0,0,42,0,1,0,0,False,0,0,0,0,0,,0,0,https://gowyo.com/sports/womens-basketball/roster
+812,Xavier,13,6,200,0,0,0,1072,0,0,0,True,0,7,0,11,1,,9,0,https://goxavier.com/sports/womens-basketball/roster
+626,San Diego State,14,1,200,5,0,364,0,0,0,0,True,13,0,0,0,0,,0,0,https://goaztecs.com/sports/womens-basketball/roster
+47,Ball State,10,4,200,0,0,0,865,0,0,0,True,0,6,0,6,0,,9,0,https://ballstatesports.com/sports/womens-basketball/roster
+71,Bowling Green,13,9,200,0,0,0,907,0,0,0,True,0,4,0,5,1,,9,0,https://bgsufalcons.com/sports/womens-basketball/roster
+1320,Presbyterian College,13,13,200,0,1,0,0,624,0,0,False,0,0,0,0,0,,0,0,https://gobluehose.com/sports/womens-basketball/roster
+72,Bradley,13,4,200,0,0,42,0,1,0,0,False,0,0,0,0,0,,0,0,https://bradleybraves.com/sports/womens-basketball/roster
+66,Boise State,15,4,200,0,0,0,1482,0,0,0,True,0,11,0,15,1,,11,0,https://broncosports.com/sports/womens-basketball/roster
+77,Brigham Young,12,12,200,5,341,0,0,0,0,0,True,0,0,0,0,0,,0,0,https://byucougars.com/sports/womens-basketball/roster
+769,Western Carolina,13,1,200,0,1,0,0,593,0,0,False,0,0,33,0,1,,0,4,https://catamountsports.com/sports/womens-basketball/roster
+458,Charlotte,14,3,200,0,0,0,1090,0,0,0,True,0,11,0,13,1,,11,0,https://charlotte49ers.com/sports/womens-basketball/roster
+148,Cleveland State,13,2,200,0,1,0,0,644,0,0,False,0,0,25,0,1,,0,0,https://csuvikings.com/sports/womens-basketball/roster
+1014,College of Charleston,11,1,200,0,0,0,856,0,0,0,True,0,10,0,10,1,,5,0,https://cofcsports.com/sports/womens-basketball/roster
+94,Cal State Bakersfield,15,15,200,0,1,0,0,688,0,0,False,0,0,1,0,0,,0,5,https://gorunners.com/sports/womens-basketball/roster
+48,Charleston Southern,13,4,200,0,1,0,0,674,0,0,False,0,0,22,0,1,,0,0,https://www.csusports.com/sports/womens-basketball/roster
+173,Davidson,13,3,200,0,0,0,904,0,0,0,True,0,10,0,10,1,,7,0,https://davidsonwildcats.com/sports/womens-basketball/roster
+201,Eastern Illinois,14,1,200,0,1,0,0,674,0,0,False,0,0,31,0,1,,0,4,https://eiupanthers.com/sports/womens-basketball/roster
+198,East Tennessee State,13,2,200,0,1,0,0,605,0,0,False,0,0,31,0,1,,0,5,https://etsubucs.com/sports/womens-basketball/roster
+207,Eastern Washington,14,1,200,0,1,0,0,708,0,0,False,0,0,36,0,1,,0,3,https://goeags.com/sports/womens-basketball/roster
+229,Florida Atlantic,14,1,200,0,0,0,1188,0,0,0,True,0,13,0,14,1,,11,0,https://fausports.com/sports/womens-basketball/roster
+96,Fresno State,15,1,200,0,0,0,1071,0,0,0,True,0,14,0,15,1,,7,0,https://gobulldogs.com/sports/womens-basketball/roster
+610,Saint Mary's (CA),15,3,200,0,0,0,956,0,0,0,True,0,12,0,12,1,,9,0,https://smcgaels.com/sports/womens-basketball/roster
+140,Cincinnati,15,1,200,5,301,0,0,0,0,0,True,14,0,0,0,0,,0,0,https://gobearcats.com/sports/womens-basketball/roster
+782,Wichita State,12,1,200,0,1,0,0,699,0,0,False,0,0,27,0,1,,0,4,https://goshockers.com/sports/womens-basketball/roster
+255,Georgia Tech,14,14,200,5,319,0,0,0,0,0,True,11,0,0,0,0,,0,0,https://ramblinwreck.com/sports/w-baskbl/roster
+275,Harvard,18,2,200,0,1,0,0,855,0,0,False,0,0,48,0,1,,0,1,https://gocrimson.com/sports/womens-basketball/roster
+285,Holy Cross,15,1,200,0,1,0,0,753,0,0,False,0,0,39,0,1,,0,2,https://goholycross.com/sports/womens-basketball/roster
+19651,High Point,13,1,200,0,1,0,0,709,0,0,False,0,0,29,0,1,,0,0,https://highpointpanthers.com/sports/womens-basketball/roster
+1157,Kennesaw State,14,1,200,0,1,0,0,772,0,0,False,0,0,0,0,0,,0,6,https://ksuowls.com/sports/womens-basketball/roster
+328,Kansas,13,13,200,0,0,0,1130,0,0,0,True,0,0,0,13,0,,9,0,https://kuathletics.com/sports/wbball/roster
+346,Lamar,13,1,200,0,1,0,0,669,0,0,False,0,0,30,0,1,,0,4,https://lamarcardinals.com/sports/womens-basketball/roster
+352,Lehigh,13,4,200,0,0,0,910,0,0,0,True,0,9,0,13,1,Brigidine College St. Ives/Blair Academy,11,0,https://lehighsports.com/sports/womens-basketball/roster
+355,Liberty,15,15,200,0,0,0,1242,0,0,0,True,0,0,0,15,0,,11,0,https://libertyflames.com/sports/womens-basketball/roster
+655,Southeastern Louisiana,14,1,200,0,1,0,0,679,0,0,False,0,0,30,0,1,,0,0,https://lionsports.net/sports/womens-basketball/roster
+402,McNeese State,13,2,200,0,1,0,0,664,0,0,False,0,0,24,0,1,,0,5,https://mcneesesports.com/sports/womens-basketball/roster
+410,Merrimack,15,3,200,0,1,0,0,696,0,0,False,0,0,29,0,1,,0,4,https://merrimackathletics.com/sports/womens-basketball/roster
+416,Michigan State,16,4,200,0,0,0,1284,0,0,0,True,0,12,0,13,0,,9,0,https://msuspartans.com/sports/womens-basketball/roster
+440,Montana State,14,1,200,0,0,0,1168,0,0,0,True,0,13,0,13,1,,11,0,https://msubobcats.com/sports/womens-basketball/roster
+482,Niagara,14,6,200,0,1,0,0,625,0,0,False,0,0,24,0,1,,0,5,https://purpleeagles.com/sports/womens-basketball/roster
+505,Northern Kentucky,13,7,200,0,1,0,0,628,0,0,False,0,0,16,0,1,,0,4,https://nkunorse.com/sports/womens-basketball/roster
+472,New Mexico State,14,13,200,0,1,0,0,636,0,0,False,0,0,2,0,1,,0,5,https://nmstatesports.com/sports/womens-basketball/roster
+518,Ohio State,11,1,200,0,0,0,810,0,0,0,True,0,10,0,11,0,,9,0,https://ohiostatebuckeyes.com/sports/womens-basketball/roster
+527,Oral Roberts,12,1,200,0,1,0,0,590,0,0,False,0,0,30,0,1,,0,5,https://oruathletics.com/sports/womens-basketball/roster
+521,Oklahoma State,13,3,200,0,0,0,1259,0,0,0,True,0,13,0,13,1,Goodland,11,0,https://okstate.com/sports/womens-basketball/roster
+522,Oklahoma,14,2,200,0,0,0,1407,0,0,0,True,0,12,0,14,1,,11,0,https://soonersports.com/sports/womens-basketball/roster
+539,Penn State,10,2,200,5,288,0,0,0,0,0,True,8,0,0,0,0,,0,0,https://gopsusports.com/sports/womens-basketball/roster
+474,New Orleans,13,13,200,0,1,0,0,611,0,0,False,0,0,0,0,0,,0,5,https://unoprivateers.com/sports/womens-basketball/roster
+671,Louisiana,15,1,200,0,0,0,1260,0,0,0,True,0,14,0,14,1,,9,0,https://ragincajuns.com/sports/womens-basketball/roster
+371,Loyola-Chicago,12,1,200,0,1,0,0,574,0,0,False,0,0,28,0,1,,0,5,https://loyolaramblers.com/sports/womens-basketball/roster
+299,Illinois State,14,1,200,0,1,0,0,713,0,0,False,0,0,33,0,1,,0,4,https://goredbirds.com/sports/womens-basketball/roster
+572,Rhode Island,13,2,200,0,1,0,0,594,0,0,False,0,0,33,0,1,,0,3,https://gorhody.com/sports/womens-basketball/roster
+574,Rice,14,1,200,0,0,0,1099,0,0,0,True,0,13,0,14,0,,7,0,https://riceowls.com/sports/womens-basketball/roster
+368,UMass Lowell,14,5,200,0,0,0,1068,0,0,0,True,0,7,0,9,0,,9,0,https://goriverhawks.com/sports/womens-basketball/roster
+609,Saint Louis,12,3,200,0,1,0,0,595,0,0,False,0,0,25,0,1,,0,5,https://slubillikens.com/sports/womens-basketball/roster
+625,Samford,12,1,200,0,0,0,889,0,0,0,True,0,0,0,12,0,,9,0,https://samfordsports.com/sports/womens-basketball/roster
+630,San Jose State,14,8,200,5,271,0,0,0,0,0,True,6,0,0,0,0,,0,0,https://sjsuspartans.com/sports/womens-basketball/roster
+676,Stephen F. Austin,13,4,200,0,0,0,914,0,0,0,True,0,9,0,9,1,,7,0,https://sfajacks.com/sports/womens-basketball/roster
+678,Stetson,13,1,200,0,1,0,0,637,0,0,False,0,0,31,0,1,,0,5,https://gohatters.com/sports/womens-basketball/roster
+683,Stony Brook,13,1,200,0,1,0,0,711,0,0,False,0,0,26,0,1,,0,5,https://stonybrookathletics.com/sports/womens-basketball/roster
+698,Texas Christian,12,2,200,0,0,0,1128,0,0,0,True,0,10,0,10,1,,9,0,https://gofrogs.com/sports/womens-basketball/roster
+711,Towson,15,1,200,0,1,0,0,718,0,0,False,0,0,36,0,1,,0,4,https://towsontigers.com/sports/womens-basketball/roster
+670,Texas State,13,2,200,0,1,0,0,602,0,0,False,0,0,26,0,1,,0,5,https://txst.com/sports/womens-basketball/roster
+9,UAB,12,1,200,0,0,0,1042,0,0,0,True,0,11,0,12,1,,11,0,https://uabsports.com/sports/womens-basketball/roster
+1004,Central Arkansas,14,6,200,0,1,0,0,623,0,0,False,0,0,23,0,1,,0,3,https://ucasports.com/sports/womens-basketball/roster
+108,UC Davis,14,3,200,0,1,0,0,695,0,0,False,0,0,25,0,1,,0,6,https://ucdavisaggies.com/sports/womens-basketball/roster
+104,UC Santa Barbara,13,1,200,0,1,0,0,646,0,0,False,0,0,31,0,1,,0,5,https://ucsbgauchos.com/sports/womens-basketball/roster
+257,Georgia,13,2,200,0,0,0,1022,0,0,0,True,0,11,0,13,1,,7,0,https://georgiadogs.com/sports/womens-basketball/roster
+288,Houston,13,1,200,0,0,0,1281,0,0,0,True,0,12,0,12,1,,9,0,https://uhcougars.com/sports/womens-basketball/roster
+498,Louisiana Monroe,13,2,200,0,1,0,0,632,0,0,False,0,0,22,0,1,,0,4,https://ulmwarhawks.com/sports/womens-basketball/roster
+400,Massachusetts,15,1,200,0,0,0,1186,0,0,0,True,0,14,0,15,1,,9,0,https://umassathletics.com/sports/womens-basketball/roster
+502,Northern Colorado,12,8,200,0,0,0,986,0,0,0,True,0,4,0,10,1,,11,0,https://uncbears.com/sports/womens-basketball/roster
+456,UNC Asheville,14,10,200,0,0,0,1074,0,0,0,True,0,4,0,14,0,,11,0,https://uncabulldogs.com/sports/womens-basketball/roster
+473,New Mexico,15,15,200,5,279,0,0,0,0,0,True,0,0,0,0,0,,0,0,https://golobos.com/sports/wbball/roster
+657,Southern Cal,12,2,200,0,0,0,1145,0,0,0,True,0,10,0,11,1,,13,0,https://usctrojans.com/sports/womens-basketball/roster
+627,San Diego,13,1,200,0,1,0,0,667,0,0,False,0,0,32,0,1,,0,5,https://usdtoreros.com/sports/womens-basketball/roster
+704,Texas-El Paso,13,10,200,0,1,0,0,620,0,0,False,0,0,9,0,1,,0,6,https://utepminers.com/sports/womens-basketball/roster
+695,UT Martin,14,14,200,0,0,0,962,0,0,0,True,0,14,0,14,0,Greenforest Christian Academy,13,0,https://utmsports.com/sports/womens-basketball/roster
+536,UT-Rio Grande Valley,13,1,200,0,1,0,0,637,0,0,False,0,0,28,0,1,,0,0,https://goutrgv.com/sports/womens-basketball/roster
+738,Vermont,14,1,200,0,1,0,0,683,0,0,False,0,0,37,0,1,,0,5,https://uvmathletics.com/sports/womens-basketball/roster
+736,Vanderbilt,12,12,200,5,464,0,0,0,0,0,True,12,0,0,0,0,,0,0,https://vucommodores.com/sports/wbball/roster
+758,Weber State,14,11,200,0,0,0,1030,0,0,0,True,0,3,0,14,1,,5,0,https://weberstatesports.com/sports/womens-basketball/roster
+792,Winthrop,14,2,200,0,1,0,0,701,0,0,False,0,0,26,0,1,,0,4,https://winthropeagles.com/sports/womens-basketball/roster
+774,Western Michigan,13,2,200,0,1,0,0,626,0,0,False,0,0,27,0,1,,0,0,https://wmubroncos.com/sports/womens-basketball/roster
+260,Gonzaga,13,1,200,0,0,0,1054,0,0,0,True,0,5,0,12,0,,9,0,https://gozags.com/sports/womens-basketball/roster
+5,Akron,14,14,200,0,0,0,964,0,0,0,True,0,14,0,14,1,Kettering Fairmont,9,0,https://gozips.com/sports/womens-basketball/roster
+1013,Charleston (WV),16,4,200,0,1,0,0,675,0,0,False,0,0,36,0,1,,0,0,https://ucgoldeneagles.com/sports/womens-basketball/roster
+1071,Emporia St.,14,4,200,0,1,0,0,620,0,0,False,0,0,25,0,1,,0,4,https://esuhornets.com/sports/womens-basketball/roster
+1072,Erskine,20,1,200,0,1,0,0,851,0,0,False,0,0,52,0,1,,0,1,https://erskinesports.com/sports/womens-basketball/roster
+1083,Fort Lewis,16,2,200,0,1,0,0,733,0,0,False,0,0,38,0,1,,0,0,https://goskyhawks.com/sports/womens-basketball/roster
+1085,Francis Marion,16,3,200,0,1,0,0,719,0,0,False,0,0,34,0,1,,0,4,https://fmupatriots.com/sports/womens-basketball/roster
+1116,Harding,12,12,200,0,1,0,0,555,0,0,False,0,0,0,0,0,,0,0,https://hardingsports.com/sports/womens-basketball/roster
+11276,S.C. Aiken,12,12,200,0,1,0,0,505,0,0,False,0,0,0,0,0,,0,5,https://pacersports.com/sports/womens-basketball/roster
+11504,Queens (NC),15,3,200,0,1,0,0,690,0,0,False,0,0,31,0,1,,0,4,https://queensathletics.com/sports/womens-basketball/roster
+1167,Lander,18,1,200,0,1,0,0,805,0,0,False,0,0,42,0,1,,0,0,https://landerbearcats.com/sports/womens-basketball/roster
+120,Carroll (WI),14,3,200,0,1,0,0,583,0,0,False,0,0,33,0,1,,0,0,https://gopios.com/sports/womens-basketball/roster
+1238,Montevallo,17,11,200,0,1,0,0,768,0,0,False,0,0,18,0,1,,0,5,https://montevallofalcons.com/sports/womens-basketball/roster
+1245,Mount Olive,16,3,200,0,1,0,0,696,0,0,False,0,0,38,0,1,,0,4,https://umotrojans.com/sports/womens-basketball/roster
+125,Centenary (LA),11,3,200,0,0,0,0,0,0,0,False,0,0,0,0,0,,0,0,https://www.gocentenary.com/sports/wbkb/2026-27
+1257,Newberry,24,6,200,0,1,0,0,989,0,0,False,0,0,53,0,1,,0,4,https://newberrywolves.com/sports/womens-basketball/roster
+12799,Wheeling,24,24,200,0,1,0,0,752,0,0,False,0,0,51,0,1,,0,0,https://wucardinals.com/sports/womens-basketball/roster
+1314,Pittsburg St.,12,12,200,0,1,0,0,554,0,0,False,0,0,0,0,0,,0,0,https://pittstategorillas.com/sports/womens-basketball/roster
+1371,Southeastern Okla.,15,1,200,0,1,0,0,655,0,0,False,0,0,0,0,0,,0,3,https://gosoutheastern.com/sports/womens-basketball/roster
+1376,Southern Ark.,16,6,200,0,1,0,0,675,0,0,False,0,0,30,0,1,,0,4,https://muleriderathletics.com/sports/womens-basketball/roster
+1434,Waynesburg,24,11,200,0,1,0,0,913,0,0,False,0,0,37,0,1,,0,1,https://waynesburgsports.com/sports/womens-basketball/roster
+1445,Western N.M.,17,1,200,0,1,0,0,740,0,0,False,0,0,42,0,1,,0,4,https://wnmumustangs.com/sports/womens-basketball/roster
+124,Catholic,24,1,200,0,1,0,0,1034,0,0,False,0,0,67,0,1,,0,1,https://catholicathletics.com/sports/womens-basketball/roster
+156,Colorado St.,15,1,200,0,0,0,1195,0,0,0,True,0,14,0,15,1,,11,0,https://csurams.com/sports/womens-basketball/roster
+159,Columbus St.,17,17,200,0,1,0,0,750,0,0,False,0,0,0,0,0,,0,0,https://csucougars.com/sports/womens-basketball/roster
+16,Albright,17,8,200,0,1,0,0,738,0,0,False,0,0,26,0,1,,0,4,https://albrightathletics.com/sports/womens-basketball/roster
+195,Earlham,8,4,200,0,1,0,0,341,0,0,False,0,0,12,0,1,,0,3,https://goearlham.com/sports/womens-basketball/roster
+196,East Carolina,14,1,200,0,0,0,1113,0,0,0,True,0,13,0,13,1,,11,0,https://ecupirates.com/sports/womens-basketball/roster
+199,Tex. A&M-Commerce,15,9,200,0,1,0,0,647,0,0,False,0,0,36,0,1,Academy of Holy Angels,0,0,https://lionathletics.com/sports/womens-basketball/roster
+205,Mont. St. Billings,13,13,200,0,1,0,0,681,0,0,False,0,0,0,0,0,,0,6,https://msubsports.com/sports/womens-basketball/roster
+206,Eastern N.M.,14,10,200,0,1,0,0,614,0,0,False,0,0,10,0,1,,0,3,https://goeasternathletics.com/sports/womens-basketball/roster
+209,Edinboro,13,1,200,0,1,0,0,566,0,0,False,0,0,33,0,1,,0,1,https://gofightingscots.com/sports/womens-basketball/roster
+213,Elmira,20,20,200,0,1,0,0,857,0,0,False,0,0,17,0,0,,0,5,https://athletics.elmira.edu/sports/womens-basketball/roster
+221,FDU-Florham,19,2,200,0,1,0,0,862,0,0,False,0,0,54,0,1,,0,2,https://fdudevils.com/sports/womens-basketball/roster
+231,FIU,14,2,200,0,1,0,0,645,0,0,False,0,0,29,0,1,,0,5,https://fiusports.com/sports/womens-basketball/roster
+23157,Felician,18,1,200,0,1,0,0,732,0,0,False,0,0,12,0,0,,0,1,https://felicianuathletics.com/sports/womens-basketball/roster
+235,Florida,13,1,200,0,0,0,1178,8,0,0,True,0,11,0,12,1,,9,0,https://floridagators.com/sports/womens-basketball/roster
+24639,Nova Southeastern,13,4,200,0,1,0,0,561,0,0,False,0,0,20,0,1,,0,4,https://nsusharks.com/sports/womens-basketball/roster
+25,Angelo St.,13,3,200,0,1,0,0,596,0,0,False,0,0,1,0,0,,0,2,https://angelosports.com/sports/womens-basketball/roster
+261,Grambling,14,12,200,0,1,0,0,660,0,0,False,0,0,6,0,1,,0,0,https://gsutigers.com/sports/womens-basketball/roster
+262,Grand Valley St.,20,20,200,0,1,0,0,851,0,0,False,0,0,0,0,0,,0,0,https://gvsulakers.com/sports/womens-basketball/roster
+2755,Southwest Baptist,17,6,200,0,1,0,0,667,0,0,False,0,0,33,0,1,,0,3,https://www.sbubearcats.com/sports/womens-basketball/roster
+27854,Minn.-Crookston,14,14,200,0,1,0,0,602,0,0,False,0,0,0,0,0,,0,3,https://goldeneaglesports.com/sports/womens-basketball/roster
+2810,St. Thomas (TX),18,5,200,0,1,0,0,661,0,0,False,0,0,36,0,1,,0,3,https://ustcelts.com/sports/womens-basketball/roster
+28749,Transylvania,20,2,200,0,1,0,0,812,0,0,False,0,0,54,0,1,,0,1,http://www.transysports.com/sports/womens-basketball/roster
+294,Idaho St.,15,15,200,0,1,0,0,651,0,0,False,0,0,0,0,0,,0,0,https://isubengals.com/sports/womens-basketball/roster
+3,Adelphi,14,2,200,0,1,0,0,618,0,0,False,0,0,35,0,0,,0,2,https://aupanthers.com/sports/womens-basketball/roster
+30028,Texas-Tyler,15,2,200,0,1,0,0,615,0,0,False,0,0,33,0,1,,0,4,https://uttylerpatriots.com/sports/womens-basketball/roster
+30035,Crown (MN),18,1,200,0,1,0,0,790,0,0,False,0,0,47,0,1,,0,2,https://athletics.crown.edu/sports/womens-basketball/roster
+30045,Palm Beach Atl.,18,2,200,0,1,0,0,783,0,0,False,0,0,41,0,1,,0,1,https://pbasailfish.com/sports/womens-basketball/roster
+30047,Keystone,10,3,200,0,1,0,0,613,0,0,False,0,0,38,0,1,,0,2,https://www.gokcgiants.com/sports/womens-basketball/roster
+30069,Franciscan,12,5,200,0,1,0,0,493,0,0,False,0,0,21,0,1,,0,0,https://franciscanathletics.com/sports/womens-basketball/roster
+30073,William Smith,13,2,200,0,1,0,0,630,0,0,False,0,0,33,0,1,,0,1,https://hwsathletics.com/sports/womens-basketball/roster
+30092,Flagler,15,5,200,0,1,0,0,724,0,0,False,0,0,0,0,0,,0,6,https://flaglerathletics.com/sports/womens-basketball/roster
+30105,Ark.-Fort Smith,13,8,200,0,1,0,0,578,0,0,False,0,0,14,0,1,,0,4,https://uafortsmithlions.com/sports/womens-basketball/roster
+30111,Covenant,17,7,200,0,1,0,0,642,0,0,False,0,0,29,0,1,,0,1,https://athletics.covenant.edu/sports/womens-basketball/roster
+30119,Ohio Dominican,9,3,200,0,1,0,0,352,0,0,False,0,0,18,0,1,,0,1,https://ohiodominicanpanthers.com/sports/womens-basketball/roster
+30120,William Jewell,16,16,200,0,1,0,0,723,0,0,False,0,0,0,0,0,,0,0,https://jewellcardinals.com/sports/womens-basketball/roster
+30127,Simon Fraser,14,1,200,0,1,0,0,596,0,0,False,0,0,38,0,1,,0,2,https://athletics.sfu.ca/sports/womens-basketball/roster
+30149,Point Loma,13,1,200,0,1,0,0,582,0,0,False,0,0,32,0,1,,0,4,https://plnusealions.com/sports/womens-basketball/roster
+30153,Union (TN),16,11,200,0,1,0,0,732,0,0,False,0,0,10,0,1,,0,5,https://uuathletics.com/sports/womens-basketball/roster
+30154,Young Harris,17,1,200,0,1,0,0,731,0,0,False,0,0,36,0,1,,0,0,https://yhcathletics.com/sports/womens-basketball/roster
+30178,Northwestern Okla.,17,7,200,0,1,0,0,710,0,0,False,0,0,25,0,1,,0,2,https://riderangersride.com/sports/womens-basketball/roster
+30192,Southern Wesleyan,15,6,200,0,1,0,0,673,0,0,False,0,0,24,0,1,,0,5,https://swuathletics.com/sports/womens-basketball/roster
+30202,Okla. Baptist,12,11,200,0,1,0,0,538,0,0,False,0,0,0,0,0,,0,5,https://obubison.com/sports/womens-basketball/roster
+30220,Biola,15,15,200,0,1,0,0,728,0,0,False,0,0,0,0,0,Lynden Christian School,0,0,https://athletics.biola.edu/sports/womens-basketball/roster
+30221,Davenport,15,5,200,0,1,0,0,629,0,0,False,0,0,23,0,1,,0,1,https://dupanthers.com/sports/womens-basketball/roster
+30222,Purdue Northwest,15,3,200,0,1,0,0,676,0,0,False,0,0,29,0,1,,0,4,https://pnwathletics.com/sports/womens-basketball/roster
+307,Indiana (PA),14,5,200,0,1,0,0,628,0,0,False,0,0,22,0,1,,0,3,https://iupathletics.com/sports/womens-basketball/roster
+309,UIndy,16,1,200,0,1,0,0,716,0,0,False,0,0,38,0,1,,0,0,https://athletics.uindy.edu/sports/womens-basketball/roster
+315,Jacksonville St.,13,2,200,0,0,0,897,0,0,0,True,0,11,0,11,1,,9,0,https://jsugamecocksports.com/sports/womens-basketball/roster
+320,John Carroll,20,7,200,0,1,0,0,854,0,0,False,0,0,42,0,1,,0,5,https://jcusports.com/sports/womens-basketball/roster
+323,Johnson C. Smith,14,12,200,0,1,0,0,511,0,0,False,0,0,5,0,1,,0,4,https://goldenbullsports.com/sports/womens-basketball/roster
+333,Ky. Wesleyan,14,1,200,0,1,0,0,652,0,0,False,0,0,38,0,1,,0,0,https://kwcpanthers.com/sports/womens-basketball/roster
+370,Loyola Marymount,14,1,200,0,1,0,0,712,0,0,False,0,0,4,0,0,,0,4,https://lmulions.com/sports/womens-basketball/roster
+39,Augusta,14,14,200,0,1,0,0,596,0,0,False,0,0,0,0,0,,0,3,https://augustajags.com/sports/womens-basketball/roster
+394,Marymount (VA),17,8,200,0,1,0,0,624,0,0,False,0,0,27,0,1,,0,1,https://marymountsaints.com/sports/womens-basketball/roster
+40,Augustana (IL),21,19,200,0,1,0,0,775,0,0,False,0,0,1,0,0,,0,3,https://athletics.augustana.edu/sports/womens-basketball/roster
+413,MSU Denver,12,2,200,0,1,0,0,572,0,0,False,0,0,23,0,1,,0,5,https://roadrunnersathletics.com/sports/womens-basketball/roster
+417,Michigan Tech,16,1,200,0,1,0,0,676,0,0,False,0,0,43,0,1,,0,1,https://michigantechhuskies.com/sports/womens-basketball/roster
+422,Miles,1,1,200,0,1,0,0,602,0,0,False,0,0,0,0,0,,0,3,https://milesgoldenbears.com/sports/womens-basketball/roster
+424,Millikin,23,1,200,0,1,0,0,1024,0,0,False,0,0,64,0,1,,0,3,https://athletics.millikin.edu/sports/womens-basketball/roster
+426,Millsaps,24,12,200,0,1,0,0,871,0,0,False,0,0,35,0,1,,0,2,https://gomajors.com/sports/womens-basketball/roster
+427,Minn. Duluth,15,1,200,0,1,0,0,665,0,0,False,0,0,31,0,1,,0,2,https://umdbulldogs.com/sports/womens-basketball/roster
+429,Mississippi College,15,15,200,0,1,0,0,664,0,0,False,0,0,0,0,0,,0,0,https://www.gochoctaws.com/sports/womens-basketball/roster
+435,Missouri S&T,18,8,200,0,1,0,0,665,0,0,False,0,0,28,0,1,,0,1,https://minerathletics.com/sports/womens-basketball/roster
+438,Monmouth (IL),12,6,200,0,1,0,0,454,0,0,False,0,0,17,0,1,,0,1,https://monmouthscots.com/sports/womens-basketball/roster
+460,UNCW,12,1,200,0,1,0,0,585,0,0,False,0,0,27,0,1,,0,4,https://uncwsports.com/sports/womens-basketball/roster
+470,New Haven,20,3,200,0,1,0,0,873,0,0,False,0,0,50,0,1,,0,0,https://newhavenchargers.com/sports/womens-basketball/roster
+49,Barry,14,14,200,0,1,0,0,637,0,0,False,0,0,0,0,0,,0,0,https://gobarrybucs.com/sports/womens-basketball/roster
+500,Northeastern,13,6,200,0,1,0,0,548,0,0,False,0,0,20,0,1,,0,3,https://nuhuskies.com/sports/womens-basketball/roster
+514,Oakland,14,3,200,0,1,0,0,665,0,0,False,0,0,28,0,1,,0,4,https://goldengrizzlies.com/sports/womens-basketball/roster
+515,Oberlin,11,1,200,0,1,0,0,559,0,0,False,0,0,30,0,1,,0,3,https://goyeo.com/sports/womens-basketball/roster
+533,Pace,18,10,200,0,1,0,0,620,0,0,False,0,0,23,0,1,,0,1,https://paceuathletics.com/sports/womens-basketball/roster
+54,Bemidji St.,14,6,200,0,1,0,0,623,0,0,False,0,0,23,0,1,,0,4,https://bsubeavers.com/sports/womens-basketball/roster
+560,Queens (NY),15,8,200,0,1,0,0,659,0,0,False,0,0,20,0,1,,0,0,https://queensknights.com/sports/womens-basketball/roster
+565,Randolph-Macon,18,7,200,0,1,0,0,694,0,0,False,0,0,33,0,1,,0,1,https://rmcathletics.com/sports/womens-basketball/roster
+6,Alabama A&M,15,15,200,0,1,0,0,732,0,0,False,0,0,0,0,0,,0,0,https://aamusports.com/sports/womens-basketball/roster
+608,Saint Leo,16,1,200,0,1,0,0,773,0,0,False,0,0,44,0,1,,0,3,https://saintleolions.com/sports/womens-basketball/roster
+613,Saint Michael's,13,1,200,0,1,0,0,683,0,0,False,0,0,48,0,1,,0,2,https://smcathletics.com/sports/womens-basketball/roster
+647,South Carolina St.,19,19,200,0,1,0,0,785,0,0,False,0,0,0,0,0,,0,4,https://www.scsuathletics.com/sports/womens-basketball/roster
+1400,Texas Lutheran,16,4,200,0,1,0,0,640,0,0,False,0,0,34,0,1,,0,2,https://tlubulldogs.com/sports/womens-basketball/roster
+691,Tennessee St.,13,3,200,0,1,0,0,636,0,0,False,0,0,29,0,1,,0,5,https://tsutigers.com/sports/womens-basketball/roster
+696,Tex. A&M-Kingsville,13,2,200,0,1,0,0,590,0,0,False,0,0,28,0,1,,0,5,https://javelinaathletics.com/sports/womens-basketball/roster
+701,Texas Woman's,14,8,200,0,1,0,0,581,0,0,False,0,0,16,0,1,,0,2,https://twuathletics.com/sports/womens-basketball/roster
+748,Wagner,15,2,200,0,1,0,0,673,0,0,False,0,0,32,0,1,,0,5,https://wagnerathletics.com/sports/womens-basketball/roster
+772,Western Ky.,13,3,200,0,0,0,1007,0,0,0,True,0,10,0,10,1,,7,0,https://wkusports.com/sports/womens-basketball/roster
+810,Wright St.,14,1,200,0,0,0,885,0,0,0,True,0,13,0,13,1,,9,0,https://wsuraiders.com/sports/womens-basketball/roster
+84,Buena Vista,20,1,200,0,1,0,0,801,0,0,False,0,0,54,0,1,,0,2,https://bvuathletics.com/sports/womens-basketball/roster
+8411,Ark.-Monticello,13,1,200,0,1,0,0,611,0,0,False,0,0,30,0,1,,0,4,https://www.uamsports.com/sports/womens-basketball/roster
+8744,Southwestern Okla.,12,12,200,0,1,0,0,562,0,0,False,0,0,0,0,0,,0,0,https://swosuathletics.com/sports/womens-basketball/roster
+8935,Converse,19,3,200,0,1,0,0,847,0,0,False,0,0,40,0,1,,0,1,https://govalkyries.com/sports/womens-basketball/roster
+8965,East Central,13,7,200,0,1,0,0,556,0,0,False,0,0,12,0,1,,0,0,https://ecutigers.com/sports/womens-basketball/roster
+9012,Mo. Southern St.,15,15,200,0,1,0,0,679,0,0,False,0,0,0,0,0,,0,0,https://mssulions.com/sports/womens-basketball/roster
+929,Adams St.,14,8,200,0,1,0,0,616,0,0,False,0,0,18,0,1,,0,5,https://asugrizzlies.com/sports/womens-basketball/roster
+947,Arkansas Tech,14,14,200,0,1,0,0,609,0,0,False,0,0,0,0,0,,0,0,https://arkansastechsports.com/sports/womens-basketball/roster
+985,Bluefield St.,16,12,200,0,1,0,0,684,0,0,False,0,0,9,0,1,,0,3,https://gobstate.com/sports/womens-basketball/roster
+30244,Edward Waters,16,1,200,0,1,0,0,749,0,0,False,0,0,30,0,1,,0,4,https://ewutigerpride.com/sports/womens-basketball/roster
+1097,Ga. Southwestern,12,2,200,0,1,0,0,544,0,0,False,0,0,26,0,1,,0,5,https://gswcanes.com/sports/womens-basketball/roster
+534,Pacific,14,3,200,0,1,0,0,647,0,0,False,0,0,32,0,1,,0,4,https://pacifictigers.com/sports/womens-basketball/roster
+743,Virginia State,13,1,200,0,1,0,0,573,0,0,False,0,0,31,0,1,,0,4,https://govsutrojans.com/sports/womens-basketball/roster
+2696,Hawaii Pacific,17,1,200,0,1,0,0,723,0,0,False,0,0,39,0,1,,0,0,https://hpusharks.com/sports/womens-basketball/roster
+8366,Goldey-Beacom,14,2,200,0,1,0,0,673,0,0,False,0,0,36,0,0,,0,4,https://www.gbcathletics.com/sports/womens-basketball/roster
+9223,North Greenville,15,15,200,0,1,0,0,660,0,0,False,0,0,0,0,0,Wando High School,0,0,https://www.nguathletics.com/sports/womens-basketball/roster
+30150,Roberts Wesleyan,13,1,200,0,1,0,0,626,0,0,False,0,0,36,0,1,,0,5,https://robertsredhawks.com/sports/womens-basketball/roster
+30193,Emmanuel (GA),19,1,200,0,1,0,0,783,0,0,False,0,0,54,0,1,,0,0,https://goeulions.com/sports/womens-basketball/roster
+10,UAH,14,14,200,0,1,0,0,665,0,0,False,0,0,0,0,0,,0,6,https://uahchargers.com/sports/womens-basketball/roster
+13,Albany St. (GA),17,12,200,0,1,0,0,726,0,0,False,0,0,14,0,1,,0,4,https://asugoldenrams.com/sports/womens-basketball/roster
+437,Molloy,11,3,200,0,1,0,0,515,0,0,False,0,0,24,0,1,,0,0,https://molloylions.com/sports/womens-basketball/roster
+1176,Lincoln Memorial,13,12,200,0,1,0,0,597,0,0,False,0,0,3,0,1,,0,5,https://lmurailsplitters.com/sports/womens-basketball/roster
+1222,Midwestern St.,15,15,200,0,1,0,0,661,0,0,False,0,0,0,0,0,,0,5,https://msumustangs.com/sports/womens-basketball/roster
+30262,Jessup,18,18,200,0,1,0,0,760,0,0,False,0,0,0,0,0,Saint John Paul II Catholic HS,0,0,https://jessupathletics.com/sports/womens-basketball/roster
+2807,Roosevelt,17,3,200,0,1,0,0,746,0,0,False,0,0,36,0,1,,0,5,https://rooseveltlakers.com/sports/womens-basketball/roster
+405,Menlo,17,17,200,0,1,0,0,825,0,0,False,0,0,0,0,0,,0,0,https://menloathletics.com/sports/womens-basketball/roster
+30080,Point Park,8,1,200,0,1,0,0,379,0,0,False,0,0,19,0,1,,0,4,https://pointparksports.com/sports/womens-basketball/roster
+30266,UC Merced,17,17,200,0,1,0,0,719,0,0,False,0,0,0,0,0,,0,4,https://ucmercedbobcats.com/sports/womens-basketball/roster
+1044,Dallas,14,1,200,0,1,0,0,593,0,0,False,0,0,38,0,1,,0,0,https://udallasathletics.com/sports/womens-basketball/roster
+1450,Westminster (MO),11,1,200,0,1,0,0,458,0,0,False,0,0,30,0,1,,0,2,https://wcbluejays.wcmo.edu/sports/womens-basketball/roster
+431,MUW,17,1,200,0,1,0,0,773,0,0,False,0,0,38,0,1,,0,4,https://owlsathletics.com/sports/womens-basketball/roster
+105,Cal Lutheran,24,4,200,0,1,0,0,971,0,0,False,0,0,60,0,1,,0,1,https://clusports.com/sports/womens-basketball/roster
+396,Maryville (TN),23,7,200,0,1,0,0,953,0,0,False,0,0,46,0,1,,0,1,https://mcscots.com/sports/womens-basketball/roster
+12399,Gwynedd Mercy,15,2,200,0,1,0,0,684,0,0,False,0,0,35,0,1,,0,1,https://gwyneddathletics.com/sports/womens-basketball/roster
+22989,Lyon,18,2,200,0,1,0,0,782,0,0,False,0,0,47,0,1,,0,4,https://lyonscots.com/sports/womens-basketball/roster
+30253,Carlow,14,7,200,0,0,0,0,0,0,0,False,0,0,0,0,0,,0,0,https://athletics.carlow.edu/sports/wbkb/2026-27

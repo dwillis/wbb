@@ -1,0 +1,70 @@
+{
+ "team_id": "574",
+ "team": "Rice",
+ "total": 14,
+ "no_hs": 1,
+ "roster_url": "https://riceowls.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 889436,
+  "oas_table": 0,
+  "oas_card": 0,
+  "oas_list": 0,
+  "person_card": 1099,
+  "sidearm_classic": 0,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 14,
+  "bio_fields_component": 0,
+  "th_high_school": 0,
+  "th_sample": [
+   "Name",
+   "Name",
+   "#",
+   "Pos.",
+   "Academic Year",
+   "Image",
+   "Coaching Staff",
+   "Image",
+   "Name",
+   "Title",
+   "Email",
+   "Phone Number"
+  ],
+  "present": true,
+  "entries": 3835,
+  "snake_persons_with_hs": 0,
+  "snake_sample": [],
+  "camel_persons_with_hs": 13,
+  "camel_sample": [
+   {
+    "name": "Reychel Douglas",
+    "hs": "Millbrook Magnet HS"
+   },
+   {
+    "name": "Kaylen Sta. Maria",
+    "hs": "Niagara Prep"
+   }
+  ]
+ },
+ "bio_url": "https://riceowls.com/sports/womens-basketball/roster/louann-battiston/11209",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 744203,
+  "bio_fields_component": 7,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://riceowls.com/sports/womens-basketball/roster/reychel-douglas/11219",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 728751,
+  "bio_fields_component": 9,
+  "field_label_class": 0,
+  "bio_hs_values": [
+   "Millbrook Magnet HS"
+  ]
+ }
+}

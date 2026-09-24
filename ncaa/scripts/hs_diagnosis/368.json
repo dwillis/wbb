@@ -1,0 +1,68 @@
+{
+ "team_id": "368",
+ "team": "UMass Lowell",
+ "total": 14,
+ "no_hs": 5,
+ "roster_url": "https://goriverhawks.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 1057457,
+  "oas_table": 0,
+  "oas_card": 0,
+  "oas_list": 0,
+  "person_card": 1068,
+  "sidearm_classic": 0,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 9,
+  "bio_fields_component": 0,
+  "th_high_school": 0,
+  "th_sample": [
+   "#",
+   "Name",
+   "Class",
+   "Pos",
+   "Hometown",
+   "Coaching Staff",
+   "Image",
+   "Name",
+   "Title",
+   "Email",
+   "Phone Number",
+   "Support Staff"
+  ],
+  "present": true,
+  "entries": 4226,
+  "snake_persons_with_hs": 0,
+  "snake_sample": [],
+  "camel_persons_with_hs": 7,
+  "camel_sample": [
+   {
+    "name": "Emina Kameric",
+    "hs": "John F. Kennedy School Berlin"
+   },
+   {
+    "name": "Carla Subirats",
+    "hs": "Institut Gorgs"
+   }
+  ]
+ },
+ "bio_url": "https://goriverhawks.com/sports/womens-basketball/roster/milena-lund/10413",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 908233,
+  "bio_fields_component": 9,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://goriverhawks.com/sports/womens-basketball/roster/yazmin-edwards/10415",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 908330,
+  "bio_fields_component": 9,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ }
+}

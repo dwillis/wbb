@@ -1,0 +1,70 @@
+{
+ "team_id": "173",
+ "team": "Davidson",
+ "total": 13,
+ "no_hs": 3,
+ "roster_url": "https://davidsonwildcats.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 1005084,
+  "oas_table": 0,
+  "oas_card": 0,
+  "oas_list": 0,
+  "person_card": 904,
+  "sidearm_classic": 0,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 10,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "#",
+   "Full Name",
+   "Yr.",
+   "Pos.",
+   "Ht.",
+   "Hometown / High School",
+   "Coaching Staff",
+   "Image",
+   "Name",
+   "Title",
+   "Email",
+   "Phone Number"
+  ],
+  "present": true,
+  "entries": 4147,
+  "snake_persons_with_hs": 0,
+  "snake_sample": [],
+  "camel_persons_with_hs": 10,
+  "camel_sample": [
+   {
+    "name": "Eliza Buerk",
+    "hs": "Clackamas"
+   },
+   {
+    "name": "Georgia Ferguson",
+    "hs": "Carine Wilson"
+   }
+  ]
+ },
+ "bio_url": "https://davidsonwildcats.com/sports/womens-basketball/roster/sharni-reisinger/11684",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 804066,
+  "bio_fields_component": 7,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://davidsonwildcats.com/sports/womens-basketball/roster/eliza-buerk/11677",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 825520,
+  "bio_fields_component": 13,
+  "field_label_class": 0,
+  "bio_hs_values": [
+   "Clackamas"
+  ]
+ }
+}

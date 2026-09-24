@@ -1,0 +1,68 @@
+{
+ "team_id": "502",
+ "team": "Northern Colorado",
+ "total": 12,
+ "no_hs": 8,
+ "roster_url": "https://uncbears.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 1002416,
+  "oas_table": 0,
+  "oas_card": 0,
+  "oas_list": 0,
+  "person_card": 986,
+  "sidearm_classic": 0,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 10,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "#",
+   "Name",
+   "Pos.",
+   "Year",
+   "Ht.",
+   "Hometown",
+   "High School",
+   "Previous School",
+   "Coaching Staff",
+   "Image",
+   "Name",
+   "Title"
+  ],
+  "present": true,
+  "entries": 4515,
+  "snake_persons_with_hs": 0,
+  "snake_sample": [],
+  "camel_persons_with_hs": 4,
+  "camel_sample": [
+   {
+    "name": "Heather Baymon",
+    "hs": "Langham Creek HS"
+   },
+   {
+    "name": "Erin Powell",
+    "hs": "Charnwood College"
+   }
+  ]
+ },
+ "bio_url": "https://uncbears.com/sports/womens-basketball/roster/neenah-george/12956",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 924328,
+  "bio_fields_component": 11,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://uncbears.com/sports/womens-basketball/roster/heather-baymon/12955",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 896739,
+  "bio_fields_component": 11,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ }
+}

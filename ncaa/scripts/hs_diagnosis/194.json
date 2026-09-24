@@ -1,0 +1,56 @@
+{
+ "team_id": "194",
+ "team": "Duquesne",
+ "total": 13,
+ "no_hs": 1,
+ "roster_url": "https://goduquesne.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 733057,
+  "oas_table": 0,
+  "oas_card": 1,
+  "oas_list": 0,
+  "person_card": 0,
+  "sidearm_classic": 690,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 32,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 0,
+  "th_sample": [
+   "Statistic",
+   "Statistic",
+   "#",
+   "Name",
+   "Cl.",
+   "Pos.",
+   "Ht.",
+   "Hometown / Last School",
+   "Transfer",
+   "Image",
+   "Name",
+   "Title"
+  ],
+  "present": false
+ },
+ "bio_url": "https://goduquesne.com/sports/womens-basketball/roster/dalma-grets/13821",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 455515,
+  "bio_fields_component": 0,
+  "field_label_class": 4,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://goduquesne.com/sports/womens-basketball/roster/ayala-oren/13817",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 456080,
+  "bio_fields_component": 0,
+  "field_label_class": 5,
+  "bio_hs_values": [
+   "Ben Gurion High School"
+  ]
+ }
+}

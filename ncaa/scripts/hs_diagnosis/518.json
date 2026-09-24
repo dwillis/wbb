@@ -1,0 +1,70 @@
+{
+ "team_id": "518",
+ "team": "Ohio State",
+ "total": 11,
+ "no_hs": 1,
+ "roster_url": "https://ohiostatebuckeyes.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 2112556,
+  "oas_table": 0,
+  "oas_card": 0,
+  "oas_list": 0,
+  "person_card": 810,
+  "sidearm_classic": 0,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 11,
+  "bio_fields_component": 0,
+  "th_high_school": 0,
+  "th_sample": [
+   "Number",
+   "Name",
+   "Position",
+   "Ht.",
+   "Year",
+   "Hometown",
+   "Last School",
+   "Coaching Staff",
+   "Image",
+   "Name",
+   "Title",
+   "Email"
+  ],
+  "present": true,
+  "entries": 16581,
+  "snake_persons_with_hs": 0,
+  "snake_sample": [],
+  "camel_persons_with_hs": 10,
+  "camel_sample": [
+   {
+    "name": "Sydney Mobley",
+    "hs": "Big Walnut H.S."
+   },
+   {
+    "name": "Kylee Kitts",
+    "hs": "Hagerty H.S."
+   }
+  ]
+ },
+ "bio_url": "https://ohiostatebuckeyes.com/sports/womens-basketball/roster/adriana-daz/13410",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 1932361,
+  "bio_fields_component": 9,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://ohiostatebuckeyes.com/sports/womens-basketball/roster/sydney-mobley/13638",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 1932541,
+  "bio_fields_component": 9,
+  "field_label_class": 0,
+  "bio_hs_values": [
+   "Big Walnut H.S."
+  ]
+ }
+}

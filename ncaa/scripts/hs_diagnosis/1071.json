@@ -1,0 +1,54 @@
+{
+ "team_id": "1071",
+ "team": "Emporia St.",
+ "total": 14,
+ "no_hs": 4,
+ "roster_url": "https://esuhornets.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 538046,
+  "oas_table": 0,
+  "oas_card": 1,
+  "oas_list": 0,
+  "person_card": 0,
+  "sidearm_classic": 620,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 25,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "Statistic",
+   "Statistic",
+   "#",
+   "Full Name",
+   "Pos.",
+   "Ht.",
+   "Year",
+   "Hometown",
+   "High School",
+   "Previous School",
+   "Image",
+   "Name"
+  ],
+  "present": false
+ },
+ "bio_url": "https://esuhornets.com/sports/womens-basketball/roster/blanca-oranias-ramon/7347",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 295792,
+  "bio_fields_component": 0,
+  "field_label_class": 4,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://esuhornets.com/sports/womens-basketball/roster/sarah-yokley/7346",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 295996,
+  "bio_fields_component": 0,
+  "field_label_class": 5,
+  "bio_hs_values": []
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "team_id": "147",
+ "team": "Clemson",
+ "total": 13,
+ "no_hs": 13,
+ "roster_url": "https://clemsontigers.com/sports/w-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 579371,
+  "oas_table": 5,
+  "oas_card": 307,
+  "oas_list": 0,
+  "person_card": 0,
+  "sidearm_classic": 0,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 0,
+  "th_sample": [],
+  "present": true,
+  "entries": 2552,
+  "snake_persons_with_hs": 13,
+  "snake_sample": [
+   {
+    "name": "Ja'Kerra Butler",
+    "hs": "Hebron Christian"
+   },
+   {
+    "name": "Holland Harris",
+    "hs": "Montverde Academy"
+   }
+  ],
+  "camel_persons_with_hs": 0,
+  "camel_sample": []
+ },
+ "bio_url": "https://clemsontigers.com/sports/w-basketball/roster/player/holland-harris",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 385599,
+  "bio_fields_component": 0,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ }
+}

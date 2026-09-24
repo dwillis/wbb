@@ -1,0 +1,56 @@
+{
+ "team_id": "8935",
+ "team": "Converse",
+ "total": 19,
+ "no_hs": 3,
+ "roster_url": "https://govalkyries.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 705370,
+  "oas_table": 0,
+  "oas_card": 1,
+  "oas_list": 0,
+  "person_card": 0,
+  "sidearm_classic": 847,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 40,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "Statistic",
+   "Statistic",
+   "Full Name",
+   "#",
+   "Hometown",
+   "High School",
+   "Previous School",
+   "Pos.",
+   "Ht.",
+   "Academic Year",
+   "Instagram",
+   "Twitter"
+  ],
+  "present": false
+ },
+ "bio_url": "https://govalkyries.com/sports/womens-basketball/roster/sophia-powell/4447",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 346449,
+  "bio_fields_component": 0,
+  "field_label_class": 1,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://govalkyries.com/sports/womens-basketball/roster/sidney-blackwell/4441",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 349505,
+  "bio_fields_component": 0,
+  "field_label_class": 5,
+  "bio_hs_values": [
+   "1 of 1 Academy"
+  ]
+ }
+}

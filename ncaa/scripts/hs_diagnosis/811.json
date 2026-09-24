@@ -1,0 +1,41 @@
+{
+ "team_id": "811",
+ "team": "Wyoming",
+ "total": 15,
+ "no_hs": 1,
+ "roster_url": "https://gowyo.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 717099,
+  "oas_table": 0,
+  "oas_card": 0,
+  "oas_list": 42,
+  "person_card": 0,
+  "sidearm_classic": 1,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 0,
+  "th_sample": [],
+  "present": false
+ },
+ "bio_url": "https://gowyo.com/sports/womens-basketball/roster/kati-ollilainen/12388",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 646691,
+  "bio_fields_component": 0,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://gowyo.com/sports/womens-basketball/roster/jersey-berg/12441",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 629284,
+  "bio_fields_component": 0,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ }
+}

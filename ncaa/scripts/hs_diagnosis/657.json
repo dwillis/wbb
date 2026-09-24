@@ -1,0 +1,70 @@
+{
+ "team_id": "657",
+ "team": "Southern Cal",
+ "total": 12,
+ "no_hs": 2,
+ "roster_url": "https://usctrojans.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 1310535,
+  "oas_table": 0,
+  "oas_card": 0,
+  "oas_list": 0,
+  "person_card": 1145,
+  "sidearm_classic": 0,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 11,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "#",
+   "Name",
+   "Pos.",
+   "Ht.",
+   "Year",
+   "Hometown",
+   "High School",
+   "Major",
+   "Coaching Staff",
+   "Image",
+   "Name",
+   "Title"
+  ],
+  "present": true,
+  "entries": 4919,
+  "snake_persons_with_hs": 0,
+  "snake_sample": [],
+  "camel_persons_with_hs": 10,
+  "camel_sample": [
+   {
+    "name": "Sitaya Fagan",
+    "hs": "Centre of Excellence"
+   },
+   {
+    "name": "Saniyah Hall",
+    "hs": "SPIRE Academy"
+   }
+  ]
+ },
+ "bio_url": "https://usctrojans.com/sports/womens-basketball/roster/pania-davis/18630",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 1126727,
+  "bio_fields_component": 13,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://usctrojans.com/sports/womens-basketball/roster/sitaya-fagan/18623",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 1130307,
+  "bio_fields_component": 13,
+  "field_label_class": 0,
+  "bio_hs_values": [
+   "Centre of Excellence"
+  ]
+ }
+}

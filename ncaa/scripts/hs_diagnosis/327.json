@@ -1,0 +1,70 @@
+{
+ "team_id": "327",
+ "team": "Kansas State",
+ "total": 12,
+ "no_hs": 5,
+ "roster_url": "https://www.kstatesports.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 1220672,
+  "oas_table": 0,
+  "oas_card": 0,
+  "oas_list": 0,
+  "person_card": 1110,
+  "sidearm_classic": 0,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 8,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "Pos.",
+   "#",
+   "Full Name",
+   "Ht.",
+   "Hometown",
+   "Academic Year",
+   "Previous School",
+   "High School",
+   "Coaching Staff",
+   "Image",
+   "Name",
+   "Title"
+  ],
+  "present": true,
+  "entries": 4257,
+  "snake_persons_with_hs": 0,
+  "snake_sample": [],
+  "camel_persons_with_hs": 7,
+  "camel_sample": [
+   {
+    "name": "Brandie Harrod",
+    "hs": "Putnam City North HS"
+   },
+   {
+    "name": "Gina Garcia",
+    "hs": "Segle XXI"
+   }
+  ]
+ },
+ "bio_url": "https://www.kstatesports.com/sports/womens-basketball/roster/nastja-claessens/13160",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 1080995,
+  "bio_fields_component": 7,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://www.kstatesports.com/sports/womens-basketball/roster/brandie-harrod/13163",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 1075014,
+  "bio_fields_component": 9,
+  "field_label_class": 0,
+  "bio_hs_values": [
+   "Putnam City North HS"
+  ]
+ }
+}

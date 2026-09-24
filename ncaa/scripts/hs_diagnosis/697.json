@@ -1,0 +1,47 @@
+{
+ "team_id": "697",
+ "team": "Texas A&M",
+ "total": 15,
+ "no_hs": 15,
+ "roster_url": "https://12thman.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 560629,
+  "oas_table": 5,
+  "oas_card": 0,
+  "oas_list": 391,
+  "person_card": 0,
+  "sidearm_classic": 0,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 0,
+  "th_sample": [],
+  "present": true,
+  "entries": 2648,
+  "snake_persons_with_hs": 14,
+  "snake_sample": [
+   {
+    "name": "Chaney Spencer",
+    "hs": "Lake Creek"
+   },
+   {
+    "name": "Vanessa Saidu",
+    "hs": "Robbinsdale Cooper"
+   }
+  ],
+  "camel_persons_with_hs": 0,
+  "camel_sample": []
+ },
+ "bio_url": "https://12thman.com/sports/womens-basketball/roster/player/kaniya-boyd",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 349883,
+  "bio_fields_component": 0,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ }
+}

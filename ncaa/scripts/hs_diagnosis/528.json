@@ -1,0 +1,62 @@
+{
+ "team_id": "528",
+ "team": "Oregon State",
+ "total": 13,
+ "no_hs": 13,
+ "roster_url": "https://osubeavers.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 980671,
+  "oas_table": 0,
+  "oas_card": 0,
+  "oas_list": 0,
+  "person_card": 1011,
+  "sidearm_classic": 0,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 13,
+  "bio_fields_component": 0,
+  "th_high_school": 0,
+  "th_sample": [
+   "#",
+   "Full Name",
+   "Pos.",
+   "Ht.",
+   "Year",
+   "Hometown",
+   "Previous School",
+   "Coaching Staff",
+   "Image",
+   "Name",
+   "Title",
+   "Email"
+  ],
+  "present": true,
+  "entries": 3590,
+  "snake_persons_with_hs": 0,
+  "snake_sample": [],
+  "camel_persons_with_hs": 8,
+  "camel_sample": [
+   {
+    "name": "Kennedie Shuler",
+    "hs": "Barlow HS"
+   },
+   {
+    "name": "Jenna Villa",
+    "hs": "Arlington HS"
+   }
+  ]
+ },
+ "bio_url": "https://osubeavers.com/sports/womens-basketball/roster/kennedie-shuler/12361",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 770167,
+  "bio_fields_component": 11,
+  "field_label_class": 0,
+  "bio_hs_values": [
+   "Barlow HS"
+  ]
+ }
+}

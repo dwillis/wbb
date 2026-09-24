@@ -1,0 +1,46 @@
+{
+ "team_id": "205",
+ "team": "Mont. St. Billings",
+ "total": 13,
+ "no_hs": 13,
+ "roster_url": "https://msubsports.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 785451,
+  "oas_table": 0,
+  "oas_card": 1,
+  "oas_list": 0,
+  "person_card": 0,
+  "sidearm_classic": 681,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 0,
+  "th_sample": [
+   "Statistic",
+   "Statistic",
+   "#",
+   "Image",
+   "Full Name",
+   "Ht.",
+   "Yr.",
+   "Exp.",
+   "Pos.",
+   "Hometown",
+   "Previous School",
+   "Major"
+  ],
+  "present": false
+ },
+ "bio_url": "https://msubsports.com/sports/womens-basketball/roster/layla-baumann/6561",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 535244,
+  "bio_fields_component": 0,
+  "field_label_class": 6,
+  "bio_hs_values": []
+ }
+}

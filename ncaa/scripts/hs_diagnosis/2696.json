@@ -1,0 +1,53 @@
+{
+ "team_id": "2696",
+ "team": "Hawaii Pacific",
+ "total": 17,
+ "no_hs": 1,
+ "roster_url": "https://hpusharks.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 585474,
+  "oas_table": 0,
+  "oas_card": 1,
+  "oas_list": 0,
+  "person_card": 0,
+  "sidearm_classic": 723,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 39,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "Statistic",
+   "Statistic",
+   "#",
+   "Full Name",
+   "Pos",
+   "Ht.",
+   "Academic Year",
+   "Hometown / High School",
+   "Image",
+   "Name",
+   "Title"
+  ],
+  "present": false
+ },
+ "bio_url": "https://hpusharks.com/sports/womens-basketball/roster/serenity-santos/5846",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 373675,
+  "bio_fields_component": 0,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://hpusharks.com/sports/womens-basketball/roster/kaile-cruz/5917",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 362969,
+  "bio_fields_component": 0,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "team_id": "774",
+ "team": "Western Michigan",
+ "total": 13,
+ "no_hs": 2,
+ "roster_url": "https://wmubroncos.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 618829,
+  "oas_table": 0,
+  "oas_card": 1,
+  "oas_list": 0,
+  "person_card": 0,
+  "sidearm_classic": 626,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 27,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "Statistic",
+   "Statistic",
+   "#",
+   "Name",
+   "Year",
+   "Pos.",
+   "Ht.",
+   "Wt.",
+   "Hometown",
+   "Previous School",
+   "High School",
+   "Image"
+  ],
+  "present": false
+ },
+ "bio_url": "https://wmubroncos.com/sports/womens-basketball/roster/may-revah/16230",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 411394,
+  "bio_fields_component": 0,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://wmubroncos.com/sports/womens-basketball/roster/vanessa-rodriguez/16159",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 413315,
+  "bio_fields_component": 0,
+  "field_label_class": 0,
+  "bio_hs_values": [
+   "Father Gabriel Richard"
+  ]
+ }
+}

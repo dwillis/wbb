@@ -1,0 +1,47 @@
+{
+ "team_id": "754",
+ "team": "Washington State",
+ "total": 12,
+ "no_hs": 12,
+ "roster_url": "https://wsucougars.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 571728,
+  "oas_table": 5,
+  "oas_card": 0,
+  "oas_list": 56,
+  "person_card": 0,
+  "sidearm_classic": 0,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 0,
+  "th_sample": [],
+  "present": true,
+  "entries": 2465,
+  "snake_persons_with_hs": 9,
+  "snake_sample": [
+   {
+    "name": "Alex Covill",
+    "hs": "Missoula Hellgate HS"
+   },
+   {
+    "name": "Malia Ruud",
+    "hs": "Chiawana HS"
+   }
+  ],
+  "camel_persons_with_hs": 0,
+  "camel_sample": []
+ },
+ "bio_url": "https://wsucougars.com/sports/womens-basketball/roster/player/aicha-bah",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 397999,
+  "bio_fields_component": 0,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ }
+}

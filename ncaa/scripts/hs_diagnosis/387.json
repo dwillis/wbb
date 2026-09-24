@@ -1,0 +1,70 @@
+{
+ "team_id": "387",
+ "team": "Marquette",
+ "total": 12,
+ "no_hs": 1,
+ "roster_url": "https://gomarquette.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 887319,
+  "oas_table": 0,
+  "oas_card": 0,
+  "oas_list": 0,
+  "person_card": 1089,
+  "sidearm_classic": 0,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 0,
+  "person_card_hs_dtid": 12,
+  "bio_fields_component": 0,
+  "th_high_school": 0,
+  "th_sample": [
+   "#",
+   "Name",
+   "Class",
+   "Pos",
+   "Hometown",
+   "Coaching Staff",
+   "Image",
+   "Name",
+   "Title",
+   "Email",
+   "Phone Number",
+   "Support Staff"
+  ],
+  "present": true,
+  "entries": 3923,
+  "snake_persons_with_hs": 0,
+  "snake_sample": [],
+  "camel_persons_with_hs": 11,
+  "camel_sample": [
+   {
+    "name": "Brooklyn Hall",
+    "hs": "Western Reserve Academy"
+   },
+   {
+    "name": "Kinley Asp",
+    "hs": "Air Academy High School"
+   }
+  ]
+ },
+ "bio_url": "https://gomarquette.com/sports/womens-basketball/roster/yu-han-lin/8639",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 639867,
+  "bio_fields_component": 9,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://gomarquette.com/sports/womens-basketball/roster/brooklyn-hall/8637",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 639794,
+  "bio_fields_component": 11,
+  "field_label_class": 0,
+  "bio_hs_values": [
+   "Western Reserve Academy"
+  ]
+ }
+}

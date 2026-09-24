@@ -1,0 +1,54 @@
+{
+ "team_id": "1167",
+ "team": "Lander",
+ "total": 18,
+ "no_hs": 1,
+ "roster_url": "https://landerbearcats.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 778057,
+  "oas_table": 0,
+  "oas_card": 1,
+  "oas_list": 0,
+  "person_card": 0,
+  "sidearm_classic": 805,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 42,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "Statistic",
+   "Statistic",
+   "#",
+   "Full Name",
+   "Pos",
+   "Ht.",
+   "Academic Year",
+   "Hometown / High School",
+   "Image",
+   "Name",
+   "Title",
+   "Image"
+  ],
+  "present": false
+ },
+ "bio_url": "https://landerbearcats.com/sports/womens-basketball/roster/jhnai-sumter/10291",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 513230,
+  "bio_fields_component": 0,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://landerbearcats.com/sports/womens-basketball/roster/kyley-gary-grayson/10294",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 513756,
+  "bio_fields_component": 0,
+  "field_label_class": 0,
+  "bio_hs_values": []
+ }
+}

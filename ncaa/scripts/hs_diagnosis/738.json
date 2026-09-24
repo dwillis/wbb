@@ -1,0 +1,54 @@
+{
+ "team_id": "738",
+ "team": "Vermont",
+ "total": 14,
+ "no_hs": 1,
+ "roster_url": "https://uvmathletics.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 642516,
+  "oas_table": 0,
+  "oas_card": 1,
+  "oas_list": 0,
+  "person_card": 0,
+  "sidearm_classic": 683,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 37,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "Statistic",
+   "Statistic",
+   "No.",
+   "Image",
+   "Name",
+   "Class",
+   "Pos.",
+   "Ht.",
+   "Wt.",
+   "Hometown / High School (Previous School)",
+   "Previous School",
+   "Image"
+  ],
+  "present": false
+ },
+ "bio_url": "https://uvmathletics.com/sports/womens-basketball/roster/maisie-keyes/12325",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 356435,
+  "bio_fields_component": 0,
+  "field_label_class": 5,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://uvmathletics.com/sports/womens-basketball/roster/malia-lenz/12319",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 378530,
+  "bio_fields_component": 0,
+  "field_label_class": 5,
+  "bio_hs_values": []
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "team_id": "500",
+ "team": "Northeastern",
+ "total": 13,
+ "no_hs": 6,
+ "roster_url": "https://nuhuskies.com/sports/womens-basketball/roster",
+ "roster_status": 200,
+ "roster": {
+  "size": 601215,
+  "oas_table": 0,
+  "oas_card": 1,
+  "oas_list": 0,
+  "person_card": 0,
+  "sidearm_classic": 548,
+  "presto": 0,
+  "players_table": 0,
+  "sidearm_hs_class": 20,
+  "person_card_hs_dtid": 0,
+  "bio_fields_component": 0,
+  "th_high_school": 1,
+  "th_sample": [
+   "Statistic",
+   "Statistic",
+   "Image",
+   "#",
+   "Name",
+   "Cl.",
+   "Pos.",
+   "Ht.",
+   "Hometown",
+   "High School",
+   "Previous School"
+  ],
+  "present": false
+ },
+ "bio_url": "https://nuhuskies.com/sports/womens-basketball/roster/camryn-collins/10789",
+ "bio_status": 200,
+ "bio_player_missing_hs": true,
+ "bio_missing": {
+  "size": 402569,
+  "bio_fields_component": 0,
+  "field_label_class": 3,
+  "bio_hs_values": []
+ },
+ "bio_has_url": "https://nuhuskies.com/sports/womens-basketball/roster/kailee-beaudion-foliaki/10788",
+ "bio_has_status": 200,
+ "bio_has_hs": {
+  "size": 401961,
+  "bio_fields_component": 0,
+  "field_label_class": 4,
+  "bio_hs_values": []
+ }
+}
