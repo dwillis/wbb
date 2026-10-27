@@ -1322,6 +1322,108 @@ class VueDataScraper(BaseScraper):
         return roster
 
 
+class NuxtDataScraper(BaseScraper):
+    """Scraper for Nuxt sites that ship the roster only in the __NUXT_DATA__ payload.
+
+    The payload is a flattened (devalue-style) array in which dicts and lists
+    refer to other entries by index, so it is resolved before use.
+    """
+
+    POSITIONS = {'Guard': 'G', 'Forward': 'F', 'Center': 'C'}
+
+    @staticmethod
+    def _resolve(data: list):
+        memo: Dict[int, Any] = {}
+        wrappers = ('Reactive', 'ShallowReactive', 'Ref', 'ShallowRef', 'EmptyRef', 'EmptyShallowRef')
+
+        def resolve(i: int):
+            if i in memo:
+                return memo[i]
+            x = data[i]
+            if isinstance(x, list):
+                if x and isinstance(x[0], str) and x[0] in wrappers:
+                    out = resolve(x[1]) if len(x) > 1 and isinstance(x[1], int) else None
+                    memo[i] = out
+                    return out
+                out = []
+                memo[i] = out
+                out.extend(resolve(j) if isinstance(j, int) else j for j in x)
+                return out
+            if isinstance(x, dict):
+                out = {}
+                memo[i] = out
+                for k, v in x.items():
+                    out[k] = resolve(v) if isinstance(v, int) else v
+                return out
+            memo[i] = x
+            return x
+
+        return resolve
+
+    def scrape_roster(self, team: Dict, season: str, url_format: str = "default") -> List[Player]:
+        if self.entity_type == 'coach':
+            logger.warning(f"NuxtDataScraper does not support coaches ({team['team']})")
+            return []
+
+        url = URLBuilder.build_url(team['url'], season, url_format, entity_type=self.entity_type)
+        try:
+            response = self.session.get(url, timeout=30)
+            response.raise_for_status()
+        except requests.RequestException as e:
+            logger.error(f"Failed to fetch {url}: {e}")
+            return []
+
+        match = re.search(r'<script[^>]*id="__NUXT_DATA__"[^>]*>(.*?)</script>', response.text, re.DOTALL)
+        if not match:
+            logger.warning(f"Could not find __NUXT_DATA__ for {team['team']}")
+            return []
+        try:
+            data = json.loads(match.group(1))
+        except json.JSONDecodeError as e:
+            logger.error(f"Failed to parse __NUXT_DATA__ for {team['team']}: {e}")
+            return []
+
+        resolve = self._resolve(data)
+        roster = []
+        seen = set()
+        for i, x in enumerate(data):
+            if not (isinstance(x, dict) and 'full_name' in x and 'jersey_number' in x and 'high_school' in x):
+                continue
+            try:
+                p = resolve(i)
+                if p['id'] in seen:
+                    continue
+                seen.add(p['id'])
+
+                height = ""
+                if p.get('height_feet') is not None and p.get('height_inches') is not None:
+                    height = f"{p['height_feet']}'{p['height_inches']}\""
+                position = (p.get('player_position') or {}).get('name') or ''
+                class_name = (p.get('class_level') or {}).get('name') or ''
+                jersey = p.get('jersey_number')
+
+                roster.append(Player(
+                    team_id=team['ncaa_id'],
+                    team=team['team'],
+                    player_id=str(p['id']),
+                    name=p['full_name'],
+                    year=FieldExtractors.normalize_academic_year(class_name) if class_name else '',
+                    hometown=p.get('hometown') or '',
+                    high_school=p.get('high_school') or '',
+                    previous_school=p.get('previous_school') or '',
+                    height=height,
+                    position=self.POSITIONS.get(position, position),
+                    jersey='' if jersey is None else str(jersey),
+                    url=f"{team['url'].rstrip('/')}/roster/player/{p['slug']}",
+                    season=season
+                ))
+            except Exception as e:
+                logger.warning(f"Failed to process Nuxt player data for {team['team']}: {e}")
+                continue
+
+        return roster
+
+
 class ScraperFactory:
     """Factory for creating appropriate scrapers"""
     
@@ -1336,5 +1438,7 @@ class ScraperFactory:
             return JavaScriptScraper(entity_type=entity_type, use_playwright=kwargs.get('use_playwright', False))
         elif scraper_type == "vue_data":
             return VueDataScraper(entity_type=entity_type)
+        elif scraper_type == "nuxt_data":
+            return NuxtDataScraper(entity_type=entity_type)
         else:
             return StandardScraper(entity_type=entity_type)

@@ -81,6 +81,12 @@ class TeamConfig:
     
     # Teams using Nuxt.js data extraction (50+ teams)
     # Most use default URL format, but some need special handling (stored as dict with 'base_url' and 'url_format')
+    # Nuxt sites whose roster exists only in the __NUXT_DATA__ payload (NuxtDataScraper)
+    NUXT_DATA_TEAMS = {
+        365: {'url_format': 'season_path'},  # LSU
+        746: {'url_format': 'direct'},  # Virginia
+    }
+
     NUXT_JS_TEAMS = {
         71: 'https://bgsufalcons.com', 83: 'https://gobison.com', 96: 'https://gobulldogs.com',
         99: 'https://longbeachstate.com',
@@ -654,6 +660,12 @@ class TeamConfig:
     @classmethod
     def get_config(cls, team_id: int) -> Dict[str, Any]:
         """Get configuration for team"""
+
+        if team_id in cls.NUXT_DATA_TEAMS:
+            return {
+                'type': 'nuxt_data',
+                **cls.NUXT_DATA_TEAMS[team_id]
+            }
 
         # PrestoSports teams with season_first URL but standard layout
         if team_id in cls.PRESTOSPORTS_SEASON_FIRST:
