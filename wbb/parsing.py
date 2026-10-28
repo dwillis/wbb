@@ -164,6 +164,7 @@ class FieldExtractors:
             # Multi-word patterns first (most specific)
             r'^\s*Hometown / Previous School / High School:\s*', r'\bHometown / Previous School / High School:\s*',
             r'^Hometown / Previous School /\s*', r'\bHometown / Previous School /\s*',
+            r'^Hometown / Previous School:\s*', r'\bHometown / Previous School:\s*',
             r'^Hometown/High School \(Former School\):\s*', r'\bHometown/High School \(Former School\):\s*',
             r'^Hometown / High School:\s*', r'\bHometown / High School:\s*',  # For Olivet-style tables
             r'^High School/Previous School:\s*', r'\bHigh School/Previous School:\s*',

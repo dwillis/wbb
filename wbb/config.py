@@ -90,6 +90,28 @@ class TeamConfig:
     # Server-rendered .s-person-card list layouts parsed statically (PersonCardScraper)
     PERSON_CARD_TEAMS = {
         48: {'url_format': 'default'},  # Charleston Southern
+        465: {'url_format': 'default'},  # UNLV
+        702: {'url_format': 'default'},  # Texas-Arlington
+        68: {'url_format': 'default'},  # Boston
+        101: {'url_format': 'default'},  # CSUN
+        90: {'url_format': 'default'},  # Cal Poly
+        1014: {'url_format': 'default'},  # College of Charleston
+        158: {'url_format': 'default'},  # Columbia
+        172: {'url_format': 'default'},  # Dartmouth
+        235: {'url_format': 'default'},  # Florida
+        253: {'url_format': 'default'},  # Georgia Southern
+        2707: {'url_format': 'default'},  # Kansas City
+        331: {'url_format': 'default'},  # Kent State
+        406: {'url_format': 'default'},  # Mercer
+        2711: {'url_format': 'default'},  # North Florida
+        587: {'url_format': 'default'},  # Rutgers
+        610: {'url_format': 'default'},  # Saint Mary's (CA)
+        598: {'url_format': 'default'},  # St. Cloud St.
+        620: {'url_format': 'default'},  # St. Thomas (MN)
+        709: {'url_format': 'default'},  # Toledo
+        113: {'url_format': 'default'},  # UC Santa Cruz
+        768: {'url_format': 'default'},  # West Virginia
+        810: {'url_format': 'default'},  # Wright St.
     }
 
     NUXT_JS_TEAMS = {
@@ -283,7 +305,7 @@ class TeamConfig:
         255: {'selector': 'sidearm_oas_roster', 'url_format': 'season_path_table'},  # Georgia Tech - Sidearm OAS frontend
         434: {'selector': 'sidearm_oas_roster', 'url_format': 'default'},  # Missouri - Sidearm OAS frontend
         509: {'selector': 'sidearm_oas_roster', 'url_format': 'default'},  # Northwestern - Sidearm OAS frontend
-        736: {'selector': 'sidearm_oas_roster', 'url_format': 'season_path'},  # Vanderbilt - Sidearm OAS frontend
+        736: {'selector': 'sidearm_oas_roster', 'url_format': 'season_path_table'},  # Vanderbilt - Sidearm OAS frontend
         754: {'selector': 'sidearm_oas_roster', 'url_format': 'default'},  # Washington State - Sidearm OAS frontend
         415: {'selector': 'sidearm_oas_roster', 'url_format': 'season_path'},  # Miami - Sidearm OAS frontend (table/cards/list variants)
         528: {'selector': 'oregon_state_roster', 'url_format': 'default'},

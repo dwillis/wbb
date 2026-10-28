@@ -1360,6 +1360,22 @@ class NuxtDataScraper(BaseScraper):
 
         return resolve
 
+    @staticmethod
+    def _card_classes(html: str) -> Dict[str, str]:
+        """Map player slug -> class from the rendered cards; the payload's
+        class_level can be stale or missing."""
+        classes = {}
+        for card in BeautifulSoup(html, 'html.parser').select('.roster-card, .roster-card-item'):
+            link = card.select_one('a[href*="/roster/player/"]')
+            if not link:
+                continue
+            for field in card.select('.roster-card-profile-field, .roster-player-card-profile-field'):
+                label = field.select_one('[class*="__label"]')
+                value = field.select_one('[class*="__value"]')
+                if label and value and label.get_text(strip=True).lower() == 'class':
+                    classes[link['href'].rstrip('/').split('/')[-1]] = value.get_text(strip=True)
+        return classes
+
     def scrape_roster(self, team: Dict, season: str, url_format: str = "default") -> List[Player]:
         if self.entity_type == 'coach':
             logger.warning(f"NuxtDataScraper does not support coaches ({team['team']})")
@@ -1384,6 +1400,7 @@ class NuxtDataScraper(BaseScraper):
             return []
 
         resolve = self._resolve(data)
+        card_classes = self._card_classes(response.text)
         roster = []
         seen = set()
         for i, x in enumerate(data):
@@ -1399,7 +1416,7 @@ class NuxtDataScraper(BaseScraper):
                 if p.get('height_feet') is not None and p.get('height_inches') is not None:
                     height = f"{p['height_feet']}'{p['height_inches']}\""
                 position = (p.get('player_position') or {}).get('name') or ''
-                class_name = (p.get('class_level') or {}).get('name') or ''
+                class_name = card_classes.get(p['slug']) or (p.get('class_level') or {}).get('name') or ''
                 jersey = p.get('jersey_number')
 
                 roster.append(Player(
@@ -1412,7 +1429,7 @@ class NuxtDataScraper(BaseScraper):
                     high_school=p.get('high_school') or '',
                     previous_school=p.get('previous_school') or '',
                     height=height,
-                    position=self.POSITIONS.get(position, position),
+                    position='/'.join(self.POSITIONS.get(x, x) for x in position.split('/')),
                     jersey='' if jersey is None else str(jersey),
                     url=f"{team['url'].rstrip('/')}/roster/player/{p['slug']}",
                     season=season
@@ -1428,12 +1445,13 @@ class PersonCardScraper(BaseScraper):
     """Scraper for server-rendered Sidearm .s-person-card list layouts.
 
     Each player card reads "Jersey Number N <name> Position P Academic Year Y
-    Height H Hometown T Last School S [Previous School Previous School: X] Full Bio".
+    Height H [Custom Field N X] Hometown T [Last School S] [Major M] [Previous School Previous School|College: X] Full Bio".
     """
 
     CARD_RE = re.compile(
-        r"Jersey Number (\S+) (.+?) Position (.*?) Academic Year (.*?) Height (.*?) "
-        r"Hometown (.*?) Last School (.*?)(?: Previous School Previous School: (.*?))? Full Bio for"
+        r"Jersey Number (\S+) (.+?) Position (.*?) Academic Year (.*?) Height (.*?)(?: Custom Field \d+ .*?)? "
+        r"Hometown (.*?)(?: Last School (.*?))?(?: Major .*?)?"
+        r"(?: Previous School (?:Previous School|College): (.*?))? Full Bio for"
     )
 
     def scrape_roster(self, team: Dict, season: str, url_format: str = "default") -> List[Player]:
@@ -1465,7 +1483,7 @@ class PersonCardScraper(BaseScraper):
                 name=name,
                 year=FieldExtractors.normalize_academic_year(year.strip()),
                 hometown=hometown,
-                high_school=high_school,
+                high_school=high_school or '',
                 previous_school=(previous or '').replace(' / ', '/'),
                 height=height,
                 position=position,

@@ -566,7 +566,11 @@ new Promise((resolve) => {
             
             // Get jersey number
             const jerseyElem = item.querySelector('.sidearm-roster-list-item-number, .sidearm-roster-player-jersey-number');
-            const jersey = jerseyElem ? jerseyElem.textContent.trim() : '';
+            let jersey = jerseyElem ? jerseyElem.textContent.trim() : '';
+            if (!jersey) {
+                const photoNumber = item.querySelector('.sidearm-roster-list-item-photo-number');
+                jersey = photoNumber ? photoNumber.textContent.trim() : '';
+            }
             
             // Get position
             const positionElem = item.querySelector('.sidearm-roster-list-item-position, .sidearm-roster-player-position');
