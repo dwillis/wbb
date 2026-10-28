@@ -87,6 +87,11 @@ class TeamConfig:
         746: {'url_format': 'direct'},  # Virginia
     }
 
+    # Server-rendered .s-person-card list layouts parsed statically (PersonCardScraper)
+    PERSON_CARD_TEAMS = {
+        48: {'url_format': 'default'},  # Charleston Southern
+    }
+
     NUXT_JS_TEAMS = {
         71: 'https://bgsufalcons.com', 83: 'https://gobison.com', 96: 'https://gobulldogs.com',
         99: 'https://longbeachstate.com',
@@ -275,7 +280,7 @@ class TeamConfig:
         327: {'selector': 'nuxt_roster', 'url_format': 'default'},  # Kansas State
         414: {'selector': 'wyoming_roster', 'url_format': 'default'},  # Miami Ohio - uses roster-staff structure
         147: {'selector': 'sidearm_oas_roster', 'url_format': 'clemson'},  # Clemson - Sidearm OAS frontend
-        255: {'selector': 'sidearm_oas_roster', 'url_format': 'season_path'},  # Georgia Tech - Sidearm OAS frontend
+        255: {'selector': 'sidearm_oas_roster', 'url_format': 'season_path_table'},  # Georgia Tech - Sidearm OAS frontend
         434: {'selector': 'sidearm_oas_roster', 'url_format': 'default'},  # Missouri - Sidearm OAS frontend
         509: {'selector': 'sidearm_oas_roster', 'url_format': 'default'},  # Northwestern - Sidearm OAS frontend
         736: {'selector': 'sidearm_oas_roster', 'url_format': 'season_path'},  # Vanderbilt - Sidearm OAS frontend
@@ -660,6 +665,12 @@ class TeamConfig:
     @classmethod
     def get_config(cls, team_id: int) -> Dict[str, Any]:
         """Get configuration for team"""
+
+        if team_id in cls.PERSON_CARD_TEAMS:
+            return {
+                'type': 'person_card',
+                **cls.PERSON_CARD_TEAMS[team_id]
+            }
 
         if team_id in cls.NUXT_DATA_TEAMS:
             return {

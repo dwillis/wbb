@@ -1424,6 +1424,59 @@ class NuxtDataScraper(BaseScraper):
         return roster
 
 
+class PersonCardScraper(BaseScraper):
+    """Scraper for server-rendered Sidearm .s-person-card list layouts.
+
+    Each player card reads "Jersey Number N <name> Position P Academic Year Y
+    Height H Hometown T Last School S [Previous School Previous School: X] Full Bio".
+    """
+
+    CARD_RE = re.compile(
+        r"Jersey Number (\S+) (.+?) Position (.*?) Academic Year (.*?) Height (.*?) "
+        r"Hometown (.*?) Last School (.*?)(?: Previous School Previous School: (.*?))? Full Bio for"
+    )
+
+    def scrape_roster(self, team: Dict, season: str, url_format: str = "default") -> List[Player]:
+        if self.entity_type == 'coach':
+            logger.warning(f"PersonCardScraper does not support coaches ({team['team']})")
+            return []
+
+        url = URLBuilder.build_url(team['url'], season, url_format, entity_type=self.entity_type)
+        try:
+            response = self.session.get(url, timeout=30)
+            response.raise_for_status()
+        except requests.RequestException as e:
+            logger.error(f"Failed to fetch {url}: {e}")
+            return []
+
+        soup = BeautifulSoup(response.text, 'html.parser')
+        roster = []
+        for card in soup.select('.s-person-card--list'):
+            m = self.CARD_RE.search(card.get_text(' ', strip=True))
+            if not m:
+                continue  # coaches and staff have no jersey number
+            jersey, name, position, year, height, hometown, high_school, previous = m.groups()
+            link = card.select_one('a[href*="/roster/"]')
+            height = re.sub(r"^(\d+)' (\d+)''$", lambda h: f"{h.group(1)}'{h.group(2)}\"", height.strip())
+            roster.append(Player(
+                team_id=team['ncaa_id'],
+                team=team['team'],
+                player_id=link['href'].rstrip('/').split('/')[-1] if link else None,
+                name=name,
+                year=FieldExtractors.normalize_academic_year(year.strip()),
+                hometown=hometown,
+                high_school=high_school,
+                previous_school=(previous or '').replace(' / ', '/'),
+                height=height,
+                position=position,
+                jersey=jersey,
+                url=self.build_player_url(team['url'], link['href']) if link else '',
+                season=season
+            ))
+
+        return roster
+
+
 class ScraperFactory:
     """Factory for creating appropriate scrapers"""
     
@@ -1440,5 +1493,7 @@ class ScraperFactory:
             return VueDataScraper(entity_type=entity_type)
         elif scraper_type == "nuxt_data":
             return NuxtDataScraper(entity_type=entity_type)
+        elif scraper_type == "person_card":
+            return PersonCardScraper(entity_type=entity_type)
         else:
             return StandardScraper(entity_type=entity_type)
