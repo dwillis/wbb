@@ -67,3 +67,67 @@ def test_export_defaults():
     assert args.command == 'export'
     assert args.season == '2025-26'
     assert args.db is None  # export falls back to DB_PATH at runtime
+
+def test_games_parser():
+    args = _parse(['games', '-s', '2026-27', '-teams', '392', '539', '--skip-existing'])
+    assert args.command == 'games'
+    assert args.teams == [392, 539]
+    assert args.skip_existing is True and args.headed is False
+    assert args.data_dir is None
+
+
+def test_games_rejects_bad_season():
+    from wbb.cli import main
+    assert main(['games', '-s', '2026-28']) == 2
+
+
+def test_games_slug_and_wmt_routing():
+    from wbb.games import slugify, WMT_TEAMS
+    assert slugify({'ncaa_id': 539, 'team': 'Penn State'}) == '539-penn-state'
+    assert 539 in WMT_TEAMS and 392 not in WMT_TEAMS
+
+
+def test_bios_parser():
+    args = _parse(['bios', '-s', '2025-26', '--teams', '193', '257',
+                   '--skip-existing', '--quiet'])
+    assert args.command == 'bios'
+    assert args.season == '2025-26'
+    assert args.teams == [193, 257]
+    assert args.skip_existing is True
+    assert args.quiet is True
+    assert args.csv and args.csv.endswith('coaches.csv')  # default: ncaa/coaches/coaches.csv
+
+
+def test_bios_output_defaults_next_to_csv(tmp_path):
+    from wbb.bios import DEFAULT_CSV
+    args = _parse(['bios', '--csv', str(tmp_path / 'custom.csv')])
+    assert args.output is None  # resolved at runtime to csv dir's coach_bios.json
+
+
+def test_bios_filter_rows():
+    from wbb.bios import filter_rows
+    rows = [
+        {'team_id': '193', 'name': 'A', 'season': '2025-26', 'url': 'u1'},
+        {'team_id': '257', 'name': 'B', 'season': '2024-25', 'url': 'u2'},
+    ]
+    assert [r['url'] for r in filter_rows(rows)] == ['u1', 'u2']
+    assert [r['url'] for r in filter_rows(rows, season='2025-26')] == ['u1']
+    assert [r['url'] for r in filter_rows(rows, team_ids=[257])] == ['u2']
+    assert [r['url'] for r in filter_rows(rows, names=['A'])] == ['u1']
+    assert filter_rows(rows, names=['nobody']) == []
+    assert len(filter_rows(rows, limit=1)) == 1
+    assert len(filter_rows(rows, demo=True)) == min(len(rows), 5)
+
+
+def test_bios_merge_and_existing(tmp_path):
+    from wbb.bios import existing_urls, load_existing, merge_results, write_json
+    out = tmp_path / 'coach_bios.json'
+    assert load_existing(out) == []
+    write_json([{'url': 'u1', 'text': 'old', 'name': 'A'},
+                {'url': 'u2', 'text': ''}], out)  # empty text doesn't count as existing
+    assert existing_urls(load_existing(out)) == {'u1'}
+    merged = merge_results(load_existing(out), [{'url': 'u1', 'text': 'new', 'name': 'A'},
+                                                {'url': 'u3', 'text': 'x', 'name': 'C'}])
+    by_url = {r['url']: r for r in merged}
+    assert by_url['u1']['text'] == 'new' and 'u3' in by_url
+    assert by_url['u2'] == {'url': 'u2', 'text': ''}  # non-fetched entries are preserved

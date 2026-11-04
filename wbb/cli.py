@@ -1,7 +1,9 @@
 """wbb command-line interface.
 
 Subcommands: scrape (full parity with the old rosters.py main()), export,
-query, list-teams. All human status goes to stderr; query/list-teams results
+query, list-teams, games (game JSON downloads; see wbb/games.py), bios
+(coach bio text fetching; see wbb/bios.py). All human
+status goes to stderr; query/list-teams results
 and the single-team JSON dump go to stdout; CSVs go to files.
 """
 
@@ -15,7 +17,7 @@ from pathlib import Path
 
 from sqlite_utils import Database
 
-from wbb import __version__, csvio, db as wbb_db
+from wbb import __version__, bios as wbb_bios, csvio, db as wbb_db, games as wbb_games
 from wbb.config import DB_PATH, ENTITY_CONFIGS, TeamConfig, TEAMS_FILE, resolve_output_dir
 from wbb.manager import RosterManager, TeamOutcome
 
@@ -303,11 +305,149 @@ def cmd_list_teams(args) -> int:
     return 0
 
 
+def cmd_games(args) -> int:
+    try:
+        wbb_games.validate_season(args.season)
+    except ValueError as e:
+        sys.stderr.write(f"{e}\n")
+        return 2
+    teams_file = args.teams_file or TEAMS_FILE
+    if not Path(teams_file).exists():
+        sys.stderr.write(f"Teams file not found: {teams_file}\n")
+        return 1
+    with open(teams_file) as f:
+        teams = json.load(f)
+    team_ids = args.teams or ([args.team] if args.team else None)
+    if team_ids:
+        teams = [t for t in teams if int(t['ncaa_id']) in team_ids]
+    if args.division:
+        teams = [t for t in teams if t.get('division') == args.division]
+    if not teams:
+        sys.stderr.write("No matching teams.\n")
+        return 1
+
+    start = time.monotonic()
+    enabled = sys.stderr.isatty()
+    state = {'count': 0}
+
+    def progress(o):
+        if not enabled:
+            return
+        state['count'] += 1
+        prefix = f"[{state['count']:5d}/{len(teams)}]"
+        if o.status == 'ok':
+            sys.stderr.write(f"\r{prefix} [{o.saved:3d} games] {o.team} ({o.team_id})   ")
+        else:
+            detail = f"ERROR: {o.error}" if o.error else "no games found"
+            sys.stderr.write(("\n" if state['count'] > 1 else "") + f"{prefix} {o.team} ({o.team_id}) — {detail}\n")
+        sys.stderr.flush()
+
+    with wbb_games.GameScraper(data_dir=args.data_dir, headed=args.headed,
+                               skip_existing=args.skip_existing, on_team=progress) as scraper:
+        for team in teams:
+            scraper.scrape_team(team, args.season)
+    if enabled:
+        sys.stderr.write("\n")
+
+    results = scraper.results
+    saved = sum(o.saved for o in results)
+    mins, secs = divmod(int(time.monotonic() - start), 60)
+    lines = ["-" * SUMMARY_WIDTH, f"Games complete: {args.season}",
+             f"  teams attempted     {len(results)}",
+             f"  teams with games    {sum(1 for o in results if o.found)}",
+             f"  games saved         {saved:,}"]
+    if args.skip_existing:
+        lines.append(f"  games skipped       {sum(o.skipped for o in results):,}")
+    failed = sum(o.failed for o in results)
+    if failed:
+        lines.append(f"  games failed        {failed:,}")
+    errors = [o for o in results if o.error]
+    if errors:
+        lines.append(f"  team errors         {len(errors)}")
+    lines.append(f"  elapsed             {mins}m {secs:02d}s")
+    lines.append(f"  data dir            {scraper.data_dir}")
+    sys.stderr.write("\n".join(lines) + "\n")
+    return 0 if saved >= 1 else 1
+
+
+def cmd_bios(args) -> int:
+    # Fail fast with the install hint before any row work.
+    wbb_bios._get_article_class()
+    csv_path = Path(args.csv)
+    if not csv_path.exists():
+        sys.stderr.write(f"CSV file not found: {csv_path} (use --csv)\n")
+        return 1
+    output_path = Path(args.output) if args.output else csv_path.parent / "coach_bios.json"
+
+    start = time.monotonic()
+    enabled = sys.stderr.isatty()
+    counts = {'fetched': 0, 'failed': 0, 'skipped': 0}
+
+    # Newline handling for failed/skipped rows needs the counter; wrap it here.
+    state = {'count': 0}
+
+    def on_row_cb(idx, total, name, status, error):
+        counts[status] += 1
+        if not enabled:
+            if status == 'failed':
+                logger.warning("bio fetch failed for %s: %s", name, error)
+            return
+        state['count'] += 1
+        if status == 'fetched':
+            sys.stderr.write(f"\r[fetching {idx:5d}/{total}] {name}   ")
+        else:
+            detail = ('ERROR: ' + (error or '')) if status == 'failed' else 'already fetched'
+            sys.stderr.write("\n" if state['count'] > 1 else "")
+            sys.stderr.write(f"[{idx:5d}/{total}] {name} — {detail}\n")
+        sys.stderr.flush()
+
+    rows = wbb_bios.read_rows(csv_path)
+    rows = wbb_bios.filter_rows(rows, names=args.names, team_ids=args.teams,
+                                season=args.season, limit=args.limit,
+                                shuffle=args.shuffle, demo=args.demo)
+    if not rows:
+        sys.stderr.write("No rows selected for processing. Nothing to do.\n")
+        return 1
+
+    skip_urls = set()
+    existing = []
+    if args.skip_existing:
+        existing = wbb_bios.load_existing(output_path)
+        skip_urls = wbb_bios.existing_urls(existing)
+
+    results, _unused_failed = wbb_bios.fetch_bios(
+        rows, language=args.language, skip_urls=skip_urls, on_row=on_row_cb)
+    if enabled and state['count']:
+        sys.stderr.write("\n")
+
+    if results:
+        data = wbb_bios.merge_results(existing, results) if args.skip_existing else results
+        wbb_bios.write_json(data, output_path)
+    else:
+        # Unlike the standalone script, don't overwrite the JSON with an empty run.
+        sys.stderr.write("No bios were successfully fetched; output not written.\n")
+
+    mins, secs = divmod(int(time.monotonic() - start), 60)
+    lines = ["-" * SUMMARY_WIDTH, "Coach bios complete",
+             f"  rows selected       {len(rows)}",
+             f"  bios fetched        {counts['fetched']:,}"]
+    if counts['skipped']:
+        lines.append(f"  bios skipped        {counts['skipped']:,}")
+    if counts['failed']:
+        lines.append(f"  bios failed         {counts['failed']:,}")
+    if results:
+        lines.append(f"  output json         {output_path} ({len(data):,} total records)"
+                     if args.skip_existing else f"  output json         {output_path}")
+    lines.append(f"  elapsed             {mins}m {secs:02d}s")
+    sys.stderr.write("\n".join(lines) + "\n")
+    return 0 if counts['fetched'] >= 1 else 1
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog='wbb',
         description=f"NCAA women's basketball roster toolkit v{__version__} "
-                    "(scrape | export | query | list-teams)")
+                    "(scrape | export | query | list-teams | games | bios)")
     common = argparse.ArgumentParser(add_help=False)
     common.add_argument('--db', nargs='?', const=str(DB_PATH), default=None, metavar='PATH',
                         help='Write/read the roster database (bare --db uses ncaa/rosters/rosters.db)')
@@ -354,6 +494,41 @@ def build_parser() -> argparse.ArgumentParser:
     p_list.add_argument('--format', choices=['csv', 'json'], default='csv')
     p_list.add_argument('--teams-file', default=None, help='Path to teams.json')
     p_list.set_defaults(func=cmd_list_teams)
+
+    p_games = sub.add_parser('games', help='Download game box score/play-by-play JSON')
+    p_games.add_argument('--verbose', action='store_true', help='Verbose (DEBUG) logging')
+    p_games.add_argument('--quiet', action='store_true', help='Only warnings and the summary')
+    p_games.add_argument('-season', '-s', required=True, help='Season (e.g., "2026-27")')
+    p_games.add_argument('-teams', nargs='*', type=int, help='Specific team IDs')
+    p_games.add_argument('-team', type=int, help='Single team ID')
+    p_games.add_argument('--division', choices=['I', 'II', 'III'])
+    p_games.add_argument('--data-dir', default=None, metavar='DIR',
+                         help='Game JSON directory (default: ../wbb-game-data, $WBB_GAME_DATA_DIR)')
+    p_games.add_argument('--skip-existing', action='store_true',
+                         help="Don't re-download games that already have a JSON file")
+    p_games.add_argument('--headed', action='store_true', help='Show the Playwright browser window')
+    p_games.add_argument('--teams-file', default=None, help='Path to teams.json')
+    p_games.set_defaults(func=cmd_games)
+
+    p_bios = sub.add_parser(
+        'bios', help='Fetch coach bio page text from a coach roster CSV to JSON')
+    p_bios.add_argument('--verbose', action='store_true', help='Verbose (DEBUG) logging')
+    p_bios.add_argument('--quiet', action='store_true', help='Only warnings and the summary')
+    p_bios.add_argument('-s', '--season', default=None,
+                        help='Only fetch rows with this season column value (e.g., "2025-26")')
+    p_bios.add_argument('--csv', default=str(wbb_bios.DEFAULT_CSV),
+                        help='Input coach CSV (default: ncaa/coaches/coaches.csv)')
+    p_bios.add_argument('--output', '--out', dest='output', default=None,
+                        help='Output JSON file (default: coach_bios.json next to the input CSV)')
+    p_bios.add_argument('--teams', nargs='*', type=int, help='Only these team IDs')
+    p_bios.add_argument('--names', nargs='*', help='Only these coach names (exact match)')
+    p_bios.add_argument('--limit', type=int, help='Process only the first N rows after filtering')
+    p_bios.add_argument('--demo', action='store_true', help='Process only five rows')
+    p_bios.add_argument('--shuffle', action='store_true', help='Shuffle rows before applying limit/demo')
+    p_bios.add_argument('--skip-existing', action='store_true',
+                        help='Skip urls already in the output JSON and merge new results into it')
+    p_bios.add_argument('--language', default='en', help='Language hint for newspaper4k (default: en)')
+    p_bios.set_defaults(func=cmd_bios)
 
     return parser
 

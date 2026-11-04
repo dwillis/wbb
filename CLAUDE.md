@@ -25,6 +25,8 @@ uv run wbb scrape -s 2025-26 -teams 47 433 --db          # also write SQLite
 uv run wbb export -s 2025-26                             # season CSV from the DB
 uv run wbb query "SELECT team, count(*) n FROM rosters GROUP BY team"
 uv run wbb list-teams --type javascript                  # scraper config map (no network)
+uv run wbb games -s 2026-27 -teams 392 539 --skip-existing  # game JSON -> ../wbb-game-data (Sidearm + WMT)
+uv run wbb bios -s 2025-26 --skip-existing               # coach bio text -> coach_bios.json (wraps ncaa/coaches/fetch_coach_bios.py)
 # Flags: -entity player|coach|all, --use-playwright, --quiet, --verbose, --out-dir, --teams-file
 
 # Legacy shim (deprecated, forwards to the CLI — subcommand required):
