@@ -131,3 +131,54 @@ def test_bios_merge_and_existing(tmp_path):
     by_url = {r['url']: r for r in merged}
     assert by_url['u1']['text'] == 'new' and 'u3' in by_url
     assert by_url['u2'] == {'url': 'u2', 'text': ''}  # non-fetched entries are preserved
+
+
+def test_games_parser_workers():
+    args = _parse(['games', '-s', '2026-27', '--workers', '3'])
+    assert args.workers == 3
+
+
+def test_scrape_all_parallel(tmp_path, monkeypatch):
+    import json as _json
+    import wbb.games as gm
+    from wbb.games import GameScraper
+
+    monkeypatch.setattr(gm, 'fetch_game_ids_static', lambda url, season: ['101', '102', '103'])
+    monkeypatch.setattr(gm, 'fetch_game_json', lambda domain, gid: {'game': gid})
+    teams = [{'ncaa_id': 392, 'team': 'Maryland', 'url': 'https://x.example.com'},
+             {'ncaa_id': 257, 'team': 'Georgia', 'url': 'https://y.example.com'}]
+    seen = []
+    scraper = GameScraper(data_dir=tmp_path, on_team=seen.append)
+    results = scraper.scrape_all(teams, '2026-27')
+    assert len(results) == 2 and {o.saved for o in results} == {3}
+    assert len(seen) == 2  # on_team fired for both teams
+    files = sorted((tmp_path / '392-maryland' / '2026-27').glob('*.json'))
+    assert [f.name for f in files] == ['101.json', '102.json', '103.json']
+    assert _json.load(open(files[0])) == {'game': '101'}
+    assert all(o.status == 'ok' for o in results)
+
+    # --skip-existing on a re-run: same discovery, no re-downloads
+    scraper2 = GameScraper(data_dir=tmp_path, skip_existing=True)
+    results2 = scraper2.scrape_all(teams, '2026-27')
+    assert all(o.saved == 0 and o.skipped == 3 for o in results2)
+
+
+def test_scrape_all_zero_and_failed(tmp_path, monkeypatch):
+    import wbb.games as gm
+    from wbb.games import GameScraper
+
+    def flaky_static(url, season):
+        return [] if 'empty' in url else ['999']  # empty -> playwright fallback
+    monkeypatch.setattr(gm, 'fetch_game_ids_static', flaky_static)
+    monkeypatch.setattr(gm, 'fetch_game_ids_playwright', lambda browser, url, page_type='stats': [])
+    monkeypatch.setattr(gm, 'wmt_boxscore_links', lambda team, season: [f'{team["url"]}/boxscore/1'])
+    monkeypatch.setattr(gm, 'wmt_game_id', lambda url: None)  # unparseable boxscore page
+    scraper = GameScraper(data_dir=tmp_path)
+    results = scraper.scrape_all(
+        [{'ncaa_id': 392, 'team': 'Sidearm', 'url': 'https://empty.example.com'}], '2026-27')
+    assert results[0].status == 'zero' and results[0].method == 'playwright'
+    # boxscore page unparseable -> 1 found, 1 failed; status is 'ok' because
+    # games were found (original GameOutcome.status semantics), nothing saved
+    results2 = GameScraper(data_dir=tmp_path).scrape_all(
+        [{'ncaa_id': 539, 'team': 'Wmt', 'url': 'https://wmt.example.com'}], '2026-27')
+    assert results2[0].found == 1 and results2[0].failed == 1 and results2[0].saved == 0

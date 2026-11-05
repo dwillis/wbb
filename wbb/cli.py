@@ -343,9 +343,9 @@ def cmd_games(args) -> int:
         sys.stderr.flush()
 
     with wbb_games.GameScraper(data_dir=args.data_dir, headed=args.headed,
-                               skip_existing=args.skip_existing, on_team=progress) as scraper:
-        for team in teams:
-            scraper.scrape_team(team, args.season)
+                               skip_existing=args.skip_existing, workers=args.workers,
+                               on_team=progress) as scraper:
+        scraper.scrape_all(teams, args.season)
     if enabled:
         sys.stderr.write("\n")
 
@@ -507,6 +507,8 @@ def build_parser() -> argparse.ArgumentParser:
     p_games.add_argument('--skip-existing', action='store_true',
                          help="Don't re-download games that already have a JSON file")
     p_games.add_argument('--headed', action='store_true', help='Show the Playwright browser window')
+    p_games.add_argument('--workers', type=int, default=6,
+                         help='Parallel request workers for discovery and game fetches (default: 6)')
     p_games.add_argument('--teams-file', default=None, help='Path to teams.json')
     p_games.set_defaults(func=cmd_games)
 

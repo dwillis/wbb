@@ -19,7 +19,7 @@ import os
 import re
 from dataclasses import dataclass, field
 from pathlib import Path
-from typing import Callable, List, Optional
+from typing import Callable, List, Optional, Tuple
 from urllib.parse import urlparse
 
 import requests
@@ -86,26 +86,33 @@ def fetch_game_ids_static(base_url, season):
 
 
 def fetch_game_ids_playwright(browser, url, page_type='stats'):
-    """Game ids from boxscore links on a rendered stats or schedule page."""
-    page = browser.new_page()
-    try:
-        page.goto(url)
-        if page_type == 'stats':
-            page.click("text=Game-By-Game")
-        page.wait_for_timeout(3000)
-        ids = []
-        for link in page.locator("a[href*='boxscore']").all():
-            href = link.get_attribute("href")
-            if not href:
-                continue
-            parts = href.rstrip("/").split("/")
-            if parts and parts[-1].isdigit():
-                ids.append(parts[-1])
-            elif '=' in href and href.split("=")[1].replace("&path", '').isdigit():
-                ids.append(href.split("=")[1].replace("&path", ''))
-        return ids
-    finally:
-        page.close()
+        """Game ids from boxscore links on a rendered stats or schedule page.
+
+        Waits for the boxscore links to appear (event-based) instead of a fixed
+        sleep; falls back to the old 3s wait when no link appears by timeout
+        (sites with different link markup)."""
+        page = browser.new_page()
+        try:
+            page.goto(url)
+            if page_type == 'stats':
+                page.click("text=Game-By-Game")
+            try:
+                page.wait_for_selector("a[href*='boxscore']", timeout=10000, state='attached')
+            except Exception:
+                page.wait_for_timeout(3000)
+            ids = []
+            for link in page.locator("a[href*='boxscore']").all():
+                href = link.get_attribute("href")
+                if not href:
+                    continue
+                parts = href.rstrip("/").split("/")
+                if parts and parts[-1].isdigit():
+                    ids.append(parts[-1])
+                elif '=' in href and href.split("=")[1].replace("&path", '').isdigit():
+                    ids.append(href.split("=")[1].replace("&path", ''))
+            return ids
+        finally:
+            page.close()
 
 
 def fetch_game_json(domain, game_id):
@@ -180,14 +187,27 @@ class GameOutcome:
         return 'ok' if self.found else 'zero'
 
 
-class GameScraper:
-    """Discovers and downloads game JSON for teams/seasons, sharing one browser."""
+class _NeedsBrowser(Exception):
+    """Internal: the static stats page had nothing; Playwright fallback needed."""
 
-    def __init__(self, data_dir=None, headed=False, skip_existing=False,
+
+class GameScraper:
+    """Discovers and downloads game JSON for teams/seasons.
+
+    scrape_all() runs three phases so the shared browser stays single-threaded
+    (sync Playwright is not): (1) requests-only discovery in a thread pool,
+    (2) Playwright discovery for teams whose static page had nothing,
+    (3) game JSON fetches in the thread pool. scrape_team() remains as the
+    single-team form; file writes land on unique paths, so workers share
+    nothing else mutable — outcomes are assembled in the main thread.
+    """
+
+    def __init__(self, data_dir=None, headed=False, skip_existing=False, workers=6,
                  on_team: Optional[Callable[[GameOutcome], None]] = None):
         self.data_dir = resolve_game_data_dir(data_dir)
         self.headed = headed
         self.skip_existing = skip_existing
+        self.workers = workers
         self.on_team = on_team
         self.results: List[GameOutcome] = []
         self._pw = None
@@ -221,50 +241,117 @@ class GameScraper:
         ids = fetch_game_ids_playwright(self._get_browser(), f"{base_url}/stats/{season}")
         return _dedupe(ids), 'playwright'
 
-    def scrape_team(self, team, season) -> GameOutcome:
-        outcome = GameOutcome(team['ncaa_id'], team['team'])
+    def _requests_discovery(self, team, season):
+        """Phase 1 discovery: requests only. Raises _NeedsBrowser for the Playwright path."""
+        if int(team['ncaa_id']) in WMT_TEAMS:
+            return _dedupe(wmt_boxscore_links(team, season)), 'wmt'
+        try:
+            ids = fetch_game_ids_static(team['url'], season)
+        except requests.RequestException as e:
+            logger.debug(f"request discovery for {team['team']}: {e} -> trying browser")
+            raise _NeedsBrowser(team['team']) from e
+        if not ids:
+            raise _NeedsBrowser(team['team'])
+        return _dedupe(ids), 'static'
+
+    def _fetch_one(self, team, season, ref, out_dir, domain) -> Tuple[str, Optional[Path]]:
+        """One game's JSON fetch: returns ('saved'|'skipped'|'failed', path)."""
         is_wmt = int(team['ncaa_id']) in WMT_TEAMS
         try:
             if is_wmt:
-                game_refs, outcome.method = wmt_boxscore_links(team, season), 'wmt'
+                game_id = wmt_game_id(ref)
+                game_json = fetch_wmt_game_json(game_id) if game_id is not None else None
             else:
-                game_refs, outcome.method = self.discover(team, season)
-        except Exception as e:
-            # A missing Game-By-Game tab (no games posted yet) surfaces as a Playwright timeout.
-            if type(e).__name__ == 'TimeoutError':
-                logger.debug(f"no game list for {team['team']} {season}: {e}")
-            else:
-                outcome.error = str(e).splitlines()[0] if str(e) else type(e).__name__
-            self._record(outcome)
-            return outcome
+                game_id = str(ref).split('&')[0]
+                game_json = fetch_game_json(domain, game_id) if game_id else None
+        except (requests.RequestException, ValueError) as e:
+            logger.debug(f"game {ref} fetch failed: {e}")
+            return 'failed', None
+        if not game_id or game_json is None:
+            return 'failed', None
+        path = out_dir / f"{game_id}.json"
+        if self.skip_existing and path.exists():
+            return 'skipped', None
+        out_dir.mkdir(parents=True, exist_ok=True)
+        with open(path, 'w', encoding='utf-8') as f:
+            json.dump(game_json, f, ensure_ascii=False, indent=4)
+        return 'saved', path
 
-        outcome.found = len(game_refs)
-        out_dir = self.data_dir / slugify(team) / season
-        domain = urlparse(team['url']).netloc
-        for ref in game_refs:
+    def scrape_all(self, teams, season) -> List[GameOutcome]:
+        """Run all phases for all teams; returns outcomes in completion order."""
+        outcomes = [GameOutcome(t['ncaa_id'], t['team']) for t in teams]
+        discovered: List[Optional[Tuple[List[str], str]]] = [None] * len(teams)
+        need_browser: List[int] = []
+
+        def discover_job(i):
             try:
-                game_id = wmt_game_id(ref) if is_wmt else str(ref).split('&')[0]
-                if game_id is None:
-                    outcome.failed += 1
-                    continue
-                path = out_dir / f"{game_id}.json"
-                if self.skip_existing and path.exists():
-                    outcome.skipped += 1
-                    continue
-                game_json = fetch_wmt_game_json(game_id) if is_wmt else fetch_game_json(domain, game_id)
-            except (requests.RequestException, ValueError) as e:
-                logger.debug(f"game {ref} fetch failed: {e}")
-                game_json = None
-            if game_json is None:
-                outcome.failed += 1
-                continue
-            out_dir.mkdir(parents=True, exist_ok=True)
-            with open(path, 'w', encoding='utf-8') as f:
-                json.dump(game_json, f, ensure_ascii=False, indent=4)
-            outcome.saved += 1
-            outcome.files.append(path)
-        self._record(outcome)
-        return outcome
+                return i, self._requests_discovery(teams[i], season), None
+            except _NeedsBrowser as e:
+                return i, None, ('browser', e)
+            except Exception as e:
+                return i, None, ('error', e)
+
+        from concurrent.futures import ThreadPoolExecutor, as_completed
+        with ThreadPoolExecutor(max_workers=max(1, self.workers)) as pool:
+            futures = [pool.submit(discover_job, i) for i in range(len(teams))]
+            for fut in as_completed(futures):
+                i, refs, err = fut.result()
+                if err is None:
+                    game_ids, method = refs
+                    discovered[i] = (game_ids, method)
+                elif err[0] == 'browser':
+                    need_browser.append(i)
+                else:
+                    e = err[1]
+                    outcomes[i].error = str(e).splitlines()[0] if str(e) else type(e).__name__
+
+            # Phase 2: Playwright discovery, sequential (one shared browser).
+            for i in need_browser:
+                team, outcome = teams[i], outcomes[i]
+                try:
+                    refs, method = self.discover(team, season)
+                    discovered[i] = (refs, method)
+                    outcome.method = method
+                except Exception as e:
+                    # A missing Game-By-Game tab (no games posted yet) surfaces as a timeout.
+                    if type(e).__name__ == 'TimeoutError':
+                        logger.debug(f"no game list for {team['team']} {season}: {e}")
+                    else:
+                        outcome.error = str(e).splitlines()[0] if str(e) else type(e).__name__
+
+            # Phase 3: parallel game fetches; outcomes finalized when each team completes.
+            def fetch_job(i):
+                refs = discovered[i][0] if discovered[i] else []
+                if not refs:
+                    return i, []
+                out_dir = self.data_dir / slugify(teams[i]) / season
+                domain = urlparse(teams[i]['url']).netloc
+                return i, [(self._fetch_one(teams[i], season, ref, out_dir, domain), ref)
+                           for ref in refs]
+
+            futures = [pool.submit(fetch_job, i) for i in range(len(teams))]
+            for fut in as_completed(futures):
+                i, per = fut.result()
+                outcome = outcomes[i]
+                if discovered[i]:
+                    outcome.method = discovered[i][1]
+                    outcome.found = len(per)
+                for (status, path), _ref in per:
+                    if status == 'saved':
+                        outcome.saved += 1
+                        outcome.files.append(path)
+                    elif status == 'skipped':
+                        outcome.skipped += 1
+                    else:
+                        outcome.failed += 1
+                self.results.append(outcome)
+                if self.on_team is not None:
+                    self.on_team(outcome)
+        return self.results
+
+    def scrape_team(self, team, season) -> GameOutcome:
+        """Sequential single-team convenience path."""
+        return self.scrape_all([team], season)[0]
 
     def _record(self, outcome):
         self.results.append(outcome)
