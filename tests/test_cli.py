@@ -176,9 +176,13 @@ def test_scrape_all_zero_and_failed(tmp_path, monkeypatch):
     monkeypatch.setattr(gm, 'fetch_game_ids_playwright', lambda browser, url, page_type='stats': [])
     monkeypatch.setattr(gm, 'wmt_boxscore_links', lambda team, season: [f'{team["url"]}/boxscore/1'])
     monkeypatch.setattr(gm, 'wmt_game_id', lambda url: None)  # unparseable boxscore page
+    # unified denominator: browser phase continues the requests count over all n
+    disc = []
     scraper = GameScraper(data_dir=tmp_path)
     results = scraper.scrape_all(
-        [{'ncaa_id': 392, 'team': 'Sidearm', 'url': 'https://empty.example.com'}], '2026-27')
+        [{'ncaa_id': 392, 'team': 'Sidearm', 'url': 'https://empty.example.com'}], '2026-27',
+        on_discovery=lambda phase, done, total: disc.append((phase, done, total)))
+    assert disc == [('requests', 1, 1), ('playwright', 1, 1)]
     assert results[0].status == 'zero' and results[0].method == 'playwright'
     # boxscore page unparseable -> 1 found, 1 failed; status is 'ok' because
     # games were found (original GameOutcome.status semantics), nothing saved

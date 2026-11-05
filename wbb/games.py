@@ -382,7 +382,9 @@ class GameScraper:
                             finalize(i_done, per)
                             del pending[f]
                 if on_discovery is not None:
-                    on_discovery('playwright', j, len(need_browser))
+                    # Same denominator as phase 1 / the team lines: phases so
+                    # far = requests-only teams (done1 minus browser teams) + browser done.
+                    on_discovery('playwright', done1 - len(need_browser) + j, n)
 
             # Phase 3: block until all queued fetches finish, then finalize
             # the rest (teams whose discovery errored never enter the pool).

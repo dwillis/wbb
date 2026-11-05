@@ -330,23 +330,34 @@ def cmd_games(args) -> int:
     enabled = sys.stderr.isatty()
     state = {'count': 0}
 
+    state = {'count': 0}
+    last_len = [0]
+
+    def ephemeral(text):
+        """Overwrite the current stderr line, clearing any leftovers."""
+        pad = ' ' * max(last_len[0] - len(text), 0)
+        last_len[0] = len(text) + len(pad)
+        sys.stderr.write("\r" + text + pad)
+        sys.stderr.flush()
+
     def progress(o):
         if not enabled:
             return
         state['count'] += 1
         prefix = f"[{state['count']:5d}/{len(teams)}]"
         if o.status == 'ok':
-            sys.stderr.write(f"\r{prefix} [{o.saved:3d} games] {o.team} ({o.team_id})   ")
+            ephemeral(f"{prefix} [{o.saved:3d} games] {o.team} ({o.team_id})")
         else:
             detail = f"ERROR: {o.error}" if o.error else "no games found"
-            sys.stderr.write(("\n" if state['count'] > 1 else "") + f"{prefix} {o.team} ({o.team_id}) — {detail}\n")
+            sys.stderr.write("\n" if state['count'] > 1 else "")
+            sys.stderr.write(f"{prefix} {o.team} ({o.team_id}) — {detail}\n")
+            last_len[0] = 0
         sys.stderr.flush()
 
     def discovery_progress(phase, done, total):
         if not enabled:
             return
-        sys.stderr.write(f"\r[discovery {phase:8s} {done:5d}/{total}]   ")
-        sys.stderr.flush()
+        ephemeral(f"[discovery {phase}] {done:5d}/{total}")
 
     with wbb_games.GameScraper(data_dir=args.data_dir, headed=args.headed,
                                skip_existing=args.skip_existing, workers=args.workers,
