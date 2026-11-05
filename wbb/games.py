@@ -277,11 +277,23 @@ class GameScraper:
             json.dump(game_json, f, ensure_ascii=False, indent=4)
         return 'saved', path
 
-    def scrape_all(self, teams, season) -> List[GameOutcome]:
-        """Run all phases for all teams; returns outcomes in completion order."""
+    def scrape_all(self, teams, season, on_discovery=None) -> List[GameOutcome]:
+        """Pipelined run over all teams; returns outcomes in completion order.
+
+        Phases: (1) requests-only discovery in a thread pool, (2) sequential
+        Playwright discovery for teams the static page couldn't serve — with
+        each team's game fetches queued into the same pool as its discovery
+        finishes so downloads overlap the browser work, (3) a final blocking
+        drain of any fetches still queued. Outcomes are finalized in the main
+        thread (workers share nothing mutable), so on_team/on_discovery
+        callbacks are safe.
+
+        on_discovery(phase, done, total) fires per completed discovery for CLI
+        progress; phase is 'requests' or 'playwright'.
+        """
         outcomes = [GameOutcome(t['ncaa_id'], t['team']) for t in teams]
         discovered: List[Optional[Tuple[List[str], str]]] = [None] * len(teams)
-        need_browser: List[int] = []
+        n = len(teams)
 
         def discover_job(i):
             try:
@@ -291,10 +303,41 @@ class GameScraper:
             except Exception as e:
                 return i, None, ('error', e)
 
-        from concurrent.futures import ThreadPoolExecutor, as_completed
+        def fetch_job(i):
+            refs = discovered[i][0] if discovered[i] else []
+            if not refs:
+                return i, []
+            out_dir = self.data_dir / slugify(teams[i]) / season
+            domain = urlparse(teams[i]['url']).netloc
+            return i, [(self._fetch_one(teams[i], season, ref, out_dir, domain), ref)
+                       for ref in refs]
+
+        def finalize(i, per):
+            outcome = outcomes[i]
+            if discovered[i]:
+                outcome.method = discovered[i][1]
+                outcome.found = len(per)
+            for (status, path), _ref in per:
+                if status == 'saved':
+                    outcome.saved += 1
+                    outcome.files.append(path)
+                elif status == 'skipped':
+                    outcome.skipped += 1
+                else:
+                    outcome.failed += 1
+            self.results.append(outcome)
+            if self.on_team is not None:
+                self.on_team(outcome)
+
+        from concurrent.futures import (ThreadPoolExecutor, as_completed, wait,
+                                        FIRST_COMPLETED)
         with ThreadPoolExecutor(max_workers=max(1, self.workers)) as pool:
-            futures = [pool.submit(discover_job, i) for i in range(len(teams))]
-            for fut in as_completed(futures):
+            # Phase 1: requests-only discovery for every team.
+            logger.info(f"discovering (static/wmt requests): {n} teams, {self.workers} workers")
+            pending: dict = {}
+            need_browser: List[int] = []
+            done1 = 0
+            for fut in as_completed([pool.submit(discover_job, i) for i in range(n)]):
                 i, refs, err = fut.result()
                 if err is None:
                     game_ids, method = refs
@@ -304,49 +347,53 @@ class GameScraper:
                 else:
                     e = err[1]
                     outcomes[i].error = str(e).splitlines()[0] if str(e) else type(e).__name__
+                done1 += 1
+                if on_discovery is not None:
+                    on_discovery('requests', done1, n)
+
+            # Queue fetches for everything requests discovered, then overlap
+            # the Playwright teams' discovery with those downloads.
+            for i, di in enumerate(discovered):
+                if di is not None and di[0]:
+                    pending[pool.submit(fetch_job, i)] = i
 
             # Phase 2: Playwright discovery, sequential (one shared browser).
-            for i in need_browser:
-                team, outcome = teams[i], outcomes[i]
+            if need_browser:
+                logger.info(f"discovering (browser): {len(need_browser)} teams, sequential")
+            for j, i in enumerate(need_browser, 1):
+                team = teams[i]
                 try:
                     refs, method = self.discover(team, season)
                     discovered[i] = (refs, method)
-                    outcome.method = method
                 except Exception as e:
                     # A missing Game-By-Game tab (no games posted yet) surfaces as a timeout.
                     if type(e).__name__ == 'TimeoutError':
                         logger.debug(f"no game list for {team['team']} {season}: {e}")
+                        discovered[i] = ([], 'playwright')
                     else:
-                        outcome.error = str(e).splitlines()[0] if str(e) else type(e).__name__
-
-            # Phase 3: parallel game fetches; outcomes finalized when each team completes.
-            def fetch_job(i):
-                refs = discovered[i][0] if discovered[i] else []
-                if not refs:
-                    return i, []
-                out_dir = self.data_dir / slugify(teams[i]) / season
-                domain = urlparse(teams[i]['url']).netloc
-                return i, [(self._fetch_one(teams[i], season, ref, out_dir, domain), ref)
-                           for ref in refs]
-
-            futures = [pool.submit(fetch_job, i) for i in range(len(teams))]
-            for fut in as_completed(futures):
-                i, per = fut.result()
-                outcome = outcomes[i]
+                        outcomes[i].error = str(e).splitlines()[0] if str(e) else type(e).__name__
                 if discovered[i]:
-                    outcome.method = discovered[i][1]
-                    outcome.found = len(per)
-                for (status, path), _ref in per:
-                    if status == 'saved':
-                        outcome.saved += 1
-                        outcome.files.append(path)
-                    elif status == 'skipped':
-                        outcome.skipped += 1
-                    else:
-                        outcome.failed += 1
-                self.results.append(outcome)
-                if self.on_team is not None:
-                    self.on_team(outcome)
+                    pending[pool.submit(fetch_job, i)] = i
+                    # Stream any fetches that finished while the browser worked.
+                    if pending:
+                        done, _ = wait(set(pending), timeout=0, return_when=FIRST_COMPLETED)
+                        for f in done:
+                            (i_done, per) = f.result()
+                            finalize(i_done, per)
+                            del pending[f]
+                if on_discovery is not None:
+                    on_discovery('playwright', j, len(need_browser))
+
+            # Phase 3: block until all queued fetches finish, then finalize
+            # the rest (teams whose discovery errored never enter the pool).
+            if pending:
+                done, _ = wait(set(pending))
+                for f in done:
+                    i, per = f.result()
+                    finalize(i, per)
+            for i in range(n):
+                if discovered[i] is None:
+                    finalize(i, [])
         return self.results
 
     def scrape_team(self, team, season) -> GameOutcome:

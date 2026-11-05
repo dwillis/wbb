@@ -148,10 +148,13 @@ def test_scrape_all_parallel(tmp_path, monkeypatch):
     teams = [{'ncaa_id': 392, 'team': 'Maryland', 'url': 'https://x.example.com'},
              {'ncaa_id': 257, 'team': 'Georgia', 'url': 'https://y.example.com'}]
     seen = []
+    disc = []
     scraper = GameScraper(data_dir=tmp_path, on_team=seen.append)
-    results = scraper.scrape_all(teams, '2026-27')
+    results = scraper.scrape_all(teams, '2026-27',
+                                 on_discovery=lambda phase, done, total: disc.append((phase, done, total)))
     assert len(results) == 2 and {o.saved for o in results} == {3}
     assert len(seen) == 2  # on_team fired for both teams
+    assert disc == [('requests', 1, 2), ('requests', 2, 2)]  # no browser teams in this fixture
     files = sorted((tmp_path / '392-maryland' / '2026-27').glob('*.json'))
     assert [f.name for f in files] == ['101.json', '102.json', '103.json']
     assert _json.load(open(files[0])) == {'game': '101'}

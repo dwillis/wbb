@@ -342,10 +342,16 @@ def cmd_games(args) -> int:
             sys.stderr.write(("\n" if state['count'] > 1 else "") + f"{prefix} {o.team} ({o.team_id}) — {detail}\n")
         sys.stderr.flush()
 
+    def discovery_progress(phase, done, total):
+        if not enabled:
+            return
+        sys.stderr.write(f"\r[discovery {phase:8s} {done:5d}/{total}]   ")
+        sys.stderr.flush()
+
     with wbb_games.GameScraper(data_dir=args.data_dir, headed=args.headed,
                                skip_existing=args.skip_existing, workers=args.workers,
                                on_team=progress) as scraper:
-        scraper.scrape_all(teams, args.season)
+        scraper.scrape_all(teams, args.season, on_discovery=discovery_progress)
     if enabled:
         sys.stderr.write("\n")
 
