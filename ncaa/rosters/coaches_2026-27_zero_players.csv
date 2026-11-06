@@ -1,0 +1,885 @@
+team_id,team_name
+29,Arizona
+52,Bellarmine
+107,California
+67,Boston College
+14927,Belmont
+596,St. Bonaventure
+136,Chicago State
+157,Colorado
+169,Creighton
+165,Coppin State
+175,Dayton
+194,Duquesne
+189,Drake
+794,Green Bay
+251,Georgetown
+301,Illinois
+312,Iowa
+310,Iona
+334,Kentucky
+270,Hampton
+340,LaSalle
+381,Manhattan
+406,Mercer
+450,Mount St. Mary's
+739,Villanova
+466,Nevada
+501,Northern Arizona
+654,Southeast Missouri State
+540,Pennsylvania
+617,Saint Peter's
+587,Rutgers
+579,Robert Morris
+603,St. John's
+709,Toledo
+14,Albany
+629,San Francisco
+651,South Florida
+702,Texas-Arlington
+740,Virginia Commonwealth
+295,Idaho
+771,Western Illinois
+811,Wyoming
+2,Abilene Christian
+27,Appalachian State
+43,Austin Peay
+17,Alcorn State
+7,Alabama State
+624,Sam Houston State
+61,Bethune-Cookman
+380,Maine
+62,Binghamton
+72,Bradley
+1320,Presbyterian College
+81,Bryant
+90,Cal Poly
+87,Butler
+127,Central Connecticut
+769,Western Carolina
+148,Cleveland State
+149,Coastal Carolina
+1014,College of Charleston
+167,Cornell
+153,Colgate
+158,Columbia
+48,Charleston Southern
+172,Dartmouth
+94,Cal State Bakersfield
+184,Detroit Mercy
+201,Eastern Illinois
+202,Eastern Kentucky
+178,Delaware State
+198,East Tennessee State
+207,Eastern Washington
+28755,Florida Gulf Coast
+222,Fairleigh Dickinson
+97,Cal State Fullerton
+236,Fordham
+610,Saint Mary's (CA)
+115,Campbell
+244,Furman
+503,Northern Illinois
+782,Wichita State
+116,Canisius
+253,Georgia Southern
+272,Hartford
+275,Harvard
+254,Georgia State
+285,Holy Cross
+277,Hawaii
+287,Houston Christian
+283,Hofstra
+19651,High Point
+665,Southern
+305,Indiana State
+290,Howard
+316,Jacksonville
+331,Kent State
+1157,Kennesaw State
+342,Lafayette
+346,Lamar
+655,Southeastern Louisiana
+28600,Lipscomb
+361,Long Island
+363,Longwood
+369,Loyola-Maryland
+410,Merrimack
+386,Marist
+8567,Mount St. Joseph
+797,Milwaukee
+444,Morehead State
+726,Navy
+439,Monmouth
+489,North Carolina Central
+493,North Dakota State
+471,New Jersey Institute of Technology
+483,Nicholls State
+482,Niagara
+505,Northern Kentucky
+472,New Mexico State
+508,Northwestern State
+464,Omaha
+2711,North Florida
+527,Oral Roberts
+474,New Orleans
+551,Portland
+550,Portland State
+563,Radford
+371,Loyola-Chicago
+572,Rhode Island
+576,Rider
+368,UMass Lowell
+299,Illinois State
+590,Sacred Heart
+625,Samford
+631,Santa Clara
+102,Sacramento State
+609,Saint Louis
+600,Saint Francis (PA)
+606,Saint Joseph's (PA)
+663,Southern Methodist
+220,Fairfield
+683,Stony Brook
+68,Boston
+692,Tennessee Tech
+670,Texas State
+678,Stetson
+711,Towson
+1004,Central Arkansas
+108,UC Davis
+109,UC Irvine
+111,UC Riverside
+104,UC Santa Barbara
+219,Evansville
+2743,Incarnate Word
+498,Louisiana Monroe
+391,UMBC
+392,Maryland
+288,Houston
+459,UNC Greensboro
+695,UT Martin
+536,UT-Rio Grande Valley
+627,San Diego
+704,Texas-El Paso
+735,Valparaiso
+738,Vermont
+792,Winthrop
+786,William & Mary
+30024,Utah Valley
+768,West Virginia
+260,Gonzaga
+774,Western Michigan
+2915,Wofford
+1000,Carson-Newman
+100,Cal State LA
+101,CSUN
+1001,Catawba
+1009,Central Okla.
+1010,Central Wash.
+1012,Chadron St.
+1023,Coker
+1013,Charleston (WV)
+1028,Concord
+10411,USC Upstate
+1036,Concordia Wisconsin
+1059,D'Youville
+1062,East Tex. Baptist
+1057,Drury
+106,Cal U (PA)
+1068,Elon
+1066,Edgewood
+1076,Fairmont St.
+1071,Emporia St.
+1072,Erskine
+10870,Shepherd
+1083,Fort Lewis
+1092,Gardner-Webb
+1085,Francis Marion
+1096,Georgia College
+11,Alas. Anchorage
+11036,Sage Colleges
+1111,Greenville
+1098,Glenville St.
+1115,Hanover
+1094,George Fox
+1112,Guilford
+1116,Harding
+112,UC San Diego
+11276,S.C. Aiken
+113,UC Santa Cruz
+1130,Huntingdon
+1126,Holy Family
+1133,Husson
+11403,Colo. Christian
+1124,Hendrix
+11504,Queens (NC)
+114,Calvin
+1156,Neb.-Kearney
+11416,Colorado Mesa
+1123,Henderson St.
+1162,LaGrange
+1167,Lander
+1159,Keuka
+1164,Lakeland
+1170,Lenoir-Rhyne
+118,Carleton
+117,Capital
+11740,West Florida
+119,Carnegie Mellon
+1199,Mars Hill
+1179,Linfield
+11839,Pitt.-Greensburg
+12,Alas. Fairbanks
+1196,Marian (WI)
+122,CWRU
+1203,Mary Hardin-Baylor
+15,Albion
+19,Allegheny
+1245,Mount Olive
+125,Centenary (LA)
+1238,Montevallo
+1240,MSU Moorhead
+1254,Neumann
+1266,Northern St.
+1257,Newberry
+1274,Northwest Nazarene
+12830,Tusculum
+12799,Wheeling
+12810,Northeastern St.
+130,Central Mo.
+12884,Centenary (NJ)
+13028,Anderson (SC)
+1289,Ouachita Baptist
+1305,Cairn
+1314,Pittsburg St.
+296,Benedictine (IL)
+1318,Post
+1328,Rockhurst
+132,Centre
+1334,St. Edward's
+1340,St. Joseph's (L.I.)
+13302,Lees-McRae
+1348,St. Thomas Aquinas
+1346,St. Mary's (TX)
+1355,Schreiner
+64,Blackburn
+1371,Southeastern Okla.
+1343,Saint Martin's
+139,Chris. Newport
+1376,Southern Ark.
+1395,Tarleton St.
+1403,Tiffin
+1433,Wayne St. (NE)
+1454,Whitworth
+1438,West Liberty
+1439,West Virginia St.
+1445,Western N.M.
+1446,Western Ore.
+144,Clark Atlanta
+1434,Waynesburg
+1448,Western Wash.
+145,Clark (MA)
+121,Carthage
+1461,Wilmington (OH)
+146,Clarkson
+1462,Wingate
+14795,Cedar Crest
+124,Catholic
+1467,Goucher
+150,Coe
+151,Colby
+154,Colorado Col.
+123,Castleton
+16,Albright
+160,Concordia Chicago
+155,Colo. Sch. of Mines
+166,Cornell College
+159,Columbus St.
+163,Connecticut Col.
+142,Claremont-M-S
+16142,Misericordia
+18,Alfred
+181,Delta St.
+17094,William Peace
+183,Denver
+174,Davis & Elkins
+186,Dist. Columbia
+179,Delaware Valley
+182,Denison
+177,DePauw
+190,Drew
+192,Dubuque
+195,Earlham
+185,Dickinson
+199,Tex. A&M-Commerce
+19117,Salem (WV)
+197,East Stroudsburg
+200,Eastern Conn. St.
+20220,MSOE
+203,East. Mennonite
+20,DeSales
+208,Eckerd
+21,Alma
+206,Eastern N.M.
+205,Mont. St. Billings
+209,Edinboro
+211,Elizabethtown
+21323,Chestnut Hill
+212,Elmhurst
+213,Elmira
+216,Emory & Henry
+218,Eureka
+217,Emory
+215,Emmanuel (MA)
+214,Emerson
+21852,Stevenson
+224,Ferris St.
+21830,Piedmont
+221,FDU-Florham
+227,Fitchburg St.
+228,Florida A&M
+22626,JWU (Providence)
+22,American International
+225,Ferrum
+231,FIU
+23,American
+23121,Texas-Dallas
+235,Florida
+233,Fla. Southern
+230,Florida Tech
+23725,Medaille
+241,Franklin Pierce
+23157,Felician
+24317,Lesley
+243,Frostburg St.
+242,Fredonia
+24400,Concordia (TX)
+24639,Nova Southeastern
+239,Franklin & Marshall
+25719,Penn St.-Altoona
+246,Gannon
+247,SUNY Geneseo
+258,Gettysburg
+259,Rowan
+25,Angelo St.
+261,Grambling
+264,Grinnell
+266,Gust. Adolphus
+26172,A&M-Corpus Christi
+262,Grand Valley St.
+265,Grove City
+30084,Geneva
+268,Hamline
+2707,Kansas City
+2699,IUPUI
+2683,Belmont Abbey
+2713,Oglethorpe
+2720,Colorado St.-Pueblo
+2694,Franklin
+273,Hartwick
+271,Hardin-Simmons
+2741,Howard Payne
+2746,Lake Erie
+2751,Pacific (OR)
+2755,Southwest Baptist
+2759,Western Colo.
+2798,Albertus Magnus
+280,Hillsdale
+278,Heidelberg
+27854,Minn.-Crookston
+2810,St. Thomas (TX)
+27892,Farmingdale St.
+267,Hamilton
+28594,USciences
+2814,Washburn
+28749,Transylvania
+281,Hiram
+291,Cal Poly Humboldt
+284,Hollins
+292,Hunter
+3,Adelphi
+294,Idaho St.
+286,Hope
+297,Illinois Col.
+30,Arkansas St.
+30002,Trevecca Nazarene
+300,Ill. Wesleyan
+30028,Texas-Tyler
+30036,Mount Aloysius
+30013,Lee
+30031,Northwestern-St. Paul
+30037,Trine
+30035,Crown (MN)
+30039,North Central (MN)
+30038,Bethany Lutheran
+30042,Mitchell
+30047,Keystone
+30045,Palm Beach Atl.
+30052,North Georgia
+30063,Seton Hill
+30054,Newman
+30064,Saint Vincent
+30069,Franciscan
+30055,Cal St. Monterey Bay
+30073,William Smith
+30065,NVU-Lyndon
+30088,Tex. Permian Basin
+442,Montclair St.
+30093,AUM
+30092,Flagler
+30095,Utah Tech
+30105,Ark.-Fort Smith
+30111,Covenant
+30085,Lancaster Bible
+443,Moravian
+30119,Ohio Dominican
+30120,William Jewell
+30127,Simon Fraser
+30124,Cedarville
+30128,Sioux Falls
+30134,Black Hills St.
+30125,Minot St.
+30138,McKendree
+30136,Lindenwood (MO)
+30141,Walsh
+30139,South Dakota Mines
+30140,Ursuline
+30147,Fresno Pacific
+30149,Point Loma
+30152,Southern Nazarene
+30153,Union (TN)
+30163,Sarah Lawrence
+30154,Young Harris
+30160,Houghton
+30164,Southern Va.
+30174,Daemen
+30165,SUNY Canton
+30175,Holy Names
+30171,Berea
+30180,Rogers St.
+30177,Lubbock Christian
+30178,Northwestern Okla.
+30192,Southern Wesleyan
+30190,Penn College
+30198,Cal St. San Marcos
+30181,UVa-Wise
+30197,Belhaven
+30209,Westminster (UT)
+30199,Concordia (CA)
+30202,Okla. Baptist
+30219,Dean
+30225,SUNY Delhi
+30222,Purdue Northwest
+30220,Biola
+30221,Davenport
+307,Indiana (PA)
+315,Jacksonville St.
+309,UIndy
+313,Ithaca
+314,Jackson St.
+320,John Carroll
+322,Johns Hopkins
+321,John Jay
+326,Kalamazoo
+325,Juniata
+330,Keene St.
+332,Kentucky St.
+335,Kenyon
+336,King's (PA)
+323,Johnson C. Smith
+333,Ky. Wesleyan
+341,La Verne
+345,Lake Superior St.
+339,Kutztown
+337,Knox
+344,Lake Forest
+351,Lebanon Valley
+349,Le Moyne
+36,Assumption
+354,Lewis
+358,West Alabama
+366,Louisiana Tech
+360,Lock Haven
+364,Loras
+370,Loyola Marymount
+372,Luther
+373,Lycoming
+376,Macalester
+382,Manhattanville
+379,Me.-Farmington
+383,Minnesota St.
+38,Augsburg
+384,Mansfield
+385,Marietta
+394,Marymount (VA)
+395,Maryville (MO)
+390,Mary Washington
+39,Augusta
+40,Augustana (IL)
+397,Marywood
+407,Mercy
+398,MIT
+409,Meredith
+408,Mercyhurst
+41,Augustana (SD)
+417,Michigan Tech
+411,Messiah
+413,MSU Denver
+420,Middlebury
+42,Aurora
+423,Millersville
+426,Millsaps
+427,Minn. Duluth
+429,Mississippi College
+424,Millikin
+436,Missouri-St. Louis
+432,Mississippi Valley State
+438,Monmouth (IL)
+1315,Pitt.-Bradford
+44,Averett
+30114,Penn St.-Abington
+449,Mount Holyoke
+435,Missouri S&T
+446,Morgan St.
+453,Muhlenberg
+451,CMSV
+455,Muskingum
+46,Baldwin Wallace
+452,Mount Union
+461,Nazareth
+45,Babson
+467,New England Col.
+465,UNLV
+460,UNCW
+462,Neb. Wesleyan
+468,Southern N.H.
+470,New Haven
+486,MCLA
+479,NYU
+488,N.C. A&T
+487,North Alabama
+484,Nichols
+49,Barry
+494,North Dakota
+491,N.C. Wesleyan
+480,CCNY
+496,North Park
+499,Truman State
+507,Northwest Missouri State
+500,Northeastern
+510,Northwood
+50,Bates
+506,Northern Michigan
+511,Norwich
+515,Oberlin
+517,Ohio Northern
+519,Ohio
+516,Occidental
+514,Oakland
+532,Elms
+531,Otterbein
+530,Oswego St.
+538,Penn St.-Behrend
+533,Pace
+537,UNC Pembroke
+544,Pine Manor
+543,Jefferson
+54,Bemidji St.
+546,Pitt.-Johnstown
+55,Benedict
+549,Pomona-Pitzer
+557,Puget Sound
+553,Prairie View A&M
+56,Bentley
+560,Queens (NY)
+552,SUNY Potsdam
+561,Quincy
+569,Regis (MA)
+564,Ramapo
+567,Redlands
+573,Rhodes
+568,Regis (CO)
+58,Baruch
+577,Ripon
+582,Rockford
+581,Rochester (NY)
+584,Rollins
+583,Roger Williams
+585,Rose-Hulman
+589,Rutgers-Newark
+59,Bethany (WV)
+595,Saint Benedict
+593,St. Anselm
+598,St. Cloud St.
+6,Alabama A&M
+597,St. Catherine
+60,Bethel (MN)
+608,Saint Leo
+601,St. John Fisher
+607,St. Lawrence
+612,Saint Mary's (MN)
+613,Saint Michael's
+614,St. Norbert
+679,Stevens
+618,St. Scholastica
+622,Salisbury
+623,Salve Regina
+628,San Fran. St.
+634,Seattle Pacific
+637,Shenandoah
+615,St. Olaf
+639,Siena
+641,Simpson
+633,Scranton
+712,TCNJ
+638,Shippensburg
+642,Skidmore
+646,South Alabama
+644,Smith
+647,South Carolina St.
+656,UMass Dartmouth
+65,Bloomsburg
+652,Sewanee
+658,Southern Conn. St.
+660,SIUE
+661,Southern Ind.
+667,Southern Utah
+669,Missouri St.
+675,Staten Island
+673,Springfield
+684,Suffolk
+685,Susquehanna
+689,Tampa
+682,Stonehill
+1400,Texas Lutheran
+69,Bowdoin
+691,Tennessee St.
+699,Texas Southern
+693,Chattanooga
+686,Swarthmore
+70,Bowie St.
+701,Texas Woman's
+137,Chicago
+713,Trinity (CT)
+707,Thiel
+715,Trinity (TX)
+717,Tufts
+722,Coast Guard
+727,Union (NY)
+730,Ursinus
+728,Upper Iowa
+720,Tuskegee
+73,Brandeis
+74,Bridgeport
+731,Utah St.
+734,Valdosta St.
+75,Bridgewater (VA)
+748,Wagner
+737,Vassar
+751,Washington & Jefferson
+745,Va. Wesleyan
+750,Wartburg
+757,Wayne St. (MI)
+753,Washington Col.
+755,WashU
+762,Wentworth
+764,Wesleyan (CT)
+770,Western Connecticut St.
+760,Wellesley
+773,McDaniel
+767,West Texas A&M
+620,St. Thomas (MN)
+778,Wheaton (IL)
+775,Western New Eng.
+779,Wheaton (MA)
+785,Willamette
+783,Widener
+784,Wilkes
+790,Winona St.
+791,Winston-Salem
+780,Whitman
+793,Wis.-Eau Claire
+798,Wis.-Oshkosh
+799,Wisconsin-Parkside
+800,Wis.-Platteville
+795,Wisconsin-La Crosse
+803,Wisconsin-Stout
+802,Wisconsin-Stevens Point
+801,Wisconsin-River Falls
+804,Wisconsin-Superior
+805,Wisconsin-Whitewater
+806,Wittenberg
+807,Wooster
+810,Wright St.
+1451,Westminster (PA)
+813,Yale
+815,York (PA)
+84,Buena Vista
+8398,Hilbert
+817,Youngstown St.
+8490,LeTourneau
+8404,Hood
+808,WPI
+8411,Ark.-Monticello
+8688,St. Mary's (IN)
+8736,Southwest Minn. St.
+8746,Southwestern (TX)
+809,Worcester St.
+89,Caltech
+8744,Southwestern Okla.
+8875,Chowan
+8911,Wis. Lutheran
+9004,Georgian Court
+8965,East Central
+9012,Mo. Southern St.
+91,Cal Poly Pomona
+9011,Fort Hays St.
+92,Cal St. Dom. Hills
+9081,Concordia-St. Paul
+93,Cal St. San Bernardino
+9013,Missouri Western
+938,Alvernia
+953,Austin
+947,Arkansas Tech
+95,Chico St.
+962,Bard
+9680,Embry-Riddle (FL)
+966,Arcadia
+985,Bluefield St.
+9754,UC-Colo. Springs
+98,Cal St. East Bay
+995,Caldwell
+542,Pfeiffer
+30146,Azusa Pacific
+103,Stanislaus St.
+20576,Clayton State
+82,Bryn Mawr
+30058,Claflin
+143,Clarion
+30118,Dominican (CA)
+210,Elizabeth City St.
+237,Fort Valley St.
+223,Fayetteville St.
+1097,Ga. Southwestern
+11324,Agnes Scott College
+85,Buffalo State
+30041,Salem (NC)
+30050,Illinois-Springfield
+30075,Mary
+245,Gallaudet
+621,Salem St.
+30094,Brevard College
+1226,Minnesota-Morris
+23008,Ozarks
+30263,Vanguard
+534,Pacific
+1402,Thomas More
+643,Slippery Rock
+1332,Dominican (IL)
+743,Virginia State
+724,U.S. Merchant Marine
+374,Lynchburg
+744,Virginia Union
+9630,West Virginia Wesleyan
+766,West Georgia
+789,Williams College
+30260,Westmont
+30083,SUNY Cobleskill
+20794,Lynn
+752,Washington and Lee
+765,West Chester
+2697,Hawaii Hilo
+8956,Dominican (NY)
+9223,North Greenville
+15646,Barton
+8577,N.M. Highlands
+8366,Goldey-Beacom
+30137,Malone
+30150,Roberts Wesleyan
+30179,Okla. Christian
+1460,Wilmington (DE)
+13,Albany St. (GA)
+10,UAH
+133,Chaminade
+347,Lane
+356,Lincoln (MO)
+357,Lincoln (PA)
+1176,Lincoln Memorial
+1222,Midwestern St.
+2807,Roosevelt
+30259,USC Beaufort
+30080,Point Park
+30267,Jamestown
+30262,Jessup
+405,Menlo
+30266,UC Merced
+520,Ohio Wesleyan
+548,Plymouth St.
+555,Principia
+492,North Central (IL)
+570,Rensselaer
+578,Roanoke
+161,Concordia-Moorhead
+170,Curry
+580,RIT
+777,Westfield St.
+781,Whittier
+987,Bluffton
+168,Cortland
+1163,La Roche
+814,Yeshiva
+1044,Dallas
+1099,Gordon
+1450,Westminster (MO)
+1192,Manchester
+1468,Mt. St. Mary (NY)
+8486,Lasell
+2730,York (NY)
+8687,Saint Joseph (CT)
+8968,Eastern
+431,MUW
+4,Adrian
+26,Anna Maria
+8597,Martin Luther
+30243,Asbury
+76,Bridgewater St.
+30236,Warren Wilson
+105,Cal Lutheran
+134,Chapman
+403,Medgar Evers
+126,Central (IA)
+412,Methodist
+276,Haverford
+279,Lehman
+303,Immaculata
+329,Kean
+263,Greensboro
+396,Maryville (TN)
+588,Rutgers-Camden
+12399,Gwynedd Mercy
+12973,Wilson
+14718,Wesleyan (GA)
+18422,Rivier
+28746,Alverno
+23260,Spalding
+30033,Mount Mary
+22235,Lewis & Clark
+30029,Purchase
+30040,Me.-Presque Isle
+30170,Alfred St.
+30072,St. Joseph's (Brkln)
+502260,IIT
+1255,U New England
+22989,Lyon
+30253,Carlow
+681,Stockton
+1297,Pacific Lutheran
+238,Framingham St.
+733,Utica
+319,New Jersey City
+475,SUNY New Paltz
+378,Maine Maritime
+30189,Penn St. Brandywine
+79,Brooklyn
+605,St. Joseph's (ME)

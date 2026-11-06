@@ -1,0 +1,615 @@
+team_id,team,name,title,url,season
+721,Air Force,Stacy McIntyre,Head Women's Basketball Coach,https://goairforcefalcons.com/sports/womens-basketball/roster/coaches/stacy-mcintyre/2774,2026-27
+721,Air Force,Derek Brooks,Assistant Coach,https://goairforcefalcons.com/sports/womens-basketball/roster/coaches/derek-brooks/2786,2026-27
+721,Air Force,Mackenzie Head,Assistant Coach,https://goairforcefalcons.com/sports/womens-basketball/roster/coaches/mackenzie-head/2776,2026-27
+721,Air Force,Lauren Baker,Assistant Coach,https://goairforcefalcons.com/sports/womens-basketball/roster/coaches/lauren-baker/2796,2026-27
+725,Army,Katie Kuester,Head Women's Basketball Coach,https://goarmywestpoint.com/sports/womens-basketball/roster/coaches/katie-kuester/2520,2026-27
+725,Army,Maggie Gallagher,Associate Head Women's Basketball Coach/Director of Recruiting,https://goarmywestpoint.com/sports/womens-basketball/roster/coaches/maggie-gallagher/2521,2026-27
+725,Army,Amber Raisner,Assistant Women's Basketball Coach/Recruiting Coordinator,https://goarmywestpoint.com/sports/womens-basketball/roster/coaches/amber-raisner/2523,2026-27
+725,Army,Mary Sheehan,Assistant Women's Basketball Coach/Recruiting Coordinator,https://goarmywestpoint.com/sports/womens-basketball/roster/coaches/mary-sheehan/2522,2026-27
+725,Army,Janelle Harrison,Assistant Women's Basketball Coach/Operations,https://goarmywestpoint.com/sports/womens-basketball/roster/coaches/janelle-harrison/2524,2026-27
+8,Alabama,Pauline Love,Head Coach,https://rolltide.com/sports/womens-basketball/roster/coaches/pauline-love/1830,2026-27
+8,Alabama,Amy Wright,Associate Head Coach,https://rolltide.com/sports/womens-basketball/roster/coaches/amy-wright/1834,2026-27
+8,Alabama,Tyus Hooks,Assistant Coach/Recruiting Coordinator,https://rolltide.com/sports/womens-basketball/roster/coaches/tyus-hooks/1831,2026-27
+8,Alabama,Chester Nichols,Assistant Coach,https://rolltide.com/sports/womens-basketball/roster/coaches/chester-nichols/1833,2026-27
+8,Alabama,Chelsea Dungee-Artberry,"Director, Player Development and Recruiting Operations/Assistant Coach",https://rolltide.com/sports/womens-basketball/roster/coaches/chelsea-dungee-artberry/1835,2026-27
+8,Alabama,Cal Watson,Director of Scouting and Analytics/Assistant Coach,https://rolltide.com/sports/womens-basketball/roster/coaches/cal-watson/1832,2026-27
+8,Alabama,Ashton Maxwell,Graduate Assistant Coach,https://rolltide.com/sports/womens-basketball/roster/coaches/ashton-maxwell/1899,2026-27
+8,Alabama,Henry Creed,Graduate Assistant Coach,https://rolltide.com/sports/womens-basketball/roster/coaches/henry-creed/1900,2026-27
+8,Alabama,Keldon Peak,Assistant Strength & Conditioning Coach (Women's Basketball),https://rolltide.com/sports/womens-basketball/roster/staff/keldon-peak/1571,2026-27
+8,Alabama,Carolyn Spencer,Executive Assistant to Head Basketball Coach,https://rolltide.com/sports/womens-basketball/roster/staff/carolyn-spencer/1570,2026-27
+51,Baylor,Nicki Collen,Head Coach,https://baylorbears.com/sports/womens-basketball/roster/coaches/nicki-collen/2975,2026-27
+51,Baylor,Tony Greene,Associate Head Coach,https://baylorbears.com/sports/womens-basketball/roster/coaches/tony-greene/2976,2026-27
+51,Baylor,Johnnie Harris,Associate Head Coach,https://baylorbears.com/sports/womens-basketball/roster/coaches/johnnie-harris/2984,2026-27
+51,Baylor,Aaron Sternecker,Assistant Coach,https://baylorbears.com/sports/womens-basketball/roster/coaches/aaron-sternecker/2978,2026-27
+51,Baylor,Jaelyn  Richard Harris,Assistant Coach,https://baylorbears.com/sports/womens-basketball/roster/coaches/jaelyn-richard-harris/2985,2026-27
+51,Baylor,Tez Dumars,Assistant Coach,https://baylorbears.com/sports/womens-basketball/roster/coaches/tez-dumars/2986,2026-27
+528,Oregon State,Scott Rueck,Head Coach,https://osubeavers.com/sports/womens-basketball/roster/coaches/scott-rueck/3438,2026-27
+528,Oregon State,Deven Hunter,Assistant Coach,https://osubeavers.com/sports/womens-basketball/roster/coaches/deven-hunter/3439,2026-27
+528,Oregon State,Sydney Wiese,Assistant Coach,https://osubeavers.com/sports/womens-basketball/roster/coaches/sydney-wiese/3443,2026-27
+528,Oregon State,Eric Ely,Assistant Coach,https://osubeavers.com/sports/womens-basketball/roster/coaches/eric-ely/3441,2026-27
+528,Oregon State,Jared Vedus,Assistant Coach/Video Coordinator,https://osubeavers.com/sports/womens-basketball/roster/coaches/jared-vedus/3442,2026-27
+528,Oregon State,Elizabeth Rudisill,Director of Operations,https://osubeavers.com/sports/womens-basketball/roster/coaches/elizabeth-rudisill/3444,2026-27
+796,Wisconsin,Robin  Pingeton,Head Coach,https://uwbadgers.com/sports/womens-basketball/roster/coaches/robin-pingeton/2882,2026-27
+796,Wisconsin,Chris Bracey,Associate Head Coach,https://uwbadgers.com/sports/womens-basketball/roster/coaches/chris-bracey/2884,2026-27
+796,Wisconsin,McGhee Mann,Assistant Coach,https://uwbadgers.com/sports/womens-basketball/roster/coaches/mcghee-mann/2883,2026-27
+796,Wisconsin,Ariel  Massengale,Assistant Coach,https://uwbadgers.com/sports/womens-basketball/roster/coaches/ariel-massengale/2885,2026-27
+796,Wisconsin,Evan Johnston,Assistant Coach,https://uwbadgers.com/sports/womens-basketball/roster/coaches/evan-johnston/2886,2026-27
+796,Wisconsin,Julia Ford,Assistant Coach,https://uwbadgers.com/sports/womens-basketball/roster/coaches/julia-ford/2887,2026-27
+415,Miami,Soma Okolo,,https://miamihurricanes.com/sports/wbball/roster/player/soma-okolo,2026-27
+415,Miami,Mya Herman,,https://miamihurricanes.com/sports/wbball/roster/player/mya-herman,2026-27
+415,Miami,Ahnay Adams,,https://miamihurricanes.com/sports/wbball/roster/player/ahnay-adams,2026-27
+415,Miami,Natalie Wetzel,,https://miamihurricanes.com/sports/wbball/roster/player/natalie-wetzel,2026-27
+415,Miami,Jess-Mine Zodia,,https://miamihurricanes.com/sports/wbball/roster/player/jess-mine-zodia,2026-27
+415,Miami,Gal Raviv,,https://miamihurricanes.com/sports/wbball/roster/player/gal-raviv,2026-27
+415,Miami,Anna Liepina,,https://miamihurricanes.com/sports/wbball/roster/player/anna-liepina,2026-27
+415,Miami,Maja Uranker,,https://miamihurricanes.com/sports/wbball/roster/player/maja-uranker,2026-27
+415,Miami,Gianna Corbitt,,https://miamihurricanes.com/sports/wbball/roster/player/gianna-corbitt,2026-27
+415,Miami,Dayana Mendes,,https://miamihurricanes.com/sports/wbball/roster/player/dayana-mendes,2026-27
+415,Miami,Amarachi Kimpson,,https://miamihurricanes.com/sports/wbball/roster/player/amarachi-kimpson,2026-27
+30135,California Baptist,Jarrod Olson,Head Women's Basketball Coach,https://cbulancers.com/sports/womens-basketball/roster/coaches/jarrod-olson/781,2026-27
+30135,California Baptist,Britt Chambers,Associate Head Women's Basketball Coach,https://cbulancers.com/sports/womens-basketball/roster/coaches/britt-chambers/782,2026-27
+30135,California Baptist,Kamille Gouveia,Assistant Women's Basketball Coach,https://cbulancers.com/sports/womens-basketball/roster/coaches/kamille-gouveia/783,2026-27
+30135,California Baptist,Kelsey Keizer,Assistant Women’s Basketball Coach,https://cbulancers.com/sports/womens-basketball/roster/coaches/kelsey-keizer/784,2026-27
+30135,California Baptist,Gracie Blake,Creative Content Assistant Coach,https://cbulancers.com/sports/womens-basketball/roster/coaches/gracie-blake/785,2026-27
+30135,California Baptist,Tiara Scott,Assistant Women's Basketball Coach - Director of Operations,https://cbulancers.com/sports/womens-basketball/roster/coaches/tiara-scott/786,2026-27
+129,Central Michigan,Kristin Haynie,Head Coach,https://cmuchippewas.com/sports/womens-basketball/roster/coaches/kristin-haynie/1469,2026-27
+129,Central Michigan,Chelsie Butler,"Associate Head Coach, Recruiting Coordinator",https://cmuchippewas.com/sports/womens-basketball/roster/coaches/chelsie-butler/1471,2026-27
+129,Central Michigan,Jenna Allen,Assistant Coach,https://cmuchippewas.com/sports/womens-basketball/roster/coaches/jenna-allen/1470,2026-27
+129,Central Michigan,Rana El-Husseini,"Assistant Coach, Defensive Coordinator",https://cmuchippewas.com/sports/womens-basketball/roster/coaches/rana-el-husseini/1475,2026-27
+311,Iowa State,Bill Fennelly,Head Coach,https://cyclones.com/sports/womens-basketball/roster/coaches/bill-fennelly/2509,2026-27
+311,Iowa State,Caroline McCombs,Associate Head Coach,https://cyclones.com/sports/womens-basketball/roster/coaches/caroline-mccombs/2517,2026-27
+311,Iowa State,Billy Fennelly,Assistant Coach/General Manager,https://cyclones.com/sports/womens-basketball/roster/coaches/billy-fennelly/2511,2026-27
+311,Iowa State,Emily Hatfield,Assistant Coach/Recruiting Coordinator,https://cyclones.com/sports/womens-basketball/roster/coaches/emily-hatfield/2513,2026-27
+311,Iowa State,Rob Jenkins,Assistant Coach,https://cyclones.com/sports/womens-basketball/roster/coaches/rob-jenkins/2515,2026-27
+311,Iowa State,Emily Ryan,Assistant Coach,https://cyclones.com/sports/womens-basketball/roster/coaches/emily-ryan/2516,2026-27
+688,Syracuse,Felisha  Legette-Jack,Head Coach,https://cuse.com/sports/womens-basketball/roster/coaches/felisha-legette-jack/6249,2026-27
+688,Syracuse,Natasha Adair,Associate Head Coach,https://cuse.com/sports/womens-basketball/roster/coaches/natasha-adair/6250,2026-27
+688,Syracuse,Khyreed Carter,Associate Head Coach,https://cuse.com/sports/womens-basketball/roster/coaches/khyreed-carter/6248,2026-27
+688,Syracuse,Caleb Samson,Assistant Coach,https://cuse.com/sports/womens-basketball/roster/coaches/caleb-samson/6251,2026-27
+688,Syracuse,Matt Wietslispach,Assistant Strength Coach - Women's Basketball,https://cuse.com/sports/womens-basketball/roster/staff/matt-wietslispach/405,2026-27
+193,Duke,Kara Lawson,Head Coach,https://goduke.com/sports/womens-basketball/roster/coaches/kara-lawson/5407,2026-27
+193,Duke,Tia Jackson,Associate Head Coach,https://goduke.com/sports/womens-basketball/roster/coaches/tia-jackson/5408,2026-27
+193,Duke,Kyra Elzy,Assistant Coach,https://goduke.com/sports/womens-basketball/roster/coaches/kyra-elzy/5412,2026-27
+193,Duke,Karen Lange,Assistant Coach,https://goduke.com/sports/womens-basketball/roster/coaches/karen-lange/5409,2026-27
+193,Duke,Karen Middleton,Assistant Coach,https://goduke.com/sports/womens-basketball/roster/coaches/karen-middleton/5410,2026-27
+193,Duke,Pierre Miller,Assistant Coach,https://goduke.com/sports/womens-basketball/roster/coaches/pierre-miller/5411,2026-27
+649,South Dakota State,Aaron Johnston,Head Coach,https://gojacks.com/sports/womens-basketball/roster/coaches/aaron-johnston/2796,2026-27
+649,South Dakota State,Sadie Thramer,Associate Head Coach & Recruiting Coordinator,https://gojacks.com/sports/womens-basketball/roster/coaches/sadie-thramer/2797,2026-27
+649,South Dakota State,Macy Stanage,Assistant Coach,https://gojacks.com/sports/womens-basketball/roster/coaches/macy-stanage/2800,2026-27
+649,South Dakota State,Kacie Jones,Assistant Coach,https://gojacks.com/sports/womens-basketball/roster/coaches/kacie-jones/2801,2026-27
+649,South Dakota State,Shelby Selland,Assistant Coach & Director of Operations,https://gojacks.com/sports/womens-basketball/roster/coaches/shelby-selland/2798,2026-27
+649,South Dakota State,Erika Sage,Assistant Coach & Director of Player Development,https://gojacks.com/sports/womens-basketball/roster/coaches/erika-sage/2799,2026-27
+649,South Dakota State,Paige Hanssen,Strength & Conditioning Coach,https://gojacks.com/sports/womens-basketball/roster/staff/paige-hanssen/1155,2026-27
+249,George Washington,Ganiyat Adeduntan,Head Coach,https://gwsports.com/sports/womens-basketball/roster/coaches/ganiyat-adeduntan/1154,2026-27
+249,George Washington,John Hampton,Associate Head Coach,https://gwsports.com/sports/womens-basketball/roster/coaches/john-hampton/1149,2026-27
+249,George Washington,Essence Baucom,Assistant Coach,https://gwsports.com/sports/womens-basketball/roster/coaches/essence-baucom/1170,2026-27
+249,George Washington,Kindyll Dorsey,Assistant Coach,https://gwsports.com/sports/womens-basketball/roster/coaches/kindyll-dorsey/1171,2026-27
+249,George Washington,Lauren Coleman,Assistant Coach,https://gwsports.com/sports/womens-basketball/roster/coaches/lauren-coleman/1150,2026-27
+249,George Washington,Maura Houk,Strength and Conditioning Coach,https://gwsports.com/sports/womens-basketball/roster/staff/maura-houk/500,2026-27
+430,Mississippi State,Sam Purcell,Head Women's Basketball Coach,https://hailstate.com/sports/womens-basketball/roster/coaches/sam-purcell/3427,2026-27
+430,Mississippi State,Fred Castro,Associate Women's Basketball Head Coach / Offensive Coordinator,https://hailstate.com/sports/womens-basketball/roster/coaches/fred-castro/3430,2026-27
+430,Mississippi State,Anita Howard,Assistant Women's Basketball Coach / Recruiting Coordinator,https://hailstate.com/sports/womens-basketball/roster/coaches/anita-howard/3429,2026-27
+430,Mississippi State,Samantha Williams,Assistant Women's Basketball Coach / Chief Of Basketball Strategy,https://hailstate.com/sports/womens-basketball/roster/coaches/samantha-williams/3431,2026-27
+430,Mississippi State,Tony Dukes,Assistant Women's Basketball Coach / Senior Director of Scouting and Analytics,https://hailstate.com/sports/womens-basketball/roster/coaches/tony-dukes/3428,2026-27
+430,Mississippi State,Kaiti Jones,Strength & Conditioning Coach (WBB),https://hailstate.com/sports/womens-basketball/roster/staff/kaiti-jones/10,2026-27
+306,Indiana,Teri Moren,Head Coach,https://iuhoosiers.com/sports/womens-basketball/roster/coaches/teri-moren/4398,2026-27
+306,Indiana,Rhet Wierzba,Associate Head Coach,https://iuhoosiers.com/sports/womens-basketball/roster/coaches/rhet-wierzba/4405,2026-27
+306,Indiana,Paul Miller,Assistant Coach,https://iuhoosiers.com/sports/womens-basketball/roster/coaches/paul-miller/4409,2026-27
+306,Indiana,Ali Patberg,Assistant Coach,https://iuhoosiers.com/sports/womens-basketball/roster/coaches/ali-patberg/4400,2026-27
+306,Indiana,Colsten Thompson,Assistant Coach/Recruiting Coordinator,https://iuhoosiers.com/sports/womens-basketball/roster/coaches/colsten-thompson/4414,2026-27
+306,Indiana,Keyanna Warthen,Assistant Coach,https://iuhoosiers.com/sports/womens-basketball/roster/coaches/keyanna-warthen/4413,2026-27
+306,Indiana,Fred Williams,Assistant Coach,https://iuhoosiers.com/sports/womens-basketball/roster/coaches/fred-williams/4416,2026-27
+327,Kansas State,Jeff Mittie,Head Coach,https://www.kstatesports.com/sports/womens-basketball/roster/coaches/jeff-mittie/2844,2026-27
+327,Kansas State,Ebony Gilliam,Associate Head Coach,https://www.kstatesports.com/sports/womens-basketball/roster/coaches/ebony-gilliam/2845,2026-27
+327,Kansas State,Ebony Haliburton,Assistant Coach,https://www.kstatesports.com/sports/womens-basketball/roster/coaches/ebony-haliburton/2846,2026-27
+327,Kansas State,Dylan Geissert,Assistant Coach/Recruiting Coordinator,https://www.kstatesports.com/sports/womens-basketball/roster/coaches/dylan-geissert/2884,2026-27
+327,Kansas State,Madison Pahls,Assistant Coach,https://www.kstatesports.com/sports/womens-basketball/roster/coaches/madison-pahls/2853,2026-27
+327,Kansas State,Lane Trudo,Assistant Strength & Conditioning Coach,https://www.kstatesports.com/sports/womens-basketball/roster/coaches/lane-trudo/2849,2026-27
+694,Tennessee,Kim  Caldwell,Head Coach,https://utsports.com/sports/womens-basketball/roster/coaches/kim-caldwell/5870,2026-27
+694,Tennessee,Bill Ferrara,Assistant Coach,https://utsports.com/sports/womens-basketball/roster/coaches/bill-ferrara/5871,2026-27
+694,Tennessee,Isoken Uzamere,Assistant Coach,https://utsports.com/sports/womens-basketball/roster/coaches/isoken-uzamere/5872,2026-27
+694,Tennessee,Jenna Burdette,Assistant Coach,https://utsports.com/sports/womens-basketball/roster/coaches/jenna-burdette/5873,2026-27
+694,Tennessee,Angel Rizor,Assistant Coach,https://utsports.com/sports/womens-basketball/roster/coaches/angel-rizor/5874,2026-27
+694,Tennessee,Lexie Barrier,Assistant Coach,https://utsports.com/sports/womens-basketball/roster/coaches/lexie-barrier/5875,2026-27
+694,Tennessee,Maggie Stanley,Assistant Director of Women's Basketball Operations/Special Assistant to the Head Coach,https://utsports.com/sports/womens-basketball/roster/staff/maggie-stanley/1130,2026-27
+387,Marquette,Cara Consuegra,Head Coach,https://gomarquette.com/sports/womens-basketball/roster/coaches/cara-consuegra/2091,2026-27
+387,Marquette,Deont'a McChester,Assistant Coach,https://gomarquette.com/sports/womens-basketball/roster/coaches/deonta-mcchester/2092,2026-27
+387,Marquette,Sheila Boykin,Assistant Coach / Recruiting Coordinator,https://gomarquette.com/sports/womens-basketball/roster/coaches/sheila-boykin/2096,2026-27
+387,Marquette,Joe Silvestri,Assistant Coach,https://gomarquette.com/sports/womens-basketball/roster/coaches/joe-silvestri/2110,2026-27
+387,Marquette,Sam Logic,Assistant Coach,https://gomarquette.com/sports/womens-basketball/roster/coaches/sam-logic/2094,2026-27
+387,Marquette,Michael Garven,Assistant Coach,https://gomarquette.com/sports/womens-basketball/roster/coaches/michael-garven/2095,2026-27
+404,Memphis,Hana Haden,Head Coach,https://gotigersgo.com/sports/womens-basketball/roster/coaches/hana-haden/4143,2026-27
+404,Memphis,Dexter Jenkins,Assistant Coach,https://gotigersgo.com/sports/womens-basketball/roster/coaches/dexter-jenkins/4146,2026-27
+404,Memphis,Tiffany Conner,Assistant Coach,https://gotigersgo.com/sports/womens-basketball/roster/coaches/tiffany-conner/4145,2026-27
+404,Memphis,Dee Anderson,Assistant Coach,https://gotigersgo.com/sports/womens-basketball/roster/coaches/dee-anderson/4144,2026-27
+404,Memphis,Shanasa Sanders,Assistant Coach,https://gotigersgo.com/sports/womens-basketball/roster/coaches/shanasa-sanders/4148,2026-27
+434,Missouri,Grace Slaughter,,https://mutigers.com/sports/womens-basketball/roster/player/grace-slaughter,2026-27
+434,Missouri,Nevaeh Caffey,,https://mutigers.com/sports/womens-basketball/roster/player/nevaeh-caffey,2026-27
+434,Missouri,Natalya Hodge,,https://mutigers.com/sports/womens-basketball/roster/player/natalya-hodge,2026-27
+434,Missouri,Khloe Ford,,https://mutigers.com/sports/womens-basketball/roster/player/khloe-ford,2026-27
+434,Missouri,Tanyuel Welch,,https://mutigers.com/sports/womens-basketball/roster/player/tanyuel-welch,2026-27
+434,Missouri,Cecilie Brandimore,,https://mutigers.com/sports/womens-basketball/roster/player/cecilie-brandimore,2026-27
+434,Missouri,Jada Maples,,https://mutigers.com/sports/womens-basketball/roster/player/jada-maples,2026-27
+434,Missouri,Ellie Muller,,https://mutigers.com/sports/womens-basketball/roster/player/ellie-muller,2026-27
+434,Missouri,Averi Kroenke,,https://mutigers.com/sports/womens-basketball/roster/player/averi-kroenke,2026-27
+434,Missouri,Abbey Schreacke,,https://mutigers.com/sports/womens-basketball/roster/player/abbey-schreacke,2026-27
+434,Missouri,McKenzie Mathurin,,https://mutigers.com/sports/womens-basketball/roster/player/mckenzie-mathurin,2026-27
+434,Missouri,Reka Toman,,https://mutigers.com/sports/womens-basketball/roster/player/reka-toman,2026-27
+419,Middle Tennessee,Matt Insell,Head Coach,https://goblueraiders.com/sports/womens-basketball/roster/coaches/matt-insell/2329,2026-27
+419,Middle Tennessee,Kim Brewton,Assistant Coach,https://goblueraiders.com/sports/womens-basketball/roster/coaches/kim-brewton/2328,2026-27
+419,Middle Tennessee,Nina Davis,Assistant Coach,https://goblueraiders.com/sports/womens-basketball/roster/coaches/nina-davis/2331,2026-27
+419,Middle Tennessee,Tom Hodges,Assistant Coach – General Manager,https://goblueraiders.com/sports/womens-basketball/roster/coaches/tom-hodges/2330,2026-27
+419,Middle Tennessee,Jalynn Gregory,Assistant Coach,https://goblueraiders.com/sports/womens-basketball/roster/coaches/jalynn-gregory/2333,2026-27
+419,Middle Tennessee,Shelby Davis,Assistant Coach – Coordinator of Basketball Relations,https://goblueraiders.com/sports/womens-basketball/roster/coaches/shelby-davis/2332,2026-27
+419,Middle Tennessee,Rick Insell,@CoachInsell,https://goblueraiders.com/sports/womens-basketball/roster/coaches/rick-insell/2436,2026-27
+419,Middle Tennessee,Rachel Pike,Assistant Strength and Conditioning Coach (Women's Basketball & Women's Golf),https://goblueraiders.com/sports/womens-basketball/roster/staff/rachel-pike/618,2026-27
+529,Oregon,Kelly Graves,Head Coach,https://goducks.com/sports/womens-basketball/roster/coaches/kelly-graves/5534,2026-27
+529,Oregon,Jodie Berry,Associate Head Coach,https://goducks.com/sports/womens-basketball/roster/coaches/jodie-berry/5535,2026-27
+529,Oregon,Tre Simmons,Assistant Coach/Recruiting Coordinator,https://goducks.com/sports/womens-basketball/roster/coaches/tre-simmons/5536,2026-27
+529,Oregon,Lisa O'Meara,Assistant Coach,https://goducks.com/sports/womens-basketball/roster/coaches/lisa-omeara/5591,2026-27
+529,Oregon,Oti Gildon,Assistant Coach,https://goducks.com/sports/womens-basketball/roster/coaches/oti-gildon/5592,2026-27
+529,Oregon,Peyton Scott,Assistant Coach,https://goducks.com/sports/womens-basketball/roster/coaches/peyton-scott/5593,2026-27
+529,Oregon,Claire Sporer,Assistant Strength and Conditioning Coach,https://goducks.com/sports/womens-basketball/roster/staff/claire-sporer/1718,2026-27
+554,Princeton,Lauren Gosselin,Head Coach,https://goprincetontigers.com/sports/womens-basketball/roster/coaches/lauren-gosselin/10553,2026-27
+554,Princeton,Lindsay Werner,Assistant Coach,https://goprincetontigers.com/sports/womens-basketball/roster/coaches/lindsay-werner/10556,2026-27
+554,Princeton,Jordan Edwards,Assistant Coach/Recruiting Coordinator,https://goprincetontigers.com/sports/womens-basketball/roster/coaches/jordan-edwards/10554,2026-27
+554,Princeton,Jenna Ross,Assistant Coach,https://goprincetontigers.com/sports/womens-basketball/roster/coaches/jenna-ross/10555,2026-27
+554,Princeton,Grace Stone,Director of Basketball Operations,https://goprincetontigers.com/sports/womens-basketball/roster/coaches/grace-stone/10557,2026-27
+545,Pittsburgh,Robin Harmony,"Head Coach, Women's Basketball",https://pittsburghpanthers.com/sports/womens-basketball/roster/coaches/robin-harmony/2525,2026-27
+545,Pittsburgh,Randy Javier Schneider,Associate Head Coach,https://pittsburghpanthers.com/sports/womens-basketball/roster/coaches/randy-javier-schneider/2526,2026-27
+545,Pittsburgh,Greg Long,Assistant Coach,https://pittsburghpanthers.com/sports/womens-basketball/roster/coaches/greg-long/2527,2026-27
+545,Pittsburgh,Madison Taylor,Assistant Coach / Recruiting Coordinator,https://pittsburghpanthers.com/sports/womens-basketball/roster/coaches/madison-taylor/2548,2026-27
+545,Pittsburgh,Shavonte Zellous,Assistant Coach,https://pittsburghpanthers.com/sports/womens-basketball/roster/coaches/shavonte-zellous/2598,2026-27
+545,Pittsburgh,Camron Blair,Head Strength & Conditioning Coach,https://pittsburghpanthers.com/sports/womens-basketball/roster/staff/camron-blair/419,2026-27
+556,Providence,Erin Batth,Head Coach,https://friars.com/sports/womens-basketball/roster/coaches/erin-batth/1211,2026-27
+556,Providence,Valerie Nainima,Assistant Coach / Recruiting Coordinator,https://friars.com/sports/womens-basketball/roster/coaches/valerie-nainima/1212,2026-27
+556,Providence,Molly Reagan,Assistant Coach,https://friars.com/sports/womens-basketball/roster/coaches/molly-reagan/1213,2026-27
+556,Providence,Sharon Baldwin,Assistant Coach,https://friars.com/sports/womens-basketball/roster/coaches/sharon-baldwin/1219,2026-27
+556,Providence,Elissa Cunane,Assistant Coach,https://friars.com/sports/womens-basketball/roster/coaches/elissa-cunane/1215,2026-27
+635,Seton Hall,Anthony Bozzella,Head Coach,https://shupirates.com/sports/womens-basketball/roster/coaches/anthony-bozzella/3929,2026-27
+635,Seton Hall,Jose Rebimbas,Assistant Coach,https://shupirates.com/sports/womens-basketball/roster/coaches/jose-rebimbas/3930,2026-27
+635,Seton Hall,Cassandra Callaway,Assistant Coach / Recruiting Coordinator,https://shupirates.com/sports/womens-basketball/roster/coaches/cassandra-callaway/3933,2026-27
+635,Seton Hall,Ka-Deidre Simmons,Assistant Coach,https://shupirates.com/sports/womens-basketball/roster/coaches/ka-deidre-simmons/3934,2026-27
+690,Temple,Diane Richardson,Head Coach,https://owlsports.com/sports/womens-basketball/roster/coaches/diane-richardson/5334,2026-27
+690,Temple,Wanisha Smith,Associate Head Coach/Recruiting Coordinator,https://owlsports.com/sports/womens-basketball/roster/coaches/wanisha-smith/5339,2026-27
+690,Temple,Myles Jackson,Assistant Coach,https://owlsports.com/sports/womens-basketball/roster/coaches/myles-jackson/5337,2026-27
+690,Temple,Cheyenne Curley,Assistant Coach,https://owlsports.com/sports/womens-basketball/roster/coaches/cheyenne-curley/5335,2026-27
+690,Temple,Sharay Hall,Assistant Coach,https://owlsports.com/sports/womens-basketball/roster/coaches/sharay-hall/5386,2026-27
+690,Temple,Aaron Thomas,Assistant Coach,https://owlsports.com/sports/womens-basketball/roster/coaches/aaron-thomas/5338,2026-27
+703,Texas,Vic Schaefer,Head Coach,https://texaslonghorns.com/sports/womens-basketball/roster/coaches/vic-schaefer/3764,2026-27
+703,Texas,Elena  Lovato,Associate Head Coach,https://texaslonghorns.com/sports/womens-basketball/roster/coaches/elena-lovato/3765,2026-27
+703,Texas,Lindsay  Wisdom-Hylton,Assistant Coach/Recruiting Coordinator,https://texaslonghorns.com/sports/womens-basketball/roster/coaches/lindsay-wisdom-hylton/3766,2026-27
+703,Texas,Blair Schaefer,Assistant Coach,https://texaslonghorns.com/sports/womens-basketball/roster/coaches/blair-schaefer/3767,2026-27
+703,Texas,Victoria  Vivians,"Assistant Coach, Women’s Basketball",https://texaslonghorns.com/sports/womens-basketball/roster/coaches/victoria-vivians/3830,2026-27
+703,Texas,Mason Wright,"Assistant Coach, Women's Basketball",https://texaslonghorns.com/sports/womens-basketball/roster/coaches/mason-wright/3771,2026-27
+703,Texas,Brandon Decker,Sports Performance Coach,https://texaslonghorns.com/sports/womens-basketball/roster/coaches/brandon-decker/3770,2026-27
+716,Troy,Chanda Rigby,Head Coach,https://troytrojans.com/sports/womens-basketball/roster/coaches/chanda-rigby/2058,2026-27
+716,Troy,Jennifer Graf,Associate Head Coach,https://troytrojans.com/sports/womens-basketball/roster/coaches/jennifer-graf/2059,2026-27
+716,Troy,Stephanie Murphy,Assistant Coach,https://troytrojans.com/sports/womens-basketball/roster/coaches/stephanie-murphy/2061,2026-27
+716,Troy,Grace Daniels,Assistant Coach,https://troytrojans.com/sports/womens-basketball/roster/coaches/grace-daniels/2062,2026-27
+164,UConn,Geno Auriemma,Head Coach,https://uconnhuskies.com/sports/womens-basketball/roster/coaches/geno-auriemma/1633,2026-27
+164,UConn,Chris Dailey,Associate Head Coach,https://uconnhuskies.com/sports/womens-basketball/roster/coaches/chris-dailey/1634,2026-27
+164,UConn,Morgan Valley,Assistant Coach,https://uconnhuskies.com/sports/womens-basketball/roster/coaches/morgan-valley/1636,2026-27
+164,UConn,Tonya  Cardoza,Assistant Coach,https://uconnhuskies.com/sports/womens-basketball/roster/coaches/tonya-cardoza/1637,2026-27
+164,UConn,Nykesha Sales,Assistant Coach,https://uconnhuskies.com/sports/womens-basketball/roster/coaches/nykesha-sales/1652,2026-27
+367,Louisville,Jeff Walz,Head Coach,https://gocards.com/sports/womens-basketball/roster/coaches/jeff-walz/3227,2026-27
+367,Louisville,Jonneshia Pineda,Associate Head Coach,https://gocards.com/sports/womens-basketball/roster/coaches/jonneshia-pineda/3229,2026-27
+367,Louisville,Mike Bradbury,Assistant Coach,https://gocards.com/sports/womens-basketball/roster/coaches/mike-bradbury/3236,2026-27
+367,Louisville,Roman Tubner,Assistant Coach,https://gocards.com/sports/womens-basketball/roster/coaches/roman-tubner/3300,2026-27
+367,Louisville,Selim Aldag,Assistant Coach/Director of Video Analytics,https://gocards.com/sports/womens-basketball/roster/coaches/selim-aldag/3233,2026-27
+367,Louisville,Rhen Vail,Head Strength & Conditioning Coach,https://gocards.com/sports/womens-basketball/roster/coaches/rhen-vail/3230,2026-27
+418,Michigan,Kim Barnes Arico,J. Ira and Nicki Harris Family Head Women's Basketball Coach,https://mgoblue.com/sports/womens-basketball/roster/coaches/kim-barnes-arico/6956,2026-27
+418,Michigan,Melanie Moore,Assistant Coach,https://mgoblue.com/sports/womens-basketball/roster/coaches/melanie-moore/6957,2026-27
+418,Michigan,Justine Raterman,Assistant Coach,https://mgoblue.com/sports/womens-basketball/roster/coaches/justine-raterman/6958,2026-27
+418,Michigan,Jordann Reese,Assistant Coach,https://mgoblue.com/sports/womens-basketball/roster/coaches/jordann-reese/6960,2026-27
+418,Michigan,Sean Bair,Assistant Coach/General Manager,https://mgoblue.com/sports/womens-basketball/roster/coaches/sean-bair/6963,2026-27
+418,Michigan,Danielle Rauch,Assistant Coach,https://mgoblue.com/sports/womens-basketball/roster/coaches/danielle-rauch/6961,2026-27
+749,Wake Forest,Megan Gebbia,Head Coach,https://godeacs.com/sports/womens-basketball/roster/coaches/megan-gebbia/1670,2026-27
+749,Wake Forest,Emily Stallings,Assistant Coach/Offensive Coordinator,https://godeacs.com/sports/womens-basketball/roster/coaches/emily-stallings/1672,2026-27
+749,Wake Forest,Jimmy Colloton,Assistant Coach/Defensive Coordinator,https://godeacs.com/sports/womens-basketball/roster/coaches/jimmy-colloton/1687,2026-27
+749,Wake Forest,Joey White,"Assistant Coach, Analytics & Scouting Coordinator",https://godeacs.com/sports/womens-basketball/roster/coaches/joey-white/1676,2026-27
+749,Wake Forest,Teren Hart,"Assistant Coach, Player Development & Recruit Experience Coordinator",https://godeacs.com/sports/womens-basketball/roster/coaches/teren-hart/1677,2026-27
+732,Utah,Gavin Petersen,Head Coach,https://utahutes.com/sports/womens-basketball/roster/coaches/gavin-petersen/4531,2026-27
+732,Utah,Jordan MacIntyre,Assistant Coach/ Recruiting Coordinator,https://utahutes.com/sports/womens-basketball/roster/coaches/jordan-macintyre/4532,2026-27
+732,Utah,Morgan Bailey,Assistant Coach,https://utahutes.com/sports/womens-basketball/roster/coaches/morgan-bailey/4536,2026-27
+732,Utah,Ryan Larsen,Assistant Coach,https://utahutes.com/sports/womens-basketball/roster/coaches/ryan-larsen/4537,2026-27
+732,Utah,Jace Henderson,Assistant Coach,https://utahutes.com/sports/womens-basketball/roster/coaches/jace-henderson/4538,2026-27
+732,Utah,Maty Wilke,Assistant Coach,https://utahutes.com/sports/womens-basketball/roster/coaches/maty-wilke/4631,2026-27
+812,Xavier,Billi Chambers,Head Coach,https://goxavier.com/sports/womens-basketball/roster/coaches/billi-chambers/4988,2026-27
+812,Xavier,Ashlee Kelly,Associate Head Coach,https://goxavier.com/sports/womens-basketball/roster/coaches/ashlee-kelly/4989,2026-27
+812,Xavier,Brianna Sanders,Assistant Coach/Recruiting Coordinator,https://goxavier.com/sports/womens-basketball/roster/coaches/brianna-sanders/4990,2026-27
+812,Xavier,Ari Wideman,Assistant Coach,https://goxavier.com/sports/womens-basketball/roster/coaches/ari-wideman/5003,2026-27
+754,Washington State,Aicha Bah,,https://wsucougars.com/sports/womens-basketball/roster/player/aicha-bah,2026-27
+754,Washington State,Malvina Haziri,,https://wsucougars.com/sports/womens-basketball/roster/player/malvina-haziri,2026-27
+754,Washington State,Eleonora Villa,,https://wsucougars.com/sports/womens-basketball/roster/player/eleonora-villa,2026-27
+754,Washington State,Gianella Espedale,,https://wsucougars.com/sports/womens-basketball/roster/player/gianella-espadale,2026-27
+754,Washington State,Tahara Magassa,,https://wsucougars.com/sports/womens-basketball/roster/player/tahara-magassa,2026-27
+754,Washington State,Mackenzie Chatfield,,https://wsucougars.com/sports/womens-basketball/roster/player/mackenzie-chatfield,2026-27
+754,Washington State,Tanja Valancic,,https://wsucougars.com/sports/womens-basketball/roster/player/tanja-valancic,2026-27
+754,Washington State,Charlotte Abraham,,https://wsucougars.com/sports/womens-basketball/roster/player/charlotte-abraham,2026-27
+754,Washington State,Reese Jordan,,https://wsucougars.com/sports/womens-basketball/roster/player/reese-jordan,2026-27
+754,Washington State,Elizaveta Filchagina,,https://wsucougars.com/sports/womens-basketball/roster/player/elizaveta-filchagina,2026-27
+754,Washington State,Alex Covill,,https://wsucougars.com/sports/womens-basketball/roster/player/alex-covill,2026-27
+754,Washington State,Malia Ruud,,https://wsucougars.com/sports/womens-basketball/roster/player/malia-ruud,2026-27
+47,Ball State,Brady Sallee,Head Coach,https://ballstatesports.com/sports/womens-basketball/roster/coaches/brady-sallee/2153,2026-27
+47,Ball State,Audrey Spencer,Associate Head Coach,https://ballstatesports.com/sports/womens-basketball/roster/coaches/audrey-spencer/2154,2026-27
+47,Ball State,Moriah Monaco,Assistant Coach,https://ballstatesports.com/sports/womens-basketball/roster/coaches/moriah-monaco/2155,2026-27
+47,Ball State,Casey Morrissette,Assistant Coach,https://ballstatesports.com/sports/womens-basketball/roster/coaches/casey-morrissette/2156,2026-27
+47,Ball State,Mariah King,Assistant Coach,https://ballstatesports.com/sports/womens-basketball/roster/coaches/mariah-king/2157,2026-27
+99,Long Beach State,Minyon Moore,Head Coach,https://longbeachstate.com/sports/womens-basketball/roster/coaches/minyon-moore/1511,2026-27
+99,Long Beach State,Jeff Harada,Associate Head Coach,https://longbeachstate.com/sports/womens-basketball/roster/coaches/jeff-harada/1510,2026-27
+99,Long Beach State,Lexi Petersen,Assistant Coach / Recruiting Coordinator,https://longbeachstate.com/sports/womens-basketball/roster/coaches/lexi-petersen/1513,2026-27
+99,Long Beach State,Kaylin Randhawa,Assistant Coach,https://longbeachstate.com/sports/womens-basketball/roster/coaches/kaylin-randhawa/1514,2026-27
+71,Bowling Green,Fred Chmiel,Head Women's Basketball Coach,https://bgsufalcons.com/sports/womens-basketball/roster/coaches/fred-chmiel/2460,2026-27
+71,Bowling Green,Maggie Lucas,Assistant Women's Basketball Coach,https://bgsufalcons.com/sports/womens-basketball/roster/coaches/maggie-lucas/2461,2026-27
+71,Bowling Green,John Nicolais,Assistant Women's Basketball Coach,https://bgsufalcons.com/sports/womens-basketball/roster/coaches/john-nicolais/2462,2026-27
+71,Bowling Green,Kadie Hempfling,Assistant Women's Basketball Coach,https://bgsufalcons.com/sports/womens-basketball/roster/coaches/kadie-hempfling/2463,2026-27
+66,Boise State,Gordy Presnell,Head Coach,https://broncosports.com/sports/womens-basketball/roster/coaches/gordy-presnell/1556,2026-27
+66,Boise State,Heather Sower,Assistant Coach,https://broncosports.com/sports/womens-basketball/roster/coaches/heather-sower/1557,2026-27
+66,Boise State,Cariann Ramirez,Assistant Coach,https://broncosports.com/sports/womens-basketball/roster/coaches/cariann-ramirez/1559,2026-27
+66,Boise State,Mike Petrino,Assistant Coach,https://broncosports.com/sports/womens-basketball/roster/coaches/mike-petrino/1558,2026-27
+66,Boise State,Jackie Robinson,Assistant Coach,https://broncosports.com/sports/womens-basketball/roster/coaches/jackie-robinson/1560,2026-27
+66,Boise State,Justin Huynh,Sports Performance (Strength Coach),https://broncosports.com/sports/womens-basketball/roster/staff/justin-huynh/678,2026-27
+83,Bucknell,Trevor Woodruff,Head Coach,https://bucknellbison.com/sports/womens-basketball/roster/coaches/trevor-woodruff/1949,2026-27
+83,Bucknell,Lauren Holden,Associate Head Coach,https://bucknellbison.com/sports/womens-basketball/roster/coaches/lauren-holden/1952,2026-27
+83,Bucknell,Edward Joyner Jr.,Assistant Coach,https://bucknellbison.com/sports/womens-basketball/roster/coaches/edward-joyner-jr/1951,2026-27
+83,Bucknell,Danielle Patterson,Assistant Coach,https://bucknellbison.com/sports/womens-basketball/roster/coaches/danielle-patterson/1953,2026-27
+83,Bucknell,Erin Jones,Director of Basketball Operations / Assistant Coach,https://bucknellbison.com/sports/womens-basketball/roster/coaches/erin-jones/1979,2026-27
+83,Bucknell,Justin McKenna,Basketball Strength & Conditioning Coach,https://bucknellbison.com/sports/womens-basketball/roster/staff/justin-mckenna/60,2026-27
+458,Charlotte,Tomekia Reed,Head Coach,https://charlotte49ers.com/sports/womens-basketball/roster/coaches/tomekia-reed/2533,2026-27
+458,Charlotte,LaShonda Cousin,Associate Head Coach / Recruiting Coordinator,https://charlotte49ers.com/sports/womens-basketball/roster/coaches/lashonda-cousin/2530,2026-27
+458,Charlotte,Chase Campbell,Associate Coach,https://charlotte49ers.com/sports/womens-basketball/roster/coaches/chase-campbell/2529,2026-27
+458,Charlotte,Aaron A. Swinson,Assistant Coach,https://charlotte49ers.com/sports/womens-basketball/roster/coaches/aaron-a-swinson/2535,2026-27
+458,Charlotte,Jariyah Covington,Director of Player Development / Special Assistant to Head Coach,https://charlotte49ers.com/sports/womens-basketball/roster/coaches/jariyah-covington/2536,2026-27
+458,Charlotte,Trevor Boyd,Assistant Sports Performance Coach,https://charlotte49ers.com/sports/womens-basketball/roster/coaches/trevor-boyd/2537,2026-27
+173,Davidson,Gayle Fulks,Head Coach,https://davidsonwildcats.com/sports/womens-basketball/roster/coaches/gayle-fulks/2217,2026-27
+173,Davidson,James Janssen,Associate Head Coach,https://davidsonwildcats.com/sports/womens-basketball/roster/coaches/james-janssen/2218,2026-27
+173,Davidson,Laura Barry,Assistant Coach,https://davidsonwildcats.com/sports/womens-basketball/roster/coaches/laura-barry/2221,2026-27
+173,Davidson,Hannah Early Vaughn,Assistant Coach,https://davidsonwildcats.com/sports/womens-basketball/roster/coaches/hannah-early-vaughn/2252,2026-27
+173,Davidson,Ryan Bauder,Assistant Coach/Director of Operations and Development,https://davidsonwildcats.com/sports/womens-basketball/roster/coaches/ryan-bauder/2220,2026-27
+173,Davidson,Dean Lockley,Assistant Coach/Director of Player Development,https://davidsonwildcats.com/sports/womens-basketball/roster/coaches/dean-lockley/2340,2026-27
+173,Davidson,Brian Seitz,Head Basketball Sports Performance Coach,https://davidsonwildcats.com/sports/womens-basketball/roster/staff/brian-seitz/274,2026-27
+180,Delaware,Sarah Jenkins,Head Coach,https://bluehens.com/sports/womens-basketball/roster/coaches/sarah-jenkins/5699,2026-27
+180,Delaware,Kristina Baugh,Assistant Coach/Recruiting Coordinator,https://bluehens.com/sports/womens-basketball/roster/coaches/kristina-baugh/5712,2026-27
+180,Delaware,Billy Lovett,Assistant Coach,https://bluehens.com/sports/womens-basketball/roster/coaches/billy-lovett/5722,2026-27
+180,Delaware,Andre Jurko,Assistant Coach,https://bluehens.com/sports/womens-basketball/roster/coaches/andre-jurko/5724,2026-27
+180,Delaware,D'Nay Daniels,Assistant Coach/Director of Women's Basketball Operations,https://bluehens.com/sports/womens-basketball/roster/coaches/dnay-daniels/5702,2026-27
+180,Delaware,"Mesiah  Polycarpe, BS, CSCS, USAW, PN1, APCC",Strength & Conditioning Coach,https://bluehens.com/sports/womens-basketball/roster/staff/mesiah-polycarpe-bs-cscs-usaw-pn1-apcc/551,2026-27
+176,DePaul,Jill M. Pizzotti,Head Coach,https://depaulbluedemons.com/sports/womens-basketball/roster/coaches/jill-m-pizzotti/716,2026-27
+176,DePaul,Ty  Evans,Associate Head Coach,https://depaulbluedemons.com/sports/womens-basketball/roster/coaches/ty-evans/717,2026-27
+176,DePaul,Bradley Bruno,Assistant Coach/General Manager,https://depaulbluedemons.com/sports/womens-basketball/roster/coaches/bradley-bruno/720,2026-27
+176,DePaul,Ashton  Millender,Assistant Coach/Director of Player Development,https://depaulbluedemons.com/sports/womens-basketball/roster/coaches/ashton-millender/721,2026-27
+176,DePaul,Kathleen Doyle,Assistant Coach/Recruiting Coordinator,https://depaulbluedemons.com/sports/womens-basketball/roster/coaches/kathleen-doyle/718,2026-27
+176,DePaul,Jasmyne Fogle,Assistant Coach,https://depaulbluedemons.com/sports/womens-basketball/roster/coaches/jasmyne-fogle/722,2026-27
+176,DePaul,Josiah Turner-Mister,Special Assistant to the Head Coach,https://depaulbluedemons.com/sports/womens-basketball/roster/staff/josiah-turner-mister/785,2026-27
+191,Drexel,Amy Mallon,Janet E. & Barry C. Burkholder Family Head Women's Basketball Coach,https://drexeldragons.com/sports/womens-basketball/roster/coaches/amy-mallon/1914,2026-27
+191,Drexel,Stacy Weiss,Associate Head Women's Basketball Coach,https://drexeldragons.com/sports/womens-basketball/roster/coaches/stacy-weiss/1915,2026-27
+191,Drexel,Kayla Bacon,Assistant Women's Basketball Coach,https://drexeldragons.com/sports/womens-basketball/roster/coaches/kayla-bacon/1916,2026-27
+191,Drexel,Stephen Perretta,Assistant Women's Basketball Coach,https://drexeldragons.com/sports/womens-basketball/roster/coaches/stephen-perretta/1917,2026-27
+191,Drexel,Mike Perretta,Assistant Women's Basketball Coach/Video and Player Development,https://drexeldragons.com/sports/womens-basketball/roster/coaches/mike-perretta/1919,2026-27
+191,Drexel,Erika Moyer,"Head Strength and Conditioning Coach, Women's Basketball",https://drexeldragons.com/sports/womens-basketball/roster/staff/erika-moyer/426,2026-27
+204,Eastern Michigan,Sahar Nusseibeh,Head Coach,https://emueagles.com/sports/womens-basketball/roster/coaches/sahar-nusseibeh/2378,2026-27
+204,Eastern Michigan,Shareese  Ulis,Assistant Coach,https://emueagles.com/sports/womens-basketball/roster/coaches/shareese-ulis/2379,2026-27
+204,Eastern Michigan,Emily Hays,Assistant Coach/Recruiting Coordinator,https://emueagles.com/sports/womens-basketball/roster/coaches/emily-hays/2380,2026-27
+204,Eastern Michigan,Selana Ickes,Assistant Coach,https://emueagles.com/sports/womens-basketball/roster/coaches/selana-ickes/2384,2026-27
+204,Eastern Michigan,Kayla Jackson,Assistant Coach,https://emueagles.com/sports/womens-basketball/roster/coaches/kayla-jackson/2381,2026-27
+204,Eastern Michigan,Danny Robertson,Assistant Sports Performance Coach,https://emueagles.com/sports/womens-basketball/roster/staff/danny-robertson/292,2026-27
+229,Florida Atlantic,LeAnn Freeland,Head Coach,https://fausports.com/sports/womens-basketball/roster/coaches/leann-freeland/1872,2026-27
+229,Florida Atlantic,Brooklyn Kohlheim,Associate Head Coach,https://fausports.com/sports/womens-basketball/roster/coaches/brooklyn-kohlheim/1875,2026-27
+229,Florida Atlantic,McKenah Peters,Assistant Coach,https://fausports.com/sports/womens-basketball/roster/coaches/mckenah-peters/1876,2026-27
+229,Florida Atlantic,Alison Hughes,Assistant Coach,https://fausports.com/sports/womens-basketball/roster/coaches/alison-hughes/1873,2026-27
+229,Florida Atlantic,Keri Jewett-Giles,Assistant Coach,https://fausports.com/sports/womens-basketball/roster/coaches/keri-jewett-giles/1878,2026-27
+229,Florida Atlantic,Elze Viktorija Kazlauskaite,Assistant Strength and Conditioning Coach,https://fausports.com/sports/womens-basketball/roster/staff/elze-viktorija-kazlauskaite/697,2026-27
+96,Fresno State,Ryan McCarthy,Head Coach,https://gobulldogs.com/sports/womens-basketball/roster/coaches/ryan-mccarthy/4842,2026-27
+96,Fresno State,Shaina  Afoa,Associate Head Coach,https://gobulldogs.com/sports/womens-basketball/roster/coaches/shaina-afoa/4843,2026-27
+96,Fresno State,Ramaundo  Vaughn,Assistant Coach,https://gobulldogs.com/sports/womens-basketball/roster/coaches/ramaundo-vaughn/4846,2026-27
+96,Fresno State,Jenna  McCarthy,Assistant Coach,https://gobulldogs.com/sports/womens-basketball/roster/coaches/jenna-mccarthy/4845,2026-27
+96,Fresno State,Jalon  McCullough,Assistant Coach / Director of Player Development,https://gobulldogs.com/sports/womens-basketball/roster/coaches/jalon-mccullough/4844,2026-27
+96,Fresno State,Becca  Bornhorst,Assistant Coach / Director of NIL,https://gobulldogs.com/sports/womens-basketball/roster/coaches/becca-bornhorst/4847,2026-27
+234,Florida St,Brooke Wyckoff,Head Coach,https://seminoles.com/sports/womens-basketball/roster/coaches/brooke-wyckoff/1121,2026-27
+234,Florida St,Will  Cowen,Women's Basketball General Manager/Assistant Coach,https://seminoles.com/sports/womens-basketball/roster/coaches/will-cowen/1300,2026-27
+234,Florida St,Morgan Toles,Assistant Coach - Director of Player Development,https://seminoles.com/sports/womens-basketball/roster/coaches/morgan-toles/1122,2026-27
+234,Florida St,Desma Thomas Bateast,Assistant Coach - Director of Player Personnel,https://seminoles.com/sports/womens-basketball/roster/coaches/desma-thomas-bateast/1123,2026-27
+234,Florida St,Ronald  Hughey,Assistant Coach,https://seminoles.com/sports/womens-basketball/roster/coaches/ronald-hughey/1127,2026-27
+234,Florida St,Adam Surguine,Assistant Coach - Director of Scouting and Analytics,https://seminoles.com/sports/womens-basketball/roster/coaches/adam-surguine/1124,2026-27
+234,Florida St,Dave Plettl,Strength and Conditioning Coach,https://seminoles.com/sports/womens-basketball/roster/staff/dave-plettl/601,2026-27
+234,Florida St,Nicole Gallagher,Special Assistant to the Head Coach,https://seminoles.com/sports/womens-basketball/roster/staff/nicole-gallagher/596,2026-27
+1104,Grand Canyon,Winston Gandy,Head Coach,https://gculopes.com/sports/womens-basketball/roster/coaches/winston-gandy/2389,2026-27
+1104,Grand Canyon,Adrian Sanders,Assistant Coach/Recruiting Coordinator,https://gculopes.com/sports/womens-basketball/roster/coaches/adrian-sanders/2394,2026-27
+1104,Grand Canyon,Matt  Shewmake,Assistant Coach,https://gculopes.com/sports/womens-basketball/roster/coaches/matt-shewmake/2390,2026-27
+1104,Grand Canyon,Jessica Jenkins,Assistant Coach,https://gculopes.com/sports/womens-basketball/roster/coaches/jessica-jenkins/2401,2026-27
+1104,Grand Canyon,Celeste Taylor,Assistant Coach,https://gculopes.com/sports/womens-basketball/roster/coaches/celeste-taylor/2393,2026-27
+1104,Grand Canyon,Dominique Johnson,Assistant Coach,https://gculopes.com/sports/womens-basketball/roster/coaches/dominique-johnson/2403,2026-27
+428,Minnesota,Dawn Plitzuweit,Head Coach,https://gophersports.com/sports/womens-basketball/roster/coaches/dawn-plitzuweit/3757,2026-27
+428,Minnesota,Jason Jeschke,Associate Head Coach/General Manager,https://gophersports.com/sports/womens-basketball/roster/coaches/jason-jeschke/3754,2026-27
+428,Minnesota,Aaron Horn,Associate Head Coach,https://gophersports.com/sports/womens-basketball/roster/coaches/aaron-horn/3758,2026-27
+428,Minnesota,Ariel Braker,Assistant Coach/Recruiting Coordinator,https://gophersports.com/sports/womens-basketball/roster/coaches/ariel-braker/3755,2026-27
+428,Minnesota,Tyler VanWinkle,Assistant Coach,https://gophersports.com/sports/womens-basketball/roster/coaches/tyler-vanwinkle/3759,2026-27
+428,Minnesota,Chloe Lamb,Director of Player Development/ Assistant Coach,https://gophersports.com/sports/womens-basketball/roster/coaches/chloe-lamb/3756,2026-27
+718,Tulane,Ashley Langford,Head Coach,https://tulanegreenwave.com/sports/womens-basketball/roster/coaches/ashley-langford/8140,2026-27
+718,Tulane,Sam Pierce,Assistant Coach,https://tulanegreenwave.com/sports/womens-basketball/roster/coaches/sam-pierce/8147,2026-27
+718,Tulane,Donnie Stith,"Assistant Coach, Women's Basketball",https://tulanegreenwave.com/sports/womens-basketball/roster/coaches/donnie-stith/8142,2026-27
+718,Tulane,Harlyn Wyatt,Assistant Coach / Recruiting Coordinator,https://tulanegreenwave.com/sports/womens-basketball/roster/coaches/harlyn-wyatt/8148,2026-27
+718,Tulane,Shyan  Mwai,Assistant Coach,https://tulanegreenwave.com/sports/womens-basketball/roster/coaches/shyan-mwai/8144,2026-27
+718,Tulane,Jamia Hazell,Assistant Coach / Director of Player Development,https://tulanegreenwave.com/sports/womens-basketball/roster/coaches/jamia-hazell/8149,2026-27
+718,Tulane,Johnny Flores,Graduate Assistant Coach / Video Coordinator,https://tulanegreenwave.com/sports/womens-basketball/roster/coaches/johnny-flores/8151,2026-27
+388,Marshall,Juli Fulks,Head Coach,https://herdzone.com/sports/womens-basketball/roster/coaches/juli-fulks/2237,2026-27
+388,Marshall,Mykasa Lucas,Assistant Coach,https://herdzone.com/sports/womens-basketball/roster/coaches/mykasa-lucas/2238,2026-27
+388,Marshall,Patrick Herlihy,Assistant Coach,https://herdzone.com/sports/womens-basketball/roster/coaches/patrick-herlihy/2240,2026-27
+388,Marshall,Cassie Lastivka,Assistant Coach,https://herdzone.com/sports/womens-basketball/roster/coaches/cassie-lastivka/2241,2026-27
+388,Marshall,Brianna Ellis,Director of Basketball Operations,https://herdzone.com/sports/womens-basketball/roster/coaches/brianna-ellis/2239,2026-27
+388,Marshall,Peyton Ilderton,Assistant Director of Basketball Operations,https://herdzone.com/sports/womens-basketball/roster/coaches/peyton-ilderton/2259,2026-27
+388,Marshall,Tim Whitesel,Assistant Coach / Director of Quantitative Analytics,https://herdzone.com/sports/womens-basketball/roster/coaches/tim-whitesel/2250,2026-27
+328,Kansas,Brandon Schneider,Head Coach,https://kuathletics.com/sports/wbball/roster/coaches/brandon-schneider/1114,2026-27
+328,Kansas,Brock McGinnis,Associate Head Coach,https://kuathletics.com/sports/wbball/roster/coaches/brock-mcginnis/1117,2026-27
+328,Kansas,Jerise Freeman,Assistant Head Coach,https://kuathletics.com/sports/wbball/roster/coaches/jerise-freeman/1124,2026-27
+328,Kansas,Patrick Schrater,Assistant Coach / Recruiting Coordinator,https://kuathletics.com/sports/wbball/roster/coaches/patrick-schrater/1118,2026-27
+328,Kansas,Jayci Stone,Assistant Coach,https://kuathletics.com/sports/wbball/roster/coaches/jayci-stone/1123,2026-27
+328,Kansas,Chuck Hollwedel,Assistant Sports Performance Coach (WBB),https://kuathletics.com/sports/wbball/roster/staff/chuck-hollwedel/30,2026-27
+700,Texas Tech,Krista Gerlich,"Head Coach, Women's Basketball",https://texastech.com/sports/womens-basketball/roster/coaches/krista-gerlich/4327,2026-27
+700,Texas Tech,Adrian Walters,Associate Head Coach,https://texastech.com/sports/womens-basketball/roster/coaches/adrian-walters/4331,2026-27
+700,Texas Tech,Erik DeRoo,Associate Coach/General Manager,https://texastech.com/sports/womens-basketball/roster/coaches/erik-deroo/4411,2026-27
+700,Texas Tech,Jaida Williams,Assistant Coach,https://texastech.com/sports/womens-basketball/roster/coaches/jaida-williams/4332,2026-27
+700,Texas Tech,Ketara Chapel,Assistant Coach/Recruiting Coordinator,https://texastech.com/sports/womens-basketball/roster/coaches/ketara-chapel/4330,2026-27
+700,Texas Tech,Renae Boone,Assistant Coach/Recruiting Operations,https://texastech.com/sports/womens-basketball/roster/coaches/renae-boone/4333,2026-27
+700,Texas Tech,Kyle Jean,Associate Strength and Conditioning Coach,https://texastech.com/sports/womens-basketball/roster/coaches/kyle-jean/4329,2026-27
+700,Texas Tech,Leslie Hartline,Administrative Assistant to Head Coach,https://texastech.com/sports/womens-basketball/roster/staff/leslie-hartline/735,2026-27
+700,Texas Tech,Kaden Cleavinger,Coaching Assistant,https://texastech.com/sports/womens-basketball/roster/staff/kaden-cleavinger/782,2026-27
+700,Texas Tech,Isaiah Fernandez,Coaching Assistant,https://texastech.com/sports/womens-basketball/roster/staff/isaiah-fernandez/783,2026-27
+700,Texas Tech,Ryan McMinn,Coaching Assistant,https://texastech.com/sports/womens-basketball/roster/staff/ryan-mcminn/784,2026-27
+700,Texas Tech,Laci White,Coaching Assistant,https://texastech.com/sports/womens-basketball/roster/staff/laci-white/785,2026-27
+352,Lehigh,Addie Micir,Head Coach,https://lehighsports.com/sports/womens-basketball/roster/coaches/addie-micir/3507,2026-27
+352,Lehigh,Kaitlyn Cresencia,Associate Head Coach,https://lehighsports.com/sports/womens-basketball/roster/coaches/kaitlyn-cresencia/3508,2026-27
+352,Lehigh,Sarah Assante,Assistant Coach,https://lehighsports.com/sports/womens-basketball/roster/coaches/sarah-assante/3510,2026-27
+355,Liberty,Alexis Sherard,Head Women's Basketball Coach,https://libertyflames.com/sports/womens-basketball/roster/coaches/alexis-sherard/2693,2026-27
+355,Liberty,"Andrea ""Andy"" Bloodworth",Assistant Coach/Director of Recruiting,https://libertyflames.com/sports/womens-basketball/roster/coaches/andrea-andy-bloodworth/2697,2026-27
+355,Liberty,Katie Mattera,Assistant Coach/Director of Basketball Strategy and Culture Development,https://libertyflames.com/sports/womens-basketball/roster/coaches/katie-mattera/2694,2026-27
+355,Liberty,Brad Palmer,Assistant Coach/Director of Offense Development,https://libertyflames.com/sports/womens-basketball/roster/coaches/brad-palmer/2700,2026-27
+355,Liberty,Amber Lee,Assistant Coach/Director of Analytics and Creative Content,https://libertyflames.com/sports/womens-basketball/roster/coaches/amber-lee/2698,2026-27
+355,Liberty,Emma Hess,Assistant Coach/Director of Player Development,https://libertyflames.com/sports/womens-basketball/roster/coaches/emma-hess/2701,2026-27
+355,Liberty,Dan Lumpkin,Special Assistant to the Head Coach/Director of Student-Athlete Development and NIL Operations,https://libertyflames.com/sports/womens-basketball/roster/coaches/dan-lumpkin/2696,2026-27
+355,Liberty,Chelsey Hoggard-Harris,Executive Assistant to the Coaching Staff and Program Operations,https://libertyflames.com/sports/womens-basketball/roster/coaches/chelsey-hoggard-harris/2699,2026-27
+355,Liberty,Erin  Chambliss,"Assistant Athletic Performance Coach (Women's Basketball, Softball)",https://libertyflames.com/sports/womens-basketball/roster/staff/erin-chambliss/431,2026-27
+308,Purdue-Fort Wayne,Kate Peterson Abiad,Head Coach (1st Season),https://gomastodons.com/sports/womens-basketball/roster/coaches/kate-peterson-abiad/1515,2026-27
+308,Purdue-Fort Wayne,Kevin McManaman,Assistant Coach (1st Season),https://gomastodons.com/sports/womens-basketball/roster/coaches/kevin-mcmanaman/1517,2026-27
+308,Purdue-Fort Wayne,Rachel McLimore,Assistant Coach (1st Season),https://gomastodons.com/sports/womens-basketball/roster/coaches/rachel-mclimore/1518,2026-27
+308,Purdue-Fort Wayne,Jauwan Scaife,Assistant Coach (1st Season),https://gomastodons.com/sports/womens-basketball/roster/coaches/jauwan-scaife/1527,2026-27
+308,Purdue-Fort Wayne,Destiny Leo,Assistant Coach (1st Season),https://gomastodons.com/sports/womens-basketball/roster/coaches/destiny-leo/1588,2026-27
+248,George Mason,Vanessa Blair-Lewis,Head Coach,https://gomason.com/sports/womens-basketball/roster/coaches/vanessa-blair-lewis/1818,2026-27
+248,George Mason,Andre Bolton,Associate Head Coach & Director of Player Development,https://gomason.com/sports/womens-basketball/roster/coaches/andre-bolton/1820,2026-27
+248,George Mason,Brittany Ward,Assistant Coach & Recruiting Coordinator,https://gomason.com/sports/womens-basketball/roster/coaches/brittany-ward/1821,2026-27
+248,George Mason,Debbie Taneyhill,Assistant Coach,https://gomason.com/sports/womens-basketball/roster/coaches/debbie-taneyhill/1826,2026-27
+248,George Mason,Brandon Stewart,Director of Player Personnel,https://gomason.com/sports/womens-basketball/roster/coaches/brandon-stewart/1822,2026-27
+248,George Mason,Nigel Bowden,Director of Basketball Operations,https://gomason.com/sports/womens-basketball/roster/coaches/nigel-bowden/1823,2026-27
+248,George Mason,Meghan McVay,"Office Manager, Women's Basketball",https://gomason.com/sports/womens-basketball/roster/staff/meghan-mcvay/71,2026-27
+248,George Mason,Dr. Faith Brown,Associate Director of Strength and Conditioning,https://gomason.com/sports/womens-basketball/roster/staff/dr-faith-brown/67,2026-27
+248,George Mason,Collin Gentry,"Certified Athletic Trainer: Women's Basketball, Women's Tennis",https://gomason.com/sports/womens-basketball/roster/staff/collin-gentry/65,2026-27
+248,George Mason,Cheryl Hunte,Assistant AD for Academic Services,https://gomason.com/sports/womens-basketball/roster/staff/cheryl-hunte/66,2026-27
+248,George Mason,Kate McCarney,Graduate Assistant,https://gomason.com/sports/womens-basketball/roster/staff/kate-mccarney/69,2026-27
+248,George Mason,Khamya McNeal,Graduate Assistant,https://gomason.com/sports/womens-basketball/roster/staff/khamya-mcneal/72,2026-27
+248,George Mason,Evans Smith,"Executive Assistant, Women's Basketball",https://gomason.com/sports/womens-basketball/roster/staff/evans-smith/70,2026-27
+497,North Texas,Jason Burton,Head Coach,https://meangreensports.com/sports/womens-basketball/roster/coaches/jason-burton/1025,2026-27
+497,North Texas,Britney Brown,Associate Head Coach,https://meangreensports.com/sports/womens-basketball/roster/coaches/britney-brown/1028,2026-27
+497,North Texas,Yannick Denson,Associate Coach,https://meangreensports.com/sports/womens-basketball/roster/coaches/yannick-denson/1031,2026-27
+497,North Texas,Rynae Rasley,Associate Coach,https://meangreensports.com/sports/womens-basketball/roster/coaches/rynae-rasley/1054,2026-27
+497,North Texas,Princess Davis,"Assistant Coach, Recruiting Coordinator",https://meangreensports.com/sports/womens-basketball/roster/coaches/princess-davis/1027,2026-27
+497,North Texas,Will Watkins,"Assistant Coach, Director of Film, Analytics and Player Development",https://meangreensports.com/sports/womens-basketball/roster/coaches/will-watkins/1030,2026-27
+497,North Texas,Tavion Pleasant,Strength & Conditioning Coach,https://meangreensports.com/sports/womens-basketball/roster/staff/tavion-pleasant/295,2026-27
+414,Miami Ohio,Glenn Box,Head Coach,https://miamiredhawks.com/sports/womens-basketball/roster/coaches/glenn-box/1169,2026-27
+414,Miami Ohio,JR Shumate,Associate Head Coach,https://miamiredhawks.com/sports/womens-basketball/roster/coaches/jr-shumate/1170,2026-27
+414,Miami Ohio,Maya Chandler,Assistant Coach,https://miamiredhawks.com/sports/womens-basketball/roster/coaches/maya-chandler/1172,2026-27
+414,Miami Ohio,Simeon Spurling,Assistant Coach,https://miamiredhawks.com/sports/womens-basketball/roster/coaches/simeon-spurling/1196,2026-27
+414,Miami Ohio,Rebecca Harris,Assistant Coach,https://miamiredhawks.com/sports/womens-basketball/roster/coaches/rebecca-harris/1195,2026-27
+441,Montana,Nate Harris,Head Coach,https://gogriz.com/sports/womens-basketball/roster/coaches/nate-harris/1877,2026-27
+441,Montana,Lindsay Woolley,Assistant Coach,https://gogriz.com/sports/womens-basketball/roster/coaches/lindsay-woolley/1879,2026-27
+441,Montana,Kayla Anderson,Assistant Coach,https://gogriz.com/sports/womens-basketball/roster/coaches/kayla-anderson/1881,2026-27
+441,Montana,Britt Cooper,Assistant Coach,https://gogriz.com/sports/womens-basketball/roster/coaches/britt-cooper/1883,2026-27
+441,Montana,Leia Beattie,Assistant Coach,https://gogriz.com/sports/womens-basketball/roster/coaches/leia-beattie/1882,2026-27
+416,Michigan State,Robyn Fralick,Head Coach,https://msuspartans.com/sports/womens-basketball/roster/coaches/robyn-fralick/1941,2026-27
+416,Michigan State,Kim  Cameron,Associate Head Coach,https://msuspartans.com/sports/womens-basketball/roster/coaches/kim-cameron/1944,2026-27
+416,Michigan State,Maria Kasza,Assistant Coach,https://msuspartans.com/sports/womens-basketball/roster/coaches/maria-kasza/1943,2026-27
+416,Michigan State,Bianca Smith,Assistant Coach,https://msuspartans.com/sports/womens-basketball/roster/coaches/bianca-smith/1947,2026-27
+440,Montana State,Tricia Binford,Ellen Kreighbaum Women's Head Basketball Coach,https://msubobcats.com/sports/womens-basketball/roster/coaches/tricia-binford/1385,2026-27
+440,Montana State,Sunny Smallwood,Associate Head Coach,https://msubobcats.com/sports/womens-basketball/roster/coaches/sunny-smallwood/1386,2026-27
+440,Montana State,Ryan Johnson,Associate Head Coach,https://msubobcats.com/sports/womens-basketball/roster/coaches/ryan-johnson/1388,2026-27
+440,Montana State,Devin Perez,"Assistant Coach, Director of Player Personnel",https://msubobcats.com/sports/womens-basketball/roster/coaches/devin-perez/1389,2026-27
+440,Montana State,Derek Jones,Assistant Strength & Conditioning Coach,https://msubobcats.com/sports/womens-basketball/roster/staff/derek-jones/161,2026-27
+509,Northwestern,Rachel Mutombo,,https://nusports.com/sports/womens-basketball/roster/player/rachel-mutombo,2026-27
+509,Northwestern,Xamiya Walton,,https://nusports.com/sports/womens-basketball/roster/player/xamiya-walton,2026-27
+509,Northwestern,Xyanna Walton,,https://nusports.com/sports/womens-basketball/roster/player/xyanna-walton,2026-27
+509,Northwestern,Claire Keswick,,https://nusports.com/sports/womens-basketball/roster/player/claire-keswick,2026-27
+509,Northwestern,Lexi Blue,,https://nusports.com/sports/womens-basketball/roster/player/lexi-blue,2026-27
+509,Northwestern,Lily Carmody,,https://nusports.com/sports/womens-basketball/roster/player/lily-carmody,2026-27
+509,Northwestern,Kat Righeimer,,https://nusports.com/sports/womens-basketball/roster/player/kat-righeimer,2026-27
+509,Northwestern,Crystal Fuqu Wang,,https://nusports.com/sports/womens-basketball/roster/player/crystal-fuqu-wang,2026-27
+509,Northwestern,Sandra Moreno,,https://nusports.com/sports/womens-basketball/roster/player/sandra-moreno,2026-27
+509,Northwestern,Casey Harter,,https://nusports.com/sports/womens-basketball/roster/player/casey-harter,2026-27
+509,Northwestern,Camdyn Nelson,,https://nusports.com/sports/womens-basketball/roster/player/camdyn-nelson,2026-27
+509,Northwestern,Brooke Golden,,https://nusports.com/sports/womens-basketball/roster/player/brooke-golden,2026-27
+509,Northwestern,Romana Jelenc,,https://nusports.com/sports/womens-basketball/roster/player/romana-jelenc,2026-27
+509,Northwestern,Jasmyn Cooper-Derba,,https://nusports.com/sports/womens-basketball/roster/player/jasmyn-cooper-derba,2026-27
+509,Northwestern,Amparo López,,https://nusports.com/sports/womens-basketball/roster/player/amparo-lopez,2026-27
+433,Mississippi,Yolett McPhee-McCuin,Head Coach,https://olemisssports.com/sports/womens-basketball/roster/coaches/yolett-mcphee-mccuin/1247,2026-27
+433,Mississippi,Quentin Hillsman,Associate Head Coach,https://olemisssports.com/sports/womens-basketball/roster/coaches/quentin-hillsman/1248,2026-27
+433,Mississippi,Joy Smith,Associate Coach,https://olemisssports.com/sports/womens-basketball/roster/coaches/joy-smith/1251,2026-27
+433,Mississippi,Zachary Hopp,Assistant Coach,https://olemisssports.com/sports/womens-basketball/roster/coaches/zachary-hopp/1255,2026-27
+433,Mississippi,Adrienne Motley,Assistant Coach,https://olemisssports.com/sports/womens-basketball/roster/coaches/adrienne-motley/1253,2026-27
+433,Mississippi,Myah Taylor,Assistant Coach/On-Campus Recruiting Coordinator,https://olemisssports.com/sports/womens-basketball/roster/coaches/myah-taylor/1254,2026-27
+518,Ohio State,Kevin McGuff,Head Coach,https://ohiostatebuckeyes.com/sports/womens-basketball/roster/coaches/kevin-mcguff/2402,2026-27
+518,Ohio State,Jalen Powell,Assistant Coach & Recruiting Coordinator,https://ohiostatebuckeyes.com/sports/womens-basketball/roster/coaches/jalen-powell/2404,2026-27
+518,Ohio State,Ryan Murray,Assistant Coach,https://ohiostatebuckeyes.com/sports/womens-basketball/roster/coaches/ryan-murray/2407,2026-27
+518,Ohio State,Reid Guzdanski,Assistant Coach & Director of Recruiting Operations & Professional Development,https://ohiostatebuckeyes.com/sports/womens-basketball/roster/coaches/reid-guzdanski/2405,2026-27
+518,Ohio State,Katie Smith,Assistant Coach,https://ohiostatebuckeyes.com/sports/womens-basketball/roster/coaches/katie-smith/2408,2026-27
+518,Ohio State,Todd Schaefer,Assistant Coach,https://ohiostatebuckeyes.com/sports/womens-basketball/roster/coaches/todd-schaefer/2437,2026-27
+522,Oklahoma,Jennie Baranczyk,Head Coach,https://soonersports.com/sports/womens-basketball/roster/coaches/jennie-baranczyk/1317,2026-27
+522,Oklahoma,Latricia Trammell,Associate Head Coach,https://soonersports.com/sports/womens-basketball/roster/coaches/latricia-trammell/1400,2026-27
+522,Oklahoma,Shannon Gage,Assistant Coach,https://soonersports.com/sports/womens-basketball/roster/coaches/shannon-gage/1319,2026-27
+522,Oklahoma,Michael Neal,Assistant Coach,https://soonersports.com/sports/womens-basketball/roster/coaches/michael-neal/1318,2026-27
+522,Oklahoma,Markisha Kastantin,Director of Player Development and Assistant Coach,https://soonersports.com/sports/womens-basketball/roster/coaches/markisha-kastantin/1320,2026-27
+562,Quinnipiac,Roman Owen,Women's Basketball Head Coach,https://gobobcats.com/sports/womens-basketball/roster/coaches/roman-owen/9303,2026-27
+562,Quinnipiac,Adam Call,Women's Basketball Associate Head Coach,https://gobobcats.com/sports/womens-basketball/roster/coaches/adam-call/9305,2026-27
+562,Quinnipiac,Kourtni Stevenson,Women's Basketball Assistant Coach,https://gobobcats.com/sports/womens-basketball/roster/coaches/kourtni-stevenson/9313,2026-27
+562,Quinnipiac,Amaya West,Women’s Basketball Assistant Coach,https://gobobcats.com/sports/womens-basketball/roster/coaches/amaya-west/9304,2026-27
+454,Murray State,Rechelle Turner,Head Coach,https://goracers.com/sports/womens-basketball/roster/coaches/rechelle-turner/2042,2026-27
+454,Murray State,Mark Stephens,Associate Head Coach,https://goracers.com/sports/womens-basketball/roster/coaches/mark-stephens/2050,2026-27
+454,Murray State,Monica Evans,Assistant Coach,https://goracers.com/sports/womens-basketball/roster/coaches/monica-evans/2043,2026-27
+454,Murray State,Nieja Tucker,Assistant Coach,https://goracers.com/sports/womens-basketball/roster/coaches/nieja-tucker/2044,2026-27
+454,Murray State,Katelyn Cox,Assistant Coach,https://goracers.com/sports/womens-basketball/roster/coaches/katelyn-cox/2047,2026-27
+454,Murray State,Ed Chapman,Special Assistant to the Head Coach,https://goracers.com/sports/womens-basketball/roster/coaches/ed-chapman/2098,2026-27
+454,Murray State,Gracyn McClain,"Strength & Conditioning Coach (WBB, VB, WTEN)",https://goracers.com/sports/womens-basketball/roster/staff/gracyn-mcclain/159,2026-27
+671,Louisiana,Garry Brodhead,Head Coach,https://ragincajuns.com/sports/womens-basketball/roster/coaches/garry-brodhead/1899,2026-27
+671,Louisiana,Temeka Johnson,Associate Head Coach,https://ragincajuns.com/sports/womens-basketball/roster/coaches/temeka-johnson/1901,2026-27
+671,Louisiana,Kacie Cryer,Assistant Coach/Recruiting Coordinator,https://ragincajuns.com/sports/womens-basketball/roster/coaches/kacie-cryer/1900,2026-27
+671,Louisiana,Marvin Harvey,Assistant Coach,https://ragincajuns.com/sports/womens-basketball/roster/coaches/marvin-harvey/1902,2026-27
+671,Louisiana,Karbala Gueye,Assistant Coach,https://ragincajuns.com/sports/womens-basketball/roster/coaches/karbala-gueye/1963,2026-27
+574,Rice,Lindsay Edmonds,Shelley Pennington and Friends Head Coach,https://riceowls.com/sports/womens-basketball/roster/coaches/lindsay-edmonds/3331,2026-27
+574,Rice,Nick Grant,Associate Head Coach,https://riceowls.com/sports/womens-basketball/roster/coaches/nick-grant/3333,2026-27
+574,Rice,Lakevia  Boykin,Assistant Coach,https://riceowls.com/sports/womens-basketball/roster/coaches/lakevia-boykin/3332,2026-27
+574,Rice,Danyelle Grant,Assistant Coach,https://riceowls.com/sports/womens-basketball/roster/coaches/danyelle-grant/3334,2026-27
+574,Rice,Jalen Latta,Assistant Coach/Director of Player Development,https://riceowls.com/sports/womens-basketball/roster/coaches/jalen-latta/3335,2026-27
+574,Rice,Madi Miller,Assistant Coach,https://riceowls.com/sports/womens-basketball/roster/coaches/madi-miller/3336,2026-27
+676,Stephen F. Austin,Leonard  Bishop,Head Coach,https://sfajacks.com/sports/womens-basketball/roster/coaches/leonard-bishop/1223,2026-27
+676,Stephen F. Austin,Steve Yang,Associate Head Coach,https://sfajacks.com/sports/womens-basketball/roster/coaches/steve-yang/1224,2026-27
+676,Stephen F. Austin,Dr. Jeanne-Marie Wilson,Assistant Coach/Recruiting Coordinator,https://sfajacks.com/sports/womens-basketball/roster/coaches/dr-jeanne-marie-wilson/1225,2026-27
+676,Stephen F. Austin,Lex Murphy,Assistant Coach,https://sfajacks.com/sports/womens-basketball/roster/coaches/lex-murphy/1226,2026-27
+676,Stephen F. Austin,Martin Pazanin,Assistant Coach/Offensive Coordinator,https://sfajacks.com/sports/womens-basketball/roster/coaches/martin-pazanin/1227,2026-27
+664,Southern Miss,Missy Bilderback,Head Coach,https://southernmiss.com/sports/womens-basketball/roster/coaches/missy-bilderback/2136,2026-27
+664,Southern Miss,Lauren Pittman,Associate Head Coach,https://southernmiss.com/sports/womens-basketball/roster/coaches/lauren-pittman/2137,2026-27
+664,Southern Miss,Jonathan Williams,Assistant Head Coach,https://southernmiss.com/sports/womens-basketball/roster/coaches/jonathan-williams/2138,2026-27
+664,Southern Miss,Lauren Gross,Assistant Coach,https://southernmiss.com/sports/womens-basketball/roster/coaches/lauren-gross/2139,2026-27
+664,Southern Miss,Brian King,Strength & Conditioning Coach,https://southernmiss.com/sports/womens-basketball/roster/staff/brian-king/303,2026-27
+575,Richmond,Alisa Kresge,Head Coach,https://richmondspiders.com/sports/womens-basketball/roster/coaches/alisa-kresge/1468,2026-27
+575,Richmond,Will Lanier,Associate Head Coach,https://richmondspiders.com/sports/womens-basketball/roster/coaches/will-lanier/1476,2026-27
+575,Richmond,Sacha Santimano,Associate Head Coach,https://richmondspiders.com/sports/womens-basketball/roster/coaches/sacha-santimano/1477,2026-27
+575,Richmond,Sam Brenner,Assistant Coach/Chief of Staff,https://richmondspiders.com/sports/womens-basketball/roster/coaches/sam-brenner/1478,2026-27
+575,Richmond,Shenita  Landry,Assistant Coach,https://richmondspiders.com/sports/womens-basketball/roster/coaches/shenita-landry/1492,2026-27
+575,Richmond,Nevena Markovic-Gavric,Assistant Coach,https://richmondspiders.com/sports/womens-basketball/roster/coaches/nevena-markovic-gavric/1493,2026-27
+575,Richmond,Brandon Heeter,"Head Strength & Conditioning Coach (WBB, WTEN)",https://richmondspiders.com/sports/womens-basketball/roster/staff/brandon-heeter/275,2026-27
+698,Texas Christian,Mark Campbell,Head Coach,https://gofrogs.com/sports/womens-basketball/roster/coaches/mark-campbell/2034,2026-27
+698,Texas Christian,Xavier Lopez,Associate Head Coach,https://gofrogs.com/sports/womens-basketball/roster/coaches/xavier-lopez/2035,2026-27
+698,Texas Christian,Charity Elliott,Assistant Coach,https://gofrogs.com/sports/womens-basketball/roster/coaches/charity-elliott/2060,2026-27
+698,Texas Christian,Nolan Wilson,Assistant Coach,https://gofrogs.com/sports/womens-basketball/roster/coaches/nolan-wilson/2037,2026-27
+698,Texas Christian,Ruthy Hebard,Assistant Coach,https://gofrogs.com/sports/womens-basketball/roster/coaches/ruthy-hebard/2080,2026-27
+9,UAB,Randy Norton,Head Coach,https://uabsports.com/sports/womens-basketball/roster/coaches/randy-norton/2331,2026-27
+9,UAB,Taren Martin,Associate Head Coach,https://uabsports.com/sports/womens-basketball/roster/coaches/taren-martin/2332,2026-27
+9,UAB,Ty Margenthaler,Associate Head Coach / Recruiting Coordinator,https://uabsports.com/sports/womens-basketball/roster/coaches/ty-margenthaler/2334,2026-27
+9,UAB,Miyah  Barnes,Assistant Coach,https://uabsports.com/sports/womens-basketball/roster/coaches/miyah-barnes/2333,2026-27
+9,UAB,Hunter Simpson,Assistant Coach,https://uabsports.com/sports/womens-basketball/roster/coaches/hunter-simpson/2336,2026-27
+9,UAB,Zakyia Weathersby,Assistant Coach,https://uabsports.com/sports/womens-basketball/roster/coaches/zakyia-weathersby/2365,2026-27
+9,UAB,Darius Johnson,Athletic Performance Coach (WBK),https://uabsports.com/sports/womens-basketball/roster/staff/darius-johnson/1467,2026-27
+257,Georgia,Ayla Guzzardo,Head Coach,https://georgiadogs.com/sports/womens-basketball/roster/coaches/ayla-guzzardo/3765,2026-27
+257,Georgia,"Kenneth Lee, Jr.",Associate Head Coach/Defensive Coordinator,https://georgiadogs.com/sports/womens-basketball/roster/coaches/kenneth-lee-jr/3766,2026-27
+257,Georgia,Justin Payne,Associate Head Coach,https://georgiadogs.com/sports/womens-basketball/roster/coaches/justin-payne/3767,2026-27
+257,Georgia,Amber Gregg,Assistant Coach/Recruiting Coordinator,https://georgiadogs.com/sports/womens-basketball/roster/coaches/amber-gregg/3769,2026-27
+257,Georgia,Ronneka Robertson,Assistant Coach/Assistant Recruiting Coordinator,https://georgiadogs.com/sports/womens-basketball/roster/coaches/ronneka-robertson/3768,2026-27
+257,Georgia,Brianna Patton,Assistant Coach/Director of Recruiting,https://georgiadogs.com/sports/womens-basketball/roster/coaches/brianna-patton/3763,2026-27
+257,Georgia,Claire Macy,Strength & Conditioning Coach,https://georgiadogs.com/sports/womens-basketball/roster/coaches/claire-macy/3787,2026-27
+400,Massachusetts,Mike Leflar,Head Coach,https://umassathletics.com/sports/womens-basketball/roster/coaches/mike-leflar/2612,2026-27
+400,Massachusetts,Yolanda Cole,Assistant Coach,https://umassathletics.com/sports/womens-basketball/roster/coaches/yolanda-cole/2614,2026-27
+400,Massachusetts,Dayna Smith,Assistant Coach,https://umassathletics.com/sports/womens-basketball/roster/coaches/dayna-smith/2618,2026-27
+400,Massachusetts,Val Klopfer,Assistant Coach,https://umassathletics.com/sports/womens-basketball/roster/coaches/val-klopfer/2619,2026-27
+400,Massachusetts,Simone Morin,Sports Performance Coach,https://umassathletics.com/sports/womens-basketball/roster/coaches/simone-morin/2613,2026-27
+456,UNC Asheville,Tynesha Lewis,Head Coach,https://uncabulldogs.com/sports/womens-basketball/roster/coaches/tynesha-lewis/834,2026-27
+456,UNC Asheville,Ron Woodard,Assistant Coach,https://uncabulldogs.com/sports/womens-basketball/roster/coaches/ron-woodard/836,2026-27
+456,UNC Asheville,Asia Dozier,Assistant Coach,https://uncabulldogs.com/sports/womens-basketball/roster/coaches/asia-dozier/841,2026-27
+456,UNC Asheville,Leah Metcalf,Assistant Coach/Recruiting Coordinator,https://uncabulldogs.com/sports/womens-basketball/roster/coaches/leah-metcalf/865,2026-27
+456,UNC Asheville,Brian Robbett,Head Strength and Conditioning Coach,https://uncabulldogs.com/sports/womens-basketball/roster/staff/brian-robbett/78,2026-27
+502,Northern Colorado,Kristen Mattio,Head Women's Basketball Coach,https://uncbears.com/sports/womens-basketball/roster/coaches/kristen-mattio/3636,2026-27
+502,Northern Colorado,Camille Perkins,Associate Head Women's Basketball Coach,https://uncbears.com/sports/womens-basketball/roster/coaches/camille-perkins/3637,2026-27
+502,Northern Colorado,DeAndre Betty,Assistant Women's Basketball Coach,https://uncbears.com/sports/womens-basketball/roster/coaches/deandre-betty/3640,2026-27
+502,Northern Colorado,Jenna  Knudson,Assistant Women’s Basketball Coach and Director of Recruiting,https://uncbears.com/sports/womens-basketball/roster/coaches/jenna-knudson/3641,2026-27
+502,Northern Colorado,Jamie Williams,Assistant Women’s Basketball Coach and Director of Basketball Operations,https://uncbears.com/sports/womens-basketball/roster/coaches/jamie-williams/3642,2026-27
+457,North Carolina,Courtney Banghart,Head Coach,https://goheels.com/sports/womens-basketball/roster/coaches/courtney-banghart/4673,2026-27
+457,North Carolina,Joanne Aluka-White,Associate Head Coach,https://goheels.com/sports/womens-basketball/roster/coaches/joanne-aluka-white/4674,2026-27
+457,North Carolina,Cory McNeill,Associate Head Coach,https://goheels.com/sports/womens-basketball/roster/coaches/cory-mcneill/4684,2026-27
+457,North Carolina,Katherine Bixby,Assistant Coach,https://goheels.com/sports/womens-basketball/roster/coaches/katherine-bixby/4687,2026-27
+457,North Carolina,Daniel Metzelfeld,Assistant Coach,https://goheels.com/sports/womens-basketball/roster/coaches/daniel-metzelfeld/4681,2026-27
+457,North Carolina,Lexi  Weger,Assistant Coach,https://goheels.com/sports/womens-basketball/roster/coaches/lexi-weger/4682,2026-27
+457,North Carolina,Liz Roberts,General Manager/Special Assistant to the Head Coach,https://goheels.com/sports/womens-basketball/roster/coaches/liz-roberts/4675,2026-27
+657,Southern Cal,Lindsay Gottlieb,Head Women's Basketball Coach,https://usctrojans.com/sports/womens-basketball/roster/coaches/lindsay-gottlieb/7372,2026-27
+657,Southern Cal,Beth Burns,Associate Head Coach,https://usctrojans.com/sports/womens-basketball/roster/coaches/beth-burns/7373,2026-27
+657,Southern Cal,Willnett Crockett,Assistant Coach / Recruiting Coordinator,https://usctrojans.com/sports/womens-basketball/roster/coaches/willnett-crockett/7375,2026-27
+657,Southern Cal,Nikki Blue,Assistant Coach,https://usctrojans.com/sports/womens-basketball/roster/coaches/nikki-blue/7376,2026-27
+657,Southern Cal,Courtney Jaco,Assistant Coach,https://usctrojans.com/sports/womens-basketball/roster/coaches/courtney-jaco/7374,2026-27
+657,Southern Cal,Jonathan Yim,Assistant Coach,https://usctrojans.com/sports/womens-basketball/roster/coaches/jonathan-yim/7377,2026-27
+469,New Hampshire,Megan Shoniker,Head Coach,https://unhwildcats.com/sports/womens-basketball/roster/coaches/megan-shoniker/2464,2026-27
+469,New Hampshire,Corey Boilard,Associate Head Coach,https://unhwildcats.com/sports/womens-basketball/roster/coaches/corey-boilard/2486,2026-27
+469,New Hampshire,Kennedi Thompson,Assistant Coach / Recruiting Coordinator,https://unhwildcats.com/sports/womens-basketball/roster/coaches/kennedi-thompson/2465,2026-27
+469,New Hampshire,Alexa Brodie,Assistant Coach,https://unhwildcats.com/sports/womens-basketball/roster/coaches/alexa-brodie/2467,2026-27
+504,Northern Iowa,Tanya Warren,Head Coach,https://unipanthers.com/sports/womens-basketball/roster/coaches/tanya-warren/1395,2026-27
+504,Northern Iowa,Brad Nelson,Associate Head Coach,https://unipanthers.com/sports/womens-basketball/roster/coaches/brad-nelson/1394,2026-27
+504,Northern Iowa,Katelin Vandevender,Assistant Coach,https://unipanthers.com/sports/womens-basketball/roster/coaches/katelin-vandevender/1396,2026-27
+504,Northern Iowa,Amellia Bromenschenkel,Assistant Coach,https://unipanthers.com/sports/womens-basketball/roster/coaches/amellia-bromenschenkel/1398,2026-27
+504,Northern Iowa,Bridgeport Tusler,Assistant Coach,https://unipanthers.com/sports/womens-basketball/roster/coaches/bridgeport-tusler/1420,2026-27
+756,Washington,Tina Langley,Head Coach,https://gohuskies.com/sports/womens-basketball/roster/coaches/tina-langley/6803,2026-27
+756,Washington,Tasha Brown,Associate Coach - Defensive Lead,https://gohuskies.com/sports/womens-basketball/roster/coaches/tasha-brown/6871,2026-27
+756,Washington,Aleah Goodman,Associate Coach - Offensive Lead,https://gohuskies.com/sports/womens-basketball/roster/coaches/aleah-goodman/6805,2026-27
+756,Washington,Latara  King,Associate Coach - Recruiting Lead,https://gohuskies.com/sports/womens-basketball/roster/coaches/latara-king/6804,2026-27
+756,Washington,Lauren Wilson,Assistant Coach - Special Situations Lead,https://gohuskies.com/sports/womens-basketball/roster/coaches/lauren-wilson/6806,2026-27
+756,Washington,Drew Wilson,Assistant Coach - Player Development Lead,https://gohuskies.com/sports/womens-basketball/roster/coaches/drew-wilson/6807,2026-27
+756,Washington,Patrick Bowlin,Assistant Coach - Scouting Lead,https://gohuskies.com/sports/womens-basketball/roster/coaches/patrick-bowlin/6873,2026-27
+756,Washington,Buddy Donnelly,Sports Performance Coach,https://gohuskies.com/sports/womens-basketball/roster/coaches/buddy-donnelly/6870,2026-27
+758,Weber State,Jenteal Jackson,Head Coach,https://weberstatesports.com/sports/womens-basketball/roster/coaches/jenteal-jackson/1240,2026-27
+758,Weber State,Nicole Yazzie,Associate Head Coach,https://weberstatesports.com/sports/womens-basketball/roster/coaches/nicole-yazzie/1242,2026-27
+758,Weber State,Alli Winters,Assistant Coach/Player Development Coach,https://weberstatesports.com/sports/womens-basketball/roster/coaches/alli-winters/1243,2026-27
+758,Weber State,Felicity Jones,Assistant Coach,https://weberstatesports.com/sports/womens-basketball/roster/coaches/felicity-jones/1246,2026-27
+758,Weber State,Jenna Czarnecki,Assistant Coach / Director of Basketball Operations,https://weberstatesports.com/sports/womens-basketball/roster/coaches/jenna-czarnecki/1299,2026-27
+758,Weber State,Maurice Hernandez,Strength and Conditioning Coach,https://weberstatesports.com/sports/womens-basketball/roster/coaches/maurice-hernandez/1301,2026-27
+5,Akron,Ryan Gensler,Head Coach,https://gozips.com/sports/womens-basketball/roster/coaches/ryan-gensler/1330,2026-27
+5,Akron,Sarah Jones,Associate Head Coach,https://gozips.com/sports/womens-basketball/roster/coaches/sarah-jones/1331,2026-27
+5,Akron,Gerald Sambaer,Assistant Coach,https://gozips.com/sports/womens-basketball/roster/coaches/gerald-sambaer/1332,2026-27
+5,Akron,Chenara Wilson,Assistant Coach,https://gozips.com/sports/womens-basketball/roster/coaches/chenara-wilson/1334,2026-27
+156,Colorado St.,Ryun Williams,Head Coach,https://csurams.com/sports/womens-basketball/roster/coaches/ryun-williams/3661,2026-27
+156,Colorado St.,Rico Burkett,Assistant Coach,https://csurams.com/sports/womens-basketball/roster/coaches/rico-burkett/3662,2026-27
+156,Colorado St.,Linda Sayavongchanh,Assistant Coach,https://csurams.com/sports/womens-basketball/roster/coaches/linda-sayavongchanh/3665,2026-27
+156,Colorado St.,Rachel Erickson,Assistant Coach/Recruiting Coordinator,https://csurams.com/sports/womens-basketball/roster/coaches/rachel-erickson/3666,2026-27
+156,Colorado St.,Annie Brady,Assistant Coach,https://csurams.com/sports/womens-basketball/roster/coaches/annie-brady/3664,2026-27
+156,Colorado St.,Michael Taylor,Assistant Strength and Conditioning Coach,https://csurams.com/sports/womens-basketball/roster/staff/michael-taylor/3578,2026-27
+196,East Carolina,Kim  McNeill,Head Coach,https://ecupirates.com/sports/womens-basketball/roster/coaches/kim-mcneill/4297,2026-27
+196,East Carolina,Jasmine James,Assistant Coach/Recruiting Coordinator,https://ecupirates.com/sports/womens-basketball/roster/coaches/jasmine-james/4303,2026-27
+196,East Carolina,Jason Harris,Assistant Coach,https://ecupirates.com/sports/womens-basketball/roster/coaches/jason-harris/4300,2026-27
+196,East Carolina,Jeffrey Williams,Assistant Coach,https://ecupirates.com/sports/womens-basketball/roster/coaches/jeffrey-williams/4299,2026-27
+196,East Carolina,Synia Johnson,Assistant Coach,https://ecupirates.com/sports/womens-basketball/roster/coaches/synia-johnson/4370,2026-27
+196,East Carolina,Bobbi Smith,Graduate Assistant / Assistant Coach,https://ecupirates.com/sports/womens-basketball/roster/coaches/bobbi-smith/4371,2026-27
+196,East Carolina,KJ Redmon,Assistant Strength & Conditioning Coach,https://ecupirates.com/sports/womens-basketball/roster/staff/kj-redmon/450,2026-27
+317,James Madison,Sean O'Regan,Head Coach,https://jmusports.com/sports/womens-basketball/roster/coaches/sean-oregan/5107,2026-27
+317,James Madison,Nicole Razor,Associate Head Coach,https://jmusports.com/sports/womens-basketball/roster/coaches/nicole-razor/5112,2026-27
+317,James Madison,Kayla Cooper Williams,Assistant Coach,https://jmusports.com/sports/womens-basketball/roster/coaches/kayla-cooper-williams/5109,2026-27
+317,James Madison,Alex Tomlinson,Assistant Coach/Recruiting Coordinator,https://jmusports.com/sports/womens-basketball/roster/coaches/alex-tomlinson/5111,2026-27
+317,James Madison,Anastasiia Zakharova,Assistant Coach/Director of Player Development & Recruiting,https://jmusports.com/sports/womens-basketball/roster/coaches/anastasiia-zakharova/5110,2026-27
+317,James Madison,Peyton McDaniel,Assistant Coach/Academic Mentor,https://jmusports.com/sports/womens-basketball/roster/coaches/peyton-mcdaniel/5157,2026-27
+490,NC State,Wes Moore,Head Coach,https://gopack.com/sports/womens-basketball/roster/coaches/wes-moore/5287,2026-27
+490,NC State,Nikki West,Associate Head Coach,https://gopack.com/sports/womens-basketball/roster/coaches/nikki-west/5289,2026-27
+490,NC State,Ashley Williams,Assistant Coach,https://gopack.com/sports/womens-basketball/roster/coaches/ashley-williams/5290,2026-27
+490,NC State,Brittany Morris,Assistant Coach,https://gopack.com/sports/womens-basketball/roster/coaches/brittany-morris/5312,2026-27
+490,NC State,Kevin Leatherwood,Assistant Coach/Director of Player Development,https://gopack.com/sports/womens-basketball/roster/coaches/kevin-leatherwood/5291,2026-27
+490,NC State,Kayla Jones,Assistant Coach/Director of Player Personnel,https://gopack.com/sports/womens-basketball/roster/coaches/kayla-jones/5292,2026-27
+659,Southern Ill.,Kelly Bond-White,Head Coach,https://siusalukis.com/sports/womens-basketball/roster/coaches/kelly-bond-white/1570,2026-27
+659,Southern Ill.,Marissa Webb,Assistant Coach,https://siusalukis.com/sports/womens-basketball/roster/coaches/marissa-webb/1571,2026-27
+659,Southern Ill.,Todd Buchanan,Assistant Coach,https://siusalukis.com/sports/womens-basketball/roster/coaches/todd-buchanan/1577,2026-27
+659,Southern Ill.,Wanika Owsley,Assistant Coach,https://siusalukis.com/sports/womens-basketball/roster/coaches/wanika-owsley/1578,2026-27
+659,Southern Ill.,Zach Zimmerman,Assistant Strength Coach,https://siusalukis.com/sports/womens-basketball/roster/staff/zach-zimmerman/138,2026-27
+719,Tulsa,Angie Nelp,Head Coach,https://tulsahurricane.com/sports/womens-basketball/roster/coaches/angie-nelp/2285,2026-27
+719,Tulsa,Doug Brotherton,Associate Head Coach,https://tulsahurricane.com/sports/womens-basketball/roster/coaches/doug-brotherton/2286,2026-27
+719,Tulsa,Taylor Reed,Assistant Coach/Director of Recruiting,https://tulsahurricane.com/sports/womens-basketball/roster/coaches/taylor-reed/2287,2026-27
+719,Tulsa,Jewelyn Huth,Assistant Coach,https://tulsahurricane.com/sports/womens-basketball/roster/coaches/jewelyn-huth/2290,2026-27
+719,Tulsa,Jim McDonnell,Assistant Coach,https://tulsahurricane.com/sports/womens-basketball/roster/coaches/jim-mcdonnell/2288,2026-27
+719,Tulsa,Brett Haden,Assistant Coach,https://tulsahurricane.com/sports/womens-basketball/roster/coaches/brett-haden/2292,2026-27
+772,Western Ky.,Greg Collins,Head Coach,https://wkusports.com/sports/womens-basketball/roster/coaches/greg-collins/1360,2026-27
+772,Western Ky.,Jon Plefka,Assistant Coach,https://wkusports.com/sports/womens-basketball/roster/coaches/jon-plefka/1372,2026-27
+772,Western Ky.,Whitney Creech,Assistant Coach/Operations,https://wkusports.com/sports/womens-basketball/roster/coaches/whitney-creech/1363,2026-27
+772,Western Ky.,C'eira Ricketts,Assistant Coach,https://wkusports.com/sports/womens-basketball/roster/coaches/ceira-ricketts/1373,2026-27
+772,Western Ky.,David Walls,Assistant Coach/Video and Scouting,https://wkusports.com/sports/womens-basketball/roster/coaches/david-walls/1362,2026-27
+772,Western Ky.,Parker Cheuvront,Strength and Conditioning Coach,https://wkusports.com/sports/womens-basketball/roster/staff/parker-cheuvront/316,2026-27
+80,Brown,Monique LeBlanc,Elizabeth F. Turner '98 Coaching Chair for Women's Basketball,https://brownbears.com/sports/womens-basketball/roster/coaches/monique-leblanc/8180,2026-27
+80,Brown,Tyler Patch,Assistant Coach,https://brownbears.com/sports/womens-basketball/roster/coaches/tyler-patch/8181,2026-27
+80,Brown,Jason Pellum,Assistant Coach/Recruiting Coordinator,https://brownbears.com/sports/womens-basketball/roster/coaches/jason-pellum/8183,2026-27
+80,Brown,Devon Quattrocchi,Assistant Coach,https://brownbears.com/sports/womens-basketball/roster/coaches/devon-quattrocchi/8182,2026-27
+80,Brown,Adrianna Johnson,Strength & Conditioning Coach,https://brownbears.com/sports/womens-basketball/roster/staff/adrianna-johnson/2547,2026-27
+86,Buffalo,Kristen Sharkey,Head Coach,https://ubbulls.com/sports/womens-basketball/roster/coaches/kristen-sharkey/766,2026-27
+86,Buffalo,Allison  Spaschak,Assistant Coach,https://ubbulls.com/sports/womens-basketball/roster/coaches/allison-spaschak/767,2026-27
+86,Buffalo,Damon  Jones,Assistant Coach,https://ubbulls.com/sports/womens-basketball/roster/coaches/damon-jones/768,2026-27
+86,Buffalo,Summer Hemphill,Assistant Coach,https://ubbulls.com/sports/womens-basketball/roster/coaches/summer-hemphill/769,2026-27
+86,Buffalo,JoAnna  Smith,Assistant Coach/Director of Basketball Operations,https://ubbulls.com/sports/womens-basketball/roster/coaches/joanna-smith/771,2026-27
+86,Buffalo,Haley Abrams,Sports Performance Coach (Women's Basketball & Women's Soccer),https://ubbulls.com/sports/womens-basketball/roster/staff/haley-abrams/515,2026-27
