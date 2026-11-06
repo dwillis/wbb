@@ -37,6 +37,18 @@ class RosterManager:
         self.on_team = on_team
         self.team_results: List[TeamOutcome] = []
         self.last_scraped: List[Player] = []
+        # URLs already verified True during this run, so repeat verification
+        # checks (e.g. _verify_team_season after _verify_team_season_with_format
+        # passed) don't re-download the same page. Only True results are cached:
+        # a False from the loop path must still allow _verify_team_season's
+        # 404 -> season_first fallback to run.
+        self._verified_urls = {}
+
+    def _cache_verified_url(self, url: str) -> bool:
+        """Record a successful verification under this URL."""
+        if url:
+            self._verified_urls[url] = True
+        return True
 
     def _load_teams(self) -> List[Dict]:
         """Load teams data from JSON file"""
@@ -108,56 +120,81 @@ class RosterManager:
             logger.error(f"Failed to scrape {team['team']} with all URL formats: {last_exception}")
         return []
 
-    def scrape_multiple_teams(self, season: str, team_ids: Optional[List[int]] = None) -> List[Player]:
-        """Scrape rosters for multiple teams"""
+    def scrape_multiple_teams(self, season: str, team_ids: Optional[List[int]] = None,
+                              workers: int = 1) -> List[Player]:
+        """Scrape rosters for multiple teams
+
+        workers > 1 and multiple teams: scrape teams concurrently. Safe because
+        each team's work is independent — a fresh scraper instance, requests
+        Session, and BS4 soup per team — and the only shared state is list
+        appends (atomic under the GIL) and the on_team progress callback.
+        """
         teams = self.get_teams(team_ids)
-        all_players = []
+        all_players: List[Player] = []
         entity_label = ENTITY_CONFIGS[self.entity_type]['entity_label']
 
-        for team in teams:
-            try:
-                players = self.scrape_team_roster(team, season)
-                all_players.extend(players)
-
-                # Check for year verification failure first
-                year_check_failed = not self._verify_team_season(team, season)
-
-                if year_check_failed:
-                    self.failed_year_check_teams.append({
-                        'team_id': team['ncaa_id'],
-                        'team_name': team['team'],
-                        'url': team['url']
-                    })
-                    logger.warning(f"Year verification failed for {team['team']} (ID: {team['ncaa_id']})")
-
-                # Only add to zero players if year check passed but no players found
-                if len(players) == 0:
-                    if not year_check_failed:
-                        self.zero_player_teams.append({
-                            'team_id': team['ncaa_id'],
-                            'team_name': team['team']
-                        })
-                        logger.warning(f"No {entity_label} scraped from {team['team']} (ID: {team['ncaa_id']})")
-                        self._record_outcome(TeamOutcome(team['ncaa_id'], team['team'], 0, 'zero', None))
-                    else:
-                        logger.info(f"No {entity_label} scraped from {team['team']} but year check failed - not counting as zero {entity_label}")
-                        self._record_outcome(TeamOutcome(team['ncaa_id'], team['team'], 0, 'failed_verification', None))
-                else:
-                    logger.info(f"Scraped {len(players)} {entity_label} from {team['team']}")
-                    status = 'failed_verification' if year_check_failed else 'ok'
-                    self._record_outcome(TeamOutcome(team['ncaa_id'], team['team'], len(players), status, None))
-
-            except Exception as e:
-                logger.error(f"Failed to scrape {team['team']}: {e}")
-                # Only add to zero players, not year check failures
-                self.zero_player_teams.append({
-                    'team_id': team['ncaa_id'],
-                    'team_name': team['team']
-                })
-                self._record_outcome(TeamOutcome(team['ncaa_id'], team['team'], 0, 'error', str(e)))
-                continue
+        if len(teams) > 1 and workers > 1:
+            from concurrent.futures import ThreadPoolExecutor, as_completed
+            with ThreadPoolExecutor(max_workers=workers) as pool:
+                futures = [pool.submit(self._process_team, team, season, entity_label, all_players)
+                           for team in teams]
+                for fut in as_completed(futures):
+                    fut.result()  # _process_team never raises; surfaces nothing
+        else:
+            for team in teams:
+                self._process_team(team, season, entity_label, all_players)
 
         return all_players
+
+    def _process_team(self, team: Dict, season: str, entity_label: str, all_players: List[Player]) -> List[Player]:
+        """Per-team scraping, outcome recording, and sidecar bookkeeping.
+
+        The body of the former scrape_multiple_teams loop, verbatim. Never
+        raises: scrape failures and parse errors are recorded and swallowed.
+        """
+        try:
+            players = self.scrape_team_roster(team, season)
+            all_players.extend(players)
+
+            # Check for year verification failure first
+            year_check_failed = not self._verify_team_season(team, season)
+
+            if year_check_failed:
+                self.failed_year_check_teams.append({
+                    'team_id': team['ncaa_id'],
+                    'team_name': team['team'],
+                    'url': team['url']
+                })
+                logger.warning(f"Year verification failed for {team['team']} (ID: {team['ncaa_id']})")
+
+            # Only add to zero players if year check passed but no players found
+            if len(players) == 0:
+                if not year_check_failed:
+                    self.zero_player_teams.append({
+                        'team_id': team['ncaa_id'],
+                        'team_name': team['team']
+                    })
+                    logger.warning(f"No {entity_label} scraped from {team['team']} (ID: {team['ncaa_id']})")
+                    self._record_outcome(TeamOutcome(team['ncaa_id'], team['team'], 0, 'zero', None))
+                else:
+                    logger.info(f"No {entity_label} scraped from {team['team']} but year check failed - not counting as zero {entity_label}")
+                    self._record_outcome(TeamOutcome(team['ncaa_id'], team['team'], 0, 'failed_verification', None))
+            else:
+                logger.info(f"Scraped {len(players)} {entity_label} from {team['team']}")
+                status = 'failed_verification' if year_check_failed else 'ok'
+                self._record_outcome(TeamOutcome(team['ncaa_id'], team['team'], len(players), status, None))
+
+            return players
+
+        except Exception as e:
+            logger.error(f"Failed to scrape {team['team']}: {e}")
+            # Only add to zero players, not year check failures
+            self.zero_player_teams.append({
+                'team_id': team['ncaa_id'],
+                'team_name': team['team']
+            })
+            self._record_outcome(TeamOutcome(team['ncaa_id'], team['team'], 0, 'error', str(e)))
+            return []
 
     def _record_outcome(self, outcome: TeamOutcome):
         """Record a per-team result and notify the on_team hook (additive)."""
@@ -184,8 +221,13 @@ class RosterManager:
             # Get the team's config to use the correct URL format
             config = TeamConfig.get_config(team['ncaa_id'])
             url_format = config.get('url_format', 'default') if config else 'default'
-            
+
             url = URLBuilder.build_url(team['url'], season, url_format, entity_type=self.entity_type)
+
+            # Skip the refetch when this URL was already verified True this run
+            if self._verified_urls.get(url):
+                return True
+
             html, status = self.fetch_html(url, return_status=True)
             
             # If 404 and using default format, try season_first as fallback
@@ -218,9 +260,10 @@ class RosterManager:
                 
             # Only verify season for Sidearm sites
             if SeasonVerifier.is_sidearm_site(html):
-                return SeasonVerifier.verify_season_on_page(html, season, entity_type=self.entity_type, team_id=team['ncaa_id'])
-            
-            return True  # Assume OK for non-Sidearm sites
+                result = SeasonVerifier.verify_season_on_page(html, season, entity_type=self.entity_type, team_id=team['ncaa_id'])
+                return self._cache_verified_url(url) if result else result
+
+            return self._cache_verified_url(url)  # Assume OK for non-Sidearm sites
         except Exception as e:
             logger.warning(f"Failed to verify season for {team['team']} with format {url_format}: {e}")
             return False

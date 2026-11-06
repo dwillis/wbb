@@ -42,13 +42,20 @@ def _fmt_path(p) -> str:
 
 
 class _Progress:
-    """Per-team progress on stderr: ephemeral 'ok' lines, persistent failure lines."""
+    """Per-team progress on stderr: ephemeral 'ok' lines, persistent failure lines.
+
+    Thread-safe: outcomes can arrive from parallel workers, so the counter
+    increment and the stderr write happen under one lock (each line emitted
+    atomically).
+    """
 
     def __init__(self, total: int, entity_label: str):
+        import threading
         self.total = total
         self.entity_label = entity_label
         self.count = 0
         self.enabled = sys.stderr.isatty()
+        self._lock = threading.Lock()
 
     def _line(self, outcome) -> str:
         return f"[{outcome.n_players:3d} {self.entity_label}] {outcome.team} ({outcome.team_id})"
@@ -56,20 +63,21 @@ class _Progress:
     def __call__(self, outcome):
         if not self.enabled:
             return
-        self.count += 1
-        if outcome.status == 'ok':
-            sys.stderr.write(f"\r[{self.count:5d}/{self.total}] {self._line(outcome)}   ")
-            sys.stderr.flush()
-        else:
-            if self.count > 1:
-                sys.stderr.write("\n")
-            detail = {
-                'zero': f"no {self.entity_label} found",
-                'failed_verification': "failed season check",
-                'error': f"ERROR: {outcome.error}",
-            }.get(outcome.status, outcome.status)
-            sys.stderr.write(f"[{self.count:5d}/{self.total}] {outcome.team} ({outcome.team_id}) — {detail}\n")
-            sys.stderr.flush()
+        with self._lock:
+            self.count += 1
+            if outcome.status == 'ok':
+                sys.stderr.write(f"\r[{self.count:5d}/{self.total}] {self._line(outcome)}   ")
+                sys.stderr.flush()
+            else:
+                if self.count > 1:
+                    sys.stderr.write("\n")
+                detail = {
+                    'zero': f"no {self.entity_label} found",
+                    'failed_verification': "failed season check",
+                    'error': f"ERROR: {outcome.error}",
+                }.get(outcome.status, outcome.status)
+                sys.stderr.write(f"[{self.count:5d}/{self.total}] {outcome.team} ({outcome.team_id}) — {detail}\n")
+                sys.stderr.flush()
 
     def finish(self):
         if self.enabled and self.count:
@@ -186,7 +194,7 @@ def cmd_scrape(args) -> int:
         progress = _Progress(len(manager.get_teams(team_ids)),
                              ENTITY_CONFIGS[entity_type]['entity_label'])
         manager.on_team = progress
-        players = manager.scrape_multiple_teams(args.season, team_ids)
+        players = manager.scrape_multiple_teams(args.season, team_ids, workers=args.workers)
         progress.finish()
         manager.last_scraped = players
         managers.append(manager)
@@ -486,6 +494,10 @@ def build_parser() -> argparse.ArgumentParser:
                           default='player', help='Entity to scrape (default: player)')
     p_scrape.add_argument('--use-playwright', action='store_true',
                           help='Use Playwright instead of shot-scraper for JS teams')
+    p_scrape.add_argument('--workers', type=int, default=4, metavar='N',
+                          help='Scrape N teams concurrently (default: 4; use 1 for the '
+                               'old sequential behavior). Each JavaScript-registry team '
+                               'runs its own browser, so high values multiply RAM use.')
     p_scrape.add_argument('--teams-file', default=None, help='Path to teams.json (default: ncaa/teams/teams.json)')
     p_scrape.set_defaults(func=cmd_scrape)
 
