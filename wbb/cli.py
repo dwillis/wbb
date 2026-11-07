@@ -191,10 +191,11 @@ def cmd_scrape(args) -> int:
             logger.info(f"=== Scraping {ENTITY_CONFIGS[entity_type]['entity_label']} ===")
         manager = RosterManager(entity_type=entity_type, use_playwright=args.use_playwright,
                                 teams_file=args.teams_file)
-        progress = _Progress(len(manager.get_teams(team_ids)),
+        progress = _Progress(len(manager.get_teams(team_ids, division=args.division)),
                              ENTITY_CONFIGS[entity_type]['entity_label'])
         manager.on_team = progress
-        players = manager.scrape_multiple_teams(args.season, team_ids, workers=args.workers)
+        players = manager.scrape_multiple_teams(args.season, team_ids, workers=args.workers,
+                                                division=args.division)
         progress.finish()
         manager.last_scraped = players
         managers.append(manager)
@@ -492,6 +493,9 @@ def build_parser() -> argparse.ArgumentParser:
     p_scrape.add_argument('-url', help='Base URL for single team scraping')
     p_scrape.add_argument('-entity', '--entity-type', choices=['player', 'coach', 'all'],
                           default='player', help='Entity to scrape (default: player)')
+    p_scrape.add_argument('--division', choices=['I', 'II', 'III'],
+                          help='Limit the run to teams in this division '
+                               '(multiple-teams mode; ignored with -url)')
     p_scrape.add_argument('--use-playwright', action='store_true',
                           help='Use Playwright instead of shot-scraper for JS teams')
     p_scrape.add_argument('--workers', type=int, default=4, metavar='N',

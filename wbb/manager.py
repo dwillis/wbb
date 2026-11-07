@@ -59,13 +59,16 @@ class RosterManager:
             logger.error(f"Teams file not found: {self.teams_file}")
             return []
 
-    def get_teams(self, team_ids: Optional[List[int]] = None) -> List[Dict]:
+    def get_teams(self, team_ids: Optional[List[int]] = None,
+                  division: Optional[str] = None) -> List[Dict]:
         """Get teams to scrape"""
         teams_with_urls = [t for t in self.teams_data if "url" in t]
-        
+
         if team_ids:
             teams_with_urls = [t for t in teams_with_urls if t['ncaa_id'] in team_ids]
-        
+        if division:
+            teams_with_urls = [t for t in teams_with_urls if t.get('division') == division]
+
         return teams_with_urls
 
     def scrape_team_roster(self, team: Dict, season: str) -> List[Player]:
@@ -121,7 +124,8 @@ class RosterManager:
         return []
 
     def scrape_multiple_teams(self, season: str, team_ids: Optional[List[int]] = None,
-                              workers: int = 1) -> List[Player]:
+                              workers: int = 1,
+                              division: Optional[str] = None) -> List[Player]:
         """Scrape rosters for multiple teams
 
         workers > 1 and multiple teams: scrape teams concurrently. Safe because
@@ -129,7 +133,7 @@ class RosterManager:
         Session, and BS4 soup per team — and the only shared state is list
         appends (atomic under the GIL) and the on_team progress callback.
         """
-        teams = self.get_teams(team_ids)
+        teams = self.get_teams(team_ids, division=division)
         all_players: List[Player] = []
         entity_label = ENTITY_CONFIGS[self.entity_type]['entity_label']
 

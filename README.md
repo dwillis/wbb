@@ -17,12 +17,21 @@ uv run wbb scrape -s 2025-26
 # Also write to SQLite (opt-in, ncaa/rosters/rosters.db)
 uv run wbb scrape -s 2025-26 -teams 47 433 --db
 
+# Limit a scrape to one division
+uv run wbb scrape -s 2025-26 --division III
+
 # Read the database back out
 uv run wbb export -s 2025-26
 uv run wbb query "SELECT team, count(*) n FROM rosters WHERE season='2025-26' GROUP BY team ORDER BY n DESC"
 
 # Inspect the scraper configuration for any team set (no network)
 uv run wbb list-teams --type javascript
+
+# Download game box score / play-by-play JSON (to ../wbb-game-data)
+uv run wbb games -s 2026-27 -teams 392 539 --skip-existing
+
+# Fetch coach bio page text to JSON
+uv run wbb bios -s 2025-26 --skip-existing
 
 # Analyze coaching data
 cd ncaa/coaches
@@ -177,7 +186,7 @@ llm keys set openai
 
 ### NCAA Roster Scraping (`wbb` CLI)
 
-The roster scraper is a standalone CLI (installed by `uv sync`, entry point `wbb = "wbb.cli:main"`). **CSV is the primary output** — scraped data goes to files, human-readable progress and the end-of-run summary go to stderr, and `query`/`list-teams` results go to stdout. SQLite is opt-in via `--db`.
+The roster scraper is a standalone CLI (installed by `uv sync`, entry point `wbb = "wbb.cli:main"`) with subcommands `scrape | export | query | list-teams | games | bios`. **CSV is the primary output** — scraped data goes to files, human-readable progress and the end-of-run summary go to stderr, and `query`/`list-teams` results go to stdout. SQLite is opt-in via `--db`.
 
 ```bash
 # Scrape every team for a season (live progress counter + summary)
@@ -185,6 +194,9 @@ uv run wbb scrape -s 2025-26
 
 # Scrape specific teams
 uv run wbb scrape -s 2025-26 -teams 47 433 202
+
+# Limit a run to one division (combinable with -teams; ignored with -url)
+uv run wbb scrape -s 2025-26 --division III
 
 # Scrape one team with a custom URL (bypasses teams.json)
 uv run wbb scrape -s 2025-26 -team 193 -url https://goduke.com
@@ -209,7 +221,7 @@ uv run wbb list-teams --type javascript
 uv run wbb list-teams --division III --format json
 ```
 
-Other flags: `--quiet` (suppress progress, keep the summary), `--verbose` (DEBUG logging), `--out-dir DIR`, `--teams-file PATH`.
+Other flags: `--division {I,II,III}` (roster runs), `--workers N` (concurrent team scraping; default 4 — each JavaScript-registry team runs its own browser, so high values multiply RAM use), `--quiet` (suppress progress, keep the summary), `--verbose` (DEBUG logging), `--out-dir DIR`, `--teams-file PATH`.
 
 **Exit codes:** `0` = at least one row scraped · `1` = zero rows (including unknown team ids) · `2` = usage error.
 
@@ -221,6 +233,34 @@ Other flags: `--quiet` (suppress progress, keep the summary), `--verbose` (DEBUG
 **SQLite notes:** tables `rosters` and `coaches`, keyed on `(team_id, season, name)` with a `scraped_at` timestamp. Refreshes are *replace-per-scope*: re-scraping a team replaces exactly that team's rows for the season — departed players drop out, and teams that return zero rows are skipped so a transient failure can't delete good data. A pre-2026 legacy `rosters` table is auto-renamed to `rosters_legacy` on first open; its historical rows are preserved.
 
 Note: multi-team runs rewrite the season CSV, so a small `-teams` run will overwrite a full-season file you may want to keep — use `-output` to redirect when in doubt.
+
+### Game Downloads (`wbb games`)
+
+Downloads game box score and play-by-play JSON for Sidearm and WMT sites (see `wbb/games.py`). This path uses a Playwright browser for discovery; game JSON lands outside the repo at `<data_dir>/<team-slug>/<season>/<game_id>.json`. Note: scraping should be run from inside the repo (the `shot-scraper` subprocess coupling).
+
+```bash
+# One division for a season, skipping games already on disk
+uv run wbb games -s 2026-27 --division I --skip-existing
+
+# Specific teams; --headed shows the Playwright browser window
+uv run wbb games -s 2026-27 -teams 392 539 --skip-existing --headed
+```
+
+Output directory: `../wbb-game-data` by default; override with `--data-dir DIR` or `$WBB_GAME_DATA_DIR`. `--workers N` (default 6) controls parallel discovery/fetches. Exit codes follow the same 0/1/2 convention (0 = at least one game saved).
+
+### Coach Bios (`wbb bios`)
+
+Fetches coach bio page text for rows in a coach roster CSV and writes them to JSON (wraps `ncaa/coaches/fetch_coach_bios.py`; requires the `newspaper4k` article class).
+
+```bash
+# All 2025-26 rows in the default input (ncaa/coaches/coaches.csv)
+uv run wbb bios -s 2025-26 --skip-existing
+
+# Only specific coaches or teams
+uv run wbb bios --names "Brenda Frese" --teams 193
+```
+
+Output: `coach_bios.json` next to the input CSV (`--output` overrides). With `--skip-existing`, already-fetched URLs are skipped and new results are merged into the existing JSON. Filters: `--season`, `--teams`, `--names`, `--limit N`, plus `--demo` (five rows) and `--shuffle` for test runs.
 
 ### Coach Data Analysis
 ```bash
@@ -271,9 +311,11 @@ python scrape_boxscore.py --mode event-games \
 ## Key Scripts
 
 ### wbb CLI (roster scraping)
-- `wbb scrape` - Main scraping subcommand (CSV primary; `--db` for SQLite; `-entity player|coach|all`)
+- `wbb scrape` - Main scraping subcommand (CSV primary; `--db` for SQLite; `-entity player|coach|all`; `--division {I,II,III}`; `--workers N`)
 - `wbb export` / `wbb query` - Read a scraped season back out of the DB
 - `wbb list-teams` - Scraper configuration map for all 1,097 teams (no network)
+- `wbb games` - Game box score/play-by-play JSON downloads (Sidearm + WMT, Playwright discovery; see `wbb/games.py`)
+- `wbb bios` - Coach bio page text from a coach roster CSV to JSON (see `wbb/bios.py`)
 - `wbb/models.py`, `wbb/parsing.py`, `wbb/templates.py`, `wbb/config.py` - scraper core (Player model, field extractors, live-site JS templates, 1,097 per-team configs), moved verbatim from the old 3,858-line `ncaa/rosters/rosters.py`
 - `wbb/scrapers.py`, `wbb/manager.py` - the five scrapers (standard, table, javascript, vue_data, requests_html) plus orchestration
 - `wbb/csvio.py`, `wbb/db.py` - CSV writers and sqlite-utils persistence (legacy migration, replace-per-scope refresh)

@@ -99,6 +99,25 @@ def test_outcome_player_counts(monkeypatch, tmp_path, fake_teams, canned_players
     assert by_id[9002].n_players == 0 and by_id[9002].status == 'zero'
 
 
+def test_get_teams_division_filter(tmp_path):
+    teams = [
+        {'team': 'D1 U', 'url': 'https://d1.example/sports/wbb', 'ncaa_id': 9101, 'division': 'I'},
+        {'team': 'D2 U', 'url': 'https://d2.example/sports/wbb', 'ncaa_id': 9102, 'division': 'II'},
+        {'team': 'No Div U', 'url': 'https://nd.example/sports/wbb', 'ncaa_id': 9103},
+    ]
+    teams_file = tmp_path / 'teams.json'
+    teams_file.write_text(json.dumps(teams))
+
+    m = RosterManager(teams_file=str(teams_file), entity_type='player')
+    assert [t['ncaa_id'] for t in m.get_teams(division='I')] == [9101]
+    assert [t['ncaa_id'] for t in m.get_teams(division='II')] == [9102]
+    assert [t['ncaa_id'] for t in m.get_teams(division='III')] == []
+    # no division arg -> unchanged behavior (all teams with a url)
+    assert {t['ncaa_id'] for t in m.get_teams()} == {9101, 9102, 9103}
+    # team_ids and division intersect
+    assert [t['ncaa_id'] for t in m.get_teams([9101, 9102], division='II')] == [9102]
+
+
 def test_save_to_csv_delegates(tmp_path, canned_players):
     m = RosterManager.__new__(RosterManager)  # skip teams.json load
     m.entity_type = 'player'

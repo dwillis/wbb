@@ -45,6 +45,14 @@ def test_scrape_flags_parity():
     assert args.quiet is True and args.verbose is True
 
 
+def test_scrape_division_flag():
+    args = _parse(['scrape', '-s', '2025-26', '--division', 'III'])
+    assert args.division == 'III'
+    assert _parse(['scrape', '-s', '2025-26']).division is None  # default: no filter
+    with pytest.raises(SystemExit):
+        _parse(['scrape', '-s', '2025-26', '--division', 'IV'])  # invalid choice
+
+
 def test_query_write_guard_rejects_non_select():
     args = _parse(['query', 'DELETE FROM rosters'])
     assert args.sql.strip().startswith('DELETE')
