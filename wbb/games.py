@@ -32,10 +32,11 @@ logger = logging.getLogger(__name__)
 GAME_DATA_DIR = REPO_ROOT.parent / "wbb-game-data"
 
 # Teams whose games come from WMT (other_pbp.pbp_for_season's default list).
-WMT_TEAMS = {31, 147, 234, 255, 312, 334, 365, 428, 463, 513, 523, 539, 328, 473, 626,
+# 234 (Florida St) was removed: seminoles.com migrated from WMT to Sidearm.
+WMT_TEAMS = {31, 147, 255, 312, 334, 365, 428, 463, 513, 523, 539, 328, 473, 626,
              674, 736, 742, 519, 746, 415, 648, 697}
 # WMT teams whose schedule page needs browser headers and any /boxscore/ link.
-WMT_DIRECT_TEAMS = {539, 463, 365, 77, 127, 234, 742, 312, 559}
+WMT_DIRECT_TEAMS = {539, 463, 365, 77, 127, 742, 312, 559}
 WMT_HOST_OVERRIDES = {463: "https://huskers.com"}  # Nebraska
 
 HEADERS = {'User-agent': 'Mozilla/5.0'}
@@ -127,25 +128,51 @@ def fetch_game_json(domain, game_id):
         return None
 
 
-def wmt_boxscore_links(team, season):
-    """Boxscore page URLs from a WMT team's schedule page."""
-    team_id = int(team['ncaa_id'])
-    host = team['url'].split('/sports/')[0]
-    url = f"{team['url']}/schedule/season/{season}/"
-    if team_id in WMT_DIRECT_TEAMS:
-        r = requests.get(url, headers=BROWSER_HEADERS, timeout=30)
-        if r.status_code != 200:
-            raise RuntimeError(f"schedule page returned {r.status_code}")
-        soup = BeautifulSoup(r.text, "html.parser")
+def _schedule_links(html, host, team_id, direct):
+    """Boxscore page URLs from one schedule page's HTML."""
+    if direct:
         host = WMT_HOST_OVERRIDES.get(team_id, host)
-        links = [host + a['href'] for a in soup.find_all('a', href=True) if '/boxscore/' in a['href']]
-    else:
-        r = requests.get(url, timeout=30)
-        soup = BeautifulSoup(r.text, "html.parser")
-        links = [host + a['href'] for a in soup.find_all('a', class_='schedule-event-link--boxscore')]
-        if not links:
-            # Newer schedule markup drops the class (e.g. New Mexico); take any boxscore link.
-            links = [host + a['href'] for a in soup.find_all('a', href=True) if '/boxscore/' in a['href']]
+        return [host + a['href'] for a in html.find_all('a', href=True) if '/boxscore/' in a['href']]
+    links = [host + a['href'] for a in html.find_all('a', class_='schedule-event-link--boxscore')]
+    if not links:
+        # Newer schedule markup drops the class (e.g. New Mexico); take any boxscore link.
+        links = [host + a['href'] for a in html.find_all('a', href=True) if '/boxscore/' in a['href']]
+    return links
+
+
+def wmt_boxscore_links(team, season):
+    """Boxscore page URLs from a WMT team's schedule page.
+
+    Tries the /schedule/season/ URL first; some Sidearm sites (e.g. Florida
+    State) 404 it and only serve the older /schedule/YYYY-YY?path=wbball layout,
+    so that is the fallback whenever the first URL fails or lists no links.
+    """
+    team_id = int(team['ncaa_id'])
+    base = team['url']
+    host = base.split('/sports/')[0]
+    direct = team_id in WMT_DIRECT_TEAMS
+    fetched = False
+    last_status = ''
+    links = []
+    for url in (f"{base}/schedule/season/{season}/", f"{base}/schedule/{season}?path=wbball"):
+        headers = BROWSER_HEADERS if direct else None
+        try:
+            r = requests.get(url, headers=headers, timeout=30)
+        except requests.RequestException as e:
+            logger.debug(f"schedule page failed for {team['team']}: {url}: {e}")
+            last_status = type(e).__name__
+            continue
+        fetched = fetched or r.status_code == 200
+        if r.status_code != 200:
+            logger.debug(f"schedule page returned {r.status_code} for {team['team']}: {url}")
+            last_status = r.status_code
+            continue
+        page_links = _schedule_links(BeautifulSoup(r.text, "html.parser"), host, team_id, direct)
+        links = page_links or links
+        if page_links:
+            break
+    if not fetched:
+        raise RuntimeError(f"schedule page returned {last_status}")
     return _dedupe(links)
 
 
