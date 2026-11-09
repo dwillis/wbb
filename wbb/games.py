@@ -6,9 +6,11 @@ wbb-game-data layout):
 - Sidearm sites, ported from ncaa/games/game_utils.py (fetch_game_stats):
   game ids from the static stats page, falling back to the Playwright stats
   page's Game-By-Game tab; JSON from the site's /api/livestats endpoint.
-- WMT sites (WMT_TEAMS), ported from ncaa/games/other_pbp.py: boxscore links
-  from the schedule page, each boxscore page yields a WMT game id; JSON from
-  api.wmt.games.
+- WMT sites (WMT_TEAMS), ported from ncaa/games/other_pbp.py: preferred path
+  is wmt.games (partner-school stats index + api/statistics endpoints; covers
+  Arkansas, whose own schedule page no longer exposes boxscore links, plus
+  past seasons); fallback is boxscore links from the team's schedule page,
+  each boxscore page yields a WMT game id; JSON from api.wmt.games.
 
 Both drop the original hardcoded paths and os.chdir calls.
 """
@@ -18,6 +20,7 @@ import logging
 import os
 import re
 from dataclasses import dataclass, field
+from datetime import date as _date, datetime, timezone
 from pathlib import Path
 from typing import Callable, List, Optional, Tuple
 from urllib.parse import urlparse
@@ -38,6 +41,14 @@ WMT_TEAMS = {31, 147, 255, 312, 334, 365, 428, 463, 513, 523, 539, 328, 473, 626
 # WMT teams whose schedule page needs browser headers and any /boxscore/ link.
 WMT_DIRECT_TEAMS = {539, 463, 365, 77, 127, 742, 312, 559}
 WMT_HOST_OVERRIDES = {463: "https://huskers.com"}  # Nebraska
+# Teams whose only boxscore links live on the season-less bare schedule page
+# (e.g. clemsontigers.com no longer serves /schedule/season/ or ?path= URLs).
+# That page always shows the current season, so it is only used for it.
+WMT_BARE_SCHEDULE_TEAMS = {147}
+
+WMT_STATS_SITE = "https://wmt.games"
+WMT_SCHOOLS_API = "https://wmt.games/api/schools"
+WMT_TEAMS_API = "https://wmt.games/api/statistics/teams"
 
 HEADERS = {'User-agent': 'Mozilla/5.0'}
 BROWSER_HEADERS = {
@@ -140,21 +151,110 @@ def _schedule_links(html, host, team_id, direct):
     return links
 
 
-def wmt_boxscore_links(team, season):
-    """Boxscore page URLs from a WMT team's schedule page.
+def current_academic_season(today=None):
+    """The calendar date's season, 'YYYY-YY' (the season spans July-June)."""
+    d = today or _date.today()
+    start = d.year if d.month >= 7 else d.year - 1
+    return f"{start}-{(start + 1) % 100:02d}"
 
-    Tries the /schedule/season/ URL first; some Sidearm sites (e.g. Florida
-    State) 404 it and only serve the older /schedule/YYYY-YY?path=wbball layout,
-    so that is the fallback whenever the first URL fails or lists no links.
+
+_wmt_school_domain_cache: Optional[dict] = None
+
+
+def wmt_school_domains():
+    """ncaa_school_id -> wmt.games stats domain for partner schools (cached)."""
+    global _wmt_school_domain_cache
+    if _wmt_school_domain_cache is None:
+        try:
+            r = requests.get(WMT_SCHOOLS_API, headers=HEADERS, timeout=30)
+            data = r.json().get('data') or []
+        except (requests.RequestException, ValueError, AttributeError) as e:
+            logger.debug(f"wmt.games schools index failed: {e}")
+            data = []
+        _wmt_school_domain_cache = {int(s['ncaa_school_id']): s['domain']
+                                    for s in data
+                                    if s.get('ncaa_school_id') and s.get('domain')}
+    return _wmt_school_domain_cache
+
+
+def wmt_api_match_links(team, season):
+    """Match-page URLs from wmt.games for a partner school, or [] if not covered.
+
+    wmt.games is server-rendered: the school's /stats page links one
+    /stats/season/<team_id> URL per sport (the current season by default, any
+    later one via ?year=<end year>), and /api/statistics/teams/<team_id>/games
+    lists that season's games with their ids. URLs already carry the WMT game
+    id (wmt_game_id reads it straight out), and covers both Arkansas — whose
+    own schedule page no longer exposes boxscore links — and past seasons.
+    """
+    team_id = int(team['ncaa_id'])
+    domain = wmt_school_domains().get(team_id)
+    if not domain:
+        return []
+    year = int(season[:4]) + 1
+    r = requests.get(f"{WMT_STATS_SITE}/{domain}/stats", params={'year': year},
+                     headers=HEADERS, timeout=30)
+    r.raise_for_status()
+    wbb_team_id = None
+    for a in BeautifulSoup(r.text, "html.parser").find_all('a', href=True):
+        m = re.match(rf"/{re.escape(domain)}/stats/season/(\d+)", a['href'])
+        if not m:
+            continue
+        label = a.get_text(strip=True)
+        if 'basketball' in label.lower() and 'women' in label.lower():
+            wbb_team_id = int(m.group(1))
+            break
+    if not wbb_team_id:
+        logger.debug(f"no women's basketball team on wmt.games for {team['team']} {season}")
+        return []
+    r = requests.get(f"{WMT_TEAMS_API}/{wbb_team_id}/games", params={'per_page': 500},
+                     headers=HEADERS, timeout=60)
+    r.raise_for_status()
+    games = (r.json() or {}).get('data') or []
+    now = datetime.now(timezone.utc)
+    links = []
+    for g in games:
+        if g.get('canceled') or g.get('postponed') or g.get('season_academic_year') != year:
+            continue  # unscorable and wrong-season games can never yield JSON
+        try:
+            gd = datetime.fromisoformat(str((g.get('game_date_utc') or g.get('game_date'))).replace('Z', '+00:00'))
+            if gd > now:
+                continue  # future game: no data yet; a later run will rediscover it
+        except (ValueError, TypeError):
+            logger.debug(f"wmt.games game {g.get('id')} has no parseable date")
+        links.append(f"{WMT_STATS_SITE}/{domain}/stats/match/full/{g['id']}")
+    return links
+
+
+def wmt_boxscore_links(team, season):
+    """Boxscore page URLs for a WMT team's season.
+
+    The wmt.games API path (wmt_api_match_links) is preferred — it covers most
+    WMT teams, all seasons, and schools whose own schedule page stopped
+    exposing boxscore links. Falls back to the team's schedule page for anyone
+    else: tries the /schedule/season/ URL first; some Sidearm sites (e.g.
+    Florida State) 404 it and only serve the older /schedule/YYYY-YY?path=wbball
+    layout, so that is the fallback whenever the first URL fails or lists no
+    links. A bare /schedule page is the last resort (bare pages cannot be
+    season-parameterized, so only the current season uses one).
     """
     team_id = int(team['ncaa_id'])
     base = team['url']
     host = base.split('/sports/')[0]
+    try:
+        links = wmt_api_match_links(team, season)
+        if links:
+            return _dedupe(links)
+    except requests.RequestException as e:
+        logger.debug(f"wmt.games api discovery failed for {team['team']}: {e}")
     direct = team_id in WMT_DIRECT_TEAMS
     fetched = False
     last_status = ''
     links = []
-    for url in (f"{base}/schedule/season/{season}/", f"{base}/schedule/{season}?path=wbball"):
+    urls = [f"{base}/schedule/season/{season}/", f"{base}/schedule/{season}?path=wbball"]
+    if team_id in WMT_BARE_SCHEDULE_TEAMS and season == current_academic_season():
+        urls.append(f"{base}/schedule")
+    for url in urls:
         headers = BROWSER_HEADERS if direct else None
         try:
             r = requests.get(url, headers=headers, timeout=30)
@@ -178,6 +278,10 @@ def wmt_boxscore_links(team, season):
 
 def wmt_game_id(boxscore_url):
     """WMT game id from a boxscore page (anchor to wmt.games, else embedded JS), or None."""
+    # wmt.games match URLs (/stats/match/full/<id>) already carry the game id.
+    m = re.search(r'/stats/match/(?:full/)?(\d+)', boxscore_url)
+    if m:
+        return m.group(1)
     r = requests.get(boxscore_url, headers=BROWSER_HEADERS, timeout=30)
     soup = BeautifulSoup(r.text, "html.parser")
     tag = [a for a in soup.find_all("a", href=True)
