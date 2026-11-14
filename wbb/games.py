@@ -151,6 +151,34 @@ def _schedule_links(html, host, team_id, direct):
     return links
 
 
+def _schedule_game_ids(base_url, season):
+    """Game ids from a Sidearm season schedule page's boxscore links (requests-only).
+
+    Only links whose own href carries the season are trusted: on sites that
+    ignore the season parameter the page still leaks the current schedule's
+    bare boxscore links (SEMO, Kansas), whose ids belong to the wrong season.
+    """
+    for url in (f"{base_url}/schedule/season/{season}/",
+                f"{base_url}/schedule/{season}?path=wbball"):
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=30)
+        except requests.RequestException:
+            continue
+        if r.status_code != 200:
+            continue
+        ids = []
+        for a in BeautifulSoup(r.text, "html.parser").find_all('a', href=True):
+            href = a['href']
+            if 'boxscore' not in href or season not in href:
+                continue
+            tail = href.rstrip("/").split("/")[-1]
+            if tail.isdigit():
+                ids.append(tail)
+        if ids:
+            return ids
+    return []
+
+
 def current_academic_season(today=None):
     """The calendar date's season, 'YYYY-YY' (the season spans July-June)."""
     d = today or _date.today()
@@ -373,23 +401,49 @@ class GameScraper:
         return _dedupe(ids), 'playwright'
 
     def _requests_discovery(self, team, season):
-        """Phase 1 discovery: requests only. Raises _NeedsBrowser for the Playwright path."""
-        if int(team['ncaa_id']) in WMT_TEAMS:
-            return _dedupe(wmt_boxscore_links(team, season)), 'wmt'
+        """Phase 1 discovery: requests only. Raises _NeedsBrowser for the Playwright path.
+
+        wmt.games coverage is driven by the live schools index (cached), which
+        has grown past the hardcoded WMT_TEAMS set — schools it covers but the
+        set predates (e.g. UCF, Auburn) go straight to the match-list API, and
+        a team the index has dropped (e.g. Kansas) falls through to Sidearm
+        livestats instead of fetching schedule-page links that no longer
+        resolve to wmt matches."""
+        team_id = int(team['ncaa_id'])
+        try:
+            wmt_domain = wmt_school_domains().get(team_id)
+        except Exception as e:
+            logger.debug(f"wmt.games schools index unavailable for discovery: {e}")
+            wmt_domain = None
+        try:
+            if wmt_domain:
+                refs = (wmt_boxscore_links(team, season) if team_id in WMT_TEAMS
+                        else wmt_api_match_links(team, season))
+                if refs:
+                    return _dedupe(refs), 'wmt'
+        except requests.RequestException as e:
+            logger.debug(f"wmt.games discovery for {team['team']} {season}: {e}")
         try:
             ids = fetch_game_ids_static(team['url'], season)
         except requests.RequestException as e:
             logger.debug(f"request discovery for {team['team']}: {e} -> trying browser")
             raise _NeedsBrowser(team['team']) from e
-        if not ids:
-            raise _NeedsBrowser(team['team'])
-        return _dedupe(ids), 'static'
+        if ids:
+            return _dedupe(ids), 'static'
+        refs = _schedule_game_ids(team['url'], season)
+        if refs:
+            return _dedupe(refs), 'static'
+        raise _NeedsBrowser(team['team'])
 
-    def _fetch_one(self, team, season, ref, out_dir, domain) -> Tuple[str, Optional[Path]]:
-        """One game's JSON fetch: returns ('saved'|'skipped'|'failed', path)."""
-        is_wmt = int(team['ncaa_id']) in WMT_TEAMS
+    def _fetch_one(self, team, season, ref, out_dir, domain,
+                   method='static') -> Tuple[str, Optional[Path]]:
+        """One game's JSON fetch: returns ('saved'|'skipped'|'failed', path).
+
+        The fetch mechanism follows the discovery method, not the team id: a
+        team that left wmt.games (Kansas) carries live ids fetchable over
+        Sidearm livestats, while its team membership in WMT_TEAMS is stale."""
         try:
-            if is_wmt:
+            if method == 'wmt':
                 game_id = wmt_game_id(ref)
                 game_json = fetch_wmt_game_json(game_id) if game_id is not None else None
             else:
@@ -440,7 +494,8 @@ class GameScraper:
                 return i, []
             out_dir = self.data_dir / slugify(teams[i]) / season
             domain = urlparse(teams[i]['url']).netloc
-            return i, [(self._fetch_one(teams[i], season, ref, out_dir, domain), ref)
+            return i, [(self._fetch_one(teams[i], season, ref, out_dir, domain,
+                                        discovered[i][1]), ref)
                        for ref in refs]
 
         def finalize(i, per):

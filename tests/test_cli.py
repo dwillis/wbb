@@ -153,6 +153,7 @@ def test_scrape_all_parallel(tmp_path, monkeypatch):
 
     monkeypatch.setattr(gm, 'fetch_game_ids_static', lambda url, season: ['101', '102', '103'])
     monkeypatch.setattr(gm, 'fetch_game_json', lambda domain, gid: {'game': gid})
+    monkeypatch.setattr(gm, 'wmt_school_domains', lambda: {})
     teams = [{'ncaa_id': 392, 'team': 'Maryland', 'url': 'https://x.example.com'},
              {'ncaa_id': 257, 'team': 'Georgia', 'url': 'https://y.example.com'}]
     seen = []
@@ -184,6 +185,7 @@ def test_scrape_all_zero_and_failed(tmp_path, monkeypatch):
     monkeypatch.setattr(gm, 'fetch_game_ids_playwright', lambda browser, url, page_type='stats': [])
     monkeypatch.setattr(gm, 'wmt_boxscore_links', lambda team, season: [f'{team["url"]}/boxscore/1'])
     monkeypatch.setattr(gm, 'wmt_game_id', lambda url: None)  # unparseable boxscore page
+    monkeypatch.setattr(gm, 'wmt_school_domains', lambda: {539: 'wmt.example.com'})
     # unified denominator: browser phase continues the requests count over all n
     disc = []
     scraper = GameScraper(data_dir=tmp_path)

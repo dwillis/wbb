@@ -839,6 +839,7 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 OUTPUT_DIR = REPO_ROOT / "ncaa" / "rosters"
+GAMES_DIR = REPO_ROOT / "ncaa" / "games"
 TEAMS_FILE = REPO_ROOT / "ncaa" / "teams" / "teams.json"
 DB_PATH = REPO_ROOT / "ncaa" / "rosters" / "rosters.db"
 

@@ -1,7 +1,8 @@
 """wbb command-line interface.
 
 Subcommands: scrape (full parity with the old rosters.py main()), export,
-query, list-teams, games (game JSON downloads; see wbb/games.py), bios
+query, list-teams, games (game JSON downloads; see wbb/games.py), logs (game
+log CSVs from the wbb-game-data archive; see wbb/logs.py), bios
 (coach bio text fetching; see wbb/bios.py). All human
 status goes to stderr; query/list-teams results
 and the single-team JSON dump go to stdout; CSVs go to files.
@@ -18,7 +19,8 @@ from pathlib import Path
 from sqlite_utils import Database
 
 from wbb import __version__, bios as wbb_bios, csvio, db as wbb_db, games as wbb_games
-from wbb.config import DB_PATH, ENTITY_CONFIGS, TeamConfig, TEAMS_FILE, resolve_output_dir
+from wbb import logs as wbb_logs
+from wbb.config import DB_PATH, ENTITY_CONFIGS, GAMES_DIR, TeamConfig, TEAMS_FILE, resolve_output_dir
 from wbb.manager import RosterManager, TeamOutcome
 
 logger = logging.getLogger(__name__)
@@ -469,11 +471,44 @@ def cmd_bios(args) -> int:
     return 0 if counts['fetched'] >= 1 else 1
 
 
+def cmd_logs(args) -> int:
+    division = args.division.upper()
+    start = time.monotonic()
+    try:
+        rows, info = wbb_logs.build_game_logs(args.season, division,
+                                              data_dir=args.data_dir)
+    except (ValueError, FileNotFoundError) as e:
+        sys.stderr.write(f"{e}\n")
+        return 2
+
+    if args.output:
+        output_file = Path(args.output)
+    else:
+        output_file = Path(args.out_dir) / wbb_logs.output_name(args.season, division)
+    wbb_logs.write_game_logs(rows, output_file)
+
+    mins, secs = divmod(int(time.monotonic() - start), 60)
+    lines = ["-" * SUMMARY_WIDTH, f"Game logs complete: {args.season} {division}",
+             f"  teams with games    {info['teams']}",
+             f"  games indexed       {info['indexed_games']:,}",
+             f"  rows written        {info['rows']:,}"]
+    if info['files_unreadable']:
+        lines.append(f"  files unreadable    {info['files_unreadable']}")
+    if info['rows_without_box_score']:
+        lines.append(f"  rows w/o box score  {info['rows_without_box_score']:,} "
+                     "(scores from the index only)")
+    lines.append(f"  elapsed             {mins}m {secs:02d}s")
+    lines.append(f"  csv                 {output_file}")
+    lines.append(f"  data dir            {info['data_dir']}")
+    sys.stderr.write("\n".join(lines) + "\n")
+    return 0 if info['rows'] >= 1 else 1
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog='wbb',
         description=f"NCAA women's basketball roster toolkit v{__version__} "
-                    "(scrape | export | query | list-teams | games | bios)")
+                    "(scrape | export | query | list-teams | games | logs | bios)")
     common = argparse.ArgumentParser(add_help=False)
     common.add_argument('--db', nargs='?', const=str(DB_PATH), default=None, metavar='PATH',
                         help='Write/read the roster database (bare --db uses ncaa/rosters/rosters.db)')
@@ -544,6 +579,23 @@ def build_parser() -> argparse.ArgumentParser:
                          help='Parallel request workers for discovery and game fetches (default: 6)')
     p_games.add_argument('--teams-file', default=None, help='Path to teams.json')
     p_games.set_defaults(func=cmd_games)
+
+    p_logs = sub.add_parser('logs',
+                            help='Build a game log CSV (wbblogs{YY}_{div}.csv) '
+                                 'from the wbb-game-data archive')
+    p_logs.add_argument('--verbose', action='store_true', help='Verbose (DEBUG) logging')
+    p_logs.add_argument('--quiet', action='store_true', help='Only warnings and the summary')
+    p_logs.add_argument('-s', '--season', required=True, help='Season (e.g., "2025-26")')
+    p_logs.add_argument('-d', '--division', required=True, choices=['I', 'II', 'III'],
+                        help='Division of the teams whose logs to build')
+    p_logs.add_argument('-output', '--out', dest='output', default=None,
+                        help='Output CSV file path (default: wbblogs{YY}_{i|ii|iii}.csv '
+                             'in the output dir)')
+    p_logs.add_argument('--out-dir', default=GAMES_DIR, metavar='DIR',
+                        help='CSV output directory (default: ncaa/games)')
+    p_logs.add_argument('--data-dir', default=None, metavar='DIR',
+                        help='Game JSON directory (default: ../wbb-game-data, $WBB_GAME_DATA_DIR)')
+    p_logs.set_defaults(func=cmd_logs)
 
     p_bios = sub.add_parser(
         'bios', help='Fetch coach bio page text from a coach roster CSV to JSON')
