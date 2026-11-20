@@ -2,7 +2,10 @@
 
 Subcommands: scrape (full parity with the old rosters.py main()), export,
 query, list-teams, games (game JSON downloads; see wbb/games.py), logs (game
-log CSVs from the wbb-game-data archive; see wbb/logs.py), bios
+log CSVs from the wbb-game-data archive; see wbb/logs.py), stats (team
+season stats CSVs from Sports-Reference, or the archive with --from-games;
+see wbb/stats.py), players
+(Sports-Reference player season stats; see wbb/players.py), bios
 (coach bio text fetching; see wbb/bios.py). All human
 status goes to stderr; query/list-teams results
 and the single-team JSON dump go to stdout; CSVs go to files.
@@ -19,7 +22,7 @@ from pathlib import Path
 from sqlite_utils import Database
 
 from wbb import __version__, bios as wbb_bios, csvio, db as wbb_db, games as wbb_games
-from wbb import logs as wbb_logs
+from wbb import logs as wbb_logs, players as wbb_players, stats as wbb_stats
 from wbb.config import DB_PATH, ENTITY_CONFIGS, GAMES_DIR, TeamConfig, TEAMS_FILE, resolve_output_dir
 from wbb.manager import RosterManager, TeamOutcome
 
@@ -504,11 +507,121 @@ def cmd_logs(args) -> int:
     return 0 if info['rows'] >= 1 else 1
 
 
+def _cmd_stats_sr(args) -> int:
+    try:
+        wbb_games.validate_season(args.season)
+    except ValueError as e:
+        sys.stderr.write(f"{e}\n")
+        return 2
+    start = time.monotonic()
+    rows, url = wbb_stats.scrape_sr_team_stats(args.season)
+    if args.output:
+        output_file = Path(args.output)
+    else:
+        output_file = Path(args.out_dir) / wbb_stats.sr_output_name(args.season)
+    if rows:
+        wbb_stats.write_team_stats(rows, output_file)
+    mins, secs = divmod(int(time.monotonic() - start), 60)
+    lines = ["-" * SUMMARY_WIDTH, f"Team stats complete: {args.season} (Sports-Reference)",
+             f"  schools written     {len(rows)}",
+             f"  elapsed             {mins}m {secs:02d}s",
+             f"  csv                 {output_file if rows else '(not written: no rows)'}",
+             f"  source              {url}"]
+    sys.stderr.write("\n".join(lines) + "\n")
+    return 0 if rows else 1
+
+
+def cmd_stats(args) -> int:
+    if not args.from_games:
+        return _cmd_stats_sr(args)
+    division = args.division.upper()
+    start = time.monotonic()
+    try:
+        rows, info = wbb_stats.build_team_stats(args.season, division,
+                                                data_dir=args.data_dir)
+    except (ValueError, FileNotFoundError) as e:
+        sys.stderr.write(f"{e}\n")
+        return 2
+
+    if args.output:
+        output_file = Path(args.output)
+    else:
+        output_file = Path(args.out_dir) / wbb_stats.output_name(args.season, division)
+    wbb_stats.write_team_stats(rows, output_file)
+
+    mins, secs = divmod(int(time.monotonic() - start), 60)
+    lines = ["-" * SUMMARY_WIDTH, f"Team stats complete: {args.season} {division}",
+             f"  division teams      {info['teams']}",
+             f"  teams with results  {info['teams_with_games']}",
+             f"  game log rows       {info['rows']:,}"]
+    if info['files_unreadable']:
+        lines.append(f"  files unreadable    {info['files_unreadable']}")
+    if info['rows_without_box_score']:
+        lines.append(f"  rows w/o box score  {info['rows_without_box_score']:,} "
+                     "(counted in records/points, not box totals)")
+    lines.append(f"  elapsed             {mins}m {secs:02d}s")
+    lines.append(f"  csv                 {output_file}")
+    lines.append(f"  data dir            {info['data_dir']}")
+    sys.stderr.write("\n".join(lines) + "\n")
+    return 0 if rows else 1
+
+
+def cmd_players(args) -> int:
+    try:
+        wbb_games.validate_season(args.season)
+    except ValueError as e:
+        sys.stderr.write(f"{e}\n")
+        return 2
+    start = time.monotonic()
+    enabled = sys.stderr.isatty()
+
+    def progress(idx, total, team, n_rows, error):
+        if error:
+            sys.stderr.write(("\n" if enabled else "")
+                             + f"[{idx:4d}/{total}] {team} — ERROR: {error}\n")
+        elif enabled:
+            sys.stderr.write(f"\r[{idx:4d}/{total}] [{n_rows:3d} players] {team:40.40}")
+        sys.stderr.flush()
+
+    try:
+        columns, rows, info = wbb_players.scrape_players(
+            args.season, schools=args.schools, limit=args.limit,
+            delay=args.delay, on_school=progress)
+    except wbb_players.RateLimited as e:
+        sys.stderr.write(f"Rate limited before any school was scraped: {e}\n")
+        return 1
+    if enabled:
+        sys.stderr.write("\n")
+
+    if args.output:
+        output_file = Path(args.output)
+    else:
+        output_file = Path(args.out_dir) / wbb_players.output_name(args.season)
+    if rows:
+        wbb_players.write_players(columns, rows, output_file)
+
+    mins, secs = divmod(int(time.monotonic() - start), 60)
+    lines = ["-" * SUMMARY_WIDTH, f"Players complete: {args.season} (Sports-Reference)",
+             f"  schools selected    {info['schools']}",
+             f"  schools with rows   {info['schools_ok']}",
+             f"  players written     {info['rows']:,}"]
+    if info['schools_empty']:
+        lines.append(f"  schools no roster   {len(info['schools_empty'])}")
+    if info['schools_failed']:
+        lines.append(f"  schools failed      {len(info['schools_failed'])}")
+    if info['rate_limited']:
+        lines.append(f"  STOPPED (429)       {info['rate_limited']}")
+    lines.append(f"  elapsed             {mins}m {secs:02d}s")
+    lines.append(f"  csv                 {output_file if rows else '(not written: no rows)'}")
+    sys.stderr.write("\n".join(lines) + "\n")
+    return 0 if rows else 1
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog='wbb',
         description=f"NCAA women's basketball roster toolkit v{__version__} "
-                    "(scrape | export | query | list-teams | games | logs | bios)")
+                    "(scrape | export | query | list-teams | games | logs | stats | players | bios)")
     common = argparse.ArgumentParser(add_help=False)
     common.add_argument('--db', nargs='?', const=str(DB_PATH), default=None, metavar='PATH',
                         help='Write/read the roster database (bare --db uses ncaa/rosters/rosters.db)')
@@ -596,6 +709,45 @@ def build_parser() -> argparse.ArgumentParser:
     p_logs.add_argument('--data-dir', default=None, metavar='DIR',
                         help='Game JSON directory (default: ../wbb-game-data, $WBB_GAME_DATA_DIR)')
     p_logs.set_defaults(func=cmd_logs)
+
+    p_stats = sub.add_parser('stats',
+                             help='Team season stats CSV (wbbstats{YY}.csv) from '
+                                  'Sports-Reference, or from the game archive with --from-games')
+    p_stats.add_argument('--verbose', action='store_true', help='Verbose (DEBUG) logging')
+    p_stats.add_argument('--quiet', action='store_true', help='Only warnings and the summary')
+    p_stats.add_argument('-s', '--season', required=True, help='Season (e.g., "2025-26")')
+    p_stats.add_argument('--from-games', action='store_true',
+                         help='Aggregate the wbb-game-data archive instead of '
+                              'scraping Sports-Reference (writes wbbstats{YY}_{i|ii|iii}.csv)')
+    p_stats.add_argument('-d', '--division', default='I', choices=['I', 'II', 'III'],
+                         help='With --from-games: division to aggregate (default: I)')
+    p_stats.add_argument('-output', '--out', dest='output', default=None,
+                         help='Output CSV file path (default: wbbstats{YY}.csv, or '
+                              'wbbstats{YY}_{i|ii|iii}.csv with --from-games, in the output dir)')
+    p_stats.add_argument('--out-dir', default=GAMES_DIR, metavar='DIR',
+                         help='CSV output directory (default: ncaa/games)')
+    p_stats.add_argument('--data-dir', default=None, metavar='DIR',
+                         help='Game JSON directory (default: ../wbb-game-data, $WBB_GAME_DATA_DIR)')
+    p_stats.set_defaults(func=cmd_stats)
+
+    p_players = sub.add_parser('players',
+                               help='Scrape Sports-Reference player season stats '
+                                    '(roster + totals + advanced) to players{YY}.csv')
+    p_players.add_argument('--verbose', action='store_true', help='Verbose (DEBUG) logging')
+    p_players.add_argument('--quiet', action='store_true', help='Only warnings and the summary')
+    p_players.add_argument('-s', '--season', required=True, help='Season (e.g., "2025-26")')
+    p_players.add_argument('--schools', nargs='*', metavar='SCHOOL',
+                           help='Only these schools (Sports-Reference slug like '
+                                'abilene-christian, or the school name)')
+    p_players.add_argument('--limit', type=int, help='Scrape only the first N schools')
+    p_players.add_argument('--delay', type=float, default=wbb_players.DEFAULT_DELAY,
+                           help='Seconds between requests (default: %(default)s; '
+                                'Sports-Reference blocks faster than ~20/minute)')
+    p_players.add_argument('-output', '--out', dest='output', default=None,
+                           help='Output CSV file path (default: players{YY}.csv in the output dir)')
+    p_players.add_argument('--out-dir', default=str(wbb_players.PLAYERS_DIR), metavar='DIR',
+                           help='CSV output directory (default: ncaa/players)')
+    p_players.set_defaults(func=cmd_players)
 
     p_bios = sub.add_parser(
         'bios', help='Fetch coach bio page text from a coach roster CSV to JSON')
