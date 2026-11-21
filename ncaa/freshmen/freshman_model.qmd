@@ -1,0 +1,57 @@
+---
+title: "Freshman breakout model — NCAA women's basketball"
+format: html
+execute:
+  echo: false
+---
+
+```{r}
+library(tidyverse)
+watchlist <- read_csv("freshman_watchlist_2026.csv", show_col_types = FALSE)
+backtest <- read_csv("backtest_results.csv", show_col_types = FALSE)
+```
+
+## What this is
+
+A ridge-regression model trained on 2017-18 through 2024-25 freshman seasons
+predicts **sophomore-season impact** (composite of next-season WS/40, BPM, and
+minutes growth, z-scored within cohort). It ranks the 2025-26 freshman class
+as a 2026-27 breakout watchlist. See `README.md` for method and caveats.
+
+## Backtest (forward-chaining, mean over folds)
+
+```{r}
+backtest |>
+  group_by(model) |>
+  summarise(spearman = mean(spearman), precision_at_20 = mean(`precision@20`),
+            auc = mean(auc_breakout), .groups = "drop") |>
+  arrange(desc(spearman)) |>
+  knitr::kable(digits = 3)
+```
+
+```{r}
+backtest |>
+  ggplot(aes(test_season, spearman, color = model, group = model)) +
+  geom_line() + geom_point() +
+  labs(title = "Spearman vs eventual composite, by test cohort",
+       x = "Test cohort", y = "Spearman ρ") +
+  theme_minimal()
+```
+
+## 2026-27 breakout watchlist (top of 719 ranked 2025-26 freshmen)
+
+```{r}
+watchlist |>
+  filter(rank <= 25) |>
+  select(rank, player, team, pos, g, mp, ts_pct, usg_pct, bpm, ws_per_40,
+         predicted_composite, tier) |>
+  knitr::kable(digits = 2)
+```
+
+```{r}
+ggplot(watchlist, aes(predicted_composite)) +
+  geom_histogram(bins = 40, fill = "steelblue") +
+  labs(title = "Predicted sophomore-impact distribution, 2025-26 FR class",
+       x = "Predicted composite", y = "Players") +
+  theme_minimal()
+```

@@ -1,0 +1,14 @@
+players18: 4374 rows, 60 blank Class
+players19: 4497 rows, 19 blank Class
+players20: 4513 rows, 2 blank Class
+players21: 4456 rows, 0 blank Class
+players22.csv: dropping 1 duplicate (player_id, Season) rows
+players22: 4802 rows, 4 blank Class
+players23: 4703 rows, 0 blank Class
+players24: 4671 rows, 4 blank Class
+players25: 4629 rows, 0 blank Class
+players26: 4690 rows, 2 blank Class
+FR rows: 10459; with next-season data: 7337 (70.2%)
+team-context unmatched: 0 / 10459 (0.0%)
+roster cross-check: matched 8368 / 10459 (80.0%); of matched, Freshman: 6090 (72.8%)
+wrote /Users/dwillis/code/wbb/ncaa/freshmen/panel.csv (10459 rows)
